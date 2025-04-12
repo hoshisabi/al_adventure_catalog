@@ -82,6 +82,38 @@
         "url": "https://www.dmsguild.com/product/491735/BMGDLVOTU04-Dragons-of-Heresy?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 6,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaign": "Dragonlance",
+        "code": "BMG-DL-VOTU-05",
+        "date_created": "20250116",
+        "full_title": "BMG-DL-VOTU-05 Dragons of Affliction",
+        "hours": 4,
+        "level_range": "5",
+        "product_id": "BMG-DL-VOTU-05-Dragons-of-Affliction",
+        "tiers": null,
+        "title": "BMG-DL-VOTU-05 Dragons of Affliction",
+        "url": "https://www.dmsguild.com/product/508960/BMGDLVOTU05-Dragons-of-Affliction?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaign": "Dragonlance",
+        "code": "BMG-DLEP-VOTU-02",
+        "date_created": "20250313",
+        "full_title": "BMG-DLEP-VOTU-02 Dragons of Future Past",
+        "hours": 4,
+        "level_range": "6",
+        "product_id": "BMG-DLEP-VOTU-02-Dragons-of-Future-Past",
+        "tiers": null,
+        "title": "BMG-DLEP-VOTU-02 Dragons of Future Past",
+        "url": "https://www.dmsguild.com/product/515257/BMGDLEPVOTU02-Dragons-of-Future-Past?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": null,
         "authors": [
             "Jeremey Arnold",

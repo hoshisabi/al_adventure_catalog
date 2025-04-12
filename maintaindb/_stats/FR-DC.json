@@ -65,6 +65,42 @@
         "url": "https://www.dmsguild.com/product/489397/Cathedral-of-Ice-FRDCFALL01?filters=0_0_100057_0_0_0_0_0"
     },
     {
+<<<<<<< Updated upstream
+=======
+        "apl": null,
+        "authors": [
+            "Tricia Monsod",
+            "Kai Monsod"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-TKM-RGT-01",
+        "date_created": "20241031",
+        "full_title": "Charming (FR-DC-TKM-RGT-01)",
+        "hours": 2,
+        "level_range": "1",
+        "product_id": "Charming-FR-DC-TKM-RGT-01",
+        "tiers": null,
+        "title": "Charming",
+        "url": "https://www.dmsguild.com/product/500685/Charming-FRDCTKMRGT01?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-THAY-01",
+        "date_created": "20250302",
+        "full_title": "Crazy Lich Thayans (FR-DC-THAY-01)",
+        "hours": 4,
+        "level_range": "5",
+        "product_id": "Crazy-Lich-Thayans-FR-DC-THAY-01",
+        "tiers": 2,
+        "title": "Crazy Lich Thayans",
+        "url": "https://www.dmsguild.com/product/514097/Crazy-Lich-Thayans-FRDCTHAY01?filters=45470_0_0_0_0_0"
+    },
+    {
+>>>>>>> Stashed changes
         "apl": 3,
         "authors": [
             "Brendon Watson"
@@ -258,6 +294,22 @@
         "url": "https://www.dmsguild.com/product/471198/FRDCAEG10-The-Ritual?filters=45470_0_0_0_0_0_0_0"
     },
     {
+        "apl": null,
+        "authors": [
+            "Alexander Klement"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-AMAK-01",
+        "date_created": "20241208",
+        "full_title": "FR-DC-AMAK-01 You better Watch Out",
+        "hours": null,
+        "level_range": null,
+        "product_id": "FR-DC-AMAK-01-You-better-Watch-Out",
+        "tiers": null,
+        "title": "You better Watch Out",
+        "url": "https://www.dmsguild.com/product/504942/FRDCAMAK01-You-better-Watch-Out?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": 8,
         "authors": [
             "Daniel Ellingsen"
@@ -370,6 +422,70 @@
         "url": "https://www.dmsguild.com/product/496886/FRDCBMK-Phandelver-and-the-Blood-Moon-Keep?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Bernhard Staneker"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-BTW-01",
+        "date_created": "20250126",
+        "full_title": "FR-DC-BTW-01 Fathers Conscience",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-BTW-01-Fathers-Conscience",
+        "tiers": 1,
+        "title": "Fathers Conscience",
+        "url": "https://www.dmsguild.com/product/510014/FRDCBTW01-Fathers-Conscience?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "Bernhard Staneker"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-BTW-02",
+        "date_created": "20250202",
+        "full_title": "FR-DC-BTW-02 Fathers Curse",
+        "hours": 4,
+        "level_range": "0",
+        "product_id": "FR-DC-BTW-02-Fathers-Curse",
+        "tiers": 1,
+        "title": "Fathers Curse",
+        "url": "https://www.dmsguild.com/product/510984/FRDCBTW02-Fathers-Curse?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "Bernhard Staneker"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-BTW-03",
+        "date_created": "20250209",
+        "full_title": "FR-DC-BTW-03 Fathers Mistakes",
+        "hours": 4,
+        "level_range": "0",
+        "product_id": "FR-DC-BTW-03-Fathers-Mistakes",
+        "tiers": 2,
+        "title": "Fathers Mistakes",
+        "url": "https://www.dmsguild.com/product/511728/FRDCBTW03-Fathers-Mistakes?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 6,
+        "authors": [
+            "Bernhard Staneker"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-BTW-04",
+        "date_created": "20250216",
+        "full_title": "FR-DC-BTW-04 Fathers Decision",
+        "hours": 4,
+        "level_range": "0",
+        "product_id": "FR-DC-BTW-04-Fathers-Decision",
+        "tiers": 2,
+        "title": "Fathers Decision",
+        "url": "https://www.dmsguild.com/product/512504/FRDCBTW04-Fathers-Decision?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": 2,
         "authors": [
             "Karianne Fog Heen"
@@ -464,6 +580,87 @@
         "tiers": 2,
         "title": "Hoard of the Death Dragon",
         "url": "https://www.dmsguild.com/product/489959/FRDCDOBU0201-Hoard-of-the-Death-Dragon?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Death 101010"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-ELEMENT-DEATH",
+        "date_created": "20250119",
+        "full_title": "FR-DC-ELEMENT-DEATH Everything Changed",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-ELEMENT-DEATH-Everything-Changed",
+        "tiers": 3,
+        "title": "Everything Changed",
+        "url": "https://www.dmsguild.com/product/509173/FRDCELEMENTDEATH-Everything-Changed?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Randall Harris"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-GARY-01-",
+        "date_created": "20250320",
+        "full_title": "FR-DC-GARY-01: Sand to Ash",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-GARY-01--Sand-to-Ash",
+        "tiers": 2,
+        "title": "Sand to Ash",
+        "url": "https://www.dmsguild.com/product/515929/FRDCGARY01-Sand-to-Ash?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Marcello De Velazquez"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-GARY-02-",
+        "date_created": "20250320",
+        "full_title": "FR-DC-GARY-02: Wind to Stone",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-GARY-02--Wind-to-Stone",
+        "tiers": 2,
+        "title": "Wind to Stone",
+        "url": "https://www.dmsguild.com/product/515932/FRDCGARY02-Wind-to-Stone?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Teddy Benson"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-GARY-03-",
+        "date_created": "20250320",
+        "full_title": "FR-DC-GARY-03: Blade to Branch",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-GARY-03--Blade-to-Branch",
+        "tiers": 2,
+        "title": "Blade to Branch",
+        "url": "https://www.dmsguild.com/product/515935/FRDCGARY03-Blade-to-Branch?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Marcello De Velazquez",
+            "Randall Harris"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-GARY-04-",
+        "date_created": "20250320",
+        "full_title": "FR-DC-GARY-04: Frost to Fire",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-GARY-04--Frost-to-Fire",
+        "tiers": 2,
+        "title": "Frost to Fire",
+        "url": "https://www.dmsguild.com/product/515936/FRDCGARY04-Frost-to-Fire?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -665,6 +862,75 @@
         "tiers": 3,
         "title": "- A Song of Closure",
         "url": "https://www.dmsguild.com/product/498884/FRDCLIGA08--A-Song-of-Closure?filters=45470_0_0_0_0_0"
+    },
+    {
+<<<<<<< Updated upstream
+=======
+        "apl": 13,
+        "authors": [
+            "CJ Buchanan",
+            "Liga dos Aventureiros"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-LIGA-09",
+        "date_created": "20241115",
+        "full_title": "FR-DC-LIGA-09 - A Chromatic Crescendo",
+        "hours": 4,
+        "level_range": "0",
+        "product_id": "FR-DC-LIGA-09---A-Chromatic-Crescendo",
+        "tiers": 3,
+        "title": "- A Chromatic Crescendo",
+        "url": "https://www.dmsguild.com/product/502484/FRDCLIGA09--A-Chromatic-Crescendo?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Spencer Navarra-Chew",
+            "Liga dos Aventureiros"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-LIGA-10",
+        "date_created": "20250203",
+        "full_title": "FR-DC-LIGA-10 - Tangled Threads of the Moor",
+        "hours": 4,
+        "level_range": "0",
+        "product_id": "FR-DC-LIGA-10---Tangled-Threads-of-the-Moor",
+        "tiers": 3,
+        "title": "- Tangled Threads of the Moor",
+        "url": "https://www.dmsguild.com/product/511187/FRDCLIGA10--Tangled-Threads-of-the-Moor?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "N. M. Brickle"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-NMB-HUNT-01",
+        "date_created": "20241110",
+        "full_title": "FR-DC-NMB-HUNT-01 Ice Water",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-NMB-HUNT-01-Ice-Water",
+        "tiers": 1,
+        "title": "Ice Water",
+        "url": "https://www.dmsguild.com/product/501781/FRDCNMBHUNT01-Ice-Water?filters=45470_0_0_0_0_0"
+    },
+    {
+>>>>>>> Stashed changes
+        "apl": null,
+        "authors": [
+            "N. M. Brickle"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-NMB-HUNT-01B",
+        "date_created": "20250126",
+        "full_title": "FR-DC-NMB-HUNT-01B Forces of Hail",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-NMB-HUNT-01B-Forces-of-Hail",
+        "tiers": 2,
+        "title": "Forces of Hail",
+        "url": "https://www.dmsguild.com/product/510067/FRDCNMBHUNT01B-Forces-of-Hail?filters=45470_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -960,6 +1226,102 @@
         "url": "https://www.dmsguild.com/product/493743/FRDCSAC07-Haunting-in-Gloomwood-Cemetery?filters=45470_0_0_0_0_0_0_0"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SAERLOON-01",
+        "date_created": "20250118",
+        "full_title": "FR-DC-SAERLOON-01 EYES ON THE PIES",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-SAERLOON-01-EYES-ON-THE-PIES",
+        "tiers": 1,
+        "title": "EYES ON THE PIES",
+        "url": "https://www.dmsguild.com/product/509140/FRDCSAERLOON01-EYES-ON-THE-PIES?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SAERLOON-02",
+        "date_created": "20250126",
+        "full_title": "FR-DC-Saerloon-02 Mincemeat",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-Saerloon-02-Mincemeat",
+        "tiers": 1,
+        "title": "FR-DC-Saerloon-02 Mincemeat",
+        "url": "https://www.dmsguild.com/product/510076/FRDCSaerloon02-Mincemeat?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SAERLOON-03",
+        "date_created": "20250215",
+        "full_title": "FR-DC-SAERLOON-03 CHEESE MARKET COLLAPSE",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-SAERLOON-03-CHEESE-MARKET-COLLAPSE",
+        "tiers": 1,
+        "title": "CHEESE MARKET COLLAPSE",
+        "url": "https://www.dmsguild.com/product/512487/FRDCSAERLOON03-CHEESE-MARKET-COLLAPSE?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SAERLOON-04",
+        "date_created": "20250313",
+        "full_title": "FR-DC-SAERLOON-04 ASTRINGENT NO MORE",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-SAERLOON-04-ASTRINGENT-NO-MORE",
+        "tiers": 1,
+        "title": "ASTRINGENT NO MORE",
+        "url": "https://www.dmsguild.com/product/515303/FRDCSAERLOON04-ASTRINGENT-NO-MORE?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SAERLOON-05",
+        "date_created": "20250406",
+        "full_title": "FR-DC-Saerloon-05 That\u2019s a lot of Flambe",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-Saerloon-05-Thats-a-lot-of-Flambe",
+        "tiers": 1,
+        "title": "FR-DC-Saerloon-05 That\u2019s a lot of Flambe",
+        "url": "https://www.dmsguild.com/product/517839/FRDCSaerloon05-Thats-a-lot-of-Flambe?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Greg Wright"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SSG-FAI-01-",
+        "date_created": "20250401",
+        "full_title": "FR-DC-SSG-FAI-01: The Secret in Sanctuary",
+        "hours": 3,
+        "level_range": "1",
+        "product_id": "FR-DC-SSG-FAI-01--The-Secret-in-Sanctuary",
+        "tiers": null,
+        "title": "The Secret in Sanctuary",
+        "url": "https://www.dmsguild.com/product/517244/FRDCSSGFAI01-The-Secret-in-Sanctuary?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": null,
         "authors": [
             "Strategicon AL",
@@ -994,6 +1356,125 @@
         "tiers": 2,
         "title": "Head in the Clouds",
         "url": "https://www.dmsguild.com/product/499515/FRDCSTRATDRAGON02-Head-in-the-Clouds?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Strategicon AL",
+            "Kevin Haw"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-01",
+        "date_created": "20250314",
+        "full_title": "FR-DC-STRAT-FIEND-01 The Trouble with Quasits",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "FR-DC-STRAT-FIEND-01-The-Trouble-with-Quasits",
+        "tiers": 1,
+        "title": "The Trouble with Quasits",
+        "url": "https://www.dmsguild.com/product/515378/FRDCSTRATFIEND01-The-Trouble-with-Quasits?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Strategicon AL",
+            "Brian Vilarino"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-02",
+        "date_created": "20250314",
+        "full_title": "FR-DC-STRAT-FIEND-02 Beyond A Shadow of Drought",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "FR-DC-STRAT-FIEND-02-Beyond-A-Shadow-of-Drought",
+        "tiers": 1,
+        "title": "Beyond A Shadow of Drought",
+        "url": "https://www.dmsguild.com/product/515383/FRDCSTRATFIEND02-Beyond-A-Shadow-of-Drought?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Strategicon AL",
+            "Dave Lockwood"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-03",
+        "date_created": "20250314",
+        "full_title": "FR-DC-STRAT-FIEND-03 The Narrow Path",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "FR-DC-STRAT-FIEND-03-The-Narrow-Path",
+        "tiers": 2,
+        "title": "The Narrow Path",
+        "url": "https://www.dmsguild.com/product/515381/FRDCSTRATFIEND03-The-Narrow-Path?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Strategicon AL",
+            "Mike Olson"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-04",
+        "date_created": "20250314",
+        "full_title": "FR-DC-STRAT-FIEND-04 A Devil in the Streets",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "FR-DC-STRAT-FIEND-04-A-Devil-in-the-Streets",
+        "tiers": 2,
+        "title": "A Devil in the Streets",
+        "url": "https://www.dmsguild.com/product/515385/FRDCSTRATFIEND04-A-Devil-in-the-Streets?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Strategicon AL",
+            "Alexis Paige"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-05",
+        "date_created": "20250314",
+        "full_title": "FR-DC-STRAT-FIEND-05 Those Who Walk Towards Goldenleaf",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "FR-DC-STRAT-FIEND-05-Those-Who-Walk-Towards-Goldenleaf",
+        "tiers": 2,
+        "title": "Those Who Walk Towards Goldenleaf",
+        "url": "https://www.dmsguild.com/product/515379/FRDCSTRATFIEND05-Those-Who-Walk-Towards-Goldenleaf?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Strategicon AL",
+            "Anealia Kortkamp"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-06",
+        "date_created": "20250314",
+        "full_title": "FR-DC-STRAT-FIEND-06 Cold Blooded Bandit",
+        "hours": 2,
+        "level_range": "202",
+        "product_id": "FR-DC-STRAT-FIEND-06-Cold-Blooded-Bandit",
+        "tiers": 3,
+        "title": "Cold Blooded Bandit",
+        "url": "https://www.dmsguild.com/product/515382/FRDCSTRATFIEND06-Cold-Blooded-Bandit?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Nguyen Le",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-STRAT-FIEND-07",
+        "date_created": "20250214",
+        "full_title": "FR-DC-STRAT-FIEND-07 Go There & Kill More Things",
+        "hours": 4,
+        "level_range": "0",
+        "product_id": "FR-DC-STRAT-FIEND-07-Go-There--Kill-More-Things",
+        "tiers": 3,
+        "title": "Go There & Kill More Things",
+        "url": "https://www.dmsguild.com/product/512338/FRDCSTRATFIEND07-Go-There--Kill-More-Things?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -1063,6 +1544,22 @@
         "url": "https://www.dmsguild.com/product/492266/FRDCUNITESHADOW01-To-Be-an-Apprentice?filters=0_0_100057_0_0_0_0_0"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Mitchell Tee"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-VMT-01",
+        "date_created": "20241218",
+        "full_title": "FR-DC-VMT-01 The Lord of the Reindeer",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "FR-DC-VMT-01-The-Lord-of-the-Reindeer",
+        "tiers": 2,
+        "title": "The Lord of the Reindeer",
+        "url": "https://www.dmsguild.com/product/506244/FRDCVMT01-The-Lord-of-the-Reindeer?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": 3,
         "authors": [
             "Mike Olson"
@@ -1113,6 +1610,154 @@
     {
         "apl": null,
         "authors": [
+            "Jay Africa"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG02-01",
+        "date_created": "20250211",
+        "full_title": "FR-DC-WCAG02-01 Mayhem in the Squallrider",
+        "hours": 2,
+        "level_range": "02",
+        "product_id": "FR-DC-WCAG02-01-Mayhem-in-the-Squallrider",
+        "tiers": 1,
+        "title": "Mayhem in the Squallrider",
+        "url": "https://www.dmsguild.com/product/511959/FRDCWCAG0201-Mayhem-in-the-Squallrider?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Mike Olson"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG02-02",
+        "date_created": "20250211",
+        "full_title": "FR-DC-WCAG02-02 Murder All the Way Down",
+        "hours": 2,
+        "level_range": "02",
+        "product_id": "FR-DC-WCAG02-02-Murder-All-the-Way-Down",
+        "tiers": 1,
+        "title": "Murder All the Way Down",
+        "url": "https://www.dmsguild.com/product/511963/FRDCWCAG0202-Murder-All-the-Way-Down?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Marc Kassouf"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG02-03",
+        "date_created": "20250211",
+        "full_title": "FR-DC-WCAG02-03 Fixing the Pearl Fissures",
+        "hours": 2,
+        "level_range": "02",
+        "product_id": "FR-DC-WCAG02-03-Fixing-the-Pearl-Fissures",
+        "tiers": 1,
+        "title": "Fixing the Pearl Fissures",
+        "url": "https://www.dmsguild.com/product/511964/FRDCWCAG0203-Fixing-the-Pearl-Fissures?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Roberto C. Rivera",
+            "Mike Olson"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG02-04",
+        "date_created": "20250211",
+        "full_title": "FR-DC-WCAG02-04 An Inside Job",
+        "hours": 2,
+        "level_range": "02",
+        "product_id": "FR-DC-WCAG02-04-An-Inside-Job",
+        "tiers": 1,
+        "title": "An Inside Job",
+        "url": "https://www.dmsguild.com/product/511966/FRDCWCAG0204-An-Inside-Job?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG02-05",
+        "date_created": "20250211",
+        "full_title": "FR-DC-WCAG02-05 Shake 'N' Bake",
+        "hours": 2,
+        "level_range": "02",
+        "product_id": "FR-DC-WCAG02-05-Shake-N-Bake",
+        "tiers": 2,
+        "title": "Shake 'N' Bake",
+        "url": "https://www.dmsguild.com/product/511968/FRDCWCAG0205-Shake-N-Bake?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Eric Johnson",
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG02-06",
+        "date_created": "20250211",
+        "full_title": "FR-DC-WCAG02-06 Whispers Beneath the Waves",
+        "hours": 2,
+        "level_range": "02",
+        "product_id": "FR-DC-WCAG02-06-Whispers-Beneath-the-Waves",
+        "tiers": 2,
+        "title": "Whispers Beneath the Waves",
+        "url": "https://www.dmsguild.com/product/511970/FRDCWCAG0206-Whispers-Beneath-the-Waves?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Mike Olson"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG03-02",
+        "date_created": "20250401",
+        "full_title": "FR-DC-WCAG03-02 The Backside of Water",
+        "hours": 2,
+        "level_range": "03",
+        "product_id": "FR-DC-WCAG03-02-The-Backside-of-Water",
+        "tiers": 1,
+        "title": "The Backside of Water",
+        "url": "https://www.dmsguild.com/product/516918/FRDCWCAG0302-The-Backside-of-Water?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "S. Nathan Depetris",
+            "Marc Kassouf"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WCAG03-03",
+        "date_created": "20250401",
+        "full_title": "FR-DC-WCAG03-03 Birds of Paradise",
+        "hours": 2,
+        "level_range": "03",
+        "product_id": "FR-DC-WCAG03-03-Birds-of-Paradise",
+        "tiers": 1,
+        "title": "Birds of Paradise",
+        "url": "https://www.dmsguild.com/product/516919/FRDCWCAG0303-Birds-of-Paradise?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Mike Olson",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-YLRA01-04",
+        "date_created": "20241112",
+        "full_title": "FR-DC-YLRA01-04 Down in Flames",
+        "hours": 4,
+        "level_range": "01",
+        "product_id": "FR-DC-YLRA01-04-Down-in-Flames",
+        "tiers": 2,
+        "title": "Down in Flames",
+        "url": "https://www.dmsguild.com/product/502129/FRDCYLRA0104-Down-in-Flames?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "R.P. Marsh"
         ],
         "campaign": "Forgotten Realms",
@@ -1141,6 +1786,38 @@
         "tiers": 1,
         "title": "Goblin's Gambit",
         "url": "https://www.dmsguild.com/product/459410/Goblins-Gambit-FRDCGOBLIN01?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Siobhan Hanlon"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-HAN-01-01",
+        "date_created": "20250306",
+        "full_title": "Harvest of the Withered Wilds (FR-DC-HAN-01-01)",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "Harvest-of-the-Withered-Wilds-FR-DC-HAN-01-01",
+        "tiers": 2,
+        "title": "Harvest of the Withered Wilds",
+        "url": "https://www.dmsguild.com/product/514594/Harvest-of-the-Withered-Wilds-FRDCHAN0101?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-THAY-02",
+        "date_created": "20250323",
+        "full_title": "How to Seduce a Thayan in Tendays (FR-DC-THAY-02)",
+        "hours": 4,
+        "level_range": "5",
+        "product_id": "How-to-Seduce-a-Thayan-in-Tendays-FR-DC-THAY-02",
+        "tiers": 2,
+        "title": "How to Seduce a Thayan in Tendays",
+        "url": "https://www.dmsguild.com/product/516348/How-to-Seduce-a-Thayan-in-Tendays-FRDCTHAY02?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 3,
@@ -1516,6 +2193,23 @@
     {
         "apl": 3,
         "authors": [
+            "Cameron Pearce",
+            "Steven Truong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-MELB-00-03",
+        "date_created": "20250114",
+        "full_title": "The Freezing of Starflow Fall (FR-DC-MELB-00-03)",
+        "hours": 2,
+        "level_range": null,
+        "product_id": "The-Freezing-of-Starflow-Fall-FR-DC-MELB-00-03",
+        "tiers": 1,
+        "title": "The Freezing of Starflow Fall",
+        "url": "https://www.dmsguild.com/product/508671/The-Freezing-of-Starflow-Fall-FRDCMELB0003?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "Tom Klein"
         ],
         "campaign": "Forgotten Realms",
@@ -1544,6 +2238,22 @@
         "tiers": 1,
         "title": "The March of the Manticore",
         "url": "https://www.dmsguild.com/product/471339/The-March-of-the-Manticore-FRDCGHG03?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Dagny Mol"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-TGT-03",
+        "date_created": "20241217",
+        "full_title": "The Show Must Go On (FR-DC-TGT-03)",
+        "hours": 2,
+        "level_range": null,
+        "product_id": "The-Show-Must-Go-On-FR-DC-TGT-03",
+        "tiers": 1,
+        "title": "The Show Must Go On",
+        "url": "https://www.dmsguild.com/product/505431/The-Show-Must-Go-On-FRDCTGT03?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 3,
@@ -1637,7 +2347,7 @@
         "date_created": "20241023",
         "full_title": "Witch, Please - It's a Carnival (FR-DC-DUNG-01) (5e)",
         "hours": 4,
-        "level_range": "5",
+        "level_range": "1-4",
         "product_id": "Witch-Please---Its-a-Carnival-FR-DC-DUNG-01-5e",
         "tiers": 1,
         "title": "Witch, Please - It's a Carnival  5e",

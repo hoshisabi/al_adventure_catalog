@@ -176,6 +176,22 @@
         "url": "https://www.dmsguild.com/product/499854/BMGMOONMD11-The-Curse-of-Pacts-and-Passion?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "BMG-MOON-MD-12",
+        "date_created": "20250116",
+        "full_title": "BMG-MOON-MD-12 Malevolent Reign",
+        "hours": 4,
+        "level_range": "11",
+        "product_id": "BMG-MOON-MD-12-Malevolent-Reign",
+        "tiers": null,
+        "title": "BMG-MOON-MD-12 Malevolent Reign",
+        "url": "https://www.dmsguild.com/product/508957/BMGMOONMD12-Malevolent-Reign?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": 8,
         "authors": [
             "D&D Adventurers League"
@@ -190,5 +206,21 @@
         "tiers": null,
         "title": "BMG-MOONEP-MD-01 The Occupation of Caer Caldwell",
         "url": "https://www.dmsguild.com/product/491740/BMGMOONEPMD01-The-Occupation-of-Caer-Caldwell?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "BMG-MOONEP-MD-02",
+        "date_created": "20250116",
+        "full_title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
+        "hours": 4,
+        "level_range": "11",
+        "product_id": "BMG-MOONEP-MD-02-The-Enchantment-of-Chaos",
+        "tiers": null,
+        "title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
+        "url": "https://www.dmsguild.com/product/508959/BMGMOONEPMD02-The-Enchantment-of-Chaos?filters=45470_0_0_0_0_0"
     }
 ]
