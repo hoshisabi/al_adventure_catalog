@@ -5,6 +5,22 @@
             "Steven Truong"
         ],
         "campaign": "Forgotten Realms",
+        "code": "PS-DC-CAKE-02",
+        "date_created": "20250315",
+        "full_title": "CAKE WARS II (PS-DC-CAKE-02)",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "CAKE-WARS-II-PS-DC-CAKE-02",
+        "tiers": 1,
+        "title": "CAKE WARS II",
+        "url": "https://www.dmsguild.com/product/515404/CAKE-WARS-II-PSDCCAKE02?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Forgotten Realms",
         "code": "PS-DC-CAKE-01",
         "date_created": "20240727",
         "full_title": "CAKE WARS (PS-DC-CAKE-01)",
@@ -14,6 +30,39 @@
         "tiers": 1,
         "title": "CAKE WARS",
         "url": "https://www.dmsguild.com/product/489416/CAKE-WARS-PSDCCAKE01?filters=45470_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lex Winter",
+            "Katriel Paige"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-04",
+        "date_created": "20250105",
+        "full_title": "Goddess, Interrupted (PS-DC-NOS-04)",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "Goddess-Interrupted-PS-DC-NOS-04",
+        "tiers": 4,
+        "title": "Goddess, Interrupted",
+        "url": "https://www.dmsguild.com/product/507765/Goddess-Interrupted-PSDCNOS04?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Brian Balagot"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-IC",
+        "date_created": "20250125",
+        "full_title": "Iron Cook (PS-DC-IC)",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "Iron-Cook-PS-DC-IC",
+        "tiers": 4,
+        "title": "Iron Cook PS-DC-IC",
+        "url": "https://www.dmsguild.com/product/509936/Iron-Cook-PSDCIC?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -30,6 +79,22 @@
         "tiers": 4,
         "title": "Its Always Boring in Automata",
         "url": "https://www.dmsguild.com/product/494242/Its-Always-Boring-in-Automata-PSDCNOS03?filters=45470_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Noah Grand"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-MECH-01",
+        "date_created": "20250303",
+        "full_title": "Melting Mechanus (PS-DC-MECH-01)",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "Melting-Mechanus-PS-DC-MECH-01",
+        "tiers": 4,
+        "title": "Melting Mechanus",
+        "url": "https://www.dmsguild.com/product/514256/Melting-Mechanus-PSDCMECH01?filters=45470_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -110,6 +175,22 @@
         "tiers": 2,
         "title": "Esse Est Percipi",
         "url": "https://www.dmsguild.com/product/487240/PSDCBINGO2-Esse-Est-Percipi?filters=45470_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DD-01",
+        "date_created": "20250224",
+        "full_title": "PS-DC-DD-01 Shadows on the Wall",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "PS-DC-DD-01-Shadows-on-the-Wall",
+        "tiers": 1,
+        "title": "Shadows on the Wall",
+        "url": "https://www.dmsguild.com/product/513396/PSDCDD01-Shadows-on-the-Wall?filters=45470_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -248,6 +329,23 @@
     {
         "apl": 18,
         "authors": [
+            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Liga dos Aventureiros"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-GLITCH-01",
+        "date_created": "20250217",
+        "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",
+        "hours": 4,
+        "level_range": "17",
+        "product_id": "PS-DC-GLITCH-01-Roots-Bloody-Roots",
+        "tiers": null,
+        "title": "Roots, Bloody Roots",
+        "url": "https://www.dmsguild.com/product/512667/PSDCGLITCH01-Roots-Bloody-Roots?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
             "Dev Alva",
             "Nguyen Le"
         ],
@@ -311,6 +409,57 @@
         "url": "https://www.dmsguild.com/product/490495/PSDCNBDD01-The-Greatest-Gameshow?filters=45470_0_0_0_0_0_0_0"
     },
     {
+<<<<<<< Updated upstream
+=======
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-S2-JWEI-01",
+        "date_created": "20250404",
+        "full_title": "PS-DC-PANDORA-S2-JWEI-01, Resurrection",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-S2-JWEI-01-Resurrection",
+        "tiers": 4,
+        "title": "Resurrection",
+        "url": "https://www.dmsguild.com/product/517671/PSDCPANDORAS2JWEI01-Resurrection?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jason Pesch"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PESCH",
+        "date_created": "20241031",
+        "full_title": "PS-DC-PESCH Vhaeraun's Wish",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "PS-DC-PESCH-Vhaerauns-Wish",
+        "tiers": 3,
+        "title": "Vhaeraun's Wish",
+        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH-Vhaerauns-Wish?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jason Pesch"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PESCH",
+        "date_created": "20241031",
+        "full_title": "PS-DC-PESCH",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "PS-DC-PESCH",
+        "tiers": 3,
+        "title": "",
+        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH?filters=45470_0_0_0_0_0"
+    },
+    {
+>>>>>>> Stashed changes
         "apl": null,
         "authors": [
             "Miguel Luis de Jesus"
@@ -421,6 +570,54 @@
         "tiers": 2,
         "title": "Behind Blue Eyes",
         "url": "https://www.dmsguild.com/product/494618/PSDCPKL10-Behind-Blue-Eyes?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-18",
+        "date_created": "20241229",
+        "full_title": "PS-DC-PKL-18 The Power and The Glory",
+        "hours": 2,
+        "level_range": "2",
+        "product_id": "PS-DC-PKL-18-The-Power-and-The-Glory",
+        "tiers": 4,
+        "title": "The Power and The Glory",
+        "url": "https://www.dmsguild.com/product/507101/PSDCPKL18-The-Power-and-The-Glory?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-19",
+        "date_created": "20241231",
+        "full_title": "PS-DC-PKL-19 Kingdom Come Undone",
+        "hours": 2,
+        "level_range": "2",
+        "product_id": "PS-DC-PKL-19-Kingdom-Come-Undone",
+        "tiers": 4,
+        "title": "Kingdom Come Undone",
+        "url": "https://www.dmsguild.com/product/507261/PSDCPKL19-Kingdom-Come-Undone?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-20",
+        "date_created": "20250101",
+        "full_title": "PS-DC-PKL-20 Jawbreakers and Jailbreakers",
+        "hours": 2,
+        "level_range": "2",
+        "product_id": "PS-DC-PKL-20-Jawbreakers-and-Jailbreakers",
+        "tiers": 4,
+        "title": "Jawbreakers and Jailbreakers",
+        "url": "https://www.dmsguild.com/product/507343/PSDCPKL20-Jawbreakers-and-Jailbreakers?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -549,6 +746,22 @@
     {
         "apl": 18,
         "authors": [
+            "Aileen Adriane Cerrudo"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-TST-01",
+        "date_created": "20241203",
+        "full_title": "PS-DC-TST-01 The Eye Behind the Mask",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "PS-DC-TST-01-The-Eye-Behind-the-Mask",
+        "tiers": 4,
+        "title": "The Eye Behind the Mask",
+        "url": "https://www.dmsguild.com/product/504348/PSDCTST01-The-Eye-Behind-the-Mask?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
             "T.Y. Montiflor"
         ],
         "campaign": "Forgotten Realms",
@@ -578,6 +791,22 @@
         "tiers": 4,
         "title": "Snakes on a Planescape",
         "url": "https://www.dmsguild.com/product/478979/Snakes-on-a-Planescape-PSDCCEG02?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Ron Angelo Gatinga"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-HRS-00",
+        "date_created": "20250223",
+        "full_title": "Stolen Hours (PS-DC-HRS-00)",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "Stolen-Hours-PS-DC-HRS-00",
+        "tiers": 1,
+        "title": "Stolen Hours",
+        "url": "https://www.dmsguild.com/product/513314/Stolen-Hours-PSDCHRS00?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 3,

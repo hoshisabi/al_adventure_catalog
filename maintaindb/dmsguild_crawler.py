@@ -18,7 +18,7 @@ from enum import Enum
 
 
 logger = logging.getLogger()
-logger.level = logging.INFO
+logger.level = logging.DEBUG
 stream_handler = logging.StreamHandler(sys.stdout)
 logger.addHandler(stream_handler)
 
