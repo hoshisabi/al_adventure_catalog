@@ -33,7 +33,7 @@ all_adventures = []
 
 def __add_to_map(data, aggregated_by_dc_code):
     if 'code' not in data or data['code'] is None:
-        logger.info(f">> {data['full_title']} missing DC code")
+        logger.info(f">> {data.get('full_title', 'UNKNOWN TITLE')} missing DC code")
         return
 
     dc_code = None
@@ -43,7 +43,7 @@ def __add_to_map(data, aggregated_by_dc_code):
             break
 
     if dc_code:
-        aggregated_by_dc_code[dc_code].append(data)
+        aggregated_by_dc_code[dc_code.upper()].append(data)
 
 def aggregate():
     aggregated_by_dc_code = defaultdict(list)
@@ -53,8 +53,12 @@ def aggregate():
     logger.info(f'Reading all files at: {input_path}')
     input_full_path = f"{str(input_path)}/*.json"
     for file in glob.glob(input_full_path):
-        with open(os.path.join(input_path, file), 'r') as _input:
-            data = json.load(_input)
+        with open(file, 'r') as _input:
+            try:
+                data = json.load(_input)
+            except json.JSONDecodeError as e:
+                logger.error(f"Failed to load JSON from {file}: {e}")
+                continue
             __add_to_map(data, aggregated_by_dc_code)
             all_adventures.append(data)
     
