@@ -25,8 +25,8 @@
         "date_created": "20200511",
         "full_title": "A Whisper In Your Mind",
         "hours": 4,
-        "level_range": null,
-        "product_id": null,
+        "level_range": "5-10",
+        "product_id": "EB-SM-WHISPER-A-Whisper-In-Your-Mind",
         "tiers": 2,
         "title": "A Whisper In Your Mind",
         "url": "https://www.dmsguild.com/product/313252/A-Whisper-In-Your-Mind?filters=1000043_0_0_0_0_0_0_0"
@@ -180,7 +180,7 @@
         "url": "https://www.dmsguild.com/product/310224/Finding-a-Home?filters=1000043_0_0_0_0_0_0_0"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Gregory Hallenbeck"
         ],
@@ -189,8 +189,8 @@
         "date_created": "20200318",
         "full_title": "Ghost Town",
         "hours": 4,
-        "level_range": null,
-        "product_id": null,
+        "level_range": "5-10",
+        "product_id": "EB-SM-GHOST-Ghost-Town",
         "tiers": 2,
         "title": "Ghost Town",
         "url": "https://www.dmsguild.com/product/306912/Ghost-Town?filters=1000043_0_0_0_0_0_0_0"
@@ -214,7 +214,7 @@
         "url": "https://www.dmsguild.com/product/308079/Gulgo13--An-Eberron-Salvage-Mission-for-Oracle-of-War"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Scott Moore"
         ],
@@ -222,9 +222,9 @@
         "code": "EB-SM-HAPPY",
         "date_created": "20210305",
         "full_title": "Happy-Go-Lucky",
-        "hours": null,
-        "level_range": "1",
-        "product_id": null,
+        "hours": 3,
+        "level_range": "11-16",
+        "product_id": "EB-SM-HAPPY-Happy-Go-Lucky",
         "tiers": 3,
         "title": "Happy-Go-Lucky",
         "url": "https://www.dmsguild.com/product/349212/HappyGoLucky?filters=1000043_0_0_0_0_0_0_0"
@@ -448,7 +448,7 @@
         "full_title": "The Curious Incident of the Dog in the Night Land",
         "hours": 3,
         "level_range": "3",
-        "product_id": null,
+        "product_id": "EB-SM-CURIOUS-The-Curious-Incident-of-the-Dog-in-the-Night-Land",
         "tiers": 2,
         "title": "The Curious Incident of the Dog in the Night Land",
         "url": "https://www.dmsguild.com/product/355475/The-Curious-Incident-of-the-Dog-in-the-Night-Land?filters=1000043_0_0_0_0_0_0_0"

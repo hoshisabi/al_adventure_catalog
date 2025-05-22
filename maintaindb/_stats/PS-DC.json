@@ -9,7 +9,7 @@
         "date_created": "20250315",
         "full_title": "CAKE WARS II (PS-DC-CAKE-02)",
         "hours": 4,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "CAKE-WARS-II-PS-DC-CAKE-02",
         "tiers": 1,
         "title": "CAKE WARS II",
@@ -42,7 +42,7 @@
         "date_created": "20250105",
         "full_title": "Goddess, Interrupted (PS-DC-NOS-04)",
         "hours": 4,
-        "level_range": null,
+        "level_range": "17-20",
         "product_id": "Goddess-Interrupted-PS-DC-NOS-04",
         "tiers": 4,
         "title": "Goddess, Interrupted",
@@ -311,6 +311,22 @@
         "url": "https://www.dmsguild.com/product/496426/PSDCELEMENTDEATH02-And-Then-They-Attacked?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 18,
+        "authors": [
+            "Death 101010"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-ELEMENT-DEATH-03",
+        "date_created": "20250422",
+        "full_title": "PS-DC-ELEMENT-DEATH-03 Saturated Seas",
+        "hours": 4,
+        "level_range": null,
+        "product_id": "PS-DC-ELEMENT-DEATH-03-Saturated-Seas",
+        "tiers": 4,
+        "title": "Saturated Seas",
+        "url": "https://www.dmsguild.com/product/513470/PSDCELEMENTDEATH03-Saturated-Seas?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": 3,
         "authors": [
             "Joshua Nelson"
@@ -339,7 +355,7 @@
         "hours": 4,
         "level_range": "17",
         "product_id": "PS-DC-GLITCH-01-Roots-Bloody-Roots",
-        "tiers": null,
+        "tiers": 4,
         "title": "Roots, Bloody Roots",
         "url": "https://www.dmsguild.com/product/512667/PSDCGLITCH01-Roots-Bloody-Roots?filters=45470_0_0_0_0_0"
     },
@@ -409,8 +425,54 @@
         "url": "https://www.dmsguild.com/product/490495/PSDCNBDD01-The-Greatest-Gameshow?filters=45470_0_0_0_0_0_0_0"
     },
     {
-<<<<<<< Updated upstream
-=======
+        "apl": null,
+        "authors": [
+            "Robbie Pleasant"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NBDD-02",
+        "date_created": "20250505",
+        "full_title": "PS-DC-NBDD-02 Ghost in the Hell",
+        "hours": 4,
+        "level_range": "202",
+        "product_id": "PS-DC-NBDD-02-Ghost-in-the-Hell",
+        "tiers": 3,
+        "title": "Ghost in the Hell",
+        "url": "https://www.dmsguild.com/product/521331/PSDCNBDD02-Ghost-in-the-Hell?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-JWEI-S2-01",
+        "date_created": "20250404",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-01, Resurrection",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-JWEI-S2-01-Resurrection",
+        "tiers": 4,
+        "title": "Resurrection",
+        "url": "https://www.dmsguild.com/product/517671/PSDCPANDORAJWEIS201-Resurrection?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-JWEI-S2-02",
+        "date_created": "20250501",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-02, Her Origin",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-JWEI-S2-02-Her-Origin",
+        "tiers": 4,
+        "title": "Her Origin",
+        "url": "https://www.dmsguild.com/product/520749/PSDCPANDORAJWEIS202-Her-Origin?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": 18,
         "authors": [
             "JWei\u4f1f"
@@ -436,30 +498,13 @@
         "date_created": "20241031",
         "full_title": "PS-DC-PESCH Vhaeraun's Wish",
         "hours": 4,
-        "level_range": null,
+        "level_range": "11-16",
         "product_id": "PS-DC-PESCH-Vhaerauns-Wish",
         "tiers": 3,
         "title": "Vhaeraun's Wish",
         "url": "https://www.dmsguild.com/product/500715/PSDCPESCH-Vhaerauns-Wish?filters=45470_0_0_0_0_0"
     },
     {
-        "apl": 13,
-        "authors": [
-            "Jason Pesch"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "PS-DC-PESCH",
-        "date_created": "20241031",
-        "full_title": "PS-DC-PESCH",
-        "hours": 4,
-        "level_range": null,
-        "product_id": "PS-DC-PESCH",
-        "tiers": 3,
-        "title": "",
-        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH?filters=45470_0_0_0_0_0"
-    },
-    {
->>>>>>> Stashed changes
         "apl": null,
         "authors": [
             "Miguel Luis de Jesus"
@@ -618,6 +663,22 @@
         "tiers": 4,
         "title": "Jawbreakers and Jailbreakers",
         "url": "https://www.dmsguild.com/product/507343/PSDCPKL20-Jawbreakers-and-Jailbreakers?filters=45470_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "GM Jace"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-SB-BISH01",
+        "date_created": "20250505",
+        "full_title": "PS-DC-SB-BISH01 - The Mill On Turley Hill",
+        "hours": 4,
+        "level_range": "3",
+        "product_id": "PS-DC-SB-BISH01---The-Mill-On-Turley-Hill",
+        "tiers": 3,
+        "title": "- The Mill On Turley Hill",
+        "url": "https://www.dmsguild.com/product/520780/PSDCSBBISH01--The-Mill-On-Turley-Hill?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -802,7 +863,7 @@
         "date_created": "20250223",
         "full_title": "Stolen Hours (PS-DC-HRS-00)",
         "hours": 4,
-        "level_range": "1",
+        "level_range": "1-4",
         "product_id": "Stolen-Hours-PS-DC-HRS-00",
         "tiers": 1,
         "title": "Stolen Hours",

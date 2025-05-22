@@ -34,6 +34,23 @@
         "url": "https://www.dmsguild.com/product/495850/DLDCLIGA02--Wickedness-over-Dargaard?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Liga dos Aventureiros"
+        ],
+        "campaign": "Dragonlance",
+        "code": "DL-DC-LIGA03",
+        "date_created": "20241031",
+        "full_title": "DL-DC-LIGA03 - Firstwal under Siege",
+        "hours": 4,
+        "level_range": "5",
+        "product_id": "DL-DC-LIGA03-Firstwal-under-Siege",
+        "tiers": 1,
+        "title": "Firstwal under Siege",
+        "url": "https://www.dmsguild.com/product/500778/DLDCLIGA03--Firstwal-under-Siege?filters=45470_0_0_0_0_0"
+    },
+    {
         "apl": null,
         "authors": [
             "Marcello De Velazquez"
@@ -64,6 +81,22 @@
         "tiers": 3,
         "title": "Split or Fuse",
         "url": "https://www.dmsguild.com/product/473696/DLDCSF01-Split-or-Fuse?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 12,
+        "authors": [
+            "George Sanders"
+        ],
+        "campaign": "Dragonlance",
+        "code": "DL-DC-SF-02",
+        "date_created": "20250518",
+        "full_title": "DL-DC-SF-02 Wulfgar's Champion",
+        "hours": 4,
+        "level_range": "1",
+        "product_id": "DL-DC-SF-02-Wulfgars-Champion",
+        "tiers": 3,
+        "title": "Wulfgar's Champion",
+        "url": "https://www.dmsguild.com/product/522732/DLDCSF02-Wulfgars-Champion?filters=45470_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -112,6 +145,22 @@
         "tiers": 1,
         "title": "Knight Fall",
         "url": "https://www.dmsguild.com/product/445912/Knight-Fall-DLDCSDCC03?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Dragonlance",
+        "code": "DL-DC-CLASSIC-01",
+        "date_created": "20250422",
+        "full_title": "Tavern Rats (DL-DC-CLASSIC-01)",
+        "hours": 2,
+        "level_range": null,
+        "product_id": "Tavern-Rats-DL-DC-CLASSIC-01",
+        "tiers": 1,
+        "title": "Tavern Rats",
+        "url": "https://www.dmsguild.com/product/519557/Tavern-Rats-DLDCCLASSIC01?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 2,
