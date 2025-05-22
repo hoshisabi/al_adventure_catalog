@@ -174,7 +174,7 @@
         "date_created": "20250210",
         "full_title": "RV-DC-HH-01 Inheritance",
         "hours": 4,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "RV-DC-HH-01-Inheritance",
         "tiers": 1,
         "title": "Inheritance",
@@ -243,5 +243,21 @@
         "tiers": null,
         "title": "On That Fateful Day",
         "url": "https://www.dmsguild.com/product/434117/RVDCPHP131301-On-That-Fateful-Day?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Ravenloft",
+        "code": "RV-DC-CLASSIC-01",
+        "date_created": "20250422",
+        "full_title": "Tavern Rats (RV-DC-CLASSIC-01)",
+        "hours": 2,
+        "level_range": null,
+        "product_id": "Tavern-Rats-RV-DC-CLASSIC-01",
+        "tiers": 1,
+        "title": "Tavern Rats",
+        "url": "https://www.dmsguild.com/product/519560/Tavern-Rats-RVDCCLASSIC01?filters=45470_0_0_0_0_0"
     }
 ]
