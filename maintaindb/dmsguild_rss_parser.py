@@ -5,6 +5,7 @@ import re
 from word2number import w2n
 import datetime
 import json
+import os
 
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
@@ -54,7 +55,7 @@ DDAL_CAMPAIGN = {
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -67,6 +68,7 @@ class DungeonCraft:
         self.level_range = level_range
         self.url = url
         self.campaign = campaign
+        self.is_adventure = is_adventure
 
     def __get_short_title(self, title):
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
@@ -91,6 +93,7 @@ class DungeonCraft:
             level_range=self.level_range,
             url=self.url,
             campaign=self.campaign,
+            is_adventure=self.is_adventure
         )
         return result
 
@@ -121,7 +124,7 @@ def __get_dc_code_and_campaign(product_title):
     content = str(product_title).upper().split()
     for text in content:
         text = text.replace(',', '').replace(
-            '(', '').replace(')', '').replace("'".replace("\"", ""), '').replace(':', '-')
+            '(', '').replace(')', '').replace("'", '').replace(':', '-')
         text = text.strip()
         if text:
             for code in DC_CAMPAIGNS:
@@ -132,8 +135,16 @@ def __get_dc_code_and_campaign(product_title):
                     return (text, DDAL_CAMPAIGN.get(code))
     return None
 
-def parse_dmsguild_rss(url):
+def parse_dmsguild_rss(rss_type, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_0"):
     try:
+        base_url = "https://www.dmsguild.com/"
+        if rss_type == "newest":
+            url = f"{base_url}rss.php?affiliate_id={affiliate_id}&filters={filters}"
+        elif rss_type == "bestsellers":
+            url = f"{base_url}rss_bestsellers.php?affiliate_id={affiliate_id}&filters={filters}"
+        else:
+            raise ValueError("Invalid rss_type. Must be 'newest' or 'bestsellers'.")
+
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
         response = requests.get(url, headers=headers)
         response.raise_for_status()
@@ -159,6 +170,19 @@ def parse_dmsguild_rss(url):
 
             soup = BeautifulSoup(description_html, 'html.parser')
             description_text = soup.get_text()
+
+            # Filtering logic
+            lower_full_title = full_title.lower()
+            lower_description_text = description_text.lower()
+
+            is_adventure = True
+            if "bundle" in lower_full_title or \
+               "digital map pack" in lower_full_title or \
+               "roll20" in lower_full_title or \
+               "bundle" in lower_description_text or \
+               "digital map pack" in lower_description_text or \
+               "roll20" in lower_description_text:
+                is_adventure = False
 
             hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*Hour", description_text)
             hours = __str_to_int(hours)
@@ -201,7 +225,7 @@ def parse_dmsguild_rss(url):
             # Authors are not available from RSS feed
             authors = [] 
 
-            dc_product = DungeonCraft(product_id, full_title, authors, code, date_created, hours, tier, apl, level_range, product_url, campaign)
+            dc_product = DungeonCraft(product_id, full_title, authors, code, date_created, hours, tier, apl, level_range, product_url, campaign, is_adventure)
             dungeon_craft_products.append(dc_product)
             
         return dungeon_craft_products
@@ -213,13 +237,31 @@ def parse_dmsguild_rss(url):
         print(f"Error parsing XML from {url}: {e}")
         return []
 
+import argparse
+
 if __name__ == "__main__":
-    rss_feed_url = "https://www.dmsguild.com/rss.php?filters=45470_0_0_0_0_0_0_0_0&src=fid45470&affiliate_id=171040"
-    products = parse_dmsguild_rss(rss_feed_url)
-    
-    print(f"Found {len(products)} products.")
-    if products:
-        print("\nDetails of the first 5 products:")
-        for i, product in enumerate(products[:5]):
-            print(f"\n--- Product {i+1} ---")
-            print(str(product))
+    parser = argparse.ArgumentParser(description="Fetch DMsGuild RSS feed and save product data as JSON.")
+    parser.add_argument("-f", "--force", action="store_true", help="Force overwrite of existing JSON files.")
+    args = parser.parse_args()
+
+    output_dir = "F:/Users/decha/Documents/Projects/al_adventure_catalog/maintaindb/_dc/"
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Fetch newest products
+    print("Fetching newest products...")
+    newest_products = parse_dmsguild_rss("newest")
+    print(f"Found {len(newest_products)} newest products.")
+    for product in newest_products:
+        filename = re.sub(r'[^a-zA-Z0-9_.-]', '-', product.full_title) + ".json"
+        file_path = os.path.join(output_dir, filename)
+        
+        if not args.force and os.path.exists(file_path):
+            print(f"Skipping {filename}, already exists.")
+            continue
+            
+        try:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(product.to_json(), f, indent=4, sort_keys=True)
+            print(f"Saved {filename}")
+        except IOError as e:
+            print(f"Error saving {filename}: {e}")
