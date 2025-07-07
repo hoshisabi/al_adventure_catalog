@@ -255,10 +255,10 @@ if __name__ == "__main__":
     parser.add_argument("-h", "-?", "--help", action="help", help="Show this help message and exit.")
     parser.add_argument("-f", "--force", action="store_true", help="Force overwrite of existing JSON files.")
     parser.add_argument("--url", type=str, default="https://www.dmsguild.com/rss.php?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0", help="The full RSS feed URL to parse.")
+    parser.add_argument("-o", "--output-dir", type=str, default="_dc", help="The directory to save the JSON files to.")
     args = parser.parse_args()
 
-    output_dir = "F:/Users/decha/Documents/Projects/al_adventure_catalog/maintaindb/_dc/"
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(args.output_dir, exist_ok=True)
 
     # Fetch products from the specified URL
     print(f"Fetching products from {args.url}...")
@@ -266,7 +266,7 @@ if __name__ == "__main__":
     print(f"Found {len(products)} products.")
     for product in products:
         filename = sanitize_filename(product.full_title) + ".json"
-        file_path = os.path.join(output_dir, filename)
+        file_path = os.path.join(args.output_dir, filename)
         
         if not args.force and os.path.exists(file_path):
             print(f"Skipping {filename}, already exists.")
