@@ -6,6 +6,8 @@ from word2number import w2n
 import datetime
 import json
 import os
+import unicodedata
+
 
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
@@ -52,6 +54,21 @@ DDAL_CAMPAIGN = {
     'DDAL-ELW': ['Eberron'],
     'EB': ['Eberron'],
 }
+
+def sanitize_filename(filename):
+    """
+    Normalizes and sanitizes a string to be a valid filename.
+    """
+    # Normalize unicode characters
+    normalized_filename = unicodedata.normalize('NFKD', filename).encode('ascii', 'ignore').decode('ascii')
+    # Replace non-alphanumeric characters with a dash
+    sanitized_filename = re.sub(r'[^a-zA-Z0-9_.-]', '-', normalized_filename)
+    # Replace multiple dashes with a single dash
+    sanitized_filename = re.sub(r'-+', '-', sanitized_filename)
+    # Remove leading and trailing dashes
+    sanitized_filename = sanitized_filename.strip('-')
+    return sanitized_filename
+
 
 class DungeonCraft:
 
@@ -135,15 +152,8 @@ def __get_dc_code_and_campaign(product_title):
                     return (text, DDAL_CAMPAIGN.get(code))
     return None
 
-def parse_dmsguild_rss(rss_type, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_0"):
+def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_0"):
     try:
-        base_url = "https://www.dmsguild.com/"
-        if rss_type == "newest":
-            url = f"{base_url}rss.php?affiliate_id={affiliate_id}&filters={filters}"
-        elif rss_type == "bestsellers":
-            url = f"{base_url}rss_bestsellers.php?affiliate_id={affiliate_id}&filters={filters}"
-        else:
-            raise ValueError("Invalid rss_type. Must be 'newest' or 'bestsellers'.")
 
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
         response = requests.get(url, headers=headers)
@@ -237,22 +247,25 @@ def parse_dmsguild_rss(rss_type, affiliate_id="171040", filters="45470_0_0_0_0_0
         print(f"Error parsing XML from {url}: {e}")
         return []
 
+
 import argparse
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Fetch DMsGuild RSS feed and save product data as JSON.")
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument("-h", "-?", "--help", action="help", help="Show this help message and exit.")
     parser.add_argument("-f", "--force", action="store_true", help="Force overwrite of existing JSON files.")
+    parser.add_argument("--url", type=str, default="https://www.dmsguild.com/rss.php?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0", help="The full RSS feed URL to parse.")
     args = parser.parse_args()
 
     output_dir = "F:/Users/decha/Documents/Projects/al_adventure_catalog/maintaindb/_dc/"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Fetch newest products
-    print("Fetching newest products...")
-    newest_products = parse_dmsguild_rss("newest")
-    print(f"Found {len(newest_products)} newest products.")
-    for product in newest_products:
-        filename = re.sub(r'[^a-zA-Z0-9_.-]', '-', product.full_title) + ".json"
+    # Fetch products from the specified URL
+    print(f"Fetching products from {args.url}...")
+    products = parse_dmsguild_rss(args.url)
+    print(f"Found {len(products)} products.")
+    for product in products:
+        filename = sanitize_filename(product.full_title) + ".json"
         file_path = os.path.join(output_dir, filename)
         
         if not args.force and os.path.exists(file_path):
