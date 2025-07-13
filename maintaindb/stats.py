@@ -16,7 +16,7 @@ import glob
 import datetime
 from collections import defaultdict
 
-from dmsguild_rss_parser import DC_CAMPAIGNS, DungeonCraft
+from adventure import DC_CAMPAIGNS, DungeonCraft
 from enum import Enum
 import glob
 
