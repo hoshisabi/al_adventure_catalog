@@ -154,5 +154,5 @@ function displayResults() {
     document.getElementById('total-results').textContent = filteredAdventures.length;
 
     // Scroll to top of page
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo(0, 0);
 }
