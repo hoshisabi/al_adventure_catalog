@@ -15,8 +15,7 @@ import json
 import glob
 from collections import defaultdict
 
-from dmsguild_webpage import url_2_DC
-from dmsguild_webpage import DC_CAMPAIGNS
+from adventure import DC_CAMPAIGNS
 from enum import Enum
 import glob
 

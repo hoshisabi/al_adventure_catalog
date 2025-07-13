@@ -1,17 +1,8 @@
-
-try:
-    from BeautifulSoup import BeautifulSoup
-except ImportError:
-    from bs4 import BeautifulSoup
-import logging
 import datetime
-import re
 import json
+import re
+import unicodedata
 from word2number import w2n
-import sys
-
-
-logger = logging.getLogger()
 
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
@@ -59,9 +50,24 @@ DDAL_CAMPAIGN = {
     'EB': ['Eberron'],
 }
 
+def sanitize_filename(filename):
+    """
+    Normalizes and sanitizes a string to be a valid filename.
+    """
+    # Normalize unicode characters
+    normalized_filename = unicodedata.normalize('NFKD', filename).encode('ascii', 'ignore').decode('ascii')
+    # Replace non-alphanumeric characters with a dash
+    sanitized_filename = re.sub(r'[^a-zA-Z0-9_.-]', '-', normalized_filename)
+    # Replace multiple dashes with a single dash
+    sanitized_filename = re.sub(r'-+', '-', sanitized_filename)
+    # Remove leading and trailing dashes
+    sanitized_filename = sanitized_filename.strip('-')
+    return sanitized_filename
+
+
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure=None, price=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -74,6 +80,28 @@ class DungeonCraft:
         self.level_range = level_range
         self.url = url
         self.campaign = campaign
+        self.is_adventure = is_adventure
+        self.price = price
+
+    def is_tier(self, tier):
+        if self.tiers is not None:
+            return self.tiers == tier
+        return False
+
+    def is_tier_unknown(self):
+        if self.tiers is None:
+            return True
+        return False
+
+    def is_hour(self, hour):
+        if self.hours is not None:
+            return self.hours == hour
+        return False
+
+    def is_hour_unknown(self):
+        if self.hours is None:
+            return True
+        return False
 
     def __get_short_title(self, title):
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
@@ -98,9 +126,20 @@ class DungeonCraft:
             level_range=self.level_range,
             url=self.url,
             campaign=self.campaign,
+            is_adventure=self.is_adventure,
+            price=self.price
         )
         return result
 
+    def convert_date_to_readable_str(self):
+        if self.date_created is not None:
+            # Ensure date_created is a datetime object before formatting
+            if isinstance(self.date_created, datetime.date):
+                date_obj = self.date_created
+            else:
+                date_obj = datetime.datetime.strptime(self.date_created, "%Y%m%d").date()
+            return date_obj.strftime("%Y, %b")
+        return 'Unknown'
 
 def get_patt_first_matching_group(regex, text):
     if matches := re.search(regex, text, re.MULTILINE | re.IGNORECASE):
@@ -109,8 +148,23 @@ def get_patt_first_matching_group(regex, text):
                 return group
     return None
 
+def __str_to_int(value):
+    if not value:
+        return None
 
-def __get_dc_code_and_campaign(product_title):
+    try:
+        number = int(value)
+        return number
+    except ValueError:
+        try:
+            number = w2n.word_to_num(value)
+            return number
+        except Exception:
+            return None
+    except Exception:
+        return None
+
+def get_dc_code_and_campaign(product_title):
     content = str(product_title).upper().split()
     for text in content:
         text = text.replace(',', '').replace(
@@ -124,86 +178,3 @@ def __get_dc_code_and_campaign(product_title):
                 if text.startswith(code):
                     return (text, DDAL_CAMPAIGN.get(code))
     return None
-
-
-
-def __str_to_int(value):
-    if not value:
-        return None
-
-    try:
-        number = int(value)
-        return number
-    except ValueError:
-        number = w2n.word_to_num(value)
-        return number
-    except Exception:
-        return None
-
-
-def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
-    module_name = None
-    hours = None
-    tier = None
-    apl = None
-    level_range = None
-    code = None
-    campaign = None
-
-    product_title = parsed_html.body.find(
-        "div", {"class": "grid_12 product-title"})
-    children = product_title.findChildren(
-        "span", {"itemprop": "name"}, recursive=True)
-    for child in children:
-        module_name = child.text
-        break
-
-    authors = []
-    product_from = parsed_html.body.find(
-        "div", {"class": "grid_12 product-from"})
-    children = product_from.findChildren("a", recursive=True)
-    for child in children:
-        current_author = child.text
-        authors.append(current_author)
-
-    date_created = None
-    children = parsed_html.body.find_all(
-        "div", {"class": "widget-information-item-content"})
-    key = 'This title was added to our catalog on '
-    for child in children:
-        if key in child.text:
-            date_str = child.text.replace(key, '').replace('.', '')
-            date_created = datetime.datetime.strptime(
-                date_str.strip(), "%B %d, %Y").date()
-            break
-
-    product_content = parsed_html.body.find(
-        "div", {"class": "alpha omega prod-content"})
-    text = product_content.text
-
-    hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*Hour", text)
-    hours = __str_to_int(hours)
-    tier = get_patt_first_matching_group(r"Tier ?([1-4])", text)
-    tier = __str_to_int(tier)
-    apl = get_patt_first_matching_group(r"APL ?(\d+)", text)
-    apl = __str_to_int(apl)
-    level_range = get_patt_first_matching_group(r"(?i)(?:levels ?)?(\d+)(?:nd|th)?(?:[ -]|through|to)*(\d+)(?:nd|th)?[- ](?:level)?", text)
-    
-
-    code = None
-    campaign = None
-    if module_name:
-        result = __get_dc_code_and_campaign(module_name)
-        if result is not None: (code, campaign) = result
-
-    return {
-        "module_name": module_name,
-        "authors": authors,
-        "code": code,
-        "date_created": date_created,
-        "hours": hours,
-        "tiers": tier,
-        "apl": apl,
-        "level_range": level_range,
-        "campaign": campaign
-    }
