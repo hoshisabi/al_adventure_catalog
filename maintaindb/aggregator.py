@@ -59,8 +59,13 @@ def aggregate():
             except json.JSONDecodeError as e:
                 logger.error(f"Failed to load JSON from {file}: {e}")
                 continue
-            __add_to_map(data, aggregated_by_dc_code)
-            all_adventures.append(data)
+
+            is_adventure = data.get('is_adventure', True)
+            if is_adventure:
+                __add_to_map(data, aggregated_by_dc_code)
+                all_adventures.append(data)
+            else:
+                logger.info(f"Skipping '{data.get('full_title', 'UNKNOWN TITLE')}' as it is not an adventure.")
     
     logger.info("------")
     logger.info(f'Aggregated stats:')

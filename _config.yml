@@ -1,8 +1,18 @@
 title: "AL DC Catalog"
 remote_theme: poole/hyde
 
+baseurl: /al_adventure_catalog
 # url: "https://MaxShalom.github.io"
 
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+
+# Exclude unnecessary files and directories from being copied to _site
+exclude:
+  - maintaindb/
+  - public/
+  - venv/
+  - Pipfile
+  - Pipfile.lock
+  - README.md

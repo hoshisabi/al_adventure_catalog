@@ -34,6 +34,9 @@ class CrawlerStatus(Enum):
     ERROR = 3
 
 
+DMSGUILD_BASE_URL = "https://www.dmsguild.com/browse.php?filters=0_0_100057_0_0_0_0_0"
+DMSGUILD_REFERER_URL = "https://www.dmsguild.com/"
+
 class DmsGuildProduct:
     def __init__(self, product_id, url, alt=None) -> None:
         self.product_id = product_id
@@ -56,7 +59,7 @@ def product_2_dungeon_craft_worker(dmsGuildProduct: DmsGuildProduct):
 
         if not os.path.exists(json_output_path):
             logger.info(
-                f'Fetching {dmsGuildProduct.product_id} ... in {sleep_time}s')
+                f'Fetching {dmsGuildProduct.product_id} ({dmsGuildProduct.url}) ... in {sleep_time}s')
             time.sleep(sleep_time)
             dc_data = url_2_DC(dmsGuildProduct.url,
                                product_id=dmsGuildProduct.product_id, product_alt=dmsGuildProduct.alt)
@@ -100,12 +103,16 @@ def get_product_alt(node):
     return None
 
 
-def crawl_dc_listings(base_url = "https://www.dmsguild.com/browse.php?filters=0_0_100057_0_0_0_0_0", page_number=1, max_results=None):
+def crawl_dc_listings(base_url: str, referer_url: str, page_number=1, max_results=None):
 
     product_list = set()
     url = f'{base_url}&page={page_number}&sort=4a'
-
-    parsed_html = BeautifulSoup(requests.get(url).text, features="html.parser")
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0',
+        'Referer': referer_url
+    }
+    parsed_html = BeautifulSoup(requests.get(url, headers=headers).text, features="html.parser")
 
     all_product_links = parsed_html.body.find_all(
         "a", {"class": "product_listing_link"})
@@ -149,19 +156,23 @@ def crawl_dc_listings(base_url = "https://www.dmsguild.com/browse.php?filters=0_
 
 
 if __name__ == '__main__':
-    base_url = "https://www.dmsguild.com/browse.php?filters=45470_0_0_0_0_0"
+    base_url = DMSGUILD_BASE_URL
+    referer_url = DMSGUILD_REFERER_URL
     max_range = 5
     if (len(sys.argv) > 1):
         base_url = sys.argv[1]
         if (len(sys.argv) > 2):
-          max_range = int(sys.argv[2])
+          referer_url = sys.argv[2]
+          if (len(sys.argv) > 3):
+            max_range = int(sys.argv[3])
      
     print("Crawling base_url: " + base_url)
+    print("Crawling referer_url: " + referer_url)
     print(f"Crawling {max_range} pages")
 
     for i in range(1, max_range + 1):
         sleep_time = random.choice(THROTTLING_SLEEP_TIME_LIST)
-        crawl_dc_listings(base_url = base_url, page_number=i)
+        crawl_dc_listings(base_url = base_url, referer_url = referer_url, page_number=i)
         logger.info(
                 f'----------')
         logger.info(

@@ -3,11 +3,14 @@
     "authors": [
         "M.T. Black"
     ],
-    "campaign": ["Eberron"],
+    "campaign": [
+        "Eberron"
+    ],
     "code": "EB-SM-CANNITH",
     "date_created": "20200420",
     "full_title": "The Cannith Schematica",
     "hours": 3,
+    "is_adventure": true,
     "level_range": "3",
     "product_id": "The-Cannith-Schematica",
     "tiers": 1,
