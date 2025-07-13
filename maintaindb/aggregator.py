@@ -27,7 +27,7 @@ logger.addHandler(stream_handler)
 
 root = str(pathlib.Path(__file__).parent.absolute())
 input_path = os.path.join(root, '_dc')
-output_path = os.path.join(root, '_stats')
+output_path = os.path.join(root, '..', 'assets', 'data')
 
 all_adventures = []
 
@@ -62,6 +62,8 @@ def aggregate():
 
             is_adventure = data.get('is_adventure', True)
             if is_adventure:
+                if "url" in data and data["url"] and "affiliate_id" not in data["url"]:
+                    data["url"] += "&affiliate_id=171040"
                 __add_to_map(data, aggregated_by_dc_code)
                 all_adventures.append(data)
             else:

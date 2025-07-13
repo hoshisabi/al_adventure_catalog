@@ -1,0 +1,1348 @@
+[
+    {
+        "apl": 17,
+        "authors": [
+            "JD McComb"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-CAR-01",
+        "date_created": "20250531",
+        "full_title": "13 Hours in Sigil (PS-DC-CAR-01)",
+        "hours": 3,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "13-Hours-in-Sigil-PS-DC-CAR-01",
+        "tiers": 4,
+        "title": "13 Hours in Sigil",
+        "url": "https://www.dmsguild.com/product/524613/13-Hours-in-Sigil-PSDCCAR01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Franz Bedonia"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DDD",
+        "date_created": "20240621",
+        "full_title": "A Devious Deva's Deduction (PS-DC-DDD)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "A-Devious-Devas-Deduction-PS-DC-DDD",
+        "tiers": 2,
+        "title": "A Devious Deva's Deduction",
+        "url": "https://www.dmsguild.com/product/485383/A-Devious-Devas-Deduction-PSDCDDD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lex Winter"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-02",
+        "date_created": "20240317",
+        "full_title": "Broken Yet Unbowed (PS-DC-NOS-02)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Broken-Yet-Unbowed-PS-DC-NOS-02",
+        "tiers": 4,
+        "title": "Broken Yet Unbowed",
+        "url": "https://www.dmsguild.com/product/474512/Broken-Yet-Unbowed-PSDCNOS02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-CAKE-02",
+        "date_created": "20250315",
+        "full_title": "CAKE WARS II (PS-DC-CAKE-02)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "product_id": "CAKE-WARS-II-PS-DC-CAKE-02",
+        "tiers": 1,
+        "title": "CAKE WARS II",
+        "url": "https://www.dmsguild.com/product/515404/CAKE-WARS-II-PSDCCAKE02?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-CAKE-01",
+        "date_created": "20240727",
+        "full_title": "CAKE WARS (PS-DC-CAKE-01)",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "CAKE-WARS-PS-DC-CAKE-01",
+        "tiers": 1,
+        "title": "CAKE WARS",
+        "url": "https://www.dmsguild.com/product/489416/CAKE-WARS-PSDCCAKE01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Stefan Tomaschitz"
+        ],
+        "campaign": [
+            "Ravenloft",
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-NOS-02",
+        "date_created": "20240301",
+        "full_title": "Der Meister der Puppen",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Der-Meister-der-Puppen",
+        "tiers": null,
+        "title": "Der Meister der Puppen",
+        "url": "https://www.dmsguild.com/product/472637/Der-Meister-der-Puppen?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Jeremy Cheong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-RAVENGARD-",
+        "date_created": "20240430",
+        "full_title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Duke-Ravengard-Gets-Sent-to-Hell-Again-PS-DC-RAVENGARD-V",
+        "tiers": 4,
+        "title": "Duke Ravengard Gets Sent to Hell Again",
+        "url": "https://www.dmsguild.com/product/479242/Duke-Ravengard-Gets-Sent-to-Hell-Again-PSDCRAVENGARDV?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-GMM-03",
+        "date_created": "20250616",
+        "full_title": "Frantic Frontier Fiasco (PS-DC-GMM-03)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "526539",
+        "tiers": 2,
+        "title": "Frantic Frontier Fiasco",
+        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-GMM-03",
+        "date_created": "20250616",
+        "full_title": "Frantic Frontier Fiasco (PS-DC-GMM-03)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "526539",
+        "tiers": 2,
+        "title": "Frantic Frontier Fiasco",
+        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lex Winter"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-01",
+        "date_created": "20240211",
+        "full_title": "Githzerai Glitch (PS-DC-NOS-01)",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Githzerai-Glitch-PS-DC-NOS-01",
+        "tiers": 4,
+        "title": "Githzerai Glitch",
+        "url": "https://www.dmsguild.com/product/470680/Githzerai-Glitch-PSDCNOS01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lex Winter",
+            "Katriel Paige"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-04",
+        "date_created": "20250105",
+        "full_title": "Goddess, Interrupted (PS-DC-NOS-04)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "product_id": "Goddess-Interrupted-PS-DC-NOS-04",
+        "tiers": 4,
+        "title": "Goddess, Interrupted",
+        "url": "https://www.dmsguild.com/product/507765/Goddess-Interrupted-PSDCNOS04?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Brian Balagot"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-IC",
+        "date_created": "20250125",
+        "full_title": "Iron Cook (PS-DC-IC)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "Iron-Cook-PS-DC-IC",
+        "tiers": 4,
+        "title": "Iron Cook PS-DC-IC",
+        "url": "https://www.dmsguild.com/product/509936/Iron-Cook-PSDCIC?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lex Winter"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-03",
+        "date_created": "20240906",
+        "full_title": "Its Always Boring in Automata (PS-DC-NOS-03)",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "product_id": "Its-Always-Boring-in-Automata-PS-DC-NOS-03",
+        "tiers": 4,
+        "title": "Its Always Boring in Automata",
+        "url": "https://www.dmsguild.com/product/494242/Its-Always-Boring-in-Automata-PSDCNOS03?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Noah Grand"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-MECH-01",
+        "date_created": "20250303",
+        "full_title": "Melting Mechanus (PS-DC-MECH-01)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "202",
+        "product_id": "Melting-Mechanus-PS-DC-MECH-01",
+        "tiers": 4,
+        "title": "Melting Mechanus",
+        "url": "https://www.dmsguild.com/product/514256/Melting-Mechanus-PSDCMECH01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Nick Stefanski"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-MORD-01",
+        "date_created": "20240909",
+        "full_title": "Mordenkainen's Memory Palace (PS-DC-MORD-01)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Mordenkainens-Memory-Palace-PS-DC-MORD-01",
+        "tiers": 2,
+        "title": "Mordenkainen's Memory Palace",
+        "url": "https://www.dmsguild.com/product/494546/Mordenkainens-Memory-Palace-PSDCMORD01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Hunter Sinclair"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-HYS-03",
+        "date_created": "20231212",
+        "full_title": "No Time to Die PS-DC-HYS-03 (5e)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "No-Time-to-Die-PS-DC-HYS-03-5e",
+        "tiers": 4,
+        "title": "No Time to Die  5e",
+        "url": "https://www.dmsguild.com/product/463637/No-Time-to-Die-PSDCHYS03-5e?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Jonathan Bennett"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-HNL-01",
+        "date_created": "20231216",
+        "full_title": "Nowhere Fast (PS-DC-HNL-01)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Nowhere-Fast-PS-DC-HNL-01",
+        "tiers": 1,
+        "title": "Nowhere Fast",
+        "url": "https://www.dmsguild.com/product/464022/Nowhere-Fast-PSDCHNL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Richard Gejji"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-GMM-02",
+        "date_created": "20250521",
+        "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "Pazuzus-Askew-Kazoo-PS-DC-GMM-02",
+        "tiers": null,
+        "title": "Pazuzu's Askew Kazoo",
+        "url": "https://www.dmsguild.com/product/523232/Pazuzus-Askew-Kazoo-PSDCGMM02?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-AUG-01",
+        "date_created": "20231212",
+        "full_title": "PS-DC-AUG-01 Celestia Has Fallen",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-AUG-01-Celestia-Has-Fallen",
+        "tiers": 4,
+        "title": "Celestia Has Fallen",
+        "url": "https://www.dmsguild.com/product/463611/PSDCAUG01-Celestia-Has-Fallen?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-AUG-02",
+        "date_created": "20240531",
+        "full_title": "PS-DC-AUG-02 The Dark Sun",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-AUG-02-The-Dark-Sun",
+        "tiers": 4,
+        "title": "The Dark Sun",
+        "url": "https://www.dmsguild.com/product/483044/PSDCAUG02-The-Dark-Sun?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Sean Ware"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-BINGO-1",
+        "date_created": "20240522",
+        "full_title": "PS-DC-BINGO-1 Lorem Ipsum",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-BINGO-1-Lorem-Ipsum",
+        "tiers": 2,
+        "title": "Lorem Ipsum",
+        "url": "https://www.dmsguild.com/product/482067/PSDCBINGO1-Lorem-Ipsum?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Sean Ware"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-BINGO-2",
+        "date_created": "20240708",
+        "full_title": "PS-DC-BINGO-2 Esse Est Percipi",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-BINGO-2-Esse-Est-Percipi",
+        "tiers": 2,
+        "title": "Esse Est Percipi",
+        "url": "https://www.dmsguild.com/product/487240/PSDCBINGO2-Esse-Est-Percipi?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DD-01",
+        "date_created": "20250224",
+        "full_title": "PS-DC-DD-01 Shadows on the Wall",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "PS-DC-DD-01-Shadows-on-the-Wall",
+        "tiers": 1,
+        "title": "Shadows on the Wall",
+        "url": "https://www.dmsguild.com/product/513396/PSDCDD01-Shadows-on-the-Wall?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "David Sklenicka",
+            "Davestar Gaming"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DRAGON24-01",
+        "date_created": "20240827",
+        "full_title": "PS-DC-DRAGON24-01 At the Edge of No Tomorrows, Chapter One of the Broken Ring Saga",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-DRAGON24-01-At-the-Edge-of-No-Tomorrows-Chapter-One-of-the-Broken-Ring-Saga",
+        "tiers": null,
+        "title": "At the Edge of No Tomorrows, Chapter One of the Broken Ring Saga",
+        "url": "https://www.dmsguild.com/product/492995/PSDCDRAGON2401-At-the-Edge-of-No-Tomorrows-Chapter-One-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "David Sklenicka",
+            "Davestar Gaming"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DRAGON24-02",
+        "date_created": "20240827",
+        "full_title": "PS-DC-DRAGON24-02 The Merchant of Ruin, Chapter Two of the Broken Ring Saga",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-DRAGON24-02-The-Merchant-of-Ruin-Chapter-Two-of-the-Broken-Ring-Saga",
+        "tiers": null,
+        "title": "The Merchant of Ruin, Chapter Two of the Broken Ring Saga",
+        "url": "https://www.dmsguild.com/product/492997/PSDCDRAGON2402-The-Merchant-of-Ruin-Chapter-Two-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "David Sklenicka",
+            "Davestar Gaming"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DRAGON24-03",
+        "date_created": "20240827",
+        "full_title": "PS-DC-DRAGON24-03 The Birdcage, Chapter Three of the Broken Ring Saga",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-DRAGON24-03-The-Birdcage-Chapter-Three-of-the-Broken-Ring-Saga",
+        "tiers": null,
+        "title": "The Birdcage, Chapter Three of the Broken Ring Saga",
+        "url": "https://www.dmsguild.com/product/493000/PSDCDRAGON2403-The-Birdcage-Chapter-Three-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Denise \u201cCelticdenefew\u201d Atwood",
+            "David Sklenicka",
+            "Davestar Gaming"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DRAGON24-04",
+        "date_created": "20240827",
+        "full_title": "PS-DC-DRAGON24-04 The Gallery of Souls, Chapter Four of the Broken Ring Saga",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-DRAGON24-04-The-Gallery-of-Souls-Chapter-Four-of-the-Broken-Ring-Saga",
+        "tiers": null,
+        "title": "The Gallery of Souls, Chapter Four of the Broken Ring Saga",
+        "url": "https://www.dmsguild.com/product/493002/PSDCDRAGON2404-The-Gallery-of-Souls-Chapter-Four-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "David Sklenicka",
+            "Davestar Gaming"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DRAGON24-05",
+        "date_created": "20240827",
+        "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-DRAGON24-05-Echoes-of-Futures-End-Chapter-Five-of-the-Broken-Ring-Saga",
+        "tiers": null,
+        "title": "Echoes of Future's End, Chapter Five of the Broken Ring Saga",
+        "url": "https://www.dmsguild.com/product/493008/PSDCDRAGON2405-Echoes-of-Futures-End-Chapter-Five-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Death 101010"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-ELEMENT-DEATH-01",
+        "date_created": "20240725",
+        "full_title": "PS-DC-ELEMENT-DEATH-01 Rocky Road",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-ELEMENT-DEATH-01-Rocky-Road",
+        "tiers": 4,
+        "title": "Rocky Road",
+        "url": "https://www.dmsguild.com/product/488844/PSDCELEMENTDEATH01-Rocky-Road?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Death 101010"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-ELEMENT-DEATH-02",
+        "date_created": "20240924",
+        "full_title": "PS-DC-ELEMENT-DEATH-02 And Then They Attacked",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-ELEMENT-DEATH-02-And-Then-They-Attacked",
+        "tiers": 4,
+        "title": "And Then They Attacked",
+        "url": "https://www.dmsguild.com/product/496426/PSDCELEMENTDEATH02-And-Then-They-Attacked?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Death 101010"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-ELEMENT-DEATH-03",
+        "date_created": "20250422",
+        "full_title": "PS-DC-ELEMENT-DEATH-03 Saturated Seas",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-ELEMENT-DEATH-03-Saturated-Seas",
+        "tiers": 4,
+        "title": "Saturated Seas",
+        "url": "https://www.dmsguild.com/product/513470/PSDCELEMENTDEATH03-Saturated-Seas?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Joshua Nelson"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-FOT-01",
+        "date_created": "20240930",
+        "full_title": "PS-DC-FOT-01 When Faunel Attacks: Riverwood Under Siege",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-FOT-01-When-Faunel-Attacks--Riverwood-Under-Siege",
+        "tiers": 1,
+        "title": "When Faunel Attacks Riverwood Under Siege",
+        "url": "https://www.dmsguild.com/product/497173/PSDCFOT01-When-Faunel-Attacks-Riverwood-Under-Siege?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Liga dos Aventureiros"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-GLITCH-01",
+        "date_created": "20250217",
+        "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17",
+        "product_id": "PS-DC-GLITCH-01-Roots-Bloody-Roots",
+        "tiers": 4,
+        "title": "Roots, Bloody Roots",
+        "url": "https://www.dmsguild.com/product/512667/PSDCGLITCH01-Roots-Bloody-Roots?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Dev Alva",
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-MAR-01",
+        "date_created": "20240712",
+        "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-MAR-01-Death-Taxes--Maruts",
+        "tiers": 4,
+        "title": "Death, Taxes, & Maruts",
+        "url": "https://www.dmsguild.com/product/487680/PSDCMAR01-Death-Taxes--Maruts?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-MAR-02",
+        "date_created": "20240712",
+        "full_title": "PS-DC-MAR-02 Planes, Trains, & Automatons",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-MAR-02-Planes-Trains--Automatons",
+        "tiers": 4,
+        "title": "Planes, Trains, & Automatons",
+        "url": "https://www.dmsguild.com/product/487681/PSDCMAR02-Planes-Trains--Automatons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Mike Arrow"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-MIKE-01",
+        "date_created": "20240810",
+        "full_title": "PS-DC-MIKE-01 The Clash for the Multiversal Championship",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-MIKE-01-The-Clash-for-the-Multiversal-Championship",
+        "tiers": 4,
+        "title": "The Clash for the Multiversal Championship",
+        "url": "https://www.dmsguild.com/product/491179/PSDCMIKE01-The-Clash-for-the-Multiversal-Championship?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Robbie Pleasant"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NBDD-01",
+        "date_created": "20240804",
+        "full_title": "PS-DC-NBDD-01 The Greatest Gameshow",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-NBDD-01-The-Greatest-Gameshow",
+        "tiers": 3,
+        "title": "The Greatest Gameshow",
+        "url": "https://www.dmsguild.com/product/490495/PSDCNBDD01-The-Greatest-Gameshow?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robbie Pleasant"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NBDD-02",
+        "date_created": "20250505",
+        "full_title": "PS-DC-NBDD-02 Ghost in the Hell",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "202",
+        "product_id": "PS-DC-NBDD-02-Ghost-in-the-Hell",
+        "tiers": 3,
+        "title": "Ghost in the Hell",
+        "url": "https://www.dmsguild.com/product/521331/PSDCNBDD02-Ghost-in-the-Hell?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-JWEI-S2-01",
+        "date_created": "20250404",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-01, Resurrection",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-JWEI-S2-01-Resurrection",
+        "tiers": 4,
+        "title": "Resurrection",
+        "url": "https://www.dmsguild.com/product/517671/PSDCPANDORAJWEIS201-Resurrection?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-JWEI-S2-02",
+        "date_created": "20250501",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-02, Her Origin",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-JWEI-S2-02-Her-Origin",
+        "tiers": 4,
+        "title": "Her Origin",
+        "url": "https://www.dmsguild.com/product/520749/PSDCPANDORAJWEIS202-Her-Origin?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-JWEI-S2-03",
+        "date_created": "20250529",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-03, Elder Eldritch's Nest",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-JWEI-S2-03-Elder-Eldritchs-Nest",
+        "tiers": 4,
+        "title": "Elder Eldritch's Nest",
+        "url": "https://www.dmsguild.com/product/524390/PSDCPANDORAJWEIS203-Elder-Eldritchs-Nest?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-JWEI-S2-05",
+        "date_created": "20250530",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-05, Fall the Eternal Night, Despair",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-JWEI-S2-05-Fall-the-Eternal-Night-Despair",
+        "tiers": 4,
+        "title": "Fall the Eternal Night, Despair",
+        "url": "https://www.dmsguild.com/product/524425/PSDCPANDORAJWEIS205-Fall-the-Eternal-Night-Despair?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "JWei\u4f1f"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PANDORA-S2-JWEI-01",
+        "date_created": "20250404",
+        "full_title": "PS-DC-PANDORA-S2-JWEI-01, Resurrection",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "PS-DC-PANDORA-S2-JWEI-01-Resurrection",
+        "tiers": 4,
+        "title": "Resurrection",
+        "url": "https://www.dmsguild.com/product/517671/PSDCPANDORAS2JWEI01-Resurrection?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jason Pesch"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PESCH",
+        "date_created": "20241031",
+        "full_title": "PS-DC-PESCH Vhaeraun's Wish",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "11-16",
+        "product_id": "PS-DC-PESCH-Vhaerauns-Wish",
+        "tiers": 3,
+        "title": "Vhaeraun's Wish",
+        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH-Vhaerauns-Wish?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Miguel Luis de Jesus"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PHP-CKA2-",
+        "date_created": "20240730",
+        "full_title": "PS-DC-PHP-CKA2: Qubicorubikonomicon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "11-16",
+        "product_id": "PS-DC-PHP-CKA2--Qubicorubikonomicon",
+        "tiers": 3,
+        "title": "Qubicorubikonomicon",
+        "url": "https://www.dmsguild.com/product/489877/PSDCPHPCKA2-Qubicorubikonomicon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-05",
+        "date_created": "20240910",
+        "full_title": "PS-DC-PKL-05 Mass Hysteria",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-PKL-05-Mass-Hysteria",
+        "tiers": 2,
+        "title": "Mass Hysteria",
+        "url": "https://www.dmsguild.com/product/494610/PSDCPKL05-Mass-Hysteria?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-06",
+        "date_created": "20240910",
+        "full_title": "PS-DC-PKL-06 It's A Toss-Up",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-PKL-06-Its-A-Toss-Up",
+        "tiers": 2,
+        "title": "It's A Toss-Up",
+        "url": "https://www.dmsguild.com/product/494613/PSDCPKL06-Its-A-TossUp?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-07",
+        "date_created": "20240910",
+        "full_title": "PS-DC-PKL-07 Back to the Abyss",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-PKL-07-Back-to-the-Abyss",
+        "tiers": 2,
+        "title": "Back to the Abyss",
+        "url": "https://www.dmsguild.com/product/494614/PSDCPKL07-Back-to-the-Abyss?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-08",
+        "date_created": "20240910",
+        "full_title": "PS-DC-PKL-08 Darker Shade of Pale",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-PKL-08-Darker-Shade-of-Pale",
+        "tiers": 2,
+        "title": "Darker Shade of Pale",
+        "url": "https://www.dmsguild.com/product/494615/PSDCPKL08-Darker-Shade-of-Pale?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-09",
+        "date_created": "20240910",
+        "full_title": "PS-DC-PKL-09 'Someday'",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-PKL-09-Someday",
+        "tiers": 2,
+        "title": "'Someday'",
+        "url": "https://www.dmsguild.com/product/494617/PSDCPKL09-Someday?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-10",
+        "date_created": "20240910",
+        "full_title": "PS-DC-PKL-10 Behind Blue Eyes",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-PKL-10-Behind-Blue-Eyes",
+        "tiers": 2,
+        "title": "Behind Blue Eyes",
+        "url": "https://www.dmsguild.com/product/494618/PSDCPKL10-Behind-Blue-Eyes?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-18",
+        "date_created": "20241229",
+        "full_title": "PS-DC-PKL-18 The Power and The Glory",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": "2",
+        "product_id": "PS-DC-PKL-18-The-Power-and-The-Glory",
+        "tiers": 4,
+        "title": "The Power and The Glory",
+        "url": "https://www.dmsguild.com/product/507101/PSDCPKL18-The-Power-and-The-Glory?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-19",
+        "date_created": "20241231",
+        "full_title": "PS-DC-PKL-19 Kingdom Come Undone",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": "2",
+        "product_id": "PS-DC-PKL-19-Kingdom-Come-Undone",
+        "tiers": 4,
+        "title": "Kingdom Come Undone",
+        "url": "https://www.dmsguild.com/product/507261/PSDCPKL19-Kingdom-Come-Undone?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andrew Geesy"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-PKL-20",
+        "date_created": "20250101",
+        "full_title": "PS-DC-PKL-20 Jawbreakers and Jailbreakers",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": "2",
+        "product_id": "PS-DC-PKL-20-Jawbreakers-and-Jailbreakers",
+        "tiers": 4,
+        "title": "Jawbreakers and Jailbreakers",
+        "url": "https://www.dmsguild.com/product/507343/PSDCPKL20-Jawbreakers-and-Jailbreakers?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Briarwall Press",
+            "Hunter Sinclair"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-POP-01",
+        "date_created": "20240301",
+        "full_title": "PS-DC-POP-01 Pillars of Peril",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-POP-01-Pillars-of-Peril",
+        "tiers": 4,
+        "title": "Pillars of Peril",
+        "url": "https://www.dmsguild.com/product/472724/PSDCPOP01-Pillars-of-Peril?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "GM Jace"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-SB-BISH01",
+        "date_created": "20250505",
+        "full_title": "PS-DC-SB-BISH01 - The Mill On Turley Hill",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "3",
+        "product_id": "PS-DC-SB-BISH01---The-Mill-On-Turley-Hill",
+        "tiers": 3,
+        "title": "- The Mill On Turley Hill",
+        "url": "https://www.dmsguild.com/product/520780/PSDCSBBISH01--The-Mill-On-Turley-Hill?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Nguyen Le",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-DRAGON-03",
+        "date_created": "20240830",
+        "full_title": "PS-DC-STRAT-DRAGON-03 This One is for the Liches",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-DRAGON-03-This-One-is-for-the-Liches",
+        "tiers": 3,
+        "title": "This One is for the Liches",
+        "url": "https://www.dmsguild.com/product/493225/PSDCSTRATDRAGON03-This-One-is-for-the-Liches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Strategicon AL",
+            "Alexis Paige",
+            "James Clark"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-DRAGON-04",
+        "date_created": "20241014",
+        "full_title": "PS-DC-STRAT-DRAGON-04 My Shattered Heart",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "202",
+        "product_id": "PS-DC-STRAT-DRAGON-04-My-Shattered-Heart",
+        "tiers": 4,
+        "title": "My Shattered Heart",
+        "url": "https://www.dmsguild.com/product/498886/PSDCSTRATDRAGON04-My-Shattered-Heart?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Strategicon AL",
+            "Alexis Paige",
+            "James Clark"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-DRAGON-05",
+        "date_created": "20241014",
+        "full_title": "PS-DC-STRAT-DRAGON-05 Your Shattered Bond",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "202",
+        "product_id": "PS-DC-STRAT-DRAGON-05-Your-Shattered-Bond",
+        "tiers": 4,
+        "title": "Your Shattered Bond",
+        "url": "https://www.dmsguild.com/product/498893/PSDCSTRATDRAGON05-Your-Shattered-Bond?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Strategicon AL",
+            "Alexis Paige",
+            "James Clark"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-DRAGON-06",
+        "date_created": "20241014",
+        "full_title": "PS-DC-STRAT-DRAGON-06 Our Shattered Ambitions",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "202",
+        "product_id": "PS-DC-STRAT-DRAGON-06-Our-Shattered-Ambitions",
+        "tiers": 4,
+        "title": "Our Shattered Ambitions",
+        "url": "https://www.dmsguild.com/product/498894/PSDCSTRATDRAGON06-Our-Shattered-Ambitions?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Nguyen Le",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-DRAGON-07",
+        "date_created": "20240830",
+        "full_title": "PS-DC-STRAT-DRAGON-07 The War of Dragons",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-DRAGON-07-The-War-of-Dragons",
+        "tiers": 4,
+        "title": "The War of Dragons",
+        "url": "https://www.dmsguild.com/product/493270/PSDCSTRATDRAGON07-The-War-of-Dragons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-05",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526751",
+        "tiers": 4,
+        "title": "War of the Roses",
+        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-06",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "product_id": "526753",
+        "tiers": 4,
+        "title": "Dungeon & A Dragon",
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "James Clark",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-06",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "202",
+        "product_id": "PS-DC-STRAT-TALES-06-Dungeon--A-Dragon",
+        "tiers": 4,
+        "title": "Dungeon & A Dragon",
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-06",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526753",
+        "tiers": 4,
+        "title": "Dungeon & A Dragon",
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-02",
+        "date_created": "20240524",
+        "full_title": "PS-DC-STRAT-UNDEAD-02 Liches Just Want to Have Fun",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-UNDEAD-02-Liches-Just-Want-to-Have-Fun",
+        "tiers": 3,
+        "title": "Liches Just Want to Have Fun",
+        "url": "https://www.dmsguild.com/product/482256/PSDCSTRATUNDEAD02-Liches-Just-Want-to-Have-Fun?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Strategicon AL",
+            "Noah Grand",
+            "Bryn Keeling"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-03",
+        "date_created": "20240627",
+        "full_title": "PS-DC-STRAT-UNDEAD-03 Winner Winner Chicken Dinner",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-UNDEAD-03-Winner-Winner-Chicken-Dinner",
+        "tiers": 4,
+        "title": "Winner Winner Chicken Dinner",
+        "url": "https://www.dmsguild.com/product/486032/PSDCSTRATUNDEAD03-Winner-Winner-Chicken-Dinner?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Strategicon AL",
+            "Noah Grand",
+            "Bryn Keeling"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-04",
+        "date_created": "20240627",
+        "full_title": "PS-DC-STRAT-UNDEAD-04 Overtime",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-UNDEAD-04-Overtime",
+        "tiers": 4,
+        "title": "Overtime",
+        "url": "https://www.dmsguild.com/product/486033/PSDCSTRATUNDEAD04-Overtime?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-05",
+        "date_created": "20240524",
+        "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-UNDEAD-05-Return-of-the-Dragon",
+        "tiers": 4,
+        "title": "Return of the Dragon",
+        "url": "https://www.dmsguild.com/product/482253/PSDCSTRATUNDEAD05-Return-of-the-Dragon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Aileen Adriane Cerrudo"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-TST-01",
+        "date_created": "20241203",
+        "full_title": "PS-DC-TST-01 The Eye Behind the Mask",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-TST-01-The-Eye-Behind-the-Mask",
+        "tiers": 4,
+        "title": "The Eye Behind the Mask",
+        "url": "https://www.dmsguild.com/product/504348/PSDCTST01-The-Eye-Behind-the-Mask?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Ting Yuen Tjiong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-TT-202",
+        "date_created": "20250526",
+        "full_title": "PS-DC-TT-202 May the Cause be with You",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "20",
+        "product_id": "PS-DC-TT-202-May-the-Cause-be-with-You",
+        "tiers": 2,
+        "title": "May the Cause be with You",
+        "url": "https://www.dmsguild.com/product/524003/PSDCTT202-May-the-Cause-be-with-You?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "T.Y. Montiflor"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-TYM-PHP-DIV-01",
+        "date_created": "20240818",
+        "full_title": "PS-DC-TYM-PHP-DIV-01 below the world, beneath the sun, i hear somebody singing",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-TYM-PHP-DIV-01-below-the-world-beneath-the-sun-i-hear-somebody-singing",
+        "tiers": 4,
+        "title": "below the world, beneath the sun, i hear somebody singing",
+        "url": "https://www.dmsguild.com/product/491981/PSDCTYMPHPDIV01-below-the-world-beneath-the-sun-i-hear-somebody-singing?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "Bennett Ellis",
+            "Dante Santos"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-CEG-02",
+        "date_created": "20240427",
+        "full_title": "Snakes on a Planescape (PS-DC-CEG-02)",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "product_id": "Snakes-on-a-Planescape-PS-DC-CEG-02",
+        "tiers": 4,
+        "title": "Snakes on a Planescape",
+        "url": "https://www.dmsguild.com/product/478979/Snakes-on-a-Planescape-PSDCCEG02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Brian Balagot"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-SS",
+        "date_created": "20240311",
+        "full_title": "Soul and Shadow (PS-DC-SS)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "product_id": "Soul-and-Shadow-PS-DC-SS",
+        "tiers": 4,
+        "title": "Soul and Shadow PS-DC-SS",
+        "url": "https://www.dmsguild.com/product/473735/Soul-and-Shadow-PSDCSS?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Ron Angelo Gatinga"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-HRS-00",
+        "date_created": "20250223",
+        "full_title": "Stolen Hours (PS-DC-HRS-00)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "product_id": "Stolen-Hours-PS-DC-HRS-00",
+        "tiers": 1,
+        "title": "Stolen Hours",
+        "url": "https://www.dmsguild.com/product/513314/Stolen-Hours-PSDCHRS00?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Jonathan Bennett"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-HNL-02",
+        "date_created": "20240208",
+        "full_title": "The Hungry Prince (PS-DC-HNL-02)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "The-Hungry-Prince-PS-DC-HNL-02",
+        "tiers": 1,
+        "title": "The Hungry Prince",
+        "url": "https://www.dmsguild.com/product/470285/The-Hungry-Prince-PSDCHNL02?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Charles Pandi"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-UMY-01",
+        "date_created": "20240816",
+        "full_title": "The Unmemory of You (PS-DC-UMY-01)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "product_id": "The-Unmemory-of-You-PS-DC-UMY-01",
+        "tiers": 1,
+        "title": "The Unmemory of You",
+        "url": "https://www.dmsguild.com/product/491824/The-Unmemory-of-You-PSDCUMY01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Ron Angelo Gatinga"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-HRS-01",
+        "date_created": "20250603",
+        "full_title": "Unlimited Hours (PS-DC-HRS-01)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "Unlimited-Hours-PS-DC-HRS-01",
+        "tiers": 2,
+        "title": "Unlimited Hours",
+        "url": "https://www.dmsguild.com/product/525013/Unlimited-Hours-PSDCHRS01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    }
+]
