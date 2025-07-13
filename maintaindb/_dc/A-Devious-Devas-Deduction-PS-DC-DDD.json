@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Franz Bedonia"
     ],
@@ -11,7 +11,7 @@
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "A-Devious-Devas-Deduction-PS-DC-DDD",
-    "tiers": null,
+    "tiers": 2,
     "title": "A Devious Deva's Deduction",
     "url": "https://www.dmsguild.com/product/485383/A-Devious-Devas-Deduction-PSDCDDD?filters=0_0_100057_0_0_0_0_0"
 }
