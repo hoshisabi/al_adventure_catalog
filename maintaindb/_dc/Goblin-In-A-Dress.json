@@ -1,16 +1,17 @@
 {
-  "apl": 3,
-  "authors": [
-    "R.P. Marsh"
-  ],
-  "campaign": "Forgotten Realms",
-  "code": "FR-DC-DRESS-01",
-  "date_created": "20241003",
-  "full_title": "Goblin In A Dress",
-  "hours": 2,
-  "level_range": "1-4",
-  "product_id": "FR-DC-DRESS-01-Goblin-In-A-Dress",
-  "tiers": 1,
-  "title": "Goblin In A Dress",
-  "url": "https://www.dmsguild.com/product/497468/Goblin-In-A-Dress"
+    "apl": 3,
+    "authors": [
+        "R.P. Marsh"
+    ],
+    "campaign": "Forgotten Realms",
+    "code": "FR-DC-DRESS-01",
+    "date_created": "20241003",
+    "full_title": "Goblin In A Dress",
+    "hours": 2,
+    "is_adventure": true,
+    "level_range": "1-4",
+    "product_id": "FR-DC-DRESS-01-Goblin-In-A-Dress",
+    "tiers": 1,
+    "title": "Goblin In A Dress",
+    "url": "https://www.dmsguild.com/product/497468/Goblin-In-A-Dress"
 }

@@ -3,11 +3,14 @@
     "authors": [
         "Fynn Headen"
     ],
-    "campaign": ["Eberron"],
+    "campaign": [
+        "Eberron"
+    ],
     "code": "EB-SM-VISIONS",
     "date_created": "20200422",
     "full_title": "Visions of Salvation: A 4 hour Tier 1 Salvage Mission",
     "hours": null,
+    "is_adventure": true,
     "level_range": null,
     "product_id": "Visions-of-Salvation--A-4-hour-Tier-1-Salvage-Mission",
     "tiers": null,

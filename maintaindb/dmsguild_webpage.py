@@ -144,8 +144,9 @@ def __str_to_int(value):
 
 def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> DungeonCraft:
     try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
         parsed_html = BeautifulSoup(requests.get(
-            input_url).text, features="html.parser")
+            input_url, headers=headers, timeout=60).text, features="html.parser")
 
         module_name = None
         product_title = parsed_html.body.find(
@@ -197,10 +198,10 @@ def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> Dungeo
         dc = DungeonCraft(product_id, module_name, authors,
                           code, date_created, hours, tier, apl, level_range, input_url, campaign)
 
-        logger.info(f'>> {product_id} processed')
+        logger.info(f'>> {product_id} processed ({input_url})')
         return dc
     except Exception as ex:
-        logger.error(str(ex))
+        logger.error(f'Error processing {input_url}: {str(ex)}')
         return None
 
 

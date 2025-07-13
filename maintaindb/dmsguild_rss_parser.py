@@ -72,7 +72,7 @@ def sanitize_filename(filename):
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure, price) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -86,6 +86,7 @@ class DungeonCraft:
         self.url = url
         self.campaign = campaign
         self.is_adventure = is_adventure
+        self.price = price
 
     def __get_short_title(self, title):
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
@@ -110,7 +111,8 @@ class DungeonCraft:
             level_range=self.level_range,
             url=self.url,
             campaign=self.campaign,
-            is_adventure=self.is_adventure
+            is_adventure=self.is_adventure,
+            price=self.price
         )
         return result
 
@@ -169,6 +171,9 @@ def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_
             description_html = item.find('description').text
             pub_date_str = item.find('pubDate').text
 
+            price_match = re.search(r'<b>Price</b>: \$([\d\.]+)', description_html)
+            price = float(price_match.group(1)) if price_match else None
+
             # Extract product_id from URL
             product_id_match = re.search(r'/product/(\d+)/', product_url)
             product_id = product_id_match.group(1) if product_id_match else None
@@ -185,13 +190,15 @@ def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_
             lower_full_title = full_title.lower()
             lower_description_text = description_text.lower()
 
-            is_adventure = True
-            if "bundle" in lower_full_title or \
-               "digital map pack" in lower_full_title or \
-               "roll20" in lower_full_title or \
-               "bundle" in lower_description_text or \
-               "digital map pack" in lower_description_text or \
-               "roll20" in lower_description_text:
+            code, campaign = __get_dc_code_and_campaign(full_title) or (None, None)
+            has_code = code is not None
+            is_bundle = 'bundle' in lower_full_title
+            is_roll20 = 'roll20' in lower_full_title
+            is_fg = 'fantasy grounds' in lower_full_title
+
+            if has_code and not is_bundle and not is_roll20 and not is_fg:
+                is_adventure = True
+            else:
                 is_adventure = False
 
             hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*Hour", description_text)
@@ -230,12 +237,10 @@ def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_
             if level_range is None or not re.match(r"\d+-\d+", str(level_range)):
                 level_range = derived_level_range
 
-            code, campaign = __get_dc_code_and_campaign(full_title) or (None, None)
-
             # Authors are not available from RSS feed
             authors = [] 
 
-            dc_product = DungeonCraft(product_id, full_title, authors, code, date_created, hours, tier, apl, level_range, product_url, campaign, is_adventure)
+            dc_product = DungeonCraft(product_id, full_title, authors, code, date_created, hours, tier, apl, level_range, product_url, campaign, is_adventure, price)
             dungeon_craft_products.append(dc_product)
             
         return dungeon_craft_products

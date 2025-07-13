@@ -1,16 +1,17 @@
 {
-  "apl": 8,
-  "authors": [
-    "Tan Lou Ee"
-  ],
-  "campaign": "Eberron",
-  "code": "EB-SM-CURIOUS",
-  "date_created": "20210429",
-  "full_title": "The Curious Incident of the Dog in the Night Land",
-  "hours": 3,
-  "level_range": "3",
-  "product_id": "EB-SM-CURIOUS-The-Curious-Incident-of-the-Dog-in-the-Night-Land",
-  "tiers": 2,
-  "title": "The Curious Incident of the Dog in the Night Land",
-  "url": "https://www.dmsguild.com/product/355475/The-Curious-Incident-of-the-Dog-in-the-Night-Land?filters=1000043_0_0_0_0_0_0_0"
+    "apl": 8,
+    "authors": [
+        "Tan Lou Ee"
+    ],
+    "campaign": "Eberron",
+    "code": "EB-SM-CURIOUS",
+    "date_created": "20210429",
+    "full_title": "The Curious Incident of the Dog in the Night Land",
+    "hours": 3,
+    "is_adventure": true,
+    "level_range": "3",
+    "product_id": "EB-SM-CURIOUS-The-Curious-Incident-of-the-Dog-in-the-Night-Land",
+    "tiers": 2,
+    "title": "The Curious Incident of the Dog in the Night Land",
+    "url": "https://www.dmsguild.com/product/355475/The-Curious-Incident-of-the-Dog-in-the-Night-Land?filters=1000043_0_0_0_0_0_0_0"
 }
