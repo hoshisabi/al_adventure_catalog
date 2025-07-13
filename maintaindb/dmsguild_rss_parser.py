@@ -72,7 +72,7 @@ def sanitize_filename(filename):
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure, price) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure=None, price=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -87,6 +87,26 @@ class DungeonCraft:
         self.campaign = campaign
         self.is_adventure = is_adventure
         self.price = price
+
+    def is_tier(self, tier):
+        if self.tiers is not None:
+            return self.tiers == tier
+        return False
+
+    def is_tier_unknown(self):
+        if self.tiers is None:
+            return True
+        return False
+
+    def is_hour(self, hour):
+        if self.hours is not None:
+            return self.hours == hour
+        return False
+
+    def is_hour_unknown(self):
+        if self.hours is None:
+            return True
+        return False
 
     def __get_short_title(self, title):
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
@@ -115,6 +135,16 @@ class DungeonCraft:
             price=self.price
         )
         return result
+
+    def convert_date_to_readable_str(self):
+        if self.date_created is not None:
+            # Ensure date_created is a datetime object before formatting
+            if isinstance(self.date_created, datetime.date):
+                date_obj = self.date_created
+            else:
+                date_obj = datetime.datetime.strptime(self.date_created, "%Y%m%d").date()
+            return date_obj.strftime("%Y, %b")
+        return 'Unknown'
 
 def get_patt_first_matching_group(regex, text):
     if matches := re.search(regex, text, re.MULTILINE | re.IGNORECASE):

@@ -16,8 +16,7 @@ import glob
 import datetime
 from collections import defaultdict
 
-from dmsguild_webpage import url_2_DC
-from dmsguild_webpage import DC_CAMPAIGNS
+from dmsguild_rss_parser import DC_CAMPAIGNS, DungeonCraft
 from enum import Enum
 import glob
 
@@ -30,41 +29,16 @@ root = str(pathlib.Path(__file__).parent.absolute())
 input_path = os.path.join(root, '_stats')
 
 
-def convert_date_to_readable_str(dc):
-    if 'date_created' in dc and dc['date_created'] is not None:
-        date_obj = datetime.datetime.strptime(dc['date_created'], "%Y%m%d")
-        return date_obj.strftime("%Y, %b")
-    return 'Unknown'
 
 
-def is_tier(dc, tier):
-    if 'tiers' in dc and dc['tiers'] is not None:
-        return dc['tiers'] == tier
-    return False
 
 
-def is_tier_unknown(dc):
-    if 'tiers' in dc and dc['tiers'] is None:
-        return True
-    return False
-
-
-def is_hour(dc, hour):
-    if 'hours' in dc and dc['hours'] is not None:
-        return dc['hours'] == hour
-    return False
-
-
-def is_hour_unknown(dc):
-    if 'hours' in dc and dc['hours'] is None:
-        return True
-    return False
 
 
 def __get_dc_per_month(data):
     result = defaultdict(list)
     for dc in data:
-        month = convert_date_to_readable_str(dc)
+        month = dc.convert_date_to_readable_str()
         result[month].append(dc)
     return result
 
@@ -84,11 +58,11 @@ def summarize(data, dc_season):
     logger.info(f"\nDC count {len(data)}")
 
     logger.info(f"\nTier split")
-    t1_dcs = list(filter(lambda k: is_tier(k, 1), data))
-    t2_dcs = list(filter(lambda k: is_tier(k, 2), data))
-    t3_dcs = list(filter(lambda k: is_tier(k, 3), data))
-    t4_dcs = list(filter(lambda k: is_tier(k, 4), data))
-    tier_unknown = list(filter(lambda k: is_tier_unknown(k), data))
+    t1_dcs = list(filter(lambda k: k.is_tier(1), data))
+    t2_dcs = list(filter(lambda k: k.is_tier(2), data))
+    t3_dcs = list(filter(lambda k: k.is_tier(3), data))
+    t4_dcs = list(filter(lambda k: k.is_tier(4), data))
+    tier_unknown = list(filter(lambda k: k.is_tier_unknown(), data))
 
     logger.info(f"    t1={len(t1_dcs)}")
     logger.info(f"    t2={len(t2_dcs)}")
@@ -97,9 +71,9 @@ def summarize(data, dc_season):
     logger.info(f"    ??={len(tier_unknown)}")
 
     logger.info(f"\nHour split")
-    h2_dcs = list(filter(lambda k: is_hour(k, 2), data))
-    h4_dcs = list(filter(lambda k: is_hour(k, 4), data))
-    hour_unknown = list(filter(lambda k: is_hour_unknown(k), data))
+    h2_dcs = list(filter(lambda k: k.is_hour(2), data))
+    h4_dcs = list(filter(lambda k: k.is_hour(4), data))
+    hour_unknown = list(filter(lambda k: k.is_hour_unknown(), data))
 
     logger.info(f"    2h={len(h2_dcs)}")
     logger.info(f"    4h={len(h4_dcs)}")
@@ -124,7 +98,14 @@ if __name__ == '__main__':
         if input_season == dc_season:
             output_full_path = f"{str(input_path)}/{dc_season}.json"
             with open(output_full_path) as f:
-                data = json.load(f)
+                raw_data = json.load(f)
+                data = []
+                for d in raw_data:
+                    # Rename 'full_title' to 'title' for DungeonCraft constructor
+                    d['title'] = d.pop('full_title')
+                    # Convert date_created string to datetime.date object
+                    d['date_created'] = datetime.datetime.strptime(d['date_created'], "%Y%m%d").date()
+                    data.append(DungeonCraft(**d))
 
                 summarize(data, dc_season)
     # crawl_dc_listings(page_number=2, max_results=15)
