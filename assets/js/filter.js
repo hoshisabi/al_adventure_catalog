@@ -125,7 +125,7 @@ function displayResults() {
 
     currentPageData.forEach(adventure => {
         const card = document.createElement('div');
-        card.className = 'border rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow';
+        card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow';
 
         // Handle campaign display for both array and single value cases
         const campaignDisplay = Array.isArray(adventure.campaign)
@@ -153,6 +153,6 @@ function displayResults() {
     document.getElementById('showing-end').textContent = endIndex;
     document.getElementById('total-results').textContent = filteredAdventures.length;
 
-    // Scroll to top of results
-    resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    // Scroll to top of page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
