@@ -3,7 +3,6 @@ try:
     from BeautifulSoup import BeautifulSoup
 except ImportError:
     from bs4 import BeautifulSoup
-import requests
 import logging
 import datetime
 import re
@@ -208,30 +207,3 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
         "level_range": level_range,
         "campaign": campaign
     }
-
-def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> DungeonCraft:
-    try:
-        if "affiliate_id" not in input_url:
-            input_url += "&affiliate_id=171040"
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
-        parsed_html = BeautifulSoup(requests.get(
-            input_url, headers=headers, timeout=60).text, features="html.parser")
-
-        data = _parse_html_to_dc_data(parsed_html, product_id, product_alt)
-
-        dc = DungeonCraft(product_id, data["module_name"], data["authors"],
-                          data["code"], data["date_created"], data["hours"], data["tiers"], data["apl"], data["level_range"], input_url, data["campaign"])
-
-        logger.info(f'>> {product_id} processed ({input_url})')
-        return dc
-    except Exception as ex:
-        logger.error(f'Error processing {input_url}: {str(ex)}')
-        return None
-
-
-if __name__ == '__main__':
-    url = sys.argv[1]
-    product_alt = sys.argv[2]
-
-    dc = url_2_DC(url, product_alt=product_alt)
-    print(str(dc))
