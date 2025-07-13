@@ -10,6 +10,7 @@
         "date_created": "20240821",
         "full_title": "DL-DC-LIGA01 - A Silver Light",
         "hours": 4,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "DL-DC-LIGA01---A-Silver-Light",
         "tiers": 1,
@@ -27,6 +28,7 @@
         "date_created": "20240919",
         "full_title": "DL-DC-LIGA02 - Wickedness over Dargaard",
         "hours": 4,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "DL-DC-LIGA02---Wickedness-over-Dargaard",
         "tiers": 1,
@@ -44,10 +46,18 @@
         "date_created": "20241031",
         "full_title": "DL-DC-LIGA03 - Firstwal under Siege",
         "hours": 4,
+<<<<<<< HEAD
         "level_range": "5",
         "product_id": "DL-DC-LIGA03---Firstwal-under-Siege",
         "tiers": 1,
         "title": "- Firstwal under Siege",
+=======
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "DL-DC-LIGA03-Firstwal-under-Siege",
+        "tiers": 1,
+        "title": "Firstwal under Siege",
+>>>>>>> arthurmq_modified_by_hoshisabi
         "url": "https://www.dmsguild.com/product/500778/DLDCLIGA03--Firstwal-under-Siege?filters=45470_0_0_0_0_0"
     },
     {
@@ -60,6 +70,7 @@
         "date_created": "20231211",
         "full_title": "DL-DC-MDV-01 A Mother's Love: A Dragonlance Adventures Experience",
         "hours": 4,
+        "is_adventure": true,
         "level_range": "5-10",
         "product_id": "DL-DC-MDV-01-A-Mothers-Love--A-Dragonlance-Adventures-Experience",
         "tiers": 2,
@@ -76,11 +87,29 @@
         "date_created": "20240311",
         "full_title": "DL-DC-SF-01 Split or Fuse",
         "hours": 4,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "DL-DC-SF-01-Split-or-Fuse",
         "tiers": 3,
         "title": "Split or Fuse",
         "url": "https://www.dmsguild.com/product/473696/DLDCSF01-Split-or-Fuse?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 12,
+        "authors": [
+            "George Sanders"
+        ],
+        "campaign": "Dragonlance",
+        "code": "DL-DC-SF-02",
+        "date_created": "20250518",
+        "full_title": "DL-DC-SF-02 Wulfgar's Champion",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "DL-DC-SF-02-Wulfgars-Champion",
+        "tiers": 3,
+        "title": "Wulfgar's Champion",
+        "url": "https://www.dmsguild.com/product/522732/DLDCSF02-Wulfgars-Champion?filters=45470_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -92,6 +121,7 @@
         "date_created": "20240714",
         "full_title": "Dragonlance: Echoes of war (DL-DC-SOTH-01)",
         "hours": 4,
+        "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Dragonlance--Echoes-of-war-DL-DC-SOTH-01",
         "tiers": 1,
@@ -108,6 +138,7 @@
         "date_created": "20230717",
         "full_title": "Greenshield (DL-DC-SDCC-01)",
         "hours": 2,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "Greenshield-DL-DC-SDCC-01",
         "tiers": 1,
@@ -124,11 +155,29 @@
         "date_created": "20230717",
         "full_title": "Knight Fall (DL-DC-SDCC-03)",
         "hours": 2,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "Knight-Fall-DL-DC-SDCC-03",
         "tiers": 1,
         "title": "Knight Fall",
         "url": "https://www.dmsguild.com/product/445912/Knight-Fall-DLDCSDCC03?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaign": "Dragonlance",
+        "code": "DL-DC-CLASSIC-01",
+        "date_created": "20250422",
+        "full_title": "Tavern Rats (DL-DC-CLASSIC-01)",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Tavern-Rats-DL-DC-CLASSIC-01",
+        "tiers": 1,
+        "title": "Tavern Rats",
+        "url": "https://www.dmsguild.com/product/519557/Tavern-Rats-DLDCCLASSIC01?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 2,
@@ -140,6 +189,7 @@
         "date_created": "20230717",
         "full_title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",
         "hours": 2,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "The-Dog-Days-of-Solamnia-DL-DC-SDCC-02",
         "tiers": 1,
@@ -156,6 +206,7 @@
         "date_created": "20230717",
         "full_title": "The Inn of Forgotten Melodies (DL-DC-SDCC-04)",
         "hours": 2,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "The-Inn-of-Forgotten-Melodies-DL-DC-SDCC-04",
         "tiers": 1,
