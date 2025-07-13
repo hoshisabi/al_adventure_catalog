@@ -142,6 +142,73 @@ def __str_to_int(value):
         return None
 
 
+def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
+    module_name = None
+    hours = None
+    tier = None
+    apl = None
+    level_range = None
+    code = None
+    campaign = None
+
+    product_title = parsed_html.body.find(
+        "div", {"class": "grid_12 product-title"})
+    children = product_title.findChildren(
+        "span", {"itemprop": "name"}, recursive=True)
+    for child in children:
+        module_name = child.text
+        break
+
+    authors = []
+    product_from = parsed_html.body.find(
+        "div", {"class": "grid_12 product-from"})
+    children = product_from.findChildren("a", recursive=True)
+    for child in children:
+        current_author = child.text
+        authors.append(current_author)
+
+    date_created = None
+    children = parsed_html.body.find_all(
+        "div", {"class": "widget-information-item-content"})
+    key = 'This title was added to our catalog on '
+    for child in children:
+        if key in child.text:
+            date_str = child.text.replace(key, '').replace('.', '')
+            date_created = datetime.datetime.strptime(
+                date_str.strip(), "%B %d, %Y").date()
+            break
+
+    product_content = parsed_html.body.find(
+        "div", {"class": "alpha omega prod-content"})
+    text = product_content.text
+
+    hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*Hour", text)
+    hours = __str_to_int(hours)
+    tier = get_patt_first_matching_group(r"Tier ?([1-4])", text)
+    tier = __str_to_int(tier)
+    apl = get_patt_first_matching_group(r"APL ?(\d+)", text)
+    apl = __str_to_int(apl)
+    level_range = get_patt_first_matching_group(r"(?i)(?:levels ?)?(\d+)(?:nd|th)?(?:[ -]|through|to)*(\d+)(?:nd|th)?[- ](?:level)?", text)
+    
+
+    code = None
+    campaign = None
+    if module_name:
+        result = __get_dc_code_and_campaign(module_name)
+        if result is not None: (code, campaign) = result
+
+    return {
+        "module_name": module_name,
+        "authors": authors,
+        "code": code,
+        "date_created": date_created,
+        "hours": hours,
+        "tiers": tier,
+        "apl": apl,
+        "level_range": level_range,
+        "campaign": campaign
+    }
+
 def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> DungeonCraft:
     try:
         if "affiliate_id" not in input_url:
@@ -150,55 +217,10 @@ def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> Dungeo
         parsed_html = BeautifulSoup(requests.get(
             input_url, headers=headers, timeout=60).text, features="html.parser")
 
-        module_name = None
-        product_title = parsed_html.body.find(
-            "div", {"class": "grid_12 product-title"})
-        children = product_title.findChildren(
-            "span", {"itemprop": "name"}, recursive=True)
-        for child in children:
-            module_name = child.text
-            break
+        data = _parse_html_to_dc_data(parsed_html, product_id, product_alt)
 
-        authors = []
-        product_from = parsed_html.body.find(
-            "div", {"class": "grid_12 product-from"})
-        children = product_from.findChildren("a", recursive=True)
-        for child in children:
-            current_author = child.text
-            authors.append(current_author)
-
-        date_created = None
-        children = parsed_html.body.find_all(
-            "div", {"class": "widget-information-item-content"})
-        key = 'This title was added to our catalog on '
-        for child in children:
-            if key in child.text:
-                date_str = child.text.replace(key, '').replace('.', '')
-                date_created = datetime.datetime.strptime(
-                    date_str.strip(), "%B %d, %Y").date()
-                break
-
-        product_content = parsed_html.body.find(
-            "div", {"class": "alpha omega prod-content"})
-        text = product_content.text
-
-        hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*Hour", text)
-        hours = __str_to_int(hours)
-        tier = get_patt_first_matching_group(r"Tier ?([1-4])", text)
-        tier = __str_to_int(tier)
-        apl = get_patt_first_matching_group(r"APL ?(\d+)", text)
-        apl = __str_to_int(apl)
-        level_range = get_patt_first_matching_group(r"(?i)(?:levels ?)?(\d+)(?:nd|th)?(?:[ -]|through|to)*(\d+)(?:nd|th)?[- ](?:level)?", text)
-	
-
-        code = None
-        campaign = None
-        if product_alt:
-            result = __get_dc_code_and_campaign(product_alt)
-            if result is not None: (code, campaign) = result
-
-        dc = DungeonCraft(product_id, module_name, authors,
-                          code, date_created, hours, tier, apl, level_range, input_url, campaign)
+        dc = DungeonCraft(product_id, data["module_name"], data["authors"],
+                          data["code"], data["date_created"], data["hours"], data["tiers"], data["apl"], data["level_range"], input_url, data["campaign"])
 
         logger.info(f'>> {product_id} processed ({input_url})')
         return dc
