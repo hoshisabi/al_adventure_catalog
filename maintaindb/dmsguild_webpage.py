@@ -144,6 +144,8 @@ def __str_to_int(value):
 
 def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> DungeonCraft:
     try:
+        if "affiliate_id" not in input_url:
+            input_url += "&affiliate_id=171040"
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
         parsed_html = BeautifulSoup(requests.get(
             input_url, headers=headers, timeout=60).text, features="html.parser")
