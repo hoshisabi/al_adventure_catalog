@@ -1195,8 +1195,8 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-02",
         "date_created": "20240317",
         "full_title": "Broken Yet Unbowed (PS-DC-NOS-02)",
         "hours": 4,
@@ -11272,23 +11272,6 @@
         "url": "https://www.dmsguild.com/product/451316/Darkside-of-Selune-SJDCHYS02-5e?filters=0_0_100057_0_0_0_0_0"
     },
     {
-        "apl": null,
-        "authors": [
-            "Stefan Tomaschitz"
-        ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
-        "date_created": "20240301",
-        "full_title": "Das Fl\u00fcstern aus dem Brunnen",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Das-Fl\u00fcstern-aus-dem-Brunnen",
-        "tiers": null,
-        "title": "Das Fl\u00fcstern aus dem Brunnen",
-        "url": "https://www.dmsguild.com/product/472635/Das-Flustern-aus-dem-Brunnen?filters=0_0_100057_0_0_0_0_0"
-    },
-    {
         "apl": 13,
         "authors": [
             "Christian Brazil"
@@ -17332,8 +17315,11 @@
         "authors": [
             "Stefan Tomaschitz"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": [
+            "Ravenloft",
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-NOS-02",
         "date_created": "20240301",
         "full_title": "Der Meister der Puppen",
         "hours": null,
@@ -17642,8 +17628,8 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-RAVENGARD-",
         "date_created": "20240430",
         "full_title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",
         "hours": 4,
@@ -18181,8 +18167,11 @@
         "authors": [
             "Stefan Tomaschitz"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": [
+            "Ravenloft",
+            "Forgotten Realms"
+        ],
+        "code": "RV-DC-SDG-01",
         "date_created": "20240301",
         "full_title": "Ein verfluchter Schl\u00fcssel",
         "hours": null,
@@ -20774,8 +20763,8 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-01",
         "date_created": "20240211",
         "full_title": "Githzerai Glitch (PS-DC-NOS-01)",
         "hours": 2,
@@ -22856,8 +22845,8 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-AUG-02",
         "date_created": "20240531",
         "full_title": "PS-DC-AUG-02 The Dark Sun",
         "hours": 4,
@@ -22873,8 +22862,8 @@
         "authors": [
             "Sean Ware"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-BINGO-1",
         "date_created": "20240522",
         "full_title": "PS-DC-BINGO-1 Lorem Ipsum",
         "hours": 4,
@@ -23460,8 +23449,8 @@
             "Briarwall Press",
             "Hunter Sinclair"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-POP-01",
         "date_created": "20240301",
         "full_title": "PS-DC-POP-01 Pillars of Peril",
         "hours": 4,
@@ -23652,8 +23641,8 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-02",
         "date_created": "20240524",
         "full_title": "PS-DC-STRAT-UNDEAD-02 Liches Just Want to Have Fun",
         "hours": 4,
@@ -23707,8 +23696,8 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-05",
         "date_created": "20240524",
         "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",
         "hours": 4,
@@ -23821,23 +23810,6 @@
         "tiers": 2,
         "title": "Rammed",
         "url": "https://www.dmsguild.com/product/447089/Rammed-SJDCBST02?filters=0_0_100057_0_0_0_0_0"
-    },
-    {
-        "apl": 4,
-        "authors": [
-            "David Um"
-        ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
-        "date_created": "20240223",
-        "full_title": "RCC-KKALGO-02-03 The Cliffbridge in Peril",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "RCC-KKALGO-02-03-The-Cliffbridge-in-Peril",
-        "tiers": null,
-        "title": "RCC-KKALGO-02-03 The Cliffbridge in Peril",
-        "url": "https://www.dmsguild.com/product/471887/RCCKKALGO0203-The-Cliffbridge-in-Peril?filters=0_0_100057_0_0_0_0_0"
     },
     {
         "apl": 3,
@@ -28476,8 +28448,8 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "UNKNOWN",
-        "code": "UNKNOWN",
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-SS",
         "date_created": "20240311",
         "full_title": "Soul and Shadow (PS-DC-SS)",
         "hours": 4,

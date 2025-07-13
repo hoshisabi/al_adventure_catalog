@@ -3,8 +3,8 @@
     "authors": [
         "Stefan Tomaschitz"
     ],
-    "campaign": "UNKNOWN",
-    "code": "UNKNOWN",
+    "campaign": ["Ravenloft", "Forgotten Realms"],
+    "code": "PS-DC-NOS-02",
     "date_created": "20240301",
     "full_title": "Der Meister der Puppen",
     "hours": null,
