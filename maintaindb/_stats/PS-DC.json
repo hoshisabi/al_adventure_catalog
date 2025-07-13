@@ -34,6 +34,23 @@
         "url": "https://www.dmsguild.com/product/485383/A-Devious-Devas-Deduction-PSDCDDD?filters=0_0_100057_0_0_0_0_0"
     },
     {
+        "apl": 18,
+        "authors": [
+            "Lex Winter"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-02",
+        "date_created": "20240317",
+        "full_title": "Broken Yet Unbowed (PS-DC-NOS-02)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Broken-Yet-Unbowed-PS-DC-NOS-02",
+        "tiers": 4,
+        "title": "Broken Yet Unbowed",
+        "url": "https://www.dmsguild.com/product/474512/Broken-Yet-Unbowed-PSDCNOS02?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
         "apl": 3,
         "authors": [
             "Steven Truong"
@@ -69,6 +86,43 @@
     },
     {
         "apl": null,
+        "authors": [
+            "Stefan Tomaschitz"
+        ],
+        "campaign": [
+            "Ravenloft",
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-NOS-02",
+        "date_created": "20240301",
+        "full_title": "Der Meister der Puppen",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Der-Meister-der-Puppen",
+        "tiers": null,
+        "title": "Der Meister der Puppen",
+        "url": "https://www.dmsguild.com/product/472637/Der-Meister-der-Puppen?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Jeremy Cheong"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-RAVENGARD-",
+        "date_created": "20240430",
+        "full_title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Duke-Ravengard-Gets-Sent-to-Hell-Again-PS-DC-RAVENGARD-V",
+        "tiers": 4,
+        "title": "Duke Ravengard Gets Sent to Hell Again",
+        "url": "https://www.dmsguild.com/product/479242/Duke-Ravengard-Gets-Sent-to-Hell-Again-PSDCRAVENGARDV?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": null,
         "authors": [],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-GMM-03",
@@ -97,6 +151,23 @@
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
         "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Lex Winter"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-NOS-01",
+        "date_created": "20240211",
+        "full_title": "Githzerai Glitch (PS-DC-NOS-01)",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "Githzerai-Glitch-PS-DC-NOS-01",
+        "tiers": 4,
+        "title": "Githzerai Glitch",
+        "url": "https://www.dmsguild.com/product/470680/Githzerai-Glitch-PSDCNOS01?filters=0_0_100057_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -251,6 +322,40 @@
         "tiers": 4,
         "title": "Celestia Has Fallen",
         "url": "https://www.dmsguild.com/product/463611/PSDCAUG01-Celestia-Has-Fallen?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-AUG-02",
+        "date_created": "20240531",
+        "full_title": "PS-DC-AUG-02 The Dark Sun",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-AUG-02-The-Dark-Sun",
+        "tiers": 4,
+        "title": "The Dark Sun",
+        "url": "https://www.dmsguild.com/product/483044/PSDCAUG02-The-Dark-Sun?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Sean Ware"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-BINGO-1",
+        "date_created": "20240522",
+        "full_title": "PS-DC-BINGO-1 Lorem Ipsum",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-BINGO-1-Lorem-Ipsum",
+        "tiers": 2,
+        "title": "Lorem Ipsum",
+        "url": "https://www.dmsguild.com/product/482067/PSDCBINGO1-Lorem-Ipsum?filters=0_0_100057_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -822,6 +927,24 @@
         "url": "https://www.dmsguild.com/product/507343/PSDCPKL20-Jawbreakers-and-Jailbreakers?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 18,
+        "authors": [
+            "Briarwall Press",
+            "Hunter Sinclair"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-POP-01",
+        "date_created": "20240301",
+        "full_title": "PS-DC-POP-01 Pillars of Peril",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-POP-01-Pillars-of-Peril",
+        "tiers": 4,
+        "title": "Pillars of Peril",
+        "url": "https://www.dmsguild.com/product/472724/PSDCPOP01-Pillars-of-Peril?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
         "apl": null,
         "authors": [
             "GM Jace"
@@ -997,6 +1120,23 @@
         "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-02",
+        "date_created": "20240524",
+        "full_title": "PS-DC-STRAT-UNDEAD-02 Liches Just Want to Have Fun",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-UNDEAD-02-Liches-Just-Want-to-Have-Fun",
+        "tiers": 3,
+        "title": "Liches Just Want to Have Fun",
+        "url": "https://www.dmsguild.com/product/482256/PSDCSTRATUNDEAD02-Liches-Just-Want-to-Have-Fun?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
         "apl": 18,
         "authors": [
             "Strategicon AL",
@@ -1033,6 +1173,23 @@
         "tiers": 4,
         "title": "Overtime",
         "url": "https://www.dmsguild.com/product/486033/PSDCSTRATUNDEAD04-Overtime?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Nguyen Le"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-UNDEAD-05",
+        "date_created": "20240524",
+        "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "PS-DC-STRAT-UNDEAD-05-Return-of-the-Dragon",
+        "tiers": 4,
+        "title": "Return of the Dragon",
+        "url": "https://www.dmsguild.com/product/482253/PSDCSTRATUNDEAD05-Return-of-the-Dragon?filters=0_0_100057_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -1102,6 +1259,23 @@
         "tiers": 4,
         "title": "Snakes on a Planescape",
         "url": "https://www.dmsguild.com/product/478979/Snakes-on-a-Planescape-PSDCCEG02?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Brian Balagot"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-SS",
+        "date_created": "20240311",
+        "full_title": "Soul and Shadow (PS-DC-SS)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "product_id": "Soul-and-Shadow-PS-DC-SS",
+        "tiers": 4,
+        "title": "Soul and Shadow PS-DC-SS",
+        "url": "https://www.dmsguild.com/product/473735/Soul-and-Shadow-PSDCSS?filters=0_0_100057_0_0_0_0_0"
     },
     {
         "apl": 3,
