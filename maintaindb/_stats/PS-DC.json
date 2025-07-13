@@ -17,6 +17,23 @@
         "url": "https://www.dmsguild.com/product/524613/13-Hours-in-Sigil-PSDCCAR01?filters=45470_0_0_0_0_0"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Franz Bedonia"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-DDD",
+        "date_created": "20240621",
+        "full_title": "A Devious Deva's Deduction (PS-DC-DDD)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "A-Devious-Devas-Deduction-PS-DC-DDD",
+        "tiers": 2,
+        "title": "A Devious Deva's Deduction",
+        "url": "https://www.dmsguild.com/product/485383/A-Devious-Devas-Deduction-PSDCDDD?filters=0_0_100057_0_0_0_0_0"
+    },
+    {
         "apl": 3,
         "authors": [
             "Steven Truong"
@@ -514,38 +531,6 @@
         "tiers": 3,
         "title": "The Greatest Gameshow",
         "url": "https://www.dmsguild.com/product/490495/PSDCNBDD01-The-Greatest-Gameshow?filters=45470_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Jason Pesch"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "PS-DC-PESCH",
-        "date_created": "20241031",
-        "full_title": "PS-DC-PESCH Vhaeraun's Wish",
-        "hours": 4,
-        "level_range": null,
-        "product_id": "PS-DC-PESCH-Vhaerauns-Wish",
-        "tiers": 3,
-        "title": "Vhaeraun's Wish",
-        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH-Vhaerauns-Wish?filters=45470_0_0_0_0_0"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Jason Pesch"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "PS-DC-PESCH",
-        "date_created": "20241031",
-        "full_title": "PS-DC-PESCH",
-        "hours": 4,
-        "level_range": null,
-        "product_id": "PS-DC-PESCH",
-        "tiers": 3,
-        "title": "",
-        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH?filters=45470_0_0_0_0_0"
     },
     {
         "apl": null,

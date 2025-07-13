@@ -166,23 +166,6 @@
         "url": "https://www.dmsguild.com/product/489397/Cathedral-of-Ice-FRDCFALL01?filters=0_0_100057_0_0_0_0_0"
     },
     {
-        "apl": null,
-        "authors": [
-            "Tricia Monsod",
-            "Kai Monsod"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-TKM-RGT-01",
-        "date_created": "20241031",
-        "full_title": "Charming (FR-DC-TKM-RGT-01)",
-        "hours": 2,
-        "level_range": "1",
-        "product_id": "Charming-FR-DC-TKM-RGT-01",
-        "tiers": null,
-        "title": "Charming",
-        "url": "https://www.dmsguild.com/product/500685/Charming-FRDCTKMRGT01?filters=45470_0_0_0_0_0"
-    },
-    {
         "apl": 3,
         "authors": [
             "Tricia Monsod",
@@ -244,14 +227,9 @@
         "code": "FR-DC-VECNA-02",
         "date_created": "20240731",
         "full_title": "ELDRITCH EYE WIDE SHUT (FR-DC-VECNA-02)",
-<<<<<<< HEAD
         "hours": 4,
-        "level_range": "5-10",
-=======
-        "hours": null,
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "5-10",
         "product_id": "ELDRITCH-EYE-WIDE-SHUT-FR-DC-VECNA-02",
         "tiers": 2,
         "title": "ELDRITCH EYE WIDE SHUT",
@@ -520,12 +498,8 @@
         "date_created": "20240621",
         "full_title": "FR-DC-ARCON-01 Mines and Monsters",
         "hours": 2,
-<<<<<<< HEAD
-        "level_range": "5-10",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "5-10",
         "product_id": "FR-DC-ARCON-01-Mines-and-Monsters",
         "tiers": 2,
         "title": "Mines and Monsters",
@@ -1120,12 +1094,8 @@
         "date_created": "20240314",
         "full_title": "FR-DC-LIGA-01 - Wyrmwell Flame",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "11-16",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "11-16",
         "product_id": "FR-DC-LIGA-01---Wyrmwell-Flame",
         "tiers": 3,
         "title": "- Wyrmwell Flame",
@@ -1160,12 +1130,8 @@
         "date_created": "20240412",
         "full_title": "FR-DC-LIGA-03 - Doom Reborn",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "3",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "3",
         "product_id": "FR-DC-LIGA-03---Doom-Reborn",
         "tiers": 3,
         "title": "- Doom Reborn",
@@ -1236,12 +1202,8 @@
         "date_created": "20240710",
         "full_title": "FR-DC-LIGA-06 - Malaeragoth and the Chaos King",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "11-16",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "11-16",
         "product_id": "FR-DC-LIGA-06---Malaeragoth-and-the-Chaos-King",
         "tiers": 3,
         "title": "- Malaeragoth and the Chaos King",
@@ -1294,21 +1256,14 @@
         "date_created": "20241115",
         "full_title": "FR-DC-LIGA-09 - A Chromatic Crescendo",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "0",
-        "product_id": "FR-DC-LIGA-09---A-Chromatic-Crescendo",
-=======
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-LIGA-09-A-Chromatic-Crescendo",
->>>>>>> arthurmq_modified_by_hoshisabi
         "tiers": 3,
         "title": "- A Chromatic Crescendo",
         "url": "https://www.dmsguild.com/product/502484/FRDCLIGA09--A-Chromatic-Crescendo?filters=45470_0_0_0_0_0"
     },
     {
-<<<<<<< HEAD
-=======
         "apl": 13,
         "authors": [
             "Spencer Navarra-Chew",
@@ -1343,7 +1298,6 @@
         "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
->>>>>>> arthurmq_modified_by_hoshisabi
         "apl": null,
         "authors": [
             "N. M. Brickle"
@@ -1353,10 +1307,7 @@
         "date_created": "20241110",
         "full_title": "FR-DC-NMB-HUNT-01 Ice Water",
         "hours": 4,
-<<<<<<< HEAD
-=======
         "is_adventure": true,
->>>>>>> arthurmq_modified_by_hoshisabi
         "level_range": null,
         "product_id": "FR-DC-NMB-HUNT-01-Ice-Water",
         "tiers": 1,
@@ -1364,8 +1315,6 @@
         "url": "https://www.dmsguild.com/product/501781/FRDCNMBHUNT01-Ice-Water?filters=45470_0_0_0_0_0"
     },
     {
-<<<<<<< HEAD
-=======
         "apl": null,
         "authors": [
             "N. M. Brickle"
@@ -1383,7 +1332,6 @@
         "url": "https://www.dmsguild.com/product/510067/FRDCNMBHUNT01B-Forces-of-Hail?filters=45470_0_0_0_0_0"
     },
     {
->>>>>>> arthurmq_modified_by_hoshisabi
         "apl": null,
         "authors": [
             "N. M. Brickle"
@@ -1410,16 +1358,10 @@
         "date_created": "20241106",
         "full_title": "FR-DC-NUKE-01 The Search for the Scarlet Stallion",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": null,
-        "product_id": "FR-DC-NUKE-01-The-Search-for-the-Scarlet-Stallion",
-        "tiers": null,
-=======
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "FR-DC-NUKE-01-The-Search-for-the-Scarlet-Stallion",
         "tiers": 1,
->>>>>>> arthurmq_modified_by_hoshisabi
         "title": "The Search for the Scarlet Stallion",
         "url": "https://www.dmsguild.com/product/501443/FRDCNUKE01-The-Search-for-the-Scarlet-Stallion?filters=45470_0_0_0_0_0"
     },
@@ -1577,9 +1519,6 @@
         "url": "https://www.dmsguild.com/product/475296/FRDCPANDORAJWEI12-Pandora?filters=0_0_100057_0_0_0_0_0"
     },
     {
-<<<<<<< HEAD
-        "apl": 8,
-=======
         "apl": 18,
         "authors": [
             "JWei\u4f1f"
@@ -1631,8 +1570,7 @@
         "url": "https://www.dmsguild.com/product/524454/FRDCPANDORAJWEIS207-Moonshire?filters=45470_0_0_0_0_0"
     },
     {
-        "apl": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "apl": 8,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -1675,10 +1613,7 @@
         "date_created": "20241030",
         "full_title": "FR-DC-PHP-PEST-01: Pest Control",
         "hours": 2,
-<<<<<<< HEAD
-=======
         "is_adventure": true,
->>>>>>> arthurmq_modified_by_hoshisabi
         "level_range": "2",
         "product_id": "FR-DC-PHP-PEST-01--Pest-Control",
         "tiers": 1,
@@ -1686,8 +1621,6 @@
         "url": "https://www.dmsguild.com/product/500527/FRDCPHPPEST01-Pest-Control?filters=45470_0_0_0_0_0"
     },
     {
-<<<<<<< HEAD
-=======
         "apl": 8,
         "authors": [
             "Elijah Vince Aguila"
@@ -1705,7 +1638,6 @@
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0"
     },
     {
->>>>>>> arthurmq_modified_by_hoshisabi
         "apl": 3,
         "authors": [
             "Rebecca Farrar",
@@ -2299,8 +2231,6 @@
     {
         "apl": 13,
         "authors": [
-<<<<<<< HEAD
-=======
             "Ting Yuen Tjiong"
         ],
         "campaign": "Forgotten Realms",
@@ -2318,7 +2248,6 @@
     {
         "apl": 13,
         "authors": [
->>>>>>> arthurmq_modified_by_hoshisabi
             "Bryan Mets"
         ],
         "campaign": "Forgotten Realms",
@@ -2326,12 +2255,8 @@
         "date_created": "20241115",
         "full_title": "FR-DC-UCON24 The Icarus Connection",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "11-16",
-=======
         "is_adventure": true,
-        "level_range": "0",
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "11-16",
         "product_id": "FR-DC-UCON24-The-Icarus-Connection",
         "tiers": 3,
         "title": "The Icarus Connection",
@@ -2442,8 +2367,6 @@
     },
     {
         "apl": 3,
-<<<<<<< HEAD
-=======
         "authors": [
             "Jay Africa"
         ],
@@ -2636,7 +2559,6 @@
     },
     {
         "apl": 3,
->>>>>>> arthurmq_modified_by_hoshisabi
         "authors": [
             "R.P. Marsh"
         ],
@@ -2645,14 +2567,9 @@
         "date_created": "20241003",
         "full_title": "Goblin In A Dress",
         "hours": 2,
-<<<<<<< HEAD
-        "level_range": "1-4",
-        "product_id": null,
-=======
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "FR-DC-DRESS-01-Goblin-In-A-Dress",
->>>>>>> arthurmq_modified_by_hoshisabi
         "tiers": 1,
         "title": "Goblin In A Dress",
         "url": "https://www.dmsguild.com/product/497468/Goblin-In-A-Dress"
@@ -2830,22 +2747,20 @@
         "url": "https://www.dmsguild.com/product/484655/Monsters-FRDCMELB0104?filters=0_0_100057_0_0_0_0_0"
     },
     {
-        "apl": 8,
+        "apl": 3,
         "authors": [
-            "Steven Truong",
-            "Cameron Pearce"
+            "Tom Klein"
         ],
         "campaign": "Forgotten Realms",
-        "code": "FR-DC-VECNA-03",
-        "date_created": "20241103",
-        "full_title": "NEVERDEATH NIGHTS (FR-DC-VECNA-03)",
+        "code": "FR-DC-GHG-04",
+        "date_created": "20241028",
+        "full_title": "Mummy Dust (FR-DC-GHG-04)",
         "hours": 4,
-        "is_adventure": true,
         "level_range": null,
-        "product_id": "NEVERDEATH-NIGHTS-FR-DC-VECNA-03",
-        "tiers": null,
-        "title": "NEVERDEATH NIGHTS",
-        "url": "https://www.dmsguild.com/product/501014/NEVERDEATH-NIGHTS-FRDCVECNA03?filters=45470_0_0_0_0_0"
+        "product_id": "Mummy-Dust-FR-DC-GHG-04",
+        "tiers": 1,
+        "title": "Mummy Dust",
+        "url": "https://www.dmsguild.com/product/500326/Mummy-Dust-FRDCGHG04?filters=45470_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -2858,6 +2773,7 @@
         "date_created": "20241103",
         "full_title": "NEVERDEATH NIGHTS (FR-DC-VECNA-03)",
         "hours": 4,
+        "is_adventure": true,
         "level_range": null,
         "product_id": "NEVERDEATH-NIGHTS-FR-DC-VECNA-03",
         "tiers": null,
@@ -3346,12 +3262,8 @@
         "date_created": "20240520",
         "full_title": "Those Who Plant (FR-DC-TGT-02)",
         "hours": 2,
-<<<<<<< HEAD
-        "level_range": "1-4",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "1-4",
         "product_id": "Those-Who-Plant-FR-DC-TGT-02",
         "tiers": 1,
         "title": "Those Who Plant",
@@ -3368,21 +3280,14 @@
         "date_created": "20240521",
         "full_title": "THREE BODY PROBLEM (FR-DC-VECNA-01)",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "5-10",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "5-10",
         "product_id": "THREE-BODY-PROBLEM-FR-DC-VECNA-01",
         "tiers": 2,
         "title": "THREE BODY PROBLEM",
         "url": "https://www.dmsguild.com/product/481892/THREE-BODY-PROBLEM-FRDCVECNA01?filters=45470_0_0_0_0_0_0_0"
     },
     {
-<<<<<<< HEAD
-        "apl": 3,
-=======
         "apl": 8,
         "authors": [],
         "campaign": "Forgotten Realms",
@@ -3414,8 +3319,7 @@
         "url": "https://www.dmsguild.com/product/526383/Voyage-into-Darkness-FRDCMELB0201?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
-        "apl": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "apl": 3,
         "authors": [
             "Tricia Monsod"
         ],
@@ -3424,12 +3328,8 @@
         "date_created": "20241002",
         "full_title": "Welcome to the Black Mall (FR-DC-TKM-WBM)",
         "hours": 4,
-<<<<<<< HEAD
-        "level_range": "1-4",
-=======
         "is_adventure": true,
-        "level_range": "1",
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "1-4",
         "product_id": "Welcome-to-the-Black-Mall-FR-DC-TKM-WBM",
         "tiers": 1,
         "title": "Welcome to the Black Mall",
@@ -3437,8 +3337,6 @@
     },
     {
         "apl": 8,
-<<<<<<< HEAD
-=======
         "authors": [
             "Jamie Chan"
         ],
@@ -3455,8 +3353,7 @@
         "url": "https://www.dmsguild.com/product/523867/What-Thayans-Want-FRDCTHAY04?filters=45470_0_0_0_0_0"
     },
     {
-        "apl": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "apl": 8,
         "authors": [
             "Tricia Monsod",
             "Kai Monsod"
@@ -3466,12 +3363,8 @@
         "date_created": "20240826",
         "full_title": "What's Within (FR-DC-TKM-WW)",
         "hours": 2,
-<<<<<<< HEAD
-        "level_range": "5-10",
-=======
         "is_adventure": true,
-        "level_range": null,
->>>>>>> arthurmq_modified_by_hoshisabi
+        "level_range": "5-10",
         "product_id": "Whats-Within-FR-DC-TKM-WW",
         "tiers": 2,
         "title": "What's Within",
