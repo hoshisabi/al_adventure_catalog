@@ -1,19 +1,29 @@
 let adventures = [];
 let filteredAdventures = [];
 let currentPage = 1;
-const itemsPerPage = 50;
+let itemsPerPage;
+
+function updateItemsPerPage() {
+    if (window.innerWidth >= 992) { // Example breakpoint for larger screens
+        itemsPerPage = 48;
+    } else {
+        itemsPerPage = 24;
+    }
+    currentPage = 1; // Reset to first page when itemsPerPage changes
+    displayResults(); // Re-render with new item count
+}
 
 let filters = {
-    campaign: 'Forgotten Realms',
-    tier: '1',
-    hours: '2'
+    campaign: '',
+    tier: '',
+    hours: ''
 };
 
 let baseURL = '';
 if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-    baseURL = '/data/';
+    baseURL = '/assets/data/';
 } else {
-    baseURL = '/al_adventure_catalog/data/';
+    baseURL = '/al_adventure_catalog/assets/data/';
 }
 
 // Fetch and load the JSON data
@@ -21,9 +31,40 @@ fetch(baseURL + 'all_adventures.json')
     .then(response => response.json())
     .then(data => {
         adventures = data;
+        populateFilters(adventures);
+        updateItemsPerPage(); // Set initial items per page
         applyFilters();
         setupEventListeners();
     });
+
+window.addEventListener('resize', updateItemsPerPage); // Update on resize
+
+function populateFilters(adventures) {
+    const campaigns = [...new Set(adventures.map(a => a.campaign).flat())].sort();
+    const tiers = [...new Set(adventures.map(a => a.tiers).filter(t => t !== null).sort((a, b) => a - b))];
+    const hours = [...new Set(adventures.map(a => a.hours).filter(h => h !== null).sort((a, b) => a - b))];
+
+    populateDropdown('campaign', campaigns, 'All Campaigns');
+    populateDropdown('tier', tiers, 'All Tiers');
+    populateDropdown('hours', hours, 'All Lengths');
+}
+
+function populateDropdown(id, values, defaultOptionText) {
+    const selectElement = document.getElementById(id);
+    selectElement.innerHTML = ''; // Clear existing options
+
+    const defaultOption = document.createElement('option');
+    defaultOption.value = '';
+    defaultOption.textContent = defaultOptionText;
+    selectElement.appendChild(defaultOption);
+
+    values.forEach(value => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value;
+        selectElement.appendChild(option);
+    });
+}
 
 function setupEventListeners() {
     // Add event listeners for filters
@@ -73,16 +114,18 @@ function getTotalPages() {
 }
 
 function displayResults() {
+    console.log('Displaying results. Filtered adventures:', filteredAdventures.length);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = Math.min(startIndex + itemsPerPage, filteredAdventures.length);
     const currentPageData = filteredAdventures.slice(startIndex, endIndex);
+    console.log('Current page data count:', currentPageData.length);
 
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
 
     currentPageData.forEach(adventure => {
         const card = document.createElement('div');
-        card.className = 'border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow';
+        card.className = 'border rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow';
 
         // Handle campaign display for both array and single value cases
         const campaignDisplay = Array.isArray(adventure.campaign)
@@ -90,13 +133,10 @@ function displayResults() {
             : adventure.campaign;
 
         card.innerHTML = `
-            <h2 class="text-xl font-semibold mb-2">${adventure.title}</h2>
-            <p class="text-gray-600 mb-2">Code: ${adventure.code}</p>
-            <p class="text-gray-600 mb-2">Campaign: ${campaignDisplay}</p>
-            <p class="text-gray-600 mb-2">Authors: ${adventure.authors.join(', ')}</p>
-            <p class="text-gray-600 mb-2">Hours: ${adventure.hours}</p>
-            ${adventure.tiers ? `<p class="text-gray-600 mb-2">Tier: ${adventure.tiers}</p>` : ''}
-            <a href="${adventure.url}" target="_blank" class="text-blue-600 hover:text-blue-800">View on DMs Guild</a>
+            <a href="${adventure.url}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800">${adventure.title}</a>
+            <p class="text-sm text-gray-600 mb-1">Code: ${adventure.code}</p>
+            <p class="text-sm text-gray-600 mb-1">Campaign: ${campaignDisplay}</p>
+            <p class="text-sm text-gray-600 mb-1">Hours: ${adventure.hours} &bull; Tier: ${adventure.tiers}</p>
         `;
         resultsDiv.appendChild(card);
     });

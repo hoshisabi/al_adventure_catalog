@@ -3,11 +3,14 @@
     "authors": [
         "Fynn Headen"
     ],
-    "campaign": ["Eberron"],
+    "campaign": [
+        "Eberron"
+    ],
     "code": "EB-SM-SNAIL",
     "date_created": "20200410",
     "full_title": "Snail Tale: A 4 hour Tier 1 Salvage Mission",
     "hours": null,
+    "is_adventure": true,
     "level_range": null,
     "product_id": "Snail-Tale--A-4-hour-Tier-1-Salvage-Mission",
     "tiers": null,
