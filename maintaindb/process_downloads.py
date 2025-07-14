@@ -8,7 +8,7 @@ import logging
 import sys
 
 from bs4 import BeautifulSoup
-from dmsguild_webpage import DungeonCraft, _parse_html_to_dc_data
+from adventure import DungeonCraft, sanitize_filename, _parse_html_to_dc_data
 
 logger = logging.getLogger()
 logger.level = logging.INFO
@@ -50,7 +50,7 @@ def process_downloads():
 
             # Determine output JSON filename based on full_title
             # Sanitize full_title to create a valid filename
-            json_filename = dc.full_title.replace(' ', '-').replace('/', '-').replace(':', '-').replace('(', '').replace(')', '').replace('\'', '').replace('"', '') + '.json'
+            json_filename = sanitize_filename(dc.full_title) + ".json"
             output_file_path = os.path.join(output_json_path, json_filename)
 
             with open(output_file_path, 'w') as f:
