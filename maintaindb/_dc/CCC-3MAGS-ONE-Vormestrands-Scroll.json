@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Travis Woodall",
         "Peter Williams"
@@ -10,9 +10,9 @@
     "full_title": "CCC-3MAGS-ONE Vormestrand's Scroll",
     "hours": 7,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-2",
     "product_id": "CCC-3MAGS-ONE-Vormestrands-Scroll",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-3MAGS-ONE Vormestrand's Scroll",
     "url": "https://www.dmsguild.com/product/260364/CCC3MAGSONE-Vormestrands-Scroll?filters=45470_0_0_0_0_0_0_0"
 }
