@@ -45,6 +45,7 @@ def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_
             lower_description_text = description_text.lower()
 
             from adventure import DungeonCraft, sanitize_filename, get_patt_first_matching_group, str_to_int, get_dc_code_and_campaign
+            code, campaign = get_dc_code_and_campaign(full_title) or (None, None)
             has_code = code is not None
             is_bundle = 'bundle' in lower_full_title
             is_roll20 = 'roll20' in lower_full_title
