@@ -196,16 +196,27 @@ def get_dc_code_and_campaign(product_title):
                     return (text, DDAL_CAMPAIGN.get(code))
     return None
 
-def extract_data_from_html(parsed_html, product_id, product_alt=None):
-    module_name = None
-    hours = None
-    tier = None
-    apl = None
-    level_range = None
-    code = None
-    campaign = None
-    price = None
-    is_adventure = False
+def merge_adventure_data(existing_data, new_data, force_overwrite=False):
+    merged_data = existing_data.copy() if existing_data else {}
+    for key, new_value in new_data.items():
+        if force_overwrite or existing_data.get(key) is None or existing_data.get(key) == "" or existing_data.get(key) == [] or existing_data.get(key) == {}:
+            merged_data[key] = new_value
+    return merged_data
+
+def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False):
+    new_data = {
+        "module_name": None,
+        "authors": [],
+        "code": None,
+        "date_created": None,
+        "hours": None,
+        "tiers": None,
+        "apl": None,
+        "level_range": None,
+        "campaign": None,
+        "is_adventure": False,
+        "price": None
+    }
 
     product_title = parsed_html.find(
         "div", {"class": "grid_12 product-title"})
@@ -213,7 +224,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
         children = product_title.findChildren(
             "span", {"itemprop": "name"}, recursive=True)
         for child in children:
-            module_name = child.text
+            new_data["module_name"] = child.text
             break
 
     authors = []
@@ -222,8 +233,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
     if product_from:
         children = product_from.findChildren("a", recursive=True)
         for child in children:
-            current_author = child.text
-            authors.append(current_author)
+            new_data["authors"].append(child.text)
 
     date_created = None
     children = parsed_html.find_all(
@@ -232,7 +242,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
     for child in children:
         if key in child.text:
             date_str = child.text.replace(key, '').replace('.', '')
-            date_created = datetime.datetime.strptime(
+            new_data["date_created"] = datetime.datetime.strptime(
                 date_str.strip(), "%B %d, %Y").date()
             break
 
@@ -242,15 +252,14 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
     if product_content:
         text = product_content.text
 
-    code = None
-    campaign = None
-    if module_name:
-        result = get_dc_code_and_campaign(module_name)
-        if result is not None: (code, campaign) = result
+    if new_data["module_name"]:
+        result = get_dc_code_and_campaign(new_data["module_name"])
+        if result is not None:
+            new_data["code"], new_data["campaign"] = result
 
     # Check for EB- series adventures
-    if code and code.startswith("EB-"):
-        hours = 4
+    if new_data["code"] and new_data["code"].startswith("EB-"):
+        new_data["hours"] = 4
     else:
         # Try to find "X hour(s)" or "X-Y hour(s)"
         hours_match = re.search(r'(\d+)(?:-(\d+))?\s*(?:hour|hours|hr)', text, re.IGNORECASE)
@@ -259,92 +268,75 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
                 start_hour = str_to_int(hours_match.group(1))
                 end_hour = str_to_int(hours_match.group(2))
                 if start_hour and end_hour:
-                    hours = (start_hour + end_hour) / 2 # Take the average
+                    new_data["hours"] = (start_hour + end_hour) / 2 # Take the average
             else: # It's a single number like "X hours"
-                hours = str_to_int(hours_match.group(1))
+                new_data["hours"] = str_to_int(hours_match.group(1))
 
-    tier = get_patt_first_matching_group(r"Tier ?([1-4])", text)
-    tier = str_to_int(tier)
-
-    apl = get_patt_first_matching_group(r"APL ?(\d+)", text)
-    apl = str_to_int(apl)
+    new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", text))
+    new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", text))
 
     level_range_match = get_patt_first_matching_group(r"(?i)(?:levels? )?(\d+)(?:(?:[ -]|(?: to ))(\d+))?", text)
-    level_range = None
     if level_range_match:
         if isinstance(level_range_match, tuple):
-            level_range = f"{level_range_match[0]}-{level_range_match[1]}"
+            new_data["level_range"] = f"{level_range_match[0]}-{level_range_match[1]}"
         else:
-            level_range = str(level_range_match)
+            new_data["level_range"] = str(level_range_match)
 
     # Derive Tier from APL if Tier is None
-    if tier is None and apl is not None:
-        if 1 <= apl <= 4: tier = 1
-        elif 5 <= apl <= 10: tier = 2
-        elif 11 <= apl <= 16: tier = 3
-        elif 17 <= apl <= 20: tier = 4
+    if new_data["tiers"] is None and new_data["apl"] is not None:
+        if 1 <= new_data["apl"] <= 4: new_data["tiers"] = 1
+        elif 5 <= new_data["apl"] <= 10: new_data["tiers"] = 2
+        elif 11 <= new_data["apl"] <= 16: new_data["tiers"] = 3
+        elif 17 <= new_data["apl"] <= 20: new_data["tiers"] = 4
     
     # Derive Level Range from Tier if Level Range is None or not a valid range
     derived_level_range = None
-    if tier is not None:
-        if tier == 1: derived_level_range = "1-4"
-        elif tier == 2: derived_level_range = "5-10"
-        elif tier == 3: derived_level_range = "11-16"
-        elif tier == 4: derived_level_range = "17-20"
+    if new_data["tiers"] is not None:
+        if new_data["tiers"] == 1: derived_level_range = "1-4"
+        elif new_data["tiers"] == 2: derived_level_range = "5-10"
+        elif new_data["tiers"] == 3: derived_level_range = "11-16"
+        elif new_data["tiers"] == 4: derived_level_range = "17-20"
 
     # Use derived level range if extracted is not a range or is None
-    if level_range is None or not re.match(r"\\d+-\\d+", str(level_range)):
-        level_range = derived_level_range
+    if new_data["level_range"] is None or not re.match(r"\d+-\d+", str(new_data["level_range"])):
+        new_data["level_range"] = derived_level_range
 
     # Determine if it's an adventure
-    lower_full_title = module_name.lower() if module_name else ""
+    lower_full_title = new_data["module_name"].lower() if new_data["module_name"] else ""
     is_bundle = 'bundle' in lower_full_title
     is_roll20 = 'roll20' in lower_full_title
     is_fg = 'fantasy grounds' in lower_full_title
 
-    if code and not is_bundle and not is_roll20 and not is_fg:
-        is_adventure = True
+    if new_data["code"] and not is_bundle and not is_roll20 and not is_fg:
+        new_data["is_adventure"] = True
     else:
-        is_adventure = False
+        new_data["is_adventure"] = False
 
     # Price extraction
-    price = None
     # Prioritize product-price-strike for original price
     original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
     if original_price_strike_match:
         price_text = original_price_strike_match.get_text(strip=True)
-        price_value = re.search(r'\$([\\d\\.]+)', price_text)
+        price_value = re.search(r'\$([\d\.]+)', price_text)
         if price_value:
-            price = float(price_value.group(1))
+            new_data["price"] = float(price_value.group(1))
     
-    if price is None:
+    if new_data["price"] is None:
         # Then try price-old
         original_price_old_match = parsed_html.find("div", class_="price-old")
         if original_price_old_match:
             price_text = original_price_old_match.get_text(strip=True)
-            price_value = re.search(r'\$([\\d\\.]+)', price_text)
+            price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
-                price = float(price_value.group(1))
+                new_data["price"] = float(price_value.group(1))
     
-    if price is None:
+    if new_data["price"] is None:
         # Fallback to general price
         price_match = parsed_html.find("div", class_="price")
         if price_match:
             price_text = price_match.get_text(strip=True)
-            price_value = re.search(r'\$([\\d\\.]+)', price_text)
+            price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
-                price = float(price_value.group(1))
+                new_data["price"] = float(price_value.group(1))
 
-    return {
-        "module_name": module_name,
-        "authors": authors,
-        "code": code,
-        "date_created": date_created,
-        "hours": hours,
-        "tiers": tier,
-        "apl": apl,
-        "level_range": level_range,
-        "campaign": campaign,
-        "is_adventure": is_adventure,
-        "price": price
-    }
+    return merge_adventure_data(existing_data, new_data, force_overwrite)
