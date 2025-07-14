@@ -1,12 +1,10 @@
-feat: Sanitize filenames to handle periods before extension
+feat: Improve hours parsing and filename sanitization
 
-Modified `sanitize_filename` in `adventure.py` to correctly handle periods in filenames.
+- Modified `sanitize_filename` in `adventure.py` to correctly handle periods in filenames.
+  Previously, all periods were replaced with dashes, which could corrupt file extensions.
+  The updated function now:
+  - Splits the filename into base name and extension.
+  - Replaces non-alphanumeric characters (including periods) with dashes only in the base name.
+  - Preserves the original file extension.
 
-Previously, all periods were replaced with dashes, which could corrupt file extensions.
-
-The updated function now:
-- Splits the filename into base name and extension.
-- Replaces non-alphanumeric characters (including periods) with dashes only in the base name.
-- Preserves the original file extension.
-
-This ensures that filenames like `EB-SALVAGE-RSM-T4.4-Daughter-of-Khyber.json` are correctly sanitized without altering the `.json` extension.
+- Removed redundant `hours = None` assignment in `extract_data_from_html` to ensure correct parsing of hours for EB- series adventures.
