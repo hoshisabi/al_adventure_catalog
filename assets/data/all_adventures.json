@@ -4609,7 +4609,7 @@
         "code": "CCC-DES-01-06",
         "date_created": "20200821",
         "full_title": "CCC-DES-01-06 One Last Job",
-        "hours": 0,
+        "hours": "4-6",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "CCC-DES-01-06-One-Last-Job",
@@ -13998,9 +13998,10 @@
         "code": "CCC-JGD-02",
         "date_created": "20191008",
         "full_title": "CCC-JGD-02 Tortle Crossing",
-        "hours": 2,
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "price": 3.99,
         "product_id": "CCC-JGD-02-Tortle-Crossing",
         "tiers": 1,
         "title": "DDAL- JGD-02 Tortle Crossing",
@@ -17184,7 +17185,7 @@
         "url": "https://www.dmsguild.com/product/170502/DDEX308-The-Malady-of-Elventree-5e&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Wizards of the Coast"
         ],
@@ -17196,11 +17197,12 @@
         "full_title": "DDEX3-09 The Waydown (5e)",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "DDEX3-09-The-Waydown-5e",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "170504",
+        "tiers": 2,
         "title": "DDEX3-09 The Waydown 5e",
-        "url": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/170504/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -18153,6 +18155,24 @@
         "tiers": 4,
         "title": "EB-EP-04 The Last War",
         "url": "https://www.dmsguild.com/product/379297/?affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "Integral Game Conglomerate LLC"
+        ],
+        "campaign": "Eberron",
+        "code": "EB-SALVAGE-RSM-T4.4",
+        "date_created": "20230131",
+        "full_title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
+        "hours": 2,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 1.0,
+        "product_id": "425292",
+        "tiers": 4,
+        "title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
+        "url": "https://www.dmsguild.com/product/425292/EBSALVAGERSMT44-Daughter-of-Khyber?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 20,
@@ -21454,10 +21474,29 @@
         "hours": 13,
         "is_adventure": true,
         "level_range": "1-4",
+        "price": null,
+        "product_id": "406494",
+        "tiers": 1,
+        "title": "Kobold King's Labyrinth",
+        "url": "https://www.dmsguild.com/product/406494/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Jason Lee"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "WBW-DC-LAB-01",
+        "date_created": "20220814",
+        "full_title": "Kobold King's Labyrinth (WBW-DC-LAB-01)",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
         "product_id": "Kobold-Kings-Labyrinth-WBW-DC-LAB-01",
         "tiers": 1,
         "title": "Kobold King's Labyrinth",
-        "url": "https://www.dmsguild.com/product/406494/Kobold-Kings-Labyrinth-WBWDCLAB01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/406494?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -23918,16 +23957,17 @@
         "code": "RMH-01",
         "date_created": "20210810",
         "full_title": "RMH-01 The Final Curtain",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "RMH-01-The-Final-Curtain",
+        "level_range": 3,
+        "price": 9.99,
+        "product_id": "367198",
         "tiers": 1,
         "title": "RMH-01 The Final Curtain",
-        "url": "https://www.dmsguild.com/product/367198/RMH01-The-Final-Curtain?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/367198/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "D&D Adventurers League"
         ],
@@ -23937,13 +23977,14 @@
         "code": "RMH-02",
         "date_created": "20210914",
         "full_title": "RMH-02 Back to the Front",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "RMH-02-Back-to-the-Front",
-        "tiers": null,
+        "level_range": 3,
+        "price": 9.99,
+        "product_id": "370754",
+        "tiers": 1,
         "title": "RMH-02 Back to the Front",
-        "url": "https://www.dmsguild.com/product/370754/RMH02-Back-to-the-Front?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/370754/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -25140,24 +25181,6 @@
         "tiers": 3,
         "title": "Finally Saving Marcus",
         "url": "https://www.dmsguild.com/product/465399/SJDCCONMAR04-Finally-Saving-Marcus?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Christian Alhaug",
-            "Martine Lassen"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "SJ-DC-CONMAR",
-        "date_created": "20240102",
-        "full_title": "SJ-DC-CONMAR Art & Info Pack",
-        "hours": 2,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CONMAR-Art--Info-Pack",
-        "tiers": 3,
-        "title": "Art & Info Pack",
-        "url": "https://www.dmsguild.com/product/465858/SJDCCONMAR-Art--Info-Pack?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 2,
