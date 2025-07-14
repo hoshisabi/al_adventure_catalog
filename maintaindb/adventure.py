@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import logging
 import sys
+import os
 
 logger = logging.getLogger()
 
@@ -62,12 +63,22 @@ def sanitize_filename(filename):
     """
     # Normalize unicode characters
     normalized_filename = unicodedata.normalize('NFKD', filename).encode('ascii', 'ignore').decode('ascii')
-    # Replace non-alphanumeric characters with a dash
-    sanitized_filename = re.sub(r'[^a-zA-Z0-9_.-]', '-', normalized_filename)
+    
+    # Split the filename into name and extension
+    name, ext = os.path.splitext(normalized_filename)
+
+    # Replace non-alphanumeric characters (excluding the period for extension) with a dash in the name part
+    sanitized_name = re.sub(r'[^a-zA-Z0-9_-]', '-', name)
+    
     # Replace multiple dashes with a single dash
-    sanitized_filename = re.sub(r'-+', '-', sanitized_filename)
-    # Remove leading and trailing dashes
-    sanitized_filename = sanitized_filename.strip('-')
+    sanitized_name = re.sub(r'-+', '-', sanitized_name)
+    
+    # Remove leading and trailing dashes from the name
+    sanitized_name = sanitized_name.strip('-')
+    
+    # Recombine the sanitized name and original extension
+    sanitized_filename = f"{sanitized_name}{ext}"
+    
     return sanitized_filename
 
 
