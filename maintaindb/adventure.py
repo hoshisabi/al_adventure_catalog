@@ -193,6 +193,8 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
     level_range = None
     code = None
     campaign = None
+    price = None
+    is_adventure = False
 
     product_title = parsed_html.body.find(
         "div", {"class": "grid_12 product-title"})
@@ -233,12 +235,46 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
     apl = str_to_int(apl)
     level_range = get_patt_first_matching_group(r"(?i)(?:levels ?)?(\d+)(?:nd|th)?(?:[ -]|through|to)*(\d+)(?:nd|th)?[- ](?:level)?", text)
     
+    # Derive Tier from APL if Tier is None
+    if tier is None and apl is not None:
+        if 1 <= apl <= 4: tier = 1
+        elif 5 <= apl <= 10: tier = 2
+        elif 11 <= apl <= 16: tier = 3
+        elif 17 <= apl <= 20: tier = 4
+    
+    # Derive Level Range from Tier if Level Range is None or not a valid range
+    derived_level_range = None
+    if tier is not None:
+        if tier == 1: derived_level_range = "1-4"
+        elif tier == 2: derived_level_range = "5-10"
+        elif tier == 3: derived_level_range = "11-16"
+        elif tier == 4: derived_level_range = "17-20"
+
+    # Use derived level range if extracted is not a range or is None
+    if level_range is None or not re.match(r"\d+-\d+", str(level_range)):
+        level_range = derived_level_range
 
     code = None
     campaign = None
     if module_name:
         result = get_dc_code_and_campaign(module_name)
         if result is not None: (code, campaign) = result
+
+    # Extract price
+    price_match = re.search(r'<b>Price</b>: \$([\d\.]+)', parsed_html.prettify())
+    price = float(price_match.group(1)) if price_match else None
+
+    # Determine is_adventure
+    lower_module_name = module_name.lower() if module_name else ""
+    is_bundle = 'bundle' in lower_module_name
+    is_roll20 = 'roll20' in lower_module_name
+    is_fg = 'fantasy grounds' in lower_module_name
+    has_code = code is not None
+
+    if has_code and not is_bundle and not is_roll20 and not is_fg:
+        is_adventure = True
+    else:
+        is_adventure = False
 
     return {
         "module_name": module_name,
@@ -249,7 +285,9 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
         "tiers": tier,
         "apl": apl,
         "level_range": level_range,
-        "campaign": campaign
+        "campaign": campaign,
+        "is_adventure": is_adventure,
+        "price": price
     }
 
 def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> DungeonCraft:
