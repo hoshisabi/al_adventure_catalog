@@ -3,15 +3,18 @@
     "authors": [
         "D&D Adventurers League"
     ],
-    "campaign": null,
+    "campaign": [
+        "Eberron"
+    ],
     "code": "EB-19",
     "date_created": "20210930",
     "full_title": "EB-19 Back to the Mud",
-    "hours": null,
+    "hours": 0,
     "is_adventure": true,
     "level_range": null,
-    "product_id": "EB-19-Back-to-the-Mud",
+    "price": null,
+    "product_id": "372377",
     "tiers": null,
     "title": "EB-19 Back to the Mud",
-    "url": "https://www.dmsguild.com/product/372377/EB19-Back-to-the-Mud?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/372377/?affiliate_id=171040"
 }

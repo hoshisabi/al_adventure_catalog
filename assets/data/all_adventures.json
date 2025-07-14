@@ -17668,13 +17668,14 @@
         "code": "EB-01",
         "date_created": "20191202",
         "full_title": "EB-01 The Night Land",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-01-The-Night-Land",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "296403",
         "tiers": 1,
         "title": "EB-01 The Night Land",
-        "url": "https://www.dmsguild.com/product/296403/EB01-The-Night-Land?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/296403/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -17687,13 +17688,14 @@
         "code": "EB-02",
         "date_created": "20200107",
         "full_title": "EB-02 Voice in the Machine",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-02-Voice-in-the-Machine",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "299680",
         "tiers": 1,
         "title": "EB-02 Voice in the Machine",
-        "url": "https://www.dmsguild.com/product/299680/EB02-Voice-in-the-Machine?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/299680/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17706,13 +17708,14 @@
         "code": "EB-03",
         "date_created": "20200204",
         "full_title": "EB-03 Where the Dead Wait",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-03-Where-the-Dead-Wait",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "302373",
         "tiers": 1,
         "title": "EB-03 Where the Dead Wait",
-        "url": "https://www.dmsguild.com/product/302373/EB03-Where-the-Dead-Wait?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/302373/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -17725,13 +17728,14 @@
         "code": "EB-04",
         "date_created": "20200301",
         "full_title": "EB-04 The Third Protocol",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-04-The-Third-Protocol",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "305024",
         "tiers": 1,
         "title": "EB-04 The Third Protocol",
-        "url": "https://www.dmsguild.com/product/305024/EB04-The-Third-Protocol?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/305024/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -17746,11 +17750,12 @@
         "full_title": "EB-05 A Century of Ashes",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-05-A-Century-of-Ashes",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "312336",
         "tiers": 2,
         "title": "EB-05 A Century of Ashes",
-        "url": "https://www.dmsguild.com/product/312336/EB05-A-Century-of-Ashes?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/312336/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -17763,13 +17768,14 @@
         "code": "EB-06",
         "date_created": "20200603",
         "full_title": "EB-06 The Last Word",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-06-The-Last-Word",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "316059",
         "tiers": 2,
         "title": "EB-06 The Last Word",
-        "url": "https://www.dmsguild.com/product/316059/EB06-The-Last-Word?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/316059/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -17782,13 +17788,14 @@
         "code": "EB-07",
         "date_created": "20200706",
         "full_title": "EB-07 Song of the Sky",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-07-Song-of-the-Sky",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "319657",
         "tiers": 2,
         "title": "EB-07 Song of the Sky",
-        "url": "https://www.dmsguild.com/product/319657/EB07-Song-of-the-Sky?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/319657/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -17801,13 +17808,14 @@
         "code": "EB-08",
         "date_created": "20200803",
         "full_title": "EB-08 Parliament of Gears",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-08-Parliament-of-Gears",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "322749",
         "tiers": 2,
         "title": "EB-08 Parliament of Gears",
-        "url": "https://www.dmsguild.com/product/322749/EB08-Parliament-of-Gears?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/322749/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -17820,13 +17828,14 @@
         "code": "EB-09",
         "date_created": "20200901",
         "full_title": "EB-09 Lord Bucket",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-09-Lord-Bucket",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "326339",
         "tiers": 2,
         "title": "EB-09 Lord Bucket",
-        "url": "https://www.dmsguild.com/product/326339/EB09-Lord-Bucket?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/326339/?affiliate_id=171040"
     },
     {
         "apl": 10,
@@ -17839,13 +17848,14 @@
         "code": "EB-10",
         "date_created": "20201006",
         "full_title": "EB-10 Judgment of Iron",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-10-Judgment-of-Iron",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "331083",
         "tiers": 2,
         "title": "EB-10 Judgment of Iron",
-        "url": "https://www.dmsguild.com/product/331083/EB10-Judgment-of-Iron?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/331083/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -17858,13 +17868,14 @@
         "code": "EB-11",
         "date_created": "20201201",
         "full_title": "EB-11 My Undying Heart",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-11-My-Undying-Heart",
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "337947",
         "tiers": 3,
         "title": "EB-11 My Undying Heart",
-        "url": "https://www.dmsguild.com/product/337947/EB11-My-Undying-Heart?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/337947/?affiliate_id=171040"
     },
     {
         "apl": 12,
@@ -17877,13 +17888,14 @@
         "code": "EB-12",
         "date_created": "20210105",
         "full_title": "EB-12 The Waiting Game",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-12-The-Waiting-Game",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "342451",
+        "tiers": 3,
         "title": "EB-12 The Waiting Game",
-        "url": "https://www.dmsguild.com/product/342451/EB12-The-Waiting-Game?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/342451/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17896,13 +17908,14 @@
         "code": "EB-13",
         "date_created": "20210125",
         "full_title": "EB-13 Stonefire",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-13-Stonefire",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "344584",
+        "tiers": 3,
         "title": "EB-13 Stonefire",
-        "url": "https://www.dmsguild.com/product/344584/EB13-Stonefire?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/344584/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -17915,13 +17928,14 @@
         "code": "EB-14",
         "date_created": "20210309",
         "full_title": "EB-14 From Dust",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-14-From-Dust",
+        "level_range": null,
+        "price": null,
+        "product_id": "349669",
         "tiers": null,
         "title": "EB-14 From Dust",
-        "url": "https://www.dmsguild.com/product/349669/EB14-From-Dust?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/349669/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -17934,13 +17948,14 @@
         "code": "EB-15",
         "date_created": "20210406",
         "full_title": "EB-15 Dream Eater",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-15-Dream-Eater",
+        "level_range": null,
+        "price": null,
+        "product_id": "352879",
         "tiers": null,
         "title": "EB-15 Dream Eater",
-        "url": "https://www.dmsguild.com/product/352879/EB15-Dream-Eater?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/352879/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -17953,13 +17968,14 @@
         "code": "EB-16",
         "date_created": "20210503",
         "full_title": "EB-16 The Dragon Below",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-16-The-Dragon-Below",
+        "level_range": null,
+        "price": null,
+        "product_id": "356496",
         "tiers": null,
         "title": "EB-16 The Dragon Below",
-        "url": "https://www.dmsguild.com/product/356496/EB16-The-Dragon-Below?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/356496/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -17972,13 +17988,14 @@
         "code": "EB-17",
         "date_created": "20210706",
         "full_title": "EB-17 The Final Tribute",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-17-The-Final-Tribute",
+        "level_range": null,
+        "price": null,
+        "product_id": "363337",
         "tiers": null,
         "title": "EB-17 The Final Tribute",
-        "url": "https://www.dmsguild.com/product/363337/EB17-The-Final-Tribute?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/363337/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -17991,47 +18008,54 @@
         "code": "EB-18",
         "date_created": "20210824",
         "full_title": "EB-18 Scales of War",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-18-Scales-of-War",
+        "level_range": null,
+        "price": null,
+        "product_id": "368629",
         "tiers": null,
         "title": "EB-18 Scales of War",
-        "url": "https://www.dmsguild.com/product/368629/EB18-Scales-of-War?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": null,
+        "campaign": [
+            "Eberron"
+        ],
         "code": "EB-19",
         "date_created": "20210930",
         "full_title": "EB-19 Back to the Mud",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "EB-19-Back-to-the-Mud",
+        "price": null,
+        "product_id": "372377",
         "tiers": null,
         "title": "EB-19 Back to the Mud",
-        "url": "https://www.dmsguild.com/product/372377/EB19-Back-to-the-Mud?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/372377/?affiliate_id=171040"
     },
     {
         "apl": 20,
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": null,
+        "campaign": [
+            "Eberron"
+        ],
         "code": "EB-20",
         "date_created": "20220127",
         "full_title": "EB-20 Old Scores",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "EB-20-Old-Scores",
-        "tiers": null,
+        "level_range": "17-20",
+        "price": null,
+        "product_id": "384724",
+        "tiers": 4,
         "title": "EB-20 Old Scores",
-        "url": "https://www.dmsguild.com/product/384724/EB20-Old-Scores?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/384724/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -18061,13 +18085,14 @@
         "code": "EB-EP-01",
         "date_created": "20200407",
         "full_title": "EB-EP-01 The Iron Titan",
-        "hours": null,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-EP-01-The-Iron-Titan",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "308553",
         "tiers": 1,
         "title": "EB-EP-01 The Iron Titan",
-        "url": "https://www.dmsguild.com/product/308553/EBEP01-The-Iron-Titan?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/308553/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -18080,13 +18105,14 @@
         "code": "EB-EP-02",
         "date_created": "20201110",
         "full_title": "EB-EP-02 Rolling Thunder",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-EP-02-Rolling-Thunder",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "335587",
         "tiers": 2,
         "title": "EB-EP-02 Rolling Thunder",
-        "url": "https://www.dmsguild.com/product/335587/EBEP02-Rolling-Thunder?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/335587/?affiliate_id=171040"
     },
     {
         "apl": 16,
@@ -18099,30 +18125,34 @@
         "code": "EB-EP-03",
         "date_created": "20210621",
         "full_title": "EB-EP-03 The Rising City",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "EB-EP-03-The-Rising-City",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "361712",
+        "tiers": 3,
         "title": "EB-EP-03 The Rising City",
-        "url": "https://www.dmsguild.com/product/361712/EBEP03-The-Rising-City?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/361712/?affiliate_id=171040"
     },
     {
         "apl": 20,
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": null,
+        "campaign": [
+            "Eberron"
+        ],
         "code": "EB-EP-04",
         "date_created": "20211207",
         "full_title": "EB-EP-04 The Last War",
-        "hours": 4,
+        "hours": 0,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "EB-EP-04-The-Last-War",
-        "tiers": null,
+        "level_range": "17-20",
+        "price": null,
+        "product_id": "379297",
+        "tiers": 4,
         "title": "EB-EP-04 The Last War",
-        "url": "https://www.dmsguild.com/product/379297/EBEP04-The-Last-War?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/379297/?affiliate_id=171040"
     },
     {
         "apl": 20,
@@ -19432,6 +19462,22 @@
         "tiers": 2,
         "title": "The Open Hand",
         "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-NEW-TIER1-1",
+        "date_created": "20250711",
+        "full_title": "FR-DC-NEW-TIER1-1",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": null,
+        "price": 1.0,
+        "product_id": "529395",
+        "tiers": null,
+        "title": "",
+        "url": "https://www.dmsguild.com/product/529395/FRDCNEWTIER11?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": null,
