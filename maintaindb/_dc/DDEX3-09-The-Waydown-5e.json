@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Wizards of the Coast"
     ],
@@ -11,9 +11,10 @@
     "full_title": "DDEX3-09 The Waydown (5e)",
     "hours": 4,
     "is_adventure": true,
-    "level_range": "5",
-    "product_id": "DDEX3-09-The-Waydown-5e",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 3.99,
+    "product_id": "170504",
+    "tiers": 2,
     "title": "DDEX3-09 The Waydown 5e",
-    "url": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e"
+    "url": "https://www.dmsguild.com/product/170504/?affiliate_id=171040"
 }
