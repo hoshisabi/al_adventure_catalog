@@ -248,7 +248,6 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
         result = get_dc_code_and_campaign(module_name)
         if result is not None: (code, campaign) = result
 
-    hours = None
     # Check for EB- series adventures
     if code and code.startswith("EB-"):
         hours = 4
