@@ -1,4 +1,12 @@
-fix: Handle NoneType errors in extract_data_from_html
+feat: Sanitize filenames to handle periods before extension
 
-- Added checks for `None` values for `product_title`, `product_from`, and `product_content` in `extract_data_from_html`.
-- This resolves the `AttributeError: 'NoneType' object has no attribute 'find'` when parsing partial HTML from RSS feeds.
+Modified `sanitize_filename` in `adventure.py` to correctly handle periods in filenames.
+
+Previously, all periods were replaced with dashes, which could corrupt file extensions.
+
+The updated function now:
+- Splits the filename into base name and extension.
+- Replaces non-alphanumeric characters (including periods) with dashes only in the base name.
+- Preserves the original file extension.
+
+This ensures that filenames like `EB-SALVAGE-RSM-T4.4-Daughter-of-Khyber.json` are correctly sanitized without altering the `.json` extension.
