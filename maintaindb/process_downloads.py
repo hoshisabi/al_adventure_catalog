@@ -16,7 +16,7 @@ stream_handler = logging.StreamHandler(sys.stdout)
 logger.addHandler(stream_handler)
 
 root = str(pathlib.Path(__file__).parent.absolute())
-input_html_path = os.path.join(root, '..', 'dmsguildinfo')
+input_html_path = os.path.join(root, 'dmsguildinfo')
 output_json_path = os.path.join(root, '_dc')
 processed_html_path = os.path.join(input_html_path, 'processed')
 
