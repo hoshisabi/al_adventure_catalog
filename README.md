@@ -41,4 +41,4 @@ To upload your changes to the repository:
 1.  Check the status of your changes: `git status`
 2.  Add all modified files to the staging area: `git add .`
 3.  Commit your changes with a descriptive message: `git commit -m "Descriptive commit message"`
-4.  Push your changes to the remote repository: `git push origin <your-branch-name>` (Replace `<your-branch-name>` with your actual branch name, e.g., `main` or `master`).
+4.  Push your changes to the remote repository: `git push origin <your-branch-name>` (Replace `<your-branch-name>` with your actual branch name, e.g., `main`).
