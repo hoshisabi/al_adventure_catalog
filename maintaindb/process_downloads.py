@@ -8,7 +8,7 @@ import logging
 import sys
 
 from bs4 import BeautifulSoup
-from adventure import DungeonCraft, sanitize_filename, _parse_html_to_dc_data
+from adventure import DungeonCraft, sanitize_filename, extract_data_from_html
 
 logger = logging.getLogger()
 logger.level = logging.INFO
@@ -42,7 +42,7 @@ def process_downloads():
             dummy_url = f"https://www.dmsguild.com/product/{product_id}/?affiliate_id=171040"
 
             parsed_html = BeautifulSoup(html_content, features="html.parser")
-            data = _parse_html_to_dc_data(parsed_html, product_id, product_alt=None)
+            data = extract_data_from_html(parsed_html, product_id, product_alt=None)
 
             # Construct the DungeonCraft object
             dc = DungeonCraft(product_id, data["module_name"], data["authors"],

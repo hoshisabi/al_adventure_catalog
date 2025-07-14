@@ -1,0 +1,11 @@
+Refactor: Centralize data extraction and parsing
+
+This commit centralizes the data extraction and parsing logic for DMsGuild products into `adventure.py`.
+
+- Renamed `_parse_html_to_dc_data` to `extract_data_from_html` in `adventure.py`.
+- Enhanced `extract_data_from_html` to extract `tiers`, `apl`, `hours`, `level_range`, and `is_adventure` from HTML content.
+- Modified `dmsguild_rss_parser.py` and `process_downloads.py` to utilize the new `extract_data_from_html` function.
+- Removed redundant data extraction logic from `dmsguild_rss_parser.py`.
+- Removed the `url_2_DC` function from `adventure.py` as it is no longer needed.
+
+This refactoring reduces code duplication, improves maintainability, and ensures consistent data parsing across different data sources.

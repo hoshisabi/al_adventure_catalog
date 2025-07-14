@@ -147,13 +147,6 @@ class DungeonCraft:
             return date_obj.strftime("%Y, %b")
         return 'Unknown'
 
-def get_patt_first_matching_group(regex, text):
-    if matches := re.search(regex, text, re.MULTILINE | re.IGNORECASE):
-        for group in matches.groups():
-            if group:
-                return group
-    return None
-
 def str_to_int(value):
     if not value:
         return None
@@ -170,6 +163,13 @@ def str_to_int(value):
     except Exception:
         return None
 
+def get_patt_first_matching_group(regex, text):
+    if matches := re.search(regex, text, re.MULTILINE | re.IGNORECASE):
+        for group in matches.groups():
+            if group:
+                return group
+    return None
+
 def get_dc_code_and_campaign(product_title):
     content = str(product_title).upper().split()
     for text in content:
@@ -185,7 +185,7 @@ def get_dc_code_and_campaign(product_title):
                     return (text, DDAL_CAMPAIGN.get(code))
     return None
 
-def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
+def extract_data_from_html(parsed_html, product_id, product_alt=None):
     module_name = None
     hours = None
     tier = None
@@ -227,14 +227,29 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
         "div", {"class": "alpha omega prod-content"})
     text = product_content.text
 
-    hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*Hour", text)
+    code = None
+    campaign = None
+    if module_name:
+        result = get_dc_code_and_campaign(module_name)
+        if result is not None: (code, campaign) = result
+
+    hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*(?:hour|to|through|\+|-|\s+)*", text)
     hours = str_to_int(hours)
+
     tier = get_patt_first_matching_group(r"Tier ?([1-4])", text)
     tier = str_to_int(tier)
+
     apl = get_patt_first_matching_group(r"APL ?(\d+)", text)
     apl = str_to_int(apl)
-    level_range = get_patt_first_matching_group(r"(?i)(?:levels ?)?(\d+)(?:nd|th)?(?:[ -]|through|to)*(\d+)(?:nd|th)?[- ](?:level)?", text)
-    
+
+    level_range_match = get_patt_first_matching_group(r"(?i)(?:levels? )?(\d+)(?:(?:[ -]|(?: to ))(\d+))?", text)
+    level_range = None
+    if level_range_match:
+        if isinstance(level_range_match, tuple):
+            level_range = f"{level_range_match[0]}-{level_range_match[1]}"
+        else:
+            level_range = str(level_range_match)
+
     # Derive Tier from APL if Tier is None
     if tier is None and apl is not None:
         if 1 <= apl <= 4: tier = 1
@@ -251,30 +266,27 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
         elif tier == 4: derived_level_range = "17-20"
 
     # Use derived level range if extracted is not a range or is None
-    if level_range is None or not re.match(r"\d+-\d+", str(level_range)):
+    if level_range is None or not re.match(r"\\d+-\\d+", str(level_range)):
         level_range = derived_level_range
 
-    code = None
-    campaign = None
-    if module_name:
-        result = get_dc_code_and_campaign(module_name)
-        if result is not None: (code, campaign) = result
+    # Determine if it's an adventure
+    lower_full_title = module_name.lower() if module_name else ""
+    is_bundle = 'bundle' in lower_full_title
+    is_roll20 = 'roll20' in lower_full_title
+    is_fg = 'fantasy grounds' in lower_full_title
 
-    # Extract price
-    price_match = re.search(r'<b>Price</b>: \$([\d\.]+)', parsed_html.prettify())
-    price = float(price_match.group(1)) if price_match else None
-
-    # Determine is_adventure
-    lower_module_name = module_name.lower() if module_name else ""
-    is_bundle = 'bundle' in lower_module_name
-    is_roll20 = 'roll20' in lower_module_name
-    is_fg = 'fantasy grounds' in lower_module_name
-    has_code = code is not None
-
-    if has_code and not is_bundle and not is_roll20 and not is_fg:
+    if code and not is_bundle and not is_roll20 and not is_fg:
         is_adventure = True
     else:
         is_adventure = False
+
+    # Price extraction (assuming it's present in the HTML)
+    price_match = parsed_html.find("div", class_="price")
+    if price_match:
+        price_text = price_match.get_text(strip=True)
+        price_value = re.search(r'\$([\\d\\.]+)', price_text)
+        if price_value:
+            price = float(price_value.group(1))
 
     return {
         "module_name": module_name,
@@ -289,22 +301,3 @@ def _parse_html_to_dc_data(parsed_html, product_id, product_alt=None):
         "is_adventure": is_adventure,
         "price": price
     }
-
-def url_2_DC(input_url: str, product_id: str = None, product_alt=None) -> DungeonCraft:
-    try:
-        if "affiliate_id" not in input_url:
-            input_url += "&affiliate_id=171040"
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
-        parsed_html = BeautifulSoup(requests.get(
-            input_url, headers=headers, timeout=60).text, features="html.parser")
-
-        data = _parse_html_to_dc_data(parsed_html, product_id, product_alt)
-
-        dc = DungeonCraft(product_id, data["module_name"], data["authors"],
-                          data["code"], data["date_created"], data["hours"], data["tiers"], data["apl"], data["level_range"], input_url, data["campaign"])
-
-        logger.info(f'>> {product_id} processed ({input_url})')
-        return dc
-    except Exception as ex:
-        logger.error(f'Error processing {input_url}: {str(ex)}')
-        return None
