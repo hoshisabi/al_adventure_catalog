@@ -233,8 +233,21 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
         result = get_dc_code_and_campaign(module_name)
         if result is not None: (code, campaign) = result
 
-    hours = get_patt_first_matching_group(r"(?i)(two|four|\d)+(?:hour|to|through|\+|-|\s+)*(?:(\d|two|four|eight|\s)+)*(?:hour|to|through|\+|-|\s+)*", text)
-    hours = str_to_int(hours)
+    hours = None
+    # Check for EB- series adventures
+    if code and code.startswith("EB-"):
+        hours = 4
+    else:
+        # Try to find "X hour(s)" or "X-Y hour(s)"
+        hours_match = re.search(r'(\d+)(?:-(\d+))?\s*(?:hour|hours|hr)', text, re.IGNORECASE)
+        if hours_match:
+            if hours_match.group(2): # It's a range like "X-Y hours"
+                start_hour = str_to_int(hours_match.group(1))
+                end_hour = str_to_int(hours_match.group(2))
+                if start_hour and end_hour:
+                    hours = (start_hour + end_hour) / 2 # Take the average
+            else: # It's a single number like "X hours"
+                hours = str_to_int(hours_match.group(1))
 
     tier = get_patt_first_matching_group(r"Tier ?([1-4])", text)
     tier = str_to_int(tier)
@@ -280,13 +293,33 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
     else:
         is_adventure = False
 
-    # Price extraction (assuming it's present in the HTML)
-    price_match = parsed_html.find("div", class_="price")
-    if price_match:
-        price_text = price_match.get_text(strip=True)
+    # Price extraction
+    price = None
+    # Prioritize product-price-strike for original price
+    original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
+    if original_price_strike_match:
+        price_text = original_price_strike_match.get_text(strip=True)
         price_value = re.search(r'\$([\\d\\.]+)', price_text)
         if price_value:
             price = float(price_value.group(1))
+    
+    if price is None:
+        # Then try price-old
+        original_price_old_match = parsed_html.find("div", class_="price-old")
+        if original_price_old_match:
+            price_text = original_price_old_match.get_text(strip=True)
+            price_value = re.search(r'\$([\\d\\.]+)', price_text)
+            if price_value:
+                price = float(price_value.group(1))
+    
+    if price is None:
+        # Fallback to general price
+        price_match = parsed_html.find("div", class_="price")
+        if price_match:
+            price_text = price_match.get_text(strip=True)
+            price_value = re.search(r'\$([\\d\\.]+)', price_text)
+            if price_value:
+                price = float(price_value.group(1))
 
     return {
         "module_name": module_name,
