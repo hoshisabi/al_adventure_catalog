@@ -1,0 +1,1 @@
+Place any files downloaded from the DM's Guild bookmarklet here. This directory is now located within the `maintaindb` directory.

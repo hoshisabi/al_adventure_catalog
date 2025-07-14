@@ -22,7 +22,7 @@ There are two primary methods for ingesting new adventure data:
 2.  **Ingest an Adventure**:
     *   Navigate to the DMsGuild product page of the adventure you wish to ingest.
     *   Click on the "DMsGuild Scraper" bookmarklet.
-    *   The bookmarklet will prompt you to save an HTML file. Save this file into the `dmsguildinfo` directory (e.g., `dmsguildinfo/`).
+    *   The bookmarklet will prompt you to save an HTML file. Save this file into the `maintaindb/dmsguildinfo` directory (e.g., `maintaindb/dmsguildinfo/`).
 3.  **Process Downloaded Files**:
     *   Navigate to the `maintaindb` directory: `cd maintaindb`
     *   Run the processing script: `python3 process_downloads.py`
