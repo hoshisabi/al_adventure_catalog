@@ -1,7 +1,8 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
-        "Wizards of the Coast"
+        "Wizards of the Coast",
+        "Greg Marks"
     ],
     "campaign": [
         "Forgotten Realms"
@@ -11,9 +12,10 @@
     "full_title": "DDEX03-16 Assault on Maerimydra (5e)",
     "hours": 8,
     "is_adventure": true,
-    "level_range": "1",
-    "product_id": "DDEX03-16-Assault-on-Maerimydra-5e",
-    "tiers": null,
+    "price": 4.99,
+    "level_range": "11-16",
+    "product_id": "177572",
+    "tiers": 3,
     "title": "DDEX03-16 Assault on Maerimydra 5e",
     "url": "https://www.dmsguild.com/product/177572/DDEX0316-Assault-on-Maerimydra-5e"
 }
