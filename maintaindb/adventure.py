@@ -148,7 +148,7 @@ def get_patt_first_matching_group(regex, text):
                 return group
     return None
 
-def __str_to_int(value):
+def str_to_int(value):
     if not value:
         return None
 
