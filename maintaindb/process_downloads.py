@@ -6,6 +6,7 @@ import subprocess
 import pathlib
 import logging
 import sys
+import argparse
 
 from bs4 import BeautifulSoup
 from adventure import DungeonCraft, sanitize_filename, extract_data_from_html
@@ -21,6 +22,11 @@ output_json_path = os.path.join(root, '_dc')
 processed_html_path = os.path.join(input_html_path, 'processed')
 
 def process_downloads():
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument("-h", "-?", "--help", action="help", help="Show this help message and exit.")
+    parser.add_argument("-f", "--force", action="store_true", help="Force overwrite of existing JSON files and move HTML files.")
+    args = parser.parse_args()
+
     os.makedirs(processed_html_path, exist_ok=True)
 
     html_files = glob.glob(os.path.join(input_html_path, 'dmsguildinfo-*.html'))
@@ -42,7 +48,7 @@ def process_downloads():
             dummy_url = f"https://www.dmsguild.com/product/{product_id}/?affiliate_id=171040"
 
             parsed_html = BeautifulSoup(html_content, features="html.parser")
-            data = extract_data_from_html(parsed_html, product_id, product_alt=None)
+            data = extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=existing_data, force_overwrite=args.force)
 
             # Construct the DungeonCraft object
             dc = DungeonCraft(product_id, data["module_name"], data["authors"],
@@ -53,13 +59,35 @@ def process_downloads():
             json_filename = sanitize_filename(dc.full_title) + ".json"
             output_file_path = os.path.join(output_json_path, json_filename)
 
+            # Load existing JSON data if it exists
+            existing_json_data = {}
+            if os.path.exists(output_file_path):
+                with open(output_file_path, 'r', encoding='utf-8') as f:
+                    existing_json_data = json.load(f)
+
+            # Merge new data with existing data
+            merged_json_data = dc.to_json()
+            
+            # Check if any values would be overwritten (excluding nulls/empty values)
+            did_overwrite = False
+            for key, new_value in merged_json_data.items():
+                if key in existing_json_data and existing_json_data[key] is not None and existing_json_data[key] != "" and existing_json_data[key] != [] and existing_json_data[key] != {} and existing_json_data[key] != new_value:
+                    did_overwrite = True
+                    break
+
+            # Perform the merge using the new function
+            final_data = merge_adventure_data(existing_json_data, merged_json_data, args.force)
+
             with open(output_file_path, 'w') as f:
-                json.dump(dc.to_json(), f, indent=4, sort_keys=True)
+                json.dump(final_data, f, indent=4, sort_keys=True)
             logger.info(f"Successfully processed {file_name} and saved to {output_file_path}")
 
-            # Move processed HTML file
-            shutil.move(file_path, os.path.join(processed_html_path, file_name))
-            logger.info(f"Moved {file_name} to {processed_html_path}")
+            # Move processed HTML file only if force is true or if data was actually overwritten/new
+            if args.force or did_overwrite:
+                shutil.move(file_path, os.path.join(processed_html_path, file_name))
+                logger.info(f"Moved {file_name} to {processed_html_path}")
+            else:
+                logger.info(f"No new data or overwrite forced for {file_name}, keeping HTML in source directory.")
 
         except Exception as ex:
             logger.error(f"Error processing {file_path}: {str(ex)}")

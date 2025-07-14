@@ -31,21 +31,10 @@ def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_
             product_id_match = re.search(r'/product/(\d+)/', product_url)
             product_id = product_id_match.group(1) if product_id_match else None
 
-            # Parse date
-            # Remove timezone abbreviation (e.g., CDT) as strptime might not recognize all of them
-            pub_date_str_no_tz = ' '.join(pub_date_str.split(' ')[:-1])
-            date_created = datetime.datetime.strptime(pub_date_str_no_tz, '%a, %d %b %Y %H:%M:%S').date()
-
-            soup = BeautifulSoup(description_html, 'html.parser')
-            
-            # Use the new centralized extraction function
-            data = extract_data_from_html(soup, product_id)
-
             # Authors are not available from RSS feed, so we'll use an empty list
             authors = [] 
 
-            dc_product = DungeonCraft(product_id, full_title, authors, data["code"], date_created, data["hours"], data["tiers"], data["apl"], data["level_range"], product_url, data["campaign"], data["is_adventure"], data["price"])
-            dungeon_craft_products.append(dc_product)
+            dungeon_craft_products.append((product_id, full_title, authors, description_html, pub_date_str, product_url))
             
         return dungeon_craft_products
 
@@ -73,17 +62,29 @@ if __name__ == "__main__":
     print(f"Fetching products from {args.url}...")
     products = parse_dmsguild_rss(args.url)
     print(f"Found {len(products)} products.")
-    for product in products:
-        filename = sanitize_filename(product.full_title) + ".json"
+    for product_id, full_title, authors, description_html, pub_date_str, product_url in products:
+        filename = sanitize_filename(full_title) + ".json"
         file_path = os.path.join(args.output_dir, filename)
-        
-        if not args.force and os.path.exists(file_path):
-            print(f"Skipping {filename}, already exists.")
-            continue
-            
+
+        # Parse date
+        # Remove timezone abbreviation (e.g., CDT) as strptime might not recognize all of them
+        pub_date_str_no_tz = ' '.join(pub_date_str.split(' ')[:-1])
+        date_created = datetime.datetime.strptime(pub_date_str_no_tz, '%a, %d %b %Y %H:%M:%S').date()
+
+        soup = BeautifulSoup(description_html, 'html.parser')
+
+        existing_data = {}
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+
+        data = extract_data_from_html(soup, product_id, existing_data=existing_data, force_overwrite=args.force)
+
+        dc_product = DungeonCraft(product_id, full_title, authors, data["code"], date_created, data["hours"], data["tiers"], data["apl"], data["level_range"], product_url, data["campaign"], data["is_adventure"], data["price"])
+
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(product.to_json(), f, indent=4, sort_keys=True)
+                json.dump(dc_product.to_json(), f, indent=4, sort_keys=True)
             print(f"Saved {filename}")
         except IOError as e:
             print(f"Error saving {filename}: {e}")
