@@ -196,24 +196,26 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
     price = None
     is_adventure = False
 
-    product_title = parsed_html.body.find(
+    product_title = parsed_html.find(
         "div", {"class": "grid_12 product-title"})
-    children = product_title.findChildren(
-        "span", {"itemprop": "name"}, recursive=True)
-    for child in children:
-        module_name = child.text
-        break
+    if product_title:
+        children = product_title.findChildren(
+            "span", {"itemprop": "name"}, recursive=True)
+        for child in children:
+            module_name = child.text
+            break
 
     authors = []
-    product_from = parsed_html.body.find(
+    product_from = parsed_html.find(
         "div", {"class": "grid_12 product-from"})
-    children = product_from.findChildren("a", recursive=True)
-    for child in children:
-        current_author = child.text
-        authors.append(current_author)
+    if product_from:
+        children = product_from.findChildren("a", recursive=True)
+        for child in children:
+            current_author = child.text
+            authors.append(current_author)
 
     date_created = None
-    children = parsed_html.body.find_all(
+    children = parsed_html.find_all(
         "div", {"class": "widget-information-item-content"})
     key = 'This title was added to our catalog on '
     for child in children:
@@ -223,9 +225,11 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None):
                 date_str.strip(), "%B %d, %Y").date()
             break
 
-    product_content = parsed_html.body.find(
+    product_content = parsed_html.find(
         "div", {"class": "alpha omega prod-content"})
-    text = product_content.text
+    text = ""
+    if product_content:
+        text = product_content.text
 
     code = None
     campaign = None
