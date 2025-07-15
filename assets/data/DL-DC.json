@@ -57,7 +57,7 @@
         "url": "https://www.dmsguild.com/product/500778/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Marcello De Velazquez"
         ],
@@ -65,13 +65,13 @@
         "code": "DL-DC-MDV-01",
         "date_created": "20231211",
         "full_title": "DL-DC-MDV-01 A Mother's Love: A Dragonlance Adventures Experience",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 3.99,
         "product_id": "463522",
         "tiers": 2,
-        "title": "A Mother's Love A Dragonlance Adventures Experience",
+        "title": "A Mother's Love: A Dragonlance Adventures Experience",
         "url": "https://www.dmsguild.com/product/463522/?affiliate_id=171040"
     },
     {
