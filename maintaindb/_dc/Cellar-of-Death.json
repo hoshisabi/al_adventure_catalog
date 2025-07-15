@@ -1,18 +1,18 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "James Introcaso"
     ],
-    "campaign": null,
-    "code": null,
+    "campaign": "Forgotten Realms",
+    "code": "DDHC-TOA-4",
     "date_created": "20170908",
     "full_title": "Cellar of Death",
     "hours": 3,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "is_adventure": true,
+    "level_range": "1-4",
+    "price": 2.99,
     "product_id": "220572",
-    "tiers": null,
+    "tiers": 1,
     "title": "Cellar of Death",
     "url": "https://www.dmsguild.com/product/220572/?affiliate_id=171040"
 }

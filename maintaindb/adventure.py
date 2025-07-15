@@ -64,11 +64,9 @@ def sanitize_filename(filename):
     # Normalize unicode characters
     normalized_filename = unicodedata.normalize('NFKD', filename).encode('ascii', 'ignore').decode('ascii')
     
-    # Split the filename into name and extension
-    name, ext = os.path.splitext(normalized_filename)
-
-    # Replace non-alphanumeric characters (excluding the period for extension) with a dash in the name part
-    sanitized_name = re.sub(r'[^a-zA-Z0-9_-]', '-', name)
+    # Replace non-alphanumeric characters (excluding the period for extension) with a dash
+    # This regex will replace any character that is NOT a letter, number, underscore, or hyphen with a dash.
+    sanitized_name = re.sub(r'[^a-zA-Z0-9_.-]', '-', normalized_filename)
     
     # Replace multiple dashes with a single dash
     sanitized_name = re.sub(r'-+', '-', sanitized_name)
@@ -76,8 +74,11 @@ def sanitize_filename(filename):
     # Remove leading and trailing dashes from the name
     sanitized_name = sanitized_name.strip('-')
     
-    # Recombine the sanitized name and original extension
-    sanitized_filename = f"{sanitized_name}{ext}"
+    # Append .json as the extension if not already present
+    if not sanitized_name.lower().endswith('.json'):
+        sanitized_filename = f"{sanitized_name}.json"
+    else:
+        sanitized_filename = sanitized_name
     
     return sanitized_filename
 
@@ -196,14 +197,34 @@ def get_dc_code_and_campaign(product_title):
                     return (text, DDAL_CAMPAIGN.get(code))
     return None
 
-def merge_adventure_data(existing_data, new_data, force_overwrite=False):
-    merged_data = existing_data.copy() if existing_data else {}
-    for key, new_value in new_data.items():
-        if force_overwrite or existing_data.get(key) is None or existing_data.get(key) == "" or existing_data.get(key) == [] or existing_data.get(key) == {}:
-            merged_data[key] = new_value
+def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful_mode=False):
+    merged_data = new_data.copy()  # Start with all keys from new_data
+
+    if force_overwrite:
+        return new_data
+
+    if existing_data:
+        for key, existing_value in existing_data.items():
+            is_existing_value_empty = existing_value is None or existing_value == "" or existing_value == [] or existing_value == {}
+            new_value = new_data.get(key)
+            is_new_value_empty = new_value is None or new_value == "" or new_value == [] or new_value == {}
+
+            if careful_mode:
+                if not is_existing_value_empty: # If existing is not empty, keep it
+                    merged_data[key] = existing_value
+                elif not is_new_value_empty: # If existing is empty, and new is not, use new
+                    merged_data[key] = new_value
+                else: # Both are empty, keep new (which is empty)
+                    merged_data[key] = new_value
+            else: # Original behavior (not careful, not force)
+                if not is_new_value_empty:
+                    if is_existing_value_empty or existing_value != new_value:
+                        merged_data[key] = new_value
+                elif not is_existing_value_empty: # If new is empty, but existing is not, keep existing
+                    merged_data[key] = existing_value
     return merged_data
 
-def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False):
+def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False, careful_mode=False):
     new_data = {
         "module_name": None,
         "authors": [],
@@ -251,6 +272,9 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     text = ""
     if product_content:
         text = product_content.text
+        # For debugging: write the extracted text to a file
+        with open("debug_extracted_text.txt", "w", encoding="utf-8") as f:
+            f.write(text)
 
     if new_data["module_name"]:
         result = get_dc_code_and_campaign(new_data["module_name"])
@@ -262,15 +286,10 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         new_data["hours"] = 4
     else:
         # Try to find "X hour(s)" or "X-Y hour(s)"
-        hours_match = re.search(r'(\d+)(?:-(\d+))?\s*(?:hour|hours|hr)', text, re.IGNORECASE)
+        hours_match = re.search(r'([\d\w]+)[\s\xa0]*(?:hour|hours|hr)', text, re.IGNORECASE)
         if hours_match:
-            if hours_match.group(2): # It's a range like "X-Y hours"
-                start_hour = str_to_int(hours_match.group(1))
-                end_hour = str_to_int(hours_match.group(2))
-                if start_hour and end_hour:
-                    new_data["hours"] = (start_hour + end_hour) / 2 # Take the average
-            else: # It's a single number like "X hours"
-                new_data["hours"] = str_to_int(hours_match.group(1))
+            captured_hour_text = hours_match.group(1)
+            new_data["hours"] = str_to_int(captured_hour_text)
 
     new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", text))
     new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", text))
@@ -339,4 +358,4 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
             if price_value:
                 new_data["price"] = float(price_value.group(1))
 
-    return merge_adventure_data(existing_data, new_data, force_overwrite)
+    return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)

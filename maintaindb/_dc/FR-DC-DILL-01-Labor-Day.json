@@ -9,9 +9,10 @@
     "full_title": "FR-DC-DILL-01 Labor Day",
     "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "FR-DC-DILL-01-Labor-Day",
+    "level_range": "5-10",
+    "price": 2.99,
+    "product_id": "495119",
     "tiers": 2,
     "title": "Labor Day",
-    "url": "https://www.dmsguild.com/product/495119/FRDCDILL01-Labor-Day?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/495119/?affiliate_id=171040"
 }

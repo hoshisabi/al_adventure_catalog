@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": "13,18",
     "authors": [
         "D&D Adventurers League"
     ],
@@ -9,9 +9,10 @@
     "full_title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
     "hours": 4,
     "is_adventure": true,
-    "level_range": "11",
-    "product_id": "BMG-MOONEP-MD-02-The-Enchantment-of-Chaos",
-    "tiers": null,
+    "level_range": "11-20",
+    "price": 11.99,
+    "product_id": "508959",
+    "tiers": "3-4",
     "title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
-    "url": "https://www.dmsguild.com/product/508959/BMGMOONEPMD02-The-Enchantment-of-Chaos?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/508959/?affiliate_id=171040"
 }

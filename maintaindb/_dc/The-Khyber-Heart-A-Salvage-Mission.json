@@ -1,12 +1,16 @@
 {
     "apl": null,
-    "authors": [],
-    "campaign": null,
-    "code": null,
+    "authors": [
+        "Nors"
+    ],
+    "campaign": [
+        "Eberron"
+    ],
+    "code": "EB-SM-KHYBER",
     "date_created": "20200809",
     "full_title": "The Khyber Heart: A Salvage Mission",
-    "hours": null,
-    "is_adventure": false,
+    "hours": 3,
+    "is_adventure": true,
     "level_range": null,
     "price": null,
     "product_id": "323626",

@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "D&D Adventurers League", "Joe Fonseca", "Savannah Houston-McIntyre"
     ],
     "campaign": "Forgotten Realms",
     "code": "BMG-MOON-MD-10",
@@ -9,9 +9,10 @@
     "full_title": "BMG-MOON-MD-10 Echoes of the Fallen",
     "hours": 4,
     "is_adventure": true,
-    "level_range": "11",
-    "product_id": "BMG-MOON-MD-10-Echoes-of-the-Fallen",
-    "tiers": null,
+    "level_range": "11-16",
+    "price": 8.99,
+    "product_id": "495777",
+    "tiers": 3,
     "title": "BMG-MOON-MD-10 Echoes of the Fallen",
-    "url": "https://www.dmsguild.com/product/495777/BMGMOONMD10-Echoes-of-the-Fallen?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/495777/?affiliate_id=171040"
 }

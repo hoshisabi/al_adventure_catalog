@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "D&D Adventurers League", "Johnny Smith"
     ],
     "campaign": "Forgotten Realms",
     "code": "BMG-MOON-MD-07",
@@ -9,9 +9,10 @@
     "full_title": "BMG-MOON-MD-07 Cauldron of Doom",
     "hours": 4,
     "is_adventure": true,
-    "level_range": "11",
-    "product_id": "BMG-MOON-MD-07-Cauldron-of-Doom",
-    "tiers": null,
+    "level_range": "11-16",
+    "price": 8.99,
+    "product_id": "495773",
+    "tiers": 3,
     "title": "BMG-MOON-MD-07 Cauldron of Doom",
-    "url": "https://www.dmsguild.com/product/495773/BMGMOONMD07-Cauldron-of-Doom?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/495773/?affiliate_id=171040"
 }
