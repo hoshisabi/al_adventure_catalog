@@ -468,8 +468,7 @@
     {
         "apl": 13,
         "authors": [
-            "Brendon Watson",
-            "Siobhan Hanlon"
+            "the Melbourne DDAL community for the D&amp"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-06",
@@ -482,7 +481,7 @@
         "product_id": "527493",
         "tiers": 3,
         "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 7,
@@ -14183,63 +14182,6 @@
     {
         "apl": null,
         "authors": [
-            "Fernando Oliveira"
-        ],
-        "campaign": [
-            "Forgotten Realms"
-        ],
-        "code": "DDAL-DRW-01",
-        "date_created": "20201011",
-        "full_title": "DDAL-DRW-01 VTT Assets",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "0",
-        "product_id": "DDAL-DRW-01-VTT-Assets",
-        "tiers": null,
-        "title": "DDAL-DRW-01 VTT Assets",
-        "url": "https://www.dmsguild.com/product/331790/DDALDRW01-VTT-Assets&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Fernando Oliveira"
-        ],
-        "campaign": [
-            "Forgotten Realms"
-        ],
-        "code": "DDAL-DRW-02",
-        "date_created": "20210102",
-        "full_title": "DDAL-DRW-02 VTT Assets",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "0",
-        "product_id": "DDAL-DRW-02-VTT-Assets",
-        "tiers": null,
-        "title": "DDAL-DRW-02 VTT Assets",
-        "url": "https://www.dmsguild.com/product/342082/DDALDRW02-VTT-Assets&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Fernando Oliveira"
-        ],
-        "campaign": [
-            "Forgotten Realms"
-        ],
-        "code": "DDAL-DRW-03",
-        "date_created": "20210309",
-        "full_title": "DDAL-DRW-03 VTT Assets",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "0",
-        "product_id": "DDAL-DRW-03-VTT-Assets",
-        "tiers": null,
-        "title": "DDAL-DRW-03 VTT Assets",
-        "url": "https://www.dmsguild.com/product/349711/DDALDRW03-VTT-Assets&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
             "D&D Adventurers League"
         ],
         "campaign": [
@@ -14256,25 +14198,6 @@
         "tiers": 3,
         "title": "DDAL-DRW-04 Foreign Affairs",
         "url": "https://www.dmsguild.com/product/326717/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Fernando Oliveira"
-        ],
-        "campaign": [
-            "Forgotten Realms"
-        ],
-        "code": "DDAL-DRW-04",
-        "date_created": "20210424",
-        "full_title": "DDAL-DRW-04 VTT Assets",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "0",
-        "product_id": "DDAL-DRW-04-VTT-Assets",
-        "tiers": null,
-        "title": "DDAL-DRW-04 VTT Assets",
-        "url": "https://www.dmsguild.com/product/354956/DDALDRW04-VTT-Assets&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -18732,7 +18655,7 @@
     {
         "apl": 8,
         "authors": [
-            "Jamie Chan"
+            "July"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-THAY-05",
@@ -18745,7 +18668,7 @@
         "product_id": "528046",
         "tiers": 2,
         "title": "Four Assassinations & a Funeral",
-        "url": "https://www.dmsguild.com/product/528046?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/528046/Four-Assassinations--a-Funeral-FRDCTHAY05?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 1,
@@ -18919,9 +18842,7 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "Kaithlyn Kuan"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-AKU-01",
         "date_created": "20250627",
@@ -18933,7 +18854,7 @@
         "product_id": "527701",
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -19349,10 +19270,10 @@
     {
         "apl": 10,
         "authors": [
-            "Bernhard Staneker"
+            "an army of duergar under the command of the death giantess Clauthya. But that"
         ],
         "campaign": "Forgotten Realms",
-        "code": "FR-DC-FET02_VATRAS",
+        "code": "FR-DC-FET-02",
         "date_created": "20250705",
         "full_title": "FR-DC-FET02_Vatras Abyss",
         "hours": 4,
@@ -19361,7 +19282,7 @@
         "price": 4.99,
         "product_id": "528753",
         "tiers": 2,
-        "title": "Vatras Abyss",
+        "title": "Abyss",
         "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
@@ -19733,9 +19654,7 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "Casey McGirt"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MCG-CH1",
         "date_created": "20250625",
@@ -19747,25 +19666,23 @@
         "product_id": "527653",
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 3,
-        "authors": [
-            "Bernard Velasco"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-NEW-TIER1-1",
         "date_created": "20250711",
-        "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
+        "full_title": "FR-DC-NEW-TIER1-1",
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
         "price": 1.0,
         "product_id": "529395",
         "tiers": 1,
-        "title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
-        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
+        "title": "",
+        "url": "https://www.dmsguild.com/product/529395/FRDCNEWTIER11?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -20616,15 +20533,18 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "an unnatural storm",
+            "adventurers must unravel the schemes of a capricious fey lord and his court to rescue their noble patron and find the path home."
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-02",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-02 On Fey Tides",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5-10",
-        "price": 5.99,
+        "level_range": null,
+        "price": null,
         "product_id": "526741",
         "tiers": 2,
         "title": "On Fey Tides",
@@ -20649,8 +20569,10 @@
     {
         "apl": 13,
         "authors": [
-            "Kevin Haw",
-            "Strategicon AL"
+            "forgotten gods eons ago. With this knowledge she shall achieve greatness like her ancestors did",
+            "but only if the characters can keep her",
+            "and themselves",
+            "alive for the perilous trek."
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-04",
@@ -21082,9 +21004,7 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "Richard Gejji"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-GMM-03",
         "date_created": "20250616",
@@ -21096,7 +21016,7 @@
         "product_id": "526539",
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
-        "url": "https://www.dmsguild.com/product/526539/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 5,
@@ -23959,6 +23879,25 @@
     },
     {
         "apl": 18,
+        "authors": [
+            "Noah Grand",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-05",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526751",
+        "tiers": 4,
+        "title": "War of the Roses",
+        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
         "authors": [],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-STRAT-TALES-06",
@@ -23989,6 +23928,22 @@
         "tiers": 4,
         "title": "Dungeon & A Dragon",
         "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-06",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526753",
+        "tiers": 4,
+        "title": "Dungeon & A Dragon",
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -24485,6 +24440,24 @@
         "tiers": null,
         "title": "RMH-EP-02 A Darklord's Denouement",
         "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "for this adventure."
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WATERDEEP-GSZ",
+        "date_created": "20250711",
+        "full_title": "[Roll20] Sweet Dreams are Made of Geese (FR-DC-WATERDEEP-GSZ)",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "494093",
+        "tiers": 1,
+        "title": "[Roll20] Sweet Dreams are Made of Geese",
+        "url": "https://www.dmsguild.com/product/494093/Roll20-Sweet-Dreams-are-Made-of-Geese-FRDCWATERDEEPGSZ?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 12,
@@ -28918,7 +28891,9 @@
     },
     {
         "apl": 13,
-        "authors": [],
+        "authors": [
+            "it."
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-05",
         "date_created": "20250624",
@@ -30235,6 +30210,24 @@
         "url": "https://www.dmsguild.com/product/414239/The-Pursuit-of-Happiness-SJDCANGKA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "the Melbourne DDAL community for the D&amp"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-MELB-02",
+        "date_created": "20250626",
+        "full_title": "The Saga of the Serpent's Fangs (FR-DC-MELB-02) [BUNDLE]",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 29.94,
+        "product_id": "527495",
+        "tiers": 3,
+        "title": "The Saga of the Serpent's Fangs  [BUNDLE]",
+        "url": "https://www.dmsguild.com/product/527495/The-Saga-of-the-Serpents-Fangs-FRDCMELB02-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
         "apl": 3,
         "authors": [
             "Dagny Mol"
@@ -30269,7 +30262,7 @@
     {
         "apl": 8,
         "authors": [
-            "Johann Taslim"
+            "the Melbourne DDAL community for the D&amp"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-03",
