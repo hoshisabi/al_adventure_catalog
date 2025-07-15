@@ -42,3 +42,8 @@ To upload your changes to the repository:
 2.  Add all modified files to the staging area: `git add .`
 3.  Commit your changes with a descriptive message: `git commit -m "Descriptive commit message"`
 4.  Push your changes to the remote repository: `git push origin <your-branch-name>` (Replace `<your-branch-name>` with your actual branch name, e.g., `main`).
+
+----
+
+Note for later: [Warhorn](https://warhorn.net/events/pandodnd/manage/scenarios/report.json) has their own json file, we might be able to leverage this.  (those are only pando scenarios).  Global scenarios
+are [here](https://warhorn.net/organized-play/p/dnd-adventurers-league#scenarios) but not in json format.
