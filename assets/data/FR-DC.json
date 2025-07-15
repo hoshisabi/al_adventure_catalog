@@ -36,8 +36,7 @@
     {
         "apl": 13,
         "authors": [
-            "Brendon Watson",
-            "Siobhan Hanlon"
+            "the Melbourne DDAL community for the D&amp"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-06",
@@ -50,7 +49,7 @@
         "product_id": "527493",
         "tiers": 3,
         "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -226,7 +225,7 @@
     {
         "apl": 8,
         "authors": [
-            "Jamie Chan"
+            "July"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-THAY-05",
@@ -239,7 +238,7 @@
         "product_id": "528046",
         "tiers": 2,
         "title": "Four Assassinations & a Funeral",
-        "url": "https://www.dmsguild.com/product/528046?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/528046/Four-Assassinations--a-Funeral-FRDCTHAY05?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 1,
@@ -413,9 +412,7 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "Kaithlyn Kuan"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-AKU-01",
         "date_created": "20250627",
@@ -427,7 +424,7 @@
         "product_id": "527701",
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -843,10 +840,10 @@
     {
         "apl": 10,
         "authors": [
-            "Bernhard Staneker"
+            "an army of duergar under the command of the death giantess Clauthya. But that"
         ],
         "campaign": "Forgotten Realms",
-        "code": "FR-DC-FET02_VATRAS",
+        "code": "FR-DC-FET-02",
         "date_created": "20250705",
         "full_title": "FR-DC-FET02_Vatras Abyss",
         "hours": 4,
@@ -855,7 +852,7 @@
         "price": 4.99,
         "product_id": "528753",
         "tiers": 2,
-        "title": "Vatras Abyss",
+        "title": "Abyss",
         "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
@@ -1227,9 +1224,7 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "Casey McGirt"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MCG-CH1",
         "date_created": "20250625",
@@ -1241,25 +1236,23 @@
         "product_id": "527653",
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 3,
-        "authors": [
-            "Bernard Velasco"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-NEW-TIER1-1",
         "date_created": "20250711",
-        "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
+        "full_title": "FR-DC-NEW-TIER1-1",
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
         "price": 1.0,
         "product_id": "529395",
         "tiers": 1,
-        "title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
-        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
+        "title": "",
+        "url": "https://www.dmsguild.com/product/529395/FRDCNEWTIER11?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -2110,15 +2103,18 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "an unnatural storm",
+            "adventurers must unravel the schemes of a capricious fey lord and his court to rescue their noble patron and find the path home."
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-02",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-02 On Fey Tides",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5-10",
-        "price": 5.99,
+        "level_range": null,
+        "price": null,
         "product_id": "526741",
         "tiers": 2,
         "title": "On Fey Tides",
@@ -2143,8 +2139,10 @@
     {
         "apl": 13,
         "authors": [
-            "Kevin Haw",
-            "Strategicon AL"
+            "forgotten gods eons ago. With this knowledge she shall achieve greatness like her ancestors did",
+            "but only if the characters can keep her",
+            "and themselves",
+            "alive for the perilous trek."
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-04",
@@ -2848,6 +2846,24 @@
         "url": "https://www.dmsguild.com/product/522751/Pretty-Teeth-Sharp-Teeth-FRDCSCROG01?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "for this adventure."
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-WATERDEEP-GSZ",
+        "date_created": "20250711",
+        "full_title": "[Roll20] Sweet Dreams are Made of Geese (FR-DC-WATERDEEP-GSZ)",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "494093",
+        "tiers": 1,
+        "title": "[Roll20] Sweet Dreams are Made of Geese",
+        "url": "https://www.dmsguild.com/product/494093/Roll20-Sweet-Dreams-are-Made-of-Geese-FRDCWATERDEEPGSZ?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
         "apl": 13,
         "authors": [
             "Brendon Watson"
@@ -2915,7 +2931,9 @@
     },
     {
         "apl": 13,
-        "authors": [],
+        "authors": [
+            "it."
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-05",
         "date_created": "20250624",
@@ -3204,6 +3222,24 @@
         "url": "https://www.dmsguild.com/product/471339/The-March-of-the-Manticore-FRDCGHG03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "the Melbourne DDAL community for the D&amp"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-MELB-02",
+        "date_created": "20250626",
+        "full_title": "The Saga of the Serpent's Fangs (FR-DC-MELB-02) [BUNDLE]",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 29.94,
+        "product_id": "527495",
+        "tiers": 3,
+        "title": "The Saga of the Serpent's Fangs  [BUNDLE]",
+        "url": "https://www.dmsguild.com/product/527495/The-Saga-of-the-Serpents-Fangs-FRDCMELB02-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
         "apl": 3,
         "authors": [
             "Dagny Mol"
@@ -3238,7 +3274,7 @@
     {
         "apl": 8,
         "authors": [
-            "Johann Taslim"
+            "the Melbourne DDAL community for the D&amp"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-03",

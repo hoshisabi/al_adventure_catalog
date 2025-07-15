@@ -125,9 +125,7 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "Richard Gejji"
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-GMM-03",
         "date_created": "20250616",
@@ -139,7 +137,7 @@
         "product_id": "526539",
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
-        "url": "https://www.dmsguild.com/product/526539/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -1045,6 +1043,25 @@
     },
     {
         "apl": 18,
+        "authors": [
+            "Noah Grand",
+            "Strategicon AL"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-05",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526751",
+        "tiers": 4,
+        "title": "War of the Roses",
+        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 18,
         "authors": [],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-STRAT-TALES-06",
@@ -1075,6 +1092,22 @@
         "tiers": 4,
         "title": "Dungeon & A Dragon",
         "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaign": "Forgotten Realms",
+        "code": "PS-DC-STRAT-TALES-06",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526753",
+        "tiers": 4,
+        "title": "Dungeon & A Dragon",
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
