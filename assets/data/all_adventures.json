@@ -82,7 +82,7 @@
         "product_id": "A-Devious-Devas-Deduction-PS-DC-DDD",
         "tiers": 2,
         "title": "A Devious Deva's Deduction",
-        "url": "https://www.dmsguild.com/product/485383/A-Devious-Devas-Deduction-PSDCDDD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485383?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -115,13 +115,13 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": null,
+        "product_id": 284788,
         "tiers": 1,
         "title": "A Glow in the Galenas",
-        "url": "https://www.dmsguild.com/product/284788/A-Glow-in-the-Galenas?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/284788?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Justice Arman"
         ],
@@ -132,10 +132,10 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "A-Meal-to-Remember-WBW-DC-FDC-07",
-        "tiers": null,
+        "product_id": 371499,
+        "tiers": 1,
         "title": "A Meal to Remember",
-        "url": "https://www.dmsguild.com/product/371499/A-Meal-to-Remember-WBWDCFDC07?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/371499?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -372,14 +372,14 @@
         "full_title": "Away We Go (SJ-DC-PHP-FLN02-01)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Away-We-Go-SJ-DC-PHP-FLN02-01",
+        "level_range": "1-4",
+        "product_id": 461673,
         "tiers": 1,
         "title": "Away We Go",
-        "url": "https://www.dmsguild.com/product/461673/Away-We-Go-SJDCPHPFLN0201?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/461673?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Bryan Mets",
             "Arthur Marques"
@@ -390,11 +390,11 @@
         "full_title": "Bad Omen (SJ-DC-BAD-01)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "Bad-Omen-SJ-DC-BAD-01",
         "tiers": 1,
         "title": "Bad Omen",
-        "url": "https://www.dmsguild.com/product/451742/Bad-Omen-SJDCBAD01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451742?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -467,21 +467,6 @@
     },
     {
         "apl": 13,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-MELB-02-06",
-        "date_created": "20250625",
-        "full_title": "Beneath Salt and Stone (FR-DC-MELB-02-06)",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "11-16",
-        "product_id": "527493",
-        "tiers": 3,
-        "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 13,
         "authors": [
             "Brendon Watson",
             "Siobhan Hanlon"
@@ -497,7 +482,7 @@
         "product_id": "527493",
         "tiers": 3,
         "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527493?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -2850,24 +2835,6 @@
         "code": "CCC-BMG-MOON10-1",
         "date_created": "20210510",
         "full_title": "CCC-BMG-MOON10-1 Whispers & Warnings",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-BMG-MOON10-1-Whispers--Warnings",
-        "tiers": 1,
-        "title": "CCC-BMG-MOON10-1 Whispers & Warnings",
-        "url": "https://www.dmsguild.com/product/357308/CCCBMGMOON101-Whispers--Warnings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Baldman Games",
-            "Janine Hempy"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-BMG-MOON10-1",
-        "date_created": "20210510",
-        "full_title": "CCC-BMG-MOON10-1 Whispers & Warnings",
         "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
@@ -4098,14 +4065,15 @@
         "campaign": "Forgotten Realms",
         "code": "CCC-CENTRIC01-03",
         "date_created": "20200807",
-        "full_title": "CCC-CENTRIC01-03    The Patchwork Tower",
-        "hours": 2,
+        "full_title": "CCC-CENTRIC01-03 The Patchwork Tower",
+        "hours": 4,
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "CCC-CENTRIC01-03----The-Patchwork-Tower",
+        "level_range": "1-4",
+        "price": 2.0,
+        "product_id": "322508",
         "tiers": 1,
-        "title": "CCC-CENTRIC01-03    The Patchwork Tower",
-        "url": "https://www.dmsguild.com/product/322508/CCCCENTRIC0103----The-Patchwork-Tower&affiliate_id=171040"
+        "title": "CCC-CENTRIC01-03 The Patchwork Tower",
+        "url": "https://www.dmsguild.com/product/322508/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5459,23 +5427,6 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GARY-04--The-Darkness-of-the-Mountains",
-        "tiers": null,
-        "title": "CCC-GARY-04 The Darkness of the Mountains",
-        "url": "https://www.dmsguild.com/product/238303/CCCGARY04-The-Darkness-of-the-Mountains?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Thomas Valley"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-04-",
-        "date_created": "20180329",
-        "full_title": "CCC-GARY-04: The Darkness of the Mountains",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "238303",
         "tiers": null,
@@ -5495,46 +5446,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GARY-05--The-Shadows-of-the-Trees",
-        "tiers": null,
-        "title": "CCC-GARY-05 The Shadows of the Trees",
-        "url": "https://www.dmsguild.com/product/238352/CCCGARY05-The-Shadows-of-the-Trees?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Joe Alfano",
-            "Thomas Valley"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-05-",
-        "date_created": "20180329",
-        "full_title": "CCC-GARY-05: The Shadows of the Trees",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "238352",
         "tiers": null,
         "title": "CCC-GARY-05 The Shadows of the Trees",
         "url": "https://www.dmsguild.com/product/238352/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Thomas Valley"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-06-",
-        "date_created": "20180329",
-        "full_title": "CCC-GARY-06: The Death Beneath the Roots",
-        "hours": 2,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GARY-06--The-Death-Beneath-the-Roots",
-        "tiers": null,
-        "title": "CCC-GARY-06 The Death Beneath the Roots",
-        "url": "https://www.dmsguild.com/product/238356/CCCGARY06-The-Death-Beneath-the-Roots?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5566,45 +5482,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GARY-07--The-Mirror-Cities-of-Gulthias",
-        "tiers": null,
-        "title": "CCC-GARY-07 The Mirror Cities of Gulthias",
-        "url": "https://www.dmsguild.com/product/238358/CCCGARY07-The-Mirror-Cities-of-Gulthias?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Thomas Valley"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-07-",
-        "date_created": "20180330",
-        "full_title": "CCC-GARY-07: The Mirror Cities of Gulthias",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "238358",
         "tiers": null,
         "title": "CCC-GARY-07 The Mirror Cities of Gulthias",
         "url": "https://www.dmsguild.com/product/238358/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Thomas Valley"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-08-",
-        "date_created": "20180330",
-        "full_title": "CCC-GARY-08: That Which Lies Buried",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GARY-08--That-Which-Lies-Buried",
-        "tiers": null,
-        "title": "CCC-GARY-08 That Which Lies Buried",
-        "url": "https://www.dmsguild.com/product/238359/CCCGARY08-That-Which-Lies-Buried?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5636,46 +5518,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GARY-09--The-Witch-Maiden",
-        "tiers": null,
-        "title": "CCC-GARY-09 The Witch Maiden",
-        "url": "https://www.dmsguild.com/product/238360/CCCGARY09-The-Witch-Maiden?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Thomas Valley"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-09-",
-        "date_created": "20180330",
-        "full_title": "CCC-GARY-09: The Witch Maiden",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "238360",
         "tiers": null,
         "title": "CCC-GARY-09 The Witch Maiden",
         "url": "https://www.dmsguild.com/product/238360/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Emily Harmon",
-            "Fenway Jones"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-15-",
-        "date_created": "20201130",
-        "full_title": "CCC-GARY-15: Friendship Never Dies",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GARY-15--Friendship-Never-Dies",
-        "tiers": 1,
-        "title": "CCC-GARY-15 Friendship Never Dies",
-        "url": "https://www.dmsguild.com/product/337266/CCCGARY15-Friendship-Never-Dies?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -5695,24 +5542,6 @@
         "tiers": 1,
         "title": "CCC-GARY-15 Friendship Never Dies",
         "url": "https://www.dmsguild.com/product/337266/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Ally Sulentic",
-            "Jessica Marcrum"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GARY-16-",
-        "date_created": "20201204",
-        "full_title": "CCC-GARY-16: My Immortal Loneliness",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GARY-16--My-Immortal-Loneliness",
-        "tiers": 1,
-        "title": "CCC-GARY-16 My Immortal Loneliness",
-        "url": "https://www.dmsguild.com/product/338351/CCCGARY16-My-Immortal-Loneliness?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -18065,23 +17894,6 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": null,
-        "code": "EB-SM-DREAMS",
-        "date_created": "20200428",
-        "full_title": "Dreams of Salvation: A 4 hour Tier 1 Salvage Mission",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Dreams-of-Salvation--A-4-hour-Tier-1-Salvage-Mission",
-        "tiers": 1,
-        "title": "Dreams of Salvation A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/311419/Dreams-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Fynn Headen"
-        ],
         "campaign": "Eberron",
         "code": "EB-SM-DREAMS",
         "date_created": "20200428",
@@ -19442,6 +19254,7 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "01",
+        "price": null,
         "product_id": "FR-DC-DIGM-01-02-Sweet-Reassignment",
         "tiers": 1,
         "title": "Sweet Reassignment",
@@ -24672,25 +24485,6 @@
         "tiers": null,
         "title": "RMH-EP-02 A Darklord's Denouement",
         "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "D&D Adventurers League"
-        ],
-        "campaign": [
-            "Ravenloft"
-        ],
-        "code": "RMH-EP-02",
-        "date_created": "20220318",
-        "full_title": "RMH-EP-02 A Darklord's Denouement",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "0",
-        "product_id": "RMH-EP-02-A-Darklords-Denouement",
-        "tiers": null,
-        "title": "RMH-EP-02 A Darklord's Denouement",
-        "url": "https://www.dmsguild.com/product/390632/RMHEP02-A-Darklords-Denouement?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 12,

@@ -80,11 +80,12 @@
         "full_title": "BMG-DL-VOTU-04 Dragons of Heresy",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DL-VOTU-04-Dragons-of-Heresy",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 79.92,
+        "product_id": "491735",
+        "tiers": 2,
         "title": "BMG-DL-VOTU-04 Dragons of Heresy",
-        "url": "https://www.dmsguild.com/product/491735/BMGDLVOTU04-Dragons-of-Heresy?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491735/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -114,14 +115,15 @@
         "full_title": "BMG-DLEP-VOTU-02 Dragons of Future Past",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "6",
-        "product_id": "BMG-DLEP-VOTU-02-Dragons-of-Future-Past",
-        "tiers": null,
+        "level_range": "6-8",
+        "price": 11.99,
+        "product_id": "515257",
+        "tiers": 2,
         "title": "BMG-DLEP-VOTU-02 Dragons of Future Past",
-        "url": "https://www.dmsguild.com/product/515257/BMGDLEPVOTU02-Dragons-of-Future-Past?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/515257/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Jeremey Arnold",
             "Krishna Simonse"
@@ -132,10 +134,11 @@
         "full_title": "BMG-DLEP-VOTU-1 Dragons of Destruction",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "4",
-        "product_id": "BMG-DLEP-VOTU-1-Dragons-of-Destruction",
-        "tiers": null,
+        "level_range": "2",
+        "price": 12.99,
+        "product_id": "438248",
+        "tiers": 1,
         "title": "BMG-DLEP-VOTU-1 Dragons of Destruction",
-        "url": "https://www.dmsguild.com/product/438248/BMGDLEPVOTU1-Dragons-of-Destruction?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/438248/?affiliate_id=171040"
     }
 ]

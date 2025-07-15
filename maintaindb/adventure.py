@@ -63,10 +63,16 @@ def sanitize_filename(filename):
     """
     # Normalize unicode characters
     normalized_filename = unicodedata.normalize('NFKD', filename).encode('ascii', 'ignore').decode('ascii')
+
+    # Split into base name and original extension
+    base_name, _ = os.path.splitext(normalized_filename)
+
+    # Replace all periods in the base name with dashes
+    base_name_with_dashes = base_name.replace('.', '-')
     
     # Replace non-alphanumeric characters (excluding the period for extension) with a dash
     # This regex will replace any character that is NOT a letter, number, underscore, or hyphen with a dash.
-    sanitized_name = re.sub(r'[^a-zA-Z0-9_.-]', '-', normalized_filename)
+    sanitized_name = re.sub(r'[^a-zA-Z0-9_-]', '-', base_name_with_dashes)
     
     # Replace multiple dashes with a single dash
     sanitized_name = re.sub(r'-+', '-', sanitized_name)
@@ -74,11 +80,8 @@ def sanitize_filename(filename):
     # Remove leading and trailing dashes from the name
     sanitized_name = sanitized_name.strip('-')
     
-    # Append .json as the extension if not already present
-    if not sanitized_name.lower().endswith('.json'):
-        sanitized_filename = f"{sanitized_name}.json"
-    else:
-        sanitized_filename = sanitized_name
+    # Always append .json as the extension
+    sanitized_filename = f"{sanitized_name}.json"
     
     return sanitized_filename
 
@@ -286,10 +289,12 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         new_data["hours"] = 4
     else:
         # Try to find "X hour(s)" or "X-Y hour(s)"
-        hours_match = re.search(r'([\d\w]+)[\s\xa0]*(?:hour|hours|hr)', text, re.IGNORECASE)
+        hours_match = re.search(r'([\d\w]+)[-\s\xa0]*(?:hour|hours|hr)', text, re.IGNORECASE)
         if hours_match:
             captured_hour_text = hours_match.group(1)
             new_data["hours"] = str_to_int(captured_hour_text)
+
+            #'\n            At the height of the Battle of Kalaman, an opportunity to honor an oath-decades unfulfilled presents itself! If Ansalon’s heroes can press deep into the heart of the enemy and topple a flame-fueled destructive force, they might repel the Red Dragon Army, defend The Beacon of the East, and reuinite mother and child.\xa0\n            This is a four-hour adventure for Tier 2 (Levels 5-10) characters and was designed under the Dungeoncraft program guidance. \n        '
 
     new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", text))
     new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", text))

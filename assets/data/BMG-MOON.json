@@ -10,11 +10,12 @@
         "full_title": "BMG-MOON-MD-01 Reverie and Murder",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "BMG-MOON-MD-01-Reverie-and-Murder",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "438252",
+        "tiers": 2,
         "title": "BMG-MOON-MD-01 Reverie and Murder",
-        "url": "https://www.dmsguild.com/product/438252/BMGMOONMD01-Reverie-and-Murder?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/438252/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -27,11 +28,12 @@
         "full_title": "BMG-MOON-MD-02 The Tarthwood Curse",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "BMG-MOON-MD-02-The-Tarthwood-Curse",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "460205",
+        "tiers": 2,
         "title": "BMG-MOON-MD-02 The Tarthwood Curse",
-        "url": "https://www.dmsguild.com/product/460205/BMGMOONMD02-The-Tarthwood-Curse?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/460205/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -44,16 +46,18 @@
         "full_title": "BMG-MOON-MD-03 The Lost Song",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "BMG-MOON-MD-03-The-Lost-Song",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "460208",
+        "tiers": 2,
         "title": "BMG-MOON-MD-03 The Lost Song",
-        "url": "https://www.dmsguild.com/product/460208/BMGMOONMD03-The-Lost-Song?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/460208/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Kat Wynne"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-04",
@@ -61,16 +65,18 @@
         "full_title": "BMG-MOON-MD-04 Lair of Deceit",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-MOON-MD-04-Lair-of-Deceit",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "481812",
+        "tiers": 2,
         "title": "BMG-MOON-MD-04 Lair of Deceit",
-        "url": "https://www.dmsguild.com/product/481812/BMGMOONMD04-Lair-of-Deceit?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/481812/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Brian Balagot"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-05",
@@ -78,16 +84,18 @@
         "full_title": "BMG-MOON-MD-05 Fleeing Snowdown",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-MOON-MD-05-Fleeing-Snowdown",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "481813",
+        "tiers": 2,
         "title": "BMG-MOON-MD-05 Fleeing Snowdown",
-        "url": "https://www.dmsguild.com/product/481813/BMGMOONMD05-Fleeing-Snowdown?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/481813/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Graham Ward"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-06",
@@ -95,16 +103,18 @@
         "full_title": "BMG-MOON-MD-06 Death Sailing",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-MOON-MD-06-Death-Sailing",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 8.99,
+        "product_id": "491739",
+        "tiers": 2,
         "title": "BMG-MOON-MD-06 Death Sailing",
-        "url": "https://www.dmsguild.com/product/491739/BMGMOONMD06-Death-Sailing?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491739/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Johnny Smith"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-07",
@@ -112,16 +122,18 @@
         "full_title": "BMG-MOON-MD-07 Cauldron of Doom",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-MOON-MD-07-Cauldron-of-Doom",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": 8.99,
+        "product_id": "495773",
+        "tiers": 3,
         "title": "BMG-MOON-MD-07 Cauldron of Doom",
-        "url": "https://www.dmsguild.com/product/495773/BMGMOONMD07-Cauldron-of-Doom?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/495773/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Robbie Pleasant"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-08",
@@ -129,11 +141,12 @@
         "full_title": "BMG-MOON-MD-08 Down the Rabbit Hole",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-MOON-MD-08-Down-the-Rabbit-Hole",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": 8.99,
+        "product_id": "495775",
+        "tiers": 3,
         "title": "BMG-MOON-MD-08 Down the Rabbit Hole",
-        "url": "https://www.dmsguild.com/product/495775/BMGMOONMD08-Down-the-Rabbit-Hole?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/495775/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -144,18 +157,21 @@
         "code": "BMG-MOON-MD-09",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-MOON-MD-09-The-Princes-Fairy-Godmother",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "495776",
+        "tiers": 3,
         "title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
-        "url": "https://www.dmsguild.com/product/495776/BMGMOONMD09-The-Princes-Fairy-Godmother?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/495776/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Joe Fonseca",
+            "Savannah Houston-McIntyre"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-10",
@@ -163,16 +179,18 @@
         "full_title": "BMG-MOON-MD-10 Echoes of the Fallen",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-MOON-MD-10-Echoes-of-the-Fallen",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": 8.99,
+        "product_id": "495777",
+        "tiers": 3,
         "title": "BMG-MOON-MD-10 Echoes of the Fallen",
-        "url": "https://www.dmsguild.com/product/495777/BMGMOONMD10-Echoes-of-the-Fallen?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/495777/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "D&D Adventurers League",
+            "Shu Qing Tan"
         ],
         "campaign": "Forgotten Realms",
         "code": "BMG-MOON-MD-11",
@@ -180,11 +198,12 @@
         "full_title": "BMG-MOON-MD-11 The Curse of Pacts and Passion",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": null,
-        "tiers": null,
+        "level_range": "11-16",
+        "price": 8.99,
+        "product_id": "499854",
+        "tiers": 3,
         "title": "BMG-MOON-MD-11 The Curse of Pacts and Passion",
-        "url": "https://www.dmsguild.com/product/499854/BMGMOONMD11-The-Curse-of-Pacts-and-Passion?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/499854/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -197,11 +216,12 @@
         "full_title": "BMG-MOON-MD-12 Malevolent Reign",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-MOON-MD-12-Malevolent-Reign",
+        "level_range": "11-16",
+        "price": 8.99,
+        "product_id": "508957",
         "tiers": 3,
         "title": "BMG-MOON-MD-12 Malevolent Reign",
-        "url": "https://www.dmsguild.com/product/508957/BMGMOONMD12-Malevolent-Reign?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/508957/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -211,17 +231,18 @@
         "campaign": "Forgotten Realms",
         "code": "BMG-MOONEP-MD-01",
         "date_created": "20240815",
-        "full_title": "BMG-MOONEP-MD-01 The Occupation of Caer Caldwell",
+        "full_title": "BMG-MOONEP-MD-01 The Occupation of Caer Corwell",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-MOONEP-MD-01-The-Occupation-of-Caer-Caldwell",
-        "tiers": null,
-        "title": "BMG-MOONEP-MD-01 The Occupation of Caer Caldwell",
-        "url": "https://www.dmsguild.com/product/491740/BMGMOONEPMD01-The-Occupation-of-Caer-Caldwell?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "level_range": "5-10",
+        "price": 11.99,
+        "product_id": "491740",
+        "tiers": 2,
+        "title": "BMG-MOONEP-MD-01 The Occupation of Caer Corwell",
+        "url": "https://www.dmsguild.com/product/491740/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": "13,18",
         "authors": [
             "D&D Adventurers League"
         ],
@@ -231,10 +252,11 @@
         "full_title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-MOONEP-MD-02-The-Enchantment-of-Chaos",
-        "tiers": null,
+        "level_range": "11-20",
+        "price": 11.99,
+        "product_id": "508959",
+        "tiers": "3-4",
         "title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
-        "url": "https://www.dmsguild.com/product/508959/BMGMOONEPMD02-The-Enchantment-of-Chaos?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/508959/?affiliate_id=171040"
     }
 ]

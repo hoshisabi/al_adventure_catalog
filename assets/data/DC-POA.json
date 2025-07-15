@@ -104,7 +104,7 @@
         "url": "https://www.dmsguild.com/product/341720/DCPOA-AOT0101-Counteroffer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Christopher B. Bertucio"
         ],
@@ -114,11 +114,12 @@
         "full_title": "DC-POA-CBB-01 : Twirling Towards Oblivion",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-CBB-01---Twirling-Towards-Oblivion",
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "342209",
         "tiers": 1,
         "title": "DC-POA-CBB-01  Twirling Towards Oblivion",
-        "url": "https://www.dmsguild.com/product/342209/DCPOACBB01--Twirling-Towards-Oblivion?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/342209/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -131,14 +132,15 @@
         "full_title": "DC-PoA-CBB-02 : Avarice Everlasting",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-CBB-02---Avarice-Everlasting",
-        "tiers": null,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "346672",
+        "tiers": 1,
         "title": "DC-PoA-CBB-02  Avarice Everlasting",
-        "url": "https://www.dmsguild.com/product/346672/DCPoACBB02--Avarice-Everlasting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/346672/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Christopher B. Bertucio"
         ],
@@ -148,11 +150,12 @@
         "full_title": "DC-PoA-CBB-03 : The Menagerie of Count Zapharry",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-CBB-03---The-Menagerie-of-Count-Zapharry",
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "349733",
         "tiers": 2,
         "title": "DC-PoA-CBB-03  The Menagerie of Count Zapharry",
-        "url": "https://www.dmsguild.com/product/349733/DCPoACBB03--The-Menagerie-of-Count-Zapharry?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/349733/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -165,11 +168,12 @@
         "full_title": "DC-POA-CBB-04 : Cossum's Universal Constructs",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-CBB-04---Cossums-Universal-Constructs",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "357544",
+        "tiers": 2,
         "title": "DC-POA-CBB-04  Cossum's Universal Constructs",
-        "url": "https://www.dmsguild.com/product/357544/DCPOACBB04--Cossums-Universal-Constructs?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/357544/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -182,11 +186,12 @@
         "full_title": "DC-PoA-CBB-05 Menace At The Strandwolf Peaks",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-CBB-05-Menace-At-The-Strandwolf-Peaks",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "362133",
+        "tiers": 2,
         "title": "DC-PoA-CBB-05 Menace At The Strandwolf Peaks",
-        "url": "https://www.dmsguild.com/product/362133/DCPoACBB05-Menace-At-The-Strandwolf-Peaks?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/362133/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -199,11 +204,12 @@
         "full_title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-CBB-06-The-Mystery-of-Mendax-The-Menacing",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "367061",
+        "tiers": 2,
         "title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",
-        "url": "https://www.dmsguild.com/product/367061/DCPoACBB06-The-Mystery-of-Mendax-The-Menacing?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/367061/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1570,40 +1576,6 @@
     {
         "apl": null,
         "authors": [
-            "Jody Claunch"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "DC-POA-JCDC-01",
-        "date_created": "20210822",
-        "full_title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-JCDC-01-Honey-Wheres-The-Money",
-        "tiers": 1,
-        "title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
-        "url": "https://www.dmsguild.com/product/368518/DCPoAJCDC01-Honey-Wheres-The-Money?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Jody Claunch"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "DC-POA-JCDC-01",
-        "date_created": "20210822",
-        "full_title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-JCDC-01-Honey...-Wheres-The-Money",
-        "tiers": 1,
-        "title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
-        "url": "https://www.dmsguild.com/product/368518/DCPoAJCDC01-Honey-Wheres-The-Money?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
             "Jasper's Game Day",
             "Ma'at Crook",
             "Chris Maxwell"
@@ -2761,10 +2733,11 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "Eateat-Go-Home-DC-POA-PND-4",
+        "price": 2.99,
+        "product_id": "369347",
         "tiers": 2,
         "title": "Eateat Go Home? DC-POA-PND-4",
-        "url": "https://www.dmsguild.com/product/369347/Eateat-Go-Home-DCPOAPND4?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369347/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2846,11 +2819,12 @@
         "full_title": "Someone Dropped the Goat-Ball (DC-POA-PND-1)",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "Someone-Dropped-the-Goat-Ball-DC-POA-PND-1",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "354319",
         "tiers": 1,
         "title": "Someone Dropped the Goat-Ball DC-POA-PND-1",
-        "url": "https://www.dmsguild.com/product/354319/Someone-Dropped-the-GoatBall-DCPOAPND1?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/354319/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2988,13 +2962,14 @@
         "code": "DC-POA-PND-3",
         "date_created": "20210830",
         "full_title": "The Watcher in the Attic (DC-POA-PND-3)",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "The-Watcher-in-the-Attic-DC-POA-PND-3",
+        "price": null,
+        "product_id": "369336",
         "tiers": 1,
         "title": "The Watcher in the Attic DC-POA-PND-3",
-        "url": "https://www.dmsguild.com/product/369336/The-Watcher-in-the-Attic-DCPOAPND3?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369336/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3008,10 +2983,11 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "What-Skitters-Beneath-DC-POA-PND-2",
+        "price": 2.99,
+        "product_id": "369329",
         "tiers": 1,
         "title": "What Skitters Beneath? DC-POA-PND-2",
-        "url": "https://www.dmsguild.com/product/369329/What-Skitters-Beneath-DCPOAPND2?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369329/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3025,9 +3001,10 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "What-Stalks-the-Night-DC-POA-PND-5",
+        "price": 2.99,
+        "product_id": "369349",
         "tiers": 2,
         "title": "What Stalks the Night? DC-POA-PND-5",
-        "url": "https://www.dmsguild.com/product/369349/What-Stalks-the-Night-DCPOAPND5?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369349/?affiliate_id=171040"
     }
 ]
