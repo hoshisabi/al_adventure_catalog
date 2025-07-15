@@ -2659,16 +2659,36 @@
             "Patr\u00edcia Brito"
         ],
         "campaign": "Forgotten Realms",
+        "code": "WBW-DC-LIGA01",
+        "date_created": "20220830",
+        "full_title": "WBW-DC-LIGA01 - Breath on the Run",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "408418",
+        "tiers": 1,
+        "title": "- Breath on the Run",
+        "url": "https://www.dmsguild.com/product/408418/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Lu\u00eds Ricardo",
+            "Patr\u00edcia Brito"
+        ],
+        "campaign": "Forgotten Realms",
         "code": "WBW-DC-LIGA02",
         "date_created": "20220831",
         "full_title": "WBW-DC-LIGA02 Between one World and Another",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-LIGA02-Between-one-World-and-Another",
-        "tiers": null,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "408437",
+        "tiers": 1,
         "title": "Between one World and Another",
-        "url": "https://www.dmsguild.com/product/408437/WBWDCLIGA02-Between-one-World-and-Another?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408437/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2682,11 +2702,12 @@
         "full_title": "WBW-DC-LIGA03 Clash of Reality",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-LIGA03-Clash-of-Reality",
-        "tiers": null,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "408587",
+        "tiers": 1,
         "title": "Clash of Reality",
-        "url": "https://www.dmsguild.com/product/408587/WBWDCLIGA03-Clash-of-Reality?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408587/?affiliate_id=171040"
     },
     {
         "apl": 3,

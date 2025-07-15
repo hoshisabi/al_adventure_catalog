@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Alex Kammer",
         "Ed Greenwood",
@@ -9,12 +9,12 @@
     "code": "CCC-GHC-09",
     "date_created": "20171204",
     "full_title": "CCC-GHC-09 - Swamp Of Death",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "11-16",
+    "price": 1.99,
     "product_id": "228108",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-GHC-09 - Swamp Of Death",
     "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
 }
