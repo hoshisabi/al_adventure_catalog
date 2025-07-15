@@ -24,7 +24,7 @@ class TestAdventureExtraction(unittest.TestCase):
         self.assertEqual(sanitize_filename("  Leading and Trailing Spaces  "), "Leading-and-Trailing-Spaces.json")
         self.assertEqual(sanitize_filename("File with-dashes-and_underscores"), "File-with-dashes-and_underscores.json")
         self.assertEqual(sanitize_filename("Ünicode Fïle Ñame"), "Unicode-File-Name.json")
-        self.assertEqual(sanitize_filename("A.B.C.D"), "A.B.C.D.json") # Should preserve periods for extensions, but sanitize_filename adds .json
+        self.assertEqual(sanitize_filename("A.B.C.D.html"), "A-B-C-D.json") # All periods in base name should become dashes
         self.assertEqual(sanitize_filename("Test.json"), "Test.json") # Already has .json
         self.assertEqual(sanitize_filename("Test.txt"), "Test.json") # Changes extension to .json
 

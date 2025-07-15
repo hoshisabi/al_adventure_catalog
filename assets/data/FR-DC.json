@@ -35,22 +35,10 @@
     },
     {
         "apl": 13,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-MELB-02-06",
-        "date_created": "20250625",
-        "full_title": "Beneath Salt and Stone (FR-DC-MELB-02-06)",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "11-16",
-        "product_id": "527493",
-        "tiers": 3,
-        "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 13,
-        "authors": [],
+        "authors": [
+            "Brendon Watson",
+            "Siobhan Hanlon"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-06",
         "date_created": "20250625",
@@ -62,7 +50,7 @@
         "product_id": "527493",
         "tiers": 3,
         "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527493?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -246,27 +234,12 @@
         "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "Four-Assassinations--a-Funeral-FR-DC-THAY-05",
-        "tiers": 2,
-        "title": "Four Assassinations & a Funeral",
-        "url": "https://www.dmsguild.com/product/528046/Four-Assassinations--a-Funeral-FRDCTHAY05?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-THAY-05",
-        "date_created": "20250629",
-        "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
-        "hours": 4,
-        "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
         "product_id": "528046",
         "tiers": 2,
         "title": "Four Assassinations & a Funeral",
-        "url": "https://www.dmsguild.com/product/528046/Four-Assassinations--a-Funeral-FRDCTHAY05?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/528046?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -440,22 +413,6 @@
     },
     {
         "apl": 8,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-AKU-01",
-        "date_created": "20250627",
-        "full_title": "FR-DC-AKU-01 Phantom's Lament",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "527701",
-        "tiers": 2,
-        "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 8,
         "authors": [
             "Kaithlyn Kuan"
         ],
@@ -463,13 +420,14 @@
         "code": "FR-DC-AKU-01",
         "date_created": "20250627",
         "full_title": "FR-DC-AKU-01 Phantom's Lament",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "4",
-        "product_id": "FR-DC-AKU-01-Phantoms-Lament",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "527701",
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -790,6 +748,7 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "01",
+        "price": null,
         "product_id": "FR-DC-DIGM-01-02-Sweet-Reassignment",
         "tiers": 1,
         "title": "Sweet Reassignment",
@@ -823,11 +782,12 @@
         "full_title": "FR-DC-DILL-01 Labor Day",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-DILL-01-Labor-Day",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "495119",
         "tiers": 2,
         "title": "Labor Day",
-        "url": "https://www.dmsguild.com/product/495119/FRDCDILL01-Labor-Day?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/495119/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -882,7 +842,9 @@
     },
     {
         "apl": 10,
-        "authors": [],
+        "authors": [
+            "Bernhard Staneker"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-FET02_VATRAS",
         "date_created": "20250705",
@@ -893,7 +855,7 @@
         "price": 4.99,
         "product_id": "528753",
         "tiers": 2,
-        "title": "Abyss",
+        "title": "Vatras Abyss",
         "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
@@ -958,10 +920,10 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "FR-DC-GARY-01--Sand-to-Ash",
+        "product_id": 515929,
         "tiers": 2,
         "title": "Sand to Ash",
-        "url": "https://www.dmsguild.com/product/515929/FRDCGARY01-Sand-to-Ash?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https:  //www.dmsguild.com/product/515929/FRDCGARY01-Sand-to-Ash?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1128,24 +1090,6 @@
         "campaign": "Forgotten Realms",
         "code": "FR-DC-LIGA-03",
         "date_created": "20240412",
-        "full_title": "FR-DC-LIGA-03 - Doom Reborn",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "3",
-        "product_id": "FR-DC-LIGA-03---Doom-Reborn",
-        "tiers": 3,
-        "title": "- Doom Reborn",
-        "url": "https://www.dmsguild.com/product/477366/FRDCLIGA03--Doom-Reborn?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Brian Balagot",
-            "Liga dos Aventureiros"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-LIGA-03",
-        "date_created": "20240412",
         "full_title": "FR-DC-LIGA-03 Doom Reborn",
         "hours": 4,
         "is_adventure": true,
@@ -1283,7 +1227,9 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Casey McGirt"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MCG-CH1",
         "date_created": "20250625",
@@ -1295,23 +1241,25 @@
         "product_id": "527653",
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 3,
+        "authors": [
+            "Bernard Velasco"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-NEW-TIER1-1",
         "date_created": "20250711",
-        "full_title": "FR-DC-NEW-TIER1-1",
-        "hours": null,
+        "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
+        "hours": 4,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 1.0,
         "product_id": "529395",
-        "tiers": null,
-        "title": "",
-        "url": "https://www.dmsguild.com/product/529395/FRDCNEWTIER11?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "tiers": 1,
+        "title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
+        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1373,13 +1321,14 @@
         "code": "FR-DC-NUKE-01",
         "date_created": "20241106",
         "full_title": "FR-DC-NUKE-01 The Search for the Scarlet Stallion",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-NUKE-01-The-Search-for-the-Scarlet-Stallion",
+        "price": null,
+        "product_id": "501443",
         "tiers": 1,
         "title": "The Search for the Scarlet Stallion",
-        "url": "https://www.dmsguild.com/product/501443/FRDCNUKE01-The-Search-for-the-Scarlet-Stallion?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/501443/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1392,11 +1341,30 @@
         "full_title": "FR-DC-NUKE-02 The Black Wyrm of Bog Hold",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-NUKE-02-The-Black-Wyrm-of-Bog-Hold",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "498680",
         "tiers": 2,
         "title": "The Black Wyrm of Bog Hold",
-        "url": "https://www.dmsguild.com/product/498680/FRDCNUKE02-The-Black-Wyrm-of-Bog-Hold?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/498680/?affiliate_id=171040"
+    },
+    {
+        "apl": 14,
+        "authors": [
+            "Ed Stevens"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-NUKE-03",
+        "date_created": "20241012",
+        "full_title": "FR-DC-NUKE-03 The Sapphire Hoard",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "498681",
+        "tiers": 3,
+        "title": "The Sapphire Hoard",
+        "url": "https://www.dmsguild.com/product/498681/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1715,13 +1683,14 @@
         "code": "FR-DC-RWIE-01",
         "date_created": "20240311",
         "full_title": "FR-DC-RWIE-01 Divine Chance - Always Bet on Red",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-RWIE-01-Divine-Chance---Always-Bet-on-Red",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "473797",
         "tiers": 1,
         "title": "Divine Chance - Always Bet on Red",
-        "url": "https://www.dmsguild.com/product/473797/FRDCRWIE01-Divine-Chance--Always-Bet-on-Red?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/473797/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1735,11 +1704,12 @@
         "full_title": "FR-DC-RWIE-02 Of Books and Men - An Overdue Adventure",
         "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-RWIE-02-Of-Books-and-Men---An-Overdue-Adventure",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "473799",
         "tiers": 2,
         "title": "Of Books and Men - An Overdue Adventure",
-        "url": "https://www.dmsguild.com/product/473799/FRDCRWIE02-Of-Books-and-Men--An-Overdue-Adventure?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/473799/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1778,6 +1748,24 @@
         "url": "https://www.dmsguild.com/product/493743/FRDCSAC07-Haunting-in-Gloomwood-Cemetery?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-SAERLOON-00",
+        "date_created": "20240718",
+        "full_title": "FR-DC-SAERLOON-00 Darkhouse, Deliverance",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "488443",
+        "tiers": 3,
+        "title": "Darkhouse, Deliverance",
+        "url": "https://www.dmsguild.com/product/488443/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Dennis R Hall"
@@ -1786,13 +1774,14 @@
         "code": "FR-DC-SAERLOON-01",
         "date_created": "20250118",
         "full_title": "FR-DC-SAERLOON-01 EYES ON THE PIES",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-SAERLOON-01-EYES-ON-THE-PIES",
+        "price": null,
+        "product_id": "509140",
         "tiers": 1,
         "title": "EYES ON THE PIES",
-        "url": "https://www.dmsguild.com/product/509140/FRDCSAERLOON01-EYES-ON-THE-PIES?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/509140/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1803,13 +1792,14 @@
         "code": "FR-DC-SAERLOON-02",
         "date_created": "20250126",
         "full_title": "FR-DC-Saerloon-02 Mincemeat",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-Saerloon-02-Mincemeat",
+        "price": null,
+        "product_id": "510076",
         "tiers": 1,
         "title": "FR-DC-Saerloon-02 Mincemeat",
-        "url": "https://www.dmsguild.com/product/510076/FRDCSaerloon02-Mincemeat?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/510076/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1820,13 +1810,14 @@
         "code": "FR-DC-SAERLOON-03",
         "date_created": "20250215",
         "full_title": "FR-DC-SAERLOON-03 CHEESE MARKET COLLAPSE",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-SAERLOON-03-CHEESE-MARKET-COLLAPSE",
+        "price": null,
+        "product_id": "512487",
         "tiers": 1,
         "title": "CHEESE MARKET COLLAPSE",
-        "url": "https://www.dmsguild.com/product/512487/FRDCSAERLOON03-CHEESE-MARKET-COLLAPSE?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/512487/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1837,13 +1828,14 @@
         "code": "FR-DC-SAERLOON-04",
         "date_created": "20250313",
         "full_title": "FR-DC-SAERLOON-04 ASTRINGENT NO MORE",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-SAERLOON-04-ASTRINGENT-NO-MORE",
+        "price": null,
+        "product_id": "515303",
         "tiers": 1,
         "title": "ASTRINGENT NO MORE",
-        "url": "https://www.dmsguild.com/product/515303/FRDCSAERLOON04-ASTRINGENT-NO-MORE?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/515303/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1854,13 +1846,14 @@
         "code": "FR-DC-SAERLOON-05",
         "date_created": "20250406",
         "full_title": "FR-DC-Saerloon-05 That\u2019s a lot of Flambe",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-Saerloon-05-Thats-a-lot-of-Flambe",
+        "price": null,
+        "product_id": "517839",
         "tiers": 1,
         "title": "FR-DC-Saerloon-05 That\u2019s a lot of Flambe",
-        "url": "https://www.dmsguild.com/product/517839/FRDCSaerloon05-Thats-a-lot-of-Flambe?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/517839/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1871,13 +1864,14 @@
         "code": "FR-DC-SAERLOON-06",
         "date_created": "20250420",
         "full_title": "FR-DC-Saerloon-06 The Tremblers v1.0",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-Saerloon-06-The-Tremblers-v10",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "519418",
         "tiers": 2,
         "title": "FR-DC-Saerloon-06 The Tremblers v1.0",
-        "url": "https://www.dmsguild.com/product/519418/FRDCSaerloon06-The-Tremblers-v10?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/519418/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1888,13 +1882,14 @@
         "code": "FR-DC-SAERLOON-07",
         "date_created": "20250510",
         "full_title": "FR-DC-Saerloon-07 A Gaggle of Gates",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-Saerloon-07-A-Gaggle-of-Gates",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "521910",
         "tiers": 2,
         "title": "FR-DC-Saerloon-07 A Gaggle of Gates",
-        "url": "https://www.dmsguild.com/product/521910/FRDCSaerloon07-A-Gaggle-of-Gates?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/521910/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1907,11 +1902,12 @@
         "full_title": "FR-DC-Saerloon-08 Saberwing",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-Saerloon-08-Saberwing",
+        "level_range": "5-10",
+        "price": 1.0,
+        "product_id": "525565",
         "tiers": 2,
         "title": "FR-DC-Saerloon-08 Saberwing",
-        "url": "https://www.dmsguild.com/product/525565/FRDCSaerloon08-Saberwing?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/525565/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1919,16 +1915,17 @@
             "Greg Wright"
         ],
         "campaign": "Forgotten Realms",
-        "code": "FR-DC-SSG-FAI-01-",
+        "code": "FR-DC-SSG-FAI-01",
         "date_created": "20250401",
         "full_title": "FR-DC-SSG-FAI-01: The Secret in Sanctuary",
         "hours": 3,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "FR-DC-SSG-FAI-01--The-Secret-in-Sanctuary",
+        "price": 4.99,
+        "product_id": 517244,
         "tiers": 1,
         "title": "The Secret in Sanctuary",
-        "url": "https://www.dmsguild.com/product/517244/FRDCSSGFAI01-The-Secret-in-Sanctuary?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/517244?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2088,11 +2085,12 @@
         "full_title": "FR-DC-STRAT-FIEND-07 Go There & Kill More Things",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "0",
-        "product_id": "FR-DC-STRAT-FIEND-07-Go-There--Kill-More-Things",
+        "level_range": "11-16",
+        "price": 6.99,
+        "product_id": "512338",
         "tiers": 3,
         "title": "Go There & Kill More Things",
-        "url": "https://www.dmsguild.com/product/512338/FRDCSTRATFIEND07-Go-There--Kill-More-Things?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/512338/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2144,7 +2142,10 @@
     },
     {
         "apl": 13,
-        "authors": [],
+        "authors": [
+            "Kevin Haw",
+            "Strategicon AL"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-04",
         "date_created": "20250618",
@@ -3075,7 +3076,7 @@
         "full_title": "Tavern Rats (FR-DC-CLASSIC-01)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "Tavern-Rats-FR-DC-CLASSIC-01",
         "tiers": 1,
         "title": "Tavern Rats",
@@ -3236,7 +3237,9 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Johann Taslim"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-03",
         "date_created": "20250616",

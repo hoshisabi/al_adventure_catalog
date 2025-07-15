@@ -17,7 +17,7 @@
         "url": "https://www.dmsguild.com/product/407458/15-Seconds-to-Curtain-WBWDCNBDD02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Justice Arman"
         ],
@@ -28,10 +28,10 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "A-Meal-to-Remember-WBW-DC-FDC-07",
-        "tiers": null,
+        "product_id": 371499,
+        "tiers": 1,
         "title": "A Meal to Remember",
-        "url": "https://www.dmsguild.com/product/371499/A-Meal-to-Remember-WBWDCFDC07?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/371499?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -103,7 +103,9 @@
     },
     {
         "apl": 10,
-        "authors": [],
+        "authors": [
+            "Paul Gabat"
+        ],
         "campaign": "Forgotten Realms",
         "code": "WBW-DC-ZION-02",
         "date_created": "20220831",
@@ -111,31 +113,17 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
+        "price": 4.95,
         "product_id": "408577",
         "tiers": 2,
         "title": "Alexander's Hand",
-        "url": "https://www.dmsguild.com/product/408577/Alexanders-Hand-WBWDCZION02?filters=1000042_100191_100057_0_45356_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Paul Gabat"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "WBW-DC-ZION-02",
-        "date_created": "20220831",
-        "full_title": "Alexander's Hand (WBW-DC-ZION-02)",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Alexanders-Hand-WBW-DC-ZION-02",
-        "tiers": null,
-        "title": "Alexander's Hand",
-        "url": "https://www.dmsguild.com/product/408577/Alexanders-Hand-WBWDCZION02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408577/?affiliate_id=171040"
     },
     {
         "apl": 10,
-        "authors": [],
+        "authors": [
+            "Paul Gabat"
+        ],
         "campaign": "Forgotten Realms",
         "code": "WBW-DC-ZION-01",
         "date_created": "20220831",
@@ -143,27 +131,11 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
+        "price": 4.95,
         "product_id": "408575",
         "tiers": 2,
         "title": "Anna's Embrace",
-        "url": "https://www.dmsguild.com/product/408575/Annas-Embrace-WBWDCZION01?filters=1000042_100191_100057_0_45356_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Paul Gabat"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "WBW-DC-ZION-01",
-        "date_created": "20220831",
-        "full_title": "Anna's Embrace (WBW-DC-ZION-01)",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Annas-Embrace-WBW-DC-ZION-01",
-        "tiers": null,
-        "title": "Anna's Embrace",
-        "url": "https://www.dmsguild.com/product/408575/Annas-Embrace-WBWDCZION01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408575/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -348,11 +320,12 @@
         "full_title": "Have You No Heart? (WBW-DC-UCON-02)",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Have-You-No-Heart-WBW-DC-UCON-02",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408615",
         "tiers": 2,
         "title": "Have You No Heart?",
-        "url": "https://www.dmsguild.com/product/408615/Have-You-No-Heart-WBWDCUCON02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408615/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -397,32 +370,14 @@
         "code": "WBW-DC-LAB-01",
         "date_created": "20220814",
         "full_title": "Kobold King's Labyrinth (WBW-DC-LAB-01)",
-        "hours": 13,
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": null,
-        "product_id": "406494",
-        "tiers": 1,
-        "title": "Kobold King's Labyrinth",
-        "url": "https://www.dmsguild.com/product/406494/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Jason Lee"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "WBW-DC-LAB-01",
-        "date_created": "20220814",
-        "full_title": "Kobold King's Labyrinth (WBW-DC-LAB-01)",
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
-        "product_id": "Kobold-Kings-Labyrinth-WBW-DC-LAB-01",
+        "product_id": "406494",
         "tiers": 1,
         "title": "Kobold King's Labyrinth",
-        "url": "https://www.dmsguild.com/product/406494?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/406494/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -476,7 +431,7 @@
         "url": "https://www.dmsguild.com/product/377009/Mirror-Mirror-WBWDCJOQ02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 10,
         "authors": [
             "Paul Gabat"
         ],
@@ -486,11 +441,12 @@
         "full_title": "Noctis' Sacrifice (WBW-DC-ZION-03)",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Noctis-Sacrifice-WBW-DC-ZION-03",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "408581",
+        "tiers": 2,
         "title": "Noctis' Sacrifice",
-        "url": "https://www.dmsguild.com/product/408581/Noctis-Sacrifice-WBWDCZION03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408581/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -772,13 +728,14 @@
         "code": "WBW-DC-ANDL-03",
         "date_created": "20220503",
         "full_title": "The Crossings of Fate (WBW-DC-ANDL-03)",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "The-Crossings-of-Fate-WBW-DC-ANDL-03",
+        "price": null,
+        "product_id": "395552",
         "tiers": 2,
         "title": "The Crossings of Fate",
-        "url": "https://www.dmsguild.com/product/395552/The-Crossings-of-Fate-WBWDCANDL03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/395552/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -925,13 +882,14 @@
         "code": "WBW-DC-UCON-01",
         "date_created": "20220831",
         "full_title": "The Party that Split (WBW-DC-UCON-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Party-that-Split-WBW-DC-UCON-01",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "408590",
         "tiers": 1,
         "title": "The Party that Split",
-        "url": "https://www.dmsguild.com/product/408590/The-Party-that-Split-WBWDCUCON01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408590/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1945,13 +1903,14 @@
         "code": "WBW-DC-DEN-H1",
         "date_created": "20220827",
         "full_title": "WBW-DC-DEN-H1 Pome and Prejudice",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-DEN-H1-Pome-and-Prejudice",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "408073",
         "tiers": 2,
         "title": "Pome and Prejudice",
-        "url": "https://www.dmsguild.com/product/408073/WBWDCDENH1-Pome-and-Prejudice?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408073/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1962,13 +1921,14 @@
         "code": "WBW-DC-DEN-H2",
         "date_created": "20220828",
         "full_title": "WBW-DC-DEN-H2 Disheartened",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-DEN-H2-Disheartened",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "408133",
         "tiers": 1,
         "title": "Disheartened",
-        "url": "https://www.dmsguild.com/product/408133/WBWDCDENH2-Disheartened?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408133/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -2824,13 +2784,14 @@
         "code": "WBW-DC-MOM-01",
         "date_created": "20220417",
         "full_title": "WBW-DC-MOM-01 One Moment",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MOM-01-One-Moment",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "393912",
         "tiers": 2,
         "title": "One Moment",
-        "url": "https://www.dmsguild.com/product/393912/WBWDCMOM01-One-Moment?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/393912/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2842,13 +2803,14 @@
         "code": "WBW-DC-MOM-02",
         "date_created": "20220807",
         "full_title": "WBW-DC-MOM-02 One Chance",
-        "hours": 2,
+        "hours": 6,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MOM-02-One-Chance",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "405701",
         "tiers": 2,
         "title": "One Chance",
-        "url": "https://www.dmsguild.com/product/405701/WBWDCMOM02-One-Chance?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/405701/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3369,9 +3331,10 @@
         "code": "WBW-DC-ROOK-1-4",
         "date_created": "20220621",
         "full_title": "WBW-DC-Rook-1-4 The Rookery: Long Live the Goblins",
-        "hours": 6,
+        "hours": "4-6",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "price": 4.99,
         "product_id": "WBW-DC-Rook-1-4-The-Rookery--Long-Live-the-Goblins",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-4 The Rookery Long Live the Goblins",

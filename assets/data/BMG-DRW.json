@@ -10,11 +10,12 @@
         "full_title": "BMG-DRW-OD-01 Something in the Way",
         "hours": 4,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRW-OD-01-Something-in-the-Way",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "450333",
+        "tiers": 2,
         "title": "BMG-DRW-OD-01 Something in the Way",
-        "url": "https://www.dmsguild.com/product/450333/BMGDRWOD01-Something-in-the-Way?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450333/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -25,13 +26,14 @@
         "code": "BMG-DRW-OD-02",
         "date_created": "20230822",
         "full_title": "BMG-DRW-OD-02 Something Wicked",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRW-OD-02-Something-Wicked",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "450335",
+        "tiers": 2,
         "title": "BMG-DRW-OD-02 Something Wicked",
-        "url": "https://www.dmsguild.com/product/450335/BMGDRWOD02-Something-Wicked?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450335/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -42,13 +44,14 @@
         "code": "BMG-DRW-OD-03",
         "date_created": "20240118",
         "full_title": "BMG-DRW-OD-03 Something on the Move",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRW-OD-03-Something-on-the-Move",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "467791",
+        "tiers": 2,
         "title": "BMG-DRW-OD-03 Something on the Move",
-        "url": "https://www.dmsguild.com/product/467791/BMGDRWOD03-Something-on-the-Move?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/467791/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -59,13 +62,14 @@
         "code": "BMG-DRW-OD-04",
         "date_created": "20240314",
         "full_title": "BMG-DRW-OD-04 We're All in this Together",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRW-OD-04-Were-All-in-this-Together",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "474103",
+        "tiers": 2,
         "title": "BMG-DRW-OD-04 We're All in this Together",
-        "url": "https://www.dmsguild.com/product/474103/BMGDRWOD04-Were-All-in-this-Together?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/474103/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -76,13 +80,14 @@
         "code": "BMG-DRW-OD-05",
         "date_created": "20240418",
         "full_title": "BMG-DRW-OD-05 Now We've Done It",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRW-OD-05-Now-Weve-Done-It",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "477851",
+        "tiers": 2,
         "title": "BMG-DRW-OD-05 Now We've Done It",
-        "url": "https://www.dmsguild.com/product/477851/BMGDRWOD05-Now-Weve-Done-It?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/477851/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -93,13 +98,14 @@
         "code": "BMG-DRW-OD-06",
         "date_created": "20240516",
         "full_title": "BMG-DRW-OD-06 We Almost Had It All",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-DRW-OD-06-We-Almost-Had-It-All",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "481299",
+        "tiers": 3,
         "title": "BMG-DRW-OD-06 We Almost Had It All",
-        "url": "https://www.dmsguild.com/product/481299/BMGDRWOD06-We-Almost-Had-It-All?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/481299/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -110,13 +116,14 @@
         "code": "BMG-DRW-OD-07",
         "date_created": "20240815",
         "full_title": "BMG-DRW-OD-07 The Subtlety of Subterfuge",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": "BMG-DRW-OD-07-The-Subtlety-of-Subterfuge",
-        "tiers": null,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "491737",
+        "tiers": 3,
         "title": "BMG-DRW-OD-07 The Subtlety of Subterfuge",
-        "url": "https://www.dmsguild.com/product/491737/BMGDRWOD07-The-Subtlety-of-Subterfuge?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491737/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -128,13 +135,14 @@
         "code": "BMG-DRWEP-OD-01",
         "date_created": "20240215",
         "full_title": "BMG-DRWEP-OD-01 The Enemy of My Enemy",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRWEP-OD-01-The-Enemy-of-My-Enemy",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "471087",
+        "tiers": 2,
         "title": "BMG-DRWEP-OD-01 The Enemy of My Enemy",
-        "url": "https://www.dmsguild.com/product/471087/BMGDRWEPOD01-The-Enemy-of-My-Enemy?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471087/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -145,12 +153,13 @@
         "code": "BMG-DRWEP-OD-02",
         "date_created": "20240718",
         "full_title": "BMG-DRWEP-OD-02 The Burning of Aglarond",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "BMG-DRWEP-OD-02-The-Burning-of-Aglarond",
-        "tiers": null,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "488409",
+        "tiers": 2,
         "title": "BMG-DRWEP-OD-02 The Burning of Aglarond",
-        "url": "https://www.dmsguild.com/product/488409/BMGDRWEPOD02-The-Burning-of-Aglarond?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/488409/?affiliate_id=171040"
     }
 ]

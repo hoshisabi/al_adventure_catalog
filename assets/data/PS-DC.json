@@ -31,7 +31,7 @@
         "product_id": "A-Devious-Devas-Deduction-PS-DC-DDD",
         "tiers": 2,
         "title": "A Devious Deva's Deduction",
-        "url": "https://www.dmsguild.com/product/485383/A-Devious-Devas-Deduction-PSDCDDD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485383?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -59,13 +59,14 @@
         "code": "PS-DC-CAKE-02",
         "date_created": "20250315",
         "full_title": "CAKE WARS II (PS-DC-CAKE-02)",
-        "hours": 4,
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CAKE-WARS-II-PS-DC-CAKE-02",
+        "price": 4.99,
+        "product_id": "515404",
         "tiers": 1,
         "title": "CAKE WARS II",
-        "url": "https://www.dmsguild.com/product/515404/CAKE-WARS-II-PSDCCAKE02?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/515404/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -76,13 +77,14 @@
         "code": "PS-DC-CAKE-01",
         "date_created": "20240727",
         "full_title": "CAKE WARS (PS-DC-CAKE-01)",
-        "hours": 2,
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "CAKE-WARS-PS-DC-CAKE-01",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "489416",
         "tiers": 1,
         "title": "CAKE WARS",
-        "url": "https://www.dmsguild.com/product/489416/CAKE-WARS-PSDCCAKE01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489416/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -122,23 +124,10 @@
         "url": "https://www.dmsguild.com/product/479242/Duke-Ravengard-Gets-Sent-to-Hell-Again-PSDCRAVENGARDV?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "PS-DC-GMM-03",
-        "date_created": "20250616",
-        "full_title": "Frantic Frontier Fiasco (PS-DC-GMM-03)",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "526539",
-        "tiers": 2,
-        "title": "Frantic Frontier Fiasco",
-        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": null,
-        "authors": [],
+        "apl": 8,
+        "authors": [
+            "Richard Gejji"
+        ],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-GMM-03",
         "date_created": "20250616",
@@ -150,7 +139,7 @@
         "product_id": "526539",
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
-        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526539/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1058,22 +1047,6 @@
         "apl": 18,
         "authors": [],
         "campaign": "Forgotten Realms",
-        "code": "PS-DC-STRAT-TALES-05",
-        "date_created": "20250618",
-        "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "17-20",
-        "price": 5.99,
-        "product_id": "526751",
-        "tiers": 4,
-        "title": "War of the Roses",
-        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 18,
-        "authors": [],
-        "campaign": "Forgotten Realms",
         "code": "PS-DC-STRAT-TALES-06",
         "date_created": "20250618",
         "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
@@ -1102,22 +1075,6 @@
         "tiers": 4,
         "title": "Dungeon & A Dragon",
         "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 18,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "PS-DC-STRAT-TALES-06",
-        "date_created": "20250618",
-        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "17-20",
-        "price": 5.99,
-        "product_id": "526753",
-        "tiers": 4,
-        "title": "Dungeon & A Dragon",
-        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -1269,13 +1226,14 @@
         "code": "PS-DC-SS",
         "date_created": "20240311",
         "full_title": "Soul and Shadow (PS-DC-SS)",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "17-20",
-        "product_id": "Soul-and-Shadow-PS-DC-SS",
+        "price": null,
+        "product_id": "473735",
         "tiers": 4,
         "title": "Soul and Shadow PS-DC-SS",
-        "url": "https://www.dmsguild.com/product/473735/Soul-and-Shadow-PSDCSS?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/473735/?affiliate_id=171040"
     },
     {
         "apl": 3,

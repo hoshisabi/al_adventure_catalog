@@ -106,34 +106,38 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": null,
+        "campaign": "Eberron",
         "code": "EB-SM-DREAMS",
         "date_created": "20200428",
         "full_title": "Dreams of Salvation: A 4 hour Tier 1 Salvage Mission",
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Dreams-of-Salvation--A-4-hour-Tier-1-Salvage-Mission",
+        "price": null,
+        "product_id": "311419",
         "tiers": 1,
         "title": "Dreams of Salvation A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/311419/Dreams-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/311419/Dreams-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 20,
         "authors": [
             "Integral Game Conglomerate LLC"
         ],
-        "campaign": null,
+        "campaign": [
+            "Eberron"
+        ],
         "code": "EB-SM-RSM-T4.4",
         "date_created": "20230131",
         "full_title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
-        "hours": 2,
+        "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "EB-SALVAGE-RSM-T44-Daughter-of-Khyber",
+        "level_range": "17-20",
+        "price": null,
+        "product_id": "425292",
         "tiers": 4,
         "title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
-        "url": "https://www.dmsguild.com/product/425292/EBSALVAGERSMT44-Daughter-of-Khyber?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/425292/?affiliate_id=171040"
     },
     {
         "apl": 10,
@@ -148,13 +152,14 @@
         "code": "EB-SM-METALLUS",
         "date_created": "20230314",
         "full_title": "Eberron: The Ruin of Grave Metallus",
-        "hours": 4,
+        "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "Eberron--The-Ruin-of-Grave-Metallus",
+        "price": 4.99,
+        "product_id": "430378",
         "tiers": 2,
         "title": "Eberron The Ruin of Grave Metallus",
-        "url": "https://www.dmsguild.com/product/430378/Eberron-The-Ruin-of-Grave-Metallus&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/430378/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -255,10 +260,11 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "House-Hunting--A-4-hour-Tier-1-Salvage-Mission",
+        "price": null,
+        "product_id": "309087",
         "tiers": 1,
         "title": "House Hunting A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/309087/House-Hunting-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/309087/House-Hunting-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -494,10 +500,11 @@
         "hours": 3,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "The-Khyber-Heart--A-Salvage-Mission",
+        "price": null,
+        "product_id": "323626",
         "tiers": null,
         "title": "The Khyber Heart A Salvage Mission",
-        "url": "https://www.dmsguild.com/product/323626/The-Khyber-Heart-A-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/323626/The-Khyber-Heart-A-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,

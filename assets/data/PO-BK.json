@@ -271,21 +271,6 @@
     },
     {
         "apl": null,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "PO-BK-3-01",
-        "date_created": "20240103",
-        "full_title": "PO-BK-3-01 A Pirate's Life for Me",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "466083",
-        "tiers": null,
-        "title": "PO-BK-3-01 A Pirate's Life for Me",
-        "url": "https://www.dmsguild.com/product/466083/POBK301-A-Pirates-Life-for-Me?filters=1000042_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
         "authors": [
             "Ivy Ru Sklenicka",
             "David Sklenicka",
@@ -298,10 +283,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "PO-BK-3-01-A-Pirates-Life-for-Me",
+        "price": null,
+        "product_id": "466083",
         "tiers": null,
         "title": "PO-BK-3-01 A Pirate's Life for Me",
-        "url": "https://www.dmsguild.com/product/466083/POBK301-A-Pirates-Life-for-Me?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/466083/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -313,13 +299,14 @@
         "code": "PO-BK-3-02",
         "date_created": "20240119",
         "full_title": "PO-BK-3-02 Shoreline Spelunking",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "PO-BK-3-02-Shoreline-Spelunking",
+        "price": null,
+        "product_id": "467923",
         "tiers": null,
         "title": "PO-BK-3-02 Shoreline Spelunking",
-        "url": "https://www.dmsguild.com/product/467923/POBK302-Shoreline-Spelunking?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/467923/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -331,13 +318,14 @@
         "code": "PO-BK-3-03",
         "date_created": "20240119",
         "full_title": "PO-BK-3-03 Smoke on the Water",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "PO-BK-3-03-Smoke-on-the-Water",
+        "price": null,
+        "product_id": "467926",
         "tiers": null,
         "title": "PO-BK-3-03 Smoke on the Water",
-        "url": "https://www.dmsguild.com/product/467926/POBK303-Smoke-on-the-Water?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/467926/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -349,13 +337,14 @@
         "code": "PO-BK-3-04",
         "date_created": "20240222",
         "full_title": "PO-BK-3-04 Dead in the Water",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "PO-BK-3-04-Dead-in-the-Water",
+        "price": null,
+        "product_id": "471797",
         "tiers": null,
         "title": "PO-BK-3-04 Dead in the Water",
-        "url": "https://www.dmsguild.com/product/471797/POBK304-Dead-in-the-Water?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471797/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -367,13 +356,14 @@
         "code": "PO-BK-3-05",
         "date_created": "20240222",
         "full_title": "PO-BK-3-05 Into the Shining Sea",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK-3-05-Into-the-Shining-Sea",
+        "level_range": null,
+        "price": null,
+        "product_id": "471819",
         "tiers": null,
         "title": "PO-BK-3-05 Into the Shining Sea",
-        "url": "https://www.dmsguild.com/product/471819/POBK305-Into-the-Shining-Sea?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471819/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -385,28 +375,14 @@
         "code": "PO-BK-3-06",
         "date_created": "20240222",
         "full_title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK-3-06-Trouble-Brewing-in-Port-Nyanzaru",
-        "tiers": null,
-        "title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
-        "url": "https://www.dmsguild.com/product/471825/POBK306-Trouble-Brewing-in-Port-Nyanzaru?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [],
-        "campaign": "Forgotten Realms",
-        "code": "PO-BK-3-07",
-        "date_created": "20240223",
-        "full_title": "PO-BK-3-07 On Pirate's Honor",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "471827",
+        "price": null,
+        "product_id": "471825",
         "tiers": null,
-        "title": "PO-BK-3-07 On Pirate's Honor",
-        "url": "https://www.dmsguild.com/product/471827/POBK307-On-Pirates-Honor?filters=1000042_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
+        "url": "https://www.dmsguild.com/product/471825/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -418,13 +394,14 @@
         "code": "PO-BK-3-07",
         "date_created": "20240223",
         "full_title": "PO-BK-3-07 On Pirate's Honor",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK-3-07-On-Pirates-Honor",
+        "level_range": null,
+        "price": null,
+        "product_id": "471827",
         "tiers": null,
         "title": "PO-BK-3-07 On Pirate's Honor",
-        "url": "https://www.dmsguild.com/product/471827/POBK307-On-Pirates-Honor?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471827/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -439,10 +416,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "PO-BK-3-08-Weeding-Out-Trouble",
+        "price": null,
+        "product_id": "471829",
         "tiers": null,
         "title": "PO-BK-3-08 Weeding Out Trouble",
-        "url": "https://www.dmsguild.com/product/471829/POBK308-Weeding-Out-Trouble?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471829/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -454,13 +432,14 @@
         "code": "PO-BK-3-09",
         "date_created": "20240222",
         "full_title": "PO-BK-3-09 Isle of Death",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK-3-09-Isle-of-Death",
+        "level_range": null,
+        "price": null,
+        "product_id": "471830",
         "tiers": null,
         "title": "PO-BK-3-09 Isle of Death",
-        "url": "https://www.dmsguild.com/product/471830/POBK309-Isle-of-Death?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471830/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -472,13 +451,14 @@
         "code": "PO-BK-3-10",
         "date_created": "20240222",
         "full_title": "PO-BK-3-10 Hymn of Love",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK-3-10-Hymn-of-Love",
+        "level_range": null,
+        "price": null,
+        "product_id": "471832",
         "tiers": null,
         "title": "PO-BK-3-10 Hymn of Love",
-        "url": "https://www.dmsguild.com/product/471832/POBK310-Hymn-of-Love?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471832/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -490,13 +470,14 @@
         "code": "PO-BK-3-11",
         "date_created": "20240318",
         "full_title": "PO-BK-3-11 Covenant of the Blood Goddess",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "17",
-        "product_id": "PO-BK-3-11-Covenant-of-the-Blood-Goddess",
+        "level_range": null,
+        "price": null,
+        "product_id": "474556",
         "tiers": null,
         "title": "PO-BK-3-11 Covenant of the Blood Goddess",
-        "url": "https://www.dmsguild.com/product/474556/POBK311-Covenant-of-the-Blood-Goddess?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/474556/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -508,13 +489,14 @@
         "code": "PO-BK-3-13",
         "date_created": "20240613",
         "full_title": "PO-BK-3-13 A Ship on Silent Seas",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK-3-13-A-Ship-on-Silent-Seas",
+        "level_range": null,
+        "price": null,
+        "product_id": "484628",
         "tiers": null,
         "title": "PO-BK-3-13 A Ship on Silent Seas",
-        "url": "https://www.dmsguild.com/product/484628/POBK313-A-Ship-on-Silent-Seas?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/484628/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -526,13 +508,14 @@
         "code": "PO-BK2-01",
         "date_created": "20221204",
         "full_title": "PO-BK2-01 The Thayan Connection",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "PO-BK2-01-The-Thayan-Connection",
+        "level_range": null,
+        "price": null,
+        "product_id": "418769",
         "tiers": null,
         "title": "PO-BK2-01 The Thayan Connection",
-        "url": "https://www.dmsguild.com/product/418769/POBK201-The-Thayan-Connection?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418769/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -544,13 +527,14 @@
         "code": "PO-BK2-02",
         "date_created": "20221011",
         "full_title": "PO-BK2-02 Some Assembly Required",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "PO-BK2-02-Some-Assembly-Required",
+        "level_range": null,
+        "price": null,
+        "product_id": "413094",
         "tiers": null,
         "title": "PO-BK2-02 Some Assembly Required",
-        "url": "https://www.dmsguild.com/product/413094/POBK202-Some-Assembly-Required?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/413094/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -562,12 +546,13 @@
         "code": "PO-BK2-03",
         "date_created": "20221011",
         "full_title": "PO-BK2-03 What Dreams May Come",
-        "hours": 2,
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "PO-BK2-03-What-Dreams-May-Come",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "413092",
         "tiers": null,
         "title": "PO-BK2-03 What Dreams May Come",
-        "url": "https://www.dmsguild.com/product/413092/POBK203-What-Dreams-May-Come?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/413092/?affiliate_id=171040"
     }
 ]

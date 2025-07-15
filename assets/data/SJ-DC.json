@@ -79,14 +79,14 @@
         "full_title": "Away We Go (SJ-DC-PHP-FLN02-01)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Away-We-Go-SJ-DC-PHP-FLN02-01",
+        "level_range": "1-4",
+        "product_id": 461673,
         "tiers": 1,
         "title": "Away We Go",
-        "url": "https://www.dmsguild.com/product/461673/Away-We-Go-SJDCPHPFLN0201?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/461673?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Bryan Mets",
             "Arthur Marques"
@@ -97,11 +97,11 @@
         "full_title": "Bad Omen (SJ-DC-BAD-01)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "Bad-Omen-SJ-DC-BAD-01",
         "tiers": 1,
         "title": "Bad Omen",
-        "url": "https://www.dmsguild.com/product/451742/Bad-Omen-SJDCBAD01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451742?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -114,11 +114,12 @@
         "full_title": "Blasted (SJ-DC-BST-04)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Blasted-SJ-DC-BST-04",
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "452614",
         "tiers": 2,
         "title": "Blasted",
-        "url": "https://www.dmsguild.com/product/452614/Blasted-SJDCBST04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/452614/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -198,13 +199,14 @@
         "code": "SJ-DC-BST-06",
         "date_created": "20231231",
         "full_title": "Come Together on the Giffstar (SJ-DC-BST-06)",
-        "hours": 4,
+        "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Come-Together-on-the-Giffstar-SJ-DC-BST-06",
+        "level_range": "5-10",
+        "price": 5.99,
+        "product_id": "465599",
         "tiers": 2,
         "title": "Come Together on the Giffstar",
-        "url": "https://www.dmsguild.com/product/465599/Come-Together-on-the-Giffstar-SJDCBST06?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465599/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -356,11 +358,12 @@
         "full_title": "Enter: Mission (SJ-DC-BST-08)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Enter--Mission-SJ-DC-BST-08",
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "461977",
         "tiers": 2,
         "title": "Enter Mission",
-        "url": "https://www.dmsguild.com/product/461977/Enter-Mission-SJDCBST08?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/461977/?affiliate_id=171040"
     },
     {
         "apl": 12,
@@ -443,8 +446,9 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "1-4",
+        "price": 4.99,
         "product_id": "Forlorn-but-not-Forgotten-SJ-DC-PHP-FLN01-01",
-        "tiers": null,
+        "tiers": 1,
         "title": "Forlorn but not Forgotten",
         "url": "https://www.dmsguild.com/product/418804/Forlorn-but-not-Forgotten-SJDCPHPFLN0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -615,7 +619,7 @@
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Kaleidoscope-Vault-SJ-DC-PHP-FLN01-02",
-        "tiers": null,
+        "tiers": 1,
         "title": "Kaleidoscope Vault",
         "url": "https://www.dmsguild.com/product/432750/Kaleidoscope-Vault-SJDCPHPFLN0102?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -679,30 +683,14 @@
         "code": "SJ-DC-LLL-01",
         "date_created": "20231218",
         "full_title": "Library Lies & Lift Off! - SJ-DC-LLL-01",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Library-Lies-&-Lift-Off---SJ-DC-LLL-01",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "464271",
         "tiers": 2,
         "title": "Library Lies & Lift Off! -",
-        "url": "https://www.dmsguild.com/product/464271/Library-Lies--Lift-Off--SJDCLLL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Christopher Moreman"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "SJ-DC-LLL-01",
-        "date_created": "20231218",
-        "full_title": "Library Lies & Lift Off! - SJ-DC-LLL-01",
-        "hours": 2,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Library-Lies--Lift-Off---SJ-DC-LLL-01",
-        "tiers": 2,
-        "title": "Library Lies & Lift Off! -",
-        "url": "https://www.dmsguild.com/product/464271/Library-Lies--Lift-Off--SJDCLLL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464271/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -901,13 +889,14 @@
         "code": "SJ-DC-BST-05",
         "date_created": "20231111",
         "full_title": "Pounded (SJ-DC-BST-05)",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Pounded-SJ-DC-BST-05",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "459935",
         "tiers": 2,
         "title": "Pounded",
-        "url": "https://www.dmsguild.com/product/459935/Pounded-SJDCBST05?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/459935/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -936,13 +925,14 @@
         "code": "SJ-DC-BST-02",
         "date_created": "20230726",
         "full_title": "Rammed (SJ-DC-BST-02)",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Rammed-SJ-DC-BST-02",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "447089",
         "tiers": 2,
         "title": "Rammed",
-        "url": "https://www.dmsguild.com/product/447089/Rammed-SJDCBST02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/447089/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1688,13 +1678,14 @@
         "code": "SJ-DC-DD-02",
         "date_created": "20230101",
         "full_title": "SJ-DC-DD-02 Lone Survivors",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DD-02-Lone-Survivors",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "421749",
         "tiers": 1,
         "title": "Lone Survivors",
-        "url": "https://www.dmsguild.com/product/421749/SJDCDD02-Lone-Survivors?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/421749/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1831,7 +1822,7 @@
         "full_title": "SJ-DC-DD-10 The Long Game",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-DD-10-The-Long-Game",
         "tiers": 2,
         "title": "The Long Game",
@@ -1848,7 +1839,7 @@
         "full_title": "SJ-DC-DD-11 Per Aspera",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "product_id": "SJ-DC-DD-11-Per-Aspera",
         "tiers": 3,
         "title": "Per Aspera",
@@ -1865,7 +1856,7 @@
         "full_title": "SJ-DC-DD-12 The End of the Line",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "product_id": "SJ-DC-DD-12-The-End-of-the-Line",
         "tiers": 3,
         "title": "The End of the Line",
@@ -1882,7 +1873,7 @@
         "full_title": "SJ-DC-Death In Defiance of Dairy",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "product_id": "SJ-DC-Death-In-Defiance-of-Dairy",
         "tiers": 3,
         "title": "SJ-DC-Death In Defiance of Dairy",
@@ -1897,13 +1888,14 @@
         "code": "SJ-DC-DEN-H4",
         "date_created": "20230114",
         "full_title": "SJ-DC-DEN-H4 Departure from Fallen Stars",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DEN-H4-Departure-from-Fallen-Stars",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "423342",
         "tiers": 2,
         "title": "Departure from Fallen Stars",
-        "url": "https://www.dmsguild.com/product/423342/SJDCDENH4-Departure-from-Fallen-Stars?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/423342/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1914,13 +1906,14 @@
         "code": "SJ-DC-DEN-H5",
         "date_created": "20230114",
         "full_title": "SJ-DC-DEN-H5 The Reef of Living Memory",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DEN-H5-The-Reef-of-Living-Memory",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "423345",
         "tiers": 2,
         "title": "The Reef of Living Memory",
-        "url": "https://www.dmsguild.com/product/423345/SJDCDENH5-The-Reef-of-Living-Memory?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/423345/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1931,30 +1924,14 @@
         "code": "SJ-DC-DEN-H6",
         "date_created": "20230114",
         "full_title": "SJ-DC-DEN-H6 Sekolah\u2019s Ire",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DEN-H6-Sekolahs-Ire",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "423346",
         "tiers": 2,
         "title": "Sekolah\u2019s Ire",
-        "url": "https://www.dmsguild.com/product/423346/SJDCDENH6-Sekolahs-Ire?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Dennis R Hall"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "SJ-DC-DEN-H6",
-        "date_created": "20230114",
-        "full_title": "SJ-DC-DEN-H6 Sekolah\u2019s Ire",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DEN-H6-Sekolah\u2019s-Ire",
-        "tiers": 2,
-        "title": "Sekolah\u2019s Ire",
-        "url": "https://www.dmsguild.com/product/423346/SJDCDENH6-Sekolahs-Ire?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/423346/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1965,13 +1942,14 @@
         "code": "SJ-DC-DEN-H7",
         "date_created": "20230129",
         "full_title": "SJ-DC-DEN-H7 Flummoxing Fire from Afar",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DEN-H7-Flummoxing-Fire-from-Afar",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "424979",
         "tiers": 1,
         "title": "Flummoxing Fire from Afar",
-        "url": "https://www.dmsguild.com/product/424979/SJDCDENH7-Flummoxing-Fire-from-Afar?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/424979/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1982,13 +1960,14 @@
         "code": "SJ-DC-DEN-H8",
         "date_created": "20230313",
         "full_title": "SJ-DC-DEN-H8 Pesky Problems of Proprietors and Priests",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DEN-H8-Pesky-Problems-of-Proprietors-and-Priests",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "430250",
         "tiers": 1,
         "title": "Pesky Problems of Proprietors and Priests",
-        "url": "https://www.dmsguild.com/product/430250/SJDCDENH8-Pesky-Problems-of-Proprietors-and-Priests?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/430250/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2138,11 +2117,12 @@
         "full_title": "SJ-DC-DRAGON-01 : The Rock of Bral Caper",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DRAGON-01---The-Rock-of-Bral-Caper",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "451453",
         "tiers": 2,
         "title": "The Rock of Bral Caper",
-        "url": "https://www.dmsguild.com/product/451453/SJDCDRAGON01--The-Rock-of-Bral-Caper?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451453/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2156,11 +2136,12 @@
         "full_title": "SJ-DC-DRAGON-02 : Crossing the Void",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DRAGON-02---Crossing-the-Void",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "451461",
         "tiers": 2,
         "title": "Crossing the Void",
-        "url": "https://www.dmsguild.com/product/451461/SJDCDRAGON02--Crossing-the-Void?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451461/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2174,11 +2155,12 @@
         "full_title": "SJ-DC-DRAGON-03 : The Starfire Gambit!",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DRAGON-03---The-Starfire-Gambit",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "451468",
         "tiers": 2,
         "title": "The Starfire Gambit!",
-        "url": "https://www.dmsguild.com/product/451468/SJDCDRAGON03--The-Starfire-Gambit?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451468/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2192,11 +2174,12 @@
         "full_title": "SJ-DC-DRAGON-04 : The Call from Space!",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DRAGON-04---The-Call-from-Space",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "451471",
         "tiers": 2,
         "title": "The Call from Space!",
-        "url": "https://www.dmsguild.com/product/451471/SJDCDRAGON04--The-Call-from-Space?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451471/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4810,11 +4793,12 @@
         "full_title": "Slammed (SJ-DC-BST-01)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Slammed-SJ-DC-BST-01",
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "446279",
         "tiers": 2,
         "title": "Slammed",
-        "url": "https://www.dmsguild.com/product/446279/Slammed-SJDCBST01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/446279/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -4964,11 +4948,12 @@
         "full_title": "Sweet Dreams are Made of Bees (SJ-DC-TRIDEN-BZ)",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Sweet-Dreams-are-Made-of-Bees-SJ-DC-TRIDEN-BZ",
+        "level_range": "11-16",
+        "price": 9.98,
+        "product_id": "465541",
         "tiers": 3,
         "title": "Sweet Dreams are Made of Bees",
-        "url": "https://www.dmsguild.com/product/465541/Sweet-Dreams-are-Made-of-Bees-SJDCTRIDENBZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465541/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4981,11 +4966,12 @@
         "full_title": "Taken in the Early Morning (SJ-DC-BST-03)",
         "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Taken-in-the-Early-Morning-SJ-DC-BST-03",
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "447837",
         "tiers": 2,
         "title": "Taken in the Early Morning",
-        "url": "https://www.dmsguild.com/product/447837/Taken-in-the-Early-Morning-SJDCBST03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/447837/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5171,10 +5157,11 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "The-Little-Monster-SJ-DC-PND-3",
+        "price": 2.99,
+        "product_id": "465705",
         "tiers": 1,
         "title": "The Little Monster",
-        "url": "https://www.dmsguild.com/product/465705/The-Little-Monster-SJDCPND3?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465705/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -5205,10 +5192,11 @@
         "hours": 2,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "The-Monster-at-the-End-of-this-Adventure-SJ-DC-PND-1",
+        "price": 2.99,
+        "product_id": "465639",
         "tiers": 1,
         "title": "The Monster at the End of this Adventure",
-        "url": "https://www.dmsguild.com/product/465639/The-Monster-at-the-End-of-this-Adventure-SJDCPND1?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465639/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -5253,13 +5241,14 @@
         "code": "SJ-DC-PND-2",
         "date_created": "20231231",
         "full_title": "The Very Hungry Monster (SJ-DC-PND-2)",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "The-Very-Hungry-Monster-SJ-DC-PND-2",
+        "price": null,
+        "product_id": "465703",
         "tiers": 1,
         "title": "The Very Hungry Monster",
-        "url": "https://www.dmsguild.com/product/465703/The-Very-Hungry-Monster-SJDCPND2?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5321,13 +5310,14 @@
         "code": "SJ-DC-BST-07",
         "date_created": "20230930",
         "full_title": "Tying the Knot (SJ-DC-BST-07)",
-        "hours": 2,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Tying-the-Knot-SJ-DC-BST-07",
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "455015",
         "tiers": 3,
         "title": "Tying the Knot",
-        "url": "https://www.dmsguild.com/product/455015/Tying-the-Knot-SJDCBST07?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/455015/?affiliate_id=171040"
     },
     {
         "apl": 3,
