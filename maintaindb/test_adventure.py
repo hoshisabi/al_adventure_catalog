@@ -4,7 +4,20 @@ from adventure import extract_data_from_html, sanitize_filename, str_to_int, get
 
 class TestAdventureExtraction(unittest.TestCase):
 
-    def test_extract_hours_from_html(self):
+    def test_extract_simple_hours_from_html(self):
+        # Sample HTML content from dmsguildinfo-463522.html
+        html_content = """
+        <div class="alpha omega prod-content">
+            At the height of the Battle of Kalaman, an opportunity to honor an oath-decades unfulfilled presents itself! If Ansalon’s heroes can press deep into the heart of the enemy and topple a flame-fueled destructive force, they might repel the Red Dragon Army, defend The Beacon of the East, and reuinite mother and child. 
+            This is a 2 hour adventure for Tier 2 (Levels 5-10) characters and was designed under the Dungeoncraft program guidance. 
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        # For testing, we can pass a dummy product_id and existing_data
+        extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
+        self.assertEqual(extracted_data['hours'], 2)
+
+    def test_extract_word_hours_from_html(self):
         # Sample HTML content from dmsguildinfo-463522.html
         html_content = """
         <div class="alpha omega prod-content">
@@ -16,6 +29,48 @@ class TestAdventureExtraction(unittest.TestCase):
         # For testing, we can pass a dummy product_id and existing_data
         extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
         self.assertEqual(extracted_data['hours'], 4)
+
+    def test_extract_hour_range_from_html(self):
+        # Sample HTML
+        html_content = """
+        <div class="alpha omega prod-content">
+        This is a 3-7-hour adventure for levels 100-101.
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        with self.subTest("Numeric range"):
+            extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
+            self.assertEqual(extracted_data['hours'], "3-7")
+
+        html_content = """
+        <div class="alpha omega prod-content">
+        This is a two to four hour adventure for levels 100-101.
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        with self.subTest("Word range with 'to'"):
+            extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
+            self.assertEqual(extracted_data['hours'], "2-4")
+
+        html_content = """
+        <div class="alpha omega prod-content">
+        This is a two-to-four-hour adventure for levels 100-101.
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        with self.subTest("Word range with 'to' and dashes"):
+            extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
+            self.assertEqual(extracted_data['hours'], "2-4")
+
+        html_content = """
+        <div class="alpha omega prod-content">
+        This adventure will take 1 hour.
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        with self.subTest("Single hour"):
+            extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
+            self.assertEqual(extracted_data['hours'], 1)
 
     def test_sanitize_filename(self):
         self.assertEqual(sanitize_filename("My Awesome Adventure!"), "My-Awesome-Adventure.json")
