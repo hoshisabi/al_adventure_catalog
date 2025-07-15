@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 10,
     "authors": [
         "Paul Gabat"
     ],
@@ -9,9 +9,10 @@
     "full_title": "Noctis' Sacrifice (WBW-DC-ZION-03)",
     "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "Noctis-Sacrifice-WBW-DC-ZION-03",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 4.95,
+    "product_id": "408581",
+    "tiers": 2,
     "title": "Noctis' Sacrifice",
-    "url": "https://www.dmsguild.com/product/408581/Noctis-Sacrifice-WBWDCZION03?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408581/?affiliate_id=171040"
 }

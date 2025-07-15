@@ -13,8 +13,9 @@
     "hours": 2,
     "is_adventure": true,
     "level_range": "5",
+    "price": 2.99,
     "product_id": "CCC-BFG01-01-A-House-Divided",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BFG01-01 A House Divided",
     "url": "https://www.dmsguild.com/product/322127/CCCBFG0101-A-House-Divided?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Bryan Mets",
         "Arthur Marques"
@@ -10,9 +10,9 @@
     "full_title": "Bad Omen (SJ-DC-BAD-01)",
     "hours": 2,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "Bad-Omen-SJ-DC-BAD-01",
     "tiers": 1,
     "title": "Bad Omen",
-    "url": "https://www.dmsguild.com/product/451742/Bad-Omen-SJDCBAD01?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/451742?affiliate_id=171040"
 }

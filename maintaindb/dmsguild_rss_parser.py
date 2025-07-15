@@ -80,11 +80,26 @@ if __name__ == "__main__":
 
         data = extract_data_from_html(soup, product_id, existing_data=existing_data, force_overwrite=args.force)
 
-        dc_product = DungeonCraft(product_id, full_title, authors, data["code"], date_created, data["hours"], data["tiers"], data["apl"], data["level_range"], product_url, data["campaign"], data["is_adventure"], data["price"])
+        dc_product = DungeonCraft(product_id, full_title, authors, data.get("code"), date_created, data.get("hours"), data.get("tiers"), data.get("apl"), data.get("level_range"), product_url, data.get("campaign"), data.get("is_adventure"), data.get("price"))
+
+        data_to_save = dc_product.to_json()
+
+        file_exists = os.path.exists(file_path)
+
+        if file_exists:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                existing_data_from_file = json.load(f)
+
+            if existing_data_from_file == data_to_save and not args.force:
+                print(f"(CACHED) Left alone {filename}")
+                continue # Skip writing if content is identical and not forced
+            else:
+                print(f"(MODIFIED) {filename}")
+        else:
+            print(f"Saved {filename}")
 
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(dc_product.to_json(), f, indent=4, sort_keys=True)
-            print(f"Saved {filename}")
+                json.dump(data_to_save, f, indent=4, sort_keys=True)
         except IOError as e:
             print(f"Error saving {filename}: {e}")

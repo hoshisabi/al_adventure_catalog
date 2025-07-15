@@ -9,7 +9,7 @@ import sys
 import argparse
 
 from bs4 import BeautifulSoup
-from adventure import DungeonCraft, sanitize_filename, extract_data_from_html
+from adventure import DungeonCraft, sanitize_filename, extract_data_from_html, merge_adventure_data
 
 logger = logging.getLogger()
 logger.level = logging.INFO
@@ -25,6 +25,7 @@ def process_downloads():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("-h", "-?", "--help", action="help", help="Show this help message and exit.")
     parser.add_argument("-f", "--force", action="store_true", help="Force overwrite of existing JSON files and move HTML files.")
+    parser.add_argument("--careful", action="store_true", help="Do not overwrite existing non-null data in JSON files; only fill in nulls.")
     args = parser.parse_args()
 
     os.makedirs(processed_html_path, exist_ok=True)
@@ -48,7 +49,15 @@ def process_downloads():
             dummy_url = f"https://www.dmsguild.com/product/{product_id}/?affiliate_id=171040"
 
             parsed_html = BeautifulSoup(html_content, features="html.parser")
-            data = extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=existing_data, force_overwrite=args.force)
+            # Load existing JSON data if it exists to pass to extract_data_from_html
+            existing_json_data_for_extraction = {}
+            json_filename_for_extraction = sanitize_filename(product_id) + ".json" # Use product_id for initial filename guess
+            output_file_path_for_extraction = os.path.join(output_json_path, json_filename_for_extraction)
+            if os.path.exists(output_file_path_for_extraction):
+                with open(output_file_path_for_extraction, 'r', encoding='utf-8') as f:
+                    existing_json_data_for_extraction = json.load(f)
+
+            data = extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=existing_json_data_for_extraction, force_overwrite=args.force, careful_mode=args.careful)
 
             # Construct the DungeonCraft object
             dc = DungeonCraft(product_id, data["module_name"], data["authors"],
@@ -56,7 +65,7 @@ def process_downloads():
 
             # Determine output JSON filename based on full_title
             # Sanitize full_title to create a valid filename
-            json_filename = sanitize_filename(dc.full_title) + ".json"
+            json_filename = sanitize_filename(dc.full_title)
             output_file_path = os.path.join(output_json_path, json_filename)
 
             # Load existing JSON data if it exists
@@ -76,7 +85,7 @@ def process_downloads():
                     break
 
             # Perform the merge using the new function
-            final_data = merge_adventure_data(existing_json_data, merged_json_data, args.force)
+            final_data = merge_adventure_data(existing_json_data, merged_json_data, args.force, args.careful)
 
             with open(output_file_path, 'w') as f:
                 json.dump(final_data, f, indent=4, sort_keys=True)

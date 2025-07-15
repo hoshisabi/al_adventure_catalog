@@ -1,6 +1,6 @@
 {
     "apl": 3,
-    "authors": [],
+    "authors": ["Jason Koh"],
     "campaign": "Forgotten Realms",
     "code": "WBW-DC-NTP-01",
     "date_created": "20220831",
@@ -9,7 +9,8 @@
     "is_adventure": false,
     "level_range": "1-4",
     "product_id": "408478",
+    "price": 2.99,
     "tiers": 1,
     "title": "Cat's Paws",
-    "url": "https://www.dmsguild.com/product/408478/Cats-Paws-WBWDCNTP01?filters=1000042_100191_100057_0_45356_0_0_0"
+    "url": "https://www.dmsguild.com/product/408478?affiliate_id=171040"
 }

@@ -8,11 +8,12 @@
     "code": "WBW-DC-MOM-01",
     "date_created": "20220417",
     "full_title": "WBW-DC-MOM-01 One Moment",
-    "hours": 4,
+    "hours": null,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-MOM-01-One-Moment",
+    "level_range": "5-10",
+    "price": null,
+    "product_id": "393912",
     "tiers": 2,
     "title": "One Moment",
-    "url": "https://www.dmsguild.com/product/393912/WBWDCMOM01-One-Moment?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/393912/?affiliate_id=171040"
 }

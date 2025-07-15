@@ -1,6 +1,10 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Ivy Ru Sklenicka",
+        "David Sklenicka",
+        "Gamehole Con"
+    ],
     "campaign": "Forgotten Realms",
     "code": "PO-BK-3-01",
     "date_created": "20240103",
@@ -8,8 +12,9 @@
     "hours": null,
     "is_adventure": true,
     "level_range": null,
+    "price": null,
     "product_id": "466083",
     "tiers": null,
     "title": "PO-BK-3-01 A Pirate's Life for Me",
-    "url": "https://www.dmsguild.com/product/466083/POBK301-A-Pirates-Life-for-Me?filters=1000042_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/466083/?affiliate_id=171040"
 }

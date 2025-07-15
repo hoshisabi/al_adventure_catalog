@@ -7,11 +7,12 @@
     "code": "BMG-DRW-OD-02",
     "date_created": "20230822",
     "full_title": "BMG-DRW-OD-02 Something Wicked",
-    "hours": 4,
+    "hours": null,
     "is_adventure": true,
-    "level_range": "5",
-    "product_id": "BMG-DRW-OD-02-Something-Wicked",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": null,
+    "product_id": "450335",
+    "tiers": 2,
     "title": "BMG-DRW-OD-02 Something Wicked",
-    "url": "https://www.dmsguild.com/product/450335/BMGDRWOD02-Something-Wicked?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/450335/?affiliate_id=171040"
 }

@@ -1,18 +1,18 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaign": null,
-    "code": null,
+    "campaign": "Forgotten Realms",
+    "code": "DDHC-TOA-15",
     "date_created": "20180829",
     "full_title": "Maze of Shadows",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": "8-10",
+    "is_adventure": true,
+    "level_range": "11-16",
+    "price": 5.95,
     "product_id": "251151",
-    "tiers": null,
+    "tiers": 3,
     "title": "Maze of Shadows",
     "url": "https://www.dmsguild.com/product/251151/?affiliate_id=171040"
 }
