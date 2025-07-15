@@ -294,8 +294,6 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
             captured_hour_text = hours_match.group(1)
             new_data["hours"] = str_to_int(captured_hour_text)
 
-            #'\n            At the height of the Battle of Kalaman, an opportunity to honor an oath-decades unfulfilled presents itself! If Ansalon’s heroes can press deep into the heart of the enemy and topple a flame-fueled destructive force, they might repel the Red Dragon Army, defend The Beacon of the East, and reuinite mother and child.\xa0\n            This is a four-hour adventure for Tier 2 (Levels 5-10) characters and was designed under the Dungeoncraft program guidance. \n        '
-
     new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", text))
     new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", text))
 
