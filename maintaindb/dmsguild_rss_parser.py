@@ -6,8 +6,6 @@ import datetime
 import json
 import os
 
-
-
 from adventure import DungeonCraft, sanitize_filename, extract_data_from_html
 
 def parse_dmsguild_rss(url, affiliate_id="171040", filters="45470_0_0_0_0_0_0_0_0"):

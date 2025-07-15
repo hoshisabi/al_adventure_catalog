@@ -1,22 +1,12 @@
-try:
-    from BeautifulSoup import BeautifulSoup
-except ImportError:
-    from bs4 import BeautifulSoup
-import requests
 import pathlib
 import os
-from multiprocessing import Pool
 import logging
 import sys
-import random
-import re
-import time
 import json
 import glob
 from collections import defaultdict
 
 from adventure import DC_CAMPAIGNS
-from enum import Enum
 import glob
 
 logger = logging.getLogger()
