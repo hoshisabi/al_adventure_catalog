@@ -275,9 +275,6 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     text = ""
     if product_content:
         text = product_content.text
-        # For debugging: write the extracted text to a file
-        with open("debug_extracted_text.txt", "w", encoding="utf-8") as f:
-            f.write(text)
 
     if new_data["module_name"]:
         result = get_dc_code_and_campaign(new_data["module_name"])

@@ -10,9 +10,10 @@
     "full_title": "WBW-DC-LIGA02 Between one World and Another",
     "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-LIGA02-Between-one-World-and-Another",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 3.99,
+    "product_id": "408437",
+    "tiers": 1,
     "title": "Between one World and Another",
-    "url": "https://www.dmsguild.com/product/408437/WBWDCLIGA02-Between-one-World-and-Another?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408437/?affiliate_id=171040"
 }

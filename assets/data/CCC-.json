@@ -4434,24 +4434,6 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GHC-05---Trail-Of-Treachery",
-        "tiers": null,
-        "title": "CCC-GHC-05 - Trail Of Treachery",
-        "url": "https://www.dmsguild.com/product/228104/CCCGHC05--Trail-Of-Treachery?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Rob Wieland",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-05",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-05 - Trail Of Treachery",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "228104",
         "tiers": null,
@@ -4471,48 +4453,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GHC-06---What-You-Wish-For",
-        "tiers": null,
-        "title": "CCC-GHC-06 - What You Wish For",
-        "url": "https://www.dmsguild.com/product/228105/CCCGHC06--What-You-Wish-For?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Shawn Merwin",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-06",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-06 - What You Wish For",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "228105",
         "tiers": null,
         "title": "CCC-GHC-06 - What You Wish For",
         "url": "https://www.dmsguild.com/product/228105/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alex Kammer",
-            "Ed Greenwood",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-07",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-07 - The River Runs Red",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GHC-07---The-River-Runs-Red",
-        "tiers": null,
-        "title": "CCC-GHC-07 - The River Runs Red",
-        "url": "https://www.dmsguild.com/product/228106/CCCGHC07--The-River-Runs-Red?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -4548,25 +4493,6 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GHC-08---Death-In-The-Ruins",
-        "tiers": null,
-        "title": "CCC-GHC-08 - Death In The Ruins",
-        "url": "https://www.dmsguild.com/product/228107/CCCGHC08--Death-In-The-Ruins?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alex Kammer",
-            "Ed Greenwood",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-08",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-08 - Death In The Ruins",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "228107",
         "tiers": null,
@@ -4574,7 +4500,7 @@
         "url": "https://www.dmsguild.com/product/228107/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Alex Kammer",
             "Ed Greenwood",
@@ -4584,31 +4510,12 @@
         "code": "CCC-GHC-09",
         "date_created": "20171204",
         "full_title": "CCC-GHC-09 - Swamp Of Death",
-        "hours": null,
+        "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GHC-09---Swamp-Of-Death",
-        "tiers": null,
-        "title": "CCC-GHC-09 - Swamp Of Death",
-        "url": "https://www.dmsguild.com/product/228108/CCCGHC09--Swamp-Of-Death?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alex Kammer",
-            "Ed Greenwood",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-09",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-09 - Swamp Of Death",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "11-16",
+        "price": 1.99,
         "product_id": "228108",
-        "tiers": null,
+        "tiers": 3,
         "title": "CCC-GHC-09 - Swamp Of Death",
         "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
     },

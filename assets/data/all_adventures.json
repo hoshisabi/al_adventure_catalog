@@ -468,7 +468,8 @@
     {
         "apl": 13,
         "authors": [
-            "the Melbourne DDAL community for the D&amp"
+            "Brendon Watson",
+            "Siobhan Hanlon"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-06",
@@ -481,7 +482,7 @@
         "product_id": "527493",
         "tiers": 3,
         "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493/Beneath-Salt-and-Stone-FRDCMELB0206?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527493?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -5760,24 +5761,6 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GHC-05---Trail-Of-Treachery",
-        "tiers": null,
-        "title": "CCC-GHC-05 - Trail Of Treachery",
-        "url": "https://www.dmsguild.com/product/228104/CCCGHC05--Trail-Of-Treachery?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Rob Wieland",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-05",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-05 - Trail Of Treachery",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "228104",
         "tiers": null,
@@ -5797,48 +5780,11 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GHC-06---What-You-Wish-For",
-        "tiers": null,
-        "title": "CCC-GHC-06 - What You Wish For",
-        "url": "https://www.dmsguild.com/product/228105/CCCGHC06--What-You-Wish-For?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Shawn Merwin",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-06",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-06 - What You Wish For",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "228105",
         "tiers": null,
         "title": "CCC-GHC-06 - What You Wish For",
         "url": "https://www.dmsguild.com/product/228105/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alex Kammer",
-            "Ed Greenwood",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-07",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-07 - The River Runs Red",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GHC-07---The-River-Runs-Red",
-        "tiers": null,
-        "title": "CCC-GHC-07 - The River Runs Red",
-        "url": "https://www.dmsguild.com/product/228106/CCCGHC07--The-River-Runs-Red?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5874,25 +5820,6 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "CCC-GHC-08---Death-In-The-Ruins",
-        "tiers": null,
-        "title": "CCC-GHC-08 - Death In The Ruins",
-        "url": "https://www.dmsguild.com/product/228107/CCCGHC08--Death-In-The-Ruins?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alex Kammer",
-            "Ed Greenwood",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-08",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-08 - Death In The Ruins",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
         "price": null,
         "product_id": "228107",
         "tiers": null,
@@ -5900,7 +5827,7 @@
         "url": "https://www.dmsguild.com/product/228107/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Alex Kammer",
             "Ed Greenwood",
@@ -5910,31 +5837,12 @@
         "code": "CCC-GHC-09",
         "date_created": "20171204",
         "full_title": "CCC-GHC-09 - Swamp Of Death",
-        "hours": null,
+        "hours": 2,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-GHC-09---Swamp-Of-Death",
-        "tiers": null,
-        "title": "CCC-GHC-09 - Swamp Of Death",
-        "url": "https://www.dmsguild.com/product/228108/CCCGHC09--Swamp-Of-Death?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alex Kammer",
-            "Ed Greenwood",
-            "Gamehole Con"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "CCC-GHC-09",
-        "date_created": "20171204",
-        "full_title": "CCC-GHC-09 - Swamp Of Death",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "11-16",
+        "price": 1.99,
         "product_id": "228108",
-        "tiers": null,
+        "tiers": 3,
         "title": "CCC-GHC-09 - Swamp Of Death",
         "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
     },
@@ -18655,7 +18563,7 @@
     {
         "apl": 8,
         "authors": [
-            "July"
+            "Jamie Chan"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-THAY-05",
@@ -18668,7 +18576,7 @@
         "product_id": "528046",
         "tiers": 2,
         "title": "Four Assassinations & a Funeral",
-        "url": "https://www.dmsguild.com/product/528046/Four-Assassinations--a-Funeral-FRDCTHAY05?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/528046?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -18842,7 +18750,9 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Kaithlyn Kuan"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-AKU-01",
         "date_created": "20250627",
@@ -18854,7 +18764,7 @@
         "product_id": "527701",
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -19140,11 +19050,12 @@
         "full_title": "FR-DC-DEATH-MASQUERADE Darkest Dairy",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-DEATH-MASQUERADE-Darkest-Dairy",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "521913",
         "tiers": 1,
         "title": "Darkest Dairy",
-        "url": "https://www.dmsguild.com/product/521913/FRDCDEATHMASQUERADE-Darkest-Dairy?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/521913/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -19270,7 +19181,7 @@
     {
         "apl": 10,
         "authors": [
-            "an army of duergar under the command of the death giantess Clauthya. But that"
+            "Bernhard Staneker"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-FET-02",
@@ -19282,7 +19193,7 @@
         "price": 4.99,
         "product_id": "528753",
         "tiers": 2,
-        "title": "Abyss",
+        "title": "Vatras Abyss",
         "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
@@ -19347,10 +19258,11 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": 515929,
+        "price": 2.99,
+        "product_id": "515929",
         "tiers": 2,
         "title": "Sand to Ash",
-        "url": "https:  //www.dmsguild.com/product/515929/FRDCGARY01-Sand-to-Ash?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/515929/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -19364,10 +19276,11 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "FR-DC-GARY-02--Wind-to-Stone",
+        "price": 2.99,
+        "product_id": "515932",
         "tiers": 2,
         "title": "Wind to Stone",
-        "url": "https://www.dmsguild.com/product/515932/FRDCGARY02-Wind-to-Stone?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/515932/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -19381,10 +19294,11 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "FR-DC-GARY-03--Blade-to-Branch",
+        "price": 2.99,
+        "product_id": "515935",
         "tiers": 2,
         "title": "Blade to Branch",
-        "url": "https://www.dmsguild.com/product/515935/FRDCGARY03-Blade-to-Branch?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/515935/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -19403,6 +19317,25 @@
         "tiers": 2,
         "title": "Frost to Fire",
         "url": "https://www.dmsguild.com/product/515936/FRDCGARY04-Frost-to-Fire?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Marcello De Velazquez",
+            "Randall Harris"
+        ],
+        "campaign": "Forgotten Realms",
+        "code": "FR-DC-GARY-04-",
+        "date_created": "20250320",
+        "full_title": "FR-DC-GARY-04: Frost to Fire",
+        "hours": null,
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "515936",
+        "tiers": 2,
+        "title": "Frost to Fire",
+        "url": "https://www.dmsguild.com/product/515936/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -19654,7 +19587,9 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Casey McGirt"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MCG-CH1",
         "date_created": "20250625",
@@ -19666,23 +19601,25 @@
         "product_id": "527653",
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
     },
     {
         "apl": 3,
-        "authors": [],
+        "authors": [
+            "Bernard Velasco"
+        ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-NEW-TIER1-1",
         "date_created": "20250711",
-        "full_title": "FR-DC-NEW-TIER1-1",
+        "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
         "price": 1.0,
         "product_id": "529395",
         "tiers": 1,
-        "title": "",
-        "url": "https://www.dmsguild.com/product/529395/FRDCNEWTIER11?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
+        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -20533,18 +20470,15 @@
     },
     {
         "apl": 8,
-        "authors": [
-            "an unnatural storm",
-            "adventurers must unravel the schemes of a capricious fey lord and his court to rescue their noble patron and find the path home."
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-02",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-02 On Fey Tides",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 5.99,
         "product_id": "526741",
         "tiers": 2,
         "title": "On Fey Tides",
@@ -20569,10 +20503,8 @@
     {
         "apl": 13,
         "authors": [
-            "forgotten gods eons ago. With this knowledge she shall achieve greatness like her ancestors did",
-            "but only if the characters can keep her",
-            "and themselves",
-            "alive for the perilous trek."
+            "Kevin Haw",
+            "Strategicon AL"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-STRAT-TALES-04",
@@ -21004,7 +20936,9 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Richard Gejji"
+        ],
         "campaign": "Forgotten Realms",
         "code": "PS-DC-GMM-03",
         "date_created": "20250616",
@@ -24440,24 +24374,6 @@
         "tiers": null,
         "title": "RMH-EP-02 A Darklord's Denouement",
         "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "for this adventure."
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-WATERDEEP-GSZ",
-        "date_created": "20250711",
-        "full_title": "[Roll20] Sweet Dreams are Made of Geese (FR-DC-WATERDEEP-GSZ)",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": null,
-        "product_id": "494093",
-        "tiers": 1,
-        "title": "[Roll20] Sweet Dreams are Made of Geese",
-        "url": "https://www.dmsguild.com/product/494093/Roll20-Sweet-Dreams-are-Made-of-Geese-FRDCWATERDEEPGSZ?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 12,
@@ -28891,9 +28807,7 @@
     },
     {
         "apl": 13,
-        "authors": [
-            "it."
-        ],
+        "authors": [],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-05",
         "date_created": "20250624",
@@ -30210,24 +30124,6 @@
         "url": "https://www.dmsguild.com/product/414239/The-Pursuit-of-Happiness-SJDCANGKA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 13,
-        "authors": [
-            "the Melbourne DDAL community for the D&amp"
-        ],
-        "campaign": "Forgotten Realms",
-        "code": "FR-DC-MELB-02",
-        "date_created": "20250626",
-        "full_title": "The Saga of the Serpent's Fangs (FR-DC-MELB-02) [BUNDLE]",
-        "hours": 4,
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 29.94,
-        "product_id": "527495",
-        "tiers": 3,
-        "title": "The Saga of the Serpent's Fangs  [BUNDLE]",
-        "url": "https://www.dmsguild.com/product/527495/The-Saga-of-the-Serpents-Fangs-FRDCMELB02-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
         "apl": 3,
         "authors": [
             "Dagny Mol"
@@ -30262,7 +30158,7 @@
     {
         "apl": 8,
         "authors": [
-            "the Melbourne DDAL community for the D&amp"
+            "Johann Taslim"
         ],
         "campaign": "Forgotten Realms",
         "code": "FR-DC-MELB-02-03",
@@ -32388,16 +32284,36 @@
             "Patr\u00edcia Brito"
         ],
         "campaign": "Forgotten Realms",
+        "code": "WBW-DC-LIGA01",
+        "date_created": "20220830",
+        "full_title": "WBW-DC-LIGA01 - Breath on the Run",
+        "hours": 4,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "408418",
+        "tiers": 1,
+        "title": "- Breath on the Run",
+        "url": "https://www.dmsguild.com/product/408418/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Lu\u00eds Ricardo",
+            "Patr\u00edcia Brito"
+        ],
+        "campaign": "Forgotten Realms",
         "code": "WBW-DC-LIGA02",
         "date_created": "20220831",
         "full_title": "WBW-DC-LIGA02 Between one World and Another",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-LIGA02-Between-one-World-and-Another",
-        "tiers": null,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "408437",
+        "tiers": 1,
         "title": "Between one World and Another",
-        "url": "https://www.dmsguild.com/product/408437/WBWDCLIGA02-Between-one-World-and-Another?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408437/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -32411,11 +32327,12 @@
         "full_title": "WBW-DC-LIGA03 Clash of Reality",
         "hours": 4,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-LIGA03-Clash-of-Reality",
-        "tiers": null,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "408587",
+        "tiers": 1,
         "title": "Clash of Reality",
-        "url": "https://www.dmsguild.com/product/408587/WBWDCLIGA03-Clash-of-Reality?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408587/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -33783,10 +33700,11 @@
         "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Welcome-to-the-Black-Mall-FR-DC-TKM-WBM",
+        "price": 4.99,
+        "product_id": "497476",
         "tiers": 1,
         "title": "Welcome to the Black Mall",
-        "url": "https://www.dmsguild.com/product/497476/Welcome-to-the-Black-Mall-FRDCTKMWBM?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/497476/?affiliate_id=171040"
     },
     {
         "apl": null,
