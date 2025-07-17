@@ -61,7 +61,7 @@ if __name__ == "__main__":
     products = parse_dmsguild_rss(args.url)
     print(f"Found {len(products)} products.")
     for product_id, full_title, authors, description_html, pub_date_str, product_url in products:
-        filename = sanitize_filename(full_title) + ".json"
+        filename = sanitize_filename(full_title) 
         file_path = os.path.join(args.output_dir, filename)
 
         # Parse date
