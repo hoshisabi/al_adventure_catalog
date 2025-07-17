@@ -1,6 +1,9 @@
 {
     "apl": 13,
-    "authors": ["Brendon Watson", "Siobhan Hanlon"],
+    "authors": [
+        "Brendon Watson",
+        "Siobhan Hanlon"
+    ],
     "campaign": "Forgotten Realms",
     "code": "FR-DC-MELB-02-06",
     "date_created": "20250625",
