@@ -18,6 +18,18 @@ root = str(pathlib.Path(__file__).parent.absolute())
 stats_output_path = os.path.join(root, '..', 'assets', 'data', 'stats.json')
 adventures_input_path = os.path.join(root, '..', 'assets', 'data', 'all_adventures.json')
 
+def _parse_hours_string(hours_str):
+    if not hours_str:
+        return []
+    hours_list = []
+    for part in hours_str.split(','):
+        if '-' in part:
+            start, end = map(int, part.split('-'))
+            hours_list.extend(range(start, end + 1))
+        else:
+            hours_list.append(int(part))
+    return hours_list
+
 def generate_stats():
     with open(adventures_input_path) as f:
         raw_data = json.load(f)
@@ -54,7 +66,7 @@ def generate_stats():
             stats['tier']['Unknown'] += 1
 
         if adventure.hours:
-            for hour in adventure.hours:
+            for hour in _parse_hours_string(adventure.hours):
                 stats['duration'][f'{hour} Hours'] += 1
         else:
             stats['duration']['Unknown'] += 1

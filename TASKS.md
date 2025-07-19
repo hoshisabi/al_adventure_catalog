@@ -2,14 +2,27 @@
 
 ## Next Up: Slicer Improvements
 
-- [ ] **Duration Range Filtering:** Modify the system to interpret adventure durations (e.g., "2-4 hours") as inclusive. An adventure with a 2-4 hour range should appear when filtering for 2, 3, or 4 hours.
-    - This will likely require changes to how `hours` is stored in the JSON (e.g., as a list of integers or a min/max range) and how it's processed in Python scripts and `filter.js`.
-- [ ] **Campaign Inclusivity:** Ensure that adventures belonging to multiple campaigns (e.g., "Forgotten Realms", "Ravenloft") are correctly displayed when filtering for any of their associated campaigns.
-    - This will require `campaign` to be stored as a list in the JSON and handled as such in Python scripts and `filter.js`.
-- [ ] **Apply Slicer Logic to Stats Page:** Update `stats.py` to reflect the new inclusive logic for duration and campaign when generating statistics.
-- [ ] **Update `filter.js`:** Modify the JavaScript filtering logic to correctly handle the new data structures for duration and campaign.
+- [ ] **Implement Inclusive Hours Logic:**
+    - **`maintaindb/stats.py`:**
+        - Add a helper function `_parse_hours_string(hours_str)` to convert a string like "1,2-4,6" into a list of individual hours (e.g., `[1, 2, 3, 4, 6]`).
+        - Update `generate_stats` to use `_parse_hours_string` when populating `stats['duration']`.
+    - **`assets/js/filter.js`:**
+        - Add a JavaScript helper function `parseHoursString(hoursStr)` for the same conversion.
+        - Update `populateFilters` to use `parseHoursString` for the hours dropdown.
+        - Update `applyFilters` to use `parseHoursString` for `hoursMatch` to enable inclusive filtering.
+        - Update `displayResults` to correctly display the `hours` string.
+
+- [ ] **Enhance Campaign Inclusivity:**
+    - Ensure `stats['campaign']` in `maintaindb/stats.py` correctly iterates through `adventure.campaigns` (which is already a list).
+    - Verify `filter.js` correctly handles `adventure.campaigns` as a list for filtering and display.
+
+- [ ] **Apply Slicer Logic to Stats Page:** (Covered by the above changes to `stats.py`)
+
+- [ ] **Update `filter.js`:** (Covered by the above changes to `filter.js`)
 
 ## Future Tasks:
+
+- [ ] **Add Unit Tests for Data Parsing and Consistency:** Implement comprehensive unit tests for the `hours` parsing logic in `maintaindb/adventure.py` and `assets/js/filter.js`, as well as the data consistency and deduplication logic in `maintaindb/aggregator.py` and `maintaindb/process_downloads.py`. This will ensure the robustness and correctness of our data pipeline.
 
 - [ ] **Clean up `_dc` directory:** Remove any JSON files in `maintaindb/_dc/` that are in an incorrect or outdated format, especially those lacking `product_id` or having incorrect `hours` formatting. This ensures data consistency and prevents future aggregation issues.
 - [ ] **Add Checkbox for DDAL/DDEX Seasons:** Implement a checkbox to optionally include DDAL and DDEX adventures in season filtering.
