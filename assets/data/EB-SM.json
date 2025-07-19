@@ -4,7 +4,9 @@
         "authors": [
             "Bum Lee"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-CRIMSON",
         "date_created": "20201224",
         "full_title": "A Crimson Carol",
@@ -21,11 +23,13 @@
         "authors": [
             "Bruce Wood"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-WHISPER",
         "date_created": "20200511",
         "full_title": "A Whisper In Your Mind",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "EB-SM-WHISPER-A-Whisper-In-Your-Mind",
@@ -38,11 +42,13 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-ARENA",
         "date_created": "20200612",
         "full_title": "Arena Troubles",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Arena-Troubles",
@@ -55,11 +61,13 @@
         "authors": [
             "Christopher Bagg"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-CHROME",
         "date_created": "20210608",
         "full_title": "Chrome On The Range",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "Chrome-On-The-Range",
@@ -72,11 +80,13 @@
         "authors": [
             "Christopher Bagg"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-VINE",
         "date_created": "20211206",
         "full_title": "Deep Space Vine",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Deep-Space-Vine",
@@ -89,11 +99,13 @@
         "authors": [
             "Celeste Conowitch"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-DINO",
         "date_created": "20200827",
         "full_title": "Dino World",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Dino-World",
@@ -106,11 +118,13 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-DREAMS",
         "date_created": "20200428",
         "full_title": "Dreams of Salvation: A 4 hour Tier 1 Salvage Mission",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -124,13 +138,13 @@
         "authors": [
             "Integral Game Conglomerate LLC"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-RSM-T4.4",
         "date_created": "20230131",
         "full_title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
         "price": null,
@@ -146,7 +160,7 @@
             "Zac Goins",
             "Troy Sandlin"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-METALLUS",
@@ -166,11 +180,13 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-TOWER",
         "date_created": "20200515",
         "full_title": "Estranged Tower",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Estranged-Tower",
@@ -183,11 +199,13 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-HOME",
         "date_created": "20200416",
         "full_title": "Finding a Home",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Finding-a-Home",
@@ -200,11 +218,13 @@
         "authors": [
             "Gregory Hallenbeck"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-GHOST",
         "date_created": "20200318",
         "full_title": "Ghost Town",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "EB-SM-GHOST-Ghost-Town",
@@ -217,13 +237,13 @@
         "authors": [
             "Christian Eichhorn"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-GULGO-13",
         "date_created": "20200330",
         "full_title": "Gulgo-13 | An Eberron Salvage Mission for Oracle of War",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Gulgo-13--An-Eberron-Salvage-Mission-for-Oracle-of-War",
@@ -236,11 +256,13 @@
         "authors": [
             "Scott Moore"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-HAPPY",
         "date_created": "20210305",
         "full_title": "Happy-Go-Lucky",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "EB-SM-HAPPY-Happy-Go-Lucky",
@@ -253,11 +275,13 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-HOUSE",
         "date_created": "20200407",
         "full_title": "House Hunting: A 4 hour Tier 1 Salvage Mission",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -271,7 +295,7 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-GREATBEYOND",
@@ -290,13 +314,13 @@
         "authors": [
             "Stacey Allan"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-COPPER",
         "date_created": "20201102",
         "full_title": "Last Stand at Copper Canyon",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "3",
         "product_id": "Last-Stand-at-Copper-Canyon",
@@ -309,11 +333,13 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-MURDER",
         "date_created": "20200418",
         "full_title": "Murder in Salvation: A 3 hour Tier 1 Salvage Mission",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Murder-in-Salvation--A-3-hour-Tier-1-Salvage-Mission",
@@ -326,11 +352,13 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-NIGHTMARES",
         "date_created": "20200430",
         "full_title": "Nightmares of Salvation: A 4 hour Tier 1 Salvage Mission",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Nightmares-of-Salvation--A-4-hour-Tier-1-Salvage-Mission",
@@ -343,7 +371,7 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-MABAR",
@@ -362,13 +390,13 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-INSPECTION",
         "date_created": "20200420",
         "full_title": "Salvation Inspection: A 4 hour Tier 1 Salvage Mission",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Salvation-Inspection--A-4-hour-Tier-1-Salvage-Mission",
@@ -381,7 +409,7 @@
         "authors": [
             "Bum Lee"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-SAVING",
@@ -400,13 +428,13 @@
         "authors": [
             "Bum Lee"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-SEASIDE",
         "date_created": "20210308",
         "full_title": "Seaside Salvage: Eberron Salvage Mission Anthology",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5",
         "product_id": "Seaside-Salvage--Eberron-Salvage-Mission-Anthology",
@@ -419,7 +447,7 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-SNAIL",
@@ -438,11 +466,13 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-SURPRISE",
         "date_created": "20200427",
         "full_title": "Surprise Visitor",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Surprise-Visitor",
@@ -455,13 +485,13 @@
         "authors": [
             "M.T. Black"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-CANNITH",
         "date_created": "20200420",
         "full_title": "The Cannith Schematica",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "3",
         "product_id": "The-Cannith-Schematica",
@@ -474,11 +504,13 @@
         "authors": [
             "Tan Lou Ee"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-CURIOUS",
         "date_created": "20210429",
         "full_title": "The Curious Incident of the Dog in the Night Land",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "3",
         "product_id": "EB-SM-CURIOUS-The-Curious-Incident-of-the-Dog-in-the-Night-Land",
@@ -491,13 +523,13 @@
         "authors": [
             "Nors"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-KHYBER",
         "date_created": "20200809",
         "full_title": "The Khyber Heart: A Salvage Mission",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": null,
         "price": null,
@@ -511,7 +543,7 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-VISIONS",
@@ -530,13 +562,13 @@
         "authors": [
             "Nicol\u00e1s Carrillo"
         ],
-        "campaign": [
+        "campaigns": [
             "Eberron"
         ],
         "code": "EB-SM-WRONGS",
         "date_created": "20201016",
         "full_title": "Wrongs and Punishment: An Eberron Salvage Mission",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Wrongs-and-Punishment--An-Eberron-Salvage-Mission",

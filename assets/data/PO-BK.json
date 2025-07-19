@@ -5,11 +5,13 @@
             "Lu\u00eds Ricardo",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-04",
         "date_created": "20230414",
         "full_title": "PO-BK-02-04 Out of the Shaar",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-04-Out-of-the-Shaar",
@@ -23,11 +25,13 @@
             "Alex Kurowski",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-05",
         "date_created": "20230414",
         "full_title": "PO-BK-02-05 Weird Tales",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-05-Weird-Tales",
@@ -41,11 +45,13 @@
             "Lee Ning Jiang",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-06",
         "date_created": "20230414",
         "full_title": "PO-BK-02-06 First Contact",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-06-First-Contact",
@@ -59,11 +65,13 @@
             "Jeremy Vosberg",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-07",
         "date_created": "20230414",
         "full_title": "PO-BK-02-07 At Sword's Point",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-07-At-Swords-Point",
@@ -77,11 +85,13 @@
             "Ted Atkinson",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-08",
         "date_created": "20230414",
         "full_title": "PO-BK-02-08 Straight Through the Heart",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-08-Straight-Through-the-Heart",
@@ -95,11 +105,13 @@
             "Shu Qing Tan",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-09",
         "date_created": "20230414",
         "full_title": "PO-BK-02-09 Star Crash",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-09-Star-Crash",
@@ -113,11 +125,13 @@
             "Andy Dempz",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-02-10",
         "date_created": "20230414",
         "full_title": "PO-BK-02-10 A Grim and Ravenous Arrival",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-02-10-A-Grim-and-Ravenous-Arrival",
@@ -131,7 +145,9 @@
             "Marcello De Velazquez",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-01",
         "date_created": "20220408",
         "full_title": "PO-BK-1-01 Autumn Burns Red",
@@ -149,11 +165,13 @@
             "Ruth Imhoff",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-02",
         "date_created": "20220408",
         "full_title": "PO-BK-1-02 Trust No One",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-1-02-Trust-No-One",
@@ -167,11 +185,13 @@
             "Andrew Bishkinskyi",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-03",
         "date_created": "20220408",
         "full_title": "PO-BK-1-03 Red Masks",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PO-BK-1-03-Red-Masks",
@@ -185,11 +205,13 @@
             "Colleen Taylor",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-04",
         "date_created": "20220408",
         "full_title": "PO-BK-1-04 The City in the Mist",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PO-BK-1-04-The-City-in-the-Mist",
@@ -203,11 +225,13 @@
             "Ma'at Crook",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-05",
         "date_created": "20220408",
         "full_title": "PO-BK-1-05 Far in the Forest",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PO-BK-1-05-Far-in-the-Forest",
@@ -221,11 +245,13 @@
             "Anthony Joyce-Rivera",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-06",
         "date_created": "20220408",
         "full_title": "PO-BK-1-06 Beyond the Starry Veil",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PO-BK-1-06-Beyond-the-Starry-Veil",
@@ -239,11 +265,13 @@
             "Joe Alfano",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-07",
         "date_created": "20220408",
         "full_title": "PO-BK-1-07 Beyond This Portal",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PO-BK-1-07-Beyond-This-Portal",
@@ -257,11 +285,13 @@
             "Joe Alfano",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-1-08",
         "date_created": "20220408",
         "full_title": "PO-BK-1-08 Dark Side of the Rune",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PO-BK-1-08-Dark-Side-of-the-Rune",
@@ -276,7 +306,9 @@
             "David Sklenicka",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-01",
         "date_created": "20240103",
         "full_title": "PO-BK-3-01 A Pirate's Life for Me",
@@ -295,7 +327,9 @@
             "Aaron Saucedo",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-02",
         "date_created": "20240119",
         "full_title": "PO-BK-3-02 Shoreline Spelunking",
@@ -314,7 +348,9 @@
             "Jeff C. Stevens",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-03",
         "date_created": "20240119",
         "full_title": "PO-BK-3-03 Smoke on the Water",
@@ -333,7 +369,9 @@
             "Joe Alfano",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-04",
         "date_created": "20240222",
         "full_title": "PO-BK-3-04 Dead in the Water",
@@ -352,7 +390,9 @@
             "Dave Coulson",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-05",
         "date_created": "20240222",
         "full_title": "PO-BK-3-05 Into the Shining Sea",
@@ -371,7 +411,9 @@
             "Lyla McBeath Fujiwara",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-06",
         "date_created": "20240222",
         "full_title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
@@ -390,7 +432,9 @@
             "Marcello de Velazquez",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-07",
         "date_created": "20240223",
         "full_title": "PO-BK-3-07 On Pirate's Honor",
@@ -409,7 +453,9 @@
             "Taylor Navarro",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-08",
         "date_created": "20240222",
         "full_title": "PO-BK-3-08 Weeding Out Trouble",
@@ -428,7 +474,9 @@
             "Shu Qing Tan",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-09",
         "date_created": "20240222",
         "full_title": "PO-BK-3-09 Isle of Death",
@@ -447,7 +495,9 @@
             "Lee Ning Jiang",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-10",
         "date_created": "20240222",
         "full_title": "PO-BK-3-10 Hymn of Love",
@@ -466,7 +516,9 @@
             "Andrew Bishkinskyi",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-11",
         "date_created": "20240318",
         "full_title": "PO-BK-3-11 Covenant of the Blood Goddess",
@@ -485,7 +537,9 @@
             "Tim Mangan",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK-3-13",
         "date_created": "20240613",
         "full_title": "PO-BK-3-13 A Ship on Silent Seas",
@@ -504,7 +558,9 @@
             "Lexi McQueen",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK2-01",
         "date_created": "20221204",
         "full_title": "PO-BK2-01 The Thayan Connection",
@@ -523,7 +579,9 @@
             "Rick O'Donnell",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK2-02",
         "date_created": "20221011",
         "full_title": "PO-BK2-02 Some Assembly Required",
@@ -542,7 +600,9 @@
             "Marcello De Velazquez",
             "Gamehole Con"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PO-BK2-03",
         "date_created": "20221011",
         "full_title": "PO-BK2-03 What Dreams May Come",

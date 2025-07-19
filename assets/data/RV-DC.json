@@ -4,11 +4,13 @@
         "authors": [
             "Stefan Tomaschitz"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-SDG-01",
         "date_created": "20240811",
         "full_title": "A Cursed Key",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": null,
         "product_id": null,
@@ -21,11 +23,13 @@
         "authors": [
             "Katriel Paige"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-POE-01",
         "date_created": "20241013",
         "full_title": "A Peculiar Premiere RV-DC-POE-01",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "A-Peculiar-Premiere-RV-DC-POE-01",
@@ -38,11 +42,13 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HBI-002",
         "date_created": "20230731",
         "full_title": "Domains of Dread: Doom Down in Boomtown (RV-DC-HBI-002)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Domains-of-Dread--Doom-Down-in-Boomtown-RV-DC-HBI-002",
@@ -55,11 +61,13 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HBI-003",
         "date_created": "20230912",
         "full_title": "Domains of Dread: Terror in Tombstone (RV-DC-HBI-003)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Domains-of-Dread--Terror-in-Tombstone-RV-DC-HBI-003",
@@ -72,7 +80,9 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HBI-001",
         "date_created": "20230620",
         "full_title": "Domains of Dread: the Braska Roadhouse Chainsaw Massacre (RV-DC-HBI-001)",
@@ -89,7 +99,7 @@
         "authors": [
             "Stefan Tomaschitz"
         ],
-        "campaign": [
+        "campaigns": [
             "Ravenloft",
             "Forgotten Realms"
         ],
@@ -109,11 +119,13 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-DBH-01",
         "date_created": "20210813",
         "full_title": "RV-DC-DBH-01 And Then There Was a Murder",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-DBH-01-And-Then-There-Was-a-Murder",
@@ -127,11 +139,13 @@
             "Teddy Benson",
             "Paige Leitman"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-01",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-01 Expedition Into The Desert",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-GC15-01-Expedition-Into-The-Desert",
@@ -145,11 +159,13 @@
             "Jay H Anderson",
             "Paige Leitman"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-02",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-02 Domain Infringement",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-GC15-02-Domain-Infringement",
@@ -163,11 +179,13 @@
             "Paige Leitman",
             "Adrian Rhodes"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-03",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-03 False Faces",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-GC15-03-False-Faces",
@@ -181,11 +199,13 @@
             "Paige Leitmen",
             "Marcello De Velazquez"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-04",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-04 Kingdom, Rise!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-GC15-04-Kingdom-Rise",
@@ -199,11 +219,13 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HH-01",
         "date_created": "20250210",
         "full_title": "RV-DC-HH-01 Inheritance",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "RV-DC-HH-01-Inheritance",
@@ -216,11 +238,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-LAGIM-01-",
         "date_created": "20240806",
         "full_title": "RV-DC-LAGIM-01: Letting The Dead Rest",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "RV-DC-LAGIM-01--Letting-The-Dead-Rest",
@@ -233,7 +257,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-LAGIM-02",
         "date_created": "20241025",
         "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
@@ -250,11 +276,13 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-OH01",
         "date_created": "20230718",
         "full_title": "RV-DC-OH01 In the Mists of Keening",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "RV-DC-OH01-In-the-Mists-of-Keening",
@@ -267,11 +295,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-PHP-1313-01",
         "date_created": "20230416",
         "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-PHP-1313-01-On-That-Fateful-Day",
@@ -284,11 +314,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Ravenloft",
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-CLASSIC-01",
         "date_created": "20250422",
         "full_title": "Tavern Rats (RV-DC-CLASSIC-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Tavern-Rats-RV-DC-CLASSIC-01",

@@ -257,6 +257,9 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
             if key == "hours" and isinstance(existing_value, (int, float)):
                 existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
 
+            if key == "hours" and isinstance(existing_value, (int, float)):
+                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
+
             if careful_mode:
                 if not is_existing_value_empty: # If existing is not empty, keep it
                     merged_data[key] = existing_value

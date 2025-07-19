@@ -1,11 +1,13 @@
 {
     "apl": 8,
-    "authors": ["Johann Taslim"],
+    "authors": [
+        "Johann Taslim"
+    ],
     "campaign": "Forgotten Realms",
     "code": "FR-DC-MELB-02-03",
     "date_created": "20250616",
     "full_title": "The Turning Tide (FR-DC-MELB-02-03)",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "price": 4.99,

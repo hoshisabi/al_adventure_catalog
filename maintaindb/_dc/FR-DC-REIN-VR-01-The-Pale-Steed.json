@@ -1,11 +1,13 @@
 {
     "apl": 10,
-    "authors": ["Von Ryan Maicle"],
+    "authors": [
+        "Von Ryan Maicle"
+    ],
     "campaign": "Forgotten Realms",
     "code": "FR-DC-REIN-VR-01",
     "date_created": "20250717",
     "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "price": 4.99,

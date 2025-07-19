@@ -1,13 +1,15 @@
 {
     "apl": 8,
     "authors": [
-        "Shawn Merwin", "Ted Atkinson", "Kat Kruger"
+        "Shawn Merwin",
+        "Ted Atkinson",
+        "Kat Kruger"
     ],
     "campaign": null,
     "code": null,
     "date_created": "20250622",
     "full_title": "Rising Shadows Trilogy 3: Fairheight Trilogy [BUNDLE]",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": false,
     "level_range": "5-10",
     "price": 14.97,
