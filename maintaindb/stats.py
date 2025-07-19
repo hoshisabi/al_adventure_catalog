@@ -26,6 +26,18 @@ def generate_stats():
             d['title'] = d.pop('full_title')
             d['date_created'] = datetime.datetime.strptime(d['date_created'], "%Y%m%d").date()
             d['season'] = d.get('season')
+
+            # Handle the transition from 'campaign' (singular) to 'campaigns' (plural)
+            # Ensure 'campaigns' is always a list
+            if 'campaign' in d:
+                campaign_value = d.pop('campaign') # Remove the old 'campaign' key
+                if isinstance(campaign_value, list):
+                    d['campaigns'] = campaign_value
+                else:
+                    d['campaigns'] = [campaign_value]
+            else:
+                d['campaigns'] = [] # Default to empty list if no campaign data
+
             data.append(DungeonCraft(**d))
 
     stats = {
@@ -42,14 +54,14 @@ def generate_stats():
             stats['tier']['Unknown'] += 1
 
         if adventure.hours:
-            stats['duration'][f'{adventure.hours} Hours'] += 1
+            for hour in adventure.hours:
+                stats['duration'][f'{hour} Hours'] += 1
         else:
             stats['duration']['Unknown'] += 1
         
-        if adventure.campaign:
-            # Ensure campaign is a string, as it can be a list
-            campaign_key = adventure.campaign[0] if isinstance(adventure.campaign, list) else adventure.campaign
-            stats['campaign'][campaign_key] += 1
+        if adventure.campaigns:
+            for campaign_name in adventure.campaigns:
+                stats['campaign'][campaign_name] += 1
         else:
             stats['campaign']['Unknown'] += 1
         

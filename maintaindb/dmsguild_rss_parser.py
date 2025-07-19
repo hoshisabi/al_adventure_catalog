@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
         data = extract_data_from_html(soup, product_id, existing_data=existing_data, force_overwrite=args.force)
 
-        dc_product = DungeonCraft(product_id, full_title, authors, data.get("code"), date_created, data.get("hours"), data.get("tiers"), data.get("apl"), data.get("level_range"), product_url, data.get("campaign"), data.get("season"), data.get("is_adventure"), data.get("price"))
+        dc_product = DungeonCraft(product_id, full_title, authors, data.get("code"), date_created, data.get("hours"), data.get("tiers"), data.get("apl"), data.get("level_range"), product_url, data.get("campaigns"), data.get("season"), data.get("is_adventure"), data.get("price"))
 
         data_to_save = dc_product.to_json()
 
