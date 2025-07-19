@@ -11,6 +11,7 @@
 
 ## Future Tasks:
 
+- [ ] **Clean up `_dc` directory:** Remove any JSON files in `maintaindb/_dc/` that are in an incorrect or outdated format, especially those lacking `product_id` or having incorrect `hours` formatting. This ensures data consistency and prevents future aggregation issues.
 - [ ] **Add Checkbox for DDAL/DDEX Seasons:** Implement a checkbox to optionally include DDAL and DDEX adventures in season filtering.
 - [ ] **Improve `stats.py` Output:** Enhance `stats.py` to generate more detailed statistics and potentially output them in a more structured format for easier consumption by the Jekyll site.
 - [x] **Bookmarklet/Browser Extension:** The existing `dmsguild_bookmarklet.js` is sufficient for now. Further enhancements are a long-term consideration.
