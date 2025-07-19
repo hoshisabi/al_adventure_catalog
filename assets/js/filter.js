@@ -39,10 +39,28 @@ fetch(baseURL + 'all_adventures.json')
 
 window.addEventListener('resize', updateItemsPerPage); // Update on resize
 
+function parseHoursString(hoursStr) {
+    if (!hoursStr) {
+        return [];
+    }
+    const hoursList = [];
+    hoursStr.split(',').forEach(part => {
+        if (part.includes('-')) {
+            const [start, end] = part.split('-').map(Number);
+            for (let i = start; i <= end; i++) {
+                hoursList.push(i);
+            }
+        } else {
+            hoursList.push(Number(part));
+        }
+    });
+    return hoursList;
+}
+
 function populateFilters(adventures) {
-    const campaigns = [...new Set(adventures.map(a => a.campaign).flat())].sort();
+    const campaigns = [...new Set(adventures.map(a => a.campaigns).flat())].sort();
     const tiers = [...new Set(adventures.map(a => a.tiers).filter(t => t !== null).sort((a, b) => a - b))];
-    const hours = [...new Set(adventures.map(a => a.hours).filter(h => h !== null).sort((a, b) => a - b))];
+    const hours = [...new Set(adventures.map(a => parseHoursString(a.hours)).flat().filter(h => h !== null).sort((a, b) => a - b))];
 
     populateDropdown('campaign', campaigns, 'All Campaigns');
     populateDropdown('tier', tiers, 'All Tiers');
@@ -94,16 +112,19 @@ function setupEventListeners() {
 
 function applyFilters() {
     filteredAdventures = adventures.filter(adventure => {
-        // Handle campaign filter for both array and single value cases
         const campaignMatch = !filters.campaign || (
-            Array.isArray(adventure.campaign)
-                ? adventure.campaign.includes(filters.campaign)
-                : adventure.campaign === filters.campaign
+            Array.isArray(adventure.campaigns)
+                ? adventure.campaigns.includes(filters.campaign)
+                : false // Should not happen if data is consistent
+        );
+
+        const hoursMatch = !filters.hours || (
+            parseHoursString(adventure.hours).includes(parseInt(filters.hours))
         );
 
         return campaignMatch &&
             (!filters.tier || adventure.tiers === parseInt(filters.tier)) &&
-            (!filters.hours || adventure.hours === parseInt(filters.hours));
+            hoursMatch;
     });
 
     displayResults();
@@ -128,15 +149,17 @@ function displayResults() {
         card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow';
 
         // Handle campaign display for both array and single value cases
-        const campaignDisplay = Array.isArray(adventure.campaign)
-            ? adventure.campaign.join(', ')
-            : adventure.campaign;
+        const campaignDisplay = Array.isArray(adventure.campaigns)
+            ? adventure.campaigns.join(', ')
+            : adventure.campaigns; // Should be campaigns now
+
+        const hoursDisplay = adventure.hours ? adventure.hours + ' Hours' : 'N/A';
 
         card.innerHTML = `
             <a href="${adventure.url}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800">${adventure.title}</a>
             <p class="text-sm text-gray-600 mb-1">Code: ${adventure.code}</p>
             <p class="text-sm text-gray-600 mb-1">Campaign: ${campaignDisplay}</p>
-            <p class="text-sm text-gray-600 mb-1">Hours: ${adventure.hours} &bull; Tier: ${adventure.tiers}</p>
+            <p class="text-sm text-gray-600 mb-1">Hours: ${hoursDisplay} &bull; Tier: ${adventure.tiers}</p>
         `;
         resultsDiv.appendChild(card);
     });

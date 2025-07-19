@@ -1,36 +1,31 @@
 {
     "tier": {
-        "Tier 4": 59,
-        "Tier 1": 493,
-        "Tier 3": 231,
-        "Unknown": 604,
-        "Tier 2": 533,
-        "Tier 3-4": 1,
-        "Tier 2-4": 1,
-        "Tier 1-4": 1
+        "Tier 4": 49,
+        "Tier 1": 467,
+        "Tier 3": 206,
+        "Unknown": 485,
+        "Tier 2": 491,
+        "Tier 3-4": 1
     },
     "duration": {
-        "3 Hours": 12,
-        "2 Hours": 392,
-        "Unknown": 449,
-        "4 Hours": 1035,
-        "3-4 Hours": 2,
-        "2-4 Hours": 19,
+        "3 Hours": 18,
+        "2 Hours": 372,
+        "Unknown": 360,
+        "4 Hours": 959,
         "7 Hours": 1,
-        "1 Hours": 4,
-        "4-6 Hours": 5,
-        "8 Hours": 2,
-        "8-10 Hours": 1,
-        "6 Hours": 1
+        "1 Hours": 3,
+        "5 Hours": 4,
+        "6 Hours": 5,
+        "8 Hours": 1
     },
     "campaign": {
-        "Forgotten Realms": 1801,
-        "Eberron": 69,
-        "Ravenloft": 32,
+        "Forgotten Realms": 1629,
+        "Eberron": 33,
+        "Ravenloft": 18,
         "Dragonlance": 20,
-        "Unknown": 1
+        "null": 1
     },
     "season": {
-        "Unknown": 1923
+        "Unknown": 1699
     }
 }

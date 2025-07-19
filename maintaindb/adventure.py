@@ -102,19 +102,22 @@ def sanitize_filename(filename):
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, season=None, is_adventure=None, price=None) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaigns, season=None, is_adventure=None, price=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
         self.authors = authors
         self.code = code
         self.date_created = date_created
-        self.hours = hours
+        if hours is not None and hours != '':
+            self.hours = str(hours)
+        else:
+            self.hours = None
         self.tiers = tiers
         self.apl = apl
         self.level_range = level_range
         self.url = url
-        self.campaign = campaign
+        self.campaigns = campaigns # This will now be a list of strings
         self.season = season
         self.is_adventure = is_adventure
         self.price = price
@@ -131,11 +134,29 @@ class DungeonCraft:
 
     def is_hour(self, hour):
         if self.hours is not None:
-            return self.hours == hour
+            # Parse the hours string (e.g., "1-2", "4", "1,2,3")
+            hours_list = []
+            for part in str(self.hours).split(','):
+                if '-' in part:
+                    start, end = map(int, part.split('-'))
+                    hours_list.extend(range(start, end + 1))
+                else:
+                    hours_list.append(int(part))
+            return hour in hours_list
         return False
 
     def is_hour_unknown(self):
-        if self.hours is None:
+        if self.hours is None or self.hours == '':
+            return True
+        return False
+
+    def is_campaign(self, campaign_name):
+        if self.campaigns is not None:
+            return campaign_name in self.campaigns
+        return False
+
+    def is_campaign_unknown(self):
+        if self.campaigns is None or not self.campaigns:
             return True
         return False
 
@@ -161,7 +182,7 @@ class DungeonCraft:
             apl=self.apl,
             level_range=self.level_range,
             url=self.url,
-            campaign=self.campaign,
+            campaigns=self.campaigns,
             season=self.season,
             is_adventure=self.is_adventure,
             price=self.price
@@ -210,10 +231,12 @@ def get_dc_code_and_campaign(product_title):
         if text:
             for code in DC_CAMPAIGNS:
                 if text.startswith(code):
-                    return (text, DC_CAMPAIGNS.get(code))
+                    campaign_val = DC_CAMPAIGNS.get(code)
+                    return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
             for code in DDAL_CAMPAIGN:
                 if text.startswith(code):
-                    return (text, DDAL_CAMPAIGN.get(code))
+                    campaign_val = DDAL_CAMPAIGN.get(code)
+                    return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
     return None
 
 def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful_mode=False):
@@ -227,6 +250,12 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
             is_existing_value_empty = existing_value is None or existing_value == "" or existing_value == [] or existing_value == {}
             new_value = new_data.get(key)
             is_new_value_empty = new_value is None or new_value == "" or new_value == [] or new_value == {}
+
+            if key == "hours" and isinstance(existing_value, (int, float)):
+                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
+
+            if key == "hours" and isinstance(existing_value, (int, float)):
+                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
 
             if careful_mode:
                 if not is_existing_value_empty: # If existing is not empty, keep it
@@ -253,7 +282,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         "tiers": None,
         "apl": None,
         "level_range": None,
-        "campaign": None,
+        "campaigns": None, # Changed to campaigns (plural)
         "season": None,
         "is_adventure": False,
         "price": None
@@ -296,18 +325,33 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     if new_data["module_name"]:
         result = get_dc_code_and_campaign(new_data["module_name"])
         if result is not None:
-            new_data["code"], new_data["campaign"] = result
+            new_data["code"] = result[0]
+            new_data["campaigns"] = result[1] # campaigns is already a list from get_dc_code_and_campaign
             new_data["season"] = get_season(new_data["code"])
 
     # Check for EB- series adventures
     if new_data["code"] and new_data["code"].startswith("EB-"):
-        new_data["hours"] = 4
+        new_data["hours"] = "4"
     else:
         # Try to find "X hour(s)" or "X-Y hour(s)"
-        hours_match = re.search(r'([\d\w]+)[-\s\xa0]*(?:hour|hours|hr)', text, re.IGNORECASE)
-        if hours_match:
-            captured_hour_text = hours_match.group(1)
-            new_data["hours"] = str_to_int(captured_hour_text)
+        # This regex will find all occurrences of single numbers or ranges followed by 'hour(s)' or 'hr'
+        hours_matches = re.findall(r'([\d\w]+)(?:[ -]([\d\w]+))?[-\s\xa0]*(?:hour|hours|hr)', text, re.IGNORECASE)
+        
+        extracted_hours = []
+        for match in hours_matches:
+            start_hour = str_to_int(match[0])
+            end_hour = str_to_int(match[1]) if match[1] else None
+
+            if start_hour is not None:
+                if end_hour is not None and end_hour > start_hour:
+                    extracted_hours.append(f"{start_hour}-{end_hour}")
+                else:
+                    extracted_hours.append(str(start_hour))
+        
+        if extracted_hours:
+            new_data["hours"] = ",".join(map(str, extracted_hours))
+        else:
+            new_data["hours"] = None
 
     new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", text))
     new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", text))

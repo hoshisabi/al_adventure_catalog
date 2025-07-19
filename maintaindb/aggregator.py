@@ -18,7 +18,7 @@ root = str(pathlib.Path(__file__).parent.absolute())
 input_path = os.path.join(root, '_dc')
 output_path = os.path.join(root, '..', 'assets', 'data')
 
-all_adventures = []
+all_adventures_map = {}
 
 def __add_to_map(data, aggregated_by_dc_code):
     if 'code' not in data or data['code'] is None:
@@ -32,6 +32,16 @@ def __add_to_map(data, aggregated_by_dc_code):
             break
 
     if dc_code:
+        # Use product_id for deduplication
+        product_id = data.get('product_id')
+        if product_id:
+            key = product_id
+        else:
+            # Generate a fallback key if product_id is missing
+            key = f"{data.get('full_title', 'UNKNOWN')}-{data.get('date_created', 'UNKNOWN')}"
+            logger.warning(f"Using fallback key for '{data.get('full_title', 'UNKNOWN TITLE')}' due to missing product_id.")
+
+        all_adventures_map[key] = data
         aggregated_by_dc_code[dc_code.upper()].append(data)
 
 def aggregate():
@@ -54,7 +64,6 @@ def aggregate():
                 if "url" in data and data["url"] and "affiliate_id" not in data["url"]:
                     data["url"] += "&affiliate_id=171040"
                 __add_to_map(data, aggregated_by_dc_code)
-                all_adventures.append(data)
             else:
                 logger.info(f"Skipping '{data.get('full_title', 'UNKNOWN TITLE')}' as it is not an adventure.")
     
@@ -72,7 +81,7 @@ def aggregate():
 
     output_full_path = f"{str(output_path)}/all_adventures.json"
     with open(output_full_path, 'w') as f:
-        json.dump(all_adventures, f, indent=4, sort_keys=True)
+        json.dump(list(all_adventures_map.values()), f, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__':
