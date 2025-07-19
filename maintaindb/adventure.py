@@ -16,15 +16,14 @@ DC_CAMPAIGNS = {
     'EB-DC': 'Eberron',
     'EB-SM': 'Eberron',
     'FR-DC': 'Forgotten Realms',
-    'PS-DC': 'Forgotten Realms',
-    'SJ-DC': 'Forgotten Realms',
-    'WBW-DC': 'Forgotten Realms',
-    'DC-POA': 'Forgotten Realms',
+    'PS-DC': 'Planescape',
+    'SJ-DC': 'Spelljammer',
+    'WBW-DC': 'The Wild Beyond the Witchlight',
+    'DC-POA': 'Icewind Dale: Rime of the Frostmaiden',
     'PO-BK': 'Forgotten Realms',
     'BMG-DRW': 'Forgotten Realms',
     'BMG-DL': 'Dragonlance',
     'BMG-MOON': 'Forgotten Realms',
-    'BMG-DL': 'Dragonlance',
     'CCC-': 'Forgotten Realms',
     'RV-DC': 'Ravenloft',
 }
@@ -57,6 +56,21 @@ DDAL_CAMPAIGN = {
     'EB': ['Eberron'],
 }
 
+SEASONS = {
+    'WBW-DC': 'The Wild Beyond the Witchlight',
+    'SJ-DC': 'Spelljammer',
+    'PS-DC': 'Planescape',
+    'DC-POA': 'Icewind Dale',
+}
+
+def get_season(code):
+    if not code:
+        return None
+    for prefix, season in SEASONS.items():
+        if code.startswith(prefix):
+            return season
+    return None
+
 def sanitize_filename(filename):
     """
     Normalizes and sanitizes a string to be a valid filename.
@@ -88,7 +102,7 @@ def sanitize_filename(filename):
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, is_adventure=None, price=None) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaign, season=None, is_adventure=None, price=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -101,6 +115,7 @@ class DungeonCraft:
         self.level_range = level_range
         self.url = url
         self.campaign = campaign
+        self.season = season
         self.is_adventure = is_adventure
         self.price = price
 
@@ -147,6 +162,7 @@ class DungeonCraft:
             level_range=self.level_range,
             url=self.url,
             campaign=self.campaign,
+            season=self.season,
             is_adventure=self.is_adventure,
             price=self.price
         )
@@ -238,6 +254,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         "apl": None,
         "level_range": None,
         "campaign": None,
+        "season": None,
         "is_adventure": False,
         "price": None
     }
@@ -280,6 +297,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         result = get_dc_code_and_campaign(new_data["module_name"])
         if result is not None:
             new_data["code"], new_data["campaign"] = result
+            new_data["season"] = get_season(new_data["code"])
 
     # Check for EB- series adventures
     if new_data["code"] and new_data["code"].startswith("EB-"):

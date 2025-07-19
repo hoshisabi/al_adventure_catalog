@@ -1,0 +1,121 @@
+---
+layout: default
+title: Adventure Stats
+---
+<div class="container mx-auto px-4 py-8 max-w-screen-lg">
+    <h1 class="text-3xl font-bold mb-6">Adventure Statistics</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Adventures by Tier</h2>
+            <canvas id="tier-chart"></canvas>
+        </div>
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Adventures by Duration</h2>
+            <canvas id="duration-chart"></canvas>
+        </div>
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Adventures by Campaign</h2>
+            <canvas id="campaign-chart"></canvas>
+        </div>
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Adventures by Season</h2>
+            <canvas id="season-chart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    fetch('assets/data/stats.json')
+        .then(response => response.json())
+        .then(data => {
+            const tierCtx = document.getElementById('tier-chart').getContext('2d');
+            new Chart(tierCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(data.tier),
+                    datasets: [{
+                        label: '# of Adventures',
+                        data: Object.values(data.tier),
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            const durationCtx = document.getElementById('duration-chart').getContext('2d');
+            new Chart(durationCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(data.duration),
+                    datasets: [{
+                        label: '# of Adventures',
+                        data: Object.values(data.duration),
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            const campaignCtx = document.getElementById('campaign-chart').getContext('2d');
+            new Chart(campaignCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(data.campaign),
+                    datasets: [{
+                        label: '# of Adventures',
+                        data: Object.values(data.campaign),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+            
+            const seasonCtx = document.getElementById('season-chart').getContext('2d');
+            new Chart(seasonCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(data.season),
+                    datasets: [{
+                        label: '# of Adventures',
+                        data: Object.values(data.season),
+                        backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                        borderColor: 'rgba(153, 102, 255, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+</script>
