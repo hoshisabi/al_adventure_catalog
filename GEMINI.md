@@ -79,6 +79,8 @@ We will use a simple feature branch workflow.
 *   **Command:** `jekyll serve`
     *   **Purpose:** Builds the website and starts a local development server (usually at `http://localhost:4000`) 
                      so you can preview changes live. Must be run from the project root.
+*   **Command:** `start /B jekyll serve --baseurl ""`
+    *   **Purpose:** Runs the Jekyll development server in the background on Windows, allowing you to continue using the command prompt.
 
 ## Workflow Verification
 
