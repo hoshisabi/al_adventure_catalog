@@ -61,7 +61,7 @@ def process_downloads():
 
             # Construct the DungeonCraft object
             dc = DungeonCraft(product_id, data["module_name"], data["authors"],
-                              data["code"], data["date_created"], data["hours"], data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaign"], data["is_adventure"], data["price"])
+                              data["code"], data["date_created"], data.get("hours"), data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"], data.get("season"), data["is_adventure"], data["price"]))
 
             # Determine output JSON filename based on full_title
             # Sanitize full_title to create a valid filename
