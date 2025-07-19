@@ -6,3 +6,7 @@
   jq ".[] | select(.full_title == \"Your Adventure Title\") | .hours" assets/data/all_adventures.json
   ```
   Remember to use a temporary batch file for this command on Windows.
+
+## Project Tasks
+
+Refer to `TASKS.md` for a detailed list of project tasks and their status.
