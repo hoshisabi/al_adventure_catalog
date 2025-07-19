@@ -79,3 +79,14 @@ We will use a simple feature branch workflow.
 *   **Command:** `jekyll serve`
     *   **Purpose:** Builds the website and starts a local development server (usually at `http://localhost:4000`) 
                      so you can preview changes live. Must be run from the project root.
+
+## Workflow Verification
+
+Before making significant changes or implementing features based on assumptions (e.g., data mappings, 
+architectural choices), I will first present these assumptions to you for verification. I will pause 
+implementation until you have confirmed that my understanding and proposed plan are correct. This 
+ensures we are aligned and avoids rework.
+
+## Commit Messages
+
+To ensure consistent and well-formatted commit messages, I will always propose a draft commit message in a file named `maintaindb/commit_message.txt`. You can review and modify this file before I use it to commit changes. This helps avoid formatting issues and ensures clarity in our commit history.
