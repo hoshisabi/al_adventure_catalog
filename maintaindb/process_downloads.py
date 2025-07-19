@@ -60,8 +60,10 @@ def process_downloads():
             data = extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=existing_json_data_for_extraction, force_overwrite=args.force, careful_mode=args.careful)
 
             # Construct the DungeonCraft object
-            dc = DungeonCraft(product_id, data["module_name"], data["authors"],
-                              data["code"], data["date_created"], data.get("hours"), data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"], data.get("season"), data["is_adventure"], data["price"]))
+            dc_hours = str(data.get("hours")) if data.get("hours") is not None else None
+            dc = DungeonCraft(product_id, data["module_name"], data["authors"], data["code"], data["date_created"], 
+                              dc_hours, data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"], 
+                              data.get("season"),                             data["is_adventure"], data["price"])
 
             # Determine output JSON filename based on full_title
             # Sanitize full_title to create a valid filename

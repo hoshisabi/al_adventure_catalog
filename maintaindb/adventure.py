@@ -109,7 +109,10 @@ class DungeonCraft:
         self.authors = authors
         self.code = code
         self.date_created = date_created
-        self.hours = hours # This will now be a string
+        if hours is not None and hours != '':
+            self.hours = str(hours)
+        else:
+            self.hours = None
         self.tiers = tiers
         self.apl = apl
         self.level_range = level_range
@@ -248,6 +251,12 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
             new_value = new_data.get(key)
             is_new_value_empty = new_value is None or new_value == "" or new_value == [] or new_value == {}
 
+            if key == "hours" and isinstance(existing_value, (int, float)):
+                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
+
+            if key == "hours" and isinstance(existing_value, (int, float)):
+                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
+
             if careful_mode:
                 if not is_existing_value_empty: # If existing is not empty, keep it
                     merged_data[key] = existing_value
@@ -340,7 +349,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
                     extracted_hours.append(str(start_hour))
         
         if extracted_hours:
-            new_data["hours"] = ",".join(extracted_hours)
+            new_data["hours"] = ",".join(map(str, extracted_hours))
         else:
             new_data["hours"] = None
 

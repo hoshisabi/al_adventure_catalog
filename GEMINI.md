@@ -10,3 +10,7 @@
 ## Project Tasks
 
 Refer to `TASKS.md` for a detailed list of project tasks and their status.
+
+## Data Caution: `maintaindb/_dc` Directory
+
+**Important:** The `maintaindb/_dc` directory contains JSON files that are generated from various sources, including the DMsGuild RSS feed and manually processed HTML files. Some of these files, particularly those derived from older or manually processed data, may contain information that cannot be easily regenerated. Therefore, exercise extreme caution when modifying or deleting files within this directory. Always ensure a backup or Git restoration plan is in place before performing destructive operations.
