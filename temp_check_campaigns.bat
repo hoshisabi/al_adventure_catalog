@@ -1,1 +1,0 @@
-jq -r ".[0:10].campaigns" assets/data/all_adventures.json

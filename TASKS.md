@@ -16,7 +16,7 @@
     - Ensure `stats['campaign']` in `maintaindb/stats.py` correctly iterates through `adventure.campaigns` (which is already a list).
     - Verify `filter.js` correctly handles `adventure.campaigns` as a list for filtering and display.
 
-- [ ] **Update `filter.js`:** (Covered by the above changes to `filter.js`)
+- [x] **Update `filter.js`:** (Covered by the above changes to `filter.js`)
 
 ## Future Tasks:
 
