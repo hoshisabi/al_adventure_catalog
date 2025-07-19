@@ -4,7 +4,9 @@
         "authors": [
             "Jonathan Bennett"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SCROG-02",
         "date_created": "20250607",
         "full_title": "Bad Weather Over Longsaddle (FR-DC-SCROG-02)",
@@ -21,11 +23,13 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-ONI-02",
         "date_created": "20240402",
         "full_title": "Battlefield Blooms (FR-DC-ONI-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Battlefield-Blooms-FR-DC-ONI-02",
@@ -39,11 +43,13 @@
             "Brendon Watson",
             "Siobhan Hanlon"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-06",
         "date_created": "20250625",
         "full_title": "Beneath Salt and Stone (FR-DC-MELB-02-06)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 4.99,
@@ -57,11 +63,13 @@
         "authors": [
             "Pauline Feraren"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-IMP-01",
         "date_created": "20240331",
         "full_title": "Blood Price (FR DC IMP 01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "2",
         "product_id": null,
@@ -75,11 +83,13 @@
             "Tricia Monsod",
             "Kai Monsod"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TKM-RGT-02",
         "date_created": "20250505",
         "full_title": "Boil and Bubble (FR-DC-TKM-RGT-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "Boil-and-Bubble-FR-DC-TKM-RGT-02",
@@ -93,11 +103,13 @@
             "Steven Truong",
             "Hugh Lee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-05",
         "date_created": "20240821",
         "full_title": "Book of Wild Magic (FR-DC-MELB-01-05)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Book-of-Wild-Magic-FR-DC-MELB-01-05",
@@ -108,11 +120,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-02",
         "date_created": "20250615",
         "full_title": "Brine and Bone (FR-DC-MELB-02-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "526429",
@@ -123,11 +137,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-02",
         "date_created": "20250615",
         "full_title": "Brine and Bone (FR-DC-MELB-02-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -141,11 +157,13 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-FALL-01",
         "date_created": "20240726",
         "full_title": "Cathedral of Ice (FR-DC-FALL-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Cathedral-of-Ice-FR-DC-FALL-01",
@@ -159,11 +177,13 @@
             "Tricia Monsod",
             "Kai Monsod"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TKM-RGT-01",
         "date_created": "20241031",
         "full_title": "Charming (FR-DC-TKM-RGT-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Charming-FR-DC-TKM-RGT-01",
@@ -176,11 +196,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-THAY-01",
         "date_created": "20250302",
         "full_title": "Crazy Lich Thayans (FR-DC-THAY-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Crazy-Lich-Thayans-FR-DC-THAY-01",
@@ -193,11 +215,13 @@
         "authors": [
             "Brendon Watson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-00-01",
         "date_created": "20240916",
         "full_title": "Dead in Daggerford (FR-DC-MELB-00-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Dead-in-Daggerford-FR-DC-MELB-00-01",
@@ -211,11 +235,13 @@
             "Steven Truong",
             "Cameron Pearce"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-VECNA-02",
         "date_created": "20240731",
         "full_title": "ELDRITCH EYE WIDE SHUT (FR-DC-VECNA-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "ELDRITCH-EYE-WIDE-SHUT-FR-DC-VECNA-02",
@@ -228,11 +254,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-THAY-05",
         "date_created": "20250629",
         "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -246,7 +274,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-01",
         "date_created": "20231212",
         "full_title": "FR-DC-AEG-01 The Ambush",
@@ -263,7 +293,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-02",
         "date_created": "20231212",
         "full_title": "FR-DC-AEG-02 The Rescue",
@@ -280,7 +312,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-03",
         "date_created": "20231213",
         "full_title": "FR-DC-AEG-03 The Escape",
@@ -297,7 +331,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-04",
         "date_created": "20231213",
         "full_title": "FR-DC-AEG-04 The School",
@@ -314,7 +350,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-05",
         "date_created": "20231217",
         "full_title": "FR-DC-AEG-05 The House in the Forest",
@@ -331,7 +369,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-06",
         "date_created": "20231223",
         "full_title": "FR-DC-AEG-06 The Abandoned City",
@@ -348,7 +388,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-07",
         "date_created": "20240122",
         "full_title": "FR-DC-AEG-07 The Missing Adventurers",
@@ -365,7 +407,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-08",
         "date_created": "20240128",
         "full_title": "FR-DC-AEG-08 The Lost Artifact",
@@ -382,11 +426,13 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-09",
         "date_created": "20240211",
         "full_title": "FR-DC-AEG-09 What's in the Box?",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-AEG-09-Whats-in-the-Box",
@@ -399,11 +445,13 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AEG-10",
         "date_created": "20240216",
         "full_title": "FR-DC-AEG-10 The Ritual",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-AEG-10-The-Ritual",
@@ -416,11 +464,13 @@
         "authors": [
             "Kaithlyn Kuan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AKU-01",
         "date_created": "20250627",
         "full_title": "FR-DC-AKU-01 Phantom's Lament",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -434,11 +484,13 @@
         "authors": [
             "Alexander Klement"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-AMAK-01",
         "date_created": "20241208",
         "full_title": "FR-DC-AMAK-01 You better Watch Out",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "10-16",
         "product_id": "FR-DC-AMAK-01-You-better-Watch-Out",
@@ -451,11 +503,13 @@
         "authors": [
             "Daniel Ellingsen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-ARCON-01",
         "date_created": "20240621",
         "full_title": "FR-DC-ARCON-01 Mines and Monsters",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "FR-DC-ARCON-01-Mines-and-Monsters",
@@ -468,11 +522,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BMK-01",
         "date_created": "20240518",
         "full_title": "FR-DC-BMK-01 Phandelver and the Blood Moon Curse",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BMK-01-Phandelver-and-the-Blood-Moon-Curse",
@@ -485,11 +541,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BMK-02",
         "date_created": "20240608",
         "full_title": "FR-DC-BMK-02 Phandelver and the Blood Moon Crypts",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BMK-02-Phandelver-and-the-Blood-Moon-Crypts",
@@ -502,11 +560,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BMK-03",
         "date_created": "20240623",
         "full_title": "FR-DC-BMK-03 Phandelver and the Blood Moon Coven",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BMK-03-Phandelver-and-the-Blood-Moon-Coven",
@@ -519,11 +579,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BMK-04",
         "date_created": "20240709",
         "full_title": "FR-DC-BMK-04 Phandelver and the Blood Moon Behemoth",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BMK-04-Phandelver-and-the-Blood-Moon-Behemoth",
@@ -536,11 +598,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BMK-05",
         "date_created": "20240720",
         "full_title": "FR-DC-BMK-05 Phandelver and the Blood Moon Devourer",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BMK-05-Phandelver-and-the-Blood-Moon-Devourer",
@@ -553,11 +617,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BMK",
         "date_created": "20240928",
         "full_title": "FR-DC-BMK Phandelver and the Blood Moon Keep",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BMK-Phandelver-and-the-Blood-Moon-Keep",
@@ -570,11 +636,13 @@
         "authors": [
             "Bernhard Staneker"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BTW-01",
         "date_created": "20250126",
         "full_title": "FR-DC-BTW-01 Fathers Conscience",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-BTW-01-Fathers-Conscience",
@@ -587,11 +655,13 @@
         "authors": [
             "Bernhard Staneker"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BTW-02",
         "date_created": "20250202",
         "full_title": "FR-DC-BTW-02 Fathers Curse",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-BTW-02-Fathers-Curse",
@@ -604,11 +674,13 @@
         "authors": [
             "Bernhard Staneker"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BTW-03",
         "date_created": "20250209",
         "full_title": "FR-DC-BTW-03 Fathers Mistakes",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-BTW-03-Fathers-Mistakes",
@@ -621,11 +693,13 @@
         "authors": [
             "Bernhard Staneker"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BTW-04",
         "date_created": "20250216",
         "full_title": "FR-DC-BTW-04 Fathers Decision",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-BTW-04-Fathers-Decision",
@@ -638,11 +712,13 @@
         "authors": [
             "Karianne Fog Heen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-CONMAR-01",
         "date_created": "20241004",
         "full_title": "FR-DC-CONMAR-01 Tower Up!",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-CONMAR-01-Tower-Up",
@@ -656,11 +732,13 @@
             "Miriam Moe Lassen",
             "Martine Lassen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-CONMAR-03",
         "date_created": "20250601",
         "full_title": "FR-DC-CONMAR-03 The Scent of Sawdust",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-CONMAR-03-The-Scent-of-Sawdust",
@@ -673,11 +751,13 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-CURSE",
         "date_created": "20231109",
         "full_title": "FR-DC-CURSE Is this a Curse?",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-CURSE-Is-this-a-Curse",
@@ -690,11 +770,13 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DEATH",
         "date_created": "20240628",
         "full_title": "FR-DC-DEATH Debilitating Dairy",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-DEATH-Debilitating-Dairy",
@@ -707,11 +789,13 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DEATH-MASQUERADE",
         "date_created": "20250511",
         "full_title": "FR-DC-DEATH-MASQUERADE Darkest Dairy",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -725,11 +809,13 @@
         "authors": [
             "Matt Houser"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DIGM-01-01",
         "date_created": "20240924",
         "full_title": "FR-DC-DIGM-01-01 Sweet Tooth",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "01",
         "product_id": "FR-DC-DIGM-01-01-Sweet-Tooth",
@@ -742,11 +828,13 @@
         "authors": [
             "Matt Houser"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DIGM-01-02",
         "date_created": "20250522",
         "full_title": "FR-DC-DIGM-01-02 Sweet Reassignment",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "01",
         "price": null,
@@ -760,11 +848,13 @@
         "authors": [
             "Matt Houser"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DIGM-01-03",
         "date_created": "20250530",
         "full_title": "FR-DC-DIGM-01-03 Sweet Ex Machina",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "01",
         "product_id": "FR-DC-DIGM-01-03-Sweet-Ex-Machina",
@@ -777,11 +867,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DILL-01",
         "date_created": "20240913",
         "full_title": "FR-DC-DILL-01 Labor Day",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 2.99,
@@ -795,11 +887,13 @@
         "authors": [
             "Douglas Bushong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DOBU-02-01",
         "date_created": "20240731",
         "full_title": "FR-DC-DOBU-02-01, Hoard of the Death Dragon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-DOBU-02-01-Hoard-of-the-Death-Dragon",
@@ -812,11 +906,13 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-ELEMENT-DEATH",
         "date_created": "20250119",
         "full_title": "FR-DC-ELEMENT-DEATH Everything Changed",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-ELEMENT-DEATH-Everything-Changed",
@@ -829,11 +925,13 @@
         "authors": [
             "Bernhard Staneker"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-FET01_VATRAS",
         "date_created": "20250526",
         "full_title": "FR-DC-FET01_Vatras Besieged",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-FET01-Vatras-Besieged",
@@ -846,11 +944,13 @@
         "authors": [
             "Bernhard Staneker"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-FET-02",
         "date_created": "20250705",
         "full_title": "FR-DC-FET02_Vatras Abyss",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -864,7 +964,9 @@
         "authors": [
             "Joshua Nelson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-FOT-02",
         "date_created": "20250204",
         "full_title": "FR-DC-FOT-02 The spider of Candlekeep",
@@ -881,11 +983,13 @@
         "authors": [
             "Joshua Nelson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-FOT-03",
         "date_created": "20250422",
         "full_title": "FR-DC-FOT-03 Showdown at the Forge of Tiamat",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-FOT-03-Showdown-at-the-Forge-of-Tiamat",
@@ -898,11 +1002,13 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-FRI-13",
         "date_created": "20250621",
         "full_title": "FR-DC-FRI-13 Flamerule the 13th",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 1.0,
@@ -916,11 +1022,13 @@
         "authors": [
             "Randall Harris"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GARY-01-",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-01: Sand to Ash",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 2.99,
@@ -934,11 +1042,13 @@
         "authors": [
             "Marcello De Velazquez"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GARY-02-",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-02: Wind to Stone",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 2.99,
@@ -952,11 +1062,13 @@
         "authors": [
             "Teddy Benson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GARY-03-",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-03: Blade to Branch",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 2.99,
@@ -971,11 +1083,13 @@
             "Marcello De Velazquez",
             "Randall Harris"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GARY-04-",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-04: Frost to Fire",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 2.99,
@@ -989,11 +1103,13 @@
         "authors": [
             "Bredyn McCombs"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-KKON-01",
         "date_created": "20250604",
         "full_title": "FR-DC-KKON-01 Kontraption Kon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-KKON-01-Kontraption-Kon",
@@ -1006,11 +1122,13 @@
         "authors": [
             "Jia Jian Tin"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LAX-01-01",
         "date_created": "20240823",
         "full_title": "FR-DC-LAX-01-01 A Bone to Pick",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LAX-01-01-A-Bone-to-Pick",
@@ -1023,11 +1141,13 @@
         "authors": [
             "Jia Jian Tin"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LAX",
         "date_created": "20240823",
         "full_title": "FR-DC-LAX 01-02 No Strings Attached",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LAX-01-02-No-Strings-Attached",
@@ -1040,11 +1160,13 @@
         "authors": [
             "Dev Alva"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LGBTQ-01",
         "date_created": "20240609",
         "full_title": "FR-DC-LGBTQ-01 Pride for Phlan",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LGBTQ-01-Pride-for-Phlan",
@@ -1058,11 +1180,13 @@
             "Lu\u00eds Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-01",
         "date_created": "20240314",
         "full_title": "FR-DC-LIGA-01 - Wyrmwell Flame",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-LIGA-01---Wyrmwell-Flame",
@@ -1076,11 +1200,13 @@
             "Noah Stavish",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-02",
         "date_created": "20240315",
         "full_title": "FR-DC-LIGA-02 - House of Shadow",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LIGA-02---House-of-Shadow",
@@ -1094,11 +1220,13 @@
             "Brian Balagot",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-03",
         "date_created": "20240412",
         "full_title": "FR-DC-LIGA-03 Doom Reborn",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LIGA-03-Doom-Reborn",
@@ -1112,11 +1240,13 @@
             "Allan Smith",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-04",
         "date_created": "20240518",
         "full_title": "FR-DC-LIGA-04 - Many Spell's Gambit",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LIGA-04---Many-Spells-Gambit",
@@ -1130,11 +1260,13 @@
             "Stephen and Pamela Denison",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-05",
         "date_created": "20240608",
         "full_title": "FR-DC-LIGA-05 - Blue Wyrm Rhapsody",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LIGA-05---Blue-Wyrm-Rhapsody",
@@ -1148,11 +1280,13 @@
             "Ingus Pougher",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-06",
         "date_created": "20240710",
         "full_title": "FR-DC-LIGA-06 - Malaeragoth and the Chaos King",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-LIGA-06---Malaeragoth-and-the-Chaos-King",
@@ -1166,11 +1300,13 @@
             "Johnny Smith",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-07",
         "date_created": "20240816",
         "full_title": "FR-DC-LIGA-07 - The Lurking Blade",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-LIGA-07---The-Lurking-Blade",
@@ -1184,11 +1320,13 @@
             "Jose Jimenez aka Lucifernus",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-08",
         "date_created": "20241014",
         "full_title": "FR-DC-LIGA-08 - A Song of Closure",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-LIGA-08---A-Song-of-Closure",
@@ -1202,11 +1340,13 @@
             "CJ Buchanan",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-09",
         "date_created": "20241115",
         "full_title": "FR-DC-LIGA-09 - A Chromatic Crescendo",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-LIGA-09-A-Chromatic-Crescendo",
@@ -1220,11 +1360,13 @@
             "Spencer Navarra-Chew",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-LIGA-10",
         "date_created": "20250203",
         "full_title": "FR-DC-LIGA-10 - Tangled Threads of the Moor",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-LIGA-10-Tangled-Threads-of-the-Moor",
@@ -1237,11 +1379,13 @@
         "authors": [
             "Casey McGirt"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MCG-CH1",
         "date_created": "20250625",
         "full_title": "FR-DC-MCG-CH1 The Open Hand",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 2.5,
@@ -1255,11 +1399,13 @@
         "authors": [
             "Bernard Velasco"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NEW-TIER1-1",
         "date_created": "20250711",
         "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 1.0,
@@ -1273,11 +1419,13 @@
         "authors": [
             "N. M. Brickle"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NMB-HUNT-01",
         "date_created": "20241110",
         "full_title": "FR-DC-NMB-HUNT-01 Ice Water",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-NMB-HUNT-01-Ice-Water",
@@ -1290,11 +1438,13 @@
         "authors": [
             "N. M. Brickle"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NMB-HUNT-01B",
         "date_created": "20250126",
         "full_title": "FR-DC-NMB-HUNT-01B Forces of Hail",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "FR-DC-NMB-HUNT-01B-Forces-of-Hail",
@@ -1307,11 +1457,13 @@
         "authors": [
             "N. M. Brickle"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NMB2-01",
         "date_created": "20240515",
         "full_title": "FR-DC-NMB2-01 Better Together",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-NMB2-01-Better-Together",
@@ -1324,7 +1476,9 @@
         "authors": [
             "Marcello De Velazquez"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NUKE-01",
         "date_created": "20241106",
         "full_title": "FR-DC-NUKE-01 The Search for the Scarlet Stallion",
@@ -1342,11 +1496,13 @@
         "authors": [
             "Randall Harris"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NUKE-02",
         "date_created": "20241012",
         "full_title": "FR-DC-NUKE-02 The Black Wyrm of Bog Hold",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -1360,7 +1516,9 @@
         "authors": [
             "Ed Stevens"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-NUKE-03",
         "date_created": "20241012",
         "full_title": "FR-DC-NUKE-03 The Sapphire Hoard",
@@ -1378,7 +1536,9 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-05",
         "date_created": "20231122",
         "full_title": "FR-DC-PANDORA-JWEI-05, Chloe",
@@ -1395,7 +1555,9 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-06",
         "date_created": "20240101",
         "full_title": "FR-DC-PANDORA-JWEI-06, The Eternals",
@@ -1412,7 +1574,9 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-07",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-07, Samsareal",
@@ -1429,11 +1593,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-08",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-08, Minerva",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-PANDORA-JWEI-08-Minerva",
@@ -1446,11 +1612,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-09",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-09 Echthra",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-PANDORA-JWEI-09-Echthra",
@@ -1463,11 +1631,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-10",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-10, Ares",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-PANDORA-JWEI-10-Ares",
@@ -1480,7 +1650,9 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-11",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-11, Maya",
@@ -1497,11 +1669,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-12",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-12, Pandora",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-PANDORA-JWEI-12-Pandora",
@@ -1514,11 +1688,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-S2-04",
         "date_created": "20250530",
         "full_title": "FR-DC-PANDORA-JWEI-S2-04, Echoes of the End",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "FR-DC-PANDORA-JWEI-S2-04-Echoes-of-the-End",
@@ -1531,11 +1707,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-S2-06",
         "date_created": "20250530",
         "full_title": "FR-DC-PANDORA-JWEI-S2-06, Hope",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "FR-DC-PANDORA-JWEI-S2-06-Hope",
@@ -1548,11 +1726,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PANDORA-JWEI-S2-07",
         "date_created": "20250530",
         "full_title": "FR-DC-PANDORA-JWEI-S2-07, Moonshire",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "FR-DC-PANDORA-JWEI-S2-07-Moonshire",
@@ -1565,11 +1745,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PHP-CKA1-",
         "date_created": "20240505",
         "full_title": "FR-DC-PHP-CKA1: In Slumber's Keep",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "FR-DC-PHP-CKA1--In-Slumbers-Keep",
@@ -1582,11 +1764,13 @@
         "authors": [
             "Elijah Vince Aguila"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PHP-INFRN01-01-",
         "date_created": "20240807",
         "full_title": "FR-DC-PHP-INFRN01-01: The Hidden Sanctum",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "FR-DC-PHP-INFRN01-01--The-Hidden-Sanctum",
@@ -1599,11 +1783,13 @@
         "authors": [
             "Elijah Vince Aguila"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PHP-PEST-01-",
         "date_created": "20241030",
         "full_title": "FR-DC-PHP-PEST-01: Pest Control",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "2",
         "product_id": "FR-DC-PHP-PEST-01--Pest-Control",
@@ -1616,11 +1802,13 @@
         "authors": [
             "Elijah Vince Aguila"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-PHP-PEST-02-",
         "date_created": "20250325",
         "full_title": "FR-DC-PHP-PEST-02: Pest Infestation",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5",
         "product_id": "FR-DC-PHP-PEST-02--Pest-Infestation",
@@ -1633,11 +1821,13 @@
         "authors": [
             "Von Ryan Maicle"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-REIN-VR-01",
         "date_created": "20250717",
         "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -1652,11 +1842,13 @@
             "Rebecca Farrar",
             "Jeff Kuta"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-RFJK-01",
         "date_created": "20240812",
         "full_title": "FR-DC-RFJK-01 Punny You Ask",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-RFJK-01-Punny-You-Ask",
@@ -1669,11 +1861,13 @@
         "authors": [
             "Charmaine Ong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-RPSG-09",
         "date_created": "20240412",
         "full_title": "FR-DC-RPSG-09 Ruckus at the Reception",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-RPSG-09-Ruckus-at-the-Reception",
@@ -1686,11 +1880,13 @@
         "authors": [
             "Jason Koh"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-RPSG-10",
         "date_created": "20250508",
         "full_title": "FR-DC-RPSG-10 Chaos at the Convention",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-RPSG-10-Chaos-at-the-Convention",
@@ -1704,7 +1900,9 @@
             "Strategicon AL",
             "Sean \"Ogre\" Nolan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-RWIE-01",
         "date_created": "20240311",
         "full_title": "FR-DC-RWIE-01 Divine Chance - Always Bet on Red",
@@ -1723,7 +1921,9 @@
             "Strategicon AL",
             "Alexis Paige"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-RWIE-02",
         "date_created": "20240311",
         "full_title": "FR-DC-RWIE-02 Of Books and Men - An Overdue Adventure",
@@ -1743,11 +1943,13 @@
             "Noah Grand",
             "Bryn Keeling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-RWIE-03",
         "date_created": "20240311",
         "full_title": "FR-DC-RWIE-03 Circus Berserkus",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-RWIE-03-Circus-Berserkus",
@@ -1760,11 +1962,13 @@
         "authors": [
             "Kelly Samuelson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAC-07",
         "date_created": "20240902",
         "full_title": "FR-DC-SAC-07 Haunting in Gloomwood Cemetery",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-SAC-07-Haunting-in-Gloomwood-Cemetery",
@@ -1777,7 +1981,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-00",
         "date_created": "20240718",
         "full_title": "FR-DC-SAERLOON-00 Darkhouse, Deliverance",
@@ -1795,7 +2001,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-01",
         "date_created": "20250118",
         "full_title": "FR-DC-SAERLOON-01 EYES ON THE PIES",
@@ -1813,7 +2021,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-02",
         "date_created": "20250126",
         "full_title": "FR-DC-Saerloon-02 Mincemeat",
@@ -1831,7 +2041,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-03",
         "date_created": "20250215",
         "full_title": "FR-DC-SAERLOON-03 CHEESE MARKET COLLAPSE",
@@ -1849,7 +2061,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-04",
         "date_created": "20250313",
         "full_title": "FR-DC-SAERLOON-04 ASTRINGENT NO MORE",
@@ -1867,7 +2081,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-05",
         "date_created": "20250406",
         "full_title": "FR-DC-Saerloon-05 That\u2019s a lot of Flambe",
@@ -1885,7 +2101,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-06",
         "date_created": "20250420",
         "full_title": "FR-DC-Saerloon-06 The Tremblers v1.0",
@@ -1903,7 +2121,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-07",
         "date_created": "20250510",
         "full_title": "FR-DC-Saerloon-07 A Gaggle of Gates",
@@ -1921,11 +2141,13 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-08",
         "date_created": "20250607",
         "full_title": "FR-DC-Saerloon-08 Saberwing",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 1.0,
@@ -1939,11 +2161,13 @@
         "authors": [
             "Greg Wright"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SSG-FAI-01",
         "date_created": "20250401",
         "full_title": "FR-DC-SSG-FAI-01: The Secret in Sanctuary",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -1959,11 +2183,13 @@
             "Noah Grand",
             "Bryn Keeling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-DRAGON-01",
         "date_created": "20241021",
         "full_title": "FR-DC-STRAT-DRAGON-01 Dancing in the Moonlight",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-DRAGON-01-Dancing-in-the-Moonlight",
@@ -1978,11 +2204,13 @@
             "Noah Grand",
             "Bryn Keeling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-DRAGON-02",
         "date_created": "20241021",
         "full_title": "FR-DC-STRAT-DRAGON-02 Head in the Clouds",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-DRAGON-02-Head-in-the-Clouds",
@@ -1996,11 +2224,13 @@
             "Strategicon AL",
             "Kevin Haw"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-01",
         "date_created": "20250314",
         "full_title": "FR-DC-STRAT-FIEND-01 The Trouble with Quasits",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-FIEND-01-The-Trouble-with-Quasits",
@@ -2014,11 +2244,13 @@
             "Strategicon AL",
             "Brian Vilarino"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-02",
         "date_created": "20250314",
         "full_title": "FR-DC-STRAT-FIEND-02 Beyond A Shadow of Drought",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-FIEND-02-Beyond-A-Shadow-of-Drought",
@@ -2032,11 +2264,13 @@
             "Strategicon AL",
             "Dave Lockwood"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-03",
         "date_created": "20250314",
         "full_title": "FR-DC-STRAT-FIEND-03 The Narrow Path",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-FIEND-03-The-Narrow-Path",
@@ -2050,11 +2284,13 @@
             "Strategicon AL",
             "Mike Olson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-04",
         "date_created": "20250314",
         "full_title": "FR-DC-STRAT-FIEND-04 A Devil in the Streets",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-FIEND-04-A-Devil-in-the-Streets",
@@ -2068,11 +2304,13 @@
             "Strategicon AL",
             "Alexis Paige"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-05",
         "date_created": "20250314",
         "full_title": "FR-DC-STRAT-FIEND-05 Those Who Walk Towards Goldenleaf",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-FIEND-05-Those-Who-Walk-Towards-Goldenleaf",
@@ -2086,11 +2324,13 @@
             "Strategicon AL",
             "Anealia Kortkamp"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-06",
         "date_created": "20250314",
         "full_title": "FR-DC-STRAT-FIEND-06 Cold Blooded Bandit",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "FR-DC-STRAT-FIEND-06-Cold-Blooded-Bandit",
@@ -2104,11 +2344,13 @@
             "Nguyen Le",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-FIEND-07",
         "date_created": "20250214",
         "full_title": "FR-DC-STRAT-FIEND-07 Go There & Kill More Things",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 6.99,
@@ -2120,11 +2362,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-TALES-01",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-01 What Big Teeth",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 5.99,
@@ -2136,11 +2380,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-TALES-02",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-02 On Fey Tides",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 5.99,
@@ -2152,11 +2398,13 @@
     {
         "apl": 13,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-TALES-03",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-03 The Beast Within",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 5.99,
@@ -2171,11 +2419,13 @@
             "Kevin Haw",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-TALES-04",
         "date_created": "20250618",
         "full_title": "FR-DC-STRAT-TALES-04 The Baroness and the Hag",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 5.99,
@@ -2190,7 +2440,9 @@
             "Strategicon AL",
             "Alexis Paige"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-STRAT-UNDEAD-01",
         "date_created": "20240627",
         "full_title": "FR-DC-STRAT-UNDEAD-01 Undead Like Me",
@@ -2207,7 +2459,9 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TBS-03",
         "date_created": "20250108",
         "full_title": "FR-DC-TBS-03, One Chance",
@@ -2225,11 +2479,13 @@
             "MykeMyke",
             "Triden Games"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TRIDEN-MYKE-05",
         "date_created": "20240519",
         "full_title": "FR-DC-TRIDEN-MYKE-05 Shadow on the Sands",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "FR-DC-TRIDEN-MYKE-05-Shadow-on-the-Sands",
@@ -2240,11 +2496,13 @@
     {
         "apl": 3,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TT-101",
         "date_created": "20250702",
         "full_title": "FR-DC-TT-101 Water has no Shape",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -2258,11 +2516,13 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TT-201",
         "date_created": "20240430",
         "full_title": "FR-DC-TT-201 Return to Mountain's Toe Gold Mine",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-TT-201-Return-to-Mountains-Toe-Gold-Mine",
@@ -2275,11 +2535,13 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TT-301",
         "date_created": "20250422",
         "full_title": "FR-DC-TT-301 Seelie, Rabbit, Tricks are for Fools",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "30",
         "product_id": "FR-DC-TT-301-Seelie-Rabbit-Tricks-are-for-Fools",
@@ -2292,11 +2554,13 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-UCON24",
         "date_created": "20241115",
         "full_title": "FR-DC-UCON24 The Icarus Connection",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "FR-DC-UCON24-The-Icarus-Connection",
@@ -2310,11 +2574,13 @@
             "Jeremy Johnston",
             "Unite the Factions"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-UNITE-SHADOW-01",
         "date_created": "20240820",
         "full_title": "FR-DC-UNITE-SHADOW-01 To Be an Apprentice",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-UNITE-SHADOW-01-To-Be-an-Apprentice",
@@ -2327,7 +2593,9 @@
         "authors": [
             "Vin De Guzman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-VIN-01",
         "date_created": "20250606",
         "full_title": "FR-DC-VIN-01 Welcome Home, Adventurer!",
@@ -2344,11 +2612,13 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-VMT-01",
         "date_created": "20241218",
         "full_title": "FR-DC-VMT-01 The Lord of the Reindeer",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "FR-DC-VMT-01-The-Lord-of-the-Reindeer",
@@ -2361,11 +2631,13 @@
         "authors": [
             "Mike Olson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG-01",
         "date_created": "20241029",
         "full_title": "FR-DC-WCAG-01 Black Water & Blue Wine",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-WCAG-01-Black-Water--Blue-Wine",
@@ -2378,11 +2650,13 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG-02",
         "date_created": "20241029",
         "full_title": "FR-DC-WCAG-02 Neverwinter Days & Lunar Nights",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-WCAG-02-Neverwinter-Days--Lunar-Nights",
@@ -2395,11 +2669,13 @@
         "authors": [
             "Jay Africa"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG-03",
         "date_created": "20241029",
         "full_title": "FR-DC-WCAG-03 Crashing Waves & Crushing Depths",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "FR-DC-WCAG-03-Crashing-Waves--Crushing-Depths",
@@ -2412,11 +2688,13 @@
         "authors": [
             "Jay Africa"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG02-01",
         "date_created": "20250211",
         "full_title": "FR-DC-WCAG02-01 Mayhem in the Squallrider",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "02",
         "product_id": "FR-DC-WCAG02-01-Mayhem-in-the-Squallrider",
@@ -2429,11 +2707,13 @@
         "authors": [
             "Mike Olson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG02-02",
         "date_created": "20250211",
         "full_title": "FR-DC-WCAG02-02 Murder All the Way Down",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "02",
         "product_id": "FR-DC-WCAG02-02-Murder-All-the-Way-Down",
@@ -2446,11 +2726,13 @@
         "authors": [
             "Marc Kassouf"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG02-03",
         "date_created": "20250211",
         "full_title": "FR-DC-WCAG02-03 Fixing the Pearl Fissures",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "02",
         "product_id": "FR-DC-WCAG02-03-Fixing-the-Pearl-Fissures",
@@ -2464,11 +2746,13 @@
             "Roberto C. Rivera",
             "Mike Olson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG02-04",
         "date_created": "20250211",
         "full_title": "FR-DC-WCAG02-04 An Inside Job",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "02",
         "product_id": "FR-DC-WCAG02-04-An-Inside-Job",
@@ -2481,11 +2765,13 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG02-05",
         "date_created": "20250211",
         "full_title": "FR-DC-WCAG02-05 Shake 'N' Bake",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "02",
         "product_id": "FR-DC-WCAG02-05-Shake-N-Bake",
@@ -2499,11 +2785,13 @@
             "Eric Johnson",
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG02-06",
         "date_created": "20250211",
         "full_title": "FR-DC-WCAG02-06 Whispers Beneath the Waves",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "02",
         "product_id": "FR-DC-WCAG02-06-Whispers-Beneath-the-Waves",
@@ -2517,11 +2805,13 @@
             "Violet Fermin",
             "Mike Olson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG03-01",
         "date_created": "20250401",
         "full_title": "FR-DC-WCAG03-01 How to Get Ahead in Chult",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "03",
         "product_id": "FR-DC-WCAG03-01-How-to-Get-Ahead-in-Chult",
@@ -2534,11 +2824,13 @@
         "authors": [
             "Mike Olson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG03-02",
         "date_created": "20250401",
         "full_title": "FR-DC-WCAG03-02 The Backside of Water",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "03",
         "product_id": "FR-DC-WCAG03-02-The-Backside-of-Water",
@@ -2552,11 +2844,13 @@
             "S. Nathan Depetris",
             "Marc Kassouf"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG03-03",
         "date_created": "20250401",
         "full_title": "FR-DC-WCAG03-03 Birds of Paradise",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "03",
         "product_id": "FR-DC-WCAG03-03-Birds-of-Paradise",
@@ -2569,11 +2863,13 @@
         "authors": [
             "Jay Africa"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WCAG03-04",
         "date_created": "20250401",
         "full_title": "FR-DC-WCAG03-04 The Eyes of Shaktari",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "03",
         "product_id": "FR-DC-WCAG03-04-The-Eyes-of-Shaktari",
@@ -2586,11 +2882,13 @@
         "authors": [
             "Richard Bellotti"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WE-01",
         "date_created": "20250716",
         "full_title": "FR-DC-WE-01 Enter the Arena",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.95,
@@ -2605,11 +2903,13 @@
             "Mike Olson",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-YLRA01-04",
         "date_created": "20241112",
         "full_title": "FR-DC-YLRA01-04 Down in Flames",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "01",
         "product_id": "FR-DC-YLRA01-04-Down-in-Flames",
@@ -2622,11 +2922,13 @@
         "authors": [
             "R.P. Marsh"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DRESS-01",
         "date_created": "20241003",
         "full_title": "Goblin In A Dress",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "FR-DC-DRESS-01-Goblin-In-A-Dress",
@@ -2639,7 +2941,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GOBLIN-01",
         "date_created": "20231108",
         "full_title": "Goblin's Gambit (FR-DC-GOBLIN-01)",
@@ -2656,11 +2960,13 @@
         "authors": [
             "Siobhan Hanlon"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-HAN-01-01",
         "date_created": "20250306",
         "full_title": "Harvest of the Withered Wilds (FR-DC-HAN-01-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Harvest-of-the-Withered-Wilds-FR-DC-HAN-01-01",
@@ -2673,11 +2979,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-THAY-02",
         "date_created": "20250323",
         "full_title": "How to Seduce a Thayan in Tendays (FR-DC-THAY-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5",
         "product_id": "How-to-Seduce-a-Thayan-in-Tendays-FR-DC-THAY-02",
@@ -2690,11 +2998,13 @@
         "authors": [
             "Pauline Feraren"
         ],
-        "campaign": null,
+        "campaigns": [
+            null
+        ],
         "code": "FR-DC-IMP-02",
         "date_created": "20241012",
         "full_title": "Hunting Moon (FR DC IMP 02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "Hunting-Moon-FR-DC-IMP-02",
@@ -2707,11 +3017,13 @@
         "authors": [
             "Dagny Mol"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TGT-01",
         "date_created": "20240409",
         "full_title": "Kobolds Are The Worst Guests! (FR-DC-TGT-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Kobolds-Are-The-Worst-Guests-FR-DC-TGT-01",
@@ -2725,11 +3037,13 @@
             "Mike Wokasch",
             "Winter Wokasch"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-QLA-01",
         "date_created": "20231224",
         "full_title": "Mel\u2019s Pit (FR-DC-QLA-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Mels-Pit-FR-DC-QLA-01",
@@ -2743,11 +3057,13 @@
             "Mike Wokasch",
             "Winter Wokasch"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-QLA-01",
         "date_created": "20231224",
         "full_title": "Mel\u2019s Pit (FR-DC-QLA-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Mel\u2019s-Pit-FR-DC-QLA-01",
@@ -2760,11 +3076,13 @@
         "authors": [
             "David Hobby"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DDG-01",
         "date_created": "20241028",
         "full_title": "Mind Games",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": 500322,
@@ -2777,11 +3095,13 @@
         "authors": [
             "Mitch Gatt"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-01",
         "date_created": "20240611",
         "full_title": "Mistbourne: The Musical (FR-DC-MELB-01-01)",
-        "hours": 2,
+        "hours": "2",
         "level_range": "0",
         "product_id": "484234",
         "tiers": 2,
@@ -2793,11 +3113,13 @@
         "authors": [
             "Jason Lee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-04",
         "date_created": "20240613",
         "full_title": "Monsters (FR-DC-MELB-01-04)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Monsters-FR-DC-MELB-01-04",
@@ -2810,11 +3132,13 @@
         "authors": [
             "Tom Klein"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GHG-04",
         "date_created": "20241028",
         "full_title": "Mummy Dust (FR-DC-GHG-04)",
-        "hours": 4,
+        "hours": "4",
         "level_range": null,
         "product_id": "Mummy-Dust-FR-DC-GHG-04",
         "tiers": 1,
@@ -2827,11 +3151,13 @@
             "Steven Truong",
             "Cameron Pearce"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-VECNA-03",
         "date_created": "20241103",
         "full_title": "NEVERDEATH NIGHTS (FR-DC-VECNA-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "NEVERDEATH-NIGHTS-FR-DC-VECNA-03",
@@ -2844,11 +3170,13 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-ONI-01",
         "date_created": "20240321",
         "full_title": "Oni of the Thousand Gates (FR-DC-ONI-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Oni-of-the-Thousand-Gates-FR-DC-ONI-01",
@@ -2861,11 +3189,13 @@
         "authors": [
             "Tom Klein"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GHG-02",
         "date_created": "20231214",
         "full_title": "Owlbear Ascension (FR-DC-GHG-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Owlbear-Ascension-FR-DC-GHG-02",
@@ -2878,7 +3208,9 @@
         "authors": [
             "Jonathan Bennett"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SCROG-01",
         "date_created": "20250518",
         "full_title": "Pretty Teeth, Sharp Teeth (FR-DC-SCROG-01)",
@@ -2895,11 +3227,13 @@
         "authors": [
             "Brendon Watson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-07",
         "date_created": "20240729",
         "full_title": "Secrets In The Deep (FR-DC-MELB-01-07)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Secrets-In-The-Deep-FR-DC-MELB-01-07",
@@ -2912,11 +3246,13 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-03",
         "date_created": "20240613",
         "full_title": "Signs of Corruption (FR-DC-MELB-01-03)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Signs-of-Corruption-FR-DC-MELB-01-03",
@@ -2929,11 +3265,13 @@
         "authors": [
             "Hunter Sinclair"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-XMAS-01",
         "date_created": "20231211",
         "full_title": "Silent Night (FR-DC-XMAS-01) (5e)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Silent-Night-FR-DC-XMAS-01-5e",
@@ -2944,11 +3282,13 @@
     {
         "apl": 13,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-05",
         "date_created": "20250624",
         "full_title": "Stormbound (FR-DC-MELB-02-05)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "527475",
@@ -2961,11 +3301,13 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-05",
         "date_created": "20250624",
         "full_title": "Stormbound (FR-DC-MELB-02-05)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 4.99,
@@ -2979,11 +3321,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-CDZ",
         "date_created": "20240930",
         "full_title": "Sweet Dreams are Made of Candies (FR-DC-WATERDEEP-CDZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "Sweet-Dreams-are-Made-of-Candies-FR-DC-WATERDEEP-CDZ",
@@ -2996,11 +3340,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-CHZ",
         "date_created": "20240318",
         "full_title": "Sweet Dreams are Made of Cheese (FR-DC-WATERDEEP-CHZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Sweet-Dreams-are-Made-of-Cheese-FR-DC-WATERDEEP-CHZ",
@@ -3013,11 +3359,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-GSZ",
         "date_created": "20240519",
         "full_title": "Sweet Dreams are Made of Geese (FR-DC-WATERDEEP-GSZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Sweet-Dreams-are-Made-of-Geese-FR-DC-WATERDEEP-GSZ",
@@ -3030,11 +3378,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-KYZ",
         "date_created": "20240407",
         "full_title": "Sweet Dreams are Made of Keys (FR-DC-WATERDEEP-KYZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Sweet-Dreams-are-Made-of-Keys-FR-DC-WATERDEEP-KYZ",
@@ -3047,11 +3397,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-PCZ",
         "date_created": "20240428",
         "full_title": "Sweet Dreams are Made of Peace (FR-DC-WATERDEEP-PCZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Sweet-Dreams-are-Made-of-Peace-FR-DC-WATERDEEP-PCZ",
@@ -3064,11 +3416,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-TZZ",
         "date_created": "20240623",
         "full_title": "Sweet Dreams are Made of Teas (FR-DC-WATERDEEP-TZZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Sweet-Dreams-are-Made-of-Teas-FR-DC-WATERDEEP-TZZ",
@@ -3081,11 +3435,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-WATERDEEP-TRZ",
         "date_created": "20240728",
         "full_title": "Sweet Dreams are Made of Trees (FR-DC-WATERDEEP-TRZ)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Sweet-Dreams-are-Made-of-Trees-FR-DC-WATERDEEP-TRZ",
@@ -3098,11 +3454,13 @@
         "authors": [
             "Alek Weber"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-06",
         "date_created": "20240729",
         "full_title": "Syncopated Denouement (FR-DC-MELB-01-06)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Syncopated-Denouement-FR-DC-MELB-01-06",
@@ -3115,11 +3473,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-CLASSIC-01",
         "date_created": "20250422",
         "full_title": "Tavern Rats (FR-DC-CLASSIC-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Tavern-Rats-FR-DC-CLASSIC-01",
@@ -3132,11 +3492,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-THAY-03",
         "date_created": "20250427",
         "full_title": "The 400 Year Old Thayan (FR-DC-THAY-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "40",
         "product_id": "The-400-Year-Old-Thayan-FR-DC-THAY-03",
@@ -3149,11 +3511,13 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-01-02",
         "date_created": "20240611",
         "full_title": "The Broken Stronghold (FR-DC-MELB-01-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Broken-Stronghold-FR-DC-MELB-01-02",
@@ -3167,7 +3531,9 @@
             "Mike Wokasch",
             "Winter Wokasch"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-QLA-02",
         "date_created": "20240228",
         "full_title": "The Ceremony (FR-DC-QLA-02)",
@@ -3184,11 +3550,13 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-BG",
         "date_created": "20231129",
         "full_title": "The Flying Flame (FR-DC-BG)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "The-Flying-Flame-FR-DC-BG",
@@ -3202,11 +3570,13 @@
             "Cameron Pearce",
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-00-03",
         "date_created": "20250114",
         "full_title": "The Freezing of Starflow Fall (FR-DC-MELB-00-03)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Freezing-of-Starflow-Fall-FR-DC-MELB-00-03",
@@ -3219,11 +3589,13 @@
         "authors": [
             "Tom Klein"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GHG-01",
         "date_created": "20231130",
         "full_title": "The Griffons of Longsaddle (FR-DC-GHG-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Griffons-of-Longsaddle-FR-DC-GHG-01",
@@ -3236,11 +3608,13 @@
         "authors": [
             "Tom Klein"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-GHG-03",
         "date_created": "20240217",
         "full_title": "The March of the Manticore (FR-DC-GHG-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-March-of-the-Manticore-FR-DC-GHG-03",
@@ -3253,11 +3627,13 @@
         "authors": [
             "Dagny Mol"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TGT-03",
         "date_created": "20241217",
         "full_title": "The Show Must Go On (FR-DC-TGT-03)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Show-Must-Go-On-FR-DC-TGT-03",
@@ -3268,11 +3644,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-03",
         "date_created": "20250616",
         "full_title": "The Turning Tide (FR-DC-MELB-02-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "526528",
@@ -3285,11 +3663,13 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-03",
         "date_created": "20250616",
         "full_title": "The Turning Tide (FR-DC-MELB-02-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -3303,11 +3683,13 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-00-02",
         "date_created": "20241003",
         "full_title": "The Weeping Maiden (FR-DC-MELB-00-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "0",
         "product_id": "The-Weeping-Maiden-FR-DC-MELB-00-02",
@@ -3320,11 +3702,13 @@
         "authors": [
             "Dagny Mol"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TGT-02",
         "date_created": "20240520",
         "full_title": "Those Who Plant (FR-DC-TGT-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Those-Who-Plant-FR-DC-TGT-02",
@@ -3338,11 +3722,13 @@
             "Steven Truong",
             "Cameron Pearce"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-VECNA-01",
         "date_created": "20240521",
         "full_title": "THREE BODY PROBLEM (FR-DC-VECNA-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "THREE-BODY-PROBLEM-FR-DC-VECNA-01",
@@ -3353,11 +3739,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-01",
         "date_created": "20250615",
         "full_title": "Voyage into Darkness (FR-DC-MELB-02-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "526383",
@@ -3368,11 +3756,13 @@
     {
         "apl": 8,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-MELB-02-01",
         "date_created": "20250615",
         "full_title": "Voyage into Darkness (FR-DC-MELB-02-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -3386,11 +3776,13 @@
         "authors": [
             "Tricia Monsod"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TKM-WBM",
         "date_created": "20241002",
         "full_title": "Welcome to the Black Mall (FR-DC-TKM-WBM)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -3404,11 +3796,13 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-THAY-04",
         "date_created": "20250525",
         "full_title": "What Thayans Want (FR-DC-THAY-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5",
         "product_id": "What-Thayans-Want-FR-DC-THAY-04",
@@ -3422,11 +3816,13 @@
             "Tricia Monsod",
             "Kai Monsod"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-TKM-WW",
         "date_created": "20240826",
         "full_title": "What's Within (FR-DC-TKM-WW)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Whats-Within-FR-DC-TKM-WW",
@@ -3439,11 +3835,13 @@
         "authors": [
             "Hunter Sinclair"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-DUNG-01",
         "date_created": "20241023",
         "full_title": "Witch, Please - It's a Carnival (FR-DC-DUNG-01) (5e)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Witch-Please---Its-a-Carnival-FR-DC-DUNG-01-5e",

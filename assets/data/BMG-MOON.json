@@ -4,11 +4,13 @@
         "authors": [
             "Savannah Houston-McIntyre"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-01",
         "date_created": "20230518",
         "full_title": "BMG-MOON-MD-01 Reverie and Murder",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -22,11 +24,13 @@
         "authors": [
             "Justin Vandermeer"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-02",
         "date_created": "20231113",
         "full_title": "BMG-MOON-MD-02 The Tarthwood Curse",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -40,11 +44,13 @@
         "authors": [
             "Andy Dempz"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-03",
         "date_created": "20231115",
         "full_title": "BMG-MOON-MD-03 The Lost Song",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -59,11 +65,13 @@
             "D&D Adventurers League",
             "Kat Wynne"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-04",
         "date_created": "20240520",
         "full_title": "BMG-MOON-MD-04 Lair of Deceit",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -78,11 +86,13 @@
             "D&D Adventurers League",
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-05",
         "date_created": "20240520",
         "full_title": "BMG-MOON-MD-05 Fleeing Snowdown",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -97,11 +107,13 @@
             "D&D Adventurers League",
             "Graham Ward"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-06",
         "date_created": "20240815",
         "full_title": "BMG-MOON-MD-06 Death Sailing",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 8.99,
@@ -116,11 +128,13 @@
             "D&D Adventurers League",
             "Johnny Smith"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-07",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-07 Cauldron of Doom",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 8.99,
@@ -135,11 +149,13 @@
             "D&D Adventurers League",
             "Robbie Pleasant"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-08",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-08 Down the Rabbit Hole",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 8.99,
@@ -153,7 +169,9 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-09",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
@@ -173,11 +191,13 @@
             "Joe Fonseca",
             "Savannah Houston-McIntyre"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-10",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-10 Echoes of the Fallen",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 8.99,
@@ -192,11 +212,13 @@
             "D&D Adventurers League",
             "Shu Qing Tan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-11",
         "date_created": "20241024",
         "full_title": "BMG-MOON-MD-11 The Curse of Pacts and Passion",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 8.99,
@@ -210,11 +232,13 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOON-MD-12",
         "date_created": "20250116",
         "full_title": "BMG-MOON-MD-12 Malevolent Reign",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 8.99,
@@ -228,11 +252,13 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOONEP-MD-01",
         "date_created": "20240815",
         "full_title": "BMG-MOONEP-MD-01 The Occupation of Caer Corwell",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 11.99,
@@ -246,16 +272,18 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-MOONEP-MD-02",
         "date_created": "20250116",
         "full_title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-20",
         "price": 11.99,
         "product_id": "508959",
-        "tiers": "3-4",
+        "tiers": 3,
         "title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
         "url": "https://www.dmsguild.com/product/508959/?affiliate_id=171040"
     }

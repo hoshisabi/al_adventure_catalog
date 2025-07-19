@@ -4,11 +4,13 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NBDD-02",
         "date_created": "20220822",
         "full_title": "15 Seconds to Curtain (WBW-DC-NBDD-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "15-Seconds-to-Curtain-WBW-DC-NBDD-02",
@@ -21,11 +23,13 @@
         "authors": [
             "Justice Arman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-07",
         "date_created": "20210921",
         "full_title": "A Meal to Remember (WBW-DC-FDC-07)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": 371499,
@@ -38,11 +42,13 @@
         "authors": [
             "Nadie Esteban"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-SPRING-01",
         "date_created": "20220722",
         "full_title": "A Moment of Serendipity (WBW-DC-PHP-SPRING-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "A-Moment-of-Serendipity-WBW-DC-PHP-SPRING-01",
@@ -55,11 +61,13 @@
         "authors": [
             "Joie Del Rosario"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-LCL",
         "date_created": "20220830",
         "full_title": "A Mystical Whimsy (WBW-DC-PHP-LCL 02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "A-Mystical-Whimsy-WBW-DC-PHP-LCL-02",
@@ -72,11 +80,13 @@
         "authors": [
             "Kat Kruger"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-09",
         "date_created": "20210920",
         "full_title": "A Stitch in Time (WBW-DC-FDC-09)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "A-Stitch-in-Time-WBW-DC-FDC-09",
@@ -89,11 +99,13 @@
         "authors": [
             "Lee Ning Jiang"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NJ-COU-02",
         "date_created": "20220613",
         "full_title": "Aery's Resolve (WBW-DC-NJ-COU-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Aerys-Resolve-WBW-DC-NJ-COU-02",
@@ -106,11 +118,13 @@
         "authors": [
             "Paul Gabat"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZION-02",
         "date_created": "20220831",
         "full_title": "Alexander's Hand (WBW-DC-ZION-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.95,
@@ -124,11 +138,13 @@
         "authors": [
             "Paul Gabat"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZION-01",
         "date_created": "20220831",
         "full_title": "Anna's Embrace (WBW-DC-ZION-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.95,
@@ -142,7 +158,9 @@
         "authors": [
             "Nick Stefanski"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BEL-01",
         "date_created": "20220721",
         "full_title": "Beauty's Beast (WBW-DC-BEL-01)",
@@ -159,7 +177,9 @@
         "authors": [
             "Michelle Churchill"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BERRY-00",
         "date_created": "20220823",
         "full_title": "Berry Note (WBW-DC-BERRY-00)",
@@ -177,11 +197,13 @@
             "Bryan Mets",
             "Zach Barton"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TMP-01",
         "date_created": "20220818",
         "full_title": "Buck Wild! (WBW-DC-TMP-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Buck-Wild-WBW-DC-TMP-01",
@@ -195,11 +217,13 @@
             "Bryan Mets",
             "Zach Barton"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TMP-02",
         "date_created": "20220823",
         "full_title": "Bucking the Trend (WBW-DC-TMP-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Bucking-the-Trend-WBW-DC-TMP-02",
@@ -212,11 +236,13 @@
         "authors": [
             "Jason Koh"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NTP-01",
         "date_created": "20220831",
         "full_title": "Cat's Paws (WBW-DC-NTP-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Cats-Paws-WBW-DC-NTP-01",
@@ -229,11 +255,13 @@
         "authors": [
             "Aileen Adriane Cerrudo"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TST-01",
         "date_created": "20220401",
         "full_title": "Color in Light (WBW-DC-TST-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Color-in-Light-WBW-DC-TST-01",
@@ -246,11 +274,13 @@
         "authors": [
             "David Hardie"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JOQ-01",
         "date_created": "20211011",
         "full_title": "Dancing at Her Funeral (WBW-DC-JOQ-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Dancing-at-Her-Funeral-WBW-DC-JOQ-01",
@@ -263,11 +293,13 @@
         "authors": [
             "Andrew Snelling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MEM-02",
         "date_created": "20220831",
         "full_title": "Depths of Recollection WBW-DC-MEM-02",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Depths-of-Recollection-WBW-DC-MEM-02",
@@ -280,11 +312,13 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KCB-05",
         "date_created": "20220821",
         "full_title": "Fishing in the Dark WBW-DC-KCB-05",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Fishing-in-the-Dark-WBW-DC-KCB-05",
@@ -297,11 +331,13 @@
         "authors": [
             "David Hardie"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JOQ-03",
         "date_created": "20211124",
         "full_title": "Giant Serenade (WBW-DC-JOQ-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Giant-Serenade-WBW-DC-JOQ-03",
@@ -314,11 +350,13 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-UCON-02",
         "date_created": "20220831",
         "full_title": "Have You No Heart? (WBW-DC-UCON-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -332,11 +370,13 @@
         "authors": [
             "Paul Gabat"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-03",
         "date_created": "20210922",
         "full_title": "I Find That Familiar (WBW-DC-FDC-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "I-Find-That-Familiar-WBW-DC-FDC-03",
@@ -349,7 +389,9 @@
         "authors": [
             "Matthew Roderick"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TAZ01",
         "date_created": "20220829",
         "full_title": "I Know What Ewe Did Midsummer WBW-DC-TAZ01",
@@ -366,11 +408,13 @@
         "authors": [
             "Jason Lee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LAB-01",
         "date_created": "20220814",
         "full_title": "Kobold King's Labyrinth (WBW-DC-LAB-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -384,11 +428,13 @@
         "authors": [
             "Tim Tan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-REV-01",
         "date_created": "20220715",
         "full_title": "Lost in Reverie (WBW-DC-PHP-REV-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Lost-in-Reverie-WBW-DC-PHP-REV-01",
@@ -401,11 +447,13 @@
         "authors": [
             "David Hardie"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JOQ-02",
         "date_created": "20211110",
         "full_title": "Mirror, Mirror... (WBW-DC-JOQ-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Mirror-Mirror-WBW-DC-JOQ-02",
@@ -418,11 +466,13 @@
         "authors": [
             "David Hardie"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JOQ-02",
         "date_created": "20211110",
         "full_title": "Mirror, Mirror... (WBW-DC-JOQ-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Mirror-Mirror...-WBW-DC-JOQ-02",
@@ -435,11 +485,13 @@
         "authors": [
             "Paul Gabat"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZION-03",
         "date_created": "20220831",
         "full_title": "Noctis' Sacrifice (WBW-DC-ZION-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.95,
@@ -453,11 +505,13 @@
         "authors": [
             "Apple Cruz"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ABC-01",
         "date_created": "20220831",
         "full_title": "One Last Time",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "One-Last-Time",
@@ -470,7 +524,9 @@
         "authors": [
             "Michelle Churchill"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MPOP-01",
         "date_created": "20220817",
         "full_title": "Out on a Limb (WBW-DC-MPOP-01)",
@@ -487,11 +543,13 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NBDD-01",
         "date_created": "20220103",
         "full_title": "Play the Game (WBW-DC-NBDD-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Play-the-Game-WBW-DC-NBDD-01",
@@ -504,11 +562,13 @@
         "authors": [
             "Lee Ning Jiang"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NJ-HOPE-01",
         "date_created": "20220330",
         "full_title": "Promises of Hope (WBW-DC-NJ-HOPE-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Promises-of-Hope-WBW-DC-NJ-HOPE-01",
@@ -521,11 +581,13 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-POLAR-01",
         "date_created": "20220625",
         "full_title": "Snow Ice (WBW-DC-PHP-POLAR-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "Snow-Ice-WBW-DC-PHP-POLAR-01",
@@ -538,11 +600,13 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DES-01-09",
         "date_created": "20220831",
         "full_title": "Strahd Must Die!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "0",
         "product_id": null,
@@ -555,11 +619,13 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LSN-04",
         "date_created": "20220823",
         "full_title": "Sugar & Spice & Everything Nice (WBW-DC-LSN-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Sugar-&-Spice-&-Everything-Nice-WBW-DC-LSN-04",
@@ -572,11 +638,13 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LSN-04",
         "date_created": "20220823",
         "full_title": "Sugar & Spice & Everything Nice (WBW-DC-LSN-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Sugar--Spice--Everything-Nice-WBW-DC-LSN-04",
@@ -587,11 +655,13 @@
     {
         "apl": 3,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LSN-04",
         "date_created": "20220823",
         "full_title": "Sugar & Spice & Everything Nice (WBW-DC-LSN-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "407624",
@@ -604,11 +674,13 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LSN-03",
         "date_created": "20220628",
         "full_title": "That Nice Old Lady (WBW-DC-LSN-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "That-Nice-Old-Lady-WBW-DC-LSN-03",
@@ -621,11 +693,13 @@
         "authors": [
             "Matt Brown"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TBLCMB-03",
         "date_created": "20220407",
         "full_title": "The Black Lily Contract WBW-DC-TBLCMB-03",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Black-Lily-Contract-WBW-DC-TBLCMB-03",
@@ -638,11 +712,13 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ANDL-02",
         "date_created": "20220215",
         "full_title": "The Bleeding Veil (WBW-DC-ANDL-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "The-Bleeding-Veil-WBW-DC-ANDL-02",
@@ -656,11 +732,13 @@
             "Bryan Mets",
             "Zach Barton"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TMP-03",
         "date_created": "20220829",
         "full_title": "The Buck Stops (WBW-DC-TMP-03)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Buck-Stops-WBW-DC-TMP-03",
@@ -673,11 +751,13 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LEGIT-SV-06",
         "date_created": "20220610",
         "full_title": "The Calamity Jar (WBW-DC-LEGIT-SV-06)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Calamity-Jar-WBW-DC-LEGIT-SV-06",
@@ -690,11 +770,13 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DES-01-08",
         "date_created": "20220831",
         "full_title": "The Cathedral of the Fomorian Hierophant",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": 408601,
@@ -707,11 +789,13 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LEGIT-SV-04",
         "date_created": "20211028",
         "full_title": "The City of Starlight (WBW-DC-LEGIT-SV-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-City-of-Starlight-WBW-DC-LEGIT-SV-04",
@@ -724,7 +808,9 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ANDL-03",
         "date_created": "20220503",
         "full_title": "The Crossings of Fate (WBW-DC-ANDL-03)",
@@ -742,11 +828,13 @@
         "authors": [
             "Bianca Bickford"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-01",
         "date_created": "20210921",
         "full_title": "The Ember King (WBW-DC-FDC-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Ember-King-WBW-DC-FDC-01",
@@ -759,11 +847,13 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LSN-01",
         "date_created": "20220202",
         "full_title": "The Hat That Spat Rats (WBW-DC-LSN-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Hat-That-Spat-Rats-WBW-DC-LSN-01",
@@ -776,11 +866,13 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LEGIT-SV-05",
         "date_created": "20220309",
         "full_title": "The Inexorable Span (WBW-DC-LEGIT-SV-05)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Inexorable-Span-WBW-DC-LEGIT-SV-05",
@@ -793,11 +885,13 @@
         "authors": [
             "Mc Kenzie Bagayas"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-SO-01",
         "date_created": "20220817",
         "full_title": "The Labyrinth of Forgotten Memories (WBW-DC-SO-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Labyrinth-of-Forgotten-Memories-WBW-DC-SO-01",
@@ -810,11 +904,13 @@
         "authors": [
             "Gabe Hicks"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-06",
         "date_created": "20210921",
         "full_title": "The Landscape of Estorian LeFae WBW-DC-FDC-06",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Landscape-of-Estorian-LeFae-WBW-DC-FDC-06",
@@ -827,11 +923,13 @@
         "authors": [
             "Matt Brown"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TLRMB-02",
         "date_created": "20220106",
         "full_title": "The Last Resort WBW-DC-TLRMB-02",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Last-Resort-WBW-DC-TLRMB-02",
@@ -844,11 +942,13 @@
         "authors": [
             "Anthony Joyce"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-04",
         "date_created": "20210921",
         "full_title": "The Monster of Wonderia (WBW-DC-FDC-04)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Monster-of-Wonderia-WBW-DC-FDC-04",
@@ -861,11 +961,13 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LSN-02",
         "date_created": "20220326",
         "full_title": "The Party in a Box (WBW-DC-LSN-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Party-in-a-Box-WBW-DC-LSN-02",
@@ -878,7 +980,9 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-UCON-01",
         "date_created": "20220831",
         "full_title": "The Party that Split (WBW-DC-UCON-01)",
@@ -896,11 +1000,13 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ANDL-01",
         "date_created": "20211122",
         "full_title": "The Petrified Forest (WBW-DC-ANDL-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "The-Petrified-Forest-WBW-DC-ANDL-01",
@@ -913,11 +1019,13 @@
         "authors": [
             "Andrew Snelling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MEM-01",
         "date_created": "20220831",
         "full_title": "Topology of Memory WBW-DC-MEM-01",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Topology-of-Memory-WBW-DC-MEM-01",
@@ -930,7 +1038,9 @@
         "authors": [
             "Hariz HUSAINI"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HH-02",
         "date_created": "20220212",
         "full_title": "Trial of Flower (WBW-DC-HH-02)",
@@ -947,11 +1057,13 @@
         "authors": [
             "David Hardie"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JOQ-04",
         "date_created": "20211206",
         "full_title": "Vanishing the Lady (WBW-DC-JOQ-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Vanishing-the-Lady-WBW-DC-JOQ-04",
@@ -965,11 +1077,13 @@
             "Marik Montalvan",
             "Jens Sundqvist"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AA-ASHALON-01",
         "date_created": "20220831",
         "full_title": "WBW-DC-AA-ASHALON-01 Beneath the Eternal Glacier",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AA-ASHALON-01-Beneath-the-Eternal-Glacier",
@@ -983,11 +1097,13 @@
             "Marik Montalvan",
             "Jens Sundqvist"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AA-ASHALON-02",
         "date_created": "20220831",
         "full_title": "WBW-DC-AA-ASHALON-02 Under the Cover of Stars",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AA-ASHALON-02-Under-the-Cover-of-Stars",
@@ -1000,7 +1116,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AEG-01",
         "date_created": "20220207",
         "full_title": "WBW-DC-AEG-01 Why aren't we changing?",
@@ -1017,7 +1135,9 @@
         "authors": [
             "Joseph George"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AEG-02",
         "date_created": "20220207",
         "full_title": "WBW-DC-AEG-02 Making Changes",
@@ -1034,11 +1154,13 @@
         "authors": [
             "Rick Way"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AH-01",
         "date_created": "20220617",
         "full_title": "WBW-DC-AH-01 AFRAID OF THE DARK",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AH-01-AFRAID-OF-THE-DARK",
@@ -1051,11 +1173,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AMQ-01",
         "date_created": "20220122",
         "full_title": "WBW-DC-AMQ-01 Feywild Name Giver",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AMQ-01-Feywild-Name-Giver",
@@ -1068,11 +1192,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AMQ-02",
         "date_created": "20220213",
         "full_title": "WBW-DC-AMQ-02 Feywild Robbery",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AMQ-02-Feywild-Robbery",
@@ -1085,11 +1211,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AMQ-03",
         "date_created": "20220416",
         "full_title": "WBW-DC-AMQ-03 Feywild Trial",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AMQ-03-Feywild-Trial",
@@ -1102,11 +1230,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AMQ-04",
         "date_created": "20220710",
         "full_title": "WBW-DC-AMQ-04 Brew me a favor",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AMQ-04-Brew-me-a-favor",
@@ -1119,11 +1249,13 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AMQ-05",
         "date_created": "20220809",
         "full_title": "WBW-DC-AMQ-05 The Dungeon of Smelly Doom",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AMQ-05-The-Dungeon-of-Smelly-Doom",
@@ -1136,11 +1268,13 @@
         "authors": [
             "Martine Lassen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ARCON-01",
         "date_created": "20220616",
         "full_title": "WBW-DC-ARCON-01 The Multivertshus",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ARCON-01-The-Multivertshus",
@@ -1153,11 +1287,13 @@
         "authors": [
             "Daniel Ellingsen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ARCON-02",
         "date_created": "20220617",
         "full_title": "WBW-DC-ARCON-02 Way of the Wedding",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ARCON-02-Way-of-the-Wedding",
@@ -1170,11 +1306,13 @@
         "authors": [
             "Martine Lassen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ARCON-03",
         "date_created": "20220616",
         "full_title": "WBW-DC-ARCON-03 A Forest of Memories",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ARCON-03-A-Forest-of-Memories",
@@ -1187,11 +1325,13 @@
         "authors": [
             "Martine Lassen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ARCON-04",
         "date_created": "20220803",
         "full_title": "WBW-DC-ARCON-04 The Multivertshus II",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ARCON-04-The-Multivertshus-II",
@@ -1205,11 +1345,13 @@
             "Johnny Smith",
             "Triden Games"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-AUG-01",
         "date_created": "20220823",
         "full_title": "WBW-DC-AUG-01 Last Hour",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-AUG-01-Last-Hour",
@@ -1223,7 +1365,9 @@
             "Backyard Adventure Games",
             "Aaron Gaguine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BAG-01",
         "date_created": "20220808",
         "full_title": "WBW-DC-BAG-01 The Flight of the Iron Maiden",
@@ -1241,11 +1385,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-01",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-01 Courts and Consequences",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-01-Courts-and-Consequences",
@@ -1259,11 +1405,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-02",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-02 Clues and Confrontations",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-02-Clues-and-Confrontations",
@@ -1277,11 +1425,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-03",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-03 Conveyance and Closure",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-03-Conveyance-and-Closure",
@@ -1295,11 +1445,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-04",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-04 Concealment and Convolution",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-04-Concealment-and-Convolution",
@@ -1313,11 +1465,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-05",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-05 Convalescence and Contagion",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-05-Convalescence-and-Contagion",
@@ -1331,11 +1485,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-06",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-06 Clutter and Contraptions",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-06-Clutter-and-Contraptions",
@@ -1349,11 +1505,13 @@
             "Kimberly Caswell",
             "Andrew Sammler"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-BIRE-07",
         "date_created": "20220830",
         "full_title": "WBW-DC-BIRE-07 Convergence and Culmination",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-BIRE-07-Convergence-and-Culmination",
@@ -1366,11 +1524,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-01",
         "date_created": "20211107",
         "full_title": "WBW-DC-CBB-01 A Fey King's Ransom",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-01-A-Fey-Kings-Ransom",
@@ -1383,11 +1543,13 @@
         "authors": [
             "Christopher B Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-02",
         "date_created": "20220313",
         "full_title": "WBW-DC-CBB-02  Escolar\u2019s Grotto",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-02--Escolars-Grotto",
@@ -1400,11 +1562,13 @@
         "authors": [
             "Christopher B Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-02",
         "date_created": "20220313",
         "full_title": "WBW-DC-CBB-02  Escolar\u2019s Grotto",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-02--Escolar\u2019s-Grotto",
@@ -1417,11 +1581,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-03",
         "date_created": "20220417",
         "full_title": "WBW-DC-CBB-03 The Dragons Hoard of Murkmire Isle",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-03-The-Dragons-Hoard-of-Murkmire-Isle",
@@ -1434,11 +1600,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-04",
         "date_created": "20220502",
         "full_title": "WBW-DC-CBB-04 Naufrage Atoll",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-04-Naufrage-Atoll",
@@ -1451,11 +1619,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-05",
         "date_created": "20220523",
         "full_title": "WBW-DC-CBB-05 A Rainbow For The Storm",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-05-A-Rainbow-For-The-Storm",
@@ -1468,11 +1638,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-06",
         "date_created": "20220619",
         "full_title": "WBW-DC-CBB-06 The Korred Corsair",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-06-The-Korred-Corsair",
@@ -1485,11 +1657,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-07",
         "date_created": "20220725",
         "full_title": "WBW-DC-CBB-07 Showdown Above Terror-Pin Reef",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-07-Showdown-Above-Terror-Pin-Reef",
@@ -1502,11 +1676,13 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CBB-08",
         "date_created": "20220828",
         "full_title": "WBW-DC-CBB-08 Paradise In  The Tidalbore Isles",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CBB-08-Paradise-In--The-Tidalbore-Isles",
@@ -1519,7 +1695,9 @@
         "authors": [
             "Claire Gellner"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CG-01",
         "date_created": "20220313",
         "full_title": "WBW-DC-CG-01 Puzzlement in the Potager",
@@ -1537,11 +1715,13 @@
             "Martine Lassen",
             "Christian Alhaug"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-01",
         "date_created": "20220108",
         "full_title": "WBW-DC-CONMAR-01 Many Happy Returns",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-01-Many-Happy-Returns",
@@ -1555,11 +1735,13 @@
             "Casper Akto Kanstrup",
             "Martin Akto Kanstrup"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-02",
         "date_created": "20211215",
         "full_title": "WBW-DC-CONMAR-02 Karl Rising",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-02-Karl-Rising",
@@ -1572,11 +1754,13 @@
         "authors": [
             "Daniel Ellingsen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-03",
         "date_created": "20211201",
         "full_title": "WBW-DC-CONMAR-03 Ballad of Bullywug Bog",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-03-Ballad-of-Bullywug-Bog",
@@ -1589,11 +1773,13 @@
         "authors": [
             "Karianne Fog Heen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-04",
         "date_created": "20211201",
         "full_title": "WBW-DC-CONMAR-04 A pleasure cruise",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-04-A-pleasure-cruise",
@@ -1607,11 +1793,13 @@
             "Karianne Fog Heen",
             "Sandra Hovland"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-05",
         "date_created": "20220214",
         "full_title": "WBW-DC-CONMAR-05 Death by Chocolate",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-05-Death-by-Chocolate",
@@ -1624,11 +1812,13 @@
         "authors": [
             "Shu Qing Tan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-06",
         "date_created": "20220127",
         "full_title": "WBW-DC-CONMAR-06 Two Hearts Apart",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-06-Two-Hearts-Apart",
@@ -1642,11 +1832,13 @@
             "Casper Akto Kanstrup",
             "Martin Akto Kanstrup"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-07",
         "date_created": "20220517",
         "full_title": "WBW-DC-CONMAR-07 Impelled reflections",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-07-Impelled-reflections",
@@ -1659,11 +1851,13 @@
         "authors": [
             "Casper Kirketerp-Helenius"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-08",
         "date_created": "20220428",
         "full_title": "WBW-DC-CONMAR-08 Wet. Wet? WET!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-08-Wet-Wet-WET",
@@ -1676,11 +1870,13 @@
         "authors": [
             "Casper Kirketerp-Helenius"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-08",
         "date_created": "20220428",
         "full_title": "WBW-DC-CONMAR-08 Wet. Wet? WET!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-08-Wet.-Wet-WET",
@@ -1693,11 +1889,13 @@
         "authors": [
             "Karianne Fog Heen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-09",
         "date_created": "20220421",
         "full_title": "WBW-DC-CONMAR-09 Sweet Dreams",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-09-Sweet-Dreams",
@@ -1711,11 +1909,13 @@
             "Konstantin Breen",
             "Martine Lassen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-10",
         "date_created": "20220822",
         "full_title": "WBW-DC-CONMAR-10 Midsummer Knights",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-10-Midsummer-Knights",
@@ -1728,7 +1928,9 @@
         "authors": [
             "Daniel A Ellingsen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-11",
         "date_created": "20220826",
         "full_title": "WBW-DC-CONMAR-11 Serenade of Sandy Shore",
@@ -1745,11 +1947,13 @@
         "authors": [
             "Casper Kirketerp-Helenius"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-12",
         "date_created": "20220829",
         "full_title": "WBW-DC-CONMAR-12 Dreams of the Wet Wizard",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-12-Dreams-of-the-Wet-Wizard",
@@ -1763,11 +1967,13 @@
             "Casper Akto Kanstrup",
             "Martin Akto Kanstrup"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-13",
         "date_created": "20220831",
         "full_title": "WBW-DC-CONMAR-13 Losing ConTroll",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-13-Losing-ConTroll",
@@ -1780,7 +1986,9 @@
         "authors": [
             "Daniel Ellingsen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-14",
         "date_created": "20220831",
         "full_title": "WBW-DC-CONMAR-14 Minuet of Misty Mountain",
@@ -1797,11 +2005,13 @@
         "authors": [
             "Martine Lassen"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-CONMAR-15",
         "date_created": "20220825",
         "full_title": "WBW-DC-CONMAR-15 Salvaging the Story",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-CONMAR-15-Salvaging-the-Story",
@@ -1814,11 +2024,13 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DCAF01",
         "date_created": "20211027",
         "full_title": "WBW-DC-DCAF01 Pixie Dreams",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-DCAF01-Pixie-Dreams",
@@ -1831,11 +2043,13 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DCAF01B",
         "date_created": "20220324",
         "full_title": "WBW-DC-DCAF01B Barangay Bound",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-DCAF01B-Barangay-Bound",
@@ -1848,11 +2062,13 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DCAF02",
         "date_created": "20211207",
         "full_title": "WBW-DC-DCAF02 Harengon Harana",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-DCAF02-Harengon-Harana",
@@ -1865,7 +2081,9 @@
         "authors": [
             "Darion Smith"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DCS-01",
         "date_created": "20220830",
         "full_title": "WBW-DC-DCS-01 Seasons of Blood",
@@ -1882,11 +2100,13 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DEATH",
         "date_created": "20220831",
         "full_title": "WBW-DC-Death In Defence of Dairy",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Death-In-Defence-of-Dairy",
@@ -1899,7 +2119,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DEN-H1",
         "date_created": "20220827",
         "full_title": "WBW-DC-DEN-H1 Pome and Prejudice",
@@ -1917,7 +2139,9 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DEN-H2",
         "date_created": "20220828",
         "full_title": "WBW-DC-DEN-H2 Disheartened",
@@ -1935,7 +2159,9 @@
         "authors": [
             "Matthew Barry"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DGE-01",
         "date_created": "20220129",
         "full_title": "WBW-DC-DGE-01 An Underdodge Story",
@@ -1952,11 +2178,13 @@
         "authors": [
             "Matthew Barry"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DGE-02",
         "date_created": "20220706",
         "full_title": "WBW-DC-DGE-02 The Scorpion's Sting",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-DGE-02-The-Scorpions-Sting",
@@ -1969,11 +2197,13 @@
         "authors": [
             "Shu Qing Tan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DMMC-01",
         "date_created": "20220503",
         "full_title": "WBW-DC-DMMC-01 The Solitude of Solace",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-DMMC-01-The-Solitude-of-Solace",
@@ -1986,7 +2216,9 @@
         "authors": [
             "Douglas Bushong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DOBU-01-01",
         "date_created": "20220830",
         "full_title": "WBW-DC-DOBU-01-01, The Little Wish",
@@ -2003,11 +2235,13 @@
         "authors": [
             "James M. K."
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DREA-01",
         "date_created": "20220829",
         "full_title": "WBW-DC-DREA-01 The Nightmare of Dreams",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-DREA-01-The-Nightmare-of-Dreams",
@@ -2020,7 +2254,9 @@
         "authors": [
             "PT MacKim"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-EBAL-MEF0",
         "date_created": "20220827",
         "full_title": "WBW-DC-EBAL-MEF0 Misty Edge Heist",
@@ -2037,7 +2273,9 @@
         "authors": [
             "PT MacKim"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-EBAL-MEF1",
         "date_created": "20220812",
         "full_title": "WBW-DC-EBAL-MEF1 Misty Edge Falls",
@@ -2054,7 +2292,9 @@
         "authors": [
             "PT MacKim"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-EBAL-MEF2",
         "date_created": "20220830",
         "full_title": "WBW-DC-EBAL-MEF2 Misty Edge Incursion",
@@ -2071,11 +2311,13 @@
         "authors": [
             "Eddie Gioffre"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FAB-02",
         "date_created": "20220830",
         "full_title": "WBW-DC-FAB-02 Beyond the Clouds",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-FAB-02-Beyond-the-Clouds",
@@ -2088,11 +2330,13 @@
         "authors": [
             "Emily Harmon"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-05",
         "date_created": "20210921",
         "full_title": "WBW-DC-FDC-05 Crumbling Castles & Candy Clouds",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-FDC-05-Crumbling-Castles-&-Candy-Clouds",
@@ -2105,11 +2349,13 @@
         "authors": [
             "Emily Harmon"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-05",
         "date_created": "20210921",
         "full_title": "WBW-DC-FDC-05 Crumbling Castles & Candy Clouds",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-FDC-05-Crumbling-Castles--Candy-Clouds",
@@ -2122,7 +2368,9 @@
         "authors": [
             "Jacky Leung"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FDC-08",
         "date_created": "20210920",
         "full_title": "WBW-DC-FDC-08 The Great Toy Escape",
@@ -2140,11 +2388,13 @@
             "Ethan Stanhope",
             "Te\u00e4n Stanhope"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FEN-01",
         "date_created": "20220527",
         "full_title": "WBW-DC-FEN-01 Tiddy Mun and the Stranger Stone",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-FEN-01-Tiddy-Mun-and-the-Stranger-Stone",
@@ -2159,11 +2409,13 @@
             "Te\u00e4n Stanhope",
             "James Twigg"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FEN-02",
         "date_created": "20220715",
         "full_title": "WBW-DC-FEN-02 Tiddy Mun and the Burrow of Bandits",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-FEN-02-Tiddy-Mun-and-the-Burrow-of-Bandits",
@@ -2178,11 +2430,13 @@
             "Te\u00e4n Stanhope",
             "James Twigg"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-FEN-03",
         "date_created": "20220822",
         "full_title": "WBW-DC-FEN-03 Tiddy Mun and the Legends of Fennebog",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-FEN-03-Tiddy-Mun-and-the-Legends-of-Fennebog",
@@ -2195,11 +2449,13 @@
         "authors": [
             "Marcello De Velazquez"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-GC14-01",
         "date_created": "20220324",
         "full_title": "WBW-DC-GC14-01 The First Forest",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-GC14-01-The-First-Forest",
@@ -2212,11 +2468,13 @@
         "authors": [
             "Teddy Benson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-GC14-02",
         "date_created": "20220324",
         "full_title": "WBW-DC-GC14-02 Soul of The Forest",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-GC14-02-Soul-of-The-Forest",
@@ -2230,11 +2488,13 @@
             "Adrian Rhodes",
             "Paige Leitman"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-GC14-03",
         "date_created": "20220324",
         "full_title": "WBW-DC-GC14-03 Of Pumpkins and Promises",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-GC14-03-Of-Pumpkins-and-Promises",
@@ -2247,11 +2507,13 @@
         "authors": [
             "Jay H. Anderson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-GC14-04",
         "date_created": "20220324",
         "full_title": "WBW-DC-GC14-04 Peace Talks",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-GC14-04-Peace-Talks",
@@ -2264,11 +2526,13 @@
         "authors": [
             "Ken Wong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-GGS-01",
         "date_created": "20220831",
         "full_title": "WBW-DC-GGS-01  Rescue for Ryeland",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-GGS-01--Rescue-for-Ryeland",
@@ -2281,11 +2545,13 @@
         "authors": [
             "James M. K."
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HAVN-01",
         "date_created": "20220821",
         "full_title": "WBW-DC-HAVN-01 The Search for a Cure",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-HAVN-01-The-Search-for-a-Cure",
@@ -2298,11 +2564,13 @@
         "authors": [
             "LK Tsui"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HBK-1",
         "date_created": "20220129",
         "full_title": "WBW-DC-HBK-1 Phantasmagoria of Drifting Blossoms",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-HBK-1-Phantasmagoria-of-Drifting-Blossoms",
@@ -2315,11 +2583,13 @@
         "authors": [
             "LK Tsui"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HBK-2",
         "date_created": "20220831",
         "full_title": "WBW-DC-HBK-2 A Song for Hopes and Dreams",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-HBK-2-A-Song-for-Hopes-and-Dreams",
@@ -2332,11 +2602,13 @@
         "authors": [
             "Adam White"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HF-01",
         "date_created": "20220317",
         "full_title": "WBW-DC-HF-01 Freed of Feeling",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-HF-01-Freed-of-Feeling",
@@ -2349,11 +2621,13 @@
         "authors": [
             "Sinan Turnacioglu"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HIP-01",
         "date_created": "20220829",
         "full_title": "WBW-DC-HIP-01 The Song of the Nightingale",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-HIP-01-The-Song-of-the-Nightingale",
@@ -2366,11 +2640,13 @@
         "authors": [
             "Addy Tortosa"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-IDL-01",
         "date_created": "20220529",
         "full_title": "WBW-DC-IDL-01 One For Sorrow",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-IDL-01-One-For-Sorrow",
@@ -2383,11 +2659,13 @@
         "authors": [
             "Addy Tortosa"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-IDL-02",
         "date_created": "20220627",
         "full_title": "WBW-DC-IDL-02 Two For Flinching",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-IDL-02-Two-For-Flinching",
@@ -2401,11 +2679,13 @@
             "Addy Tortosa",
             "Big Mike"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-IDL-03",
         "date_created": "20220828",
         "full_title": "WBW-DC-IDL-03 Three For Free",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-IDL-03-Three-For-Free",
@@ -2418,7 +2698,9 @@
         "authors": [
             "Jeremiah Strangeheart"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JSH-CEL1-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-CEL1: Better with Friends",
@@ -2435,7 +2717,9 @@
         "authors": [
             "Jeremiah Strangeheart"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JSH-LIB-01-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-01: Inter-Library Interception",
@@ -2452,7 +2736,9 @@
         "authors": [
             "Jeremiah Strangeheart"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JSH-LIB-02-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-02: Search Engine Optimization",
@@ -2469,11 +2755,13 @@
         "authors": [
             "Jeremiah Strangeheart"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JSH-LIB-03-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-03: Between Covers and Through Tales",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-JSH-LIB-03--Between-Covers-and-Through-Tales",
@@ -2486,7 +2774,9 @@
         "authors": [
             "Jeremiah Strangeheart"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-JSH-LIB-04-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-04: Brightly Burn the Flames of Knowledge",
@@ -2503,11 +2793,13 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KCB-01",
         "date_created": "20211017",
         "full_title": "WBW-DC-KCB-01 Sugar Rush",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KCB-01-Sugar-Rush",
@@ -2520,11 +2812,13 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KCB-02",
         "date_created": "20220202",
         "full_title": "WBW-DC-KCB-02 Everything's Fine",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KCB-02-Everythings-Fine",
@@ -2537,11 +2831,13 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KCB-03",
         "date_created": "20220209",
         "full_title": "WBW-DC-KCB-03 In Vulnerability",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KCB-03-In-Vulnerability",
@@ -2554,11 +2850,13 @@
         "authors": [
             "Kat Wynne"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KW-01",
         "date_created": "20220314",
         "full_title": "WBW-DC-KW-01 Pinepetal's Petty Pilfering",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KW-01-Pinepetals-Petty-Pilfering",
@@ -2571,11 +2869,13 @@
         "authors": [
             "Kat Wynne"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KW-02",
         "date_created": "20220831",
         "full_title": "WBW-DC-KW-02 Fair Felonious Faces",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KW-02-Fair-Felonious-Faces",
@@ -2588,11 +2888,13 @@
         "authors": [
             "Kat Wynne"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KW-03",
         "date_created": "20220831",
         "full_title": "WBW-DC-KW-03 Druscilla's Dangerous Day",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KW-03-Druscillas-Dangerous-Day",
@@ -2605,11 +2907,13 @@
         "authors": [
             "Kat Wynne"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KW-04",
         "date_created": "20220831",
         "full_title": "WBW-DC-KW-04 Morena's Mysterious Mark",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KW-04-Morenas-Mysterious-Mark",
@@ -2622,11 +2926,13 @@
         "authors": [
             "Kat Wynne"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-KW-05",
         "date_created": "20220831",
         "full_title": "WBW-DC-KW-05 Heavenly Hare Hunt",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-KW-05-Heavenly-Hare-Hunt",
@@ -2640,11 +2946,13 @@
             "Lu\u00eds Ricardo",
             "Patr\u00edcia Brito"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LIGA01",
         "date_created": "20220830",
         "full_title": "WBW-DC-LIGA01 - Breath on the Run",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-LIGA01---Breath-on-the-Run",
@@ -2658,11 +2966,13 @@
             "Lu\u00eds Ricardo",
             "Patr\u00edcia Brito"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LIGA01",
         "date_created": "20220830",
         "full_title": "WBW-DC-LIGA01 - Breath on the Run",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -2677,11 +2987,13 @@
             "Lu\u00eds Ricardo",
             "Patr\u00edcia Brito"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LIGA02",
         "date_created": "20220831",
         "full_title": "WBW-DC-LIGA02 Between one World and Another",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 3.99,
@@ -2696,11 +3008,13 @@
             "Lu\u00eds Ricardo",
             "Patr\u00edcia Brito"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LIGA03",
         "date_created": "20220831",
         "full_title": "WBW-DC-LIGA03 Clash of Reality",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 3.99,
@@ -2715,11 +3029,13 @@
             "Sonja Dunbar",
             "Matthew Rihan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-LUN-01",
         "date_created": "20220816",
         "full_title": "WBW-DC-LUN-01 Spectacle at Shrineholt",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-LUN-01-Spectacle-at-Shrineholt",
@@ -2732,11 +3048,13 @@
         "authors": [
             "Ma'at Crook"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MC-01",
         "date_created": "20220831",
         "full_title": "WBW-DC-MC-01 Memento Motus: S\u00e9ance for the Lost",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-MC-01-Memento-Motus--S\u00e9ance-for-the-Lost",
@@ -2749,11 +3067,13 @@
         "authors": [
             "Jason Pesch"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MEZZ",
         "date_created": "20220827",
         "full_title": "WBW-DC-MEZZ Take it to the Mezzanine!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-MEZZ-Take-it-to-the-Mezzanine",
@@ -2766,11 +3086,13 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MIKE-01",
         "date_created": "20220608",
         "full_title": "WBW-DC-MIKE-01 Red Door, Black Heart",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-MIKE-01-Red-Door-Black-Heart",
@@ -2783,11 +3105,13 @@
         "authors": [
             "Hugh Lee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MIMIC-01",
         "date_created": "20220808",
         "full_title": "WBW-DC-MIMIC-01 A Day in the Life of a Mimic",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-MIMIC-01-A-Day-in-the-Life-of-a-Mimic",
@@ -2801,7 +3125,9 @@
             "Jamie Chan",
             "Christopher Dean"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MOM-01",
         "date_created": "20220417",
         "full_title": "WBW-DC-MOM-01 One Moment",
@@ -2820,11 +3146,13 @@
             "Jamie Chan",
             "Christopher Dean"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MOM-02",
         "date_created": "20220807",
         "full_title": "WBW-DC-MOM-02 One Chance",
-        "hours": 6,
+        "hours": "6",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -2838,11 +3166,13 @@
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MOR-01",
         "date_created": "20220829",
         "full_title": "WBW-DC-MOR-01 A Blight in Mordynia",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-MOR-01-A-Blight-in-Mordynia",
@@ -2855,11 +3185,13 @@
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-MOR-02",
         "date_created": "20220829",
         "full_title": "WBW-DC-MOR-02 Dark Miasma of the Mausoleum",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-MOR-02-Dark-Miasma-of-the-Mausoleum",
@@ -2872,7 +3204,9 @@
         "authors": [
             "Lee Ning Jiang"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NJ-COU-01",
         "date_created": "20211024",
         "full_title": "WBW-DC-NJ-COU-01 Dear Aery",
@@ -2889,11 +3223,13 @@
         "authors": [
             "Jerrold R. Warren"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-NUKE-01",
         "date_created": "20220829",
         "full_title": "WBW-DC-NUKE-01 \"Magically Delicious, Possibly Rotten\"",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-NUKE-01-Magically-Delicious-Possibly-Rotten",
@@ -2907,11 +3243,13 @@
             "Rebecca Farrar",
             "Jeff Kuta"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PAW-01",
         "date_created": "20220830",
         "full_title": "WBW-DC-PAW-01 Sick as a Dog",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PAW-01-Sick-as-a-Dog",
@@ -2924,11 +3262,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-01",
         "date_created": "20211130",
         "full_title": "WBW-DC-PHP-01 Pot Luck!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-01-Pot-Luck",
@@ -2941,11 +3281,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-02",
         "date_created": "20220217",
         "full_title": "WBW-DC-PHP-02 A Compendium of Curious Curiosities",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-02-A-Compendium-of-Curious-Curiosities",
@@ -2958,11 +3300,13 @@
         "authors": [
             "Pauline Feraren"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-HOE-01",
         "date_created": "20220831",
         "full_title": "WBW-DC-PHP-HOE-01 The Mill of Mar-Itez",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-HOE-01-The-Mill-of-Mar-Itez",
@@ -2975,11 +3319,13 @@
         "authors": [
             "Pauline Feraren"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-HOE-02",
         "date_created": "20220824",
         "full_title": "WBW-DC-PHP-HOE-02 Something Borrowed, Something Brewed",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-HOE-02-Something-Borrowed-Something-Brewed",
@@ -2992,11 +3338,13 @@
         "authors": [
             "Joie Del Rosario"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-LCL",
         "date_created": "20220807",
         "full_title": "WBW-DC-PHP-LCL 01: A Cure for Freedom",
-        "hours": 2,
+        "hours": "2",
         "level_range": "3",
         "product_id": "405745",
         "tiers": 2,
@@ -3008,11 +3356,13 @@
         "authors": [
             "Jio Alba"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-ORNG-01",
         "date_created": "20220818",
         "full_title": "WBW-DC-PHP-ORNG-01 What is real?",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "WBW-DC-PHP-ORNG-01-What-is-real",
@@ -3025,11 +3375,13 @@
         "authors": [
             "jio alba"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-ORNG-02",
         "date_created": "20220831",
         "full_title": "WBW-DC-PHP-ORNG-02 Where do they Go?",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-ORNG-02-Where-do-they-Go",
@@ -3042,11 +3394,13 @@
         "authors": [
             "Joey Cole"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-PHAN-01",
         "date_created": "20220810",
         "full_title": "WBW-DC-PHP-PHAN-01 If The Shoe Fits",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "WBW-DC-PHP-PHAN-01-If-The-Shoe-Fits",
@@ -3059,11 +3413,13 @@
         "authors": [
             "Joey Cole"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-PHAN-02",
         "date_created": "20220831",
         "full_title": "WBW-DC-PHP-PHAN-02 Once Upon A Time",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "WBW-DC-PHP-PHAN-02-Once-Upon-A-Time",
@@ -3076,11 +3432,13 @@
         "authors": [
             "Juan Miguel San Juan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-SPAMMY-01",
         "date_created": "20220824",
         "full_title": "WBW-DC-PHP-SPAMMY-01 Flowers Have Feelings",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "WBW-DC-PHP-SPAMMY-01-Flowers-Have-Feelings",
@@ -3093,11 +3451,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-TCOM1-",
         "date_created": "20220727",
         "full_title": "WBW-DC-PHP-TCOM1: Of Festivals and Fiascoes",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-PHP-TCOM1--Of-Festivals-and-Fiascoes",
@@ -3110,11 +3470,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-TCOM2-",
         "date_created": "20220812",
         "full_title": "WBW-DC-PHP-TCOM2: Of Toadstools and Tribulations",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-PHP-TCOM2--Of-Toadstools-and-Tribulations",
@@ -3127,11 +3489,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-TCOM3-",
         "date_created": "20220830",
         "full_title": "WBW-DC-PHP-TCOM3: Of Death and Dawn",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "WBW-DC-PHP-TCOM3--Of-Death-and-Dawn",
@@ -3144,11 +3508,13 @@
         "authors": [
             "T.Y. Montiflor"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-TYM-01",
         "date_created": "20220827",
         "full_title": "WBW-DC-PHP-TYM-01 i dreamt that i was falling",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-TYM-01-i-dreamt-that-i-was-falling",
@@ -3161,11 +3527,13 @@
         "authors": [
             "T.Y. Montiflor"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-TYM-02",
         "date_created": "20220831",
         "full_title": "WBW-DC-PHP-TYM-02 we woke up in the sky",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PHP-TYM-02-we-woke-up-in-the-sky",
@@ -3178,11 +3546,13 @@
         "authors": [
             "James Clark"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PLS-01",
         "date_created": "20220831",
         "full_title": "WBW-DC-PLS-01 Blade of Creation",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-PLS-01-Blade-of-Creation",
@@ -3195,11 +3565,13 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PUFF-01",
         "date_created": "20250602",
         "full_title": "WBW-DC-PUFF-01 Puffalo's Proposal",
-        "hours": 1,
+        "hours": "1",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "WBW-DC-PUFF-01-Puffalos-Proposal",
@@ -3212,11 +3584,13 @@
         "authors": [
             "Matt Dunn and Sean Dunn"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-RKS-01",
         "date_created": "20220225",
         "full_title": "WBW-DC-RKS-01 No Glory In Sleep",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-RKS-01-No-Glory-In-Sleep",
@@ -3229,7 +3603,9 @@
         "authors": [
             "Jaime Hernandez"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROBIN-01-2",
         "date_created": "20220901",
         "full_title": "WBW-DC-ROBIN-01-2 Warmth of Winter",
@@ -3246,11 +3622,13 @@
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROG-01",
         "date_created": "20220829",
         "full_title": "WBW-DC-ROG-01 Imagination Lost",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ROG-01-Imagination-Lost",
@@ -3263,11 +3641,13 @@
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROG-02",
         "date_created": "20220829",
         "full_title": "WBW-DC-ROG-02 A Giant Dilemma",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ROG-02-A-Giant-Dilemma",
@@ -3280,11 +3660,13 @@
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROG-03",
         "date_created": "20220829",
         "full_title": "WBW-DC-ROG-03 Hope In A Medusa\u2019s Eye",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ROG-03-Hope-In-A-Medusas-Eye",
@@ -3297,11 +3679,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-1-1",
         "date_created": "20220316",
         "full_title": "WBW-DC-Rook-1-1 The Care and Maintenance of the Rookery",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-1-1-The-Care-and-Maintenance-of-the-Rookery",
@@ -3314,11 +3698,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-1-2",
         "date_created": "20220406",
         "full_title": "WBW-DC-Rook-1-2 The Rookery: Rise of the Everplume",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-1-2-The-Rookery--Rise-of-the-Everplume",
@@ -3331,11 +3717,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-1-3",
         "date_created": "20220503",
         "full_title": "WBW-DC-Rook-1-3 The Rookery: City of the Dead",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-1-3-The-Rookery--City-of-the-Dead",
@@ -3348,7 +3736,9 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-1-4",
         "date_created": "20220621",
         "full_title": "WBW-DC-Rook-1-4 The Rookery: Long Live the Goblins",
@@ -3366,11 +3756,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-2-1",
         "date_created": "20220319",
         "full_title": "WBW-DC-Rook-2-1 Rapid Resettlement in the Rookery",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-2-1-Rapid-Resettlement-in-the-Rookery",
@@ -3383,11 +3775,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-2-2",
         "date_created": "20220802",
         "full_title": "WBW-DC-Rook-2-2 The Rookery: Into the Velarium",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-2-2-The-Rookery--Into-the-Velarium",
@@ -3400,7 +3794,9 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-2-3",
         "date_created": "20220831",
         "full_title": "WBW-DC-Rook-2-3 The Rookery: The Court of the Crown",
@@ -3417,11 +3813,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-3-1",
         "date_created": "20220831",
         "full_title": "WBW-DC-Rook-3-1 The Rookery: High Kaldir",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-3-1-The-Rookery--High-Kaldir",
@@ -3434,11 +3832,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-3-2",
         "date_created": "20220831",
         "full_title": "WBW-DC-Rook-3-2 The Rookery: Frogs of War",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-3-2-The-Rookery--Frogs-of-War",
@@ -3451,11 +3851,13 @@
         "authors": [
             "Chris Valentine"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ROOK-3-3",
         "date_created": "20220831",
         "full_title": "WBW-DC-Rook-3-3 The Rookery: The Crook in the Rook",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-Rook-3-3-The-Rookery--The-Crook-in-the-Rook",
@@ -3468,11 +3870,13 @@
         "authors": [
             "Shu Qing Tan"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-SQT-01",
         "date_created": "20211124",
         "full_title": "WBW-DC-SQT-01 Hollyphant Love Medley",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-SQT-01-Hollyphant-Love-Medley",
@@ -3485,11 +3889,13 @@
         "authors": [
             "Scott Moore"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-SSM-01",
         "date_created": "20220416",
         "full_title": "WBW-DC-SSM-01 The Grimm Reality",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-SSM-01-The-Grimm-Reality",
@@ -3502,7 +3908,9 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TCW-AVG-1",
         "date_created": "20211006",
         "full_title": "WBW-DC-TCW-AVG-1 Missing Yeux",
@@ -3519,7 +3927,9 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TCW-AVG-2",
         "date_created": "20211024",
         "full_title": "WBW-DC-TCW-AVG-2 Unbreak the H'earth",
@@ -3537,11 +3947,13 @@
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TEN-01",
         "date_created": "20220401",
         "full_title": "WBW-DC-TEN-01 Two to Tengu",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TEN-01-Two-to-Tengu",
@@ -3555,11 +3967,13 @@
             "Katriel Paige",
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TEN-02",
         "date_created": "20220808",
         "full_title": "WBW-DC-TEN-02 Festival of Fyre",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TEN-02-Festival-of-Fyre",
@@ -3573,11 +3987,13 @@
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TEN-03",
         "date_created": "20220808",
         "full_title": "WBW-DC-TEN-03 The Tale of Korama",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TEN-03-The-Tale-of-Korama",
@@ -3590,7 +4006,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-THAL-01",
         "date_created": "20220201",
         "full_title": "WBW-DC-THAL-01 Heartfire Lost",
@@ -3607,11 +4025,13 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-THAL-02",
         "date_created": "20220716",
         "full_title": "WBW-DC-THAL-02 Awakened Song",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-THAL-02-Awakened-Song",
@@ -3624,7 +4044,9 @@
         "authors": [
             "Zarajane Ferrier"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TIC-01",
         "date_created": "20211203",
         "full_title": "WBW-DC-TIC-01 Mushrooms and Malfunctions: A Journey into the Caverns",
@@ -3641,11 +4063,13 @@
         "authors": [
             "Eric Nelson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TID-01",
         "date_created": "20220313",
         "full_title": "WBW-DC-TID-01 Witchlight Insecurity",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TID-01-Witchlight-Insecurity",
@@ -3658,11 +4082,13 @@
         "authors": [
             "Ian ODonnell"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TREY-01",
         "date_created": "20220901",
         "full_title": "WBW-DC-TREY-01 Mistress Taken!",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TREY-01-Mistress-Taken",
@@ -3676,11 +4102,13 @@
             "Noah Grand",
             "The Role Initiative"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TRI-01",
         "date_created": "20211209",
         "full_title": "WBW-DC-TRI-01 Strike a Pose",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TRI-01-Strike-a-Pose",
@@ -3694,11 +4122,13 @@
             "James Repass",
             "The Role Initiative"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-TRI-02",
         "date_created": "20211209",
         "full_title": "WBW-DC-TRI-02 Nothing Ventured",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-TRI-02-Nothing-Ventured",
@@ -3711,11 +4141,13 @@
         "authors": [
             "Eddie Gioffre"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-VACONS-01",
         "date_created": "20220423",
         "full_title": "WBW-DC-VACONS-01 Welcome to Fablerise",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-VACONS-01-Welcome-to-Fablerise",
@@ -3728,11 +4160,13 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-VMT-01",
         "date_created": "20220520",
         "full_title": "WBW-DC-VMT-01 Tale As Old As Time",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-VMT-01-Tale-As-Old-As-Time",
@@ -3745,11 +4179,13 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-VMT-02",
         "date_created": "20220831",
         "full_title": "WBW-DC-VMT-02 Court of the Owl King",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-VMT-02-Court-of-the-Owl-King",
@@ -3762,7 +4198,9 @@
         "authors": [
             "Zardak 123"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZEP-T1S2",
         "date_created": "20220901",
         "full_title": "WBW-DC-ZEP-T1S2 The Court of Zep",
@@ -3779,7 +4217,9 @@
         "authors": [
             "Zardak 123"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZEP-T1S3",
         "date_created": "20220901",
         "full_title": "WBW-DC-ZEP-T1S3 Zep Sightseeing",
@@ -3796,7 +4236,9 @@
         "authors": [
             "Zardak 123"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZEP-T1S4",
         "date_created": "20220901",
         "full_title": "WBW-DC-ZEP-T1S4 Mall of Zep",
@@ -3813,7 +4255,9 @@
         "authors": [
             "Zardak123"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZEP-T2S1-8",
         "date_created": "20220622",
         "full_title": "WBW-DC-ZEP-T2S1-8 Feylost in Zep Series",
@@ -3830,11 +4274,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-00",
         "date_created": "20211230",
         "full_title": "WBW-DC-ZODIAC-00 Luna Park",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-00-Luna-Park",
@@ -3847,11 +4293,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-01",
         "date_created": "20211231",
         "full_title": "WBW-DC-ZODIAC-01 The Pied Piper and the Rat King",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-01-The-Pied-Piper-and-the-Rat-King",
@@ -3864,11 +4312,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-02",
         "date_created": "20220108",
         "full_title": "WBW-DC-ZODIAC-02 Udder Chaos, The Holy Cowspiracy",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-02-Udder-Chaos-The-Holy-Cowspiracy",
@@ -3881,11 +4331,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-03",
         "date_created": "20220206",
         "full_title": "WBW-DC-ZODIAC-03 Revenge of the Rakshasa",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-03-Revenge-of-the-Rakshasa",
@@ -3898,11 +4350,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-04",
         "date_created": "20220316",
         "full_title": "WBW-DC-ZODIAC-04 The Jade Hare",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-04-The-Jade-Hare",
@@ -3915,11 +4369,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-05",
         "date_created": "20220424",
         "full_title": "WBW-DC-ZODIAC-05 Fey With The Dragon Tattoo",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-05-Fey-With-The-Dragon-Tattoo",
@@ -3932,11 +4388,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-06",
         "date_created": "20220601",
         "full_title": "WBW-DC-ZODIAC-06 Nightmare of the Naga",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-06-Nightmare-of-the-Naga",
@@ -3949,11 +4407,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-07",
         "date_created": "20220703",
         "full_title": "WBW-DC-ZODIAC-07 A Fey At The Races",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-07-A-Fey-At-The-Races",
@@ -3966,11 +4426,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-08",
         "date_created": "20220717",
         "full_title": "WBW-DC-ZODIAC-08 The Golden Goats",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-08-The-Golden-Goats",
@@ -3983,11 +4445,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-09",
         "date_created": "20220802",
         "full_title": "WBW-DC-ZODIAC-09 Monkey Magic",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-09-Monkey-Magic",
@@ -4000,11 +4464,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-10",
         "date_created": "20220820",
         "full_title": "WBW-DC-ZODIAC-10 Fey of a Feather",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-10-Fey-of-a-Feather",
@@ -4017,11 +4483,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-11",
         "date_created": "20220830",
         "full_title": "WBW-DC-ZODIAC-11 The Curious Incident of the Blink Dog in the Feywilds",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-11-The-Curious-Incident-of-the-Blink-Dog-in-the-Feywilds",
@@ -4034,11 +4502,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-12",
         "date_created": "20220831",
         "full_title": "WBW-DC-ZODIAC-12 Seven Hamurai",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-12-Seven-Hamurai",
@@ -4051,11 +4521,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-ZODIAC-13",
         "date_created": "20220831",
         "full_title": "WBW-DC-ZODIAC-13 Familiar's Feast",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "WBW-DC-ZODIAC-13-Familiars-Feast",
@@ -4068,7 +4540,9 @@
         "authors": [
             "Hariz HUSAINI"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-HH-01",
         "date_created": "20211231",
         "full_title": "What is Heroism (WBW-DC-HH-01)",
@@ -4085,11 +4559,13 @@
         "authors": [
             "Michelle Churchill"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-WRT-00",
         "date_created": "20220825",
         "full_title": "Writer's Block (WBW-DC-WRT-00)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Writers-Block-WBW-DC-WRT-00",
@@ -4102,11 +4578,13 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-PHP-POLAR-02",
         "date_created": "20220807",
         "full_title": "You've Goat to be kidding me (WBW-DC-PHP-POLAR-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Youve-Goat-to-be-kidding-me-WBW-DC-PHP-POLAR-02",

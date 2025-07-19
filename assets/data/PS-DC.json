@@ -4,11 +4,13 @@
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-CAR-01",
         "date_created": "20250531",
         "full_title": "13 Hours in Sigil (PS-DC-CAR-01)",
-        "hours": 3,
+        "hours": "3",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "13-Hours-in-Sigil-PS-DC-CAR-01",
@@ -21,11 +23,13 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DDD",
         "date_created": "20240621",
         "full_title": "A Devious Deva's Deduction (PS-DC-DDD)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "A-Devious-Devas-Deduction-PS-DC-DDD",
@@ -38,11 +42,13 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-NOS-02",
         "date_created": "20240317",
         "full_title": "Broken Yet Unbowed (PS-DC-NOS-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Broken-Yet-Unbowed-PS-DC-NOS-02",
@@ -55,7 +61,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-CAKE-02",
         "date_created": "20250315",
         "full_title": "CAKE WARS II (PS-DC-CAKE-02)",
@@ -73,7 +81,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-CAKE-01",
         "date_created": "20240727",
         "full_title": "CAKE WARS (PS-DC-CAKE-01)",
@@ -91,7 +101,7 @@
         "authors": [
             "Stefan Tomaschitz"
         ],
-        "campaign": [
+        "campaigns": [
             "Ravenloft",
             "Forgotten Realms"
         ],
@@ -111,11 +121,13 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-RAVENGARD-",
         "date_created": "20240430",
         "full_title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Duke-Ravengard-Gets-Sent-to-Hell-Again-PS-DC-RAVENGARD-V",
@@ -128,11 +140,13 @@
         "authors": [
             "Richard Gejji"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-GMM-03",
         "date_created": "20250616",
         "full_title": "Frantic Frontier Fiasco (PS-DC-GMM-03)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.95,
@@ -146,11 +160,13 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-NOS-01",
         "date_created": "20240211",
         "full_title": "Githzerai Glitch (PS-DC-NOS-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Githzerai-Glitch-PS-DC-NOS-01",
@@ -164,11 +180,13 @@
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-NOS-04",
         "date_created": "20250105",
         "full_title": "Goddess, Interrupted (PS-DC-NOS-04)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
         "product_id": "Goddess-Interrupted-PS-DC-NOS-04",
@@ -181,11 +199,13 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-IC",
         "date_created": "20250125",
         "full_title": "Iron Cook (PS-DC-IC)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "Iron-Cook-PS-DC-IC",
@@ -198,11 +218,13 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-NOS-03",
         "date_created": "20240906",
         "full_title": "Its Always Boring in Automata (PS-DC-NOS-03)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "17-20",
         "product_id": "Its-Always-Boring-in-Automata-PS-DC-NOS-03",
@@ -215,11 +237,13 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-MECH-01",
         "date_created": "20250303",
         "full_title": "Melting Mechanus (PS-DC-MECH-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "Melting-Mechanus-PS-DC-MECH-01",
@@ -232,11 +256,13 @@
         "authors": [
             "Nick Stefanski"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-MORD-01",
         "date_created": "20240909",
         "full_title": "Mordenkainen's Memory Palace (PS-DC-MORD-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Mordenkainens-Memory-Palace-PS-DC-MORD-01",
@@ -249,11 +275,13 @@
         "authors": [
             "Hunter Sinclair"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-HYS-03",
         "date_created": "20231212",
         "full_title": "No Time to Die PS-DC-HYS-03 (5e)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "No-Time-to-Die-PS-DC-HYS-03-5e",
@@ -266,11 +294,13 @@
         "authors": [
             "Jonathan Bennett"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-HNL-01",
         "date_created": "20231216",
         "full_title": "Nowhere Fast (PS-DC-HNL-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Nowhere-Fast-PS-DC-HNL-01",
@@ -283,11 +313,13 @@
         "authors": [
             "Richard Gejji"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-GMM-02",
         "date_created": "20250521",
         "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5",
         "product_id": "Pazuzus-Askew-Kazoo-PS-DC-GMM-02",
@@ -300,11 +332,13 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-AUG-01",
         "date_created": "20231212",
         "full_title": "PS-DC-AUG-01 Celestia Has Fallen",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-AUG-01-Celestia-Has-Fallen",
@@ -317,11 +351,13 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-AUG-02",
         "date_created": "20240531",
         "full_title": "PS-DC-AUG-02 The Dark Sun",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-AUG-02-The-Dark-Sun",
@@ -334,11 +370,13 @@
         "authors": [
             "Sean Ware"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-BINGO-1",
         "date_created": "20240522",
         "full_title": "PS-DC-BINGO-1 Lorem Ipsum",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-BINGO-1-Lorem-Ipsum",
@@ -351,11 +389,13 @@
         "authors": [
             "Sean Ware"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-BINGO-2",
         "date_created": "20240708",
         "full_title": "PS-DC-BINGO-2 Esse Est Percipi",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-BINGO-2-Esse-Est-Percipi",
@@ -368,11 +408,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DD-01",
         "date_created": "20250224",
         "full_title": "PS-DC-DD-01 Shadows on the Wall",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PS-DC-DD-01-Shadows-on-the-Wall",
@@ -386,7 +428,9 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DRAGON24-01",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-01 At the Edge of No Tomorrows, Chapter One of the Broken Ring Saga",
@@ -404,7 +448,9 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DRAGON24-02",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-02 The Merchant of Ruin, Chapter Two of the Broken Ring Saga",
@@ -422,7 +468,9 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DRAGON24-03",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-03 The Birdcage, Chapter Three of the Broken Ring Saga",
@@ -441,7 +489,9 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DRAGON24-04",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-04 The Gallery of Souls, Chapter Four of the Broken Ring Saga",
@@ -459,7 +509,9 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-DRAGON24-05",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
@@ -476,7 +528,9 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-ELEMENT-DEATH-01",
         "date_created": "20240725",
         "full_title": "PS-DC-ELEMENT-DEATH-01 Rocky Road",
@@ -493,11 +547,13 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-ELEMENT-DEATH-02",
         "date_created": "20240924",
         "full_title": "PS-DC-ELEMENT-DEATH-02 And Then They Attacked",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-ELEMENT-DEATH-02-And-Then-They-Attacked",
@@ -510,11 +566,13 @@
         "authors": [
             "Death 101010"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-ELEMENT-DEATH-03",
         "date_created": "20250422",
         "full_title": "PS-DC-ELEMENT-DEATH-03 Saturated Seas",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-ELEMENT-DEATH-03-Saturated-Seas",
@@ -527,11 +585,13 @@
         "authors": [
             "Joshua Nelson"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-FOT-01",
         "date_created": "20240930",
         "full_title": "PS-DC-FOT-01 When Faunel Attacks: Riverwood Under Siege",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-FOT-01-When-Faunel-Attacks--Riverwood-Under-Siege",
@@ -545,11 +605,13 @@
             "Lu\u00eds Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-GLITCH-01",
         "date_created": "20250217",
         "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17",
         "product_id": "PS-DC-GLITCH-01-Roots-Bloody-Roots",
@@ -563,11 +625,13 @@
             "Dev Alva",
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-MAR-01",
         "date_created": "20240712",
         "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-MAR-01-Death-Taxes--Maruts",
@@ -580,11 +644,13 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-MAR-02",
         "date_created": "20240712",
         "full_title": "PS-DC-MAR-02 Planes, Trains, & Automatons",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-MAR-02-Planes-Trains--Automatons",
@@ -597,11 +663,13 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-MIKE-01",
         "date_created": "20240810",
         "full_title": "PS-DC-MIKE-01 The Clash for the Multiversal Championship",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-MIKE-01-The-Clash-for-the-Multiversal-Championship",
@@ -614,11 +682,13 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-NBDD-01",
         "date_created": "20240804",
         "full_title": "PS-DC-NBDD-01 The Greatest Gameshow",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-NBDD-01-The-Greatest-Gameshow",
@@ -631,11 +701,13 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-NBDD-02",
         "date_created": "20250505",
         "full_title": "PS-DC-NBDD-02 Ghost in the Hell",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "PS-DC-NBDD-02-Ghost-in-the-Hell",
@@ -648,11 +720,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PANDORA-JWEI-S2-01",
         "date_created": "20250404",
         "full_title": "PS-DC-PANDORA-JWEI-S2-01, Resurrection",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PS-DC-PANDORA-JWEI-S2-01-Resurrection",
@@ -665,11 +739,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PANDORA-JWEI-S2-02",
         "date_created": "20250501",
         "full_title": "PS-DC-PANDORA-JWEI-S2-02, Her Origin",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PS-DC-PANDORA-JWEI-S2-02-Her-Origin",
@@ -682,11 +758,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PANDORA-JWEI-S2-03",
         "date_created": "20250529",
         "full_title": "PS-DC-PANDORA-JWEI-S2-03, Elder Eldritch's Nest",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PS-DC-PANDORA-JWEI-S2-03-Elder-Eldritchs-Nest",
@@ -699,11 +777,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PANDORA-JWEI-S2-05",
         "date_created": "20250530",
         "full_title": "PS-DC-PANDORA-JWEI-S2-05, Fall the Eternal Night, Despair",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PS-DC-PANDORA-JWEI-S2-05-Fall-the-Eternal-Night-Despair",
@@ -716,11 +796,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PANDORA-S2-JWEI-01",
         "date_created": "20250404",
         "full_title": "PS-DC-PANDORA-S2-JWEI-01, Resurrection",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "PS-DC-PANDORA-S2-JWEI-01-Resurrection",
@@ -733,11 +815,13 @@
         "authors": [
             "Jason Pesch"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PESCH",
         "date_created": "20241031",
         "full_title": "PS-DC-PESCH Vhaeraun's Wish",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "PS-DC-PESCH-Vhaerauns-Wish",
@@ -750,11 +834,13 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PHP-CKA2-",
         "date_created": "20240730",
         "full_title": "PS-DC-PHP-CKA2: Qubicorubikonomicon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "PS-DC-PHP-CKA2--Qubicorubikonomicon",
@@ -767,11 +853,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-05",
         "date_created": "20240910",
         "full_title": "PS-DC-PKL-05 Mass Hysteria",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-PKL-05-Mass-Hysteria",
@@ -784,11 +872,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-06",
         "date_created": "20240910",
         "full_title": "PS-DC-PKL-06 It's A Toss-Up",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-PKL-06-Its-A-Toss-Up",
@@ -801,11 +891,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-07",
         "date_created": "20240910",
         "full_title": "PS-DC-PKL-07 Back to the Abyss",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-PKL-07-Back-to-the-Abyss",
@@ -818,11 +910,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-08",
         "date_created": "20240910",
         "full_title": "PS-DC-PKL-08 Darker Shade of Pale",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-PKL-08-Darker-Shade-of-Pale",
@@ -835,11 +929,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-09",
         "date_created": "20240910",
         "full_title": "PS-DC-PKL-09 'Someday'",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-PKL-09-Someday",
@@ -852,11 +948,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-10",
         "date_created": "20240910",
         "full_title": "PS-DC-PKL-10 Behind Blue Eyes",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-PKL-10-Behind-Blue-Eyes",
@@ -869,11 +967,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-18",
         "date_created": "20241229",
         "full_title": "PS-DC-PKL-18 The Power and The Glory",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "2",
         "product_id": "PS-DC-PKL-18-The-Power-and-The-Glory",
@@ -886,11 +986,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-19",
         "date_created": "20241231",
         "full_title": "PS-DC-PKL-19 Kingdom Come Undone",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "2",
         "product_id": "PS-DC-PKL-19-Kingdom-Come-Undone",
@@ -903,11 +1005,13 @@
         "authors": [
             "Andrew Geesy"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PKL-20",
         "date_created": "20250101",
         "full_title": "PS-DC-PKL-20 Jawbreakers and Jailbreakers",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "2",
         "product_id": "PS-DC-PKL-20-Jawbreakers-and-Jailbreakers",
@@ -921,11 +1025,13 @@
             "Briarwall Press",
             "Hunter Sinclair"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-POP-01",
         "date_created": "20240301",
         "full_title": "PS-DC-POP-01 Pillars of Peril",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-POP-01-Pillars-of-Peril",
@@ -938,11 +1044,13 @@
         "authors": [
             "GM Jace"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-SB-BISH01",
         "date_created": "20250505",
         "full_title": "PS-DC-SB-BISH01 - The Mill On Turley Hill",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "3",
         "product_id": "PS-DC-SB-BISH01---The-Mill-On-Turley-Hill",
@@ -956,11 +1064,13 @@
             "Nguyen Le",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-DRAGON-03",
         "date_created": "20240830",
         "full_title": "PS-DC-STRAT-DRAGON-03 This One is for the Liches",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-STRAT-DRAGON-03-This-One-is-for-the-Liches",
@@ -975,11 +1085,13 @@
             "Alexis Paige",
             "James Clark"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-DRAGON-04",
         "date_created": "20241014",
         "full_title": "PS-DC-STRAT-DRAGON-04 My Shattered Heart",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "PS-DC-STRAT-DRAGON-04-My-Shattered-Heart",
@@ -994,11 +1106,13 @@
             "Alexis Paige",
             "James Clark"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-DRAGON-05",
         "date_created": "20241014",
         "full_title": "PS-DC-STRAT-DRAGON-05 Your Shattered Bond",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "PS-DC-STRAT-DRAGON-05-Your-Shattered-Bond",
@@ -1013,11 +1127,13 @@
             "Alexis Paige",
             "James Clark"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-DRAGON-06",
         "date_created": "20241014",
         "full_title": "PS-DC-STRAT-DRAGON-06 Our Shattered Ambitions",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "PS-DC-STRAT-DRAGON-06-Our-Shattered-Ambitions",
@@ -1031,11 +1147,13 @@
             "Nguyen Le",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-DRAGON-07",
         "date_created": "20240830",
         "full_title": "PS-DC-STRAT-DRAGON-07 The War of Dragons",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-STRAT-DRAGON-07-The-War-of-Dragons",
@@ -1049,11 +1167,13 @@
             "Noah Grand",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-TALES-05",
         "date_created": "20250618",
         "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
         "price": 5.99,
@@ -1065,11 +1185,13 @@
     {
         "apl": 18,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-TALES-06",
         "date_created": "20250618",
         "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
         "product_id": "526753",
@@ -1083,11 +1205,13 @@
             "James Clark",
             "Strategicon AL"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-TALES-06",
         "date_created": "20250618",
         "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "202",
         "product_id": "PS-DC-STRAT-TALES-06-Dungeon--A-Dragon",
@@ -1098,11 +1222,13 @@
     {
         "apl": 18,
         "authors": [],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-TALES-06",
         "date_created": "20250618",
         "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
         "price": 5.99,
@@ -1116,11 +1242,13 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-UNDEAD-02",
         "date_created": "20240524",
         "full_title": "PS-DC-STRAT-UNDEAD-02 Liches Just Want to Have Fun",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-STRAT-UNDEAD-02-Liches-Just-Want-to-Have-Fun",
@@ -1135,11 +1263,13 @@
             "Noah Grand",
             "Bryn Keeling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-UNDEAD-03",
         "date_created": "20240627",
         "full_title": "PS-DC-STRAT-UNDEAD-03 Winner Winner Chicken Dinner",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-STRAT-UNDEAD-03-Winner-Winner-Chicken-Dinner",
@@ -1154,11 +1284,13 @@
             "Noah Grand",
             "Bryn Keeling"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-UNDEAD-04",
         "date_created": "20240627",
         "full_title": "PS-DC-STRAT-UNDEAD-04 Overtime",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-STRAT-UNDEAD-04-Overtime",
@@ -1171,11 +1303,13 @@
         "authors": [
             "Nguyen Le"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-STRAT-UNDEAD-05",
         "date_created": "20240524",
         "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-STRAT-UNDEAD-05-Return-of-the-Dragon",
@@ -1188,11 +1322,13 @@
         "authors": [
             "Aileen Adriane Cerrudo"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-TST-01",
         "date_created": "20241203",
         "full_title": "PS-DC-TST-01 The Eye Behind the Mask",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-TST-01-The-Eye-Behind-the-Mask",
@@ -1205,11 +1341,13 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-TT-202",
         "date_created": "20250526",
         "full_title": "PS-DC-TT-202 May the Cause be with You",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "20",
         "product_id": "PS-DC-TT-202-May-the-Cause-be-with-You",
@@ -1222,11 +1360,13 @@
         "authors": [
             "T.Y. Montiflor"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-TYM-PHP-DIV-01",
         "date_created": "20240818",
         "full_title": "PS-DC-TYM-PHP-DIV-01 below the world, beneath the sun, i hear somebody singing",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "PS-DC-TYM-PHP-DIV-01-below-the-world-beneath-the-sun-i-hear-somebody-singing",
@@ -1240,11 +1380,13 @@
             "Bennett Ellis",
             "Dante Santos"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-CEG-02",
         "date_created": "20240427",
         "full_title": "Snakes on a Planescape (PS-DC-CEG-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "17-20",
         "product_id": "Snakes-on-a-Planescape-PS-DC-CEG-02",
@@ -1257,7 +1399,9 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-SS",
         "date_created": "20240311",
         "full_title": "Soul and Shadow (PS-DC-SS)",
@@ -1275,11 +1419,13 @@
         "authors": [
             "Ron Angelo Gatinga"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-HRS-00",
         "date_created": "20250223",
         "full_title": "Stolen Hours (PS-DC-HRS-00)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Stolen-Hours-PS-DC-HRS-00",
@@ -1292,11 +1438,13 @@
         "authors": [
             "Jonathan Bennett"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-HNL-02",
         "date_created": "20240208",
         "full_title": "The Hungry Prince (PS-DC-HNL-02)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Hungry-Prince-PS-DC-HNL-02",
@@ -1309,11 +1457,13 @@
         "authors": [
             "Charles Pandi"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-UMY-01",
         "date_created": "20240816",
         "full_title": "The Unmemory of You (PS-DC-UMY-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "The-Unmemory-of-You-PS-DC-UMY-01",
@@ -1326,11 +1476,13 @@
         "authors": [
             "Ron Angelo Gatinga"
         ],
-        "campaign": "Forgotten Realms",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-HRS-01",
         "date_created": "20250603",
         "full_title": "Unlimited Hours (PS-DC-HRS-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "Unlimited-Hours-PS-DC-HRS-01",

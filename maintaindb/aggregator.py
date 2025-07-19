@@ -63,6 +63,21 @@ def aggregate():
             if is_adventure:
                 if "url" in data and data["url"] and "affiliate_id" not in data["url"]:
                     data["url"] += "&affiliate_id=171040"
+                
+                # Normalize 'campaign' to be a list
+                if 'campaign' in data:
+                    if not isinstance(data['campaign'], list):
+                        data['campaigns'] = [data['campaign']]
+                    else:
+                        data['campaigns'] = data['campaign']
+                    del data['campaign'] # Remove the old singular key
+                else:
+                    data['campaigns'] = [] # Ensure it's always a list
+
+                # Normalize 'tiers' to be an integer
+                if 'tiers' in data and isinstance(data['tiers'], str) and '-' in data['tiers']:
+                    data['tiers'] = int(data['tiers'].split('-')[0]) # Take the lower bound
+                
                 __add_to_map(data, aggregated_by_dc_code)
             else:
                 logger.info(f"Skipping '{data.get('full_title', 'UNKNOWN TITLE')}' as it is not an adventure.")

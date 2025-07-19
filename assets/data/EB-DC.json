@@ -4,11 +4,13 @@
         "authors": [
             "Chris Wilson"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-DC-COG-01",
         "date_created": "20230221",
         "full_title": "EB-DC-COG-01 Off the Books",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 2.99,
@@ -22,11 +24,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-DC-CLASSIC-01",
         "date_created": "20250422",
         "full_title": "Tavern Rats (EB-DC-CLASSIC-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Tavern-Rats-EB-DC-CLASSIC-01",
@@ -39,11 +43,13 @@
         "authors": [
             "Belinda Baldwin"
         ],
-        "campaign": "Eberron",
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-DC-THC-01",
         "date_created": "20230513",
         "full_title": "The Doll House (EB-DC-THC-01)",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Doll-House-EB-DC-THC-01",
