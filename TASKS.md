@@ -26,6 +26,7 @@
 - [ ] **Clean up `_dc` directory:**
   - [ ] Remove duplicated JSON files in the _dc directory
   - [x] Ensure that all JSON files in the _dc directory have product_id set
+  - [ ] Ensure that all JSON files in the _dc directory have a product_id set that is numeric
   - [ ] Ensure that all JSON files in the _dc directory have hours set, if they have is_adventure = true
   - [ ] Ensure that all JSON files in the _dc directory have tier set, if they have is_adventure = true
   - [ ] Ensure that all JSON files in the _dc directory have campaign set, if they have is_adventure = true
@@ -34,9 +35,9 @@
     - [ ] Product ID `526429`: `Brine-and-Bone--FR-DC-MELB-02-02-.json` and `Brine-and-Bone-FR-DC-MELB-02-02.json`
     - [x] Product ID `528221`: `Pinoy-Big-Bundle-Vol.11 [BUNDLE].json`, `Pinoy-Big-Bundle-Vol.11-BUNDLE.json`, and `Pinoy-Big-Bundle-Vol.json` (Cleaned up)
     - [x] Product ID `526753`: `PS-DC-STRAT-TALES-06-Dungeon---A-Dragon.json` and `PS-DC-STRAT-TALES-06-Dungeon-A-Dragon.json` (Cleaned up)
-    - [ ] Product ID `527475`: `Stormbound--FR-DC-MELB-02-05-.json` and `Stormbound-FR-DC-MELB-02-05.json`
-    - [ ] Product ID `526528`: `The-Turning-Tide--FR-DC-MELB-02-03-.json` and `The-Turning-Tide-FR-DC-MELB-02-03.json`
-    - [ ] Product ID `526383`: `Voyage-into-Darkness--FR-DC-MELB-02-01-.json` and `Voyage-into-Darkness-FR-DC-MELB-02-01.json`
+    - [x] Product ID `527475`: `Stormbound--FR-DC-MELB-02-05-.json` and `Stormbound-FR-DC-MELB-02-05.json`
+    - [x] Product ID `526528`: `The-Turning-Tide--FR-DC-MELB-02-03-.json` and `The-Turning-Tide-FR-DC-MELB-02-03.json`
+    - [x] Product ID `526383`: `Voyage-into-Darkness--FR-DC-MELB-02-01-.json` and `Voyage-into-Darkness-FR-DC-MELB-02-01.json`
 - [ ] **Add Checkbox for DDAL/DDEX Seasons:** Implement a checkbox to optionally include DDAL and DDEX adventures in season filtering.
 - [x] Create a tool that generates a "fixup.html" which we can launch in a local browser that will contain a list of links to DM'S guild URLs
     - This file would be able to be launched locally and permit a user to quickly click the links to download the HTML via bookmarklet
@@ -50,3 +51,5 @@
 - [ ] Add a season slicer for the adventure list page
 - [ ] Staticly generate the filters -- they don't need to be calculated by the user, we can create these lists when we run the aggregator page
 - [x] Change aggregator to update a file in the _stats directory not use the ..\ hack that we've used, could we have jekyll get that file, if not, we can update our lp.bat file to do this work for our testing, and update the readme.md to specify this new requirement
+- [ ] replace concept of Season with concept of "tags" -- an adventure could have multiple tags
+  - [ ] Season is one tag - this can be specified in a JSON file that we 

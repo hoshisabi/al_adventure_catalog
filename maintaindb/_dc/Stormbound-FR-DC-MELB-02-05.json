@@ -1,17 +1,21 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
+    "apl": 13,
+    "authors": [
+        "Mike Arrow"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-MELB-02-05",
     "date_created": "20250624",
     "full_title": "Stormbound (FR-DC-MELB-02-05)",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": 2,
+    "is_adventure": true,
+    "level_range": "11-16",
+    "price": 4.99,
     "product_id": "527475",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "Stormbound",
-    "url": "https://www.dmsguild.com/product/527475/Stormbound-FRDCMELB0205?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/527475/?affiliate_id=171040"
 }

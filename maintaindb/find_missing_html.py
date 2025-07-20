@@ -51,6 +51,7 @@ def find_missing_html():
 """
 
     missing_count = 0
+    non_numeric_product_ids = []
     for file_path in json_files:
         with open(file_path, 'r', encoding='utf-8') as f:
             try:
@@ -73,6 +74,11 @@ def find_missing_html():
                     </tr>
 """
                     elif product_id:
+                        non_numeric_product_ids.append({
+                            "title": data.get("full_title", os.path.basename(file_path)),
+                            "product_id": product_id,
+                            "json_file_link": f"file:///{file_path.replace('\\', '/')}"
+                        })
                         print(f'Skipping non-integer product_id: {product_id}')
             except json.JSONDecodeError as e:
                 print(f"Error decoding JSON from {os.path.basename(file_path)}: {e}")
@@ -80,6 +86,30 @@ def find_missing_html():
     html_content += f"""        </tbody>
     </table>
     <p>Found {missing_count} adventures with missing HTML files.</p>
+
+    <h2>Adventures with Non-Numeric Product IDs</h2>
+    <p>The table below lists adventures that have a JSON file in the <code>_dc</code> directory but contain a non-numeric product ID. These should be audited and fixed.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Adventure Title</th>
+                <th>Product ID</th>
+                <th>JSON File</th>
+            </tr>
+        </thead>
+        <tbody>
+"""
+    for adventure in non_numeric_product_ids:
+        html_content += f"""            <tr>
+                <td>{adventure['title']}</td>
+                <td>{adventure['product_id']}</td>
+                <td><a href=\"{adventure['json_file_link']}\" target=\"_blank\">Open JSON</a></td>
+            </tr>
+"""
+
+    html_content += f"""        </tbody>
+    </table>
+    <p>Found {len(non_numeric_product_ids)} adventures with non-numeric product IDs.</p>
 </body>
 </html>
 """

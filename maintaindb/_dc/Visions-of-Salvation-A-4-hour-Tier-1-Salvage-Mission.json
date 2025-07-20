@@ -1,6 +1,8 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 3,
+    "authors": [
+        "Fynn Headen"
+    ],
     "campaigns": [
         null
     ],
@@ -9,10 +11,11 @@
     "full_title": "Visions of Salvation: A 4 hour Tier 1 Salvage Mission",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "1-4",
     "price": null,
     "product_id": "310775",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "Visions of Salvation A 4 hour Tier 1 Salvage Mission",
-    "url": "https://www.dmsguild.com/product/310775/Visions-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/310775/?affiliate_id=171040"
 }

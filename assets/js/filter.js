@@ -58,7 +58,7 @@ function parseHoursString(hoursStr) {
 }
 
 function populateFilters(adventures) {
-    const campaigns = [...new Set(adventures.map(a => a.campaigns).flat())].sort();
+    const campaigns = [...new Set(adventures.map(a => Array.isArray(a.campaigns) ? a.campaigns : [a.campaigns]).flat())].sort();
     const tiers = [...new Set(adventures.map(a => a.tiers).filter(t => t !== null).sort((a, b) => a - b))];
     const hours = [...new Set(adventures.map(a => parseHoursString(a.hours)).flat().filter(h => h !== null).sort((a, b) => a - b))];
 

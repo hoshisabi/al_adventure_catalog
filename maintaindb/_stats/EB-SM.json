@@ -1,27 +1,12 @@
 [
     {
-        "apl": 7,
-        "authors": [
-            "Bruce Wood"
-        ],
-        "campaigns": [],
-        "code": "EB-SM-WHISPER",
-        "date_created": "20200511",
-        "full_title": "A Whisper In Your Mind",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "EB-SM-WHISPER-A-Whisper-In-Your-Mind",
-        "tiers": 2,
-        "title": "A Whisper In Your Mind",
-        "url": "https://www.dmsguild.com/product/313252/A-Whisper-In-Your-Mind?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 4,
         "authors": [
             "Nathan Bond"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-ARENA",
         "date_created": "20200612",
         "full_title": "Arena Troubles",
@@ -38,7 +23,9 @@
         "authors": [
             "Christopher Bagg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-CHROME",
         "date_created": "20210608",
         "full_title": "Chrome On The Range",
@@ -55,7 +42,9 @@
         "authors": [
             "Christopher Bagg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-VINE",
         "date_created": "20211206",
         "full_title": "Deep Space Vine",
@@ -72,7 +61,9 @@
         "authors": [
             "Celeste Conowitch"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-DINO",
         "date_created": "20200827",
         "full_title": "Dino World",
@@ -89,7 +80,9 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-DREAMS",
         "date_created": "20200428",
         "full_title": "Dreams of Salvation: A 4 hour Tier 1 Salvage Mission",
@@ -107,7 +100,9 @@
         "authors": [
             "Integral Game Conglomerate LLC"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-RSM-T4.4",
         "date_created": "20230131",
         "full_title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
@@ -127,7 +122,9 @@
             "Zac Goins",
             "Troy Sandlin"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-METALLUS",
         "date_created": "20230314",
         "full_title": "Eberron: The Ruin of Grave Metallus",
@@ -145,7 +142,9 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-TOWER",
         "date_created": "20200515",
         "full_title": "Estranged Tower",
@@ -162,7 +161,9 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-HOME",
         "date_created": "20200416",
         "full_title": "Finding a Home",
@@ -179,7 +180,9 @@
         "authors": [
             "Gregory Hallenbeck"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-GHOST",
         "date_created": "20200318",
         "full_title": "Ghost Town",
@@ -196,7 +199,9 @@
         "authors": [
             "Christian Eichhorn"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-GULGO-13",
         "date_created": "20200330",
         "full_title": "Gulgo-13 | An Eberron Salvage Mission for Oracle of War",
@@ -213,7 +218,9 @@
         "authors": [
             "Scott Moore"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-HAPPY",
         "date_created": "20210305",
         "full_title": "Happy-Go-Lucky",
@@ -230,7 +237,9 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-HOUSE",
         "date_created": "20200407",
         "full_title": "House Hunting: A 4 hour Tier 1 Salvage Mission",
@@ -248,11 +257,13 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-GREATBEYOND",
         "date_created": "20210101",
         "full_title": "Into the Great Beyond: A Salvage Mission",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Into-the-Great-Beyond--A-Salvage-Mission",
@@ -265,7 +276,9 @@
         "authors": [
             "Stacey Allan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-COPPER",
         "date_created": "20201102",
         "full_title": "Last Stand at Copper Canyon",
@@ -282,7 +295,9 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-MURDER",
         "date_created": "20200418",
         "full_title": "Murder in Salvation: A 3 hour Tier 1 Salvage Mission",
@@ -299,7 +314,9 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-NIGHTMARES",
         "date_created": "20200430",
         "full_title": "Nightmares of Salvation: A 4 hour Tier 1 Salvage Mission",
@@ -316,11 +333,13 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-MABAR",
         "date_created": "20210816",
         "full_title": "Salvage Mission: The Mabar Conspiracy",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "Salvage-Mission--The-Mabar-Conspiracy",
@@ -333,7 +352,9 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-INSPECTION",
         "date_created": "20200420",
         "full_title": "Salvation Inspection: A 4 hour Tier 1 Salvage Mission",
@@ -350,15 +371,17 @@
         "authors": [
             "Bum Lee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-SAVING",
         "date_created": "20200430",
         "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Saving-Salvation--Eberron-Salvage-Mission-Trilogy",
-        "tiers": null,
+        "tiers": 0,
         "title": "Saving Salvation Eberron Salvage Mission Trilogy",
         "url": "https://www.dmsguild.com/product/311891/Saving-Salvation-Eberron-Salvage-Mission-Trilogy?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
@@ -367,7 +390,9 @@
         "authors": [
             "Bum Lee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-SEASIDE",
         "date_created": "20210308",
         "full_title": "Seaside Salvage: Eberron Salvage Mission Anthology",
@@ -384,15 +409,17 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-SNAIL",
         "date_created": "20200410",
         "full_title": "Snail Tale: A 4 hour Tier 1 Salvage Mission",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Snail-Tale--A-4-hour-Tier-1-Salvage-Mission",
-        "tiers": null,
+        "tiers": 0,
         "title": "Snail Tale A 4 hour Tier 1 Salvage Mission",
         "url": "https://www.dmsguild.com/product/309600/Snail-Tale-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
@@ -401,7 +428,9 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-SURPRISE",
         "date_created": "20200427",
         "full_title": "Surprise Visitor",
@@ -418,7 +447,9 @@
         "authors": [
             "M.T. Black"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-CANNITH",
         "date_created": "20200420",
         "full_title": "The Cannith Schematica",
@@ -435,7 +466,9 @@
         "authors": [
             "Tan Lou Ee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-CURIOUS",
         "date_created": "20210429",
         "full_title": "The Curious Incident of the Dog in the Night Land",
@@ -452,7 +485,9 @@
         "authors": [
             "Nors"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-KHYBER",
         "date_created": "20200809",
         "full_title": "The Khyber Heart: A Salvage Mission",
@@ -461,7 +496,7 @@
         "level_range": null,
         "price": null,
         "product_id": "323626",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Khyber Heart A Salvage Mission",
         "url": "https://www.dmsguild.com/product/323626/The-Khyber-Heart-A-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
     },
@@ -470,15 +505,17 @@
         "authors": [
             "Fynn Headen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-VISIONS",
         "date_created": "20200422",
         "full_title": "Visions of Salvation: A 4 hour Tier 1 Salvage Mission",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Visions-of-Salvation--A-4-hour-Tier-1-Salvage-Mission",
-        "tiers": null,
+        "tiers": 0,
         "title": "Visions of Salvation A 4 hour Tier 1 Salvage Mission",
         "url": "https://www.dmsguild.com/product/310775/Visions-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
@@ -487,7 +524,9 @@
         "authors": [
             "Nicol\u00e1s Carrillo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-SM-WRONGS",
         "date_created": "20201016",
         "full_title": "Wrongs and Punishment: An Eberron Salvage Mission",
@@ -495,7 +534,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Wrongs-and-Punishment--An-Eberron-Salvage-Mission",
-        "tiers": null,
+        "tiers": 0,
         "title": "Wrongs and Punishment An Eberron Salvage Mission",
         "url": "https://www.dmsguild.com/product/332476/Wrongs-and-Punishment-An-Eberron-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     }
