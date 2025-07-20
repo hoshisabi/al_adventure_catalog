@@ -1,0 +1,74 @@
+[
+    {   
+        "name": "Forgotten Realms DungeonCraft",
+        "pattern": "FR-DC-[A-Za-z0-9-]+",
+        "season": null,
+        "campaign": ["Forgotten Realms"]
+    },
+    {
+        "name": "Official Seasons of the Mist",
+        "pattern": "DDAL0?4-[0-9]",
+        "season": "Seasons of the Mist",
+        "campaign": ["Ravenloft", "Forgotten Realms"]
+    },
+    {
+        "name": "Dragonlance DungeonCraft",
+        "pattern": "DL-DC-[A-Za-z0-9-]+",
+        "season": "Seasons of the Mist",
+        "campaign": ["Dragonlance"]
+    },
+    {
+        "name": "Eberron DungeonCraft",
+        "pattern": "EB-DC-[A-Za-z0-9-]+",
+        "season": "Eberron",
+        "campaign": ["Eberron"]
+    },
+    {
+        "name": "Eberron Salvage Mission",
+        "pattern": "EB-SM-[A-Za-z0-9-]+",
+        "season": "Eberron",
+        "campaign": ["Eberron"]
+    },
+    {
+        "name": "Planescape DungeonCraft",
+        "pattern": "PS-DC-[A-Za-z0-9-]+",
+        "season": "Planescape",
+        "campaign": ["Forgotten Realms"]
+    },
+    {
+        "name": "Planescape DungeonCraft",
+        "pattern": "PS-DC-[A-Za-z0-9-]+",
+        "season": "Planescape",
+        "campaign": ["Forgotten Realms"]
+    },
+    {
+        "name": "Spelljammer DungeonCraft",
+        "pattern": "SJ-DC-[A-Za-z0-9-]+",
+        "season": "Spelljammer",
+        "campaign": ["Forgotten Realms"]
+    },    
+    {
+        "name": "Wild Beyond the Witchlight DungeonCraft",
+        "pattern": "WBW-DC-[A-Za-z0-9-]+",
+        "season": "Wild Beyond the Witchlight",
+        "campaign": ["Forgotten Realms"]
+    },        
+    {
+        "name": "Ravenloft DungeonCraft",
+        "pattern": "RV-DC-[A-Za-z0-9-]+",
+        "season": "Ravenloft",
+        "campaign": ["Ravenloft"]
+    },    
+    {
+        "name": "Icewind Dale DungeonCraft",
+        "pattern": "DC-POA-[A-Za-z0-9-]+",
+        "season": "Icewind Dale",
+        "campaign": ["Forgotten Realms"]
+    },
+    {
+        "name": "Border Kingdoms Premiere Organization DungeonCraft",
+        "pattern": "PO-BK-[A-Za-z0-9-]+",
+        "season": "Border Kingdoms",
+        "campaign": ["Forgotten Realms"]
+    },
+]
