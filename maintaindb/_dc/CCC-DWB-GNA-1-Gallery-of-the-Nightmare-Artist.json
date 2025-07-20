@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Robby Jones"
     ],
@@ -9,11 +9,13 @@
     "code": "CCC-DWB-GNA-1",
     "date_created": "20200504",
     "full_title": "CCC-DWB-GNA-1 Gallery of the Nightmare Artist",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "CCC-DWB-GNA-1-Gallery-of-the-Nightmare-Artist",
-    "tiers": null,
+    "level_range": "11-16",
+    "price": null,
+    "product_id": "311687",
+    "season": null,
+    "tiers": 3,
     "title": "CCC-DWB-GNA-1 Gallery of the Nightmare Artist",
-    "url": "https://www.dmsguild.com/product/311687/CCCDWBGNA1-Gallery-of-the-Nightmare-Artist"
+    "url": "https://www.dmsguild.com/product/311687/?affiliate_id=171040"
 }

@@ -118,7 +118,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Bad-Omen-SJ-DC-BAD-01",
+        "product_id": "451742",
         "tiers": 1,
         "title": "Bad Omen",
         "url": "https://www.dmsguild.com/product/451742?affiliate_id=171040"
@@ -157,7 +157,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Breathless-SJ-DC-DFA-04",
+        "product_id": 457185,
         "tiers": 2,
         "title": "Breathless",
         "url": "https://www.dmsguild.com/product/457185/Breathless-SJDCDFA04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -176,11 +176,13 @@
         "full_title": "Caverns and Cultists (SJ-DC-NOS-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Caverns-and-Cultists-SJ-DC-NOS-04",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 34.91,
+        "product_id": "460172",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Caverns and Cultists",
-        "url": "https://www.dmsguild.com/product/460172/Caverns-and-Cultists-SJDCNOS04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/460172/?affiliate_id=171040"
     },
     {
         "apl": 13,
