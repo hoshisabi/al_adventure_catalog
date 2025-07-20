@@ -35,6 +35,13 @@ There are two primary methods for ingesting new adventure data:
 3.  Run the aggregator to combine all adventure data: `python3 aggregator.py`
 4.  The aggregated results will be available in `_stats`.
 
+## Running the Site Locally
+
+The `lp.bat` script is a convenience script for running the Jekyll site locally.
+
+*   **`lp.bat` (no parameters):** Serves the Jekyll site locally without rebuilding.
+*   **`lp.bat rebuild`:** Runs the aggregator, rebuilds the Jekyll site, and then serves it locally.
+
 ## Git Workflow
 
 To upload your changes to the repository:
