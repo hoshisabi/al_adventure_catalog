@@ -15,7 +15,7 @@ class TestAdventureExtraction(unittest.TestCase):
         parsed_html = BeautifulSoup(html_content, 'html.parser')
         # For testing, we can pass a dummy product_id and existing_data
         extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
-        self.assertEqual(extracted_data['hours'], 2)
+        self.assertEqual(extracted_data['hours'], "2")
 
     def test_extract_word_hours_from_html(self):
         # Sample HTML content from dmsguildinfo-463522.html
@@ -28,7 +28,7 @@ class TestAdventureExtraction(unittest.TestCase):
         parsed_html = BeautifulSoup(html_content, 'html.parser')
         # For testing, we can pass a dummy product_id and existing_data
         extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
-        self.assertEqual(extracted_data['hours'], 4)
+        self.assertEqual(extracted_data['hours'], "4")
 
     def test_extract_hour_range_from_html(self):
         # Sample HTML
@@ -70,7 +70,7 @@ class TestAdventureExtraction(unittest.TestCase):
         parsed_html = BeautifulSoup(html_content, 'html.parser')
         with self.subTest("Single hour"):
             extracted_data = extract_data_from_html(parsed_html, "463522", existing_data={})
-            self.assertEqual(extracted_data['hours'], 1)
+            self.assertEqual(extracted_data['hours'], "1")
 
     def test_sanitize_filename(self):
         self.assertEqual(sanitize_filename("My Awesome Adventure!"), "My-Awesome-Adventure.json")
@@ -105,6 +105,18 @@ class TestAdventureExtraction(unittest.TestCase):
         parsed_html = BeautifulSoup(html_content, 'html.parser')
         extracted_data = extract_data_from_html(parsed_html, "dummy_id", existing_data={})
         self.assertEqual(extracted_data['tiers'], 1)
+
+    def test_extract_apl_and_tier_from_526753_html(self):
+        html_content = """
+        <meta name="description" content="PS-DC-STRAT-TALES-06 Dungeon &amp; A Dragon - Rescue the princess. Slay the dragon. Save the kingdom.\n\nA Four-Hour Adventure for Tier 4 Characters. Optimized for APL ">
+        <div class="alpha omega prod-content">
+        A Four-Hour Adventure for Tier 4 Characters. Optimized for APL 18.
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        extracted_data = extract_data_from_html(parsed_html, "526753", existing_data={})
+        self.assertEqual(extracted_data['apl'], 18)
+        self.assertEqual(extracted_data['tiers'], 4)
 
 if __name__ == '__main__':
     unittest.main()

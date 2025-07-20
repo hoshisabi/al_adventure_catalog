@@ -21,6 +21,7 @@
 ## Future Tasks:
 
 - [ ] **Add Unit Tests for Data Parsing and Consistency:** Implement comprehensive unit tests for the `hours` parsing logic in `maintaindb/adventure.py` and `assets/js/filter.js`, as well as the data consistency and deduplication logic in `maintaindb/aggregator.py` and `maintaindb/process_downloads.py`. This will ensure the robustness and correctness of our data pipeline.
+- [ ] Refactor of adventure.py, as described in [Refactor plan](./REFACTOR.md)
 
 - [ ] **Clean up `_dc` directory:**
   - [ ] Remove duplicated JSON files in the _dc directory
@@ -30,6 +31,12 @@
   - [ ] Ensure that all JSON files in the _dc directory have campaign set, if they have is_adventure = true
   - [ ] Ensure that all JSON files in the _dc directory have apl set, if they have is_adventure = true
   - [ ] Find duplicate adventures (adventures with the same product id) and manually identify what data is correct
+    - [ ] Product ID `526429`: `Brine-and-Bone--FR-DC-MELB-02-02-.json` and `Brine-and-Bone-FR-DC-MELB-02-02.json`
+    - [x] Product ID `528221`: `Pinoy-Big-Bundle-Vol.11 [BUNDLE].json`, `Pinoy-Big-Bundle-Vol.11-BUNDLE.json`, and `Pinoy-Big-Bundle-Vol.json` (Cleaned up)
+    - [x] Product ID `526753`: `PS-DC-STRAT-TALES-06-Dungeon---A-Dragon.json` and `PS-DC-STRAT-TALES-06-Dungeon-A-Dragon.json` (Cleaned up)
+    - [ ] Product ID `527475`: `Stormbound--FR-DC-MELB-02-05-.json` and `Stormbound-FR-DC-MELB-02-05.json`
+    - [ ] Product ID `526528`: `The-Turning-Tide--FR-DC-MELB-02-03-.json` and `The-Turning-Tide-FR-DC-MELB-02-03.json`
+    - [ ] Product ID `526383`: `Voyage-into-Darkness--FR-DC-MELB-02-01-.json` and `Voyage-into-Darkness-FR-DC-MELB-02-01.json`
 - [ ] **Add Checkbox for DDAL/DDEX Seasons:** Implement a checkbox to optionally include DDAL and DDEX adventures in season filtering.
 - [x] Create a tool that generates a "fixup.html" which we can launch in a local browser that will contain a list of links to DM'S guild URLs
     - This file would be able to be launched locally and permit a user to quickly click the links to download the HTML via bookmarklet

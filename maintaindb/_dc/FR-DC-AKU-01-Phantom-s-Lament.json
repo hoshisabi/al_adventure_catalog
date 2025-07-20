@@ -1,19 +1,17 @@
 {
-    "apl": 8,
+    "apl": null,
     "authors": [],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "FR-DC-AKU-01",
+    "campaigns": [],
+    "code": null,
     "date_created": "20250627",
     "full_title": "FR-DC-AKU-01 Phantom's Lament",
-    "hours": "4",
+    "hours": null,
     "is_adventure": false,
-    "level_range": "5-10",
-    "price": 4.99,
+    "level_range": null,
+    "price": null,
     "product_id": "527701",
     "season": null,
-    "tiers": 2,
+    "tiers": null,
     "title": "Phantom's Lament",
     "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }

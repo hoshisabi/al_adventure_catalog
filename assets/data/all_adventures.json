@@ -36,23 +36,6 @@
     {
         "apl": null,
         "authors": [
-            "Bum Lee"
-        ],
-        "campaigns": [],
-        "code": "EB-SM-CRIMSON",
-        "date_created": "20201224",
-        "full_title": "A Crimson Carol",
-        "hours": null,
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "A-Crimson-Carol-20201224",
-        "tiers": 3,
-        "title": "A Crimson Carol",
-        "url": "https://www.dmsguild.com/product/341110/A-Crimson-Carol?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
             "Stefan Tomaschitz"
         ],
         "campaigns": [],
@@ -61,9 +44,9 @@
         "full_title": "A Cursed Key",
         "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-2",
         "product_id": "A-Cursed-Key-20240811",
-        "tiers": null,
+        "tiers": 1,
         "title": "A Cursed Key",
         "url": "https://www.dmsguild.com/product/491254/A-Cursed-Key?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -13183,7 +13166,7 @@
         "url": "https://www.dmsguild.com/product/352164/DCPoAMCWWS02-Wine-Wizards-and-Song?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Nathan Bond"
         ],
@@ -13191,11 +13174,11 @@
         "code": "DC-POA-NB-01",
         "date_created": "20201226",
         "full_title": "DC-PoA-NB-01 Iruladoon Awakens",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-NB-01-Iruladoon-Awakens",
-        "tiers": null,
+        "tiers": 1,
         "title": "DC-PoA-NB-01 Iruladoon Awakens",
         "url": "https://www.dmsguild.com/product/341245/DCPoANB01-Iruladoon-Awakens?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -13279,10 +13262,12 @@
         "hours": null,
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-Out-of-the-Dark-Woods",
+        "price": 6.96,
+        "product_id": "345391",
+        "season": "Icewind Dale",
         "tiers": null,
         "title": "DC-PoA \"Out of the Dark Woods\"",
-        "url": "https://www.dmsguild.com/product/345391/DCPoA-Out-of-the-Dark-Woods?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -19760,21 +19745,6 @@
         "tiers": 4,
         "title": "The War of Dragons",
         "url": "https://www.dmsguild.com/product/493270/PSDCSTRATDRAGON07-The-War-of-Dragons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 18,
-        "authors": [],
-        "campaigns": [],
-        "code": "PS-DC-STRAT-TALES-06",
-        "date_created": "20250618",
-        "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "17-20",
-        "product_id": "526753",
-        "tiers": 4,
-        "title": "Dungeon & A Dragon",
-        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -27058,10 +27028,10 @@
         "code": "WBW-DC-DEN-H1",
         "date_created": "20220827",
         "full_title": "WBW-DC-DEN-H1 Pome and Prejudice",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 4.0,
         "product_id": "408073",
         "tiers": 2,
         "title": "Pome and Prejudice",
@@ -27076,10 +27046,10 @@
         "code": "WBW-DC-DEN-H2",
         "date_created": "20220828",
         "full_title": "WBW-DC-DEN-H2 Disheartened",
-        "hours": null,
+        "hours": 4,
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.0,
         "product_id": "408133",
         "tiers": 1,
         "title": "Disheartened",
