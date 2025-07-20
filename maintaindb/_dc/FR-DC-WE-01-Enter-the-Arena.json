@@ -1,19 +1,17 @@
 {
-    "apl": 8,
+    "apl": null,
     "authors": [],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "FR-DC-WE-01",
+    "campaigns": [],
+    "code": null,
     "date_created": "20250716",
     "full_title": "FR-DC-WE-01 Enter the Arena",
-    "hours": "4",
+    "hours": null,
     "is_adventure": false,
-    "level_range": "5-10",
-    "price": 4.95,
+    "level_range": null,
+    "price": null,
     "product_id": "528610",
     "season": null,
-    "tiers": 2,
+    "tiers": null,
     "title": "Enter the Arena",
     "url": "https://www.dmsguild.com/product/528610/FRDCWE01-Enter-the-Arena?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }

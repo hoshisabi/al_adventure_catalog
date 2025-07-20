@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Bum Lee"
     ],
@@ -9,11 +9,13 @@
     "code": "EB-SM-CRIMSON",
     "date_created": "20201224",
     "full_title": "A Crimson Carol",
-    "hours": null,
-    "is_adventure": true,
-    "level_range": "1",
-    "product_id": "A-Crimson-Carol-20201224",
+    "hours": "3",
+    "is_adventure": false,
+    "level_range": "11-16",
+    "price": 10.9,
+    "product_id": "341110",
+    "season": null,
     "tiers": 3,
     "title": "A Crimson Carol",
-    "url": "https://www.dmsguild.com/product/341110/A-Crimson-Carol?filters=1000043_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/341110/?affiliate_id=171040"
 }

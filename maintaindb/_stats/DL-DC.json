@@ -5,17 +5,18 @@
             "Marcello De Velazquez",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-LIGA01",
         "date_created": "20240821",
         "full_title": "DL-DC-LIGA01 - A Silver Light",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DL-DC-LIGA01---A-Silver-Light",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "492361",
         "tiers": 1,
         "title": "- A Silver Light",
-        "url": "https://www.dmsguild.com/product/492361/DLDCLIGA01--A-Silver-Light?filters=0_0_100057_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/492361/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -23,17 +24,18 @@
             "DMGMorais",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-LIGA02",
         "date_created": "20240919",
         "full_title": "DL-DC-LIGA02 - Wickedness over Dargaard",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DL-DC-LIGA02---Wickedness-over-Dargaard",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "495850",
         "tiers": 1,
         "title": "- Wickedness over Dargaard",
-        "url": "https://www.dmsguild.com/product/495850/DLDCLIGA02--Wickedness-over-Dargaard?filters=45470_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/495850/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -41,169 +43,179 @@
             "Lu\u00eds Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-LIGA03",
         "date_created": "20241031",
         "full_title": "DL-DC-LIGA03 - Firstwal under Siege",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "DL-DC-LIGA03-Firstwal-under-Siege",
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "500778",
         "tiers": 1,
-        "title": "Firstwal under Siege",
-        "url": "https://www.dmsguild.com/product/500778/DLDCLIGA03--Firstwal-under-Siege?filters=45470_0_0_0_0_0"
+        "title": "- Firstwal under Siege",
+        "url": "https://www.dmsguild.com/product/500778/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Marcello De Velazquez"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-MDV-01",
         "date_created": "20231211",
         "full_title": "DL-DC-MDV-01 A Mother's Love: A Dragonlance Adventures Experience",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "DL-DC-MDV-01-A-Mothers-Love--A-Dragonlance-Adventures-Experience",
+        "price": 3.99,
+        "product_id": "463522",
         "tiers": 2,
-        "title": "A Mother's Love A Dragonlance Adventures Experience",
-        "url": "https://www.dmsguild.com/product/463522/DLDCMDV01-A-Mothers-Love-A-Dragonlance-Adventures-Experience?filters=45470_0_0_0_0_0_0_0"
+        "title": "A Mother's Love: A Dragonlance Adventures Experience",
+        "url": "https://www.dmsguild.com/product/463522/?affiliate_id=171040"
     },
     {
         "apl": 11,
         "authors": [
             "George Sanders"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SF-01",
         "date_created": "20240311",
         "full_title": "DL-DC-SF-01 Split or Fuse",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DL-DC-SF-01-Split-or-Fuse",
+        "level_range": "11-16",
+        "price": 9.99,
+        "product_id": "473696",
         "tiers": 3,
         "title": "Split or Fuse",
-        "url": "https://www.dmsguild.com/product/473696/DLDCSF01-Split-or-Fuse?filters=0_0_100057_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/473696/?affiliate_id=171040"
     },
     {
         "apl": 12,
         "authors": [
             "George Sanders"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SF-02",
         "date_created": "20250518",
         "full_title": "DL-DC-SF-02 Wulfgar's Champion",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "DL-DC-SF-02-Wulfgars-Champion",
+        "level_range": "11-16",
+        "price": 9.99,
+        "product_id": "522732",
         "tiers": 3,
         "title": "Wulfgar's Champion",
-        "url": "https://www.dmsguild.com/product/522732/DLDCSF02-Wulfgars-Champion?filters=45470_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/522732/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
             "Alexander Klement"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SOTH-01",
         "date_created": "20240714",
         "full_title": "Dragonlance: Echoes of war (DL-DC-SOTH-01)",
-        "hours": 4,
+        "hours": null,
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Dragonlance--Echoes-of-war-DL-DC-SOTH-01",
+        "price": null,
+        "product_id": "487856",
         "tiers": 1,
         "title": "Dragonlance Echoes of war",
-        "url": "https://www.dmsguild.com/product/487856/Dragonlance-Echoes-of-war-DLDCSOTH01?filters=0_0_100057_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/487856/?affiliate_id=171040"
     },
     {
         "apl": 2,
         "authors": [
             "Belinda Baldwin"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SDCC-01",
         "date_created": "20230717",
         "full_title": "Greenshield (DL-DC-SDCC-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Greenshield-DL-DC-SDCC-01",
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445922",
         "tiers": 1,
         "title": "Greenshield",
-        "url": "https://www.dmsguild.com/product/445922/Greenshield-DLDCSDCC01?filters=45470_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/445922/?affiliate_id=171040"
     },
     {
         "apl": 2,
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SDCC-03",
         "date_created": "20230717",
         "full_title": "Knight Fall (DL-DC-SDCC-03)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Knight-Fall-DL-DC-SDCC-03",
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445912",
         "tiers": 1,
         "title": "Knight Fall",
-        "url": "https://www.dmsguild.com/product/445912/Knight-Fall-DLDCSDCC03?filters=0_0_100057_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/445912/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
             "Steven Truong"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-CLASSIC-01",
         "date_created": "20250422",
         "full_title": "Tavern Rats (DL-DC-CLASSIC-01)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Tavern-Rats-DL-DC-CLASSIC-01",
+        "level_range": "1-4",
+        "price": 19.96,
+        "product_id": "519557",
         "tiers": 1,
         "title": "Tavern Rats",
-        "url": "https://www.dmsguild.com/product/519557/Tavern-Rats-DLDCCLASSIC01?filters=45470_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/519557/?affiliate_id=171040"
     },
     {
         "apl": 2,
         "authors": [
             "Belinda Baldwin"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SDCC-02",
         "date_created": "20230717",
         "full_title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Dog-Days-of-Solamnia-DL-DC-SDCC-02",
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445925",
         "tiers": 1,
         "title": "The Dog Days of Solamnia",
-        "url": "https://www.dmsguild.com/product/445925/The-Dog-Days-of-Solamnia-DLDCSDCC02?filters=45470_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/445925/?affiliate_id=171040"
     },
     {
         "apl": 2,
         "authors": [
             "JD McComb"
         ],
-        "campaign": "Dragonlance",
+        "campaigns": [],
         "code": "DL-DC-SDCC-04",
         "date_created": "20230717",
         "full_title": "The Inn of Forgotten Melodies (DL-DC-SDCC-04)",
-        "hours": 2,
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Inn-of-Forgotten-Melodies-DL-DC-SDCC-04",
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445923",
         "tiers": 1,
         "title": "The Inn of Forgotten Melodies",
-        "url": "https://www.dmsguild.com/product/445923/The-Inn-of-Forgotten-Melodies-DLDCSDCC04?filters=0_0_100057_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/445923/?affiliate_id=171040"
     }
 ]

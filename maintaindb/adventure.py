@@ -254,12 +254,6 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
             if key == "hours" and isinstance(existing_value, (int, float)):
                 existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
 
-            if key == "hours" and isinstance(existing_value, (int, float)):
-                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
-
-            if key == "hours" and isinstance(existing_value, (int, float)):
-                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
-
             if careful_mode:
                 if not is_existing_value_empty: # If existing is not empty, keep it
                     merged_data[key] = existing_value
@@ -275,20 +269,16 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
                     merged_data[key] = existing_value
     return merged_data
 
-def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False, careful_mode=False):
-    new_data = {
+def _extract_raw_data_from_html(parsed_html, product_id):
+    raw_data = {
         "module_name": None,
         "authors": [],
-        "code": None,
         "date_created": None,
-        "hours": None,
-        "tiers": None,
-        "apl": None,
-        "level_range": None,
-        "campaigns": None, # Changed to campaigns (plural)
-        "season": None,
-        "is_adventure": False,
-        "price": None
+        "hours_raw": None,
+        "tiers_raw": None,
+        "apl_raw": None,
+        "level_range_raw": None,
+        "price_raw": None
     }
 
     product_title = parsed_html.find(
@@ -297,7 +287,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         children = product_title.findChildren(
             "span", {"itemprop": "name"}, recursive=True)
         for child in children:
-            new_data["module_name"] = child.text
+            raw_data["module_name"] = child.text
             break
 
     authors = []
@@ -306,7 +296,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     if product_from:
         children = product_from.findChildren("a", recursive=True)
         for child in children:
-            new_data["authors"].append(child.text)
+            raw_data["authors"].append(child.text)
 
     date_created = None
     children = parsed_html.find_all(
@@ -315,7 +305,7 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     for child in children:
         if key in child.text:
             date_str = child.text.replace(key, '').replace('.', '')
-            new_data["date_created"] = datetime.datetime.strptime(
+            raw_data["date_created"] = datetime.datetime.strptime(
                 date_str.strip(), "%B %d, %Y").date()
             break
 
@@ -331,112 +321,134 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
 
     combined_text = text + " " + meta_description_text
 
-    if new_data["module_name"]:
-        result = get_dc_code_and_campaign(new_data["module_name"])
-        if result is not None:
-            new_data["code"] = result[0]
-            new_data["campaigns"] = result[1] # campaigns is already a list from get_dc_code_and_campaign
-            new_data["season"] = get_season(new_data["code"])
+    # Raw extraction of hours, tiers, apl, level_range
+    hours_match = re.search(r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)(?:\s*(?:-|to)\s*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?[-\s\xa0]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
+    if hours_match:
+        raw_data["hours_raw"] = hours_match.group(0).strip() # Capture the whole matched string
 
-    # Check for EB- series adventures
-    if new_data["code"] and new_data["code"].startswith("EB-"):
-        new_data["hours"] = "4"
-    else:
-        # Try to find "X hour(s)" or "X-Y hour(s)"
-        # This regex will find all occurrences of single numbers or ranges followed by 'hour(s)' or 'hr'
-        hours_match = re.search(r'(\d+(?:-\d+)?|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)(?:\s*(?:-|to)\s*(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?[-\s\xa0]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
-        
-        if hours_match:
-            extracted_str = hours_match.group(1).strip()
-            if '-' in extracted_str or 'to' in extracted_str.lower():
-                # It's a range
-                parts = re.split(r'\s*(?:-|to)\s*', extracted_str, flags=re.IGNORECASE)
-                start_int = str_to_int(parts[0])
-                end_int = str_to_int(parts[1])
-                if start_int is not None and end_int is not None:
-                    new_data["hours"] = f"{start_int}-{end_int}"
-            else:
-                # It's a single value
-                single_int = str_to_int(extracted_str)
-                if single_int is not None:
-                    new_data["hours"] = single_int
-        else:
-            new_data["hours"] = None
-
-    new_data["apl"] = str_to_int(get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*\(?APL\)?\s*(\d+)", combined_text))
-
-    new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Level\s*([1-4])(?:-\d+)?\s*characters", combined_text))
-
-    level_range_match = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
-    if level_range_match:
-        if isinstance(level_range_match, tuple):
-            new_data["level_range"] = f"{level_range_match[0]}-{level_range_match[1]}"
-        else:
-            new_data["level_range"] = str(level_range_match)
-
-    # Derive Tier from APL if Tier is None
-    if new_data["tiers"] is None and new_data["apl"] is not None:
-        if 1 <= new_data["apl"] <= 4: new_data["tiers"] = 1
-        elif 5 <= new_data["apl"] <= 10: new_data["tiers"] = 2
-        elif 11 <= new_data["apl"] <= 16: new_data["tiers"] = 3
-        elif 17 <= new_data["apl"] <= 20: new_data["tiers"] = 4
-    # Derive Tier from Level Range if Tier and APL are None
-    elif new_data["tiers"] is None and new_data["level_range"] is not None:
-        if isinstance(new_data["level_range"], str) and '-' in new_data["level_range"]:
-            start_level = int(new_data["level_range"].split('-')[0])
-            if 1 <= start_level <= 4: new_data["tiers"] = 1
-            elif 5 <= start_level <= 10: new_data["tiers"] = 2
-            elif 11 <= start_level <= 16: new_data["tiers"] = 3
-            elif 17 <= start_level <= 20: new_data["tiers"] = 4
-    
-    # Derive Level Range from Tier if Level Range is None or not a valid range
-    derived_level_range = None
-    if new_data["tiers"] is not None:
-        if new_data["tiers"] == 1: derived_level_range = "1-4"
-        elif new_data["tiers"] == 2: derived_level_range = "5-10"
-        elif new_data["tiers"] == 3: derived_level_range = "11-16"
-        elif new_data["tiers"] == 4: derived_level_range = "17-20"
-
-    # Use derived level range if extracted is not a range or is None
-    if new_data["level_range"] is None or not re.match(r"\d+-\d+", str(new_data["level_range"])):
-        new_data["level_range"] = derived_level_range
-
-    # Determine if it's an adventure
-    lower_full_title = new_data["module_name"].lower() if new_data["module_name"] else ""
-    is_bundle = 'bundle' in lower_full_title
-    is_roll20 = 'roll20' in lower_full_title
-    is_fg = 'fantasy grounds' in lower_full_title
-
-    if new_data["code"] and not is_bundle and not is_roll20 and not is_fg:
-        new_data["is_adventure"] = True
-    else:
-        new_data["is_adventure"] = False
+    raw_data["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
+    raw_data["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", combined_text)
+    raw_data["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
 
     # Price extraction
-    # Prioritize product-price-strike for original price
     original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
     if original_price_strike_match:
         price_text = original_price_strike_match.get_text(strip=True)
         price_value = re.search(r'\$([\d\.]+)', price_text)
         if price_value:
-            new_data["price"] = float(price_value.group(1))
+            raw_data["price_raw"] = float(price_value.group(1))
     
-    if new_data["price"] is None:
-        # Then try price-old
+    if raw_data["price_raw"] is None:
         original_price_old_match = parsed_html.find("div", class_="price-old")
         if original_price_old_match:
             price_text = original_price_old_match.get_text(strip=True)
             price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
-                new_data["price"] = float(price_value.group(1))
+                raw_data["price_raw"] = float(price_value.group(1))
     
-    if new_data["price"] is None:
-        # Fallback to general price
+    if raw_data["price_raw"] is None:
         price_match = parsed_html.find("div", class_="price")
         if price_match:
             price_text = price_match.get_text(strip=True)
             price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
-                new_data["price"] = float(price_value.group(1))
+                raw_data["price_raw"] = float(price_value.group(1))
+
+    return raw_data
+
+def _normalize_and_convert_data(raw_data):
+    processed_data = {
+        "module_name": raw_data["module_name"],
+        "authors": raw_data["authors"],
+        "code": None,
+        "date_created": raw_data["date_created"],
+        "hours": None,
+        "tiers": None,
+        "apl": None,
+        "level_range": None,
+        "campaigns": [],
+        "season": None,
+        "is_adventure": False,
+        "price": raw_data["price_raw"]
+    }
+
+    if processed_data["module_name"]:
+        result = get_dc_code_and_campaign(processed_data["module_name"])
+        if result is not None:
+            processed_data["code"] = result[0]
+            processed_data["campaigns"] = result[1]
+            processed_data["season"] = get_season(processed_data["code"])
+
+    # Hours conversion
+    if raw_data["hours_raw"]:
+        extracted_range_str = raw_data["hours_raw"]
+        if '-' in extracted_range_str or 'to' in extracted_range_str.lower():
+            # It's a range
+            parts = re.split(r'\s*(?:-|to)\s*', extracted_range_str, flags=re.IGNORECASE)
+            start_int = str_to_int(parts[0])
+            end_int = str_to_int(parts[-1]) # Take the last part for the end of the range
+            if start_int is not None and end_int is not None:
+                processed_data["hours"] = f"{start_int}-{end_int}"
+            else:
+                processed_data["hours"] = None
+        else:
+            # It's a single value
+            single_int = str_to_int(extracted_range_str)
+            if single_int is not None:
+                processed_data["hours"] = str(single_int)
+            else:
+                processed_data["hours"] = None
+
+    # APL and Tiers conversion
+    processed_data["apl"] = str_to_int(raw_data["apl_raw"])
+    processed_data["tiers"] = str_to_int(raw_data["tiers_raw"])
+    processed_data["level_range"] = raw_data["level_range_raw"]
+
+    return processed_data
+
+def _infer_missing_adventure_data(data):
+    # Derive Tier from APL if Tier is None
+    if data["tiers"] is None and data["apl"] is not None:
+        if 1 <= data["apl"] <= 4: data["tiers"] = 1
+        elif 5 <= data["apl"] <= 10: data["tiers"] = 2
+        elif 11 <= data["apl"] <= 16: data["tiers"] = 3
+        elif 17 <= data["apl"] <= 20: data["tiers"] = 4
+    # Derive Tier from Level Range if Tier and APL are None
+    elif data["tiers"] is None and data["level_range"] is not None:
+        if isinstance(data["level_range"], str) and '-' in data["level_range"]:
+            start_level = int(data["level_range"].split('-')[0])
+            if 1 <= start_level <= 4: data["tiers"] = 1
+            elif 5 <= start_level <= 10: data["tiers"] = 2
+            elif 11 <= start_level <= 16: data["tiers"] = 3
+            elif 17 <= start_level <= 20: data["tiers"] = 4
+    
+    # Derive Level Range from Tier if Level Range is None or not a valid range
+    derived_level_range = None
+    if data["tiers"] is not None:
+        if data["tiers"] == 1: derived_level_range = "1-4"
+        elif data["tiers"] == 2: derived_level_range = "5-10"
+        elif data["tiers"] == 3: derived_level_range = "11-16"
+        elif data["tiers"] == 4: derived_level_range = "17-20"
+
+    if data["level_range"] is None or not re.match(r"\d+-\d+", str(data["level_range"])):
+        data["level_range"] = derived_level_range
+
+    # Determine if it's an adventure
+    lower_full_title = data["module_name"].lower() if data["module_name"] else ""
+    is_bundle = 'bundle' in lower_full_title
+    is_roll20 = 'roll20' in lower_full_title
+    is_fg = 'fantasy grounds' in lower_full_title
+
+    if data["code"] and not is_bundle and not is_roll20 and not is_fg:
+        data["is_adventure"] = True
+    else:
+        data["is_adventure"] = False
+
+    return data
+
+def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False, careful_mode=False):
+    raw_data = _extract_raw_data_from_html(parsed_html, product_id)
+    normalized_data = _normalize_and_convert_data(raw_data)
+    new_data = _infer_missing_adventure_data(normalized_data)
 
     return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
