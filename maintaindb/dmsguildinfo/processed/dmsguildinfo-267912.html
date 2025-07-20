@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="js"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style data-merge-styles="true"></style><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/3jpV4E_UA9gZWYy11LtggjoU/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-8BePxg6Wh2fV0vTELhV40WIIkZzA8q6AbKptdf+cRazn9sNHQQTRJjigOcFB/dqA"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><style data-merge-styles="true"></style>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- 		// 2023-07-18 Chuck Childers: Strip leftover numbers from htmlspecialchars scrub. TAP-15985. -->
     <title>CCC-BMG-MOON2-2 Army of the Unseen - Dungeon Masters Guild | Dungeon Masters Guild</title>
@@ -1124,11 +1124,15 @@ xajax_record_help_box_dismiss = function() { return xajax.request( { xjxfun: 're
 </span>
 				</li>
 
-				<img class="nav-bar-separator" src="/themes/dmg/images/divider.png" alt="">
+                <img class="nav-bar-separator" src="/themes/dmg/images/divider.png" alt="">
                 <li class="nav-bar-item">
-                    <a href="https://www.dmsguild.com/login.php" class="nav-bar-link login_window">Login</a>
+                    <a href="https://www.dmsguild.com/logoff.php" class="nav-bar-link">Logout</a>
                 </li>
-
+                <img class="nav-bar-separator" src="/themes/dmg/images/divider.png" alt="">
+                <li class="nav-bar-item">
+                    <a href="https://www.dmsguild.com/account.php" class="nav-bar-link">Account</a>
+                </li>
+	
                 <img class="nav-bar-separator" src="/themes/dmg/images/divider.png" alt="">
                 <li class="nav-bar-item">
                     <a href="https://www.dmsguild.com/my_library.php" class="nav-bar-link">My Library</a>
@@ -1141,654 +1145,7 @@ xajax_record_help_box_dismiss = function() { return xajax.request( { xjxfun: 're
             </ul>
         </div>
     </div>
- <div id="header-cart-widget" class=" grid hidden" array=""> <a href="https://www.dmsguild.com/shopping_cart.php"> <span class="site-button rounded-corners-button site-button-nitems"> <span class="rounded-corners-button-text" style="white-space:nowrap;">Cart</span> <div class="site-button site-button-nitems"> <i class="fa fa-shopping-cart" style="margin: 0 3 0 3; position:relative; top:-3px;"></i> </div> <div id="cart-widget-qty" class="site-button site-button-nitems"> 0</div> </span> </a> </div></div><div class="login-popup-forms">
-<script type="text/javascript">
-var show_login_create_popup = true;
-var show_login_create_message = '';
-$(document).ready(function() {
-	$.getScript('/includes/javascript/mailcheck.min.js');
-	$("#create_account").validationEngine('detach');
-	$("#create_account").validationEngine('detach');
-	$("#create_account").validationEngine('attach', {
-		promptPosition: "bottomRight",
-		scroll: false,
-		binded: false,
-		autoHidePrompt: true,
-		autoHideDelay: 5000,
-		onValidationComplete: function(form, status) {
-			if (status == true) {
-				$("#createaccountbutton").css('cursor', 'auto' );
-				$("#createaccountbutton").val("Please Wait");
-				$('#createaccountbutton').unbind('click');
-				$('#createaccountbutton').unbind('mouseover');
-				$('#createaccountbutton').removeClass('site-button-hover');
-
-				$("#create_account").validationEngine('detach');
-			}
-			return status;
-		}
-	});
-
-	$('a.create_account_window').click(function() {
-		// Only login a new customer if we started on a shopping cart page.
-		var this_location = "" + window.location; // Cast to a string.
-		var found = this_location.indexOf('shopping_cart.php');
-		// If not found, indexOf() will return a -1.
-		if (found == -1) {
-			login_new_customer('0');
-		} else {
-			login_new_customer('1');
-		}
-		return false;
-	});
-
-	$("#create_account_hide_password").click(function() {
-		var password = $("#create_account_password");
-		var password_hidden = $("#create_account_password_hidden");
-		var tabindex = 0;
-
-		if ($(this).get(0).checked) {
-			$("#password_hidden-wrapper").show();
-			$("#password-wrapper").hide();
-			tabindex = parseInt(password.attr('tabindex'));
-			password.attr("tabindex", -1);
-			password.css("display", "none");
-			password_hidden.css("display", "");
-			password_hidden.attr("tabindex", tabindex);
-			password_hidden.get(0).value = password.get(0).value;
-		} else {
-			$("#password_hidden-wrapper").hide();
-			$("#password-wrapper").show();
-			tabindex = parseInt(password_hidden.attr('tabindex'));
-			password_hidden.attr("tabindex", -1);
-			password_hidden.css("display", "none");
-			password.css("display", "");
-			password.attr("tabindex", tabindex);
-		}
-	});
-
-	$("#create_account_password_hidden").keyup(function() {
-		$("#create_account_password").get(0).value = $(this).get(0).value;
-	});
-
-	// When un-checking the "newsletters" checkbox, show the info
-	$("#create_account_default_newsletters").click(function() {
-		if (this.checked) {
-			$("#create_account_default_newsletters_info").fadeOut(300);
-		} else {
-			$("#create_account_default_newsletters_info").fadeIn(300);
-		}
-	});
-
-	// click on the close button or the login mask layer to close the popup
-	$('a.close').on('click' ,function(){
-		$('#create_account_mask , .create_account_popup').fadeOut(300 , function() {
-			$('#create_account_mask').remove();
-		});
-	});
-	$(document.body).on('click', '#create_account_mask' ,function(){
-		$('#create_account_mask , .create_account_popup').fadeOut(300 , function() {
-			$('#create_account_mask').remove();
-		});
-	});
-
-	var recaptchaLoginWidget;
-
-	// CSS button for submit
-	$('#createaccountbutton').on('click', function(e) {
-		if ($('form#create_account').validationEngine('validate')) {
-			grecaptcha.execute(recaptchaLoginWidget);
-		}
-		e.preventDefault();
-		return false;
-	});
-
-	$('#createaccountbutton').on('mouseover', function() {
-		$('#createaccountbutton').addClass('site-button-hover');
-	});
-
-	$('#createaccountbutton').on('mouseout', function() {
-		$('#createaccountbutton').removeClass('site-button-hover');
-	});
-
-	// Bind this keypress function to the inputs
-	$("#create_account_firstname,#create_account_lastname,#create_account_email_address,#create_account_password,#create_account_password_hidden").keypress(function (evt) {
-		// Determine where our character code is coming from within the event
-		var charCode = evt.charCode || evt.keyCode;
-		if (charCode  == 13) {
-			// Enter key's keycode
-			if ($('form#create_account').validationEngine('validate')) {
-				grecaptcha.execute(recaptchaLoginWidget);
-			}
-			evt.preventDefault();
-			return false;
-		}
-	});
-
-	$('#create_account_box .btn-facebook').click(function(e) {
-		e.preventDefault();
-		var href = $(this).attr('href');
-		var newsletter = $('#create_account_default_newsletters').is(':checked');
-		$.ajax({
-				url: 'https://www.dmsguild.com/includes/ajax/create_newsletter_session.php',
-				data: {newsletter: newsletter},
-				type: 'post'
-			}
-		).success(function(){
-				window.location = href;
-			});
-
-
-	});
-
-	$("#mail_misspelling_suggestions").css("display", "none");
-	$('#email_address').on('blur', function() {
-		$(this).mailcheck({
-			suggested: function(element, suggestion) {
-				// callback code
-
-				$("#suggestion_message").html('Did you mean "' + suggestion.full + '"?');
-				$("#mail_misspelling_suggestions").slideDown(400);
-			},
-			empty: function(element) {
-				// callback code
-				$("#mail_misspelling_suggestions").slideUp(300);
-			}
-		});
-	});
-});
-
-function login_new_customer(checkout_after_login) {
-	if (typeof checkout_after_login === 'undefined') {
-		checkout_value = '0';
-	} else if (typeof checkout_after_login === 'string') {
-		checkout_value = checkout_after_login;
-	} else {
-		checkout_value = checkout_after_login.toString();
-	}
-
-	if (document.forms["login"].elements["email_address"].value != '') {
-		new_email_value = document.forms["login"].elements["email_address"].value;
-		document.forms["create_account"].elements["email_address"].value = new_email_value;
-	}
-
-	if (document.forms["login"].elements["login_password"].value != '') {
-		new_pwd_value = document.forms["login"].elements["login_password"].value;
-		document.forms["create_account"].elements["create_account_password_hidden"].value = new_pwd_value;
-		document.forms["create_account"].elements["create_account_password"].value = new_pwd_value;
-	}
-
-	if (document.getElementById("login_mask") != null) {
-		$('#login_mask, .login_popup').fadeOut(300 , function() {
-			$('#login_mask').remove();
-		});
-	}
-
-	var loginBox = "#login_box";
-	var createAccountBox = "#create_account_box";
-
-	//Fade in the Popup
-	$(createAccountBox).fadeIn(300);
-	if (!show_login_create_popup) {
-		$(loginBox).hide();
-		$('.login-page .login-message').html(show_login_create_message);
-	}
-
-	if (show_login_create_popup) {
-		// Set the center alignment padding + border see css style
-		var popMargTop = ($(createAccountBox).height() + 24) / 2;
-		var popMargLeft = ($(createAccountBox).width() + 24) / 2;
-		$(createAccountBox).css({
-			'margin-left' : -popMargLeft
-		});
-		// hack for iPad
-		if (navigator.userAgent.match(/iPad/i)) {
-			$(createAccountBox).css({
-				'margin-left' : 0,
-				'left' : 0
-			});
-		}
-		// Add the create account mask to body
-		$('body').append('<div id="create_account_mask"></div>');
-		$('#create_account_mask').fadeIn(300);
-	}
-
-	$('#create_account_firstname').focus();
-	document.forms["login"].elements["checkout_after_login"].value = checkout_value;
-	document.forms["create_account"].elements["checkout_after_login"].value = checkout_value;
-
-	
-	return false;
-}
-
-// This method is called if email is not available, meaning this account already exists.
-// Validation requirement is removed from the name fields, then the form is submitted.
-function login_from_new_account_box() {
-
-	new_email_value = document.forms["create_account"].elements["email_address"].value;
-	document.forms["login"].elements["email_address"].value = new_email_value;
-	new_pwd_value = document.forms["create_account"].elements["create_account_password_hidden"].value;
-	if (new_pwd_value == '') {
-		new_pwd_value = document.forms["create_account"].elements["create_account_password"].value;
-	}
-	document.forms["login"].elements["login_password"].value = new_pwd_value;
-
-	$('#from_new_account_popup_text').show();
-	if ($('#from_new_account_popup_text').html() == '') {
-		$('#from_new_account_popup_text').append('<br /><br />Email already in use. Attempting to log you into existing account.');
-	}
-
-	$('#login_error_box').html('Error: Incorrect password.');
-
-	login_returning_customer();
-
-	$('#login').submit();
-
-	return false;
-}
-
-/**
- * Queries the server to see if this email is available. The script
- * actually checks to see if the email is in use and then inverts
- * the logic. This is the first of two checks for this, because
- * while this check is synchronous, it doesn't return the
- * alertTextOk message with the proper formatting. So the validation
- * checks this first to prevent the form from being submitted, and
- * then if this passes successfully the form makes an ajax call
- * directly to return the properly formatted alertTextOk message.
- *
- * @param	{jqObject}		field	the field where the validation applies
- * @param	{Array[String]}	rules	validation rules for this field
- * @param	{int}			i		rule index
- * @param	{Map}			options	form options
- * @return an error string if validation failed
- */
-function is_email_available(field, rules, i, options) {
-    var email_available = null;
-    $.ajaxSetup({async: false});
-    $.post(
-        'https://www.dmsguild.com/validate_email.php',
-        {
-            fieldId: 'email',
-            fieldValue: field.val()
-        },
-        function(data) {
-            email_available = (data[1]);
-        },
-        'json'
-    );
-    $.ajaxSetup({async: true});
-
-	if (email_available == false) {
-		return options.allrules.ajaxIsEmailAvailable.alertText;
-	}
-}
-
-</script>
-<script type="text/javascript">
-
-	$(function() {
-		$.getScript('https://www.google.com/recaptcha/api.js?render=explicit&onload=renderLoginRecaptcha');
-	});
-
-	function onSubmit_createAccount(token) {
-		$("#g-recaptcha-token").val(token);
-		$("#create_account").validationEngine('detach');
-		$("#create_account").submit();
-	}
-
-	function renderLoginRecaptcha() {
-		recaptchaLoginWidget = grecaptcha.render('login-recaptcha');
-	}
-
-</script>
-<div id="create_account_box" class="create_account_popup customer-popup">
-	<a href="#" class="close"><img src="/shared_images/popup_close_button.png" class="btn_close" title="Close Window" alt="Close"></a>
-	<div id="login-recaptcha" class="g-recaptcha" data-sitekey="6LfuT7IUAAAAAE3SHa5ucwB-p_iUzlHmGyQqLpNn" data-callback="onSubmit_createAccount" data-size="invisible"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-5a5r26slj69g" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfuT7IUAAAAAE3SHa5ucwB-p_iUzlHmGyQqLpNn&amp;co=aHR0cHM6Ly93d3cuZG1zZ3VpbGQuY29tOjQ0Mw..&amp;hl=en&amp;v=3jpV4E_UA9gZWYy11LtggjoU&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=15000&amp;cb=lf5dmgfa21qb"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-	<style type="text/css">
-		#hide_password-wrapper{
-			height:35px;
-			vertical-align:middle;
-		}
-		#mail_misspelling_suggestions {
-			margin: -10px 0 10px 0;
-			height: 15px;
-			padding: 5px;
-		}
-	</style>
-	<div class="popup-header">
-		<span class="title">
-			New Account			<span class="subtitle boxText">
-			(or <a tabindex="8" href="#login_box" class="login_window" onclick="return false;">
-			Log In</a>)
-						</span>
-			<span class="subtitle boxText" id="from_login_popup_text"></span>
-		</span>
-	</div>
-	<div class="popup-content-wrapper">
-		<div class="popup-content boxText popup-content-left">
-			<link rel="stylesheet" type="text/css" href="/includes/classes/obs/resources/form/css/form.css">
-<script type="text/javascript" src="/includes/libraries/jQuery/1.11.1-min/plugins/jquery.once.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/includes/libraries/jQuery/1.11.1-min/plugins/jquery.form.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/includes/classes/obs/resources/form/js/form.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/includes/classes/obs/resources/form/js/collapse.js" charset="UTF-8"></script>
-<script type="text/javascript"></script>
-<form id="create_account" name="create_account" class="form-wrapper form-form form-create_account" action="https://www.dmsguild.com/create_account.php" method="POST" accept-charset="UTF-8" enctype="multipart/form-data"><span><input id="action" name="action" class="form-parent-create_account form-hidden form-action" value="process" type="hidden">
-<input id="origin" name="origin" class="form-parent-create_account form-hidden form-origin" value="new_customer_popup" type="hidden">
-<input id="checkout_after_login" name="checkout_after_login" class="form-parent-create_account form-hidden form-checkout_after_login" value="0" type="hidden">
-<input id="redirect_url" name="redirect_url" class="form-parent-create_account form-hidden form-redirect_url" value="/product/267912/?affiliate_id=171040" type="hidden">
-<input id="g-recaptcha-token" name="g-recaptcha-token" class="form-parent-create_account form-hidden form-g-recaptcha-token" value="" type="hidden">
-<input id="customers_referral" name="customers_referral" class="form-parent-create_account form-hidden form-customers_referral" value="fid45470||also_purchased|by_author_of_product|legacy|fid1000043|newest_in_al|fid45882" type="hidden">
-<fieldset class="form-parent-create_account form-wrapper form-fieldset form-field-name container-inline form-wrapper form-collapsible collapse-processed" id="field-name" name="field-name"><div class="fieldset-wrapper"><div id="firstname-wrapper" class="wrapper form-element-wrapper"><input type="text" id="firstname" placeholder="First Name" tabindex="1" class="form-parent-field-name form-element form-text form-firstname boxText validate[required]" title="First Name" name="firstname" value="" size="60"></div>
-<div id="lastname-wrapper" class="wrapper form-element-wrapper"><input type="text" id="lastname" placeholder="Last Name" tabindex="2" class="form-parent-field-name form-element form-text form-lastname boxText validate[required]" title="Last Name" name="lastname" value="" size="60"></div>
-</div></fieldset>
-<div id="email_address-wrapper" class="wrapper form-element-wrapper"><input type="text" id="email_address" placeholder="Email" tabindex="3" class="form-parent-create_account form-element form-text form-email_address boxText validate[required,custom[email],funcCall[is_email_available]]" title="Email" name="email_address" value="" size="60"></div>
-				<div id="mail_misspelling_suggestions" class="alert-warning" style="display: none;">
-					<i class="fa fa-warning"></i>
-					<span id="suggestion_message"></span>
-				</div>
-<fieldset class="form-parent-create_account form-wrapper form-fieldset form-field-pass-wrapper container-inline form-wrapper form-collapsible collapse-processed" id="field-pass-wrapper" name="field-pass-wrapper"><div class="fieldset-wrapper"><div id="password_hidden-wrapper" class="wrapper form-element-wrapper"><span class="form-pass-wrapper form-pass-span"><input placeholder="Password" tabindex="-1" class="form-parent-field-pass-wrapper form-element form-password form-password_hidden boxText validate[required,minSize[5]]" title="Password" autcomplete="off" id="create_account_password_hidden" name="password_hidden" value="" type="password"></span></div>
-<div id="password-wrapper" class="wrapper form-element-wrapper"><input type="text" placeholder="Password" tabindex="4" class="form-parent-field-pass-wrapper form-element form-text form-password boxText validate[required,minSize[5]] pass" title="Password" style="display: none;" autocomplete="off" id="create_account_password" name="password" value="" size="60"></div>
-<div id="hide_password-wrapper" class="wrapper form-element-wrapper"><input type="checkbox" value="" tabindex="5" checked="checked" id="create_account_hide_password" name="hide_password" class="form-parent-field-pass-wrapper form-element form-checkbox form-hide_password form-checkbox"><label class="label-r" for="create_account_hide_password">Hide my password</label></div><style>#hide_password-wrapper{white-space:nowrap;}</style>
-</div></fieldset>
-<div id="default_newsletters-wrapper" class="wrapper form-element-wrapper"><input type="checkbox" value="" tabindex="6" id="create_account_default_newsletters" name="default_newsletters" class="form-parent-create_account form-element form-checkbox form-default_newsletters form-checkbox"><label class="label-r" for="create_account_default_newsletters">Get the newsletter</label></div>
-				<div id="create_account_default_newsletters_info" class="alert alert-danger warningText">
-					<i class="fa fa-warning"></i>
-					<span class="warning">Subscribe to get the free product of the week!<br> One-click unsubscribe later if you don't enjoy the newsletter.</span>
-				</div>
-<input id="field-form-id" name="field-form-id" class="form-parent-create_account form-hidden form-field-form-id" value="create_account" type="hidden">
-<input id="field-form-time" name="field-form-time" class="form-parent-create_account form-hidden form-field-form-time" value="1752975517" type="hidden">
-<input id="field-form-token" name="field-form-token" class="form-parent-create_account form-hidden form-field-form-token" value="create_account" type="hidden">
-</span></form>			<div class="submit_button create-account-button alpha omega last">
-				<div id="createaccountbutton-wrapper" ontouchend="$(this).find('input').click();" onmouseup="$(this).find('input').click();" class="form-button-wrapper form-button-div site-button rounded-corners-button" style=""><input tabindex="7" id="createaccountbutton" class="site-button rounded-corners-button-text" type="submit" value="Create Account" name="clicked_element"></div>
-			</div>
-		</div>
-				<div class="popup-content standardText popup-content-right">
-			<div class="last social-buttons-wrapper"><a href="https://www.facebook.com/v2.10/dialog/oauth?client_id=1178097535547895&amp;state=531c145a73fc41568f1b9715a360eedf&amp;response_type=code&amp;sdk=php-sdk-5.6.1&amp;redirect_uri=https%3A%2F%2Fwww.dmsguild.com%2Ffacebook%2Ffacebook_sign_up_action.php&amp;scope=email%2Cpublic_profile%2Cuser_friends" class="site-button btn-facebook"><i class="fa fa-2x fa-facebook"></i>Log In with Facebook</a></div>
-		</div>
-			</div>
-</div>
-<script type="text/javascript">
-var show_login_return_popup = true;
-var show_login_return_message = '';
-var _login_validated = false;
-
-// Get ready with the rest of the login.
-$(document).ready(function() {
-	// Hide login error.
-	$('#login_failure_warning').hide();
-	// Setup the validation engine. Detach b/c repeated readys.
-	$("#login").validationEngine('detach');
-	$("#login").validationEngine('detach');
-	$("#login").validationEngine('attach', {
-		promptPosition: "bottomRight", 
-		scroll: false,
-		binded: false,
-		autoHidePrompt: true, 
-		autoHideDelay: 15000,
-		ajaxFormValidation: true,
-		ajaxFormValidationURL: 'https://www.dmsguild.com/validate_login_credentials.php',
-		ajaxFormValidationMethod: 'post',
-		onBeforeAjaxFormValidation: beforeAjaxValidationCallback,
-		onAjaxFormComplete: afterAjaxValidationCallback
-	});
-
-	// This function is triggered at form submission BUT runs repeatedly.
-	// Ajax form validation runs for EVERY value and the final form.
-	// So here we limit the # of times we call to validate credits.
-	function beforeAjaxValidationCallback(form, options) {
-		$('#login_failure_warning').hide();
-		$('#login').validationEngine('hideAll');
-		if (!_login_validated) {
-			// Add that we've called to validate the form here.
-			_login_validated = true;
-			return true;
-		}
-		// Prevent another call until returned submit.
-		return false;
-	}
-
-// Called once the server replies to the ajax form validation request
-// This is called multiple times, one for each validation round.
-// We do NOT want to validate more than once, or submit more than once.
-function afterAjaxValidationCallback(status, form, json, options) {
-	// Reset the validation state.
-	_login_validated = false;
-	// Get the error state from the callback.
-	var error_state = json[1];
-	if (!error_state) {
-		var error_message = json[2];
-		if (error_message == 'Locked') {
-			$('#login_failure_warning .common-error').show();
-			$('#login_failure_warning .special-error').hide();
-		}
-		else {
-			$('#login_failure_warning .special-error').html(error_message);
-			$('#login_failure_warning .special-error').show();
-		}
-		$('#login_failure_warning').show();
-		setTimeout(function() { $('#from_new_account_popup_text').fadeOut('slow'); }, 5000);
-		setTimeout(function() { $('#from_new_account_popup_text').html(''); }, 7000);
-		// Return early to avoid submission.
-		return;
-	}
-	// Unbinds, we're about to submit this form.
-	$("#loginbutton").css('cursor', 'auto' );
-	$("#loginbutton").val("Please Wait");
-	$('#loginbutton').off('click');
-	$('#loginbutton').off('mouseover');
-	$('#loginbutton').removeClass('site-button-hover');
-    form.validationEngine('detach');
-    $( "#login" )[0].submit();
-}
-
-	// When we click on the facebook link a blur event
-	// is called on any input we were previously in.
-	// This blur is what kicks off validation and err display.
-	// So since we want to focus the user on initial page load,
-	// we then need to intercept the blur IIF facebook login clicked.
-	// Catching it on .click() still gives a split second of the err showing.
-	var clicked_element;
-    $(document).mousedown(function(event) {
-        clicked_element = $(event.target);
-    });
-    $(document).mouseup(function(event) {
-        clicked_element = null;
-    });
-	$('#login input').blur(function(blur_event) {
-		blur_event.stopPropagation();
-		// And try to interrupt the blur before it can cause validation.
-		$(clicked_element).parents('#fb_login_button').each(function() {
-			// So we hide the error display here before continuing.
-			// Why inject a style? Because this occurs before blur completes,
-			// the error divs aren't in place yet. Since they're non-existent
-			// I can't use jquery to select for them to use .hide().
-			// So even if the error is triggered, it's automatically hidden.
-			var new_style = '<style>div.formError{display:none;}</style>';
-			$('#login').before(new_style);
-		});
-	});
-	// End Facebook login JS for errors.
-
-	$('a.login_window').click(function() {
-		// Only login a new customer if we started on a shopping cart page.
-		var this_location = "" + window.location; // Cast to a string.
-		var found = this_location.indexOf('shopping_cart.php');
-		// If not found, indexOf() will return a -1.
-		if (found == -1) {
-			login_returning_customer('0');
-		} else {
-			login_returning_customer('1');
-		}
-		return false;
-	});
-
-	// click on the close button or the login mask layer to close the popup
-	$('a.close').on('click', function() {
-		$('#login_mask , .login_popup').fadeOut(300 , function() {
-			$('#login_mask').remove();  
-		});
-	});
-	$(document.body).on('click', '#login_mask' ,function(){
-		$('#login_mask , .login_popup').fadeOut(300 , function() {
-			$('#login_mask').remove();
-		});
-	});
-
-	// CSS button for submit
-	$('#loginbutton').on('click', function(e) {
-		$('#login').submit();
-	});
-
-	$('#login').submit(function(e){
-		if( $(this).hasClass('form-submitted') ){
-			e.preventDefault();
-			return;
-		}
-		$(this).addClass('form-submitted');
-	});
-
-	$('#loginbutton').on('mouseover', function() {
-		$(this).addClass('site-button-hover');
-	});
-
-	$('#loginbutton').on('mouseout', function() {
-		$(this).removeClass('site-button-hover');
-	});
-
-	// Bind this key-press function to the inputs
-	$("#login_email_address,#login_password").keypress(function (evt) {
-		// Determine where our character code is coming from within the event
-		var charCode = evt.charCode || evt.keyCode;
-		if (charCode  == 13) {
-			// Enter key keycode
-			$('#login').submit();
-		}
-	});
-});
-
-function login_returning_customer(checkout_after_login) {
-	if (typeof checkout_after_login === 'undefined') {
-		checkout_value = '0';
-	} else if (typeof checkout_after_login === 'string') {
-		checkout_value = checkout_after_login;
-	} else {
-		checkout_value = checkout_after_login.toString();
-	}
-
-	if (document.getElementById("create_account_mask") != null) {
-		$('#create_account_mask, .create_account_popup').fadeOut(300 , function() {
-			$('#create_account_mask').remove();
-		});
-	}
-
-	var loginBox = "#login_box";
-	var createAccountBox = "#create_account_box";
-
-	//Fade in the Popup
-	$(loginBox).fadeIn(300);
-	if (!show_login_return_popup) {
-		$(createAccountBox).hide();
-		$('.login-page .login-message').html(show_login_return_message);
-	}
-
-	if (show_login_return_popup) {
-		// Set the center alignment padding + border see css style
-		var popMargLeft = ($(loginBox).width() + 24) / 2; 
-		$(loginBox).css({ 
-			'margin-left' : -popMargLeft
-		});
-		// hack for iPad
-		if (navigator.userAgent.match(/iPad/i)) {
-			$(loginBox).css({ 
-				'margin-left' : 0,
-				'left' : 0
-			});
-		}
-		// Add the login mask to body
-		$('body').append('<div id="login_mask"></div>');
-		$('#login_mask').fadeIn(300);
-	}
-
-	if ($("#login_email_address").val().length > 0) {
-		$('#login_password').focus();
-	} else {
-		$('#login_email_address').focus();
-	}
-
-	$('form [name="login"] [name="checkout_after_login"]').val(checkout_value);
-	$('form [name="create_account"] [name="checkout_after_login"]').val(checkout_value);
-
-	return false;
-}
-
-// This method is called if email validation fails.
-// It switches the display from the login box to the new customer box
-// while maintaining customer input
-function switch_to_new_customer() {
-
-	$('.formError').fadeTo(0, 0);
-
-	new_email_value = document.forms["login"].elements["email_address"].value;
-	document.forms["create_account"].elements["email_address"].value = new_email_value;
-	new_pwd_value = document.forms["login"].elements["login_password"].value;
-	document.forms["create_account"].elements["create_account_password_hidden"].value = new_pwd_value;
-	document.forms["create_account"].elements["create_account_password"].value = new_pwd_value;
-
-	if ($('#from_login_popup_text').html() == '') {
-		$('#from_login_popup_text').append('<br /><br />We could not find an account with that email. Please enter your name to create a new account.');
-	}
-
-	login_new_customer();
-
-	return false;
-}
-
-function setRedirect(href_link) {
-	$('input[name=redirect_url]').val(href_link);
-}
-
-</script>
-
-
-<div id="login_box" class="login_popup customer-popup">
-	<a href="#" class="close"><img src="/shared_images/popup_close_button.png" class="btn_close" title="Close Window" alt="Close"></a>
-	<div class="popup-header">
-		<span class="title">
-			Log In			<span class="subtitle boxText">
-				(<a tabindex="6" href="#create_account_box" class="boxText create_account_window" onclick="return false;">I am new here</a>)
-			</span>
-		</span>
-		<span class="subtitle boxText" id="from_new_account_popup_text"></span>
-	</div>
-	<div class="popup-content-wrapper">
-		<div class="popup-content standardText popup-content-left">
-			<form id="login" name="login" class="form-wrapper form-form form-login" action="https://www.dmsguild.com/login.php" method="POST" accept-charset="UTF-8" enctype="multipart/form-data"><span><input id="action" name="action" class="form-parent-login form-hidden form-action" value="process" type="hidden">
-<input id="origin" name="origin" class="form-parent-login form-hidden form-origin" value="returning_customer_popup" type="hidden">
-<input id="checkout_after_login" name="checkout_after_login" class="form-parent-login form-hidden form-checkout_after_login" value="0" type="hidden">
-<input id="redirect_url" name="redirect_url" class="form-parent-login form-hidden form-redirect_url" value="/product/267912/?affiliate_id=171040" type="hidden">
-<div id="email_address-wrapper" class="wrapper form-element-wrapper"><input type="text" id="login_email_address" placeholder="Email" tabindex="1" class="form-parent-login form-element form-text form-email_address boxText validate[required,custom[email],ajax[ajaxIsLoginValid]]" title="Email" name="email_address" value="chapmand@gmail.com" size="60"></div>
-<fieldset class="form-parent-login form-wrapper form-fieldset form-field-pass-wrapper container-inline form-wrapper form-collapsible collapse-processed" id="field-pass-wrapper" name="field-pass-wrapper"><div class="fieldset-wrapper"><div id="password-wrapper" class="wrapper form-element-wrapper"><span class="form-pass-wrapper form-pass-span"><input placeholder="Password" tabindex="2" class="form-parent-field-pass-wrapper form-element form-password form-password boxText validate[required,minSize[5]]" title="Password" autocomplete="off" id="login_password" name="password" value="" type="password"></span></div><a class="forgot-password boxText" tabindex="7" href="https://www.dmsguild.com/password_forgotten.php">Forgot password?</a>
-</div></fieldset>
-<div id="remember_me-wrapper" class="wrapper form-element-wrapper"><input type="checkbox" value="" id="login_remember_me" tabindex="3" name="remember_me" class="form-parent-login form-element form-checkbox form-remember_me form-checkbox"><label class="label-r" for="login_remember_me">Remember me</label></div>
-<input id="field-form-id" name="field-form-id" class="form-parent-login form-hidden form-field-form-id" value="login" type="hidden">
-<input id="field-form-time" name="field-form-time" class="form-parent-login form-hidden form-field-form-time" value="1752975517" type="hidden">
-<input id="field-form-token" name="field-form-token" class="form-parent-login form-hidden form-field-form-token" value="login" type="hidden">
-</span><input type="hidden" name="login_csrf_code" value="GfnOQwNl6fwApy94NtZdokeSCPj2btKr"></form>			<div class="submit_button login-button alpha omega last">
-				<div id="loginbutton-wrapper" ontouchend="$(this).find('input').click();" onmouseup="$(this).find('input').click();" class="form-button-wrapper form-button-div site-button rounded-corners-button" style=""><input tabindex="4" style="vertical-align:middle" id="loginbutton" class="site-button rounded-corners-button-text" type="submit" value="Log In" name="clicked_element"></div>
-			</div>
-			<div id="login_failure_warning" style="display: none;">
-				<span class="warning">
-					<span class="common-error boxText" id="login_error_box">Error: No match for email address or password.</span><br>
-					<span class="special-error boxText"></span><br>
-					<a href="https://www.dmsguild.com/password_forgotten.php">Password forgotten? Click here.</a>				</span>
-							</div>
-		</div>
-					<div class="popup-content standardText popup-content-right">
-				<div class="last social-buttons-wrapper"><a href="https://www.facebook.com/v2.10/dialog/oauth?client_id=1178097535547895&amp;state=bfe35603c6be6ca631eaac9806fc2669&amp;response_type=code&amp;sdk=php-sdk-5.6.1&amp;redirect_uri=https%3A%2F%2Fwww.dmsguild.com%2Ffacebook%2Ffacebook_sign_up_action.php&amp;scope=email%2Cpublic_profile%2Cuser_friends" class="site-button btn-facebook"><i class="fa fa-2x fa-facebook"></i>Log In with Facebook</a></div>
-			</div>
-			</div>
-</div></div>		<script type="application/javascript" src="/includes/javascript/iscroll/iscroll.js"></script>
+ <div id="header-cart-widget" class=" grid hidden" array=""> <a href="https://www.dmsguild.com/shopping_cart.php"> <span class="site-button rounded-corners-button site-button-nitems"> <span class="rounded-corners-button-text" style="white-space:nowrap;">Cart</span> <div class="site-button site-button-nitems"> <i class="fa fa-shopping-cart" style="margin: 0 3 0 3; position:relative; top:-3px;"></i> </div> <div id="cart-widget-qty" class="site-button site-button-nitems"> 0</div> </span> </a> </div></div>		<script type="application/javascript" src="/includes/javascript/iscroll/iscroll.js"></script>
 		
 <script>
 
@@ -3564,7 +2921,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
                                 display: block;position:relative;top:-5px;background:transparent;                                }
                             </style>
 							<div id="addtocartbutton-wrapper" ontouchend="$(this).find('input').click();" onmouseup="$(this).find('input').click();" class="form-button-wrapper form-button-div site-button rounded-corners-button" style=""><input id="addtocartbutton" class="site-button rounded-corners-button-text" type="submit" value="ADD TO CART" name="clicked_element"><div class="site-button-cart"></div></div>
-<div class="alpha omega wishlist-buttons" style="position:relative;z-index:100;">                            <div id="addtowishbutton">
+<div class="alpha omega wishlist-buttons" style="position:relative;z-index:100;"><div id="addtowishbutton-twostep" class="hidden" style="display:none;"><div class="form-element form-wrapper wishlist-select-wrapper"><select name="view_wishlist" class="form-element form-select wish-button-select"><option value="1022265" selected="selected">My Wishlist (default)</option><option value="1946265">AL</option><option value="1946266">OSR Revolution</option><option value="1946267">Gossamer and Shadow</option><option value="2057899">AL-NL</option><option value="2514094">oldskull</option><option value="3601033">EB-OoW</option></select></div></div>                            <div id="addtowishbutton">
                                 <span class="wish-button wish-button-text">ADD&nbsp;TO&nbsp;WISHLIST &gt;</span>
                             </div>
                         </div>
@@ -3669,10 +3026,129 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 							                    </div>
                 </div>
 				    <div class="grid_2 product-report">
-		            <a href="#" onclick="return false;" class="login_window">
-                <div class="flag-link">Report this title</div>
+		            <a href="#" onclick="return false;" class="flag-link" id="flag_inappropriate">
+                <div>Report this title</div>
             </a>
-			    </div>
+		            <div id="login_box" class="login_popup customer-popup">
+                <a href="#" class="close" onclick="close_popup();return false;"><img src="/shared_images/popup_close_button.png" class="btn_close" title="Close Window" alt="Close"></a>
+                <div class="infoBoxHeading">
+                    Please tell us what's wrong
+                </div>
+				                    <div id="flag-form" class="boxText">
+						                            <p>
+                                <input id="4" type="radio" name="flag_type" value="4">
+                                <label for="4">This title has offensive content.</label>
+                            </p>
+						                            <p>
+                                <input id="5" type="radio" name="flag_type" value="5">
+                                <label for="5">This title is using copyrighted or trademarked material.</label>
+                            </p>
+						                            <p>
+                                <input id="6" type="radio" name="flag_type" value="6">
+                                <label for="6">There is a problem with this title's file(s).</label>
+                            </p>
+						                            <p>
+                                <input id="3" type="radio" name="flag_type" value="3">
+                                <label for="3">Other</label>
+                            </p>
+						
+                        <textarea name="flag_desc" rows="4" placeholder="Enter a description. If you are reporting offensive content, please cite specific page numbers and passages so we can understand the issue."></textarea>
+
+                        <div><i>If you're having technical issues (e.g. can't download after purchasing), please <a href="/contact_us.php">report it here</a> instead.</i></div>
+
+                        <div class="flag_buttons">
+								<span onclick="send_flag_report(this);">
+										<span class="site-button rounded-corners-button rounded-corners-button-width"> <span class="rounded-corners-button-text" style="white-space:nowrap;">Send</span> </span>								</span>
+                            <span onclick="close_popup();">
+										<span class="site-button rounded-corners-button rounded-corners-button-width"> <span class="rounded-corners-button-text" style="white-space:nowrap;">Cancel</span> </span>								</span>
+                        </div>
+                        <div id="waiting"><i class="fa fa-spinner fa-pulse fa-2x"></i></div>
+                    </div>
+					                <div id="flag-message" style="display:none;">
+                    <div id="success-message" class="boxText">
+                    </div>
+                    <div class="flag_buttons">
+                        <span></span>
+                        <span class="close" onclick="close_popup();">
+									<span class="site-button rounded-corners-button rounded-corners-button-width"> <span class="rounded-corners-button-text" style="white-space:nowrap;">Close</span> </span>							</span>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                var close_popup = function (callback) {
+                    $('#login_box').fadeOut(100);
+                    $('#create_account_mask').fadeOut(300);
+                    if (typeof callback === 'function') {
+                        setTimeout(callback, 300);
+                    }
+                };
+                var send_flag_report = function (element) {
+                    var $elem = $(element);
+                    var $main = $elem.closest('.boxText');
+                    var flag_option_id = $main.find('input[name=flag_type]:checked').val();
+                    var description = $main.find('textarea[name=flag_desc]').val();
+
+                    if (typeof flag_option_id === 'undefined') {
+                        alert('You must select an option.');
+                        return;
+                    }
+                    if (description.length === 0) {
+                        alert('Please introduce a description.');
+                        return;
+                    }
+
+                    $main.find('.flag_buttons').hide();
+                    $main.find('#waiting').show();
+
+                    var data = {
+                        flag_option_id: flag_option_id,
+                        user_description: description,
+                        site_index: '29'
+                    };
+                    $.ajax({
+                        type: 'POST',
+                        url: '/api/products/267912/flag',
+                        data: data,
+                        success: function (json_response) {
+                            if (json_response.status === 'success') {
+                                $('.flag-link').hide();
+                                $('#flag-form').hide();
+                                $('#success-message').html(json_response.message);
+                                $('#flag-message').show();
+                            } else {
+                                alert(json_response.message);
+                                close_popup(function () {
+                                    $main.find('#waiting').hide();
+                                    $main.find('.flag_buttons').show();
+                                });
+                            }
+                        },
+                        error: function () {
+                            alert("An error occurred, please reload and try again.");
+                            close_popup(function () {
+                                $main.find('#waiting').hide();
+                                $main.find('.flag_buttons').show();
+                            });
+                        }
+                    });
+                };
+                $(function(){
+                    $('#flag_inappropriate').click(function (e) {
+                        //Dark-transparent background:
+                        if ($('#create_account_mask').length === 0) {
+                            var $dark_mask = $('<div id="create_account_mask"></div>').click(close_popup);
+                            $('body').append($dark_mask);
+                        }
+                        $('#create_account_mask').fadeIn(300);
+
+                        //The same for the popup content:
+                        $('#login_box').fadeIn(300);
+                    });
+                });
+            </script>
+
+		    </div>
 	        </div>
         <div class="clear"></div>
         <div class="alpha omega prod-content">
@@ -3690,7 +3166,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 			<div style="float: left">
 				&nbsp;More from this Title's Contributors
 			</div>
-			<div class="slider_switcher" style="float: right; line-height: 0px" elem_id="5704bbe"><a href="#" class="switch_view_button" style="outline:0;" name="slider_view">
+			<div class="slider_switcher" style="float: right; line-height: 0px" elem_id="4cd2182"><a href="#" class="switch_view_button" style="outline:0;" name="slider_view">
 					<img src="/shared_images/icon_slider_view_on.png" alt="Slider view">
 				</a>
 				<a href="#" class="switch_view_button" style="outline:0;" name="list_view">
@@ -3701,7 +3177,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 				</a>&nbsp;
 			</div><script>
 					$(document).ready(function() {
-						$('.slider_switcher[elem_id="5704bbe"]').on('click', 'a.switch_view_button', function(e) {
+						$('.slider_switcher[elem_id="4cd2182"]').on('click', 'a.switch_view_button', function(e) {
 							e.preventDefault();
 
 							var slider_id = $(this).parent().attr('elem_id');
@@ -3724,7 +3200,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 						});
 					});
 				</script></div>
-<table id="5704bbe" class="infoBox strip_content" style="overflow:hidden;border:none;width:100%;border-spacing:0;">
+<table id="4cd2182" class="infoBox strip_content" style="overflow:hidden;border:none;width:100%;border-spacing:0;">
                     <tbody><tr>
                         <td>
                             <div class="owl-products-carousel owl-carousel" style="height: 200px;">
@@ -3737,15 +3213,15 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 					if(typeof lazySliders == 'undefined'){
 						lazySliders = [];
 					}
-					$('#5704bbe').appear(function(){
+					$('#4cd2182').appear(function(){
 						var opts = {
-							elem_id: '5704bbe',
+							elem_id: '4cd2182',
 							view_type: 'slider_view',
 							api_url: '/api/products/list/by_author_of_product?products_id=267912',
 							
 						};
-						lazySliders['5704bbe'] = lazySliderBox(opts);
-						lazySliders['5704bbe'].update();
+						lazySliders['4cd2182'] = lazySliderBox(opts);
+						lazySliders['4cd2182'].update();
 					});
 				});
 			</script><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/pixel_trans.gif" border="0" alt="pixel_trans.gif" width="100%" height="10">        <div class="clear"></div>
@@ -3754,7 +3230,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 			<div style="float: left">
 				&nbsp;Customers Who Bought this Title also Purchased
 			</div>
-			<div class="slider_switcher" style="float: right; line-height: 0px" elem_id="e66e73f"><a href="#" class="switch_view_button" style="outline:0;" name="slider_view">
+			<div class="slider_switcher" style="float: right; line-height: 0px" elem_id="a01e9fc"><a href="#" class="switch_view_button" style="outline:0;" name="slider_view">
 					<img src="/shared_images/icon_slider_view_on.png" alt="Slider view">
 				</a>
 				<a href="#" class="switch_view_button" style="outline:0;" name="list_view">
@@ -3765,7 +3241,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 				</a>&nbsp;
 			</div><script>
 					$(document).ready(function() {
-						$('.slider_switcher[elem_id="e66e73f"]').on('click', 'a.switch_view_button', function(e) {
+						$('.slider_switcher[elem_id="a01e9fc"]').on('click', 'a.switch_view_button', function(e) {
 							e.preventDefault();
 
 							var slider_id = $(this).parent().attr('elem_id');
@@ -3788,7 +3264,7 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 						});
 					});
 				</script></div>
-<table id="e66e73f" class="infoBox strip_content" style="overflow:hidden;border:none;width:100%;border-spacing:0;">
+<table id="a01e9fc" class="infoBox strip_content" style="overflow:hidden;border:none;width:100%;border-spacing:0;">
                     <tbody><tr>
                         <td>
                             <div class="owl-products-carousel owl-carousel" style="height: 200px;">
@@ -3801,15 +3277,15 @@ The Moonshae Isles, beautiful and dangerous, provide adventurers the opportu">
 					if(typeof lazySliders == 'undefined'){
 						lazySliders = [];
 					}
-					$('#e66e73f').appear(function(){
+					$('#a01e9fc').appear(function(){
 						var opts = {
-							elem_id: 'e66e73f',
+							elem_id: 'a01e9fc',
 							view_type: 'slider_view',
 							api_url: '/api/products/list/also_purchased?products_id=267912',
 							
 						};
-						lazySliders['e66e73f'] = lazySliderBox(opts);
-						lazySliders['e66e73f'].update();
+						lazySliders['a01e9fc'] = lazySliderBox(opts);
+						lazySliders['a01e9fc'].update();
 					});
 				});
 			</script><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/pixel_trans.gif" border="0" alt="pixel_trans.gif" width="100%" height="10">
@@ -3842,9 +3318,34 @@ g_id_product = 267912;
 g_MAX_COMMENT_SIZE = 10000;
 </script>
 
-	<div class="co_no_login">
-		Please <a href="https://www.dmsguild.com/login.php">log in</a> to add or reply to comments.	
+<div class="co_new_comment standardText standardContent">
+	<div class="lblock">
+					<img class="avatar" alt="Customer avatar" src="https://www.gravatar.com/avatar/be49c3d98d5a1de5f3d4c4a5267e7d60?s=43&amp;d=mm&amp;r=g">
+		            <div class="g_comment_edit">(<a href="https://en.gravatar.com/" target="_blank">edit</a>)</div>
 	</div>
+		<div class="blockflex">
+		<div class="comment_title">
+			<span>Daniel C</span>
+			<span class="ml5 datetime">July 20, 2025 4:57 am EST</span>
+		</div>
+		<div class="co_area_new_comment">
+			<textarea id="new_comment" first="">Enter comment here. If you need to report a problem with this title, please use the Contact Us link in the footer.</textarea>
+		</div>
+	</div>
+	<div class="clear"></div>
+	
+	<div class="lblock"></div>
+	<div class="blockflex">
+		<!-- <span id="add_new_comment" class="g_comment_button"></span>-->
+		 <div id="add_new_comment" class="cart-buttons" array=""> <a href="#"> <span class="site-button rounded-corners-button "> <span class="rounded-corners-button-text" style="white-space:nowrap;">Add my comment</span> </span> </a> </div>		<span class="g_sending_note">Saving comment...</span>
+		<span class="g_msg_limit_size">The text size limit is 10000 characters</span>
+		
+		<span class="new_comment_info" align="right">
+			You have 10 minutes to edit your comment after posting.		</span>
+	</div>
+	<div class="clear"></div>
+	
+</div>
 <div id="list_comments">
 	
 	<div class="g_comment" scroll_id_comment="136622" id="comment_136622">
@@ -3861,11 +3362,17 @@ g_MAX_COMMENT_SIZE = 10000;
 								<div class="comment_label ">
 									</div>
 			</div>
+						<div class="comment_ctrls">
+									<img class="inappropriate " title="Flag comment as inappropriate." src="/includes/g_comments_widget/views/img/DT_icon_inappropriate.png" id_comment="136622" alt="Mark as inappropriate">
+
+											</div>
 						<div class="clear"></div>
 
 			<div class="comment_sep"></div>
 			<div class="comment_body">
 				Question about the farmstead. What does "This is a T1 property," mean? Do you not own it anymore when you leave T1?			</div>
+						<div class="comment_reply g_comment_button grey" id_comment="136622">
+				Reply			</div>
 					</div>
 		<div class="clear"></div>
 	</div>
@@ -3884,11 +3391,17 @@ g_MAX_COMMENT_SIZE = 10000;
 								<div class="comment_label purchaser">
 					PURCHASER				</div>
 			</div>
+						<div class="comment_ctrls">
+									<img class="inappropriate " title="Flag comment as inappropriate." src="/includes/g_comments_widget/views/img/DT_icon_inappropriate.png" id_comment="107952" alt="Mark as inappropriate">
+
+											</div>
 						<div class="clear"></div>
 
 			<div class="comment_sep"></div>
 			<div class="comment_body">
 				I got to play this a few months ago and DMed it last week at my FLGS' game day. Really enjoyed this adventure both times. There is enough information to really set a creepy mood. Players were jumpy. I had my entire table searching for the source of the slammed door at the farmhouse (it's the wind). They skulks make for devastating Tier 1 foes before players catch onto what's going on. The puzzle is just enough to be interesting without stopping game flow. There're few opportunities for RP with NPCs. Usually this lack is because RP is left as an afterthought, but it really made sense for this setting.			</div>
+						<div class="comment_reply g_comment_button grey" id_comment="107952">
+				Reply			</div>
 					</div>
 		<div class="clear"></div>
 	</div>
@@ -3907,11 +3420,17 @@ g_MAX_COMMENT_SIZE = 10000;
 								<div class="comment_label purchaser">
 					PURCHASER				</div>
 			</div>
+						<div class="comment_ctrls">
+									<img class="inappropriate " title="Flag comment as inappropriate." src="/includes/g_comments_widget/views/img/DT_icon_inappropriate.png" id_comment="95065" alt="Mark as inappropriate">
+
+											</div>
 						<div class="clear"></div>
 
 			<div class="comment_sep"></div>
 			<div class="comment_body">
 				As I am planning to run this module on the Thursday, I have a question for authors - would there be a nice Moonshae-style logsheet, as it was for MOON 2-1? My players liked it very much and I hoped to give them a new list after any new Moonshae game.			</div>
+						<div class="comment_reply g_comment_button grey" id_comment="95065">
+				Reply			</div>
 					</div>
 		<div class="clear"></div>
 	</div>
@@ -3932,11 +3451,17 @@ g_MAX_COMMENT_SIZE = 10000;
 								<div class="comment_label creator">
 					CREATOR				</div>
 			</div>
+						<div class="comment_ctrls">
+									<img class="inappropriate " title="Flag comment as inappropriate." src="/includes/g_comments_widget/views/img/DT_icon_inappropriate.png" id_comment="95127">
+								
+			</div>
 						<div class="clear"></div>
 
 			<div class="comment_sep"></div>
 			<div class="comment_body">
 				Yes there will be. Uploading that and more right now.			</div>
+						<div class="comment_reply g_comment_button grey" id_comment="95065">
+				Reply			</div>
 					</div>
 		<div class="clear"></div>
 
@@ -3959,11 +3484,17 @@ g_MAX_COMMENT_SIZE = 10000;
 								<div class="comment_label ">
 									</div>
 			</div>
+						<div class="comment_ctrls">
+									<img class="inappropriate " title="Flag comment as inappropriate." src="/includes/g_comments_widget/views/img/DT_icon_inappropriate.png" id_comment="95182">
+								
+			</div>
 						<div class="clear"></div>
 
 			<div class="comment_sep"></div>
 			<div class="comment_body">
 				The log sheet and art/map pack are now available and should be in your library. Thank you so much for supporting the adventure! I hope you and your players thoroughly enjoy the playthrough on Thursday!			</div>
+						<div class="comment_reply g_comment_button grey" id_comment="95065">
+				Reply			</div>
 					</div>
 		<div class="clear"></div>
 
@@ -3977,7 +3508,10 @@ g_MAX_COMMENT_SIZE = 10000;
             <a name="widget-product-reviews"></a>
             <div class="alpha omega product-reviews grid_12">
 				                <div class="alpha omega product-rate">
-					                    <!-- product ID: value must be set from server side. -->
+					                        <div id="product-rate-rate" class="grid_2 alpha omega"><div id="Star267912win" name="Star267912win"><div>
+You must <a href="https://www.dmsguild.com/shopping_cart.php?action=buy_now_rate_it&amp;products_id=267912">buy this</a> to rate it</div></div>
+</div>
+						                    <!-- product ID: value must be set from server side. -->
 					<input type="hidden" name="product-id" value="267912" aria-label="Input field">                </div>
             </div>
             <div class="alpha omega grid_3">
@@ -4085,13 +3619,13 @@ g_MAX_COMMENT_SIZE = 10000;
 <div style="width: 100%;;min-height:18px;" height="14" class="infoBoxHeading" width="100%">&nbsp;Recent History</div>
 <div style="width: 100%;;min-height:18px;" class="infoBox"><table border="0" width="100%" cellspacing="0" cellpadding="0" class="standardText standardContent">
   <tbody><tr>
-    <th align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/230627/CCCBMG22-PHLAN-21-Demagogue" rel="/includes/ajax/tooltip_request_handler.php?products_id=230627"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/230627-thumb140.jpg" border="0" alt="CCC-BMG-22 PHLAN 2-1 Demagogue" width="80"></a><br><a href="https://www.dmsguild.com/product/230627/CCCBMG22-PHLAN-21-Demagogue" rel="/includes/ajax/tooltip_request_handler.php?products_id=230627">CCC-BMG-22 PHLAN 2-1 Demagogue</a></th>
+    <th align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/185274/CCCBMG02-CORE-12-A-Cog-in-the-Wheel" rel="/includes/ajax/tooltip_request_handler.php?products_id=185274"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/185274-thumb140.jpg" border="0" alt="CCC-BMG-02 CORE 1-2 A Cog in the Wheel" width="80"></a><br><a href="https://www.dmsguild.com/product/185274/CCCBMG02-CORE-12-A-Cog-in-the-Wheel" rel="/includes/ajax/tooltip_request_handler.php?products_id=185274">CCC-BMG-02 CORE 1-2 A Cog in the Wheel</a></th>
   </tr>
   <tr>
-    <td align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/230628/CCCBMG23-PHLAN-22-Hatemaster" rel="/includes/ajax/tooltip_request_handler.php?products_id=230628"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/230628-thumb140.jpg" border="0" alt="CCC-BMG-23 PHLAN 2-2 Hatemaster" width="80"></a><br><a href="https://www.dmsguild.com/product/230628/CCCBMG23-PHLAN-22-Hatemaster" rel="/includes/ajax/tooltip_request_handler.php?products_id=230628">CCC-BMG-23 PHLAN 2-2 Hatemaster</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/240422/CCCBMG29-Hill-22-The-Red-Herring" rel="/includes/ajax/tooltip_request_handler.php?products_id=240422"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/240422-thumb140.png" border="0" alt="CCC-BMG-29 Hill 2-2 The Red Herring" width="80"></a><br><a href="https://www.dmsguild.com/product/240422/CCCBMG29-Hill-22-The-Red-Herring" rel="/includes/ajax/tooltip_request_handler.php?products_id=240422">CCC-BMG-29 Hill 2-2 The Red Herring</a></td>
   </tr>
   <tr>
-    <td align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/230629/CCCBMG24-PHLAN-23-The-Royal-We" rel="/includes/ajax/tooltip_request_handler.php?products_id=230629"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/230629-thumb140.jpg" border="0" alt="CCC-BMG-24 PHLAN 2-3 The Royal We" width="80"></a><br><a href="https://www.dmsguild.com/product/230629/CCCBMG24-PHLAN-23-The-Royal-We" rel="/includes/ajax/tooltip_request_handler.php?products_id=230629">CCC-BMG-24 PHLAN 2-3 The Royal We</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/260905/CCCBMG38-HULB-32-Dead-Canaries" rel="/includes/ajax/tooltip_request_handler.php?products_id=260905"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/260905-thumb140.jpg" border="0" alt="CCC-BMG-38 HULB 3-2 Dead Canaries" width="80"></a><br><a href="https://www.dmsguild.com/product/260905/CCCBMG38-HULB-32-Dead-Canaries" rel="/includes/ajax/tooltip_request_handler.php?products_id=260905">CCC-BMG-38 HULB 3-2 Dead Canaries</a></td>
   </tr>
   <tr>
     <td align="center" class="smallText" width="33%" valign="top"><a href="https://www.dmsguild.com/product/267912/CCCBMGMOON22-Army-of-the-Unseen" rel="/includes/ajax/tooltip_request_handler.php?products_id=267912"><img class="onestart" src="https://d1vzi28wh99zvq.cloudfront.net/images/8957/267912-thumb140.jpg" border="0" alt="CCC-BMG-MOON2-2 Army of the Unseen" width="80"></a><br><a href="https://www.dmsguild.com/product/267912/CCCBMGMOON22-Army-of-the-Unseen" rel="/includes/ajax/tooltip_request_handler.php?products_id=267912">CCC-BMG-MOON2-2 Army of the Unseen</a></td>
@@ -4138,7 +3672,7 @@ g_MAX_COMMENT_SIZE = 10000;
 
             return t;
         }(document, "script", "twitter-wjs"));</script>
-	 <div class="widget-information "> <div class="widget-information-wrapper"> <div id="prod-info-title" class="widget-information-title"> Product Information </div>  <div class="widget-information-item"> <div class="widget-information-item-title"> </div> <div class="widget-information-item-content"> <div style="padding-left: 23px;"><a href="https://www.dmsguild.com/metal.php"><img src="https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Gold.png" alt="Gold seller" border="0" width="70px"></a></div> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> </div> <div class="widget-information-item-content"> <div style="padding-left: 23px;"><a href="https://help.dmsguild.com/hc/en-us/categories/12776810252951-Content-Creator-Questions"><img src="https://www.dmsguild.com/themes/dtrpg/images/buttons/english/communitycontent.png" alt="Community Content" border="0" height="70px;" width="70px;" title="Community Content"></a></div> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Social </div> <div class="widget-information-item-content"> <a href="" onclick="return false;" id="btn_copy_link" class="btn_copy_link" data-clipboard-text="https://www.dmsguild.com/product/267912/CCCBMGMOON22-Army-of-the-Unseen?affiliate_id=171040">Copy Link</a><br><iframe title="Share on Facebook" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.dmsguild.com%2Fproduct%2F267912%2FCCCBMGMOON22-Army-of-the-Unseen%3Faffiliate_id%3D171040&amp;layout=button_count&amp;size=small&amp;mobile_iframe=true&amp;appId=1178097535547895&amp;width=88&amp;height=20" width="88" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe><br><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="X Post Button" src="https://platform.twitter.com/widgets/tweet_button.2f70fb173b9000da126c79afe2098f02.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.dmsguild.com%2Fproduct%2F267912%2F%3Faffiliate_id%3D171040&amp;size=m&amp;text=CCC-BMG-MOON2-2%20Army%20of%20the%20Unseen%20-%20Dungeon%20Masters%20Guild%20%7C%20Dungeon%20Masters%20Guild&amp;time=1752975521290&amp;type=share&amp;url=https%3A%2F%2Fwww.dmsguild.com%2Fproduct%2F267912%2FCCCBMGMOON22-Army-of-the-Unseen%3Faffiliate_id%3D171040" style="position: static; visibility: visible; width: 65px; height: 20px;" data-url="https://www.dmsguild.com/product/267912/CCCBMGMOON22-Army-of-the-Unseen?affiliate_id=171040"></iframe> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Author(s) </div> <div class="widget-information-item-content"> <a href="https://www.dmsguild.com/advanced_search_result.php?author=Baldman Games">Baldman Games</a>, <a href="https://www.dmsguild.com/advanced_search_result.php?author=Savannah Houston-McIntyre">Savannah Houston-McIntyre</a> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Artist(s) </div> <div class="widget-information-item-content"> <a href="https://www.dmsguild.com/advanced_search_result.php?artist=Steph Sober">Steph Sober</a> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Rules Edition(s) </div> <div class="widget-information-item-content"> <ul class="rules-system-list"><li><a href="https://www.dmsguild.com/browse.php?filters=0_0_0_0_0_1000261_0_0">5th Edition</a><ul class="rules-system-list"><li><a href="https://www.dmsguild.com/browse.php?filters=0_0_0_0_0_45462_0_0">5e (2014)</a></li></ul></li></ul> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Pages </div> <div class="widget-information-item-content"> 37 </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Format </div> <div class="widget-information-item-content"> Original electronic <a id="format_box" href="#fileformat"> <span><img src="/shared_images/icon_info.png" alt="Click for more information"></span> </a> <div style="display:none"> <div id="fileformat" class="tip"> <table class="svsohelp" width="100%" border="0" cellspacing="5" cellpadding="0"> <tbody><tr> <td><b>Scanned image</b></td> </tr> <tr> <td>These products were created by scanning an original printed edition. Most older books are in scanned image format because original digital layout files never existed or were no longer available from the publisher.<br>
+	 <div class="widget-information "> <div class="widget-information-wrapper"> <div id="prod-info-title" class="widget-information-title"> Product Information </div>  <div class="widget-information-item"> <div class="widget-information-item-title"> </div> <div class="widget-information-item-content"> <div style="padding-left: 23px;"><a href="https://www.dmsguild.com/metal.php"><img src="https://www.dmsguild.com/themes/dmg/images/buttons/english/MetalBestSeller-Gold.png" alt="Gold seller" border="0" width="70px"></a></div> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> </div> <div class="widget-information-item-content"> <div style="padding-left: 23px;"><a href="https://help.dmsguild.com/hc/en-us/categories/12776810252951-Content-Creator-Questions"><img src="https://www.dmsguild.com/themes/dtrpg/images/buttons/english/communitycontent.png" alt="Community Content" border="0" height="70px;" width="70px;" title="Community Content"></a></div> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Social </div> <div class="widget-information-item-content"> <a href="" onclick="return false;" id="btn_copy_link" class="btn_copy_link" data-clipboard-text="https://www.dmsguild.com/product/267912/CCCBMGMOON22-Army-of-the-Unseen?affiliate_id=171040">Copy Link</a><br><iframe title="Share on Facebook" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.dmsguild.com%2Fproduct%2F267912%2FCCCBMGMOON22-Army-of-the-Unseen%3Faffiliate_id%3D171040&amp;layout=button_count&amp;size=small&amp;mobile_iframe=true&amp;appId=1178097535547895&amp;width=88&amp;height=20" width="88" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe><br><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="X Post Button" src="https://platform.twitter.com/widgets/tweet_button.2f70fb173b9000da126c79afe2098f02.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.dmsguild.com%2Fproduct%2F267912%2F%3Faffiliate_id%3D171040&amp;size=m&amp;text=CCC-BMG-MOON2-2%20Army%20of%20the%20Unseen%20-%20Dungeon%20Masters%20Guild%20%7C%20Dungeon%20Masters%20Guild&amp;time=1753001840258&amp;type=share&amp;url=https%3A%2F%2Fwww.dmsguild.com%2Fproduct%2F267912%2FCCCBMGMOON22-Army-of-the-Unseen%3Faffiliate_id%3D171040" style="position: static; visibility: visible; width: 65px; height: 20px;" data-url="https://www.dmsguild.com/product/267912/CCCBMGMOON22-Army-of-the-Unseen?affiliate_id=171040"></iframe> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Author(s) </div> <div class="widget-information-item-content"> <a href="https://www.dmsguild.com/advanced_search_result.php?author=Baldman Games">Baldman Games</a>, <a href="https://www.dmsguild.com/advanced_search_result.php?author=Savannah Houston-McIntyre">Savannah Houston-McIntyre</a> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Artist(s) </div> <div class="widget-information-item-content"> <a href="https://www.dmsguild.com/advanced_search_result.php?artist=Steph Sober">Steph Sober</a> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Rules Edition(s) </div> <div class="widget-information-item-content"> <ul class="rules-system-list"><li><a href="https://www.dmsguild.com/browse.php?filters=0_0_0_0_0_1000261_0_0">5th Edition</a><ul class="rules-system-list"><li><a href="https://www.dmsguild.com/browse.php?filters=0_0_0_0_0_45462_0_0">5e (2014)</a></li></ul></li></ul> </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Pages </div> <div class="widget-information-item-content"> 37 </div> </div> <div class="widget-information-item"> <div class="widget-information-item-title"> Format </div> <div class="widget-information-item-content"> Original electronic <a id="format_box" href="#fileformat"> <span><img src="/shared_images/icon_info.png" alt="Click for more information"></span> </a> <div style="display:none"> <div id="fileformat" class="tip"> <table class="svsohelp" width="100%" border="0" cellspacing="5" cellpadding="0"> <tbody><tr> <td><b>Scanned image</b></td> </tr> <tr> <td>These products were created by scanning an original printed edition. Most older books are in scanned image format because original digital layout files never existed or were no longer available from the publisher.<br>
 <br>
 For PDF download editions, each page has been run through Optical Character Recognition (OCR) software to attempt to decipher the printed text. The result of this OCR process is placed invisibly behind the picture of each scanned page, to allow for text searching. However, any text in a given book set on a graphical background or in handwritten fonts would most likely not be picked up by the OCR software, and is therefore not searchable. Also, a few larger books may be resampled to fit into the system, and may not have this searchable text background.<br>
 <br>
@@ -4573,6 +4107,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH8CJQV"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRBR-a792f2982fda854fffd","applicationID":"700862248","transactionName":"ZgcGZEZWW0FSARJbVl9NMUJdGEVAXAYTUU1uCwpWWxlFWkM=","queueTime":0,"applicationTime":1334,"atts":"SkAFEg5MSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRBR-a792f2982fda854fffd","applicationID":"700862248","transactionName":"ZgcGZEZWW0FSARJbVl9NMUJdGEVAXAYTUU1uCwpWWxlFWkM=","queueTime":0,"applicationTime":1505,"atts":"SkAFEg5MSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
 
-<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap" style=""><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2f70fb173b9000da126c79afe2098f02.html?origin=https%3A%2F%2Fwww.dmsguild.com" title="Twitter settings iframe" style="display: none;"></iframe><div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div><div style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: fixed; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255);"><iframe title="recaptcha challenge expires in two minutes" name="c-5a5r26slj69g" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=3jpV4E_UA9gZWYy11LtggjoU&amp;k=6LfuT7IUAAAAAE3SHa5ucwB-p_iUzlHmGyQqLpNn" style="width: 100%; height: 100%;"></iframe></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap" style=""><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2f70fb173b9000da126c79afe2098f02.html?origin=https%3A%2F%2Fwww.dmsguild.com" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" title="Twitter analytics iframe" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"></iframe></body></html>
