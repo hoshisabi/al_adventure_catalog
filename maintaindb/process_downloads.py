@@ -103,9 +103,7 @@ def process_downloads():
         except Exception as ex:
             logger.error(f"Error processing {file_path}: {str(ex)}")
 
-    logger.info("Running aggregator.py...")
-    subprocess.run([sys.executable, os.path.join(root, 'aggregator.py')], check=True)
-    logger.info("Processing complete.")
+    
 
 if __name__ == '__main__':
     process_downloads()

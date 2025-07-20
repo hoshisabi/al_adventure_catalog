@@ -261,7 +261,7 @@
         "url": "https://www.dmsguild.com/product/313252/A-Whisper-In-Your-Mind?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Greasy Snitches",
             "Paul Gabat"
@@ -270,7 +270,7 @@
         "code": "DC-POA-GSP01-01",
         "date_created": "20201206",
         "full_title": "A Wolf's Whisper (DC-PoA-GSP01-01)",
-        "hours": "4,4",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -492,25 +492,6 @@
         "tiers": 2,
         "title": "Beneath Ironfang Keep",
         "url": "https://www.dmsguild.com/product/284732/Beneath-Ironfang-Keep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Brendon Watson",
-            "Siobhan Hanlon"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-MELB-02-06",
-        "date_created": "20250625",
-        "full_title": "Beneath Salt and Stone (FR-DC-MELB-02-06)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 4.99,
-        "product_id": "527493",
-        "tiers": 3,
-        "title": "Beneath Salt and Stone",
-        "url": "https://www.dmsguild.com/product/527493?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -6705,7 +6686,7 @@
         "url": "https://www.dmsguild.com/product/336854/CCCGSP0203-Maladomini-Unleashed?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Paul Gabat",
             "Ian Viernes",
@@ -14814,24 +14795,6 @@
         "url": "https://www.dmsguild.com/product/418804/Forlorn-but-not-Forgotten-SJDCPHPFLN0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 8,
-        "authors": [
-            "Jamie Chan"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-THAY-05",
-        "date_created": "20250629",
-        "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "528046",
-        "tiers": 2,
-        "title": "Four Assassinations & a Funeral",
-        "url": "https://www.dmsguild.com/product/528046?affiliate_id=171040"
-    },
-    {
         "apl": 1,
         "authors": [
             "Joseph George"
@@ -15000,24 +14963,6 @@
         "tiers": 3,
         "title": "The Ritual",
         "url": "https://www.dmsguild.com/product/471198/FRDCAEG10-The-Ritual?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Kaithlyn Kuan"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-AKU-01",
-        "date_created": "20250627",
-        "full_title": "FR-DC-AKU-01 Phantom's Lament",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "527701",
-        "tiers": 2,
-        "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15432,24 +15377,6 @@
         "url": "https://www.dmsguild.com/product/523953/FRDCFET01Vatras-Besieged?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 10,
-        "authors": [
-            "Bernhard Staneker"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-FET-02",
-        "date_created": "20250705",
-        "full_title": "FR-DC-FET02_Vatras Abyss",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "528753",
-        "tiers": 2,
-        "title": "Vatras Abyss",
-        "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
         "apl": null,
         "authors": [
             "Joshua Nelson"
@@ -15482,24 +15409,6 @@
         "tiers": 2,
         "title": "Showdown at the Forge of Tiamat",
         "url": "https://www.dmsguild.com/product/519576/FRDCFOT03-Showdown-at-the-Forge-of-Tiamat?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Mitchell Tee"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-FRI-13",
-        "date_created": "20250621",
-        "full_title": "FR-DC-FRI-13 Flamerule the 13th",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 1.0,
-        "product_id": "527132",
-        "tiers": 1,
-        "title": "Flamerule the 13th",
-        "url": "https://www.dmsguild.com/product/527132/FRDCFRI13-Flamerule-the-13th?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -15821,42 +15730,6 @@
         "tiers": 3,
         "title": "- Tangled Threads of the Moor",
         "url": "https://www.dmsguild.com/product/511187/FRDCLIGA10--Tangled-Threads-of-the-Moor?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Casey McGirt"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-MCG-CH1",
-        "date_created": "20250625",
-        "full_title": "FR-DC-MCG-CH1 The Open Hand",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 2.5,
-        "product_id": "527653",
-        "tiers": 2,
-        "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Bernard Velasco"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-NEW-TIER1-1",
-        "date_created": "20250711",
-        "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 1.0,
-        "product_id": "529395",
-        "tiers": 1,
-        "title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
-        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -16217,24 +16090,6 @@
         "tiers": 2,
         "title": "Pest Infestation",
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 10,
-        "authors": [
-            "Von Ryan Maicle"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-REIN-VR-01",
-        "date_created": "20250717",
-        "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "530052",
-        "tiers": 2,
-        "title": "The Pale Steed",
-        "url": "https://www.dmsguild.com/product/530052/FRDCREINVR01-The-Pale-Steed?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 3,
@@ -16709,73 +16564,6 @@
     },
     {
         "apl": 8,
-        "authors": [],
-        "campaigns": [],
-        "code": "FR-DC-STRAT-TALES-01",
-        "date_created": "20250618",
-        "full_title": "FR-DC-STRAT-TALES-01 What Big Teeth",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 5.99,
-        "product_id": "526743",
-        "tiers": 2,
-        "title": "What Big Teeth",
-        "url": "https://www.dmsguild.com/product/526743/FRDCSTRATTALES01-What-Big-Teeth?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 8,
-        "authors": [],
-        "campaigns": [],
-        "code": "FR-DC-STRAT-TALES-02",
-        "date_created": "20250618",
-        "full_title": "FR-DC-STRAT-TALES-02 On Fey Tides",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 5.99,
-        "product_id": "526741",
-        "tiers": 2,
-        "title": "On Fey Tides",
-        "url": "https://www.dmsguild.com/product/526741/FRDCSTRATTALES02-On-Fey-Tides?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 13,
-        "authors": [],
-        "campaigns": [],
-        "code": "FR-DC-STRAT-TALES-03",
-        "date_created": "20250618",
-        "full_title": "FR-DC-STRAT-TALES-03 The Beast Within",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 5.99,
-        "product_id": "526746",
-        "tiers": 3,
-        "title": "The Beast Within",
-        "url": "https://www.dmsguild.com/product/526746/FRDCSTRATTALES03-The-Beast-Within?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Kevin Haw",
-            "Strategicon AL"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-STRAT-TALES-04",
-        "date_created": "20250618",
-        "full_title": "FR-DC-STRAT-TALES-04 The Baroness and the Hag",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 5.99,
-        "product_id": "526748",
-        "tiers": 3,
-        "title": "The Baroness and the Hag",
-        "url": "https://www.dmsguild.com/product/526748/FRDCSTRATTALES04-The-Baroness-and-the-Hag?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 8,
         "authors": [
             "Strategicon AL",
             "Alexis Paige"
@@ -16826,22 +16614,6 @@
         "tiers": 2,
         "title": "Shadow on the Sands",
         "url": "https://www.dmsguild.com/product/481587/FRDCTRIDENMYKE05-Shadow-on-the-Sands?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [],
-        "campaigns": [],
-        "code": "FR-DC-TT-101",
-        "date_created": "20250702",
-        "full_title": "FR-DC-TT-101 Water has no Shape",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 4.99,
-        "product_id": "528426",
-        "tiers": 1,
-        "title": "Water has no Shape",
-        "url": "https://www.dmsguild.com/product/528426/FRDCTT101-Water-has-no-Shape?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -17170,24 +16942,6 @@
         "tiers": 1,
         "title": "The Eyes of Shaktari",
         "url": "https://www.dmsguild.com/product/516920/FRDCWCAG0304-The-Eyes-of-Shaktari?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Richard Bellotti"
-        ],
-        "campaigns": [],
-        "code": "FR-DC-WE-01",
-        "date_created": "20250716",
-        "full_title": "FR-DC-WE-01 Enter the Arena",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.95,
-        "product_id": "528610",
-        "tiers": 2,
-        "title": "Enter the Arena",
-        "url": "https://www.dmsguild.com/product/528610/FRDCWE01-Enter-the-Arena?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -20009,25 +19763,6 @@
     },
     {
         "apl": 18,
-        "authors": [
-            "Noah Grand",
-            "Strategicon AL"
-        ],
-        "campaigns": [],
-        "code": "PS-DC-STRAT-TALES-05",
-        "date_created": "20250618",
-        "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "17-20",
-        "price": 5.99,
-        "product_id": "526751",
-        "tiers": 4,
-        "title": "War of the Roses",
-        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 18,
         "authors": [],
         "campaigns": [],
         "code": "PS-DC-STRAT-TALES-06",
@@ -20036,7 +19771,6 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": 5.99,
         "product_id": "526753",
         "tiers": 4,
         "title": "Dungeon & A Dragon",
@@ -24657,9 +24391,7 @@
     },
     {
         "apl": 13,
-        "authors": [
-            "Mike Arrow"
-        ],
+        "authors": [],
         "campaigns": [],
         "code": "FR-DC-MELB-02-05",
         "date_created": "20250624",
@@ -24667,7 +24399,6 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 4.99,
         "product_id": "527475",
         "tiers": 3,
         "title": "Stormbound",

@@ -363,8 +363,9 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         else:
             new_data["hours"] = None
 
-    new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", combined_text))
-    new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", combined_text))
+    new_data["apl"] = str_to_int(get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*\(?APL\)?\s*(\d+)", combined_text))
+
+    new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Level\s*([1-4])(?:-\d+)?\s*characters", combined_text))
 
     level_range_match = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
     if level_range_match:

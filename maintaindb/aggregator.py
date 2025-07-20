@@ -16,7 +16,7 @@ logger.addHandler(stream_handler)
 
 root = str(pathlib.Path(__file__).parent.absolute())
 input_path = os.path.join(root, '_dc')
-output_path = os.path.join(root, '..', 'assets', 'data')
+output_path = os.path.join(root, '_stats')
 
 all_adventures_map = {}
 

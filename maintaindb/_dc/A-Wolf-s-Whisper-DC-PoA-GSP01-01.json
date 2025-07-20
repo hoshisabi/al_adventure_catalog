@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greasy Snitches",
         "Paul Gabat"
@@ -10,7 +10,7 @@
     "code": "DC-POA-GSP01-01",
     "date_created": "20201206",
     "full_title": "A Wolf's Whisper (DC-PoA-GSP01-01)",
-    "hours": "4,4",
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 4.99,

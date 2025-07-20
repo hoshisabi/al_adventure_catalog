@@ -28,6 +28,7 @@
   - [ ] Ensure that all JSON files in the _dc directory have hours set, if they have is_adventure = true
   - [ ] Ensure that all JSON files in the _dc directory have tier set, if they have is_adventure = true
   - [ ] Ensure that all JSON files in the _dc directory have campaign set, if they have is_adventure = true
+  - [ ] Ensure that all JSON files in the _dc directory have apl set, if they have is_adventure = true
   - [ ] Find duplicate adventures (adventures with the same product id) and manually identify what data is correct
 - [ ] **Add Checkbox for DDAL/DDEX Seasons:** Implement a checkbox to optionally include DDAL and DDEX adventures in season filtering.
 - [x] Create a tool that generates a "fixup.html" which we can launch in a local browser that will contain a list of links to DM'S guild URLs
@@ -41,4 +42,4 @@
 - [ ] Stats page should have slicers to allow users to restrict the stats based on tier, campaign, season, duration, and combinations of the above
 - [ ] Add a season slicer for the adventure list page
 - [ ] Staticly generate the filters -- they don't need to be calculated by the user, we can create these lists when we run the aggregator page
-- [ ] Change aggregator to update a file in the _stats directory not use the ..\ hack that we've used, could we have jekyll get that file, if not, we can update our lp.bat file to do this work for our testing, and update the readme.md to specify this new requirement
+- [x] Change aggregator to update a file in the _stats directory not use the ..\ hack that we've used, could we have jekyll get that file, if not, we can update our lp.bat file to do this work for our testing, and update the readme.md to specify this new requirement

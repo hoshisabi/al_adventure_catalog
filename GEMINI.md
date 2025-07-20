@@ -3,7 +3,7 @@
 - When running `jq` commands with filters or complex expressions on Windows, it's often necessary to write the `jq` command to a temporary batch file (e.g., `temp_jq_command.bat`) and then execute the batch file. This helps bypass quoting issues with `cmd.exe`.
 - After running `maintaindb/aggregator.py`, it's crucial to verify the `all_adventures.json` file using `jq` to ensure the data is correctly aggregated and formatted. For example, to check the `hours` field for a specific adventure:
   ```
-  jq ".[] | select(.full_title == \"Your Adventure Title\") | .hours" assets/data/all_adventures.json
+jq ".[] | select(.full_title == \"Your Adventure Title\") | .hours" assets/data/all_adventures.json
   ```
   Remember to use a temporary batch file for this command on Windows.
 
@@ -15,7 +15,7 @@ Refer to `TASKS.md` for a detailed list of project tasks and their status.
 
 Unit tests can be run using Python's built-in `unittest` module. From the project root directory, execute the following command:
 
-```bash
+```
 python -m unittest discover maintaindb
 ```
 
@@ -26,7 +26,7 @@ python -m unittest discover maintaindb
 
 Unit tests can be run using Python's built-in `unittest` module. From the project root directory, execute the following command:
 
-```bash
+```
 python -m unittest discover maintaindb
 ```
 
@@ -37,3 +37,18 @@ This directory (`gemini_workspace/`) is used for temporary files, one-off script
 ## Data Caution: `maintaindb/_dc` Directory
 
 **Important:** The `maintaindb/_dc` directory contains JSON files that are generated from various sources, including the DMsGuild RSS feed and manually processed HTML files. Some of these files, particularly those derived from older or manually processed data, may contain information that cannot be easily regenerated. Therefore, exercise extreme caution when modifying or deleting files within this directory. Always ensure a backup or Git restoration plan is in place before performing destructive operations.
+
+## Data Validation and Correction Process
+
+This process outlines the steps for validating and correcting adventure data:
+
+1.  **Generate Fixup HTML:** I will run `generate_fixup_html.py` to produce a `fixup.html` page.
+2.  **Identify Problematic Entries:** You will refresh the `fixup.html` page and visually identify problematic entries that need correction.
+3.  **Download New HTML:** For identified problematic entries, you will manually download the corresponding HTML files and place them in the `maintaindb/dmsguildinfo/` directory.
+4.  **Process Downloads:** You will then instruct me to run the `maintaindb/process_downloads.py` script. This script will process the newly downloaded HTML files, extract metadata, and update the corresponding JSON files in the `maintaindb/_dc/` directory.
+5.  **Examine Product IDs (if needed):** If further diagnosis is required for specific product IDs, you will ask me to:
+    *   Examine the `.json` file for that product ID in the `maintaindb/_dc/` directory.
+    *   Examine the corresponding HTML file in `maintaindb/dmsguildinfo/` (or `maintaindb/dmsguildinfo/processed/` if it has been moved).
+    *   Together, we will determine why settings are incorrect and make necessary code fixes (e.g., to `adventure.py`'s extraction logic).
+6.  **Troubleshooting Note:** When troubleshooting, I can freely move HTML files from the `maintaindb/dmsguildinfo/processed/` subdirectory back into the `maintaindb/dmsguildinfo/` directory to force re-processing, and I can run `maintaindb/process_downloads.py` as needed. However, I **must not** delete files in the `maintaindb/_dc/` directory.
+7.  **Repeat as Necessary:** This process (steps 4-5) may be repeated until the data for the problematic entries is correct.
