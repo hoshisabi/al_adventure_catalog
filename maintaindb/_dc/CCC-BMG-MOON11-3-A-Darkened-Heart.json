@@ -5,7 +5,9 @@
         "Eric Menge",
         "Savannah Houston-McIntyre"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON11-3",
     "date_created": "20210513",
     "full_title": "CCC-BMG-MOON11-3 A Darkened Heart",

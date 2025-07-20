@@ -3,7 +3,9 @@
     "authors": [
         "Tom McVey"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-SNIPE-01-",
     "date_created": "20210830",
     "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",

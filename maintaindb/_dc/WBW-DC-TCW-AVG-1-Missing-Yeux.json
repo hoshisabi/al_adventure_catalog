@@ -3,7 +3,9 @@
     "authors": [
         "Bernard Jericho Velasco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TCW-AVG-1",
     "date_created": "20211006",
     "full_title": "WBW-DC-TCW-AVG-1 Missing Yeux",

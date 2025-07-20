@@ -3,7 +3,9 @@
     "authors": [
         "Richard Gejji"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-GMM-03",
     "date_created": "20250616",
     "full_title": "Frantic Frontier Fiasco (PS-DC-GMM-03)",

@@ -3,7 +3,9 @@
     "authors": [
         "Liga dos Aventureiros"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20210930",
     "full_title": "Kit D&D Adventurers League para Forgotten Realms T11",

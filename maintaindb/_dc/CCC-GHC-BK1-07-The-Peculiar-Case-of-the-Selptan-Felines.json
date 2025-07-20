@@ -4,7 +4,9 @@
         "Greg Marks",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK1-07",
     "date_created": "20181207",
     "full_title": "CCC-GHC-BK1-07 The Peculiar Case of the Selptan Felines",

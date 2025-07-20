@@ -3,7 +3,9 @@
     "authors": [
         "Gregory Hallenbeck"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-GHOST",
     "date_created": "20200318",
     "full_title": "Ghost Town",

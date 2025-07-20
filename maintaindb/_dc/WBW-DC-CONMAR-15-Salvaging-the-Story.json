@@ -3,7 +3,9 @@
     "authors": [
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-15",
     "date_created": "20220825",
     "full_title": "WBW-DC-CONMAR-15 Salvaging the Story",

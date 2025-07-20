@@ -4,7 +4,9 @@
         "Emily Harmon",
         "Fenway Jones"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY-15-",
     "date_created": "20201130",
     "full_title": "CCC-GARY-15: Friendship Never Dies",

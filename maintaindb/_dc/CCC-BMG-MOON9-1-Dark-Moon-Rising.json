@@ -4,7 +4,9 @@
         "Baldman Games",
         "Mitchell Smithson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON9-1",
     "date_created": "20210223",
     "full_title": "CCC-BMG-MOON9-1 Dark Moon Rising",

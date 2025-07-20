@@ -3,7 +3,9 @@
     "authors": [
         "Angelo Bongais"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-AMO-KURI-02",
     "date_created": "20230908",
     "full_title": "Guide on The Other Side (SJ-DC-AMO-KURI-02)",

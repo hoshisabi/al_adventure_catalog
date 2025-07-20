@@ -3,7 +3,9 @@
     "authors": [
         "Christopher Dickey"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-OGG-02",
     "date_created": "20211014",
     "full_title": "DC-PoA-OGG-02 Judge and Jury",

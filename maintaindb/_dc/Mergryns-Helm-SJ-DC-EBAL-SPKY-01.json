@@ -3,7 +3,9 @@
     "authors": [
         "Christopher Moreman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-EBAL-SPKY-01",
     "date_created": "20220928",
     "full_title": "Mergryn's Helm (SJ-DC-EBAL-SPKY-01)",

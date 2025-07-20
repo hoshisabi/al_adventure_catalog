@@ -3,7 +3,9 @@
     "authors": [
         "Pauline Feraren"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": "FR-DC-IMP-02",
     "date_created": "20241012",
     "full_title": "Hunting Moon (FR DC IMP 02)",

@@ -3,7 +3,9 @@
     "authors": [
         "George Sanders"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-SF-02",
     "date_created": "20250518",
     "full_title": "DL-DC-SF-02 Wulfgar's Champion",

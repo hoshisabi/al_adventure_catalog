@@ -4,7 +4,9 @@
         "Alan Patrick",
         "M.T. Black"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-WDH-03",
     "date_created": "20180920",
     "full_title": "Blue Alley",

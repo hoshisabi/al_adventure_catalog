@@ -3,15 +3,19 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-03",
     "date_created": "20160916",
     "full_title": "CCC-BMG-03 CORE 1-3 A Hole in the World",
     "hours": null,
     "is_adventure": true,
     "level_range": null,
-    "product_id": "CCC-BMG-03-CORE-1-3-A-Hole-in-the-World",
+    "price": 4.99,
+    "product_id": "185275",
+    "season": null,
     "tiers": null,
     "title": "CCC-BMG-03 CORE 1-3 A Hole in the World",
-    "url": "https://www.dmsguild.com/product/185275/CCCBMG03-CORE-13-A-Hole-in-the-World?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/185275/?affiliate_id=171040"
 }

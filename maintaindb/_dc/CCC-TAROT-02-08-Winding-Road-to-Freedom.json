@@ -3,7 +3,9 @@
     "authors": [
         "Ariel Thomas"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TAROT-02-08",
     "date_created": "20200420",
     "full_title": "CCC-TAROT-02-08 Winding Road to Freedom",

@@ -4,7 +4,9 @@
         "Ethan Stanhope",
         "Te\u00e4n Stanhope"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CTH1",
     "date_created": "20210212",
     "full_title": "DC-PoA-CTH1 Roused by Raiders",

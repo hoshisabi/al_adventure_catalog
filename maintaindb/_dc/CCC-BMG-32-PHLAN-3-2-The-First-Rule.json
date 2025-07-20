@@ -4,7 +4,9 @@
         "Baldman Games",
         "Anthony Caroselli"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-32",
     "date_created": "20180716",
     "full_title": "CCC-BMG-32 PHLAN 3-2 The First Rule",

@@ -3,7 +3,9 @@
     "authors": [
         "Noah Grand"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CENTRIC",
     "date_created": "20200803",
     "full_title": "CCC-CENTRIC 01-02 Road to Reconciliation",

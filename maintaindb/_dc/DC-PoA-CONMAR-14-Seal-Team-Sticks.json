@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Ellingsen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-14",
     "date_created": "20210817",
     "full_title": "DC-PoA-CONMAR-14 Seal Team Sticks",

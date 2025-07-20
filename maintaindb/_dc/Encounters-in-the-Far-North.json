@@ -7,7 +7,9 @@
         "Ashley Michaela \u201cNavigator\u201d Lawson",
         "Rich Lescouflair"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20200915",
     "full_title": "Encounters in the Far North",

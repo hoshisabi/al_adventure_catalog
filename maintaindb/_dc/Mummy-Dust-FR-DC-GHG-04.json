@@ -3,7 +3,9 @@
     "authors": [
         "Tom Klein"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-GHG-04",
     "date_created": "20241028",
     "full_title": "Mummy Dust (FR-DC-GHG-04)",

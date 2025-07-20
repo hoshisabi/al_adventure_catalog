@@ -4,7 +4,9 @@
         "Darryl Ho",
         "Jason Koh"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CODEX-01",
     "date_created": "20210228",
     "full_title": "DC-POA-CODEX-01 Bear the Lode",

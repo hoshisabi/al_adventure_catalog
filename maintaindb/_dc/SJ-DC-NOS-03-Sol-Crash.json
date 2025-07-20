@@ -4,7 +4,9 @@
         "Katriel Paige",
         "Lex Winter"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-NOS-03",
     "date_created": "20230402",
     "full_title": "SJ-DC-NOS-03 Sol Crash",

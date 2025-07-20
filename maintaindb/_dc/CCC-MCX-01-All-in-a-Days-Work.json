@@ -3,7 +3,9 @@
     "authors": [
         "Karl Sciberras"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MCX-01",
     "date_created": "20181028",
     "full_title": "CCC-MCX-01 All in a Day\u2019s Work",

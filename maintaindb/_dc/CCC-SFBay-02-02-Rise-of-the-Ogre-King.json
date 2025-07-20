@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Arduini"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SFBAY-02-02",
     "date_created": "20180821",
     "full_title": "CCC-SFBay-02-02 Rise of the Ogre King",

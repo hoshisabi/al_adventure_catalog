@@ -16,10 +16,10 @@ DC_CAMPAIGNS = {
     'EB-DC': 'Eberron',
     'EB-SM': 'Eberron',
     'FR-DC': 'Forgotten Realms',
-    'PS-DC': 'Planescape',
-    'SJ-DC': 'Spelljammer',
-    'WBW-DC': 'The Wild Beyond the Witchlight',
-    'DC-POA': 'Icewind Dale: Rime of the Frostmaiden',
+    'PS-DC': 'Forgotten Realms', # Changed from Planescape
+    'SJ-DC': 'Forgotten Realms', # Changed from Spelljammer
+    'WBW-DC': 'Forgotten Realms', # Changed from The Wild Beyond the Witchlight
+    'DC-POA': 'Forgotten Realms', # Changed from Icewind Dale: Rime of the Frostmaiden
     'PO-BK': 'Forgotten Realms',
     'BMG-DRW': 'Forgotten Realms',
     'BMG-DL': 'Dragonlance',
@@ -200,18 +200,18 @@ class DungeonCraft:
         return 'Unknown'
 
 def str_to_int(value):
-    if not value:
+    if value is None:
         return None
 
+    # Try direct integer conversion first
     try:
-        number = int(value)
-        return number
+        return int(value)
     except ValueError:
-        try:
-            number = w2n.word_to_num(value)
-            return number
-        except Exception:
-            return None
+        pass  # Not a simple integer string, try word to number
+
+    # Try word to number conversion
+    try:
+        return w2n.word_to_num(value)
     except Exception:
         return None
 
@@ -325,6 +325,12 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     if product_content:
         text = product_content.text
 
+    # Extract text from meta description as well
+    meta_description_tag = parsed_html.find("meta", {"name": "description"})
+    meta_description_text = meta_description_tag["content"] if meta_description_tag and "content" in meta_description_tag.attrs else ""
+
+    combined_text = text + " " + meta_description_text
+
     if new_data["module_name"]:
         result = get_dc_code_and_campaign(new_data["module_name"])
         if result is not None:
@@ -338,28 +344,29 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     else:
         # Try to find "X hour(s)" or "X-Y hour(s)"
         # This regex will find all occurrences of single numbers or ranges followed by 'hour(s)' or 'hr'
-        hours_matches = re.findall(r'([\d\w]+)(?:[ -]([\d\w]+))?[-\s\xa0]*(?:hour|hours|hr)', text, re.IGNORECASE)
+        hours_match = re.search(r'(\d+(?:-\d+)?|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)(?:\s*(?:-|to)\s*(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?[-\s\xa0]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
         
-        extracted_hours = []
-        for match in hours_matches:
-            start_hour = str_to_int(match[0])
-            end_hour = str_to_int(match[1]) if match[1] else None
-
-            if start_hour is not None:
-                if end_hour is not None and end_hour > start_hour:
-                    extracted_hours.append(f"{start_hour}-{end_hour}")
-                else:
-                    extracted_hours.append(str(start_hour))
-        
-        if extracted_hours:
-            new_data["hours"] = ",".join(map(str, extracted_hours))
+        if hours_match:
+            extracted_str = hours_match.group(1).strip()
+            if '-' in extracted_str or 'to' in extracted_str.lower():
+                # It's a range
+                parts = re.split(r'\s*(?:-|to)\s*', extracted_str, flags=re.IGNORECASE)
+                start_int = str_to_int(parts[0])
+                end_int = str_to_int(parts[1])
+                if start_int is not None and end_int is not None:
+                    new_data["hours"] = f"{start_int}-{end_int}"
+            else:
+                # It's a single value
+                single_int = str_to_int(extracted_str)
+                if single_int is not None:
+                    new_data["hours"] = single_int
         else:
             new_data["hours"] = None
 
-    new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", text))
-    new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", text))
+    new_data["tiers"] = str_to_int(get_patt_first_matching_group(r"Tier ?([1-4])", combined_text))
+    new_data["apl"] = str_to_int(get_patt_first_matching_group(r"APL ?(\d+)", combined_text))
 
-    level_range_match = get_patt_first_matching_group(r"(?i)(?:levels? )?(\d+)(?:(?:[ -]|(?: to ))(\d+))?", text)
+    level_range_match = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
     if level_range_match:
         if isinstance(level_range_match, tuple):
             new_data["level_range"] = f"{level_range_match[0]}-{level_range_match[1]}"
@@ -372,6 +379,14 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         elif 5 <= new_data["apl"] <= 10: new_data["tiers"] = 2
         elif 11 <= new_data["apl"] <= 16: new_data["tiers"] = 3
         elif 17 <= new_data["apl"] <= 20: new_data["tiers"] = 4
+    # Derive Tier from Level Range if Tier and APL are None
+    elif new_data["tiers"] is None and new_data["level_range"] is not None:
+        if isinstance(new_data["level_range"], str) and '-' in new_data["level_range"]:
+            start_level = int(new_data["level_range"].split('-')[0])
+            if 1 <= start_level <= 4: new_data["tiers"] = 1
+            elif 5 <= start_level <= 10: new_data["tiers"] = 2
+            elif 11 <= start_level <= 16: new_data["tiers"] = 3
+            elif 17 <= start_level <= 20: new_data["tiers"] = 4
     
     # Derive Level Range from Tier if Level Range is None or not a valid range
     derived_level_range = None

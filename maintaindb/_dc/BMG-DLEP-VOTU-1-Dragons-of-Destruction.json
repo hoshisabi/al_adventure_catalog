@@ -4,7 +4,9 @@
         "Jeremey Arnold",
         "Krishna Simonse"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "BMG-DLEP-VOTU-1",
     "date_created": "20230518",
     "full_title": "BMG-DLEP-VOTU-1 Dragons of Destruction",

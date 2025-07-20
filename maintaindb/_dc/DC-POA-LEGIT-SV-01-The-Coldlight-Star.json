@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-LEGIT-SV-01",
     "date_created": "20201129",
     "full_title": "DC-POA-LEGIT-SV-01 The Coldlight Star",

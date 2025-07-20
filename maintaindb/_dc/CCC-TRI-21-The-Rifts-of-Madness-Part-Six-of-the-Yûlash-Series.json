@@ -3,7 +3,9 @@
     "authors": [
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-21",
     "date_created": "20200116",
     "full_title": "CCC-TRI-21 The Rifts of Madness (Part Six of the Y\u00fblash Series)",

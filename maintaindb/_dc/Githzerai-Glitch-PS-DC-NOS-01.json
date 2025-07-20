@@ -3,7 +3,9 @@
     "authors": [
         "Lex Winter"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-NOS-01",
     "date_created": "20240211",
     "full_title": "Githzerai Glitch (PS-DC-NOS-01)",

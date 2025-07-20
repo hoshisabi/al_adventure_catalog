@@ -3,7 +3,9 @@
     "authors": [
         "Joe Raso"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON13-3",
     "date_created": "20210818",
     "full_title": "CCC-BMG-MOON13-3 Wolves of the Sea",

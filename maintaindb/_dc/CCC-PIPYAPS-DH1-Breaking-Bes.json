@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PIPYAPS-DH1",
     "date_created": "20200720",
     "full_title": "CCC-PIPYAPS-DH1 Breaking Bes",

@@ -4,7 +4,9 @@
         "D&D Adventurers League",
         "Robbie Pleasant"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "BMG-MOON-MD-08",
     "date_created": "20240919",
     "full_title": "BMG-MOON-MD-08 Down the Rabbit Hole",

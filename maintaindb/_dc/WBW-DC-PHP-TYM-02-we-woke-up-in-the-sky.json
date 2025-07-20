@@ -3,7 +3,9 @@
     "authors": [
         "T.Y. Montiflor"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-TYM-02",
     "date_created": "20220831",
     "full_title": "WBW-DC-PHP-TYM-02 we woke up in the sky",

@@ -4,7 +4,9 @@
         "Darryl Ho",
         "Jason Koh"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CODEX-02",
     "date_created": "20210529",
     "full_title": "DC-POA-CODEX-02 Bear in Mind",

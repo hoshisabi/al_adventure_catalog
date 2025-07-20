@@ -3,7 +3,9 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-39",
     "date_created": "20181207",
     "full_title": "CCC-BMG-39 HULB 3-3 Darkest Vein",

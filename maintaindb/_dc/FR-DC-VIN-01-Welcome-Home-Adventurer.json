@@ -3,7 +3,9 @@
     "authors": [
         "Vin De Guzman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-VIN-01",
     "date_created": "20250606",
     "full_title": "FR-DC-VIN-01 Welcome Home, Adventurer!",

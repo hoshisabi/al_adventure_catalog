@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Eggert"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-APL-01-01",
     "date_created": "20181223",
     "full_title": "CCC-APL-01-01 It's Not Easy Being Gene",

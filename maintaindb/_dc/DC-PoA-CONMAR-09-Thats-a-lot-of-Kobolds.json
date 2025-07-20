@@ -4,7 +4,9 @@
         "Casper Akto Kanstrup",
         "Martin Akto Kanstrup"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-09",
     "date_created": "20210811",
     "full_title": "DC-PoA-CONMAR-09 That's a lot of Kobolds",

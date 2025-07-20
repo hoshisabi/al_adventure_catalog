@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA",
     "date_created": "20211007",
     "full_title": "DC-PoA DES-05A \"Land of Ice and Snow\"",

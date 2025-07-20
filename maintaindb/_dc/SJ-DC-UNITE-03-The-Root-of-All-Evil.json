@@ -4,7 +4,9 @@
         "Unite the Factions",
         "Dave McGuinness"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-UNITE-03",
     "date_created": "20231224",
     "full_title": "SJ-DC-UNITE-03 The Root of All Evil",

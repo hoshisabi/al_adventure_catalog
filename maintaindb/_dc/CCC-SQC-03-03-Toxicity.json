@@ -3,7 +3,9 @@
     "authors": [
         "Noah Grand"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SQC-03-03",
     "date_created": "20191212",
     "full_title": "CCC-SQC 03-03 Toxicity",

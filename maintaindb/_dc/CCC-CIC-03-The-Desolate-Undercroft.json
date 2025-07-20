@@ -3,7 +3,9 @@
     "authors": [
         "Gary Affeldt"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-03",
     "date_created": "20170321",
     "full_title": "CCC-CIC-03 The Desolate Undercroft",

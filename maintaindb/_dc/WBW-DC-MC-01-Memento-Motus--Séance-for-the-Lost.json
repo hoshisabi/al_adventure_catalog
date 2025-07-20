@@ -3,7 +3,9 @@
     "authors": [
         "Ma'at Crook"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-MC-01",
     "date_created": "20220831",
     "full_title": "WBW-DC-MC-01 Memento Motus: S\u00e9ance for the Lost",

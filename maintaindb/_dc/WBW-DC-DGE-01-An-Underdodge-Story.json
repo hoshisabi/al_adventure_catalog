@@ -3,7 +3,9 @@
     "authors": [
         "Matthew Barry"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DGE-01",
     "date_created": "20220129",
     "full_title": "WBW-DC-DGE-01 An Underdodge Story",

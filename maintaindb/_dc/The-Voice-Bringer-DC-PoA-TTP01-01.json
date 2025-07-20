@@ -3,7 +3,9 @@
     "authors": [
         "Jason DM"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-TTP01-01",
     "date_created": "20210302",
     "full_title": "The Voice Bringer (DC-PoA-TTP01-01)",

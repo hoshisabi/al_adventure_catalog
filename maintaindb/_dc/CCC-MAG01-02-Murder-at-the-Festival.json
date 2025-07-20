@@ -3,7 +3,9 @@
     "authors": [
         "Paul Aparicio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MAG01-02",
     "date_created": "20200803",
     "full_title": "CCC-MAG01-02 Murder at the Festival!",

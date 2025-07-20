@@ -3,7 +3,9 @@
     "authors": [
         "Tom Klein"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-GHG-01",
     "date_created": "20231130",
     "full_title": "The Griffons of Longsaddle (FR-DC-GHG-01)",

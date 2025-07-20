@@ -3,7 +3,9 @@
     "authors": [
         "Charmaine Ong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-RPSG-09",
     "date_created": "20240412",
     "full_title": "FR-DC-RPSG-09 Ruckus at the Reception",

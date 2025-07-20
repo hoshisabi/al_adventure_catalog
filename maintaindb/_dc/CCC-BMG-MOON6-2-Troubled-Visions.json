@@ -4,7 +4,9 @@
         "Baldman Games",
         "A.S. Evrard"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON6-2",
     "date_created": "20200504",
     "full_title": "CCC-BMG-MOON6-2 Troubled Visions",

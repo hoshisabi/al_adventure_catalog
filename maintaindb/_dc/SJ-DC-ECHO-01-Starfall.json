@@ -3,7 +3,9 @@
     "authors": [
         "Mike Arrow"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ECHO-01",
     "date_created": "20220924",
     "full_title": "SJ-DC-ECHO-01 Starfall",

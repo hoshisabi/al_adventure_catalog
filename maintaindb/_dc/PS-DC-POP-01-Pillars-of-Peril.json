@@ -4,7 +4,9 @@
         "Briarwall Press",
         "Hunter Sinclair"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-POP-01",
     "date_created": "20240301",
     "full_title": "PS-DC-POP-01 Pillars of Peril",

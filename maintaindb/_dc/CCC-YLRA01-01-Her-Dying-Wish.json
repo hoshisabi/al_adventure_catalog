@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Forbing"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-YLRA01-01",
     "date_created": "20170702",
     "full_title": "CCC-YLRA01-01 Her Dying Wish",

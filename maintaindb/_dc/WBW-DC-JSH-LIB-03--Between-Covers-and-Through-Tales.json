@@ -3,7 +3,9 @@
     "authors": [
         "Jeremiah Strangeheart"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-JSH-LIB-03-",
     "date_created": "20220831",
     "full_title": "WBW-DC-JSH-LIB-03: Between Covers and Through Tales",

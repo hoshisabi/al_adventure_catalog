@@ -3,7 +3,9 @@
     "authors": [
         "ROBERT SILVA"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-05",
     "date_created": "20180328",
     "full_title": "CCC-CIC-05 Donum Vitae",

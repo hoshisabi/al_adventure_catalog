@@ -3,7 +3,9 @@
     "authors": [
         "Robert Hughes"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MELB-01",
     "date_created": "20201130",
     "full_title": "CCC-MELB-01 A Single Tearfall",

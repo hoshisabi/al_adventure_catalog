@@ -3,7 +3,9 @@
     "authors": [
         "Ting Yuen Tjiong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TTUC-01",
     "date_created": "20230210",
     "full_title": "SJ-DC-TTUC-01 Shipyard Dilemma",

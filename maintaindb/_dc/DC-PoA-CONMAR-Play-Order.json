@@ -3,7 +3,9 @@
     "authors": [
         "Martine Brandt Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR",
     "date_created": "20210831",
     "full_title": "DC-PoA-CONMAR Play Order",

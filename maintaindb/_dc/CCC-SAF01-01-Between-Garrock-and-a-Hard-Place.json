@@ -3,7 +3,9 @@
     "authors": [
         "Chris Dzura"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SAF01-01",
     "date_created": "20200110",
     "full_title": "CCC-SAF01-01 Between Garrock and a Hard Place",

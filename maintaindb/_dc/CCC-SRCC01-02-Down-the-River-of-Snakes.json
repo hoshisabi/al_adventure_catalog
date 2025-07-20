@@ -6,7 +6,9 @@
         "David Morris",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SRCC01-02",
     "date_created": "20171003",
     "full_title": "CCC-SRCC01-02 Down the River of Snakes",

@@ -3,7 +3,9 @@
     "authors": [
         "Scott Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-QCC2017",
     "date_created": "20170911",
     "full_title": "CCC-QCC2017 Delusions of Grandeur, Dreams of Revenge",

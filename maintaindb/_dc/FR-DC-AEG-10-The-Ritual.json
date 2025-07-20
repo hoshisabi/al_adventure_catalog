@@ -3,7 +3,9 @@
     "authors": [
         "Joseph George"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-AEG-10",
     "date_created": "20240216",
     "full_title": "FR-DC-AEG-10 The Ritual",

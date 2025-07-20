@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Chapman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-UCON-02",
     "date_created": "20220831",
     "full_title": "Have You No Heart? (WBW-DC-UCON-02)",

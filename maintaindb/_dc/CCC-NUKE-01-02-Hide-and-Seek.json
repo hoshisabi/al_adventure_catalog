@@ -3,7 +3,9 @@
     "authors": [
         "Marcello Velazquez"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-NUKE-01-02",
     "date_created": "20181009",
     "full_title": "CCC-NUKE-01-02 Hide and Seek",

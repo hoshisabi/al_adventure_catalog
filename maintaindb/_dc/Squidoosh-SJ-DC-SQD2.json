@@ -3,7 +3,9 @@
     "authors": [
         "Brian Balagot"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-SQD2",
     "date_created": "20230408",
     "full_title": "Squidoosh! (SJ-DC-SQD2)",

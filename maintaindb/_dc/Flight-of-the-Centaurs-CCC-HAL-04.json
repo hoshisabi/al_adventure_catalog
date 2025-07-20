@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HAL-04",
     "date_created": "20200924",
     "full_title": "Flight of the Centaurs (CCC-HAL-04)",

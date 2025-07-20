@@ -3,7 +3,9 @@
     "authors": [
         "LK Tsui"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-HBK-2",
     "date_created": "20220831",
     "full_title": "WBW-DC-HBK-2 A Song for Hopes and Dreams",

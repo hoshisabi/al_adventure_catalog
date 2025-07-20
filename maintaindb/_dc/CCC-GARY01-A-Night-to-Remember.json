@@ -4,7 +4,9 @@
         "Thomas Valley",
         "Luke Gygax"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY-01",
     "date_created": "20170414",
     "full_title": "CCC-GARY01: A Night to Remember",

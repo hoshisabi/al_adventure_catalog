@@ -5,7 +5,9 @@
         "Ma'at Crook",
         "Chris Maxwell"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-JGD-05",
     "date_created": "20210414",
     "full_title": "DC-PoA-JGD-05 Shadows Under Ice",

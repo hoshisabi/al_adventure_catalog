@@ -3,7 +3,9 @@
     "authors": [
         "David Hobby"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-DDG-01",
     "date_created": "20241028",
     "full_title": "Mind Games",

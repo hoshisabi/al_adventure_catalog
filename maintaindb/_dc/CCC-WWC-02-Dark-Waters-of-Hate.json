@@ -3,7 +3,9 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-WWC-02",
     "date_created": "20180426",
     "full_title": "CCC-WWC-02 Dark Waters of Hate",

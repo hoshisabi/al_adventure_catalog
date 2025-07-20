@@ -4,7 +4,9 @@
         "Sandra Hovland",
         "Konstantin Breen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-06",
     "date_created": "20210828",
     "full_title": "DC-PoA-CONMAR-06 The Codmothers",

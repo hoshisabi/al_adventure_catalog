@@ -4,7 +4,9 @@
         "Jay H. Anderson",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MIND01-01",
     "date_created": "20180703",
     "full_title": "CCC-MIND01-01 Lost in Thought",

@@ -5,7 +5,9 @@
         "David Sklenicka",
         "Davestar Gaming"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-DRAGON24-04",
     "date_created": "20240827",
     "full_title": "PS-DC-DRAGON24-04 The Gallery of Souls, Chapter Four of the Broken Ring Saga",

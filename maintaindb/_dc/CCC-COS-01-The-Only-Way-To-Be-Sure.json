@@ -4,7 +4,9 @@
         "Jason Panella",
         "Jim Parkin"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-COS-01",
     "date_created": "20190809",
     "full_title": "CCC-COS-01 The Only Way To Be Sure",

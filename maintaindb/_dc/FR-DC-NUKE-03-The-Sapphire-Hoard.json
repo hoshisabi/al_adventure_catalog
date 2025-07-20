@@ -3,7 +3,9 @@
     "authors": [
         "Ed Stevens"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-NUKE-03",
     "date_created": "20241012",
     "full_title": "FR-DC-NUKE-03 The Sapphire Hoard",

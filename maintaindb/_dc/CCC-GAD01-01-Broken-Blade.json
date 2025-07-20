@@ -3,7 +3,9 @@
     "authors": [
         "Y. Michael Zhang"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GAD01-01",
     "date_created": "20190327",
     "full_title": "CCC-GAD01-01 Broken Blade",

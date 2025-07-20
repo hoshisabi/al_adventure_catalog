@@ -4,7 +4,9 @@
         "Steven Truong",
         "Cameron Pearce"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-VECNA-02",
     "date_created": "20240731",
     "full_title": "ELDRITCH EYE WIDE SHUT (FR-DC-VECNA-02)",

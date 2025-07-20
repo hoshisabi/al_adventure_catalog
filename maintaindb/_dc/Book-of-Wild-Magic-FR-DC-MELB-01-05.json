@@ -4,7 +4,9 @@
         "Steven Truong",
         "Hugh Lee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-MELB-01-05",
     "date_created": "20240821",
     "full_title": "Book of Wild Magic (FR-DC-MELB-01-05)",

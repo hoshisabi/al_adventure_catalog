@@ -3,7 +3,9 @@
     "authors": [
         "Casper Kirketerp-Helenius"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-01",
     "date_created": "20210108",
     "full_title": "DC-PoA-CONMAR-01 Something Sinister",

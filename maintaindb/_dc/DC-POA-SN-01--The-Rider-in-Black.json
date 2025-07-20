@@ -3,7 +3,9 @@
     "authors": [
         "Nicholas Reed"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-SN-01-",
     "date_created": "20210322",
     "full_title": "DC-POA-SN-01: The Rider in Black",

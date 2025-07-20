@@ -3,7 +3,9 @@
     "authors": [
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ZODIAC-07",
     "date_created": "20220703",
     "full_title": "WBW-DC-ZODIAC-07 A Fey At The Races",

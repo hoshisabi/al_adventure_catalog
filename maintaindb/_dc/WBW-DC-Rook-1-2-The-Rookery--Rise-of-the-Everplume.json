@@ -3,7 +3,9 @@
     "authors": [
         "Chris Valentine"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ROOK-1-2",
     "date_created": "20220406",
     "full_title": "WBW-DC-Rook-1-2 The Rookery: Rise of the Everplume",

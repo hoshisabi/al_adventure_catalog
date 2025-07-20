@@ -4,7 +4,9 @@
         "Robbie Pleasant",
         "Addy Tortosa"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DD-05",
     "date_created": "20230416",
     "full_title": "SJ-DC-DD-05 The Show Must Go On",

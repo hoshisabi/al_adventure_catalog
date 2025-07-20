@@ -3,7 +3,9 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-TOA-6",
     "date_created": "20170907",
     "full_title": "DDHC-TOA-6 Heart of the Wild",

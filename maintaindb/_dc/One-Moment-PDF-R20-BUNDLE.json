@@ -1,7 +1,9 @@
 {
     "apl": 8,
     "authors": [],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20231124",
     "full_title": "One Moment (PDF+R20) [BUNDLE]",

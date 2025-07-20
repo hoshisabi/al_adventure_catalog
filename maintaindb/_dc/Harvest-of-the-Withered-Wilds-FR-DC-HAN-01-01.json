@@ -3,7 +3,9 @@
     "authors": [
         "Siobhan Hanlon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-HAN-01-01",
     "date_created": "20250306",
     "full_title": "Harvest of the Withered Wilds (FR-DC-HAN-01-01)",

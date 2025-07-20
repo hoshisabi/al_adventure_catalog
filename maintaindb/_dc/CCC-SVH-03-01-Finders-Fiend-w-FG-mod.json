@@ -4,7 +4,9 @@
         "Andrew Bishkinskyi",
         "Xavier A. Devenoges"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SVH-03-01",
     "date_created": "20200429",
     "full_title": "CCC-SVH-03-01 Finder's Fiend (w/ FG mod)",

@@ -4,7 +4,9 @@
         "Ally Sulentic",
         "Jessica Marcrum"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY-16-",
     "date_created": "20201204",
     "full_title": "CCC-GARY-16: My Immortal Loneliness",

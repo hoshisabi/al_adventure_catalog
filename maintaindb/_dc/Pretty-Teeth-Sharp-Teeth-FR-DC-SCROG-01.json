@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Bennett"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-SCROG-01",
     "date_created": "20250518",
     "full_title": "Pretty Teeth, Sharp Teeth (FR-DC-SCROG-01)",

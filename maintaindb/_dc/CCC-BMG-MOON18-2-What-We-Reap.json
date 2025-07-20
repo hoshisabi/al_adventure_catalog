@@ -4,7 +4,9 @@
         "Baldman Games",
         "Greg Marks"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON18-2",
     "date_created": "20220630",
     "full_title": "CCC-BMG-MOON18-2 What We Reap",

@@ -3,7 +3,9 @@
     "authors": [
         "Teddy Benson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-GARY-03-",
     "date_created": "20250320",
     "full_title": "FR-DC-GARY-03: Blade to Branch",

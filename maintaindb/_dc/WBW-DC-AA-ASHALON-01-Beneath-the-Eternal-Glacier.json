@@ -4,7 +4,9 @@
         "Marik Montalvan",
         "Jens Sundqvist"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-AA-ASHALON-01",
     "date_created": "20220831",
     "full_title": "WBW-DC-AA-ASHALON-01 Beneath the Eternal Glacier",

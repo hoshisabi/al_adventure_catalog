@@ -3,7 +3,9 @@
     "authors": [
         "John Sedlack"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TAROT-02-09",
     "date_created": "20200420",
     "full_title": "CCC-Tarot-02-09 The Thentia Job",

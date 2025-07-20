@@ -4,7 +4,9 @@
         "Johnny Smith",
         "Triden Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-AUG-07",
     "date_created": "20230223",
     "full_title": "SJ-DC-AUG-07 Blast Them! Tales of the Beholder Corps",

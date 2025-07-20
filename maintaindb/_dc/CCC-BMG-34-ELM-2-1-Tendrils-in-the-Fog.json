@@ -3,7 +3,9 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-34",
     "date_created": "20181003",
     "full_title": "CCC-BMG-34 ELM 2-1 Tendrils in the Fog",

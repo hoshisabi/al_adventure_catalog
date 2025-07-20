@@ -3,7 +3,9 @@
     "authors": [
         "PT MacKim"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-EBAL-TT1",
     "date_created": "20210731",
     "full_title": "DC-POA-EBAL-TT1 Bru in Trouble",

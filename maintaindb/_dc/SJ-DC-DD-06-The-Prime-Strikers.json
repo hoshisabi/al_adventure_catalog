@@ -4,7 +4,9 @@
         "Michelle Churchill",
         "Lu\u00eds Ricardo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DD-06",
     "date_created": "20230708",
     "full_title": "SJ-DC-DD-06 The Prime Strikers",

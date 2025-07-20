@@ -3,7 +3,9 @@
     "authors": [
         "Joseph George"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-AEG-02",
     "date_created": "20220207",
     "full_title": "WBW-DC-AEG-02 Making Changes",

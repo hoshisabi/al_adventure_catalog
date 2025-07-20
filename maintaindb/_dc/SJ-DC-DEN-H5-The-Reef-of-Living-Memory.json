@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DEN-H5",
     "date_created": "20230114",
     "full_title": "SJ-DC-DEN-H5 The Reef of Living Memory",

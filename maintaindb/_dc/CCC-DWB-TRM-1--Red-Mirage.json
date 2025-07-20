@@ -3,7 +3,9 @@
     "authors": [
         "Robby Jones"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DWB-TRM-1-",
     "date_created": "20200504",
     "full_title": "CCC-DWB-TRM-1: Red Mirage",

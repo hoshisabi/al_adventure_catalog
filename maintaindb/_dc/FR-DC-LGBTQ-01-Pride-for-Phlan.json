@@ -3,7 +3,9 @@
     "authors": [
         "Dev Alva"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-LGBTQ-01",
     "date_created": "20240609",
     "full_title": "FR-DC-LGBTQ-01 Pride for Phlan",

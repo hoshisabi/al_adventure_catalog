@@ -3,7 +3,9 @@
     "authors": [
         "Kate Lacambra"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-PHP-LRD-01",
     "date_created": "20230928",
     "full_title": "SJ-DC-PHP-LRD-01 The First Shades of Dusk",

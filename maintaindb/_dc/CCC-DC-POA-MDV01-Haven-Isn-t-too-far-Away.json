@@ -3,15 +3,19 @@
     "authors": [
         "Marcello De Velazquez"
     ],
-    "campaign": "Forgotten Realms",
-    "code": "DC-POA-MDV01",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "CCC-DC-POA-MDV01",
     "date_created": "20210519",
     "full_title": "CCC-DC-POA-MDV01, \"Haven (Isn't too far Away)",
     "hours": null,
     "is_adventure": true,
     "level_range": null,
-    "product_id": "CCC-DC-POA-MDV01-Haven-Isnt-too-far-Away",
+    "price": null,
+    "product_id": "358204",
+    "season": null,
     "tiers": null,
     "title": "\"Haven Isn't too far Away",
-    "url": "https://www.dmsguild.com/product/358204/CCCDCPOAMDV01-Haven-Isnt-too-far-Away?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/358204/?affiliate_id=171040"
 }

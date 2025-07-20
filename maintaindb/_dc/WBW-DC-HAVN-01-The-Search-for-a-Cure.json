@@ -3,7 +3,9 @@
     "authors": [
         "James M. K."
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-HAVN-01",
     "date_created": "20220821",
     "full_title": "WBW-DC-HAVN-01 The Search for a Cure",

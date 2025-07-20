@@ -3,7 +3,9 @@
     "authors": [
         "JWei\u4f1f"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ROTU-07",
     "date_created": "20230806",
     "full_title": "SJ-DC-ROTU-07 Recesses of the Unknown, Epilogue",

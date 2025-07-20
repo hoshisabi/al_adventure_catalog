@@ -3,7 +3,9 @@
     "authors": [
         "Mitchell Tee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-VMT-02",
     "date_created": "20220831",
     "full_title": "WBW-DC-VMT-02 Court of the Owl King",

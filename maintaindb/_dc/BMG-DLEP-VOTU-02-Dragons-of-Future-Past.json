@@ -3,7 +3,9 @@
     "authors": [
         "D&D Adventurers League"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "BMG-DLEP-VOTU-02",
     "date_created": "20250313",
     "full_title": "BMG-DLEP-VOTU-02 Dragons of Future Past",

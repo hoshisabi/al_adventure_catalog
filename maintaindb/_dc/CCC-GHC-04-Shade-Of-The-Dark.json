@@ -4,7 +4,9 @@
         "Dave Zajac",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-04",
     "date_created": "20171204",
     "full_title": "CCC-GHC-04 - Shade Of The Dark",

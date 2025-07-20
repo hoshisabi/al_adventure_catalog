@@ -3,7 +3,9 @@
     "authors": [
         "Elijah Vince Aguila"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-PHP-INFRN01-01-",
     "date_created": "20240807",
     "full_title": "FR-DC-PHP-INFRN01-01: The Hidden Sanctum",

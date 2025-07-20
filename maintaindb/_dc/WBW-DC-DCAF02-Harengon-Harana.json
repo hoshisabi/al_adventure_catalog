@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DCAF02",
     "date_created": "20211207",
     "full_title": "WBW-DC-DCAF02 Harengon Harana",

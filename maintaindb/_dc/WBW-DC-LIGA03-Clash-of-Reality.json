@@ -4,7 +4,9 @@
         "Lu\u00eds Ricardo",
         "Patr\u00edcia Brito"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LIGA03",
     "date_created": "20220831",
     "full_title": "WBW-DC-LIGA03 Clash of Reality",

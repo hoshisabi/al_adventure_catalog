@@ -3,7 +3,9 @@
     "authors": [
         "Nathan Bond"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-TOWER",
     "date_created": "20200515",
     "full_title": "Estranged Tower",

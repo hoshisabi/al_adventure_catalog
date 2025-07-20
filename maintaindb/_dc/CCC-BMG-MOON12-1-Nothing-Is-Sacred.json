@@ -5,7 +5,9 @@
         "Toni Winslow-Brill",
         "Eric Menge"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON12-1",
     "date_created": "20210520",
     "full_title": "CCC-BMG-MOON12-1 Nothing Is Sacred",

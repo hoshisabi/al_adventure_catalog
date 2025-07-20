@@ -3,7 +3,9 @@
     "authors": [
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ARCON01-03",
     "date_created": "20201103",
     "full_title": "CCC-ARCON01-03 - Pharmacist Wanted",

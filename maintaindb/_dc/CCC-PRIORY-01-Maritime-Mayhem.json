@@ -3,7 +3,9 @@
     "authors": [
         "Adam Gordier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PRIORY-01",
     "date_created": "20180429",
     "full_title": "CCC-PRIORY-01 Maritime Mayhem",

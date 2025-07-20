@@ -3,7 +3,9 @@
     "authors": [
         "Celeste Conowitch"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-DINO",
     "date_created": "20200827",
     "full_title": "Dino World",

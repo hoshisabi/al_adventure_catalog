@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-SAERLOON-01",
     "date_created": "20250118",
     "full_title": "FR-DC-SAERLOON-01 EYES ON THE PIES",

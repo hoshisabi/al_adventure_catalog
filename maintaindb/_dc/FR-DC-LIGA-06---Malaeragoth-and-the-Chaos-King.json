@@ -4,7 +4,9 @@
         "Ingus Pougher",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-LIGA-06",
     "date_created": "20240710",
     "full_title": "FR-DC-LIGA-06 - Malaeragoth and the Chaos King",

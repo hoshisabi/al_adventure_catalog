@@ -3,7 +3,9 @@
     "authors": [
         "Antoine Deligne"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA",
     "date_created": "20210201",
     "full_title": "DC-PoA \"Out of the Dark Woods\"",

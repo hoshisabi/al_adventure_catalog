@@ -4,7 +4,9 @@
         "Niccolo Estrella",
         "Greasy Snitches"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GSP03-02",
     "date_created": "20210216",
     "full_title": "Lost in the Woods (DC-PoA-GSP03-02)",

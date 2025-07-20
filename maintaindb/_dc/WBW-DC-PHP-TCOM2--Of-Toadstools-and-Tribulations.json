@@ -3,7 +3,9 @@
     "authors": [
         "Miguel Luis de Jesus"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-TCOM2-",
     "date_created": "20220812",
     "full_title": "WBW-DC-PHP-TCOM2: Of Toadstools and Tribulations",

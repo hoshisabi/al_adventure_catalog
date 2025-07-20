@@ -3,7 +3,9 @@
     "authors": [
         "Scott Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-SSM-01",
     "date_created": "20220416",
     "full_title": "WBW-DC-SSM-01 The Grimm Reality",

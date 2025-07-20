@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HAL-03",
     "date_created": "20181125",
     "full_title": "ZETH-03 Six Swords Unbound (CCC-HAL-03)",

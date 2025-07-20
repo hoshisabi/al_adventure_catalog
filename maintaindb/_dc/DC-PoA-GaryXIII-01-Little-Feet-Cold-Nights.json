@@ -4,7 +4,9 @@
         "Ayanna Jones-Lightsy",
         "Cedric Jones"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GARYXIII-01",
     "date_created": "20210325",
     "full_title": "DC-PoA-GaryXIII-01 Little Feet, Cold Nights",

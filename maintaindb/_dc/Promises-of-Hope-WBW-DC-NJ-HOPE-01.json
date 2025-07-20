@@ -3,7 +3,9 @@
     "authors": [
         "Lee Ning Jiang"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-NJ-HOPE-01",
     "date_created": "20220330",
     "full_title": "Promises of Hope (WBW-DC-NJ-HOPE-01)",

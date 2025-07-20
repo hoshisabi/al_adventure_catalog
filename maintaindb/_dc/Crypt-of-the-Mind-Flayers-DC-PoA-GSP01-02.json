@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Paul Gabat"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GSP01-02",
     "date_created": "20210222",
     "full_title": "Crypt of the Mind Flayers (DC-PoA-GSP01-02)",

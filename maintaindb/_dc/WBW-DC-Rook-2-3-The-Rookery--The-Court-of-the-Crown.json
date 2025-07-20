@@ -3,7 +3,9 @@
     "authors": [
         "Chris Valentine"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ROOK-2-3",
     "date_created": "20220831",
     "full_title": "WBW-DC-Rook-2-3 The Rookery: The Court of the Crown",

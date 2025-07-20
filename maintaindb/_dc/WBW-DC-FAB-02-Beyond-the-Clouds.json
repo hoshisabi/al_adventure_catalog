@@ -3,7 +3,9 @@
     "authors": [
         "Eddie Gioffre"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FAB-02",
     "date_created": "20220830",
     "full_title": "WBW-DC-FAB-02 Beyond the Clouds",

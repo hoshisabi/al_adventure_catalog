@@ -3,7 +3,9 @@
     "authors": [
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-FLUMPH-02",
     "date_created": "20230314",
     "full_title": "SJ-DC-FLUMPH-02 Frightmare of the Flux",

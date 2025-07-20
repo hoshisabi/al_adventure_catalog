@@ -3,7 +3,9 @@
     "authors": [
         "Mc Kenzie Bagayas"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-SO-01",
     "date_created": "20220817",
     "full_title": "The Labyrinth of Forgotten Memories (WBW-DC-SO-01)",

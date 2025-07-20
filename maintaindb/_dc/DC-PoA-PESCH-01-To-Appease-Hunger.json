@@ -3,7 +3,9 @@
     "authors": [
         "Jason Pesch"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-PESCH-01",
     "date_created": "20210828",
     "full_title": "DC-PoA-PESCH-01 To Appease Hunger",

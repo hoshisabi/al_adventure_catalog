@@ -3,7 +3,9 @@
     "authors": [
         "Lee Ning Jiang"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-NJ-COU-01",
     "date_created": "20211024",
     "full_title": "WBW-DC-NJ-COU-01 Dear Aery",

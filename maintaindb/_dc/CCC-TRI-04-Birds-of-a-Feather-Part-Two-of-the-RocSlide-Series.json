@@ -4,7 +4,9 @@
         "Garrett Col\u00f3n",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-04",
     "date_created": "20180413",
     "full_title": "CCC-TRI-04 Birds of a Feather (Part Two of the RocSlide Series)",

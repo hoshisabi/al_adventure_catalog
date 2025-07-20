@@ -4,7 +4,9 @@
         "Jay Africa",
         "Nguyen Le"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-SCN-02",
     "date_created": "20230303",
     "full_title": "SJ-DC-SCN-02 Monkey King",

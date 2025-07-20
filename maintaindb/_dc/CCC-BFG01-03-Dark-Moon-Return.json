@@ -5,7 +5,9 @@
         "Paul Aparicio",
         "Eli White"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BFG01-03",
     "date_created": "20200722",
     "full_title": "CCC-BFG01-03 Dark Moon Return",

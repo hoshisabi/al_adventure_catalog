@@ -1,7 +1,9 @@
 {
     "apl": null,
     "authors": [],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-FTC-02",
     "date_created": "20240103",
     "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",

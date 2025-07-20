@@ -4,7 +4,9 @@
         "Baldman Games",
         "Ben Sandfelder"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON5-2",
     "date_created": "20200414",
     "full_title": "CCC-BMG-MOON5-2 Bloodlust Contained",

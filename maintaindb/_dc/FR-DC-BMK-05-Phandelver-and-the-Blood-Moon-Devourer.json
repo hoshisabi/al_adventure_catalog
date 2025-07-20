@@ -3,7 +3,9 @@
     "authors": [
         "Arthur Marques"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-BMK-05",
     "date_created": "20240720",
     "full_title": "FR-DC-BMK-05 Phandelver and the Blood Moon Devourer",

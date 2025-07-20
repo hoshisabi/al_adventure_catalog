@@ -4,7 +4,9 @@
         "Keith McKinnis",
         "William Murakami-Brundage"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-STORM-02",
     "date_created": "20190403",
     "full_title": "CCC-STORM-02 Swamp of Sorrow: Bloodpurge Village",

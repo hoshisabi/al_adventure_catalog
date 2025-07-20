@@ -3,7 +3,9 @@
     "authors": [
         "Nate Laleman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-RCC-01-02",
     "date_created": "20200109",
     "full_title": "CCC-RCC-01-02 The King of Thar",

@@ -4,7 +4,9 @@
         "Sonja Dunbar",
         "Matthew Rihan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LUN-01",
     "date_created": "20220816",
     "full_title": "WBW-DC-LUN-01 Spectacle at Shrineholt",

@@ -5,7 +5,9 @@
         "Enrico Romeo",
         "Davide Milano"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SLMH01-01",
     "date_created": "20190820",
     "full_title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",

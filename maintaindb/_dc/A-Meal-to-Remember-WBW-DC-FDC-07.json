@@ -3,7 +3,9 @@
     "authors": [
         "Justice Arman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FDC-07",
     "date_created": "20210921",
     "full_title": "A Meal to Remember (WBW-DC-FDC-07)",

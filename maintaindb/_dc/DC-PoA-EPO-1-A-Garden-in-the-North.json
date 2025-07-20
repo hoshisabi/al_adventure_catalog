@@ -3,7 +3,9 @@
     "authors": [
         "Endhy Pino"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-EPO-1",
     "date_created": "20210425",
     "full_title": "DC-PoA-EPO-1 A Garden in the North",

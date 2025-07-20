@@ -4,7 +4,9 @@
         "Janine Hempy",
         "Jon Christian"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "BMG-DL-VOTU-03",
     "date_created": "20231213",
     "full_title": "BMG-DL-VOTU-03 Dragons of Treachery",

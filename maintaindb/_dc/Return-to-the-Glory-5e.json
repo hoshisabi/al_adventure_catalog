@@ -3,7 +3,9 @@
     "authors": [
         "Wizards of the Coast"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20200521",
     "full_title": "Return to the Glory (5e)",

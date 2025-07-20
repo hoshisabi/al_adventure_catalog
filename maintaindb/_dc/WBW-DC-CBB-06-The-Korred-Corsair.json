@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B. Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CBB-06",
     "date_created": "20220619",
     "full_title": "WBW-DC-CBB-06 The Korred Corsair",

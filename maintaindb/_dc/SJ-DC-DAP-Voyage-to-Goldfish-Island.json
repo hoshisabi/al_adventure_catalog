@@ -3,7 +3,9 @@
     "authors": [
         "Doug Phillips"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DAP",
     "date_created": "20230831",
     "full_title": "SJ-DC-DAP Voyage to Goldfish Island",

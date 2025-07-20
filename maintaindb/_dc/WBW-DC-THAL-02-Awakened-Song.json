@@ -3,7 +3,9 @@
     "authors": [
         "Steve Hill"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-THAL-02",
     "date_created": "20220716",
     "full_title": "WBW-DC-THAL-02 Awakened Song",

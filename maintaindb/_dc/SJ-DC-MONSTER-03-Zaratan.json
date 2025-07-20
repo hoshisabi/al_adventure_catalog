@@ -3,7 +3,9 @@
     "authors": [
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-MONSTER-03",
     "date_created": "20231116",
     "full_title": "SJ-DC-MONSTER-03 Zaratan",

@@ -4,7 +4,9 @@
         "Baldman Games",
         "Marina Desmarais"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON16-2",
     "date_created": "20220216",
     "full_title": "CCC-BMG-MOON16-2 Procession of the Sage",

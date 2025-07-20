@@ -4,7 +4,9 @@
         "David Harmon",
         "Emily Harmon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-HARM-01-03",
     "date_created": "20210831",
     "full_title": "DC-PoA-HARM-01-03 Killing Time",

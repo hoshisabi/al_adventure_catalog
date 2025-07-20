@@ -7,7 +7,9 @@
         "Jonathan Westmoreland",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SKULL01-02",
     "date_created": "20190408",
     "full_title": "CCC-SKULL01-02 Not All Who Are Lost Should Be Found",

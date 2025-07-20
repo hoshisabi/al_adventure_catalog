@@ -5,7 +5,9 @@
         "Toni Winslow Brill",
         "Eric Menge"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON19-2",
     "date_created": "20220809",
     "full_title": "CCC-BMG-MOON19-2 A Tide and a Storm",

@@ -4,7 +4,9 @@
         "Tricia Monsod",
         "Kai Monsod"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TKM-03",
     "date_created": "20230720",
     "full_title": "It Runs in the Blood (SJ-DC-TKM-03)",

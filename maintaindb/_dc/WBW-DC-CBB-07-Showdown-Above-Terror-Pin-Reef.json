@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B. Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CBB-07",
     "date_created": "20220725",
     "full_title": "WBW-DC-CBB-07 Showdown Above Terror-Pin Reef",

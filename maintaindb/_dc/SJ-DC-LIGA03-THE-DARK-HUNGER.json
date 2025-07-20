@@ -5,7 +5,9 @@
         "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-LIGA03",
     "date_created": "20231219",
     "full_title": "SJ-DC-LIGA03 THE DARK HUNGER",

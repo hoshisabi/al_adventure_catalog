@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Chapman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-UCON-01",
     "date_created": "20220831",
     "full_title": "The Party that Split (WBW-DC-UCON-01)",

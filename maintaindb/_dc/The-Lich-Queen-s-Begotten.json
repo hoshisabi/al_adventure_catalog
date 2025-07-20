@@ -3,7 +3,9 @@
     "authors": [
         "M.T. Black"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20180521",
     "full_title": "The Lich-Queen's Begotten",

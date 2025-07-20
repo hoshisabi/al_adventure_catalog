@@ -4,7 +4,9 @@
         "Claire Gellner",
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DCAFCG01",
     "date_created": "20210825",
     "full_title": "DC-PoA-DCAFCG01 Catastrophe Caravan",

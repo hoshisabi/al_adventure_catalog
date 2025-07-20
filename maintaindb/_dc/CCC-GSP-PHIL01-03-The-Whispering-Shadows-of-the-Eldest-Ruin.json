@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Niccolo Estrella"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP-PHIL01-03",
     "date_created": "20190820",
     "full_title": "CCC-GSP-PHIL01-03 The Whispering Shadows of the Eldest Ruin",

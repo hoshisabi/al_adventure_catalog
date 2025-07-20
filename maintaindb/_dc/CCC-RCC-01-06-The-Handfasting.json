@@ -3,7 +3,9 @@
     "authors": [
         "Erik Hawley"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-RCC-01-06",
     "date_created": "20200109",
     "full_title": "CCC-RCC-01-06 The Handfasting",

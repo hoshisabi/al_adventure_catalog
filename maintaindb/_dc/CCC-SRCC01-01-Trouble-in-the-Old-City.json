@@ -5,7 +5,9 @@
         "David Morris",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SRCC01-01",
     "date_created": "20171003",
     "full_title": "CCC-SRCC01-01 Trouble in the Old City",

@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Paul Gabat"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP02-02",
     "date_created": "20200420",
     "full_title": "CCC-GSP02-02 Stygia Untamed",

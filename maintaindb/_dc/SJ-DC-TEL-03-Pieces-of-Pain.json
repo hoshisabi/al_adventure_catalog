@@ -3,7 +3,9 @@
     "authors": [
         "Eric Weberg"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TEL-03",
     "date_created": "20231231",
     "full_title": "SJ-DC-TEL-03 Pieces of Pain",

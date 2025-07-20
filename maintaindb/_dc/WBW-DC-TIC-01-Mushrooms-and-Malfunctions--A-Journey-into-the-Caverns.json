@@ -3,7 +3,9 @@
     "authors": [
         "Zarajane Ferrier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TIC-01",
     "date_created": "20211203",
     "full_title": "WBW-DC-TIC-01 Mushrooms and Malfunctions: A Journey into the Caverns",

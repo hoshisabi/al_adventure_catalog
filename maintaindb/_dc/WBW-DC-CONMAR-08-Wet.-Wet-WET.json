@@ -3,7 +3,9 @@
     "authors": [
         "Casper Kirketerp-Helenius"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-08",
     "date_created": "20220428",
     "full_title": "WBW-DC-CONMAR-08 Wet. Wet? WET!",

@@ -4,7 +4,9 @@
         "Baldman Games",
         "Jeff C. Stevens"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON12-2",
     "date_created": "20210520",
     "full_title": "CCC-BMG-MOON12-2 A Gift from the Queen",

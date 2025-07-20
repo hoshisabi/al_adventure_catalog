@@ -4,7 +4,9 @@
         "Erin Abele",
         "Kyle Fish"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-EK-WC01",
     "date_created": "20210313",
     "full_title": "DC-PoA-EK-WC01 Wilderness Childcare",

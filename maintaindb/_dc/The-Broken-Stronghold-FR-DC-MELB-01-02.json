@@ -3,7 +3,9 @@
     "authors": [
         "Mike Arrow"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-MELB-01-02",
     "date_created": "20240611",
     "full_title": "The Broken Stronghold (FR-DC-MELB-01-02)",

@@ -3,7 +3,9 @@
     "authors": [
         "Thomas Valley"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY-08-",
     "date_created": "20180330",
     "full_title": "CCC-GARY-08: That Which Lies Buried",

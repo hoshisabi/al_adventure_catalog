@@ -3,7 +3,9 @@
     "authors": [
         "Chris Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-CBB-01",
     "date_created": "20230425",
     "full_title": "SJ-DC-CBB-01 Last Stand of The Void",

@@ -3,7 +3,9 @@
     "authors": [
         "Robby Jones"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DWB-TFG",
     "date_created": "20200504",
     "full_title": "CCC-DWB-TFG 1: The Frostbane Garden",

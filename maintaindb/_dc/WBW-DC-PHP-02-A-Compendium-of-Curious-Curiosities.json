@@ -3,7 +3,9 @@
     "authors": [
         "Miguel Luis de Jesus"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-02",
     "date_created": "20220217",
     "full_title": "WBW-DC-PHP-02 A Compendium of Curious Curiosities",

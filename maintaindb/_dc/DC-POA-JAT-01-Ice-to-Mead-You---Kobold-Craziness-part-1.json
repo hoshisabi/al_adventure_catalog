@@ -3,7 +3,9 @@
     "authors": [
         "Joshua Toulouse"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-JAT-01",
     "date_created": "20210725",
     "full_title": "DC-POA-JAT-01 Ice to Mead You - Kobold Craziness part 1",

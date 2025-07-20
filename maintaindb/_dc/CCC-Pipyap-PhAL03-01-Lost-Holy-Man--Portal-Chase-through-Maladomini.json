@@ -3,7 +3,9 @@
     "authors": [
         "Trevor Duston"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PIPYAP-PHAL03-01",
     "date_created": "20201102",
     "full_title": "CCC-Pipyap-PhAL03-01 Lost Holy Man: Portal Chase through Maladomini",

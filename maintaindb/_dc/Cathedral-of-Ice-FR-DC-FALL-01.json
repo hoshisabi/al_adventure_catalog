@@ -3,7 +3,9 @@
     "authors": [
         "Lex Winter"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-FALL-01",
     "date_created": "20240726",
     "full_title": "Cathedral of Ice (FR-DC-FALL-01)",

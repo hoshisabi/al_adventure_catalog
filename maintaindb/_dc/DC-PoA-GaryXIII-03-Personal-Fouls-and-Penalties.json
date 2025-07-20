@@ -3,7 +3,9 @@
     "authors": [
         "Maxine Henry"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GARYXIII-03",
     "date_created": "20210325",
     "full_title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",

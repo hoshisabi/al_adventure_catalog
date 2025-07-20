@@ -7,7 +7,9 @@
         "M.T. Black",
         "Rich Lescouflair"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20190617",
     "full_title": "Saltmarsh Encounters",

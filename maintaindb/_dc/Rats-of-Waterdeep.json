@@ -4,7 +4,9 @@
         "Will Doyle",
         "Lysa Penrose"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-XGE-01",
     "date_created": "20180422",
     "full_title": "Rats of Waterdeep",

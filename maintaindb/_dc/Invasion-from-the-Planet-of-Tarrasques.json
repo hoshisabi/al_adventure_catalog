@@ -1,7 +1,9 @@
 {
     "apl": null,
     "authors": [],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20181109",
     "full_title": "Invasion from the Planet of Tarrasques",

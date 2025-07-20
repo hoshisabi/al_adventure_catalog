@@ -3,7 +3,9 @@
     "authors": [
         "Jay Africa"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WCAG03-04",
     "date_created": "20250401",
     "full_title": "FR-DC-WCAG03-04 The Eyes of Shaktari",

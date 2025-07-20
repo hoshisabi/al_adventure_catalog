@@ -4,7 +4,9 @@
         "Baldman Games",
         "Ashley Warren"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON12-3",
     "date_created": "20210520",
     "full_title": "CCC-BMG-MOON12-3 Tempest of Malice",

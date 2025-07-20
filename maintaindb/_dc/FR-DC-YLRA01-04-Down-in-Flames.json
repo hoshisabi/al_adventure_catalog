@@ -4,7 +4,9 @@
         "Mike Olson",
         "Strategicon AL"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-YLRA01-04",
     "date_created": "20241112",
     "full_title": "FR-DC-YLRA01-04 Down in Flames",

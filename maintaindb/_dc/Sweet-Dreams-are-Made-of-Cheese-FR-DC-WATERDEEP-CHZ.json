@@ -3,7 +3,9 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WATERDEEP-CHZ",
     "date_created": "20240318",
     "full_title": "Sweet Dreams are Made of Cheese (FR-DC-WATERDEEP-CHZ)",

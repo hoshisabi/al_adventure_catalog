@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Connor Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-01-02",
     "date_created": "20181202",
     "full_title": "CCC-DES-01-02 A Sanity Never Questioned",

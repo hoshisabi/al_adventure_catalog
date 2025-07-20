@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B. Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CBB-01",
     "date_created": "20210103",
     "full_title": "DC-POA-CBB-01 : Twirling Towards Oblivion",

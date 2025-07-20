@@ -3,7 +3,9 @@
     "authors": [
         "David Hardie"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-JOQ-03",
     "date_created": "20211124",
     "full_title": "Giant Serenade (WBW-DC-JOQ-03)",

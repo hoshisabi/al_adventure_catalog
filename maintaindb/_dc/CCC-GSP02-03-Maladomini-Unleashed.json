@@ -3,7 +3,9 @@
     "authors": [
         "Paul Gabat"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP02-03",
     "date_created": "20201123",
     "full_title": "CCC-GSP02-03 Maladomini Unleashed",

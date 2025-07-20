@@ -3,7 +3,9 @@
     "authors": [
         "Jason Koh"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-RPSG-10",
     "date_created": "20250508",
     "full_title": "FR-DC-RPSG-10 Chaos at the Convention",

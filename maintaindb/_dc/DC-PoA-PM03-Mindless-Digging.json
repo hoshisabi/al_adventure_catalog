@@ -3,7 +3,9 @@
     "authors": [
         "patrick mcgovern"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-PM03",
     "date_created": "20210228",
     "full_title": "DC-PoA-PM03 Mindless Digging",

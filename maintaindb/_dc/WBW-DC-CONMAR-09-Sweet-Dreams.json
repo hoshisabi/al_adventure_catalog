@@ -3,7 +3,9 @@
     "authors": [
         "Karianne Fog Heen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-09",
     "date_created": "20220421",
     "full_title": "WBW-DC-CONMAR-09 Sweet Dreams",

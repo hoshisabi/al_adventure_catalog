@@ -3,7 +3,9 @@
     "authors": [
         "Bryan Mets"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-PAT-02",
     "date_created": "20230416",
     "full_title": "Snake-Eye Satellite (SJ-DC-PAT-02)",

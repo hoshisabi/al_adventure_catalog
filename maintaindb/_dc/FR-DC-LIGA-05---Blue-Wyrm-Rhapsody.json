@@ -4,7 +4,9 @@
         "Stephen and Pamela Denison",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-LIGA-05",
     "date_created": "20240608",
     "full_title": "FR-DC-LIGA-05 - Blue Wyrm Rhapsody",

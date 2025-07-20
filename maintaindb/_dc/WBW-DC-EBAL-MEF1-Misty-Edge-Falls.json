@@ -3,7 +3,9 @@
     "authors": [
         "PT MacKim"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-EBAL-MEF1",
     "date_created": "20220812",
     "full_title": "WBW-DC-EBAL-MEF1 Misty Edge Falls",

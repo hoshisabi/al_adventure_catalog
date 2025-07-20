@@ -4,7 +4,9 @@
         "James Repass",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TRI-02",
     "date_created": "20211209",
     "full_title": "WBW-DC-TRI-02 Nothing Ventured",

@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-WBW-DES-01-07",
     "date_created": "20220831",
     "full_title": "The Dark Thread",

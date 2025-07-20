@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-SAERLOON-07",
     "date_created": "20250510",
     "full_title": "FR-DC-Saerloon-07 A Gaggle of Gates",

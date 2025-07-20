@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-SAERLOON-05",
     "date_created": "20250406",
     "full_title": "FR-DC-Saerloon-05 That\u2019s a lot of Flambe",

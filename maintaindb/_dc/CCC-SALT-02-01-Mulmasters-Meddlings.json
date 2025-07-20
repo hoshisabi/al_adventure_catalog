@@ -4,15 +4,19 @@
         "Dave Knighton",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SALT",
     "date_created": "20180609",
     "full_title": "CCC-SALT 02-01 Mulmaster\u2019s Meddling\u2019s",
     "hours": null,
     "is_adventure": true,
     "level_range": "01",
-    "product_id": "CCC-SALT-02-01-Mulmasters-Meddlings",
+    "price": 4.99,
+    "product_id": "244117",
+    "season": null,
     "tiers": null,
     "title": "CCC-SALT 02-01 Mulmaster\u2019s Meddling\u2019s",
-    "url": "https://www.dmsguild.com/product/244117/CCCSALT-0201-Mulmasters-Meddlings?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/244117/?affiliate_id=171040"
 }

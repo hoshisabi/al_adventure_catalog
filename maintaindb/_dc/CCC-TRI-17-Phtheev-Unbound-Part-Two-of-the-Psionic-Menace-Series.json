@@ -4,7 +4,9 @@
         "Chris Ramsley",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-17",
     "date_created": "20180917",
     "full_title": "CCC-TRI-17 Ph'theev, Unbound! (Part Two of the Psionic Menace Series)",

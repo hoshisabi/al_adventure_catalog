@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B. Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CBB-02",
     "date_created": "20210211",
     "full_title": "DC-PoA-CBB-02 : Avarice Everlasting",

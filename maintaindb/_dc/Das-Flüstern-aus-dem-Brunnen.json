@@ -3,7 +3,9 @@
     "authors": [
         "Stefan Tomaschitz"
     ],
-    "campaign": "UNKNOWN",
+    "campaigns": [
+        "UNKNOWN"
+    ],
     "code": "UNKNOWN",
     "date_created": "20240301",
     "full_title": "Das Fl\u00fcstern aus dem Brunnen",

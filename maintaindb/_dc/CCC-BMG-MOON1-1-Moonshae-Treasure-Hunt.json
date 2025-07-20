@@ -7,7 +7,9 @@
         "Krishna Simonse",
         "Cindy Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON1-1",
     "date_created": "20181220",
     "full_title": "CCC-BMG-MOON1-1 Moonshae Treasure Hunt",

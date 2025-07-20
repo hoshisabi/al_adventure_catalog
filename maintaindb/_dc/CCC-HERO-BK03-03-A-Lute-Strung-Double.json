@@ -4,7 +4,9 @@
         "Gamehole Con",
         "Tim Mangan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HERO-BK03-03",
     "date_created": "20201220",
     "full_title": "CCC-HERO-BK03-03 A Lute Strung Double",

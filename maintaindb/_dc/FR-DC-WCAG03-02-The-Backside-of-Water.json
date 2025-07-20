@@ -3,7 +3,9 @@
     "authors": [
         "Mike Olson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WCAG03-02",
     "date_created": "20250401",
     "full_title": "FR-DC-WCAG03-02 The Backside of Water",

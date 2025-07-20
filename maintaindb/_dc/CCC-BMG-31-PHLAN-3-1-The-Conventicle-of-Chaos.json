@@ -4,7 +4,9 @@
         "Baldman Games",
         "M.T. Black"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-31",
     "date_created": "20180716",
     "full_title": "CCC-BMG-31 PHLAN 3-1 The Conventicle of Chaos",

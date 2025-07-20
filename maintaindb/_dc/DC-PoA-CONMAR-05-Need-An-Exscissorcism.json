@@ -3,7 +3,9 @@
     "authors": [
         "Amie Potter"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-05",
     "date_created": "20210731",
     "full_title": "DC-PoA-CONMAR-05 Need An Exscissorcism?",

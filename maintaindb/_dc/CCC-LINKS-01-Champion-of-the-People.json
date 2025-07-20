@@ -3,7 +3,9 @@
     "authors": [
         "Alan Patrick"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-LINKS-01",
     "date_created": "20170809",
     "full_title": "CCC-LINKS-01 Champion of the People",

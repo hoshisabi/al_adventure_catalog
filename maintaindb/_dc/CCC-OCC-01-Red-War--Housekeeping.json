@@ -3,7 +3,9 @@
     "authors": [
         "Garrett Col\u00f3n"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-OCC-01",
     "date_created": "20181011",
     "full_title": "CCC-OCC-01 Red War: Housekeeping",

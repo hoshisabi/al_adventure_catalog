@@ -3,7 +3,9 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-20",
     "date_created": "20171029",
     "full_title": "CCC-BMG-20 HULB 2-2 Winter's Frigid Wrath",

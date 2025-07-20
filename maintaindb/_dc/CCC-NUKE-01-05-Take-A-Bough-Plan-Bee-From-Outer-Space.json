@@ -3,7 +3,9 @@
     "authors": [
         "Marcello Velazquez"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-NUKE-01-05",
     "date_created": "20201104",
     "full_title": "CCC-NUKE-01-05 Take A Bough (Plan Bee From Outer Space)",

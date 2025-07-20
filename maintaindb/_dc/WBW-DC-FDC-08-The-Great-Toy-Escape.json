@@ -3,7 +3,9 @@
     "authors": [
         "Jacky Leung"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FDC-08",
     "date_created": "20210920",
     "full_title": "WBW-DC-FDC-08 The Great Toy Escape",

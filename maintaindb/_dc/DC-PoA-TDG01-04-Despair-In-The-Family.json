@@ -4,7 +4,9 @@
         "Hugh Lee",
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-TDG01-04",
     "date_created": "20210829",
     "full_title": "DC-PoA-TDG01-04 Despair In The Family",

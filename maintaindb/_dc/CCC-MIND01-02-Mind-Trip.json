@@ -4,7 +4,9 @@
         "James Introcaso",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MIND01-02",
     "date_created": "20180705",
     "full_title": "CCC-MIND01-02 Mind Trip",

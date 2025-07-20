@@ -4,7 +4,9 @@
         "Patr\u00edcia Brito",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-LIGA04",
     "date_created": "20231227",
     "full_title": "SJ-DC-LIGA04 DEEP EXPEDITION TO LANTAN",

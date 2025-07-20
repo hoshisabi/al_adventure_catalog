@@ -4,7 +4,9 @@
         "Ian Gopal Gould",
         "Jonathan Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA",
     "date_created": "20211007",
     "full_title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",

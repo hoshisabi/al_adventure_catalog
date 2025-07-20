@@ -4,7 +4,9 @@
         "Gamehole Con",
         "Ruth Imhoff"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK2-10",
     "date_created": "20201220",
     "full_title": "CCC-GHC-BK2-10 Into the Dark, Black Forest",

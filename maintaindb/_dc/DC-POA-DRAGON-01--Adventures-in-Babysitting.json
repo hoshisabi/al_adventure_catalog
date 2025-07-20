@@ -4,7 +4,9 @@
         "THOMAS VALLEY",
         "TEDDY BENSON"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DRAGON-01-",
     "date_created": "20210830",
     "full_title": "DC-POA-DRAGON-01: Adventures in Babysitting",

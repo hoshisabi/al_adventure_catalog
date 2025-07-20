@@ -3,7 +3,9 @@
     "authors": [
         "Joseph George"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-AEG-08",
     "date_created": "20240128",
     "full_title": "FR-DC-AEG-08 The Lost Artifact",

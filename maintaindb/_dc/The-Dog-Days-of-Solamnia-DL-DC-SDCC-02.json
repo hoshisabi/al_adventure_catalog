@@ -3,7 +3,9 @@
     "authors": [
         "Belinda Baldwin"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-SDCC-02",
     "date_created": "20230717",
     "full_title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",

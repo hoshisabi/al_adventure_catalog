@@ -3,7 +3,9 @@
     "authors": [
         "Franz Bedonia"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-POLAR-01",
     "date_created": "20220625",
     "full_title": "Snow Ice (WBW-DC-PHP-POLAR-01)",

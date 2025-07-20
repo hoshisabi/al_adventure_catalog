@@ -5,7 +5,9 @@
         "Liga dos Aventureiros",
         "GameHoleCon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-HERO-01",
     "date_created": "20230606",
     "full_title": "DC-HERO-01 Endless Songs",

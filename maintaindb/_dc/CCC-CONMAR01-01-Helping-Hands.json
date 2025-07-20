@@ -3,7 +3,9 @@
     "authors": [
         "Casper Kirketerp-Helenius"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CONMAR01-01",
     "date_created": "20201103",
     "full_title": "CCC-CONMAR01-01 Helping Hands",

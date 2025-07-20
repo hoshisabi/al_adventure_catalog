@@ -3,7 +3,9 @@
     "authors": [
         "Darion Smith"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DCS-01",
     "date_created": "20231230",
     "full_title": "SJ-DC-DCS-01 Rocks Fall, Everybody Dies",

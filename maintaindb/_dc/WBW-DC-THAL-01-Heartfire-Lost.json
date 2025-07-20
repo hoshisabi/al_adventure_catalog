@@ -3,7 +3,9 @@
     "authors": [
         "Steve Hill"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-THAL-01",
     "date_created": "20220201",
     "full_title": "WBW-DC-THAL-01 Heartfire Lost",

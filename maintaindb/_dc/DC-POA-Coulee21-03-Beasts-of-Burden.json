@@ -3,7 +3,9 @@
     "authors": [
         "Ed Stoltman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-COULEE21-03",
     "date_created": "20210830",
     "full_title": "DC-POA-Coulee21-03 Beasts of Burden",

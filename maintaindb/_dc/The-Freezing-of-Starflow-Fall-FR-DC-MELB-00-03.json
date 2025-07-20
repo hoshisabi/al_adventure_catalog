@@ -4,7 +4,9 @@
         "Cameron Pearce",
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-MELB-00-03",
     "date_created": "20250114",
     "full_title": "The Freezing of Starflow Fall (FR-DC-MELB-00-03)",

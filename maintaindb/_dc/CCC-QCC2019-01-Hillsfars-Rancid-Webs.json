@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Kennedy-Ellis"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-QCC2019-01",
     "date_created": "20190714",
     "full_title": "CCC-QCC2019-01 Hillsfar's Rancid Webs",

@@ -3,7 +3,9 @@
     "authors": [
         "Ed Stevens"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PRETZ-PLA03",
     "date_created": "20200803",
     "full_title": "CCC-PRETZ-PLA03 The Necroforge",

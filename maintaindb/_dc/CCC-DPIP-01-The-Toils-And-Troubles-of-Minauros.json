@@ -3,7 +3,9 @@
     "authors": [
         "George DeMeglio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DPIP-01",
     "date_created": "20201220",
     "full_title": "CCC-DPIP-01 The Toils And Troubles of Minauros",

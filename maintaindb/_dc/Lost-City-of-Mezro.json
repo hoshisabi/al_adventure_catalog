@@ -4,7 +4,9 @@
         "Rich Lescouflair",
         "Will Doyle"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20181128",
     "full_title": "Lost City of Mezro",

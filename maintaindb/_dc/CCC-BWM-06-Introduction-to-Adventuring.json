@@ -5,7 +5,9 @@
         "The Seer",
         "Christine Weidenbach"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BWM-06",
     "date_created": "20190610",
     "full_title": "CCC-BWM-06 Introduction to Adventuring",

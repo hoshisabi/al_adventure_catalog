@@ -4,7 +4,9 @@
         "Baldman Games",
         "Shawn Merwin"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON3-1",
     "date_created": "20190624",
     "full_title": "CCC-BMG-MOON3-1 Atop the Fairheights",

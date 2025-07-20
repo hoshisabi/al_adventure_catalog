@@ -4,7 +4,9 @@
         "Jeff C. Stevens",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK03-07",
     "date_created": "20210125",
     "full_title": "CCC-GHC-BK03-07 Once Stolen, Twice Deceived",

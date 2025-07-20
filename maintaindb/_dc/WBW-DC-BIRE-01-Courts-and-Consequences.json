@@ -4,7 +4,9 @@
         "Kimberly Caswell",
         "Andrew Sammler"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-BIRE-01",
     "date_created": "20220830",
     "full_title": "WBW-DC-BIRE-01 Courts and Consequences",

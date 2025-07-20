@@ -4,15 +4,18 @@
         "Baldman Games",
         "Savannah Houston-McIntyre"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON2-2",
     "date_created": "20190228",
     "full_title": "CCC-BMG-MOON2-2 Army of the Unseen",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": null,
-    "price": null,
+    "price": 4.99,
     "product_id": "267912",
+    "season": null,
     "tiers": null,
     "title": "CCC-BMG-MOON2-2 Army of the Unseen",
     "url": "https://www.dmsguild.com/product/267912/?affiliate_id=171040"

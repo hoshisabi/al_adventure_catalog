@@ -3,7 +3,9 @@
     "authors": [
         "Aileen Adriane Cerrudo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TST-01",
     "date_created": "20220401",
     "full_title": "Color in Light (WBW-DC-TST-01)",

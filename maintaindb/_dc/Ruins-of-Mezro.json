@@ -5,7 +5,9 @@
         "Ruty Rutenberg",
         "James Introcaso"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20170908",
     "full_title": "Ruins of Mezro",

@@ -3,7 +3,9 @@
     "authors": [
         "RICHARD HAYWARD"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MELB-02",
     "date_created": "20200807",
     "full_title": "CCC-MELB-02 The Sunken Sepulcher",

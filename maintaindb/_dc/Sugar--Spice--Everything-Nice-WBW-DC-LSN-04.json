@@ -3,7 +3,9 @@
     "authors": [
         "Christopher Moreman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LSN-04",
     "date_created": "20220823",
     "full_title": "Sugar & Spice & Everything Nice (WBW-DC-LSN-04)",

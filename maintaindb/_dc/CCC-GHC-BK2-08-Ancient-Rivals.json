@@ -4,7 +4,9 @@
         "Mitchell Smithson",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK2-08",
     "date_created": "20200515",
     "full_title": "CCC-GHC-BK2-08 Ancient Rivals",

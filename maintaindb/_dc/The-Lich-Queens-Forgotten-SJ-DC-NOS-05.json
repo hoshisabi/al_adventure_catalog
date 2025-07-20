@@ -4,7 +4,9 @@
         "Lex Winter",
         "Katriel Paige"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-NOS-05",
     "date_created": "20231029",
     "full_title": "The Lich Queen's Forgotten (SJ-DC-NOS-05)",

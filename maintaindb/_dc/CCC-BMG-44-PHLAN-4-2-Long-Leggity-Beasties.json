@@ -3,7 +3,9 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-44",
     "date_created": "20190125",
     "full_title": "CCC-BMG-44 PHLAN 4-2 Long Leggity Beasties",

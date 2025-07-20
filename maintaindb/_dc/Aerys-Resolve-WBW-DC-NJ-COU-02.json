@@ -3,7 +3,9 @@
     "authors": [
         "Lee Ning Jiang"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-NJ-COU-02",
     "date_created": "20220613",
     "full_title": "Aery's Resolve (WBW-DC-NJ-COU-02)",

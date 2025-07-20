@@ -6,7 +6,9 @@
         "William Murakami-Brundage",
         "Niall Sullivan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BWM-04-01",
     "date_created": "20190711",
     "full_title": "CCC-BWM-04-01 Thralls of Zuggtmoy: The Myconic Nidus",

@@ -3,7 +3,9 @@
     "authors": [
         "Shawn Merwin"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-12",
     "date_created": "20181123",
     "full_title": "CCC-CIC-12 Redemption at Talos Sound",

@@ -4,7 +4,9 @@
         "Johnny Smith",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-LIGA-07",
     "date_created": "20240816",
     "full_title": "FR-DC-LIGA-07 - The Lurking Blade",

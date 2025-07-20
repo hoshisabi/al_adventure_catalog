@@ -5,7 +5,9 @@
         "Iam Pace",
         "William Murakami-Brundage"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GLIP-02-01",
     "date_created": "20181103",
     "full_title": "CCC-GLIP-02-01 Blue Scales",

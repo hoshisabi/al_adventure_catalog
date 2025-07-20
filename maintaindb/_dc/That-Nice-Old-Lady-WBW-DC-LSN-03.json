@@ -3,7 +3,9 @@
     "authors": [
         "Christopher Moreman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LSN-03",
     "date_created": "20220628",
     "full_title": "That Nice Old Lady (WBW-DC-LSN-03)",

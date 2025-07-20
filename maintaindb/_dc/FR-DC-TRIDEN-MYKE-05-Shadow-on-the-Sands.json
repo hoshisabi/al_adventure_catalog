@@ -4,7 +4,9 @@
         "MykeMyke",
         "Triden Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-TRIDEN-MYKE-05",
     "date_created": "20240519",
     "full_title": "FR-DC-TRIDEN-MYKE-05 Shadow on the Sands",

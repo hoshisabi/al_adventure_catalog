@@ -3,7 +3,9 @@
     "authors": [
         "David Hardie"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-JOQ-04",
     "date_created": "20211206",
     "full_title": "Vanishing the Lady (WBW-DC-JOQ-04)",

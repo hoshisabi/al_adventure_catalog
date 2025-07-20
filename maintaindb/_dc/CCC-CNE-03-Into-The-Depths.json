@@ -3,15 +3,19 @@
     "authors": [
         "Mark McClenaghan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CNE-03",
     "date_created": "20181003",
     "full_title": "CCC-CNE-03 Into The Depths",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1",
-    "product_id": "CCC-CNE-03-Into-The-Depths",
+    "price": null,
+    "product_id": "254018",
+    "season": null,
     "tiers": null,
     "title": "CCC-CNE-03 Into The Depths",
-    "url": "https://www.dmsguild.com/product/254018/CCCCNE03-Into-The-Depths?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/254018/?affiliate_id=171040"
 }

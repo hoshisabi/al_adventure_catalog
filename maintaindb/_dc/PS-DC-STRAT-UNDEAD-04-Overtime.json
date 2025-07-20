@@ -5,7 +5,9 @@
         "Noah Grand",
         "Bryn Keeling"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-STRAT-UNDEAD-04",
     "date_created": "20240627",
     "full_title": "PS-DC-STRAT-UNDEAD-04 Overtime",

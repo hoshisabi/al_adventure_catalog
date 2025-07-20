@@ -4,7 +4,9 @@
         "Baldman Games",
         "Ayanna Jones-Lightsy"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON1-5",
     "date_created": "20221031",
     "full_title": "CCC-BMG-MOON1-5 The Wilderness Calls",

@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B. Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CBB-04",
     "date_created": "20220502",
     "full_title": "WBW-DC-CBB-04 Naufrage Atoll",

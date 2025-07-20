@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-LEGIT-SB-01",
     "date_created": "20220904",
     "full_title": "Fire Thieves (SJ-DC-LEGIT-SB-01)",

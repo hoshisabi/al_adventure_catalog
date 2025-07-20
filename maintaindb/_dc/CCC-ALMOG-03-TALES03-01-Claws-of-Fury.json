@@ -4,7 +4,9 @@
         "Al Spader",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG-03",
     "date_created": "20180817",
     "full_title": "CCC-ALMOG-03 TALES03-01 Claws of Fury",

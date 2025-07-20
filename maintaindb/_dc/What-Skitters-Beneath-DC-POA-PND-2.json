@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Chapman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-PND-2",
     "date_created": "20210830",
     "full_title": "What Skitters Beneath? (DC-POA-PND-2)",

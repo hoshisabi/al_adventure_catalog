@@ -3,7 +3,9 @@
     "authors": [
         "Brian Balagot"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ETA",
     "date_created": "20220918",
     "full_title": "You Are My Sunshine (SJ-DC-ETA)",

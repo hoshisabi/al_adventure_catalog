@@ -5,7 +5,9 @@
         "Shawn Merwin",
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-25",
     "date_created": "20180412",
     "full_title": "CCC-BMG-25 CORE 3-1 The Spectral Incursion",

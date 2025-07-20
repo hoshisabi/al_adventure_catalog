@@ -3,7 +3,9 @@
     "authors": [
         "Joel Sussenberger"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-OGC-01",
     "date_created": "20231229",
     "full_title": "SJ-DC-OGC-01 - The Hunt: For Moby Duck",

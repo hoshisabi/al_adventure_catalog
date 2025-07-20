@@ -4,7 +4,9 @@
         "Thomas Valley",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK1-03",
     "date_created": "20181207",
     "full_title": "CCC-GHC-BK1-03 The Darkest Knight",

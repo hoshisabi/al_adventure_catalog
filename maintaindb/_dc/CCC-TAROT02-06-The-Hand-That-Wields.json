@@ -3,7 +3,9 @@
     "authors": [
         "Joshua Clark"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TAROT02-06",
     "date_created": "20180819",
     "full_title": "CCC-TAROT02-06 The Hand That Wields",

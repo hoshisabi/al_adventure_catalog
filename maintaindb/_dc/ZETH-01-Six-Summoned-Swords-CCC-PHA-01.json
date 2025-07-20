@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PHA-01",
     "date_created": "20180525",
     "full_title": "ZETH-01 Six Summoned Swords (CCC-PHA-01)",

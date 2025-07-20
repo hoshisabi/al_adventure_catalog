@@ -4,7 +4,9 @@
         "Gamehole Con",
         "Rick O'Donnell"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HERO-BK-02-03",
     "date_created": "20200331",
     "full_title": "CCC-HERO-BK-02-03 Winters Bane",

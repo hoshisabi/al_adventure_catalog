@@ -3,7 +3,9 @@
     "authors": [
         "Rob Silva"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-04",
     "date_created": "20170713",
     "full_title": "CCC-CIC-04 Best Friends Forever",

@@ -3,7 +3,9 @@
     "authors": [
         "Bernard Jericho Velasco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TCW-WSF-1",
     "date_created": "20201223",
     "full_title": "CCC-TCW-WSF-1 A Change of Heart",

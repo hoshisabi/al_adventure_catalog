@@ -3,7 +3,9 @@
     "authors": [
         "Anthony Caroselli"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DDSC-02",
     "date_created": "20170720",
     "full_title": "CCC-DDSC-02 A Fool and His Gold",

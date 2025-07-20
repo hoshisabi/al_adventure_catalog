@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DEN-H7",
     "date_created": "20230129",
     "full_title": "SJ-DC-DEN-H7 Flummoxing Fire from Afar",

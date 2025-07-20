@@ -3,7 +3,9 @@
     "authors": [
         "Matt Way"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TTS-3",
     "date_created": "20191214",
     "full_title": "CCC-TTS-3: Heart of the Storm",

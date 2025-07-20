@@ -3,7 +3,9 @@
     "authors": [
         "Marc-Sebastian Lucksch"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-SUS-01",
     "date_created": "20231109",
     "full_title": "SJ-DC-SUS-01 Starship Under Siege",

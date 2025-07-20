@@ -3,7 +3,9 @@
     "authors": [
         "D&D Adventurers League"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDAL00-02",
     "date_created": "20180713",
     "full_title": "Lost Tales of Myth Drannor",

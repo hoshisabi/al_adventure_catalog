@@ -4,7 +4,9 @@
         "Baldman Games",
         "Savannah Houston-McIntyre"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON18-3",
     "date_created": "20220630",
     "full_title": "CCC-BMG-MOON18-3 Seeds of Discord",

@@ -3,7 +3,9 @@
     "authors": [
         "patrick mcgovern"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-PM04",
     "date_created": "20210310",
     "full_title": "DC-PoA-PM04 Losing your Mind",

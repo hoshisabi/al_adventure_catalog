@@ -4,7 +4,9 @@
         "Lu\u00eds Ricardo",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-02-04",
     "date_created": "20230414",
     "full_title": "PO-BK-02-04 Out of the Shaar",

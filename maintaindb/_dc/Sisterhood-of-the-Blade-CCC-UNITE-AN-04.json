@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UNITE-AN-04",
     "date_created": "20191125",
     "full_title": "Sisterhood of the Blade (CCC-UNITE-AN-04)",

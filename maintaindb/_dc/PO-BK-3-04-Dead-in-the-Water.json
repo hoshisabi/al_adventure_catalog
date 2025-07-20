@@ -4,7 +4,9 @@
         "Joe Alfano",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-3-04",
     "date_created": "20240222",
     "full_title": "PO-BK-3-04 Dead in the Water",

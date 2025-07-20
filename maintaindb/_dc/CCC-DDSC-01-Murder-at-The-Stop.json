@@ -3,7 +3,9 @@
     "authors": [
         "Robert Alaniz"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DDSC-01",
     "date_created": "20170719",
     "full_title": "CCC-DDSC-01 Murder at The Stop",

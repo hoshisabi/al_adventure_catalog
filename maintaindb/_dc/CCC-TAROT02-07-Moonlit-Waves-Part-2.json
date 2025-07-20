@@ -3,7 +3,9 @@
     "authors": [
         "Todd Smart"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TAROT02-07",
     "date_created": "20200420",
     "full_title": "CCC-TAROT02-07 Moonlit Waves Part 2",

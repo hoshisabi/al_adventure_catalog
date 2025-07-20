@@ -4,7 +4,9 @@
         "Justin Hicks",
         "Jim Berrier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SVH-01-01",
     "date_created": "20181104",
     "full_title": "CCC-SVH-01-01 Dawn of the Raven Lord",

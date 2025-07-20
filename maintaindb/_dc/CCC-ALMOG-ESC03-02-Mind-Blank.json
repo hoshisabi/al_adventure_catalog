@@ -4,7 +4,9 @@
         "Jia Jian Tin",
         "Derek Gray"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG",
     "date_created": "20191203",
     "full_title": "CCC-ALMOG ESC03-02 Mind Blank",

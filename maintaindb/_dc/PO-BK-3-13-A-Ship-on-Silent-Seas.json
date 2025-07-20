@@ -4,7 +4,9 @@
         "Tim Mangan",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-3-13",
     "date_created": "20240613",
     "full_title": "PO-BK-3-13 A Ship on Silent Seas",

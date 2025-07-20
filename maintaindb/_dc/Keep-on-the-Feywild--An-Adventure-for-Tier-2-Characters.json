@@ -3,7 +3,9 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20230114",
     "full_title": "Keep on the Feywild: An Adventure for Tier 2 Characters",

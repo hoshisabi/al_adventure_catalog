@@ -3,7 +3,9 @@
     "authors": [
         "Dwight Divine"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-WWC-07",
     "date_created": "20191217",
     "full_title": "CCC-WWC-07 The Icy Hand of Hate",

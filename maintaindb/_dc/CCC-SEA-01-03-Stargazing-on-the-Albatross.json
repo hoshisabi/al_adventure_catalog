@@ -3,7 +3,9 @@
     "authors": [
         "John D. Thompson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SEA-01-03",
     "date_created": "20200803",
     "full_title": "CCC-SEA-01-03 Stargazing on the Albatross",

@@ -3,7 +3,9 @@
     "authors": [
         "Apple Cruz"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ABC-01",
     "date_created": "20220831",
     "full_title": "One Last Time",

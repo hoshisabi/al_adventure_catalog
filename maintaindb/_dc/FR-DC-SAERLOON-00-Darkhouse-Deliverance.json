@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-SAERLOON-00",
     "date_created": "20240718",
     "full_title": "FR-DC-SAERLOON-00 Darkhouse, Deliverance",

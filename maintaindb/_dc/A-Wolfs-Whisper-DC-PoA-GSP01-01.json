@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Paul Gabat"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GSP01-01",
     "date_created": "20201206",
     "full_title": "A Wolf's Whisper (DC-PoA-GSP01-01)",

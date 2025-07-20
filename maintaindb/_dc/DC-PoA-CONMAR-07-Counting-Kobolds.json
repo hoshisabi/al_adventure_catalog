@@ -4,7 +4,9 @@
         "Casper Akto Kanstrup",
         "Martin Akto Kanstrup"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-07",
     "date_created": "20210505",
     "full_title": "DC-PoA-CONMAR-07 Counting Kobolds",

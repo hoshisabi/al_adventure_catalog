@@ -3,7 +3,9 @@
     "authors": [
         "Michelle Churchill"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-MPOP-01",
     "date_created": "20220817",
     "full_title": "Out on a Limb (WBW-DC-MPOP-01)",

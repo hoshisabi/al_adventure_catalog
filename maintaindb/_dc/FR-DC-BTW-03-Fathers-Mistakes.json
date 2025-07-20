@@ -3,7 +3,9 @@
     "authors": [
         "Bernhard Staneker"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-BTW-03",
     "date_created": "20250209",
     "full_title": "FR-DC-BTW-03 Fathers Mistakes",

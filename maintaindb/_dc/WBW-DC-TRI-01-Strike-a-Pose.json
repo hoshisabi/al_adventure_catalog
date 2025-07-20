@@ -4,7 +4,9 @@
         "Noah Grand",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TRI-01",
     "date_created": "20211209",
     "full_title": "WBW-DC-TRI-01 Strike a Pose",

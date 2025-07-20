@@ -4,7 +4,9 @@
         "MykeMyke",
         "Triden Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TRIDEN-MYKE-03",
     "date_created": "20231230",
     "full_title": "SJ-DC-TRIDEN-MYKE-03 Every Bond You Break",

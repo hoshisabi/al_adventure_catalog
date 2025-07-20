@@ -3,7 +3,9 @@
     "authors": [
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-27",
     "date_created": "20200323",
     "full_title": "CCC-TRI-27 In the Vault of Stars (Part Two of the Siege of the Yellow Rose)",

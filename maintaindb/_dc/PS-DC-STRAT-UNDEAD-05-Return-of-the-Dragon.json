@@ -3,7 +3,9 @@
     "authors": [
         "Nguyen Le"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-STRAT-UNDEAD-05",
     "date_created": "20240524",
     "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",

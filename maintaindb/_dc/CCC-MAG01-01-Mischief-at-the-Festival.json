@@ -3,7 +3,9 @@
     "authors": [
         "Y. Michael Zhang"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MAG01-01",
     "date_created": "20200803",
     "full_title": "CCC-MAG01-01 Mischief at the Festival",

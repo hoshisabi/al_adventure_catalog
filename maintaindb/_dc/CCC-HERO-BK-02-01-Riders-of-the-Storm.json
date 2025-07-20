@@ -4,7 +4,9 @@
         "Gamehole Con",
         "Jason Sauby"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HERO-BK-02-01",
     "date_created": "20200331",
     "full_title": "CCC-HERO-BK-02-01 Riders of the Storm",

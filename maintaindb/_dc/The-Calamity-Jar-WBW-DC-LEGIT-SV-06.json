@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LEGIT-SV-06",
     "date_created": "20220610",
     "full_title": "The Calamity Jar (WBW-DC-LEGIT-SV-06)",

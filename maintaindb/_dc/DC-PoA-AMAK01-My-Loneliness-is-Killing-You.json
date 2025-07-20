@@ -3,7 +3,9 @@
     "authors": [
         "Alexander Klement"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-AMAK01",
     "date_created": "20210830",
     "full_title": "DC-PoA-AMAK01 My Loneliness is Killing You",

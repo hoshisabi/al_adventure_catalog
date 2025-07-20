@@ -4,7 +4,9 @@
         "Shu Qing Tan",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-02-09",
     "date_created": "20230414",
     "full_title": "PO-BK-02-09 Star Crash",

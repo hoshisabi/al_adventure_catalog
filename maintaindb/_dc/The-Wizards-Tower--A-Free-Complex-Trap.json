@@ -3,7 +3,9 @@
     "authors": [
         "Ferret Foundry"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20200921",
     "full_title": "The Wizard's Tower: A Free Complex Trap",

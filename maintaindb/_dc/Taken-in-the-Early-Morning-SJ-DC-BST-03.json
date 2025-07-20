@@ -3,7 +3,9 @@
     "authors": [
         "Bryan Mets"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-BST-03",
     "date_created": "20230731",
     "full_title": "Taken in the Early Morning (SJ-DC-BST-03)",

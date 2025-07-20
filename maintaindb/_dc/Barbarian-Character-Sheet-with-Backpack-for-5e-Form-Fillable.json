@@ -1,7 +1,9 @@
 {
     "apl": null,
     "authors": [],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20250707",
     "full_title": "Barbarian Character Sheet with Backpack for 5e - Form Fillable",

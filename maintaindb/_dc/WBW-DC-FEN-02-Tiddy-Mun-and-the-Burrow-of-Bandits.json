@@ -5,7 +5,9 @@
         "Te\u00e4n Stanhope",
         "James Twigg"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FEN-02",
     "date_created": "20220715",
     "full_title": "WBW-DC-FEN-02 Tiddy Mun and the Burrow of Bandits",

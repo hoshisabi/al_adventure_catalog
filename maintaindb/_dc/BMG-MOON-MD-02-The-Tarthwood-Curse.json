@@ -3,7 +3,9 @@
     "authors": [
         "Justin Vandermeer"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "BMG-MOON-MD-02",
     "date_created": "20231113",
     "full_title": "BMG-MOON-MD-02 The Tarthwood Curse",

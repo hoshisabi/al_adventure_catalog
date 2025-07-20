@@ -3,7 +3,9 @@
     "authors": [
         "Fynn Headen"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-DREAMS",
     "date_created": "20200428",
     "full_title": "Dreams of Salvation: A 4 hour Tier 1 Salvage Mission",

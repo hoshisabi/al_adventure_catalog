@@ -3,7 +3,9 @@
     "authors": [
         "Scott Moore"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-HAPPY",
     "date_created": "20210305",
     "full_title": "Happy-Go-Lucky",

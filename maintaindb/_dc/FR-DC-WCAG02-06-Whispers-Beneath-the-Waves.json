@@ -4,7 +4,9 @@
         "Eric Johnson",
         "Nguyen Le"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WCAG02-06",
     "date_created": "20250211",
     "full_title": "FR-DC-WCAG02-06 Whispers Beneath the Waves",

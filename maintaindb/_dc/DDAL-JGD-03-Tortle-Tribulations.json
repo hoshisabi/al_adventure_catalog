@@ -5,7 +5,9 @@
         "Lucas Curell",
         "Fenway Jones"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-JGD-03",
     "date_created": "20191008",
     "full_title": "CCC-JGD-03 Tortle Tribulations",

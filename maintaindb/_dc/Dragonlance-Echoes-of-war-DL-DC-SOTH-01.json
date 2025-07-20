@@ -3,7 +3,9 @@
     "authors": [
         "Alexander Klement"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-SOTH-01",
     "date_created": "20240714",
     "full_title": "Dragonlance: Echoes of war (DL-DC-SOTH-01)",

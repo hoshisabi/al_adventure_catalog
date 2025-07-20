@@ -4,7 +4,9 @@
         "Lyla McBeath Fujiwara",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-3-06",
     "date_created": "20240222",
     "full_title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",

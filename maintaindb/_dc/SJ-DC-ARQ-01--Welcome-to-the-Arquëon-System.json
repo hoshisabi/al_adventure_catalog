@@ -3,7 +3,9 @@
     "authors": [
         "E. S. Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ARQ-01",
     "date_created": "20230226",
     "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",

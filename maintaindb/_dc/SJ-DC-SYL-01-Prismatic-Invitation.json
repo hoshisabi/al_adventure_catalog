@@ -3,7 +3,9 @@
     "authors": [
         "Mitch Gatt"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-SYL-01",
     "date_created": "20220930",
     "full_title": "SJ-DC-SYL-01 Prismatic Invitation",

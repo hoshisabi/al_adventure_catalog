@@ -4,7 +4,9 @@
         "Jon Emil Sletaker",
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-04",
     "date_created": "20201213",
     "full_title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",

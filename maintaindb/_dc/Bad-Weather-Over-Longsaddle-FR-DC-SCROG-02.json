@@ -3,15 +3,19 @@
     "authors": [
         "Jonathan Bennett"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-SCROG-02",
     "date_created": "20250607",
     "full_title": "Bad Weather Over Longsaddle (FR-DC-SCROG-02)",
-    "hours": null,
+    "hours": "1",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "Bad-Weather-Over-Longsaddle-FR-DC-SCROG-02",
+    "level_range": "1-2",
+    "price": null,
+    "product_id": "525512",
+    "season": null,
     "tiers": 1,
     "title": "Bad Weather Over Longsaddle",
-    "url": "https://www.dmsguild.com/product/525512/Bad-Weather-Over-Longsaddle-FRDCSCROG02?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/525512/?affiliate_id=171040"
 }
