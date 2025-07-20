@@ -4,7 +4,9 @@
         "Justin Hicks",
         "Jim Berrier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SVH-01-02",
     "date_created": "20181104",
     "full_title": "CCC-SVH-01-02 Raven Lord\u2019s Aerie",

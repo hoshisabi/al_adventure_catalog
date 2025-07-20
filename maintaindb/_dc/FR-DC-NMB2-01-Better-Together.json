@@ -3,7 +3,9 @@
     "authors": [
         "N. M. Brickle"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-NMB2-01",
     "date_created": "20240515",
     "full_title": "FR-DC-NMB2-01 Better Together",

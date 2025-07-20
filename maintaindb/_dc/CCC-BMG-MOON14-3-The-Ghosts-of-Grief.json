@@ -4,7 +4,9 @@
         "Baldman Games",
         "Joe Cirillo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON14-3",
     "date_created": "20210903",
     "full_title": "CCC-BMG-MOON14-3 The Ghosts of Grief",

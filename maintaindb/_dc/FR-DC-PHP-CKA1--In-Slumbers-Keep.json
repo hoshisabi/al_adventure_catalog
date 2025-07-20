@@ -3,7 +3,9 @@
     "authors": [
         "Miguel Luis de Jesus"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-PHP-CKA1-",
     "date_created": "20240505",
     "full_title": "FR-DC-PHP-CKA1: In Slumber's Keep",

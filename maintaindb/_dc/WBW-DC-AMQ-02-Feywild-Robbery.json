@@ -3,7 +3,9 @@
     "authors": [
         "Arthur Marques"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-AMQ-02",
     "date_created": "20220213",
     "full_title": "WBW-DC-AMQ-02 Feywild Robbery",

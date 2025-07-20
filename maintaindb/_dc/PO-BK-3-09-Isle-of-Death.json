@@ -4,7 +4,9 @@
         "Shu Qing Tan",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-3-09",
     "date_created": "20240222",
     "full_title": "PO-BK-3-09 Isle of Death",

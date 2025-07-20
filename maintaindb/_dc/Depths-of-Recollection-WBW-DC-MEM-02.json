@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Snelling"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-MEM-02",
     "date_created": "20220831",
     "full_title": "Depths of Recollection WBW-DC-MEM-02",

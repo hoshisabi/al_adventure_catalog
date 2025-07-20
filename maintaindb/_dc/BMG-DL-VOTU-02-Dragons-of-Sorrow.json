@@ -3,7 +3,9 @@
     "authors": [
         "Jon Christian"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "BMG-DL-VOTU-02",
     "date_created": "20230912",
     "full_title": "BMG-DL-VOTU-02 Dragons of Sorrow",

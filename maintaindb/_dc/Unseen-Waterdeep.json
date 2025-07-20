@@ -3,7 +3,9 @@
     "authors": [
         "James Introcaso"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": "DDHC-WDH-02",
     "date_created": "20180907",
     "full_title": "Unseen Waterdeep",

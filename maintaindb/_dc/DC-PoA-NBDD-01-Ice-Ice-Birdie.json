@@ -3,7 +3,9 @@
     "authors": [
         "Robbie Pleasant"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-NBDD-01",
     "date_created": "20210131",
     "full_title": "DC-PoA-NBDD-01 Ice, Ice, Birdie",

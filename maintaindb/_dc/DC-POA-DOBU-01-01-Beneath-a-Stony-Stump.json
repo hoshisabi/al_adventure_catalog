@@ -3,7 +3,9 @@
     "authors": [
         "Douglas Bushong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DOBU-01-01",
     "date_created": "20210831",
     "full_title": "DC-POA-DOBU-01-01, Beneath a Stony Stump",

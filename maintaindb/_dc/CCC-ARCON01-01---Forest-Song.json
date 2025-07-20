@@ -3,7 +3,9 @@
     "authors": [
         "Rune S\u00f8rheim"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ARCON01-01",
     "date_created": "20201105",
     "full_title": "CCC-ARCON01-01 - Forest Song",

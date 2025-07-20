@@ -3,7 +3,9 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WATERDEEP-KYZ",
     "date_created": "20240407",
     "full_title": "Sweet Dreams are Made of Keys (FR-DC-WATERDEEP-KYZ)",

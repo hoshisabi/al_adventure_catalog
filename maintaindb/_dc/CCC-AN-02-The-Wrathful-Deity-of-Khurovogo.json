@@ -3,7 +3,9 @@
     "authors": [
         "Garrett Crowe"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-AN-02",
     "date_created": "20180816",
     "full_title": "CCC-AN-02 The Wrathful Deity of Khurovogo",

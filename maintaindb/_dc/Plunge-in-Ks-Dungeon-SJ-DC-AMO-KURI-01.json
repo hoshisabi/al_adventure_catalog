@@ -3,7 +3,9 @@
     "authors": [
         "Angelo Bongais"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-AMO-KURI-01",
     "date_created": "20230805",
     "full_title": "Plunge in K's Dungeon (SJ-DC-AMO-KURI-01)",

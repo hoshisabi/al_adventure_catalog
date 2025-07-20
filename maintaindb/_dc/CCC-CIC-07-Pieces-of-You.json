@@ -3,7 +3,9 @@
     "authors": [
         "ROB SILVA"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-07",
     "date_created": "20180729",
     "full_title": "CCC-CIC-07 Pieces of You",

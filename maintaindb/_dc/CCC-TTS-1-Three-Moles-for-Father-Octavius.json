@@ -3,7 +3,9 @@
     "authors": [
         "Ian Hawthorne"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TTS-1",
     "date_created": "20191230",
     "full_title": "CCC-TTS-1 Three Moles for Father Octavius",

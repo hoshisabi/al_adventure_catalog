@@ -3,7 +3,9 @@
     "authors": [
         "Tom Klein"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-GHG-02",
     "date_created": "20231214",
     "full_title": "Owlbear Ascension (FR-DC-GHG-02)",

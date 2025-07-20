@@ -3,7 +3,9 @@
     "authors": [
         "Claire Gellner"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CG-01",
     "date_created": "20220313",
     "full_title": "WBW-DC-CG-01 Puzzlement in the Potager",

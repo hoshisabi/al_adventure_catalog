@@ -3,7 +3,9 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-11",
     "date_created": "20160607",
     "full_title": "CCC-BMG-11 HILL 1-2 Exodus",

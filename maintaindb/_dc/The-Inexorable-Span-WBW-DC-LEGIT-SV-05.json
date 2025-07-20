@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LEGIT-SV-05",
     "date_created": "20220309",
     "full_title": "The Inexorable Span (WBW-DC-LEGIT-SV-05)",

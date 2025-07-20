@@ -3,7 +3,9 @@
     "authors": [
         "Matt Dunn and Sean Dunn"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-RKS-01",
     "date_created": "20220225",
     "full_title": "WBW-DC-RKS-01 No Glory In Sleep",

@@ -3,7 +3,9 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-42",
     "date_created": "20190121",
     "full_title": "CCC-BMG-42 HULB 4-3 Call of the Deep",

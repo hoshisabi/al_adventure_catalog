@@ -3,7 +3,9 @@
     "authors": [
         "Kat Wynne"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-KW-05",
     "date_created": "20220831",
     "full_title": "WBW-DC-KW-05 Heavenly Hare Hunt",

@@ -3,7 +3,9 @@
     "authors": [
         "Kelly Samuelson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SAC-03",
     "date_created": "20200420",
     "full_title": "CCC-SAC-03 They're Good Adventurers, Brent",

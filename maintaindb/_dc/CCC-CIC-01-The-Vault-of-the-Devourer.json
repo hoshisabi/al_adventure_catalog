@@ -3,7 +3,9 @@
     "authors": [
         "Greg Marks"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-01",
     "date_created": "20161204",
     "full_title": "CCC-CIC-01 The Vault of the Devourer",

@@ -3,7 +3,9 @@
     "authors": [
         "Mitchell Tee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-FRI-13",
     "date_created": "20250621",
     "full_title": "FR-DC-FRI-13 Flamerule the 13th",

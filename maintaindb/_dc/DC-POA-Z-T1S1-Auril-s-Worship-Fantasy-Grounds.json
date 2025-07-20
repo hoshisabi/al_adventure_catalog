@@ -1,7 +1,9 @@
 {
     "apl": 2,
     "authors": [],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-Z-T1S1",
     "date_created": "20211009",
     "full_title": "DC-POA-Z-T1S1 Auril's Worship - Fantasy Grounds",

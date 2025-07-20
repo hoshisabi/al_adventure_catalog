@@ -3,7 +3,9 @@
     "authors": [
         "Hariz HUSAINI"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-HH-02",
     "date_created": "20220212",
     "full_title": "Trial of Flower (WBW-DC-HH-02)",

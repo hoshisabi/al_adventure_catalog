@@ -4,7 +4,9 @@
         "Monkey Mind Tabletop",
         "David Hopkins"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-QUAKE-01-",
     "date_created": "20191212",
     "full_title": "CCC-QUAKE-01: Red War: Thayan Peace Keeper",

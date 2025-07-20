@@ -3,7 +3,9 @@
     "authors": [
         "Richard Gejji"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-GMM-02",
     "date_created": "20250521",
     "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",

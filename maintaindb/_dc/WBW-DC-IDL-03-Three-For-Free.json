@@ -4,7 +4,9 @@
         "Addy Tortosa",
         "Big Mike"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-IDL-03",
     "date_created": "20220828",
     "full_title": "WBW-DC-IDL-03 Three For Free",

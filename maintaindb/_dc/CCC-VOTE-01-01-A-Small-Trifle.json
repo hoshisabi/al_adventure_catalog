@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Connor Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-VOTE-01-01",
     "date_created": "20200508",
     "full_title": "CCC-VOTE-01-01 A Small Trifle",

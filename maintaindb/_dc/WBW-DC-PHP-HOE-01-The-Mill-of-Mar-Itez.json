@@ -3,7 +3,9 @@
     "authors": [
         "Pauline Feraren"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-HOE-01",
     "date_created": "20220831",
     "full_title": "WBW-DC-PHP-HOE-01 The Mill of Mar-Itez",

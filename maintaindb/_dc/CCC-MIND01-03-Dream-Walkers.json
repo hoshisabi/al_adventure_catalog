@@ -4,7 +4,9 @@
         "Alan Patrick",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MIND01-03",
     "date_created": "20180705",
     "full_title": "CCC-MIND01-03 Dream Walkers",

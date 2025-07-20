@@ -3,7 +3,9 @@
     "authors": [
         "Kate Lacambra"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-PHP-LRD-02",
     "date_created": "20231226",
     "full_title": "SJ-DC-PHP-LRD-02 The Last Rays of Dawn",

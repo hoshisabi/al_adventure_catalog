@@ -4,7 +4,9 @@
         "Jamie Chan",
         "Christopher Dean"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-MOM-01",
     "date_created": "20220417",
     "full_title": "WBW-DC-MOM-01 One Moment",

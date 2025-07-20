@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Kristoff Alejo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP-FEAR01-01",
     "date_created": "20190820",
     "full_title": "CCC-GSP-FEAR01-01 Beneath the Bleeding Tree",

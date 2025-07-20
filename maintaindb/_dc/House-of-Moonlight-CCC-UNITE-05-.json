@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UNITE-05",
     "date_created": "20200102",
     "full_title": "House of Moonlight (CCC-UNITE-05)",

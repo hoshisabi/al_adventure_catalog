@@ -4,7 +4,9 @@
         "Darryl Ho",
         "Jason Koh"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CODEX-03",
     "date_created": "20210829",
     "full_title": "DC-POA-CODEX-03 Bring to Bear",

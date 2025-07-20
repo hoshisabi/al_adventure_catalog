@@ -3,7 +3,9 @@
     "authors": [
         "Ian ODonnell"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TREY-01",
     "date_created": "20220901",
     "full_title": "WBW-DC-TREY-01 Mistress Taken!",

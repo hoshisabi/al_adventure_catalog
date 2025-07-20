@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B. Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CBB-06",
     "date_created": "20210807",
     "full_title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",

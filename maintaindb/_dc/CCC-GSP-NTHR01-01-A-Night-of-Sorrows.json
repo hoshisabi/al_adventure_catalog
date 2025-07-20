@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Mikel Alexander Barrenehcea"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP-NTHR01-01",
     "date_created": "20190815",
     "full_title": "CCC-GSP-NTHR01-01 A Night of Sorrows",

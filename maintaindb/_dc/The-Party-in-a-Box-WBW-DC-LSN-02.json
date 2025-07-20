@@ -3,7 +3,9 @@
     "authors": [
         "Christopher Moreman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LSN-02",
     "date_created": "20220326",
     "full_title": "The Party in a Box (WBW-DC-LSN-02)",

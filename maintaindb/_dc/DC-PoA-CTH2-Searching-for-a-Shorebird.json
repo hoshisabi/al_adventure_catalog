@@ -4,7 +4,9 @@
         "Ethan Stanhope",
         "Te\u00e4n Stanhope"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CTH2",
     "date_created": "20210827",
     "full_title": "DC-PoA-CTH2 Searching for a Shorebird",

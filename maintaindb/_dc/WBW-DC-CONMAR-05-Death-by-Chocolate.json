@@ -4,7 +4,9 @@
         "Karianne Fog Heen",
         "Sandra Hovland"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-05",
     "date_created": "20220214",
     "full_title": "WBW-DC-CONMAR-05 Death by Chocolate",

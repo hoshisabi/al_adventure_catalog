@@ -3,7 +3,9 @@
     "authors": [
         "Robbie Pleasant"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-NBDD01-01",
     "date_created": "20190516",
     "full_title": "CCC-NBDD01-01 Clever",

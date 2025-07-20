@@ -3,7 +3,9 @@
     "authors": [
         "Juan Miguel San Juan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-SPAMMY-01",
     "date_created": "20220824",
     "full_title": "WBW-DC-PHP-SPAMMY-01 Flowers Have Feelings",

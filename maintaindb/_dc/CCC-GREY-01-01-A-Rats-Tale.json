@@ -4,7 +4,9 @@
         "Colby Savell",
         "Monkey Mind Tabletop"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GREY-01-01",
     "date_created": "20190716",
     "full_title": "CCC-GREY-01-01 A Rat's Tale",

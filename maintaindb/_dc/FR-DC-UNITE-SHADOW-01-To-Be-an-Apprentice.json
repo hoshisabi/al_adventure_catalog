@@ -4,7 +4,9 @@
         "Jeremy Johnston",
         "Unite the Factions"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-UNITE-SHADOW-01",
     "date_created": "20240820",
     "full_title": "FR-DC-UNITE-SHADOW-01 To Be an Apprentice",

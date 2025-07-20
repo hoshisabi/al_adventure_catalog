@@ -3,7 +3,9 @@
     "authors": [
         "S C Townsley"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ASLM-02",
     "date_created": "20231229",
     "full_title": "Heart of Glass (SJ-DC-ASLM-02)",

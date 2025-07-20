@@ -3,7 +3,9 @@
     "authors": [
         "Chase Louviere"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SHINY-04",
     "date_created": "20190221",
     "full_title": "CCC-SHINY-04 Elusion of Grand Yore",

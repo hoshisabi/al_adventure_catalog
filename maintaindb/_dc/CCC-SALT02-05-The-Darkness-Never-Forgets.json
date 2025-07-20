@@ -4,7 +4,9 @@
         "Dave Knighton",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SALT02-05",
     "date_created": "20181002",
     "full_title": "CCC-SALT02-05 The Darkness Never Forgets",

@@ -4,7 +4,9 @@
         "Baldman Games",
         "Cindy Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON4-1",
     "date_created": "20191121",
     "full_title": "CCC-BMG-MOON4-1 Precious Cargo",

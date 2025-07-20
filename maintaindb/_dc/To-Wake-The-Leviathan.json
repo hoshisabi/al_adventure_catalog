@@ -3,7 +3,9 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20180524",
     "full_title": "To Wake The Leviathan",

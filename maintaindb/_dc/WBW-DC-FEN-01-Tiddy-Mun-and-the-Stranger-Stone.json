@@ -4,7 +4,9 @@
         "Ethan Stanhope",
         "Te\u00e4n Stanhope"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FEN-01",
     "date_created": "20220527",
     "full_title": "WBW-DC-FEN-01 Tiddy Mun and the Stranger Stone",

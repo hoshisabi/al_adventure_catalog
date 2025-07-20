@@ -17,7 +17,9 @@
         "Karl Sciberras",
         "ELF Vesala"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20190224",
     "full_title": "So, a Blind Woman and a Medusa Walk Along the Road\u2026",

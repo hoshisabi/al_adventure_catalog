@@ -3,7 +3,9 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-FAUX-03",
     "date_created": "20230522",
     "full_title": "Wayfarer's Log: The Lunar Sea (SJ-DC-FAUX-03)",

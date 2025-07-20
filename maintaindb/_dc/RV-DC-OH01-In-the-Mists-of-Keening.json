@@ -3,7 +3,9 @@
     "authors": [
         "Nicholas Reed"
     ],
-    "campaign": "Ravenloft",
+    "campaigns": [
+        "Ravenloft"
+    ],
     "code": "RV-DC-OH01",
     "date_created": "20230718",
     "full_title": "RV-DC-OH01 In the Mists of Keening",

@@ -3,7 +3,9 @@
     "authors": [
         "Scott Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-QCC2018-02",
     "date_created": "20180911",
     "full_title": "CCC-QCC2018-02 Heart and Soul",

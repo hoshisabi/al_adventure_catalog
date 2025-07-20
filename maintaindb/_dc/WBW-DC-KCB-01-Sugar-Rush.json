@@ -3,7 +3,9 @@
     "authors": [
         "Brian Collier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-KCB-01",
     "date_created": "20211017",
     "full_title": "WBW-DC-KCB-01 Sugar Rush",

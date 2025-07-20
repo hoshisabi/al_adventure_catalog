@@ -4,7 +4,9 @@
         "Garrett Col\u00f3n",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-11",
     "date_created": "20181231",
     "full_title": "CCC-TRI-11 Flooded Dreams (Part One of the Olma Series)",

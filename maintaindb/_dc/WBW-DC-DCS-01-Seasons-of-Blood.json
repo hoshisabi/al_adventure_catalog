@@ -3,7 +3,9 @@
     "authors": [
         "Darion Smith"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DCS-01",
     "date_created": "20220830",
     "full_title": "WBW-DC-DCS-01 Seasons of Blood",

@@ -3,7 +3,9 @@
     "authors": [
         "Trevor Duston"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PFF-03-01",
     "date_created": "20201102",
     "full_title": "CCC-PFF-03-01 Hints at Imbalance: Rumors of Moloch",

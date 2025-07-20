@@ -4,7 +4,9 @@
         "Backyard Adventure Games",
         "Aaron Gaguine"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-BAG-01",
     "date_created": "20220808",
     "full_title": "WBW-DC-BAG-01 The Flight of the Iron Maiden",

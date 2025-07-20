@@ -3,7 +3,9 @@
     "authors": [
         "Fynn Headen"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-HOUSE",
     "date_created": "20200407",
     "full_title": "House Hunting: A 4 hour Tier 1 Salvage Mission",

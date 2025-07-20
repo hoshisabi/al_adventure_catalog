@@ -3,7 +3,9 @@
     "authors": [
         "Ian Hawthorne"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UK-1",
     "date_created": "20181001",
     "full_title": "CCC-UK-1 Call of the Elvenflow",

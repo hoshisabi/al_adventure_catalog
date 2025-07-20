@@ -3,7 +3,9 @@
     "authors": [
         "Jay Africa"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-KUMORI-02-04",
     "date_created": "20181126",
     "full_title": "CCC-KUMORI-02-04 To Be the Very Best",

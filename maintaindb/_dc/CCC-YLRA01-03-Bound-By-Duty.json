@@ -4,7 +4,9 @@
         "Jay Africa",
         "Strategicon AL"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-YLRA01-03",
     "date_created": "20170702",
     "full_title": "CCC-YLRA01-03 Bound By Duty",

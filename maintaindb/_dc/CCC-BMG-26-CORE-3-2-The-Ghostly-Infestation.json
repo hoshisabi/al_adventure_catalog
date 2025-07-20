@@ -4,7 +4,9 @@
         "Dan Dillon",
         "Baldman Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-26",
     "date_created": "20180412",
     "full_title": "CCC-BMG-26 CORE 3-2 The Ghostly Infestation",

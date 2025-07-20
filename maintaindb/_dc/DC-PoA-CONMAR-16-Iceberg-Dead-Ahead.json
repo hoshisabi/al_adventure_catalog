@@ -4,7 +4,9 @@
         "Daniel Ellingsen",
         "Jon Emil Sletaker"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-16",
     "date_created": "20210826",
     "full_title": "DC-PoA-CONMAR-16 Iceberg Dead Ahead",

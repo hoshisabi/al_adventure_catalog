@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DCAF01",
     "date_created": "20201117",
     "full_title": "DC-PoA-DCAF01 Let It Goat",

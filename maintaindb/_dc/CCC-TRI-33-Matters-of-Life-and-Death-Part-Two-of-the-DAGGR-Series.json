@@ -4,7 +4,9 @@
         "Matthew Lee Myers",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-33",
     "date_created": "20190527",
     "full_title": "CCC-TRI-33 Matters of Life and Death (Part Two of the DAGGR Series)",

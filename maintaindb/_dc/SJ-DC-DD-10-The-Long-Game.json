@@ -3,7 +3,9 @@
     "authors": [
         "Charlotte Lee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DD-10",
     "date_created": "20231231",
     "full_title": "SJ-DC-DD-10 The Long Game",

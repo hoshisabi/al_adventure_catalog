@@ -3,7 +3,9 @@
     "authors": [
         "Johann Taslim"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-MELB-01-03",
     "date_created": "20240613",
     "full_title": "Signs of Corruption (FR-DC-MELB-01-03)",

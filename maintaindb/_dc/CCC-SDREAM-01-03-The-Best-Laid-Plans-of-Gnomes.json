@@ -3,7 +3,9 @@
     "authors": [
         "Erik Tukey"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SDREAM-01-03",
     "date_created": "20200720",
     "full_title": "CCC-SDREAM-01-03 The Best Laid Plans of Gnomes",

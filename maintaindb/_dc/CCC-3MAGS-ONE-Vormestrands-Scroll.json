@@ -4,7 +4,9 @@
         "Travis Woodall",
         "Peter Williams"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-3MAGS-ONE",
     "date_created": "20181202",
     "full_title": "CCC-3MAGS-ONE Vormestrand's Scroll",

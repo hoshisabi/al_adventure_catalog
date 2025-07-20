@@ -3,7 +3,9 @@
     "authors": [
         "Marcello de Velazquez"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-04-01",
     "date_created": "20201109",
     "full_title": "CCC-DES-04-01 A Hellish Haul",

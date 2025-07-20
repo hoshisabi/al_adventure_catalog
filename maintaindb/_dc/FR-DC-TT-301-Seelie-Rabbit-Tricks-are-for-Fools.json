@@ -3,7 +3,9 @@
     "authors": [
         "Ting Yuen Tjiong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-TT-301",
     "date_created": "20250422",
     "full_title": "FR-DC-TT-301 Seelie, Rabbit, Tricks are for Fools",

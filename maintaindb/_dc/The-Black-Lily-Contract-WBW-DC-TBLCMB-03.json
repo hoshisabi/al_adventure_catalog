@@ -3,7 +3,9 @@
     "authors": [
         "Matt Brown"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TBLCMB-03",
     "date_created": "20220407",
     "full_title": "The Black Lily Contract WBW-DC-TBLCMB-03",

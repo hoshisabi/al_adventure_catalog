@@ -3,7 +3,9 @@
     "authors": [
         "Jason Koh"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-NTP-01",
     "date_created": "20220831",
     "full_title": "Cat's Paws (WBW-DC-NTP-01)",

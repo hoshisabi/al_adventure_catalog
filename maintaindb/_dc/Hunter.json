@@ -4,7 +4,9 @@
         "Will Doyle",
         "James Introcaso"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-TOA-11",
     "date_created": "20171022",
     "full_title": "Hunter",

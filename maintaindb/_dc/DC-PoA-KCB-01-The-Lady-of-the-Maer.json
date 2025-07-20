@@ -3,7 +3,9 @@
     "authors": [
         "Brian Collier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-KCB-01",
     "date_created": "20210128",
     "full_title": "DC-PoA-KCB-01 The Lady of the Maer",

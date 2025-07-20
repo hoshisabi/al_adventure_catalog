@@ -4,7 +4,9 @@
         "Chelsea Steverson",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG-24",
     "date_created": "20190814",
     "full_title": "Beneath Ironfang Keep",

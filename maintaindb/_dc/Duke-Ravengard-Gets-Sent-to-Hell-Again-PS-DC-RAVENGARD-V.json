@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-RAVENGARD-",
     "date_created": "20240430",
     "full_title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",

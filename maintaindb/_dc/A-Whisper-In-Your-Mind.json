@@ -3,7 +3,9 @@
     "authors": [
         "Bruce Wood"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-WHISPER",
     "date_created": "20200511",
     "full_title": "A Whisper In Your Mind",

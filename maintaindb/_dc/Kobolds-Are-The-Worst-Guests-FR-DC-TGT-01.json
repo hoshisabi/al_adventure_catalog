@@ -3,7 +3,9 @@
     "authors": [
         "Dagny Mol"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-TGT-01",
     "date_created": "20240409",
     "full_title": "Kobolds Are The Worst Guests! (FR-DC-TGT-01)",

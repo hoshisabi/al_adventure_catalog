@@ -3,7 +3,9 @@
     "authors": [
         "Emily Smith"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ELF-03-01",
     "date_created": "20200429",
     "full_title": "CCC-ELF-03-01 Death's Claw",

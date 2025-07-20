@@ -3,7 +3,9 @@
     "authors": [
         "Christopher Bagg"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-SM-CHROME",
     "date_created": "20210608",
     "full_title": "Chrome On The Range",

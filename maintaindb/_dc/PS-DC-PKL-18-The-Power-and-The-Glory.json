@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Geesy"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-PKL-18",
     "date_created": "20241229",
     "full_title": "PS-DC-PKL-18 The Power and The Glory",

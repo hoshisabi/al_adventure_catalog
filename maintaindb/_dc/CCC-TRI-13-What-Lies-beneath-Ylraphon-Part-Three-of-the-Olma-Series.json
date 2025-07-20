@@ -4,7 +4,9 @@
         "Lysa Chen",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-13",
     "date_created": "20181231",
     "full_title": "CCC-TRI-13 What Lies beneath Ylraphon (Part Three of the Olma Series)",

@@ -4,7 +4,9 @@
         "Adam Scaramella",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-30",
     "date_created": "20190527",
     "full_title": "CCC-TRI-30 Remnants of a Dream",

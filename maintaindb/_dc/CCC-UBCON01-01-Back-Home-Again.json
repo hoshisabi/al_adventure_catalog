@@ -3,7 +3,9 @@
     "authors": [
         "Scott Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UBCON01-01",
     "date_created": "20200605",
     "full_title": "CCC-UBCON01-01 Back Home Again",

@@ -4,7 +4,9 @@
         "Niccolo Estrella",
         "Greasy Snitches"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GSP03-01",
     "date_created": "20201201",
     "full_title": "The Missing Link (DC-PoA-GSP03-01)",

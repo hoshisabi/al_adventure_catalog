@@ -3,7 +3,9 @@
     "authors": [
         "Gregory Marks"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-08",
     "date_created": "20180328",
     "full_title": "CCC-CIC-08 The Last Voyage of the Woolgathering Tidsoptimist",

@@ -3,7 +3,9 @@
     "authors": [
         "Hugh Lee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-MIMIC-01",
     "date_created": "20220808",
     "full_title": "WBW-DC-MIMIC-01 A Day in the Life of a Mimic",

@@ -3,7 +3,9 @@
     "authors": [
         "Addy Tortosa"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-NCH-02",
     "date_created": "20230104",
     "full_title": "SJ-DC-NCH-02 Let's Go, S.A.G.O!",

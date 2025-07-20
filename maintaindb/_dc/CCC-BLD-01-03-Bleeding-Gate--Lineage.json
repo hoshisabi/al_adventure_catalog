@@ -3,7 +3,9 @@
     "authors": [
         "Ma'at Crook"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BLD",
     "date_created": "20180118",
     "full_title": "CCC-BLD 01-03 Bleeding Gate: Lineage",

@@ -3,7 +3,9 @@
     "authors": [
         "Bernhard Staneker"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-FET01_VATRAS",
     "date_created": "20250526",
     "full_title": "FR-DC-FET01_Vatras Besieged",

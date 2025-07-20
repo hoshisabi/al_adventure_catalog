@@ -3,7 +3,9 @@
     "authors": [
         "Nicholas Reed"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-SN-02-",
     "date_created": "20210411",
     "full_title": "DC-POA-SN-02: The Ruins of Balors Reach",

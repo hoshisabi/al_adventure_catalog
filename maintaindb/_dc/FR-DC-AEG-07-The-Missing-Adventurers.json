@@ -3,7 +3,9 @@
     "authors": [
         "Joseph George"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-AEG-07",
     "date_created": "20240122",
     "full_title": "FR-DC-AEG-07 The Missing Adventurers",

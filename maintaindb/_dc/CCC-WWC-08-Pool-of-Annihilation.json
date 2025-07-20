@@ -3,7 +3,9 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-WWC-08",
     "date_created": "20191217",
     "full_title": "CCC-WWC-08 Pool of Annihilation",

@@ -3,7 +3,9 @@
     "authors": [
         "George Sanders"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-SF-01",
     "date_created": "20240311",
     "full_title": "DL-DC-SF-01 Split or Fuse",

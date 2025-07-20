@@ -4,7 +4,9 @@
         "Iam Pace",
         "William Murakami-Brundage"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-STORM-01",
     "date_created": "20180430",
     "full_title": "CCC-STORM-01 The Barrows of Solina",

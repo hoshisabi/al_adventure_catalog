@@ -3,7 +3,9 @@
     "authors": [
         "Mike Arrow"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-MELB-02-05",
     "date_created": "20250624",
     "full_title": "Stormbound (FR-DC-MELB-02-05)",

@@ -3,7 +3,9 @@
     "authors": [
         "Matthew Barry"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DGE-02",
     "date_created": "20220706",
     "full_title": "WBW-DC-DGE-02 The Scorpion's Sting",

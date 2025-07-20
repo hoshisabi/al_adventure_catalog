@@ -3,7 +3,9 @@
     "authors": [
         "Garrett A Crowe"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UBCON2020-02-REALM",
     "date_created": "20200602",
     "full_title": "CCC-UBCON2020-02-Realm of the Brand",

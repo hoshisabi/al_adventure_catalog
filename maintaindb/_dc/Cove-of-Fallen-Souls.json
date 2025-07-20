@@ -4,7 +4,9 @@
         "Emily Smith",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG-27",
     "date_created": "20190804",
     "full_title": "Cove of Fallen Souls CCC-ALMOG-27 DAGON01-02",

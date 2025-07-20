@@ -3,7 +3,9 @@
     "authors": [
         "Ethan Yen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-04-03",
     "date_created": "20201109",
     "full_title": "CCC-DES-04-03 In Accordance with Plans",

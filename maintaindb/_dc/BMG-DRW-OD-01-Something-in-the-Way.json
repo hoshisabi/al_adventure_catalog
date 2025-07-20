@@ -3,7 +3,9 @@
     "authors": [
         "Cassandra MacDonald"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "BMG-DRW-OD-01",
     "date_created": "20230822",
     "full_title": "BMG-DRW-OD-01 Something in the Way",

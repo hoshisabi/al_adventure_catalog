@@ -3,7 +3,9 @@
     "authors": [
         "LK Tsui"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-HBK-1",
     "date_created": "20220129",
     "full_title": "WBW-DC-HBK-1 Phantasmagoria of Drifting Blossoms",

@@ -3,7 +3,9 @@
     "authors": [
         "Robbie Pleasant"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-NBDD-01",
     "date_created": "20220103",
     "full_title": "Play the Game (WBW-DC-NBDD-01)",

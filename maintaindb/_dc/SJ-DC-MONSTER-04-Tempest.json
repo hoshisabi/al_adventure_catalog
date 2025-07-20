@@ -3,7 +3,9 @@
     "authors": [
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-MONSTER-04",
     "date_created": "20231230",
     "full_title": "SJ-DC-MONSTER-04 Tempest",

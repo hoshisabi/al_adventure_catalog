@@ -3,7 +3,9 @@
     "authors": [
         "Johann Taslim"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ANGKA-07",
     "date_created": "20231014",
     "full_title": "Sleep Now in the Fire (SJ-DC-ANGKA-07)",

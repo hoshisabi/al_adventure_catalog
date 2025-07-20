@@ -5,7 +5,9 @@
         "Alex Kammer",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-03",
     "date_created": "20161215",
     "full_title": "CCC-GHC-03 Facing the Dark",

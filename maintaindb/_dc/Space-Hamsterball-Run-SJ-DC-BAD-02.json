@@ -3,7 +3,9 @@
     "authors": [
         "Bryan Mets"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-BAD-02",
     "date_created": "20231213",
     "full_title": "Space Hamsterball Run! (SJ-DC-BAD-02)",

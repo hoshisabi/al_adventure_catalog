@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MTL-02",
     "date_created": "20200116",
     "full_title": "House of Revenance (CCC-MTL-02)",

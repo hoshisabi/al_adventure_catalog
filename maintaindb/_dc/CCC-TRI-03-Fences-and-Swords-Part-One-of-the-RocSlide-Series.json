@@ -4,7 +4,9 @@
         "James RePass",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-03",
     "date_created": "20180413",
     "full_title": "CCC-TRI-03 Fences and Swords (Part One of the RocSlide Series)",

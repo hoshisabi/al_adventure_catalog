@@ -3,7 +3,9 @@
     "authors": [
         "Jason Lee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LAB-01",
     "date_created": "20220814",
     "full_title": "Kobold King's Labyrinth (WBW-DC-LAB-01)",

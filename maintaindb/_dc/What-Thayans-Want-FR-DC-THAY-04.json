@@ -3,7 +3,9 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-THAY-04",
     "date_created": "20250525",
     "full_title": "What Thayans Want (FR-DC-THAY-04)",

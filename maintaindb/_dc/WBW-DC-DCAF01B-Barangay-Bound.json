@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DCAF01B",
     "date_created": "20220324",
     "full_title": "WBW-DC-DCAF01B Barangay Bound",

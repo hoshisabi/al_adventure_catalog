@@ -3,7 +3,9 @@
     "authors": [
         "Arthur Marques"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-BMK",
     "date_created": "20240928",
     "full_title": "FR-DC-BMK Phandelver and the Blood Moon Keep",

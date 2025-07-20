@@ -3,7 +3,9 @@
     "authors": [
         "Jason Denton"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SFBAY-01-01",
     "date_created": "20170302",
     "full_title": "CCC-SFBAY-01-01 Plots in Motion",

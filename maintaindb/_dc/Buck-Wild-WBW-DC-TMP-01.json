@@ -4,7 +4,9 @@
         "Bryan Mets",
         "Zach Barton"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TMP-01",
     "date_created": "20220818",
     "full_title": "Buck Wild! (WBW-DC-TMP-01)",

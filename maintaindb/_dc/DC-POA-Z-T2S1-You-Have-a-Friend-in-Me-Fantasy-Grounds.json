@@ -1,7 +1,9 @@
 {
     "apl": 7,
     "authors": [],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-Z-T2S1",
     "date_created": "20211023",
     "full_title": "DC-POA-Z-T2S1 You Have a Friend in Me - Fantasy Grounds",

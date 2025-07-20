@@ -3,7 +3,9 @@
     "authors": [
         "Brian Collier"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-KCB-05",
     "date_created": "20220821",
     "full_title": "Fishing in the Dark WBW-DC-KCB-05",

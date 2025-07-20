@@ -3,7 +3,9 @@
     "authors": [
         "JAWSH MURDOCK"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BWM-005",
     "date_created": "20190624",
     "full_title": "CCC-BWM-005 Chasing Madness",

@@ -4,7 +4,9 @@
         "Marcello De Velazquez",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK2-03",
     "date_created": "20221011",
     "full_title": "PO-BK2-03 What Dreams May Come",

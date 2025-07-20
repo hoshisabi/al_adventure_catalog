@@ -3,7 +3,9 @@
     "authors": [
         "Joel Marsh"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HATMS",
     "date_created": "20190408",
     "full_title": "CCC-HATMS 02-01 Illithid Activities",

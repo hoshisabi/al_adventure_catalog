@@ -3,7 +3,9 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-TOA-15",
     "date_created": "20180829",
     "full_title": "Maze of Shadows",

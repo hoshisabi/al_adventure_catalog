@@ -3,7 +3,9 @@
     "authors": [
         "PT MacKim"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-EBAL-MEF0",
     "date_created": "20220827",
     "full_title": "WBW-DC-EBAL-MEF0 Misty Edge Heist",

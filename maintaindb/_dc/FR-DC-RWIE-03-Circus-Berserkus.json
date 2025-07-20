@@ -5,7 +5,9 @@
         "Noah Grand",
         "Bryn Keeling"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-RWIE-03",
     "date_created": "20240311",
     "full_title": "FR-DC-RWIE-03 Circus Berserkus",

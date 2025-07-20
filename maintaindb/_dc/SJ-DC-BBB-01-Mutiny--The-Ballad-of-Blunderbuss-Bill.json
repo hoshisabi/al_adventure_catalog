@@ -5,7 +5,9 @@
         "Te\u00e4n Stanhope",
         "James Twigg"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-BBB-01",
     "date_created": "20221205",
     "full_title": "SJ-DC-BBB-01 Mutiny: The Ballad of Blunderbuss Bill",

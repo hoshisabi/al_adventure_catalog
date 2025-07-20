@@ -4,7 +4,9 @@
         "Roger Alix-Gaudreau",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-12",
     "date_created": "20181231",
     "full_title": "CCC-TRI-12 Ill Met in Ylraphon (Part Two of the Olma Series)",

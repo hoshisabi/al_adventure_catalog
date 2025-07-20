@@ -3,7 +3,9 @@
     "authors": [
         "Endhy Pino"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-EPO-2",
     "date_created": "20210706",
     "full_title": "DC-PoA-EPO-2 The Lighthouse of Graybill",

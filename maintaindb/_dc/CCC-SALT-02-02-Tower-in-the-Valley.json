@@ -4,15 +4,19 @@
         "Zach Pickett",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SALT",
     "date_created": "20180609",
     "full_title": "CCC-SALT 02-02 Tower in the Valley",
     "hours": null,
     "is_adventure": true,
     "level_range": "01",
-    "product_id": "CCC-SALT-02-02-Tower-in-the-Valley",
+    "price": 4.99,
+    "product_id": "244116",
+    "season": null,
     "tiers": null,
     "title": "CCC-SALT 02-02 Tower in the Valley",
-    "url": "https://www.dmsguild.com/product/244116/CCCSALT-0202-Tower-in-the-Valley?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/244116/?affiliate_id=171040"
 }

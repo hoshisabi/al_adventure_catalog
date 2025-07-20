@@ -3,7 +3,9 @@
     "authors": [
         "Bianca Bickford"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FDC-01",
     "date_created": "20210921",
     "full_title": "The Ember King (WBW-DC-FDC-01)",

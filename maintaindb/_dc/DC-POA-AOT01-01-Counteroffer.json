@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Odin Tawney"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA",
     "date_created": "20201230",
     "full_title": "DC-POA AOT01-01 Counteroffer",

@@ -3,7 +3,9 @@
     "authors": [
         "Arthur Marques"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-BMK-04",
     "date_created": "20240709",
     "full_title": "FR-DC-BMK-04 Phandelver and the Blood Moon Behemoth",

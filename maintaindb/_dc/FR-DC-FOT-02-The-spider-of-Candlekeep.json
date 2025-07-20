@@ -3,7 +3,9 @@
     "authors": [
         "Joshua Nelson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-FOT-02",
     "date_created": "20250204",
     "full_title": "FR-DC-FOT-02 The spider of Candlekeep",

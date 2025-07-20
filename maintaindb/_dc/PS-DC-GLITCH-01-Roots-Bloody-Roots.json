@@ -4,7 +4,9 @@
         "Lu\u00eds Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-GLITCH-01",
     "date_created": "20250217",
     "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",

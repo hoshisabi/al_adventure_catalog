@@ -3,7 +3,9 @@
     "authors": [
         "Mike Olson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WCAG-01",
     "date_created": "20241029",
     "full_title": "FR-DC-WCAG-01 Black Water & Blue Wine",

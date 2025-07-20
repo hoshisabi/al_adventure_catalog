@@ -3,7 +3,9 @@
     "authors": [
         "Elijah Vince Aguila"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-PHP-PEST-01-",
     "date_created": "20241030",
     "full_title": "FR-DC-PHP-PEST-01: Pest Control",

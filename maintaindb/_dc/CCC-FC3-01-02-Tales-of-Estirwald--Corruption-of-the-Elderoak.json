@@ -4,7 +4,9 @@
         "Jennifer L. Moffat",
         "Xavier A. Devenoges"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-FC3-01-02",
     "date_created": "20190227",
     "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",

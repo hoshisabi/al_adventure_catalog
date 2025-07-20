@@ -3,7 +3,9 @@
     "authors": [
         "Christian Brazil"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-VEN-03",
     "date_created": "20231121",
     "full_title": "Daylight Saving Time (SJ-DC-VEN-03)",

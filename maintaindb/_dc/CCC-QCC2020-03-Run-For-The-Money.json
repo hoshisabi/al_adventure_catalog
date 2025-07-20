@@ -4,7 +4,9 @@
         "Scott Moore",
         "Cindy Moore"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-QCC2020-03",
     "date_created": "20201028",
     "full_title": "CCC-QCC2020-03 Run For The Money",

@@ -3,7 +3,9 @@
     "authors": [
         "Russ Paulsen and Alex Paulsen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MAG01-03",
     "date_created": "20200719",
     "full_title": "CCC-MAG01-03 The Clock that Didn't Tick",

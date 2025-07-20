@@ -3,7 +3,9 @@
     "authors": [
         "Matt Brown"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TLRMB-02",
     "date_created": "20220106",
     "full_title": "The Last Resort WBW-DC-TLRMB-02",

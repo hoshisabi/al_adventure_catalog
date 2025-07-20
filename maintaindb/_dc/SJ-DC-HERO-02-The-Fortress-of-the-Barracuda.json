@@ -3,7 +3,9 @@
     "authors": [
         "Ruth Imhoff"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-HERO-02",
     "date_created": "20230608",
     "full_title": "SJ-DC-HERO-02 The Fortress of the Barracuda",

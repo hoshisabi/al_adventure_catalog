@@ -5,7 +5,9 @@
         "David Sklenicka",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-3-01",
     "date_created": "20240103",
     "full_title": "PO-BK-3-01 A Pirate's Life for Me",

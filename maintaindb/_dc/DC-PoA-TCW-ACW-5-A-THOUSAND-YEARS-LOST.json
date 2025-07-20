@@ -3,7 +3,9 @@
     "authors": [
         "Bernard Jericho Velasco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-TCW-ACW-5",
     "date_created": "20210623",
     "full_title": "DC-PoA-TCW-ACW-5 A THOUSAND YEARS LOST",

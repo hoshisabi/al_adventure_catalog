@@ -4,7 +4,9 @@
         "Baldman Games",
         "Jacky Leung"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON17-3",
     "date_created": "20220601",
     "full_title": "CCC-BMG-MOON17-3 Hope Amidst the Ashes",

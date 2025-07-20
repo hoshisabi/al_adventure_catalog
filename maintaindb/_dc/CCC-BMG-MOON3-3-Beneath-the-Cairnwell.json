@@ -4,7 +4,9 @@
         "Baldman Games",
         "Kat Kruger"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON3-3",
     "date_created": "20190726",
     "full_title": "CCC-BMG-MOON3-3 Beneath the Cairnwell",

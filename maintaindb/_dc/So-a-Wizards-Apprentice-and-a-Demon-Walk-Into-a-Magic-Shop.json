@@ -15,7 +15,9 @@
         "Eddie Gioffre",
         "Richard Malena-Webber"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20190214",
     "full_title": "So, a Wizard's Apprentice and a Demon Walk Into a Magic Shop\u2026",

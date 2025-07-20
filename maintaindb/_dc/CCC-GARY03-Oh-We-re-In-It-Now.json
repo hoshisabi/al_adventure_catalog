@@ -4,7 +4,9 @@
         "Thomas Valley",
         "Luke Gygax"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY-03",
     "date_created": "20170414",
     "full_title": "CCC-GARY03: Oh, We're In It Now",

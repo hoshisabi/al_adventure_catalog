@@ -4,7 +4,9 @@
         "David Sklenicka",
         "Davestar Gaming"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-DRAGON24-05",
     "date_created": "20240827",
     "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",

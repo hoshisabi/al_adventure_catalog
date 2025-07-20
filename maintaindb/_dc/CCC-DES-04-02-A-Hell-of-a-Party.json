@@ -3,7 +3,9 @@
     "authors": [
         "Iam Pace"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-04-02",
     "date_created": "20201109",
     "full_title": "CCC-DES-04-02 A Hell of a Party",

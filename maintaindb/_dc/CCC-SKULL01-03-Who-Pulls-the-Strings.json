@@ -5,7 +5,9 @@
         "Ginny Loveday",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SKULL01-03",
     "date_created": "20190408",
     "full_title": "CCC-SKULL01-03 Who Pulls the Strings",

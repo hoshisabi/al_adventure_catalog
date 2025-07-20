@@ -4,7 +4,9 @@
         "Dave Coulson",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-3-05",
     "date_created": "20240222",
     "full_title": "PO-BK-3-05 Into the Shining Sea",

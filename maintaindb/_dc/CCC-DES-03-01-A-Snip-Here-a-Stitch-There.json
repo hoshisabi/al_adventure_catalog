@@ -4,7 +4,9 @@
         "Noah Grand",
         "Ayanna Jones-Lightsy"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-03-01",
     "date_created": "20200821",
     "full_title": "CCC-DES-03-01 A Snip Here, a Stitch There",

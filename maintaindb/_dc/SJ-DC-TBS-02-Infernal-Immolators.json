@@ -3,7 +3,9 @@
     "authors": [
         "JWei\u4f1f"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TBS-02",
     "date_created": "20230629",
     "full_title": "SJ-DC-TBS-02, Infernal Immolators",

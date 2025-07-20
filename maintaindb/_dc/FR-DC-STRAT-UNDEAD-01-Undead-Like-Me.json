@@ -4,7 +4,9 @@
         "Strategicon AL",
         "Alexis Paige"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-STRAT-UNDEAD-01",
     "date_created": "20240627",
     "full_title": "FR-DC-STRAT-UNDEAD-01 Undead Like Me",

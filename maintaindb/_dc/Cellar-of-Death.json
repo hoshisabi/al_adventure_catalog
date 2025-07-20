@@ -3,7 +3,9 @@
     "authors": [
         "James Introcaso"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-TOA-4",
     "date_created": "20170908",
     "full_title": "Cellar of Death",

@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Ellingsen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-14",
     "date_created": "20220831",
     "full_title": "WBW-DC-CONMAR-14 Minuet of Misty Mountain",

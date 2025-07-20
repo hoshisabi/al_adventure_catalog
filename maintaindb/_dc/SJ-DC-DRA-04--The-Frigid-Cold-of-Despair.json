@@ -3,7 +3,9 @@
     "authors": [
         "Raymond Holding"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DRA-04-",
     "date_created": "20221225",
     "full_title": "SJ-DC-DRA-04: The Frigid Cold of Despair",

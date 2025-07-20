@@ -4,7 +4,9 @@
         "Mike Wokasch",
         "Winter Wokasch"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-QLA-02",
     "date_created": "20240228",
     "full_title": "The Ceremony (FR-DC-QLA-02)",

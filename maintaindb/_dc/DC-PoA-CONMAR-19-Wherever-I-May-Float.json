@@ -4,7 +4,9 @@
         "Anna Grading",
         "Karianne Fog Heen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-19",
     "date_created": "20210830",
     "full_title": "DC-PoA-CONMAR-19 Wherever I May Float",

@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-LEGIT-SV-03",
     "date_created": "20210710",
     "full_title": "DC-POA-LEGIT-SV-03 The Beggar's Blood",

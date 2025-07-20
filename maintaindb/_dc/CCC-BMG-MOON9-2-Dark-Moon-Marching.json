@@ -4,7 +4,9 @@
         "Baldman Games",
         "Michael McKeown"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON9-2",
     "date_created": "20210223",
     "full_title": "CCC-BMG-MOON9-2 Dark Moon Marching",

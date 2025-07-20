@@ -3,7 +3,9 @@
     "authors": [
         "Bryan Mets"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-PAT-01",
     "date_created": "20231224",
     "full_title": "Lunar Freeze (SJ-DC-PAT-01)",

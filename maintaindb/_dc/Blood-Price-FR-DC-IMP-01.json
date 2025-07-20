@@ -3,14 +3,16 @@
     "authors": [
         "Pauline Feraren"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-IMP-01",
     "date_created": "20240331",
     "full_title": "Blood Price (FR DC IMP 01)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "2",
-    "product_id": null,
+    "product_id": "Blood-Price-FR-DC-IMP-01-20240331",
     "tiers": 3,
     "title": "Blood Price FR DC IMP 01",
     "url": "https://www.dmsguild.com/product/476113/Blood-Price-FR-DC-IMP-01?filters=45470_0_0_0_0_0"

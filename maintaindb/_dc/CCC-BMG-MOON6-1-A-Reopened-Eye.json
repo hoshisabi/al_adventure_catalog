@@ -4,7 +4,9 @@
         "Baldman Games",
         "Diana Voyer"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON6-1",
     "date_created": "20200504",
     "full_title": "CCC-BMG-MOON6-1 A Reopened Eye",

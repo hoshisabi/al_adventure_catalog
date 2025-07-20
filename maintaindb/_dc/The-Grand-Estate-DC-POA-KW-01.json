@@ -3,7 +3,9 @@
     "authors": [
         "Kat Wynne"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-KW-01",
     "date_created": "20210503",
     "full_title": "The Grand Estate (DC-POA-KW-01)",

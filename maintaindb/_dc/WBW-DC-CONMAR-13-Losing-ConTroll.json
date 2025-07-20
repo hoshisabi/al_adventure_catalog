@@ -4,7 +4,9 @@
         "Casper Akto Kanstrup",
         "Martin Akto Kanstrup"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-13",
     "date_created": "20220831",
     "full_title": "WBW-DC-CONMAR-13 Losing ConTroll",

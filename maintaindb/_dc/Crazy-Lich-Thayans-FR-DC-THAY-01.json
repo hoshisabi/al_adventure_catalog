@@ -3,7 +3,9 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-THAY-01",
     "date_created": "20250302",
     "full_title": "Crazy Lich Thayans (FR-DC-THAY-01)",

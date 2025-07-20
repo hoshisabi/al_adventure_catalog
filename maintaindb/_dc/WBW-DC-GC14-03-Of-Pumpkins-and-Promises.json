@@ -4,7 +4,9 @@
         "Adrian Rhodes",
         "Paige Leitman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-GC14-03",
     "date_created": "20220324",
     "full_title": "WBW-DC-GC14-03 Of Pumpkins and Promises",

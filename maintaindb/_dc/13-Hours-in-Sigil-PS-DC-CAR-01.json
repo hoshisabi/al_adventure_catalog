@@ -3,7 +3,9 @@
     "authors": [
         "JD McComb"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-CAR-01",
     "date_created": "20250531",
     "full_title": "13 Hours in Sigil (PS-DC-CAR-01)",

@@ -3,7 +3,9 @@
     "authors": [
         "Toca do Coruja RPG"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20210923",
     "full_title": "DDAL - Guia do Jogador de Forgotten Realms v11.0 - PT-BR",

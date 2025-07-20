@@ -4,7 +4,9 @@
         "Strategicon AL",
         "Sean \"Ogre\" Nolan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-RWIE-01",
     "date_created": "20240311",
     "full_title": "FR-DC-RWIE-01 Divine Chance - Always Bet on Red",

@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DCAF09",
     "date_created": "20210323",
     "full_title": "DC-PoA-DCAF09 An Ascent to Recall",

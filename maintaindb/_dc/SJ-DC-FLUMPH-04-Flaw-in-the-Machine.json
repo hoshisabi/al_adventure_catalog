@@ -3,7 +3,9 @@
     "authors": [
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-FLUMPH-04",
     "date_created": "20231231",
     "full_title": "SJ-DC-FLUMPH-04 Flaw in the Machine",

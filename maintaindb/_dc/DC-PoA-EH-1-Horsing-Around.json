@@ -3,7 +3,9 @@
     "authors": [
         "Ethan Henry"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-EH-1",
     "date_created": "20210830",
     "full_title": "DC-PoA-EH-1 Horsing Around",

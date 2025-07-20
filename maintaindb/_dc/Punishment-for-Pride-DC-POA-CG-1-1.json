@@ -3,7 +3,9 @@
     "authors": [
         "Chubby Goblin"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CG-1-1",
     "date_created": "20201224",
     "full_title": "Punishment for Pride (DC-POA-CG-1-1)",

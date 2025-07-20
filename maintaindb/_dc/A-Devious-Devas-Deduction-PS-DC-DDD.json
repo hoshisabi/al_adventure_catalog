@@ -3,7 +3,9 @@
     "authors": [
         "Franz Bedonia"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-DDD",
     "date_created": "20240621",
     "full_title": "A Devious Deva's Deduction (PS-DC-DDD)",

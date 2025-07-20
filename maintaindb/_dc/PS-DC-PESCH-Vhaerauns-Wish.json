@@ -3,7 +3,9 @@
     "authors": [
         "Jason Pesch"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-PESCH",
     "date_created": "20241031",
     "full_title": "PS-DC-PESCH Vhaeraun's Wish",

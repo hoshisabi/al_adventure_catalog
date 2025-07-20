@@ -3,7 +3,9 @@
     "authors": [
         "Chris Valentine"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ROOK-2-2",
     "date_created": "20220802",
     "full_title": "WBW-DC-Rook-2-2 The Rookery: Into the Velarium",

@@ -3,7 +3,9 @@
     "authors": [
         "Mitchell Tee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-VMT-01",
     "date_created": "20241218",
     "full_title": "FR-DC-VMT-01 The Lord of the Reindeer",

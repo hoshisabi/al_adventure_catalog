@@ -4,7 +4,9 @@
         "Bryan Mets",
         "Arthur Marques"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-BAD-03",
     "date_created": "20231215",
     "full_title": "Festival of Frun (SJ-DC-BAD-03)",

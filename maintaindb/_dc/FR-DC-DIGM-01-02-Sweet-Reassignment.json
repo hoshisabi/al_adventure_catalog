@@ -3,7 +3,9 @@
     "authors": [
         "Matt Houser"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-DIGM-01-02",
     "date_created": "20250522",
     "full_title": "FR-DC-DIGM-01-02 Sweet Reassignment",

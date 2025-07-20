@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Hochhalter"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HATMS02-02",
     "date_created": "20190305",
     "full_title": "CCC-HATMS02-02 Something Vile This Way Comes",

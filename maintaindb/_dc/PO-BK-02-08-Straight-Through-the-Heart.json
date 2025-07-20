@@ -4,7 +4,9 @@
         "Ted Atkinson",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PO-BK-02-08",
     "date_created": "20230414",
     "full_title": "PO-BK-02-08 Straight Through the Heart",

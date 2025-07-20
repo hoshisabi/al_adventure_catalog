@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DCAF06",
     "date_created": "20210110",
     "full_title": "Dc-PoA-DCAF06 A Front On Frost",

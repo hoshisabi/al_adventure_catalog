@@ -3,7 +3,9 @@
     "authors": [
         "jio alba"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-PHP-ORNG",
     "date_created": "20231231",
     "full_title": "SJ-DC-PHP-ORNG: Thousand Tiny Ducks",

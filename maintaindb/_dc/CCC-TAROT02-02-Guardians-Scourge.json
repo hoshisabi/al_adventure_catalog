@@ -3,7 +3,9 @@
     "authors": [
         "Joshua Clark"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TAROT02-02",
     "date_created": "20200301",
     "full_title": "CCC-TAROT02-02 Guardian's Scourge",

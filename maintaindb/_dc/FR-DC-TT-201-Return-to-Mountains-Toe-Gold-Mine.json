@@ -3,7 +3,9 @@
     "authors": [
         "Ting Yuen Tjiong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-TT-201",
     "date_created": "20240430",
     "full_title": "FR-DC-TT-201 Return to Mountain's Toe Gold Mine",

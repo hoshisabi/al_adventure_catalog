@@ -3,7 +3,9 @@
     "authors": [
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ARCON-03",
     "date_created": "20220616",
     "full_title": "WBW-DC-ARCON-03 A Forest of Memories",

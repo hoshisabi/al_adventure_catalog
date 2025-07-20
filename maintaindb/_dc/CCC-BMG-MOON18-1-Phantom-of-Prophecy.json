@@ -4,7 +4,9 @@
         "Baldman Games",
         "Joe Cirillo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON18-1",
     "date_created": "20220630",
     "full_title": "CCC-BMG-MOON18-1 Phantom of Prophecy",

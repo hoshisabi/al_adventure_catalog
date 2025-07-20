@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-CIC-09",
     "date_created": "20180623",
     "full_title": "CCC-CIC-09 Steamy Shores of Danger",

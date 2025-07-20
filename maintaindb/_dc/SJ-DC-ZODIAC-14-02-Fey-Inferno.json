@@ -3,7 +3,9 @@
     "authors": [
         "Steven Truong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-ZODIAC-14-02",
     "date_created": "20231125",
     "full_title": "SJ-DC-ZODIAC-14-02 Fey Inferno",

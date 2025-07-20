@@ -3,7 +3,9 @@
     "authors": [
         "Paul Duggan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-RED-01",
     "date_created": "20210824",
     "full_title": "DC-POA-RED-01 Chwingatown",

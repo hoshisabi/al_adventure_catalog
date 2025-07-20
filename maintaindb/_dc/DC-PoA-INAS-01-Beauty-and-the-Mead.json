@@ -3,7 +3,9 @@
     "authors": [
         "Alec Shaner"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-INAS-01",
     "date_created": "20210729",
     "full_title": "DC-PoA-INAS-01 Beauty and the Mead",

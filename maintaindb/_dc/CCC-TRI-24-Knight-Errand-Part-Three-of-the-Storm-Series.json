@@ -4,7 +4,9 @@
         "Garrett Colon",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-24",
     "date_created": "20190531",
     "full_title": "CCC-TRI-24 Knight Errand (Part Three of the Storm Series)",

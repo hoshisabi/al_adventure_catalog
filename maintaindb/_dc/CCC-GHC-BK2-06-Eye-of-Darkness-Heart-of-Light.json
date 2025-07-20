@@ -4,7 +4,9 @@
         "Jonathan Connor Self",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK2-06",
     "date_created": "20200515",
     "full_title": "CCC-GHC-BK2-06 Eye of Darkness, Heart of Light",

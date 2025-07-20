@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Geesy"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-PKL-20",
     "date_created": "20250101",
     "full_title": "PS-DC-PKL-20 Jawbreakers and Jailbreakers",

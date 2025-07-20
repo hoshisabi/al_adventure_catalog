@@ -3,7 +3,9 @@
     "authors": [
         "jio alba"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-ORNG-02",
     "date_created": "20220831",
     "full_title": "WBW-DC-PHP-ORNG-02 Where do they Go?",

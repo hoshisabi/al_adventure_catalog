@@ -3,7 +3,9 @@
     "authors": [
         "JWei\u4f1f"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-PANDORA-JWEI-S2-04",
     "date_created": "20250530",
     "full_title": "FR-DC-PANDORA-JWEI-S2-04, Echoes of the End",

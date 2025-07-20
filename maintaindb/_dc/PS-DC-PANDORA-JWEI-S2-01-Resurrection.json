@@ -3,7 +3,9 @@
     "authors": [
         "JWei\u4f1f"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-PANDORA-JWEI-S2-01",
     "date_created": "20250404",
     "full_title": "PS-DC-PANDORA-JWEI-S2-01, Resurrection",

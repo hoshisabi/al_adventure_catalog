@@ -4,7 +4,9 @@
         "TEDDY BENSON",
         "THOMAS VALLEY"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DRAGON-03-",
     "date_created": "20210830",
     "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",

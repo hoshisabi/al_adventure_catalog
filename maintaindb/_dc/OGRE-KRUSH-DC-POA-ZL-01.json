@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-ZL-01",
     "date_created": "20201117",
     "full_title": "OGRE KRUSH (DC-POA-ZL-01)",

@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-LEGIT-SV-02",
     "date_created": "20210130",
     "full_title": "DC-POA-LEGIT-SV-02 The Shape of Silence",

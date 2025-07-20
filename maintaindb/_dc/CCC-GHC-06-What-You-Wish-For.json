@@ -4,7 +4,9 @@
         "Shawn Merwin",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-06",
     "date_created": "20171204",
     "full_title": "CCC-GHC-06 - What You Wish For",

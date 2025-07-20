@@ -3,7 +3,9 @@
     "authors": [
         "William Beers"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-KUMORI-01-01",
     "date_created": "20171120",
     "full_title": "CCC-KUMORI-01-01  Wreckers",

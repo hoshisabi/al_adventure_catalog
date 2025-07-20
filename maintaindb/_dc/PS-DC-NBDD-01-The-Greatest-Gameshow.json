@@ -3,7 +3,9 @@
     "authors": [
         "Robbie Pleasant"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-NBDD-01",
     "date_created": "20240804",
     "full_title": "PS-DC-NBDD-01 The Greatest Gameshow",

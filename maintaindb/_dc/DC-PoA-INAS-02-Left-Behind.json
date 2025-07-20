@@ -3,7 +3,9 @@
     "authors": [
         "Alec Shaner"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-INAS-02",
     "date_created": "20210831",
     "full_title": "DC-PoA-INAS-02 Left Behind",

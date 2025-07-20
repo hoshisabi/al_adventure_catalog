@@ -4,7 +4,9 @@
         "Lu\u00eds Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-LIGA03",
     "date_created": "20241031",
     "full_title": "DL-DC-LIGA03 - Firstwal under Siege",

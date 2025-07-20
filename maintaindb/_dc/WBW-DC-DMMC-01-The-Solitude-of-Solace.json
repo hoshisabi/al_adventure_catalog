@@ -3,7 +3,9 @@
     "authors": [
         "Shu Qing Tan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DMMC-01",
     "date_created": "20220503",
     "full_title": "WBW-DC-DMMC-01 The Solitude of Solace",

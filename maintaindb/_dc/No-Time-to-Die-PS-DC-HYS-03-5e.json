@@ -3,7 +3,9 @@
     "authors": [
         "Hunter Sinclair"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-HYS-03",
     "date_created": "20231212",
     "full_title": "No Time to Die PS-DC-HYS-03 (5e)",

@@ -3,7 +3,9 @@
     "authors": [
         "K. Jasmine Vernon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ST2-1",
     "date_created": "20180912",
     "full_title": "CCC-ST2-1 Red War: Embassy of Evil",

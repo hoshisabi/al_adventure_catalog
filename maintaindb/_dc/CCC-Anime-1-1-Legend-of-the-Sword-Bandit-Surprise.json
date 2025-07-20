@@ -4,7 +4,9 @@
         "David Morris",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-Anime-1-1",
     "date_created": "20180313",
     "full_title": "CCC - Anime - 1-1 Legend of the Sword Bandit Surprise",

@@ -3,7 +3,9 @@
     "authors": [
         "Christopher B Bertucio"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CBB-02",
     "date_created": "20220313",
     "full_title": "WBW-DC-CBB-02  Escolar\u2019s Grotto",

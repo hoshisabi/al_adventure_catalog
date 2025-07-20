@@ -3,7 +3,9 @@
     "authors": [
         "Ian Hawthorne"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UK-4",
     "date_created": "20190722",
     "full_title": "CCC-UK-4 Bourne of Candles",

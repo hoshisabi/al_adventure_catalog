@@ -3,7 +3,9 @@
     "authors": [
         "Y. Michael Zhang"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GAD01-02",
     "date_created": "20190417",
     "full_title": "CCC-GAD01-02 Red War: Black Phoenix",

@@ -3,7 +3,9 @@
     "authors": [
         "Jason Pesch"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-02-02",
     "date_created": "20200420",
     "full_title": "CCC-DES-02-02 On a Six-Fingered Trail",

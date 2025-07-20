@@ -4,7 +4,9 @@
         "Monkey Mind Tabletop",
         "Chris Wathen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GEL-01",
     "date_created": "20180316",
     "full_title": "CCC-GEL-01 Bedlam at the Benefit",

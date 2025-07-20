@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Chapman"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-PND-3",
     "date_created": "20210830",
     "full_title": "The Watcher in the Attic (DC-POA-PND-3)",

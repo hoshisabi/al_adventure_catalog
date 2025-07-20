@@ -3,7 +3,9 @@
     "authors": [
         "Brendon Watson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DWR-01",
     "date_created": "20220920",
     "full_title": "Dohwar Heist (SJ-DC-DWR-01)",

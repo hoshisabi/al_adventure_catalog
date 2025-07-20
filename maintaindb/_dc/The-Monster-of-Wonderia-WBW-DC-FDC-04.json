@@ -3,7 +3,9 @@
     "authors": [
         "Anthony Joyce"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FDC-04",
     "date_created": "20210921",
     "full_title": "The Monster of Wonderia (WBW-DC-FDC-04)",

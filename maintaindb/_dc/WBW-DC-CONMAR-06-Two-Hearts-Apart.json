@@ -3,7 +3,9 @@
     "authors": [
         "Shu Qing Tan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-06",
     "date_created": "20220127",
     "full_title": "WBW-DC-CONMAR-06 Two Hearts Apart",

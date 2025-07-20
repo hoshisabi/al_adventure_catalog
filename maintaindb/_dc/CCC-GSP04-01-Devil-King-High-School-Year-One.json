@@ -5,15 +5,19 @@
         "Ian Viernes",
         "Pheelyp Aytona"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP04-01",
     "date_created": "20201117",
     "full_title": "CCC-GSP04-01 Devil King High School: Year One",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "1",
-    "product_id": "CCC-GSP04-01-Devil-King-High-School--Year-One",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 4.99,
+    "product_id": "336048",
+    "season": null,
+    "tiers": 1,
     "title": "CCC-GSP04-01 Devil King High School Year One",
-    "url": "https://www.dmsguild.com/product/336048/CCCGSP0401-Devil-King-High-School-Year-One?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/336048/?affiliate_id=171040"
 }

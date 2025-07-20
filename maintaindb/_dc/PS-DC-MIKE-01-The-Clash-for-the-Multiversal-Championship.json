@@ -3,7 +3,9 @@
     "authors": [
         "Mike Arrow"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-MIKE-01",
     "date_created": "20240810",
     "full_title": "PS-DC-MIKE-01 The Clash for the Multiversal Championship",

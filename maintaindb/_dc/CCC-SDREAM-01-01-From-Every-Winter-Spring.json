@@ -3,7 +3,9 @@
     "authors": [
         "Jonathan Connor Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SDREAM-01-01",
     "date_created": "20200720",
     "full_title": "CCC-SDREAM-01-01 From Every Winter, Spring",

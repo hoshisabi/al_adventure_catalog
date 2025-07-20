@@ -3,7 +3,9 @@
     "authors": [
         "Ting Yuen Tjiong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-TT-202",
     "date_created": "20250526",
     "full_title": "PS-DC-TT-202 May the Cause be with You",

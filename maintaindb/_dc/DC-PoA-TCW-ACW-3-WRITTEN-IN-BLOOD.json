@@ -3,7 +3,9 @@
     "authors": [
         "Bernard Jericho Velasco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-TCW-ACW-3",
     "date_created": "20210605",
     "full_title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",

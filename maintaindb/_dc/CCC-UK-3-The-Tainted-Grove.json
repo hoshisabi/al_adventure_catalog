@@ -3,7 +3,9 @@
     "authors": [
         "Richard Green"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-UK-3",
     "date_created": "20190722",
     "full_title": "CCC-UK-3 The Tainted Grove",

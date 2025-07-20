@@ -4,7 +4,9 @@
         "Brian Balagot",
         "Triden Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TRIDEN-MW",
     "date_created": "20221019",
     "full_title": "Mighty Wings (SJ-DC-TRIDEN-MW)",

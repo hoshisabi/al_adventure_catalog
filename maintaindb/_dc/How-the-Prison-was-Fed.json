@@ -5,7 +5,9 @@
         "David Morris",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG-25",
     "date_created": "20190905",
     "full_title": "How the Prison was Fed (CCC-ALMOG-25 SALT01-05)",

@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 bs4 = "*"
-word2number = "*"
 bs5 = "*"
 
 [dev-packages]

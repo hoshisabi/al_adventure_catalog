@@ -3,7 +3,9 @@
     "authors": [
         "Marcello De Velazquez"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-SCR-01",
     "date_created": "20221224",
     "full_title": "SJ-DC-SCR-01 Scraps for the Dragon",

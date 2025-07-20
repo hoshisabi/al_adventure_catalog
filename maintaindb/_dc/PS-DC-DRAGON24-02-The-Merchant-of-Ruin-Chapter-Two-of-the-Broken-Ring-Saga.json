@@ -4,7 +4,9 @@
         "David Sklenicka",
         "Davestar Gaming"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-DRAGON24-02",
     "date_created": "20240827",
     "full_title": "PS-DC-DRAGON24-02 The Merchant of Ruin, Chapter Two of the Broken Ring Saga",

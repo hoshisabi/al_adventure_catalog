@@ -4,7 +4,9 @@
         "Martine Lassen",
         "Christian Alhaug"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-01",
     "date_created": "20220108",
     "full_title": "WBW-DC-CONMAR-01 Many Happy Returns",

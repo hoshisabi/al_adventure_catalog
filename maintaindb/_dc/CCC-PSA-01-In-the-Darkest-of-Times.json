@@ -3,7 +3,9 @@
     "authors": [
         "Jon Klucharits"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PSA-01",
     "date_created": "20201222",
     "full_title": "CCC-PSA-01 In the Darkest of Times",

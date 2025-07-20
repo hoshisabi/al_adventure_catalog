@@ -4,7 +4,9 @@
         "Casper Akto Kanstrup",
         "Martin Akto Kanstrup"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-07",
     "date_created": "20220517",
     "full_title": "WBW-DC-CONMAR-07 Impelled reflections",

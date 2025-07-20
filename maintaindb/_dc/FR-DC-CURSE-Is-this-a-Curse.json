@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-CURSE",
     "date_created": "20231109",
     "full_title": "FR-DC-CURSE Is this a Curse?",

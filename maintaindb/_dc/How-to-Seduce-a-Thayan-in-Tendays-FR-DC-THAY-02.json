@@ -3,7 +3,9 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-THAY-02",
     "date_created": "20250323",
     "full_title": "How to Seduce a Thayan in Tendays (FR-DC-THAY-02)",

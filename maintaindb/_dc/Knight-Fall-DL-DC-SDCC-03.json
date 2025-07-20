@@ -3,7 +3,9 @@
     "authors": [
         "JD McComb"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-SDCC-03",
     "date_created": "20230717",
     "full_title": "Knight Fall (DL-DC-SDCC-03)",

@@ -3,7 +3,9 @@
     "authors": [
         "Jerrold R. Warren"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-NUKE-01",
     "date_created": "20220829",
     "full_title": "WBW-DC-NUKE-01 \"Magically Delicious, Possibly Rotten\"",

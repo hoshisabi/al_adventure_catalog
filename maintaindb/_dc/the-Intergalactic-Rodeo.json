@@ -3,7 +3,9 @@
     "authors": [
         "Jeff Arnason"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-FXC-JEFF-01",
     "date_created": "20230820",
     "full_title": "the Intergalactic Rodeo",

@@ -3,7 +3,9 @@
     "authors": [
         "David Hardie"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-JOQ-02",
     "date_created": "20211110",
     "full_title": "Mirror, Mirror... (WBW-DC-JOQ-02)",

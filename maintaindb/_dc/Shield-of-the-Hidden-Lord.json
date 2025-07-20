@@ -3,7 +3,9 @@
     "authors": [
         "M.T. Black"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20191030",
     "full_title": "Shield of the Hidden Lord",

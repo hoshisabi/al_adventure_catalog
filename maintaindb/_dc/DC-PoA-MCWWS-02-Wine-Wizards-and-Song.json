@@ -3,7 +3,9 @@
     "authors": [
         "Michelle Churchill"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-MCWWS-02",
     "date_created": "20210330",
     "full_title": "DC-PoA-MCWWS-02 Wine, Wizards and Song",

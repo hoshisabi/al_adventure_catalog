@@ -4,7 +4,9 @@
         "Espen Alme Ellingsen",
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-03",
     "date_created": "20210222",
     "full_title": "DC-PoA-CONMAR-03 - Unfrozen",

@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DD-08",
     "date_created": "20231116",
     "full_title": "SJ-DC-DD-08 Blast from the Past",

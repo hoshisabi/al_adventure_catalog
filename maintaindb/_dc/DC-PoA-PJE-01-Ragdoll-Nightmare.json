@@ -4,7 +4,9 @@
         "P. J. England",
         "Arcane Ink"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-PJE-01",
     "date_created": "20210504",
     "full_title": "DC-PoA-PJE-01 Ragdoll Nightmare",

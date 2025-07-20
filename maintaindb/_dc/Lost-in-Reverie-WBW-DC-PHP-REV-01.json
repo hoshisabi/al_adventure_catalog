@@ -3,7 +3,9 @@
     "authors": [
         "Tim Tan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-REV-01",
     "date_created": "20220715",
     "full_title": "Lost in Reverie (WBW-DC-PHP-REV-01)",

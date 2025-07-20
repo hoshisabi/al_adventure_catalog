@@ -4,7 +4,9 @@
         "Baldman Games",
         "Jay H. Anderson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON15-3",
     "date_created": "20220126",
     "full_title": "CCC-BMG-MOON15-3 Fallen Wonder",

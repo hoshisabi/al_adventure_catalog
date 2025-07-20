@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HAL-01",
     "date_created": "20181106",
     "full_title": "CCC-HAL-01 Fate of the Nightworms",

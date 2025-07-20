@@ -3,7 +3,9 @@
     "authors": [
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ARCON-04",
     "date_created": "20220803",
     "full_title": "WBW-DC-ARCON-04 The Multivertshus II",

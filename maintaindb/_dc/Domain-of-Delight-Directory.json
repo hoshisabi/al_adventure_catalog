@@ -3,7 +3,9 @@
     "authors": [
         "Trevor Salla"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20220822",
     "full_title": "Domain of Delight Directory",

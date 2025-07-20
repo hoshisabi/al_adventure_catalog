@@ -4,7 +4,9 @@
         "Rebecca Farrar",
         "Jeff Kuta"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PAW-01",
     "date_created": "20220830",
     "full_title": "WBW-DC-PAW-01 Sick as a Dog",

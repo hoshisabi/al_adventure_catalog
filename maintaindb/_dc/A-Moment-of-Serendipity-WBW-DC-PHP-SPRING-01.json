@@ -3,7 +3,9 @@
     "authors": [
         "Nadie Esteban"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-PHP-SPRING-01",
     "date_created": "20220722",
     "full_title": "A Moment of Serendipity (WBW-DC-PHP-SPRING-01)",

@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-HAL-02",
     "date_created": "20181125",
     "full_title": "ZETH-02 Six Striking Swords (CCC-HAL-02)",

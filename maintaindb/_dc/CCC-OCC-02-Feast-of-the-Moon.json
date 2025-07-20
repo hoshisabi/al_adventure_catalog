@@ -3,7 +3,9 @@
     "authors": [
         "Jeremy Hochhalter"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-OCC-02",
     "date_created": "20190205",
     "full_title": "CCC-OCC-02 Feast of the Moon",

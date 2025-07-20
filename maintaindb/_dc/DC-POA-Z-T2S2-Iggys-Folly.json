@@ -3,7 +3,9 @@
     "authors": [
         "Zardak123"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-Z-T2S2",
     "date_created": "20210831",
     "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",

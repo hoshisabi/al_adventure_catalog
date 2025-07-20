@@ -4,7 +4,9 @@
         "Lex Winter",
         "Katriel Paige"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TEN-03",
     "date_created": "20220808",
     "full_title": "WBW-DC-TEN-03 The Tale of Korama",

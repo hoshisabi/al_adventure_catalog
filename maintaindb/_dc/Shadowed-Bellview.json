@@ -4,14 +4,16 @@
         "Remley Farr",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG-26",
     "date_created": "20190814",
     "full_title": "Shadowed Bellview",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "product_id": null,
+    "product_id": "Shadowed-Bellview-20190814",
     "tiers": 1,
     "title": "Shadowed Bellview",
     "url": "https://www.dmsguild.com/product/284824/Shadowed-Bellview?filters=45470_0_0_0_0_0_0_0"

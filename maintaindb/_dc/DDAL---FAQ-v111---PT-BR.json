@@ -3,7 +3,9 @@
     "authors": [
         "Toca do Coruja RPG"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20211024",
     "full_title": "DDAL - FAQ v11.1 - PT-BR",

@@ -3,7 +3,9 @@
     "authors": [
         "Steve Hill"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-END-01-04",
     "date_created": "20230625",
     "full_title": "SJ-DC-END-01-04 Echoes in Space",

@@ -4,7 +4,9 @@
         "Brian Collier",
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-KCB-MBL",
     "date_created": "20201206",
     "full_title": "DC-PoA-KCB-MBL - The Stolen Curse",

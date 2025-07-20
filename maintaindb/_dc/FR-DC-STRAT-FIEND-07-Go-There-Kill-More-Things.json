@@ -4,7 +4,9 @@
         "Nguyen Le",
         "Strategicon AL"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-STRAT-FIEND-07",
     "date_created": "20250214",
     "full_title": "FR-DC-STRAT-FIEND-07 Go There & Kill More Things",

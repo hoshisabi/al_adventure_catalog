@@ -3,7 +3,9 @@
     "authors": [
         "Mike Olson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WCAG02-02",
     "date_created": "20250211",
     "full_title": "FR-DC-WCAG02-02 Murder All the Way Down",

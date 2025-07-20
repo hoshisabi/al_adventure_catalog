@@ -4,7 +4,9 @@
         "Jeff C. Stevens",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-25",
     "date_created": "20181107",
     "full_title": "CCC-TRI-25 Dead Men's Treasure (Part Two of the Dead Men Series)",

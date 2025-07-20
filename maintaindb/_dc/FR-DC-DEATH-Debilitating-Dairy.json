@@ -3,7 +3,9 @@
     "authors": [
         "Death 101010"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-DEATH",
     "date_created": "20240628",
     "full_title": "FR-DC-DEATH Debilitating Dairy",

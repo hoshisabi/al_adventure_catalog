@@ -4,7 +4,9 @@
         "Christian Alhaug",
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-CONMAR-03",
     "date_created": "20231230",
     "full_title": "SJ-DC-CONMAR-03 Heart of Shards",

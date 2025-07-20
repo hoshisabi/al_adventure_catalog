@@ -3,7 +3,9 @@
     "authors": [
         "Andrew Bishkinskyi"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-OA-01-01",
     "date_created": "20191212",
     "full_title": "When Mages Fall (CCC-OA-01-01)",

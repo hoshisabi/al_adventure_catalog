@@ -3,7 +3,9 @@
     "authors": [
         "Chris Wilson"
     ],
-    "campaign": "Eberron",
+    "campaigns": [
+        "Eberron"
+    ],
     "code": "EB-DC-COG-01",
     "date_created": "20230221",
     "full_title": "EB-DC-COG-01 Off the Books",

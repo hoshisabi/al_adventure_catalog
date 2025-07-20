@@ -3,7 +3,9 @@
     "authors": [
         "Emily Harmon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FDC-05",
     "date_created": "20210921",
     "full_title": "WBW-DC-FDC-05 Crumbling Castles & Candy Clouds",

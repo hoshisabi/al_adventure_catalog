@@ -4,7 +4,9 @@
         "Baldman Games",
         "Justine Vandermeer"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON11-2",
     "date_created": "20210513",
     "full_title": "CCC-BMG-MOON11-2 A Darkened Court",

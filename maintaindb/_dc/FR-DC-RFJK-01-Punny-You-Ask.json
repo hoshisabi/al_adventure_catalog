@@ -4,7 +4,9 @@
         "Rebecca Farrar",
         "Jeff Kuta"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-RFJK-01",
     "date_created": "20240812",
     "full_title": "FR-DC-RFJK-01 Punny You Ask",

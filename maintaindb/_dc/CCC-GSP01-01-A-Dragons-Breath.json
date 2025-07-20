@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Paul Gabat"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP01-01",
     "date_created": "20181012",
     "full_title": "CCC-GSP01-01 A Dragon's Breath",

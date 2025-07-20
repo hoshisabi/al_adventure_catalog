@@ -4,7 +4,9 @@
         "IGOR FARIA",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-LIGA01",
     "date_created": "20230914",
     "full_title": "SJ-DC-LIGA01 FINAL ASSAULT ON CORNELLIUM",

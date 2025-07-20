@@ -3,7 +3,9 @@
     "authors": [
         "Brian Balagot"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DD-07",
     "date_created": "20230729",
     "full_title": "SJ-DC-DD-07 Sinaya's Song",

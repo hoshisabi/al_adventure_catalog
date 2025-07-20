@@ -3,7 +3,9 @@
     "authors": [
         "Eric Bohm"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-WWC-09",
     "date_created": "20200429",
     "full_title": "CCC-WWC-09 Defenders of Est'Ellma",

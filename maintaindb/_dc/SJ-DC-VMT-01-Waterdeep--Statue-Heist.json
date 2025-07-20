@@ -3,7 +3,9 @@
     "authors": [
         "Mitchell Tee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-VMT-01",
     "date_created": "20230102",
     "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",

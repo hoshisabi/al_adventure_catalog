@@ -3,7 +3,9 @@
     "authors": [
         "Mitchell Tee"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-VAN-MT-01",
     "date_created": "20210629",
     "full_title": "DC-PoA-VAN-MT-01 The Thief's Gambit",

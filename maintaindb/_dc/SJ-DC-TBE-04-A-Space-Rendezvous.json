@@ -3,7 +3,9 @@
     "authors": [
         "Mlouden"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-TBE-04",
     "date_created": "20231231",
     "full_title": "SJ-DC-TBE-04 A Space Rendezvous",

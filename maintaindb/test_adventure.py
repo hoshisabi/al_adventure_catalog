@@ -96,5 +96,15 @@ class TestAdventureExtraction(unittest.TestCase):
         self.assertEqual(get_patt_first_matching_group(r"APL ?(\d+)", text), "5")
         self.assertIsNone(get_patt_first_matching_group(r"NonExistentPattern", text))
 
+    def test_deduce_tier_from_level_range(self):
+        html_content = """
+        <meta name="description" content="A Two-Hour Spelljammer Dungeoncraft Adventure for&nbsp;Level 1-4 Characters. Optimized for&nbsp;Average Party Level&nbsp;(APL) 3.">
+        <div class="alpha omega prod-content">
+        </div>
+        """
+        parsed_html = BeautifulSoup(html_content, 'html.parser')
+        extracted_data = extract_data_from_html(parsed_html, "dummy_id", existing_data={})
+        self.assertEqual(extracted_data['tiers'], 1)
+
 if __name__ == '__main__':
     unittest.main()

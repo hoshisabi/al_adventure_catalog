@@ -4,7 +4,9 @@
         "Karrin Jackson",
         "P\u00f4l Jackson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-KUMORI-03-03",
     "date_created": "20200114",
     "full_title": "CCC-KUMORI-03-03 Scales of Justice: A Moonsea Adventure",

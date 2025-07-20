@@ -4,7 +4,9 @@
         "Strategicon AL",
         "Alexis Paige"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-RWIE-02",
     "date_created": "20240311",
     "full_title": "FR-DC-RWIE-02 Of Books and Men - An Overdue Adventure",

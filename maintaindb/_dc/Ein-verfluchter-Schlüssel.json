@@ -3,7 +3,10 @@
     "authors": [
         "Stefan Tomaschitz"
     ],
-    "campaign": ["Ravenloft", "Forgotten Realms"],
+    "campaigns": [
+        "Ravenloft",
+        "Forgotten Realms"
+    ],
     "code": "RV-DC-SDG-01",
     "date_created": "20240301",
     "full_title": "Ein verfluchter Schl\u00fcssel",

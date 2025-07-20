@@ -3,7 +3,9 @@
     "authors": [
         "Alan Patrick"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-MORD-05",
     "date_created": "20180912",
     "full_title": "Escape from Wheloon",

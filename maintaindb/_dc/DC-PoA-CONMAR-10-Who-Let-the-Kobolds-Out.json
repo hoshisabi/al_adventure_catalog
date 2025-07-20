@@ -4,7 +4,9 @@
         "Casper Akto Kanstrup",
         "Martin Akto Kanstrup"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-10",
     "date_created": "20210830",
     "full_title": "DC-PoA-CONMAR-10 Who Let the Kobolds Out?",

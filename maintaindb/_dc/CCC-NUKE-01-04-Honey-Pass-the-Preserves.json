@@ -3,7 +3,9 @@
     "authors": [
         "Travis Fuller"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-NUKE-01-04",
     "date_created": "20191106",
     "full_title": "CCC-NUKE-01-04 Honey Pass the Preserves",

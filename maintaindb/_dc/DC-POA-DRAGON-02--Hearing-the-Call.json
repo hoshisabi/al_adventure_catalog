@@ -4,7 +4,9 @@
         "TEDDY BENSON",
         "THOMAS VALLEY"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DRAGON-02-",
     "date_created": "20210830",
     "full_title": "DC-POA-DRAGON-02: Hearing the Call",

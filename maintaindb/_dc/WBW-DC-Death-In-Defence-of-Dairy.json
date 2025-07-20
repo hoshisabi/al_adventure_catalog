@@ -3,7 +3,9 @@
     "authors": [
         "Death 101010"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DEATH",
     "date_created": "20220831",
     "full_title": "WBW-DC-Death In Defence of Dairy",

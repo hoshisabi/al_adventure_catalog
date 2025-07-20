@@ -3,7 +3,9 @@
     "authors": [
         "Bryan Mets"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-UCON24",
     "date_created": "20241115",
     "full_title": "FR-DC-UCON24 The Icarus Connection",

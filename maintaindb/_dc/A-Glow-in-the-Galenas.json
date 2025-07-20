@@ -4,7 +4,9 @@
         "Sean Payne",
         "MOGC"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-ALMOG-24",
     "date_created": "20191122",
     "full_title": "A Glow in the Galenas",

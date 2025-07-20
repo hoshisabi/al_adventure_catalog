@@ -3,7 +3,9 @@
     "authors": [
         "Lance Tan"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-EPI01-02",
     "date_created": "20200803",
     "full_title": "CCC-EPI01-02 Hordes of Thar: The Bloody Crescent",

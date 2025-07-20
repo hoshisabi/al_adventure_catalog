@@ -3,7 +3,9 @@
     "authors": [
         "Adrian Francisco"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-DCAF04",
     "date_created": "20210516",
     "full_title": "DC-PoA-DCAF04 A Macabre Nightal [FGU Mod]",

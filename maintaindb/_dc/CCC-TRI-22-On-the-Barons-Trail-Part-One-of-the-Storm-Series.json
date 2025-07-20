@@ -4,7 +4,9 @@
         "Adam Scaramella",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-22",
     "date_created": "20190531",
     "full_title": "CCC-TRI-22 On the Baron's Trail (Part One of the Storm Series)",

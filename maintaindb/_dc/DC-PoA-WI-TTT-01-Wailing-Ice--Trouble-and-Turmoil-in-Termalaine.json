@@ -3,7 +3,9 @@
     "authors": [
         "Grahame Luck"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-WI-TTT-01",
     "date_created": "20210301",
     "full_title": "DC-PoA-WI-TTT-01 Wailing Ice: Trouble and Turmoil in Termalaine",

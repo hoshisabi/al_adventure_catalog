@@ -4,7 +4,9 @@
         "Teos Abadia",
         "Eric Menge"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20171031",
     "full_title": "Jungle Treks",

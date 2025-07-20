@@ -3,15 +3,19 @@
     "authors": [
         "Jon Christian"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "BMG-DL-VOTU-01",
     "date_created": "20230822",
     "full_title": "BMG-DL-VOTU-01 Dragons of Revelation",
     "hours": "4",
     "is_adventure": true,
     "level_range": "2",
-    "product_id": "BMG-DL-VOTU-01-Dragons-of-Revelation",
+    "price": 9.99,
+    "product_id": "450331",
+    "season": null,
     "tiers": null,
     "title": "BMG-DL-VOTU-01 Dragons of Revelation",
-    "url": "https://www.dmsguild.com/product/450331/BMGDLVOTU01-Dragons-of-Revelation?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/450331/?affiliate_id=171040"
 }

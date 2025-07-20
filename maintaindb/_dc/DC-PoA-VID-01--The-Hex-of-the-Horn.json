@@ -3,7 +3,9 @@
     "authors": [
         "vid Strickland"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-VID-01-",
     "date_created": "20210809",
     "full_title": "DC-PoA-VID-01: The Hex of the Horn",

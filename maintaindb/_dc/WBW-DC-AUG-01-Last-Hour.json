@@ -4,7 +4,9 @@
         "Johnny Smith",
         "Triden Games"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-AUG-01",
     "date_created": "20220823",
     "full_title": "WBW-DC-AUG-01 Last Hour",

@@ -4,7 +4,9 @@
         "Dev Alva",
         "Nguyen Le"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-MAR-01",
     "date_created": "20240712",
     "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",

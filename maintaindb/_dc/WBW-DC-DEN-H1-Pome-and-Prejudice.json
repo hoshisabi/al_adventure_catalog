@@ -3,7 +3,9 @@
     "authors": [
         "Dennis R Hall"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-DEN-H1",
     "date_created": "20220827",
     "full_title": "WBW-DC-DEN-H1 Pome and Prejudice",

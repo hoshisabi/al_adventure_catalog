@@ -4,7 +4,9 @@
         "Joe Alfano",
         "Thomas Valley"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY-05-",
     "date_created": "20180329",
     "full_title": "CCC-GARY-05: The Shadows of the Trees",

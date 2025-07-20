@@ -3,7 +3,9 @@
     "authors": [
         "Joshua Toulouse"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-JAT-03",
     "date_created": "20210815",
     "full_title": "DC-POA-JAT-03 Two Kobolds in a Trench Coat - Kobold Craziness part 3",

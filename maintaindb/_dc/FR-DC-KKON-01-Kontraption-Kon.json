@@ -3,7 +3,9 @@
     "authors": [
         "Bredyn McCombs"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-KKON-01",
     "date_created": "20250604",
     "full_title": "FR-DC-KKON-01 Kontraption Kon",

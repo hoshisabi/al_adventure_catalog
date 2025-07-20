@@ -1,7 +1,9 @@
 {
     "apl": 7,
     "authors": [],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20230613",
     "full_title": "The North Bay Dungeon Day Collection [BUNDLE]",

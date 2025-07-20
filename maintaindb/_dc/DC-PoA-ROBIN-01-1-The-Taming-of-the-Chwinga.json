@@ -3,7 +3,9 @@
     "authors": [
         "Jaime Hernandez IV"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA",
     "date_created": "20210831",
     "full_title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",

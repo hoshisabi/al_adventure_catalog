@@ -5,7 +5,9 @@
         "Ed Greenwood",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-09",
     "date_created": "20171204",
     "full_title": "CCC-GHC-09 - Swamp Of Death",

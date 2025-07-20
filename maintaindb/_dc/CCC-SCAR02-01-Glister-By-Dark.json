@@ -3,7 +3,9 @@
     "authors": [
         "Phil Allison"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SCAR02-01",
     "date_created": "20190318",
     "full_title": "CCC-SCAR02-01 Glister By Dark",

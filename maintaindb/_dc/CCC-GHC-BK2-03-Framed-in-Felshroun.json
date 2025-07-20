@@ -4,7 +4,9 @@
         "Paige Leitman",
         "Gamehole Con"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GHC-BK2-03",
     "date_created": "20200511",
     "full_title": "CCC-GHC-BK2-03 Framed in Felshroun",

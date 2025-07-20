@@ -3,7 +3,9 @@
     "authors": [
         "Robby Jones"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DWB-ACM-1",
     "date_created": "20201229",
     "full_title": "CCC-DWB-ACM-1 A Colossal Mess",

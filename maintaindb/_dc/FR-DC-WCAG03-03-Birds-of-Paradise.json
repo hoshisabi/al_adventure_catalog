@@ -4,7 +4,9 @@
         "S. Nathan Depetris",
         "Marc Kassouf"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-WCAG03-03",
     "date_created": "20250401",
     "full_title": "FR-DC-WCAG03-03 Birds of Paradise",

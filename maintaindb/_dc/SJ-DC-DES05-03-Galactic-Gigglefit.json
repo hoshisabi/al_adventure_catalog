@@ -3,7 +3,9 @@
     "authors": [
         "Aaron Saucedo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "SJ-DC-DES05-03",
     "date_created": "20230830",
     "full_title": "SJ-DC-DES05-03 Galactic Gigglefit",

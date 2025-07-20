@@ -4,7 +4,9 @@
         "Thomas Valley",
         "Luke Gygax"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GARY01-03-",
     "date_created": "20170414",
     "full_title": "CCC-GARY01-03: The Gary Con 2017 Story Arc",

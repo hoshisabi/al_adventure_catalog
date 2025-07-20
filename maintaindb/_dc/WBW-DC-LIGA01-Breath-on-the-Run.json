@@ -4,7 +4,9 @@
         "Lu\u00eds Ricardo",
         "Patr\u00edcia Brito"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-LIGA01",
     "date_created": "20220830",
     "full_title": "WBW-DC-LIGA01 - Breath on the Run",

@@ -4,7 +4,9 @@
         "Nguyen Le",
         "Strategicon AL"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-STRAT-DRAGON-03",
     "date_created": "20240830",
     "full_title": "PS-DC-STRAT-DRAGON-03 This One is for the Liches",

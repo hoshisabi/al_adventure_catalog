@@ -4,7 +4,9 @@
         "Jamie Flecknoe",
         "Jay H. Anderson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GARYXIII-02",
     "date_created": "20210325",
     "full_title": "DC-PoA-GaryXIII-02 A New Place to Call Home",

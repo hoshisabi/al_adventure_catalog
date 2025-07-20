@@ -4,7 +4,9 @@
         "DMGMorais",
         "Liga dos Aventureiros"
     ],
-    "campaign": "Dragonlance",
+    "campaigns": [
+        "Dragonlance"
+    ],
     "code": "DL-DC-LIGA02",
     "date_created": "20240919",
     "full_title": "DL-DC-LIGA02 - Wickedness over Dargaard",

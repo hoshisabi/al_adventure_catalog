@@ -3,7 +3,9 @@
     "authors": [
         "Martine Lassen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-CONMAR-13",
     "date_created": "20210830",
     "full_title": "DC-PoA-CONMAR-13 Finding Harthin",

@@ -3,7 +3,9 @@
     "authors": [
         "Sylvester Mejias"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-NN01-01",
     "date_created": "20210213",
     "full_title": "DC-PoA-NN01-01 Where Are Yew",

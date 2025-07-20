@@ -3,7 +3,9 @@
     "authors": [
         "Eric Nelson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-TID-01",
     "date_created": "20220313",
     "full_title": "WBW-DC-TID-01 Witchlight Insecurity",

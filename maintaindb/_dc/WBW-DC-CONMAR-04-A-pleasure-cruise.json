@@ -3,7 +3,9 @@
     "authors": [
         "Karianne Fog Heen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-CONMAR-04",
     "date_created": "20211201",
     "full_title": "WBW-DC-CONMAR-04 A pleasure cruise",

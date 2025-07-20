@@ -4,7 +4,9 @@
         "Greasy Snitches",
         "Nicholas Cavada-Guillermo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-GSP-OOZE01-01-OOZING-HUNGER",
     "date_created": "20190820",
     "full_title": "CCC-GSP-OOZE01-01-Oozing-Hunger",

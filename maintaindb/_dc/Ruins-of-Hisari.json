@@ -4,7 +4,9 @@
         "Lysa Chen",
         "Ruty Rutenberg"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DDHC-TOA-10",
     "date_created": "20170908",
     "full_title": "Ruins of Hisari",

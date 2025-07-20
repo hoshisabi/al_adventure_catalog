@@ -5,7 +5,9 @@
         "Paul Gabat",
         "Kristoff Alejo"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "DC-POA-GSP02-02H",
     "date_created": "20210130",
     "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",

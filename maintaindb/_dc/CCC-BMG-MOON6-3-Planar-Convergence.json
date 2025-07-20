@@ -4,7 +4,9 @@
         "Baldman Games",
         "Emily Harmon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-BMG-MOON6-3",
     "date_created": "20200504",
     "full_title": "CCC-BMG-MOON6-3 Planar Convergence",

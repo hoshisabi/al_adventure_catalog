@@ -4,7 +4,9 @@
         "Peter Harris",
         "The Role Initiative"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-TRI-16",
     "date_created": "20180917",
     "full_title": "CCC-TRI-16 Ph'theev, the Despondent (Part One of the Psionic Menace Series)",

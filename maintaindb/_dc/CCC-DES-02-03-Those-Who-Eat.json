@@ -4,7 +4,9 @@
         "Fenway Jones",
         "Jonathan Connor Self"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-DES-02-03",
     "date_created": "20200420",
     "full_title": "CCC-DES-02-03 Those Who Eat",

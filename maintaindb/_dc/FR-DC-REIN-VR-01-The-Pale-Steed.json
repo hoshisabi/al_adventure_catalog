@@ -3,7 +3,9 @@
     "authors": [
         "Von Ryan Maicle"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-REIN-VR-01",
     "date_created": "20250717",
     "full_title": "FR-DC-REIN-VR-01 The Pale Steed",

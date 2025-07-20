@@ -3,7 +3,9 @@
     "authors": [
         "Sean Ware"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "PS-DC-BINGO-2",
     "date_created": "20240708",
     "full_title": "PS-DC-BINGO-2 Esse Est Percipi",

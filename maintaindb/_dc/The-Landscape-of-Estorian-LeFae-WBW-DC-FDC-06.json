@@ -3,7 +3,9 @@
     "authors": [
         "Gabe Hicks"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-FDC-06",
     "date_created": "20210921",
     "full_title": "The Landscape of Estorian LeFae WBW-DC-FDC-06",

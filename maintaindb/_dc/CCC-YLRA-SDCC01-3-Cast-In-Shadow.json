@@ -3,7 +3,9 @@
     "authors": [
         "Mike Olson"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-YLRA-SDCC01-3",
     "date_created": "20200504",
     "full_title": "CCC-YLRA-SDCC01-3 Cast In Shadow",

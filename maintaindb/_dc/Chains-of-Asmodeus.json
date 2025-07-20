@@ -3,7 +3,9 @@
     "authors": [
         "Wizards of the Coast"
     ],
-    "campaign": null,
+    "campaigns": [
+        null
+    ],
     "code": null,
     "date_created": "20231030",
     "full_title": "Chains of Asmodeus",

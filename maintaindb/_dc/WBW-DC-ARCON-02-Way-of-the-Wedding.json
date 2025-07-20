@@ -3,7 +3,9 @@
     "authors": [
         "Daniel Ellingsen"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-ARCON-02",
     "date_created": "20220617",
     "full_title": "WBW-DC-ARCON-02 Way of the Wedding",

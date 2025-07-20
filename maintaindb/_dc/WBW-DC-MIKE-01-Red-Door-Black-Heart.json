@@ -3,7 +3,9 @@
     "authors": [
         "Mike Arrow"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "WBW-DC-MIKE-01",
     "date_created": "20220608",
     "full_title": "WBW-DC-MIKE-01 Red Door, Black Heart",

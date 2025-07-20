@@ -4,7 +4,9 @@
         "Erik Tukey",
         "Trevor Campbell"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-FAD-01",
     "date_created": "20200603",
     "full_title": "CCC-FAD-01 Out The Back",

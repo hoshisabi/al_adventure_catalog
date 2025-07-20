@@ -3,7 +3,9 @@
     "authors": [
         "Emily Harmon"
     ],
-    "campaign": "Forgotten Realms",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-SQC-003-01",
     "date_created": "20191212",
     "full_title": "CCC-SQC-003-01 Consumption",
