@@ -11,10 +11,12 @@
     "date_created": "20191122",
     "full_title": "A Glow in the Galenas",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "1-4",
-    "product_id": 284788,
+    "price": 4.95,
+    "product_id": "284788",
+    "season": null,
     "tiers": 1,
     "title": "A Glow in the Galenas",
-    "url": "https://www.dmsguild.com/product/284788?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/284788/?affiliate_id=171040"
 }

@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "James Introcaso"
+    ],
     "campaigns": [
         null
     ],
@@ -12,7 +14,8 @@
     "level_range": null,
     "price": null,
     "product_id": "294570",
+    "season": null,
     "tiers": null,
     "title": "Abyssal Incursion",
-    "url": "https://www.dmsguild.com/product/294570/Abyssal-Incursion?filters=45680_0_45393_0_45356_0_0_0"
+    "url": "https://www.dmsguild.com/product/294570/?affiliate_id=171040"
 }

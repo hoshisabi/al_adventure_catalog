@@ -5,7 +5,9 @@
             "Greasy Snitches",
             "Paul Gabat"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP01-01",
         "date_created": "20201206",
         "full_title": "A Wolf's Whisper (DC-PoA-GSP01-01)",
@@ -25,25 +27,9 @@
             "Greasy Snitches",
             "Paul Gabat"
         ],
-        "campaigns": [],
-        "code": "DC-POA-GSP01-01",
-        "date_created": "20201206",
-        "full_title": "A Wolf's Whisper (DC-PoA-GSP01-01)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "A-Wolfs-Whisper-DC-PoA-GSP01-01",
-        "tiers": null,
-        "title": "A Wolf's Whisper DC-PoA-GSP01-01",
-        "url": "https://www.dmsguild.com/product/338570/A-Wolfs-Whisper-DCPoAGSP0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Greasy Snitches",
-            "Paul Gabat"
+        "campaigns": [
+            "Forgotten Realms"
         ],
-        "campaigns": [],
         "code": "DC-POA-GSP01-02",
         "date_created": "20210222",
         "full_title": "Crypt of the Mind Flayers (DC-PoA-GSP01-02)",
@@ -51,7 +37,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Crypt-of-the-Mind-Flayers-DC-PoA-GSP01-02",
-        "tiers": null,
+        "tiers": 0,
         "title": "Crypt of the Mind Flayers DC-PoA-GSP01-02",
         "url": "https://www.dmsguild.com/product/347893/Crypt-of-the-Mind-Flayers-DCPoAGSP0102?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -60,7 +46,9 @@
         "authors": [
             "Antoine Deligne"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20201222",
         "full_title": "DC-PoA \"A Dragon Heart\"",
@@ -77,7 +65,9 @@
         "authors": [
             "Alexander Klement"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-AMAK01",
         "date_created": "20210830",
         "full_title": "DC-PoA-AMAK01 My Loneliness is Killing You",
@@ -94,7 +84,9 @@
         "authors": [
             "Adrian Odin Tawney"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20201230",
         "full_title": "DC-POA AOT01-01 Counteroffer",
@@ -111,7 +103,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CBB-01",
         "date_created": "20210103",
         "full_title": "DC-POA-CBB-01 : Twirling Towards Oblivion",
@@ -129,7 +123,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CBB-02",
         "date_created": "20210211",
         "full_title": "DC-PoA-CBB-02 : Avarice Everlasting",
@@ -147,7 +143,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CBB-03",
         "date_created": "20210310",
         "full_title": "DC-PoA-CBB-03 : The Menagerie of Count Zapharry",
@@ -165,7 +163,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CBB-04",
         "date_created": "20210512",
         "full_title": "DC-POA-CBB-04 : Cossum's Universal Constructs",
@@ -183,7 +183,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CBB-05",
         "date_created": "20210625",
         "full_title": "DC-PoA-CBB-05 Menace At The Strandwolf Peaks",
@@ -201,7 +203,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CBB-06",
         "date_created": "20210807",
         "full_title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",
@@ -219,7 +223,9 @@
         "authors": [
             "Chironjeev Kanjilal"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CJK",
         "date_created": "20210901",
         "full_title": "DC-PoA-CJK Gnome Place Like Home: Adventures in Icewind Dalecare",
@@ -234,7 +240,9 @@
     {
         "apl": 8,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CJK",
         "date_created": "20210901",
         "full_title": "DC-PoA-CJK Gnome Place Like Home: Adventures in Icewind Dalecare",
@@ -249,7 +257,9 @@
     {
         "apl": 3,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CODEX-01",
         "date_created": "20211210",
         "full_title": "DC-POA-CODEX-01 Bear the Lode (Fantasy Grounds)",
@@ -267,7 +277,9 @@
             "Darryl Ho",
             "Jason Koh"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CODEX-01",
         "date_created": "20210228",
         "full_title": "DC-POA-CODEX-01 Bear the Lode",
@@ -285,7 +297,9 @@
             "Darryl Ho",
             "Jason Koh"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CODEX-02",
         "date_created": "20210529",
         "full_title": "DC-POA-CODEX-02 Bear in Mind",
@@ -300,7 +314,9 @@
     {
         "apl": 8,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CODEX-03",
         "date_created": "20220126",
         "full_title": "DC-POA-CODEX-03 Bring to Bear (Fantasy Grounds)",
@@ -318,7 +334,9 @@
             "Darryl Ho",
             "Jason Koh"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CODEX-03",
         "date_created": "20210829",
         "full_title": "DC-POA-CODEX-03 Bring to Bear",
@@ -335,15 +353,17 @@
         "authors": [
             "Antoine Deligne"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20201222",
         "full_title": "DC-PoA \"Coeur de Dragon\"",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-Coeur-de-Dragon",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA \"Coeur de Dragon\"",
         "url": "https://www.dmsguild.com/product/340884/DCPoA-Coeur-de-Dragon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -352,7 +372,9 @@
         "authors": [
             "Casper Kirketerp-Helenius"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-01",
         "date_created": "20210108",
         "full_title": "DC-PoA-CONMAR-01 Something Sinister",
@@ -369,7 +391,9 @@
         "authors": [
             "Casper Kirketerp-Helenius"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-02",
         "date_created": "20210818",
         "full_title": "DC-PoA-CONMAR-02 Put That Thing Right Back",
@@ -387,7 +411,9 @@
             "Espen Alme Ellingsen",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-03",
         "date_created": "20210222",
         "full_title": "DC-PoA-CONMAR-03 - Unfrozen",
@@ -405,7 +431,9 @@
             "Jon Emil Sletaker",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-04",
         "date_created": "20201213",
         "full_title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
@@ -413,7 +441,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-CONMAR-04---Midwinter-Celebrations",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
         "url": "https://www.dmsguild.com/product/339808/DCPoACONMAR04--Midwinter-Celebrations?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -422,7 +450,9 @@
         "authors": [
             "Amie Potter"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-05",
         "date_created": "20210731",
         "full_title": "DC-PoA-CONMAR-05 Need An Exscissorcism?",
@@ -440,7 +470,9 @@
             "Sandra Hovland",
             "Konstantin Breen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-06",
         "date_created": "20210828",
         "full_title": "DC-PoA-CONMAR-06 The Codmothers",
@@ -458,7 +490,9 @@
             "Casper Akto Kanstrup",
             "Martin Akto Kanstrup"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-07",
         "date_created": "20210505",
         "full_title": "DC-PoA-CONMAR-07 Counting Kobolds",
@@ -475,7 +509,9 @@
         "authors": [
             "Adam Gooding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-08",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-08 The Importance of Being Idol",
@@ -493,7 +529,9 @@
             "Casper Akto Kanstrup",
             "Martin Akto Kanstrup"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-09",
         "date_created": "20210811",
         "full_title": "DC-PoA-CONMAR-09 That's a lot of Kobolds",
@@ -511,7 +549,9 @@
             "Casper Akto Kanstrup",
             "Martin Akto Kanstrup"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-10",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-10 Who Let the Kobolds Out?",
@@ -528,7 +568,9 @@
         "authors": [
             "Christian Alhaug"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-11",
         "date_created": "20210831",
         "full_title": "DC-PoA-CONMAR-11 The Dragonship Approaches",
@@ -545,7 +587,9 @@
         "authors": [
             "Anna Grading"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-12",
         "date_created": "20210828",
         "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skr\u00e5llahie",
@@ -562,7 +606,9 @@
         "authors": [
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-13",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-13 Finding Harthin",
@@ -579,7 +625,9 @@
         "authors": [
             "Daniel Ellingsen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-14",
         "date_created": "20210817",
         "full_title": "DC-PoA-CONMAR-14 Seal Team Sticks",
@@ -597,7 +645,9 @@
             "Jon Emil Sletaker",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-15",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-15 A Grim Tale at Winter Solstice",
@@ -615,7 +665,9 @@
             "Daniel Ellingsen",
             "Jon Emil Sletaker"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-16",
         "date_created": "20210826",
         "full_title": "DC-PoA-CONMAR-16 Iceberg Dead Ahead",
@@ -633,7 +685,9 @@
             "Espen Alme Ellingsen",
             "Amie Potter"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-17",
         "date_created": "20210830",
         "full_title": "DC-POA-CONMAR-17 Unrelenting",
@@ -650,7 +704,9 @@
         "authors": [
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-18",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-18 The Nightshade Sinners",
@@ -668,11 +724,13 @@
             "Anna Grading",
             "Karianne Fog Heen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR-19",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-19 Wherever I May Float",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-CONMAR-19-Wherever-I-May-Float",
@@ -685,15 +743,17 @@
         "authors": [
             "Martine Brandt Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR",
         "date_created": "20210831",
         "full_title": "DC-PoA-CONMAR Play Order",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-CONMAR-Play-Order",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-CONMAR Play Order",
         "url": "https://www.dmsguild.com/product/369438/DCPoACONMAR-Play-Order?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -702,7 +762,9 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CONMAR21",
         "date_created": "20210809",
         "full_title": "DC-PoA-CONMAR21 For My People",
@@ -719,7 +781,9 @@
         "authors": [
             "Rory Dennison"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-COULEE21-01",
         "date_created": "20210830",
         "full_title": "DC-POA-Coulee21-01 The Frozen Snipe",
@@ -736,7 +800,9 @@
         "authors": [
             "Brand McMann"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-COULEE21-02",
         "date_created": "20210830",
         "full_title": "DC-POA-Coulee21-02 Driven Like the Snow",
@@ -753,7 +819,9 @@
         "authors": [
             "Ed Stoltman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-COULEE21-03",
         "date_created": "20210830",
         "full_title": "DC-POA-Coulee21-03 Beasts of Burden",
@@ -770,7 +838,9 @@
         "authors": [
             "Doug Seipel"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-COULEE21-04",
         "date_created": "20210830",
         "full_title": "DC-POA-Coulee21-04 A Snipe in the Hand Is Worth Two Headaches",
@@ -788,7 +858,9 @@
             "Ethan Stanhope",
             "Te\u00e4n Stanhope"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CTH1",
         "date_created": "20210212",
         "full_title": "DC-PoA-CTH1 Roused by Raiders",
@@ -806,7 +878,9 @@
             "Ethan Stanhope",
             "Te\u00e4n Stanhope"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CTH2",
         "date_created": "20210827",
         "full_title": "DC-PoA-CTH2 Searching for a Shorebird",
@@ -823,7 +897,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF01",
         "date_created": "20201117",
         "full_title": "DC-PoA-DCAF01 Let It Goat",
@@ -831,7 +907,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF01-Let-It-Goat",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF01 Let It Goat",
         "url": "https://www.dmsguild.com/product/336410/DCPoADCAF01-Let-It-Goat?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -840,7 +916,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF03",
         "date_created": "20201127",
         "full_title": "DC-PoA-DCAF03 Sputtering Out",
@@ -848,7 +926,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF03-Sputtering-Out",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF03 Sputtering Out",
         "url": "https://www.dmsguild.com/product/337518/DCPoADCAF03-Sputtering-Out?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -857,7 +935,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF04",
         "date_created": "20210516",
         "full_title": "DC-PoA-DCAF04 A Macabre Nightal [FGU Mod]",
@@ -865,7 +945,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF04-A-Macabre-Nightal-FGU-Mod",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF04 A Macabre Nightal [FGU Mod]",
         "url": "https://www.dmsguild.com/product/357847/DCPoADCAF04-A-Macabre-Nightal-FGU-Mod?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -874,7 +954,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF04",
         "date_created": "20210119",
         "full_title": "DC-PoA-DCAF04 A Macabre Nightal",
@@ -882,7 +964,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF04-A-Macabre-Nightal",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF04 A Macabre Nightal",
         "url": "https://www.dmsguild.com/product/343197/DCPoADCAF04-A-Macabre-Nightal?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -891,7 +973,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF05",
         "date_created": "20201207",
         "full_title": "DC-PoA-DCAF05 Head In The Clouds",
@@ -899,7 +983,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF05-Head-In-The-Clouds",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF05 Head In The Clouds",
         "url": "https://www.dmsguild.com/product/338801/DCPoADCAF05-Head-In-The-Clouds?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -908,7 +992,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF06",
         "date_created": "20210110",
         "full_title": "Dc-PoA-DCAF06 A Front On Frost",
@@ -916,7 +1002,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Dc-PoA-DCAF06-A-Front-On-Frost",
-        "tiers": null,
+        "tiers": 0,
         "title": "Dc-PoA-DCAF06 A Front On Frost",
         "url": "https://www.dmsguild.com/product/342961/DcPoADCAF06-A-Front-On-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -925,15 +1011,17 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF07",
         "date_created": "20210203",
         "full_title": "DC-PoA-DCAF07 I'm In Your Arms",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF07-Im-In-Your-Arms",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF07 I'm In Your Arms",
         "url": "https://www.dmsguild.com/product/345460/DCPoADCAF07-Im-In-Your-Arms?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -942,7 +1030,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF08",
         "date_created": "20210301",
         "full_title": "DC-PoA-DCAF08 The Big Ticket",
@@ -950,7 +1040,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-DCAF08-The-Big-Ticket",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-DCAF08 The Big Ticket",
         "url": "https://www.dmsguild.com/product/348723/DCPoADCAF08-The-Big-Ticket?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -959,7 +1049,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF09",
         "date_created": "20210323",
         "full_title": "DC-PoA-DCAF09 An Ascent to Recall",
@@ -976,7 +1068,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF10",
         "date_created": "20210615",
         "full_title": "DC-PoA-DCAF10 The Lute Run",
@@ -993,7 +1087,9 @@
         "authors": [
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAF11",
         "date_created": "20210805",
         "full_title": "DC-PoA-DCAF11 Icing a Song",
@@ -1011,7 +1107,9 @@
             "Claire Gellner",
             "Adrian Francisco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DCAFCG01",
         "date_created": "20210825",
         "full_title": "DC-PoA-DCAFCG01 Catastrophe Caravan",
@@ -1028,7 +1126,9 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20211007",
         "full_title": "DC-PoA DES-05A \"Land of Ice and Snow\"",
@@ -1046,7 +1146,9 @@
             "Ian Gopal Gould",
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20211007",
         "full_title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
@@ -1064,7 +1166,9 @@
             "Elizabeth Banerjee",
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20211007",
         "full_title": "DC-PoA DES-05C \"We Calmed the Tides of War\"",
@@ -1081,7 +1185,9 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20211007",
         "full_title": "DC-PoA DES-05D \"Rebuild All Your Ruins\"",
@@ -1098,7 +1204,9 @@
         "authors": [
             "Douglas Bushong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DOBU-01-01",
         "date_created": "20210831",
         "full_title": "DC-POA-DOBU-01-01, Beneath a Stony Stump",
@@ -1116,7 +1224,9 @@
             "THOMAS VALLEY",
             "TEDDY BENSON"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DRAGON-01-",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-01: Adventures in Babysitting",
@@ -1134,7 +1244,9 @@
             "TEDDY BENSON",
             "THOMAS VALLEY"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DRAGON-02-",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-02: Hearing the Call",
@@ -1149,7 +1261,9 @@
     {
         "apl": 7,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DRAGON-02-",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-02: Hearing the Call",
@@ -1167,7 +1281,9 @@
             "TEDDY BENSON",
             "THOMAS VALLEY"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DRAGON-03-",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
@@ -1182,7 +1298,9 @@
     {
         "apl": 7,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DRAGON-03-",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
@@ -1199,7 +1317,9 @@
         "authors": [
             "A.K. Duck"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-DUCKS-OS-02-ARE",
         "date_created": "20210101",
         "full_title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
@@ -1216,15 +1336,17 @@
         "authors": [
             "PT MacKim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-EBAL-TT1",
         "date_created": "20210731",
         "full_title": "DC-POA-EBAL-TT1 Bru in Trouble",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-EBAL-TT1-Bru-in-Trouble",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-EBAL-TT1 Bru in Trouble",
         "url": "https://www.dmsguild.com/product/366166/DCPOAEBALTT1-Bru-in-Trouble?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1233,15 +1355,17 @@
         "authors": [
             "Ethan Henry"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-EH-1",
         "date_created": "20210830",
         "full_title": "DC-PoA-EH-1 Horsing Around",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-EH-1-Horsing-Around",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-EH-1 Horsing Around",
         "url": "https://www.dmsguild.com/product/369345/DCPoAEH1-Horsing-Around?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1251,11 +1375,13 @@
             "Erin Abele",
             "Kyle Fish"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-EK-WC01",
         "date_created": "20210313",
         "full_title": "DC-PoA-EK-WC01 Wilderness Childcare",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-EK-WC01-Wilderness-Childcare",
@@ -1268,7 +1394,9 @@
         "authors": [
             "Endhy Pino"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-EPO-1",
         "date_created": "20210425",
         "full_title": "DC-PoA-EPO-1 A Garden in the North",
@@ -1285,7 +1413,9 @@
         "authors": [
             "Endhy Pino"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-EPO-2",
         "date_created": "20210706",
         "full_title": "DC-PoA-EPO-2 The Lighthouse of Graybill",
@@ -1303,7 +1433,9 @@
             "Ayanna Jones-Lightsy",
             "Cedric Jones"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GARYXIII-01",
         "date_created": "20210325",
         "full_title": "DC-PoA-GaryXIII-01 Little Feet, Cold Nights",
@@ -1321,7 +1453,9 @@
             "Jamie Flecknoe",
             "Jay H. Anderson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GARYXIII-02",
         "date_created": "20210325",
         "full_title": "DC-PoA-GaryXIII-02 A New Place to Call Home",
@@ -1338,7 +1472,9 @@
         "authors": [
             "Maxine Henry"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GARYXIII-03",
         "date_created": "20210325",
         "full_title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
@@ -1356,7 +1492,9 @@
             "Fenway Jones",
             "Emily Harmon"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GARYXIII-04",
         "date_created": "20210325",
         "full_title": "DC-PoA-GaryXIII-04 As Above, So Below",
@@ -1373,7 +1511,9 @@
         "authors": [
             "Emily Harmon"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GARYXIII-05",
         "date_created": "20210325",
         "full_title": "DC-PoA-GaryXIII-05 Shard of Hope",
@@ -1391,11 +1531,13 @@
             "Addy Tortosa",
             "Big Mike"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-HAG-SF4",
         "date_created": "20210314",
         "full_title": "DC-PoA-HAG-SF4 Failing You",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-HAG-SF4-Failing-You",
@@ -1409,7 +1551,9 @@
             "David Harmon",
             "Emily Harmon"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-HARM-01-01",
         "date_created": "20210102",
         "full_title": "DC-PoA-HARM-01-01 First Time for Everything",
@@ -1427,7 +1571,9 @@
             "David Harmon",
             "Emily Harmon"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-HARM-01-02",
         "date_created": "20210220",
         "full_title": "DC-PoA-HARM-01-02 Time Flies When You\u2019re Delving Dungeons",
@@ -1445,7 +1591,9 @@
             "David Harmon",
             "Emily Harmon"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-HARM-01-03",
         "date_created": "20210831",
         "full_title": "DC-PoA-HARM-01-03 Killing Time",
@@ -1462,15 +1610,17 @@
         "authors": [
             "Alec Shaner"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-INAS-01",
         "date_created": "20210729",
         "full_title": "DC-PoA-INAS-01 Beauty and the Mead",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "DC-PoA-INAS-01-Beauty-and-the-Mead",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-INAS-01 Beauty and the Mead",
         "url": "https://www.dmsguild.com/product/365996/DCPoAINAS01-Beauty-and-the-Mead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1479,15 +1629,17 @@
         "authors": [
             "Alec Shaner"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-INAS-02",
         "date_created": "20210831",
         "full_title": "DC-PoA-INAS-02 Left Behind",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-INAS-02-Left-Behind",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-INAS-02 Left Behind",
         "url": "https://www.dmsguild.com/product/369397/DCPoAINAS02-Left-Behind?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1496,7 +1648,9 @@
         "authors": [
             "Gregory Harris"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-INGH-01",
         "date_created": "20210110",
         "full_title": "DC-POA-INGH-01 A Hot Time in the Cold Town Tonight",
@@ -1513,7 +1667,9 @@
         "authors": [
             "Joshua Toulouse"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-JAT-01",
         "date_created": "20210725",
         "full_title": "DC-POA-JAT-01 Ice to Mead You - Kobold Craziness part 1",
@@ -1530,7 +1686,9 @@
         "authors": [
             "Joshua Toulouse"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-JAT-02",
         "date_created": "20210801",
         "full_title": "DC-POA-JAT-02 More Than a Stealing - Kobold Craziness part 2",
@@ -1547,7 +1705,9 @@
         "authors": [
             "Joshua Toulouse"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-JAT-03",
         "date_created": "20210815",
         "full_title": "DC-POA-JAT-03 Two Kobolds in a Trench Coat - Kobold Craziness part 3",
@@ -1564,7 +1724,9 @@
         "authors": [
             "Joshua Toulouse"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-JAT-04",
         "date_created": "20210826",
         "full_title": "DC-POA-JAT-04 The Enemy Mine - Kobold Craziness part 4",
@@ -1583,7 +1745,9 @@
             "Ma'at Crook",
             "Chris Maxwell"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-JGD-05",
         "date_created": "20210414",
         "full_title": "DC-PoA-JGD-05 Shadows Under Ice",
@@ -1600,15 +1764,17 @@
         "authors": [
             "Jason Lee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-JL01",
         "date_created": "20210824",
         "full_title": "DC-POA-JL01 Horror Beneath the Frost",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-JL01-Horror-Beneath-the-Frost",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-JL01 Horror Beneath the Frost",
         "url": "https://www.dmsguild.com/product/368742/DCPOAJL01-Horror-Beneath-the-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1619,7 +1785,9 @@
             "Jon Christian",
             "Troy Sandlin"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20210315",
         "full_title": "DC-PoA Journey to Adventure: Icewind Dale",
@@ -1627,7 +1795,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-Journey-to-Adventure--Icewind-Dale",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA Journey to Adventure Icewind Dale",
         "url": "https://www.dmsguild.com/product/348672/DCPoA-Journey-to-Adventure-Icewind-Dale?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1636,7 +1804,9 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-KCB-01",
         "date_created": "20210128",
         "full_title": "DC-PoA-KCB-01 The Lady of the Maer",
@@ -1653,7 +1823,9 @@
         "authors": [
             "Brian Collier"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-KCB-02",
         "date_created": "20210221",
         "full_title": "DC-PoA-KCB-02  Big",
@@ -1661,7 +1833,7 @@
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "DC-PoA-KCB-02--Big",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-KCB-02  Big",
         "url": "https://www.dmsguild.com/product/347771/DCPoAKCB02--Big?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1671,7 +1843,9 @@
             "Brian Collier",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-KCB-MBL",
         "date_created": "20201206",
         "full_title": "DC-PoA-KCB-MBL - The Stolen Curse",
@@ -1688,7 +1862,9 @@
         "authors": [
             "Kerry Jordan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-KJ2108",
         "date_created": "20210803",
         "full_title": "DC-PoA-KJ2108 The Needs of the Many",
@@ -1696,7 +1872,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-KJ2108-The-Needs-of-the-Many",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-KJ2108 The Needs of the Many",
         "url": "https://www.dmsguild.com/product/366508/DCPoAKJ2108-The-Needs-of-the-Many?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1705,7 +1881,9 @@
         "authors": [
             "Chua Pheng Hui"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-LEGIT-CIPH-01",
         "date_created": "20210208",
         "full_title": "DC-PoA-LEGIT-CIPH-01 A Bump in the Night",
@@ -1722,7 +1900,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-LEGIT-SV-01",
         "date_created": "20201129",
         "full_title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
@@ -1730,7 +1910,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-LEGIT-SV-01-The-Coldlight-Star",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
         "url": "https://www.dmsguild.com/product/337701/DCPOALEGITSV01-The-Coldlight-Star?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1739,7 +1919,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-LEGIT-SV-02",
         "date_created": "20210130",
         "full_title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
@@ -1747,7 +1929,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-LEGIT-SV-02-The-Shape-of-Silence",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
         "url": "https://www.dmsguild.com/product/345146/DCPOALEGITSV02-The-Shape-of-Silence?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1756,7 +1938,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-LEGIT-SV-03",
         "date_created": "20210710",
         "full_title": "DC-POA-LEGIT-SV-03 The Beggar's Blood",
@@ -1764,7 +1948,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-LEGIT-SV-03-The-Beggars-Blood",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-LEGIT-SV-03 The Beggar's Blood",
         "url": "https://www.dmsguild.com/product/363863/DCPOALEGITSV03-The-Beggars-Blood?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1775,7 +1959,9 @@
             "Patr\u00edcia Brito",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-LIGA-01",
         "date_created": "20210830",
         "full_title": "DC-PoA-LIGA-01 The Forsaken Brewery",
@@ -1783,7 +1969,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-LIGA-01-The-Forsaken-Brewery",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-LIGA-01 The Forsaken Brewery",
         "url": "https://www.dmsguild.com/product/369330/DCPoALIGA01-The-Forsaken-Brewery?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1792,7 +1978,9 @@
         "authors": [
             "Michelle Churchill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-MCIW-01",
         "date_created": "20201209",
         "full_title": "DC-PoA-MCIW-01 Icewind Whale",
@@ -1800,7 +1988,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-MCIW-01-Icewind-Whale",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-MCIW-01 Icewind Whale",
         "url": "https://www.dmsguild.com/product/339064/DCPoAMCIW01-Icewind-Whale?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1809,7 +1997,9 @@
         "authors": [
             "Michelle Churchill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-MCWWS-02",
         "date_created": "20210330",
         "full_title": "DC-PoA-MCWWS-02 Wine, Wizards and Song",
@@ -1826,11 +2016,13 @@
         "authors": [
             "Nathan Bond"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-NB-01",
         "date_created": "20201226",
         "full_title": "DC-PoA-NB-01 Iruladoon Awakens",
-        "hours": 4,
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "DC-PoA-NB-01-Iruladoon-Awakens",
@@ -1843,7 +2035,9 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-NBDD-01",
         "date_created": "20210131",
         "full_title": "DC-PoA-NBDD-01 Ice, Ice, Birdie",
@@ -1860,7 +2054,9 @@
         "authors": [
             "Sylvester Mejias"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-NN01-01",
         "date_created": "20210213",
         "full_title": "DC-PoA-NN01-01 Where Are Yew",
@@ -1868,7 +2064,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-NN01-01-Where-Are-Yew",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-NN01-01 Where Are Yew",
         "url": "https://www.dmsguild.com/product/346821/DCPoANN0101-Where-Are-Yew?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1877,7 +2073,9 @@
         "authors": [
             "Christopher Dickey"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-OGG-01",
         "date_created": "20210605",
         "full_title": "DC-PoA-OGG-01 Where Good Adventurers Go to Die",
@@ -1894,7 +2092,9 @@
         "authors": [
             "Christopher Dickey"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-OGG-02",
         "date_created": "20211014",
         "full_title": "DC-PoA-OGG-02 Judge and Jury",
@@ -1911,17 +2111,19 @@
         "authors": [
             "Antoine Deligne"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20210201",
         "full_title": "DC-PoA \"Out of the Dark Woods\"",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "price": 6.96,
         "product_id": "345391",
         "season": "Icewind Dale",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA \"Out of the Dark Woods\"",
         "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
     },
@@ -1930,7 +2132,9 @@
         "authors": [
             "Jason Pesch"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PESCH-01",
         "date_created": "20210828",
         "full_title": "DC-PoA-PESCH-01 To Appease Hunger",
@@ -1948,7 +2152,9 @@
             "P. J. England",
             "Arcane Ink"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PJE-01",
         "date_created": "20210504",
         "full_title": "DC-PoA-PJE-01 Ragdoll Nightmare",
@@ -1965,7 +2171,9 @@
         "authors": [
             "patrick mcgovern"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PM01",
         "date_created": "20210207",
         "full_title": "DC-PoA-PM01 Adventures in babysitting squids",
@@ -1982,11 +2190,13 @@
         "authors": [
             "patrick mcgovern"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PM03",
         "date_created": "20210228",
         "full_title": "DC-PoA-PM03 Mindless Digging",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-PM03-Mindless-Digging",
@@ -1999,7 +2209,9 @@
         "authors": [
             "patrick mcgovern"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PM04",
         "date_created": "20210310",
         "full_title": "DC-PoA-PM04 Losing your Mind",
@@ -2016,7 +2228,9 @@
         "authors": [
             "patrick mcgovern"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PM05",
         "date_created": "20210331",
         "full_title": "DC-PoA-PM05 Can you tell me how to get to the east haven way",
@@ -2033,7 +2247,9 @@
         "authors": [
             "Paul Duggan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-RED-01",
         "date_created": "20210824",
         "full_title": "DC-POA-RED-01 Chwingatown",
@@ -2041,7 +2257,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-RED-01-Chwingatown",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-RED-01 Chwingatown",
         "url": "https://www.dmsguild.com/product/368753/DCPOARED01-Chwingatown?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2050,7 +2266,9 @@
         "authors": [
             "RICHARD HAYWARD"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-RH01",
         "date_created": "20210219",
         "full_title": "DC-PoA-RH01 The Chronographers Curse",
@@ -2067,7 +2285,9 @@
         "authors": [
             "Jaime Hernandez IV"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA",
         "date_created": "20210831",
         "full_title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
@@ -2084,7 +2304,9 @@
         "authors": [
             "JD McComb"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-ROG-1",
         "date_created": "20210118",
         "full_title": "DC-POA-ROG-1 The Frozen Path To Easthaven",
@@ -2101,7 +2323,9 @@
         "authors": [
             "JD McComb"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-ROG-2",
         "date_created": "20210416",
         "full_title": "DC-PoA-ROG-2 The Cold Eyes of Terror",
@@ -2118,7 +2342,9 @@
         "authors": [
             "JD McComb"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-ROG-3",
         "date_created": "20210830",
         "full_title": "DC-PoA-ROG-3 The Last Refuge of Spring",
@@ -2135,7 +2361,9 @@
         "authors": [
             "Dave Zajac"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-SFG01",
         "date_created": "20210101",
         "full_title": "DC-PoA-SFG01 Tomb of the Banished Thane",
@@ -2143,7 +2371,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-SFG01-Tomb-of-the-Banished-Thane",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
         "url": "https://www.dmsguild.com/product/341937/DCPoASFG01-Tomb-of-the-Banished-Thane?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2152,7 +2380,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-SH01",
         "date_created": "20210325",
         "full_title": "DC-PoA-SH01 Escape from Murder Valley",
@@ -2169,11 +2399,13 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-SN-01-",
         "date_created": "20210322",
         "full_title": "DC-POA-SN-01: The Rider in Black",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-SN-01--The-Rider-in-Black",
@@ -2186,11 +2418,13 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-SN-02-",
         "date_created": "20210411",
         "full_title": "DC-POA-SN-02: The Ruins of Balors Reach",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-SN-02--The-Ruins-of-Balors-Reach",
@@ -2203,15 +2437,17 @@
         "authors": [
             "Tom McVey"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-SNIPE-01-",
         "date_created": "20210830",
         "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-POA-SNIPE-01--The-Ski-Chalet-of-Artor-Morlin",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-POA-SNIPE-01 The Ski Chalet of Artor Morlin",
         "url": "https://www.dmsguild.com/product/369342/DCPOASNIPE01-The-Ski-Chalet-of-Artor-Morlin?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2220,7 +2456,9 @@
         "authors": [
             "Scott Moore"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-SSM-01",
         "date_created": "20210717",
         "full_title": "DC-PoA-SSM-01 Among the Conifers",
@@ -2237,7 +2475,9 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TCW-ACW-1",
         "date_created": "20210531",
         "full_title": "DC-PoA-TCW-ACW-1 FIRST BLOOD",
@@ -2254,11 +2494,13 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TCW-ACW-2",
         "date_created": "20210602",
         "full_title": "DC-PoA-TCW-ACW-2 A CRY FOR HELP",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-TCW-ACW-2-A-CRY-FOR-HELP",
@@ -2271,15 +2513,17 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TCW-ACW-3",
         "date_created": "20210605",
         "full_title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-TCW-ACW-3-WRITTEN-IN-BLOOD",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",
         "url": "https://www.dmsguild.com/product/359932/DCPoATCWACW3-WRITTEN-IN-BLOOD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2288,7 +2532,9 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TCW-ACW-4",
         "date_created": "20210610",
         "full_title": "DC-PoA-TCW-ACW-4 A SWORD IN THE STONE",
@@ -2305,7 +2551,9 @@
         "authors": [
             "Bernard Jericho Velasco"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TCW-ACW-5",
         "date_created": "20210623",
         "full_title": "DC-PoA-TCW-ACW-5 A THOUSAND YEARS LOST",
@@ -2322,7 +2570,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-01",
         "date_created": "20210504",
         "full_title": "DC-PoA-TDG01-01 Wayward Beginnings",
@@ -2339,7 +2589,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-02",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-02 Blood Hunters",
@@ -2356,7 +2608,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-03",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-03 The Wendigo",
@@ -2374,7 +2628,9 @@
             "Hugh Lee",
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-04",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-04 Despair In The Family",
@@ -2391,7 +2647,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-05",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-05 Curse of Slaad",
@@ -2408,7 +2666,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-06",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-06 Dale Rangers",
@@ -2425,7 +2685,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-07",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-07 Rage of the Rime",
@@ -2442,7 +2704,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-08",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-08 Mountain of Madness",
@@ -2459,7 +2723,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-09",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-09 Wyrm Walkers",
@@ -2476,7 +2742,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-10",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-10 Endgame of the Elder Evils",
@@ -2493,7 +2761,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TDG01-11",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-11 DaleVision",
@@ -2510,7 +2780,9 @@
         "authors": [
             "Andrew Sammler"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TLOH-01",
         "date_created": "20210822",
         "full_title": "DC-PoA-TLOH-01 The Light of Hope",
@@ -2518,7 +2790,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-TLOH-01-The-Light-of-Hope",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-TLOH-01 The Light of Hope",
         "url": "https://www.dmsguild.com/product/368489/DCPoATLOH01-The-Light-of-Hope?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2527,7 +2799,9 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-VAN-MT-01",
         "date_created": "20210629",
         "full_title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
@@ -2535,7 +2809,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-VAN-MT-01-The-Thiefs-Gambit",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
         "url": "https://www.dmsguild.com/product/362519/DCPoAVANMT01-The-Thiefs-Gambit?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2544,15 +2818,17 @@
         "authors": [
             "vid Strickland"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-VID-01-",
         "date_created": "20210809",
         "full_title": "DC-PoA-VID-01: The Hex of the Horn",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-VID-01--The-Hex-of-the-Horn",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-VID-01 The Hex of the Horn",
         "url": "https://www.dmsguild.com/product/367141/DCPoAVID01-The-Hex-of-the-Horn?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2561,11 +2837,13 @@
         "authors": [
             "Erik Hawley"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-WC-01",
         "date_created": "20210609",
         "full_title": "DC-PoA-WC-01 Love Finds a Way",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-WC-01-Love-Finds-a-Way",
@@ -2578,7 +2856,9 @@
         "authors": [
             "grahame luck"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-WI-DD-02-",
         "date_created": "20210428",
         "full_title": "DC-PoA-WI-DD-02: Delving in the Dale",
@@ -2595,7 +2875,9 @@
         "authors": [
             "Grahame Luck"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-WI-TTT-01",
         "date_created": "20210301",
         "full_title": "DC-PoA-WI-TTT-01 Wailing Ice: Trouble and Turmoil in Termalaine",
@@ -2612,7 +2894,9 @@
         "authors": [
             "Zardak123"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-Z-T1S1",
         "date_created": "20210827",
         "full_title": "DC-POA-Z-T1S1 Auril's Worship",
@@ -2629,7 +2913,9 @@
         "authors": [
             "Zardak123"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-Z-T1S3",
         "date_created": "20210828",
         "full_title": "DC-POA-Z-T1S3 Oh Brother Where Art Thou?",
@@ -2646,7 +2932,9 @@
         "authors": [
             "Zardak123"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-Z-T2S1",
         "date_created": "20210829",
         "full_title": "DC-POA-Z-T2S1 You Have a Friend in Me",
@@ -2663,7 +2951,9 @@
         "authors": [
             "Zardak123"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-Z-T2S2",
         "date_created": "20210831",
         "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
@@ -2680,7 +2970,9 @@
         "authors": [
             "Zardak123"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-Z-T2S2",
         "date_created": "20210831",
         "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
@@ -2697,7 +2989,9 @@
         "authors": [
             "Zarajane Ferrier"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-ZF01",
         "date_created": "20210204",
         "full_title": "DC-PoA-ZF01 Undisclosed Ordeals",
@@ -2705,7 +2999,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "DC-PoA-ZF01-Undisclosed-Ordeals",
-        "tiers": null,
+        "tiers": 0,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "url": "https://www.dmsguild.com/product/345714/DCPoAZF01-Undisclosed-Ordeals?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2714,7 +3008,9 @@
         "authors": [
             "Lex Winter"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-LEXI-01",
         "date_created": "20210223",
         "full_title": "Don't Wake Yeti (DC-PoA-LEXI-01)",
@@ -2731,7 +3027,9 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PND-4",
         "date_created": "20210830",
         "full_title": "Eateat Go Home? (DC-POA-PND-4)",
@@ -2750,7 +3048,9 @@
             "Niccolo Estrella",
             "Greasy Snitches"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP03-02",
         "date_created": "20210216",
         "full_title": "Lost in the Woods (DC-PoA-GSP03-02)",
@@ -2767,7 +3067,9 @@
         "authors": [
             "Andrew Bishkinskyi"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-ZL-01",
         "date_created": "20201117",
         "full_title": "OGRE KRUSH (DC-POA-ZL-01)",
@@ -2775,7 +3077,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "OGRE-KRUSH-DC-POA-ZL-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "OGRE KRUSH DC-POA-ZL-01",
         "url": "https://www.dmsguild.com/product/336427/OGRE-KRUSH-DCPOAZL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2784,7 +3086,9 @@
         "authors": [
             "Matt Brown"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-MB-01",
         "date_created": "20210524",
         "full_title": "Pit of Bones DC-POA-MB-01",
@@ -2801,7 +3105,9 @@
         "authors": [
             "Chubby Goblin"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-CG-1-1",
         "date_created": "20201224",
         "full_title": "Punishment for Pride (DC-POA-CG-1-1)",
@@ -2809,7 +3115,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Punishment-for-Pride-DC-POA-CG-1-1",
-        "tiers": null,
+        "tiers": 0,
         "title": "Punishment for Pride DC-POA-CG-1-1",
         "url": "https://www.dmsguild.com/product/341177/Punishment-for-Pride-DCPOACG11?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2818,7 +3124,9 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PND-1",
         "date_created": "20210419",
         "full_title": "Someone Dropped the Goat-Ball (DC-POA-PND-1)",
@@ -2838,7 +3146,9 @@
             "Paul Gabat",
             "Kristoff Alejo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP02-03H",
         "date_created": "20210130",
         "full_title": "That Ain't Mead (DC-PoA-GSP02-03H)",
@@ -2846,7 +3156,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "That-Aint-Mead-DC-PoA-GSP02-03H",
-        "tiers": null,
+        "tiers": 0,
         "title": "That Ain't Mead DC-PoA-GSP02-03H",
         "url": "https://www.dmsguild.com/product/345133/That-Aint-Mead-DCPoAGSP0203H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2856,7 +3166,9 @@
             "Paul Gabat",
             "Kristoff Alejo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP02-01H",
         "date_created": "20210130",
         "full_title": "The Arrival of Mr. Sorrow (DC-PoA-GSP02-01H)",
@@ -2864,7 +3176,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Arrival-of-Mr-Sorrow-DC-PoA-GSP02-01H",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Arrival of Mr. Sorrow DC-PoA-GSP02-01H",
         "url": "https://www.dmsguild.com/product/345129/The-Arrival-of-Mr-Sorrow-DCPoAGSP0201H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2873,7 +3185,9 @@
         "authors": [
             "Kat Wynne"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-KW-01",
         "date_created": "20210503",
         "full_title": "The Grand Estate (DC-POA-KW-01)",
@@ -2881,7 +3195,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Grand-Estate-DC-POA-KW-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Grand Estate DC-POA-KW-01",
         "url": "https://www.dmsguild.com/product/356501/The-Grand-Estate-DCPOAKW01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2892,7 +3206,9 @@
             "Paul Gabat",
             "Kristoff Alejo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP02-04H",
         "date_created": "20210130",
         "full_title": "The Horror Sphere (DC-PoA-GSP02-04H)",
@@ -2900,7 +3216,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Horror-Sphere-DC-PoA-GSP02-04H",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Horror Sphere DC-PoA-GSP02-04H",
         "url": "https://www.dmsguild.com/product/345134/The-Horror-Sphere-DCPoAGSP0204H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2910,7 +3226,9 @@
             "Niccolo Estrella",
             "Greasy Snitches"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP03-01",
         "date_created": "20201201",
         "full_title": "The Missing Link (DC-PoA-GSP03-01)",
@@ -2918,7 +3236,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Missing-Link-DC-PoA-GSP03-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Missing Link DC-PoA-GSP03-01",
         "url": "https://www.dmsguild.com/product/337908/The-Missing-Link-DCPoAGSP0301?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2929,7 +3247,9 @@
             "Paul Gabat",
             "Kristoff Alejo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-GSP02-02H",
         "date_created": "20210130",
         "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
@@ -2937,7 +3257,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Priest-of-Caer-Dineval-DC-PoA-GSP02-02H",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Priest of Caer-Dineval DC-PoA-GSP02-02H",
         "url": "https://www.dmsguild.com/product/345131/The-Priest-of-CaerDineval-DCPoAGSP0202H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2946,7 +3266,9 @@
         "authors": [
             "Jason DM"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-TTP01-01",
         "date_created": "20210302",
         "full_title": "The Voice Bringer (DC-PoA-TTP01-01)",
@@ -2954,7 +3276,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Voice-Bringer-DC-PoA-TTP01-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Voice Bringer DC-PoA-TTP01-01",
         "url": "https://www.dmsguild.com/product/348769/The-Voice-Bringer-DCPoATTP0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2963,11 +3285,13 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PND-3",
         "date_created": "20210830",
         "full_title": "The Watcher in the Attic (DC-POA-PND-3)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -2981,15 +3305,18 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PND-2",
         "date_created": "20210830",
         "full_title": "What Skitters Beneath? (DC-POA-PND-2)",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 2.99,
+        "price": 11.96,
         "product_id": "369329",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "What Skitters Beneath? DC-POA-PND-2",
         "url": "https://www.dmsguild.com/product/369329/?affiliate_id=171040"
@@ -2999,15 +3326,18 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "DC-POA-PND-5",
         "date_created": "20210831",
         "full_title": "What Stalks the Night? (DC-POA-PND-5)",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 2.99,
+        "price": 11.96,
         "product_id": "369349",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "What Stalks the Night? DC-POA-PND-5",
         "url": "https://www.dmsguild.com/product/369349/?affiliate_id=171040"

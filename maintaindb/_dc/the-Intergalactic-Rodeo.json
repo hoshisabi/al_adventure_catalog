@@ -10,10 +10,12 @@
     "date_created": "20230820",
     "full_title": "the Intergalactic Rodeo",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "5-10",
-    "product_id": "SJ-DC-FXC-JEFF-01",
+    "price": null,
+    "product_id": "450081",
+    "season": null,
     "tiers": 2,
     "title": "the Intergalactic Rodeo",
-    "url": "https://www.dmsguild.com/product/450081/the-Intergalactic-Rodeo?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/450081/?affiliate_id=171040"
 }

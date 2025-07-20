@@ -1,11 +1,13 @@
 [
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Tricia Monsod",
             "Kai Monsod"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TKM-CH02",
         "date_created": "20231127",
         "full_title": "A Final Farewell (SJ-DC-TKM-CH02)",
@@ -20,11 +22,13 @@
         "url": "https://www.dmsguild.com/product/461922/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Tricia Monsod"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TKM-CH01",
         "date_created": "20230627",
         "full_title": "A Proper Farewell (SJ-DC-TKM-CH01)",
@@ -43,24 +47,30 @@
         "authors": [
             "Matt Brown"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MB06-ATFT",
         "date_created": "20230817",
         "full_title": "A Taste For Trouble SJ-DC-MB06-ATFT",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "A-Taste-For-Trouble-SJ-DC-MB06-ATFT",
+        "level_range": "1-4",
+        "price": 10.97,
+        "product_id": "449776",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "A Taste For Trouble",
-        "url": "https://www.dmsguild.com/product/449776/A-Taste-For-Trouble-SJDCMB06ATFT?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/449776/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
             "Matt Brown"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MB05-AH123",
         "date_created": "20230618",
         "full_title": "Assault on Hudson 123 SJ-DC-MB05-AH123",
@@ -77,17 +87,21 @@
         "authors": [
             "Tim Tan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-FLN02-01",
         "date_created": "20231126",
         "full_title": "Away We Go (SJ-DC-PHP-FLN02-01)",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": 461673,
+        "price": 4.99,
+        "product_id": "461673",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Away We Go",
-        "url": "https://www.dmsguild.com/product/461673?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/461673/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -95,7 +109,9 @@
             "Bryan Mets",
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BAD-01",
         "date_created": "20230902",
         "full_title": "Bad Omen (SJ-DC-BAD-01)",
@@ -112,7 +128,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-04",
         "date_created": "20230910",
         "full_title": "Blasted (SJ-DC-BST-04)",
@@ -130,7 +148,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DFA-04",
         "date_created": "20231019",
         "full_title": "Breathless (SJ-DC-DFA-04)",
@@ -148,7 +168,9 @@
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NOS-04",
         "date_created": "20231113",
         "full_title": "Caverns and Cultists (SJ-DC-NOS-04)",
@@ -156,7 +178,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Caverns-and-Cultists-SJ-DC-NOS-04",
-        "tiers": null,
+        "tiers": 0,
         "title": "Caverns and Cultists",
         "url": "https://www.dmsguild.com/product/460172/Caverns-and-Cultists-SJDCNOS04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -165,7 +187,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DFA-02",
         "date_created": "20230213",
         "full_title": "Checkmate (SJ-DC-DFA-02)",
@@ -182,7 +206,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LEGIT-SB-02",
         "date_created": "20221104",
         "full_title": "Club Diamond (SJ-DC-LEGIT-SB-02)",
@@ -199,7 +225,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-06",
         "date_created": "20231231",
         "full_title": "Come Together on the Giffstar (SJ-DC-BST-06)",
@@ -218,7 +246,9 @@
             "Brian Balagot",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-MW2",
         "date_created": "20230625",
         "full_title": "Danger Zone (SJ-DC-TRIDEN-MW2)",
@@ -236,7 +266,9 @@
             "Tricia Monsod",
             "Kai Monsod"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TKM-04",
         "date_created": "20231028",
         "full_title": "Darkness Descending (SJ-DC-TKM-04)",
@@ -244,7 +276,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Darkness-Descending-SJ-DC-TKM-04",
-        "tiers": null,
+        "tiers": 0,
         "title": "Darkness Descending",
         "url": "https://www.dmsguild.com/product/458162/Darkness-Descending-SJDCTKM04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -253,7 +285,9 @@
         "authors": [
             "Hunter Sinclair"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HYS-02",
         "date_created": "20230830",
         "full_title": "Darkside of Selune SJ-DC-HYS-02 (5e)",
@@ -270,7 +304,9 @@
         "authors": [
             "Christian Brazil"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VEN-03",
         "date_created": "20231121",
         "full_title": "Daylight Saving Time (SJ-DC-VEN-03)",
@@ -278,7 +314,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Daylight-Saving-Time-SJ-DC-VEN-03",
-        "tiers": null,
+        "tiers": 0,
         "title": "Daylight Saving Time",
         "url": "https://www.dmsguild.com/product/461144/Daylight-Saving-Time-SJDCVEN03?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
@@ -288,7 +324,9 @@
             "Brian Balagot",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-MW3",
         "date_created": "20230714",
         "full_title": "Destination Unknown (SJ-DC-TRIDEN-MW3)",
@@ -305,7 +343,9 @@
         "authors": [
             "Brendon Watson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DWR-01",
         "date_created": "20220920",
         "full_title": "Dohwar Heist (SJ-DC-DWR-01)",
@@ -322,7 +362,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DFA-03",
         "date_created": "20230421",
         "full_title": "Dragonfall (SJ-DC-DFA-03)",
@@ -339,7 +381,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-04",
         "date_created": "20230404",
         "full_title": "Driven by DNA (SJ-DC-ANGKA-04)",
@@ -356,7 +400,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-08",
         "date_created": "20231128",
         "full_title": "Enter: Mission (SJ-DC-BST-08)",
@@ -374,7 +420,9 @@
         "authors": [
             "Belinda Baldwin"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ASLM-01",
         "date_created": "20231229",
         "full_title": "Escape from Toril (SJ-DC-ASLM-01)",
@@ -392,7 +440,9 @@
             "Bryan Mets",
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BAD-03",
         "date_created": "20231215",
         "full_title": "Festival of Frun (SJ-DC-BAD-03)",
@@ -409,7 +459,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LEGIT-SB-01",
         "date_created": "20220904",
         "full_title": "Fire Thieves (SJ-DC-LEGIT-SB-01)",
@@ -426,7 +478,9 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-POLAR-01",
         "date_created": "20231116",
         "full_title": "Folly Undone (SJ-DC-PHP-POLAR-01)",
@@ -434,7 +488,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "Folly-Undone-SJ-DC-PHP-POLAR-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "Folly Undone",
         "url": "https://www.dmsguild.com/product/460548/Folly-Undone-SJDCPHPPOLAR01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -443,7 +497,9 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-FLN01-01",
         "date_created": "20221204",
         "full_title": "Forlorn but not Forgotten (SJ-DC-PHP-FLN01-01)",
@@ -461,7 +517,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DFA-05",
         "date_created": "20231019",
         "full_title": "Goldstock (SJ-DC-DFA-05)",
@@ -478,7 +536,9 @@
         "authors": [
             "Angelo Bongais"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMO-KURI-02",
         "date_created": "20230908",
         "full_title": "Guide on The Other Side (SJ-DC-AMO-KURI-02)",
@@ -486,7 +546,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Guide-on-The-Other-Side-SJ-DC-AMO-KURI-02",
-        "tiers": null,
+        "tiers": 0,
         "title": "Guide on The Other Side",
         "url": "https://www.dmsguild.com/product/451191/Guide-on-The-Other-Side-SJDCAMOKURI02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -495,7 +555,9 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HBI-002",
         "date_created": "20220929",
         "full_title": "Hardy and Beholder Investigations: The Hitchhiker (SJ-DC-HBI-002)",
@@ -503,7 +565,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Hardy-and-Beholder-Investigations--The-Hitchhiker-SJ-DC-HBI-002",
-        "tiers": null,
+        "tiers": 0,
         "title": "Hardy and Beholder Investigations The Hitchhiker",
         "url": "https://www.dmsguild.com/product/411946/Hardy-and-Beholder-Investigations-The-Hitchhiker-SJDCHBI002?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -512,7 +574,9 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HBI-003",
         "date_created": "20220930",
         "full_title": "Hardy and Beholder Investigations: The Reckoning (SJ-DC-HBI-003)",
@@ -520,7 +584,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Hardy-and-Beholder-Investigations--The-Reckoning-SJ-DC-HBI-003",
-        "tiers": null,
+        "tiers": 0,
         "title": "Hardy and Beholder Investigations The Reckoning",
         "url": "https://www.dmsguild.com/product/411955/Hardy-and-Beholder-Investigations-The-Reckoning-SJDCHBI003?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -529,7 +593,9 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HBI-001",
         "date_created": "20220926",
         "full_title": "Hardy and Beholder Investigations: The Stowaway (SJ-DC-HBI-001)",
@@ -537,7 +603,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Hardy-and-Beholder-Investigations--The-Stowaway-SJ-DC-HBI-001",
-        "tiers": null,
+        "tiers": 0,
         "title": "Hardy and Beholder Investigations The Stowaway",
         "url": "https://www.dmsguild.com/product/411601/Hardy-and-Beholder-Investigations-The-Stowaway-SJDCHBI001?filters=1000044_0_45393_0_0_0_0_0&affiliate_id=171040"
     },
@@ -546,7 +612,9 @@
         "authors": [
             "S C Townsley"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ASLM-02",
         "date_created": "20231229",
         "full_title": "Heart of Glass (SJ-DC-ASLM-02)",
@@ -563,7 +631,9 @@
         "authors": [
             "RICHARD HAYWARD"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-RH-01",
         "date_created": "20230428",
         "full_title": "Honor Beyond Reprieve (SJ-DC-RH-01)",
@@ -580,7 +650,9 @@
         "authors": [
             "Pauline Feraren"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-OJW-01",
         "date_created": "20221012",
         "full_title": "Hook, Line, and Scavver (SJ-DC-PHP-OJW-01)",
@@ -598,7 +670,9 @@
             "Tricia Monsod",
             "Kai Monsod"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TKM-03",
         "date_created": "20230720",
         "full_title": "It Runs in the Blood (SJ-DC-TKM-03)",
@@ -606,7 +680,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "It-Runs-in-the-Blood-SJ-DC-TKM-03",
-        "tiers": null,
+        "tiers": 0,
         "title": "It Runs in the Blood",
         "url": "https://www.dmsguild.com/product/446273/It-Runs-in-the-Blood-SJDCTKM03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -615,7 +689,9 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-FLN01-02",
         "date_created": "20230404",
         "full_title": "Kaleidoscope Vault (SJ-DC-PHP-FLN01-02)",
@@ -632,7 +708,9 @@
         "authors": [
             "Brendon Watson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DWR-02",
         "date_created": "20221124",
         "full_title": "Last Flight Of The Orca (SJ-DC-DWR-02)",
@@ -649,7 +727,9 @@
         "authors": [
             "Angelo Bongais"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMO-KURI-03",
         "date_created": "20231215",
         "full_title": "Last Stand (SJ-DC-AMO-KURI-03)",
@@ -657,7 +737,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Last-Stand-SJ-DC-AMO-KURI-03",
-        "tiers": null,
+        "tiers": 0,
         "title": "Last Stand",
         "url": "https://www.dmsguild.com/product/463888/Last-Stand-SJDCAMOKURI03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -666,7 +746,9 @@
         "authors": [
             "Marcello De Velazquez"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MDW01",
         "date_created": "20221125",
         "full_title": "Let's Rock! (SJ-DC-MDW01)",
@@ -683,11 +765,13 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LLL-01",
         "date_created": "20231218",
         "full_title": "Library Lies & Lift Off! - SJ-DC-LLL-01",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -701,7 +785,9 @@
         "authors": [
             "Tricia Monsod"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TKM-01",
         "date_created": "20221128",
         "full_title": "Lost Stars (SJ-DC-TKM-01)",
@@ -709,7 +795,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Lost-Stars-SJ-DC-TKM-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "Lost Stars",
         "url": "https://www.dmsguild.com/product/418054/Lost-Stars-SJDCTKM01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -718,7 +804,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PAT-01",
         "date_created": "20231224",
         "full_title": "Lunar Freeze (SJ-DC-PAT-01)",
@@ -735,7 +823,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LEGIT-SB-03",
         "date_created": "20230419",
         "full_title": "Mergers and Acquisitions (SJ-DC-LEGIT-SB-03)",
@@ -752,7 +842,9 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EBAL-SPKY-01",
         "date_created": "20220928",
         "full_title": "Mergryn's Helm (SJ-DC-EBAL-SPKY-01)",
@@ -770,7 +862,9 @@
             "Brian Balagot",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-MW",
         "date_created": "20221019",
         "full_title": "Mighty Wings (SJ-DC-TRIDEN-MW)",
@@ -787,7 +881,9 @@
         "authors": [
             "JD McComb"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ASLM-03",
         "date_created": "20231223",
         "full_title": "Missing Heir (SJ-DC-ASLM-03)",
@@ -804,7 +900,9 @@
         "authors": [
             "Hunter Sinclair"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-KGV-01",
         "date_created": "20231027",
         "full_title": "Moonlit Mysteries: A Heist to Remember (SJ-DC-KGV-01) (5e)",
@@ -821,7 +919,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DFA-01",
         "date_created": "20230104",
         "full_title": "Moonshot (SJ-DC-DFA-01)",
@@ -838,7 +938,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-06",
         "date_created": "20230610",
         "full_title": "Moving Up in the World (SJ-DC-ANGKA-06)",
@@ -855,7 +957,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-05",
         "date_created": "20230516",
         "full_title": "Never Let Me Go (SJ-DC-ANGKA-05)",
@@ -872,7 +976,9 @@
         "authors": [
             "Angelo Bongais"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMO-KURI-01",
         "date_created": "20230805",
         "full_title": "Plunge in K's Dungeon (SJ-DC-AMO-KURI-01)",
@@ -880,7 +986,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Plunge-in-Ks-Dungeon-SJ-DC-AMO-KURI-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "Plunge in K's Dungeon",
         "url": "https://www.dmsguild.com/product/448365/Plunge-in-Ks-Dungeon-SJDCAMOKURI01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -889,11 +995,13 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-05",
         "date_created": "20231111",
         "full_title": "Pounded (SJ-DC-BST-05)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -908,7 +1016,9 @@
             "Bennett Ellis",
             "Dante Santos"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CEG-01",
         "date_created": "20230827",
         "full_title": "Pulling Gs (SJ-DC-CEG-01)",
@@ -916,7 +1026,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "Pulling-Gs-SJ-DC-CEG-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "Pulling Gs",
         "url": "https://www.dmsguild.com/product/450914/Pulling-Gs-SJDCCEG01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -925,11 +1035,13 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-02",
         "date_created": "20230726",
         "full_title": "Rammed (SJ-DC-BST-02)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -943,7 +1055,9 @@
         "authors": [
             "Christopher Moreman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EBAL-SPKY-02",
         "date_created": "20221026",
         "full_title": "Reading the Mappa Mortuum (SJ-DC-EBAL-SPKY-02)",
@@ -960,7 +1074,9 @@
         "authors": [
             "Brendon Watson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DWR-03",
         "date_created": "20230308",
         "full_title": "Red Flag Of Dread (SJ-DC-DWR-03)",
@@ -977,7 +1093,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-01",
         "date_created": "20220928",
         "full_title": "Requiem for Lost Souls (SJ-DC-ANGKA-01)",
@@ -994,7 +1112,9 @@
         "authors": [
             "Angelo Bongais"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMO-KURI-00",
         "date_created": "20230710",
         "full_title": "Rumble in The Jungle (SJ-DC-AMO-KURI-00)",
@@ -1002,7 +1122,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Rumble-in-The-Jungle-SJ-DC-AMO-KURI-00",
-        "tiers": null,
+        "tiers": 0,
         "title": "Rumble in The Jungle",
         "url": "https://www.dmsguild.com/product/444946/Rumble-in-The-Jungle-SJDCAMOKURI00?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1011,7 +1131,9 @@
         "authors": [
             "Christian Brazil"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VEN-01",
         "date_created": "20221211",
         "full_title": "S.O.S. (SJ-DC-VEN-01)",
@@ -1028,7 +1150,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-03",
         "date_created": "20221206",
         "full_title": "Shipwrecked in the Sea of Madness (SJ-DC-ANGKA-03)",
@@ -1045,11 +1169,13 @@
         "authors": [
             "Alexander Klement"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMAK-",
         "date_created": "20240101",
         "full_title": "SJ-DC-AMAK: Starlight\u2019s Lament",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-AMAK--Starlights-Lament",
@@ -1064,7 +1190,9 @@
             "James Clark",
             "Strategicon AL"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMOT-01",
         "date_created": "20230901",
         "full_title": "SJ-DC-AMOT-01 A Time to Heal",
@@ -1083,7 +1211,9 @@
             "Bryn Keeling",
             "Strategicon AL"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMOT-02",
         "date_created": "20230901",
         "full_title": "SJ-DC-AMOT-02 Gone in a Flash",
@@ -1102,7 +1232,9 @@
             "Tim Hanson",
             "Strategicon AL"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AMOT-03",
         "date_created": "20230901",
         "full_title": "SJ-DC-AMOT-03 Playing the Odds",
@@ -1120,7 +1252,9 @@
             "Christian Alhaug",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ARCON",
         "date_created": "20231231",
         "full_title": "SJ-DC-ARCON Happily Ever After",
@@ -1137,7 +1271,9 @@
         "authors": [
             "E. S. Moore"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ARQ-01",
         "date_created": "20230226",
         "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
@@ -1154,7 +1290,9 @@
         "authors": [
             "E. S. Moore"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ARQ-02",
         "date_created": "20231229",
         "full_title": "SJ-DC-ARQ-02 Falrenn Mayhem",
@@ -1162,7 +1300,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ARQ-02-Falrenn-Mayhem",
-        "tiers": null,
+        "tiers": 0,
         "title": "Falrenn Mayhem",
         "url": "https://www.dmsguild.com/product/465443/SJDCARQ02-Falrenn-Mayhem?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1171,7 +1309,9 @@
         "authors": [
             "LK Tsui"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AS-1",
         "date_created": "20230426",
         "full_title": "SJ-DC-AS-1 Hunt for the Recluse",
@@ -1188,7 +1328,9 @@
         "authors": [
             "Rick Way"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ASI-01",
         "date_created": "20231108",
         "full_title": "SJ-DC-ASI-01 Secrets of Old",
@@ -1196,7 +1338,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ASI-01-Secrets-of-Old",
-        "tiers": null,
+        "tiers": 0,
         "title": "Secrets of Old",
         "url": "https://www.dmsguild.com/product/459533/SJDCASI01-Secrets-of-Old?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1205,7 +1347,9 @@
         "authors": [
             "Rick Way"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ASI-02",
         "date_created": "20231202",
         "full_title": "SJ-DC-ASI-02 Through the Looking Glass",
@@ -1213,7 +1357,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ASI-02-Through-the-Looking-Glass",
-        "tiers": null,
+        "tiers": 0,
         "title": "Through the Looking Glass",
         "url": "https://www.dmsguild.com/product/462390/SJDCASI02-Through-the-Looking-Glass?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1222,7 +1366,9 @@
         "authors": [
             "Rick Way"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ASI-03",
         "date_created": "20231229",
         "full_title": "SJ-DC-ASI-03 Elemental Brainstorm",
@@ -1230,7 +1376,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ASI-03-Elemental-Brainstorm",
-        "tiers": null,
+        "tiers": 0,
         "title": "Elemental Brainstorm",
         "url": "https://www.dmsguild.com/product/465438/SJDCASI03-Elemental-Brainstorm?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1240,7 +1386,9 @@
             "Johnny Smith",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AUG-06",
         "date_created": "20230123",
         "full_title": "SJ-DC-AUG-06 The Rock: Tales of the Beholder Corps",
@@ -1258,7 +1406,9 @@
             "Johnny Smith",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AUG-07",
         "date_created": "20230223",
         "full_title": "SJ-DC-AUG-07 Blast Them! Tales of the Beholder Corps",
@@ -1275,7 +1425,9 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AUG-08",
         "date_created": "20230327",
         "full_title": "SJ-DC-AUG-08 I, Xamott: Tales of the Beholder Corps",
@@ -1292,7 +1444,9 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AUG-09",
         "date_created": "20230427",
         "full_title": "SJ-DC-AUG-09 Tyrants & Dragons: Tales of the Beholder Corps",
@@ -1309,7 +1463,9 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AUG-09",
         "date_created": "20230427",
         "full_title": "SJ-DC-AUG-09 Tyrants & Dragons: Tales of the Beholder Corps",
@@ -1326,7 +1482,9 @@
         "authors": [
             "Johnny Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-AUG-10",
         "date_created": "20230530",
         "full_title": "SJ-DC-AUG-10 Prisoner of Prioxa: Tales of the Beholder Corps",
@@ -1345,7 +1503,9 @@
             "Te\u00e4n Stanhope",
             "James Twigg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BBB-01",
         "date_created": "20221205",
         "full_title": "SJ-DC-BBB-01 Mutiny: The Ballad of Blunderbuss Bill",
@@ -1364,7 +1524,9 @@
             "Te\u00e4n Stanhope",
             "James Twigg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BBB-02",
         "date_created": "20230320",
         "full_title": "SJ-DC-BBB-02 Mutiny: The Blunderbuss of Blunderbuss Bill",
@@ -1383,7 +1545,9 @@
             "Te\u00e4n Stanhope",
             "James Twigg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BBB-03",
         "date_created": "20230717",
         "full_title": "SJ-DC-BBB-03 Mutiny: The Battle of Blunderbuss Bill",
@@ -1400,7 +1564,9 @@
         "authors": [
             "Matthew Barry"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BLU",
         "date_created": "20221128",
         "full_title": "SJ-DC-BLU The Blue Sun Facility",
@@ -1408,7 +1574,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "SJ-DC-BLU-The-Blue-Sun-Facility",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Blue Sun Facility",
         "url": "https://www.dmsguild.com/product/418063/SJDCBLU-The-Blue-Sun-Facility?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1417,7 +1583,9 @@
         "authors": [
             "Chris Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CBB-01",
         "date_created": "20230425",
         "full_title": "SJ-DC-CBB-01 Last Stand of The Void",
@@ -1425,7 +1593,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-CBB-01-Last-Stand-of-The-Void",
-        "tiers": null,
+        "tiers": 0,
         "title": "Last Stand of The Void",
         "url": "https://www.dmsguild.com/product/435250/SJDCCBB01-Last-Stand-of-The-Void?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1434,7 +1602,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CBB-02",
         "date_created": "20230529",
         "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
@@ -1442,7 +1612,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-CBB-02--In-Cyzors-Grasp",
-        "tiers": null,
+        "tiers": 0,
         "title": "In Cyzor's Grasp",
         "url": "https://www.dmsguild.com/product/439415/SJDCCBB02--In-Cyzors-Grasp?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1451,7 +1621,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CBB-04",
         "date_created": "20230818",
         "full_title": "SJ-DC-CBB-04 Horizon of Oblivion",
@@ -1459,7 +1631,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-CBB-04-Horizon-of-Oblivion",
-        "tiers": null,
+        "tiers": 0,
         "title": "Horizon of Oblivion",
         "url": "https://www.dmsguild.com/product/449933/SJDCCBB04-Horizon-of-Oblivion?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1468,7 +1640,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CBB-05",
         "date_created": "20230819",
         "full_title": "SJ-DC-CBB-05 The Draconic Core",
@@ -1476,7 +1650,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-CBB-05-The-Draconic-Core",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Draconic Core",
         "url": "https://www.dmsguild.com/product/450030/SJDCCBB05-The-Draconic-Core?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1485,7 +1659,9 @@
         "authors": [
             "Christopher B. Bertucio"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CBB-06",
         "date_created": "20230826",
         "full_title": "SJ-DC-CBB-06 Horror From The Planet's Core",
@@ -1493,7 +1669,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-CBB-06-Horror-From-The-Planets-Core",
-        "tiers": null,
+        "tiers": 0,
         "title": "Horror From The Planet's Core",
         "url": "https://www.dmsguild.com/product/450816/SJDCCBB06-Horror-From-The-Planets-Core?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1502,7 +1678,9 @@
         "authors": [
             "Chironjeev Kanjilal"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CJK01-01",
         "date_created": "20230818",
         "full_title": "SJ-DC-CJK01-01 A Whale of a Time",
@@ -1519,7 +1697,9 @@
         "authors": [
             "Chironjeev Kanjilal"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CJK02",
         "date_created": "20231231",
         "full_title": "SJ-DC-CJK02 The Tavern at the End of the Wildspace",
@@ -1537,7 +1717,9 @@
             "Christian Alhaug",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CONMAR-01",
         "date_created": "20231230",
         "full_title": "SJ-DC-CONMAR-01 Who Killed Marcus?",
@@ -1555,7 +1737,9 @@
             "Christian Alhaug",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CONMAR-02",
         "date_created": "20231230",
         "full_title": "SJ-DC-CONMAR-02 A Kraken Good Story",
@@ -1573,7 +1757,9 @@
             "Christian Alhaug",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CONMAR-03",
         "date_created": "20231230",
         "full_title": "SJ-DC-CONMAR-03 Heart of Shards",
@@ -1591,7 +1777,9 @@
             "Christian Alhaug",
             "Martine Lassen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CONMAR-04",
         "date_created": "20231230",
         "full_title": "SJ-DC-CONMAR-04 Finally Saving Marcus",
@@ -1608,11 +1796,13 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-COULEE23-01",
         "date_created": "20230818",
         "full_title": "SJ-DC-COULEE23-01 Building the Blastflinger",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-COULEE23-01-Building-the-Blastflinger",
@@ -1625,7 +1815,9 @@
         "authors": [
             "Doug Phillips"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DAP",
         "date_created": "20230831",
         "full_title": "SJ-DC-DAP Voyage to Goldfish Island",
@@ -1633,7 +1825,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DAP-Voyage-to-Goldfish-Island",
-        "tiers": null,
+        "tiers": 0,
         "title": "Voyage to Goldfish Island",
         "url": "https://www.dmsguild.com/product/451371/SJDCDAP-Voyage-to-Goldfish-Island?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -1642,11 +1834,13 @@
         "authors": [
             "Darion Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DCS-01",
         "date_created": "20231230",
         "full_title": "SJ-DC-DCS-01 Rocks Fall, Everybody Dies",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DCS-01-Rocks-Fall-Everybody-Dies",
@@ -1660,7 +1854,9 @@
             "Martine Lassen",
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-01",
         "date_created": "20221223",
         "full_title": "SJ-DC-DD-01 Rock Paper Pistols",
@@ -1678,11 +1874,13 @@
             "Daniel Chapman",
             "Lex Winter"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-02",
         "date_created": "20230101",
         "full_title": "SJ-DC-DD-02 Lone Survivors",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -1697,7 +1895,9 @@
             "Jason Lee",
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-03",
         "date_created": "20230120",
         "full_title": "SJ-DC-DD-03 Castles in the Sand",
@@ -1715,7 +1915,9 @@
             "Jamie Chan",
             "Shu Qing Tan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-04",
         "date_created": "20230224",
         "full_title": "SJ-DC-DD-04 The Highest Bidder",
@@ -1733,7 +1935,9 @@
             "Robbie Pleasant",
             "Addy Tortosa"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-05",
         "date_created": "20230416",
         "full_title": "SJ-DC-DD-05 The Show Must Go On",
@@ -1751,7 +1955,9 @@
             "Michelle Churchill",
             "Lu\u00eds Ricardo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-06",
         "date_created": "20230708",
         "full_title": "SJ-DC-DD-06 The Prime Strikers",
@@ -1768,7 +1974,9 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-07",
         "date_created": "20230729",
         "full_title": "SJ-DC-DD-07 Sinaya's Song",
@@ -1785,7 +1993,9 @@
         "authors": [
             "Jeremy Cheong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-08",
         "date_created": "20231116",
         "full_title": "SJ-DC-DD-08 Blast from the Past",
@@ -1803,7 +2013,9 @@
             "Jason Koh",
             "Darryl Ho"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-09",
         "date_created": "20231218",
         "full_title": "SJ-DC-DD-09 The Huangfu Heist",
@@ -1820,7 +2032,9 @@
         "authors": [
             "Charlotte Lee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-10",
         "date_created": "20231231",
         "full_title": "SJ-DC-DD-10 The Long Game",
@@ -1837,7 +2051,9 @@
         "authors": [
             "Jason Koh"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-11",
         "date_created": "20231231",
         "full_title": "SJ-DC-DD-11 Per Aspera",
@@ -1854,7 +2070,9 @@
         "authors": [
             "Douglas Bushong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DD-12",
         "date_created": "20231231",
         "full_title": "SJ-DC-DD-12 The End of the Line",
@@ -1871,7 +2089,9 @@
         "authors": [
             "Death 101010"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DEATH",
         "date_created": "20230802",
         "full_title": "SJ-DC-Death In Defiance of Dairy",
@@ -1888,11 +2108,13 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DEN-H4",
         "date_created": "20230114",
         "full_title": "SJ-DC-DEN-H4 Departure from Fallen Stars",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -1906,11 +2128,13 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DEN-H5",
         "date_created": "20230114",
         "full_title": "SJ-DC-DEN-H5 The Reef of Living Memory",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -1924,11 +2148,13 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DEN-H6",
         "date_created": "20230114",
         "full_title": "SJ-DC-DEN-H6 Sekolah\u2019s Ire",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
@@ -1942,11 +2168,13 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DEN-H7",
         "date_created": "20230129",
         "full_title": "SJ-DC-DEN-H7 Flummoxing Fire from Afar",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -1960,11 +2188,13 @@
         "authors": [
             "Dennis R Hall"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DEN-H8",
         "date_created": "20230313",
         "full_title": "SJ-DC-DEN-H8 Pesky Problems of Proprietors and Priests",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -1978,7 +2208,9 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DES05-01",
         "date_created": "20230812",
         "full_title": "SJ-DC-DES05-01 GAAAYS in SPAAAAACE!!!",
@@ -1995,7 +2227,9 @@
         "authors": [
             "Jonathan Self"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DES05-02",
         "date_created": "20230812",
         "full_title": "SJ-DC-DES05-02 Escape from the Demonweb Pits",
@@ -2012,7 +2246,9 @@
         "authors": [
             "Aaron Saucedo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DES05-03",
         "date_created": "20230830",
         "full_title": "SJ-DC-DES05-03 Galactic Gigglefit",
@@ -2029,7 +2265,9 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRA-01-",
         "date_created": "20221225",
         "full_title": "SJ-DC-DRA-01: A Lush and Dangerous Fruit",
@@ -2046,11 +2284,13 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRA-02-",
         "date_created": "20221225",
         "full_title": "SJ-DC-DRA-02: To Find A Friend",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DRA-02--To-Find-A-Friend",
@@ -2063,11 +2303,13 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRA-03-",
         "date_created": "20221225",
         "full_title": "SJ-DC-DRA-03: What A Strange Blue World",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DRA-03--What-A-Strange-Blue-World",
@@ -2080,7 +2322,9 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRA-04-",
         "date_created": "20221225",
         "full_title": "SJ-DC-DRA-04: The Frigid Cold of Despair",
@@ -2097,7 +2341,9 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRA-05-",
         "date_created": "20221225",
         "full_title": "SJ-DC-DRA-05: The Hunger in the Marshes",
@@ -2115,7 +2361,9 @@
             "David Sklenicka",
             "Teddy Benson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRAGON-01",
         "date_created": "20230901",
         "full_title": "SJ-DC-DRAGON-01 : The Rock of Bral Caper",
@@ -2134,7 +2382,9 @@
             "David Sklenicka",
             "Teddy Benson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRAGON-02",
         "date_created": "20230926",
         "full_title": "SJ-DC-DRAGON-02 : Crossing the Void",
@@ -2153,7 +2403,9 @@
             "Teddy Benson",
             "David Sklenicka"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRAGON-03",
         "date_created": "20230926",
         "full_title": "SJ-DC-DRAGON-03 : The Starfire Gambit!",
@@ -2172,7 +2424,9 @@
             "Teddy Benson",
             "David Sklenicka"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DRAGON-04",
         "date_created": "20230926",
         "full_title": "SJ-DC-DRAGON-04 : The Call from Space!",
@@ -2190,11 +2444,13 @@
         "authors": [
             "Darion Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DSL-01",
         "date_created": "20231216",
         "full_title": "SJ-DC-DSL-01 A Nightmare for Kersfees",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DSL-01-A-Nightmare-for-Kersfees",
@@ -2208,11 +2464,13 @@
             "Darion Smith",
             "Leigh Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DSL-02",
         "date_created": "20231226",
         "full_title": "SJ-DC-DSL-02 What's Love Got To Do With It?",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DSL-02-Whats-Love-Got-To-Do-With-It",
@@ -2226,11 +2484,13 @@
             "Darion Smith",
             "Leigh Smith"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DSL-03",
         "date_created": "20231229",
         "full_title": "SJ-DC-DSL-03 Hail, Columbia",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-DSL-03-Hail-Columbia",
@@ -2243,7 +2503,9 @@
         "authors": [
             "A.K. Duck"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DUCKS-TTT-01",
         "date_created": "20230616",
         "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
@@ -2260,7 +2522,9 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ECHO-01",
         "date_created": "20220924",
         "full_title": "SJ-DC-ECHO-01 Starfall",
@@ -2277,7 +2541,9 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ECHO-02",
         "date_created": "20221231",
         "full_title": "SJ-DC-ECHO-02 Bug Hunt",
@@ -2294,7 +2560,9 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ECHO-03",
         "date_created": "20230222",
         "full_title": "SJ-DC-ECHO-03 Gold Rush",
@@ -2311,7 +2579,9 @@
         "authors": [
             "Mike Arrow"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ECHO-04",
         "date_created": "20230728",
         "full_title": "SJ-DC-ECHO-04 Return to Echo Three",
@@ -2328,7 +2598,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-END-01-01",
         "date_created": "20230305",
         "full_title": "SJ-DC-END-01-01 A Pirate's Life",
@@ -2345,7 +2617,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-END-01-02",
         "date_created": "20230329",
         "full_title": "SJ-DC-END-01-02 The Runaround",
@@ -2362,7 +2636,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-END-01-03",
         "date_created": "20230504",
         "full_title": "SJ-DC-END-01-03 Caught in the Crossfire",
@@ -2379,7 +2655,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-END-01-04",
         "date_created": "20230625",
         "full_title": "SJ-DC-END-01-04 Echoes in Space",
@@ -2396,7 +2674,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-END-01-05",
         "date_created": "20230711",
         "full_title": "SJ-DC-END-01-05 Fool's Hope",
@@ -2413,7 +2693,9 @@
         "authors": [
             "Steve Hill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-END-01-06",
         "date_created": "20231230",
         "full_title": "SJ-DC-END-01-06 Wildspace Race",
@@ -2430,7 +2712,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ENIGMA-",
         "date_created": "20231224",
         "full_title": "SJ-DC-ENIGMA: Bloom & Doom",
@@ -2447,7 +2731,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ENIGMA-",
         "date_created": "20231224",
         "full_title": "SJ-DC-ENIGMA: Bloom & Doom",
@@ -2464,15 +2750,17 @@
         "authors": [
             "Andrew Snelling"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EPOCH-01",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-01 Chasing the Morning Light",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-EPOCH-01-Chasing-the-Morning-Light",
-        "tiers": null,
+        "tiers": 0,
         "title": "Chasing the Morning Light",
         "url": "https://www.dmsguild.com/product/465725/SJDCEPOCH01-Chasing-the-Morning-Light?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2481,15 +2769,17 @@
         "authors": [
             "Andrew Snelling"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EPOCH-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-02 Darkening Skies",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-EPOCH-02-Darkening-Skies",
-        "tiers": null,
+        "tiers": 0,
         "title": "Darkening Skies",
         "url": "https://www.dmsguild.com/product/465728/SJDCEPOCH02-Darkening-Skies?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2498,15 +2788,17 @@
         "authors": [
             "Andrew Snelling"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EPOCH-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-03 Liminal Spaces",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-EPOCH-03-Liminal-Spaces",
-        "tiers": null,
+        "tiers": 0,
         "title": "Liminal Spaces",
         "url": "https://www.dmsguild.com/product/465729/SJDCEPOCH03-Liminal-Spaces?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2515,15 +2807,17 @@
         "authors": [
             "Andrew Snelling"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EPOCH-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-04 Across the Heavens",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-EPOCH-04-Across-the-Heavens",
-        "tiers": null,
+        "tiers": 0,
         "title": "Across the Heavens",
         "url": "https://www.dmsguild.com/product/465730/SJDCEPOCH04-Across-the-Heavens?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2532,7 +2826,9 @@
         "authors": [
             "Jaina Shaheen"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FAT-01",
         "date_created": "20230820",
         "full_title": "SJ-DC-FAT-01 Flight of the Chungus",
@@ -2549,7 +2845,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FLUMPH-01",
         "date_created": "20220924",
         "full_title": "SJ-DC-FLUMPH-01 Flurry of Flumphs",
@@ -2566,7 +2864,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FLUMPH-02",
         "date_created": "20230314",
         "full_title": "SJ-DC-FLUMPH-02 Frightmare of the Flux",
@@ -2583,7 +2883,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FLUMPH-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-FLUMPH-03 Flux Wars",
@@ -2600,7 +2902,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FLUMPH-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-FLUMPH-04 Flaw in the Machine",
@@ -2615,15 +2919,17 @@
     {
         "apl": null,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FTC-02",
         "date_created": "20240103",
         "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "465701",
-        "tiers": null,
+        "tiers": 0,
         "title": "A Ship Adrift v0.9",
         "url": "https://www.dmsguild.com/product/465701/SJDCFTC02-A-Ship-Adrift-v09?affiliate_id=171040&filters=1000042_0_100057_0_0_0_0_0"
     },
@@ -2632,15 +2938,17 @@
         "authors": [
             "John Rogers Jr."
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FTC-02",
         "date_created": "20240103",
         "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-FTC-02-A-Ship-Adrift-v09",
-        "tiers": null,
+        "tiers": 0,
         "title": "A Ship Adrift v0.9",
         "url": "https://www.dmsguild.com/product/465701/SJDCFTC02-A-Ship-Adrift-v09?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2649,7 +2957,9 @@
         "authors": [
             "Ken Wong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-GGS-01",
         "date_created": "20231230",
         "full_title": "SJ-DC-GGS-01 Avoid the Tabloids!",
@@ -2666,7 +2976,9 @@
         "authors": [
             "Maricris Ricana"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-GON-01",
         "date_created": "20231218",
         "full_title": "SJ-DC-GON-01 A Cage in the Void",
@@ -2683,7 +2995,9 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HAG",
         "date_created": "20231026",
         "full_title": "SJ-DC-HAG Put Your Hag Together",
@@ -2700,7 +3014,9 @@
         "authors": [
             "Bird Bird"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC",
         "date_created": "20221231",
         "full_title": "SJ-DC Happy New Year!",
@@ -2717,15 +3033,17 @@
         "authors": [
             "Ruth Imhoff"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HERO-02",
         "date_created": "20230608",
         "full_title": "SJ-DC-HERO-02 The Fortress of the Barracuda",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-HERO-02-The-Fortress-of-the-Barracuda",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Fortress of the Barracuda",
         "url": "https://www.dmsguild.com/product/440818/SJDCHERO02-The-Fortress-of-the-Barracuda?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2734,7 +3052,9 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HORNET-01",
         "date_created": "20230318",
         "full_title": "SJ-DC-HORNET-01 The Ghost Ship's Sting",
@@ -2751,15 +3071,17 @@
         "authors": [
             "Rob Froberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-IGC-ECP-01",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-01 Stoneheart",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-IGC-ECP-01-Stoneheart",
-        "tiers": null,
+        "tiers": 0,
         "title": "Stoneheart",
         "url": "https://www.dmsguild.com/product/465716/SJDCIGCECP01-Stoneheart?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2768,15 +3090,17 @@
         "authors": [
             "Rob Froberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-IGC-ECP-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-02 Coldsnap",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-IGC-ECP-02-Coldsnap",
-        "tiers": null,
+        "tiers": 0,
         "title": "Coldsnap",
         "url": "https://www.dmsguild.com/product/465722/SJDCIGCECP02-Coldsnap?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2785,15 +3109,17 @@
         "authors": [
             "Rob Froberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-IGC-ECP-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-03 Conflagration",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-IGC-ECP-03-Conflagration",
-        "tiers": null,
+        "tiers": 0,
         "title": "Conflagration",
         "url": "https://www.dmsguild.com/product/465724/SJDCIGCECP03-Conflagration?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2802,15 +3128,17 @@
         "authors": [
             "Rob Froberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-IGC-ECP-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-04 Cyclone",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-IGC-ECP-04-Cyclone",
-        "tiers": null,
+        "tiers": 0,
         "title": "Cyclone",
         "url": "https://www.dmsguild.com/product/465726/SJDCIGCECP04-Cyclone?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2819,15 +3147,17 @@
         "authors": [
             "Rob Froberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-IGC-ECP-05",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-05 Behold, Tiamatron",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-IGC-ECP-05-Behold-Tiamatron",
-        "tiers": null,
+        "tiers": 0,
         "title": "Behold, Tiamatron",
         "url": "https://www.dmsguild.com/product/465727/SJDCIGCECP05-Behold-Tiamatron?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -2836,7 +3166,9 @@
         "authors": [
             "Alec Shaner"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-INAS-03",
         "date_created": "20230113",
         "full_title": "SJ-DC-INAS-03 Swamp Strike",
@@ -2853,7 +3185,9 @@
         "authors": [
             "Alec Shaner"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-INAS-04",
         "date_created": "20231220",
         "full_title": "SJ-DC-INAS-04 Of Giants And Dragons: An Ancient Enemy Returns",
@@ -2868,7 +3202,9 @@
     {
         "apl": 13,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-INAS-04",
         "date_created": "20231220",
         "full_title": "SJ-DC-INAS-04 Of Giants And Dragons: An Ancient Enemy Returns",
@@ -2885,7 +3221,9 @@
         "authors": [
             "Alec Shaner"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-INAS-05",
         "date_created": "20231220",
         "full_title": "SJ-DC-INAS-05 Of Giants And Dragons: Assault on Rimedyl",
@@ -2900,7 +3238,9 @@
     {
         "apl": 13,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-INAS-05",
         "date_created": "20231220",
         "full_title": "SJ-DC-INAS-05 Of Giants And Dragons: Assault on Rimedyl",
@@ -2917,7 +3257,9 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-KEEP",
         "date_created": "20230310",
         "full_title": "SJ-DC-KEEP Kandlekeep Rekonstruktion",
@@ -2934,7 +3276,9 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-KIS01",
         "date_created": "20230724",
         "full_title": "SJ-DC-KIS01 Kobolds in Space!",
@@ -2952,11 +3296,13 @@
             "IGOR FARIA",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA01",
         "date_created": "20230914",
         "full_title": "SJ-DC-LIGA01 FINAL ASSAULT ON CORNELLIUM",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LIGA01-FINAL-ASSAULT-ON-CORNELLIUM",
@@ -2971,11 +3317,13 @@
             "Guilherme \u201cSirLockee\u201d",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA02",
         "date_created": "20231024",
         "full_title": "SJ-DC-LIGA02 THE RISEN CATACOMBS OF QUINTERRA",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LIGA02-THE-RISEN-CATACOMBS-OF-QUINTERRA",
@@ -2990,11 +3338,13 @@
             "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA03",
         "date_created": "20231219",
         "full_title": "SJ-DC-LIGA03 THE DARK HUNGER",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LIGA03-THE-DARK-HUNGER",
@@ -3008,11 +3358,13 @@
             "Patr\u00edcia Brito",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA04",
         "date_created": "20231227",
         "full_title": "SJ-DC-LIGA04 DEEP EXPEDITION TO LANTAN",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LIGA04-DEEP-EXPEDITION-TO-LANTAN",
@@ -3027,11 +3379,13 @@
             "Johnny Smith",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA05",
         "date_created": "20231230",
         "full_title": "SJ-DC-LIGA05 OOZED AND CONFUSED",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LIGA05-OOZED-AND-CONFUSED",
@@ -3042,11 +3396,13 @@
     {
         "apl": null,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA06",
         "date_created": "20231231",
         "full_title": "SJ-DC-LIGA06 A STRIKE TO HADAR'S TENTACLES",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "465669",
@@ -3060,11 +3416,13 @@
             "Lu\u00eds Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LIGA06",
         "date_created": "20231231",
         "full_title": "SJ-DC-LIGA06 A STRIKE TO HADAR'S TENTACLES",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LIGA06-A-STRIKE-TO-HADARS-TENTACLES",
@@ -3077,7 +3435,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LNS-01",
         "date_created": "20221024",
         "full_title": "SJ-DC-LNS-01 Spelljammer of the Damned",
@@ -3094,7 +3454,9 @@
         "authors": [
             "Rick Way"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-LP-01",
         "date_created": "20221126",
         "full_title": "SJ-DC-LP-01 Litter Patrol",
@@ -3102,7 +3464,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-LP-01-Litter-Patrol",
-        "tiers": null,
+        "tiers": 0,
         "title": "Litter Patrol",
         "url": "https://www.dmsguild.com/product/417717/SJDCLP01-Litter-Patrol?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -3112,7 +3474,9 @@
             "Darryl Ho",
             "Ooi Qi En"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC_LP-01",
         "date_created": "20231230",
         "full_title": "SJ-DC_LP-01 Lost in Paradise",
@@ -3129,7 +3493,9 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MAD-01",
         "date_created": "20221023",
         "full_title": "SJ-DC-MAD-01 Madjammer Nightmare Dome",
@@ -3146,7 +3512,9 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MAD-02",
         "date_created": "20230123",
         "full_title": "SJ-DC-MAD-02 Mad Effect: Retribution",
@@ -3163,7 +3531,9 @@
         "authors": [
             "Kelly Samuelson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MIST-01",
         "date_created": "20231205",
         "full_title": "SJ-DC-MIST-01 The Haunted Moon",
@@ -3180,7 +3550,9 @@
         "authors": [
             "Kelly Samuelson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MIST-02",
         "date_created": "20231230",
         "full_title": "SJ-DC-MIST-02 Radiant Descent",
@@ -3197,7 +3569,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MONSTER-01",
         "date_created": "20230213",
         "full_title": "SJ-DC-MONSTER-01 Phoenix",
@@ -3214,11 +3588,13 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MONSTER-02",
         "date_created": "20230911",
         "full_title": "SJ-DC-MONSTER-02 Leviathan",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-MONSTER-02-Leviathan",
@@ -3231,7 +3607,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MONSTER-03",
         "date_created": "20231116",
         "full_title": "SJ-DC-MONSTER-03 Zaratan",
@@ -3248,7 +3626,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MONSTER-04",
         "date_created": "20231230",
         "full_title": "SJ-DC-MONSTER-04 Tempest",
@@ -3265,11 +3645,13 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-MWG-01",
         "date_created": "20230807",
         "full_title": "SJ-DC-MWG-01 Playing with the Boys",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-MWG-01-Playing-with-the-Boys",
@@ -3282,7 +3664,9 @@
         "authors": [
             "Addy Tortosa"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NCH-01",
         "date_created": "20221103",
         "full_title": "SJ-DC-NCH-01 A String of Pearls",
@@ -3299,7 +3683,9 @@
         "authors": [
             "Addy Tortosa"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NCH-02",
         "date_created": "20230104",
         "full_title": "SJ-DC-NCH-02 Let's Go, S.A.G.O!",
@@ -3316,7 +3702,9 @@
         "authors": [
             "Addy Tortosa"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NCH-02",
         "date_created": "20230104",
         "full_title": "SJ-DC-NCH-02 Let's Go, S.A.G.O!",
@@ -3333,7 +3721,9 @@
         "authors": [
             "N. M. Brickle"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NMB1-01",
         "date_created": "20230330",
         "full_title": "SJ-DC-NMB1-01 An Enemy",
@@ -3350,7 +3740,9 @@
         "authors": [
             "N. M. Brickle"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NMB1-02",
         "date_created": "20230704",
         "full_title": "SJ-DC-NMB1-02 Kindred Spirits",
@@ -3367,7 +3759,9 @@
         "authors": [
             "N. M. Brickle"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NMB1-03",
         "date_created": "20231227",
         "full_title": "SJ-DC-NMB1-03 Conclusion in Karpri",
@@ -3385,7 +3779,9 @@
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NOS-02",
         "date_created": "20230107",
         "full_title": "SJ-DC-NOS-02 A Rogue Heart",
@@ -3403,7 +3799,9 @@
             "Katriel Paige",
             "Lex Winter"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NOS-03",
         "date_created": "20230402",
         "full_title": "SJ-DC-NOS-03 Sol Crash",
@@ -3420,15 +3818,17 @@
         "authors": [
             "Joel Sussenberger"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-OGC-01",
         "date_created": "20231229",
         "full_title": "SJ-DC-OGC-01 - The Hunt: For Moby Duck",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-OGC-01---The-Hunt--For-Moby-Duck",
-        "tiers": null,
+        "tiers": 0,
         "title": "- The Hunt For Moby Duck",
         "url": "https://www.dmsguild.com/product/465366/SJDCOGC01--The-Hunt-For-Moby-Duck?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -3437,7 +3837,9 @@
         "authors": [
             "Arthur  Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-OLD-ONE",
         "date_created": "20231218",
         "full_title": "SJ-DC-OLD-ONE Broken Pact",
@@ -3454,11 +3856,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PANDORA-JWEI-01",
         "date_created": "20230825",
         "full_title": "SJ-DC-PANDORA-JWEI-01, The Pandora Box",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-PANDORA-JWEI-01-The-Pandora-Box",
@@ -3471,11 +3875,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PANDORA-JWEI-02",
         "date_created": "20231017",
         "full_title": "SJ-DC-PANDORA-JWEI-02, Pleonexia",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-PANDORA-JWEI-02-Pleonexia",
@@ -3488,11 +3894,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PANDORA-JWEI-03A",
         "date_created": "20231017",
         "full_title": "SJ-DC-PANDORA-JWEI-03A, Astheneia",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-PANDORA-JWEI-03A-Astheneia",
@@ -3505,11 +3913,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PANDORA-JWEI-03B",
         "date_created": "20231017",
         "full_title": "SJ-DC-PANDORA-JWEI-03B, Felix!",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-PANDORA-JWEI-03B-Felix",
@@ -3522,11 +3932,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PANDORA-JWEI-04",
         "date_created": "20231019",
         "full_title": "SJ-DC-PANDORA-JWEI-04, Fenrir",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-PANDORA-JWEI-04-Fenrir",
@@ -3539,7 +3951,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-02-",
         "date_created": "20230826",
         "full_title": "SJ-DC-PHP-02: Securing Passage",
@@ -3556,7 +3970,9 @@
         "authors": [
             "Kate Lacambra"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-LRD-01",
         "date_created": "20230928",
         "full_title": "SJ-DC-PHP-LRD-01 The First Shades of Dusk",
@@ -3573,7 +3989,9 @@
         "authors": [
             "Kate Lacambra"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-LRD-02",
         "date_created": "20231226",
         "full_title": "SJ-DC-PHP-LRD-02 The Last Rays of Dawn",
@@ -3590,7 +4008,9 @@
         "authors": [
             "jio alba"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-ORNG",
         "date_created": "20231231",
         "full_title": "SJ-DC-PHP-ORNG: Thousand Tiny Ducks",
@@ -3605,7 +4025,9 @@
     {
         "apl": 14,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-ORNG-",
         "date_created": "20231231",
         "full_title": "SJ-DC-PHP-ORNG: Thousand Tiny Ducks",
@@ -3622,11 +4044,13 @@
         "authors": [
             "T.Y. Montiflor"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-TY-VAL-01",
         "date_created": "20230902",
         "full_title": "SJ-DC-PHP-TY-VAL-01 i give you this gift of wings",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-PHP-TY-VAL-01-i-give-you-this-gift-of-wings",
@@ -3639,7 +4063,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-WUMBO-",
         "date_created": "20221104",
         "full_title": "SJ-DC-PHP-WUMBO: Flight of the Wumbo Bee",
@@ -3657,7 +4083,9 @@
             "Rebecca Farrar",
             "Jeff Kuta"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-RFJK-01",
         "date_created": "20221125",
         "full_title": "SJ-DC-RFJK-01 Bringing Home the Bacon",
@@ -3675,7 +4103,9 @@
             "Rebecca Farrar",
             "Jeff Kuta"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-RFJK-02-01",
         "date_created": "20231231",
         "full_title": "SJ-DC-RFJK-02-01 Rrakkma Recruitment",
@@ -3693,7 +4123,9 @@
             "Rebecca Farrar",
             "Jeff Kuta"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-RFJK-02-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-RFJK-02-02 Intelligent Intention",
@@ -3711,7 +4143,9 @@
             "Rebecca Farrar",
             "Jeff Kuta"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-RFJK-02-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-RFJK-02-03 Colony Calling",
@@ -3728,7 +4162,9 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROCK-01",
         "date_created": "20230617",
         "full_title": "SJ-DC-ROCK-01 Turmoil in Bral",
@@ -3745,7 +4181,9 @@
         "authors": [
             "Arthur Marques"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROCK-02",
         "date_created": "20230930",
         "full_title": "SJ-DC-ROCK-02 Bral Under Siege",
@@ -3762,7 +4200,9 @@
         "authors": [
             "JD McComb"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROG-01-RESCUE",
         "date_created": "20231223",
         "full_title": "SJ-DC-ROG-01-Rescue on Glyth",
@@ -3779,11 +4219,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-00",
         "date_created": "20230522",
         "full_title": "SJ-DC-ROTU-00 Recesses of the Unknown, Prologue",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-00-Recesses-of-the-Unknown-Prologue",
@@ -3796,11 +4238,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-01",
         "date_created": "20230523",
         "full_title": "SJ-DC-ROTU-01 Recesses of the Unknown",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-01-Recesses-of-the-Unknown",
@@ -3813,11 +4257,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-02",
         "date_created": "20230523",
         "full_title": "SJ-DC-ROTU-02 Prelude to Finality",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-02-Prelude-to-Finality",
@@ -3830,11 +4276,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-03",
         "date_created": "20230523",
         "full_title": "SJ-DC-ROTU-03 Hubris of Gods",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-03-Hubris-of-Gods",
@@ -3847,11 +4295,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-04",
         "date_created": "20230523",
         "full_title": "SJ-DC-ROTU-04 Declaration of War",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-04-Declaration-of-War",
@@ -3864,11 +4314,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-05",
         "date_created": "20230523",
         "full_title": "SJ-DC-ROTU-05 Return of the Unknown I",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-05-Return-of-the-Unknown-I",
@@ -3881,11 +4333,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-06",
         "date_created": "20230609",
         "full_title": "SJ-DC-ROTU-06 Return of the Unknown II",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-06-Return-of-the-Unknown-II",
@@ -3898,11 +4352,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ROTU-07",
         "date_created": "20230806",
         "full_title": "SJ-DC-ROTU-07 Recesses of the Unknown, Epilogue",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-ROTU-07-Recesses-of-the-Unknown-Epilogue",
@@ -3916,7 +4372,9 @@
             "Mickey Tan",
             "Jay Africa"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SCN-01",
         "date_created": "20221129",
         "full_title": "SJ-DC-SCN-01 Monkey Business",
@@ -3934,7 +4392,9 @@
             "Jay Africa",
             "Nguyen Le"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SCN-02",
         "date_created": "20230303",
         "full_title": "SJ-DC-SCN-02 Monkey King",
@@ -3951,7 +4411,9 @@
         "authors": [
             "Marcello De Velazquez"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SCR-01",
         "date_created": "20221224",
         "full_title": "SJ-DC-SCR-01 Scraps for the Dragon",
@@ -3968,7 +4430,9 @@
         "authors": [
             "Scott Moore"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SSM-UBCON-01",
         "date_created": "20230530",
         "full_title": "SJ-DC-SSM-UBCon-01 On (The) Edge",
@@ -3985,7 +4449,9 @@
         "authors": [
             "Marc-Sebastian Lucksch"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SUS-01",
         "date_created": "20231109",
         "full_title": "SJ-DC-SUS-01 Starship Under Siege",
@@ -4002,7 +4468,9 @@
         "authors": [
             "Mitch Gatt"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SYL-01",
         "date_created": "20220930",
         "full_title": "SJ-DC-SYL-01 Prismatic Invitation",
@@ -4019,7 +4487,9 @@
         "authors": [
             "Mitch Gatt"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SYL-02",
         "date_created": "20230828",
         "full_title": "SJ-DC-SYL-02 Prismatic Induction",
@@ -4036,7 +4506,9 @@
         "authors": [
             "Mlouden"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TBE-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-TBE-04 A Space Rendezvous",
@@ -4053,11 +4525,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TBS-01",
         "date_created": "20230627",
         "full_title": "SJ-DC-TBS-01, Duo Death",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TBS-01-Duo-Death",
@@ -4070,11 +4544,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TBS-02",
         "date_created": "20230629",
         "full_title": "SJ-DC-TBS-02, Infernal Immolators",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TBS-02-Infernal-Immolators",
@@ -4087,11 +4563,13 @@
         "authors": [
             "JWei\u4f1f"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TBS-04",
         "date_created": "20231028",
         "full_title": "SJ-DC-TBS-04, Brightshill",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TBS-04-Brightshill",
@@ -4104,15 +4582,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-01",
         "date_created": "20231224",
         "full_title": "SJ-DC-TEL-01 Strange Light in the Darkness",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-01-Strange-Light-in-the-Darkness",
-        "tiers": null,
+        "tiers": 0,
         "title": "Strange Light in the Darkness",
         "url": "https://www.dmsguild.com/product/464909/SJDCTEL01-Strange-Light-in-the-Darkness?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4121,15 +4601,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-02 Lure of the Transient",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-02-Lure-of-the-Transient",
-        "tiers": null,
+        "tiers": 0,
         "title": "Lure of the Transient",
         "url": "https://www.dmsguild.com/product/465458/SJDCTEL02-Lure-of-the-Transient?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4138,15 +4620,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-03 Pieces of Pain",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-03-Pieces-of-Pain",
-        "tiers": null,
+        "tiers": 0,
         "title": "Pieces of Pain",
         "url": "https://www.dmsguild.com/product/465643/SJDCTEL03-Pieces-of-Pain?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4155,15 +4639,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-04 Turn of the Tide",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-04-Turn-of-the-Tide",
-        "tiers": null,
+        "tiers": 0,
         "title": "Turn of the Tide",
         "url": "https://www.dmsguild.com/product/465462/SJDCTEL04-Turn-of-the-Tide?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4172,7 +4658,9 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-05",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-05 Many, Many Modrons",
@@ -4189,15 +4677,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-06",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-06 Misery Loves Company",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-06-Misery-Loves-Company",
-        "tiers": null,
+        "tiers": 0,
         "title": "Misery Loves Company",
         "url": "https://www.dmsguild.com/product/465464/SJDCTEL06-Misery-Loves-Company?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4206,15 +4696,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-07",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-07 At the Mouth of Decidua",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-07-At-the-Mouth-of-Decidua",
-        "tiers": null,
+        "tiers": 0,
         "title": "At the Mouth of Decidua",
         "url": "https://www.dmsguild.com/product/465465/SJDCTEL07-At-the-Mouth-of-Decidua?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4223,15 +4715,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-08",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-08 Seclusion of the Snakelords",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-08-Seclusion-of-the-Snakelords",
-        "tiers": null,
+        "tiers": 0,
         "title": "Seclusion of the Snakelords",
         "url": "https://www.dmsguild.com/product/465563/SJDCTEL08-Seclusion-of-the-Snakelords?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4240,15 +4734,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-09",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-09 The Noble Struggle",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-09-The-Noble-Struggle",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Noble Struggle",
         "url": "https://www.dmsguild.com/product/465564/SJDCTEL09-The-Noble-Struggle?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4257,15 +4753,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-10",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-10 Chamber of Strife",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-10-Chamber-of-Strife",
-        "tiers": null,
+        "tiers": 0,
         "title": "Chamber of Strife",
         "url": "https://www.dmsguild.com/product/465719/SJDCTEL10-Chamber-of-Strife?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4274,15 +4772,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-11",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-11 Temptation for Tiamat",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-11-Temptation-for-Tiamat",
-        "tiers": null,
+        "tiers": 0,
         "title": "Temptation for Tiamat",
         "url": "https://www.dmsguild.com/product/465570/SJDCTEL11-Temptation-for-Tiamat?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4291,15 +4791,17 @@
         "authors": [
             "Eric Weberg"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TEL-12",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-12 Tiamat Wept",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TEL-12-Tiamat-Wept",
-        "tiers": null,
+        "tiers": 0,
         "title": "Tiamat Wept",
         "url": "https://www.dmsguild.com/product/465571/SJDCTEL12-Tiamat-Wept?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4309,7 +4811,9 @@
             "MykeMyke",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-MYKE-01",
         "date_created": "20221222",
         "full_title": "SJ-DC-TRIDEN-MYKE-01 Every Breath You Take",
@@ -4327,7 +4831,9 @@
             "MykeMyke",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-MYKE-02",
         "date_created": "20231214",
         "full_title": "SJ-DC-TRIDEN-MYKE-02 Every Move You Make",
@@ -4345,7 +4851,9 @@
             "MykeMyke",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-MYKE-03",
         "date_created": "20231230",
         "full_title": "SJ-DC-TRIDEN-MYKE-03 Every Bond You Break",
@@ -4363,7 +4871,9 @@
             "Shane Hogan",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-SD",
         "date_created": "20230126",
         "full_title": "SJ-DC-TRIDEN-SD Shot in The Dark",
@@ -4380,7 +4890,9 @@
         "authors": [
             "TRIDEN Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-TFC",
         "date_created": "20231231",
         "full_title": "SJ-DC-TRIDEN-TFC The Final Countdown",
@@ -4397,7 +4909,9 @@
         "authors": [
             "Matthew Barry"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-UPR",
         "date_created": "20230120",
         "full_title": "SJ-DC-TRIDEN-UPR Under Pressure",
@@ -4414,7 +4928,9 @@
         "authors": [
             "Aileen Adriane Cerrudo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TST-01",
         "date_created": "20221010",
         "full_title": "SJ-DC-TST-01 Bulan (Moon)",
@@ -4431,7 +4947,9 @@
         "authors": [
             "Aileen Adriane Cerrudo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TST-02",
         "date_created": "20230217",
         "full_title": "SJ-DC-TST-02 Datu (Chief)",
@@ -4448,7 +4966,9 @@
         "authors": [
             "Aileen Adriane Cerrudo"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TST-03",
         "date_created": "20231223",
         "full_title": "SJ-DC-TST-03 Bakunawa",
@@ -4465,11 +4985,13 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TTUC-01",
         "date_created": "20230210",
         "full_title": "SJ-DC-TTUC-01 Shipyard Dilemma",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TTUC-01-Shipyard-Dilemma",
@@ -4482,7 +5004,9 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TTUC-02",
         "date_created": "20230611",
         "full_title": "SJ-DC-TTUC-02 Among Us",
@@ -4499,7 +5023,9 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TTUC-03",
         "date_created": "20231016",
         "full_title": "SJ-DC-TTUC-03 Will of King",
@@ -4516,7 +5042,9 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TTUC-04",
         "date_created": "20231229",
         "full_title": "SJ-DC-TTUC-04 I want a Giff for Winter Solstice",
@@ -4533,7 +5061,9 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TTUC-05",
         "date_created": "20230711",
         "full_title": "SJ-DC-TTUC-05 5 by 5",
@@ -4550,11 +5080,13 @@
         "authors": [
             "Ting Yuen Tjiong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TTUC-06",
         "date_created": "20231218",
         "full_title": "SJ-DC-TTUC-06 Party Crashers",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "SJ-DC-TTUC-06-Party-Crashers",
@@ -4569,7 +5101,9 @@
             "Camille G.",
             "Chris D."
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-UNITE-01",
         "date_created": "20231224",
         "full_title": "SJ-DC-UNITE-01 Asteroid Escape",
@@ -4587,7 +5121,9 @@
             "Unite the Factions",
             "Michelle Churchill"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-UNITE-02",
         "date_created": "20231224",
         "full_title": "SJ-DC-UNITE-02 Stranded",
@@ -4605,7 +5141,9 @@
             "Unite the Factions",
             "Dave McGuinness"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-UNITE-03",
         "date_created": "20231224",
         "full_title": "SJ-DC-UNITE-03 The Root of All Evil",
@@ -4622,7 +5160,9 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VMT-01",
         "date_created": "20230102",
         "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",
@@ -4637,7 +5177,9 @@
     {
         "apl": 13,
         "authors": [],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VMT-01",
         "date_created": "20230102",
         "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",
@@ -4654,7 +5196,9 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VMT-02",
         "date_created": "20230414",
         "full_title": "SJ-DC-VMT-02 Lonesome Grub",
@@ -4671,7 +5215,9 @@
         "authors": [
             "Mitchell Tee"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VMT-03",
         "date_created": "20230919",
         "full_title": "SJ-DC-VMT-03 Green Hills of the Affricate",
@@ -4688,7 +5234,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-WINE-01",
         "date_created": "20230520",
         "full_title": "SJ-DC-WINE-01 Thunderstorms & Wine",
@@ -4705,7 +5253,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-WINE-01",
         "date_created": "20230520",
         "full_title": "SJ-DC-WINE-01 Thunderstorms & Wine",
@@ -4722,7 +5272,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ZODIAC-14-01",
         "date_created": "20230923",
         "full_title": "SJ-DC-ZODIAC-14-01 Fortune's Favor",
@@ -4739,7 +5291,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ZODIAC-14-02",
         "date_created": "20231125",
         "full_title": "SJ-DC-ZODIAC-14-02 Fey Inferno",
@@ -4756,7 +5310,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ZODIAC-14-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-ZODIAC-14-03 Herald of War",
@@ -4774,7 +5330,9 @@
             "Darryl Ho",
             "Ooi Qi En"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC_LP-01",
         "date_created": "20231230",
         "full_title": "SJ-DC_LP-01 Lost in Paradise",
@@ -4791,7 +5349,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-01",
         "date_created": "20230720",
         "full_title": "Slammed (SJ-DC-BST-01)",
@@ -4809,7 +5369,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-07",
         "date_created": "20231014",
         "full_title": "Sleep Now in the Fire (SJ-DC-ANGKA-07)",
@@ -4826,7 +5388,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PAT-02",
         "date_created": "20230416",
         "full_title": "Snake-Eye Satellite (SJ-DC-PAT-02)",
@@ -4843,7 +5407,9 @@
         "authors": [
             "Christian Brazil"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VEN-01",
         "date_created": "20221211",
         "full_title": "S.O.S. (SJ-DC-VEN-01)",
@@ -4851,7 +5417,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "SOS-SJ-DC-VEN-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "S.O.S.",
         "url": "https://www.dmsguild.com/product/419577/SOS-SJDCVEN01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -4860,7 +5426,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BAD-02",
         "date_created": "20231213",
         "full_title": "Space Hamsterball Run! (SJ-DC-BAD-02)",
@@ -4877,7 +5445,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ISL-01",
         "date_created": "20221214",
         "full_title": "Speck in the Sky (SJ-DC-ISL-01)",
@@ -4894,7 +5464,9 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SQD",
         "date_created": "20220924",
         "full_title": "Squidaddle! (SJ-DC-SQD)",
@@ -4911,7 +5483,9 @@
         "authors": [
             "Brian Balagot"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-SQD2",
         "date_created": "20230408",
         "full_title": "Squidoosh! (SJ-DC-SQD2)",
@@ -4928,7 +5502,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-DFA-06",
         "date_created": "20231124",
         "full_title": "Suckerpunch (SJ-DC-DFA-06)",
@@ -4946,7 +5522,9 @@
             "Jamie Chan",
             "Triden Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TRIDEN-BZ",
         "date_created": "20231230",
         "full_title": "Sweet Dreams are Made of Bees (SJ-DC-TRIDEN-BZ)",
@@ -4964,7 +5542,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-03",
         "date_created": "20230731",
         "full_title": "Taken in the Early Morning (SJ-DC-BST-03)",
@@ -4983,7 +5563,9 @@
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NOS-01",
         "date_created": "20221112",
         "full_title": "Terminal Escape Velocity SJ-DC-NOS-01",
@@ -4991,7 +5573,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Terminal-Escape-Velocity-SJ-DC-NOS-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "Terminal Escape Velocity",
         "url": "https://www.dmsguild.com/product/416561/Terminal-Escape-Velocity-SJDCNOS01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5000,7 +5582,9 @@
         "authors": [
             "Pauline Feraren"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-BORK",
         "date_created": "20230511",
         "full_title": "The Borkfather (SJ-DC-PHP-BORK)",
@@ -5017,7 +5601,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-COD",
         "date_created": "20231230",
         "full_title": "The Cods Must Be Crazy (SJ-DC-COD)",
@@ -5034,7 +5620,9 @@
         "authors": [
             "Sergio Solorzano"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FLF-01",
         "date_created": "20231219",
         "full_title": "The Floof From Planet Floof (SJ-DC-FLF-01)",
@@ -5051,7 +5639,9 @@
         "authors": [
             "Matt Brown"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-THID-MB04",
         "date_created": "20230118",
         "full_title": "The Horror in Darkfall SJ-DC-THID-MB04",
@@ -5068,7 +5658,9 @@
         "authors": [
             "Belinda Baldwin"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BEB-01",
         "date_created": "20221202",
         "full_title": "The Hunger (SJ-DC-BEB-01)",
@@ -5085,7 +5677,9 @@
         "authors": [
             "Christian Brazil"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-VEN-02",
         "date_created": "20230720",
         "full_title": "The Hypocritic Oath (SJ-DC-VEN-02)",
@@ -5093,7 +5687,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Hypocritic-Oath-SJ-DC-VEN-02",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Hypocritic Oath",
         "url": "https://www.dmsguild.com/product/446296/The-Hypocritic-Oath-SJDCVEN02?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5102,7 +5696,9 @@
         "authors": [
             "Hunter Sinclair"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-HYS-01",
         "date_created": "20230420",
         "full_title": "The Hystero SJ-DC-HYS-01 (5e)",
@@ -5115,33 +5711,18 @@
         "url": "https://www.dmsguild.com/product/434610/The-Hystero-SJDCHYS01-5e?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 8,
-        "authors": [
-            "Jeff Arnason"
-        ],
-        "campaigns": [],
-        "code": "SJ-DC-FXC-JEFF-01",
-        "date_created": "20230820",
-        "full_title": "the Intergalactic Rodeo",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "SJ-DC-FXC-JEFF-01",
-        "tiers": 2,
-        "title": "the Intergalactic Rodeo",
-        "url": "https://www.dmsguild.com/product/450081/the-Intergalactic-Rodeo?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 14,
         "authors": [
             "Lex Winter",
             "Katriel Paige"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NOS-05",
         "date_created": "20231029",
         "full_title": "The Lich Queen's Forgotten (SJ-DC-NOS-05)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "The-Lich-Queens-Forgotten-SJ-DC-NOS-05",
@@ -5154,7 +5735,9 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PND-3",
         "date_created": "20231231",
         "full_title": "The Little Monster (SJ-DC-PND-3)",
@@ -5172,7 +5755,9 @@
         "authors": [
             "Noah Grand"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-STRATCON-01",
         "date_created": "20230526",
         "full_title": "The Lost God (SJ-DC-STRATCON-01)",
@@ -5189,7 +5774,9 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PND-1",
         "date_created": "20231231",
         "full_title": "The Monster at the End of this Adventure (SJ-DC-PND-1)",
@@ -5207,7 +5794,9 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PAT-00",
         "date_created": "20221206",
         "full_title": "The Moonshot (SJ-DC-PAT-00)",
@@ -5224,7 +5813,9 @@
         "authors": [
             "Johann Taslim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ANGKA-02",
         "date_created": "20221022",
         "full_title": "The Pursuit of Happiness (SJ-DC-ANGKA-02)",
@@ -5241,11 +5832,13 @@
         "authors": [
             "Daniel Chapman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PND-2",
         "date_created": "20231231",
         "full_title": "The Very Hungry Monster (SJ-DC-PND-2)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -5259,7 +5852,9 @@
         "authors": [
             "Tricia Monsod"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-TKM-02",
         "date_created": "20230327",
         "full_title": "Tink, Tink, Boom! (SJ-DC-TKM-02)",
@@ -5267,7 +5862,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Tink-Tink-Boom-SJ-DC-TKM-02",
-        "tiers": null,
+        "tiers": 0,
         "title": "Tink, Tink, Boom!",
         "url": "https://www.dmsguild.com/product/431720/Tink-Tink-Boom-SJDCTKM02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5276,7 +5871,9 @@
         "authors": [
             "Chubby Goblin Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CGG-02",
         "date_created": "20231017",
         "full_title": "To Kill an Empress (SJ-DC-CGG-02)",
@@ -5284,7 +5881,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "To-Kill-an-Empress-SJ-DC-CGG-02",
-        "tiers": null,
+        "tiers": 0,
         "title": "To Kill an Empress",
         "url": "https://www.dmsguild.com/product/456879/To-Kill-an-Empress-SJDCCGG02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5293,7 +5890,9 @@
         "authors": [
             "Chubby Goblin Games"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-CGG-01",
         "date_created": "20230604",
         "full_title": "To Raise a Princess (SJ-DC-CGG-01)",
@@ -5301,7 +5900,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "To-Raise-a-Princess-SJ-DC-CGG-01",
-        "tiers": null,
+        "tiers": 0,
         "title": "To Raise a Princess",
         "url": "https://www.dmsguild.com/product/440055/To-Raise-a-Princess-SJDCCGG01?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5310,11 +5909,13 @@
         "authors": [
             "Bryan Mets"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-BST-07",
         "date_created": "20230930",
         "full_title": "Tying the Knot (SJ-DC-BST-07)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
@@ -5328,7 +5929,9 @@
         "authors": [
             "Franz Bedonia"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-PHP-FLN01-03",
         "date_created": "20230527",
         "full_title": "Unsworn Oath (SJ-DC-PHP-FLN01-03)",
@@ -5336,7 +5939,7 @@
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "Unsworn-Oath-SJ-DC-PHP-FLN01-03",
-        "tiers": null,
+        "tiers": 0,
         "title": "Unsworn Oath",
         "url": "https://www.dmsguild.com/product/439154/Unsworn-Oath-SJDCPHPFLN0103?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5345,15 +5948,17 @@
         "authors": [
             "PT MacKim"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-EBAL-SPKY-03",
         "date_created": "20221130",
         "full_title": "Voidweaver's Web (SJ-DC-EBAL-SPKY-03)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Voidweavers-Web-SJ-DC-EBAL-SPKY-03",
-        "tiers": null,
+        "tiers": 0,
         "title": "Voidweaver's Web",
         "url": "https://www.dmsguild.com/product/418304/Voidweavers-Web-SJDCEBALSPKY03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5362,7 +5967,9 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FAUX-04",
         "date_created": "20230731",
         "full_title": "Wayfarer's Log: The Art of War (SJ-DC-FAUX-04)",
@@ -5379,7 +5986,9 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FAUX-01",
         "date_created": "20220924",
         "full_title": "Wayfarer's Log: The Dohwar Chronicle (SJ-DC-FAUX-01)",
@@ -5396,7 +6005,9 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FAUX-02",
         "date_created": "20230404",
         "full_title": "Wayfarer's Log: The Hamster Trail (SJ-DC-FAUX-02)",
@@ -5413,7 +6024,9 @@
         "authors": [
             "Jamie Chan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-FAUX-03",
         "date_created": "20230522",
         "full_title": "Wayfarer's Log: The Lunar Sea (SJ-DC-FAUX-03)",
@@ -5430,33 +6043,41 @@
         "authors": [
             "Robbie Pleasant"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-NBDD-01",
         "date_created": "20221231",
         "full_title": "Where in the Worlds? (SJ-DC-NBDD-01)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "Where-in-the-Worlds-SJ-DC-NBDD-01",
-        "tiers": null,
+        "price": 4.99,
+        "product_id": "421708",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Where in the Worlds?",
-        "url": "https://www.dmsguild.com/product/421708/Where-in-the-Worlds-SJDCNBDD01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/421708/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
             "Brian Balagot"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "SJ-DC-ETA",
         "date_created": "20220918",
         "full_title": "You Are My Sunshine (SJ-DC-ETA)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "You-Are-My-Sunshine-SJ-DC-ETA",
+        "price": 46.36,
+        "product_id": "410667",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "You Are My Sunshine",
-        "url": "https://www.dmsguild.com/product/410667/You-Are-My-Sunshine-SJDCETA?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/410667/?affiliate_id=171040"
     }
 ]

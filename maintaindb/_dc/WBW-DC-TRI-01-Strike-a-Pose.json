@@ -12,9 +12,11 @@
     "full_title": "WBW-DC-TRI-01 Strike a Pose",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-TRI-01-Strike-a-Pose",
+    "level_range": "1-4",
+    "price": null,
+    "product_id": "380172",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 1,
     "title": "Strike a Pose",
-    "url": "https://www.dmsguild.com/product/380172/WBWDCTRI01-Strike-a-Pose?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/380172/?affiliate_id=171040"
 }

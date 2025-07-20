@@ -10,10 +10,12 @@
     "date_created": "20220831",
     "full_title": "The Cathedral of the Fomorian Hierophant",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "5-10",
-    "product_id": 408601,
+    "price": 6.99,
+    "product_id": "408601",
+    "season": null,
     "tiers": 2,
     "title": "The Cathedral of the Fomorian Hierophant",
-    "url": "https://www.dmsguild.com/product/408601/The-Cathedral-of-the-Fomorian-Hierophant?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408601/?affiliate_id=171040"
 }

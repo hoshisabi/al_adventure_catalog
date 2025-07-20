@@ -1,44 +1,33 @@
 [
     {
-        "apl": null,
-        "authors": [
-            "Stefan Tomaschitz"
-        ],
-        "campaigns": [],
-        "code": "RV-DC-SDG-01",
-        "date_created": "20240811",
-        "full_title": "A Cursed Key",
-        "hours": "3",
-        "is_adventure": true,
-        "level_range": "1-2",
-        "product_id": "A-Cursed-Key-20240811",
-        "tiers": 1,
-        "title": "A Cursed Key",
-        "url": "https://www.dmsguild.com/product/491254/A-Cursed-Key?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 8,
         "authors": [
             "Katriel Paige"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-POE-01",
         "date_created": "20241013",
         "full_title": "A Peculiar Premiere RV-DC-POE-01",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "A-Peculiar-Premiere-RV-DC-POE-01",
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "498757",
+        "season": null,
         "tiers": 2,
         "title": "A Peculiar Premiere",
-        "url": "https://www.dmsguild.com/product/498757/A-Peculiar-Premiere-RVDCPOE01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/498757/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
             "the illuminhaughti"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HBI-002",
         "date_created": "20230731",
         "full_title": "Domains of Dread: Doom Down in Boomtown (RV-DC-HBI-002)",
@@ -46,7 +35,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Domains-of-Dread--Doom-Down-in-Boomtown-RV-DC-HBI-002",
-        "tiers": null,
+        "tiers": 0,
         "title": "Domains of Dread Doom Down in Boomtown",
         "url": "https://www.dmsguild.com/product/447852/Domains-of-Dread-Doom-Down-in-Boomtown-RVDCHBI002?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -55,7 +44,9 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HBI-003",
         "date_created": "20230912",
         "full_title": "Domains of Dread: Terror in Tombstone (RV-DC-HBI-003)",
@@ -63,7 +54,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "Domains-of-Dread--Terror-in-Tombstone-RV-DC-HBI-003",
-        "tiers": null,
+        "tiers": 0,
         "title": "Domains of Dread Terror in Tombstone",
         "url": "https://www.dmsguild.com/product/451012/Domains-of-Dread-Terror-in-Tombstone-RVDCHBI003?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -72,15 +63,17 @@
         "authors": [
             "the illuminhaughti"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HBI-001",
         "date_created": "20230620",
         "full_title": "Domains of Dread: the Braska Roadhouse Chainsaw Massacre (RV-DC-HBI-001)",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Domains-of-Dread--the-Braska-Roadhouse-Chainsaw-Massacre-RV-DC-HBI-001",
-        "tiers": null,
+        "tiers": 0,
         "title": "Domains of Dread the Braska Roadhouse Chainsaw Massacre",
         "url": "https://www.dmsguild.com/product/442290/Domains-of-Dread-the-Braska-Roadhouse-Chainsaw-Massacre-RVDCHBI001?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -89,15 +82,18 @@
         "authors": [
             "Stefan Tomaschitz"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft",
+            "Forgotten Realms"
+        ],
         "code": "RV-DC-SDG-01",
         "date_created": "20240301",
         "full_title": "Ein verfluchter Schl\u00fcssel",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
         "product_id": "Ein-verfluchter-Schl\u00fcssel",
-        "tiers": null,
+        "tiers": 0,
         "title": "Ein verfluchter Schl\u00fcssel",
         "url": "https://www.dmsguild.com/product/472632/Ein-verfluchter-Schlussel?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -106,7 +102,9 @@
         "authors": [
             "Raymond Holding"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-DBH-01",
         "date_created": "20210813",
         "full_title": "RV-DC-DBH-01 And Then There Was a Murder",
@@ -124,7 +122,9 @@
             "Teddy Benson",
             "Paige Leitman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-01",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-01 Expedition Into The Desert",
@@ -142,7 +142,9 @@
             "Jay H Anderson",
             "Paige Leitman"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-02",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-02 Domain Infringement",
@@ -160,7 +162,9 @@
             "Paige Leitman",
             "Adrian Rhodes"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-03",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-03 False Faces",
@@ -178,7 +182,9 @@
             "Paige Leitmen",
             "Marcello De Velazquez"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-GC15-04",
         "date_created": "20230322",
         "full_title": "RV-DC-GC15-04 Kingdom, Rise!",
@@ -196,7 +202,9 @@
             "David Sklenicka",
             "Davestar Gaming"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-HH-01",
         "date_created": "20250210",
         "full_title": "RV-DC-HH-01 Inheritance",
@@ -213,7 +221,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-LAGIM-01-",
         "date_created": "20240806",
         "full_title": "RV-DC-LAGIM-01: Letting The Dead Rest",
@@ -230,15 +240,17 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-LAGIM-02",
         "date_created": "20241025",
         "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "2",
         "product_id": "RV-DC-LAGIM-02-The-Horrors-of-Uninhabited-Places-20241025",
-        "tiers": null,
+        "tiers": 0,
         "title": "The Horrors of Uninhabited Places",
         "url": "https://www.dmsguild.com/product/499970/RVDCLAGIM02-The-Horrors-of-Uninhabited-Places?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
@@ -247,7 +259,9 @@
         "authors": [
             "Nicholas Reed"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-OH01",
         "date_created": "20230718",
         "full_title": "RV-DC-OH01 In the Mists of Keening",
@@ -264,7 +278,9 @@
         "authors": [
             "Miguel Luis de Jesus"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-PHP-1313-01",
         "date_created": "20230416",
         "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
@@ -272,7 +288,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "RV-DC-PHP-1313-01-On-That-Fateful-Day",
-        "tiers": null,
+        "tiers": 0,
         "title": "On That Fateful Day",
         "url": "https://www.dmsguild.com/product/434117/RVDCPHP131301-On-That-Fateful-Day?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -281,7 +297,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
         "code": "RV-DC-CLASSIC-01",
         "date_created": "20250422",
         "full_title": "Tavern Rats (RV-DC-CLASSIC-01)",

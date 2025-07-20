@@ -4,7 +4,9 @@
         "authors": [
             "Cassandra MacDonald"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-01",
         "date_created": "20230822",
         "full_title": "BMG-DRW-OD-01 Something in the Way",
@@ -22,15 +24,18 @@
         "authors": [
             "Shu Qing Tan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-02",
         "date_created": "20230822",
         "full_title": "BMG-DRW-OD-02 Something Wicked",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 9.99,
         "product_id": "450335",
+        "season": null,
         "tiers": 2,
         "title": "BMG-DRW-OD-02 Something Wicked",
         "url": "https://www.dmsguild.com/product/450335/?affiliate_id=171040"
@@ -40,15 +45,18 @@
         "authors": [
             "Jessica McIntyre"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-03",
         "date_created": "20240118",
         "full_title": "BMG-DRW-OD-03 Something on the Move",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 9.99,
         "product_id": "467791",
+        "season": null,
         "tiers": 2,
         "title": "BMG-DRW-OD-03 Something on the Move",
         "url": "https://www.dmsguild.com/product/467791/?affiliate_id=171040"
@@ -58,15 +66,18 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-04",
         "date_created": "20240314",
         "full_title": "BMG-DRW-OD-04 We're All in this Together",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 9.99,
         "product_id": "474103",
+        "season": null,
         "tiers": 2,
         "title": "BMG-DRW-OD-04 We're All in this Together",
         "url": "https://www.dmsguild.com/product/474103/?affiliate_id=171040"
@@ -76,15 +87,18 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-05",
         "date_created": "20240418",
         "full_title": "BMG-DRW-OD-05 Now We've Done It",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 9.99,
         "product_id": "477851",
+        "season": null,
         "tiers": 2,
         "title": "BMG-DRW-OD-05 Now We've Done It",
         "url": "https://www.dmsguild.com/product/477851/?affiliate_id=171040"
@@ -94,15 +108,18 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-06",
         "date_created": "20240516",
         "full_title": "BMG-DRW-OD-06 We Almost Had It All",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "price": 9.99,
         "product_id": "481299",
+        "season": null,
         "tiers": 3,
         "title": "BMG-DRW-OD-06 We Almost Had It All",
         "url": "https://www.dmsguild.com/product/481299/?affiliate_id=171040"
@@ -112,15 +129,18 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRW-OD-07",
         "date_created": "20240815",
         "full_title": "BMG-DRW-OD-07 The Subtlety of Subterfuge",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "price": 8.99,
         "product_id": "491737",
+        "season": null,
         "tiers": 3,
         "title": "BMG-DRW-OD-07 The Subtlety of Subterfuge",
         "url": "https://www.dmsguild.com/product/491737/?affiliate_id=171040"
@@ -131,15 +151,18 @@
             "Krishna Simonse",
             "Shu Qing Tan"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRWEP-OD-01",
         "date_created": "20240215",
         "full_title": "BMG-DRWEP-OD-01 The Enemy of My Enemy",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 12.99,
         "product_id": "471087",
+        "season": null,
         "tiers": 2,
         "title": "BMG-DRWEP-OD-01 The Enemy of My Enemy",
         "url": "https://www.dmsguild.com/product/471087/?affiliate_id=171040"
@@ -149,15 +172,18 @@
         "authors": [
             "D&D Adventurers League"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "BMG-DRWEP-OD-02",
         "date_created": "20240718",
         "full_title": "BMG-DRWEP-OD-02 The Burning of Aglarond",
-        "hours": null,
+        "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 12.99,
         "product_id": "488409",
+        "season": null,
         "tiers": 2,
         "title": "BMG-DRWEP-OD-02 The Burning of Aglarond",
         "url": "https://www.dmsguild.com/product/488409/?affiliate_id=171040"

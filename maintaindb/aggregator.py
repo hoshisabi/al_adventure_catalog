@@ -9,6 +9,8 @@ from collections import defaultdict
 from adventure import DC_CAMPAIGNS
 import glob
 
+from adventure import DC_CAMPAIGNS, get_dc_code_and_campaign
+
 logger = logging.getLogger()
 logger.level = logging.INFO
 stream_handler = logging.StreamHandler(sys.stdout)
@@ -61,11 +63,20 @@ def aggregate():
 
             is_adventure = data.get('is_adventure', True)
             if is_adventure:
+                # Populate campaigns from product_title if not already present
+                if not data.get('campaigns'):
+                    _, campaigns_from_title = get_dc_code_and_campaign(data.get('full_title'))
+                    if campaigns_from_title:
+                        data['campaigns'] = campaigns_from_title
+
                 if "url" in data and data["url"] and "affiliate_id" not in data["url"]:
                     data["url"] += "&affiliate_id=171040"
                 
-                # Normalize 'campaign' to be a list
-                if 'campaign' in data:
+                # Normalize 'campaigns' to be a list
+                if 'campaigns' in data:
+                    if not isinstance(data['campaigns'], list):
+                        data['campaigns'] = [data['campaigns']]
+                elif 'campaign' in data: # Fallback to singular 'campaign' if 'campaigns' not found
                     if not isinstance(data['campaign'], list):
                         data['campaigns'] = [data['campaign']]
                     else:
@@ -76,7 +87,15 @@ def aggregate():
 
                 # Normalize 'tiers' to be an integer
                 if 'tiers' in data and isinstance(data['tiers'], str) and '-' in data['tiers']:
-                    data['tiers'] = int(data['tiers'].split('-')[0]) # Take the lower bound
+                    data['tiers'] = int(data['tiers'].split('-')[0])
+                elif 'tiers' in data and data['tiers'] is None:
+                    data['tiers'] = 0 # Or some other default integer value
+
+                # Ensure 'hours' is always a string
+                if 'hours' in data and data['hours'] is None:
+                    data['hours'] = ''
+                elif 'hours' in data and not isinstance(data['hours'], str):
+                    data['hours'] = str(data['hours'])
                 
                 __add_to_map(data, aggregated_by_dc_code)
             else:

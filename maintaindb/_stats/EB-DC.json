@@ -4,7 +4,9 @@
         "authors": [
             "Chris Wilson"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-DC-COG-01",
         "date_created": "20230221",
         "full_title": "EB-DC-COG-01 Off the Books",
@@ -22,7 +24,9 @@
         "authors": [
             "Steven Truong"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-DC-CLASSIC-01",
         "date_created": "20250422",
         "full_title": "Tavern Rats (EB-DC-CLASSIC-01)",
@@ -39,7 +43,9 @@
         "authors": [
             "Belinda Baldwin"
         ],
-        "campaigns": [],
+        "campaigns": [
+            "Eberron"
+        ],
         "code": "EB-DC-THC-01",
         "date_created": "20230513",
         "full_title": "The Doll House (EB-DC-THC-01)",
