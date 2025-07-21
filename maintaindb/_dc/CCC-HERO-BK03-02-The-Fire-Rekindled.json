@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Gamehole Con",
         "Ethan Yen"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-HERO-BK03-02-The-Fire-Rekindled",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-HERO-BK03-02 The Fire Rekindled",
     "url": "https://www.dmsguild.com/product/340681/CCCHEROBK0302-The-Fire-Rekindled?filters=45470_0_0_0_0_0_0_0"
 }

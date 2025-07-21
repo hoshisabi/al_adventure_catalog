@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-BMG-48-HILL-3-3-Spare-the-Rod",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-48 HILL 3-3 Spare the Rod",
     "url": "https://www.dmsguild.com/product/266618/CCCBMG48-HILL-33-Spare-the-Rod?filters=45470_0_0_0_0_0_0_0"
 }

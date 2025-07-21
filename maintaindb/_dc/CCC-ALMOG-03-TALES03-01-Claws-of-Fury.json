@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Al Spader",
         "MOGC"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": 250115,
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-ALMOG-03 TALES03-01 Claws of Fury",
     "url": "https://www.dmsguild.com/product/250115/CCCALMOG03-TALES0301-Claws-of-Fury?filters=45470_0_0_0_0_0_0_0"
 }

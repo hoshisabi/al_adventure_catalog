@@ -1,0 +1,11 @@
+-i https://pypi.org/simple
+beautifulsoup4==4.13.3; python_full_version >= '3.7.0'
+bs4==0.0.2
+certifi==2025.1.31; python_version >= '3.6'
+charset-normalizer==3.4.1; python_version >= '3.7'
+idna==3.10; python_version >= '3.6'
+requests==2.32.3; python_version >= '3.8'
+soupsieve==2.6; python_version >= '3.8'
+typing-extensions==4.13.2; python_version >= '3.8'
+urllib3==2.4.0; python_version >= '3.9'
+word2number==1.1

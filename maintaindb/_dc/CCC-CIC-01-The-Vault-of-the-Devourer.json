@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greg Marks"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-CIC-01 The Vault of the Devourer",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-CIC-01-The-Vault-of-the-Devourer",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-CIC-01 The Vault of the Devourer",
     "url": "https://www.dmsguild.com/product/199826/CCCCIC01-The-Vault-of-the-Devourer?filters=45470_0_0_0_0_0_0_0"
 }

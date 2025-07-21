@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Adam Gordier"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "0",
     "product_id": "CCC-PRIORY-01-Maritime-Mayhem",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-PRIORY-01 Maritime Mayhem",
     "url": "https://www.dmsguild.com/product/240922/CCCPRIORY01-Maritime-Mayhem"
 }

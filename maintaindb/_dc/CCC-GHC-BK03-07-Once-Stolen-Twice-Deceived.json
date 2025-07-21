@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Jeff C. Stevens",
         "Gamehole Con"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-GHC-BK03-07-Once-Stolen-Twice-Deceived",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-GHC-BK03-07 Once Stolen, Twice Deceived",
     "url": "https://www.dmsguild.com/product/344636/CCCGHCBK0307-Once-Stolen-Twice-Deceived?filters=45470_0_0_0_0_0_0_0"
 }

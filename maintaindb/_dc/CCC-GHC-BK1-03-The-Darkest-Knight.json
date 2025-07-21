@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Thomas Valley",
         "Gamehole Con"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-GHC-BK1-03-The-Darkest-Knight",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-BK1-03 The Darkest Knight",
     "url": "https://www.dmsguild.com/product/260873/CCCGHCBK103-The-Darkest-Knight?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games",
         "Ben Sandfelder"
@@ -10,12 +10,12 @@
     "code": "CCC-BMG-MOON5-2",
     "date_created": "20200414",
     "full_title": "CCC-BMG-MOON5-2 Bloodlust Contained",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "price": null,
     "product_id": "309966",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-MOON5-2 Bloodlust Contained",
     "url": "https://www.dmsguild.com/product/309966/?affiliate_id=171040"
 }

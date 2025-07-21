@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Richard Green"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "3",
     "product_id": "CCC-UK-3-The-Tainted-Grove",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-UK-3 The Tainted Grove",
     "url": "https://www.dmsguild.com/product/283656/CCCUK3-The-Tainted-Grove?filters=45470_0_0_0_0_0_0_0"
 }

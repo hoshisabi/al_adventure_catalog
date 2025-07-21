@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Thomas Valley"
     ],
@@ -11,10 +11,10 @@
     "full_title": "CCC-GARY-07: The Mirror Cities of Gulthias",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "price": null,
     "product_id": "238358",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GARY-07 The Mirror Cities of Gulthias",
     "url": "https://www.dmsguild.com/product/238358/?affiliate_id=171040"
 }

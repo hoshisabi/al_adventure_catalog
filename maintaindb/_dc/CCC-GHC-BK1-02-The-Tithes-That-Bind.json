@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Mitchell Smithson",
         "Gamehole Con"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-GHC-BK1-02-The-Tithes-That-Bind",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-BK1-02 The Tithes That Bind",
     "url": "https://www.dmsguild.com/product/260872/CCCGHCBK102-The-Tithes-That-Bind?filters=45470_0_0_0_0_0_0_0"
 }

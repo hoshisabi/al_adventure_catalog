@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greasy Snitches",
         "Paul Gabat"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-GSP02-01-Minauros-Unchained",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GSP02-01 Minauros Unchained",
     "url": "https://www.dmsguild.com/product/303699/CCCGSP0201-Minauros-Unchained"
 }

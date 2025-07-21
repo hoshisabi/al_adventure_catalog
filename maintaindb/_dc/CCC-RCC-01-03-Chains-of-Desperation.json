@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Dave Zajac"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "01",
     "product_id": "CCC-RCC-01-03-Chains-of-Desperation",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-RCC-01-03 Chains of Desperation",
     "url": "https://www.dmsguild.com/product/299977/CCCRCC0103-Chains-of-Desperation?filters=45470_0_0_0_0_0_0_0"
 }

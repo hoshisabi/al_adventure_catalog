@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Joe Alfano",
         "Gamehole Con"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-GHC-BK1-04-I-am-the-Fire",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-BK1-04 I am the Fire",
     "url": "https://www.dmsguild.com/product/260874/CCCGHCBK104-I-am-the-Fire?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Aaron Pavao",
         "Gamehole Con"
@@ -12,7 +12,7 @@
     "full_title": "CCC-GHC-BK2-05 Finglebruggle's Phantomball Field",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "CCC-GHC-BK2-05-Finglebruggles-Phantomball-Field",
     "tiers": 2,
     "title": "CCC-GHC-BK2-05 Finglebruggle's Phantomball Field",

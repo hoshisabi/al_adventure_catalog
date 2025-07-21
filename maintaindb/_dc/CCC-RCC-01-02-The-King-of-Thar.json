@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Nate Laleman"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "01",
     "product_id": "CCC-RCC-01-02-The-King-of-Thar",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-RCC-01-02 The King of Thar",
     "url": "https://www.dmsguild.com/product/299976/CCCRCC0102-The-King-of-Thar?filters=45470_0_0_0_0_0_0_0"
 }

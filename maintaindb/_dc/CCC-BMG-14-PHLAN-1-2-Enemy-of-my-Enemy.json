@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": "CCC-BMG-14-PHLAN-1-2-Enemy-of-my-Enemy",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-BMG-14 PHLAN 1-2 Enemy of my Enemy",
     "url": "https://www.dmsguild.com/product/189522/CCCBMG14-PHLAN-12-Enemy-of-my-Enemy?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Jay Africa"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-DRUID-01-The-Scourge-Unseen",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-DRUID-01 The Scourge Unseen",
     "url": "https://www.dmsguild.com/product/252111/CCCDRUID01-The-Scourge-Unseen"
 }

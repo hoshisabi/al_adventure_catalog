@@ -8,7 +8,9 @@ from bs4 import BeautifulSoup
 import logging
 import sys
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 logger = logging.getLogger()
 
 DC_CAMPAIGNS = {
@@ -98,6 +100,18 @@ def sanitize_filename(filename):
     sanitized_filename = f"{sanitized_name}.json"
     
     return sanitized_filename
+
+def generate_warhorn_slug(title):
+    """
+    Generates a Warhorn-style slug from a given title.
+    """
+    # Convert to lowercase
+    slug = title.lower()
+    # Replace spaces and non-alphanumeric characters with hyphens
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+    return slug
 
 
 class DungeonCraft:
@@ -309,11 +323,10 @@ def _extract_raw_data_from_html(parsed_html, product_id):
                 date_str.strip(), "%B %d, %Y").date()
             break
 
-    product_content = parsed_html.find(
-        "div", {"class": "alpha omega prod-content"})
+    product_content_div = parsed_html.find("div", {"class": "grid_11 alpha omega prod-content-content"})
     text = ""
-    if product_content:
-        text = product_content.text
+    if product_content_div:
+        text = product_content_div.get_text(separator=" ", strip=True)
 
     # Extract text from meta description as well
     meta_description_tag = parsed_html.find("meta", {"name": "description"})
@@ -329,6 +342,33 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     raw_data["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
     raw_data["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", combined_text)
     raw_data["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
+
+    # Additional regex for hours, looking for "X-hour adventure" or "X-hour"
+    if not raw_data["hours_raw"]:
+        hours_match_alt = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
+        if hours_match_alt:
+            if hours_match_alt.group(2):
+                raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}"
+            else:
+                raw_data["hours_raw"] = hours_match_alt.group(1)
+
+    # Additional regex for tiers, looking for "Tier X"
+    if not raw_data["tiers_raw"]:
+        tiers_match_alt = re.search(r'Tier\s*([1-4])', combined_text, re.IGNORECASE)
+        if tiers_match_alt:
+            raw_data["tiers_raw"] = tiers_match_alt.group(1)
+
+    # Additional regex for level range, looking for "levels X-Y" or "level X"
+    if not raw_data["level_range_raw"]:
+        level_range_match_alt = re.search(r'(?:levels?|lvl)\s*([\d-]+)', combined_text, re.IGNORECASE)
+        if level_range_match_alt:
+            raw_data["level_range_raw"] = level_range_match_alt.group(1)
+
+    # Additional regex for APL, looking for "APL X"
+    if not raw_data["apl_raw"]:
+        apl_match_alt = re.search(r'APL\s*(\d+)', combined_text, re.IGNORECASE)
+        if apl_match_alt:
+            raw_data["apl_raw"] = apl_match_alt.group(1)
 
     # Price extraction
     original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
@@ -446,9 +486,71 @@ def _infer_missing_adventure_data(data):
 
     return data
 
+from warhorn_api import run_query
+
+def _extract_data_from_warhorn(scenario_data):
+    # Extract data from Warhorn scenario data
+    hours = None
+    if scenario_data.get("blurb"):
+        hours_match = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', scenario_data["blurb"], re.IGNORECASE)
+        if hours_match:
+            if hours_match.group(2):
+                hours = f"{hours_match.group(1)}-{hours_match.group(2)}"
+            else:
+                hours = hours_match.group(1)
+
+    return {
+        "hours": hours,
+        "apl": scenario_data.get("minLevel"), # Warhorn has min/max level, not APL directly
+        "tiers": None, # Need to derive this from minLevel/maxLevel if possible
+        "level_range": f"{scenario_data.get("minLevel")}-{scenario_data.get("maxLevel")}",
+        "season": None, # Warhorn doesn't seem to have a direct season field
+    }
+
 def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False, careful_mode=False):
     raw_data = _extract_raw_data_from_html(parsed_html, product_id)
     normalized_data = _normalize_and_convert_data(raw_data)
     new_data = _infer_missing_adventure_data(normalized_data)
+
+    # If data is missing from HTML, try Warhorn API
+    if new_data["hours"] is None or new_data["apl"] is None or new_data["tiers"] is None or new_data["level_range"] is None:
+        search_title = new_data.get("module_name") # Use the module_name from DMsGuild as search query
+        if search_title:
+            warhorn_query = """
+                query ($searchQuery: String!) {
+                    globalScenarios(query: $searchQuery) {
+                        nodes {
+                            name
+                            blurb
+                            author
+                            minLevel
+                            maxLevel
+                            campaign {
+                                name
+                            }
+                            gameSystem {
+                                name
+                            }
+                            tags {
+                                name
+                            }
+                        }
+                    }
+                }
+            """
+        try:
+            warhorn_result = run_query(warhorn_query, {"searchQuery": search_title})
+            if warhorn_result and warhorn_result["data"] and warhorn_result["data"]["globalScenarios"] and warhorn_result["data"]["globalScenarios"]["nodes"]:
+                # Assuming the first result is the most relevant
+                warhorn_scenario = warhorn_result["data"]["globalScenarios"]["nodes"][0]
+                warhorn_extracted_data = _extract_data_from_warhorn(warhorn_scenario)
+                
+                # Merge Warhorn data, prioritizing existing new_data if not None
+                for key, value in warhorn_extracted_data.items():
+                    if new_data[key] is None and value is not None:
+                        new_data[key] = value
+
+        except Exception as e:
+            logger.warning(f"Error fetching from Warhorn API for {search_title}: {e}")
 
     return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)

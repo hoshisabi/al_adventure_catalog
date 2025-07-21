@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Shawn Merwin"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-CIC-11-Death-at-Peril-Island",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CIC-11 Death at Peril Island",
     "url": "https://www.dmsguild.com/product/259558/CCCCIC11-Death-at-Peril-Island?filters=45470_0_0_0_0_0_0_0"
 }

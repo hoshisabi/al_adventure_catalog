@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Maxine Henry"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-SCAR02-02 Nature's Defense",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-SCAR02-02-Natures-Defense",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-SCAR02-02 Nature's Defense",
     "url": "https://www.dmsguild.com/product/286424/CCCSCAR0202-Natures-Defense?filters=45470_0_0_0_0_0_0_0"
 }

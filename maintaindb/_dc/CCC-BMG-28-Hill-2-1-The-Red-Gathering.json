@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Mark Merida",
         "Baldman Games"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-BMG-28-Hill-2-1-The-Red-Gathering",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-28 Hill 2-1 The Red Gathering",
     "url": "https://www.dmsguild.com/product/240059/CCCBMG28-Hill-21-The-Red-Gathering?filters=45470_0_0_0_0_0_0_0"
 }

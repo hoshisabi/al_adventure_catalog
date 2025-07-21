@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "David Hopkins",
         "Monkey Mind Tabletop"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-REAP-01-Red-War--Lost-Ashes-of-a-Wayward-Gnome",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-REAP-01 Red War Lost Ashes of a Wayward Gnome",
     "url": "https://www.dmsguild.com/product/252159/CCCREAP01-Red-War-Lost-Ashes-of-a-Wayward-Gnome?filters=45470_0_0_0_0_0_0_0"
 }

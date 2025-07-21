@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Adrian Francisco"
     ],
@@ -11,7 +11,7 @@
     "full_title": "DC-PoA-DCAF09 An Ascent to Recall",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "DC-PoA-DCAF09-An-Ascent-to-Recall",
     "tiers": 2,
     "title": "DC-PoA-DCAF09 An Ascent to Recall",

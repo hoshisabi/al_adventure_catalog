@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Ian Hawthorne"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "3",
     "product_id": "CCC-UK-4-Bourne-of-Candles",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-UK-4 Bourne of Candles",
     "url": "https://www.dmsguild.com/product/283657/CCCUK4-Bourne-of-Candles?filters=45470_0_0_0_0_0_0_0"
 }

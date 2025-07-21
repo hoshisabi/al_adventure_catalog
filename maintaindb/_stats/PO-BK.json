@@ -233,11 +233,13 @@
         "full_title": "PO-BK-1-05 Far in the Forest",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PO-BK-1-05-Far-in-the-Forest",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "392890",
+        "season": null,
         "tiers": 3,
         "title": "PO-BK-1-05 Far in the Forest",
-        "url": "https://www.dmsguild.com/product/392890/POBK105-Far-in-the-Forest?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/392890/?affiliate_id=171040"
     },
     {
         "apl": 13,

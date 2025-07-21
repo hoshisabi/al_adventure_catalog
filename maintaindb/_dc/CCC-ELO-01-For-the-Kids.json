@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Adam Gordier"
     ],
@@ -9,13 +9,13 @@
     "code": "CCC-ELO-01",
     "date_created": "20181117",
     "full_title": "CCC-ELO-01 For the Kids!",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "6",
     "price": null,
     "product_id": "259022",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-ELO-01 For the Kids!",
     "url": "https://www.dmsguild.com/product/259022/?affiliate_id=171040"
 }

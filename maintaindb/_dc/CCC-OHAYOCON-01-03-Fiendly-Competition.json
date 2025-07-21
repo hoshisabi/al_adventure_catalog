@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Andrew Bishkinskyi"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "2",
     "product_id": "CCC-OHAYOCON-01-03-Fiendly-Competition",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-OHAYOCON-01-03 Fiendly Competition",
     "url": "https://www.dmsguild.com/product/265659/CCCOHAYOCON0103-Fiendly-Competition?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greasy Snitches",
         "Paul Gabat"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-GSP01-01-A-Dragons-Breath",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GSP01-01 A Dragon's Breath",
     "url": "https://www.dmsguild.com/product/254786/CCCGSP0101-A-Dragons-Breath"
 }

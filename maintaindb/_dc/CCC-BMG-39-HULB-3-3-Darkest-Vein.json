@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": "CCC-BMG-39-HULB-3-3-Darkest-Vein",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-BMG-39 HULB 3-3 Darkest Vein",
     "url": "https://www.dmsguild.com/product/260906/CCCBMG39-HULB-33-Darkest-Vein?filters=45470_0_0_0_0_0_0_0"
 }

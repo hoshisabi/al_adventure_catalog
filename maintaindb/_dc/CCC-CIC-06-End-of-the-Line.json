@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Michael Maenza"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-CIC-06 End of the Line",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-CIC-06-End-of-the-Line",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-CIC-06 End of the Line",
     "url": "https://www.dmsguild.com/product/238181/CCCCIC06-End-of-the-Line?filters=45470_0_0_0_0_0_0_0"
 }

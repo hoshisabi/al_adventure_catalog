@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Adrian Arduini"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-SFBay-02-01-Old-Enemies-Arise",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-SFBay-02-01 Old Enemies Arise",
     "url": "https://www.dmsguild.com/product/230005/CCCSFBay0201-Old-Enemies-Arise?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games",
         "Jay Africa"
@@ -10,12 +10,12 @@
     "code": "CCC-BMG-MOON4-3",
     "date_created": "20191121",
     "full_title": "CCC-BMG-MOON4-3 Gate to the Unknown",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "price": null,
     "product_id": "295549",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-MOON4-3 Gate to the Unknown",
     "url": "https://www.dmsguild.com/product/295549/?affiliate_id=171040"
 }

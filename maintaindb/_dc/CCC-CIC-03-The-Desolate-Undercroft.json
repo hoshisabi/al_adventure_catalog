@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Gary Affeldt"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-CIC-03-The-Desolate-Undercroft",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CIC-03 The Desolate Undercroft",
     "url": "https://www.dmsguild.com/product/207993/CCCCIC03-The-Desolate-Undercroft?filters=45470_0_0_0_0_0_0_0"
 }

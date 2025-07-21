@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games",
         "Ruty Rutenberg"
@@ -12,9 +12,9 @@
     "full_title": "CCC-BMG-33 PHLAN 3-3 Spinning on the Edge",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-33-PHLAN-3-3-Spinning-on-the-Edge",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-33 PHLAN 3-3 Spinning on the Edge",
     "url": "https://www.dmsguild.com/product/247513/CCCBMG33-PHLAN-33-Spinning-on-the-Edge?filters=45470_0_0_0_0_0_0_0"
 }

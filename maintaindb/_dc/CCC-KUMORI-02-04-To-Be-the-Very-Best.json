@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Jay Africa"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-KUMORI-02-04 To Be the Very Best",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-KUMORI-02-04-To-Be-the-Very-Best",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-KUMORI-02-04 To Be the Very Best",
     "url": "https://www.dmsguild.com/product/259775/CCCKUMORI0204-To-Be-the-Very-Best"
 }

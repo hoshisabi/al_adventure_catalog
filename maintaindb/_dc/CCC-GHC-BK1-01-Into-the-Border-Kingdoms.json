@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Dave Zajac",
         "Gamehole Con"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "10",
     "product_id": "CCC-GHC-BK1-01-Into-the-Border-Kingdoms",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GHC-BK1-01 Into the Border Kingdoms",
     "url": "https://www.dmsguild.com/product/260870/CCCGHCBK101-Into-the-Border-Kingdoms?filters=45470_0_0_0_0_0_0_0"
 }

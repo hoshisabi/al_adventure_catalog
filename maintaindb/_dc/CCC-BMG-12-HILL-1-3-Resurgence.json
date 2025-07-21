@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-BMG-12-HILL-1-3-Resurgence",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-12 HILL 1-3 Resurgence",
     "url": "https://www.dmsguild.com/product/185273/CCCBMG12-HILL-13-Resurgence?filters=45470_0_0_0_0_0_0_0"
 }

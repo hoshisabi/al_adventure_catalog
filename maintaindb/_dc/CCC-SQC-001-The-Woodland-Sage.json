@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "JAWSH MURDOCK"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-SQC-001-The-Woodland-Sage",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-SQC-001 The Woodland Sage",
     "url": "https://www.dmsguild.com/product/253547/CCCSQC001-The-Woodland-Sage?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Wyndll Robertson"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-DFW-01-01-Shadows-of-Ironfang-Keep",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-DFW-01-01 Shadows of Ironfang Keep",
     "url": "https://www.dmsguild.com/product/278716/CCCDFW0101-Shadows-of-Ironfang-Keep"
 }

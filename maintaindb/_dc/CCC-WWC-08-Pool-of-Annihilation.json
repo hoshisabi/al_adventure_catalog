@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Dave Zajac"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-WWC-08-Pool-of-Annihilation",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-WWC-08 Pool of Annihilation",
     "url": "https://www.dmsguild.com/product/298153/CCCWWC08-Pool-of-Annihilation?filters=45470_0_0_0_0_0_0_0"
 }

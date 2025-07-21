@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Jeremy Forbing",
         "Sean Payne",
@@ -14,9 +14,9 @@
     "full_title": "CCC-SRCC01-03 Altar of the Smoldering Eye",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-SRCC01-03-Altar-of-the-Smoldering-Eye",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-SRCC01-03 Altar of the Smoldering Eye",
     "url": "https://www.dmsguild.com/product/223041/CCCSRCC0103-Altar-of-the-Smoldering-Eye?filters=45470_0_0_0_0_0_0_0"
 }

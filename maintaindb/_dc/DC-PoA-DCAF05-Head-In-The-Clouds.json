@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Adrian Francisco"
     ],
@@ -11,9 +11,9 @@
     "full_title": "DC-PoA-DCAF05 Head In The Clouds",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "DC-PoA-DCAF05-Head-In-The-Clouds",
-    "tiers": null,
+    "tiers": 1,
     "title": "DC-PoA-DCAF05 Head In The Clouds",
     "url": "https://www.dmsguild.com/product/338801/DCPoADCAF05-Head-In-The-Clouds?filters=0_0_100057_0_0_0_0_0"
 }

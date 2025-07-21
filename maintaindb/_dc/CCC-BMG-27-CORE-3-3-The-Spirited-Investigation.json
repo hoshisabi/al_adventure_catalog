@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Tom Lommel",
         "Baldman Games"
@@ -12,9 +12,9 @@
     "full_title": "CCC-BMG-27 CORE 3-3 The Spirited Investigation",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-27-CORE-3-3-The-Spirited-Investigation",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-27 CORE 3-3 The Spirited Investigation",
     "url": "https://www.dmsguild.com/product/239578/CCCBMG27-CORE-33-The-Spirited-Investigation?filters=45470_0_0_0_0_0_0_0"
 }

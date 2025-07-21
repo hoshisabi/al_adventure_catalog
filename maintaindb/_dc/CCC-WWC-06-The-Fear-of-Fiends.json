@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Eric Bohm"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-WWC-06-The-Fear-of-Fiends",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-WWC-06 The Fear of Fiends",
     "url": "https://www.dmsguild.com/product/298151/CCCWWC06-The-Fear-of-Fiends?filters=45470_0_0_0_0_0_0_0"
 }

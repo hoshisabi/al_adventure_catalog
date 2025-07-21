@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5",
-    "product_id": "CCC-BMG-08-HULB-1-2-Hulburg-Burning",
-    "tiers": null,
+    "price": 4.99,
+    "product_id": "189330",
+    "season": null,
+    "tiers": 2,
     "title": "CCC-BMG-08 HULB 1-2 Hulburg Burning",
-    "url": "https://www.dmsguild.com/product/189330/CCCBMG08-HULB-12-Hulburg-Burning?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/189330/?affiliate_id=171040"
 }

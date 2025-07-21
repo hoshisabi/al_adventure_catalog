@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Justin Hicks",
         "Jim Berrier"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "201",
     "product_id": "CCC-SVH-01-03-Vault-of-the-Raven-Lord",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-SVH-01-03 Vault of the Raven Lord",
     "url": "https://www.dmsguild.com/product/257962/CCCSVH0103-Vault-of-the-Raven-Lord?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Dave Knighton",
         "MOGC"
@@ -12,9 +12,9 @@
     "full_title": "CCC-MACE01-02 A Panthers Peril",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-MACE01-02-A-Panthers-Peril",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-MACE01-02 A Panthers Peril",
     "url": "https://www.dmsguild.com/product/238814/CCCMACE0102-A-Panthers-Peril?filters=45470_0_0_0_0_0_0_0"
 }

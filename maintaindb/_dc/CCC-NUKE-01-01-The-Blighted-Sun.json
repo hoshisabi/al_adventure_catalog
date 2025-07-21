@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Marcello Velazquez"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-NUKE-01-01 The Blighted Sun",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-NUKE-01-01-The-Blighted-Sun",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-NUKE-01-01 The Blighted Sun",
     "url": "https://www.dmsguild.com/product/254451/CCCNUKE0101-The-Blighted-Sun"
 }

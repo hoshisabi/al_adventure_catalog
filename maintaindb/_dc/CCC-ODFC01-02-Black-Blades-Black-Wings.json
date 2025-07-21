@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Darion Smith"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-ODFC01-02-Black-Blades-Black-Wings",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-ODFC01-02 Black Blades, Black Wings",
     "url": "https://www.dmsguild.com/product/227841/CCCODFC0102-Black-Blades-Black-Wings?filters=45470_0_0_0_0_0_0_0"
 }

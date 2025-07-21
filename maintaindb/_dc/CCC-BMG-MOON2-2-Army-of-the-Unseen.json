@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games",
         "Savannah Houston-McIntyre"
@@ -12,11 +12,11 @@
     "full_title": "CCC-BMG-MOON2-2 Army of the Unseen",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "price": 4.99,
     "product_id": "267912",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-MOON2-2 Army of the Unseen",
     "url": "https://www.dmsguild.com/product/267912/?affiliate_id=171040"
 }

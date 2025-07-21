@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "K. Jasmine Vernon"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-ST2-1-Red-War--Embassy-of-Evil",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-ST2-1 Red War Embassy of Evil",
     "url": "https://www.dmsguild.com/product/252239/CCCST21-Red-War-Embassy-of-Evil?filters=45470_0_0_0_0_0_0_0"
 }

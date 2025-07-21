@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Monkey Mind Tabletop",
         "Chris Wathen"
@@ -12,9 +12,9 @@
     "full_title": "CCC-GEL-01 Bedlam at the Benefit",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-GEL-01-Bedlam-at-the-Benefit",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GEL-01 Bedlam at the Benefit",
     "url": "https://www.dmsguild.com/product/237193/CCCGEL01-Bedlam-at-the-Benefit?filters=45470_0_0_0_0_0_0_0"
 }

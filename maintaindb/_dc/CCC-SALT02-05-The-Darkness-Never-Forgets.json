@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Dave Knighton",
         "MOGC"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-SALT02-05-The-Darkness-Never-Forgets",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-SALT02-05 The Darkness Never Forgets",
     "url": "https://www.dmsguild.com/product/253907/CCCSALT0205-The-Darkness-Never-Forgets?filters=45470_0_0_0_0_0_0_0"
 }

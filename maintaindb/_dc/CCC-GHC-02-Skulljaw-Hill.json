@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Ed Greenwood",
         "Alex Kammer",
@@ -11,13 +11,13 @@
     "code": "CCC-GHC-02",
     "date_created": "20161215",
     "full_title": "CCC-GHC-02 Skulljaw Hill",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
     "level_range": "201",
     "price": null,
     "product_id": "200738",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-02 Skulljaw Hill",
     "url": "https://www.dmsguild.com/product/200738/?affiliate_id=171040"
 }

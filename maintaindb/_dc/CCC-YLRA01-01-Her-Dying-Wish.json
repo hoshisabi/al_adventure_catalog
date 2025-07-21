@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Jeremy Forbing"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-YLRA01-01-Her-Dying-Wish",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-YLRA01-01 Her Dying Wish",
     "url": "https://www.dmsguild.com/product/215448/CCCYLRA0101-Her-Dying-Wish"
 }

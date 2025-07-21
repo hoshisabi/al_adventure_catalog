@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games",
         "Anthony Caroselli"
@@ -12,9 +12,9 @@
     "full_title": "CCC-BMG-32 PHLAN 3-2 The First Rule",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-32-PHLAN-3-2-The-First-Rule",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-32 PHLAN 3-2 The First Rule",
     "url": "https://www.dmsguild.com/product/247512/CCCBMG32-PHLAN-32-The-First-Rule?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Y. Michael Zhang"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-GAD02-02-Voyage-of-the-Krakens-Wake",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GAD02-02 Voyage of the Kraken's Wake",
     "url": "https://www.dmsguild.com/product/315755/CCCGAD0202-Voyage-of-the-Krakens-Wake?filters=45470_0_0_0_0_0_0_0"
 }

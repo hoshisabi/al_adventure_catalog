@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Ryan Cannon"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-YLRA01-02-Uneasy-Lies-the-Head",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-YLRA01-02 Uneasy Lies the Head",
     "url": "https://www.dmsguild.com/product/215484/CCCYLRA0102-Uneasy-Lies-the-Head?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Scott Ketner"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCCGOC01-01 Tree Rot",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCCGOC01-01-Tree-Rot-20180924",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCCGOC01-01 Tree Rot",
     "url": "https://www.dmsguild.com/product/253211/CCCGOC0101-Tree-Rot?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Shawn Merwin",
         "Gamehole Con"
@@ -12,11 +12,11 @@
     "full_title": "CCC-GHC-06 - What You Wish For",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "price": null,
     "product_id": "228105",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-06 - What You Wish For",
     "url": "https://www.dmsguild.com/product/228105/?affiliate_id=171040"
 }

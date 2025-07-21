@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Scott Moore"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": "CCC-QCC2017-Delusions-of-Grandeur-Dreams-of-Revenge",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-QCC2017 Delusions of Grandeur, Dreams of Revenge",
     "url": "https://www.dmsguild.com/product/221415/CCCQCC2017-Delusions-of-Grandeur-Dreams-of-Revenge?filters=45470_0_0_0_0_0_0_0"
 }
