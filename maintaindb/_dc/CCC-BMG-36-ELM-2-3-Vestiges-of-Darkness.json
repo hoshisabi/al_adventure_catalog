@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-BMG-36-ELM-2-3-Vestiges-of-Darkness",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-36 ELM 2-3 Vestiges of Darkness",
     "url": "https://www.dmsguild.com/product/254011/CCCBMG36-ELM-23-Vestiges-of-Darkness?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Rob Silva"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-CIC-04-Best-Friends-Forever",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CIC-04 Best Friends Forever",
     "url": "https://www.dmsguild.com/product/216389/CCCCIC04-Best-Friends-Forever?filters=45470_0_0_0_0_0_0_0"
 }

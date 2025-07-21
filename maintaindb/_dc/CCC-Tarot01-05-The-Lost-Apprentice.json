@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "John Sedlack"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "01",
     "product_id": "CCC-Tarot01-05-The-Lost-Apprentice",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-Tarot01-05 The Lost Apprentice",
     "url": "https://www.dmsguild.com/product/251826/CCCTarot0105-The-Lost-Apprentice?filters=45470_0_0_0_0_0_0_0"
 }

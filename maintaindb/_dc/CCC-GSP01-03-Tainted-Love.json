@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greasy Snitches",
         "Paul Gabat"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-GSP01-03-Tainted-Love",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GSP01-03 Tainted Love",
     "url": "https://www.dmsguild.com/product/301973/CCCGSP0103-Tainted-Love"
 }

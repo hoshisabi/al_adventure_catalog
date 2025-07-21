@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Jeremy Vosberg"
     ],
@@ -15,7 +15,7 @@
     "price": 4.99,
     "product_id": "207980",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CIC-02 The Clockwork Laboratory",
     "url": "https://www.dmsguild.com/product/207980/?affiliate_id=171040"
 }

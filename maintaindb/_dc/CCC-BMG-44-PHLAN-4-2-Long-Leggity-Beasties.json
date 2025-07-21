@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-BMG-44-PHLAN-4-2-Long-Leggity-Beasties",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-44 PHLAN 4-2 Long Leggity Beasties",
     "url": "https://www.dmsguild.com/product/265112/CCCBMG44-PHLAN-42-Long-Leggity-Beasties?filters=45470_0_0_0_0_0_0_0"
 }

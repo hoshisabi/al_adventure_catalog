@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Jessie Swinton",
         "Aaron Jones"
@@ -12,9 +12,9 @@
     "full_title": "CCC-Ziege_02 Storm of the Blood Moon",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "CCC-Ziege-02-Storm-of-the-Blood-Moon",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-Ziege_02 Storm of the Blood Moon",
     "url": "https://www.dmsguild.com/product/257623/CCCZiege02-Storm-of-the-Blood-Moon"
 }

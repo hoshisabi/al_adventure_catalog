@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Y. Michael Zhang"
     ],
@@ -9,13 +9,13 @@
     "code": "CCC-GAD02-02",
     "date_created": "20200701",
     "full_title": "CCC-GAD02-02 Voyage of the Kraken's Wake",
-    "hours": null,
+    "hours": "4-6",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "price": 4.99,
     "product_id": "315755",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GAD02-02 Voyage of the Kraken's Wake",
     "url": "https://www.dmsguild.com/product/315755/?affiliate_id=171040"
 }

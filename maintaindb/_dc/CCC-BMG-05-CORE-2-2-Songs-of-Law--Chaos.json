@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-05-CORE-2-2-Songs-of-Law--Chaos",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
     "url": "https://www.dmsguild.com/product/189088/CCCBMG05-CORE-22-Songs-of-Law--Chaos?filters=45470_0_0_0_0_0_0_0"
 }

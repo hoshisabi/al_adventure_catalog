@@ -5,6 +5,9 @@ import re
 import datetime
 import json
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from adventure import DungeonCraft, sanitize_filename, extract_data_from_html
 

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Ethan Stanhope",
         "Te\u00e4n Stanhope"
@@ -12,7 +12,7 @@
     "full_title": "DC-PoA-CTH1 Roused by Raiders",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "DC-PoA-CTH1-Roused-by-Raiders",
     "tiers": 2,
     "title": "DC-PoA-CTH1 Roused by Raiders",

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Jonathan Connor Self"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "01",
     "product_id": "CCC-DES-01-02-A-Sanity-Never-Questioned",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-DES-01-02 A Sanity Never Questioned",
     "url": "https://www.dmsguild.com/product/260385/CCCDES0102-A-Sanity-Never-Questioned?filters=45470_0_0_0_0_0_0_0"
 }

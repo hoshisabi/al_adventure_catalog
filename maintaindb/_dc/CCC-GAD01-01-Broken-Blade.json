@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Y. Michael Zhang"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-GAD01-01-Broken-Blade",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GAD01-01 Broken Blade",
     "url": "https://www.dmsguild.com/product/270401/CCCGAD0101-Broken-Blade?filters=45470_0_0_0_0_0_0_0"
 }

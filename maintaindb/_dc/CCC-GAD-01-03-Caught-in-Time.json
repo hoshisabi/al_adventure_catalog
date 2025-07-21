@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Jack Jay"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": "CCC-GAD-01-03-Caught-in-Time",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-GAD-01-03 Caught in Time",
     "url": "https://www.dmsguild.com/product/284754/CCCGAD0103-Caught-in-Time?filters=45470_0_0_0_0_0_0_0"
 }

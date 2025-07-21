@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Garrett A Crowe"
     ],
@@ -11,7 +11,7 @@
     "full_title": "CCC-UBCON2020-02-Realm of the Brand",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-UBCON2020-02-Realm-of-the-Brand",
     "tiers": 1,
     "title": "CCC-UBCON2020-02-Realm of the Brand",

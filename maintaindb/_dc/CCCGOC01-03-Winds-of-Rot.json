@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Jeremy Hochhalter"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "3",
     "product_id": "CCCGOC01-03-Winds-of-Rot-20180924",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCCGOC01-03 Winds of Rot",
     "url": "https://www.dmsguild.com/product/253212/CCCGOC0103-Winds-of-Rot?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Adam Gordier"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": false,
     "level_range": "0",
     "product_id": "CCC-Priory-Series-PRIORY-010203",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC Priory Series PRIORY-01/02/03",
     "url": "https://www.dmsguild.com/product/259555/CCC-Priory-Series-PRIORY01-02-03?filters=45470_0_0_0_0_0_0_0"
 }

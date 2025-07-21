@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-BMG-04 CORE 2-1 Tales of Good & Evil",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-04-CORE-2-1-Tales-of-Good--Evil",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-04 CORE 2-1 Tales of Good & Evil",
     "url": "https://www.dmsguild.com/product/189087/CCCBMG04-CORE-21-Tales-of-Good--Evil?filters=45470_0_0_0_0_0_0_0"
 }

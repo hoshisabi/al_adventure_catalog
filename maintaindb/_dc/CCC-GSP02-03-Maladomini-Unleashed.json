@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Paul Gabat"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": "CCC-GSP02-03-Maladomini-Unleashed",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-GSP02-03 Maladomini Unleashed",
     "url": "https://www.dmsguild.com/product/336854/CCCGSP0203-Maladomini-Unleashed?filters=45470_0_0_0_0_0_0_0"
 }

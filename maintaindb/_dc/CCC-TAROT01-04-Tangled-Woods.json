@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Joshua Clark"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "01",
     "product_id": "CCC-TAROT01-04-Tangled-Woods",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-TAROT01-04 Tangled Woods",
     "url": "https://www.dmsguild.com/product/250268/CCCTAROT0104-Tangled-Woods?filters=45470_0_0_0_0_0_0_0"
 }

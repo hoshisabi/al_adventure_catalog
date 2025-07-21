@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Dave Zajac"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-WWC-05-Tyrant-of-Orcs",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-WWC-05 Tyrant of Orcs",
     "url": "https://www.dmsguild.com/product/298149/CCCWWC05-Tyrant-of-Orcs?filters=45470_0_0_0_0_0_0_0"
 }

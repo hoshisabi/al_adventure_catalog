@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Ian Hawthorne"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "3",
     "product_id": "CCC-UK-1-Call-of-the-Elvenflow",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-UK-1 Call of the Elvenflow",
     "url": "https://www.dmsguild.com/product/253816/CCCUK1-Call-of-the-Elvenflow?filters=45470_0_0_0_0_0_0_0"
 }

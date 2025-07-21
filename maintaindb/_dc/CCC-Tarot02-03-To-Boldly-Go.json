@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "John Sedlack"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-Tarot02-03-To-Boldly-Go",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-Tarot02-03 To Boldly Go",
     "url": "https://www.dmsguild.com/product/267942/CCCTarot0203-To-Boldly-Go?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games",
         "Christopher M. Sniezak"
@@ -10,7 +10,7 @@
     "code": "CCC-BMG-MOON7-1",
     "date_created": "20201026",
     "full_title": "CCC-BMG-MOON7-1 The Temple of the Beast",
-    "hours": null,
+    "hours": "2-4",
     "is_adventure": true,
     "level_range": "5-10",
     "price": null,

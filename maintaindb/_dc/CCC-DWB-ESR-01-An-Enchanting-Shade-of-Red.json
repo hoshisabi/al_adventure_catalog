@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Robby Jones"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-DWB-ESR-01 An Enchanting Shade of Red",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-DWB-ESR-01-An-Enchanting-Shade-of-Red",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-DWB-ESR-01 An Enchanting Shade of Red",
     "url": "https://www.dmsguild.com/product/301899/CCCDWBESR01-An-Enchanting-Shade-of-Red"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Jon Christian"
     ],
@@ -15,7 +15,7 @@
     "price": 9.99,
     "product_id": "450331",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "BMG-DL-VOTU-01 Dragons of Revelation",
     "url": "https://www.dmsguild.com/product/450331/?affiliate_id=171040"
 }

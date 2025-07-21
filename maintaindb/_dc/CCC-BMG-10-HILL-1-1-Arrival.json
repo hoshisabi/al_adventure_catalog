@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5",
-    "product_id": "CCC-BMG-10-HILL-1-1-Arrival",
-    "tiers": null,
+    "price": 4.99,
+    "product_id": "184953",
+    "season": null,
+    "tiers": 2,
     "title": "CCC-BMG-10 HILL 1-1 Arrival",
-    "url": "https://www.dmsguild.com/product/184953/CCCBMG10-HILL-11-Arrival?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/184953/?affiliate_id=171040"
 }

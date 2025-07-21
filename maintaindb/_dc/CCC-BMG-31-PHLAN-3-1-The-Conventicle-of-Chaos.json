@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games",
         "M.T. Black"
@@ -12,9 +12,9 @@
     "full_title": "CCC-BMG-31 PHLAN 3-1 The Conventicle of Chaos",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-31-PHLAN-3-1-The-Conventicle-of-Chaos",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-31 PHLAN 3-1 The Conventicle of Chaos",
     "url": "https://www.dmsguild.com/product/247511/CCCBMG31-PHLAN-31-The-Conventicle-of-Chaos?filters=45470_0_0_0_0_0_0_0"
 }

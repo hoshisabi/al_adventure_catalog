@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5",
-    "product_id": "CCC-BMG-07-HULB-1-1-Hulburg-Rebuilding",
-    "tiers": null,
+    "price": 4.99,
+    "product_id": "189329",
+    "season": null,
+    "tiers": 2,
     "title": "CCC-BMG-07 HULB 1-1 Hulburg Rebuilding",
-    "url": "https://www.dmsguild.com/product/189329/CCCBMG07-HULB-11-Hulburg-Rebuilding?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/189329/?affiliate_id=171040"
 }

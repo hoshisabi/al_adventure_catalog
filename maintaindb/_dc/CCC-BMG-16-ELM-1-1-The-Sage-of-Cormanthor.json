@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-BMG-16-ELM-1-1-The-Sage-of-Cormanthor",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-16 ELM 1-1 The Sage of Cormanthor",
     "url": "https://www.dmsguild.com/product/203366/CCCBMG16-ELM-11-The-Sage-of-Cormanthor?filters=45470_0_0_0_0_0_0_0"
 }

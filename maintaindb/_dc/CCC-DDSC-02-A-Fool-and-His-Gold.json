@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Anthony Caroselli"
     ],
@@ -9,13 +9,13 @@
     "code": "CCC-DDSC-02",
     "date_created": "20170720",
     "full_title": "CCC-DDSC-02 A Fool and His Gold",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "0",
     "price": null,
     "product_id": "217046",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-DDSC-02 A Fool and His Gold",
     "url": "https://www.dmsguild.com/product/217046/?affiliate_id=171040"
 }

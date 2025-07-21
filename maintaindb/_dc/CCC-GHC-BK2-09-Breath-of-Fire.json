@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Joe Alfano",
         "Gamehole Con"
@@ -12,7 +12,7 @@
     "full_title": "CCC-GHC-BK2-09 Breath of Fire",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
     "product_id": "CCC-GHC-BK2-09-Breath-of-Fire",
     "tiers": 3,
     "title": "CCC-GHC-BK2-09 Breath of Fire",

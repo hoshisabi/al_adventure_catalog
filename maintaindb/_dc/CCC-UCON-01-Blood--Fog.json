@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Alan Patrick"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-UCON-01-Blood--Fog",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-UCON-01 Blood & Fog",
     "url": "https://www.dmsguild.com/product/200484/CCCUCON01-Blood--Fog?filters=45470_0_0_0_0_0_0_0"
 }

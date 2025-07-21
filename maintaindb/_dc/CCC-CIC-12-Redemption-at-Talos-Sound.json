@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Shawn Merwin"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-CIC-12-Redemption-at-Talos-Sound",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CIC-12 Redemption at Talos Sound",
     "url": "https://www.dmsguild.com/product/259563/CCCCIC12-Redemption-at-Talos-Sound?filters=45470_0_0_0_0_0_0_0"
 }

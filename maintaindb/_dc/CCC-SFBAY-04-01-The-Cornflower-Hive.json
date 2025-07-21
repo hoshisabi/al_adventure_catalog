@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Iam Pace",
         "William Murakami-Brundage"
@@ -12,9 +12,9 @@
     "full_title": "CCC-SFBAY-04-01 The Cornflower Hive",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-SFBAY-04-01-The-Cornflower-Hive",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-SFBAY-04-01 The Cornflower Hive",
     "url": "https://www.dmsguild.com/product/232430/CCCSFBAY0401-The-Cornflower-Hive?filters=45470_0_0_0_0_0_0_0"
 }

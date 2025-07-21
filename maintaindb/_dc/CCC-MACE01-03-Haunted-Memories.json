@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Al Spader",
         "Mark Anderson",
@@ -13,9 +13,9 @@
     "full_title": "CCC-MACE01-03 Haunted Memories",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-MACE01-03-Haunted-Memories",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-MACE01-03 Haunted Memories",
     "url": "https://www.dmsguild.com/product/244858/CCCMACE0103-Haunted-Memories?filters=45470_0_0_0_0_0_0_0"
 }

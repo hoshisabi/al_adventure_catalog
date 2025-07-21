@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Drew Wood"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-KUMORI-02-02 School Magic",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-KUMORI-02-02-School-Magic",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-KUMORI-02-02 School Magic",
     "url": "https://www.dmsguild.com/product/261266/CCCKUMORI0202-School-Magic?filters=45470_0_0_0_0_0_0_0"
 }

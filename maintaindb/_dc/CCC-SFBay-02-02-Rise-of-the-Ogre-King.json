@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Adrian Arduini"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-SFBay-02-02-Rise-of-the-Ogre-King",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-SFBay-02-02 Rise of the Ogre King",
     "url": "https://www.dmsguild.com/product/250384/CCCSFBay0202-Rise-of-the-Ogre-King?filters=45470_0_0_0_0_0_0_0"
 }

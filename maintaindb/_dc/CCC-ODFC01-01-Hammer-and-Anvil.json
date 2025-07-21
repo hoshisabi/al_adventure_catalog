@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Darion Smith"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-ODFC01-01 Hammer and Anvil",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-ODFC01-01-Hammer-and-Anvil",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-ODFC01-01 Hammer and Anvil",
     "url": "https://www.dmsguild.com/product/227812/CCCODFC0101-Hammer-and-Anvil?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Alex Lown"
     ],
@@ -15,7 +15,7 @@
     "price": null,
     "product_id": "337260",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-UCON02-02 Rescue Down Under",
     "url": "https://www.dmsguild.com/product/337260/?affiliate_id=171040"
 }

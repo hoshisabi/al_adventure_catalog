@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Iam Pace",
         "William Murakami-Brundage"
@@ -12,9 +12,9 @@
     "full_title": "CCC-PDXAGE-01-01 The White Well",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-PDXAGE-01-01-The-White-Well",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-PDXAGE-01-01 The White Well",
     "url": "https://www.dmsguild.com/product/214453/CCCPDXAGE0101-The-White-Well?filters=45470_0_0_0_0_0_0_0"
 }

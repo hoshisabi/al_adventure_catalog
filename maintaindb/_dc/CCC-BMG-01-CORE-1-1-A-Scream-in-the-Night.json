@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games"
     ],
@@ -11,9 +11,11 @@
     "full_title": "CCC-BMG-01 CORE 1-1 A Scream in the Night",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "CCC-BMG-01-CORE-1-1-A-Scream-in-the-Night",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 4.99,
+    "product_id": "184998",
+    "season": null,
+    "tiers": 1,
     "title": "CCC-BMG-01 CORE 1-1 A Scream in the Night",
-    "url": "https://www.dmsguild.com/product/184998/CCCBMG01-CORE-11-A-Scream-in-the-Night?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/184998/?affiliate_id=171040"
 }

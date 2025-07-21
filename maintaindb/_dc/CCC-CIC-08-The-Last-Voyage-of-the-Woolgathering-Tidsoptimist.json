@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Gregory Marks"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-CIC-08 The Last Voyage of the Woolgathering Tidsoptimist",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-CIC-08-The-Last-Voyage-of-the-Woolgathering-Tidsoptimist",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-CIC-08 The Last Voyage of the Woolgathering Tidsoptimist",
     "url": "https://www.dmsguild.com/product/238289/CCCCIC08-The-Last-Voyage-of-the-Woolgathering-Tidsoptimist?filters=45470_0_0_0_0_0_0_0"
 }

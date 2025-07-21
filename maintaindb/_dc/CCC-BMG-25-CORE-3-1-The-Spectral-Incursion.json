@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "John Rogers",
         "Shawn Merwin",
@@ -13,9 +13,9 @@
     "full_title": "CCC-BMG-25 CORE 3-1 The Spectral Incursion",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-BMG-25-CORE-3-1-The-Spectral-Incursion",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-BMG-25 CORE 3-1 The Spectral Incursion",
     "url": "https://www.dmsguild.com/product/239572/CCCBMG25-CORE-31-The-Spectral-Incursion?filters=45470_0_0_0_0_0_0_0"
 }

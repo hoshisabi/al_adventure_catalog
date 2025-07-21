@@ -92,7 +92,7 @@
         "full_title": "DC-POA AOT01-01 Counteroffer",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-POA-AOT01-01-Counteroffer",
         "tiers": 1,
         "title": "DC-POA AOT01-01 Counteroffer",
@@ -231,7 +231,7 @@
         "full_title": "DC-PoA-CJK Gnome Place Like Home: Adventures in Icewind Dalecare",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-CJK-Gnome-Place-Like-Home--Adventures-in-Icewind-Dalecare",
         "tiers": 2,
         "title": "DC-PoA-CJK Gnome Place Like Home Adventures in Icewind Dalecare",
@@ -285,7 +285,7 @@
         "full_title": "DC-POA-CODEX-01 Bear the Lode",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-POA-CODEX-01-Bear-the-Lode",
         "tiers": 1,
         "title": "DC-POA-CODEX-01 Bear the Lode",
@@ -305,7 +305,7 @@
         "full_title": "DC-POA-CODEX-02 Bear in Mind",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-POA-CODEX-02-Bear-in-Mind",
         "tiers": 1,
         "title": "DC-POA-CODEX-02 Bear in Mind",
@@ -342,7 +342,7 @@
         "full_title": "DC-POA-CODEX-03 Bring to Bear",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-POA-CODEX-03-Bring-to-Bear",
         "tiers": 2,
         "title": "DC-POA-CODEX-03 Bring to Bear",
@@ -399,7 +399,7 @@
         "full_title": "DC-PoA-CONMAR-02 Put That Thing Right Back",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-CONMAR-02-Put-That-Thing-Right-Back",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-02 Put That Thing Right Back",
@@ -419,7 +419,7 @@
         "full_title": "DC-PoA-CONMAR-03 - Unfrozen",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-CONMAR-03---Unfrozen",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-03 - Unfrozen",
@@ -439,9 +439,9 @@
         "full_title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-CONMAR-04---Midwinter-Celebrations",
-        "tiers": 0,
+        "tiers": 2,
         "title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
         "url": "https://www.dmsguild.com/product/339808/DCPoACONMAR04--Midwinter-Celebrations?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -458,7 +458,7 @@
         "full_title": "DC-PoA-CONMAR-05 Need An Exscissorcism?",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-CONMAR-05-Need-An-Exscissorcism",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-05 Need An Exscissorcism?",
@@ -478,7 +478,7 @@
         "full_title": "DC-PoA-CONMAR-06 The Codmothers",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-CONMAR-06-The-Codmothers",
         "tiers": 2,
         "title": "DC-PoA-CONMAR-06 The Codmothers",
@@ -498,7 +498,7 @@
         "full_title": "DC-PoA-CONMAR-07 Counting Kobolds",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-CONMAR-07-Counting-Kobolds",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-07 Counting Kobolds",
@@ -517,7 +517,7 @@
         "full_title": "DC-PoA-CONMAR-08 The Importance of Being Idol",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-CONMAR-08-The-Importance-of-Being-Idol",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-08 The Importance of Being Idol",
@@ -537,7 +537,7 @@
         "full_title": "DC-PoA-CONMAR-09 That's a lot of Kobolds",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-CONMAR-09-Thats-a-lot-of-Kobolds",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-09 That's a lot of Kobolds",
@@ -557,7 +557,7 @@
         "full_title": "DC-PoA-CONMAR-10 Who Let the Kobolds Out?",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-CONMAR-10-Who-Let-the-Kobolds-Out",
         "tiers": 2,
         "title": "DC-PoA-CONMAR-10 Who Let the Kobolds Out?",
@@ -693,7 +693,7 @@
         "full_title": "DC-POA-CONMAR-17 Unrelenting",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-POA-CONMAR-17-Unrelenting",
         "tiers": 1,
         "title": "DC-POA-CONMAR-17 Unrelenting",
@@ -730,9 +730,9 @@
         "code": "DC-POA-CONMAR-19",
         "date_created": "20210830",
         "full_title": "DC-PoA-CONMAR-19 Wherever I May Float",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-CONMAR-19-Wherever-I-May-Float",
         "tiers": 2,
         "title": "DC-PoA-CONMAR-19 Wherever I May Float",
@@ -853,7 +853,7 @@
         "url": "https://www.dmsguild.com/product/369289/DCPOACoulee2104-A-Snipe-in-the-Hand-Is-Worth-Two-Headaches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Ethan Stanhope",
             "Te\u00e4n Stanhope"
@@ -866,7 +866,7 @@
         "full_title": "DC-PoA-CTH1 Roused by Raiders",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-CTH1-Roused-by-Raiders",
         "tiers": 2,
         "title": "DC-PoA-CTH1 Roused by Raiders",
@@ -893,7 +893,7 @@
         "url": "https://www.dmsguild.com/product/369037/DCPoACTH2-Searching-for-a-Shorebird?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Adrian Francisco"
         ],
@@ -905,14 +905,14 @@
         "full_title": "DC-PoA-DCAF01 Let It Goat",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-DCAF01-Let-It-Goat",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-DCAF01 Let It Goat",
         "url": "https://www.dmsguild.com/product/336410/DCPoADCAF01-Let-It-Goat?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Adrian Francisco"
         ],
@@ -924,9 +924,9 @@
         "full_title": "DC-PoA-DCAF03 Sputtering Out",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-DCAF03-Sputtering-Out",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-DCAF03 Sputtering Out",
         "url": "https://www.dmsguild.com/product/337518/DCPoADCAF03-Sputtering-Out?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -950,7 +950,7 @@
         "url": "https://www.dmsguild.com/product/357847/DCPoADCAF04-A-Macabre-Nightal-FGU-Mod?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Adrian Francisco"
         ],
@@ -962,14 +962,14 @@
         "full_title": "DC-PoA-DCAF04 A Macabre Nightal",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-DCAF04-A-Macabre-Nightal",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-DCAF04 A Macabre Nightal",
         "url": "https://www.dmsguild.com/product/343197/DCPoADCAF04-A-Macabre-Nightal?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Adrian Francisco"
         ],
@@ -981,14 +981,14 @@
         "full_title": "DC-PoA-DCAF05 Head In The Clouds",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "DC-PoA-DCAF05-Head-In-The-Clouds",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-DCAF05 Head In The Clouds",
         "url": "https://www.dmsguild.com/product/338801/DCPoADCAF05-Head-In-The-Clouds?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Adrian Francisco"
         ],
@@ -1000,14 +1000,14 @@
         "full_title": "Dc-PoA-DCAF06 A Front On Frost",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "Dc-PoA-DCAF06-A-Front-On-Frost",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Dc-PoA-DCAF06 A Front On Frost",
         "url": "https://www.dmsguild.com/product/342961/DcPoADCAF06-A-Front-On-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Adrian Francisco"
         ],
@@ -1017,16 +1017,16 @@
         "code": "DC-POA-DCAF07",
         "date_created": "20210203",
         "full_title": "DC-PoA-DCAF07 I'm In Your Arms",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-DCAF07-Im-In-Your-Arms",
-        "tiers": 0,
+        "tiers": 2,
         "title": "DC-PoA-DCAF07 I'm In Your Arms",
         "url": "https://www.dmsguild.com/product/345460/DCPoADCAF07-Im-In-Your-Arms?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Adrian Francisco"
         ],
@@ -1038,14 +1038,14 @@
         "full_title": "DC-PoA-DCAF08 The Big Ticket",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-DCAF08-The-Big-Ticket",
-        "tiers": 0,
+        "tiers": 2,
         "title": "DC-PoA-DCAF08 The Big Ticket",
         "url": "https://www.dmsguild.com/product/348723/DCPoADCAF08-The-Big-Ticket?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Adrian Francisco"
         ],
@@ -1057,7 +1057,7 @@
         "full_title": "DC-PoA-DCAF09 An Ascent to Recall",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "DC-PoA-DCAF09-An-Ascent-to-Recall",
         "tiers": 2,
         "title": "DC-PoA-DCAF09 An Ascent to Recall",
@@ -1753,11 +1753,13 @@
         "full_title": "DC-PoA-JGD-05 Shadows Under Ice",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-JGD-05-Shadows-Under-Ice",
+        "level_range": "1-4",
+        "price": 5.99,
+        "product_id": "353826",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-JGD-05 Shadows Under Ice",
-        "url": "https://www.dmsguild.com/product/353826/DCPoAJGD05-Shadows-Under-Ice?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/353826/?affiliate_id=171040"
     },
     {
         "apl": null,

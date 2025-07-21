@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Kelly Samuelson"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-SAC-02-Fun-With-Fey",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-SAC-02 Fun With Fey",
     "url": "https://www.dmsguild.com/product/259233/CCCSAC02-Fun-With-Fey?filters=45470_0_0_0_0_0_0_0"
 }

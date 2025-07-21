@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Christine Weidenbach"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-ELF-02 An Adventuring Party Walks Into A Bar",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-ELF-02-An-Adventuring-Party-Walks-Into-A-Bar",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-ELF-02 An Adventuring Party Walks Into A Bar",
     "url": "https://www.dmsguild.com/product/263415/CCCELF02-An-Adventuring-Party-Walks-Into-A-Bar?filters=45470_0_0_0_0_0_0_0"
 }

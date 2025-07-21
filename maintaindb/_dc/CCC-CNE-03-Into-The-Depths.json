@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Mark McClenaghan"
     ],
@@ -15,7 +15,7 @@
     "price": null,
     "product_id": "254018",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CNE-03 Into The Depths",
     "url": "https://www.dmsguild.com/product/254018/?affiliate_id=171040"
 }

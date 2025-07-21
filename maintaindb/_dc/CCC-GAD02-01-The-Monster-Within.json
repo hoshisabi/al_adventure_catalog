@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Y. Michael Zhang"
     ],
@@ -15,7 +15,7 @@
     "price": 4.99,
     "product_id": "315751",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GAD02-01 The Monster Within",
     "url": "https://www.dmsguild.com/product/315751/?affiliate_id=171040"
 }

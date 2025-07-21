@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Baldman Games"
     ],
@@ -11,9 +11,11 @@
     "full_title": "CCC-BMG-06 CORE 2-3 Edicts of Neutrality",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "CCC-BMG-06-CORE-2-3-Edicts-of-Neutrality",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 4.99,
+    "product_id": "189089",
+    "season": null,
+    "tiers": 1,
     "title": "CCC-BMG-06 CORE 2-3 Edicts of Neutrality",
-    "url": "https://www.dmsguild.com/product/189089/CCCBMG06-CORE-23-Edicts-of-Neutrality?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/189089/?affiliate_id=171040"
 }

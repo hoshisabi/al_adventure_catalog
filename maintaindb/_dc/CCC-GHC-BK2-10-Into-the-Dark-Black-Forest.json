@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Gamehole Con",
         "Ruth Imhoff"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-GHC-BK2-10-Into-the-Dark-Black-Forest",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-BK2-10 Into the Dark, Black Forest",
     "url": "https://www.dmsguild.com/product/340685/CCCGHCBK210-Into-the-Dark-Black-Forest?filters=45470_0_0_0_0_0_0_0"
 }

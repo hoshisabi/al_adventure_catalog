@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Ariel Thomas"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-TAROT-02-01-A-Sunk-Cost",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-TAROT-02-01 A Sunk Cost",
     "url": "https://www.dmsguild.com/product/273101/CCCTAROT0201-A-Sunk-Cost?filters=45470_0_0_0_0_0_0_0"
 }

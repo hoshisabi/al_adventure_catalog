@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greg Marks",
         "Gamehole Con"
@@ -12,11 +12,11 @@
     "full_title": "CCC-GHC-BK03-02 The Girl with the Wet Nose",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "price": 4.99,
     "product_id": "344691",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GHC-BK03-02 The Girl with the Wet Nose",
     "url": "https://www.dmsguild.com/product/344691/?affiliate_id=171040"
 }

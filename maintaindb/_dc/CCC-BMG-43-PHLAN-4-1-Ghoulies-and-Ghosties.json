@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Baldman Games"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-BMG-43-PHLAN-4-1-Ghoulies-and-Ghosties",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-BMG-43 PHLAN 4-1 Ghoulies and Ghosties",
     "url": "https://www.dmsguild.com/product/265111/CCCBMG43-PHLAN-41-Ghoulies-and-Ghosties?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Jonathan Kennedy-Ellis"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "202",
     "product_id": "CCC-UBCON01-03-Grime-and-Gears",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-UBCON01-03 Grime and Gears",
     "url": "https://www.dmsguild.com/product/315768/CCCUBCON0103-Grime-and-Gears?filters=45470_0_0_0_0_0_0_0"
 }

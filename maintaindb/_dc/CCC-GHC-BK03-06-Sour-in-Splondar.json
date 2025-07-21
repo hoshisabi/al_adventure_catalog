@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Rick O'Donnell",
         "Gamehole Con"
@@ -16,7 +16,7 @@
     "price": 4.99,
     "product_id": "344634",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-BK03-06 Sour in Splondar",
     "url": "https://www.dmsguild.com/product/344634/?affiliate_id=171040"
 }

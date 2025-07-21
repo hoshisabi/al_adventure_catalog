@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Jeremy Forbing",
         "Sean Payne",
@@ -14,9 +14,9 @@
     "full_title": "CCC-SRCC01-02 Down the River of Snakes",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-SRCC01-02-Down-the-River-of-Snakes",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-SRCC01-02 Down the River of Snakes",
     "url": "https://www.dmsguild.com/product/223039/CCCSRCC0102-Down-the-River-of-Snakes?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Paul Duggan"
     ],
@@ -9,11 +9,11 @@
     "code": "CCC-SAF02-01",
     "date_created": "20201230",
     "full_title": "CCC-SAF02-01 Stygia: A Refuge In the Cold",
-    "hours": null,
+    "hours": "6-8",
     "is_adventure": true,
     "level_range": "7",
     "product_id": "CCC-SAF02-01-Stygia--A-Refuge-In-the-Cold",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-SAF02-01 Stygia A Refuge In the Cold",
     "url": "https://www.dmsguild.com/product/341614/CCCSAF0201-Stygia-A-Refuge-In-the-Cold"
 }

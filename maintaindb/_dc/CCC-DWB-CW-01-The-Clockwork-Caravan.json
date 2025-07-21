@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Robby Jones"
     ],
@@ -11,7 +11,7 @@
     "full_title": "CCC-DWB-CW-01 The Clockwork Caravan",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-DWB-CW-01-The-Clockwork-Caravan",
     "tiers": 1,
     "title": "CCC-DWB-CW-01 The Clockwork Caravan",

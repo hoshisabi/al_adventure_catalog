@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Robert Alaniz"
     ],
@@ -15,7 +15,7 @@
     "price": null,
     "product_id": "216992",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-DDSC-01 Murder at The Stop",
     "url": "https://www.dmsguild.com/product/216992/?affiliate_id=171040"
 }

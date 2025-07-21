@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 11,
     "authors": [
         "Jay H. Anderson",
         "MOGC"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "11",
     "product_id": "CCC-MIND01-01-Lost-in-Thought",
-    "tiers": null,
+    "tiers": 3,
     "title": "CCC-MIND01-01 Lost in Thought",
     "url": "https://www.dmsguild.com/product/246253/CCCMIND0101-Lost-in-Thought?filters=45470_0_0_0_0_0_0_0"
 }

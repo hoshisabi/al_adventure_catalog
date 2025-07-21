@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "ROBERT SILVA"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "0",
     "product_id": "CCC-CIC-05-Donum-Vitae",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-CIC-05 Donum Vitae",
     "url": "https://www.dmsguild.com/product/238300/CCCCIC05-Donum-Vitae?filters=45470_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Jeremy Hochhalter"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCCHATMS01-02-Prophecy-s-Promise-20180417",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCCHATMS01-02 Prophecy's Promise",
     "url": "https://www.dmsguild.com/product/239987/CCCHATMS0102-Prophecys-Promise?filters=45470_0_0_0_0_0_0_0"
 }

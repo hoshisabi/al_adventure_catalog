@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Daniel Eggert"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "199",
     "product_id": "CCC-APL-01-01-Its-Not-Easy-Being-Gene",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-APL-01-01 It's Not Easy Being Gene",
     "url": "https://www.dmsguild.com/product/262265/CCCAPL0101-Its-Not-Easy-Being-Gene?filters=45470_0_0_0_0_0_0_0"
 }

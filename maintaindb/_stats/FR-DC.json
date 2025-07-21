@@ -1684,6 +1684,27 @@
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 10,
+        "authors": [
+            "Von Ryan Maicle"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-REIN-VR-01",
+        "date_created": "20250717",
+        "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "530052",
+        "season": null,
+        "tiers": 2,
+        "title": "The Pale Steed",
+        "url": "https://www.dmsguild.com/product/530052/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Rebecca Farrar",
@@ -2994,27 +3015,6 @@
         "tiers": 1,
         "title": "Silent Night  5e",
         "url": "https://www.dmsguild.com/product/463480/Silent-Night-FRDCXMAS01-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Mike Arrow"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "FR-DC-MELB-02-05",
-        "date_created": "20250624",
-        "full_title": "Stormbound (FR-DC-MELB-02-05)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 4.99,
-        "product_id": "527475",
-        "season": null,
-        "tiers": 3,
-        "title": "Stormbound",
-        "url": "https://www.dmsguild.com/product/527475/?affiliate_id=171040"
     },
     {
         "apl": 3,

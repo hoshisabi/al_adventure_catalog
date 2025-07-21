@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Janine Hempy",
         "Jon Christian"
@@ -13,8 +13,8 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "2",
-    "product_id":463661,
-    "tiers": null,
+    "product_id": 463661,
+    "tiers": 1,
     "title": "BMG-DL-VOTU-03 Dragons of Treachery",
     "url": "https://www.dmsguild.com/product/463661/BMGDLVOTU03-Dragons-of-Treachery?filters=45470_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Will Doyle"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "3",
     "product_id": "CCC-UK-2-The-Wayward-Wives",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-UK-2 The Wayward Wives",
     "url": "https://www.dmsguild.com/product/253817/CCCUK2-The-Wayward-Wives?filters=45470_0_0_0_0_0_0_0"
 }

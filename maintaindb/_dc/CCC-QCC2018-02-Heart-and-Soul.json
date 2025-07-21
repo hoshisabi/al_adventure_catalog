@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Scott Moore"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "1",
     "product_id": "CCC-QCC2018-02-Heart-and-Soul",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-QCC2018-02 Heart and Soul",
     "url": "https://www.dmsguild.com/product/252178/CCCQCC201802-Heart-and-Soul?filters=45470_0_0_0_0_0_0_0"
 }

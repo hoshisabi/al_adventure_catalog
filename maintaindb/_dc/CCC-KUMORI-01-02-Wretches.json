@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "William Beers"
     ],
@@ -13,7 +13,7 @@
     "is_adventure": true,
     "level_range": "01",
     "product_id": "CCC-KUMORI-01-02-Wretches",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-KUMORI-01-02 Wretches",
     "url": "https://www.dmsguild.com/product/226911/CCCKUMORI0102-Wretches?filters=45470_0_0_0_0_0_0_0"
 }

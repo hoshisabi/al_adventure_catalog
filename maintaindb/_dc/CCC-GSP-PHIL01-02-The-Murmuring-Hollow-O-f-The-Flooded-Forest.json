@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Greasy Snitches",
         "Lanz Frago"
@@ -10,11 +10,11 @@
     "code": "CCC-GSP-PHIL01-02",
     "date_created": "20190820",
     "full_title": "CCC-GSP-PHIL01-02 The Murmuring Hollow O f The Flooded Forest",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-GSP-PHIL01-02-The-Murmuring-Hollow-O-f-The-Flooded-Forest",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-GSP-PHIL01-02 The Murmuring Hollow O f The Flooded Forest",
     "url": "https://www.dmsguild.com/product/285850/CCCGSPPHIL0102-The-Murmuring-Hollow-O-f-The-Flooded-Forest?filters=45470_0_0_0_0_0_0_0"
 }

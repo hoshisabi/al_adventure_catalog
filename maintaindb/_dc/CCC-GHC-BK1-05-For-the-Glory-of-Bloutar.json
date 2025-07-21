@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 5,
     "authors": [
         "Alex Kammer",
         "Gamehole Con"
@@ -14,7 +14,7 @@
     "is_adventure": true,
     "level_range": "5",
     "product_id": "CCC-GHC-BK1-05-For-the-Glory-of-Bloutar",
-    "tiers": null,
+    "tiers": 2,
     "title": "CCC-GHC-BK1-05 For the Glory of Bloutar!",
     "url": "https://www.dmsguild.com/product/260875/CCCGHCBK105-For-the-Glory-of-Bloutar?filters=45470_0_0_0_0_0_0_0"
 }

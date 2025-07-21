@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Micah Watt"
     ],
@@ -11,9 +11,9 @@
     "full_title": "CCC-PP-TDD01-01 Trouble Under Winton",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "CCC-PP-TDD01-01-Trouble-Under-Winton",
-    "tiers": null,
+    "tiers": 1,
     "title": "CCC-PP-TDD01-01 Trouble Under Winton",
     "url": "https://www.dmsguild.com/product/256228/CCCPPTDD0101-Trouble-Under-Winton?filters=45470_0_0_0_0_0_0_0"
 }
