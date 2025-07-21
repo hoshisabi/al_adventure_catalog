@@ -486,8 +486,6 @@ def _infer_missing_adventure_data(data):
 
     return data
 
-from warhorn_api import run_query
-
 def _extract_data_from_warhorn(scenario_data):
     # Extract data from Warhorn scenario data
     hours = None
@@ -503,7 +501,7 @@ def _extract_data_from_warhorn(scenario_data):
         "hours": hours,
         "apl": scenario_data.get("minLevel"), # Warhorn has min/max level, not APL directly
         "tiers": None, # Need to derive this from minLevel/maxLevel if possible
-        "level_range": f"{scenario_data.get("minLevel")}-{scenario_data.get("maxLevel")}",
+        "level_range": f"{scenario_data.get('minLevel')}-{scenario_data.get('maxLevel')}",
         "season": None, # Warhorn doesn't seem to have a direct season field
     }
 
@@ -511,46 +509,5 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     raw_data = _extract_raw_data_from_html(parsed_html, product_id)
     normalized_data = _normalize_and_convert_data(raw_data)
     new_data = _infer_missing_adventure_data(normalized_data)
-
-    # If data is missing from HTML, try Warhorn API
-    if new_data["hours"] is None or new_data["apl"] is None or new_data["tiers"] is None or new_data["level_range"] is None:
-        search_title = new_data.get("module_name") # Use the module_name from DMsGuild as search query
-        if search_title:
-            warhorn_query = """
-                query ($searchQuery: String!) {
-                    globalScenarios(query: $searchQuery) {
-                        nodes {
-                            name
-                            blurb
-                            author
-                            minLevel
-                            maxLevel
-                            campaign {
-                                name
-                            }
-                            gameSystem {
-                                name
-                            }
-                            tags {
-                                name
-                            }
-                        }
-                    }
-                }
-            """
-        try:
-            warhorn_result = run_query(warhorn_query, {"searchQuery": search_title})
-            if warhorn_result and warhorn_result["data"] and warhorn_result["data"]["globalScenarios"] and warhorn_result["data"]["globalScenarios"]["nodes"]:
-                # Assuming the first result is the most relevant
-                warhorn_scenario = warhorn_result["data"]["globalScenarios"]["nodes"][0]
-                warhorn_extracted_data = _extract_data_from_warhorn(warhorn_scenario)
-                
-                # Merge Warhorn data, prioritizing existing new_data if not None
-                for key, value in warhorn_extracted_data.items():
-                    if new_data[key] is None and value is not None:
-                        new_data[key] = value
-
-        except Exception as e:
-            logger.warning(f"Error fetching from Warhorn API for {search_title}: {e}")
 
     return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
