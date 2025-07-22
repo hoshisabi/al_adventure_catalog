@@ -1081,7 +1081,7 @@
         "url": "https://www.dmsguild.com/product/493225/PSDCSTRATDRAGON03-This-One-is-for-the-Liches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 18,
         "authors": [
             "Strategicon AL",
             "Alexis Paige",
@@ -1095,14 +1095,16 @@
         "full_title": "PS-DC-STRAT-DRAGON-04 My Shattered Heart",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
-        "product_id": "PS-DC-STRAT-DRAGON-04-My-Shattered-Heart",
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "498886",
+        "season": "Planescape",
         "tiers": 4,
         "title": "My Shattered Heart",
-        "url": "https://www.dmsguild.com/product/498886/PSDCSTRATDRAGON04-My-Shattered-Heart?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/498886/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 18,
         "authors": [
             "Strategicon AL",
             "Alexis Paige",
@@ -1116,14 +1118,16 @@
         "full_title": "PS-DC-STRAT-DRAGON-05 Your Shattered Bond",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
-        "product_id": "PS-DC-STRAT-DRAGON-05-Your-Shattered-Bond",
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "498893",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Your Shattered Bond",
-        "url": "https://www.dmsguild.com/product/498893/PSDCSTRATDRAGON05-Your-Shattered-Bond?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/498893/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 18,
         "authors": [
             "Strategicon AL",
             "Alexis Paige",
@@ -1137,11 +1141,13 @@
         "full_title": "PS-DC-STRAT-DRAGON-06 Our Shattered Ambitions",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
-        "product_id": "PS-DC-STRAT-DRAGON-06-Our-Shattered-Ambitions",
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "498894",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Our Shattered Ambitions",
-        "url": "https://www.dmsguild.com/product/498894/PSDCSTRATDRAGON06-Our-Shattered-Ambitions?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/498894/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1166,6 +1172,28 @@
     {
         "apl": 18,
         "authors": [
+            "Noah Grand",
+            "Strategicon AL"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-STRAT-TALES-05",
+        "date_created": "20250618",
+        "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526751",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "War of the Roses",
+        "url": "https://www.dmsguild.com/product/526751/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
             "James Clark",
             "Strategicon AL"
         ],
@@ -1177,11 +1205,13 @@
         "full_title": "PS-DC-STRAT-TALES-06 Dungeon & A Dragon",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
-        "product_id": "PS-DC-STRAT-TALES-06-Dungeon--A-Dragon",
+        "level_range": "17-20",
+        "price": 5.99,
+        "product_id": "526753",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Dungeon & A Dragon",
-        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526753/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1217,11 +1247,13 @@
         "full_title": "PS-DC-STRAT-UNDEAD-03 Winner Winner Chicken Dinner",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-STRAT-UNDEAD-03-Winner-Winner-Chicken-Dinner",
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "486032",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Winner Winner Chicken Dinner",
-        "url": "https://www.dmsguild.com/product/486032/PSDCSTRATUNDEAD03-Winner-Winner-Chicken-Dinner?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/486032/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1238,11 +1270,13 @@
         "full_title": "PS-DC-STRAT-UNDEAD-04 Overtime",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-STRAT-UNDEAD-04-Overtime",
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "486033",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Overtime",
-        "url": "https://www.dmsguild.com/product/486033/PSDCSTRATUNDEAD04-Overtime?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/486033/?affiliate_id=171040"
     },
     {
         "apl": 18,

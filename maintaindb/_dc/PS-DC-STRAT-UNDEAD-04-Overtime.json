@@ -13,9 +13,11 @@
     "full_title": "PS-DC-STRAT-UNDEAD-04 Overtime",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "PS-DC-STRAT-UNDEAD-04-Overtime",
+    "level_range": "17-20",
+    "price": 4.99,
+    "product_id": "486033",
+    "season": "Planescape",
     "tiers": 4,
     "title": "Overtime",
-    "url": "https://www.dmsguild.com/product/486033/PSDCSTRATUNDEAD04-Overtime?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/486033/?affiliate_id=171040"
 }

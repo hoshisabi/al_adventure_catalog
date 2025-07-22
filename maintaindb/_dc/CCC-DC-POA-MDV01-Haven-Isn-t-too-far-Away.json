@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Marcello De Velazquez"
     ],
@@ -9,13 +9,13 @@
     "code": "CCC-DC-POA-MDV01",
     "date_created": "20210519",
     "full_title": "CCC-DC-POA-MDV01, \"Haven (Isn't too far Away)",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "price": 2.00,
     "product_id": "358204",
-    "season": null,
-    "tiers": null,
+    "season": "Icewind Dale",
+    "tiers": 1,
     "title": "\"Haven Isn't too far Away",
     "url": "https://www.dmsguild.com/product/358204/?affiliate_id=171040"
 }

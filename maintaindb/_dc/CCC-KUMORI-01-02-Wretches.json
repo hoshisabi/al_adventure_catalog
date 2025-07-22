@@ -1,5 +1,5 @@
 {
-    "apl": 1,
+    "apl": 3,
     "authors": [
         "William Beers"
     ],
@@ -9,11 +9,13 @@
     "code": "CCC-KUMORI-01-02",
     "date_created": "20171120",
     "full_title": "CCC-KUMORI-01-02 Wretches",
-    "hours": "2",
+    "hours": 2,
     "is_adventure": true,
-    "level_range": "01",
-    "product_id": "CCC-KUMORI-01-02-Wretches",
+    "level_range": "1-4",
+    "price": 4.99,
+    "product_id": "226911",
+    "season": null,
     "tiers": 1,
     "title": "CCC-KUMORI-01-02 Wretches",
-    "url": "https://www.dmsguild.com/product/226911/CCCKUMORI0102-Wretches?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/226911/?affiliate_id=171040"
 }

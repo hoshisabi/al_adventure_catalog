@@ -5012,7 +5012,7 @@
         "url": "https://www.dmsguild.com/product/267847/CCCCOTN0101By-The-Seashore-A-Red-War-Tale&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Marcello De Velazquez"
         ],
@@ -5022,13 +5022,13 @@
         "code": "CCC-DC-POA-MDV01",
         "date_created": "20210519",
         "full_title": "CCC-DC-POA-MDV01, \"Haven (Isn't too far Away)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "1-4",
+        "price": 2.0,
         "product_id": "358204",
-        "season": null,
-        "tiers": 0,
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "\"Haven Isn't too far Away",
         "url": "https://www.dmsguild.com/product/358204/?affiliate_id=171040"
     },
@@ -8654,9 +8654,10 @@
         "full_title": "CCC-NUKE-02-01 \"One Fowl Soup\"",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "price": 4.99,
         "product_id": "CCC-NUKE-02-01-One-Fowl-Soup",
-        "tiers": 0,
+        "tiers": 1,
         "title": "CCC-NUKE-02-01 \"One Fowl Soup\"",
         "url": "https://www.dmsguild.com/product/334537/CCCNUKE0201-One-Fowl-Soup?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
@@ -10625,14 +10626,15 @@
         ],
         "code": "CCC-SVH-03-01",
         "date_created": "20200429",
-        "full_title": "CCC-SVH-03-01 Finder's Fiend (w/ FG mod)",
-        "hours": "4",
+        "full_title": "CCC-SVH-03-01 Finder's Fiend",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-SVH-03-01-Finders-Fiend-w-FG-mod",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 311649,
+        "tiers": 2,
         "title": "CCC-SVH-03-01 Finder's Fiend w/ FG mod",
-        "url": "https://www.dmsguild.com/product/311649/CCCSVH0301-Finders-Fiend-w--FG-mod?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/311649/&affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -18100,27 +18102,6 @@
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 10,
-        "authors": [
-            "Von Ryan Maicle"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "FR-DC-REIN-VR-01",
-        "date_created": "20250717",
-        "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "530052",
-        "season": null,
-        "tiers": 2,
-        "title": "The Pale Steed",
-        "url": "https://www.dmsguild.com/product/530052/?affiliate_id=171040"
-    },
-    {
         "apl": 3,
         "authors": [
             "Rebecca Farrar",
@@ -19434,6 +19415,27 @@
         "tiers": 3,
         "title": "Heart of Glass",
         "url": "https://www.dmsguild.com/product/465380/Heart-of-Glass-SJDCASLM02?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Extra Troubadour"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-EXT-HV",
+        "date_created": "20250721",
+        "full_title": "Hive of the Vilified",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 0.0,
+        "product_id": "530421",
+        "season": null,
+        "tiers": 1,
+        "title": "Hive of the Vilified",
+        "url": "https://www.dmsguild.com/product/530421/Hive-of-the-Vilified?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
