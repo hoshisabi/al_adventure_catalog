@@ -36,6 +36,10 @@ IF "%GENERATE_REQUIREMENTS%"=="true" (
     echo No changes to requirements.txt needed at this time.
 )
 
+REM Running aggregator and stats script in case there are changes.
+uv run maintaindb\aggregator.py
+uv run maintaindb\stats.py
+
 REM Stage all changes
 echo Staging all changes for commit...
 git add .
