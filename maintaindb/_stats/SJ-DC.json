@@ -118,10 +118,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "price": 3.99,
         "product_id": "451742",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Bad Omen",
-        "url": "https://www.dmsguild.com/product/451742?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451742/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -139,6 +141,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "452614",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Blasted",
         "url": "https://www.dmsguild.com/product/452614/?affiliate_id=171040"
