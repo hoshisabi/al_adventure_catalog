@@ -10,11 +10,13 @@
     "code": "FR-DC-STRAT-UNDEAD-01",
     "date_created": "20240627",
     "full_title": "FR-DC-STRAT-UNDEAD-01 Undead Like Me",
-    "hours": null,
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "FR-DC-STRAT-UNDEAD-01-Undead-Like-Me",
+    "level_range": "5-10",
+    "price": 4.99,
+    "product_id": "486042",
+    "season": null,
     "tiers": 2,
     "title": "Undead Like Me",
-    "url": "https://www.dmsguild.com/product/486042/FRDCSTRATUNDEAD01-Undead-Like-Me?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/486042/?affiliate_id=171040"
 }

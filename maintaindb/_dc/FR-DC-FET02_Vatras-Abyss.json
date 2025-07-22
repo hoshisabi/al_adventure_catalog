@@ -1,17 +1,21 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
+    "apl": 10,
+    "authors": [
+        "Bernhard Staneker"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-FET02_VATRAS",
     "date_created": "20250705",
     "full_title": "FR-DC-FET02_Vatras Abyss",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": 4,
+    "is_adventure": true,
+    "level_range": "5-10",
+    "price": 4.99,
     "product_id": "528753",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "Abyss",
-    "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
 }

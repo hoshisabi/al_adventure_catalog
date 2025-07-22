@@ -534,7 +534,7 @@
         "url": "https://www.dmsguild.com/product/457186/Goldstock-SJDCDFA05?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Angelo Bongais"
         ],
@@ -546,11 +546,13 @@
         "full_title": "Guide on The Other Side (SJ-DC-AMO-KURI-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Guide-on-The-Other-Side-SJ-DC-AMO-KURI-02",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "451191",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Guide on The Other Side",
-        "url": "https://www.dmsguild.com/product/451191/Guide-on-The-Other-Side-SJDCAMOKURI02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451191/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1200,11 +1202,13 @@
         "full_title": "SJ-DC-AMOT-01 A Time to Heal",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-AMOT-01-A-Time-to-Heal",
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "451690",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "A Time to Heal",
-        "url": "https://www.dmsguild.com/product/451690/SJDCAMOT01-A-Time-to-Heal?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451690/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1221,11 +1225,13 @@
         "full_title": "SJ-DC-AMOT-02 Gone in a Flash",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-AMOT-02-Gone-in-a-Flash",
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "451692",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Gone in a Flash",
-        "url": "https://www.dmsguild.com/product/451692/SJDCAMOT02-Gone-in-a-Flash?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451692/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1242,11 +1248,13 @@
         "full_title": "SJ-DC-AMOT-03 Playing the Odds",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-AMOT-03-Playing-the-Odds",
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "451697",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Playing the Odds",
-        "url": "https://www.dmsguild.com/product/451697/SJDCAMOT03-Playing-the-Odds?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451697/?affiliate_id=171040"
     },
     {
         "apl": 3,

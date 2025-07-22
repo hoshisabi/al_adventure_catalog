@@ -1,17 +1,22 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
+    "apl": 13,
+    "authors": [
+        "KC Carr",
+        "Strategicon AL"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-STRAT-TALES-03",
     "date_created": "20250618",
     "full_title": "FR-DC-STRAT-TALES-03 The Beast Within",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": 4,
+    "is_adventure": true,
+    "level_range": "11-16",
+    "price": 5.99,
     "product_id": "526746",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "The Beast Within",
-    "url": "https://www.dmsguild.com/product/526746/FRDCSTRATTALES03-The-Beast-Within?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/526746/?affiliate_id=171040"
 }

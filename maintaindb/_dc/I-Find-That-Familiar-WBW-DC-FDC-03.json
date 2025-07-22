@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 2,
     "authors": [
         "Paul Gabat"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "product_id": "I-Find-That-Familiar-WBW-DC-FDC-03",
-    "tiers": null,
+    "price": 7.95,
+    "product_id": "371500",
+    "season": "The Wild Beyond the Witchlight",
+    "tiers": 1,
     "title": "I Find That Familiar",
-    "url": "https://www.dmsguild.com/product/371500/I-Find-That-Familiar-WBWDCFDC03?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/371500/?affiliate_id=171040"
 }

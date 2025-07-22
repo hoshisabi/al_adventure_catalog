@@ -5,6 +5,38 @@ import os
 WARHORN_APPLICATION_TOKEN = os.getenv("WARHORN_APPLICATION_TOKEN")
 WARHORN_API_ENDPOINT = "https://warhorn.net/graphql"
 
+def generate_warhorn_slug(title):
+    """
+    Generates a Warhorn-style slug from a given title.
+    """
+    # Convert to lowercase
+    slug = title.lower()
+    # Replace spaces and non-alphanumeric characters with hyphens
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+    return slug
+
+def _extract_data_from_warhorn(scenario_data):
+    # Extract data from Warhorn scenario data
+    hours = None
+    if scenario_data.get("blurb"):
+        hours_match = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', scenario_data["blurb"], re.IGNORECASE)
+        if hours_match:
+            if hours_match.group(2):
+                hours = f"{hours_match.group(1)}-{hours_match.group(2)}"
+            else:
+                hours = hours_match.group(1)
+
+    return {
+        "hours": hours,
+        "apl": scenario_data.get("minLevel"), # Warhorn has min/max level, not APL directly
+        "tiers": None, # Need to derive this from minLevel/maxLevel if possible
+        "level_range": f"{scenario_data.get('minLevel')}-{scenario_data.get('maxLevel')}",
+        "season": None, # Warhorn doesn't seem to have a direct season field
+    }
+
+
 def run_query(query, variables=None):
     headers = {
         "Authorization": f"Bearer {WARHORN_APPLICATION_TOKEN}",

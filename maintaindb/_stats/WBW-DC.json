@@ -280,11 +280,13 @@
         "full_title": "Cat's Paws (WBW-DC-NTP-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Cats-Paws-WBW-DC-NTP-01",
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "408478",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Cat's Paws",
-        "url": "https://www.dmsguild.com/product/408478/Cats-Paws-WBWDCNTP01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408478/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -402,7 +404,7 @@
         "url": "https://www.dmsguild.com/product/408615/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Paul Gabat"
         ],
@@ -415,10 +417,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "I-Find-That-Familiar-WBW-DC-FDC-03",
-        "tiers": 0,
+        "price": 7.95,
+        "product_id": "371500",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "I Find That Familiar",
-        "url": "https://www.dmsguild.com/product/371500/I-Find-That-Familiar-WBWDCFDC03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/371500/?affiliate_id=171040"
     },
     {
         "apl": 8,

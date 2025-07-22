@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 18,
     "authors": [
         "Strategicon AL",
         "Alexis Paige",
@@ -13,9 +13,11 @@
     "full_title": "PS-DC-STRAT-DRAGON-04 My Shattered Heart",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "202",
-    "product_id": "PS-DC-STRAT-DRAGON-04-My-Shattered-Heart",
+    "level_range": "17-20",
+    "price": 4.99,
+    "product_id": "498886",
+    "season": "Planescape",
     "tiers": 4,
     "title": "My Shattered Heart",
-    "url": "https://www.dmsguild.com/product/498886/PSDCSTRATDRAGON04-My-Shattered-Heart?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/498886/?affiliate_id=171040"
 }
