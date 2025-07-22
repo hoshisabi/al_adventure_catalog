@@ -53,3 +53,9 @@
 - [x] Change aggregator to update a file in the _stats directory not use the ..\ hack that we've used, could we have jekyll get that file, if not, we can update our lp.bat file to do this work for our testing, and update the readme.md to specify this new requirement
 - [ ] replace concept of Season with concept of "tags" -- an adventure could have multiple tags
   - [ ] Season is one tag - this can be specified in a JSON file that we 
+
+
+Parse issues:
+- https://www.dmsguild.com/product/486042/FRDCSTRATUNDEAD01-Undead-Like-Me?src=by_author_of_product&filters=45470_0_0_0_0_0_0_0_0
+  - A Two/Four -Hour Adventure for Tier 2 Characters. Optimized for APL 8
+- 

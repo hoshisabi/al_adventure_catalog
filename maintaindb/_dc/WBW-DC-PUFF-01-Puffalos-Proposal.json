@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Bryan Mets"
     ],
@@ -11,9 +11,10 @@
     "full_title": "WBW-DC-PUFF-01 Puffalo's Proposal",
     "hours": "1",
     "is_adventure": true,
-    "level_range": "1",
+    "price": 1.00,
+    "level_range": "1-2",
     "product_id": "WBW-DC-PUFF-01-Puffalos-Proposal",
-    "tiers": null,
+    "tiers": 1,
     "title": "Puffalo's Proposal",
-    "url": "https://www.dmsguild.com/product/524648/WBWDCPUFF01-Puffalos-Proposal?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/524648/WBWDCPUFF01-Puffalos-Proposal?affiliate_id=171040"
 }

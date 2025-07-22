@@ -3827,7 +3827,7 @@
         "url": "https://www.dmsguild.com/product/432556/SJDCNOS03-Sol-Crash?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 7,
         "authors": [
             "Joel Sussenberger"
         ],
@@ -3837,13 +3837,13 @@
         "code": "SJ-DC-OGC-01",
         "date_created": "20231229",
         "full_title": "SJ-DC-OGC-01 - The Hunt: For Moby Duck",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-OGC-01---The-Hunt--For-Moby-Duck",
-        "tiers": 0,
+        "tiers": 2,
         "title": "- The Hunt For Moby Duck",
-        "url": "https://www.dmsguild.com/product/465366/SJDCOGC01--The-Hunt-For-Moby-Duck?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465366/SJDCOGC01--The-Hunt-For-Moby-Duck?affiliate_id=171040"
     },
     {
         "apl": 13,
