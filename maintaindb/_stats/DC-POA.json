@@ -754,10 +754,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-CONMAR-Play-Order",
+        "price": 0.5,
+        "product_id": "369438",
+        "season": "Icewind Dale",
         "tiers": 0,
         "title": "DC-PoA-CONMAR Play Order",
-        "url": "https://www.dmsguild.com/product/369438/DCPoACONMAR-Play-Order?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369438/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -931,25 +933,6 @@
         "tiers": 1,
         "title": "DC-PoA-DCAF03 Sputtering Out",
         "url": "https://www.dmsguild.com/product/337518/DCPoADCAF03-Sputtering-Out?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Adrian Francisco"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DCAF04",
-        "date_created": "20210516",
-        "full_title": "DC-PoA-DCAF04 A Macabre Nightal [FGU Mod]",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-DCAF04-A-Macabre-Nightal-FGU-Mod",
-        "tiers": 0,
-        "title": "DC-PoA-DCAF04 A Macabre Nightal [FGU Mod]",
-        "url": "https://www.dmsguild.com/product/357847/DCPoADCAF04-A-Macabre-Nightal-FGU-Mod?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1334,7 +1317,7 @@
         "url": "https://www.dmsguild.com/product/341912/DCPoADUCKSOS02Are-you-openminded?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
             "PT MacKim"
         ],
@@ -1344,16 +1327,18 @@
         "code": "DC-POA-EBAL-TT1",
         "date_created": "20210731",
         "full_title": "DC-POA-EBAL-TT1 Bru in Trouble",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-EBAL-TT1-Bru-in-Trouble",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "366166",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-POA-EBAL-TT1 Bru in Trouble",
-        "url": "https://www.dmsguild.com/product/366166/DCPOAEBALTT1-Bru-in-Trouble?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/366166/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Ethan Henry"
         ],
@@ -1363,13 +1348,15 @@
         "code": "DC-POA-EH-1",
         "date_created": "20210830",
         "full_title": "DC-PoA-EH-1 Horsing Around",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-EH-1-Horsing-Around",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 1.0,
+        "product_id": "369345",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-EH-1 Horsing Around",
-        "url": "https://www.dmsguild.com/product/369345/DCPoAEH1-Horsing-Around?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369345/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2126,7 +2113,7 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "price": 6.96,
+        "price": 7.04,
         "product_id": "345391",
         "season": "Icewind Dale",
         "tiers": 0,
@@ -2249,7 +2236,7 @@
         "url": "https://www.dmsguild.com/product/352245/DCPoAPM05-Can-you-tell-me-how-to-get-to-the-east-haven-way?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Paul Duggan"
         ],
@@ -2261,11 +2248,13 @@
         "full_title": "DC-POA-RED-01 Chwingatown",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-RED-01-Chwingatown",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "368753",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-POA-RED-01 Chwingatown",
-        "url": "https://www.dmsguild.com/product/368753/DCPOARED01-Chwingatown?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368753/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3009,7 +2998,7 @@
         "product_id": "DC-PoA-ZF01-Undisclosed-Ordeals",
         "tiers": 0,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
-        "url": "https://www.dmsguild.com/product/345714/DCPoAZF01-Undisclosed-Ordeals?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
     },
     {
         "apl": 8,
