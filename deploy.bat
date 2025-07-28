@@ -38,6 +38,7 @@ IF "%GENERATE_REQUIREMENTS%"=="true" (
 
 REM Running aggregator and stats script in case there are changes.
 uv run maintaindb\aggregator.py
+copy maintaindb\_stats\all_adventures.json assets\data\all_adventures.json
 uv run maintaindb\stats.py
 
 REM Stage all changes
