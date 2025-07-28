@@ -672,7 +672,7 @@
         "url": "https://www.dmsguild.com/product/413198/Hook-Line-and-Scavver-SJDCPHPOJW01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Tricia Monsod",
             "Kai Monsod"
@@ -685,11 +685,13 @@
         "full_title": "It Runs in the Blood (SJ-DC-TKM-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "It-Runs-in-the-Blood-SJ-DC-TKM-03",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "446273",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "It Runs in the Blood",
-        "url": "https://www.dmsguild.com/product/446273/It-Runs-in-the-Blood-SJDCTKM03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/446273/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -788,7 +790,7 @@
         "url": "https://www.dmsguild.com/product/464271/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Tricia Monsod"
         ],
@@ -800,11 +802,13 @@
         "full_title": "Lost Stars (SJ-DC-TKM-01)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Lost-Stars-SJ-DC-TKM-01",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "418054",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Lost Stars",
-        "url": "https://www.dmsguild.com/product/418054/Lost-Stars-SJDCTKM01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418054/?affiliate_id=171040"
     },
     {
         "apl": 8,
