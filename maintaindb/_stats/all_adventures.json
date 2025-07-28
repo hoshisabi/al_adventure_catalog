@@ -12798,7 +12798,7 @@
         "url": "https://www.dmsguild.com/product/514097/Crazy-Lich-Thayans-FRDCTHAY01?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Greasy Snitches",
             "Paul Gabat"
@@ -12811,11 +12811,13 @@
         "full_title": "Crypt of the Mind Flayers (DC-PoA-GSP01-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Crypt-of-the-Mind-Flayers-DC-PoA-GSP01-02",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "347893",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "Crypt of the Mind Flayers DC-PoA-GSP01-02",
-        "url": "https://www.dmsguild.com/product/347893/Crypt-of-the-Mind-Flayers-DCPoAGSP0102?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/347893/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -19367,6 +19369,90 @@
         "tiers": 2,
         "title": "Enter the Arena",
         "url": "https://www.dmsguild.com/product/528610/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-02",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-02 Wyrmwood and Wavecrest",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "530068",
+        "season": null,
+        "tiers": 3,
+        "title": "Wyrmwood and Wavecrest",
+        "url": "https://www.dmsguild.com/product/530068/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-03",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-03 Veins and Veils",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "530582",
+        "season": null,
+        "tiers": 3,
+        "title": "Veins and Veils",
+        "url": "https://www.dmsguild.com/product/530582/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-04",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-04 Tempest and Tectonics",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "530589",
+        "season": null,
+        "tiers": 3,
+        "title": "Tempest and Tectonics",
+        "url": "https://www.dmsguild.com/product/530589/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-05",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-05 The Bonebind Curse",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 4.95,
+        "product_id": "530595",
+        "season": null,
+        "tiers": 4,
+        "title": "The Bonebind Curse",
+        "url": "https://www.dmsguild.com/product/530595/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -25941,6 +26027,27 @@
         "tiers": 2,
         "title": "- The Hunt For Moby Duck",
         "url": "https://www.dmsguild.com/product/465366/SJDCOGC01--The-Hunt-For-Moby-Duck?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "Joel Sussenberger"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-OGC-01",
+        "date_created": "20231229",
+        "full_title": "SJ-DC-OGC-01 - The Hunt: For Moby Duck",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.0,
+        "product_id": "465366",
+        "season": "Spelljammer",
+        "tiers": 2,
+        "title": "- The Hunt For Moby Duck",
+        "url": "https://www.dmsguild.com/product/465366/?affiliate_id=171040"
     },
     {
         "apl": 13,
