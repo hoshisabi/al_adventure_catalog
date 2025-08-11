@@ -188,6 +188,27 @@
         "url": "https://www.dmsguild.com/product/443050/?affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Tricia Monsod"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-TKM-CH03",
+        "date_created": "20250806",
+        "full_title": "A Sorrowful Farewell (SJ-DC-TKM-CH03)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "532407",
+        "season": "Spelljammer",
+        "tiers": 2,
+        "title": "A Sorrowful Farewell",
+        "url": "https://www.dmsguild.com/product/532407/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Kat Kruger"
@@ -5601,7 +5622,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "price": 2.99,
         "product_id": "311687",
         "season": null,
         "tiers": 3,
@@ -5643,7 +5664,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 2.99,
         "product_id": "311689",
         "season": null,
         "tiers": 2,
@@ -5702,26 +5723,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-DWB-TRM-1--Red-Mirage",
-        "tiers": 1,
-        "title": "CCC-DWB-TRM-1 Red Mirage",
-        "url": "https://www.dmsguild.com/product/311688/CCCDWBTRM1-Red-Mirage&affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Robby Jones"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-DWB-TRM-1-",
-        "date_created": "20200504",
-        "full_title": "CCC-DWB-TRM-1: Red Mirage",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": null,
+        "price": 2.99,
         "product_id": "311688",
         "season": null,
         "tiers": 1,
@@ -17812,7 +17814,28 @@
         "season": null,
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Casey McGirt"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-MCG-CH2",
+        "date_created": "20250730",
+        "full_title": "FR-DC-MCG-CH2 The Clenched Fist",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.5,
+        "product_id": "531330",
+        "season": null,
+        "tiers": 2,
+        "title": "The Clenched Fist",
+        "url": "https://www.dmsguild.com/product/531330/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -18236,6 +18259,27 @@
         "tiers": 2,
         "title": "Pest Infestation",
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Duncan Gan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-PNKE-01",
+        "date_created": "20250801",
+        "full_title": "FR-DC-PNKE-01 Vie for the Eye",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 39.41,
+        "product_id": "531524",
+        "season": null,
+        "tiers": 3,
+        "title": "Vie for the Eye",
+        "url": "https://www.dmsguild.com/product/531524/?affiliate_id=171040"
     },
     {
         "apl": 10,
