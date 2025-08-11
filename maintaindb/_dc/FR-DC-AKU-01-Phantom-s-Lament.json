@@ -1,6 +1,8 @@
 {
     "apl": 8,
-    "authors": [],
+    "authors": [
+        "Kaithlyn Kuan"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -8,12 +10,12 @@
     "date_created": "20250627",
     "full_title": "FR-DC-AKU-01 Phantom's Lament",
     "hours": "4",
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": "5-10",
     "price": 4.99,
     "product_id": "527701",
     "season": null,
     "tiers": 2,
     "title": "Phantom's Lament",
-    "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
 }
