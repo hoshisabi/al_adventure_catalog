@@ -1,6 +1,8 @@
 {
     "apl": 10,
-    "authors": [],
+    "authors": [
+        "Von Ryan Maicle"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -8,12 +10,12 @@
     "date_created": "20250717",
     "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
     "hours": "4",
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": "5-10",
     "price": 4.99,
     "product_id": "530052",
     "season": null,
     "tiers": 2,
     "title": "The Pale Steed",
-    "url": "https://www.dmsguild.com/product/530052/FRDCREINVR01-The-Pale-Steed?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/530052/?affiliate_id=171040"
 }
