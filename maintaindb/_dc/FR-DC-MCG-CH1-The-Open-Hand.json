@@ -1,7 +1,11 @@
 {
     "apl": 8,
-    "authors": ["Casey McGirt"],
-    "campaigns": ["Forgotten Realms"],
+    "authors": [
+        "Casey McGirt"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-MCG-CH1",
     "date_created": "20250625",
     "full_title": "FR-DC-MCG-CH1 The Open Hand",
@@ -13,5 +17,5 @@
     "season": null,
     "tiers": 2,
     "title": "The Open Hand",
-    "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
 }

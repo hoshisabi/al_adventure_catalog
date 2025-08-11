@@ -1,14 +1,16 @@
 {
     "apl": 3,
-    "authors": ["Extra Troubadour"],
-    "campaigns": ["Forgotten Realms"],
+    "authors": [],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-EXT-HV",
     "date_created": "20250721",
     "full_title": "Hive of the Vilified",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "1-4",
-    "price": 0.00,
+    "price": 0.0,
     "product_id": "530421",
     "season": null,
     "tiers": 1,
