@@ -930,6 +930,27 @@
         "url": "https://www.dmsguild.com/product/523953/FRDCFET01Vatras-Besieged?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 10,
+        "authors": [
+            "Bernhard Staneker"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-FET02_VATRAS",
+        "date_created": "20250705",
+        "full_title": "FR-DC-FET02_Vatras Abyss",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "528753",
+        "season": null,
+        "tiers": 2,
+        "title": "Abyss",
+        "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Joshua Nelson"

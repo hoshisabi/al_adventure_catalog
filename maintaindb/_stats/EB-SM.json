@@ -32,10 +32,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "Chrome-On-The-Range",
+        "price": 2.99,
+        "product_id": "360228",
+        "season": null,
         "tiers": 3,
         "title": "Chrome On The Range",
-        "url": "https://www.dmsguild.com/product/360228/Chrome-On-The-Range&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/360228/?affiliate_id=171040"
     },
     {
         "apl": 6,
