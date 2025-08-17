@@ -419,13 +419,15 @@
         "code": "DC-POA-CONMAR-03",
         "date_created": "20210222",
         "full_title": "DC-PoA-CONMAR-03 - Unfrozen",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "DC-PoA-CONMAR-03---Unfrozen",
+        "price": 4.99,
+        "product_id": "347798",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-03 - Unfrozen",
-        "url": "https://www.dmsguild.com/product/347798/DCPoACONMAR03--Unfrozen?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/347798/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -442,10 +444,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "DC-PoA-CONMAR-04---Midwinter-Celebrations",
+        "price": 4.99,
+        "product_id": "339808",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
-        "url": "https://www.dmsguild.com/product/339808/DCPoACONMAR04--Midwinter-Celebrations?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/339808/?affiliate_id=171040"
     },
     {
         "apl": 3,

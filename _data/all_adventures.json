@@ -1675,7 +1675,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 3.99,
         "product_id": "263173",
         "season": null,
         "tiers": 1,
@@ -1683,7 +1683,7 @@
         "url": "https://www.dmsguild.com/product/263173/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Garrett Crowe"
         ],
@@ -1693,13 +1693,15 @@
         "code": "CCC-AN-02",
         "date_created": "20180816",
         "full_title": "CCC-AN-02 The Wrathful Deity of Khurovogo",
-        "hours": "1",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-AN-02-The-Wrathful-Deity-of-Khurovogo",
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "250006",
+        "season": null,
         "tiers": 1,
         "title": "CCC-AN-02 The Wrathful Deity of Khurovogo",
-        "url": "https://www.dmsguild.com/product/250006/CCCAN02-The-Wrathful-Deity-of-Khurovogo?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/250006/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -1714,11 +1716,11 @@
         "full_title": "CCC-AN-03 Winter Wonderland",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
         "product_id": "CCC-AN-03-Winter-Wonderland",
         "tiers": 2,
         "title": "CCC-AN-03 Winter Wonderland",
-        "url": "https://www.dmsguild.com/product/256915/CCCAN03-Winter-Wonderland?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/256915/CCCAN03-Winter-Wonderland?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1796,7 +1798,8 @@
         "full_title": "CCC-APL-01-01 It's Not Easy Being Gene",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "199",
+        "level_range": "1-4",
+        "price": 4.99,
         "product_id": "CCC-APL-01-01-Its-Not-Easy-Being-Gene",
         "tiers": 1,
         "title": "CCC-APL-01-01 It's Not Easy Being Gene",
@@ -1853,11 +1856,13 @@
         "full_title": "CCC-ARCON01-01 - Forest Song",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-ARCON01-01---Forest-Song",
+        "level_range": "1-4",
+        "price": 14.81,
+        "product_id": "334613",
+        "season": null,
         "tiers": 1,
         "title": "CCC-ARCON01-01 - Forest Song",
-        "url": "https://www.dmsguild.com/product/334613/CCCARCON0101--Forest-Song?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334613/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1873,10 +1878,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-ARCON01-02---A-Whale-of-a-Tale",
+        "price": 14.81,
+        "product_id": "334674",
+        "season": null,
         "tiers": 1,
         "title": "CCC-ARCON01-02 - A Whale of a Tale",
-        "url": "https://www.dmsguild.com/product/334674/CCCARCON0102--A-Whale-of-a-Tale?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334674/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1891,11 +1898,13 @@
         "full_title": "CCC-ARCON01-03 - Pharmacist Wanted",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "CCC-ARCON01-03---Pharmacist-Wanted",
+        "level_range": "1-4",
+        "price": 6.63,
+        "product_id": "334450",
+        "season": null,
         "tiers": 1,
         "title": "CCC-ARCON01-03 - Pharmacist Wanted",
-        "url": "https://www.dmsguild.com/product/334450/CCCARCON0103--Pharmacist-Wanted?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334450/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -12676,10 +12685,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "Chrome-On-The-Range",
+        "price": 2.99,
+        "product_id": "360228",
+        "season": null,
         "tiers": 3,
         "title": "Chrome On The Range",
-        "url": "https://www.dmsguild.com/product/360228/Chrome-On-The-Range&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/360228/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -12750,14 +12761,16 @@
         ],
         "code": "CCC-ALMOG-27",
         "date_created": "20190804",
-        "full_title": "Cove of Fallen Souls CCC-ALMOG-27 DAGON01-02",
+        "full_title": "Cove of Fallen Souls (CCC-ALMOG-27 DAGON01-02)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "Cove-of-Fallen-Souls",
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "284815",
+        "season": null,
         "tiers": 1,
         "title": "Cove of Fallen Souls",
-        "url": "https://www.dmsguild.com/product/284815/Cove-of-Fallen-Souls?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/284815/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -12813,11 +12826,13 @@
         "full_title": "Dancing at Her Funeral (WBW-DC-JOQ-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Dancing-at-Her-Funeral-WBW-DC-JOQ-01",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "373669",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Dancing at Her Funeral",
-        "url": "https://www.dmsguild.com/product/373669/Dancing-at-Her-Funeral-WBWDCJOQ01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/373669/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -13273,13 +13288,15 @@
         "code": "DC-POA-CONMAR-03",
         "date_created": "20210222",
         "full_title": "DC-PoA-CONMAR-03 - Unfrozen",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "DC-PoA-CONMAR-03---Unfrozen",
+        "price": 4.99,
+        "product_id": "347798",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-CONMAR-03 - Unfrozen",
-        "url": "https://www.dmsguild.com/product/347798/DCPoACONMAR03--Unfrozen?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/347798/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -13296,10 +13313,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "DC-PoA-CONMAR-04---Midwinter-Celebrations",
+        "price": 4.99,
+        "product_id": "339808",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
-        "url": "https://www.dmsguild.com/product/339808/DCPoACONMAR04--Midwinter-Celebrations?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/339808/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17336,6 +17355,27 @@
         "tiers": 2,
         "title": "Besieged",
         "url": "https://www.dmsguild.com/product/523953/FRDCFET01Vatras-Besieged?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "Bernhard Staneker"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-FET02_VATRAS",
+        "date_created": "20250705",
+        "full_title": "FR-DC-FET02_Vatras Abyss",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "528753",
+        "season": null,
+        "tiers": 2,
+        "title": "Abyss",
+        "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
     },
     {
         "apl": null,
