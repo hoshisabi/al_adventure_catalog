@@ -1,17 +1,19 @@
 {
     "apl": 3,
-    "authors": ["Bernard Jericho Velasco"],
-    "campaigns": ["Forgotten Realms"],
+    "authors": [],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-NEW-TIER1-1",
     "date_created": "20250711",
-    "full_title": "FR-DC-NEW-TIER1-1 A Damsel In Distress",
+    "full_title": "FR-DC-NEW-TIER1-1",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "1-4",
-    "price": 1.00,
+    "price": 1.0,
     "product_id": "529395",
     "season": null,
     "tiers": 1,
-    "title": "A Damsel In Distress",
-    "url": "https://www.dmsguild.com/product/529395?affiliate_id=171040"
+    "title": "",
+    "url": "https://www.dmsguild.com/product/529395/FRDCNEWTIER11?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }
