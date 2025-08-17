@@ -1,8 +1,6 @@
 {
     "apl": 8,
-    "authors": [
-        "Casey McGirt"
-    ],
+    "authors": [],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,12 +8,12 @@
     "date_created": "20250730",
     "full_title": "FR-DC-MCG-CH2 The Clenched Fist",
     "hours": null,
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "5-10",
-    "price": 2.50,
+    "price": 2.5,
     "product_id": "531330",
     "season": null,
     "tiers": 2,
     "title": "The Clenched Fist",
-    "url": "https://www.dmsguild.com/product/531330/?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/531330/FRDCMCGCH2-The-Clenched-Fist?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }
