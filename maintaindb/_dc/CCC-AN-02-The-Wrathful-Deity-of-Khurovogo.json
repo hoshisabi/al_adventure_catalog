@@ -1,5 +1,5 @@
 {
-    "apl": 1,
+    "apl": 3,
     "authors": [
         "Garrett Crowe"
     ],
@@ -9,11 +9,13 @@
     "code": "CCC-AN-02",
     "date_created": "20180816",
     "full_title": "CCC-AN-02 The Wrathful Deity of Khurovogo",
-    "hours": "1",
+    "hours": "2",
     "is_adventure": true,
-    "level_range": "1",
-    "product_id": "CCC-AN-02-The-Wrathful-Deity-of-Khurovogo",
+    "level_range": "1-4",
+    "price": 1.99,
+    "product_id": "250006",
+    "season": null,
     "tiers": 1,
     "title": "CCC-AN-02 The Wrathful Deity of Khurovogo",
-    "url": "https://www.dmsguild.com/product/250006/CCCAN02-The-Wrathful-Deity-of-Khurovogo?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/250006/?affiliate_id=171040"
 }
