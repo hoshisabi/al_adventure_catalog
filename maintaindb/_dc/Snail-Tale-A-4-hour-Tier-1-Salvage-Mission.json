@@ -1,18 +1,20 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [
-        null
+    "apl": 3,
+    "authors": [
+        "Fynn Headen"
     ],
-    "code": null,
+    "campaigns": [
+        "Eberron"
+    ],
+    "code": "EB-SM-SNAIL",
     "date_created": "20200410",
     "full_title": "Snail Tale: A 4 hour Tier 1 Salvage Mission",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": 4,
+    "is_adventure": true,
+    "level_range": "1-4",
+    "price": 1.99,
     "product_id": "309600",
-    "tiers": null,
+    "tiers": 1,
     "title": "Snail Tale A 4 hour Tier 1 Salvage Mission",
     "url": "https://www.dmsguild.com/product/309600/Snail-Tale-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0"
 }
