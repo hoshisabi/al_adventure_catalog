@@ -976,7 +976,7 @@
         "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Joshua Nelson"
         ],
@@ -986,13 +986,15 @@
         "code": "FR-DC-FOT-02",
         "date_created": "20250204",
         "full_title": "FR-DC-FOT-02 The spider of Candlekeep",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-FOT-02-The-spider-of-Candlekeep",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "511195",
+        "season": null,
+        "tiers": 1,
         "title": "The spider of Candlekeep",
-        "url": "https://www.dmsguild.com/product/511195/FRDCFOT02-The-spider-of-Candlekeep?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511195/?affiliate_id=171040"
     },
     {
         "apl": null,

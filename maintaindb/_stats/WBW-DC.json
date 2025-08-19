@@ -587,7 +587,7 @@
         "url": "https://www.dmsguild.com/product/406913/Out-on-a-Limb-WBWDCMPOP01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Robbie Pleasant"
         ],
@@ -600,10 +600,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "Play-the-Game-WBW-DC-NBDD-01",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "382484",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Play the Game",
-        "url": "https://www.dmsguild.com/product/382484/Play-the-Game-WBWDCNBDD01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/382484/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3192,11 +3194,13 @@
         "full_title": "WBW-DC-MIMIC-01 A Day in the Life of a Mimic",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MIMIC-01-A-Day-in-the-Life-of-a-Mimic",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "405827",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "A Day in the Life of a Mimic",
-        "url": "https://www.dmsguild.com/product/405827/WBWDCMIMIC01-A-Day-in-the-Life-of-a-Mimic?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/405827/?affiliate_id=171040"
     },
     {
         "apl": 8,

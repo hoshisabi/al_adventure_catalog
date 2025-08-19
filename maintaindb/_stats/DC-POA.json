@@ -1612,10 +1612,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "DC-PoA-INAS-01-Beauty-and-the-Mead",
-        "tiers": 0,
+        "price": null,
+        "product_id": "365996",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-INAS-01 Beauty and the Mead",
-        "url": "https://www.dmsguild.com/product/365996/DCPoAINAS01-Beauty-and-the-Mead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/365996/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1757,7 +1759,7 @@
         "url": "https://www.dmsguild.com/product/353826/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Jason Lee"
         ],
@@ -1767,13 +1769,15 @@
         "code": "DC-POA-JL01",
         "date_created": "20210824",
         "full_title": "DC-POA-JL01 Horror Beneath the Frost",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JL01-Horror-Beneath-the-Frost",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "368742",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-POA-JL01 Horror Beneath the Frost",
-        "url": "https://www.dmsguild.com/product/368742/DCPOAJL01-Horror-Beneath-the-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368742/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2063,7 +2067,7 @@
         "url": "https://www.dmsguild.com/product/345306/DCPoANBDD01-Ice-Ice-Birdie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Sylvester Mejias"
         ],
@@ -2075,11 +2079,13 @@
         "full_title": "DC-PoA-NN01-01 Where Are Yew",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-NN01-01-Where-Are-Yew",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "346821",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-NN01-01 Where Are Yew",
-        "url": "https://www.dmsguild.com/product/346821/DCPoANN0101-Where-Are-Yew?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/346821/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2372,7 +2378,7 @@
         "url": "https://www.dmsguild.com/product/369343/DCPoAROG3-The-Last-Refuge-of-Spring?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Dave Zajac"
         ],
@@ -2385,10 +2391,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-SFG01-Tomb-of-the-Banished-Thane",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "341937",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
-        "url": "https://www.dmsguild.com/product/341937/DCPoASFG01-Tomb-of-the-Banished-Thane?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3035,7 +3043,9 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-ZF01-Undisclosed-Ordeals",
+        "price": 3.99,
+        "product_id": "345714",
+        "season": "Icewind Dale",
         "tiers": 0,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
