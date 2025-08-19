@@ -3088,7 +3088,7 @@
         "url": "https://www.dmsguild.com/product/266617/CCCBMG47-HILL-32-Suffer-the-Children?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Baldman Games"
         ],
@@ -3100,11 +3100,13 @@
         "full_title": "CCC-BMG-48 HILL 3-3 Spare the Rod",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-BMG-48-HILL-3-3-Spare-the-Rod",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "266618",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-48 HILL 3-3 Spare the Rod",
-        "url": "https://www.dmsguild.com/product/266618/CCCBMG48-HILL-33-Spare-the-Rod?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/266618/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -12855,7 +12857,7 @@
         "url": "https://www.dmsguild.com/product/442860/Danger-Zone-SJDCTRIDENMW2?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Tricia Monsod",
             "Kai Monsod"
@@ -12868,11 +12870,13 @@
         "full_title": "Darkness Descending (SJ-DC-TKM-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Darkness-Descending-SJ-DC-TKM-04",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "458162",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Darkness Descending",
-        "url": "https://www.dmsguild.com/product/458162/Darkness-Descending-SJDCTKM04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/458162/?affiliate_id=171040"
     },
     {
         "apl": 12,
@@ -14092,31 +14096,13 @@
         "full_title": "DC-POA-DRAGON-01: Adventures in Babysitting",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-DRAGON-01--Adventures-in-Babysitting",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "368965",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-POA-DRAGON-01 Adventures in Babysitting",
-        "url": "https://www.dmsguild.com/product/368965/DCPOADRAGON01-Adventures-in-Babysitting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "TEDDY BENSON",
-            "THOMAS VALLEY"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DRAGON-02-",
-        "date_created": "20210830",
-        "full_title": "DC-POA-DRAGON-02: Hearing the Call",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-DRAGON-02--Hearing-the-Call",
-        "tiers": 2,
-        "title": "DC-POA-DRAGON-02 Hearing the Call",
-        "url": "https://www.dmsguild.com/product/368966/DCPOADRAGON02-Hearing-the-Call?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368965/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -14141,23 +14127,6 @@
             "TEDDY BENSON",
             "THOMAS VALLEY"
         ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DRAGON-03-",
-        "date_created": "20210830",
-        "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-DRAGON-03--Battlefield-of-the-Mind",
-        "tiers": 2,
-        "title": "DC-POA-DRAGON-03 Battlefield of the Mind",
-        "url": "https://www.dmsguild.com/product/368967/DCPOADRAGON03-Battlefield-of-the-Mind?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -14483,10 +14452,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "DC-PoA-INAS-01-Beauty-and-the-Mead",
-        "tiers": 0,
+        "price": null,
+        "product_id": "365996",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-INAS-01 Beauty and the Mead",
-        "url": "https://www.dmsguild.com/product/365996/DCPoAINAS01-Beauty-and-the-Mead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/365996/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15247,7 +15218,7 @@
         "url": "https://www.dmsguild.com/product/369343/DCPoAROG3-The-Last-Refuge-of-Spring?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Dave Zajac"
         ],
@@ -15260,10 +15231,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-SFG01-Tomb-of-the-Banished-Thane",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "341937",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
-        "url": "https://www.dmsguild.com/product/341937/DCPoASFG01-Tomb-of-the-Banished-Thane?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15910,7 +15883,9 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-ZF01-Undisclosed-Ordeals",
+        "price": 3.99,
+        "product_id": "345714",
+        "season": "Icewind Dale",
         "tiers": 0,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
@@ -33669,7 +33644,7 @@
         "url": "https://www.dmsguild.com/product/405801/Youve-Goat-to-be-kidding-me-WBWDCPHPPOLAR02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33681,16 +33656,16 @@
         "full_title": "ZETH-01 Six Summoned Swords (CCC-PHA-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "242915",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-01 Six Summoned Swords CCC-PHA-01",
         "url": "https://www.dmsguild.com/product/242915/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33702,16 +33677,16 @@
         "full_title": "ZETH-02 Six Striking Swords (CCC-HAL-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "259625",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-02 Six Striking Swords CCC-HAL-02",
         "url": "https://www.dmsguild.com/product/259625/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33723,11 +33698,11 @@
         "full_title": "ZETH-03 Six Swords Unbound (CCC-HAL-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "259623",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-03 Six Swords Unbound CCC-HAL-03",
         "url": "https://www.dmsguild.com/product/259623/?affiliate_id=171040"
     }

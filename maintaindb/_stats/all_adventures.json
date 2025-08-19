@@ -3088,7 +3088,7 @@
         "url": "https://www.dmsguild.com/product/266617/CCCBMG47-HILL-32-Suffer-the-Children?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Baldman Games"
         ],
@@ -3100,8 +3100,8 @@
         "full_title": "CCC-BMG-48 HILL 3-3 Spare the Rod",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "266618",
         "season": null,
         "tiers": 2,
@@ -31602,31 +31602,12 @@
         "full_title": "WBW-DC-LIGA01 - Breath on the Run",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-LIGA01---Breath-on-the-Run",
-        "tiers": 0,
-        "title": "- Breath on the Run",
-        "url": "https://www.dmsguild.com/product/408418/WBWDCLIGA01--Breath-on-the-Run?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Lu\u00eds Ricardo",
-            "Patr\u00edcia Brito"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-LIGA01",
-        "date_created": "20220830",
-        "full_title": "WBW-DC-LIGA01 - Breath on the Run",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "408418",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
-        "title": "- Breath on the Run",
+        "title": "Breath on the Run",
         "url": "https://www.dmsguild.com/product/408418/?affiliate_id=171040"
     },
     {
@@ -32382,11 +32363,13 @@
         "full_title": "WBW-DC-Rook-1-2 The Rookery: Rise of the Everplume",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-1-2-The-Rookery--Rise-of-the-Everplume",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "392772",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-2 The Rookery Rise of the Everplume",
-        "url": "https://www.dmsguild.com/product/392772/WBWDCRook12-The-Rookery-Rise-of-the-Everplume?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/392772/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -32401,11 +32384,13 @@
         "full_title": "WBW-DC-Rook-1-3 The Rookery: City of the Dead",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-1-3-The-Rookery--City-of-the-Dead",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "395611",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-3 The Rookery City of the Dead",
-        "url": "https://www.dmsguild.com/product/395611/WBWDCRook13-The-Rookery-City-of-the-Dead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/395611/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -32418,14 +32403,15 @@
         "code": "WBW-DC-ROOK-1-4",
         "date_created": "20220621",
         "full_title": "WBW-DC-Rook-1-4 The Rookery: Long Live the Goblins",
-        "hours": "4-6",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
-        "product_id": "WBW-DC-Rook-1-4-The-Rookery--Long-Live-the-Goblins",
+        "product_id": "400472",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-4 The Rookery Long Live the Goblins",
-        "url": "https://www.dmsguild.com/product/400472/WBWDCRook14-The-Rookery-Long-Live-the-Goblins?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400472/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32440,11 +32426,13 @@
         "full_title": "WBW-DC-Rook-2-1 Rapid Resettlement in the Rookery",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-2-1-Rapid-Resettlement-in-the-Rookery",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "390649",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-2-1 Rapid Resettlement in the Rookery",
-        "url": "https://www.dmsguild.com/product/390649/WBWDCRook21-Rapid-Resettlement-in-the-Rookery?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/390649/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32459,14 +32447,16 @@
         "full_title": "WBW-DC-Rook-2-2 The Rookery: Into the Velarium",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-2-2-The-Rookery--Into-the-Velarium",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "405242",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-2-2 The Rookery Into the Velarium",
-        "url": "https://www.dmsguild.com/product/405242/WBWDCRook22-The-Rookery-Into-the-Velarium?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/405242/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Chris Valentine"
         ],
@@ -32476,32 +32466,13 @@
         "code": "WBW-DC-ROOK-2-3",
         "date_created": "20220831",
         "full_title": "WBW-DC-Rook-2-3 The Rookery: The Court of the Crown",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-2-3-The-Rookery--The-Court-of-the-Crown",
-        "tiers": 0,
-        "title": "WBW-DC-Rook-2-3 The Rookery The Court of the Crown",
-        "url": "https://www.dmsguild.com/product/408488/WBWDCRook23-The-Rookery-The-Court-of-the-Crown?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Chris Valentine"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-ROOK-2-3",
-        "date_created": "20220831",
-        "full_title": "WBW-DC-Rook-2-3 The Rookery: The Court of the Crown",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "408488",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "WBW-DC-Rook-2-3 The Rookery The Court of the Crown",
         "url": "https://www.dmsguild.com/product/408488/?affiliate_id=171040"
     },
@@ -32518,11 +32489,13 @@
         "full_title": "WBW-DC-Rook-3-1 The Rookery: High Kaldir",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-3-1-The-Rookery--High-Kaldir",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408490",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-3-1 The Rookery High Kaldir",
-        "url": "https://www.dmsguild.com/product/408490/WBWDCRook31-The-Rookery-High-Kaldir?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408490/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32558,11 +32531,13 @@
         "full_title": "WBW-DC-Rook-3-3 The Rookery: The Crook in the Rook",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-3-3-The-Rookery--The-Crook-in-the-Rook",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408492",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-3-3 The Rookery The Crook in the Rook",
-        "url": "https://www.dmsguild.com/product/408492/WBWDCRook33-The-Rookery-The-Crook-in-the-Rook?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408492/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -33644,7 +33619,7 @@
         "url": "https://www.dmsguild.com/product/405801/Youve-Goat-to-be-kidding-me-WBWDCPHPPOLAR02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33656,16 +33631,16 @@
         "full_title": "ZETH-01 Six Summoned Swords (CCC-PHA-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "242915",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-01 Six Summoned Swords CCC-PHA-01",
         "url": "https://www.dmsguild.com/product/242915/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33677,16 +33652,16 @@
         "full_title": "ZETH-02 Six Striking Swords (CCC-HAL-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "259625",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-02 Six Striking Swords CCC-HAL-02",
         "url": "https://www.dmsguild.com/product/259625/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33698,11 +33673,11 @@
         "full_title": "ZETH-03 Six Swords Unbound (CCC-HAL-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "259623",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-03 Six Swords Unbound CCC-HAL-03",
         "url": "https://www.dmsguild.com/product/259623/?affiliate_id=171040"
     }

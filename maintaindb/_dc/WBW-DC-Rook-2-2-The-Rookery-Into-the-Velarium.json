@@ -9,11 +9,13 @@
     "code": "WBW-DC-ROOK-2-2",
     "date_created": "20220802",
     "full_title": "WBW-DC-Rook-2-2 The Rookery: Into the Velarium",
-    "hours": "4",
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-Rook-2-2-The-Rookery--Into-the-Velarium",
+    "level_range": "5-10",
+    "price": 4.99,
+    "product_id": "405242",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 2,
     "title": "WBW-DC-Rook-2-2 The Rookery Into the Velarium",
-    "url": "https://www.dmsguild.com/product/405242/WBWDCRook22-The-Rookery-Into-the-Velarium?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/405242/?affiliate_id=171040"
 }
