@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Andrew Bishkinskyi"
     ],
@@ -11,11 +11,11 @@
     "full_title": "ZETH-01 Six Summoned Swords (CCC-PHA-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "5-10",
     "price": 4.99,
     "product_id": "242915",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "ZETH-01 Six Summoned Swords CCC-PHA-01",
     "url": "https://www.dmsguild.com/product/242915/?affiliate_id=171040"
 }
