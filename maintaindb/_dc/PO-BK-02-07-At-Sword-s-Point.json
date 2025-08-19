@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Jeremy Vosberg",
         "Gamehole Con"
@@ -12,9 +12,11 @@
     "full_title": "PO-BK-02-07 At Sword's Point",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
-    "product_id": "PO-BK-02-07-At-Swords-Point",
-    "tiers": null,
+    "level_range": "11-16",
+    "price": 4.99,
+    "product_id": "433911",
+    "season": null,
+    "tiers": 3,
     "title": "PO-BK-02-07 At Sword's Point",
-    "url": "https://www.dmsguild.com/product/433911/POBK0207-At-Swords-Point?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/433911/?affiliate_id=171040"
 }

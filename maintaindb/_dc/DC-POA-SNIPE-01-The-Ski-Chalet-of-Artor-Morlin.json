@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 2,
     "authors": [
         "Tom McVey"
     ],
@@ -9,11 +9,13 @@
     "code": "DC-POA-SNIPE-01-",
     "date_created": "20210830",
     "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "DC-POA-SNIPE-01--The-Ski-Chalet-of-Artor-Morlin",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 2.0,
+    "product_id": "369342",
+    "season": "Icewind Dale",
+    "tiers": 1,
     "title": "DC-POA-SNIPE-01 The Ski Chalet of Artor Morlin",
-    "url": "https://www.dmsguild.com/product/369342/DCPOASNIPE01-The-Ski-Chalet-of-Artor-Morlin?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/369342/?affiliate_id=171040"
 }

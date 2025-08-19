@@ -1,30 +1,30 @@
 {
     "tier": {
         "Tier 4": 48,
-        "Tier 1": 609,
-        "Tier 2": 622,
-        "Tier 3": 251,
-        "Unknown": 174
+        "Tier 1": 620,
+        "Tier 2": 626,
+        "Tier 3": 253,
+        "Unknown": 159
     },
     "duration": {
         "3 Hours": 30,
-        "2 Hours": 399,
-        "4 Hours": 1025,
+        "2 Hours": 400,
+        "4 Hours": 1031,
         "1 Hours": 5,
-        "Unknown": 283,
+        "Unknown": 278,
         "7 Hours": 2,
-        "5 Hours": 10,
-        "6 Hours": 13,
+        "5 Hours": 11,
+        "6 Hours": 14,
         "8 Hours": 2
     },
     "campaign": {
-        "Unknown": 1704
+        "Unknown": 1706
     },
     "season": {
         "Planescape": 8,
         "The Wild Beyond the Witchlight": 38,
-        "Unknown": 1627,
-        "Spelljammer": 16,
-        "Icewind Dale": 15
+        "Unknown": 1610,
+        "Spelljammer": 17,
+        "Icewind Dale": 33
     }
 }

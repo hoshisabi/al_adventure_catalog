@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Jeremy Cheong"
     ],
@@ -11,9 +11,11 @@
     "full_title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "DC-POA-LEGIT-SV-01-The-Coldlight-Star",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 4.99,
+    "product_id": "337701",
+    "season": "Icewind Dale",
+    "tiers": 1,
     "title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
-    "url": "https://www.dmsguild.com/product/337701/DCPOALEGITSV01-The-Coldlight-Star?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/337701/?affiliate_id=171040"
 }
