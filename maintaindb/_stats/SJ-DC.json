@@ -266,7 +266,7 @@
         "url": "https://www.dmsguild.com/product/442860/Danger-Zone-SJDCTRIDENMW2?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Tricia Monsod",
             "Kai Monsod"
@@ -279,11 +279,13 @@
         "full_title": "Darkness Descending (SJ-DC-TKM-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Darkness-Descending-SJ-DC-TKM-04",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "458162",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Darkness Descending",
-        "url": "https://www.dmsguild.com/product/458162/Darkness-Descending-SJDCTKM04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/458162/?affiliate_id=171040"
     },
     {
         "apl": 12,
@@ -734,7 +736,7 @@
         "url": "https://www.dmsguild.com/product/417640/Last-Flight-Of-The-Orca-SJDCDWR02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Angelo Bongais"
         ],
@@ -746,11 +748,13 @@
         "full_title": "Last Stand (SJ-DC-AMO-KURI-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Last-Stand-SJ-DC-AMO-KURI-03",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "463888",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Last Stand",
-        "url": "https://www.dmsguild.com/product/463888/Last-Stand-SJDCAMOKURI03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/463888/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1038,10 +1042,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "Pulling-Gs-SJ-DC-CEG-01",
-        "tiers": 0,
+        "price": 3.99,
+        "product_id": "450914",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Pulling Gs",
-        "url": "https://www.dmsguild.com/product/450914/Pulling-Gs-SJDCCEG01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450914/?affiliate_id=171040"
     },
     {
         "apl": 8,

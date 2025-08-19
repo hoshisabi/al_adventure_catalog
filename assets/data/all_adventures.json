@@ -14628,7 +14628,7 @@
         "url": "https://www.dmsguild.com/product/353826/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Jason Lee"
         ],
@@ -14638,13 +14638,15 @@
         "code": "DC-POA-JL01",
         "date_created": "20210824",
         "full_title": "DC-POA-JL01 Horror Beneath the Frost",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JL01-Horror-Beneath-the-Frost",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "368742",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-POA-JL01 Horror Beneath the Frost",
-        "url": "https://www.dmsguild.com/product/368742/DCPOAJL01-Horror-Beneath-the-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368742/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -14934,7 +14936,7 @@
         "url": "https://www.dmsguild.com/product/345306/DCPoANBDD01-Ice-Ice-Birdie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Sylvester Mejias"
         ],
@@ -14946,11 +14948,13 @@
         "full_title": "DC-PoA-NN01-01 Where Are Yew",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-NN01-01-Where-Are-Yew",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "346821",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-NN01-01 Where Are Yew",
-        "url": "https://www.dmsguild.com/product/346821/DCPoANN0101-Where-Are-Yew?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/346821/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17441,7 +17445,7 @@
         "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Joshua Nelson"
         ],
@@ -17451,13 +17455,15 @@
         "code": "FR-DC-FOT-02",
         "date_created": "20250204",
         "full_title": "FR-DC-FOT-02 The spider of Candlekeep",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-FOT-02-The-spider-of-Candlekeep",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "511195",
+        "season": null,
+        "tiers": 1,
         "title": "The spider of Candlekeep",
-        "url": "https://www.dmsguild.com/product/511195/FRDCFOT02-The-spider-of-Candlekeep?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511195/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -20258,7 +20264,7 @@
         "url": "https://www.dmsguild.com/product/334451/Last-Stand-at-Copper-Canyon?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Angelo Bongais"
         ],
@@ -20270,11 +20276,13 @@
         "full_title": "Last Stand (SJ-DC-AMO-KURI-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Last-Stand-SJ-DC-AMO-KURI-03",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "463888",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Last Stand",
-        "url": "https://www.dmsguild.com/product/463888/Last-Stand-SJDCAMOKURI03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/463888/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -20951,6 +20959,27 @@
         "url": "https://www.dmsguild.com/product/462901/Owlbear-Ascension-FRDCGHG02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Richard Gejji"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-GMM-02",
+        "date_created": "20250521",
+        "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "523232",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Pazuzu's Askew Kazoo",
+        "url": "https://www.dmsguild.com/product/523232/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Richard Gejji"
@@ -20989,7 +21018,7 @@
         "url": "https://www.dmsguild.com/product/358649/Pit-of-Bones-DCPOAMB01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Robbie Pleasant"
         ],
@@ -21002,10 +21031,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "Play-the-Game-WBW-DC-NBDD-01",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "382484",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Play the Game",
-        "url": "https://www.dmsguild.com/product/382484/Play-the-Game-WBWDCNBDD01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/382484/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -22784,10 +22815,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "Pulling-Gs-SJ-DC-CEG-01",
-        "tiers": 0,
+        "price": 3.99,
+        "product_id": "450914",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Pulling Gs",
-        "url": "https://www.dmsguild.com/product/450914/Pulling-Gs-SJDCCEG01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450914/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -31774,11 +31807,13 @@
         "full_title": "WBW-DC-MIMIC-01 A Day in the Life of a Mimic",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MIMIC-01-A-Day-in-the-Life-of-a-Mimic",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "405827",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "A Day in the Life of a Mimic",
-        "url": "https://www.dmsguild.com/product/405827/WBWDCMIMIC01-A-Day-in-the-Life-of-a-Mimic?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/405827/?affiliate_id=171040"
     },
     {
         "apl": 8,

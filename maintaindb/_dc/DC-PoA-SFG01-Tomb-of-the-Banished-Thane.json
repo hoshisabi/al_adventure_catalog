@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Dave Zajac"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": null,
-    "product_id": "DC-PoA-SFG01-Tomb-of-the-Banished-Thane",
-    "tiers": null,
+    "price": 4.99,
+    "product_id": "341937",
+    "season": "Icewind Dale",
+    "tiers": 1,
     "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
-    "url": "https://www.dmsguild.com/product/341937/DCPoASFG01-Tomb-of-the-Banished-Thane?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
 }
