@@ -710,11 +710,34 @@
         "full_title": "FR-DC-CONMAR-01 Tower Up!",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-CONMAR-01-Tower-Up",
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "497270",
+        "season": null,
         "tiers": 1,
         "title": "Tower Up!",
-        "url": "https://www.dmsguild.com/product/497270/FRDCCONMAR01-Tower-Up?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/497270/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Karianne Fog Heen"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CONMAR-02",
+        "date_created": "20250501",
+        "full_title": "FR-DC-CONMAR-02 The Colour of Dragons",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "520855",
+        "season": null,
+        "tiers": 2,
+        "title": "The Colour of Dragons",
+        "url": "https://www.dmsguild.com/product/520855/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -730,11 +753,13 @@
         "full_title": "FR-DC-CONMAR-03 The Scent of Sawdust",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-CONMAR-03-The-Scent-of-Sawdust",
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "524677",
+        "season": null,
         "tiers": 1,
         "title": "The Scent of Sawdust",
-        "url": "https://www.dmsguild.com/product/524677/FRDCCONMAR03-The-Scent-of-Sawdust?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524677/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3235,6 +3260,28 @@
         "tiers": 3,
         "title": "Secrets In The Deep",
         "url": "https://www.dmsguild.com/product/489791/Secrets-In-The-Deep-FRDCMELB0107?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Jonathan Bennett",
+            "Karianne Fog Heen"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-SCROG-03",
+        "date_created": "20250816",
+        "full_title": "Showdown At Starmetal Hills (FR-DC-SCROG-03)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "533613",
+        "season": null,
+        "tiers": 1,
+        "title": "Showdown At Starmetal Hills",
+        "url": "https://www.dmsguild.com/product/533613/?affiliate_id=171040"
     },
     {
         "apl": 8,

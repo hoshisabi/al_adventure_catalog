@@ -1,17 +1,22 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
+    "apl": 1,
+    "authors": [
+        "Jonathan Bennett",
+        "Karianne Fog Heen"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-SCROG-03",
     "date_created": "20250816",
     "full_title": "Showdown At Starmetal Hills (FR-DC-SCROG-03)",
     "hours": null,
-    "is_adventure": false,
-    "level_range": null,
+    "is_adventure": true,
+    "level_range": "1-4",
     "price": null,
     "product_id": "533613",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "Showdown At Starmetal Hills",
-    "url": "https://www.dmsguild.com/product/533613/Showdown-At-Starmetal-Hills-FRDCSCROG03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/533613/?affiliate_id=171040"
 }

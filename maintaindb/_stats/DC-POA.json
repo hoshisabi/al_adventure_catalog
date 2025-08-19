@@ -422,7 +422,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 6.63,
         "product_id": "347798",
         "season": "Icewind Dale",
         "tiers": 1,
@@ -444,7 +444,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.99,
+        "price": 64.55,
         "product_id": "339808",
         "season": "Icewind Dale",
         "tiers": 2,
@@ -1618,7 +1618,7 @@
         "url": "https://www.dmsguild.com/product/365996/DCPoAINAS01-Beauty-and-the-Mead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Alec Shaner"
         ],
@@ -1628,13 +1628,15 @@
         "code": "DC-POA-INAS-02",
         "date_created": "20210831",
         "full_title": "DC-PoA-INAS-02 Left Behind",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-INAS-02-Left-Behind",
-        "tiers": 0,
+        "level_range": "4-10",
+        "price": 3.0,
+        "product_id": "369397",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-PoA-INAS-02 Left Behind",
-        "url": "https://www.dmsguild.com/product/369397/DCPoAINAS02-Left-Behind?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369397/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1774,7 +1776,7 @@
         "url": "https://www.dmsguild.com/product/368742/DCPOAJL01-Horror-Beneath-the-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Zac Goins",
             "Jon Christian",
@@ -1788,11 +1790,13 @@
         "full_title": "DC-PoA Journey to Adventure: Icewind Dale",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-Journey-to-Adventure--Icewind-Dale",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "348672",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA Journey to Adventure Icewind Dale",
-        "url": "https://www.dmsguild.com/product/348672/DCPoA-Journey-to-Adventure-Icewind-Dale?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/348672/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1868,10 +1872,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-KJ2108-The-Needs-of-the-Many",
+        "price": 2.99,
+        "product_id": "366508",
+        "season": "Icewind Dale",
         "tiers": 0,
         "title": "DC-PoA-KJ2108 The Needs of the Many",
-        "url": "https://www.dmsguild.com/product/366508/DCPoAKJ2108-The-Needs-of-the-Many?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/366508/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1893,7 +1899,7 @@
         "url": "https://www.dmsguild.com/product/346271/DCPoALEGITCIPH01-A-Bump-in-the-Night?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Jeremy Cheong"
         ],
@@ -1905,14 +1911,16 @@
         "full_title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-LEGIT-SV-01-The-Coldlight-Star",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "337701",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
-        "url": "https://www.dmsguild.com/product/337701/DCPOALEGITSV01-The-Coldlight-Star?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/337701/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Jeremy Cheong"
         ],
@@ -1924,14 +1932,16 @@
         "full_title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-LEGIT-SV-02-The-Shape-of-Silence",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "345146",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
-        "url": "https://www.dmsguild.com/product/345146/DCPOALEGITSV02-The-Shape-of-Silence?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345146/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Jeremy Cheong"
         ],
@@ -1943,11 +1953,13 @@
         "full_title": "DC-POA-LEGIT-SV-03 The Beggar's Blood",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-LEGIT-SV-03-The-Beggars-Blood",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "363863",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-POA-LEGIT-SV-03 The Beggar's Blood",
-        "url": "https://www.dmsguild.com/product/363863/DCPOALEGITSV03-The-Beggars-Blood?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/363863/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1964,11 +1976,13 @@
         "full_title": "DC-PoA-LIGA-01 The Forsaken Brewery",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-LIGA-01-The-Forsaken-Brewery",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "369330",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-LIGA-01 The Forsaken Brewery",
-        "url": "https://www.dmsguild.com/product/369330/DCPoALIGA01-The-Forsaken-Brewery?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369330/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1983,11 +1997,13 @@
         "full_title": "DC-PoA-MCIW-01 Icewind Whale",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-MCIW-01-Icewind-Whale",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 11.96,
+        "product_id": "339064",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-MCIW-01 Icewind Whale",
-        "url": "https://www.dmsguild.com/product/339064/DCPoAMCIW01-Icewind-Whale?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/339064/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2406,11 +2422,13 @@
         "full_title": "DC-POA-SN-01: The Rider in Black",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-SN-01--The-Rider-in-Black",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "351251",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-SN-01 The Rider in Black",
-        "url": "https://www.dmsguild.com/product/351251/DCPOASN01-The-Rider-in-Black?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -2425,14 +2443,16 @@
         "full_title": "DC-POA-SN-02: The Ruins of Balors Reach",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-SN-02--The-Ruins-of-Balors-Reach",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "353580",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-SN-02 The Ruins of Balors Reach",
-        "url": "https://www.dmsguild.com/product/353580/DCPOASN02-The-Ruins-of-Balors-Reach?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/353580/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Tom McVey"
         ],
@@ -2442,13 +2462,15 @@
         "code": "DC-POA-SNIPE-01-",
         "date_created": "20210830",
         "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-SNIPE-01--The-Ski-Chalet-of-Artor-Morlin",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.0,
+        "product_id": "369342",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-POA-SNIPE-01 The Ski Chalet of Artor Morlin",
-        "url": "https://www.dmsguild.com/product/369342/DCPOASNIPE01-The-Ski-Chalet-of-Artor-Morlin?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369342/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2470,7 +2492,7 @@
         "url": "https://www.dmsguild.com/product/364494/DCPoASSM01-Among-the-Conifers?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Bernard Jericho Velasco"
         ],
@@ -2482,14 +2504,16 @@
         "full_title": "DC-PoA-TCW-ACW-1 FIRST BLOOD",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-TCW-ACW-1-FIRST-BLOOD",
+        "level_range": "5-10",
+        "price": 1.99,
+        "product_id": "359324",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-TCW-ACW-1 FIRST BLOOD",
-        "url": "https://www.dmsguild.com/product/359324/DCPoATCWACW1-FIRST-BLOOD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/359324/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Bernard Jericho Velasco"
         ],
@@ -2499,16 +2523,18 @@
         "code": "DC-POA-TCW-ACW-2",
         "date_created": "20210602",
         "full_title": "DC-PoA-TCW-ACW-2 A CRY FOR HELP",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-TCW-ACW-2-A-CRY-FOR-HELP",
+        "level_range": "5-10",
+        "price": 1.99,
+        "product_id": "359586",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-TCW-ACW-2 A CRY FOR HELP",
-        "url": "https://www.dmsguild.com/product/359586/DCPoATCWACW2-A-CRY-FOR-HELP?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/359586/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Bernard Jericho Velasco"
         ],
@@ -2518,13 +2544,15 @@
         "code": "DC-POA-TCW-ACW-3",
         "date_created": "20210605",
         "full_title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-TCW-ACW-3-WRITTEN-IN-BLOOD",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 1.99,
+        "product_id": "359932",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",
-        "url": "https://www.dmsguild.com/product/359932/DCPoATCWACW3-WRITTEN-IN-BLOOD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/359932/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2539,11 +2567,13 @@
         "full_title": "DC-PoA-TCW-ACW-4 A SWORD IN THE STONE",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-TCW-ACW-4-A-SWORD-IN-THE-STONE",
+        "level_range": "5-10",
+        "price": 1.99,
+        "product_id": "360491",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-TCW-ACW-4 A SWORD IN THE STONE",
-        "url": "https://www.dmsguild.com/product/360491/DCPoATCWACW4-A-SWORD-IN-THE-STONE?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/360491/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2558,11 +2588,13 @@
         "full_title": "DC-PoA-TCW-ACW-5 A THOUSAND YEARS LOST",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-TCW-ACW-5-A-THOUSAND-YEARS-LOST",
+        "level_range": "5-10",
+        "price": 1.99,
+        "product_id": "361941",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-TCW-ACW-5 A THOUSAND YEARS LOST",
-        "url": "https://www.dmsguild.com/product/361941/DCPoATCWACW5-A-THOUSAND-YEARS-LOST?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/361941/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -2787,14 +2819,16 @@
         "full_title": "DC-PoA-TLOH-01 The Light of Hope",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-TLOH-01-The-Light-of-Hope",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "368489",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-PoA-TLOH-01 The Light of Hope",
-        "url": "https://www.dmsguild.com/product/368489/DCPoATLOH01-The-Light-of-Hope?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368489/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Mitchell Tee"
         ],
@@ -2806,11 +2840,13 @@
         "full_title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-VAN-MT-01-The-Thiefs-Gambit",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.95,
+        "product_id": "362519",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
-        "url": "https://www.dmsguild.com/product/362519/DCPoAVANMT01-The-Thiefs-Gambit?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/362519/?affiliate_id=171040"
     },
     {
         "apl": 2,
