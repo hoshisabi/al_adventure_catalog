@@ -3088,7 +3088,7 @@
         "url": "https://www.dmsguild.com/product/266617/CCCBMG47-HILL-32-Suffer-the-Children?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Baldman Games"
         ],
@@ -3100,11 +3100,13 @@
         "full_title": "CCC-BMG-48 HILL 3-3 Spare the Rod",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-BMG-48-HILL-3-3-Spare-the-Rod",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "266618",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-48 HILL 3-3 Spare the Rod",
-        "url": "https://www.dmsguild.com/product/266618/CCCBMG48-HILL-33-Spare-the-Rod?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/266618/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -12855,7 +12857,7 @@
         "url": "https://www.dmsguild.com/product/442860/Danger-Zone-SJDCTRIDENMW2?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Tricia Monsod",
             "Kai Monsod"
@@ -12868,11 +12870,13 @@
         "full_title": "Darkness Descending (SJ-DC-TKM-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Darkness-Descending-SJ-DC-TKM-04",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "458162",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Darkness Descending",
-        "url": "https://www.dmsguild.com/product/458162/Darkness-Descending-SJDCTKM04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/458162/?affiliate_id=171040"
     },
     {
         "apl": 12,
@@ -13232,13 +13236,15 @@
         "code": "DC-POA",
         "date_created": "20201222",
         "full_title": "DC-PoA \"Coeur de Dragon\"",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-Coeur-de-Dragon",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 5.95,
+        "product_id": "340884",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA \"Coeur de Dragon\"",
-        "url": "https://www.dmsguild.com/product/340884/DCPoA-Coeur-de-Dragon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -14092,31 +14098,13 @@
         "full_title": "DC-POA-DRAGON-01: Adventures in Babysitting",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-DRAGON-01--Adventures-in-Babysitting",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "368965",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-POA-DRAGON-01 Adventures in Babysitting",
-        "url": "https://www.dmsguild.com/product/368965/DCPOADRAGON01-Adventures-in-Babysitting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "TEDDY BENSON",
-            "THOMAS VALLEY"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DRAGON-02-",
-        "date_created": "20210830",
-        "full_title": "DC-POA-DRAGON-02: Hearing the Call",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-DRAGON-02--Hearing-the-Call",
-        "tiers": 2,
-        "title": "DC-POA-DRAGON-02 Hearing the Call",
-        "url": "https://www.dmsguild.com/product/368966/DCPOADRAGON02-Hearing-the-Call?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368965/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -14141,23 +14129,6 @@
             "TEDDY BENSON",
             "THOMAS VALLEY"
         ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DRAGON-03-",
-        "date_created": "20210830",
-        "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-DRAGON-03--Battlefield-of-the-Mind",
-        "tiers": 2,
-        "title": "DC-POA-DRAGON-03 Battlefield of the Mind",
-        "url": "https://www.dmsguild.com/product/368967/DCPOADRAGON03-Battlefield-of-the-Mind?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -14483,10 +14454,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "DC-PoA-INAS-01-Beauty-and-the-Mead",
-        "tiers": 0,
+        "price": null,
+        "product_id": "365996",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-INAS-01 Beauty and the Mead",
-        "url": "https://www.dmsguild.com/product/365996/DCPoAINAS01-Beauty-and-the-Mead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/365996/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -14628,7 +14601,7 @@
         "url": "https://www.dmsguild.com/product/353826/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Jason Lee"
         ],
@@ -14638,13 +14611,15 @@
         "code": "DC-POA-JL01",
         "date_created": "20210824",
         "full_title": "DC-POA-JL01 Horror Beneath the Frost",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JL01-Horror-Beneath-the-Frost",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "368742",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "DC-POA-JL01 Horror Beneath the Frost",
-        "url": "https://www.dmsguild.com/product/368742/DCPOAJL01-Horror-Beneath-the-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368742/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -14934,7 +14909,7 @@
         "url": "https://www.dmsguild.com/product/345306/DCPoANBDD01-Ice-Ice-Birdie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Sylvester Mejias"
         ],
@@ -14946,11 +14921,13 @@
         "full_title": "DC-PoA-NN01-01 Where Are Yew",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-NN01-01-Where-Are-Yew",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "346821",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-NN01-01 Where Are Yew",
-        "url": "https://www.dmsguild.com/product/346821/DCPoANN0101-Where-Are-Yew?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/346821/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -15243,7 +15220,7 @@
         "url": "https://www.dmsguild.com/product/369343/DCPoAROG3-The-Last-Refuge-of-Spring?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Dave Zajac"
         ],
@@ -15256,10 +15233,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-SFG01-Tomb-of-the-Banished-Thane",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "341937",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
-        "url": "https://www.dmsguild.com/product/341937/DCPoASFG01-Tomb-of-the-Banished-Thane?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15906,7 +15885,9 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "DC-PoA-ZF01-Undisclosed-Ordeals",
+        "price": 3.99,
+        "product_id": "345714",
+        "season": "Icewind Dale",
         "tiers": 0,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
@@ -17441,7 +17422,7 @@
         "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Joshua Nelson"
         ],
@@ -17451,13 +17432,15 @@
         "code": "FR-DC-FOT-02",
         "date_created": "20250204",
         "full_title": "FR-DC-FOT-02 The spider of Candlekeep",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-FOT-02-The-spider-of-Candlekeep",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "511195",
+        "season": null,
+        "tiers": 1,
         "title": "The spider of Candlekeep",
-        "url": "https://www.dmsguild.com/product/511195/FRDCFOT02-The-spider-of-Candlekeep?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511195/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -20258,7 +20241,7 @@
         "url": "https://www.dmsguild.com/product/334451/Last-Stand-at-Copper-Canyon?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Angelo Bongais"
         ],
@@ -20270,11 +20253,13 @@
         "full_title": "Last Stand (SJ-DC-AMO-KURI-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Last-Stand-SJ-DC-AMO-KURI-03",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "463888",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "Last Stand",
-        "url": "https://www.dmsguild.com/product/463888/Last-Stand-SJDCAMOKURI03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/463888/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -20951,6 +20936,27 @@
         "url": "https://www.dmsguild.com/product/462901/Owlbear-Ascension-FRDCGHG02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Richard Gejji"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-GMM-02",
+        "date_created": "20250521",
+        "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "523232",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Pazuzu's Askew Kazoo",
+        "url": "https://www.dmsguild.com/product/523232/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Richard Gejji"
@@ -20989,7 +20995,7 @@
         "url": "https://www.dmsguild.com/product/358649/Pit-of-Bones-DCPOAMB01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Robbie Pleasant"
         ],
@@ -21002,10 +21008,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "Play-the-Game-WBW-DC-NBDD-01",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "382484",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Play the Game",
-        "url": "https://www.dmsguild.com/product/382484/Play-the-Game-WBWDCNBDD01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/382484/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -22784,10 +22792,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "Pulling-Gs-SJ-DC-CEG-01",
-        "tiers": 0,
+        "price": 3.99,
+        "product_id": "450914",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Pulling Gs",
-        "url": "https://www.dmsguild.com/product/450914/Pulling-Gs-SJDCCEG01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450914/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -30867,7 +30877,7 @@
         "url": "https://www.dmsguild.com/product/408198/WBWDCDREA01-The-Nightmare-of-Dreams?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "PT MacKim"
         ],
@@ -30877,16 +30887,18 @@
         "code": "WBW-DC-EBAL-MEF0",
         "date_created": "20220827",
         "full_title": "WBW-DC-EBAL-MEF0 Misty Edge Heist",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-EBAL-MEF0-Misty-Edge-Heist",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "407955",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "Misty Edge Heist",
-        "url": "https://www.dmsguild.com/product/407955/WBWDCEBALMEF0-Misty-Edge-Heist?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/407955/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "PT MacKim"
         ],
@@ -30896,16 +30908,18 @@
         "code": "WBW-DC-EBAL-MEF1",
         "date_created": "20220812",
         "full_title": "WBW-DC-EBAL-MEF1 Misty Edge Falls",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-EBAL-MEF1-Misty-Edge-Falls",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "406278",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "Misty Edge Falls",
-        "url": "https://www.dmsguild.com/product/406278/WBWDCEBALMEF1-Misty-Edge-Falls?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/406278/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 9,
         "authors": [
             "PT MacKim"
         ],
@@ -30915,13 +30929,15 @@
         "code": "WBW-DC-EBAL-MEF2",
         "date_created": "20220830",
         "full_title": "WBW-DC-EBAL-MEF2 Misty Edge Incursion",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-EBAL-MEF2-Misty-Edge-Incursion",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408374",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Misty Edge Incursion",
-        "url": "https://www.dmsguild.com/product/408374/WBWDCEBALMEF2-Misty-Edge-Incursion?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408374/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -31332,7 +31348,7 @@
         "url": "https://www.dmsguild.com/product/408093/WBWDCIDL03-Three-For-Free?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Jeremiah Strangeheart"
         ],
@@ -31342,16 +31358,18 @@
         "code": "WBW-DC-JSH-CEL1-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-CEL1: Better with Friends",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-JSH-CEL1--Better-with-Friends",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 0,
+        "product_id": "408606",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Better with Friends",
-        "url": "https://www.dmsguild.com/product/408606/WBWDCJSHCEL1-Better-with-Friends?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408606/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Jeremiah Strangeheart"
         ],
@@ -31361,16 +31379,18 @@
         "code": "WBW-DC-JSH-LIB-01-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-01: Inter-Library Interception",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-JSH-LIB-01--Inter-Library-Interception",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 0,
+        "product_id": "408247",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "Inter-Library Interception",
-        "url": "https://www.dmsguild.com/product/408247/WBWDCJSHLIB01-InterLibrary-Interception?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408247/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Jeremiah Strangeheart"
         ],
@@ -31380,16 +31400,18 @@
         "code": "WBW-DC-JSH-LIB-02-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-02: Search Engine Optimization",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-JSH-LIB-02--Search-Engine-Optimization",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 0,
+        "product_id": "408261",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "Search Engine Optimization",
-        "url": "https://www.dmsguild.com/product/408261/WBWDCJSHLIB02-Search-Engine-Optimization?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408261/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
             "Jeremiah Strangeheart"
         ],
@@ -31401,14 +31423,16 @@
         "full_title": "WBW-DC-JSH-LIB-03: Between Covers and Through Tales",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-JSH-LIB-03--Between-Covers-and-Through-Tales",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 0,
+        "product_id": "408582",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "Between Covers and Through Tales",
-        "url": "https://www.dmsguild.com/product/408582/WBWDCJSHLIB03-Between-Covers-and-Through-Tales?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408582/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Jeremiah Strangeheart"
         ],
@@ -31418,13 +31442,15 @@
         "code": "WBW-DC-JSH-LIB-04-",
         "date_created": "20220831",
         "full_title": "WBW-DC-JSH-LIB-04: Brightly Burn the Flames of Knowledge",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-JSH-LIB-04--Brightly-Burn-the-Flames-of-Knowledge",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 0.0,
+        "product_id": "408585",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Brightly Burn the Flames of Knowledge",
-        "url": "https://www.dmsguild.com/product/408585/WBWDCJSHLIB04-Brightly-Burn-the-Flames-of-Knowledge?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408585/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -31594,31 +31620,12 @@
         "full_title": "WBW-DC-LIGA01 - Breath on the Run",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-LIGA01---Breath-on-the-Run",
-        "tiers": 0,
-        "title": "- Breath on the Run",
-        "url": "https://www.dmsguild.com/product/408418/WBWDCLIGA01--Breath-on-the-Run?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Lu\u00eds Ricardo",
-            "Patr\u00edcia Brito"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-LIGA01",
-        "date_created": "20220830",
-        "full_title": "WBW-DC-LIGA01 - Breath on the Run",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "408418",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
-        "title": "- Breath on the Run",
+        "title": "Breath on the Run",
         "url": "https://www.dmsguild.com/product/408418/?affiliate_id=171040"
     },
     {
@@ -31774,11 +31781,13 @@
         "full_title": "WBW-DC-MIMIC-01 A Day in the Life of a Mimic",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MIMIC-01-A-Day-in-the-Life-of-a-Mimic",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "405827",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "A Day in the Life of a Mimic",
-        "url": "https://www.dmsguild.com/product/405827/WBWDCMIMIC01-A-Day-in-the-Life-of-a-Mimic?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/405827/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32007,9 +32016,12 @@
         "code": "WBW-DC-PHP-LCL",
         "date_created": "20220807",
         "full_title": "WBW-DC-PHP-LCL 01: A Cure for Freedom",
-        "hours": "2",
-        "level_range": "3",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 73.71,
         "product_id": "405745",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "01 A Cure for Freedom",
         "url": "https://www.dmsguild.com/product/405745/?affiliate_id=171040"
@@ -32120,13 +32132,15 @@
         "code": "WBW-DC-PHP-TCOM1-",
         "date_created": "20220727",
         "full_title": "WBW-DC-PHP-TCOM1: Of Festivals and Fiascoes",
-        "hours": "4",
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "WBW-DC-PHP-TCOM1--Of-Festivals-and-Fiascoes",
+        "price": 23.94,
+        "product_id": "404240",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Of Festivals and Fiascoes",
-        "url": "https://www.dmsguild.com/product/404240/WBWDCPHPTCOM1-Of-Festivals-and-Fiascoes?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/404240/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -32139,13 +32153,15 @@
         "code": "WBW-DC-PHP-TCOM2-",
         "date_created": "20220812",
         "full_title": "WBW-DC-PHP-TCOM2: Of Toadstools and Tribulations",
-        "hours": "2",
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "WBW-DC-PHP-TCOM2--Of-Toadstools-and-Tribulations",
+        "price": 23.94,
+        "product_id": "406239",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Of Toadstools and Tribulations",
-        "url": "https://www.dmsguild.com/product/406239/WBWDCPHPTCOM2-Of-Toadstools-and-Tribulations?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/406239/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -32158,13 +32174,15 @@
         "code": "WBW-DC-PHP-TCOM3-",
         "date_created": "20220830",
         "full_title": "WBW-DC-PHP-TCOM3: Of Death and Dawn",
-        "hours": "4",
+        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "WBW-DC-PHP-TCOM3--Of-Death-and-Dawn",
+        "price": 23.94,
+        "product_id": "408344",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Of Death and Dawn",
-        "url": "https://www.dmsguild.com/product/408344/WBWDCPHPTCOM3-Of-Death-and-Dawn?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408344/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -32372,11 +32390,13 @@
         "full_title": "WBW-DC-Rook-1-2 The Rookery: Rise of the Everplume",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-1-2-The-Rookery--Rise-of-the-Everplume",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "392772",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-2 The Rookery Rise of the Everplume",
-        "url": "https://www.dmsguild.com/product/392772/WBWDCRook12-The-Rookery-Rise-of-the-Everplume?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/392772/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -32391,11 +32411,13 @@
         "full_title": "WBW-DC-Rook-1-3 The Rookery: City of the Dead",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-1-3-The-Rookery--City-of-the-Dead",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "395611",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-3 The Rookery City of the Dead",
-        "url": "https://www.dmsguild.com/product/395611/WBWDCRook13-The-Rookery-City-of-the-Dead?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/395611/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -32408,14 +32430,15 @@
         "code": "WBW-DC-ROOK-1-4",
         "date_created": "20220621",
         "full_title": "WBW-DC-Rook-1-4 The Rookery: Long Live the Goblins",
-        "hours": "4-6",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
-        "product_id": "WBW-DC-Rook-1-4-The-Rookery--Long-Live-the-Goblins",
+        "product_id": "400472",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "WBW-DC-Rook-1-4 The Rookery Long Live the Goblins",
-        "url": "https://www.dmsguild.com/product/400472/WBWDCRook14-The-Rookery-Long-Live-the-Goblins?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400472/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32430,11 +32453,13 @@
         "full_title": "WBW-DC-Rook-2-1 Rapid Resettlement in the Rookery",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-2-1-Rapid-Resettlement-in-the-Rookery",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "390649",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-2-1 Rapid Resettlement in the Rookery",
-        "url": "https://www.dmsguild.com/product/390649/WBWDCRook21-Rapid-Resettlement-in-the-Rookery?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/390649/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32449,14 +32474,16 @@
         "full_title": "WBW-DC-Rook-2-2 The Rookery: Into the Velarium",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-2-2-The-Rookery--Into-the-Velarium",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "405242",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-2-2 The Rookery Into the Velarium",
-        "url": "https://www.dmsguild.com/product/405242/WBWDCRook22-The-Rookery-Into-the-Velarium?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/405242/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Chris Valentine"
         ],
@@ -32466,32 +32493,13 @@
         "code": "WBW-DC-ROOK-2-3",
         "date_created": "20220831",
         "full_title": "WBW-DC-Rook-2-3 The Rookery: The Court of the Crown",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-2-3-The-Rookery--The-Court-of-the-Crown",
-        "tiers": 0,
-        "title": "WBW-DC-Rook-2-3 The Rookery The Court of the Crown",
-        "url": "https://www.dmsguild.com/product/408488/WBWDCRook23-The-Rookery-The-Court-of-the-Crown?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Chris Valentine"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-ROOK-2-3",
-        "date_created": "20220831",
-        "full_title": "WBW-DC-Rook-2-3 The Rookery: The Court of the Crown",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "408488",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "WBW-DC-Rook-2-3 The Rookery The Court of the Crown",
         "url": "https://www.dmsguild.com/product/408488/?affiliate_id=171040"
     },
@@ -32508,11 +32516,13 @@
         "full_title": "WBW-DC-Rook-3-1 The Rookery: High Kaldir",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-3-1-The-Rookery--High-Kaldir",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408490",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-3-1 The Rookery High Kaldir",
-        "url": "https://www.dmsguild.com/product/408490/WBWDCRook31-The-Rookery-High-Kaldir?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408490/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -32548,11 +32558,13 @@
         "full_title": "WBW-DC-Rook-3-3 The Rookery: The Crook in the Rook",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-Rook-3-3-The-Rookery--The-Crook-in-the-Rook",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408492",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "WBW-DC-Rook-3-3 The Rookery The Crook in the Rook",
-        "url": "https://www.dmsguild.com/product/408492/WBWDCRook33-The-Rookery-The-Crook-in-the-Rook?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408492/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -32729,7 +32741,7 @@
         "url": "https://www.dmsguild.com/product/403116/WBWDCTHAL02-Awakened-Song?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Zarajane Ferrier"
         ],
@@ -32741,30 +32753,11 @@
         "full_title": "WBW-DC-TIC-01 Mushrooms and Malfunctions: A Journey into the Caverns",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-TIC-01-Mushrooms-and-Malfunctions--A-Journey-into-the-Caverns",
-        "tiers": 0,
-        "title": "Mushrooms and Malfunctions A Journey into the Caverns",
-        "url": "https://www.dmsguild.com/product/379481/WBWDCTIC01-Mushrooms-and-Malfunctions-A-Journey-into-the-Caverns?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Zarajane Ferrier"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-TIC-01",
-        "date_created": "20211203",
-        "full_title": "WBW-DC-TIC-01 Mushrooms and Malfunctions: A Journey into the Caverns",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "1-4",
+        "price": 3.99,
         "product_id": "379481",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Mushrooms and Malfunctions A Journey into the Caverns",
         "url": "https://www.dmsguild.com/product/379481/?affiliate_id=171040"
     },
@@ -33255,7 +33248,7 @@
         "code": "WBW-DC-ZODIAC-13",
         "date_created": "20220831",
         "full_title": "WBW-DC-ZODIAC-13 Familiar's Feast",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
@@ -33264,25 +33257,6 @@
         "tiers": 2,
         "title": "Familiar's Feast",
         "url": "https://www.dmsguild.com/product/408563/?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Steven Truong"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-ZODIAC-13",
-        "date_created": "20220831",
-        "full_title": "WBW-DC-ZODIAC-13 Familiar's Feast",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-ZODIAC-13-Familiars-Feast",
-        "tiers": 2,
-        "title": "Familiar's Feast",
-        "url": "https://www.dmsguild.com/product/408563/WBWDCZODIAC13-Familiars-Feast?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -33506,7 +33480,7 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 23.94,
         "product_id": "499777",
         "season": null,
         "tiers": 1,
@@ -33567,10 +33541,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Wrongs-and-Punishment--An-Eberron-Salvage-Mission",
+        "price": 1.5,
+        "product_id": "332476",
+        "season": null,
         "tiers": 0,
         "title": "Wrongs and Punishment An Eberron Salvage Mission",
-        "url": "https://www.dmsguild.com/product/332476/Wrongs-and-Punishment-An-Eberron-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -33604,10 +33580,10 @@
         "code": "WBW-DC-PHP-POLAR-02",
         "date_created": "20220807",
         "full_title": "You've Goat to be kidding me (WBW-DC-PHP-POLAR-02)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 23.94,
         "product_id": "405801",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
@@ -33615,26 +33591,7 @@
         "url": "https://www.dmsguild.com/product/405801/?affiliate_id=171040"
     },
     {
-        "apl": 3,
-        "authors": [
-            "Franz Bedonia"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-PHP-POLAR-02",
-        "date_created": "20220807",
-        "full_title": "You've Goat to be kidding me (WBW-DC-PHP-POLAR-02)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Youve-Goat-to-be-kidding-me-WBW-DC-PHP-POLAR-02",
-        "tiers": 1,
-        "title": "You've Goat to be kidding me",
-        "url": "https://www.dmsguild.com/product/405801/Youve-Goat-to-be-kidding-me-WBWDCPHPPOLAR02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33646,16 +33603,16 @@
         "full_title": "ZETH-01 Six Summoned Swords (CCC-PHA-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "242915",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-01 Six Summoned Swords CCC-PHA-01",
         "url": "https://www.dmsguild.com/product/242915/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33667,16 +33624,16 @@
         "full_title": "ZETH-02 Six Striking Swords (CCC-HAL-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "259625",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-02 Six Striking Swords CCC-HAL-02",
         "url": "https://www.dmsguild.com/product/259625/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -33688,11 +33645,11 @@
         "full_title": "ZETH-03 Six Swords Unbound (CCC-HAL-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "259623",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "ZETH-03 Six Swords Unbound CCC-HAL-03",
         "url": "https://www.dmsguild.com/product/259623/?affiliate_id=171040"
     }

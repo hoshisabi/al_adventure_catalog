@@ -9,11 +9,13 @@
     "code": "DC-POA",
     "date_created": "20201222",
     "full_title": "DC-PoA \"Coeur de Dragon\"",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "DC-PoA-Coeur-de-Dragon",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 5.95,
+    "product_id": "340884",
+    "season": "Icewind Dale",
+    "tiers": 1,
     "title": "DC-PoA \"Coeur de Dragon\"",
-    "url": "https://www.dmsguild.com/product/340884/DCPoA-Coeur-de-Dragon?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
 }
