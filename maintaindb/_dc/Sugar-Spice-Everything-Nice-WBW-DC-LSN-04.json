@@ -1,6 +1,8 @@
 {
     "apl": 3,
-    "authors": [],
+    "authors": [
+        "Christopher Moreman"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "price": 3.98,
     "product_id": "407624",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 1,
     "title": "Sugar & Spice & Everything Nice",
-    "url": "https://www.dmsguild.com/product/407624/Sugar--Spice--Everything-Nice-WBWDCLSN04?filters=1000042_100191_100057_0_45356_0_0_0"
+    "url": "https://www.dmsguild.com/product/407624/?affiliate_id=171040"
 }
