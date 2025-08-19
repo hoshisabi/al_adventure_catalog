@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 4,
     "authors": [
         "Jeremiah Strangeheart"
     ],
@@ -9,11 +9,13 @@
     "code": "WBW-DC-JSH-LIB-03-",
     "date_created": "20220831",
     "full_title": "WBW-DC-JSH-LIB-03: Between Covers and Through Tales",
-    "hours": "4",
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-JSH-LIB-03--Between-Covers-and-Through-Tales",
-    "tiers": null,
+    "level_range": "1-4",
+    "price": 0,
+    "product_id": "408582",
+    "season": "The Wild Beyond the Witchlight",
+    "tiers": 1,
     "title": "Between Covers and Through Tales",
-    "url": "https://www.dmsguild.com/product/408582/WBWDCJSHLIB03-Between-Covers-and-Through-Tales?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408582/?affiliate_id=171040"
 }

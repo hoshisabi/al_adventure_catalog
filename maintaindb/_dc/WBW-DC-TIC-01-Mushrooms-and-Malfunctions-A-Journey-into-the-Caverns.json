@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Zarajane Ferrier"
     ],
@@ -11,11 +11,11 @@
     "full_title": "WBW-DC-TIC-01 Mushrooms and Malfunctions: A Journey into the Caverns",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "price": 3.99,
     "product_id": "379481",
     "season": "The Wild Beyond the Witchlight",
-    "tiers": null,
+    "tiers": 1,
     "title": "Mushrooms and Malfunctions A Journey into the Caverns",
     "url": "https://www.dmsguild.com/product/379481/?affiliate_id=171040"
 }
