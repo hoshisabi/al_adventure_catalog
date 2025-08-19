@@ -6021,11 +6021,13 @@
         "full_title": "Wayfarer's Log: The Art of War (SJ-DC-FAUX-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Wayfarers-Log--The-Art-of-War-SJ-DC-FAUX-04",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "447733",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Wayfarer's Log The Art of War",
-        "url": "https://www.dmsguild.com/product/447733/Wayfarers-Log-The-Art-of-War-SJDCFAUX04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/447733/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6040,11 +6042,13 @@
         "full_title": "Wayfarer's Log: The Dohwar Chronicle (SJ-DC-FAUX-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Wayfarers-Log--The-Dohwar-Chronicle-SJ-DC-FAUX-01",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "411389",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Wayfarer's Log The Dohwar Chronicle",
-        "url": "https://www.dmsguild.com/product/411389/Wayfarers-Log-The-Dohwar-Chronicle-SJDCFAUX01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411389/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -6059,11 +6063,13 @@
         "full_title": "Wayfarer's Log: The Hamster Trail (SJ-DC-FAUX-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Wayfarers-Log--The-Hamster-Trail-SJ-DC-FAUX-02",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "432811",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Wayfarer's Log The Hamster Trail",
-        "url": "https://www.dmsguild.com/product/432811/Wayfarers-Log-The-Hamster-Trail-SJDCFAUX02?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/432811/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -6078,11 +6084,13 @@
         "full_title": "Wayfarer's Log: The Lunar Sea (SJ-DC-FAUX-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Wayfarers-Log--The-Lunar-Sea-SJ-DC-FAUX-03",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "438563",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Wayfarer's Log The Lunar Sea",
-        "url": "https://www.dmsguild.com/product/438563/Wayfarers-Log-The-Lunar-Sea-SJDCFAUX03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/438563/?affiliate_id=171040"
     },
     {
         "apl": null,
