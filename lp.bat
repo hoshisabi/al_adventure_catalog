@@ -20,7 +20,7 @@ GOTO :SERVE
         GOTO :EOF
     )
     echo Building Jekyll site...
-    jekyll build
+    call jekyll build
     IF %ERRORLEVEL% NEQ 0 (
         echo Jekyll build failed.
         GOTO :EOF
