@@ -40,6 +40,50 @@
         "url": "https://www.dmsguild.com/product/485383?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Charles Pandi"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-UMY-02",
+        "date_created": "20250822",
+        "full_title": "A Time to Disremember (PS-DC-UMY-02)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "534259",
+        "season": "Planescape",
+        "tiers": 1,
+        "title": "A Time to Disremember",
+        "url": "https://www.dmsguild.com/product/534259/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Nick Stefanski"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-BLACKFLAME-01",
+        "date_created": "20250823",
+        "full_title": "Blackflame in the Broken Lands (PS-DC-BLACKFLAME-01)",
+        "hours": "4",
+        "id": "534424",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "534424",
+        "pub_date": "Sat, 23 Aug 2025 21:49:38 CDT",
+        "season": "Planescape",
+        "tiers": 3,
+        "title": "Blackflame in the Broken Lands",
+        "url": "https://www.dmsguild.com/product/534424/?affiliate_id=171040"
+    },
+    {
         "apl": 18,
         "authors": [
             "Lex Winter"
