@@ -20,7 +20,7 @@ DEFAULT_HEADERS = {
         "Chrome/58.0.3029.110 Safari/537.3"
     )
 }
-PRODUCT_ID_RE = re.compile(r"/product/(\d+)/")
+PRODUCT_ID_RE = re.compile(r"/product/(\d+)//")
 
 # Type aliases
 ProductTuple = Tuple[Optional[str], str, List[str], str, str, str]
@@ -117,29 +117,100 @@ def main() -> int:
     products = parse_dmsguild_rss(args.url)
     print(f"Found {len(products)} products.")
 
+    # Restore legacy functionality: normalize data and write Adventure-shaped JSONs
+    # without scraping product pages (RSS-only data).
+    try:
+        from adventure_model import Adventure
+        from adventure_normalizers import AdventureDataNormalizer
+    except ImportError as e:
+        print(f"Required modules missing for normalization: {e}")
+        # Fallback to the minimal RSS write if normalization modules are unavailable
+        for product_id, full_title, _authors, description_html, pub_date_str, product_url in products:
+            filename = sanitize_filename(full_title)  # returns a safe .json filename
+            file_path = output_dir / filename
+
+            if file_path.exists() and not args.force:
+                print(f"Skipping existing file (use --force to overwrite): {file_path.name}")
+                continue
+
+            date_created_str = parse_pub_date(pub_date_str)
+
+            data = {
+                "id": product_id,
+                "title": full_title,
+                "url": product_url,
+                "pub_date": pub_date_str,
+                "date_created": date_created_str,
+                "description_html": description_html,
+            }
+
+            with file_path.open("w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+
+            print(f"Wrote: {file_path.name}")
+        return 0
+
+    normalizer = AdventureDataNormalizer()
+
     for product_id, full_title, _authors, description_html, pub_date_str, product_url in products:
-        filename = sanitize_filename(full_title)  # returns a safe .json filename
-        file_path = output_dir / filename
-
-        if file_path.exists() and not args.force:
-            print(f"Skipping existing file (use --force to overwrite): {file_path.name}")
-            continue
-
-        date_created_str = parse_pub_date(pub_date_str)
-
-        data = {
-            "id": product_id,
-            "title": full_title,
-            "url": product_url,
-            "pub_date": pub_date_str,
-            "date_created": date_created_str,
-            "description_html": description_html,
+        # Construct "extracted_data" using only RSS fields.
+        extracted_data = {
+            "product_id": product_id,
+            "full_title_raw": full_title,
+            "url_raw": product_url,
+            "date_created_raw": pub_date_str,  # Normalizer will parse pubDate
+            "authors_raw": [],                 # Not in RSS
+            "price_raw": None,                 # Not in RSS
+            "page_count_raw": None,            # Not in RSS
+            "apl_raw": None,                   # Not in RSS
+            "tiers_raw": None,                 # Not in RSS
+            "level_range_raw": None,           # Not in RSS
+            "hours_raw": [],                   # Not in RSS
+            "description_html_raw": description_html,  # Keep RSS snippet
         }
 
-        with file_path.open("w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        normalized = normalizer.normalize(extracted_data)
 
-        print(f"Wrote: {file_path.name}")
+        # Heuristic: mark as adventure if a code is parsed; RSS data is incomplete otherwise.
+        is_adventure_flag = True if normalized.get("code") else False
+
+        # Build Adventure object payload
+        adventure_payload = {k: v for k, v in normalized.items() if hasattr(type("A", (), {}), k)}
+        # Since hasattr trick above isn't reliable for dataclasses, pick known fields via Adventure
+        try:
+            model_fields = set(getattr(Adventure, "__dataclass_fields__", {}).keys())
+            adventure_payload = {k: v for k, v in normalized.items() if k in model_fields}
+        except Exception:
+            pass
+
+        adventure_payload["is_adventure"] = is_adventure_flag
+        adventure_payload["needs_review"] = True  # RSS-only entries should be reviewed
+
+        adventure = Adventure(**adventure_payload)
+        data_to_save = adventure.to_json()
+
+        # Prefer full_title/title/product_id for filename
+        filename_base = adventure.full_title or adventure.title or (product_id or "unknown")
+        file_path = output_dir / sanitize_filename(filename_base)
+
+        should_write = True
+        if file_path.exists() and not args.force:
+            try:
+                with file_path.open("r", encoding="utf-8") as f:
+                    existing = json.load(f)
+                # Only skip if identical
+                if json.dumps(existing, sort_keys=True, default=str) == json.dumps(data_to_save, sort_keys=True, default=str):
+                    print(f"(CACHED) Left alone {file_path.name}")
+                    should_write = False
+                else:
+                    print(f"(CHANGED) Will overwrite {file_path.name} (use --force to suppress check).")
+            except json.JSONDecodeError:
+                print(f"Existing JSON invalid, will overwrite: {file_path.name}")
+
+        if should_write:
+            with file_path.open("w", encoding="utf-8") as f:
+                json.dump(data_to_save, f, indent=4, sort_keys=True)
+            print(f"Saved {file_path.name}")
 
     return 0
 
