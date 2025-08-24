@@ -230,6 +230,27 @@
         "url": "https://www.dmsguild.com/product/449776/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Charles Pandi"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-UMY-02",
+        "date_created": "20250822",
+        "full_title": "A Time to Disremember (PS-DC-UMY-02)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "534259",
+        "season": "Planescape",
+        "tiers": 1,
+        "title": "A Time to Disremember",
+        "url": "https://www.dmsguild.com/product/534259/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Greasy Snitches",
@@ -406,7 +427,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
-        "price": null,
+        "price": 0,
         "product_id": "525512",
         "season": null,
         "tiers": 1,
@@ -517,6 +538,29 @@
         "tiers": 2,
         "title": "Berry Note",
         "url": "https://www.dmsguild.com/product/407615/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Nick Stefanski"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-BLACKFLAME-01",
+        "date_created": "20250823",
+        "full_title": "Blackflame in the Broken Lands (PS-DC-BLACKFLAME-01)",
+        "hours": "4",
+        "id": "534424",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "534424",
+        "pub_date": "Sat, 23 Aug 2025 21:49:38 CDT",
+        "season": "Planescape",
+        "tiers": 3,
+        "title": "Blackflame in the Broken Lands",
+        "url": "https://www.dmsguild.com/product/534424/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -13622,27 +13666,6 @@
         "url": "https://www.dmsguild.com/product/369301/DCPoACONMAR19-Wherever-I-May-Float?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Martine Brandt Lassen"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CONMAR",
-        "date_created": "20210831",
-        "full_title": "DC-PoA-CONMAR Play Order",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "price": 0.5,
-        "product_id": "369438",
-        "season": "Icewind Dale",
-        "tiers": 0,
-        "title": "DC-PoA-CONMAR Play Order",
-        "url": "https://www.dmsguild.com/product/369438/?affiliate_id=171040"
-    },
-    {
         "apl": 3,
         "authors": [
             "Brian Collier"
@@ -14705,7 +14728,7 @@
         "url": "https://www.dmsguild.com/product/338645/DCPoAKCBMBL--The-Stolen-Curse?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Kerry Jordan"
         ],
@@ -14717,11 +14740,11 @@
         "full_title": "DC-PoA-KJ2108 The Needs of the Many",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 2.99,
         "product_id": "366508",
         "season": "Icewind Dale",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-KJ2108 The Needs of the Many",
         "url": "https://www.dmsguild.com/product/366508/?affiliate_id=171040"
     },
@@ -15872,7 +15895,7 @@
         "url": "https://www.dmsguild.com/product/369353/DCPOAZT2S2-Iggys-Folly?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Zarajane Ferrier"
         ],
@@ -15884,11 +15907,11 @@
         "full_title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 3.99,
         "product_id": "345714",
         "season": "Icewind Dale",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
     },
@@ -16678,7 +16701,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "Folly-Undone-SJ-DC-PHP-POLAR-01",
-        "tiers": 0,
+        "tiers": 3,
         "title": "Folly Undone",
         "url": "https://www.dmsguild.com/product/460548/Folly-Undone-SJDCPHPPOLAR01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -18319,6 +18342,27 @@
         "tiers": 1,
         "title": "Chaos at the Convention",
         "url": "https://www.dmsguild.com/product/521719/FRDCRPSG10-Chaos-at-the-Convention?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Shane Yeow"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-RPSG-11",
+        "date_created": "20250811",
+        "full_title": "FR-DC-RPSG-11 Murder at the Mansion",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "532997",
+        "season": null,
+        "tiers": 1,
+        "title": "Murder at the Mansion",
+        "url": "https://www.dmsguild.com/product/532997/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -21725,13 +21769,15 @@
         "code": "FR-DC-SCROG-01",
         "date_created": "20250518",
         "full_title": "Pretty Teeth, Sharp Teeth (FR-DC-SCROG-01)",
-        "hours": "",
+        "hours": "1",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Pretty-Teeth-Sharp-Teeth-FR-DC-SCROG-01",
+        "level_range": "1-2",
+        "price": 0,
+        "product_id": "522751",
+        "season": null,
         "tiers": 1,
         "title": "Pretty Teeth, Sharp Teeth",
-        "url": "https://www.dmsguild.com/product/522751/Pretty-Teeth-Sharp-Teeth-FRDCSCROG01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/522751/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -23274,10 +23320,10 @@
         "code": "FR-DC-SCROG-03",
         "date_created": "20250816",
         "full_title": "Showdown At Starmetal Hills (FR-DC-SCROG-03)",
-        "hours": "",
+        "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 0,
         "product_id": "533613",
         "season": null,
         "tiers": 1,
@@ -28633,6 +28679,28 @@
         "url": "https://www.dmsguild.com/product/356501/The-Grand-Estate-DCPOAKW01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Lex Winter",
+            "Katriel Paige"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-ONI-03",
+        "date_created": "20250821",
+        "full_title": "The Great Purification Rite (FR-DC-ONI-03)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "534206",
+        "season": null,
+        "tiers": 2,
+        "title": "The Great Purification Rite",
+        "url": "https://www.dmsguild.com/product/534206/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Tom Klein"
@@ -28941,6 +29009,31 @@
         "tiers": 3,
         "title": "The Lich Queen's Forgotten",
         "url": "https://www.dmsguild.com/product/458312/The-Lich-Queens-Forgotten-SJDCNOS05?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Tricia Monsod",
+            "Kai Monsod"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-TKM-WGS",
+        "date_created": "20250823",
+        "description_html": "<b>Publisher</b>: Dungeon Masters Guild<br /><p style=\"text-align:center;\"><img src=\"https://tools.dmsguild.com/images/8957/_product_images/534423/TKM-WGS_The_Light_and_the_Lost.png\" alt=\"TKM-WGS_The_Light_and_the_Lost.png\" /></p>\n<p style=\"text-align:center;\">A <strong>Four-Hour</strong> Spelljammer Dungeoncraft Adventure for\u00a0<strong>Level 5-10 Characters</strong>. Optimized for\u00a0<strong>Average Party Level\u00a0(APL) 8</strong>.</p>\n<p align=\"center\"><strong>In the swampy planet of Lepo Gors, a pair of brothers has disappeared into the mysterious forest outside the settlement of Tarasa, and everyone sent to find them has not returned. Will you be able to find them or will you be spirited away as well?</strong></p>\n<div>\n<p><strong>CONTENT WARNINGS:</strong>\u00a0Animal and Child Endangerment, Body Horror, Death, Dismemberment, Excrement, Kidnapping, Rocks, Slight Gore, Torture</p>\n<p>Several elements of this adventure, primarily the creatures featured, are inspired by Philippine mythological creatures. \u00a0</p>\n</div>\n<h2>WHAT'S INSIDE:</h2>\n<ul><li>A 32-page easy to read PDF that includes:\n<ul><li>9 pages of the core adventure</li>\n<li>11 pieces of artwork to bring the adventure to life</li>\n<li>Stat blocks for NPCs and Monsters</li>\n<li>Guidance to adjust encounter difficulty</li>\n</ul></li>\n<li>A downloadable zip of High Quality maps for easy printing and virtual tabletop use</li>\n<li>A downloadable zip file of the artwork and handouts</li>\n</ul><h3>Pillars of Play Composition:</h3>\n<p>Social - 30%</p>\n<p>Exploration - 20%\u00a0</p>\n<p>Combat - 50%</p><img class=\"onestart\" src=\"https://d1vzi28wh99zvq.cloudfront.net/images/8957/534423-thumb140.png\" border=\"0\" alt=\"The Light and the Lost (SJ-DC-TKM-WGS)\" style=\"padding-right:5px; padding-bottom:5px;float:left\"><b>Price</b>: $4.99",
+        "full_title": "The Light and the Lost (SJ-DC-TKM-WGS)",
+        "hours": "",
+        "id": "534423",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "534423",
+        "pub_date": "Sat, 23 Aug 2025 20:34:25 CDT",
+        "season": "Spelljammer",
+        "tiers": 2,
+        "title": "The Light and the Lost",
+        "url": "https://www.dmsguild.com/product/534423/?affiliate_id=171040"
     },
     {
         "apl": 3,

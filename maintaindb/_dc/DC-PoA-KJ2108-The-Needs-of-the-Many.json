@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Kerry Jordan"
     ],
@@ -11,11 +11,11 @@
     "full_title": "DC-PoA-KJ2108 The Needs of the Many",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "price": 2.99,
     "product_id": "366508",
     "season": "Icewind Dale",
-    "tiers": null,
+    "tiers": 1,
     "title": "DC-PoA-KJ2108 The Needs of the Many",
     "url": "https://www.dmsguild.com/product/366508/?affiliate_id=171040"
 }

@@ -13,7 +13,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
-        "price": null,
+        "price": 0,
         "product_id": "525512",
         "season": null,
         "tiers": 1,
@@ -1875,6 +1875,27 @@
         "url": "https://www.dmsguild.com/product/521719/FRDCRPSG10-Chaos-at-the-Convention?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Shane Yeow"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-RPSG-11",
+        "date_created": "20250811",
+        "full_title": "FR-DC-RPSG-11 Murder at the Mansion",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "532997",
+        "season": null,
+        "tiers": 1,
+        "title": "Murder at the Mansion",
+        "url": "https://www.dmsguild.com/product/532997/?affiliate_id=171040"
+    },
+    {
         "apl": 2,
         "authors": [
             "Strategicon AL",
@@ -3236,13 +3257,15 @@
         "code": "FR-DC-SCROG-01",
         "date_created": "20250518",
         "full_title": "Pretty Teeth, Sharp Teeth (FR-DC-SCROG-01)",
-        "hours": "",
+        "hours": "1",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Pretty-Teeth-Sharp-Teeth-FR-DC-SCROG-01",
+        "level_range": "1-2",
+        "price": 0,
+        "product_id": "522751",
+        "season": null,
         "tiers": 1,
         "title": "Pretty Teeth, Sharp Teeth",
-        "url": "https://www.dmsguild.com/product/522751/Pretty-Teeth-Sharp-Teeth-FRDCSCROG01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/522751/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3275,10 +3298,10 @@
         "code": "FR-DC-SCROG-03",
         "date_created": "20250816",
         "full_title": "Showdown At Starmetal Hills (FR-DC-SCROG-03)",
-        "hours": "",
+        "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 0,
         "product_id": "533613",
         "season": null,
         "tiers": 1,
@@ -3590,6 +3613,28 @@
         "tiers": 1,
         "title": "The Freezing of Starflow Fall",
         "url": "https://www.dmsguild.com/product/508671/The-Freezing-of-Starflow-Fall-FRDCMELB0003?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Lex Winter",
+            "Katriel Paige"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-ONI-03",
+        "date_created": "20250821",
+        "full_title": "The Great Purification Rite (FR-DC-ONI-03)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "534206",
+        "season": null,
+        "tiers": 2,
+        "title": "The Great Purification Rite",
+        "url": "https://www.dmsguild.com/product/534206/?affiliate_id=171040"
     },
     {
         "apl": 3,

@@ -747,27 +747,6 @@
         "url": "https://www.dmsguild.com/product/369301/DCPoACONMAR19-Wherever-I-May-Float?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Martine Brandt Lassen"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CONMAR",
-        "date_created": "20210831",
-        "full_title": "DC-PoA-CONMAR Play Order",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "price": 0.5,
-        "product_id": "369438",
-        "season": "Icewind Dale",
-        "tiers": 0,
-        "title": "DC-PoA-CONMAR Play Order",
-        "url": "https://www.dmsguild.com/product/369438/?affiliate_id=171040"
-    },
-    {
         "apl": 3,
         "authors": [
             "Brian Collier"
@@ -1830,7 +1809,7 @@
         "url": "https://www.dmsguild.com/product/338645/DCPoAKCBMBL--The-Stolen-Curse?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Kerry Jordan"
         ],
@@ -1842,11 +1821,11 @@
         "full_title": "DC-PoA-KJ2108 The Needs of the Many",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 2.99,
         "product_id": "366508",
         "season": "Icewind Dale",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-KJ2108 The Needs of the Many",
         "url": "https://www.dmsguild.com/product/366508/?affiliate_id=171040"
     },
@@ -2997,7 +2976,7 @@
         "url": "https://www.dmsguild.com/product/369353/DCPOAZT2S2-Iggys-Folly?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Zarajane Ferrier"
         ],
@@ -3009,11 +2988,11 @@
         "full_title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 3.99,
         "product_id": "345714",
         "season": "Icewind Dale",
-        "tiers": 0,
+        "tiers": 1,
         "title": "DC-PoA-ZF01 Undisclosed Ordeals",
         "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
     },
