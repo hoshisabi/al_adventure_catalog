@@ -2046,25 +2046,6 @@
         "full_title": "CCC-BLD 01-03 Bleeding Gate: Lineage",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-BLD-01-03-Bleeding-Gate--Lineage",
-        "tiers": 2,
-        "title": "CCC-BLD 01-03 Bleeding Gate Lineage",
-        "url": "https://www.dmsguild.com/product/231700/CCCBLD-0103-Bleeding-Gate-Lineage?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 5,
-        "authors": [
-            "Ma'at Crook"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-BLD",
-        "date_created": "20180118",
-        "full_title": "CCC-BLD 01-03 Bleeding Gate: Lineage",
-        "hours": "",
-        "is_adventure": true,
         "level_range": "5-10",
         "price": 4.99,
         "product_id": "231700",
@@ -2086,25 +2067,6 @@
         "full_title": "CCC-BLD 1-1 Bleeding Gate: Pandemonium",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "CCC-BLD-1-1-Bleeding-Gate--Pandemonium",
-        "tiers": 1,
-        "title": "CCC-BLD 1-1 Bleeding Gate Pandemonium",
-        "url": "https://www.dmsguild.com/product/218024/CCCBLD-11-Bleeding-Gate-Pandemonium?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Ma'at Crook"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-BLD",
-        "date_created": "20170802",
-        "full_title": "CCC-BLD 1-1 Bleeding Gate: Pandemonium",
-        "hours": "",
-        "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "218024",
@@ -2112,25 +2074,6 @@
         "tiers": 1,
         "title": "CCC-BLD 1-1 Bleeding Gate Pandemonium",
         "url": "https://www.dmsguild.com/product/218024/?affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Ma'at Crook"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-BLD",
-        "date_created": "20170802",
-        "full_title": "CCC-BLD 1-2 Bleeding Gate: Amalgamation",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "201",
-        "product_id": "CCC-BLD-1-2-Bleeding-Gate--Amalgamation",
-        "tiers": 1,
-        "title": "CCC-BLD 1-2 Bleeding Gate Amalgamation",
-        "url": "https://www.dmsguild.com/product/218099/CCCBLD-12-Bleeding-Gate-Amalgamation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2230,50 +2173,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-BMG-04-CORE-2-1-Tales-of-Good--Evil",
-        "tiers": 1,
-        "title": "CCC-BMG-04 CORE 2-1 Tales of Good & Evil",
-        "url": "https://www.dmsguild.com/product/189087/CCCBMG04-CORE-21-Tales-of-Good--Evil?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Baldman Games"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-BMG-04",
-        "date_created": "20160724",
-        "full_title": "CCC-BMG-04 CORE 2-1 Tales of Good & Evil",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
         "price": 4.99,
         "product_id": "189087",
         "season": null,
         "tiers": 1,
         "title": "CCC-BMG-04 CORE 2-1 Tales of Good & Evil",
         "url": "https://www.dmsguild.com/product/189087/?affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Baldman Games"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-BMG-05",
-        "date_created": "20160724",
-        "full_title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "CCC-BMG-05-CORE-2-2-Songs-of-Law--Chaos",
-        "tiers": 1,
-        "title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
-        "url": "https://www.dmsguild.com/product/189088/CCCBMG05-CORE-22-Songs-of-Law--Chaos?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -4540,13 +4445,15 @@
         "code": "CCC-BWM-04-01",
         "date_created": "20190711",
         "full_title": "CCC-BWM-04-01 Thralls of Zuggtmoy: The Myconic Nidus",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "CCC-BWM-04-01-Thralls-of-Zuggtmoy--The-Myconic-Nidus",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "281686",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BWM-04-01 Thralls of Zuggtmoy The Myconic Nidus",
-        "url": "https://www.dmsguild.com/product/281686/CCCBWM0401-Thralls-of-Zuggtmoy-The-Myconic-Nidus?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/281686/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4561,13 +4468,15 @@
         "code": "CCC-BWM-04-02",
         "date_created": "20190711",
         "full_title": "CCC-BWM-04-02 Thralls of Zuggtmoy: Sanctum of Rot",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-BWM-04-02-Thralls-of-Zuggtmoy--Sanctum-of-Rot",
+        "price": 4.99,
+        "product_id": "281685",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BWM-04-02 Thralls of Zuggtmoy Sanctum of Rot",
-        "url": "https://www.dmsguild.com/product/281685/CCCBWM0402-Thralls-of-Zuggtmoy-Sanctum-of-Rot?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/281685/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -19410,6 +19319,28 @@
     {
         "apl": 8,
         "authors": [
+            "T.I. Garrison"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WOUNDS-01",
+        "date_created": "20250828",
+        "full_title": "FR-DC-WOUNDS-01 Over the River and Through the Woods",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": false,
+        "price": 3.99,
+        "product_id": "534978",
+        "season": null,
+        "tiers": 2,
+        "title": "Over the River and Through the Woods",
+        "url": "https://www.dmsguild.com/product/534978/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
             "Mike Olson",
             "Strategicon AL"
         ],
@@ -28272,6 +28203,28 @@
         "tiers": 1,
         "title": "That Nice Old Lady",
         "url": "https://www.dmsguild.com/product/401224/That-Nice-Old-Lady-WBWDCLSN03?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-THAY-06",
+        "date_created": "20250831",
+        "full_title": "Thay Actually (FR-DC-THAY-06)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": false,
+        "price": 4.99,
+        "product_id": "535283",
+        "season": null,
+        "tiers": 2,
+        "title": "Thay Actually",
+        "url": "https://www.dmsguild.com/product/535283/?affiliate_id=171040"
     },
     {
         "apl": 8,
