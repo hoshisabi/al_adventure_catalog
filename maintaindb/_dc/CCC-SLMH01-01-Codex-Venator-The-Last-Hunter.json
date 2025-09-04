@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Andrea Lucca",
         "Enrico Romeo",
@@ -13,9 +13,11 @@
     "full_title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
-    "product_id": "CCC-SLMH01-01-Codex-Venator---The-Last-Hunter",
+    "level_range": "5-10",
+    "price": 2.99,
+    "product_id": "286221",
+    "season": null,
     "tiers": 2,
     "title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
-    "url": "https://www.dmsguild.com/product/286221/CCCSLMH0101-Codex-Venator--The-Last-Hunter?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/286221/?affiliate_id=171040"
 }
