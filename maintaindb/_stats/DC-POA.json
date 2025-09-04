@@ -2072,7 +2072,7 @@
         "url": "https://www.dmsguild.com/product/374070/DCPoAOGG02-Judge-and-Jury?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
             "Antoine Deligne"
         ],
@@ -2082,13 +2082,13 @@
         "code": "DC-POA",
         "date_created": "20210201",
         "full_title": "DC-PoA \"Out of the Dark Woods\"",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": 7.04,
+        "level_range": "5-10",
+        "price": 6.97,
         "product_id": "345391",
         "season": "Icewind Dale",
-        "tiers": 0,
+        "tiers": 2,
         "title": "DC-PoA \"Out of the Dark Woods\"",
         "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
     },
@@ -3056,7 +3056,7 @@
         "url": "https://www.dmsguild.com/product/347211/Lost-in-the-Woods-DCPoAGSP0302?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -3069,10 +3069,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "OGRE-KRUSH-DC-POA-ZL-01",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "336427",
+        "season": "Icewind Dale",
+        "tiers": 2,
         "title": "OGRE KRUSH DC-POA-ZL-01",
-        "url": "https://www.dmsguild.com/product/336427/OGRE-KRUSH-DCPOAZL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/336427/?affiliate_id=171040"
     },
     {
         "apl": 8,

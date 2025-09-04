@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Andrew Bishkinskyi"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "product_id": "OGRE-KRUSH-DC-POA-ZL-01",
-    "tiers": null,
+    "price": 4.99,
+    "product_id": "336427",
+    "season": "Icewind Dale",
+    "tiers": 2,
     "title": "OGRE KRUSH DC-POA-ZL-01",
-    "url": "https://www.dmsguild.com/product/336427/OGRE-KRUSH-DCPOAZL01?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/336427/?affiliate_id=171040"
 }

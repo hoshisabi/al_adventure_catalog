@@ -78,6 +78,27 @@
         "url": "https://www.dmsguild.com/product/258606/CCCAETHER0101-The-Heir-of-Orcus-Verse-I?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Anthony Joyce"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-AETHER-01-01",
+        "date_created": "20181113",
+        "full_title": "CCC-AETHER-01-01 The Heir of Orcus: Verse I",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "258606",
+        "season": null,
+        "tiers": 1,
+        "title": "CCC-AETHER-01-01 The Heir of Orcus Verse I",
+        "url": "https://www.dmsguild.com/product/258606/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Anthony Joyce"
@@ -95,6 +116,27 @@
         "tiers": 1,
         "title": "CCC-AETHER-01-02 The Heir of Orcus Verse II",
         "url": "https://www.dmsguild.com/product/258619/CCCAETHER0102-The-Heir-of-Orcus-Verse-II?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Anthony Joyce"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-AETHER-01-02",
+        "date_created": "20181113",
+        "full_title": "CCC-AETHER-01-02 The Heir of Orcus: Verse II",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "258619",
+        "season": null,
+        "tiers": 1,
+        "title": "CCC-AETHER-01-02 The Heir of Orcus Verse II",
+        "url": "https://www.dmsguild.com/product/258619/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -545,6 +587,27 @@
         "tiers": 2,
         "title": "CCC-BFG01-02 Secrets of the Moon",
         "url": "https://www.dmsguild.com/product/322163/CCCBFG0102-Secrets-of-the-Moon?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Paul Aparicio"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-BFG01-02-",
+        "date_created": "20200807",
+        "full_title": "CCC-BFG01-02: Secrets of the Moon",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "322163",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-BFG01-02 Secrets of the Moon",
+        "url": "https://www.dmsguild.com/product/322163/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2982,7 +3045,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.99,
+        "price": 14.97,
         "product_id": "281686",
         "season": null,
         "tiers": 2,
@@ -3005,7 +3068,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.99,
+        "price": 14.97,
         "product_id": "281685",
         "season": null,
         "tiers": 2,
@@ -3473,13 +3536,15 @@
         "code": "CCC-CONMAR01-02",
         "date_created": "20201103",
         "full_title": "CCC-CONMAR01-02 - Finding Linric",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-CONMAR01-02---Finding-Linric",
+        "price": 14.81,
+        "product_id": "334520",
+        "season": null,
         "tiers": 2,
         "title": "CCC-CONMAR01-02 - Finding Linric",
-        "url": "https://www.dmsguild.com/product/334520/CCCCONMAR0102--Finding-Linric?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334520/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3535,10 +3600,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-COTN-01-01-By-The-Seashore--A-Red-War-Tale",
+        "price": 2.99,
+        "product_id": "267847",
+        "season": null,
         "tiers": 1,
         "title": "CCC-COTN-01-01-By The Seashore A Red War Tale",
-        "url": "https://www.dmsguild.com/product/267847/CCCCOTN0101By-The-Seashore-A-Red-War-Tale&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/267847/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4544,7 +4611,7 @@
         "url": "https://www.dmsguild.com/product/270401/CCCGAD0101-Broken-Blade?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Y. Michael Zhang"
         ],
@@ -4554,13 +4621,15 @@
         "code": "CCC-GAD01-02",
         "date_created": "20190417",
         "full_title": "CCC-GAD01-02 Red War: Black Phoenix",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-GAD01-02-Red-War--Black-Phoenix",
+        "level_range": "5-10",
+        "price": 14.97,
+        "product_id": "270904",
+        "season": null,
         "tiers": 2,
         "title": "CCC-GAD01-02 Red War Black Phoenix",
-        "url": "https://www.dmsguild.com/product/270904/CCCGAD0102-Red-War-Black-Phoenix?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/270904/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -4584,7 +4653,7 @@
         "url": "https://www.dmsguild.com/product/315751/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Y. Michael Zhang"
         ],
@@ -4603,25 +4672,6 @@
         "tiers": 2,
         "title": "CCC-GAD02-02 Voyage of the Kraken's Wake",
         "url": "https://www.dmsguild.com/product/315755/?affiliate_id=171040"
-    },
-    {
-        "apl": 5,
-        "authors": [
-            "Y. Michael Zhang"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-GAD02-02",
-        "date_created": "20200701",
-        "full_title": "CCC-GAD02-02 Voyage of the Kraken's Wake",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-GAD02-02-Voyage-of-the-Krakens-Wake",
-        "tiers": 2,
-        "title": "CCC-GAD02-02 Voyage of the Kraken's Wake",
-        "url": "https://www.dmsguild.com/product/315755/CCCGAD0202-Voyage-of-the-Krakens-Wake?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -5840,7 +5890,7 @@
         ],
         "code": "CCC-GSP-03-01",
         "date_created": "20210104",
-        "full_title": "CCC-GSP-03-01 Heatfelt Memories",
+        "full_title": "CCC-GSP-03-01 Heartfelt Memories",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
@@ -5848,7 +5898,7 @@
         "product_id": "341795",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GSP-03-01 Heatfelt Memories",
+        "title": "Heartfelt Memories",
         "url": "https://www.dmsguild.com/product/341795/?affiliate_id=171040"
     },
     {
@@ -6502,7 +6552,7 @@
         "code": "CCC-KUMORI-03-01",
         "date_created": "20200405",
         "full_title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
-        "hours": "",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -6511,25 +6561,6 @@
         "tiers": 1,
         "title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
         "url": "https://www.dmsguild.com/product/308848/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Ma'at Crook"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-KUMORI-03-01",
-        "date_created": "20200405",
-        "full_title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "202",
-        "product_id": "CCC-KUMORI-03-01-Prot\u00e9g\u00e9-of-the-Trampling-Forest",
-        "tiers": 1,
-        "title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
-        "url": "https://www.dmsguild.com/product/308848/CCCKUMORI0301-Protege-of-the-Trampling-Forest?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6567,10 +6598,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-KUMORI-03-03-Scales-of-Justice--A-Moonsea-Adventure",
+        "price": 4.99,
+        "product_id": "299369",
+        "season": null,
         "tiers": 1,
         "title": "CCC-KUMORI-03-03 Scales of Justice A Moonsea Adventure",
-        "url": "https://www.dmsguild.com/product/299369/CCCKUMORI0303-Scales-of-Justice-A-Moonsea-Adventure?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/299369/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -6894,13 +6927,15 @@
         "code": "CCC-MMT",
         "date_created": "20190606",
         "full_title": "CCC-MMT 01-01: Secrets of Imaginary Friends",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "CCC-MMT-01-01--Secrets-of-Imaginary-Friends",
+        "level_range": "1-4",
+        "price": 4.0,
+        "product_id": "279110",
+        "season": null,
         "tiers": 1,
         "title": "CCC-MMT 01-01 Secrets of Imaginary Friends",
-        "url": "https://www.dmsguild.com/product/279110/CCCMMT-0101-Secrets-of-Imaginary-Friends?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/279110/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6917,10 +6952,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-MMT-01-02--A-Little-Competition-Never-Hurt-Anyone",
+        "price": 2,
+        "product_id": "294627",
+        "season": null,
         "tiers": 1,
         "title": "CCC-MMT 01-02 A Little Competition Never Hurt Anyone",
-        "url": "https://www.dmsguild.com/product/294627/CCCMMT-0102-A-Little-Competition-Never-Hurt-Anyone?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/294627/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6937,10 +6974,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-MMT-01-03--Honorable-Dissent---A-Price-of-the-Red-War-Adventure",
+        "price": 2.99,
+        "product_id": "295871",
+        "season": null,
         "tiers": 1,
         "title": "CCC-MMT 01-03 Honorable Dissent - A Price of the Red War Adventure",
-        "url": "https://www.dmsguild.com/product/295871/CCCMMT-0103-Honorable-Dissent--A-Price-of-the-Red-War-Adventure?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/295871/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6956,11 +6995,13 @@
         "full_title": "CCC-MMT 01-05: Secrets of the Cure",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "202",
-        "product_id": "CCC-MMT-01-05--Secrets-of-the-Cure",
+        "level_range": "1-4",
+        "price": 2.0,
+        "product_id": "309003",
+        "season": null,
         "tiers": 1,
         "title": "CCC-MMT 01-05 Secrets of the Cure",
-        "url": "https://www.dmsguild.com/product/309003/CCCMMT-0105-Secrets-of-the-Cure?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/309003/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -6975,13 +7016,15 @@
         "code": "CCC-MMT",
         "date_created": "20190606",
         "full_title": "CCC-MMT 02-01: The Stuff of Memories",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "0",
-        "product_id": "CCC-MMT-02-01--The-Stuff-of-Memories",
+        "level_range": "5-10",
+        "price": 4.0,
+        "product_id": "279118",
+        "season": null,
         "tiers": 2,
         "title": "CCC-MMT 02-01 The Stuff of Memories",
-        "url": "https://www.dmsguild.com/product/279118/CCCMMT-0201-The-Stuff-of-Memories?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/279118/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -7497,10 +7540,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "CCC-Pipyap-PhAL03-01-Lost-Holy-Man--Portal-Chase-through-Maladomini",
+        "price": 4.99,
+        "product_id": "334210",
+        "season": null,
         "tiers": 3,
         "title": "CCC-Pipyap-PhAL03-01 Lost Holy Man Portal Chase through Maladomini",
-        "url": "https://www.dmsguild.com/product/334210/CCCPipyapPhAL0301-Lost-Holy-Man-Portal-Chase-through-Maladomini?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334210/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -7809,7 +7854,7 @@
         "url": "https://www.dmsguild.com/product/333653/CCCQCC202003-Run-For-The-Money?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Monkey Mind Tabletop",
             "David Hopkins"
@@ -7820,13 +7865,15 @@
         "code": "CCC-QUAKE-01-",
         "date_created": "20191212",
         "full_title": "CCC-QUAKE-01: Red War: Thayan Peace Keeper",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "201",
-        "product_id": "CCC-QUAKE-01--Red-War--Thayan-Peace-Keeper",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "295873",
+        "season": null,
         "tiers": 1,
         "title": "CCC-QUAKE-01 Red War Thayan Peace Keeper",
-        "url": "https://www.dmsguild.com/product/295873/CCCQUAKE01-Red-War-Thayan-Peace-Keeper?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/295873/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -7924,7 +7971,7 @@
         "url": "https://www.dmsguild.com/product/299979/CCCRCC0106-The-Handfasting?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "David Hopkins",
             "Monkey Mind Tabletop"
@@ -7937,11 +7984,13 @@
         "full_title": "CCC-REAP-01 Red War: Lost Ashes of a Wayward Gnome",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-REAP-01-Red-War--Lost-Ashes-of-a-Wayward-Gnome",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "252159",
+        "season": null,
         "tiers": 2,
         "title": "CCC-REAP-01 Red War Lost Ashes of a Wayward Gnome",
-        "url": "https://www.dmsguild.com/product/252159/CCCREAP01-Red-War-Lost-Ashes-of-a-Wayward-Gnome?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/252159/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -8808,7 +8857,7 @@
         "url": "https://www.dmsguild.com/product/262844/CCCSKULL0103-Who-Pulls-the-Strings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Andrea Lucca",
             "Enrico Romeo",
@@ -8822,11 +8871,13 @@
         "full_title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-SLMH01-01-Codex-Venator---The-Last-Hunter",
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "286221",
+        "season": null,
         "tiers": 2,
         "title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
-        "url": "https://www.dmsguild.com/product/286221/CCCSLMH0101-Codex-Venator--The-Last-Hunter?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/286221/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -10211,25 +10262,6 @@
         "tiers": 1,
         "title": "CCC-UBCON2020-02-Realm of the Brand",
         "url": "https://www.dmsguild.com/product/315872/CCCUBCON202002Realm-of-the-Brand&affiliate_id=171040"
-    },
-    {
-        "apl": 5,
-        "authors": [
-            "Alan Patrick"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-UCON-01",
-        "date_created": "20161211",
-        "full_title": "CCC-UCON-01 Blood & Fog",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-UCON-01-Blood--Fog",
-        "tiers": 2,
-        "title": "CCC-UCON-01 Blood & Fog",
-        "url": "https://www.dmsguild.com/product/200484/CCCUCON01-Blood--Fog?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 5,
