@@ -1,61 +1,210 @@
-# Project Tasks
+# Adventure Catalog – Updated Tasks
 
-## Next Up: Slicer Improvements
+## Data Quality & Validation
 
-- [x] **Implement Inclusive Hours Logic:**
-    - **`maintaindb/stats.py`:**
-        - Add a helper function `_parse_hours_string(hours_str)` to convert a string like "1,2-4,6" into a list of individual hours (e.g., `[1, 2, 3, 4, 6]`).
-        - Update `generate_stats` to use `_parse_hours_string` when populating `stats['duration']`.
-    - **`assets/js/filter.js`:**
-        - Add a JavaScript helper function `parseHoursString(hoursStr)` for the same conversion.
-        - Update `populateFilters` to use `parseHoursString` for the hours dropdown.
-        - Update `applyFilters` to use `parseHoursString` for `hoursMatch` to enable inclusive filtering.
-        - Update `displayResults` to correctly display the `hours` string.
+* [ ] Extend `aggregator.py` to perform stronger validation, not just parsing:
 
-- [x] **Enhance Campaign Inclusivity:**
-    - Ensure `stats['campaign']` in `maintaindb/stats.py` correctly iterates through `adventure.campaigns` (which is already a list).
-    - Verify `filter.js` correctly handles `adventure.campaigns` as a list for filtering and display.
+    * Flag empty or malformed `hours` (e.g., `""`, `"2,2"`, or mixed range/list formats).
+    * Normalize `product_id` to string type.
+    * Normalize `apl` to numeric or array of numbers.
+    * Handle missing or null `season` (mark as placeholder or future tag).
+    * Detect duplicated or conflicting entries.
+* [ ] Improve resilience against inconsistent human-entered data (graceful fallbacks, warnings rather than crashes).
+* [ ] Add validation reports/logs so problems are visible without breaking the build.
 
-- [x] **Update `filter.js`:** (Covered by the above changes to `filter.js`)
+## Stats Page
 
-## Future Tasks:
+* [ ] Ensure `stats.json` is published to `assets/data/` so `stats.html` loads correct values.
+* [ ] Update `aggregator.py` to compute grouped counts:
 
-- [ ] **Add Unit Tests for Data Parsing and Consistency:** Implement comprehensive unit tests for the `hours` parsing logic in `maintaindb/adventure.py` and `assets/js/filter.js`, as well as the data consistency and deduplication logic in `maintaindb/aggregator.py` and `maintaindb/process_downloads.py`. This will ensure the robustness and correctness of our data pipeline.
-- [ ] Refactor of adventure.py, as described in [Refactor plan](./REFACTOR.md)
+    * by `campaign`
+    * by `tier`
+    * by `hours`
+    * by `season`
+* [ ] Confirm chart data aligns with validated catalog entries.
 
-- [ ] **Clean up `_dc` directory:**
-  - [ ] Remove duplicated JSON files in the _dc directory
-  - [x] Ensure that all JSON files in the _dc directory have product_id set
-  - [ ] Ensure that all JSON files in the _dc directory have a product_id set that is numeric
-  - [ ] Ensure that all JSON files in the _dc directory have hours set, if they have is_adventure = true
-  - [ ] Ensure that all JSON files in the _dc directory have tier set, if they have is_adventure = true
-  - [ ] Ensure that all JSON files in the _dc directory have campaign set, if they have is_adventure = true
-  - [ ] Ensure that all JSON files in the _dc directory have apl set, if they have is_adventure = true
-  - [ ] Find duplicate adventures (adventures with the same product id) and manually identify what data is correct
-    - [ ] Product ID `526429`: `Brine-and-Bone--FR-DC-MELB-02-02-.json` and `Brine-and-Bone-FR-DC-MELB-02-02.json`
-    - [x] Product ID `528221`: `Pinoy-Big-Bundle-Vol.11 [BUNDLE].json`, `Pinoy-Big-Bundle-Vol.11-BUNDLE.json`, and `Pinoy-Big-Bundle-Vol.json` (Cleaned up)
-    - [x] Product ID `526753`: `PS-DC-STRAT-TALES-06-Dungeon---A-Dragon.json` and `PS-DC-STRAT-TALES-06-Dungeon-A-Dragon.json` (Cleaned up)
-    - [x] Product ID `527475`: `Stormbound--FR-DC-MELB-02-05-.json` and `Stormbound-FR-DC-MELB-02-05.json`
-    - [x] Product ID `526528`: `The-Turning-Tide--FR-DC-MELB-02-03-.json` and `The-Turning-Tide-FR-DC-MELB-02-03.json`
-    - [x] Product ID `526383`: `Voyage-into-Darkness--FR-DC-MELB-02-01-.json` and `Voyage-into-Darkness-FR-DC-MELB-02-01.json`
-- [ ] **Add Checkbox for DDAL/DDEX Seasons:** Implement a checkbox to optionally include DDAL and DDEX adventures in season filtering.
-- [x] Create a tool that generates a "fixup.html" which we can launch in a local browser that will contain a list of links to DM'S guild URLs
-    - This file would be able to be launched locally and permit a user to quickly click the links to download the HTML via bookmarklet
-- [ ] Migrate our filename storage in the _dc directory to be product ID as the filename instead of title, this will eliminate our need to sanitize the filenames
-    - [ ] When we do this, we will need to first update our code to read/write the new filename
-    - [ ] We will also need to rename all of our existing files to the new name
-- [ ] **Improve `stats.py` Output:** Enhance `stats.py` to generate more detailed statistics and potentially output them in a more structured format for easier consumption by the Jekyll site.
-- [x] **Bookmarklet/Browser Extension:** The existing `dmsguild_bookmarklet.js` is sufficient for now. Further enhancements are a long-term consideration.
-- [ ] **GitHub Actions for `dmsguild_rss_parser.py`:** Set up periodic execution of `dmsguild_rss_parser.py` using GitHub Actions.
-- [ ] Stats page should have slicers to allow users to restrict the stats based on tier, campaign, season, duration, and combinations of the above
-- [ ] Add a season slicer for the adventure list page
-- [ ] Staticly generate the filters -- they don't need to be calculated by the user, we can create these lists when we run the aggregator page
-- [x] Change aggregator to update a file in the _stats directory not use the ..\ hack that we've used, could we have jekyll get that file, if not, we can update our lp.bat file to do this work for our testing, and update the readme.md to specify this new requirement
-- [ ] replace concept of Season with concept of "tags" -- an adventure could have multiple tags
-  - [ ] Season is one tag - this can be specified in a JSON file that we 
+## Index Page Improvements
 
+* [ ] Add a text search box for adventures (filter by title, code, campaign, season, tags).
+* [ ] Replace client-side slicing with pre-generated JSON files (`by_campaign.json`, `by_tier.json`, `by_hours.json`).
+* [ ] Update result count display to reflect filters + search.
 
-Parse issues:
-- https://www.dmsguild.com/product/486042/FRDCSTRATUNDEAD01-Undead-Like-Me?src=by_author_of_product&filters=45470_0_0_0_0_0_0_0_0
-  - A Two/Four -Hour Adventure for Tier 2 Characters. Optimized for APL 8
-- 
+## Build & Deployment
+
+* [ ] Update aggregator to write all outputs (`catalog.json`, `stats.json`, grouped JSON) into `assets/data/`.
+* [ ] Remove reliance on `_stats/` (or configure `_config.yml` to include it).
+* [ ] Standardize Python version to `3.12` for GitHub Actions unless 3.13-specific features are required.
+
+---
+
+## Data Handling & Repo Restructure (Plan 2)
+
+> Goal: keep **code public** while storing **real HTML snapshots** in a **private fixtures repo**.
+
+### Immediate Safety
+
+* [ ] **Make current repo private** temporarily if any HTML snapshots are public.
+* [ ] Add a protective `.gitignore` in the public repo:
+
+  ```gitignore
+  dmsguildinfo/
+  **/dmsguildinfo-*.html
+  _dc/
+  private-fixtures/
+  ```
+* [ ] Add an optional pre-commit hook to prevent accidental adds:
+
+  ```bash
+  # .git/hooks/pre-commit
+  if git diff --cached --name-only | grep -E '(^|/)(dmsguildinfo-.*\.html|dmsguildinfo/)' >/dev/null; then
+    echo "❌ Refusing to commit DMG HTML into the public repo."; exit 1; fi
+  ```
+
+### Split Public Code vs Private Fixtures
+
+* [ ] Create **private** repo `al_catalog-fixtures-private` and move real HTML snapshots there (`dmsguildinfo/`, optional `_dc/`).
+* [ ] In the public repo, mount it as a **git submodule**:
+
+  ```bash
+  git submodule add git@github.com:<you>/al_catalog-fixtures-private.git private-fixtures
+  git commit -m "Add private fixtures submodule"
+  ```
+* [ ] Document collaborator setup:
+
+  ```bash
+  git clone --recurse-submodules git@github.com:<you>/al_adventure_catalog.git
+  # or
+  git submodule update --init --recursive
+  ```
+* [ ] Update tests to **fall back** to synthetic fixtures if `private-fixtures/` is missing (CI-friendly).
+
+### Purge Previously-Published HTML from History
+
+* [ ] Remove tracked HTML files from the current tip:
+
+  ```bash
+  git rm -r --cached dmsguildinfo || true
+  git commit -m "Remove DMG HTML snapshots from tree"
+  ```
+* [ ] Rewrite history to purge past commits containing HTML (choose one):
+
+    * **git filter-repo** (recommended):
+
+      ```bash
+      pipx install git-filter-repo  # or brew install git-filter-repo
+      git filter-repo --invert-paths --paths dmsguildinfo --force
+      git push --force origin main
+      ```
+    * **BFG Repo-Cleaner** (alternative):
+
+      ```bash
+      java -jar bfg.jar --delete-folders dmsguildinfo --no-blob-protection
+      git reflog expire --expire=now --all && git gc --prune=now --aggressive
+      git push --force origin main
+      ```
+* [ ] Invalidate downstream clones: open an issue/notice advising collaborators to re-clone.
+* [ ] (Optional) Temporarily disable GitHub Pages until rewrite is complete, then re-enable.
+
+### Licensing & Policy
+
+* [ ] Add a permissive license for code (e.g., **MIT**), or "public domain"-style (**Unlicense** or **CC0**) if preferred.
+* [ ] Add a short **Data Handling Policy** in README explaining that raw third-party HTML is not published; real snapshots live in `private-fixtures`.
+
+---
+
+## Future Enhancements
+
+* [ ] Convert `season` to a tag-based system.
+* [ ] Add richer stats (e.g., adventures per year, adventures per publisher).
+* [ ] Consider basic test coverage for `aggregator.py` functions.
+* [ ] Explore alternate visualizations (e.g., search facets, tag clouds).
+* [ ] Consider adding optional CV-style auto-generated thumbnails (stretch goal).
+
+---
+
+## Aggregator.py – Parsing & Validation Roadmap
+
+> Goal: make the generator tolerant to messy, human-entered data and emit normalized, validated outputs.
+
+### 1) Canonical Schema (target fields)
+
+* `code: string` (uppercased, trimmed)
+* `title: string`
+* `campaign: string` (normalized via synonyms map)
+* `tier: integer` in {1,2,3,4}
+* `hours: string` (original), plus derived:
+
+    * `hours_min: number`, `hours_max: number`, `hours_avg: number`
+    * `hours_list: number[]` (expanded from lists/ranges)
+* `season: string | null` (also mirrored in `tags: string[]`)
+* `apl: number | number[]` (normalized list), plus `apl_min`, `apl_max`
+* `product_id: string` (stringified)
+* `tags: string[]` (lowercase kebab-case)
+
+### 2) Normalization Rules
+
+* **code**: remove whitespace then uppercase; map known prefixes; trim suffix junk.
+* **campaign**: title-case + synonyms map `{ "DDAL": "Adventurers League", "AL": "Adventurers League", "FR": "Forgotten Realms" }` (extendable in YAML).
+* **tier**: accept `"1"`, `"T1"`, `"Tier 1"` → `1` (regex friendly).
+* **hours**: accept patterns → derive numbers:
+
+    * single: `"2"`, `"2.5"`
+    * range: `"2-4"` → expand to `[2,3,4]`; set min/max/avg
+    * list: `"1,2-4,6"` → expand to `[1,2,3,4,6]`
+    * variants: strip `hrs|hours|~|approx|about`
+    * unknown tokens: keep original, set derived fields `null`, register **warning**
+* **apl**: parse `"13,18"`, `"7-9"`, `"APL 5"` → list of ints; compute `apl_min`, `apl_max`.
+* **season**: accept `"S9"`, `"Season 9"`, `"9"`; store canonical `S9` and add tag `season-9`.
+* **product\_id**: cast to string, strip non-printing; keep leading zeros if present.
+* **tags**: lowercase kebab-case; split on `[,/;]` and whitespace; de-dup.
+
+### 3) Validation (errors vs warnings)
+
+* **Errors** (fail item): missing `title` or `code`; invalid `tier` (not 1–4) if `is_adventure=true`.
+* **Warnings** (emit but keep item): unparseable `hours`/`apl`; unknown `campaign`; duplicate `code`.
+* Emit `assets/data/validation_report.json` with counts and samples per rule.
+
+### 4) Deduplication Strategy
+
+* Primary key: `code` when present; fallback: `(normalized_title, campaign)`.
+* On conflict, prefer: newer `updated_at` > richer fields > longer description.
+* Log merge decisions in the validation report (top N examples).
+
+### 5) Output Paths
+
+* Normalized catalog → `assets/data/catalog.json`.
+* Grouped slices → `assets/data/by_campaign.json`, `by_tier.json`, `by_hours.json`.
+* Stats for charts → `assets/data/stats.json`.
+
+### 6) Tests & Fixtures
+
+* `/tests/fixtures/*.json` for messy examples (hours ranges, lists, typos, tiers, seasons, apl formats).
+* Golden tests: run aggregator, compare to snapshots.
+* (Optional) Property-based tests for hours/tier parsers.
+
+### 7) Logging & CI
+
+* Structured logs: `INFO` normalize, `WARN` recoverable, `ERROR` drops.
+* GitHub Actions: run aggregator; publish `assets/data/*`; attach `validation_report.json` artifact.
+* Fail build if **error** count > 0; allow **warnings** with a summary.
+
+### 8) Performance & Stability
+
+* Streaming I/O for large JSON; avoid full-buffer when possible.
+* Deterministic ordering (sort keys/arrays) for minimal diffs.
+* Add `--dry-run` and `--only-validate` flags for safe CI runs.
+
+---
+
+## Repository & Licensing Tasks
+
+* [ ] Transition to **Plan 2**: keep parsing code public, but move raw HTML snapshots into a **separate private repo** (`private-fixtures`) mounted as a submodule.
+* [ ] Add `.gitignore` rules to prevent committing `dmsguildinfo-*.html` or `_dc/` outputs to the public repo.
+* [ ] (Optional) Add a pre-commit hook that refuses to commit any DM’s Guild HTML into the public repo.
+* [ ] Write a short “Data handling policy” section in the README:
+
+    * Explain that raw DM’s Guild HTML is excluded for copyright reasons.
+    * Mention that collaborators with access can pull the `private-fixtures` submodule.
+    * Document fallback to synthetic fixtures for public CI/tests.
+* [ ] Scrub history: remove any accidentally published HTML from the current public repo (filter-branch or BFG).
+* [ ] Decide on license: open-source but permissive (MIT/Apache) or “public domain” style (CC0/Unlicense) depending on preference. Emphasize that code is special-purpose.

@@ -220,6 +220,27 @@
         "url": "https://www.dmsguild.com/product/495431/Dead-in-Daggerford-FRDCMELB0001?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Ron Angelo Gatinga"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-DIVA",
+        "date_created": "20250815",
+        "full_title": "Divaine and the Dandelions: One Night Only! (FR-DC-DIVA)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "533456",
+        "season": null,
+        "tiers": 3,
+        "title": "Divaine and the Dandelions One Night Only!",
+        "url": "https://www.dmsguild.com/product/533456/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Steven Truong",
@@ -679,6 +700,27 @@
         "tiers": 2,
         "title": "Fathers Decision",
         "url": "https://www.dmsguild.com/product/512504/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Christopher B. Bertucio"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CBB25-02",
+        "date_created": "20250906",
+        "full_title": "FR-DC-CBB25-02 Monsters of Mirador Island",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "536131",
+        "season": null,
+        "tiers": 2,
+        "title": "Monsters of Mirador Island",
+        "url": "https://www.dmsguild.com/product/536131/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -3375,6 +3417,27 @@
     {
         "apl": 3,
         "authors": [
+            "Steven Truong"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CLASSIC-02",
+        "date_created": "20250831",
+        "full_title": "Skeleton Crew (FR-DC-CLASSIC-02)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "535222",
+        "season": null,
+        "tiers": 1,
+        "title": "Skeleton Crew",
+        "url": "https://www.dmsguild.com/product/535222/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "Jamie Chan"
         ],
         "campaigns": [
@@ -3558,7 +3621,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
-        "price": 4.99,
+        "price": 29.94,
         "product_id": "535283",
         "season": null,
         "tiers": 2,

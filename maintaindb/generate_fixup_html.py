@@ -44,8 +44,14 @@ def generate_fixup_html():
             try:
                 data = json.load(f)
                 
-                if data.get("is_adventure") == True:
+                is_adventure = data.get("is_adventure") == True
+                needs_review = bool(data.get("needs_review"))
+                if is_adventure or needs_review:
                     missing_fields = []
+
+                    # Include needs_review marker explicitly if set
+                    if needs_review:
+                        missing_fields.append("needs_review")
                     
                     # Check hours
                     if not data.get("hours") or not isinstance(data.get("hours"), str):
@@ -59,14 +65,15 @@ def generate_fixup_html():
                     if not data.get("campaigns") or not isinstance(data.get("campaigns"), list) or len(data.get("campaigns")) == 0:
                         missing_fields.append("campaigns")
 
-                    if missing_fields:
+                    # For needs_review=True, include the row even if the above fields look present
+                    if needs_review or missing_fields:
                         title = data.get("full_title", os.path.basename(file_path))
                         dmsguild_url = data.get("url", "#")
                         json_file_link = f"file:///{file_path.replace('\\', '/')}"
                         
                         html_content += f"            <tr>\n"
                         html_content += f"                <td>{title}</td>\n"
-                        html_content += f"                <td>{', '.join(missing_fields)}</td>\n"
+                        html_content += f"                <td>{', '.join(missing_fields) if missing_fields else 'needs_review' if needs_review else ''}</td>\n"
                         html_content += f"                <td><a href=\"{dmsguild_url}\" target=\"_blank\">DMsGuild Page</a></td>\n"
                         html_content += f"                <td><a href=\"{json_file_link}\" target=\"_blank\">Open JSON</a></td>\n"
                         html_content += f"            </tr>\n"
