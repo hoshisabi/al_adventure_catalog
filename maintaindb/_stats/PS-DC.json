@@ -195,8 +195,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.95,
         "product_id": "526539",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
         "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
@@ -1249,12 +1251,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526751",
         "season": "Planescape",
         "tiers": 4,
         "title": "War of the Roses",
-        "url": "https://www.dmsguild.com/product/526751/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -1271,12 +1274,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526753",
         "season": "Planescape",
         "tiers": 4,
         "title": "Dungeon & A Dragon",
-        "url": "https://www.dmsguild.com/product/526753/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,

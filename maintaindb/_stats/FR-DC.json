@@ -261,6 +261,28 @@
         "url": "https://www.dmsguild.com/product/490000/ELDRITCH-EYE-WIDE-SHUT-FRDCVECNA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-THAY-05",
+        "date_created": "20250629",
+        "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": false,
+        "price": 4.99,
+        "product_id": "528046",
+        "season": null,
+        "tiers": 2,
+        "title": "Four Assassinations & a Funeral",
+        "url": "https://www.dmsguild.com/product/528046/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Joseph George"
@@ -464,12 +486,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.99,
         "product_id": "527701",
         "season": null,
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -993,12 +1016,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.99,
         "product_id": "528753",
         "season": null,
         "tiers": 2,
         "title": "Abyss",
-        "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 3,
@@ -1054,6 +1078,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "needs_review": false,
         "price": 1.0,
         "product_id": "527132",
         "season": null,
@@ -1432,12 +1457,34 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 2.5,
         "product_id": "527653",
         "season": null,
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bernard Velasco"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-NEW-TIER1-1",
+        "date_created": "20250711",
+        "full_title": "FR-DC-NEW-TIER1-1",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.0,
+        "product_id": "529395",
+        "season": null,
+        "tiers": 1,
+        "title": "",
+        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2421,12 +2468,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526743",
         "season": null,
         "tiers": 2,
         "title": "What Big Teeth",
-        "url": "https://www.dmsguild.com/product/526743/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526743/FRDCSTRATTALES01-What-Big-Teeth?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -2443,12 +2491,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526741",
         "season": null,
         "tiers": 2,
         "title": "On Fey Tides",
-        "url": "https://www.dmsguild.com/product/526741/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526741/FRDCSTRATTALES02-On-Fey-Tides?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -2465,12 +2514,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526746",
         "season": null,
         "tiers": 3,
         "title": "The Beast Within",
-        "url": "https://www.dmsguild.com/product/526746/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526746/FRDCSTRATTALES03-The-Beast-Within?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -2487,12 +2537,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526748",
         "season": null,
         "tiers": 3,
         "title": "The Baroness and the Hag",
-        "url": "https://www.dmsguild.com/product/526748/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526748/FRDCSTRATTALES04-The-Baroness-and-the-Hag?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -3436,6 +3487,27 @@
         "url": "https://www.dmsguild.com/product/535222/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Mike Arrow"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-MELB-02-05",
+        "date_created": "20250624",
+        "full_title": "Stormbound (FR-DC-MELB-02-05)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "527475",
+        "season": null,
+        "tiers": 3,
+        "title": "Stormbound",
+        "url": "https://www.dmsguild.com/product/527475/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Jamie Chan"
@@ -3621,7 +3693,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
-        "price": 29.94,
+        "price": 4.99,
         "product_id": "535283",
         "season": null,
         "tiers": 2,
@@ -3818,12 +3890,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.99,
         "product_id": "526528",
         "season": null,
         "tiers": 2,
         "title": "The Turning Tide",
-        "url": "https://www.dmsguild.com/product/526528/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526528/The-Turning-Tide-FRDCMELB0203?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 3,
