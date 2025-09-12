@@ -1,14 +1,37 @@
 import datetime
 import json
-import re
-import unicodedata
-from word2number import w2n
-import requests
-from bs4 import BeautifulSoup
 import logging
-import sys
 import os
+import re
+from dataclasses import dataclass, field
+from typing import Any
+
+import unicodedata
 from dotenv import load_dotenv
+from word2number import w2n
+
+
+@dataclass
+class DungeonCraft:
+    product_id: str
+    full_title: str | None = None
+    title: str | None = None
+    authors: list[str] = field(default_factory=list)
+    date_created: datetime.date | None = None
+    hours: str | None = None
+    tiers: str | None = None
+    apl: str | None = None
+    level_range: str | None = None
+    url: str | None = None
+    campaigns: list[str] = field(default_factory=list)
+    season: str | None = None
+    is_adventure: bool = True
+    price: float | None = None
+
+    def to_json(self) -> dict[str, Any]:
+        # keep your new None-safe date handling
+        ...
+
 
 load_dotenv()
 logger = logging.getLogger()
@@ -18,10 +41,10 @@ DC_CAMPAIGNS = {
     'EB-DC': 'Eberron',
     'EB-SM': 'Eberron',
     'FR-DC': 'Forgotten Realms',
-    'PS-DC': 'Forgotten Realms', # Changed from Planescape
-    'SJ-DC': 'Forgotten Realms', # Changed from Spelljammer
-    'WBW-DC': 'Forgotten Realms', # Changed from The Wild Beyond the Witchlight
-    'DC-POA': 'Forgotten Realms', # Changed from Icewind Dale: Rime of the Frostmaiden
+    'PS-DC': 'Forgotten Realms',  # Changed from Planescape
+    'SJ-DC': 'Forgotten Realms',  # Changed from Spelljammer
+    'WBW-DC': 'Forgotten Realms',  # Changed from The Wild Beyond the Witchlight
+    'DC-POA': 'Forgotten Realms',  # Changed from Icewind Dale: Rime of the Frostmaiden
     'PO-BK': 'Forgotten Realms',
     'BMG-DRW': 'Forgotten Realms',
     'BMG-DL': 'Dragonlance',
@@ -31,24 +54,24 @@ DC_CAMPAIGNS = {
 }
 
 DDAL_CAMPAIGN = {
-    'RMH':    ['Ravenloft'],
-    'DDAL4':  ['Forgotten Realms', 'Ravenloft'],
+    'RMH': ['Ravenloft'],
+    'DDAL4': ['Forgotten Realms', 'Ravenloft'],
     'DDAL04': ['Forgotten Realms', 'Ravenloft'],
-    'DDEX1':  ['Forgotten Realms'],
+    'DDEX1': ['Forgotten Realms'],
     'DDEX01': ['Forgotten Realms'],
-    'DDEX2':  ['Forgotten Realms'],
+    'DDEX2': ['Forgotten Realms'],
     'DDEX02': ['Forgotten Realms'],
-    'DDEX3':  ['Forgotten Realms'],
+    'DDEX3': ['Forgotten Realms'],
     'DDEX03': ['Forgotten Realms'],
-    'DDAL5':  ['Forgotten Realms'],
+    'DDAL5': ['Forgotten Realms'],
     'DDAL05': ['Forgotten Realms'],
-    'DDAL6':  ['Forgotten Realms'],
+    'DDAL6': ['Forgotten Realms'],
     'DDAL06': ['Forgotten Realms'],
-    'DDAL7':  ['Forgotten Realms'],
+    'DDAL7': ['Forgotten Realms'],
     'DDAL07': ['Forgotten Realms'],
-    'DDAL8':  ['Forgotten Realms'],
+    'DDAL8': ['Forgotten Realms'],
     'DDAL08': ['Forgotten Realms'],
-    'DDAL9':  ['Forgotten Realms'],
+    'DDAL9': ['Forgotten Realms'],
     'DDAL09': ['Forgotten Realms'],
     'DDAL10': ['Forgotten Realms'],
     'DDAL00': ['Forgotten Realms'],
@@ -65,6 +88,41 @@ SEASONS = {
     'DC-POA': "Icewind Dale",
 }
 
+# --- add somewhere near the top of adventure.py ---
+def _collect_text_for_regexes(parsed_html) -> str:
+    """Gather text from places both legacy and new pages use, plus simple test fixtures."""
+    blocks: list[str] = []
+
+    # 1) meta description (present on both old and new)
+    md = parsed_html.find("meta", {"name": "description"})
+    if md and md.get("content"):
+        blocks.append(md["content"])
+
+    # 2) legacy block
+    legacy = parsed_html.find("div", {"class": "grid_11 alpha omega prod-content-content"})
+    if legacy:
+        blocks.append(legacy.get_text(" ", strip=True))
+
+    # 3) generic prod-content variants (covers your test fixtures)
+    for el in parsed_html.select("div.prod-content, div.prod-content-content, div.alpha.omega.prod-content"):
+        t = el.get_text(" ", strip=True)
+        if t and t not in blocks:
+            blocks.append(t)
+
+    # 4) any div whose class string contains "prod-content"
+    for el in parsed_html.find_all("div", class_=lambda c: isinstance(c, str) and "prod-content" in c):
+        t = el.get_text(" ", strip=True)
+        if t and t not in blocks:
+            blocks.append(t)
+
+    # 5) absolute fallback: whole doc text
+    if not blocks:
+        t = parsed_html.get_text(" ", strip=True)
+        if t:
+            blocks.append(t)
+
+    return " ".join(blocks)
+
 def get_season(code):
     if not code:
         return None
@@ -72,6 +130,7 @@ def get_season(code):
         if code.startswith(prefix):
             return season
     return None
+
 
 def sanitize_filename(filename):
     """
@@ -85,25 +144,27 @@ def sanitize_filename(filename):
 
     # Replace all periods in the base name with dashes
     base_name_with_dashes = base_name.replace('.', '-')
-    
+
     # Replace non-alphanumeric characters (excluding the period for extension) with a dash
     # This regex will replace any character that is NOT a letter, number, underscore, or hyphen with a dash.
     sanitized_name = re.sub(r'[^a-zA-Z0-9_-]', '-', base_name_with_dashes)
-    
+
     # Replace multiple dashes with a single dash
     sanitized_name = re.sub(r'-+', '-', sanitized_name)
-    
+
     # Remove leading and trailing dashes from the name
     sanitized_name = sanitized_name.strip('-')
-    
+
     # Always append .json as the extension
     sanitized_filename = f"{sanitized_name}.json"
-    
+
     return sanitized_filename
+
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaigns, season=None, is_adventure=None, price=None) -> None:
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaigns,
+                 season=None, is_adventure=None, price=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -118,7 +179,7 @@ class DungeonCraft:
         self.apl = apl
         self.level_range = level_range
         self.url = url
-        self.campaigns = campaigns # This will now be a list of strings
+        self.campaigns = campaigns  # This will now be a list of strings
         self.season = season
         self.is_adventure = is_adventure
         self.price = price
@@ -168,16 +229,32 @@ class DungeonCraft:
         return result.strip()
 
     def __str__(self) -> str:
-        return json.dumps(self.to_json(),  sort_keys=True, indent=2,)
+        return json.dumps(self.to_json(), sort_keys=True, indent=2, )
 
     def to_json(self):
+        # --- safe date normalization for JSON ---
+        def _fmt_date_yyyymmdd(d):
+            if d is None:
+                return None
+            # already a date/datetime
+            if isinstance(d, (datetime.date, datetime.datetime)):
+                return d.strftime('%Y%m%d')
+            # strings we accept: YYYYMMDD or YYYY-MM-DD
+            if isinstance(d, str):
+                s = d.strip()
+                m = re.match(r'^(\d{4})-?(\d{2})-?(\d{2})$', s)
+                if m:
+                    return f"{m.group(1)}{m.group(2)}{m.group(3)}"
+            # unknown shape, punt
+            return None
+
         result = dict(
             product_id=self.product_id,
             full_title=self.full_title,
             title=self.title,
             authors=self.authors,
             code=self.code,
-            date_created=self.date_created.strftime('%Y%m%d'),
+            date_created=_fmt_date_yyyymmdd(self.date_created),  # <-- was strftime() directly
             hours=self.hours,
             tiers=self.tiers,
             apl=self.apl,
@@ -200,6 +277,7 @@ class DungeonCraft:
             return date_obj.strftime("%Y, %b")
         return 'Unknown'
 
+
 def str_to_int(value):
     if value is None:
         return None
@@ -216,12 +294,14 @@ def str_to_int(value):
     except Exception:
         return None
 
+
 def get_patt_first_matching_group(regex, text):
     if matches := re.search(regex, text, re.MULTILINE | re.IGNORECASE):
         for group in matches.groups():
             if group:
                 return group
     return None
+
 
 def get_dc_code_and_campaign(product_title):
     content = str(product_title).upper().split()
@@ -240,6 +320,7 @@ def get_dc_code_and_campaign(product_title):
                     return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
     return None
 
+
 def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful_mode=False):
     merged_data = new_data.copy()  # Start with all keys from new_data
 
@@ -253,22 +334,23 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
             is_new_value_empty = new_value is None or new_value == "" or new_value == [] or new_value == {}
 
             if key == "hours" and isinstance(existing_value, (int, float)):
-                existing_value = str(int(existing_value)) # Convert to string, handle floats like 5.0
+                existing_value = str(int(existing_value))  # Convert to string, handle floats like 5.0
 
             if careful_mode:
-                if not is_existing_value_empty: # If existing is not empty, keep it
+                if not is_existing_value_empty:  # If existing is not empty, keep it
                     merged_data[key] = existing_value
-                elif not is_new_value_empty: # If existing is empty, and new is not, use new
+                elif not is_new_value_empty:  # If existing is empty, and new is not, use new
                     merged_data[key] = new_value
-                else: # Both are empty, keep new (which is empty)
+                else:  # Both are empty, keep new (which is empty)
                     merged_data[key] = new_value
-            else: # Original behavior (not careful, not force)
+            else:  # Original behavior (not careful, not force)
                 if not is_new_value_empty:
                     if is_existing_value_empty or existing_value != new_value:
                         merged_data[key] = new_value
-                elif not is_existing_value_empty: # If new is empty, but existing is not, keep existing
+                elif not is_existing_value_empty:  # If new is empty, but existing is not, keep existing
                     merged_data[key] = existing_value
     return merged_data
+
 
 def _extract_raw_data_from_html(parsed_html, product_id):
     raw_data = {
@@ -282,32 +364,26 @@ def _extract_raw_data_from_html(parsed_html, product_id):
         "price_raw": None
     }
 
-    product_title = parsed_html.find(
-        "div", {"class": "grid_12 product-title"})
+    # ---------- LEGACY PAGE (existing selectors) ----------
+    product_title = parsed_html.find("div", {"class": "grid_12 product-title"})
     if product_title:
-        children = product_title.findChildren(
-            "span", {"itemprop": "name"}, recursive=True)
+        children = product_title.findChildren("span", {"itemprop": "name"}, recursive=True)
         for child in children:
             raw_data["module_name"] = child.text
             break
 
-    authors = []
-    product_from = parsed_html.find(
-        "div", {"class": "grid_12 product-from"})
+    product_from = parsed_html.find("div", {"class": "grid_12 product-from"})
     if product_from:
         children = product_from.findChildren("a", recursive=True)
         for child in children:
             raw_data["authors"].append(child.text)
 
-    date_created = None
-    children = parsed_html.find_all(
-        "div", {"class": "widget-information-item-content"})
+    children = parsed_html.find_all("div", {"class": "widget-information-item-content"})
     key = 'This title was added to our catalog on '
     for child in children:
         if key in child.text:
             date_str = child.text.replace(key, '').replace('.', '')
-            raw_data["date_created"] = datetime.datetime.strptime(
-                date_str.strip(), "%B %d, %Y").date()
+            raw_data["date_created"] = datetime.datetime.strptime(date_str.strip(), "%B %d, %Y").date()
             break
 
     product_content_div = parsed_html.find("div", {"class": "grid_11 alpha omega prod-content-content"})
@@ -315,56 +391,140 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     if product_content_div:
         text = product_content_div.get_text(separator=" ", strip=True)
 
-    # Extract text from meta description as well
+    # Meta description (works for both old and new)
     meta_description_tag = parsed_html.find("meta", {"name": "description"})
     meta_description_text = meta_description_tag["content"] if meta_description_tag and "content" in meta_description_tag.attrs else ""
+    combined_text = _collect_text_for_regexes(parsed_html)
 
-    combined_text = text + " " + meta_description_text
+    # ---------- NEW FORMAT FALLBACKS ----------
+    # Title from og:title or <title> if legacy <div.product-title> missing
+    if not raw_data["module_name"]:
+        og_title = parsed_html.find("meta", {"property": "og:title"})
+        if og_title and og_title.get("content"):
+            # Example: "Una chiave Maledetta - Dungeon Masters Guild | Dungeon Masters Guild"
+            title_txt = og_title["content"]
+            title_txt = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', title_txt, flags=re.IGNORECASE)
+            raw_data["module_name"] = title_txt.strip()
 
-    # Raw extraction of hours, tiers, apl, level_range
-    hours_match = re.search(r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)(?:\s*(?:-|to)\s*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?[-\s\xa0]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
+    if not raw_data["module_name"]:
+        title_tag = parsed_html.find("title")
+        if title_tag and title_tag.text:
+            title_txt = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', title_tag.text, flags=re.IGNORECASE)
+            raw_data["module_name"] = title_txt.strip()
+
+    # JSON-LD (Angular site embeds structured data with price, sometimes date/author)
+    # Look for one or more <script type="application/ld+json"> blocks
+    try:
+        for script in parsed_html.find_all("script", attrs={"type": "application/ld+json"}):
+            if not script.string:
+                continue
+            try:
+                blob = json.loads(script.string)
+            except Exception:
+                continue
+
+            # Normalize to list
+            nodes = blob if isinstance(blob, list) else [blob]
+            for node in nodes:
+                if not isinstance(node, dict):
+                    continue
+
+                # Try price from offers
+                if raw_data["price_raw"] is None:
+                    offers = node.get("offers")
+                    if isinstance(offers, dict):
+                        price = offers.get("price")
+                        if price is None and isinstance(offers.get("priceSpecification"), dict):
+                            price = offers["priceSpecification"].get("price")
+                        if price is not None:
+                            try:
+                                raw_data["price_raw"] = float(price)
+                            except Exception:
+                                pass  # leave as None if it can't convert
+
+                # Optional: try date published
+                if raw_data["date_created"] is None:
+                    dp = node.get("datePublished") or node.get("dateCreated")
+                    # Common ISO formats; be permissive
+                    if isinstance(dp, str):
+                        for fmt in ("%Y-%m-%d", "%Y-%m", "%Y"):
+                            try:
+                                dt = datetime.datetime.strptime(dp[:len(fmt)], fmt).date()
+                                raw_data["date_created"] = dt
+                                break
+                            except Exception:
+                                pass
+
+                # Optional: try authors list if available
+                if not raw_data["authors"]:
+                    auth = node.get("author") or node.get("creator")
+                    # Could be dict, list, or string
+                    def _coerce_authors(a):
+                        if isinstance(a, str):
+                            return [a]
+                        if isinstance(a, dict):
+                            # Schema.org Person/Organization
+                            n = a.get("name")
+                            return [n] if n else []
+                        if isinstance(a, list):
+                            out = []
+                            for item in a:
+                                if isinstance(item, str):
+                                    out.append(item)
+                                elif isinstance(item, dict) and item.get("name"):
+                                    out.append(item["name"])
+                            return out
+                        return []
+                    raw_data["authors"] = _coerce_authors(auth) or raw_data["authors"]
+    except Exception:
+        # If JSON-LD parse fails, ignore silently and continue with other signals
+        pass
+
+    # ---------- Regex pulls (yours) over combined_text ----------
+    # --- replace the current hours_match handling in _extract_raw_data_from_html ---
+    # Hours: handle numeric and word forms, with optional hyphenated "two-to-four-hour" and spaced "two to four hour"
+    hours_match = re.search(
+        r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)'
+        r'(?:\s*(?:-|to|-?to-?)\s*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?'
+        r'(?:\s*(?:-|\s)*\s*)?'
+        r'(?:hour|hours|hr)\b',
+        combined_text,
+        re.IGNORECASE
+    )
     if hours_match:
-        raw_data["hours_raw"] = hours_match.group(0).strip() # Capture the whole matched string
+        # Prefer ranges when both ends are present; otherwise accept single
+        start = str_to_int(hours_match.group(1))
+        end = str_to_int(hours_match.group(2)) if hours_match.group(2) else None
+        if start is not None and end is not None:
+            raw_data["hours_raw"] = f"{start}-{end}"
+        elif start is not None and raw_data.get("hours_raw") is None:
+            # Only set single-hour if we haven't already captured a range elsewhere
+            raw_data["hours_raw"] = str(start)
 
-    raw_data["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
-    raw_data["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", combined_text)
-    raw_data["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
+    if not raw_data.get("hours_raw"):
+        hours_match_alt = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
+        if hours_match_alt:
+            raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}" if hours_match_alt.group(
+                2) else hours_match_alt.group(1)
 
-    # Additional regex for hours, looking for "X-hour adventure" or "X-hour"
+    raw_data["apl_raw"]        = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
+    raw_data["tiers_raw"]      = get_patt_first_matching_group(r"Tier ?([1-4])", combined_text)
+    raw_data["level_range_raw"]= get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
+
     if not raw_data["hours_raw"]:
         hours_match_alt = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
         if hours_match_alt:
-            if hours_match_alt.group(2):
-                raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}"
-            else:
-                raw_data["hours_raw"] = hours_match_alt.group(1)
+            raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}" if hours_match_alt.group(2) else hours_match_alt.group(1)
 
-    # Additional regex for tiers, looking for "Tier X"
-    if not raw_data["tiers_raw"]:
-        tiers_match_alt = re.search(r'Tier\s*([1-4])', combined_text, re.IGNORECASE)
-        if tiers_match_alt:
-            raw_data["tiers_raw"] = tiers_match_alt.group(1)
+    # ---------- Legacy price fallbacks (keep) ----------
+    if raw_data["price_raw"] is None:
+        original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
+        if original_price_strike_match:
+            price_text = original_price_strike_match.get_text(strip=True)
+            price_value = re.search(r'\$([\d\.]+)', price_text)
+            if price_value:
+                raw_data["price_raw"] = float(price_value.group(1))
 
-    # Additional regex for level range, looking for "levels X-Y" or "level X"
-    if not raw_data["level_range_raw"]:
-        level_range_match_alt = re.search(r'(?:levels?|lvl)\s*([\d-]+)', combined_text, re.IGNORECASE)
-        if level_range_match_alt:
-            raw_data["level_range_raw"] = level_range_match_alt.group(1)
-
-    # Additional regex for APL, looking for "APL X"
-    if not raw_data["apl_raw"]:
-        apl_match_alt = re.search(r'APL\s*(\d+)', combined_text, re.IGNORECASE)
-        if apl_match_alt:
-            raw_data["apl_raw"] = apl_match_alt.group(1)
-
-    # Price extraction
-    original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
-    if original_price_strike_match:
-        price_text = original_price_strike_match.get_text(strip=True)
-        price_value = re.search(r'\$([\d\.]+)', price_text)
-        if price_value:
-            raw_data["price_raw"] = float(price_value.group(1))
-    
     if raw_data["price_raw"] is None:
         original_price_old_match = parsed_html.find("div", class_="price-old")
         if original_price_old_match:
@@ -372,7 +532,7 @@ def _extract_raw_data_from_html(parsed_html, product_id):
             price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
                 raw_data["price_raw"] = float(price_value.group(1))
-    
+
     if raw_data["price_raw"] is None:
         price_match = parsed_html.find("div", class_="price")
         if price_match:
@@ -382,6 +542,7 @@ def _extract_raw_data_from_html(parsed_html, product_id):
                 raw_data["price_raw"] = float(price_value.group(1))
 
     return raw_data
+
 
 def _normalize_and_convert_data(raw_data):
     processed_data = {
@@ -413,7 +574,7 @@ def _normalize_and_convert_data(raw_data):
             # It's a range
             parts = re.split(r'\s*(?:-|to)\s*', extracted_range_str, flags=re.IGNORECASE)
             start_int = str_to_int(parts[0])
-            end_int = str_to_int(parts[-1]) # Take the last part for the end of the range
+            end_int = str_to_int(parts[-1])  # Take the last part for the end of the range
             if start_int is not None and end_int is not None:
                 processed_data["hours"] = f"{start_int}-{end_int}"
             else:
@@ -433,29 +594,42 @@ def _normalize_and_convert_data(raw_data):
 
     return processed_data
 
+
 def _infer_missing_adventure_data(data):
     # Derive Tier from APL if Tier is None
     if data["tiers"] is None and data["apl"] is not None:
-        if 1 <= data["apl"] <= 4: data["tiers"] = 1
-        elif 5 <= data["apl"] <= 10: data["tiers"] = 2
-        elif 11 <= data["apl"] <= 16: data["tiers"] = 3
-        elif 17 <= data["apl"] <= 20: data["tiers"] = 4
+        if 1 <= data["apl"] <= 4:
+            data["tiers"] = 1
+        elif 5 <= data["apl"] <= 10:
+            data["tiers"] = 2
+        elif 11 <= data["apl"] <= 16:
+            data["tiers"] = 3
+        elif 17 <= data["apl"] <= 20:
+            data["tiers"] = 4
     # Derive Tier from Level Range if Tier and APL are None
     elif data["tiers"] is None and data["level_range"] is not None:
         if isinstance(data["level_range"], str) and '-' in data["level_range"]:
             start_level = int(data["level_range"].split('-')[0])
-            if 1 <= start_level <= 4: data["tiers"] = 1
-            elif 5 <= start_level <= 10: data["tiers"] = 2
-            elif 11 <= start_level <= 16: data["tiers"] = 3
-            elif 17 <= start_level <= 20: data["tiers"] = 4
-    
+            if 1 <= start_level <= 4:
+                data["tiers"] = 1
+            elif 5 <= start_level <= 10:
+                data["tiers"] = 2
+            elif 11 <= start_level <= 16:
+                data["tiers"] = 3
+            elif 17 <= start_level <= 20:
+                data["tiers"] = 4
+
     # Derive Level Range from Tier if Level Range is None or not a valid range
     derived_level_range = None
     if data["tiers"] is not None:
-        if data["tiers"] == 1: derived_level_range = "1-4"
-        elif data["tiers"] == 2: derived_level_range = "5-10"
-        elif data["tiers"] == 3: derived_level_range = "11-16"
-        elif data["tiers"] == 4: derived_level_range = "17-20"
+        if data["tiers"] == 1:
+            derived_level_range = "1-4"
+        elif data["tiers"] == 2:
+            derived_level_range = "5-10"
+        elif data["tiers"] == 3:
+            derived_level_range = "11-16"
+        elif data["tiers"] == 4:
+            derived_level_range = "17-20"
 
     if data["level_range"] is None or not re.match(r"\d+-\d+", str(data["level_range"])):
         data["level_range"] = derived_level_range
@@ -473,12 +647,15 @@ def _infer_missing_adventure_data(data):
 
     return data
 
-def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False, careful_mode=False):
+
+def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=None, force_overwrite=False,
+                           careful_mode=False):
     raw_data = _extract_raw_data_from_html(parsed_html, product_id)
     normalized_data = _normalize_and_convert_data(raw_data)
     new_data = _infer_missing_adventure_data(normalized_data)
 
     return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
+
 
 if __name__ == "__main__":
     ## Extract data from a JSON if a JSON is specified on the comnmand line and display
