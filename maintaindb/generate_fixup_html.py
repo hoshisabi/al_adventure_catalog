@@ -54,16 +54,20 @@ def generate_fixup_html():
                         missing_fields.append("needs_review")
                     
                     # Check hours
-                    # Accept string like "4" or "2-4" or list of such strings
+                    # Accept string like "4" or "2-4" or list of such strings, and also numeric types (int/float)
                     hours_val = data.get("hours")
                     hours_missing = False
                     if hours_val in (None, ""):
                         hours_missing = True
                     elif isinstance(hours_val, list):
+                        # non-empty list is fine
                         if len(hours_val) == 0:
                             hours_missing = True
                     elif isinstance(hours_val, str):
                         # non-empty string is fine
+                        pass
+                    elif isinstance(hours_val, (int, float)):
+                        # numeric value like 4 or 4.0 is fine
                         pass
                     else:
                         # Other types unexpected
