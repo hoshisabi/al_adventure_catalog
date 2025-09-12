@@ -361,7 +361,10 @@ def _extract_raw_data_from_html(parsed_html, product_id):
         "tiers_raw": None,
         "apl_raw": None,
         "level_range_raw": None,
-        "price_raw": None
+        "price_raw": None,
+        # Pay What You Want markers (raw)
+        "pwyw_flag_raw": False,
+        "suggested_price_raw": None,
     }
 
     # ---------- LEGACY PAGE (existing selectors) ----------
@@ -516,14 +519,67 @@ def _extract_raw_data_from_html(parsed_html, product_id):
         if hours_match_alt:
             raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}" if hours_match_alt.group(2) else hours_match_alt.group(1)
 
-    # ---------- Legacy price fallbacks (keep) ----------
+    # ---------- Price extraction precedence ----------
+    # Prefer JSON-LD offers (set above), then meta[itemprop=price], then the CURRENT displayed price (div.price),
+    # and only fall back to historical/original prices (price-old, product-price-strike).
     if raw_data["price_raw"] is None:
-        original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
-        if original_price_strike_match:
-            price_text = original_price_strike_match.get_text(strip=True)
+        meta_price = parsed_html.find("meta", attrs={"itemprop": "price"})
+        if meta_price and meta_price.get("content"):
+            try:
+                content_val = meta_price.get("content").strip()
+                # Some pages include a leading $ in the meta content; strip non-numeric chars
+                m = re.search(r"([0-9]+(?:\.[0-9]+)?)", content_val)
+                if m:
+                    raw_data["price_raw"] = float(m.group(1))
+            except Exception:
+                pass
+
+    if raw_data["price_raw"] is None:
+        current_price_div = parsed_html.find("div", class_="price")
+        if current_price_div:
+            price_text = current_price_div.get_text(strip=True)
             price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
                 raw_data["price_raw"] = float(price_value.group(1))
+
+    # --- Pay What You Want detection & suggested price extraction ---
+    # Heuristics:
+    #  - presence of input name="pwyw_price" indicates PWYW
+    #  - elements with attributes like pwyw_average or classes pwyw_* also indicate PWYW
+    try:
+        # Detect PWYW via explicit input field
+        if parsed_html.find(attrs={"name": "pwyw_price"}):
+            raw_data["pwyw_flag_raw"] = True
+        # Detect PWYW via classes starting with 'pwyw_'
+        if not raw_data["pwyw_flag_raw"]:
+            any_pwyw_class = parsed_html.find(class_=re.compile(r"^pwyw_"))
+            if any_pwyw_class:
+                raw_data["pwyw_flag_raw"] = True
+
+        # Suggested price from attribute pwyw_average
+        if raw_data["suggested_price_raw"] is None:
+            for el in parsed_html.find_all(True):  # all tags
+                if hasattr(el, 'attrs') and 'pwyw_average' in el.attrs:
+                    val = el.attrs.get('pwyw_average')
+                    if isinstance(val, str) and val.strip():
+                        try:
+                            raw_data["suggested_price_raw"] = float(val)
+                            break
+                        except Exception:
+                            pass
+
+        # Suggested price from visible text e.g., "Suggested Price $1.00"
+        if raw_data["suggested_price_raw"] is None:
+            full_text = parsed_html.get_text(" ", strip=True)
+            m = re.search(r"Suggested\s+Price\s*\$([\d\.]+)", full_text, flags=re.IGNORECASE)
+            if m:
+                try:
+                    raw_data["suggested_price_raw"] = float(m.group(1))
+                except Exception:
+                    pass
+    except Exception:
+        # Be conservative; do not let PWYW parsing break the pipeline
+        pass
 
     if raw_data["price_raw"] is None:
         original_price_old_match = parsed_html.find("div", class_="price-old")
@@ -534,9 +590,9 @@ def _extract_raw_data_from_html(parsed_html, product_id):
                 raw_data["price_raw"] = float(price_value.group(1))
 
     if raw_data["price_raw"] is None:
-        price_match = parsed_html.find("div", class_="price")
-        if price_match:
-            price_text = price_match.get_text(strip=True)
+        original_price_strike_match = parsed_html.find("div", class_="product-price-strike")
+        if original_price_strike_match:
+            price_text = original_price_strike_match.get_text(strip=True)
             price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
                 raw_data["price_raw"] = float(price_value.group(1))
@@ -557,7 +613,10 @@ def _normalize_and_convert_data(raw_data):
         "campaigns": [],
         "season": None,
         "is_adventure": False,
-        "price": raw_data["price_raw"]
+        "price": raw_data["price_raw"],
+        # New normalized fields for Pay What You Want
+        "payWhatYouWant": bool(raw_data.get("pwyw_flag_raw", False)),
+        "suggestedPrice": raw_data.get("suggested_price_raw")
     }
 
     if processed_data["module_name"]:
