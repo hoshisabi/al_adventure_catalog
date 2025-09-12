@@ -54,11 +54,42 @@ def generate_fixup_html():
                         missing_fields.append("needs_review")
                     
                     # Check hours
-                    if not data.get("hours") or not isinstance(data.get("hours"), str):
+                    # Accept string like "4" or "2-4" or list of such strings
+                    hours_val = data.get("hours")
+                    hours_missing = False
+                    if hours_val in (None, ""):
+                        hours_missing = True
+                    elif isinstance(hours_val, list):
+                        if len(hours_val) == 0:
+                            hours_missing = True
+                    elif isinstance(hours_val, str):
+                        # non-empty string is fine
+                        pass
+                    else:
+                        # Other types unexpected
+                        hours_missing = True
+                    if hours_missing:
                         missing_fields.append("hours")
                     
                     # Check tiers
-                    if not data.get("tiers") or not isinstance(data.get("tiers"), (int, float)):
+                    # Accept either a numeric tier (1-4) or a string/range like "3-4"
+                    tiers_val = data.get("tiers")
+                    tiers_missing = False
+                    if tiers_val is None:
+                        tiers_missing = True
+                    else:
+                        # valid if int/float 1-4
+                        if isinstance(tiers_val, (int, float)):
+                            if not (1 <= int(tiers_val) <= 4):
+                                tiers_missing = True
+                        elif isinstance(tiers_val, str):
+                            # Accept "1", "2", "3-4", etc.
+                            import re
+                            if not (re.fullmatch(r"\d+", tiers_val) or re.fullmatch(r"\d+-\d+", tiers_val)):
+                                tiers_missing = True
+                        else:
+                            tiers_missing = True
+                    if tiers_missing:
                         missing_fields.append("tiers")
                         
                     # Check campaigns (should be a list)
