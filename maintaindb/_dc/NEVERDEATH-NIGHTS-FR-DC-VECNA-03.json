@@ -12,9 +12,11 @@
     "full_title": "NEVERDEATH NIGHTS (FR-DC-VECNA-03)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "NEVERDEATH-NIGHTS-FR-DC-VECNA-03",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 9.99,
+    "product_id": "501014",
+    "season": null,
+    "tiers": 2,
     "title": "NEVERDEATH NIGHTS",
-    "url": "https://www.dmsguild.com/product/501014/NEVERDEATH-NIGHTS-FRDCVECNA03?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/501014/?affiliate_id=171040"
 }

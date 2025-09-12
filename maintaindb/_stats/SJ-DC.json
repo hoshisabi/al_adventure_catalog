@@ -1001,6 +1001,27 @@
         "full_title": "Plunge in K's Dungeon (SJ-DC-AMO-KURI-01)",
         "hours": "4",
         "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "448365",
+        "season": "Spelljammer",
+        "tiers": 1,
+        "title": "Plunge in K's Dungeon",
+        "url": "https://www.dmsguild.com/product/448365/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Angelo Bongais"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-AMO-KURI-01",
+        "date_created": "20230805",
+        "full_title": "Plunge in K's Dungeon (SJ-DC-AMO-KURI-01)",
+        "hours": "4",
+        "is_adventure": true,
         "level_range": null,
         "product_id": "Plunge-in-Ks-Dungeon-SJ-DC-AMO-KURI-01",
         "tiers": 0,
@@ -1139,11 +1160,13 @@
         "full_title": "Rumble in The Jungle (SJ-DC-AMO-KURI-00)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Rumble-in-The-Jungle-SJ-DC-AMO-KURI-00",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "444946",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Rumble in The Jungle",
-        "url": "https://www.dmsguild.com/product/444946/Rumble-in-The-Jungle-SJDCAMOKURI00?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/444946/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1362,10 +1385,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-ASI-01-Secrets-of-Old",
+        "price": 4.99,
+        "product_id": "459533",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Secrets of Old",
-        "url": "https://www.dmsguild.com/product/459533/SJDCASI01-Secrets-of-Old?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/459533/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1673,11 +1698,13 @@
         "full_title": "SJ-DC-CBB-05 The Draconic Core",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CBB-05-The-Draconic-Core",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "450030",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "The Draconic Core",
-        "url": "https://www.dmsguild.com/product/450030/SJDCCBB05-The-Draconic-Core?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1848,11 +1875,13 @@
         "full_title": "SJ-DC-DAP Voyage to Goldfish Island",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DAP-Voyage-to-Goldfish-Island",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.0,
+        "product_id": "451371",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Voyage to Goldfish Island",
-        "url": "https://www.dmsguild.com/product/451371/SJDCDAP-Voyage-to-Goldfish-Island?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451371/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3092,7 +3121,7 @@
         "url": "https://www.dmsguild.com/product/430751/SJDCHORNET01-The-Ghost-Ships-Sting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -3102,16 +3131,18 @@
         "code": "SJ-DC-IGC-ECP-01",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-01 Stoneheart",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-01-Stoneheart",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465716",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Stoneheart",
-        "url": "https://www.dmsguild.com/product/465716/SJDCIGCECP01-Stoneheart?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465716/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -3121,16 +3152,18 @@
         "code": "SJ-DC-IGC-ECP-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-02 Coldsnap",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-02-Coldsnap",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465722",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Coldsnap",
-        "url": "https://www.dmsguild.com/product/465722/SJDCIGCECP02-Coldsnap?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465722/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -3140,16 +3173,18 @@
         "code": "SJ-DC-IGC-ECP-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-03 Conflagration",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-03-Conflagration",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465724",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Conflagration",
-        "url": "https://www.dmsguild.com/product/465724/SJDCIGCECP03-Conflagration?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465724/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -3159,16 +3194,18 @@
         "code": "SJ-DC-IGC-ECP-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-04 Cyclone",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-04-Cyclone",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465726",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Cyclone",
-        "url": "https://www.dmsguild.com/product/465726/SJDCIGCECP04-Cyclone?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465726/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -3178,13 +3215,15 @@
         "code": "SJ-DC-IGC-ECP-05",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-05 Behold, Tiamatron",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-05-Behold-Tiamatron",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465727",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Behold, Tiamatron",
-        "url": "https://www.dmsguild.com/product/465727/SJDCIGCECP05-Behold-Tiamatron?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465727/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -5909,11 +5948,12 @@
         "code": "SJ-DC-PND-2",
         "date_created": "20231231",
         "full_title": "The Very Hungry Monster (SJ-DC-PND-2)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 2.99,
         "product_id": "465703",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "The Very Hungry Monster",
         "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
