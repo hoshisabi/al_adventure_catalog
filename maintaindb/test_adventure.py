@@ -1,7 +1,8 @@
 import unittest
 from bs4 import BeautifulSoup
-from adventure import extract_data_from_html, sanitize_filename, str_to_int, get_patt_first_matching_group
-
+from maintaindb.adventure import (
+    extract_data_from_html, sanitize_filename, str_to_int, get_patt_first_matching_group
+)
 class TestAdventureExtraction(unittest.TestCase):
 
     def test_extract_simple_hours_from_html(self):

@@ -1,17 +1,19 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 3,
+    "authors": [
+        "Dungeon Masters Guild"
+    ],
     "campaigns": [],
     "code": null,
     "date_created": "20250816",
     "full_title": "Celestial Hearse [BUNDLE]",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "price": 11.97,
     "product_id": "533632",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "Celestial Hearse [BUNDLE]",
-    "url": "https://www.dmsguild.com/product/533632/Celestial-Hearse-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/533632/?affiliate_id=171040"
 }
