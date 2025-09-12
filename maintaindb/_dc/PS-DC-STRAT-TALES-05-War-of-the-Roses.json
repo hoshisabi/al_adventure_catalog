@@ -1,22 +1,23 @@
 {
-    "apl": 18,
-    "authors": [
-        "Noah Grand",
-        "Strategicon AL"
-    ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "PS-DC-STRAT-TALES-05",
-    "date_created": "20250618",
-    "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
-    "hours": 4,
-    "is_adventure": true,
-    "level_range": "17-20",
-    "price": 5.99,
-    "product_id": "526751",
-    "season": "Planescape",
-    "tiers": 4,
-    "title": "War of the Roses",
-    "url": "https://www.dmsguild.com/product/526751/?affiliate_id=171040"
+  "apl": 18,
+  "authors": [
+    "Noah Grand",
+    "Strategicon AL"
+  ],
+  "campaigns": [
+    "Forgotten Realms"
+  ],
+  "code": "PS-DC-STRAT-TALES-05",
+  "date_created": "20250618",
+  "full_title": "PS-DC-STRAT-TALES-05 War of the Roses",
+  "hours": 4,
+  "is_adventure": true,
+  "level_range": "17-20",
+  "needs_review": false,
+  "price": 5.99,
+  "product_id": "526751",
+  "season": "Planescape",
+  "tiers": 4,
+  "title": "War of the Roses",
+  "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Christopher B. Bertucio"
     ],
@@ -9,10 +9,10 @@
     "code": "FR-DC-CBB25-02",
     "date_created": "20250906",
     "full_title": "FR-DC-CBB25-02 Monsters of Mirador Island",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": null,
+    "price": 3.99,
     "product_id": "536131",
     "season": null,
     "tiers": 2,

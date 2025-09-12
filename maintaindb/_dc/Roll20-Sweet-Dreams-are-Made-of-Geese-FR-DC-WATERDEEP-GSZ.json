@@ -1,17 +1,20 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
-    "date_created": "20250711",
-    "full_title": "[Roll20] Sweet Dreams are Made of Geese (FR-DC-WATERDEEP-GSZ)",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
-    "product_id": "494093",
-    "season": null,
-    "tiers": null,
-    "title": "[Roll20] Sweet Dreams are Made of Geese",
-    "url": "https://www.dmsguild.com/product/494093/Roll20-Sweet-Dreams-are-Made-of-Geese-FRDCWATERDEEPGSZ?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+  "apl": null,
+  "authors": [],
+  "campaigns": [
+    "Forgotten Realms"
+  ],
+  "code": "FR-DC-WATERDEEP-GSZ",
+  "date_created": "20250711",
+  "full_title": "[Roll20] Sweet Dreams are Made of Geese (FR-DC-WATERDEEP-GSZ)",
+  "hours": null,
+  "is_adventure": false,
+  "level_range": null,
+  "needs_review": true,
+  "price": 3.5,
+  "product_id": "494093",
+  "season": null,
+  "tiers": null,
+  "title": "[Roll20] Sweet Dreams are Made of Geese",
+  "url": "https://www.dmsguild.com/product/494093/Roll20-Sweet-Dreams-are-Made-of-Geese-FRDCWATERDEEPGSZ?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }

@@ -1,3 +1,7 @@
+# DM’s Guild raw HTML snapshots
+dmsguildinfo/
+**/dmsguildinfo-*.html
+
 # Editors
 .vscode/
 .idea/

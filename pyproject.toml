@@ -1,7 +1,35 @@
 [project]
 name = "al-adventure-catalog"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.0"
+description = "Parsers and utilities to build JSON for the site from DMsGuild pages."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+# Only put runtime deps here (what your code needs to execute)
+dependencies = [
+    "beautifulsoup4",
+    "requests",
+    "word2number",
+    "python-dotenv",
+]
+
+[project.scripts]
+# lets you run: uv run maintaindb
+maintaindb = "maintaindb.cli:main"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-q --strict-markers"
+testpaths = ["maintaindb/tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+# Formatters / linters (optional but recommended)
+[tool.black]
+line-length = 100
+target-version = ["py313"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+select = ["E", "F", "I", "UP", "B"]
+ignore = []
+fix = true

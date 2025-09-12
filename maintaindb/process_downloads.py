@@ -1,14 +1,14 @@
-import os
+import argparse
 import glob
 import json
-import shutil
-import subprocess
-import pathlib
 import logging
+import os
+import shutil
 import sys
-import argparse
 
+import pathlib
 from bs4 import BeautifulSoup
+
 from adventure import DungeonCraft, sanitize_filename, extract_data_from_html, merge_adventure_data
 
 logger = logging.getLogger()
@@ -21,11 +21,14 @@ input_html_path = os.path.join(root, 'dmsguildinfo')
 output_json_path = os.path.join(root, '_dc')
 processed_html_path = os.path.join(input_html_path, 'processed')
 
+
 def process_downloads():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("-h", "-?", "--help", action="help", help="Show this help message and exit.")
-    parser.add_argument("-f", "--force", action="store_true", help="Force overwrite of existing JSON files and move HTML files.")
-    parser.add_argument("--careful", action="store_true", help="Do not overwrite existing non-null data in JSON files; only fill in nulls.")
+    parser.add_argument("-f", "--force", action="store_true",
+                        help="Force overwrite of existing JSON files and move HTML files.")
+    parser.add_argument("--careful", action="store_true",
+                        help="Do not overwrite existing non-null data in JSON files; only fill in nulls.")
     args = parser.parse_args()
 
     os.makedirs(processed_html_path, exist_ok=True)
@@ -44,26 +47,29 @@ def process_downloads():
 
             file_name = os.path.basename(file_path)
             product_id = file_name.replace('dmsguildinfo-', '').replace('.html', '')
-            
+
             # Create a dummy URL for the DungeonCraft object, as it expects one
             dummy_url = f"https://www.dmsguild.com/product/{product_id}/?affiliate_id=171040"
 
             parsed_html = BeautifulSoup(html_content, features="html.parser")
             # Load existing JSON data if it exists to pass to extract_data_from_html
             existing_json_data_for_extraction = {}
-            json_filename_for_extraction = sanitize_filename(product_id) + ".json" # Use product_id for initial filename guess
+            json_filename_for_extraction = sanitize_filename(
+                product_id) + ".json"  # Use product_id for initial filename guess
             output_file_path_for_extraction = os.path.join(output_json_path, json_filename_for_extraction)
             if os.path.exists(output_file_path_for_extraction):
                 with open(output_file_path_for_extraction, 'r', encoding='utf-8') as f:
                     existing_json_data_for_extraction = json.load(f)
 
-            data = extract_data_from_html(parsed_html, product_id, product_alt=None, existing_data=existing_json_data_for_extraction, force_overwrite=args.force, careful_mode=args.careful)
+            data = extract_data_from_html(parsed_html, product_id, product_alt=None,
+                                          existing_data=existing_json_data_for_extraction, force_overwrite=args.force,
+                                          careful_mode=args.careful)
 
             # Construct the DungeonCraft object
             dc_hours = str(data.get("hours")) if data.get("hours") is not None else None
-            dc = DungeonCraft(product_id, data["module_name"], data["authors"], data["code"], data["date_created"], 
-                              dc_hours, data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"], 
-                              data.get("season"),                             data["is_adventure"], data["price"])
+            dc = DungeonCraft(product_id, data["module_name"], data["authors"], data["code"], data["date_created"],
+                              dc_hours, data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"],
+                              data.get("season"), data["is_adventure"], data["price"])
 
             # Determine output JSON filename based on full_title
             # Sanitize full_title to create a valid filename
@@ -78,11 +84,13 @@ def process_downloads():
 
             # Merge new data with existing data
             merged_json_data = dc.to_json()
-            
+
             # Check if any values would be overwritten (excluding nulls/empty values)
             did_overwrite = False
             for key, new_value in merged_json_data.items():
-                if key in existing_json_data and existing_json_data[key] is not None and existing_json_data[key] != "" and existing_json_data[key] != [] and existing_json_data[key] != {} and existing_json_data[key] != new_value:
+                if key in existing_json_data and existing_json_data[key] is not None and existing_json_data[
+                    key] != "" and existing_json_data[key] != [] and existing_json_data[key] != {} and \
+                        existing_json_data[key] != new_value:
                     did_overwrite = True
                     break
 
@@ -103,7 +111,6 @@ def process_downloads():
         except Exception as ex:
             logger.error(f"Error processing {file_path}: {str(ex)}")
 
-    
 
 if __name__ == '__main__':
     process_downloads()

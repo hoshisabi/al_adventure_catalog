@@ -12,6 +12,8 @@ There are two primary methods for ingesting new adventure data:
 1.  Navigate to the `maintaindb` directory: `cd maintaindb`
 2.  Run the RSS parser: `python3 dmsguild_rss_parser.py`
     *   This script fetches the latest adventure data from the DMsGuild RSS feed and generates JSON files in the `_dc` directory. This process is quick and efficient.
+    *   You can also test with the bundled fixture: `python3 dmsguild_rss_parser.py --url maintaindb\\dmsguildinfo\\rss.xml --force`
+    *   RSS-derived JSONs are marked with `needs_review: true` because the RSS feed lacks some details. See “RSS data gaps” below.
 
 ### Method 2: Using the DMsGuild Bookmarklet (For individual adventure updates or when RSS is insufficient)
 
@@ -55,3 +57,30 @@ To upload your changes to the repository:
 
 Note for later: [Warhorn](https://warhorn.net/events/pandodnd/manage/scenarios/report.json) has their own json file, we might be able to leverage this.  (those are only pando scenarios).  Global scenarios
 are [here](https://warhorn.net/organized-play/p/dnd-adventurers-league#scenarios) but not in json format.
+
+## RSS data gaps
+
+The RSS feed does not include all fields our HTML parser can extract. Current gaps (left blank/null when using RSS):
+- authors
+- hours
+- tiers
+- apl (average party level)
+- level_range
+- Sometimes price (unless present in the RSS description as a commented <price> tag or inline “Price: $X.XX”).
+
+All JSON files produced via the RSS parser are tagged with `needs_review: true` so you can fill in missing details later (e.g., by processing downloaded HTML with `process_downloads.py`).
+
+## Data Handling Policy
+
+This project parses DM’s Guild product pages to extract structured fields (title, code, tier, hours, etc.).  
+To respect copyright and site policies:
+
+- **Raw HTML snapshots** of DM’s Guild pages are **not published** in this repository.
+- Those files are kept in a **private fixtures repo** (`private-fixtures/` submodule) for trusted collaborators only.
+- Public tests use **synthetic fixtures** and **parsed JSON** outputs instead.
+- If you have access to the private repo, place it at `private-fixtures/` and update submodules with:
+  ```bash
+  git submodule update --init --recursive
+  ```
+- If the private repo is missing, tests fall back to the synthetic fixtures.
+This ensures the code remains public and reusable while respecting DM’s Guild’s content rights.  

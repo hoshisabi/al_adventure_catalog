@@ -1,17 +1,20 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
-    "date_created": "20250626",
-    "full_title": "The Saga of the Serpent's Fangs (FR-DC-MELB-02) [BUNDLE]",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
-    "product_id": "527495",
-    "season": null,
-    "tiers": null,
-    "title": "The Saga of the Serpent's Fangs  [BUNDLE]",
-    "url": "https://www.dmsguild.com/product/527495/The-Saga-of-the-Serpents-Fangs-FRDCMELB02-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+  "apl": null,
+  "authors": [],
+  "campaigns": [
+    "Forgotten Realms"
+  ],
+  "code": "FR-DC-MELB-02",
+  "date_created": "20250626",
+  "full_title": "The Saga of the Serpent's Fangs (FR-DC-MELB-02) [BUNDLE]",
+  "hours": null,
+  "is_adventure": false,
+  "level_range": null,
+  "needs_review": false,
+  "price": 29.94,
+  "product_id": "527495",
+  "season": null,
+  "tiers": null,
+  "title": "The Saga of the Serpent's Fangs  [BUNDLE]",
+  "url": "https://www.dmsguild.com/product/527495/The-Saga-of-the-Serpents-Fangs-FRDCMELB02-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
 }
