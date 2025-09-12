@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Rob Froberg"
     ],
@@ -9,11 +9,13 @@
     "code": "SJ-DC-IGC-ECP-01",
     "date_created": "20231231",
     "full_title": "SJ-DC-IGC-ECP-01 Stoneheart",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "SJ-DC-IGC-ECP-01-Stoneheart",
-    "tiers": null,
+    "level_range": "11-16",
+    "price": 1.0,
+    "product_id": "465716",
+    "season": "Spelljammer",
+    "tiers": 3,
     "title": "Stoneheart",
-    "url": "https://www.dmsguild.com/product/465716/SJDCIGCECP01-Stoneheart?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/465716/?affiliate_id=171040"
 }
