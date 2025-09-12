@@ -7,6 +7,23 @@ from word2number import w2n
 from typing import List, Optional, Tuple, Any
 
 # --- Campaign Dictionaries ---
+# Season labels (named programs + numeric seasons 1-10)
+SEASONS = {
+    'WBW-DC': "The Wild Beyond the Witchlight",
+    'SJ-DC': "Spelljammer",
+    'PS-DC': "Planescape",
+    'DC-POA': "Icewind Dale",
+    1: "Tyranny of Dragons",
+    2: "Elemental Evil",
+    3: "Rage of Demons",
+    4: "Curse of Strahd",
+    5: "Storm King's Thunder",
+    6: "Tales From the Yawning Portal",
+    7: "Tomb of Annihilation",
+    8: "Waterdeep",
+    9: "Avernus Rising",
+    10: "Plague of Ancients",
+}
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
     'EB-DC': 'Eberron',
@@ -170,16 +187,28 @@ def get_campaigns_from_code(code: str) -> List[str]:
     return sorted(list(set(campaigns)))
 
 
-def get_season(code: Optional[str]) -> Optional[int]:
+def get_season(code: Optional[str]):
     """
-    Extracts the season number from an adventure code.
-    Assumes DDAL format (DDAL<season>-<module>)
+    Return a season label or number for a given code.
+    - For codes starting with WBW-DC, SJ-DC, PS-DC, DC-POA return the program name.
+    - For DDEXn/DDALn (optionally zero-padded), return the human-friendly season name if known (1-10),
+      otherwise the numeric season.
     """
     if not code:
         return None
-    match = re.search(r'DDAL(\d+)', code, re.IGNORECASE)
-    if match:
-        return int(match.group(1))
+    code_u = str(code).upper()
+    # Named programs
+    for prefix, season in SEASONS.items():
+        if isinstance(prefix, str) and code_u.startswith(prefix):
+            return season
+    # Numeric AL seasons
+    m = re.match(r"^(DDEX|DDAL)0?(\d+)", code_u)
+    if m:
+        try:
+            season_num = int(m.group(2))
+            return season_num
+        except Exception:
+            pass
     return None
 
 

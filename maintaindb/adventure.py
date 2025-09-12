@@ -82,10 +82,24 @@ DDAL_CAMPAIGN = {
 }
 
 SEASONS = {
+    # Post-season named programs and hardback tie-ins (non-numeric seasons)
     'WBW-DC': "The Wild Beyond the Witchlight",
     'SJ-DC': "Spelljammer",
     'PS-DC': "Planescape",
     'DC-POA': "Icewind Dale",
+}
+# Human-friendly labels for numeric seasons (1-10)
+SEASON_LABELS = {
+    1: "Tyranny of Dragons",
+    2: "Elemental Evil",
+    3: "Rage of Demons",
+    4: "Curse of Strahd",
+    5: "Storm King's Thunder",
+    6: "Tales From the Yawning Portal",
+    7: "Tomb of Annihilation",
+    8: "Waterdeep",
+    9: "Avernus Rising",
+    10: "Plague of Ancients",
 }
 
 # --- add somewhere near the top of adventure.py ---
@@ -126,9 +140,19 @@ def _collect_text_for_regexes(parsed_html) -> str:
 def get_season(code):
     if not code:
         return None
+    code_u = str(code).upper()
+    # First: named seasons based on explicit prefixes (WBW-DC, SJ-DC, PS-DC, DC-POA)
     for prefix, season in SEASONS.items():
-        if code.startswith(prefix):
+        if code_u.startswith(prefix) if isinstance(prefix, str) else False:
             return season
+    # Next: infer numeric season from DD Adventurers League code families
+    # Examples: DDEX1-01, DDEX01-01, DDAL5-01, DDAL05-01
+    m = re.match(r"^(DDEX|DDAL)0?(\d+)", code_u)
+    if m:
+        try:
+            return int(m.group(2))
+        except Exception:
+            pass
     return None
 
 
@@ -223,9 +247,17 @@ class DungeonCraft:
         return False
 
     def __get_short_title(self, title):
+        # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
+        t = re.sub(r"\(\s*5e\s*\)", "", str(title), flags=re.IGNORECASE)
+        # Remove DC trailing code fragments like FR-DC-XXX in the visible short title
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
-        new_title = title.replace('(', '').replace(')', '').replace(':', '')
-        result = re.sub(regex, '', new_title)
+        # Also strip colons; keep parentheses removal after (5e) handled to avoid leaving '5e'
+        t = t.replace(':', '')
+        # Remove parentheses contents gently (except we've already removed (5e))
+        t = t.replace('(', '').replace(')', '')
+        result = re.sub(regex, '', t)
+        # Remove any trailing '- 5e' or ' 5e'
+        result = re.sub(r"[\s-]*\b5e\b[\s-]*$", "", result, flags=re.IGNORECASE)
         return result.strip()
 
     def __str__(self) -> str:
@@ -488,7 +520,7 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     # Hours: handle numeric and word forms, with optional hyphenated "two-to-four-hour" and spaced "two to four hour"
     hours_match = re.search(
         r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)'
-        r'(?:\s*(?:-|to|-?to-?)\s*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?'
+        r'(?:\s*(?:-|/|to|-?to-?)\s*(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty))?'
         r'(?:\s*(?:-|\s)*\s*)?'
         r'(?:hour|hours|hr)\b',
         combined_text,
@@ -505,7 +537,7 @@ def _extract_raw_data_from_html(parsed_html, product_id):
             raw_data["hours_raw"] = str(start)
 
     if not raw_data.get("hours_raw"):
-        hours_match_alt = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
+        hours_match_alt = re.search(r'(\d+)(?:[-/](\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
         if hours_match_alt:
             raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}" if hours_match_alt.group(
                 2) else hours_match_alt.group(1)
@@ -513,9 +545,19 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     raw_data["apl_raw"]        = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
     raw_data["tiers_raw"]      = get_patt_first_matching_group(r"Tier ?([1-4])", combined_text)
     raw_data["level_range_raw"]= get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", combined_text)
+    # If not captured, try ordinal style like '1st-4th level'
+    if not raw_data["level_range_raw"]:
+        m_levels = re.search(r"(?i)(\d+)(?:st|nd|rd|th)?\s*[-to]+\s*(\d+)(?:st|nd|rd|th)?\s*level", combined_text)
+        if m_levels:
+            try:
+                start = int(m_levels.group(1))
+                end = int(m_levels.group(2))
+                raw_data["level_range_raw"] = f"{start}-{end}"
+            except Exception:
+                pass
 
     if not raw_data["hours_raw"]:
-        hours_match_alt = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
+        hours_match_alt = re.search(r'(\d+)(?:[-/](\d+))?\s*[-h]*(?:hour|hours|hr)', combined_text, re.IGNORECASE)
         if hours_match_alt:
             raw_data["hours_raw"] = f"{hours_match_alt.group(1)}-{hours_match_alt.group(2)}" if hours_match_alt.group(2) else hours_match_alt.group(1)
 
@@ -596,6 +638,7 @@ def _extract_raw_data_from_html(parsed_html, product_id):
             price_value = re.search(r'\$([\d\.]+)', price_text)
             if price_value:
                 raw_data["price_raw"] = float(price_value.group(1))
+
 
     return raw_data
 
@@ -719,3 +762,18 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
 if __name__ == "__main__":
     ## Extract data from a JSON if a JSON is specified on the comnmand line and display
     pass
+
+
+
+def get_season_label(value):
+    """
+    Resolve a human-friendly label for a season value.
+    - If value is an int and present in SEASON_LABELS, return that label.
+    - If value is a string (named program), return as-is.
+    - Otherwise, return None.
+    """
+    if isinstance(value, int):
+        return SEASON_LABELS.get(value)
+    if isinstance(value, str):
+        return value
+    return None
