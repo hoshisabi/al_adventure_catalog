@@ -145,12 +145,13 @@ def get_season(code):
     for prefix, season in SEASONS.items():
         if code_u.startswith(prefix) if isinstance(prefix, str) else False:
             return season
-    # Next: infer numeric season from DD Adventurers League code families
+    # Next: infer numeric season from DD Adventurers League code families and map to descriptive label
     # Examples: DDEX1-01, DDEX01-01, DDAL5-01, DDAL05-01
     m = re.match(r"^(DDEX|DDAL)0?(\d+)", code_u)
     if m:
         try:
-            return int(m.group(2))
+            season_num = int(m.group(2))
+            return SEASON_LABELS.get(season_num, season_num)
         except Exception:
             pass
     return None

@@ -189,10 +189,10 @@ def get_campaigns_from_code(code: str) -> List[str]:
 
 def get_season(code: Optional[str]):
     """
-    Return a season label or number for a given code.
+    Return a descriptive season label for a given code.
     - For codes starting with WBW-DC, SJ-DC, PS-DC, DC-POA return the program name.
-    - For DDEXn/DDALn (optionally zero-padded), return the human-friendly season name if known (1-10),
-      otherwise the numeric season.
+    - For DDEXn/DDALn (optionally zero-padded), map known numeric seasons (1-10) to human-friendly names;
+      if an unknown number is encountered, return the number to avoid data loss.
     """
     if not code:
         return None
@@ -206,7 +206,8 @@ def get_season(code: Optional[str]):
     if m:
         try:
             season_num = int(m.group(2))
-            return season_num
+            # Prefer descriptive label when known
+            return SEASONS.get(season_num, season_num)
         except Exception:
             pass
     return None
