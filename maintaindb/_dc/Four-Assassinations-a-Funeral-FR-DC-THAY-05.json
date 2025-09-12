@@ -1,17 +1,22 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
+    "apl": 8,
+    "authors": [
+        "Jamie Chan"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-THAY-05",
     "date_created": "20250629",
     "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": "4",
+    "is_adventure": true,
+    "level_range": "5-10",
+    "needs_review": false,
+    "price": 4.99,
     "product_id": "528046",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "Four Assassinations & a Funeral",
-    "url": "https://www.dmsguild.com/product/528046/Four-Assassinations--a-Funeral-FRDCTHAY05?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/528046/?affiliate_id=171040"
 }
