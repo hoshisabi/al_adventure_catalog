@@ -175,11 +175,12 @@
         "code": "BMG-MOON-MD-09",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "495776",
+        "season": null,
         "tiers": 3,
         "title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
         "url": "https://www.dmsguild.com/product/495776/?affiliate_id=171040"
@@ -283,6 +284,7 @@
         "level_range": "11-20",
         "price": 11.99,
         "product_id": "508959",
+        "season": null,
         "tiers": 3,
         "title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
         "url": "https://www.dmsguild.com/product/508959/?affiliate_id=171040"
