@@ -230,10 +230,10 @@
         "code": "FR-DC-DIVA",
         "date_created": "20250815",
         "full_title": "Divaine and the Dandelions: One Night Only! (FR-DC-DIVA)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "price": 3.99,
         "product_id": "533456",
         "season": null,
         "tiers": 3,
@@ -1466,6 +1466,27 @@
         "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Casey McGirt"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-MCG-CH2",
+        "date_created": "20250730",
+        "full_title": "FR-DC-MCG-CH2 The Clenched Fist",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.5,
+        "product_id": "531330",
+        "season": null,
+        "tiers": 2,
+        "title": "The Clenched Fist",
+        "url": "https://www.dmsguild.com/product/531330/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Bernard Velasco"
@@ -1485,6 +1506,27 @@
         "tiers": 1,
         "title": "",
         "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Bernard Velasco"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-NEW-TIER2-1",
+        "date_created": "20250803",
+        "full_title": "FR-DC-NEW-TIER2-1 The Bluebloods",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 0.99,
+        "product_id": "531764",
+        "season": null,
+        "tiers": 2,
+        "title": "The Bluebloods",
+        "url": "https://www.dmsguild.com/product/531764/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1887,6 +1929,27 @@
         "tiers": 2,
         "title": "Pest Infestation",
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Duncan Gan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-PNKE-01",
+        "date_created": "20250801",
+        "full_title": "FR-DC-PNKE-01 Vie for the Eye",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "531524",
+        "season": null,
+        "tiers": 3,
+        "title": "Vie for the Eye",
+        "url": "https://www.dmsguild.com/product/531524/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3015,6 +3078,48 @@
         "url": "https://www.dmsguild.com/product/530582/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-04",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-04 Tempest and Tectonics",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "530589",
+        "season": null,
+        "tiers": 3,
+        "title": "Tempest and Tectonics",
+        "url": "https://www.dmsguild.com/product/530589/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-05",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-05 The Bonebind Curse",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 4.95,
+        "product_id": "530595",
+        "season": null,
+        "tiers": 4,
+        "title": "The Bonebind Curse",
+        "url": "https://www.dmsguild.com/product/530595/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "T.I. Garrison"
@@ -3422,7 +3527,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0,
+        "price": 0.0,
         "product_id": "533613",
         "season": null,
         "tiers": 1,
@@ -3478,10 +3583,10 @@
         "code": "FR-DC-CLASSIC-02",
         "date_created": "20250831",
         "full_title": "Skeleton Crew (FR-DC-CLASSIC-02)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.99,
         "product_id": "535222",
         "season": null,
         "tiers": 1,
@@ -3546,6 +3651,27 @@
         "tiers": 1,
         "title": "Sweet Dreams are Made of Cheese",
         "url": "https://www.dmsguild.com/product/474519/Sweet-Dreams-are-Made-of-Cheese-FRDCWATERDEEPCHZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WATERDEEP-GSZ+",
+        "date_created": "20250928",
+        "full_title": "FR-DC-WATERDEEP-GSZ+ Sweet Dreams are Made of Geese Again",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.5,
+        "product_id": "538569",
+        "season": null,
+        "tiers": 1,
+        "title": "Sweet Dreams are Made of Geese Again",
+        "url": "https://www.dmsguild.com/product/538569/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3858,6 +3984,27 @@
         "tiers": 1,
         "title": "The March of the Manticore",
         "url": "https://www.dmsguild.com/product/471339/The-March-of-the-Manticore-FRDCGHG03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Forever&ADayDM"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-F&ADDM-NDF1",
+        "date_created": "20250918",
+        "full_title": "The New Dawn's Fire (FR-DC-F&ADDM-NDF1)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.49,
+        "product_id": "537588",
+        "season": null,
+        "tiers": 1,
+        "title": "The New Dawn's Fire FR-DC-F&ADDM-NDF1",
+        "url": "https://www.dmsguild.com/product/537588/?affiliate_id=171040"
     },
     {
         "apl": 3,
