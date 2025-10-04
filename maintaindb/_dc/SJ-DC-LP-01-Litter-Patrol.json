@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Rick Way"
     ],
@@ -11,9 +11,9 @@
     "full_title": "SJ-DC-LP-01 Litter Patrol",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "SJ-DC-LP-01-Litter-Patrol",
-    "tiers": null,
+    "tiers": "2",
     "title": "Litter Patrol",
     "url": "https://www.dmsguild.com/product/417717/SJDCLP01-Litter-Patrol?filters=45470_0_0_0_0_0"
 }
