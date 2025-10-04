@@ -188,6 +188,27 @@
         "url": "https://www.dmsguild.com/product/443050/?affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Tricia Monsod"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-TKM-CH03",
+        "date_created": "20250806",
+        "full_title": "A Sorrowful Farewell (SJ-DC-TKM-CH03)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "532407",
+        "season": "Spelljammer",
+        "tiers": 2,
+        "title": "A Sorrowful Farewell",
+        "url": "https://www.dmsguild.com/product/532407/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Kat Kruger"
@@ -466,10 +487,10 @@
         "code": "WBW-DC-BEL-01",
         "date_created": "20220721",
         "full_title": "Beauty's Beast (WBW-DC-BEL-01)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 2.0,
         "product_id": "403741",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
@@ -795,7 +816,7 @@
         "code": "BMG-DRW-OD-02",
         "date_created": "20230822",
         "full_title": "BMG-DRW-OD-02 Something Wicked",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -816,7 +837,7 @@
         "code": "BMG-DRW-OD-03",
         "date_created": "20240118",
         "full_title": "BMG-DRW-OD-03 Something on the Move",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -837,7 +858,7 @@
         "code": "BMG-DRW-OD-04",
         "date_created": "20240314",
         "full_title": "BMG-DRW-OD-04 We're All in this Together",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -858,7 +879,7 @@
         "code": "BMG-DRW-OD-05",
         "date_created": "20240418",
         "full_title": "BMG-DRW-OD-05 Now We've Done It",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 9.99,
@@ -879,7 +900,7 @@
         "code": "BMG-DRW-OD-06",
         "date_created": "20240516",
         "full_title": "BMG-DRW-OD-06 We Almost Had It All",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 9.99,
@@ -900,7 +921,7 @@
         "code": "BMG-DRW-OD-07",
         "date_created": "20240815",
         "full_title": "BMG-DRW-OD-07 The Subtlety of Subterfuge",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 8.99,
@@ -922,7 +943,7 @@
         "code": "BMG-DRWEP-OD-01",
         "date_created": "20240215",
         "full_title": "BMG-DRWEP-OD-01 The Enemy of My Enemy",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 12.99,
@@ -943,7 +964,7 @@
         "code": "BMG-DRWEP-OD-02",
         "date_created": "20240718",
         "full_title": "BMG-DRWEP-OD-02 The Burning of Aglarond",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 12.99,
@@ -1129,11 +1150,12 @@
         "code": "BMG-MOON-MD-09",
         "date_created": "20240919",
         "full_title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "495776",
+        "season": null,
         "tiers": 3,
         "title": "BMG-MOON-MD-09 The Prince's Fairy Godmother",
         "url": "https://www.dmsguild.com/product/495776/?affiliate_id=171040"
@@ -1237,6 +1259,7 @@
         "level_range": "11-20",
         "price": 11.99,
         "product_id": "508959",
+        "season": null,
         "tiers": 3,
         "title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
         "url": "https://www.dmsguild.com/product/508959/?affiliate_id=171040"
@@ -1518,11 +1541,13 @@
         "full_title": "CCC-AETHER-01-01 A Herdeira de Orcus, Verso I",
         "hours": "",
         "is_adventure": true,
-        "level_range": "1",
-        "product_id": 432577,
+        "level_range": "1-4",
+        "price": 1.0,
+        "product_id": "432577",
+        "season": null,
         "tiers": 1,
         "title": "CCC-AETHER-01-01 A Herdeira de Orcus, Verso I",
-        "url": "https://www.dmsguild.com/product/432577/CCCAETHER0101-A-Herdeira-de-Orcus-Verso-I?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/432577/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1554,7 +1579,7 @@
         "code": "CCC-AETHER-01-01",
         "date_created": "20181113",
         "full_title": "CCC-AETHER-01-01 The Heir of Orcus: Verse I",
-        "hours": "",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -1594,7 +1619,7 @@
         "code": "CCC-AETHER-01-02",
         "date_created": "20181113",
         "full_title": "CCC-AETHER-01-02 The Heir of Orcus: Verse II",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -2152,7 +2177,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 3.49,
         "product_id": "218099",
         "season": null,
         "tiers": 1,
@@ -2257,7 +2282,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 3.49,
         "product_id": "189088",
         "season": null,
         "tiers": 1,
@@ -2278,7 +2303,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 3.49,
         "product_id": "189089",
         "season": null,
         "tiers": 1,
@@ -2298,8 +2323,8 @@
         "full_title": "CCC-BMG-07 HULB 1-1 Hulburg Rebuilding",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "price": 4.99,
+        "level_range": "5-10",
+        "price": 3.49,
         "product_id": "189329",
         "season": null,
         "tiers": 2,
@@ -3138,8 +3163,9 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "price": 4.99,
         "product_id": "262080",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON1-1 Moonshae Treasure Hunt",
         "url": "https://www.dmsguild.com/product/262080/?affiliate_id=171040"
@@ -3156,11 +3182,12 @@
         "code": "CCC-BMG-MOON1-2",
         "date_created": "20221031",
         "full_title": "CCC-BMG-MOON1-2 Mind the Missive",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.99,
         "product_id": "415191",
+        "season": null,
         "tiers": 1,
         "title": "CCC-BMG-MOON1-2 Mind the Missive",
         "url": "https://www.dmsguild.com/product/415191/?affiliate_id=171040"
@@ -3177,11 +3204,12 @@
         "code": "CCC-BMG-MOON1-3",
         "date_created": "20221031",
         "full_title": "CCC-BMG-MOON1-3 Heritage vs Kinship",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.99,
         "product_id": "415197",
+        "season": null,
         "tiers": 1,
         "title": "CCC-BMG-MOON1-3 Heritage vs Kinship",
         "url": "https://www.dmsguild.com/product/415197/?affiliate_id=171040"
@@ -3198,11 +3226,12 @@
         "code": "CCC-BMG-MOON1-4",
         "date_created": "20221031",
         "full_title": "CCC-BMG-MOON1-4 The Bravest of West Breasal",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.99,
         "product_id": "415198",
+        "season": null,
         "tiers": 1,
         "title": "CCC-BMG-MOON1-4 The Bravest of West Breasal",
         "url": "https://www.dmsguild.com/product/415198/?affiliate_id=171040"
@@ -3219,11 +3248,12 @@
         "code": "CCC-BMG-MOON1-5",
         "date_created": "20221031",
         "full_title": "CCC-BMG-MOON1-5 The Wilderness Calls",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.99,
         "product_id": "415202",
+        "season": null,
         "tiers": 1,
         "title": "CCC-BMG-MOON1-5 The Wilderness Calls",
         "url": "https://www.dmsguild.com/product/415202/?affiliate_id=171040"
@@ -3304,11 +3334,12 @@
         "code": "CCC-BMG-MOON11-1",
         "date_created": "20210513",
         "full_title": "CCC-BMG-MOON11-1 A Darkened City",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "357635",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON11-1 A Darkened City",
         "url": "https://www.dmsguild.com/product/357635/?affiliate_id=171040"
@@ -3325,11 +3356,12 @@
         "code": "CCC-BMG-MOON11-2",
         "date_created": "20210513",
         "full_title": "CCC-BMG-MOON11-2 A Darkened Court",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "357636",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON11-2 A Darkened Court",
         "url": "https://www.dmsguild.com/product/357636/?affiliate_id=171040"
@@ -3347,11 +3379,12 @@
         "code": "CCC-BMG-MOON11-3",
         "date_created": "20210513",
         "full_title": "CCC-BMG-MOON11-3 A Darkened Heart",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "357637",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON11-3 A Darkened Heart",
         "url": "https://www.dmsguild.com/product/357637/?affiliate_id=171040"
@@ -3369,11 +3402,12 @@
         "code": "CCC-BMG-MOON12-1",
         "date_created": "20210520",
         "full_title": "CCC-BMG-MOON12-1 Nothing Is Sacred",
-        "hours": "",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "358288",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON12-1 Nothing Is Sacred",
         "url": "https://www.dmsguild.com/product/358288/?affiliate_id=171040"
@@ -3390,11 +3424,12 @@
         "code": "CCC-BMG-MOON12-2",
         "date_created": "20210520",
         "full_title": "CCC-BMG-MOON12-2 A Gift from the Queen",
-        "hours": "",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "358290",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON12-2 A Gift from the Queen",
         "url": "https://www.dmsguild.com/product/358290/?affiliate_id=171040"
@@ -3411,11 +3446,12 @@
         "code": "CCC-BMG-MOON12-3",
         "date_created": "20210520",
         "full_title": "CCC-BMG-MOON12-3 Tempest of Malice",
-        "hours": "",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "358291",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON12-3 Tempest of Malice",
         "url": "https://www.dmsguild.com/product/358291/?affiliate_id=171040"
@@ -3432,11 +3468,12 @@
         "code": "CCC-BMG-MOON13-1",
         "date_created": "20210819",
         "full_title": "CCC-BMG-MOON13-1 Lure of the Reefs",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "368068",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON13-1 Lure of the Reefs",
         "url": "https://www.dmsguild.com/product/368068/?affiliate_id=171040"
@@ -3452,11 +3489,12 @@
         "code": "CCC-BMG-MOON13-2",
         "date_created": "20210818",
         "full_title": "CCC-BMG-MOON13-2 Monsters of the Deep",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "368070",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON13-2 Monsters of the Deep",
         "url": "https://www.dmsguild.com/product/368070/?affiliate_id=171040"
@@ -3472,11 +3510,12 @@
         "code": "CCC-BMG-MOON13-3",
         "date_created": "20210818",
         "full_title": "CCC-BMG-MOON13-3 Wolves of the Sea",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": null,
         "product_id": "368071",
+        "season": null,
         "tiers": 3,
         "title": "CCC-BMG-MOON13-3 Wolves of the Sea",
         "url": "https://www.dmsguild.com/product/368071/?affiliate_id=171040"
@@ -3493,11 +3532,12 @@
         "code": "CCC-BMG-MOON14-1",
         "date_created": "20210903",
         "full_title": "CCC-BMG-MOON14-1 Hearts Amiss",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "369762",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON14-1 Hearts Amiss",
         "url": "https://www.dmsguild.com/product/369762/?affiliate_id=171040"
@@ -3514,11 +3554,12 @@
         "code": "CCC-BMG-MOON14-2",
         "date_created": "20210903",
         "full_title": "CCC-BMG-MOON14-2 The Lost Seasons",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "369765",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON14-2 The Lost Seasons",
         "url": "https://www.dmsguild.com/product/369765/?affiliate_id=171040"
@@ -3535,11 +3576,12 @@
         "code": "CCC-BMG-MOON14-3",
         "date_created": "20210903",
         "full_title": "CCC-BMG-MOON14-3 The Ghosts of Grief",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "369766",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON14-3 The Ghosts of Grief",
         "url": "https://www.dmsguild.com/product/369766/?affiliate_id=171040"
@@ -3678,11 +3720,12 @@
         "code": "CCC-BMG-MOON17-1",
         "date_created": "20220601",
         "full_title": "CCC-BMG-MOON17-1 Sailors on the Sea of Shadow",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "398582",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON17-1 Sailors on the Sea of Shadow",
         "url": "https://www.dmsguild.com/product/398582/?affiliate_id=171040"
@@ -3699,11 +3742,12 @@
         "code": "CCC-BMG-MOON17-2",
         "date_created": "20220601",
         "full_title": "CCC-BMG-MOON17-2 Shed Light, Shed Blood",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "398587",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON17-2 Shed Light, Shed Blood",
         "url": "https://www.dmsguild.com/product/398587/?affiliate_id=171040"
@@ -3720,11 +3764,12 @@
         "code": "CCC-BMG-MOON17-3",
         "date_created": "20220601",
         "full_title": "CCC-BMG-MOON17-3 Hope Amidst the Ashes",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": null,
         "product_id": "398588",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON17-3 Hope Amidst the Ashes",
         "url": "https://www.dmsguild.com/product/398588/?affiliate_id=171040"
@@ -4138,11 +4183,12 @@
         "code": "CCC-BMG-MOON6-1",
         "date_created": "20200504",
         "full_title": "CCC-BMG-MOON6-1 A Reopened Eye",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 4.99,
         "product_id": "312454",
+        "season": null,
         "tiers": 2,
         "title": "CCC-BMG-MOON6-1 A Reopened Eye",
         "url": "https://www.dmsguild.com/product/312454/?affiliate_id=171040"
@@ -11761,7 +11807,7 @@
         "code": "CCC-UCON02-01",
         "date_created": "20201228",
         "full_title": "CCC-UCON02-01 The Goat Mayor",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
@@ -11920,13 +11966,15 @@
         "code": "CCC-VOTE-01-01",
         "date_created": "20200508",
         "full_title": "CCC-VOTE-01-01 A Small Trifle",
-        "hours": "",
+        "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-VOTE-01-01-A-Small-Trifle",
+        "price": 6.99,
+        "product_id": "312580",
+        "season": null,
         "tiers": 2,
         "title": "CCC-VOTE-01-01 A Small Trifle",
-        "url": "https://www.dmsguild.com/product/312580/CCCVOTE0101-A-Small-Trifle?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/312580/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -16037,6 +16085,27 @@
         "url": "https://www.dmsguild.com/product/326052/Dino-World&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Ron Angelo Gatinga"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-DIVA",
+        "date_created": "20250815",
+        "full_title": "Divaine and the Dandelions: One Night Only! (FR-DC-DIVA)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "533456",
+        "season": null,
+        "tiers": 3,
+        "title": "Divaine and the Dandelions One Night Only!",
+        "url": "https://www.dmsguild.com/product/533456/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Marcello De Velazquez",
@@ -16158,6 +16227,27 @@
         "tiers": 3,
         "title": "Wulfgar's Champion",
         "url": "https://www.dmsguild.com/product/522732/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Brendon Watson"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-DWR-00",
+        "date_created": "20250916",
+        "full_title": "Dohwar Delves (SJ-DC-DWR-00)",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 3.99,
+        "product_id": "537358",
+        "season": "Spelljammer",
+        "tiers": 1,
+        "title": "Dohwar Delves",
+        "url": "https://www.dmsguild.com/product/537358/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16667,6 +16757,28 @@
         "url": "https://www.dmsguild.com/product/418804/Forlorn-but-not-Forgotten-SJDCPHPFLN0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-THAY-05",
+        "date_created": "20250629",
+        "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": false,
+        "price": 4.99,
+        "product_id": "528046",
+        "season": null,
+        "tiers": 2,
+        "title": "Four Assassinations & a Funeral",
+        "url": "https://www.dmsguild.com/product/528046/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Joseph George"
@@ -16870,12 +16982,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.99,
         "product_id": "527701",
         "season": null,
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -17106,6 +17219,27 @@
         "tiers": 2,
         "title": "Fathers Decision",
         "url": "https://www.dmsguild.com/product/512504/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Christopher B. Bertucio"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CBB25-02",
+        "date_created": "20250906",
+        "full_title": "FR-DC-CBB25-02 Monsters of Mirador Island",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "536131",
+        "season": null,
+        "tiers": 2,
+        "title": "Monsters of Mirador Island",
+        "url": "https://www.dmsguild.com/product/536131/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -17378,12 +17512,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.99,
         "product_id": "528753",
         "season": null,
         "tiers": 2,
         "title": "Abyss",
-        "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 3,
@@ -17439,6 +17574,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "needs_review": false,
         "price": 1.0,
         "product_id": "527132",
         "season": null,
@@ -17817,12 +17953,76 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 2.5,
         "product_id": "527653",
         "season": null,
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Casey McGirt"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-MCG-CH2",
+        "date_created": "20250730",
+        "full_title": "FR-DC-MCG-CH2 The Clenched Fist",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.5,
+        "product_id": "531330",
+        "season": null,
+        "tiers": 2,
+        "title": "The Clenched Fist",
+        "url": "https://www.dmsguild.com/product/531330/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bernard Velasco"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-NEW-TIER1-1",
+        "date_created": "20250711",
+        "full_title": "FR-DC-NEW-TIER1-1",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.0,
+        "product_id": "529395",
+        "season": null,
+        "tiers": 1,
+        "title": "",
+        "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Bernard Velasco"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-NEW-TIER2-1",
+        "date_created": "20250803",
+        "full_title": "FR-DC-NEW-TIER2-1 The Bluebloods",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 0.99,
+        "product_id": "531764",
+        "season": null,
+        "tiers": 2,
+        "title": "The Bluebloods",
+        "url": "https://www.dmsguild.com/product/531764/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -18225,6 +18425,27 @@
         "tiers": 2,
         "title": "Pest Infestation",
         "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Duncan Gan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-PNKE-01",
+        "date_created": "20250801",
+        "full_title": "FR-DC-PNKE-01 Vie for the Eye",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "531524",
+        "season": null,
+        "tiers": 3,
+        "title": "Vie for the Eye",
+        "url": "https://www.dmsguild.com/product/531524/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -18806,12 +19027,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526743",
         "season": null,
         "tiers": 2,
         "title": "What Big Teeth",
-        "url": "https://www.dmsguild.com/product/526743/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526743/FRDCSTRATTALES01-What-Big-Teeth?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -18828,12 +19050,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526741",
         "season": null,
         "tiers": 2,
         "title": "On Fey Tides",
-        "url": "https://www.dmsguild.com/product/526741/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526741/FRDCSTRATTALES02-On-Fey-Tides?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -18850,12 +19073,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526746",
         "season": null,
         "tiers": 3,
         "title": "The Beast Within",
-        "url": "https://www.dmsguild.com/product/526746/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526746/FRDCSTRATTALES03-The-Beast-Within?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -18872,12 +19096,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526748",
         "season": null,
         "tiers": 3,
         "title": "The Baroness and the Hag",
-        "url": "https://www.dmsguild.com/product/526748/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526748/FRDCSTRATTALES04-The-Baroness-and-the-Hag?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
@@ -19349,6 +19574,48 @@
         "url": "https://www.dmsguild.com/product/530582/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-04",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-04 Tempest and Tectonics",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "530589",
+        "season": null,
+        "tiers": 3,
+        "title": "Tempest and Tectonics",
+        "url": "https://www.dmsguild.com/product/530589/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-05",
+        "date_created": "20250725",
+        "full_title": "FR-DC-WE-05 The Bonebind Curse",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 4.95,
+        "product_id": "530595",
+        "season": null,
+        "tiers": 4,
+        "title": "The Bonebind Curse",
+        "url": "https://www.dmsguild.com/product/530595/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "T.I. Garrison"
@@ -19404,8 +19671,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.95,
         "product_id": "526539",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
         "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
@@ -20767,11 +21036,13 @@
         "full_title": "NEVERDEATH NIGHTS (FR-DC-VECNA-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "NEVERDEATH-NIGHTS-FR-DC-VECNA-03",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 9.99,
+        "product_id": "501014",
+        "season": null,
+        "tiers": 2,
         "title": "NEVERDEATH NIGHTS",
-        "url": "https://www.dmsguild.com/product/501014/NEVERDEATH-NIGHTS-FRDCVECNA03?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/501014/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21026,6 +21297,27 @@
         "tiers": 2,
         "title": "Play the Game",
         "url": "https://www.dmsguild.com/product/382484/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Angelo Bongais"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-AMO-KURI-01",
+        "date_created": "20230805",
+        "full_title": "Plunge in K's Dungeon (SJ-DC-AMO-KURI-01)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "448365",
+        "season": "Spelljammer",
+        "tiers": 1,
+        "title": "Plunge in K's Dungeon",
+        "url": "https://www.dmsguild.com/product/448365/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -22621,12 +22913,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526751",
         "season": "Planescape",
         "tiers": 4,
         "title": "War of the Roses",
-        "url": "https://www.dmsguild.com/product/526751/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526751/PSDCSTRATTALES05-War-of-the-Roses?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 18,
@@ -22643,12 +22936,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
+        "needs_review": false,
         "price": 5.99,
         "product_id": "526753",
         "season": "Planescape",
         "tiers": 4,
         "title": "Dungeon & A Dragon",
-        "url": "https://www.dmsguild.com/product/526753/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -22922,11 +23216,13 @@
         "full_title": "Rumble in The Jungle (SJ-DC-AMO-KURI-00)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Rumble-in-The-Jungle-SJ-DC-AMO-KURI-00",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "444946",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Rumble in The Jungle",
-        "url": "https://www.dmsguild.com/product/444946/Rumble-in-The-Jungle-SJDCAMOKURI00?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/444946/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -23291,7 +23587,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0,
+        "price": 0.0,
         "product_id": "533613",
         "season": null,
         "tiers": 1,
@@ -23349,11 +23645,13 @@
         "full_title": "Sisterhood of the Blade (CCC-UNITE-AN-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "Sisterhood-of-the-Blade-CCC-UNITE-AN-04",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "295614",
+        "season": null,
+        "tiers": 1,
         "title": "Sisterhood of the Blade CCC-UNITE-AN-04",
-        "url": "https://www.dmsguild.com/product/295614/Sisterhood-of-the-Blade-CCCUNITEAN04?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/295614/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -23534,10 +23832,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-ASI-01-Secrets-of-Old",
+        "price": 4.99,
+        "product_id": "459533",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Secrets of Old",
-        "url": "https://www.dmsguild.com/product/459533/SJDCASI01-Secrets-of-Old?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/459533/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -23845,11 +24145,13 @@
         "full_title": "SJ-DC-CBB-05 The Draconic Core",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CBB-05-The-Draconic-Core",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "450030",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "The Draconic Core",
-        "url": "https://www.dmsguild.com/product/450030/SJDCCBB05-The-Draconic-Core?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -24020,11 +24322,13 @@
         "full_title": "SJ-DC-DAP Voyage to Goldfish Island",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DAP-Voyage-to-Goldfish-Island",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.0,
+        "product_id": "451371",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Voyage to Goldfish Island",
-        "url": "https://www.dmsguild.com/product/451371/SJDCDAP-Voyage-to-Goldfish-Island?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451371/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -25264,7 +25568,7 @@
         "url": "https://www.dmsguild.com/product/430751/SJDCHORNET01-The-Ghost-Ships-Sting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -25274,16 +25578,18 @@
         "code": "SJ-DC-IGC-ECP-01",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-01 Stoneheart",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-01-Stoneheart",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465716",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Stoneheart",
-        "url": "https://www.dmsguild.com/product/465716/SJDCIGCECP01-Stoneheart?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465716/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -25293,16 +25599,18 @@
         "code": "SJ-DC-IGC-ECP-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-02 Coldsnap",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-02-Coldsnap",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465722",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Coldsnap",
-        "url": "https://www.dmsguild.com/product/465722/SJDCIGCECP02-Coldsnap?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465722/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -25312,16 +25620,18 @@
         "code": "SJ-DC-IGC-ECP-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-03 Conflagration",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-03-Conflagration",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465724",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Conflagration",
-        "url": "https://www.dmsguild.com/product/465724/SJDCIGCECP03-Conflagration?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465724/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -25331,16 +25641,18 @@
         "code": "SJ-DC-IGC-ECP-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-04 Cyclone",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-04-Cyclone",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465726",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Cyclone",
-        "url": "https://www.dmsguild.com/product/465726/SJDCIGCECP04-Cyclone?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465726/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Rob Froberg"
         ],
@@ -25350,13 +25662,15 @@
         "code": "SJ-DC-IGC-ECP-05",
         "date_created": "20231231",
         "full_title": "SJ-DC-IGC-ECP-05 Behold, Tiamatron",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-IGC-ECP-05-Behold-Tiamatron",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "465727",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Behold, Tiamatron",
-        "url": "https://www.dmsguild.com/product/465727/SJDCIGCECP05-Behold-Tiamatron?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465727/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -27563,6 +27877,27 @@
         "url": "https://www.dmsguild.com/product/465466/SJDCLP01-Lost-in-Paradise?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CLASSIC-02",
+        "date_created": "20250831",
+        "full_title": "Skeleton Crew (FR-DC-CLASSIC-02)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "535222",
+        "season": null,
+        "tiers": 1,
+        "title": "Skeleton Crew",
+        "url": "https://www.dmsguild.com/product/535222/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Bryan Mets"
@@ -27834,6 +28169,27 @@
         "url": "https://www.dmsguild.com/product/513314/Stolen-Hours-PSDCHRS00?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Mike Arrow"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-MELB-02-05",
+        "date_created": "20250624",
+        "full_title": "Stormbound (FR-DC-MELB-02-05)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "527475",
+        "season": null,
+        "tiers": 3,
+        "title": "Stormbound",
+        "url": "https://www.dmsguild.com/product/527475/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Jonathan Self"
@@ -27969,6 +28325,27 @@
         "tiers": 1,
         "title": "Sweet Dreams are Made of Cheese",
         "url": "https://www.dmsguild.com/product/474519/Sweet-Dreams-are-Made-of-Cheese-FRDCWATERDEEPCHZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WATERDEEP-GSZ+",
+        "date_created": "20250928",
+        "full_title": "FR-DC-WATERDEEP-GSZ+ Sweet Dreams are Made of Geese Again",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.5,
+        "product_id": "538569",
+        "season": null,
+        "tiers": 1,
+        "title": "Sweet Dreams are Made of Geese Again",
+        "url": "https://www.dmsguild.com/product/538569/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -29013,7 +29390,7 @@
         "date_created": "20250823",
         "description_html": "<b>Publisher</b>: Dungeon Masters Guild<br /><p style=\"text-align:center;\"><img src=\"https://tools.dmsguild.com/images/8957/_product_images/534423/TKM-WGS_The_Light_and_the_Lost.png\" alt=\"TKM-WGS_The_Light_and_the_Lost.png\" /></p>\n<p style=\"text-align:center;\">A <strong>Four-Hour</strong> Spelljammer Dungeoncraft Adventure for\u00a0<strong>Level 5-10 Characters</strong>. Optimized for\u00a0<strong>Average Party Level\u00a0(APL) 8</strong>.</p>\n<p align=\"center\"><strong>In the swampy planet of Lepo Gors, a pair of brothers has disappeared into the mysterious forest outside the settlement of Tarasa, and everyone sent to find them has not returned. Will you be able to find them or will you be spirited away as well?</strong></p>\n<div>\n<p><strong>CONTENT WARNINGS:</strong>\u00a0Animal and Child Endangerment, Body Horror, Death, Dismemberment, Excrement, Kidnapping, Rocks, Slight Gore, Torture</p>\n<p>Several elements of this adventure, primarily the creatures featured, are inspired by Philippine mythological creatures. \u00a0</p>\n</div>\n<h2>WHAT'S INSIDE:</h2>\n<ul><li>A 32-page easy to read PDF that includes:\n<ul><li>9 pages of the core adventure</li>\n<li>11 pieces of artwork to bring the adventure to life</li>\n<li>Stat blocks for NPCs and Monsters</li>\n<li>Guidance to adjust encounter difficulty</li>\n</ul></li>\n<li>A downloadable zip of High Quality maps for easy printing and virtual tabletop use</li>\n<li>A downloadable zip file of the artwork and handouts</li>\n</ul><h3>Pillars of Play Composition:</h3>\n<p>Social - 30%</p>\n<p>Exploration - 20%\u00a0</p>\n<p>Combat - 50%</p><img class=\"onestart\" src=\"https://d1vzi28wh99zvq.cloudfront.net/images/8957/534423-thumb140.png\" border=\"0\" alt=\"The Light and the Lost (SJ-DC-TKM-WGS)\" style=\"padding-right:5px; padding-bottom:5px;float:left\"><b>Price</b>: $4.99",
         "full_title": "The Light and the Lost (SJ-DC-TKM-WGS)",
-        "hours": "",
+        "hours": "4",
         "id": "534423",
         "is_adventure": true,
         "level_range": "5-10",
@@ -29162,6 +29539,27 @@
         "url": "https://www.dmsguild.com/product/419164/The-Moonshot-SJDCPAT00&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Forever&ADayDM"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-F&ADDM-NDF1",
+        "date_created": "20250918",
+        "full_title": "The New Dawn's Fire (FR-DC-F&ADDM-NDF1)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.49,
+        "product_id": "537588",
+        "season": null,
+        "tiers": 1,
+        "title": "The New Dawn's Fire FR-DC-F&ADDM-NDF1",
+        "url": "https://www.dmsguild.com/product/537588/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Christopher Moreman"
@@ -29292,12 +29690,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "needs_review": false,
         "price": 4.99,
         "product_id": "526528",
         "season": null,
         "tiers": 2,
         "title": "The Turning Tide",
-        "url": "https://www.dmsguild.com/product/526528/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/526528/The-Turning-Tide-FRDCMELB0203?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": null,
@@ -29329,11 +29728,12 @@
         "code": "SJ-DC-PND-2",
         "date_created": "20231231",
         "full_title": "The Very Hungry Monster (SJ-DC-PND-2)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 2.99,
         "product_id": "465703",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "The Very Hungry Monster",
         "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
@@ -29368,11 +29768,12 @@
         "code": "DC-POA-PND-3",
         "date_created": "20210830",
         "full_title": "The Watcher in the Attic (DC-POA-PND-3)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 2.99,
         "product_id": "369336",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "The Watcher in the Attic DC-POA-PND-3",
         "url": "https://www.dmsguild.com/product/369336/?affiliate_id=171040"
