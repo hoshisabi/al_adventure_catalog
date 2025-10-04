@@ -21240,25 +21240,6 @@
         "url": "https://www.dmsguild.com/product/523232/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Richard Gejji"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PS-DC-GMM-02",
-        "date_created": "20250521",
-        "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5",
-        "product_id": "Pazuzus-Askew-Kazoo-PS-DC-GMM-02",
-        "tiers": 0,
-        "title": "Pazuzu's Askew Kazoo",
-        "url": "https://www.dmsguild.com/product/523232/Pazuzus-Askew-Kazoo-PSDCGMM02?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 8,
         "authors": [
             "Matt Brown"
@@ -21318,25 +21299,6 @@
         "tiers": 1,
         "title": "Plunge in K's Dungeon",
         "url": "https://www.dmsguild.com/product/448365/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Angelo Bongais"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-AMO-KURI-01",
-        "date_created": "20230805",
-        "full_title": "Plunge in K's Dungeon (SJ-DC-AMO-KURI-01)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Plunge-in-Ks-Dungeon-SJ-DC-AMO-KURI-01",
-        "tiers": 0,
-        "title": "Plunge in K's Dungeon",
-        "url": "https://www.dmsguild.com/product/448365/Plunge-in-Ks-Dungeon-SJDCAMOKURI01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -25961,7 +25923,7 @@
         "url": "https://www.dmsguild.com/product/414388/SJDCLNS01-Spelljammer-of-the-Damned?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Rick Way"
         ],
@@ -25973,9 +25935,9 @@
         "full_title": "SJ-DC-LP-01 Litter Patrol",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-LP-01-Litter-Patrol",
-        "tiers": 0,
+        "tiers": "2",
         "title": "Litter Patrol",
         "url": "https://www.dmsguild.com/product/417717/SJDCLP01-Litter-Patrol?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
