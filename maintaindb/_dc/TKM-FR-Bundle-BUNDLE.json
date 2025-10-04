@@ -1,17 +1,19 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 3,
+    "authors": [
+        "Dungeon Masters Guild"
+    ],
     "campaigns": [],
     "code": null,
     "date_created": "20250728",
     "full_title": "TKM FR Bundle [BUNDLE]",
-    "hours": null,
+    "hours": "2",
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "price": 13.46,
     "product_id": "531102",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "TKM FR Bundle [BUNDLE]",
-    "url": "https://www.dmsguild.com/product/531102/TKM-FR-Bundle-BUNDLE?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/531102/?affiliate_id=171040"
 }

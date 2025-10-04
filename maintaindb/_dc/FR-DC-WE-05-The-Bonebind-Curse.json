@@ -1,6 +1,8 @@
 {
     "apl": 18,
-    "authors": [],
+    "authors": [
+        "Richard Bellotti"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -8,12 +10,12 @@
     "date_created": "20250725",
     "full_title": "FR-DC-WE-05 The Bonebind Curse",
     "hours": "4",
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": "17-20",
     "price": 4.95,
     "product_id": "530595",
     "season": null,
     "tiers": 4,
     "title": "The Bonebind Curse",
-    "url": "https://www.dmsguild.com/product/530595/FRDCWE05-The-Bonebind-Curse?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/530595/?affiliate_id=171040"
 }
