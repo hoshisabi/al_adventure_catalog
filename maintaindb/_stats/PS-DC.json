@@ -1349,6 +1349,66 @@
     },
     {
         "apl": 18,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-STRAT-WYRM-08",
+        "date_created": "20251006",
+        "full_title": "PS-DC-STRAT-WYRM-08 If You Can't Take The Heat...",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539640",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "If You Can't Take The Heat...",
+        "url": "https://www.dmsguild.com/product/539640/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-STRAT-WYRM-09",
+        "date_created": "20251006",
+        "full_title": "PS-DC-STRAT-WYRM-09 Waking in a Cold Sweat",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539642",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "Waking in a Cold Sweat",
+        "url": "https://www.dmsguild.com/product/539642/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-STRAT-WYRM-10",
+        "date_created": "20251006",
+        "full_title": "PS-DC-STRAT-WYRM-10 There's Something in the Water",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539644",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "There's Something in the Water",
+        "url": "https://www.dmsguild.com/product/539644/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
         "authors": [
             "Aileen Adriane Cerrudo"
         ],
