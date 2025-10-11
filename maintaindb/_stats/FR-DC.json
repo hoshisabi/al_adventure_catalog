@@ -1952,6 +1952,26 @@
         "url": "https://www.dmsguild.com/product/531524/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-RDP-01",
+        "date_created": "20251007",
+        "full_title": "FR-DC-RDP-01 Vault of the Drow Risen & FR-DC-RDP-02 The Great Fane of Lolth",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 4.95,
+        "product_id": "539689",
+        "season": null,
+        "tiers": 0,
+        "title": "Vault of the Drow Risen &  The Great Fane of Lolth",
+        "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Rebecca Farrar",
@@ -2629,6 +2649,146 @@
         "tiers": 2,
         "title": "Undead Like Me",
         "url": "https://www.dmsguild.com/product/486042/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-01",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-01 Day of the Dragon",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539629",
+        "season": null,
+        "tiers": 1,
+        "title": "Day of the Dragon",
+        "url": "https://www.dmsguild.com/product/539629/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-02",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-02 A Golden Start",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539631",
+        "season": null,
+        "tiers": 1,
+        "title": "A Golden Start",
+        "url": "https://www.dmsguild.com/product/539631/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-03",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-03 The Wayward Wyrmling",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539632",
+        "season": null,
+        "tiers": 2,
+        "title": "The Wayward Wyrmling",
+        "url": "https://www.dmsguild.com/product/539632/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-04",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-04 Stacked Stones & Broken Bones",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539633",
+        "season": null,
+        "tiers": 2,
+        "title": "Stacked Stones & Broken Bones",
+        "url": "https://www.dmsguild.com/product/539633/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-05",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-05 Wrong Wyrm, Right Time",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539635",
+        "season": null,
+        "tiers": 3,
+        "title": "Wrong Wyrm, Right Time",
+        "url": "https://www.dmsguild.com/product/539635/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-06",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-06 The Ashen Pact",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539637",
+        "season": null,
+        "tiers": 3,
+        "title": "The Ashen Pact",
+        "url": "https://www.dmsguild.com/product/539637/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-STRAT-WYRM-07",
+        "date_created": "20251006",
+        "full_title": "FR-DC-STRAT-WYRM-07 Save My Dragon Love",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "539638",
+        "season": null,
+        "tiers": 3,
+        "title": "Save My Dragon Love",
+        "url": "https://www.dmsguild.com/product/539638/?affiliate_id=171040"
     },
     {
         "apl": null,
