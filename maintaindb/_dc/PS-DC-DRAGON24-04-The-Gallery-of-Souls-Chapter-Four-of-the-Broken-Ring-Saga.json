@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Denise \u201cCelticdenefew\u201d Atwood",
         "David Sklenicka",
@@ -11,11 +11,13 @@
     "code": "PS-DC-DRAGON24-04",
     "date_created": "20240827",
     "full_title": "PS-DC-DRAGON24-04 The Gallery of Souls, Chapter Four of the Broken Ring Saga",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "PS-DC-DRAGON24-04-The-Gallery-of-Souls-Chapter-Four-of-the-Broken-Ring-Saga",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 4.99,
+    "product_id": "493002",
+    "season": "Planescape",
+    "tiers": 2,
     "title": "The Gallery of Souls, Chapter Four of the Broken Ring Saga",
-    "url": "https://www.dmsguild.com/product/493002/PSDCDRAGON2404-The-Gallery-of-Souls-Chapter-Four-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/493002/?affiliate_id=171040"
 }

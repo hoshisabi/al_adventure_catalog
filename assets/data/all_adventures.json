@@ -42,6 +42,25 @@
         "url": "https://www.dmsguild.com/product/407458/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-DDD",
+        "date_created": null,
+        "full_title": "A Devious Deva's Deduction (PS-DC-DDD)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "485383",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "A Devious Deva's Deduction",
+        "url": "https://www.dmsguild.com/product/485383/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Franz Bedonia"
@@ -75,7 +94,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 75.28,
+        "price": 3.99,
         "product_id": "461922",
         "season": "Spelljammer",
         "tiers": 1,
@@ -159,7 +178,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 3.99,
         "product_id": "498757",
         "season": null,
         "tiers": 2,
@@ -177,10 +196,10 @@
         "code": "SJ-DC-TKM-CH01",
         "date_created": "20230627",
         "full_title": "A Proper Farewell (SJ-DC-TKM-CH01)",
-        "hours": "2,2",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 75.28,
+        "price": 3.99,
         "product_id": "443050",
         "season": "Spelljammer",
         "tiers": 1,
@@ -20315,7 +20334,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "2",
-        "price": 4.99,
+        "price": 3.99,
         "product_id": "300573",
         "season": null,
         "tiers": 0,
@@ -21587,7 +21606,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
-        "price": null,
+        "price": 4.99,
         "product_id": "433916",
         "season": null,
         "tiers": 0,
@@ -21609,7 +21628,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1",
-        "price": null,
+        "price": 4.99,
         "product_id": "433917",
         "season": null,
         "tiers": 0,
@@ -21653,7 +21672,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
-        "price": null,
+        "price": 4.99,
         "product_id": "392801",
         "season": null,
         "tiers": 0,
@@ -22292,11 +22311,13 @@
         "full_title": "PS-DC-DRAGON24-01 At the Edge of No Tomorrows, Chapter One of the Broken Ring Saga",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-DRAGON24-01-At-the-Edge-of-No-Tomorrows-Chapter-One-of-the-Broken-Ring-Saga",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "492995",
+        "season": "Planescape",
+        "tiers": 2,
         "title": "At the Edge of No Tomorrows, Chapter One of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/492995/PSDCDRAGON2401-At-the-Edge-of-No-Tomorrows-Chapter-One-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492995/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -22312,11 +22333,13 @@
         "full_title": "PS-DC-DRAGON24-02 The Merchant of Ruin, Chapter Two of the Broken Ring Saga",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-DRAGON24-02-The-Merchant-of-Ruin-Chapter-Two-of-the-Broken-Ring-Saga",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "492997",
+        "season": "Planescape",
+        "tiers": 2,
         "title": "The Merchant of Ruin, Chapter Two of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/492997/PSDCDRAGON2402-The-Merchant-of-Ruin-Chapter-Two-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492997/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -22332,11 +22355,13 @@
         "full_title": "PS-DC-DRAGON24-03 The Birdcage, Chapter Three of the Broken Ring Saga",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-DRAGON24-03-The-Birdcage-Chapter-Three-of-the-Broken-Ring-Saga",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "493000",
+        "season": "Planescape",
+        "tiers": 2,
         "title": "The Birdcage, Chapter Three of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/493000/PSDCDRAGON2403-The-Birdcage-Chapter-Three-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493000/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -22353,11 +22378,32 @@
         "full_title": "PS-DC-DRAGON24-04 The Gallery of Souls, Chapter Four of the Broken Ring Saga",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-DRAGON24-04-The-Gallery-of-Souls-Chapter-Four-of-the-Broken-Ring-Saga",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "493002",
+        "season": "Planescape",
+        "tiers": 2,
         "title": "The Gallery of Souls, Chapter Four of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/493002/PSDCDRAGON2404-The-Gallery-of-Souls-Chapter-Four-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493002/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-DRAGON24-05",
+        "date_created": null,
+        "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "493008",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Echoes of Future's End, Chapter Five of the Broken Ring Saga",
+        "url": "https://www.dmsguild.com/product/493008/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -23305,11 +23351,13 @@
         "full_title": "Punishment for Pride (DC-POA-CG-1-1)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Punishment-for-Pride-DC-POA-CG-1-1",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "341177",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "Punishment for Pride DC-POA-CG-1-1",
-        "url": "https://www.dmsguild.com/product/341177/Punishment-for-Pride-DCPOACG11?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/341177/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -23567,6 +23615,25 @@
         "url": "https://www.dmsguild.com/product/499970/RVDCLAGIM02-The-Horrors-of-Uninhabited-Places?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-LAGIM-02-",
+        "date_created": null,
+        "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "499970",
+        "season": null,
+        "tiers": 1,
+        "title": "The Horrors of Uninhabited Places",
+        "url": "https://www.dmsguild.com/product/499970/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Nicholas Reed"
@@ -23599,10 +23666,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "RV-DC-PHP-1313-01-On-That-Fateful-Day",
+        "price": 3.99,
+        "product_id": "434117",
+        "season": null,
         "tiers": 0,
         "title": "On That Fateful Day",
-        "url": "https://www.dmsguild.com/product/434117/RVDCPHP131301-On-That-Fateful-Day?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -23978,11 +24047,13 @@
         "full_title": "SJ-DC-ARQ-02 Falrenn Mayhem",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-ARQ-02-Falrenn-Mayhem",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 0.0,
+        "product_id": "465443",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Falrenn Mayhem",
-        "url": "https://www.dmsguild.com/product/465443/SJDCARQ02-Falrenn-Mayhem?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465443/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24038,10 +24109,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-ASI-02-Through-the-Looking-Glass",
+        "price": 4.99,
+        "product_id": "462390",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Through the Looking Glass",
-        "url": "https://www.dmsguild.com/product/462390/SJDCASI02-Through-the-Looking-Glass?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/462390/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -24057,10 +24130,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-ASI-03-Elemental-Brainstorm",
+        "price": 4.99,
+        "product_id": "465438",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Elemental Brainstorm",
-        "url": "https://www.dmsguild.com/product/465438/SJDCASI03-Elemental-Brainstorm?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465438/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24255,10 +24330,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "SJ-DC-BLU-The-Blue-Sun-Facility",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "418063",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "The Blue Sun Facility",
-        "url": "https://www.dmsguild.com/product/418063/SJDCBLU-The-Blue-Sun-Facility?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418063/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24274,10 +24351,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-CBB-01-Last-Stand-of-The-Void",
+        "price": 2.99,
+        "product_id": "435250",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Last Stand of The Void",
-        "url": "https://www.dmsguild.com/product/435250/SJDCCBB01-Last-Stand-of-The-Void?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/435250/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24299,6 +24378,25 @@
         "url": "https://www.dmsguild.com/product/439415/SJDCCBB02--In-Cyzors-Grasp?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-CBB-02",
+        "date_created": null,
+        "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 3.99,
+        "product_id": "439415",
+        "season": "Spelljammer",
+        "tiers": 0,
+        "title": "In Cyzor's Grasp",
+        "url": "https://www.dmsguild.com/product/439415/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Christopher B. Bertucio"
@@ -24312,10 +24410,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-CBB-04-Horizon-of-Oblivion",
+        "price": 3.99,
+        "product_id": "449933",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Horizon of Oblivion",
-        "url": "https://www.dmsguild.com/product/449933/SJDCCBB04-Horizon-of-Oblivion?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/449933/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -24337,6 +24437,25 @@
         "tiers": 3,
         "title": "The Draconic Core",
         "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-CBB-06",
+        "date_created": null,
+        "full_title": "SJ-DC-CBB-06 Horror From The Planet's Core",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "450816",
+        "season": "Spelljammer",
+        "tiers": 3,
+        "title": "Horror From The Planet's Core",
+        "url": "https://www.dmsguild.com/product/450816/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -25445,10 +25564,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-EPOCH-01-Chasing-the-Morning-Light",
+        "price": 1.0,
+        "product_id": "465725",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Chasing the Morning Light",
-        "url": "https://www.dmsguild.com/product/465725/SJDCEPOCH01-Chasing-the-Morning-Light?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465725/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -25464,10 +25585,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-EPOCH-02-Darkening-Skies",
+        "price": 1.0,
+        "product_id": "465728",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Darkening Skies",
-        "url": "https://www.dmsguild.com/product/465728/SJDCEPOCH02-Darkening-Skies?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465728/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -25609,15 +25732,17 @@
             "Forgotten Realms"
         ],
         "code": "SJ-DC-FTC-02",
-        "date_created": "20240103",
+        "date_created": null,
         "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
         "hours": "",
         "is_adventure": true,
         "level_range": null,
+        "price": 1.99,
         "product_id": "465701",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "A Ship Adrift v0.9",
-        "url": "https://www.dmsguild.com/product/465701/SJDCFTC02-A-Ship-Adrift-v09?affiliate_id=171040&filters=1000042_0_100057_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -25727,11 +25852,13 @@
         "full_title": "SJ-DC-HERO-02 The Fortress of the Barracuda",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-HERO-02-The-Fortress-of-the-Barracuda",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "440818",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "The Fortress of the Barracuda",
-        "url": "https://www.dmsguild.com/product/440818/SJDCHERO02-The-Fortress-of-the-Barracuda?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/440818/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -27308,10 +27435,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-01-Strange-Light-in-the-Darkness",
+        "price": 3.99,
+        "product_id": "464909",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Strange Light in the Darkness",
-        "url": "https://www.dmsguild.com/product/464909/SJDCTEL01-Strange-Light-in-the-Darkness?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464909/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27327,10 +27456,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-02-Lure-of-the-Transient",
+        "price": 3.99,
+        "product_id": "465458",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Lure of the Transient",
-        "url": "https://www.dmsguild.com/product/465458/SJDCTEL02-Lure-of-the-Transient?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465458/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27346,10 +27477,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-03-Pieces-of-Pain",
+        "price": 3.99,
+        "product_id": "465643",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Pieces of Pain",
-        "url": "https://www.dmsguild.com/product/465643/SJDCTEL03-Pieces-of-Pain?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465643/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27365,10 +27498,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-04-Turn-of-the-Tide",
+        "price": 3.99,
+        "product_id": "465462",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Turn of the Tide",
-        "url": "https://www.dmsguild.com/product/465462/SJDCTEL04-Turn-of-the-Tide?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465462/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -27403,10 +27538,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-06-Misery-Loves-Company",
+        "price": 3.99,
+        "product_id": "465464",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Misery Loves Company",
-        "url": "https://www.dmsguild.com/product/465464/SJDCTEL06-Misery-Loves-Company?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465464/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27422,10 +27559,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-07-At-the-Mouth-of-Decidua",
+        "price": 3.99,
+        "product_id": "465465",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "At the Mouth of Decidua",
-        "url": "https://www.dmsguild.com/product/465465/SJDCTEL07-At-the-Mouth-of-Decidua?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465465/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27441,10 +27580,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-08-Seclusion-of-the-Snakelords",
+        "price": 3.99,
+        "product_id": "465563",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Seclusion of the Snakelords",
-        "url": "https://www.dmsguild.com/product/465563/SJDCTEL08-Seclusion-of-the-Snakelords?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465563/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27460,10 +27601,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-09-The-Noble-Struggle",
+        "price": 3.99,
+        "product_id": "465564",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "The Noble Struggle",
-        "url": "https://www.dmsguild.com/product/465564/SJDCTEL09-The-Noble-Struggle?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465564/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27479,10 +27622,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-10-Chamber-of-Strife",
+        "price": 3.99,
+        "product_id": "465719",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Chamber of Strife",
-        "url": "https://www.dmsguild.com/product/465719/SJDCTEL10-Chamber-of-Strife?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465719/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -27498,10 +27643,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "SJ-DC-TEL-11-Temptation-for-Tiamat",
+        "price": 3.99,
+        "product_id": "465570",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Temptation for Tiamat",
-        "url": "https://www.dmsguild.com/product/465570/SJDCTEL11-Temptation-for-Tiamat?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465570/?affiliate_id=171040"
     },
     {
         "apl": null,

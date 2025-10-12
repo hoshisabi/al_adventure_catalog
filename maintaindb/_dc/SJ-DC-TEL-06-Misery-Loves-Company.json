@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Eric Weberg"
     ],
@@ -9,11 +9,13 @@
     "code": "SJ-DC-TEL-06",
     "date_created": "20231231",
     "full_title": "SJ-DC-TEL-06 Misery Loves Company",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "SJ-DC-TEL-06-Misery-Loves-Company",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 3.99,
+    "product_id": "465464",
+    "season": "Spelljammer",
+    "tiers": 2,
     "title": "Misery Loves Company",
-    "url": "https://www.dmsguild.com/product/465464/SJDCTEL06-Misery-Loves-Company?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/465464/?affiliate_id=171040"
 }

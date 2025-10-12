@@ -13,7 +13,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 3.99,
         "product_id": "498757",
         "season": null,
         "tiers": 2,
@@ -255,6 +255,25 @@
         "url": "https://www.dmsguild.com/product/499970/RVDCLAGIM02-The-Horrors-of-Uninhabited-Places?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-LAGIM-02-",
+        "date_created": null,
+        "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "499970",
+        "season": null,
+        "tiers": 1,
+        "title": "The Horrors of Uninhabited Places",
+        "url": "https://www.dmsguild.com/product/499970/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Nicholas Reed"
@@ -287,10 +306,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "RV-DC-PHP-1313-01-On-That-Fateful-Day",
+        "price": 3.99,
+        "product_id": "434117",
+        "season": null,
         "tiers": 0,
         "title": "On That Fateful Day",
-        "url": "https://www.dmsguild.com/product/434117/RVDCPHP131301-On-That-Fateful-Day?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
     },
     {
         "apl": 3,
