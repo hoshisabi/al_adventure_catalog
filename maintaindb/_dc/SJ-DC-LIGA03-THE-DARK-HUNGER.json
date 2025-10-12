@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Gabriel Kerr",
         "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
@@ -11,9 +11,9 @@
     "code": "SJ-DC-LIGA03",
     "date_created": "20231219",
     "full_title": "SJ-DC-LIGA03 THE DARK HUNGER",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "SJ-DC-LIGA03-THE-DARK-HUNGER",
     "tiers": 1,
     "title": "THE DARK HUNGER",

@@ -25997,28 +25997,13 @@
         "full_title": "SJ-DC-INAS-04 Of Giants And Dragons: An Ancient Enemy Returns",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-INAS-04-Of-Giants-And-Dragons--An-Ancient-Enemy-Returns",
-        "tiers": 3,
-        "title": "Of Giants And Dragons An Ancient Enemy Returns",
-        "url": "https://www.dmsguild.com/product/464522/SJDCINAS04-Of-Giants-And-Dragons-An-Ancient-Enemy-Returns?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-INAS-04",
-        "date_created": "20231220",
-        "full_title": "SJ-DC-INAS-04 Of Giants And Dragons: An Ancient Enemy Returns",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "11-16",
+        "price": 4.99,
         "product_id": "464522",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Of Giants And Dragons An Ancient Enemy Returns",
-        "url": "https://www.dmsguild.com/product/464522/SJDCINAS04-Of-Giants-And-Dragons-An-Ancient-Enemy-Returns?affiliate_id=171040&filters=1000042_0_100057_0_45356_0_0_0"
+        "url": "https://www.dmsguild.com/product/464522/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -26033,28 +26018,13 @@
         "full_title": "SJ-DC-INAS-05 Of Giants And Dragons: Assault on Rimedyl",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-INAS-05-Of-Giants-And-Dragons--Assault-on-Rimedyl",
-        "tiers": 3,
-        "title": "Of Giants And Dragons Assault on Rimedyl",
-        "url": "https://www.dmsguild.com/product/464528/SJDCINAS05-Of-Giants-And-Dragons-Assault-on-Rimedyl?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-INAS-05",
-        "date_created": "20231220",
-        "full_title": "SJ-DC-INAS-05 Of Giants And Dragons: Assault on Rimedyl",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "11-16",
+        "price": 4.99,
         "product_id": "464528",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Of Giants And Dragons Assault on Rimedyl",
-        "url": "https://www.dmsguild.com/product/464528/SJDCINAS05-Of-Giants-And-Dragons-Assault-on-Rimedyl?affiliate_id=171040&filters=1000042_0_100057_0_45356_0_0_0"
+        "url": "https://www.dmsguild.com/product/464528/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -26095,7 +26065,7 @@
         "url": "https://www.dmsguild.com/product/446761/SJDCKIS01-Kobolds-in-Space?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "IGOR FARIA",
             "Liga dos Aventureiros"
@@ -26106,16 +26076,16 @@
         "code": "SJ-DC-LIGA01",
         "date_created": "20230914",
         "full_title": "SJ-DC-LIGA01 FINAL ASSAULT ON CORNELLIUM",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "SJ-DC-LIGA01-FINAL-ASSAULT-ON-CORNELLIUM",
         "tiers": 1,
         "title": "FINAL ASSAULT ON CORNELLIUM",
         "url": "https://www.dmsguild.com/product/453090/SJDCLIGA01-FINAL-ASSAULT-ON-CORNELLIUM?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Gabrielle Coutinho",
             "Guilherme \u201cSirLockee\u201d",
@@ -26127,16 +26097,16 @@
         "code": "SJ-DC-LIGA02",
         "date_created": "20231024",
         "full_title": "SJ-DC-LIGA02 THE RISEN CATACOMBS OF QUINTERRA",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "SJ-DC-LIGA02-THE-RISEN-CATACOMBS-OF-QUINTERRA",
         "tiers": 1,
         "title": "THE RISEN CATACOMBS OF QUINTERRA",
         "url": "https://www.dmsguild.com/product/453158/SJDCLIGA02-THE-RISEN-CATACOMBS-OF-QUINTERRA?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Gabriel Kerr",
             "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
@@ -26148,16 +26118,16 @@
         "code": "SJ-DC-LIGA03",
         "date_created": "20231219",
         "full_title": "SJ-DC-LIGA03 THE DARK HUNGER",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "SJ-DC-LIGA03-THE-DARK-HUNGER",
         "tiers": 1,
         "title": "THE DARK HUNGER",
         "url": "https://www.dmsguild.com/product/464474/SJDCLIGA03-THE-DARK-HUNGER?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Patr\u00edcia Brito",
             "Liga dos Aventureiros"
@@ -26168,16 +26138,16 @@
         "code": "SJ-DC-LIGA04",
         "date_created": "20231227",
         "full_title": "SJ-DC-LIGA04 DEEP EXPEDITION TO LANTAN",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-LIGA04-DEEP-EXPEDITION-TO-LANTAN",
         "tiers": 2,
         "title": "DEEP EXPEDITION TO LANTAN",
         "url": "https://www.dmsguild.com/product/465171/SJDCLIGA04-DEEP-EXPEDITION-TO-LANTAN?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Luis Filipe Bomfa",
             "Johnny Smith",
@@ -26189,50 +26159,35 @@
         "code": "SJ-DC-LIGA05",
         "date_created": "20231230",
         "full_title": "SJ-DC-LIGA05 OOZED AND CONFUSED",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-LIGA05-OOZED-AND-CONFUSED",
         "tiers": 2,
         "title": "OOZED AND CONFUSED",
         "url": "https://www.dmsguild.com/product/465499/SJDCLIGA05-OOZED-AND-CONFUSED?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-LIGA06",
-        "date_created": "20231231",
-        "full_title": "SJ-DC-LIGA06 A STRIKE TO HADAR'S TENTACLES",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "465669",
-        "tiers": 2,
-        "title": "A STRIKE TO HADAR'S TENTACLES",
-        "url": "https://www.dmsguild.com/product/465669/SJDCLIGA06-A-STRIKE-TO-HADARS-TENTACLES?affiliate_id=171040&filters=1000042_0_100057_0_0_0_0_0"
-    },
-    {
-        "apl": null,
+        "apl": 8,
         "authors": [
-            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Lu\u00c3\u00ads Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "SJ-DC-LIGA06",
-        "date_created": "20231231",
+        "date_created": null,
         "full_title": "SJ-DC-LIGA06 A STRIKE TO HADAR'S TENTACLES",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-LIGA06-A-STRIKE-TO-HADARS-TENTACLES",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "465669",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "A STRIKE TO HADAR'S TENTACLES",
-        "url": "https://www.dmsguild.com/product/465669/SJDCLIGA06-A-STRIKE-TO-HADARS-TENTACLES?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465669/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -30169,7 +30124,7 @@
         "url": "https://www.dmsguild.com/product/431720/Tink-Tink-Boom-SJDCTKM02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Chubby Goblin Games"
         ],
@@ -30181,14 +30136,14 @@
         "full_title": "To Kill an Empress (SJ-DC-CGG-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "To-Kill-an-Empress-SJ-DC-CGG-02",
-        "tiers": 0,
+        "tiers": 2,
         "title": "To Kill an Empress",
         "url": "https://www.dmsguild.com/product/456879/To-Kill-an-Empress-SJDCCGG02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Chubby Goblin Games"
         ],
@@ -30200,9 +30155,9 @@
         "full_title": "To Raise a Princess (SJ-DC-CGG-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "To-Raise-a-Princess-SJ-DC-CGG-01",
-        "tiers": 0,
+        "tiers": 2,
         "title": "To Raise a Princess",
         "url": "https://www.dmsguild.com/product/440055/To-Raise-a-Princess-SJDCCGG01?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
