@@ -1912,7 +1912,7 @@
         "url": "https://www.dmsguild.com/product/407459/WBWDCCONMAR10-Midsummer-Knights?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Daniel A Ellingsen"
         ],
@@ -1922,13 +1922,13 @@
         "code": "WBW-DC-CONMAR-11",
         "date_created": "20220826",
         "full_title": "WBW-DC-CONMAR-11 Serenade of Sandy Shore",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.49,
         "product_id": "407910",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Serenade of Sandy Shore",
         "url": "https://www.dmsguild.com/product/407910/?affiliate_id=171040"
     },
@@ -1974,7 +1974,7 @@
         "url": "https://www.dmsguild.com/product/408549/WBWDCCONMAR13-Losing-ConTroll?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Daniel Ellingsen"
         ],
@@ -1984,13 +1984,13 @@
         "code": "WBW-DC-CONMAR-14",
         "date_created": "20220831",
         "full_title": "WBW-DC-CONMAR-14 Minuet of Misty Mountain",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.49,
         "product_id": "408548",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Minuet of Misty Mountain",
         "url": "https://www.dmsguild.com/product/408548/?affiliate_id=171040"
     },
@@ -2170,26 +2170,7 @@
         "url": "https://www.dmsguild.com/product/384981/WBWDCDGE01-An-Underdodge-Story?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-DGE-02",
-        "date_created": null,
-        "full_title": "WBW-DC-DGE-02 The Scorpion's Sting",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "402240",
-        "season": "The Wild Beyond the Witchlight",
-        "tiers": 2,
-        "title": "The Scorpion's Sting",
-        "url": "https://www.dmsguild.com/product/402240/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Matthew Barry"
         ],
@@ -2201,11 +2182,13 @@
         "full_title": "WBW-DC-DGE-02 The Scorpion's Sting",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-DGE-02-The-Scorpions-Sting",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "402240",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "The Scorpion's Sting",
-        "url": "https://www.dmsguild.com/product/402240/WBWDCDGE02-The-Scorpions-Sting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/402240/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3673,7 +3656,7 @@
         "url": "https://www.dmsguild.com/product/388277/WBWDCRKS01-No-Glory-In-Sleep?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Jaime Hernandez"
         ],
@@ -3683,13 +3666,13 @@
         "code": "WBW-DC-ROBIN-01-2",
         "date_created": "20220901",
         "full_title": "WBW-DC-ROBIN-01-2 Warmth of Winter",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 2.99,
         "product_id": "408532",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Warmth of Winter",
         "url": "https://www.dmsguild.com/product/408532/?affiliate_id=171040"
     },
@@ -4253,7 +4236,7 @@
         "url": "https://www.dmsguild.com/product/394544/WBWDCVACONS01-Welcome-to-Fablerise?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Mitchell Tee"
         ],
@@ -4265,11 +4248,11 @@
         "full_title": "WBW-DC-VMT-01 Tale As Old As Time",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 2.95,
         "product_id": "397352",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Tale As Old As Time",
         "url": "https://www.dmsguild.com/product/397352/?affiliate_id=171040"
     },
