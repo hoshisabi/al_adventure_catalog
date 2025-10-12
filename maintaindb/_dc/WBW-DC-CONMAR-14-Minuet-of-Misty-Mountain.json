@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Daniel Ellingsen"
     ],
@@ -9,13 +9,13 @@
     "code": "WBW-DC-CONMAR-14",
     "date_created": "20220831",
     "full_title": "WBW-DC-CONMAR-14 Minuet of Misty Mountain",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "price": 4.49,
     "product_id": "408548",
     "season": "The Wild Beyond the Witchlight",
-    "tiers": null,
+    "tiers": 2,
     "title": "Minuet of Misty Mountain",
     "url": "https://www.dmsguild.com/product/408548/?affiliate_id=171040"
 }
