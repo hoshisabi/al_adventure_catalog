@@ -1629,10 +1629,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "WBW-DC-CBB-06-The-Korred-Corsair",
+        "price": 3.99,
+        "product_id": "400310",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 0,
         "title": "The Korred Corsair",
-        "url": "https://www.dmsguild.com/product/400310/WBWDCCBB06-The-Korred-Corsair?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400310/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1648,10 +1650,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "WBW-DC-CBB-07-Showdown-Above-Terror-Pin-Reef",
+        "price": 3.99,
+        "product_id": "404212",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 0,
         "title": "Showdown Above Terror-Pin Reef",
-        "url": "https://www.dmsguild.com/product/404212/WBWDCCBB07-Showdown-Above-TerrorPin-Reef?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/404212/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1921,10 +1925,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "WBW-DC-CONMAR-11-Serenade-of-Sandy-Shore",
+        "price": 4.49,
+        "product_id": "407910",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 0,
         "title": "Serenade of Sandy Shore",
-        "url": "https://www.dmsguild.com/product/407910/WBWDCCONMAR11-Serenade-of-Sandy-Shore?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/407910/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1939,11 +1945,13 @@
         "full_title": "WBW-DC-CONMAR-12 Dreams of the Wet Wizard",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-CONMAR-12-Dreams-of-the-Wet-Wizard",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "408252",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Dreams of the Wet Wizard",
-        "url": "https://www.dmsguild.com/product/408252/WBWDCCONMAR12-Dreams-of-the-Wet-Wizard?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408252/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1979,10 +1987,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "WBW-DC-CONMAR-14-Minuet-of-Misty-Mountain",
+        "price": 4.49,
+        "product_id": "408548",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 0,
         "title": "Minuet of Misty Mountain",
-        "url": "https://www.dmsguild.com/product/408548/WBWDCCONMAR14-Minuet-of-Misty-Mountain?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408548/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2158,6 +2168,25 @@
         "tiers": 2,
         "title": "An Underdodge Story",
         "url": "https://www.dmsguild.com/product/384981/WBWDCDGE01-An-Underdodge-Story?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-DGE-02",
+        "date_created": null,
+        "full_title": "WBW-DC-DGE-02 The Scorpion's Sting",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "402240",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
+        "title": "The Scorpion's Sting",
+        "url": "https://www.dmsguild.com/product/402240/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -3044,10 +3073,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "WBW-DC-LUN-01-Spectacle-at-Shrineholt",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "406782",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "Spectacle at Shrineholt",
-        "url": "https://www.dmsguild.com/product/406782/WBWDCLUN01-Spectacle-at-Shrineholt?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/406782/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3079,7 +3110,7 @@
         "code": "WBW-DC-MC-01",
         "date_created": "20220831",
         "full_title": "WBW-DC-MC-01 Memento Motus: S\u00e9ance for the Lost",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 5.99,
@@ -3260,11 +3291,13 @@
         "full_title": "WBW-DC-NUKE-01 \"Magically Delicious, Possibly Rotten\"",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-NUKE-01-Magically-Delicious-Possibly-Rotten",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "408285",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 1,
         "title": "\"Magically Delicious, Possibly Rotten\"",
-        "url": "https://www.dmsguild.com/product/408285/WBWDCNUKE01-Magically-Delicious-Possibly-Rotten?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408285/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3653,7 +3686,7 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "price": null,
+        "price": 2.99,
         "product_id": "408532",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 0,
@@ -4233,10 +4266,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "WBW-DC-VMT-01-Tale-As-Old-As-Time",
+        "price": 2.95,
+        "product_id": "397352",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 0,
         "title": "Tale As Old As Time",
-        "url": "https://www.dmsguild.com/product/397352/WBWDCVMT01-Tale-As-Old-As-Time?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/397352/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4631,7 +4666,7 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "price": 22.45,
+        "price": 3.99,
         "product_id": "382223",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 0,

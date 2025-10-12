@@ -1409,11 +1409,11 @@
         "full_title": "SJ-DC-ASI-01 Secrets of Old",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "459533",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Secrets of Old",
         "url": "https://www.dmsguild.com/product/459533/?affiliate_id=171040"
     },
@@ -1430,11 +1430,11 @@
         "full_title": "SJ-DC-ASI-02 Through the Looking Glass",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "462390",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Through the Looking Glass",
         "url": "https://www.dmsguild.com/product/462390/?affiliate_id=171040"
     },
@@ -1451,11 +1451,11 @@
         "full_title": "SJ-DC-ASI-03 Elemental Brainstorm",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "465438",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Elemental Brainstorm",
         "url": "https://www.dmsguild.com/product/465438/?affiliate_id=171040"
     },
@@ -1639,7 +1639,7 @@
         "url": "https://www.dmsguild.com/product/445673/SJDCBBB03-Mutiny-The-Battle-of-Blunderbuss-Bill?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Matthew Barry"
         ],
@@ -1672,11 +1672,11 @@
         "full_title": "SJ-DC-CBB-01 Last Stand of The Void",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 2.99,
         "product_id": "435250",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Last Stand of The Void",
         "url": "https://www.dmsguild.com/product/435250/?affiliate_id=171040"
     },
@@ -1700,7 +1700,7 @@
         "url": "https://www.dmsguild.com/product/439415/SJDCCBB02--In-Cyzors-Grasp?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [],
         "campaigns": [
             "Forgotten Realms"
@@ -1710,11 +1710,11 @@
         "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 3.99,
         "product_id": "439415",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 1,
         "title": "In Cyzor's Grasp",
         "url": "https://www.dmsguild.com/product/439415/?affiliate_id=171040"
     },
@@ -1731,11 +1731,11 @@
         "full_title": "SJ-DC-CBB-04 Horizon of Oblivion",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "449933",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Horizon of Oblivion",
         "url": "https://www.dmsguild.com/product/449933/?affiliate_id=171040"
     },
@@ -1761,7 +1761,7 @@
         "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [],
         "campaigns": [
             "Forgotten Realms"
@@ -2873,7 +2873,7 @@
         "url": "https://www.dmsguild.com/product/464936/SJDCENIGMA-Bloom--Doom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Snelling"
         ],
@@ -2883,18 +2883,18 @@
         "code": "SJ-DC-EPOCH-01",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-01 Chasing the Morning Light",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 1.0,
         "product_id": "465725",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Chasing the Morning Light",
         "url": "https://www.dmsguild.com/product/465725/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Snelling"
         ],
@@ -2904,13 +2904,13 @@
         "code": "SJ-DC-EPOCH-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-02 Darkening Skies",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 1.0,
         "product_id": "465728",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Darkening Skies",
         "url": "https://www.dmsguild.com/product/465728/?affiliate_id=171040"
     },
@@ -3054,23 +3054,6 @@
             "Forgotten Realms"
         ],
         "code": "SJ-DC-FTC-02",
-        "date_created": "20240103",
-        "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "465701",
-        "tiers": 0,
-        "title": "A Ship Adrift v0.9",
-        "url": "https://www.dmsguild.com/product/465701/SJDCFTC02-A-Ship-Adrift-v09?affiliate_id=171040&filters=1000042_0_100057_0_0_0_0_0"
-    },
-    {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-FTC-02",
         "date_created": null,
         "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
         "hours": "",
@@ -3082,25 +3065,6 @@
         "tiers": 0,
         "title": "A Ship Adrift v0.9",
         "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "John Rogers Jr."
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-FTC-02",
-        "date_created": "20240103",
-        "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-FTC-02-A-Ship-Adrift-v09",
-        "tiers": 0,
-        "title": "A Ship Adrift v0.9",
-        "url": "https://www.dmsguild.com/product/465701/SJDCFTC02-A-Ship-Adrift-v09?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4761,7 +4725,7 @@
         "url": "https://www.dmsguild.com/product/458152/SJDCTBS04-Brightshill?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Eric Weberg"
         ],
@@ -4771,18 +4735,18 @@
         "code": "SJ-DC-TEL-01",
         "date_created": "20231224",
         "full_title": "SJ-DC-TEL-01 Strange Light in the Darkness",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "464909",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Strange Light in the Darkness",
         "url": "https://www.dmsguild.com/product/464909/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Eric Weberg"
         ],
@@ -4792,18 +4756,18 @@
         "code": "SJ-DC-TEL-02",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-02 Lure of the Transient",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "465458",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Lure of the Transient",
         "url": "https://www.dmsguild.com/product/465458/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Eric Weberg"
         ],
@@ -4813,18 +4777,18 @@
         "code": "SJ-DC-TEL-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-03 Pieces of Pain",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "465643",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Pieces of Pain",
         "url": "https://www.dmsguild.com/product/465643/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Eric Weberg"
         ],
@@ -4834,13 +4798,13 @@
         "code": "SJ-DC-TEL-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-04 Turn of the Tide",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "465462",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Turn of the Tide",
         "url": "https://www.dmsguild.com/product/465462/?affiliate_id=171040"
     },
@@ -4864,7 +4828,7 @@
         "url": "https://www.dmsguild.com/product/465723/SJDCTEL05-Many-Many-Modrons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Eric Weberg"
         ],
@@ -4874,18 +4838,18 @@
         "code": "SJ-DC-TEL-06",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-06 Misery Loves Company",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "465464",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Misery Loves Company",
         "url": "https://www.dmsguild.com/product/465464/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -4895,18 +4859,18 @@
         "code": "SJ-DC-TEL-07",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-07 At the Mouth of Decidua",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "price": 3.99,
         "product_id": "465465",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 3,
         "title": "At the Mouth of Decidua",
         "url": "https://www.dmsguild.com/product/465465/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -4916,18 +4880,18 @@
         "code": "SJ-DC-TEL-08",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-08 Seclusion of the Snakelords",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "price": 3.99,
         "product_id": "465563",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 3,
         "title": "Seclusion of the Snakelords",
         "url": "https://www.dmsguild.com/product/465563/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -4937,18 +4901,18 @@
         "code": "SJ-DC-TEL-09",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-09 The Noble Struggle",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "price": 3.99,
         "product_id": "465564",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 3,
         "title": "The Noble Struggle",
         "url": "https://www.dmsguild.com/product/465564/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -4958,18 +4922,18 @@
         "code": "SJ-DC-TEL-10",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-10 Chamber of Strife",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "price": 3.99,
         "product_id": "465719",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 3,
         "title": "Chamber of Strife",
         "url": "https://www.dmsguild.com/product/465719/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -4979,13 +4943,13 @@
         "code": "SJ-DC-TEL-11",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-11 Temptation for Tiamat",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "price": 3.99,
         "product_id": "465570",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 3,
         "title": "Temptation for Tiamat",
         "url": "https://www.dmsguild.com/product/465570/?affiliate_id=171040"
     },
