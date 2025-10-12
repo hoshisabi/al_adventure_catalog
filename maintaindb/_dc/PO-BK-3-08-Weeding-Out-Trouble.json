@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Taylor Navarro",
         "Gamehole Con"
@@ -10,13 +10,13 @@
     "code": "PO-BK-3-08",
     "date_created": "20240222",
     "full_title": "PO-BK-3-08 Weeding Out Trouble",
-    "hours": null,
+    "hours": 5,
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "5-10",
+    "price": 4.99,
     "product_id": "471829",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "PO-BK-3-08 Weeding Out Trouble",
     "url": "https://www.dmsguild.com/product/471829/?affiliate_id=171040"
 }
