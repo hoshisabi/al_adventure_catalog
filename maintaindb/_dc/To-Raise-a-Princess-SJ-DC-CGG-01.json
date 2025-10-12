@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Chubby Goblin Games"
     ],
@@ -11,9 +11,9 @@
     "full_title": "To Raise a Princess (SJ-DC-CGG-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "To-Raise-a-Princess-SJ-DC-CGG-01",
-    "tiers": null,
+    "tiers": 2,
     "title": "To Raise a Princess",
     "url": "https://www.dmsguild.com/product/440055/To-Raise-a-Princess-SJDCCGG01?filters=45470_0_0_0_0_0"
 }
