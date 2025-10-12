@@ -1,18 +1,16 @@
 {
     "apl": 6,
-    "authors": [
-        "Michelle Churchill"
-    ],
+    "authors": ["Michelle Churchill"],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "WBW-DC-WRT-00",
-    "date_created": "20220825",
+    "date_created": null,
     "full_title": "Writer's Block (WBW-DC-WRT-00)",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 11.96,
+    "price": 2.99,
     "product_id": "407835",
     "season": "The Wild Beyond the Witchlight",
     "tiers": 2,

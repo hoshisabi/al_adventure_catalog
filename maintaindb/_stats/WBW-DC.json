@@ -84,7 +84,7 @@
         "url": "https://www.dmsguild.com/product/408427/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
             "Kat Kruger"
         ],
@@ -821,7 +821,7 @@
         "url": "https://www.dmsguild.com/product/395552/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Bianca Bickford"
         ],
@@ -935,7 +935,7 @@
         "url": "https://www.dmsguild.com/product/382720/The-Last-Resort-WBWDCTLRMB02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Anthony Joyce"
         ],
@@ -951,7 +951,7 @@
         "product_id": "The-Monster-of-Wonderia-WBW-DC-FDC-04",
         "tiers": 1,
         "title": "The Monster of Wonderia",
-        "url": "https://www.dmsguild.com/product/371476/The-Monster-of-Wonderia-WBWDCFDC04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/371476?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2203,11 +2203,13 @@
         "full_title": "WBW-DC-DMMC-01 The Solitude of Solace",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-DMMC-01-The-Solitude-of-Solace",
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "395558",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "The Solitude of Solace",
-        "url": "https://www.dmsguild.com/product/395558/WBWDCDMMC01-The-Solitude-of-Solace?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/395558/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -2220,13 +2222,15 @@
         "code": "WBW-DC-DOBU-01-01",
         "date_created": "20220830",
         "full_title": "WBW-DC-DOBU-01-01, The Little Wish",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-DOBU-01-01-The-Little-Wish",
+        "level_range": "1-4",
+        "price": 7.0,
+        "product_id": "408305",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "The Little Wish",
-        "url": "https://www.dmsguild.com/product/408305/WBWDCDOBU0101-The-Little-Wish?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408305/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -2241,11 +2245,13 @@
         "full_title": "WBW-DC-DREA-01 The Nightmare of Dreams",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-DREA-01-The-Nightmare-of-Dreams",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408198",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "The Nightmare of Dreams",
-        "url": "https://www.dmsguild.com/product/408198/WBWDCDREA01-The-Nightmare-of-Dreams?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408198/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -2323,11 +2329,13 @@
         "full_title": "WBW-DC-FAB-02 Beyond the Clouds",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-FAB-02-Beyond-the-Clouds",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "408413",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Beyond the Clouds",
-        "url": "https://www.dmsguild.com/product/408413/WBWDCFAB02-Beyond-the-Clouds?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408413/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2338,45 +2346,7 @@
             "Forgotten Realms"
         ],
         "code": "WBW-DC-FDC-05",
-        "date_created": "20210921",
-        "full_title": "WBW-DC-FDC-05 Crumbling Castles & Candy Clouds",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "WBW-DC-FDC-05-Crumbling-Castles-&-Candy-Clouds",
-        "tiers": 1,
-        "title": "Crumbling Castles & Candy Clouds",
-        "url": "https://www.dmsguild.com/product/371098/WBWDCFDC05-Crumbling-Castles--Candy-Clouds?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Emily Harmon"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-FDC-05",
-        "date_created": "20210921",
-        "full_title": "WBW-DC-FDC-05 Crumbling Castles & Candy Clouds",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "WBW-DC-FDC-05-Crumbling-Castles--Candy-Clouds",
-        "tiers": 1,
-        "title": "Crumbling Castles & Candy Clouds",
-        "url": "https://www.dmsguild.com/product/371098/WBWDCFDC05-Crumbling-Castles--Candy-Clouds?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Emily Harmon"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-FDC-05",
-        "date_created": "20210921",
+        "date_created": null,
         "full_title": "WBW-DC-FDC-05 Crumbling Castles & Candy Clouds",
         "hours": "4",
         "is_adventure": true,
@@ -2389,7 +2359,7 @@
         "url": "https://www.dmsguild.com/product/371098/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
             "Jacky Leung"
         ],
@@ -2399,13 +2369,15 @@
         "code": "WBW-DC-FDC-08",
         "date_created": "20210920",
         "full_title": "WBW-DC-FDC-08 The Great Toy Escape",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-FDC-08-The-Great-Toy-Escape",
+        "level_range": "1-4",
+        "price": 7.95,
+        "product_id": "371457",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "The Great Toy Escape",
-        "url": "https://www.dmsguild.com/product/371457/WBWDCFDC08-The-Great-Toy-Escape?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/371457/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3954,11 +3926,13 @@
         "full_title": "WBW-DC-SQT-01 Hollyphant Love Medley",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-SQT-01-Hollyphant-Love-Medley",
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "378289",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Hollyphant Love Medley",
-        "url": "https://www.dmsguild.com/product/378289/WBWDCSQT01-Hollyphant-Love-Medley?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/378289/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4168,11 +4142,13 @@
         "full_title": "WBW-DC-TREY-01 Mistress Taken!",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-TREY-01-Mistress-Taken",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408565",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Mistress Taken!",
-        "url": "https://www.dmsguild.com/product/408565/WBWDCTREY01-Mistress-Taken?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408565/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4295,7 +4271,7 @@
         "url": "https://www.dmsguild.com/product/408626/WBWDCZEPT1S2-The-Court-of-Zep?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Zardak 123"
         ],
@@ -4305,13 +4281,15 @@
         "code": "WBW-DC-ZEP-T1S3",
         "date_created": "20220901",
         "full_title": "WBW-DC-ZEP-T1S3 Zep Sightseeing",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-ZEP-T1S3-Zep-Sightseeing",
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "408629",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Zep Sightseeing",
-        "url": "https://www.dmsguild.com/product/408629/WBWDCZEPT1S3-Zep-Sightseeing?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408629/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -4665,36 +4643,17 @@
             "Forgotten Realms"
         ],
         "code": "WBW-DC-WRT-00",
-        "date_created": "20220825",
+        "date_created": null,
         "full_title": "Writer's Block (WBW-DC-WRT-00)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 11.96,
+        "price": 2.99,
         "product_id": "407835",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Writer's Block",
         "url": "https://www.dmsguild.com/product/407835/?affiliate_id=171040"
-    },
-    {
-        "apl": 6,
-        "authors": [
-            "Michelle Churchill"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-WRT-00",
-        "date_created": "20220825",
-        "full_title": "Writer's Block (WBW-DC-WRT-00)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Writers-Block-WBW-DC-WRT-00",
-        "tiers": 2,
-        "title": "Writer's Block",
-        "url": "https://www.dmsguild.com/product/407835/Writers-Block-WBWDCWRT00?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
