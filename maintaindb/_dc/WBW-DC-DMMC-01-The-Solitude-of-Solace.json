@@ -11,9 +11,11 @@
     "full_title": "WBW-DC-DMMC-01 The Solitude of Solace",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-DMMC-01-The-Solitude-of-Solace",
+    "level_range": "5-10",
+    "price": 3.99,
+    "product_id": "395558",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 2,
     "title": "The Solitude of Solace",
-    "url": "https://www.dmsguild.com/product/395558/WBWDCDMMC01-The-Solitude-of-Solace?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/395558/?affiliate_id=171040"
 }
