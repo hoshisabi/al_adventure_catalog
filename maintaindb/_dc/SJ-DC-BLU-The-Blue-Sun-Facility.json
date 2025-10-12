@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Matthew Barry"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "product_id": "SJ-DC-BLU-The-Blue-Sun-Facility",
-    "tiers": null,
+    "price": 4.99,
+    "product_id": "418063",
+    "season": "Spelljammer",
+    "tiers": 2,
     "title": "The Blue Sun Facility",
-    "url": "https://www.dmsguild.com/product/418063/SJDCBLU-The-Blue-Sun-Facility?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/418063/?affiliate_id=171040"
 }

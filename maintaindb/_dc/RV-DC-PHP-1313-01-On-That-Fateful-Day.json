@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Miguel Luis de Jesus"
     ],
@@ -11,9 +11,11 @@
     "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "RV-DC-PHP-1313-01-On-That-Fateful-Day",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 3.99,
+    "product_id": "434117",
+    "season": null,
+    "tiers": 2,
     "title": "On That Fateful Day",
-    "url": "https://www.dmsguild.com/product/434117/RVDCPHP131301-On-That-Fateful-Day?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
 }

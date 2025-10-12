@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Shu Qing Tan",
         "Gamehole Con"
@@ -10,13 +10,13 @@
     "code": "PO-BK-02-09",
     "date_created": "20230414",
     "full_title": "PO-BK-02-09 Star Crash",
-    "hours": "4",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": "1",
-    "price": null,
+    "level_range": "11-16",
+    "price": 4.99,
     "product_id": "433916",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "PO-BK-02-09 Star Crash",
     "url": "https://www.dmsguild.com/product/433916/?affiliate_id=171040"
 }
