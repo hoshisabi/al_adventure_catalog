@@ -20342,7 +20342,7 @@
         "url": "https://www.dmsguild.com/product/323807/House-of-Silent-Tides-CCCHAL06?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
         ],
@@ -20352,13 +20352,15 @@
         "code": "CCC-MTL-03",
         "date_created": "20200219",
         "full_title": "House of Webs (CCC-MTL-03)",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "House-of-Webs-CCC-MTL-03",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "303290",
+        "season": null,
+        "tiers": 2,
         "title": "House of Webs CCC-MTL-03",
-        "url": "https://www.dmsguild.com/product/303290/House-of-Webs-CCCMTL03?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/303290/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21461,7 +21463,7 @@
         "url": "https://www.dmsguild.com/product/448365/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Lu\u00eds Ricardo",
             "Gamehole Con"
@@ -21472,18 +21474,18 @@
         "code": "PO-BK-02-04",
         "date_created": "20230414",
         "full_title": "PO-BK-02-04 Out of the Shaar",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "1",
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "433901",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-02-04 Out of the Shaar",
         "url": "https://www.dmsguild.com/product/433901/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Alex Kurowski",
             "Gamehole Con"
@@ -21496,16 +21498,16 @@
         "full_title": "PO-BK-02-05 Weird Tales",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "433906",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-02-05 Weird Tales",
         "url": "https://www.dmsguild.com/product/433906/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Lee Ning Jiang",
             "Gamehole Con"
@@ -21516,13 +21518,13 @@
         "code": "PO-BK-02-06",
         "date_created": "20230414",
         "full_title": "PO-BK-02-06 First Contact",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "1",
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "433909",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-02-06 First Contact",
         "url": "https://www.dmsguild.com/product/433909/?affiliate_id=171040"
     },
@@ -21549,7 +21551,7 @@
         "url": "https://www.dmsguild.com/product/433911/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Ted Atkinson",
             "Gamehole Con"
@@ -21560,13 +21562,13 @@
         "code": "PO-BK-02-08",
         "date_created": "20230414",
         "full_title": "PO-BK-02-08 Straight Through the Heart",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "1",
-        "price": null,
+        "level_range": "11-16",
+        "price": 4.99,
         "product_id": "433913",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "PO-BK-02-08 Straight Through the Heart",
         "url": "https://www.dmsguild.com/product/433913/?affiliate_id=171040"
     },
@@ -21659,7 +21661,7 @@
         "url": "https://www.dmsguild.com/product/392801/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Bishkinskyi",
             "Gamehole Con"
@@ -21670,13 +21672,13 @@
         "code": "PO-BK-1-03",
         "date_created": "20220408",
         "full_title": "PO-BK-1-03 Red Masks",
-        "hours": "4",
+        "hours": "4-6",
         "is_adventure": true,
-        "level_range": "1",
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "392803",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-1-03 Red Masks",
         "url": "https://www.dmsguild.com/product/392803/?affiliate_id=171040"
     },
@@ -21814,7 +21816,7 @@
         "url": "https://www.dmsguild.com/product/466325/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Aaron Saucedo",
             "Gamehole Con"
@@ -21825,13 +21827,13 @@
         "code": "PO-BK-3-02",
         "date_created": "20240119",
         "full_title": "PO-BK-3-02 Shoreline Spelunking",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "1-4",
+        "price": 4.99,
         "product_id": "467923",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "PO-BK-3-02 Shoreline Spelunking",
         "url": "https://www.dmsguild.com/product/467923/?affiliate_id=171040"
     },
@@ -21858,7 +21860,7 @@
         "url": "https://www.dmsguild.com/product/467926/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Joe Alfano",
             "Gamehole Con"
@@ -21869,18 +21871,18 @@
         "code": "PO-BK-3-04",
         "date_created": "20240222",
         "full_title": "PO-BK-3-04 Dead in the Water",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "1-4",
+        "price": 4.99,
         "product_id": "471797",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "PO-BK-3-04 Dead in the Water",
         "url": "https://www.dmsguild.com/product/471797/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Dave Coulson",
             "Gamehole Con"
@@ -21891,18 +21893,18 @@
         "code": "PO-BK-3-05",
         "date_created": "20240222",
         "full_title": "PO-BK-3-05 Into the Shining Sea",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "471819",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-3-05 Into the Shining Sea",
         "url": "https://www.dmsguild.com/product/471819/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Lyla McBeath Fujiwara",
             "Gamehole Con"
@@ -21913,17 +21915,18 @@
         "code": "PO-BK-3-06",
         "date_created": "20240222",
         "full_title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "471825",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
         "url": "https://www.dmsguild.com/product/471825/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Marcello de Velazquez",
             "Gamehole Con"
@@ -21934,18 +21937,18 @@
         "code": "PO-BK-3-07",
         "date_created": "20240223",
         "full_title": "PO-BK-3-07 On Pirate's Honor",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "471827",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-3-07 On Pirate's Honor",
         "url": "https://www.dmsguild.com/product/471827/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Taylor Navarro",
             "Gamehole Con"
@@ -21956,18 +21959,18 @@
         "code": "PO-BK-3-08",
         "date_created": "20240222",
         "full_title": "PO-BK-3-08 Weeding Out Trouble",
-        "hours": "",
+        "hours": "5",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "471829",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-3-08 Weeding Out Trouble",
         "url": "https://www.dmsguild.com/product/471829/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Shu Qing Tan",
             "Gamehole Con"
@@ -21978,18 +21981,18 @@
         "code": "PO-BK-3-09",
         "date_created": "20240222",
         "full_title": "PO-BK-3-09 Isle of Death",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "471830",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-3-09 Isle of Death",
         "url": "https://www.dmsguild.com/product/471830/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Lee Ning Jiang",
             "Gamehole Con"
@@ -22000,18 +22003,18 @@
         "code": "PO-BK-3-10",
         "date_created": "20240222",
         "full_title": "PO-BK-3-10 Hymn of Love",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "471832",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-3-10 Hymn of Love",
         "url": "https://www.dmsguild.com/product/471832/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 18,
         "authors": [
             "Andrew Bishkinskyi",
             "Gamehole Con"
@@ -22022,18 +22025,18 @@
         "code": "PO-BK-3-11",
         "date_created": "20240318",
         "full_title": "PO-BK-3-11 Covenant of the Blood Goddess",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "17-20",
+        "price": 6.99,
         "product_id": "474556",
         "season": null,
-        "tiers": 0,
+        "tiers": 4,
         "title": "PO-BK-3-11 Covenant of the Blood Goddess",
         "url": "https://www.dmsguild.com/product/474556/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Tim Mangan",
             "Gamehole Con"
@@ -22044,13 +22047,13 @@
         "code": "PO-BK-3-13",
         "date_created": "20240613",
         "full_title": "PO-BK-3-13 A Ship on Silent Seas",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "484628",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK-3-13 A Ship on Silent Seas",
         "url": "https://www.dmsguild.com/product/484628/?affiliate_id=171040"
     },
@@ -22066,13 +22069,13 @@
         "code": "PO-BK2-01",
         "date_created": "20221204",
         "full_title": "PO-BK2-01 The Thayan Connection",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "418769",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK2-01 The Thayan Connection",
         "url": "https://www.dmsguild.com/product/418769/?affiliate_id=171040"
     },
@@ -22088,13 +22091,13 @@
         "code": "PO-BK2-02",
         "date_created": "20221011",
         "full_title": "PO-BK2-02 Some Assembly Required",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": null,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "413094",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK2-02 Some Assembly Required",
         "url": "https://www.dmsguild.com/product/413094/?affiliate_id=171040"
     },
@@ -22113,10 +22116,10 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 4.99,
         "product_id": "413092",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "PO-BK2-03 What Dreams May Come",
         "url": "https://www.dmsguild.com/product/413092/?affiliate_id=171040"
     },
