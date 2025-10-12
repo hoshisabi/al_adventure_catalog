@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Tim Mangan",
         "Gamehole Con"
@@ -10,13 +10,13 @@
     "code": "PO-BK-3-13",
     "date_created": "20240613",
     "full_title": "PO-BK-3-13 A Ship on Silent Seas",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "5-10",
+    "price": 4.99,
     "product_id": "484628",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "PO-BK-3-13 A Ship on Silent Seas",
     "url": "https://www.dmsguild.com/product/484628/?affiliate_id=171040"
 }
