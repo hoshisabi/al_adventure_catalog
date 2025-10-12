@@ -255,7 +255,7 @@
         "url": "https://www.dmsguild.com/product/499970/RVDCLAGIM02-The-Horrors-of-Uninhabited-Places?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [],
         "campaigns": [
             "Ravenloft"
@@ -293,7 +293,7 @@
         "url": "https://www.dmsguild.com/product/446081/RVDCOH01-In-the-Mists-of-Keening?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -305,11 +305,11 @@
         "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "434117",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "On That Fateful Day",
         "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
     },
