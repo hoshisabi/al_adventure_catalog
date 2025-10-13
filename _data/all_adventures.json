@@ -29484,11 +29484,13 @@
         "full_title": "The Hypocritic Oath (SJ-DC-VEN-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Hypocritic-Oath-SJ-DC-VEN-02",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "446296",
+        "season": "Spelljammer",
+        "tiers": 2,
         "title": "The Hypocritic Oath",
-        "url": "https://www.dmsguild.com/product/446296/The-Hypocritic-Oath-SJDCVEN02?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/446296/?affiliate_id=171040"
     },
     {
         "apl": 9,
