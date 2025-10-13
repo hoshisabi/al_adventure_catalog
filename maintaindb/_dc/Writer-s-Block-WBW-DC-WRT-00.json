@@ -1,13 +1,15 @@
 {
     "apl": 6,
-    "authors": ["Michelle Churchill"],
+    "authors": [
+        "Michelle Churchill"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "WBW-DC-WRT-00",
     "date_created": null,
     "full_title": "Writer's Block (WBW-DC-WRT-00)",
-    "hours": 2,
+    "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
     "price": 2.99,
