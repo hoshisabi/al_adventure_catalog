@@ -19307,6 +19307,26 @@
     },
     {
         "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-SV-A1",
+        "date_created": "20251015",
+        "full_title": "FR-DC-SV-A1 Expedition to the Severed Vault",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 3.0,
+        "product_id": "540675",
+        "season": null,
+        "tiers": 0,
+        "title": "Expedition to the Severed Vault",
+        "url": "https://www.dmsguild.com/product/540675/FRDCSVA1-Expedition-to-the-Severed-Vault?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": null,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -23258,6 +23278,26 @@
         "tiers": 4,
         "title": "There's Something in the Water",
         "url": "https://www.dmsguild.com/product/539644/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-SV-A2",
+        "date_created": "20251015",
+        "full_title": "PS-DC-SV-A2 Escape from the Severed Vault",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 3.0,
+        "product_id": "540678",
+        "season": "Planescape",
+        "tiers": 0,
+        "title": "Escape from the Severed Vault",
+        "url": "https://www.dmsguild.com/product/540678/PSDCSVA2-Escape-from-the-Severed-Vault?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 18,
