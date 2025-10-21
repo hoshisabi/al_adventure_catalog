@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Nors"
     ],
@@ -11,10 +11,10 @@
     "full_title": "The Khyber Heart: A Salvage Mission",
     "hours": "3",
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "price": 3,
     "product_id": "323626",
-    "tiers": null,
+    "tiers": 1,
     "title": "The Khyber Heart A Salvage Mission",
     "url": "https://www.dmsguild.com/product/323626/The-Khyber-Heart-A-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0"
 }
