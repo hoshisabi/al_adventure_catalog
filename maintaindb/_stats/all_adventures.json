@@ -17287,7 +17287,7 @@
         ],
         "code": "FR-DC-CONMAR-00-02",
         "date_created": null,
-        "full_title": "FR-DC-CONMAR-00-02 Oar's Rest and Below",
+        "full_title": "FR-DC-CONMAR-00-02 Oar\u2019s Rest and Below",
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
@@ -17295,7 +17295,7 @@
         "product_id": "541185",
         "season": null,
         "tiers": 1,
-        "title": "Oar's Rest and Below",
+        "title": "Oar\u2019s Rest and Below",
         "url": "https://www.dmsguild.com/product/541185/?affiliate_id=171040"
     },
     {
@@ -23674,7 +23674,7 @@
         "url": "https://www.dmsguild.com/product/511921/RVDCHH01-Inheritance?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -23687,29 +23687,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "RV-DC-LAGIM-01--Letting-The-Dead-Rest",
+        "price": 2.99,
+        "product_id": "490715",
+        "season": null,
         "tiers": 1,
         "title": "Letting The Dead Rest",
-        "url": "https://www.dmsguild.com/product/490715/RVDCLAGIM01-Letting-The-Dead-Rest?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Miguel Luis de Jesus"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-LAGIM-02",
-        "date_created": "20241025",
-        "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": "2",
-        "product_id": "RV-DC-LAGIM-02-The-Horrors-of-Uninhabited-Places-20241025",
-        "tiers": 0,
-        "title": "The Horrors of Uninhabited Places",
-        "url": "https://www.dmsguild.com/product/499970/RVDCLAGIM02-The-Horrors-of-Uninhabited-Places?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/490715/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -23717,8 +23700,8 @@
         "campaigns": [
             "Ravenloft"
         ],
-        "code": "RV-DC-LAGIM-02-",
-        "date_created": null,
+        "code": "RV-DC-LAGIM-02",
+        "date_created": "20241025",
         "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
         "hours": "3",
         "is_adventure": true,
@@ -23860,7 +23843,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5",
-        "product_id": "Seaside-Salvage--Eberron-Salvage-Mission-Anthology",
+        "product_id": "349569",
         "tiers": 2,
         "title": "Seaside Salvage Eberron Salvage Mission Anthology",
         "url": "https://www.dmsguild.com/product/349569/Seaside-Salvage-Eberron-Salvage-Mission-Anthology?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -24468,23 +24451,6 @@
         "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CBB-02--In-Cyzors-Grasp",
-        "tiers": 0,
-        "title": "In Cyzor's Grasp",
-        "url": "https://www.dmsguild.com/product/439415/SJDCCBB02--In-Cyzors-Grasp?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-CBB-02",
-        "date_created": null,
-        "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "1-4",
         "price": 3.99,
         "product_id": "439415",
@@ -24537,25 +24503,6 @@
     },
     {
         "apl": 13,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-CBB-06",
-        "date_created": null,
-        "full_title": "SJ-DC-CBB-06 Horror From The Planet's Core",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 3.99,
-        "product_id": "450816",
-        "season": "Spelljammer",
-        "tiers": 3,
-        "title": "Horror From The Planet's Core",
-        "url": "https://www.dmsguild.com/product/450816/?affiliate_id=171040"
-    },
-    {
-        "apl": 13,
         "authors": [
             "Christopher B. Bertucio"
         ],
@@ -24567,11 +24514,13 @@
         "full_title": "SJ-DC-CBB-06 Horror From The Planet's Core",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CBB-06-Horror-From-The-Planets-Core",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "450816",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Horror From The Planet's Core",
-        "url": "https://www.dmsguild.com/product/450816/SJDCCBB06-Horror-From-The-Planets-Core?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450816/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -25823,7 +25772,7 @@
         "url": "https://www.dmsguild.com/product/465711/SJDCFLUMPH04-Flaw-in-the-Machine?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [],
         "campaigns": [
             "Forgotten Realms"
@@ -25831,13 +25780,13 @@
         "code": "SJ-DC-FTC-02",
         "date_created": null,
         "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 1.99,
         "product_id": "465701",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "A Ship Adrift v0.9",
         "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
     },

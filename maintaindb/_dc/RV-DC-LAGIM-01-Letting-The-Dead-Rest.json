@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Miguel Luis de Jesus"
     ],
@@ -12,8 +12,10 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "product_id": "RV-DC-LAGIM-01--Letting-The-Dead-Rest",
+    "price": 2.99,
+    "product_id": "490715",
+    "season": null,
     "tiers": 1,
     "title": "Letting The Dead Rest",
-    "url": "https://www.dmsguild.com/product/490715/RVDCLAGIM01-Letting-The-Dead-Rest?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/490715/?affiliate_id=171040"
 }

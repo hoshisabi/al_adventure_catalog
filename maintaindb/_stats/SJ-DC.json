@@ -1693,23 +1693,6 @@
         "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CBB-02--In-Cyzors-Grasp",
-        "tiers": 0,
-        "title": "In Cyzor's Grasp",
-        "url": "https://www.dmsguild.com/product/439415/SJDCCBB02--In-Cyzors-Grasp?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-CBB-02",
-        "date_created": null,
-        "full_title": "SJ-DC-CBB-02  In Cyzor's Grasp",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "1-4",
         "price": 3.99,
         "product_id": "439415",
@@ -1762,25 +1745,6 @@
     },
     {
         "apl": 13,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-CBB-06",
-        "date_created": null,
-        "full_title": "SJ-DC-CBB-06 Horror From The Planet's Core",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 3.99,
-        "product_id": "450816",
-        "season": "Spelljammer",
-        "tiers": 3,
-        "title": "Horror From The Planet's Core",
-        "url": "https://www.dmsguild.com/product/450816/?affiliate_id=171040"
-    },
-    {
-        "apl": 13,
         "authors": [
             "Christopher B. Bertucio"
         ],
@@ -1792,11 +1756,13 @@
         "full_title": "SJ-DC-CBB-06 Horror From The Planet's Core",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-CBB-06-Horror-From-The-Planets-Core",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "450816",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Horror From The Planet's Core",
-        "url": "https://www.dmsguild.com/product/450816/SJDCCBB06-Horror-From-The-Planets-Core?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450816/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3048,7 +3014,7 @@
         "url": "https://www.dmsguild.com/product/465711/SJDCFLUMPH04-Flaw-in-the-Machine?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [],
         "campaigns": [
             "Forgotten Realms"
@@ -3056,13 +3022,13 @@
         "code": "SJ-DC-FTC-02",
         "date_created": null,
         "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 1.99,
         "product_id": "465701",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "A Ship Adrift v0.9",
         "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
     },
