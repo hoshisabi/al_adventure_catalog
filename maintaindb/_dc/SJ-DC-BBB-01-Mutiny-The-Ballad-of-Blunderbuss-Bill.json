@@ -11,11 +11,13 @@
     "code": "SJ-DC-BBB-01",
     "date_created": "20221205",
     "full_title": "SJ-DC-BBB-01 Mutiny: The Ballad of Blunderbuss Bill",
-    "hours": "4",
+    "hours": "20-4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "SJ-DC-BBB-01-Mutiny--The-Ballad-of-Blunderbuss-Bill",
+    "level_range": "5-10",
+    "price": 2.99,
+    "product_id": "418922",
+    "season": "Spelljammer",
     "tiers": 2,
     "title": "Mutiny The Ballad of Blunderbuss Bill",
-    "url": "https://www.dmsguild.com/product/418922/SJDCBBB01-Mutiny-The-Ballad-of-Blunderbuss-Bill?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/418922/?affiliate_id=171040"
 }
