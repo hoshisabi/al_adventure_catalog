@@ -23773,63 +23773,6 @@
         "url": "https://www.dmsguild.com/product/419577/SOS-SJDCVEN01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 18,
-        "authors": [
-            "Nicholas Reed"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-MABAR",
-        "date_created": "20210816",
-        "full_title": "Salvage Mission: The Mabar Conspiracy",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "Salvage-Mission--The-Mabar-Conspiracy",
-        "tiers": 4,
-        "title": "Salvage Mission The Mabar Conspiracy",
-        "url": "https://www.dmsguild.com/product/367908/Salvage-Mission-The-Mabar-Conspiracy?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Fynn Headen"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-INSPECTION",
-        "date_created": "20200420",
-        "full_title": "Salvation Inspection: A 4 hour Tier 1 Salvage Mission",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Salvation-Inspection--A-4-hour-Tier-1-Salvage-Mission",
-        "tiers": 1,
-        "title": "Salvation Inspection A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/310606/Salvation-Inspection-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Bum Lee"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-SAVING",
-        "date_created": "20200430",
-        "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Saving-Salvation--Eberron-Salvage-Mission-Trilogy",
-        "tiers": 0,
-        "title": "Saving Salvation Eberron Salvage Mission Trilogy",
-        "url": "https://www.dmsguild.com/product/311891/Saving-Salvation-Eberron-Salvage-Mission-Trilogy?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": null,
         "authors": [
             "Bum Lee"
@@ -24115,6 +24058,25 @@
         "url": "https://www.dmsguild.com/product/428240/SJDCARQ01--Welcome-to-the-Arqueon-System?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 2,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-ARQ-01",
+        "date_created": null,
+        "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 0.0,
+        "product_id": "428240",
+        "season": "Spelljammer",
+        "tiers": 1,
+        "title": "Welcome to the Arqu\u00ebon System",
+        "url": "https://www.dmsguild.com/product/428240/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "E. S. Moore"
@@ -24316,6 +24278,25 @@
     },
     {
         "apl": 13,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-AUG-09",
+        "date_created": null,
+        "full_title": "SJ-DC-AUG-09 Tyrants & Dragons: Tales of the Beholder Corps",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "435493",
+        "season": "Spelljammer",
+        "tiers": 3,
+        "title": "Tyrants & Dragons Tales of the Beholder Corps",
+        "url": "https://www.dmsguild.com/product/435493/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
         "authors": [
             "Johnny Smith"
         ],
@@ -24332,6 +24313,25 @@
         "tiers": 3,
         "title": "Prisoner of Prioxa Tales of the Beholder Corps",
         "url": "https://www.dmsguild.com/product/439460/SJDCAUG10-Prisoner-of-Prioxa-Tales-of-the-Beholder-Corps?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-AUG-10",
+        "date_created": null,
+        "full_title": "SJ-DC-AUG-10 Prisoner of Prioxa: Tales of the Beholder Corps",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.95,
+        "product_id": "439460",
+        "season": "Spelljammer",
+        "tiers": 3,
+        "title": "Prisoner of Prioxa Tales of the Beholder Corps",
+        "url": "https://www.dmsguild.com/product/439460/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -25383,6 +25383,25 @@
         "tiers": 3,
         "title": "- Save the Forest!",
         "url": "https://www.dmsguild.com/product/441754/SJDCDUCKSTTT01--Save-the-Forest?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 16,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "SJ-DC-DUCKS-TTT-01",
+        "date_created": null,
+        "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 1.0,
+        "product_id": "441754",
+        "season": "Spelljammer",
+        "tiers": 3,
+        "title": "- Save the Forest!",
+        "url": "https://www.dmsguild.com/product/441754/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -26648,25 +26667,6 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "SJ-DC-OGC-01---The-Hunt--For-Moby-Duck",
-        "tiers": 2,
-        "title": "- The Hunt For Moby Duck",
-        "url": "https://www.dmsguild.com/product/465366/SJDCOGC01--The-Hunt-For-Moby-Duck?affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "Joel Sussenberger"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-OGC-01",
-        "date_created": "20231229",
-        "full_title": "SJ-DC-OGC-01 - The Hunt: For Moby Duck",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
         "price": 2.0,
         "product_id": "465366",
         "season": "Spelljammer",
@@ -26854,23 +26854,6 @@
             "Forgotten Realms"
         ],
         "code": "SJ-DC-PHP-ORNG",
-        "date_created": "20231231",
-        "full_title": "SJ-DC-PHP-ORNG: Thousand Tiny Ducks",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "product_id": "SJ-DC-PHP-ORNG--Thousand-Tiny-Ducks",
-        "tiers": 3,
-        "title": "Thousand Tiny Ducks",
-        "url": "https://www.dmsguild.com/product/465634/SJDCPHPORNG-Thousand-Tiny-Ducks?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 14,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-PHP-ORNG-",
         "date_created": "20231231",
         "full_title": "SJ-DC-PHP-ORNG: Thousand Tiny Ducks",
         "hours": "4",
@@ -30948,9 +30931,9 @@
         "full_title": "WBW-DC-CBB-01 A Fey King's Ransom",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "WBW-DC-CBB-01-A-Fey-Kings-Ransom",
-        "tiers": 0,
+        "tiers": 1,
         "title": "A Fey King's Ransom",
         "url": "https://www.dmsguild.com/product/376646/WBWDCCBB01-A-Fey-Kings-Ransom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -30988,9 +30971,9 @@
         "full_title": "WBW-DC-CBB-03 The Dragons Hoard of Murkmire Isle",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "WBW-DC-CBB-03-The-Dragons-Hoard-of-Murkmire-Isle",
-        "tiers": 0,
+        "tiers": 1,
         "title": "The Dragons Hoard of Murkmire Isle",
         "url": "https://www.dmsguild.com/product/393956/WBWDCCBB03-The-Dragons-Hoard-of-Murkmire-Isle?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -31007,9 +30990,9 @@
         "full_title": "WBW-DC-CBB-04 Naufrage Atoll",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "WBW-DC-CBB-04-Naufrage-Atoll",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Naufrage Atoll",
         "url": "https://www.dmsguild.com/product/395535/WBWDCCBB04-Naufrage-Atoll?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -31026,9 +31009,9 @@
         "full_title": "WBW-DC-CBB-05 A Rainbow For The Storm",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-CBB-05-A-Rainbow-For-The-Storm",
-        "tiers": 0,
+        "tiers": 2,
         "title": "A Rainbow For The Storm",
         "url": "https://www.dmsguild.com/product/397495/WBWDCCBB05-A-Rainbow-For-The-Storm?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -31045,11 +31028,11 @@
         "full_title": "WBW-DC-CBB-06 The Korred Corsair",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "400310",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "The Korred Corsair",
         "url": "https://www.dmsguild.com/product/400310/?affiliate_id=171040"
     },
@@ -31066,11 +31049,11 @@
         "full_title": "WBW-DC-CBB-07 Showdown Above Terror-Pin Reef",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 3.99,
         "product_id": "404212",
         "season": "The Wild Beyond the Witchlight",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Showdown Above Terror-Pin Reef",
         "url": "https://www.dmsguild.com/product/404212/?affiliate_id=171040"
     },
@@ -34281,7 +34264,7 @@
         "url": "https://www.dmsguild.com/product/407835/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Nicol\u00e1s Carrillo"
         ],
@@ -34293,11 +34276,11 @@
         "full_title": "Wrongs and Punishment: An Eberron Salvage Mission",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 1.5,
         "product_id": "332476",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "Wrongs and Punishment An Eberron Salvage Mission",
         "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"
     },

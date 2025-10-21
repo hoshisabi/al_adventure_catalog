@@ -11,11 +11,11 @@
     "full_title": "WBW-DC-CBB-06 The Korred Corsair",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "price": 3.99,
     "product_id": "400310",
     "season": "The Wild Beyond the Witchlight",
-    "tiers": null,
+    "tiers": 2,
     "title": "The Korred Corsair",
     "url": "https://www.dmsguild.com/product/400310/?affiliate_id=171040"
 }

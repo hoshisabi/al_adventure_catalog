@@ -331,63 +331,6 @@
         "url": "https://www.dmsguild.com/product/311714/Nightmares-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 18,
-        "authors": [
-            "Nicholas Reed"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-MABAR",
-        "date_created": "20210816",
-        "full_title": "Salvage Mission: The Mabar Conspiracy",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "Salvage-Mission--The-Mabar-Conspiracy",
-        "tiers": 4,
-        "title": "Salvage Mission The Mabar Conspiracy",
-        "url": "https://www.dmsguild.com/product/367908/Salvage-Mission-The-Mabar-Conspiracy?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Fynn Headen"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-INSPECTION",
-        "date_created": "20200420",
-        "full_title": "Salvation Inspection: A 4 hour Tier 1 Salvage Mission",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Salvation-Inspection--A-4-hour-Tier-1-Salvage-Mission",
-        "tiers": 1,
-        "title": "Salvation Inspection A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/310606/Salvation-Inspection-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Bum Lee"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-SAVING",
-        "date_created": "20200430",
-        "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Saving-Salvation--Eberron-Salvage-Mission-Trilogy",
-        "tiers": 0,
-        "title": "Saving Salvation Eberron Salvage Mission Trilogy",
-        "url": "https://www.dmsguild.com/product/311891/Saving-Salvation-Eberron-Salvage-Mission-Trilogy?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": null,
         "authors": [
             "Bum Lee"
@@ -525,7 +468,7 @@
         "url": "https://www.dmsguild.com/product/310775/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Nicol\u00e1s Carrillo"
         ],
@@ -537,11 +480,11 @@
         "full_title": "Wrongs and Punishment: An Eberron Salvage Mission",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "price": 1.5,
         "product_id": "332476",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "Wrongs and Punishment An Eberron Salvage Mission",
         "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"
     }
