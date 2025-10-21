@@ -746,6 +746,44 @@
         "url": "https://www.dmsguild.com/product/536131/?affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CONMAR-00-01",
+        "date_created": null,
+        "full_title": "FR-DC-CONMAR-00-01 A Night at the Frumious Bandersnatch",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.49,
+        "product_id": "541184",
+        "season": null,
+        "tiers": 1,
+        "title": "A Night at the Frumious Bandersnatch",
+        "url": "https://www.dmsguild.com/product/541184/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CONMAR-00-02",
+        "date_created": null,
+        "full_title": "FR-DC-CONMAR-00-02 Oar's Rest and Below",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.49,
+        "product_id": "541185",
+        "season": null,
+        "tiers": 1,
+        "title": "Oar's Rest and Below",
+        "url": "https://www.dmsguild.com/product/541185/?affiliate_id=171040"
+    },
+    {
         "apl": 2,
         "authors": [
             "Karianne Fog Heen"
@@ -2791,7 +2829,7 @@
         "url": "https://www.dmsguild.com/product/539638/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [],
         "campaigns": [
             "Forgotten Realms"
@@ -2799,16 +2837,16 @@
         "code": "FR-DC-SV-A1",
         "date_created": "20251015",
         "full_title": "FR-DC-SV-A1 Expedition to the Severed Vault",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "needs_review": true,
         "price": 3.0,
         "product_id": "540675",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Expedition to the Severed Vault",
-        "url": "https://www.dmsguild.com/product/540675/FRDCSVA1-Expedition-to-the-Severed-Vault?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/540675/?affiliate_id=171040"
     },
     {
         "apl": null,
