@@ -1,20 +1,20 @@
 {
-  "apl": null,
-  "authors": [],
-  "campaigns": [
-    "Forgotten Realms"
-  ],
-  "code": "FR-DC-SV-A1",
-  "date_created": "20251015",
-  "full_title": "FR-DC-SV-A1 Expedition to the Severed Vault",
-  "hours": null,
-  "is_adventure": true,
-  "level_range": null,
-  "needs_review": true,
-  "price": 3.0,
-  "product_id": "540675",
-  "season": null,
-  "tiers": null,
-  "title": "Expedition to the Severed Vault",
-  "url": "https://www.dmsguild.com/product/540675/FRDCSVA1-Expedition-to-the-Severed-Vault?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "apl": 8,
+    "authors": [],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-SV-A1",
+    "date_created": "20251015",
+    "full_title": "FR-DC-SV-A1 Expedition to the Severed Vault",
+    "hours": "2",
+    "is_adventure": true,
+    "level_range": "5-10",
+    "needs_review": true,
+    "price": 3.0,
+    "product_id": "540675",
+    "season": null,
+    "tiers": 2,
+    "title": "Expedition to the Severed Vault",
+    "url": "https://www.dmsguild.com/product/540675/?affiliate_id=171040"
 }
