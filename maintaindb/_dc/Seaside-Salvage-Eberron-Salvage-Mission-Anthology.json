@@ -1,18 +1,19 @@
 {
     "apl": null,
-    "authors": [],
-    "campaigns": [
-        null
+    "authors": [
+        "Bum Lee"
     ],
-    "code": null,
+    "campaigns": [
+        "Eberron"
+    ],
+    "code": "EB-SM-SEASIDE",
     "date_created": "20210308",
     "full_title": "Seaside Salvage: Eberron Salvage Mission Anthology",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": "4",
+    "is_adventure": true,
+    "level_range": "5",
     "product_id": "349569",
-    "tiers": null,
+    "tiers": 2,
     "title": "Seaside Salvage Eberron Salvage Mission Anthology",
     "url": "https://www.dmsguild.com/product/349569/Seaside-Salvage-Eberron-Salvage-Mission-Anthology?filters=1000043_0_0_0_0_0_0_0"
 }
