@@ -18870,6 +18870,25 @@
         "url": "https://www.dmsguild.com/product/525565/?affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-SCROG-LGD-01",
+        "date_created": null,
+        "full_title": "FR-DC-SCROG-LGD-01 Legend of the Hellish Hay Bale",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "541389",
+        "season": null,
+        "tiers": 2,
+        "title": "Legend of the Hellish Hay Bale",
+        "url": "https://www.dmsguild.com/product/541389/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Greg Wright"
