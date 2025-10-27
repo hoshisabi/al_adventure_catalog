@@ -4916,7 +4916,7 @@
         "url": "https://www.dmsguild.com/product/465570/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -4926,13 +4926,15 @@
         "code": "SJ-DC-TEL-12",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-12 Tiamat Wept",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-TEL-12-Tiamat-Wept",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "465571",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Tiamat Wept",
-        "url": "https://www.dmsguild.com/product/465571/SJDCTEL12-Tiamat-Wept?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465571/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -6095,10 +6097,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Unsworn-Oath-SJ-DC-PHP-FLN01-03",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "439154",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Unsworn Oath",
-        "url": "https://www.dmsguild.com/product/439154/Unsworn-Oath-SJDCPHPFLN0103?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/439154/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -6114,10 +6118,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Voidweavers-Web-SJ-DC-EBAL-SPKY-03",
+        "price": 3.44,
+        "product_id": "418304",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Voidweaver's Web",
-        "url": "https://www.dmsguild.com/product/418304/Voidweavers-Web-SJDCEBALSPKY03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418304/?affiliate_id=171040"
     },
     {
         "apl": 13,

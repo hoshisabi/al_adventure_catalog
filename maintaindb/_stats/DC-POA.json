@@ -3144,7 +3144,7 @@
         "url": "https://www.dmsguild.com/product/354319/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Niccolo Estrella",
             "Paul Gabat",
@@ -3158,14 +3158,16 @@
         "full_title": "That Ain't Mead (DC-PoA-GSP02-03H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "That-Aint-Mead-DC-PoA-GSP02-03H",
-        "tiers": 0,
-        "title": "That Ain't Mead DC-PoA-GSP02-03H",
-        "url": "https://www.dmsguild.com/product/345133/That-Aint-Mead-DCPoAGSP0203H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345133",
+        "season": "Icewind Dale",
+        "tiers": 1,
+        "title": "That Ain't Mead",
+        "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Paul Gabat",
             "Kristoff Alejo"
@@ -3178,11 +3180,13 @@
         "full_title": "The Arrival of Mr. Sorrow (DC-PoA-GSP02-01H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Arrival-of-Mr-Sorrow-DC-PoA-GSP02-01H",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345129",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Arrival of Mr. Sorrow DC-PoA-GSP02-01H",
-        "url": "https://www.dmsguild.com/product/345129/The-Arrival-of-Mr-Sorrow-DCPoAGSP0201H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345129/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3204,7 +3208,7 @@
         "url": "https://www.dmsguild.com/product/356501/The-Grand-Estate-DCPOAKW01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
             "Niccolo Estrella",
             "Paul Gabat",
@@ -3218,11 +3222,13 @@
         "full_title": "The Horror Sphere (DC-PoA-GSP02-04H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Horror-Sphere-DC-PoA-GSP02-04H",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.2,
+        "product_id": "345134",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Horror Sphere DC-PoA-GSP02-04H",
-        "url": "https://www.dmsguild.com/product/345134/The-Horror-Sphere-DCPoAGSP0204H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345134/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -3238,11 +3244,13 @@
         "full_title": "The Missing Link (DC-PoA-GSP03-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Missing-Link-DC-PoA-GSP03-01",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "337908",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Missing Link DC-PoA-GSP03-01",
-        "url": "https://www.dmsguild.com/product/337908/The-Missing-Link-DCPoAGSP0301?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/337908/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -3259,14 +3267,16 @@
         "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Priest-of-Caer-Dineval-DC-PoA-GSP02-02H",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345131",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Priest of Caer-Dineval DC-PoA-GSP02-02H",
-        "url": "https://www.dmsguild.com/product/345131/The-Priest-of-CaerDineval-DCPoAGSP0202H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Jason DM"
         ],
@@ -3278,11 +3288,13 @@
         "full_title": "The Voice Bringer (DC-PoA-TTP01-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Voice-Bringer-DC-PoA-TTP01-01",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.4,
+        "product_id": "348769",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Voice Bringer DC-PoA-TTP01-01",
-        "url": "https://www.dmsguild.com/product/348769/The-Voice-Bringer-DCPoATTP0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/348769/?affiliate_id=171040"
     },
     {
         "apl": 3,
