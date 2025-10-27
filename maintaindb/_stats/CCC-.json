@@ -61,26 +61,7 @@
         "url": "https://www.dmsguild.com/product/432577/?affiliate_id=171040"
     },
     {
-        "apl": 1,
-        "authors": [
-            "Anthony Joyce"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-AETHER-01-01",
-        "date_created": "20181113",
-        "full_title": "CCC-AETHER-01-01 The Heir of Orcus: Verse I",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-AETHER-01-01-The-Heir-of-Orcus--Verse-I",
-        "tiers": 1,
-        "title": "CCC-AETHER-01-01 The Heir of Orcus Verse I",
-        "url": "https://www.dmsguild.com/product/258606/CCCAETHER0101-The-Heir-of-Orcus-Verse-I?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Anthony Joyce"
         ],
@@ -93,7 +74,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 5.95,
         "product_id": "258606",
         "season": null,
         "tiers": 1,
@@ -101,26 +82,7 @@
         "url": "https://www.dmsguild.com/product/258606/?affiliate_id=171040"
     },
     {
-        "apl": 1,
-        "authors": [
-            "Anthony Joyce"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-AETHER-01-02",
-        "date_created": "20181113",
-        "full_title": "CCC-AETHER-01-02 The Heir of Orcus: Verse II",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-AETHER-01-02-The-Heir-of-Orcus--Verse-II",
-        "tiers": 1,
-        "title": "CCC-AETHER-01-02 The Heir of Orcus Verse II",
-        "url": "https://www.dmsguild.com/product/258619/CCCAETHER0102-The-Heir-of-Orcus-Verse-II?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Anthony Joyce"
         ],
@@ -133,7 +95,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 5.95,
         "product_id": "258619",
         "season": null,
         "tiers": 1,
@@ -4437,7 +4399,7 @@
         "url": "https://www.dmsguild.com/product/299859/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 7,
         "authors": [
             "Lance Tan",
             "Adventurers Anonymous Manila"
@@ -4446,15 +4408,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-EPI01-01",
-        "date_created": "20191125",
+        "date_created": null,
         "full_title": "CCC-EPI01-01 Hordes of Thar - The White Hand of Death",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-EPI01-01-Hordes-of-Thar---The-White-Hand-of-Death",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "295621",
+        "season": null,
         "tiers": 2,
         "title": "CCC-EPI01-01 Hordes of Thar - The White Hand of Death",
-        "url": "https://www.dmsguild.com/product/295621/CCCEPI0101-Hordes-of-Thar--The-White-Hand-of-Death&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/295621/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4465,15 +4429,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-EPI01-02",
-        "date_created": "20200803",
+        "date_created": null,
         "full_title": "CCC-EPI01-02 Hordes of Thar: The Bloody Crescent",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-EPI01-02-Hordes-of-Thar--The-Bloody-Crescent",
+        "price": 4.99,
+        "product_id": "319994",
+        "season": null,
         "tiers": 2,
         "title": "CCC-EPI01-02 Hordes of Thar The Bloody Crescent",
-        "url": "https://www.dmsguild.com/product/319994/CCCEPI0102-Hordes-of-Thar-The-Bloody-Crescent?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/319994/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4516,24 +4482,42 @@
         "url": "https://www.dmsguild.com/product/267821/CCCFC30102-Tales-of-Estirwald-Corruption-of-the-Elderoak?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 11,
-        "authors": [
-            "Malcolm Wood",
-            "Bruce Wood"
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
         ],
+        "code": "CCC-FC3-01-02",
+        "date_created": null,
+        "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 4.99,
+        "product_id": "267821",
+        "season": null,
+        "tiers": 0,
+        "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
+        "url": "https://www.dmsguild.com/product/267821/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "CCC-FC3-03",
-        "date_created": "20190311",
+        "date_created": null,
         "full_title": "CCC-FC3-03 Tales of Estirwald: The Fun House",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "CCC-FC3-03-Tales-of-Estirwald--The-Fun-House",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "269392",
+        "season": null,
         "tiers": 3,
         "title": "CCC-FC3-03 Tales of Estirwald The Fun House",
-        "url": "https://www.dmsguild.com/product/269392/CCCFC303-Tales-of-Estirwald-The-Fun-House&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/269392/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -7251,15 +7235,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-NUKEPIP-01-01",
-        "date_created": "20201104",
+        "date_created": null,
         "full_title": "CCC-NUKEPIP-01-01 Reinforcements - On Ice",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-NUKEPIP-01-01-Reinforcements---On-Ice",
+        "price": 3.99,
+        "product_id": "332409",
+        "season": null,
         "tiers": 2,
         "title": "CCC-NUKEPIP-01-01 Reinforcements - On Ice",
-        "url": "https://www.dmsguild.com/product/332409/CCCNUKEPIP0101-Reinforcements--On-Ice?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/332409/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -7270,15 +7256,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-OCC-01",
-        "date_created": "20181011",
+        "date_created": null,
         "full_title": "CCC-OCC-01 Red War: Housekeeping",
-        "hours": "4",
+        "hours": "4-6",
         "is_adventure": true,
-        "level_range": "4",
-        "product_id": "CCC-OCC-01-Red-War--Housekeeping",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "254694",
+        "season": null,
         "tiers": 3,
         "title": "CCC-OCC-01 Red War Housekeeping",
-        "url": "https://www.dmsguild.com/product/254694/CCCOCC01-Red-War-Housekeeping?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/254694/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -7520,15 +7508,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-PFF-03-01",
-        "date_created": "20201102",
+        "date_created": null,
         "full_title": "CCC-PFF-03-01 Hints at Imbalance: Rumors of Moloch",
-        "hours": "4-6",
+        "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "CCC-PFF-03-01-Hints-at-Imbalance--Rumors-of-Moloch",
+        "price": 4.99,
+        "product_id": "334208",
+        "season": null,
         "tiers": 3,
         "title": "CCC-PFF-03-01 Hints at Imbalance Rumors of Moloch",
-        "url": "https://www.dmsguild.com/product/334208/CCCPFF0301-Hints-at-Imbalance-Rumors-of-Moloch?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334208/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -8147,10 +8137,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "CCC-SAC-01--A-Light-in-the-Dark",
+        "price": 4.99,
+        "product_id": "258839",
+        "season": null,
         "tiers": 3,
         "title": "CCC-SAC-01 A Light in the Dark",
-        "url": "https://www.dmsguild.com/product/258839/CCCSAC01-A-Light-in-the-Dark?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/258839/?affiliate_id=171040"
     },
     {
         "apl": 11,
