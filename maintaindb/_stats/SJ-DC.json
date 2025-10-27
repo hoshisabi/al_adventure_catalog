@@ -2958,7 +2958,7 @@
         "url": "https://www.dmsguild.com/product/465728/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Snelling"
         ],
@@ -2968,16 +2968,16 @@
         "code": "SJ-DC-EPOCH-03",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-03 Liminal Spaces",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-EPOCH-03-Liminal-Spaces",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Liminal Spaces",
         "url": "https://www.dmsguild.com/product/465729/SJDCEPOCH03-Liminal-Spaces?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Andrew Snelling"
         ],
@@ -2987,11 +2987,11 @@
         "code": "SJ-DC-EPOCH-04",
         "date_created": "20231231",
         "full_title": "SJ-DC-EPOCH-04 Across the Heavens",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "SJ-DC-EPOCH-04-Across-the-Heavens",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Across the Heavens",
         "url": "https://www.dmsguild.com/product/465730/SJDCEPOCH04-Across-the-Heavens?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -5544,11 +5544,11 @@
         "full_title": "S.O.S. (SJ-DC-VEN-01)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "SOS-SJ-DC-VEN-01",
-        "tiers": 0,
+        "tiers": 1,
         "title": "S.O.S.",
-        "url": "https://www.dmsguild.com/product/419577/SOS-SJDCVEN01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/419577/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -5687,7 +5687,7 @@
         "url": "https://www.dmsguild.com/product/447837/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Lex Winter",
             "Katriel Paige"
@@ -5700,11 +5700,11 @@
         "full_title": "Terminal Escape Velocity SJ-DC-NOS-01",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Terminal-Escape-Velocity-SJ-DC-NOS-01",
-        "tiers": 0,
+        "level_range": "11-16",
+        "product_id": "416561",
+        "tiers": 3,
         "title": "Terminal Escape Velocity",
-        "url": "https://www.dmsguild.com/product/416561/Terminal-Escape-Velocity-SJDCNOS01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/416561/?affiliate_id=171040"
     },
     {
         "apl": 3,

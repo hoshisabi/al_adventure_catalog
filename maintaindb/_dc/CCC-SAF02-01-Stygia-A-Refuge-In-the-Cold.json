@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Paul Duggan"
     ],
@@ -11,9 +11,11 @@
     "full_title": "CCC-SAF02-01 Stygia: A Refuge In the Cold",
     "hours": "6-8",
     "is_adventure": true,
-    "level_range": "7",
-    "product_id": "CCC-SAF02-01-Stygia--A-Refuge-In-the-Cold",
+    "level_range": "5-10",
+    "price": 3.0,
+    "product_id": "341614",
+    "season": null,
     "tiers": 2,
     "title": "CCC-SAF02-01 Stygia A Refuge In the Cold",
-    "url": "https://www.dmsguild.com/product/341614/CCCSAF0201-Stygia-A-Refuge-In-the-Cold"
+    "url": "https://www.dmsguild.com/product/341614/?affiliate_id=171040"
 }

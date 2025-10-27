@@ -8242,7 +8242,7 @@
         "url": "https://www.dmsguild.com/product/299621/CCCSAF0101-Between-Garrock-and-a-Hard-Place?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Paul Duggan"
         ],
@@ -8254,11 +8254,13 @@
         "full_title": "CCC-SAF02-01 Stygia: A Refuge In the Cold",
         "hours": "6-8",
         "is_adventure": true,
-        "level_range": "7",
-        "product_id": "CCC-SAF02-01-Stygia--A-Refuge-In-the-Cold",
+        "level_range": "5-10",
+        "price": 3.0,
+        "product_id": "341614",
+        "season": null,
         "tiers": 2,
         "title": "CCC-SAF02-01 Stygia A Refuge In the Cold",
-        "url": "https://www.dmsguild.com/product/341614/CCCSAF0201-Stygia-A-Refuge-In-the-Cold&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/341614/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -9111,13 +9113,15 @@
         "code": "CCC-STORM-02",
         "date_created": "20190403",
         "full_title": "CCC-STORM-02 Swamp of Sorrow: Bloodpurge Village",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-STORM-02-Swamp-of-Sorrow--Bloodpurge-Village",
+        "price": 4.99,
+        "product_id": "271604",
+        "season": null,
         "tiers": 2,
         "title": "CCC-STORM-02 Swamp of Sorrow Bloodpurge Village",
-        "url": "https://www.dmsguild.com/product/271604/CCCSTORM02-Swamp-of-Sorrow-Bloodpurge-Village?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/271604/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -9843,11 +9847,13 @@
         "full_title": "CCC-TRI-18 Pros & Cons (An Original Adventure by The Role Initiative)",
         "hours": "",
         "is_adventure": true,
-        "level_range": "20",
-        "product_id": "CCC-TRI-18-Pros--Cons-An-Original-Adventure-by-The-Role-Initiative",
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "252566",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-TRI-18 Pros & Cons An Original Adventure by The Role Initiative",
-        "url": "https://www.dmsguild.com/product/252566/CCCTRI18-Pros--Cons-An-Original-Adventure-by-The-Role-Initiative?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Pros & Cons",
+        "url": "https://www.dmsguild.com/product/252566/?affiliate_id=171040"
     },
     {
         "apl": 3,
