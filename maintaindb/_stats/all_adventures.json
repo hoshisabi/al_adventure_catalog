@@ -2052,29 +2052,10 @@
         "code": "CCC-BFG01-02-",
         "date_created": "20200807",
         "full_title": "CCC-BFG01-02: Secrets of the Moon",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "0",
-        "product_id": "CCC-BFG01-02--Secrets-of-the-Moon",
-        "tiers": 2,
-        "title": "CCC-BFG01-02 Secrets of the Moon",
-        "url": "https://www.dmsguild.com/product/322163/CCCBFG0102-Secrets-of-the-Moon?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Paul Aparicio"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-BFG01-02-",
-        "date_created": "20200807",
-        "full_title": "CCC-BFG01-02: Secrets of the Moon",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 4.99,
         "product_id": "322163",
         "season": null,
         "tiers": 2,
@@ -8090,13 +8071,15 @@
         "code": "CCC-KUMORI-03-02",
         "date_created": "20200115",
         "full_title": "CCC-KUMORI-03-02 The Millwright of Gond: A Quivering Forest Adventure",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "CCC-KUMORI-03-02-The-Millwright-of-Gond--A-Quivering-Forest-Adventure",
+        "price": 4.99,
+        "product_id": "299370",
+        "season": null,
         "tiers": 1,
         "title": "CCC-KUMORI-03-02 The Millwright of Gond A Quivering Forest Adventure",
-        "url": "https://www.dmsguild.com/product/299370/CCCKUMORI0302-The-Millwright-of-Gond-A-Quivering-Forest-Adventure?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/299370/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17806,7 +17789,7 @@
         ],
         "code": "FR-DC-LIGA-01",
         "date_created": "20240314",
-        "full_title": "FR-DC-LIGA-01 - Wyrmwell Flame",
+        "full_title": "FR-DC-LIGA-01  Wyrmwell Flame",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
@@ -17836,7 +17819,7 @@
         "product_id": "474206",
         "season": null,
         "tiers": 2,
-        "title": "House of Shadow",
+        "title": "- House of Shadow",
         "url": "https://www.dmsguild.com/product/474206/?affiliate_id=171040"
     },
     {
@@ -17880,7 +17863,7 @@
         "product_id": "481576",
         "season": null,
         "tiers": 3,
-        "title": "Many Spell's Gambit",
+        "title": "- Many Spell's Gambit",
         "url": "https://www.dmsguild.com/product/481576/?affiliate_id=171040"
     },
     {
@@ -17902,7 +17885,7 @@
         "product_id": "483876",
         "season": null,
         "tiers": 2,
-        "title": "Blue Wyrm Rhapsody",
+        "title": "- Blue Wyrm Rhapsody",
         "url": "https://www.dmsguild.com/product/483876/?affiliate_id=171040"
     },
     {
@@ -17924,7 +17907,7 @@
         "product_id": "487422",
         "season": null,
         "tiers": 0,
-        "title": "Malaeragoth and the Chaos King",
+        "title": "- Malaeragoth and the Chaos King",
         "url": "https://www.dmsguild.com/product/487422/?affiliate_id=171040"
     },
     {
@@ -17946,7 +17929,7 @@
         "product_id": "491875",
         "season": null,
         "tiers": 3,
-        "title": "The Lurking Blade",
+        "title": "- The Lurking Blade",
         "url": "https://www.dmsguild.com/product/491875/?affiliate_id=171040"
     },
     {
@@ -17968,7 +17951,7 @@
         "product_id": "498884",
         "season": null,
         "tiers": 3,
-        "title": "A Song of Closure",
+        "title": "- A Song of Closure",
         "url": "https://www.dmsguild.com/product/498884/?affiliate_id=171040"
     },
     {
@@ -17990,7 +17973,7 @@
         "product_id": "502484",
         "season": null,
         "tiers": 3,
-        "title": "A Chromatic Crescendo",
+        "title": "- A Chromatic Crescendo",
         "url": "https://www.dmsguild.com/product/502484/?affiliate_id=171040"
     },
     {
@@ -18012,7 +17995,7 @@
         "product_id": "511187",
         "season": null,
         "tiers": 3,
-        "title": "Tangled Threads of the Moor",
+        "title": "- Tangled Threads of the Moor",
         "url": "https://www.dmsguild.com/product/511187/?affiliate_id=171040"
     },
     {
@@ -23979,13 +23962,15 @@
         "code": "SJ-DC-AMAK-",
         "date_created": "20240101",
         "full_title": "SJ-DC-AMAK: Starlight\u2019s Lament",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-AMAK--Starlights-Lament",
+        "level_range": "5-10",
+        "price": 2.75,
+        "product_id": "465326",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Starlight\u2019s Lament",
-        "url": "https://www.dmsguild.com/product/465326/SJDCAMAK-Starlights-Lament?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465326/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -25632,42 +25617,25 @@
         "url": "https://www.dmsguild.com/product/465475/SJDCEND0106-Wildspace-Race?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 10,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "SJ-DC-ENIGMA-",
+        "code": "SJ-DC-ENIGMA",
         "date_created": "20231224",
         "full_title": "SJ-DC-ENIGMA: Bloom & Doom",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "SJ-DC-ENIGMA--Bloom-&-Doom",
+        "price": 3.99,
+        "product_id": "464936",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Bloom & Doom",
-        "url": "https://www.dmsguild.com/product/464936/SJDCENIGMA-Bloom--Doom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Miguel Luis de Jesus"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-ENIGMA-",
-        "date_created": "20231224",
-        "full_title": "SJ-DC-ENIGMA: Bloom & Doom",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "SJ-DC-ENIGMA--Bloom--Doom",
-        "tiers": 2,
-        "title": "Bloom & Doom",
-        "url": "https://www.dmsguild.com/product/464936/SJDCENIGMA-Bloom--Doom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464936/?affiliate_id=171040"
     },
     {
         "apl": 8,

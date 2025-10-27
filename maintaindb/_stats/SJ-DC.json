@@ -1240,13 +1240,15 @@
         "code": "SJ-DC-AMAK-",
         "date_created": "20240101",
         "full_title": "SJ-DC-AMAK: Starlight\u2019s Lament",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-AMAK--Starlights-Lament",
+        "level_range": "5-10",
+        "price": 2.75,
+        "product_id": "465326",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Starlight\u2019s Lament",
-        "url": "https://www.dmsguild.com/product/465326/SJDCAMAK-Starlights-Lament?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465326/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2893,42 +2895,25 @@
         "url": "https://www.dmsguild.com/product/465475/SJDCEND0106-Wildspace-Race?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 10,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "SJ-DC-ENIGMA-",
+        "code": "SJ-DC-ENIGMA",
         "date_created": "20231224",
         "full_title": "SJ-DC-ENIGMA: Bloom & Doom",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "SJ-DC-ENIGMA--Bloom-&-Doom",
+        "price": 3.99,
+        "product_id": "464936",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Bloom & Doom",
-        "url": "https://www.dmsguild.com/product/464936/SJDCENIGMA-Bloom--Doom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Miguel Luis de Jesus"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-ENIGMA-",
-        "date_created": "20231224",
-        "full_title": "SJ-DC-ENIGMA: Bloom & Doom",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "SJ-DC-ENIGMA--Bloom--Doom",
-        "tiers": 2,
-        "title": "Bloom & Doom",
-        "url": "https://www.dmsguild.com/product/464936/SJDCENIGMA-Bloom--Doom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464936/?affiliate_id=171040"
     },
     {
         "apl": 8,
