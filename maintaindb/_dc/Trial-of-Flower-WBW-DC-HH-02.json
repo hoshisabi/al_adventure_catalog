@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Hariz HUSAINI"
     ],
@@ -9,11 +9,13 @@
     "code": "WBW-DC-HH-02",
     "date_created": "20220212",
     "full_title": "Trial of Flower (WBW-DC-HH-02)",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "Trial-of-Flower-WBW-DC-HH-02",
-    "tiers": null,
+    "level_range": "5-10",
+    "price": 3.99,
+    "product_id": "386788",
+    "season": "The Wild Beyond the Witchlight",
+    "tiers": 2,
     "title": "Trial of Flower",
-    "url": "https://www.dmsguild.com/product/386788/Trial-of-Flower-WBWDCHH02?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/386788/?affiliate_id=171040"
 }
