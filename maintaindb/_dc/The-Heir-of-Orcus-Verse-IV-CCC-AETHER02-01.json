@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Anthony Joyce",
         "Jeremy Forbing"
@@ -12,11 +12,11 @@
     "full_title": "The Heir of Orcus: Verse IV CCC-AETHER02-01",
     "hours": "2-4",
     "is_adventure": true,
-    "level_range": null,
-    "price": 3.42,
+    "level_range": "5-10",
+    "price": 4.95,
     "product_id": "301681",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "The Heir of Orcus Verse IV CCC-AETHER02-01",
     "url": "https://www.dmsguild.com/product/301681/?affiliate_id=171040"
 }
