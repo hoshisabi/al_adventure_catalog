@@ -6005,7 +6005,7 @@
         "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Tricia Monsod"
         ],
@@ -6017,11 +6017,11 @@
         "full_title": "Tink, Tink, Boom! (SJ-DC-TKM-02)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Tink-Tink-Boom-SJ-DC-TKM-02",
-        "tiers": 0,
+        "level_range": "1-4",
+        "product_id": "431720",
+        "tiers": 1,
         "title": "Tink, Tink, Boom!",
-        "url": "https://www.dmsguild.com/product/431720/Tink-Tink-Boom-SJDCTKM02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/431720/?affiliate_id=171040"
     },
     {
         "apl": 8,

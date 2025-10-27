@@ -8252,7 +8252,7 @@
         "code": "CCC-SAF02-01",
         "date_created": "20201230",
         "full_title": "CCC-SAF02-01 Stygia: A Refuge In the Cold",
-        "hours": "6-8",
+        "hours": "6",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 3.0,
@@ -9075,11 +9075,13 @@
         "full_title": "CCC-ST2-1 Red War: Embassy of Evil",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-ST2-1-Red-War--Embassy-of-Evil",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "252239",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-ST2-1 Red War Embassy of Evil",
-        "url": "https://www.dmsguild.com/product/252239/CCCST21-Red-War-Embassy-of-Evil?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Red War Embassy of Evil",
+        "url": "https://www.dmsguild.com/product/252239/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -9852,7 +9854,7 @@
         "product_id": "252566",
         "season": null,
         "tiers": 1,
-        "title": "Pros & Cons",
+        "title": "CCC-TRI-18 Pros & Cons An Original Adventure by The Role Initiative",
         "url": "https://www.dmsguild.com/product/252566/?affiliate_id=171040"
     },
     {
