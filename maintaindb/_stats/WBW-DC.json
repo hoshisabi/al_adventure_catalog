@@ -1031,7 +1031,7 @@
         "url": "https://www.dmsguild.com/product/408583/Topology-of-Memory-WBWDCMEM01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Hariz HUSAINI"
         ],
@@ -1041,13 +1041,15 @@
         "code": "WBW-DC-HH-02",
         "date_created": "20220212",
         "full_title": "Trial of Flower (WBW-DC-HH-02)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Trial-of-Flower-WBW-DC-HH-02",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "386788",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Trial of Flower",
-        "url": "https://www.dmsguild.com/product/386788/Trial-of-Flower-WBWDCHH02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/386788/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1280,7 +1282,7 @@
         "url": "https://www.dmsguild.com/product/400054/WBWDCARCON01-The-Multivertshus?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Daniel Ellingsen"
         ],
@@ -1292,11 +1294,13 @@
         "full_title": "WBW-DC-ARCON-02 Way of the Wedding",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-ARCON-02-Way-of-the-Wedding",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "400098",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Way of the Wedding",
-        "url": "https://www.dmsguild.com/product/400098/WBWDCARCON02-Way-of-the-Wedding?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400098/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3068,7 +3072,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 5.99,
+        "price": 4.13,
         "product_id": "408609",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 1,

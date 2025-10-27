@@ -10588,7 +10588,7 @@
         "product_id": "252239",
         "season": null,
         "tiers": 2,
-        "title": "Red War Embassy of Evil",
+        "title": "CCC-ST2-1 Red War Embassy of Evil",
         "url": "https://www.dmsguild.com/product/252239/?affiliate_id=171040"
     },
     {
@@ -17908,13 +17908,13 @@
         "code": "FR-DC-LIGA-06",
         "date_created": "20240710",
         "full_title": "FR-DC-LIGA-06 - Malaeragoth and the Chaos King",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "price": 6.99,
         "product_id": "487422",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "- Malaeragoth and the Chaos King",
         "url": "https://www.dmsguild.com/product/487422/?affiliate_id=171040"
     },
@@ -27646,7 +27646,7 @@
         "url": "https://www.dmsguild.com/product/465570/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 14,
         "authors": [
             "Eric Weberg"
         ],
@@ -27656,13 +27656,15 @@
         "code": "SJ-DC-TEL-12",
         "date_created": "20231231",
         "full_title": "SJ-DC-TEL-12 Tiamat Wept",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-TEL-12-Tiamat-Wept",
-        "tiers": 0,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "465571",
+        "season": "Spelljammer",
+        "tiers": 3,
         "title": "Tiamat Wept",
-        "url": "https://www.dmsguild.com/product/465571/SJDCTEL12-Tiamat-Wept?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465571/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -28906,7 +28908,7 @@
         "url": "https://www.dmsguild.com/product/416561/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Niccolo Estrella",
             "Paul Gabat",
@@ -28920,11 +28922,13 @@
         "full_title": "That Ain't Mead (DC-PoA-GSP02-03H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "That-Aint-Mead-DC-PoA-GSP02-03H",
-        "tiers": 0,
-        "title": "That Ain't Mead DC-PoA-GSP02-03H",
-        "url": "https://www.dmsguild.com/product/345133/That-Aint-Mead-DCPoAGSP0203H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345133",
+        "season": "Icewind Dale",
+        "tiers": 1,
+        "title": "That Ain't Mead",
+        "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -28987,7 +28991,7 @@
         "url": "https://www.dmsguild.com/product/520319/The-400-Year-Old-Thayan-FRDCTHAY03?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Paul Gabat",
             "Kristoff Alejo"
@@ -29000,11 +29004,13 @@
         "full_title": "The Arrival of Mr. Sorrow (DC-PoA-GSP02-01H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Arrival-of-Mr-Sorrow-DC-PoA-GSP02-01H",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345129",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Arrival of Mr. Sorrow DC-PoA-GSP02-01H",
-        "url": "https://www.dmsguild.com/product/345129/The-Arrival-of-Mr-Sorrow-DCPoAGSP0201H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345129/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -29444,13 +29450,15 @@
         "code": "CCC-AETHER02-01",
         "date_created": "20200218",
         "full_title": "The Heir of Orcus: Verse IV CCC-AETHER02-01",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "The-Heir-of-Orcus--Verse-IV-CCC-AETHER02-01",
+        "price": 3.42,
+        "product_id": "301681",
+        "season": null,
         "tiers": 0,
         "title": "The Heir of Orcus Verse IV CCC-AETHER02-01",
-        "url": "https://www.dmsguild.com/product/301681/The-Heir-of-Orcus-Verse-IV-CCCAETHER0201?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/301681/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -29472,7 +29480,7 @@
         "url": "https://www.dmsguild.com/product/423827/The-Horror-in-Darkfall-SJDCTHIDMB04?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
             "Niccolo Estrella",
             "Paul Gabat",
@@ -29486,11 +29494,13 @@
         "full_title": "The Horror Sphere (DC-PoA-GSP02-04H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Horror-Sphere-DC-PoA-GSP02-04H",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.2,
+        "product_id": "345134",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Horror Sphere DC-PoA-GSP02-04H",
-        "url": "https://www.dmsguild.com/product/345134/The-Horror-Sphere-DCPoAGSP0204H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345134/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -29803,11 +29813,13 @@
         "full_title": "The Missing Link (DC-PoA-GSP03-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Missing-Link-DC-PoA-GSP03-01",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "337908",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Missing Link DC-PoA-GSP03-01",
-        "url": "https://www.dmsguild.com/product/337908/The-Missing-Link-DCPoAGSP0301?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/337908/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -29961,11 +29973,13 @@
         "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Priest-of-Caer-Dineval-DC-PoA-GSP02-02H",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345131",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Priest of Caer-Dineval DC-PoA-GSP02-02H",
-        "url": "https://www.dmsguild.com/product/345131/The-Priest-of-CaerDineval-DCPoAGSP0202H?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -30068,7 +30082,7 @@
         "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 2,
         "authors": [
             "Jason DM"
         ],
@@ -30080,11 +30094,13 @@
         "full_title": "The Voice Bringer (DC-PoA-TTP01-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Voice-Bringer-DC-PoA-TTP01-01",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.4,
+        "product_id": "348769",
+        "season": "Icewind Dale",
+        "tiers": 1,
         "title": "The Voice Bringer DC-PoA-TTP01-01",
-        "url": "https://www.dmsguild.com/product/348769/The-Voice-Bringer-DCPoATTP0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/348769/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -30242,7 +30258,7 @@
         "url": "https://www.dmsguild.com/product/408583/Topology-of-Memory-WBWDCMEM01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Hariz HUSAINI"
         ],
@@ -30252,13 +30268,15 @@
         "code": "WBW-DC-HH-02",
         "date_created": "20220212",
         "full_title": "Trial of Flower (WBW-DC-HH-02)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Trial-of-Flower-WBW-DC-HH-02",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "386788",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Trial of Flower",
-        "url": "https://www.dmsguild.com/product/386788/Trial-of-Flower-WBWDCHH02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/386788/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -30313,10 +30331,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Unsworn-Oath-SJ-DC-PHP-FLN01-03",
-        "tiers": 0,
+        "price": 4.99,
+        "product_id": "439154",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Unsworn Oath",
-        "url": "https://www.dmsguild.com/product/439154/Unsworn-Oath-SJDCPHPFLN0103?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/439154/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -30372,10 +30392,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Voidweavers-Web-SJ-DC-EBAL-SPKY-03",
+        "price": 3.44,
+        "product_id": "418304",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Voidweaver's Web",
-        "url": "https://www.dmsguild.com/product/418304/Voidweavers-Web-SJDCEBALSPKY03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418304/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -30694,7 +30716,7 @@
         "url": "https://www.dmsguild.com/product/400054/WBWDCARCON01-The-Multivertshus?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Daniel Ellingsen"
         ],
@@ -30706,11 +30728,13 @@
         "full_title": "WBW-DC-ARCON-02 Way of the Wedding",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-ARCON-02-Way-of-the-Wedding",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "400098",
+        "season": "The Wild Beyond the Witchlight",
+        "tiers": 2,
         "title": "Way of the Wedding",
-        "url": "https://www.dmsguild.com/product/400098/WBWDCARCON02-Way-of-the-Wedding?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400098/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -32482,7 +32506,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 5.99,
+        "price": 4.13,
         "product_id": "408609",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
