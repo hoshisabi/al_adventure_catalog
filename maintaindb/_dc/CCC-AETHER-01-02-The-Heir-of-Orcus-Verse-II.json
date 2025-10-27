@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Anthony Joyce"
     ],
@@ -12,7 +12,7 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "price": 5.95,
     "product_id": "258619",
     "season": null,
     "tiers": 1,

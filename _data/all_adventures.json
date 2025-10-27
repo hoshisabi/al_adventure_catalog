@@ -1569,26 +1569,7 @@
         "url": "https://www.dmsguild.com/product/432577/?affiliate_id=171040"
     },
     {
-        "apl": 1,
-        "authors": [
-            "Anthony Joyce"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-AETHER-01-01",
-        "date_created": "20181113",
-        "full_title": "CCC-AETHER-01-01 The Heir of Orcus: Verse I",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-AETHER-01-01-The-Heir-of-Orcus--Verse-I",
-        "tiers": 1,
-        "title": "CCC-AETHER-01-01 The Heir of Orcus Verse I",
-        "url": "https://www.dmsguild.com/product/258606/CCCAETHER0101-The-Heir-of-Orcus-Verse-I?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Anthony Joyce"
         ],
@@ -1601,7 +1582,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 5.95,
         "product_id": "258606",
         "season": null,
         "tiers": 1,
@@ -1609,26 +1590,7 @@
         "url": "https://www.dmsguild.com/product/258606/?affiliate_id=171040"
     },
     {
-        "apl": 1,
-        "authors": [
-            "Anthony Joyce"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-AETHER-01-02",
-        "date_created": "20181113",
-        "full_title": "CCC-AETHER-01-02 The Heir of Orcus: Verse II",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "CCC-AETHER-01-02-The-Heir-of-Orcus--Verse-II",
-        "tiers": 1,
-        "title": "CCC-AETHER-01-02 The Heir of Orcus Verse II",
-        "url": "https://www.dmsguild.com/product/258619/CCCAETHER0102-The-Heir-of-Orcus-Verse-II?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Anthony Joyce"
         ],
@@ -1641,7 +1603,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 5.95,
         "product_id": "258619",
         "season": null,
         "tiers": 1,
@@ -5945,7 +5907,7 @@
         "url": "https://www.dmsguild.com/product/299859/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 7,
         "authors": [
             "Lance Tan",
             "Adventurers Anonymous Manila"
@@ -5954,15 +5916,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-EPI01-01",
-        "date_created": "20191125",
+        "date_created": null,
         "full_title": "CCC-EPI01-01 Hordes of Thar - The White Hand of Death",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-EPI01-01-Hordes-of-Thar---The-White-Hand-of-Death",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "295621",
+        "season": null,
         "tiers": 2,
         "title": "CCC-EPI01-01 Hordes of Thar - The White Hand of Death",
-        "url": "https://www.dmsguild.com/product/295621/CCCEPI0101-Hordes-of-Thar--The-White-Hand-of-Death&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/295621/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -5973,15 +5937,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-EPI01-02",
-        "date_created": "20200803",
+        "date_created": null,
         "full_title": "CCC-EPI01-02 Hordes of Thar: The Bloody Crescent",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-EPI01-02-Hordes-of-Thar--The-Bloody-Crescent",
+        "price": 4.99,
+        "product_id": "319994",
+        "season": null,
         "tiers": 2,
         "title": "CCC-EPI01-02 Hordes of Thar The Bloody Crescent",
-        "url": "https://www.dmsguild.com/product/319994/CCCEPI0102-Hordes-of-Thar-The-Bloody-Crescent?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/319994/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -6024,24 +5990,42 @@
         "url": "https://www.dmsguild.com/product/267821/CCCFC30102-Tales-of-Estirwald-Corruption-of-the-Elderoak?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 11,
-        "authors": [
-            "Malcolm Wood",
-            "Bruce Wood"
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
         ],
+        "code": "CCC-FC3-01-02",
+        "date_created": null,
+        "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 4.99,
+        "product_id": "267821",
+        "season": null,
+        "tiers": 0,
+        "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
+        "url": "https://www.dmsguild.com/product/267821/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "CCC-FC3-03",
-        "date_created": "20190311",
+        "date_created": null,
         "full_title": "CCC-FC3-03 Tales of Estirwald: The Fun House",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "CCC-FC3-03-Tales-of-Estirwald--The-Fun-House",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "269392",
+        "season": null,
         "tiers": 3,
         "title": "CCC-FC3-03 Tales of Estirwald The Fun House",
-        "url": "https://www.dmsguild.com/product/269392/CCCFC303-Tales-of-Estirwald-The-Fun-House&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/269392/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -8759,15 +8743,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-NUKEPIP-01-01",
-        "date_created": "20201104",
+        "date_created": null,
         "full_title": "CCC-NUKEPIP-01-01 Reinforcements - On Ice",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "CCC-NUKEPIP-01-01-Reinforcements---On-Ice",
+        "price": 3.99,
+        "product_id": "332409",
+        "season": null,
         "tiers": 2,
         "title": "CCC-NUKEPIP-01-01 Reinforcements - On Ice",
-        "url": "https://www.dmsguild.com/product/332409/CCCNUKEPIP0101-Reinforcements--On-Ice?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/332409/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -8778,15 +8764,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-OCC-01",
-        "date_created": "20181011",
+        "date_created": null,
         "full_title": "CCC-OCC-01 Red War: Housekeeping",
-        "hours": "4",
+        "hours": "4-6",
         "is_adventure": true,
-        "level_range": "4",
-        "product_id": "CCC-OCC-01-Red-War--Housekeeping",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "254694",
+        "season": null,
         "tiers": 3,
         "title": "CCC-OCC-01 Red War Housekeeping",
-        "url": "https://www.dmsguild.com/product/254694/CCCOCC01-Red-War-Housekeeping?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/254694/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -9028,15 +9016,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-PFF-03-01",
-        "date_created": "20201102",
+        "date_created": null,
         "full_title": "CCC-PFF-03-01 Hints at Imbalance: Rumors of Moloch",
-        "hours": "4-6",
+        "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "CCC-PFF-03-01-Hints-at-Imbalance--Rumors-of-Moloch",
+        "price": 4.99,
+        "product_id": "334208",
+        "season": null,
         "tiers": 3,
         "title": "CCC-PFF-03-01 Hints at Imbalance Rumors of Moloch",
-        "url": "https://www.dmsguild.com/product/334208/CCCPFF0301-Hints-at-Imbalance-Rumors-of-Moloch?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334208/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -9655,10 +9645,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "CCC-SAC-01--A-Light-in-the-Dark",
+        "price": 4.99,
+        "product_id": "258839",
+        "season": null,
         "tiers": 3,
         "title": "CCC-SAC-01 A Light in the Dark",
-        "url": "https://www.dmsguild.com/product/258839/CCCSAC01-A-Light-in-the-Dark?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/258839/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -14545,11 +14537,13 @@
         "full_title": "DC-POA-JAT-01 Ice to Mead You - Kobold Craziness part 1",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JAT-01-Ice-to-Mead-You---Kobold-Craziness-part-1",
+        "level_range": "1-4",
+        "price": 1.5,
+        "product_id": "365500",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-JAT-01 Ice to Mead You - Kobold Craziness part 1",
-        "url": "https://www.dmsguild.com/product/365500/DCPOAJAT01-Ice-to-Mead-You--Kobold-Craziness-part-1?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/365500/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -14564,11 +14558,13 @@
         "full_title": "DC-POA-JAT-02 More Than a Stealing - Kobold Craziness part 2",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JAT-02-More-Than-a-Stealing---Kobold-Craziness-part-2",
+        "level_range": "1-4",
+        "price": 1.5,
+        "product_id": "366337",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-JAT-02 More Than a Stealing - Kobold Craziness part 2",
-        "url": "https://www.dmsguild.com/product/366337/DCPOAJAT02-More-Than-a-Stealing--Kobold-Craziness-part-2?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/366337/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -14583,11 +14579,13 @@
         "full_title": "DC-POA-JAT-03 Two Kobolds in a Trench Coat - Kobold Craziness part 3",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JAT-03-Two-Kobolds-in-a-Trench-Coat---Kobold-Craziness-part-3",
+        "level_range": "1-4",
+        "price": 1.5,
+        "product_id": "367778",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-JAT-03 Two Kobolds in a Trench Coat - Kobold Craziness part 3",
-        "url": "https://www.dmsguild.com/product/367778/DCPOAJAT03-Two-Kobolds-in-a-Trench-Coat--Kobold-Craziness-part-3?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/367778/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -14602,11 +14600,13 @@
         "full_title": "DC-POA-JAT-04 The Enemy Mine - Kobold Craziness part 4",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-JAT-04-The-Enemy-Mine---Kobold-Craziness-part-4",
+        "level_range": "1-4",
+        "price": 1.5,
+        "product_id": "368980",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-JAT-04 The Enemy Mine - Kobold Craziness part 4",
-        "url": "https://www.dmsguild.com/product/368980/DCPOAJAT04-The-Enemy-Mine--Kobold-Craziness-part-4?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/368980/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -14716,24 +14716,23 @@
         "url": "https://www.dmsguild.com/product/347771/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Brian Collier",
-            "Martine Lassen"
-        ],
+        "apl": 3,
+        "authors": [],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DC-POA-KCB-MBL",
-        "date_created": "20201206",
+        "date_created": null,
         "full_title": "DC-PoA-KCB-MBL - The Stolen Curse",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-KCB-MBL---The-Stolen-Curse",
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "338645",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-KCB-MBL - The Stolen Curse",
-        "url": "https://www.dmsguild.com/product/338645/DCPoAKCBMBL--The-Stolen-Curse?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/338645/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17811,10 +17810,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "FR-DC-LIGA-01---Wyrmwell-Flame",
+        "price": 6.99,
+        "product_id": "474180",
+        "season": null,
         "tiers": 3,
-        "title": "- Wyrmwell Flame",
-        "url": "https://www.dmsguild.com/product/474180/FRDCLIGA01--Wyrmwell-Flame?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Wyrmwell Flame",
+        "url": "https://www.dmsguild.com/product/474180/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -17830,11 +17831,13 @@
         "full_title": "FR-DC-LIGA-02 - House of Shadow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-LIGA-02---House-of-Shadow",
+        "level_range": "5-10",
+        "price": 4.82,
+        "product_id": "474206",
+        "season": null,
         "tiers": 2,
-        "title": "- House of Shadow",
-        "url": "https://www.dmsguild.com/product/474206/FRDCLIGA02--House-of-Shadow?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "House of Shadow",
+        "url": "https://www.dmsguild.com/product/474206/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17850,11 +17853,13 @@
         "full_title": "FR-DC-LIGA-03 Doom Reborn",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-LIGA-03-Doom-Reborn",
+        "level_range": "11-16",
+        "price": 6.99,
+        "product_id": "477366",
+        "season": null,
         "tiers": 3,
         "title": "Doom Reborn",
-        "url": "https://www.dmsguild.com/product/477366/FRDCLIGA03-Doom-Reborn?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/477366/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17870,11 +17875,13 @@
         "full_title": "FR-DC-LIGA-04 - Many Spell's Gambit",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-LIGA-04---Many-Spells-Gambit",
+        "level_range": "11-16",
+        "price": 6.99,
+        "product_id": "481576",
+        "season": null,
         "tiers": 3,
-        "title": "- Many Spell's Gambit",
-        "url": "https://www.dmsguild.com/product/481576/FRDCLIGA04--Many-Spells-Gambit?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Many Spell's Gambit",
+        "url": "https://www.dmsguild.com/product/481576/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -17890,11 +17897,13 @@
         "full_title": "FR-DC-LIGA-05 - Blue Wyrm Rhapsody",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-LIGA-05---Blue-Wyrm-Rhapsody",
+        "level_range": "5-10",
+        "price": 6.99,
+        "product_id": "483876",
+        "season": null,
         "tiers": 2,
         "title": "Blue Wyrm Rhapsody",
-        "url": "https://www.dmsguild.com/product/483876/FRDCLIGA05--Blue-Wyrm-Rhapsody?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/483876/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17908,13 +17917,15 @@
         "code": "FR-DC-LIGA-06",
         "date_created": "20240710",
         "full_title": "FR-DC-LIGA-06 - Malaeragoth and the Chaos King",
-        "hours": "4",
+        "hours": "",
         "is_adventure": true,
-        "level_range": "11-16",
-        "product_id": "FR-DC-LIGA-06---Malaeragoth-and-the-Chaos-King",
-        "tiers": 3,
-        "title": "- Malaeragoth and the Chaos King",
-        "url": "https://www.dmsguild.com/product/487422/FRDCLIGA06--Malaeragoth-and-the-Chaos-King?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "level_range": null,
+        "price": 6.99,
+        "product_id": "487422",
+        "season": null,
+        "tiers": 0,
+        "title": "Malaeragoth and the Chaos King",
+        "url": "https://www.dmsguild.com/product/487422/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17930,11 +17941,13 @@
         "full_title": "FR-DC-LIGA-07 - The Lurking Blade",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-LIGA-07---The-Lurking-Blade",
+        "level_range": "11-16",
+        "price": 6.99,
+        "product_id": "491875",
+        "season": null,
         "tiers": 3,
-        "title": "- The Lurking Blade",
-        "url": "https://www.dmsguild.com/product/491875/FRDCLIGA07--The-Lurking-Blade?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Lurking Blade",
+        "url": "https://www.dmsguild.com/product/491875/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17950,11 +17963,13 @@
         "full_title": "FR-DC-LIGA-08 - A Song of Closure",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
-        "product_id": "FR-DC-LIGA-08---A-Song-of-Closure",
+        "level_range": "11-16",
+        "price": 4.82,
+        "product_id": "498884",
+        "season": null,
         "tiers": 3,
-        "title": "- A Song of Closure",
-        "url": "https://www.dmsguild.com/product/498884/FRDCLIGA08--A-Song-of-Closure?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Song of Closure",
+        "url": "https://www.dmsguild.com/product/498884/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17971,10 +17986,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "FR-DC-LIGA-09-A-Chromatic-Crescendo",
+        "price": 6.99,
+        "product_id": "502484",
+        "season": null,
         "tiers": 3,
-        "title": "- A Chromatic Crescendo",
-        "url": "https://www.dmsguild.com/product/502484/FRDCLIGA09--A-Chromatic-Crescendo?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Chromatic Crescendo",
+        "url": "https://www.dmsguild.com/product/502484/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17991,10 +18008,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "product_id": "FR-DC-LIGA-10-Tangled-Threads-of-the-Moor",
+        "price": 6.99,
+        "product_id": "511187",
+        "season": null,
         "tiers": 3,
-        "title": "- Tangled Threads of the Moor",
-        "url": "https://www.dmsguild.com/product/511187/FRDCLIGA10--Tangled-Threads-of-the-Moor?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Tangled Threads of the Moor",
+        "url": "https://www.dmsguild.com/product/511187/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -34233,25 +34252,6 @@
         "date_created": "20241023",
         "full_title": "Witch, Please - It's a Carnival (FR-DC-DUNG-01) (5e)",
         "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Witch-Please---Its-a-Carnival-FR-DC-DUNG-01-5e",
-        "tiers": 1,
-        "title": "Witch, Please - It's a Carnival  5e",
-        "url": "https://www.dmsguild.com/product/499777/Witch-Please--Its-a-Carnival-FRDCDUNG01-5e?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Hunter Sinclair"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "FR-DC-DUNG-01",
-        "date_created": "20241023",
-        "full_title": "Witch, Please - It's a Carnival (FR-DC-DUNG-01) (5e)",
-        "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 23.94,
