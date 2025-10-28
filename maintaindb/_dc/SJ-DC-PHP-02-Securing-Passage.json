@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Miguel Luis de Jesus"
     ],
@@ -12,8 +12,10 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "product_id": "SJ-DC-PHP-02--Securing-Passage",
+    "price": 3.99,
+    "product_id": "450714",
+    "season": "Spelljammer",
     "tiers": 1,
     "title": "Securing Passage",
-    "url": "https://www.dmsguild.com/product/450714/SJDCPHP02-Securing-Passage?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/450714/?affiliate_id=171040"
 }

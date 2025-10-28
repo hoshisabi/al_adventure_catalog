@@ -1,11 +1,13 @@
 {
     "apl": 16,
-    "authors": [],
+    "authors": [
+        "A.K. Duck"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DUCKS-TTT-01",
-    "date_created": null,
+    "date_created": "20230616",
     "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
     "hours": "4",
     "is_adventure": true,

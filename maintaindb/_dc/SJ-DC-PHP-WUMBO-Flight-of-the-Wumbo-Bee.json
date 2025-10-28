@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Miguel Luis de Jesus"
     ],
@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "product_id": "SJ-DC-PHP-WUMBO--Flight-of-the-Wumbo-Bee",
+    "price": 3.99,
+    "product_id": "415677",
+    "season": "Spelljammer",
     "tiers": 2,
     "title": "Flight of the Wumbo Bee",
-    "url": "https://www.dmsguild.com/product/415677/SJDCPHPWUMBO-Flight-of-the-Wumbo-Bee?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/415677/?affiliate_id=171040"
 }
