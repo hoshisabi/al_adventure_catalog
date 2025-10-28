@@ -1,11 +1,14 @@
 {
     "apl": 8,
-    "authors": [],
+    "authors": [
+        "David Sklenicka",
+        "Davestar Gaming"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "PS-DC-DRAGON24-05",
-    "date_created": null,
+    "date_created": "20240827",
     "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
     "hours": "4",
     "is_adventure": true,
