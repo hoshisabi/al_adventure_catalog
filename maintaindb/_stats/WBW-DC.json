@@ -2535,11 +2535,13 @@
         "full_title": "WBW-DC-GGS-01  Rescue for Ryeland",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-GGS-01--Rescue-for-Ryeland",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408432",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Rescue for Ryeland",
-        "url": "https://www.dmsguild.com/product/408432/WBWDCGGS01--Rescue-for-Ryeland?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408432/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -3038,25 +3040,6 @@
         "tiers": 1,
         "title": "Spectacle at Shrineholt",
         "url": "https://www.dmsguild.com/product/406782/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Ma'at Crook"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-MC-01",
-        "date_created": "20220831",
-        "full_title": "WBW-DC-MC-01 Memento Motus: S\u00e9ance for the Lost",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MC-01-Memento-Motus--S\u00e9ance-for-the-Lost",
-        "tiers": 0,
-        "title": "Memento Motus S\u00e9ance for the Lost",
-        "url": "https://www.dmsguild.com/product/408609/WBWDCMC01-Memento-Motus-Seance-for-the-Lost?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,

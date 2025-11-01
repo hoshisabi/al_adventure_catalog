@@ -351,7 +351,7 @@ def get_dc_code_and_campaign(product_title):
                 if text.startswith(code):
                     campaign_val = DDAL_CAMPAIGN.get(code)
                     return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
-    return None
+    return (product_title, None)
 
 
 def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful_mode=False):

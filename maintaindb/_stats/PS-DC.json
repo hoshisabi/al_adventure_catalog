@@ -162,26 +162,6 @@
         "url": "https://www.dmsguild.com/product/489416/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Stefan Tomaschitz"
-        ],
-        "campaigns": [
-            "Ravenloft",
-            "Forgotten Realms"
-        ],
-        "code": "PS-DC-NOS-02",
-        "date_created": "20240301",
-        "full_title": "Der Meister der Puppen",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "Der-Meister-der-Puppen",
-        "tiers": 0,
-        "title": "Der Meister der Puppen",
-        "url": "https://www.dmsguild.com/product/472637/Der-Meister-der-Puppen?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 18,
         "authors": [
             "Jeremy Cheong"
@@ -582,25 +562,6 @@
     },
     {
         "apl": 8,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PS-DC-DRAGON24-05",
-        "date_created": null,
-        "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "493008",
-        "season": "Planescape",
-        "tiers": 2,
-        "title": "Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/493008/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
         "authors": [
             "David Sklenicka",
             "Davestar Gaming"
@@ -611,13 +572,15 @@
         "code": "PS-DC-DRAGON24-05",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-DRAGON24-05-Echoes-of-Futures-End-Chapter-Five-of-the-Broken-Ring-Saga",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "493008",
+        "season": "Planescape",
+        "tiers": 2,
         "title": "Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/493008/PSDCDRAGON2405-Echoes-of-Futures-End-Chapter-Five-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493008/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -729,11 +692,13 @@
         "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-MAR-01-Death-Taxes--Maruts",
+        "level_range": "17-20",
+        "price": 6.99,
+        "product_id": "487680",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Death, Taxes, & Maruts",
-        "url": "https://www.dmsguild.com/product/487680/PSDCMAR01-Death-Taxes--Maruts?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487680/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -748,11 +713,13 @@
         "full_title": "PS-DC-MAR-02 Planes, Trains, & Automatons",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-MAR-02-Planes-Trains--Automatons",
+        "level_range": "17-20",
+        "price": 6.99,
+        "product_id": "487681",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Planes, Trains, & Automatons",
-        "url": "https://www.dmsguild.com/product/487681/PSDCMAR02-Planes-Trains--Automatons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487681/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1148,11 +1115,13 @@
         "full_title": "PS-DC-SB-BISH01 - The Mill On Turley Hill",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "PS-DC-SB-BISH01---The-Mill-On-Turley-Hill",
+        "level_range": "11-16",
+        "price": 7.99,
+        "product_id": "520780",
+        "season": "Planescape",
         "tiers": 3,
         "title": "- The Mill On Turley Hill",
-        "url": "https://www.dmsguild.com/product/520780/PSDCSBBISH01--The-Mill-On-Turley-Hill?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/520780/?affiliate_id=171040"
     },
     {
         "apl": 13,

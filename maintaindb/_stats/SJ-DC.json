@@ -614,13 +614,15 @@
         "code": "SJ-DC-HBI-002",
         "date_created": "20220929",
         "full_title": "Hardy and Beholder Investigations: The Hitchhiker (SJ-DC-HBI-002)",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Hardy-and-Beholder-Investigations--The-Hitchhiker-SJ-DC-HBI-002",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "411946",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Hardy and Beholder Investigations The Hitchhiker",
-        "url": "https://www.dmsguild.com/product/411946/Hardy-and-Beholder-Investigations-The-Hitchhiker-SJDCHBI002?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411946/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -636,10 +638,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Hardy-and-Beholder-Investigations--The-Reckoning-SJ-DC-HBI-003",
+        "price": 2.75,
+        "product_id": "411955",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Hardy and Beholder Investigations The Reckoning",
-        "url": "https://www.dmsguild.com/product/411955/Hardy-and-Beholder-Investigations-The-Reckoning-SJDCHBI003?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411955/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -652,13 +656,15 @@
         "code": "SJ-DC-HBI-001",
         "date_created": "20220926",
         "full_title": "Hardy and Beholder Investigations: The Stowaway (SJ-DC-HBI-001)",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Hardy-and-Beholder-Investigations--The-Stowaway-SJ-DC-HBI-001",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "411601",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Hardy and Beholder Investigations The Stowaway",
-        "url": "https://www.dmsguild.com/product/411601/Hardy-and-Beholder-Investigations-The-Stowaway-SJDCHBI001?filters=1000044_0_45393_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411601/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1349,23 +1355,6 @@
         ],
         "code": "SJ-DC-ARQ-01",
         "date_created": "20230226",
-        "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-ARQ-01--Welcome-to-the-Arqu\u00ebon-System",
-        "tiers": 1,
-        "title": "Welcome to the Arqu\u00ebon System",
-        "url": "https://www.dmsguild.com/product/428240/SJDCARQ01--Welcome-to-the-Arqueon-System?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-ARQ-01",
-        "date_created": null,
         "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
         "hours": "2",
         "is_adventure": true,
@@ -2679,23 +2668,6 @@
         "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DUCKS-TTT-01---Save-the-Forest",
-        "tiers": 3,
-        "title": "- Save the Forest!",
-        "url": "https://www.dmsguild.com/product/441754/SJDCDUCKSTTT01--Save-the-Forest?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 16,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-DUCKS-TTT-01",
-        "date_created": null,
-        "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "11-16",
         "price": 1.0,
         "product_id": "441754",
@@ -3644,11 +3616,13 @@
         "full_title": "SJ-DC-MAD-02 Mad Effect: Retribution",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-MAD-02-Mad-Effect--Retribution",
+        "level_range": "5-10",
+        "price": 2.49,
+        "product_id": "424369",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Mad Effect Retribution",
-        "url": "https://www.dmsguild.com/product/424369/SJDCMAD02-Mad-Effect-Retribution?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/424369/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -4073,7 +4047,7 @@
         "url": "https://www.dmsguild.com/product/457175/SJDCPANDORAJWEI04-Fenrir?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -4086,10 +4060,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "SJ-DC-PHP-02--Securing-Passage",
+        "price": 3.99,
+        "product_id": "450714",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Securing Passage",
-        "url": "https://www.dmsguild.com/product/450714/SJDCPHP02-Securing-Passage?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450714/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -4168,7 +4144,7 @@
         "url": "https://www.dmsguild.com/product/451727/SJDCPHPTYVAL01-i-give-you-this-gift-of-wings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -4181,10 +4157,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "SJ-DC-PHP-WUMBO--Flight-of-the-Wumbo-Bee",
+        "price": 3.99,
+        "product_id": "415677",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Flight of the Wumbo Bee",
-        "url": "https://www.dmsguild.com/product/415677/SJDCPHPWUMBO-Flight-of-the-Wumbo-Bee?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/415677/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -5299,23 +5277,6 @@
         "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-VMT-01-Waterdeep--Statue-Heist",
-        "tiers": 3,
-        "title": "Waterdeep Statue Heist",
-        "url": "https://www.dmsguild.com/product/421822/SJDCVMT01-Waterdeep-Statue-Heist?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-VMT-01",
-        "date_created": "20230102",
-        "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "11-16",
         "product_id": "421822",
         "tiers": 3,
@@ -5371,32 +5332,15 @@
         "code": "SJ-DC-WINE-01",
         "date_created": "20230520",
         "full_title": "SJ-DC-WINE-01 Thunderstorms & Wine",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-WINE-01-Thunderstorms-&-Wine",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "438392",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Thunderstorms & Wine",
-        "url": "https://www.dmsguild.com/product/438392/SJDCWINE01-Thunderstorms--Wine?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Steven Truong"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-WINE-01",
-        "date_created": "20230520",
-        "full_title": "SJ-DC-WINE-01 Thunderstorms & Wine",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-WINE-01-Thunderstorms--Wine",
-        "tiers": 3,
-        "title": "Thunderstorms & Wine",
-        "url": "https://www.dmsguild.com/product/438392/SJDCWINE01-Thunderstorms--Wine?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/438392/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -6105,7 +6049,7 @@
         "url": "https://www.dmsguild.com/product/439154/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "PT MacKim"
         ],
@@ -6115,13 +6059,13 @@
         "code": "SJ-DC-EBAL-SPKY-03",
         "date_created": "20221130",
         "full_title": "Voidweaver's Web (SJ-DC-EBAL-SPKY-03)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": 3.44,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "418304",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Voidweaver's Web",
         "url": "https://www.dmsguild.com/product/418304/?affiliate_id=171040"
     },
