@@ -234,27 +234,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "DC-PoA-CJK-Gnome-Place-Like-Home--Adventures-in-Icewind-Dalecare",
-        "tiers": 2,
-        "title": "DC-PoA-CJK Gnome Place Like Home Adventures in Icewind Dalecare",
-        "url": "https://www.dmsguild.com/product/369474/DCPoACJK-Gnome-Place-Like-Home-Adventures-in-Icewind-Dalecare?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CJK",
-        "date_created": "20210901",
-        "full_title": "DC-PoA-CJK Gnome Place Like Home: Adventures in Icewind Dalecare",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "369474",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CJK Gnome Place Like Home Adventures in Icewind Dalecare",
-        "url": "https://www.dmsguild.com/product/369474/DCPoACJK-Gnome-Place-Like-Home-Adventures-in-Icewind-Dalecare?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"
+        "url": "https://www.dmsguild.com/product/369474/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2862,11 +2847,13 @@
         "full_title": "DC-PoA-WI-DD-02: Delving in the Dale",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-WI-DD-02--Delving-in-the-Dale",
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "355371",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-WI-DD-02 Delving in the Dale",
-        "url": "https://www.dmsguild.com/product/355371/DCPoAWIDD02-Delving-in-the-Dale?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/355371/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -2881,11 +2868,13 @@
         "full_title": "DC-PoA-WI-TTT-01 Wailing Ice: Trouble and Turmoil in Termalaine",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-WI-TTT-01-Wailing-Ice--Trouble-and-Turmoil-in-Termalaine",
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "348722",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-WI-TTT-01 Wailing Ice Trouble and Turmoil in Termalaine",
-        "url": "https://www.dmsguild.com/product/348722/DCPoAWITTT01-Wailing-Ice-Trouble-and-Turmoil-in-Termalaine?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/348722/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -2957,30 +2946,13 @@
         "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-Z-T2S2-Iggys-Folly",
+        "level_range": "5-10",
+        "price": 0.0,
+        "product_id": "369353",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
-        "url": "https://www.dmsguild.com/product/369353/DCPOAZT2S2-Iggys-Folly?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "Zardak123"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-Z-T2S2",
-        "date_created": "20210831",
-        "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-Z-T2S2-Iggy\u2019s-Folly",
-        "tiers": 2,
-        "title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
-        "url": "https://www.dmsguild.com/product/369353/DCPOAZT2S2-Iggys-Folly?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369353/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3163,7 +3135,7 @@
         "product_id": "345133",
         "season": "Icewind Dale",
         "tiers": 1,
-        "title": "That Ain't Mead",
+        "title": "That Ain't Mead DC-PoA-GSP02-03H",
         "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
     },
     {

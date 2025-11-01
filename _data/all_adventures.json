@@ -5964,28 +5964,11 @@
         "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "CCC-FC3-01-02-Tales-of-Estirwald--Corruption-of-the-Elderoak",
-        "tiers": 2,
-        "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
-        "url": "https://www.dmsguild.com/product/267821/CCCFC30102-Tales-of-Estirwald-Corruption-of-the-Elderoak?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-FC3-01-02",
-        "date_created": null,
-        "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "267821",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
         "url": "https://www.dmsguild.com/product/267821/?affiliate_id=171040"
     },
@@ -10233,11 +10216,13 @@
         "full_title": "CCC-SFBAY-04-02 Under Earth & Stone",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-SFBAY-04-02-Under-Earth--Stone",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "232428",
+        "season": null,
         "tiers": 2,
         "title": "CCC-SFBAY-04-02 Under Earth & Stone",
-        "url": "https://www.dmsguild.com/product/232428/CCCSFBAY0402-Under-Earth--Stone?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/232428/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -13144,27 +13129,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "DC-PoA-CJK-Gnome-Place-Like-Home--Adventures-in-Icewind-Dalecare",
-        "tiers": 2,
-        "title": "DC-PoA-CJK Gnome Place Like Home Adventures in Icewind Dalecare",
-        "url": "https://www.dmsguild.com/product/369474/DCPoACJK-Gnome-Place-Like-Home-Adventures-in-Icewind-Dalecare?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CJK",
-        "date_created": "20210901",
-        "full_title": "DC-PoA-CJK Gnome Place Like Home: Adventures in Icewind Dalecare",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "369474",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CJK Gnome Place Like Home Adventures in Icewind Dalecare",
-        "url": "https://www.dmsguild.com/product/369474/DCPoACJK-Gnome-Place-Like-Home-Adventures-in-Icewind-Dalecare?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"
+        "url": "https://www.dmsguild.com/product/369474/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -15772,11 +15742,13 @@
         "full_title": "DC-PoA-WI-DD-02: Delving in the Dale",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-WI-DD-02--Delving-in-the-Dale",
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "355371",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-WI-DD-02 Delving in the Dale",
-        "url": "https://www.dmsguild.com/product/355371/DCPoAWIDD02-Delving-in-the-Dale?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/355371/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -15791,11 +15763,13 @@
         "full_title": "DC-PoA-WI-TTT-01 Wailing Ice: Trouble and Turmoil in Termalaine",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-PoA-WI-TTT-01-Wailing-Ice--Trouble-and-Turmoil-in-Termalaine",
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "348722",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-WI-TTT-01 Wailing Ice Trouble and Turmoil in Termalaine",
-        "url": "https://www.dmsguild.com/product/348722/DCPoAWITTT01-Wailing-Ice-Trouble-and-Turmoil-in-Termalaine?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/348722/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -15867,30 +15841,13 @@
         "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-Z-T2S2-Iggys-Folly",
+        "level_range": "5-10",
+        "price": 0.0,
+        "product_id": "369353",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
-        "url": "https://www.dmsguild.com/product/369353/DCPOAZT2S2-Iggys-Folly?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "Zardak123"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-Z-T2S2",
-        "date_created": "20210831",
-        "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "DC-POA-Z-T2S2-Iggy\u2019s-Folly",
-        "tiers": 2,
-        "title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
-        "url": "https://www.dmsguild.com/product/369353/DCPOAZT2S2-Iggys-Folly?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/369353/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16035,7 +15992,7 @@
         "url": "https://www.dmsguild.com/product/408586/Depths-of-Recollection-WBWDCMEM02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Stefan Tomaschitz"
         ],
@@ -16043,16 +16000,16 @@
             "Ravenloft",
             "Forgotten Realms"
         ],
-        "code": "PS-DC-NOS-02",
+        "code": "RV-DC-SDG-02",
         "date_created": "20240301",
         "full_title": "Der Meister der Puppen",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "Der-Meister-der-Puppen",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Der Meister der Puppen",
-        "url": "https://www.dmsguild.com/product/472637/Der-Meister-der-Puppen?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/472637?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -16291,10 +16248,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Domains-of-Dread--Doom-Down-in-Boomtown-RV-DC-HBI-002",
+        "price": 2.75,
+        "product_id": "447852",
+        "season": null,
         "tiers": 0,
         "title": "Domains of Dread Doom Down in Boomtown",
-        "url": "https://www.dmsguild.com/product/447852/Domains-of-Dread-Doom-Down-in-Boomtown-RVDCHBI002?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/447852/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -16310,10 +16269,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Domains-of-Dread--Terror-in-Tombstone-RV-DC-HBI-003",
+        "price": 2.75,
+        "product_id": "451012",
+        "season": null,
         "tiers": 0,
         "title": "Domains of Dread Terror in Tombstone",
-        "url": "https://www.dmsguild.com/product/451012/Domains-of-Dread-Terror-in-Tombstone-RVDCHBI003?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/451012/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -16329,10 +16290,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Domains-of-Dread--the-Braska-Roadhouse-Chainsaw-Massacre-RV-DC-HBI-001",
+        "price": 2.75,
+        "product_id": "442290",
+        "season": null,
         "tiers": 0,
         "title": "Domains of Dread the Braska Roadhouse Chainsaw Massacre",
-        "url": "https://www.dmsguild.com/product/442290/Domains-of-Dread-the-Braska-Roadhouse-Chainsaw-Massacre-RVDCHBI001?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/442290/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -18059,7 +18022,7 @@
         ],
         "code": "FR-DC-NEW-TIER1-1",
         "date_created": "20250711",
-        "full_title": "FR-DC-NEW-TIER1-1",
+        "full_title": "FR-DC-NEW-TIER1-1 A Damsel in Distress",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -18067,11 +18030,11 @@
         "product_id": "529395",
         "season": null,
         "tiers": 1,
-        "title": "",
+        "title": "A Damsel in Distress",
         "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Bernard Velasco"
         ],
@@ -18081,7 +18044,7 @@
         "code": "FR-DC-NEW-TIER2-1",
         "date_created": "20250803",
         "full_title": "FR-DC-NEW-TIER2-1 The Bluebloods",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 0.99,
@@ -18431,10 +18394,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "FR-DC-PHP-CKA1--In-Slumbers-Keep",
+        "price": 3.99,
+        "product_id": "479895",
+        "season": null,
         "tiers": 2,
         "title": "In Slumber's Keep",
-        "url": "https://www.dmsguild.com/product/479895/FRDCPHPCKA1-In-Slumbers-Keep?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/479895/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -18447,13 +18412,15 @@
         "code": "FR-DC-PHP-INFRN01-01-",
         "date_created": "20240807",
         "full_title": "FR-DC-PHP-INFRN01-01: The Hidden Sanctum",
-        "hours": "4",
+        "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "FR-DC-PHP-INFRN01-01--The-Hidden-Sanctum",
+        "price": 3.44,
+        "product_id": "490910",
+        "season": null,
         "tiers": 2,
         "title": "The Hidden Sanctum",
-        "url": "https://www.dmsguild.com/product/490910/FRDCPHPINFRN0101-The-Hidden-Sanctum?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/490910/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -18466,13 +18433,15 @@
         "code": "FR-DC-PHP-PEST-01-",
         "date_created": "20241030",
         "full_title": "FR-DC-PHP-PEST-01: Pest Control",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": "FR-DC-PHP-PEST-01--Pest-Control",
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "500527",
+        "season": null,
         "tiers": 1,
         "title": "Pest Control",
-        "url": "https://www.dmsguild.com/product/500527/FRDCPHPPEST01-Pest-Control?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/500527/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -18485,13 +18454,15 @@
         "code": "FR-DC-PHP-PEST-02-",
         "date_created": "20250325",
         "full_title": "FR-DC-PHP-PEST-02: Pest Infestation",
-        "hours": "4",
+        "hours": "",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "FR-DC-PHP-PEST-02--Pest-Infestation",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "516547",
+        "season": null,
         "tiers": 2,
         "title": "Pest Infestation",
-        "url": "https://www.dmsguild.com/product/516547/FRDCPHPPEST02-Pest-Infestation?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/516547/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -19569,6 +19540,25 @@
     },
     {
         "apl": 3,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG-01",
+        "date_created": null,
+        "full_title": "FR-DC-WCAG-01 Black Water & Blue Wine",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "500389",
+        "season": null,
+        "tiers": 1,
+        "title": "Black Water & Blue Wine",
+        "url": "https://www.dmsguild.com/product/500389/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
         "authors": [
             "Nguyen Le"
         ],
@@ -20133,13 +20123,15 @@
         "code": "EB-SM-GULGO-13",
         "date_created": "20200330",
         "full_title": "Gulgo-13 | An Eberron Salvage Mission for Oracle of War",
-        "hours": "4",
+        "hours": "4-5",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Gulgo-13--An-Eberron-Salvage-Mission-for-Oracle-of-War",
+        "price": 3.95,
+        "product_id": "308079",
+        "season": null,
         "tiers": 1,
         "title": "Gulgo-13 | An Eberron Salvage Mission for Oracle of War",
-        "url": "https://www.dmsguild.com/product/308079/Gulgo13--An-Eberron-Salvage-Mission-for-Oracle-of-War&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/308079/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -20171,13 +20163,15 @@
         "code": "SJ-DC-HBI-002",
         "date_created": "20220929",
         "full_title": "Hardy and Beholder Investigations: The Hitchhiker (SJ-DC-HBI-002)",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Hardy-and-Beholder-Investigations--The-Hitchhiker-SJ-DC-HBI-002",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "411946",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Hardy and Beholder Investigations The Hitchhiker",
-        "url": "https://www.dmsguild.com/product/411946/Hardy-and-Beholder-Investigations-The-Hitchhiker-SJDCHBI002?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411946/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -20193,10 +20187,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Hardy-and-Beholder-Investigations--The-Reckoning-SJ-DC-HBI-003",
+        "price": 2.75,
+        "product_id": "411955",
+        "season": "Spelljammer",
         "tiers": 0,
         "title": "Hardy and Beholder Investigations The Reckoning",
-        "url": "https://www.dmsguild.com/product/411955/Hardy-and-Beholder-Investigations-The-Reckoning-SJDCHBI003?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411955/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -20209,13 +20205,15 @@
         "code": "SJ-DC-HBI-001",
         "date_created": "20220926",
         "full_title": "Hardy and Beholder Investigations: The Stowaway (SJ-DC-HBI-001)",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "Hardy-and-Beholder-Investigations--The-Stowaway-SJ-DC-HBI-001",
-        "tiers": 0,
+        "level_range": "1-4",
+        "price": 2.75,
+        "product_id": "411601",
+        "season": "Spelljammer",
+        "tiers": 1,
         "title": "Hardy and Beholder Investigations The Stowaway",
-        "url": "https://www.dmsguild.com/product/411601/Hardy-and-Beholder-Investigations-The-Stowaway-SJDCHBI001?filters=1000044_0_45393_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/411601/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21272,6 +21270,27 @@
         "tiers": 1,
         "title": "Murder in Salvation A 3 hour Tier 1 Salvage Mission",
         "url": "https://www.dmsguild.com/product/310332/Murder-in-Salvation-A-3-hour-Tier-1-Salvage-Mission?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "John Ritter"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-MMM-01",
+        "date_created": null,
+        "full_title": "Mysterious Mansion Materializes (FR-DC-MMM-01)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 5.0,
+        "product_id": "544334",
+        "season": null,
+        "tiers": 2,
+        "title": "Mysterious Mansion Materializes",
+        "url": "https://www.dmsguild.com/product/544334/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -22477,25 +22496,6 @@
     },
     {
         "apl": 8,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PS-DC-DRAGON24-05",
-        "date_created": null,
-        "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "493008",
-        "season": "Planescape",
-        "tiers": 2,
-        "title": "Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/493008/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
         "authors": [
             "David Sklenicka",
             "Davestar Gaming"
@@ -22506,13 +22506,15 @@
         "code": "PS-DC-DRAGON24-05",
         "date_created": "20240827",
         "full_title": "PS-DC-DRAGON24-05 Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-DRAGON24-05-Echoes-of-Futures-End-Chapter-Five-of-the-Broken-Ring-Saga",
-        "tiers": 0,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "493008",
+        "season": "Planescape",
+        "tiers": 2,
         "title": "Echoes of Future's End, Chapter Five of the Broken Ring Saga",
-        "url": "https://www.dmsguild.com/product/493008/PSDCDRAGON2405-Echoes-of-Futures-End-Chapter-Five-of-the-Broken-Ring-Saga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493008/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -22624,11 +22626,13 @@
         "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-MAR-01-Death-Taxes--Maruts",
+        "level_range": "17-20",
+        "price": 6.99,
+        "product_id": "487680",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Death, Taxes, & Maruts",
-        "url": "https://www.dmsguild.com/product/487680/PSDCMAR01-Death-Taxes--Maruts?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487680/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -22643,11 +22647,13 @@
         "full_title": "PS-DC-MAR-02 Planes, Trains, & Automatons",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "PS-DC-MAR-02-Planes-Trains--Automatons",
+        "level_range": "17-20",
+        "price": 6.99,
+        "product_id": "487681",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Planes, Trains, & Automatons",
-        "url": "https://www.dmsguild.com/product/487681/PSDCMAR02-Planes-Trains--Automatons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487681/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -23043,11 +23049,13 @@
         "full_title": "PS-DC-SB-BISH01 - The Mill On Turley Hill",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "PS-DC-SB-BISH01---The-Mill-On-Turley-Hill",
+        "level_range": "11-16",
+        "price": 7.99,
+        "product_id": "520780",
+        "season": "Planescape",
         "tiers": 3,
         "title": "- The Mill On Turley Hill",
-        "url": "https://www.dmsguild.com/product/520780/PSDCSBBISH01--The-Mill-On-Turley-Hill?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/520780/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -24081,23 +24089,6 @@
         ],
         "code": "SJ-DC-ARQ-01",
         "date_created": "20230226",
-        "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-ARQ-01--Welcome-to-the-Arqu\u00ebon-System",
-        "tiers": 1,
-        "title": "Welcome to the Arqu\u00ebon System",
-        "url": "https://www.dmsguild.com/product/428240/SJDCARQ01--Welcome-to-the-Arqueon-System?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-ARQ-01",
-        "date_created": null,
         "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
         "hours": "2",
         "is_adventure": true,
@@ -25411,23 +25402,6 @@
         "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-DUCKS-TTT-01---Save-the-Forest",
-        "tiers": 3,
-        "title": "- Save the Forest!",
-        "url": "https://www.dmsguild.com/product/441754/SJDCDUCKSTTT01--Save-the-Forest?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 16,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-DUCKS-TTT-01",
-        "date_created": null,
-        "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "11-16",
         "price": 1.0,
         "product_id": "441754",
@@ -26376,11 +26350,13 @@
         "full_title": "SJ-DC-MAD-02 Mad Effect: Retribution",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-MAD-02-Mad-Effect--Retribution",
+        "level_range": "5-10",
+        "price": 2.49,
+        "product_id": "424369",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Mad Effect Retribution",
-        "url": "https://www.dmsguild.com/product/424369/SJDCMAD02-Mad-Effect-Retribution?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/424369/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -26805,7 +26781,7 @@
         "url": "https://www.dmsguild.com/product/457175/SJDCPANDORAJWEI04-Fenrir?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -26818,10 +26794,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "SJ-DC-PHP-02--Securing-Passage",
+        "price": 3.99,
+        "product_id": "450714",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Securing Passage",
-        "url": "https://www.dmsguild.com/product/450714/SJDCPHP02-Securing-Passage?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/450714/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -26900,7 +26878,7 @@
         "url": "https://www.dmsguild.com/product/451727/SJDCPHPTYVAL01-i-give-you-this-gift-of-wings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -26913,10 +26891,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "product_id": "SJ-DC-PHP-WUMBO--Flight-of-the-Wumbo-Bee",
+        "price": 3.99,
+        "product_id": "415677",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Flight of the Wumbo Bee",
-        "url": "https://www.dmsguild.com/product/415677/SJDCPHPWUMBO-Flight-of-the-Wumbo-Bee?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/415677/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -28031,23 +28011,6 @@
         "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-VMT-01-Waterdeep--Statue-Heist",
-        "tiers": 3,
-        "title": "Waterdeep Statue Heist",
-        "url": "https://www.dmsguild.com/product/421822/SJDCVMT01-Waterdeep-Statue-Heist?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-VMT-01",
-        "date_created": "20230102",
-        "full_title": "SJ-DC-VMT-01 Waterdeep: Statue Heist",
-        "hours": "4",
-        "is_adventure": true,
         "level_range": "11-16",
         "product_id": "421822",
         "tiers": 3,
@@ -28103,32 +28066,15 @@
         "code": "SJ-DC-WINE-01",
         "date_created": "20230520",
         "full_title": "SJ-DC-WINE-01 Thunderstorms & Wine",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-WINE-01-Thunderstorms-&-Wine",
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "438392",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Thunderstorms & Wine",
-        "url": "https://www.dmsguild.com/product/438392/SJDCWINE01-Thunderstorms--Wine?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Steven Truong"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-WINE-01",
-        "date_created": "20230520",
-        "full_title": "SJ-DC-WINE-01 Thunderstorms & Wine",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "SJ-DC-WINE-01-Thunderstorms--Wine",
-        "tiers": 3,
-        "title": "Thunderstorms & Wine",
-        "url": "https://www.dmsguild.com/product/438392/SJDCWINE01-Thunderstorms--Wine?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/438392/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -28929,7 +28875,7 @@
         "product_id": "345133",
         "season": "Icewind Dale",
         "tiers": 1,
-        "title": "That Ain't Mead",
+        "title": "That Ain't Mead DC-PoA-GSP02-03H",
         "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
     },
     {
@@ -29455,7 +29401,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.95,
+        "price": 3.42,
         "product_id": "301681",
         "season": null,
         "tiers": 2,
@@ -30381,7 +30327,7 @@
         "url": "https://www.dmsguild.com/product/310775/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "PT MacKim"
         ],
@@ -30391,13 +30337,13 @@
         "code": "SJ-DC-EBAL-SPKY-03",
         "date_created": "20221130",
         "full_title": "Voidweaver's Web (SJ-DC-EBAL-SPKY-03)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": 3.44,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "418304",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Voidweaver's Web",
         "url": "https://www.dmsguild.com/product/418304/?affiliate_id=171040"
     },
@@ -31971,11 +31917,13 @@
         "full_title": "WBW-DC-GGS-01  Rescue for Ryeland",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-GGS-01--Rescue-for-Ryeland",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "408432",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Rescue for Ryeland",
-        "url": "https://www.dmsguild.com/product/408432/WBWDCGGS01--Rescue-for-Ryeland?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408432/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -32474,25 +32422,6 @@
         "tiers": 1,
         "title": "Spectacle at Shrineholt",
         "url": "https://www.dmsguild.com/product/406782/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Ma'at Crook"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "WBW-DC-MC-01",
-        "date_created": "20220831",
-        "full_title": "WBW-DC-MC-01 Memento Motus: S\u00e9ance for the Lost",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-MC-01-Memento-Motus--S\u00e9ance-for-the-Lost",
-        "tiers": 0,
-        "title": "Memento Motus S\u00e9ance for the Lost",
-        "url": "https://www.dmsguild.com/product/408609/WBWDCMC01-Memento-Motus-Seance-for-the-Lost?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,

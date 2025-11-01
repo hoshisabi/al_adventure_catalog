@@ -4456,28 +4456,11 @@
         "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
-        "product_id": "CCC-FC3-01-02-Tales-of-Estirwald--Corruption-of-the-Elderoak",
-        "tiers": 2,
-        "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
-        "url": "https://www.dmsguild.com/product/267821/CCCFC30102-Tales-of-Estirwald-Corruption-of-the-Elderoak?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-FC3-01-02",
-        "date_created": null,
-        "full_title": "CCC-FC3-01-02 Tales of Estirwald: Corruption of the Elderoak",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "267821",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
         "url": "https://www.dmsguild.com/product/267821/?affiliate_id=171040"
     },
@@ -8725,11 +8708,13 @@
         "full_title": "CCC-SFBAY-04-02 Under Earth & Stone",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
-        "product_id": "CCC-SFBAY-04-02-Under-Earth--Stone",
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "232428",
+        "season": null,
         "tiers": 2,
         "title": "CCC-SFBAY-04-02 Under Earth & Stone",
-        "url": "https://www.dmsguild.com/product/232428/CCCSFBAY0402-Under-Earth--Stone?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/232428/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -11500,7 +11485,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.95,
+        "price": 3.42,
         "product_id": "301681",
         "season": null,
         "tiers": 2,
