@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 18,
     "authors": [
         "D&D Adventurers League"
     ],
@@ -11,10 +11,11 @@
     "full_title": "EB-18 Scales of War",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "price": null,
+    "level_range": "17-20",
+    "price": 3.49,
     "product_id": "368629",
-    "tiers": null,
+    "season": null,
+    "tiers": 4,
     "title": "EB-18 Scales of War",
     "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"
 }

@@ -1,9 +1,11 @@
 {
     "apl": 1,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
-    "date_created": null,
+    "authors": [
+        "Karianne Fog Heen"
+    ],
+    "campaigns": null,
+    "code": "Welcome to Oar's Rest! [BUNDLE]",
+    "date_created": "20251020",
     "full_title": "Welcome to Oar's Rest! [BUNDLE]",
     "hours": "1",
     "is_adventure": false,
