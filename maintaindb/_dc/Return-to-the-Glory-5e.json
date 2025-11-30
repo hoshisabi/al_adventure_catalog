@@ -6,15 +6,16 @@
     "campaigns": [
         null
     ],
-    "code": null,
+    "code": "Return to the Glory (5e)",
     "date_created": "20200521",
     "full_title": "Return to the Glory (5e)",
     "hours": null,
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": null,
-    "price": null,
+    "price": 9.99,
     "product_id": "314450",
+    "season": null,
     "tiers": null,
-    "title": "Return to the Glory 5e",
+    "title": "Return to the Glory",
     "url": "https://www.dmsguild.com/product/314450/?affiliate_id=171040"
 }
