@@ -6,7 +6,7 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "FR-DC-GARY-02-",
+    "code": "FR-DC-GARY-02",
     "date_created": "20250320",
     "full_title": "FR-DC-GARY-02: Wind to Stone",
     "hours": "4",
@@ -14,6 +14,7 @@
     "level_range": "5-10",
     "price": 2.99,
     "product_id": "515932",
+    "season": null,
     "tiers": 2,
     "title": "Wind to Stone",
     "url": "https://www.dmsguild.com/product/515932/?affiliate_id=171040"
