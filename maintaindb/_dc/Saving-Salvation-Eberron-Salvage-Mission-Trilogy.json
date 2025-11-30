@@ -1,11 +1,13 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Bum Lee"
+    ],
     "campaigns": [
         "Eberron"
     ],
     "code": "EBERRON",
-    "date_created": null,
+    "date_created": "20200430",
     "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
     "hours": null,
     "is_adventure": true,

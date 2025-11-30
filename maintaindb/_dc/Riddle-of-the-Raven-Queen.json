@@ -9,15 +9,16 @@
     "campaigns": [
         null
     ],
-    "code": null,
+    "code": "Riddle of the Raven Queen",
     "date_created": "20180521",
     "full_title": "Riddle of the Raven Queen",
-    "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "hours": "8-12",
+    "is_adventure": true,
+    "level_range": "5-10",
+    "price": 5.95,
     "product_id": "242611",
-    "tiers": null,
+    "season": null,
+    "tiers": 2,
     "title": "Riddle of the Raven Queen",
     "url": "https://www.dmsguild.com/product/242611/?affiliate_id=171040"
 }
