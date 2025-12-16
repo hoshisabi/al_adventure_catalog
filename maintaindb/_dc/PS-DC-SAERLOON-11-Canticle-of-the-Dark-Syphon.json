@@ -1,6 +1,8 @@
 {
     "apl": 8,
-    "authors": ["Dennis R Hall"],
+    "authors": [
+        "Dennis R Hall"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,7 +12,7 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 1,
+    "price": 1.0,
     "product_id": "547716",
     "season": "Planescape",
     "tiers": 2,

@@ -10,6 +10,7 @@ dependencies = [
     "requests",
     "word2number",
     "python-dotenv",
+    "pytest>=9.0.2",
 ]
 
 [project.scripts]

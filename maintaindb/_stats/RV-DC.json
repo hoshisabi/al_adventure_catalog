@@ -1,5 +1,26 @@
 [
     {
+        "apl": 1,
+        "authors": [
+            "Stefan Tomaschitz"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-SDG-01",
+        "date_created": "20240811",
+        "full_title": "A Cursed Key",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 3.22,
+        "product_id": "491254",
+        "season": null,
+        "tiers": 1,
+        "title": "A Cursed Key",
+        "url": "https://www.dmsguild.com/product/491254/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Katriel Paige"
@@ -359,5 +380,25 @@
         "tiers": 1,
         "title": "Tavern Rats",
         "url": "https://www.dmsguild.com/product/519560/Tavern-Rats-RVDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-KEN-01",
+        "date_created": "20251201",
+        "full_title": "The Merchant (RV-DC-KEN-01)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "needs_review": true,
+        "price": 0.0,
+        "product_id": "547890",
+        "season": null,
+        "tiers": 1,
+        "title": "The Merchant",
+        "url": "https://www.dmsguild.com/product/547890/?affiliate_id=171040"
     }
 ]

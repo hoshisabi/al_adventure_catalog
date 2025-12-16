@@ -22,12 +22,14 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Franz Bedonia"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "PS-DC-DDD",
-        "date_created": null,
+        "date_created": "20240621",
         "full_title": "A Devious Deva's Deduction (PS-DC-DDD)",
         "hours": "4",
         "is_adventure": true,
@@ -137,6 +139,7 @@
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "515404",
+        "season": "Planescape",
         "tiers": 1,
         "title": "CAKE WARS II",
         "url": "https://www.dmsguild.com/product/515404/?affiliate_id=171040"
@@ -157,6 +160,7 @@
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "489416",
+        "season": "Planescape",
         "tiers": 1,
         "title": "CAKE WARS",
         "url": "https://www.dmsguild.com/product/489416/?affiliate_id=171040"
@@ -200,7 +204,7 @@
         "season": "Planescape",
         "tiers": 2,
         "title": "Frantic Frontier Fiasco",
-        "url": "https://www.dmsguild.com/product/526539/Frantic-Frontier-Fiasco-PSDCGMM03?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526539/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -638,6 +642,27 @@
         "tiers": 4,
         "title": "Saturated Seas",
         "url": "https://www.dmsguild.com/product/513470/PSDCELEMENTDEATH03-Saturated-Seas?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Death 101010"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-ELEMENT-DEATH-04",
+        "date_created": "20251108",
+        "full_title": "PS-DC-ELEMENT-DEATH-04 Skulls and Skies",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "545230",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "Skulls and Skies",
+        "url": "https://www.dmsguild.com/product/545230/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1101,6 +1126,67 @@
         "tiers": 4,
         "title": "Pillars of Peril",
         "url": "https://www.dmsguild.com/product/472724/PSDCPOP01-Pillars-of-Peril?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-RDP-03",
+        "date_created": "20251130",
+        "full_title": "PS-DC-RDP-03 The Upper Demonweb & PS-DC-RDP-04 The Lower Demonweb",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 4.95,
+        "product_id": "547771",
+        "season": "Planescape",
+        "tiers": 0,
+        "title": "The Upper Demonweb &  The Lower Demonweb",
+        "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-RDP-05",
+        "date_created": "20251214",
+        "full_title": "PS-DC-RDP-05 Demon Queen of Spiders",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "549347",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "Demon Queen of Spiders",
+        "url": "https://www.dmsguild.com/product/549347/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-SAERLOON-11",
+        "date_created": null,
+        "full_title": "PS-DC-SAERLOON-11 Canticle of the Dark Syphon",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 1.0,
+        "product_id": "547716",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Canticle of the Dark Syphon",
+        "url": "https://www.dmsguild.com/product/547716/?affiliate_id=171040"
     },
     {
         "apl": null,
