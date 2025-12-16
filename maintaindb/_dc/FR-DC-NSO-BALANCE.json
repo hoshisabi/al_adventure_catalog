@@ -1,21 +1,21 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 3,
+    "authors": ["Nick Oller"],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "FR-DC-NSO-BALANCE",
     "date_created": "20251201",
-    "full_title": "FR-DC-NSO-BALANCE",
-    "hours": null,
+    "full_title": "FR-DC-NSO-BALANCE A New Order Rises",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 4.95,
     "product_id": "547166",
     "season": null,
     "suggestedPrice": 4.95,
-    "tiers": null,
-    "title": "",
+    "tiers": 1,
+    "title": "A New Order Rises",
     "url": "https://www.dmsguild.com/product/547166/?affiliate_id=171040"
 }

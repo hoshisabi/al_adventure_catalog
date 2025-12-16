@@ -212,7 +212,7 @@ def get_patt_first_matching_group(regex, text):
 class DungeonCraft:
 
     def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaigns,
-                 season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None) -> None:
+                 season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title).strip()
@@ -233,6 +233,7 @@ class DungeonCraft:
         self.price = price
         self.payWhatYouWant = payWhatYouWant
         self.suggestedPrice = suggestedPrice
+        self.needs_review = needs_review
 
     def is_tier(self, tier):
         """Check if this adventure is for the specified tier."""
@@ -339,6 +340,9 @@ class DungeonCraft:
             result["payWhatYouWant"] = self.payWhatYouWant
         if self.suggestedPrice is not None:
             result["suggestedPrice"] = self.suggestedPrice
+        # Add needs_review if it exists (set by inference logic or RSS parser)
+        if self.needs_review is not None:
+            result["needs_review"] = self.needs_review
         return result
 
     def convert_date_to_readable_str(self):
@@ -1040,6 +1044,21 @@ def _infer_missing_adventure_data(data):
         data["is_adventure"] = True
     else:
         data["is_adventure"] = False
+    
+    # Flag for human review if title (module_name) couldn't be extracted
+    # This indicates the title wasn't in the HTML and may need manual entry
+    # (e.g., title might only be visible in thumbnail images)
+    module_name = data.get("module_name")
+    if not module_name or module_name.strip() == "":
+        data["needs_review"] = True
+        # Try to use code as a fallback title if available, but still flag for review
+        if data.get("code"):
+            data["module_name"] = data["code"]
+            # Note: title will be derived from module_name by DungeonCraft.__get_short_title()
+        else:
+            # If we don't even have a code, use product_id as absolute fallback
+            if data.get("product_id"):
+                data["module_name"] = f"Product {data['product_id']}"
 
     return data
 
