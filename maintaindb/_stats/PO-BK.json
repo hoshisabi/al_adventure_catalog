@@ -121,7 +121,7 @@
         "code": "PO-BK-02-09",
         "date_created": "20230414",
         "full_title": "PO-BK-02-09 Star Crash",
-        "hours": "2-4",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "price": 4.99,
@@ -573,6 +573,26 @@
         "url": "https://www.dmsguild.com/product/474556/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-3-12",
+        "date_created": "20251202",
+        "full_title": "PO-BK-3-12 Rule or Ruin",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548057",
+        "season": null,
+        "tiers": 0,
+        "title": "PO-BK-3-12 Rule or Ruin",
+        "url": "https://www.dmsguild.com/product/548057/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Tim Mangan",
@@ -593,6 +613,26 @@
         "tiers": 2,
         "title": "PO-BK-3-13 A Ship on Silent Seas",
         "url": "https://www.dmsguild.com/product/484628/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-5-01",
+        "date_created": "20251202",
+        "full_title": "PO-BK-5-01 Paragons of Wrath",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548076",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK-5-01 Paragons of Wrath",
+        "url": "https://www.dmsguild.com/product/548076/?affiliate_id=171040"
     },
     {
         "apl": null,

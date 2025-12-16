@@ -13,7 +13,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
-        "price": 0,
+        "price": 0.0,
         "product_id": "525512",
         "season": null,
         "tiers": 1,
@@ -34,7 +34,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 3.99,
         "product_id": "476395",
         "season": null,
         "tiers": 2,
@@ -97,7 +97,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 5.98,
+        "price": 2.99,
         "product_id": "521237",
         "season": null,
         "tiers": 1,
@@ -259,6 +259,27 @@
         "tiers": 2,
         "title": "ELDRITCH EYE WIDE SHUT",
         "url": "https://www.dmsguild.com/product/490000/ELDRITCH-EYE-WIDE-SHUT-FRDCVECNA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Nick Stefanski"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-ULCASTER-01",
+        "date_created": null,
+        "full_title": "Evoke with a Start (FR-DC-ULCASTER-01)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.49,
+        "product_id": "546920",
+        "season": null,
+        "tiers": 2,
+        "title": "Evoke with a Start",
+        "url": "https://www.dmsguild.com/product/546920/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -725,6 +746,27 @@
         "url": "https://www.dmsguild.com/product/512504/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Chris Andaya"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-CASE-01",
+        "date_created": "20251030",
+        "full_title": "FR-DC-CASE-01 Under Lock and Key",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.54,
+        "product_id": "543540",
+        "season": null,
+        "tiers": 1,
+        "title": "Under Lock and Key",
+        "url": "https://www.dmsguild.com/product/543540/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Christopher B. Bertucio"
@@ -1132,7 +1174,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-GARY-01-",
+        "code": "FR-DC-GARY-01",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-01: Sand to Ash",
         "hours": "4",
@@ -1140,6 +1182,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "515929",
+        "season": null,
         "tiers": 2,
         "title": "Sand to Ash",
         "url": "https://www.dmsguild.com/product/515929/?affiliate_id=171040"
@@ -1152,7 +1195,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-GARY-02-",
+        "code": "FR-DC-GARY-02",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-02: Wind to Stone",
         "hours": "4",
@@ -1160,6 +1203,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "515932",
+        "season": null,
         "tiers": 2,
         "title": "Wind to Stone",
         "url": "https://www.dmsguild.com/product/515932/?affiliate_id=171040"
@@ -1172,7 +1216,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-GARY-03-",
+        "code": "FR-DC-GARY-03",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-03: Blade to Branch",
         "hours": "4",
@@ -1180,6 +1224,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "515935",
+        "season": null,
         "tiers": 2,
         "title": "Blade to Branch",
         "url": "https://www.dmsguild.com/product/515935/?affiliate_id=171040"
@@ -1193,7 +1238,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-GARY-04-",
+        "code": "FR-DC-GARY-04",
         "date_created": "20250320",
         "full_title": "FR-DC-GARY-04: Frost to Fire",
         "hours": "4",
@@ -1201,6 +1246,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "515936",
+        "season": null,
         "tiers": 2,
         "title": "Frost to Fire",
         "url": "https://www.dmsguild.com/product/515936/?affiliate_id=171040"
@@ -1644,6 +1690,27 @@
         "url": "https://www.dmsguild.com/product/465190/FRDCNMB201-Better-Together?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-NSO-BALANCE",
+        "date_created": "20251201",
+        "full_title": "FR-DC-NSO-BALANCE",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": true,
+        "price": 4.95,
+        "product_id": "547166",
+        "season": null,
+        "suggestedPrice": 4.95,
+        "tiers": 0,
+        "title": "",
+        "url": "https://www.dmsguild.com/product/547166/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Marcello De Velazquez"
@@ -1654,11 +1721,12 @@
         "code": "FR-DC-NUKE-01",
         "date_created": "20241106",
         "full_title": "FR-DC-NUKE-01 The Search for the Scarlet Stallion",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 4.99,
         "product_id": "501443",
+        "season": null,
         "tiers": 1,
         "title": "The Search for the Scarlet Stallion",
         "url": "https://www.dmsguild.com/product/501443/?affiliate_id=171040"
@@ -1962,7 +2030,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-PHP-PEST-01-",
+        "code": "FR-DC-PHP-PEST-01",
         "date_created": "20241030",
         "full_title": "FR-DC-PHP-PEST-01: Pest Control",
         "hours": "2-4",
@@ -2016,6 +2084,27 @@
         "tiers": 3,
         "title": "Vie for the Eye",
         "url": "https://www.dmsguild.com/product/531524/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-RDP-01",
+        "date_created": "20251007",
+        "full_title": "FR-DC-RDP-01 Vault of the Drow Risen & FR-DC-RDP-02 The Great Fane of Lolth",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 4.95,
+        "product_id": "539689",
+        "season": null,
+        "tiers": 0,
+        "title": "Vault of the Drow Risen &  The Great Fane of Lolth",
+        "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -2237,11 +2326,12 @@
         "code": "FR-DC-SAERLOON-00",
         "date_created": "20240718",
         "full_title": "FR-DC-SAERLOON-00 Darkhouse, Deliverance",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "price": 1.0,
         "product_id": "488443",
+        "season": null,
         "tiers": 3,
         "title": "Darkhouse, Deliverance",
         "url": "https://www.dmsguild.com/product/488443/?affiliate_id=171040"
@@ -2374,6 +2464,27 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "FR-DC-SAERLOON-06",
+        "date_created": "20250420",
+        "full_title": "FR-DC-Saerloon-06 The Tremblers v1.0",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 1.0,
+        "product_id": "519418",
+        "season": null,
+        "tiers": 2,
+        "title": "FR-DC-Saerloon-06 The Tremblers v1.0",
+        "url": "https://www.dmsguild.com/product/519418/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "FR-DC-SAERLOON-07",
         "date_created": "20250510",
         "full_title": "FR-DC-Saerloon-07 A Gaggle of Gates",
@@ -2405,6 +2516,27 @@
         "tiers": 2,
         "title": "FR-DC-Saerloon-08 Saberwing",
         "url": "https://www.dmsguild.com/product/525565/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Darryl Ho"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-SCRC-01",
+        "date_created": "20251104",
+        "full_title": "FR-DC-SCRC-01 Scar City",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "544605",
+        "season": null,
+        "tiers": 2,
+        "title": "Scar City",
+        "url": "https://www.dmsguild.com/product/544605/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2445,6 +2577,27 @@
         "tiers": 1,
         "title": "The Secret in Sanctuary",
         "url": "https://www.dmsguild.com/product/517244/?affiliate_id=171040"
+    },
+    {
+        "apl": 2,
+        "authors": [
+            "Greg Wright"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-SSG-FAI-02-",
+        "date_created": "20251111",
+        "full_title": "FR-DC-SSG-FAI-02: The Communion of Laughter",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "545526",
+        "season": null,
+        "tiers": 1,
+        "title": "The Communion of Laughter",
+        "url": "https://www.dmsguild.com/product/545526/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3018,6 +3171,93 @@
     {
         "apl": 3,
         "authors": [
+            "Bryan Mets",
+            "Daniel Chapman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25-01",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25-01 Burl Trouble",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 1.0,
+        "product_id": "545950",
+        "season": null,
+        "tiers": 1,
+        "title": "Burl Trouble",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bryan Mets"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25-02",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25-02 Oily Conundrum",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 1.0,
+        "product_id": "545950",
+        "season": null,
+        "tiers": 1,
+        "title": "Oily Conundrum",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bryan Mets",
+            "Daniel Chapman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25-03",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25-03 Beneath the Burl",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "545950",
+        "season": null,
+        "tiers": 1,
+        "title": "Beneath the Burl",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bryan Mets",
+            "Daniel Chapman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25 Welcome to Basht Series",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "545950",
+        "season": null,
+        "tiers": 1,
+        "title": "Welcome to Basht Series",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "Jeremy Johnston",
             "Unite the Factions"
         ],
@@ -3342,6 +3582,151 @@
         "tiers": 1,
         "title": "The Eyes of Shaktari",
         "url": "https://www.dmsguild.com/product/516920/FRDCWCAG0304-The-Eyes-of-Shaktari?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-01",
+        "date_created": "20251128",
+        "full_title": "FR-DC-WCAG04-01 Hit the Bricks!",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 3.99,
+        "product_id": "547615",
+        "season": null,
+        "tiers": 0,
+        "title": "Hit the Bricks!",
+        "url": "https://www.dmsguild.com/product/547615/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-02",
+        "date_created": null,
+        "full_title": "FR-DC-WCAG04-02 Underwater Kingdom",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 3.99,
+        "product_id": "547618",
+        "season": null,
+        "tiers": 0,
+        "title": "Underwater Kingdom",
+        "url": "https://www.dmsguild.com/product/547618/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Nathan DePetris",
+            "Marc \"DM Mythall\" Kassouf"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-03",
+        "date_created": null,
+        "full_title": "FR-DC-WCAG04-03 A Lighter Shade of Death",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "547622",
+        "season": null,
+        "tiers": 1,
+        "title": "A Lighter Shade of Death",
+        "url": "https://www.dmsguild.com/product/547622/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Wolf Miller",
+            "S. Nathan DePetris"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-04",
+        "date_created": null,
+        "full_title": "FR-DC-WCAG04-04 Eve of Explosive Endings",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "547623",
+        "season": null,
+        "tiers": 1,
+        "title": "Eve of Explosive Endings",
+        "url": "https://www.dmsguild.com/product/547623/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jay Africa"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-05",
+        "date_created": null,
+        "full_title": "FR-DC-WCAG04-05 All the Worlds' Stage",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "547626",
+        "season": null,
+        "tiers": 2,
+        "title": "All the Worlds' Stage",
+        "url": "https://www.dmsguild.com/product/547626/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-06",
+        "date_created": "20251205",
+        "full_title": "FR-DC-WCAG04-06 A Patch of Unfurled Green",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 3.99,
+        "product_id": "548343",
+        "season": null,
+        "tiers": 0,
+        "title": "A Patch of Unfurled Green",
+        "url": "https://www.dmsguild.com/product/548343/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WCAG04-07",
+        "date_created": null,
+        "full_title": "FR-DC-WCAG04-07 The Gloom of Glimmer-Goo Cove",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "547631",
+        "season": null,
+        "tiers": 1,
+        "title": "The Gloom of Glimmer-Goo Cove",
+        "url": "https://www.dmsguild.com/product/547631/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3721,25 +4106,24 @@
         "url": "https://www.dmsguild.com/product/500326/Mummy-Dust-FRDCGHG04?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 8,
-        "authors": [
-            "John Ritter"
-        ],
+        "apl": 13,
+        "authors": [],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-MMM-01",
-        "date_created": null,
-        "full_title": "Mysterious Mansion Materializes (FR-DC-MMM-01)",
-        "hours": "4",
+        "code": "FR-DC-ONI-04",
+        "date_created": "20251201",
+        "full_title": "My Brother's Enemy (FR-DC-ONI-04)",
+        "hours": "",
         "is_adventure": true,
-        "level_range": "5-10",
-        "price": 5.0,
-        "product_id": "544334",
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 3.99,
+        "product_id": "547961",
         "season": null,
-        "tiers": 2,
-        "title": "Mysterious Mansion Materializes",
-        "url": "https://www.dmsguild.com/product/544334/?affiliate_id=171040"
+        "tiers": 3,
+        "title": "My Brother's Enemy",
+        "url": "https://www.dmsguild.com/product/547961/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3781,6 +4165,27 @@
         "tiers": 2,
         "title": "Oni of the Thousand Gates",
         "url": "https://www.dmsguild.com/product/474962/Oni-of-the-Thousand-Gates-FRDCONI01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jamie Chan"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-GAMEJAM-01",
+        "date_created": "20251101",
+        "full_title": "Only (Peacock) Fans (FR-DC-GAMEJAM-01)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "544390",
+        "season": null,
+        "tiers": 3,
+        "title": "Only Peacock Fans",
+        "url": "https://www.dmsguild.com/product/544390/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4177,6 +4582,26 @@
         "url": "https://www.dmsguild.com/product/520319/The-400-Year-Old-Thayan-FRDCTHAY03?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-F&ADDM-LES1",
+        "date_created": "20251130",
+        "full_title": "The Breath of Hapi (FR-DC-F&ADDM-LES1)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.95,
+        "product_id": "547813",
+        "season": null,
+        "tiers": 3,
+        "title": "The Breath of Hapi FR-DC-F&ADDM-LES1",
+        "url": "https://www.dmsguild.com/product/547813/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Mike Arrow"
@@ -4469,7 +4894,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 3.49,
         "product_id": "497476",
         "season": null,
         "tiers": 1,
@@ -4488,10 +4913,10 @@
         "code": "FR-DC-TKM-WW",
         "date_created": "20240826",
         "full_title": "What's Within (FR-DC-TKM-WW)",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 19.45,
+        "price": 3.99,
         "product_id": "492836",
         "season": null,
         "tiers": 2,
@@ -4512,7 +4937,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.99,
+        "price": 3.49,
         "product_id": "523867",
         "season": null,
         "tiers": 2,
@@ -4553,11 +4978,11 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 23.94,
+        "price": 3.99,
         "product_id": "499777",
         "season": null,
         "tiers": 1,
-        "title": "Witch, Please - It's a Carnival  5e",
+        "title": "Witch, Please - It's a Carnival",
         "url": "https://www.dmsguild.com/product/499777/?affiliate_id=171040"
     }
 ]

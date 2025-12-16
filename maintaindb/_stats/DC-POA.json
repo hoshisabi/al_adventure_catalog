@@ -14,7 +14,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "price": 3.49,
         "product_id": "338570",
         "season": "Icewind Dale",
         "tiers": 1,
@@ -116,6 +116,7 @@
         "level_range": "1-4",
         "price": 3.99,
         "product_id": "342209",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-POA-CBB-01  Twirling Towards Oblivion",
         "url": "https://www.dmsguild.com/product/342209/?affiliate_id=171040"
@@ -136,6 +137,7 @@
         "level_range": "1-4",
         "price": 3.99,
         "product_id": "346672",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-CBB-02  Avarice Everlasting",
         "url": "https://www.dmsguild.com/product/346672/?affiliate_id=171040"
@@ -156,6 +158,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "349733",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CBB-03  The Menagerie of Count Zapharry",
         "url": "https://www.dmsguild.com/product/349733/?affiliate_id=171040"
@@ -176,6 +179,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "357544",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-POA-CBB-04  Cossum's Universal Constructs",
         "url": "https://www.dmsguild.com/product/357544/?affiliate_id=171040"
@@ -196,6 +200,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "362133",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CBB-05 Menace At The Strandwolf Peaks",
         "url": "https://www.dmsguild.com/product/362133/?affiliate_id=171040"
@@ -216,6 +221,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "367061",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",
         "url": "https://www.dmsguild.com/product/367061/?affiliate_id=171040"
@@ -431,7 +437,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 64.55,
+        "price": 4.99,
         "product_id": "339808",
         "season": "Icewind Dale",
         "tiers": 2,
@@ -730,6 +736,27 @@
         "tiers": 2,
         "title": "DC-PoA-CONMAR-19 Wherever I May Float",
         "url": "https://www.dmsguild.com/product/369301/DCPoACONMAR19-Wherever-I-May-Float?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Martine Brandt Lassen"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-CONMAR",
+        "date_created": "20210831",
+        "full_title": "DC-PoA-CONMAR Play Order",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 0.5,
+        "product_id": "369438",
+        "season": "Icewind Dale",
+        "tiers": 0,
+        "title": "DC-PoA-CONMAR Play Order",
+        "url": "https://www.dmsguild.com/product/369438/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1675,6 +1702,27 @@
         "url": "https://www.dmsguild.com/product/368980/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Jody Claunch"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-JCDC-01",
+        "date_created": "20210822",
+        "full_title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 0.66,
+        "product_id": "368518",
+        "season": "Icewind Dale",
+        "tiers": 1,
+        "title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
+        "url": "https://www.dmsguild.com/product/368518/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Jasper's Game Day",
@@ -1783,12 +1831,15 @@
     },
     {
         "apl": 3,
-        "authors": [],
+        "authors": [
+            "Brian Collier",
+            "Martine Lassen"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DC-POA-KCB-MBL",
-        "date_created": null,
+        "date_created": "20201206",
         "full_title": "DC-PoA-KCB-MBL - The Stolen Curse",
         "hours": "4",
         "is_adventure": true,
@@ -1919,7 +1970,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "price": 3.99,
         "product_id": "369330",
         "season": "Icewind Dale",
         "tiers": 1,
@@ -1940,7 +1991,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 11.96,
+        "price": 2.99,
         "product_id": "339064",
         "season": "Icewind Dale",
         "tiers": 1,
@@ -2077,7 +2128,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 6.97,
+        "price": 6.99,
         "product_id": "345391",
         "season": "Icewind Dale",
         "tiers": 2,
@@ -2766,7 +2817,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "price": 4.99,
         "product_id": "368489",
         "season": "Icewind Dale",
         "tiers": 2,
@@ -3010,6 +3061,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "369347",
+        "season": "Icewind Dale",
         "tiers": 2,
         "title": "Eateat Go Home? DC-POA-PND-4",
         "url": "https://www.dmsguild.com/product/369347/?affiliate_id=171040"
@@ -3108,9 +3160,10 @@
         "full_title": "Someone Dropped the Goat-Ball (DC-POA-PND-1)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1-4",
+        "level_range": "5-10",
         "price": 4.99,
         "product_id": "354319",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "Someone Dropped the Goat-Ball DC-POA-PND-1",
         "url": "https://www.dmsguild.com/product/354319/?affiliate_id=171040"
@@ -3137,6 +3190,28 @@
         "tiers": 1,
         "title": "That Ain't Mead DC-PoA-GSP02-03H",
         "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Paul Gabat",
+            "Kristoff Alejo"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-GSP02-01H",
+        "date_created": "20210130",
+        "full_title": "The Arrival of Mr. Sorrow (DC-PoA-GSP02-01H)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "345129",
+        "season": "Icewind Dale",
+        "tiers": 1,
+        "title": "The Arrival of Mr. Sorrow DC-PoA-GSP02-01H",
+        "url": "https://www.dmsguild.com/product/345129/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3303,7 +3378,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 11.96,
+        "price": 2.99,
         "product_id": "369329",
         "season": "Icewind Dale",
         "tiers": 1,
@@ -3324,7 +3399,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 11.96,
+        "price": 2.99,
         "product_id": "369349",
         "season": "Icewind Dale",
         "tiers": 2,

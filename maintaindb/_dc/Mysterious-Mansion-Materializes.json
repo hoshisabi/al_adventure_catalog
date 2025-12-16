@@ -1,10 +1,14 @@
 {
     "apl": 8,
-    "authors": ["John Ritter"],
-    "campaigns": ["Forgotten Realms"],
-    "code": "FR-DC-MMM-01",
+    "authors": [
+        "John Ritter"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "Mysterious Mansion Materializes",
     "date_created": null,
-    "full_title": "Mysterious Mansion Materializes (FR-DC-MMM-01)",
+    "full_title": "Mysterious Mansion Materializes",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",

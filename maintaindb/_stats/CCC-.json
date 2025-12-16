@@ -332,6 +332,72 @@
         "url": "https://www.dmsguild.com/product/256915/CCCAN03-Winter-Wonderland?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "David Morris",
+            "MOGC"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-Anime-1-1",
+        "date_created": "20180313",
+        "full_title": "CCC - Anime - 1-1 Legend of the Sword Bandit Surprise",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "236786",
+        "season": null,
+        "tiers": 1,
+        "title": "CCC - Anime - 1-1 Legend of the Sword Bandit Surprise",
+        "url": "https://www.dmsguild.com/product/236786/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Dave Knighton",
+            "MOGC"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-Anime-1-2",
+        "date_created": "20180313",
+        "full_title": "CCC - Anime - 1-2 Let's Find the Sword, GO!",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "236787",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC - Anime - 1-2 Let's Find the Sword, GO!",
+        "url": "https://www.dmsguild.com/product/236787/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Derek Gray",
+            "MOGC"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-Anime-1-3",
+        "date_created": "20180313",
+        "full_title": "CCC - Anime - 1-3 Star Sword Return",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "236788",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC - Anime - 1-3 Star Sword Return",
+        "url": "https://www.dmsguild.com/product/236788/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Daniel Eggert"
@@ -2888,6 +2954,48 @@
     {
         "apl": 8,
         "authors": [
+            "The Seer"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-BWM-002",
+        "date_created": "20181002",
+        "full_title": "CCC-BWM-002 The City in the Depths",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "253855",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-BWM-002 The City in the Depths",
+        "url": "https://www.dmsguild.com/product/253855/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jia Jian Tin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-BWM-003",
+        "date_created": "20180929",
+        "full_title": "CCC-BWM-003 A Tale of Two Towers",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 2.99,
+        "product_id": "253558",
+        "season": null,
+        "tiers": 3,
+        "title": "CCC-BWM-003 A Tale of Two Towers",
+        "url": "https://www.dmsguild.com/product/253558/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
             "JAWSH MURDOCK"
         ],
         "campaigns": [
@@ -3058,7 +3166,7 @@
         ],
         "code": "CCC-CENTRIC01-03",
         "date_created": "20200807",
-        "full_title": "CCC-CENTRIC01-03    The Patchwork Tower",
+        "full_title": "CCC-CENTRIC01-03 The Patchwork Tower",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -3066,7 +3174,7 @@
         "product_id": "322508",
         "season": null,
         "tiers": 1,
-        "title": "CCC-CENTRIC01-03    The Patchwork Tower",
+        "title": "CCC-CENTRIC01-03 The Patchwork Tower",
         "url": "https://www.dmsguild.com/product/322508/?affiliate_id=171040"
     },
     {
@@ -3577,7 +3685,7 @@
         "full_title": "CCC-DDSC-02 A Fool and His Gold",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
         "price": 3.99,
         "product_id": "217046",
         "season": null,
@@ -4190,6 +4298,28 @@
         "url": "https://www.dmsguild.com/product/311688/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Paul Johnson",
+            "Jia Jian Tin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ELF-001",
+        "date_created": "20181221",
+        "full_title": "CCC - ELF - 001 Life's a Party",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "262096",
+        "season": null,
+        "tiers": 1,
+        "title": "CCC - ELF - 001 Life's a Party",
+        "url": "https://www.dmsguild.com/product/262096/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Christine Weidenbach"
@@ -4432,6 +4562,27 @@
         "tiers": 3,
         "title": "CCC-FC3-04 For The Greater Good",
         "url": "https://www.dmsguild.com/product/335799/CCCFC304-For-The-Greater-Good?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Jia Jian Tin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-FCC-001",
+        "date_created": "20200330",
+        "full_title": "CCC - FCC - 001 Isle of Moss",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "307811",
+        "season": null,
+        "tiers": 1,
+        "title": "CCC - FCC - 001 Isle of Moss",
+        "url": "https://www.dmsguild.com/product/307811/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -4771,28 +4922,6 @@
         "url": "https://www.dmsguild.com/product/341259/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Thomas Valley",
-            "Luke Gygax"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-GARY01-03-",
-        "date_created": "20170414",
-        "full_title": "CCC-GARY01-03: The Gary Con 2017 Story Arc",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "price": 12.99,
-        "product_id": "209694",
-        "season": null,
-        "tiers": 0,
-        "title": "CCC-GARY01-03 The Gary Con 2017 Story Arc",
-        "url": "https://www.dmsguild.com/product/209694/?affiliate_id=171040"
-    },
-    {
         "apl": 7,
         "authors": [
             "Thomas Valley",
@@ -4801,7 +4930,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-GARY01-",
+        "code": "CCC-GARY-01",
         "date_created": "20170414",
         "full_title": "CCC-GARY01: A Night to Remember",
         "hours": "2",
@@ -4823,7 +4952,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-GARY02-",
+        "code": "CCC-GARY-02",
         "date_created": "20170414",
         "full_title": "CCC-GARY02: To Find a Way Out",
         "hours": "2",
@@ -4845,7 +4974,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-GARY03-",
+        "code": "CCC-GARY-03",
         "date_created": "20170414",
         "full_title": "CCC-GARY03: Oh, We're In It Now",
         "hours": "2",
@@ -5808,7 +5937,7 @@
         ],
         "code": "CCC-GSP-03-01",
         "date_created": "20210104",
-        "full_title": "CCC-GSP-03-01",
+        "full_title": "CCC-GSP-03-01 Heartfelt Memories",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
@@ -5816,7 +5945,7 @@
         "product_id": "341795",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GSP-03-01",
+        "title": "Heartfelt Memories",
         "url": "https://www.dmsguild.com/product/341795/?affiliate_id=171040"
     },
     {
@@ -7343,7 +7472,7 @@
         ],
         "code": "CCC-ODFC04-01",
         "date_created": "20200720",
-        "full_title": "CCC-ODFC04-01 The Cause of All Life\u2019s Problems",
+        "full_title": "CCC-ODFC04-01 The Cause of All Life's Problems",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
@@ -7351,7 +7480,7 @@
         "product_id": "320479",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ODFC04-01 The Cause of All Life\u2019s Problems",
+        "title": "CCC-ODFC04-01 The Cause of All Life's Problems",
         "url": "https://www.dmsguild.com/product/320479/?affiliate_id=171040"
     },
     {
@@ -8855,6 +8984,68 @@
         "tiers": 2,
         "title": "CCC-SQC-003-01 Consumption",
         "url": "https://www.dmsguild.com/product/295761/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jia Jian Tin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-SQC-02-01",
+        "date_created": "20180929",
+        "full_title": "CCC-SQC-02-01 None the Wiser",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "253561",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-SQC-02-01 None the Wiser",
+        "url": "https://www.dmsguild.com/product/253561/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "William Kerney"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-SQC-02-02",
+        "date_created": "20180930",
+        "full_title": "CCC-SQC-02-02 Last Gasp",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.0,
+        "product_id": "253726",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-SQC-02-02 Last Gasp",
+        "url": "https://www.dmsguild.com/product/253726/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jia Jian Tin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-SQC-03-02",
+        "date_created": "20191212",
+        "full_title": "CCC - SQC - 03-02 Shiitake",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": 295790,
+        "tiers": 2,
+        "title": "CCC - SQC - 03-02 Shiitake",
+        "url": "https://www.dmsguild.com/product/295790/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -10885,6 +11076,27 @@
         "url": "https://www.dmsguild.com/product/239988/CCCHATMS0103-Destiny-Defied?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Dennis R Hall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ODFC03-01",
+        "date_created": "20191201",
+        "full_title": "CCC-ODFC03-01 A Momentary Lapse of Reason",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.0,
+        "product_id": "296435",
+        "season": null,
+        "tiers": 1,
+        "title": "CCC\u2010ODFC03\u201001 A Momentary Lapse of Reason",
+        "url": "https://www.dmsguild.com/product/296435/?affiliate_id=171040"
+    },
+    {
         "apl": 11,
         "authors": [
             "Jeremy Hochhalter"
@@ -11018,6 +11230,92 @@
         "tiers": 1,
         "title": "CCCTHENT01-03 The Dreaming Relic",
         "url": "https://www.dmsguild.com/product/223667/CCCTHENT0103-The-Dreaming-Relic?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Emily Smith",
+            "MOGC"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ALMOG-27",
+        "date_created": "20190804",
+        "full_title": "Cove of Fallen Souls (CCC-ALMOG-27 DAGON01-02)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "284815",
+        "season": null,
+        "tiers": 1,
+        "title": "Cove of Fallen Souls",
+        "url": "https://www.dmsguild.com/product/284815/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Fenway Jones",
+            "Lucas Curell",
+            "Chance Curell"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-JGD-02",
+        "date_created": "20191008",
+        "full_title": "CCC-JGD-02 Tortle Crossing",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "291011",
+        "tiers": 1,
+        "title": "CCC-JGD-02 Tortle Crossing",
+        "url": "https://www.dmsguild.com/product/291011?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Chance Curell",
+            "Lucas Curell",
+            "Fenway Jones"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-JGD-03",
+        "date_created": "20191008",
+        "full_title": "CCC-JGD-03 Tortle Tribulations",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": 291016,
+        "tiers": 2,
+        "title": "CCC-JGD-03 Tortle Tribulations",
+        "url": "https://www.dmsguild.com/product/291016/DDALJGD03-Tortle-Tribulations&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Tim Kubik"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-DRUIDS-03",
+        "date_created": "20191210",
+        "full_title": "DDALCCC-DRUIDS-03 In Tents",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "297088",
+        "tiers": 1,
+        "title": "DDALCCC-DRUIDS-03 In Tents",
+        "url": "https://www.dmsguild.com/product/297088/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -11258,6 +11556,27 @@
         "url": "https://www.dmsguild.com/product/295614/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Andrew Bishkinskyi"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-6SWORDS-01",
+        "date_created": "20200720",
+        "full_title": "Six Swords Out of Hell",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 7.99,
+        "product_id": "313874",
+        "season": null,
+        "tiers": 3,
+        "title": "Six Swords Out of Hell",
+        "url": "https://www.dmsguild.com/product/313874/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Anthony Joyce",
@@ -11292,8 +11611,8 @@
         "full_title": "When Mages Fall (CCC-OA-01-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.49,
+        "level_range": "5-10",
+        "price": 4.99,
         "product_id": "296439",
         "season": null,
         "tiers": 2,
