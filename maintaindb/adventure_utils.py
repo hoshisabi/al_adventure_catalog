@@ -63,9 +63,15 @@ DDAL_CAMPAIGN = {
     'DDAL09': ['Forgotten Realms'],
     'DDAL10': ['Forgotten Realms'],
     'DDAL11': ['Forgotten Realms'],
-    'DDALEL': ['Eberron'], # Confirmed: Era of the Last War
-    'DDALDRW': ['Forgotten Realms'], # Corrected: Dreams of the Red Wizards is Forgotten Realms
-    'SJA':    ['Spelljammer'], # Confirmed: Spelljammer Adventures (4 modules)
+    'DDAL00': ['Forgotten Realms'], # Season 0 special adventures
+    'DDAL-DRW': ['Forgotten Realms'], # Dreams of the Red Wizards (with hyphen)
+    'DDALDRW': ['Forgotten Realms'], # Dreams of the Red Wizards (without hyphen, for pattern matching)
+    'DDAL-ELW': ['Eberron'], # Era of the Last War (with hyphen)
+    'DDALEL': ['Eberron'], # Era of the Last War (without hyphen, for pattern matching)
+    'DDALELW': ['Eberron'], # Era of the Last War (alternative pattern)
+    'DDEP': ['Forgotten Realms'], # D&D Epic adventures
+    'EB': ['Eberron'], # Generic Eberron
+    'SJA': ['Spelljammer'], # Spelljammer Adventures (4 modules)
 }
 
 

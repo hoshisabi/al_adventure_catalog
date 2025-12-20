@@ -24,7 +24,6 @@ This directory contains Python scripts used for maintaining the adventure catalo
 
 The following modules are part of an alternative/refactored architecture but are **not currently used** by any active scripts. They are kept for future refactoring work (see `REFACTORING_TASKS.md` and `REFACTOR.md` for details):
 
-*   `adventure_model.py`: Alternative data model using the `Adventure` dataclass.
 *   `adventure_extractors.py`: HTML extraction classes (`AdventureHTMLExtractor`) for the refactored architecture.
 *   `adventure_normalizers.py`: Data normalization classes (`AdventureDataNormalizer`) for the refactored architecture.
 

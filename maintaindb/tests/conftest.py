@@ -3,6 +3,10 @@ import os
 import pytest
 from pathlib import Path
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (needed when using uv instead of pipenv)
+load_dotenv()
 
 FIXTURE_DIR = Path(os.getenv("DMSGUILD_FIXTURES_DIR", ""))  # optional external repo
 

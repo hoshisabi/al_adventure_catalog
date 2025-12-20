@@ -18,7 +18,7 @@ Based on your request to decompose the class for better separation of concerns, 
 
 Here's a breakdown into new modules/classes to achieve better separation of concerns:
 
-**1. `adventure_model.py` (Data Model)**
+**1. `adventure_model.py` (Data Model)** [NOTE: This file has been deleted as it was unused]
 
   * **`Adventure` Class:** This would be a Pydantic `BaseModel` or a simple data class. It should *only* define the structure and types of an adventure. It should *not* contain logic for extracting, normalizing, or inferring data, nor display logic.
       * Attributes: `product_id`, `full_title`, `title` (short), `authors`, `code`, `date_created`, `hours`, `tiers`, `apl`, `level_range`, `url`, `campaigns`, `season`, `is_adventure`, `price`.
@@ -83,7 +83,7 @@ This file would become much smaller, primarily acting as the entry point, orches
 
 ```
 project_root/
-├── adventure_model.py
+├── adventure_model.py [REMOVED - was unused]
 ├── adventure_extractor.py
 ├── adventure_normalizer.py
 ├── adventure_inferer.py

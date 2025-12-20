@@ -19,15 +19,29 @@ stats_output_path = os.path.join(root, '..', 'assets', 'data', 'stats.json')
 adventures_input_path = os.path.join(root, '..', 'assets', 'data', 'all_adventures.json')
 
 def _parse_hours_string(hours_str):
+    """Parse hours string into a list of hour values. Handles ranges and single values."""
     if not hours_str:
         return []
     hours_list = []
-    for part in hours_str.split(','):
-        if '-' in part:
-            start, end = map(int, part.split('-'))
-            hours_list.extend(range(start, end + 1))
-        else:
-            hours_list.append(int(part))
+    try:
+        for part in hours_str.split(','):
+            part = part.strip()
+            if '-' in part:
+                try:
+                    start, end = map(int, part.split('-'))
+                    hours_list.extend(range(start, end + 1))
+                except (ValueError, IndexError):
+                    # Skip malformed ranges
+                    continue
+            else:
+                try:
+                    hours_list.append(int(part))
+                except ValueError:
+                    # Skip non-numeric values
+                    continue
+    except (AttributeError, TypeError):
+        # hours_str is not a string, return empty list
+        return []
     return hours_list
 
 def generate_stats():
@@ -42,8 +56,24 @@ def generate_stats():
         }
         
         for d in raw_data:
-            d['title'] = d.pop('full_title')
-            d['date_created'] = datetime.datetime.strptime(d['date_created'], "%Y%m%d").date()
+            # Skip non-adventures (bundles, Roll20, Fantasy Grounds)
+            if not d.get('is_adventure', False):
+                continue
+            
+            # Safely get full_title with fallback
+            d['title'] = d.pop('full_title', d.get('title', ''))
+            
+            # Safely parse date_created
+            date_created_str = d.get('date_created')
+            if date_created_str:
+                try:
+                    d['date_created'] = datetime.datetime.strptime(date_created_str, "%Y%m%d").date()
+                except (ValueError, TypeError):
+                    # If date parsing fails, set to None
+                    d['date_created'] = None
+            else:
+                d['date_created'] = None
+            
             d['season'] = d.get('season')
 
             # Handle the transition from 'campaign' (singular) to 'campaigns' (plural)
@@ -53,9 +83,9 @@ def generate_stats():
                 if isinstance(campaign_value, list):
                     d['campaigns'] = campaign_value
                 else:
-                    d['campaigns'] = [campaign_value]
+                    d['campaigns'] = [campaign_value] if campaign_value else []
             else:
-                d['campaigns'] = [] # Default to empty list if no campaign data
+                d['campaigns'] = d.get('campaigns', []) # Use existing campaigns or default to empty list
 
             # Filter out any unexpected keys (like 'id') before passing to DungeonCraft
             filtered_d = {k: v for k, v in d.items() if k in expected_params}
@@ -82,7 +112,11 @@ def generate_stats():
         
         if adventure.campaigns:
             for campaign_name in adventure.campaigns:
-                stats['campaign'][campaign_name] += 1
+                # Handle null/None values as strings or actual None
+                if campaign_name and campaign_name != 'null' and str(campaign_name).lower() != 'null':
+                    stats['campaign'][campaign_name] += 1
+                else:
+                    stats['campaign']['Unknown'] += 1
         else:
             stats['campaign']['Unknown'] += 1
         
