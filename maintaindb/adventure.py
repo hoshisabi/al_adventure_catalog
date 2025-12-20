@@ -31,72 +31,13 @@ logger = logging.getLogger()
 # CONSTANTS
 # ============================================================================
 
-DC_CAMPAIGNS = {
-    'DL-DC': 'Dragonlance',
-    'EB-DC': 'Eberron',
-    'EB-SM': 'Eberron',
-    'FR-DC': 'Forgotten Realms',
-    'PS-DC': 'Forgotten Realms',  # Changed from Planescape
-    'SJ-DC': 'Forgotten Realms',  # Changed from Spelljammer
-    'WBW-DC': 'Forgotten Realms',  # Changed from The Wild Beyond the Witchlight
-    'DC-POA': 'Forgotten Realms',  # Changed from Icewind Dale: Rime of the Frostmaiden
-    'PO-BK': 'Forgotten Realms',
-    'BMG-DRW': 'Forgotten Realms',
-    'BMG-DL': 'Dragonlance',
-    'BMG-MOON': 'Forgotten Realms',
-    'CCC-': 'Forgotten Realms',
-    'RV-DC': 'Ravenloft',
-}
+# Import constants from adventure_utils to avoid duplication
+# Re-export them here for backward compatibility with existing imports
+from adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS
 
-DDAL_CAMPAIGN = {
-    'RMH': ['Ravenloft'],
-    'DDAL4': ['Forgotten Realms', 'Ravenloft'],
-    'DDAL04': ['Forgotten Realms', 'Ravenloft'],
-    'DDEX1': ['Forgotten Realms'],
-    'DDEX01': ['Forgotten Realms'],
-    'DDEX2': ['Forgotten Realms'],
-    'DDEX02': ['Forgotten Realms'],
-    'DDEX3': ['Forgotten Realms'],
-    'DDEX03': ['Forgotten Realms'],
-    'DDAL5': ['Forgotten Realms'],
-    'DDAL05': ['Forgotten Realms'],
-    'DDAL6': ['Forgotten Realms'],
-    'DDAL06': ['Forgotten Realms'],
-    'DDAL7': ['Forgotten Realms'],
-    'DDAL07': ['Forgotten Realms'],
-    'DDAL8': ['Forgotten Realms'],
-    'DDAL08': ['Forgotten Realms'],
-    'DDAL9': ['Forgotten Realms'],
-    'DDAL09': ['Forgotten Realms'],
-    'DDAL10': ['Forgotten Realms'],
-    'DDAL00': ['Forgotten Realms'],
-    'DDAL-DRW': ['Forgotten Realms'],
-    'DDEP': ['Forgotten Realms'],
-    'DDAL-ELW': ['Eberron'],
-    'EB': ['Eberron'],
-}
-
-SEASONS = {
-    # Post-season named programs and hardback tie-ins (non-numeric seasons)
-    'WBW-DC': "The Wild Beyond the Witchlight",
-    'SJ-DC': "Spelljammer",
-    'PS-DC': "Planescape",
-    'DC-POA': "Icewind Dale",
-}
-
-# Human-friendly labels for numeric seasons (1-10)
-SEASON_LABELS = {
-    1: "Tyranny of Dragons",
-    2: "Elemental Evil",
-    3: "Rage of Demons",
-    4: "Curse of Strahd",
-    5: "Storm King's Thunder",
-    6: "Tales From the Yawning Portal",
-    7: "Tomb of Annihilation",
-    8: "Waterdeep",
-    9: "Avernus Rising",
-    10: "Plague of Ancients",
-}
+# SEASON_LABELS is kept for backward compatibility with get_season_label() function
+# It's derived from SEASONS for numeric seasons (1-10)
+SEASON_LABELS = {k: v for k, v in SEASONS.items() if isinstance(k, int)}
 
 
 # ============================================================================
@@ -624,7 +565,8 @@ def _extract_game_stats_from_text(text):
         "level_range_raw": None,
     }
     
-    stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", text)
+    # APL pattern: Handle variations like "APL 3", "APL: 3", "APL - 3", "APL (3)", "(APL) 3", "Average Party Level 3", etc.
+    stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*[:\-]?\s*(?:\(APL\))?\s*(\d+)", text)
     stats["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", text)
     stats["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", text)
     
@@ -1103,7 +1045,7 @@ def get_season(code):
     code_u = str(code).upper()
     # First: named seasons based on explicit prefixes (WBW-DC, SJ-DC, PS-DC, DC-POA)
     for prefix, season in SEASONS.items():
-        if code_u.startswith(prefix) if isinstance(prefix, str) else False:
+        if isinstance(prefix, str) and code_u.startswith(prefix):
             return season
     # Next: infer numeric season from DD Adventurers League code families and map to descriptive label
     # Examples: DDEX1-01, DDEX01-01, DDAL5-01, DDAL05-01
@@ -1111,7 +1053,8 @@ def get_season(code):
     if m:
         try:
             season_num = int(m.group(2))
-            return SEASON_LABELS.get(season_num, season_num)
+            # Use SEASONS dict which now includes numeric seasons
+            return SEASONS.get(season_num, season_num)
         except Exception:
             pass
     return None

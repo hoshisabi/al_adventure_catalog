@@ -136,7 +136,7 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 
 - [ ] **Consider consolidating code architecture**
   - Currently have both `process_downloads.py` and `process_downloads_new.py`
-  - `adventure.py` (current) vs `adventure_model.py` + `adventure_extractors.py` + `adventure_normalizers.py` (alternative architecture)
+  - `adventure.py` (current) vs `adventure_extractors.py` + `adventure_normalizers.py` (alternative architecture)
   - Decide on migration path or consolidation strategy
   - Note: The extraction code already handles both old and new DMsGuild website UI formats (legacy HTML vs new Angular-based HTML), which is necessary since we have a mix of downloaded HTML files. This is separate from the code architecture question.
 

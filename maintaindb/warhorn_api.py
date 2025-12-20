@@ -1,6 +1,11 @@
 import requests
 import json
 import os
+import re
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (needed when using uv instead of pipenv)
+load_dotenv()
 
 WARHORN_APPLICATION_TOKEN = os.getenv("WARHORN_APPLICATION_TOKEN")
 WARHORN_API_ENDPOINT = "https://warhorn.net/graphql"
