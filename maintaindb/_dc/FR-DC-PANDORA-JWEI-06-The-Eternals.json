@@ -1,5 +1,5 @@
 {
-    "apl": 13,
+    "apl": null,
     "authors": [
         "JWei\u4f1f"
     ],
@@ -12,8 +12,11 @@
     "hours": null,
     "is_adventure": true,
     "level_range": null,
-    "product_id": "FR-DC-PANDORA-JWEI-06-The-Eternals",
-    "tiers": 3,
+    "payWhatYouWant": false,
+    "price": 6.99,
+    "product_id": "465635",
+    "season": null,
+    "tiers": null,
     "title": "The Eternals",
-    "url": "https://www.dmsguild.com/product/465635/FRDCPANDORAJWEI06-The-Eternals?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/465635/?affiliate_id=171040"
 }

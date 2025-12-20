@@ -3239,6 +3239,7 @@
         "hours": "2-6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "262080",
         "season": null,
@@ -6334,6 +6335,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "238303",
         "season": null,
@@ -16676,6 +16678,26 @@
         "url": "https://www.dmsguild.com/product/427667/EBDCCOG01-Off-the-Books?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-DC-MOURN-01",
+        "date_created": "20251216",
+        "full_title": "EB-DC-MOURN-01 Mercy in the Mournland",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 1.0,
+        "product_id": "549619",
+        "season": null,
+        "tiers": 0,
+        "title": "Mercy in the Mournland",
+        "url": "https://www.dmsguild.com/product/549619/EBDCMOURN01-Mercy-in-the-Mournland?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
         "apl": 20,
         "authors": [
             "Integral Game Conglomerate LLC"
@@ -17829,11 +17851,14 @@
         "full_title": "FR-DC-FOT-03 Showdown at the Forge of Tiamat",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-FOT-03-Showdown-at-the-Forge-of-Tiamat",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 1.99,
+        "product_id": "519576",
+        "season": null,
         "tiers": 2,
         "title": "Showdown at the Forge of Tiamat",
-        "url": "https://www.dmsguild.com/product/519576/FRDCFOT03-Showdown-at-the-Forge-of-Tiamat?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/519576/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17993,11 +18018,36 @@
         "full_title": "FR-DC-LAX 01-02 No Strings Attached",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-LAX-01-02-No-Strings-Attached",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "492553",
+        "season": null,
         "tiers": 2,
         "title": "01-02 No Strings Attached",
-        "url": "https://www.dmsguild.com/product/492553/FRDCLAX-0102-No-Strings-Attached?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492553/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Richard Bellotti"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-LCO-01",
+        "date_created": "20251216",
+        "full_title": "FR-DC-LCO-01 When Stars Forget",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "549543",
+        "season": null,
+        "tiers": 4,
+        "title": "When Stars Forget",
+        "url": "https://www.dmsguild.com/product/549543/?affiliate_id=171040"
     },
     {
         "apl": 15,
@@ -18484,7 +18534,7 @@
         "url": "https://www.dmsguild.com/product/461261/FRDCPANDORAJWEI05-Chloe?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 13,
+        "apl": null,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -18497,13 +18547,16 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "FR-DC-PANDORA-JWEI-06-The-Eternals",
-        "tiers": 3,
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "465635",
+        "season": null,
+        "tiers": 0,
         "title": "The Eternals",
-        "url": "https://www.dmsguild.com/product/465635/FRDCPANDORAJWEI06-The-Eternals?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465635/?affiliate_id=171040"
     },
     {
-        "apl": 13,
+        "apl": null,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -18513,16 +18566,19 @@
         "code": "FR-DC-PANDORA-JWEI-07",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-07, Samsareal",
-        "hours": "",
+        "hours": "4-5",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-PANDORA-JWEI-07-Samsareal",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "475039",
+        "season": null,
         "tiers": 3,
         "title": "Samsareal",
-        "url": "https://www.dmsguild.com/product/475039/FRDCPANDORAJWEI07-Samsareal?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/475039/?affiliate_id=171040"
     },
     {
-        "apl": 13,
+        "apl": null,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -18532,16 +18588,19 @@
         "code": "FR-DC-PANDORA-JWEI-08",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-08, Minerva",
-        "hours": "4",
+        "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "FR-DC-PANDORA-JWEI-08-Minerva",
-        "tiers": 3,
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "475041",
+        "season": null,
+        "tiers": 0,
         "title": "Minerva",
-        "url": "https://www.dmsguild.com/product/475041/FRDCPANDORAJWEI08-Minerva?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/475041/?affiliate_id=171040"
     },
     {
-        "apl": 13,
+        "apl": null,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -18550,14 +18609,17 @@
         ],
         "code": "FR-DC-PANDORA-JWEI-09",
         "date_created": "20240325",
-        "full_title": "FR-DC-PANDORA-JWEI-09 Echthra",
-        "hours": "4",
+        "full_title": "FR-DC-PANDORA-JWEI-09, Echthra",
+        "hours": "",
         "is_adventure": true,
-        "level_range": "11-16",
-        "product_id": "FR-DC-PANDORA-JWEI-09-Echthra",
-        "tiers": 3,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "475042",
+        "season": null,
+        "tiers": 0,
         "title": "Echthra",
-        "url": "https://www.dmsguild.com/product/475042/FRDCPANDORAJWEI09-Echthra?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/475042/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -19175,11 +19237,12 @@
             "Forgotten Realms"
         ],
         "code": "FR-DC-SCROG-LGD-01",
-        "date_created": null,
+        "date_created": "20251021",
         "full_title": "FR-DC-SCROG-LGD-01 Legend of the Hellish Hay Bale",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "541389",
         "season": null,
@@ -30949,8 +31012,10 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "455015",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Tying the Knot",
         "url": "https://www.dmsguild.com/product/455015/?affiliate_id=171040"
@@ -31787,10 +31852,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "WBW-DC-CG-01-Puzzlement-in-the-Potager",
+        "payWhatYouWant": false,
+        "price": 0.0,
+        "product_id": "390146",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Puzzlement in the Potager",
-        "url": "https://www.dmsguild.com/product/390146/WBWDCCG01-Puzzlement-in-the-Potager?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/390146/?affiliate_id=171040"
     },
     {
         "apl": 3,

@@ -396,7 +396,7 @@ def _extract_title_from_html(parsed_html):
 
 def _extract_authors_from_html(parsed_html):
     """
-    Extract authors from HTML using legacy format and JSON-LD fallback.
+    Extract authors from HTML using legacy format, new Angular format, and JSON-LD fallback.
     
     Args:
         parsed_html: BeautifulSoup parsed HTML document
@@ -412,6 +412,27 @@ def _extract_authors_from_html(parsed_html):
         children = product_from.findChildren("a", recursive=True)
         for child in children:
             authors.append(child.text)
+    
+    # If no authors found, try new Angular format (table with obs-publisher-or-creators)
+    if not authors:
+        # Look for the "Author(s)" label in a table
+        authors_label = parsed_html.find("p", {"data-codeid": "authors"})
+        if authors_label:
+            # Find the parent table row
+            tr = authors_label.find_parent("tr")
+            if tr:
+                # Get all td elements in this row
+                tds = tr.find_all("td")
+                if len(tds) > 1:
+                    # The second td should contain the obs-publisher-or-creators component
+                    obs_component = tds[1].find("obs-publisher-or-creators")
+                    if obs_component:
+                        # Extract author links from within the component
+                        author_links = obs_component.find_all("a")
+                        for link in author_links:
+                            author_text = link.get_text(strip=True)
+                            if author_text:
+                                authors.append(author_text)
     
     # If no authors found, try JSON-LD
     if not authors:
