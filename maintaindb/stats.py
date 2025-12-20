@@ -34,6 +34,13 @@ def generate_stats():
     with open(adventures_input_path) as f:
         raw_data = json.load(f)
         data = []
+        # Define the expected parameters for DungeonCraft.__init__
+        expected_params = {
+            'product_id', 'title', 'authors', 'code', 'date_created', 'hours', 
+            'tiers', 'apl', 'level_range', 'url', 'campaigns', 'season', 
+            'is_adventure', 'price', 'payWhatYouWant', 'suggestedPrice', 'needs_review'
+        }
+        
         for d in raw_data:
             d['title'] = d.pop('full_title')
             d['date_created'] = datetime.datetime.strptime(d['date_created'], "%Y%m%d").date()
@@ -50,7 +57,9 @@ def generate_stats():
             else:
                 d['campaigns'] = [] # Default to empty list if no campaign data
 
-            data.append(DungeonCraft(**d))
+            # Filter out any unexpected keys (like 'id') before passing to DungeonCraft
+            filtered_d = {k: v for k, v in d.items() if k in expected_params}
+            data.append(DungeonCraft(**filtered_d))
 
     stats = {
         'tier': defaultdict(int),
