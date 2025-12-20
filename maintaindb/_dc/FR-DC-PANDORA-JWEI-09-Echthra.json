@@ -1,5 +1,5 @@
 {
-    "apl": 13,
+    "apl": null,
     "authors": [
         "JWei\u4f1f"
     ],
@@ -8,12 +8,15 @@
     ],
     "code": "FR-DC-PANDORA-JWEI-09",
     "date_created": "20240325",
-    "full_title": "FR-DC-PANDORA-JWEI-09 Echthra",
-    "hours": "4",
+    "full_title": "FR-DC-PANDORA-JWEI-09, Echthra",
+    "hours": null,
     "is_adventure": true,
-    "level_range": "11-16",
-    "product_id": "FR-DC-PANDORA-JWEI-09-Echthra",
-    "tiers": 3,
+    "level_range": null,
+    "payWhatYouWant": false,
+    "price": 6.99,
+    "product_id": "475042",
+    "season": null,
+    "tiers": null,
     "title": "Echthra",
-    "url": "https://www.dmsguild.com/product/475042/FRDCPANDORAJWEI09-Echthra?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/475042/?affiliate_id=171040"
 }

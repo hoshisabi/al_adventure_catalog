@@ -1,5 +1,5 @@
 {
-    "apl": 13,
+    "apl": null,
     "authors": [
         "JWei\u4f1f"
     ],
@@ -9,11 +9,14 @@
     "code": "FR-DC-PANDORA-JWEI-08",
     "date_created": "20240325",
     "full_title": "FR-DC-PANDORA-JWEI-08, Minerva",
-    "hours": "4",
+    "hours": null,
     "is_adventure": true,
     "level_range": null,
-    "product_id": "FR-DC-PANDORA-JWEI-08-Minerva",
-    "tiers": 3,
+    "payWhatYouWant": false,
+    "price": 6.99,
+    "product_id": "475041",
+    "season": null,
+    "tiers": null,
     "title": "Minerva",
-    "url": "https://www.dmsguild.com/product/475041/FRDCPANDORAJWEI08-Minerva?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/475041/?affiliate_id=171040"
 }

@@ -6022,8 +6022,10 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "455015",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Tying the Knot",
         "url": "https://www.dmsguild.com/product/455015/?affiliate_id=171040"

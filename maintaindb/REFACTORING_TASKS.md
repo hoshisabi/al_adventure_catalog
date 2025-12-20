@@ -90,6 +90,23 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Consider rate limiting to avoid overloading DMsGuild servers
   - Location: `.github/workflows/` directory
 
+### Data Quality & Workflow
+
+- [ ] **Document and standardize `needs_review` flag usage**
+  - The `needs_review` flag is used throughout the codebase to mark adventures that require human intervention
+  - **Current usage:**
+    - RSS parser (`dmsguild_rss_parser.py`): Always sets `needs_review: true` because RSS feeds lack complete data (line 203)
+    - HTML processing (`adventure.py`): Sets `needs_review: true` when module_name cannot be extracted (line 1053)
+    - Normalizer (`adventure_normalizers.py`): Sets `needs_review: true` if critical fields (code, level_range, tiers, hours) are missing (lines 174-178)
+  - **Documentation needed:**
+    - Create a clear specification of when `needs_review` should be set
+    - Document the workflow for clearing the flag after human review
+    - Ensure all processing scripts handle the flag consistently
+    - Consider adding `needs_review` to the data model schema/documentation
+  - **Related tools:**
+    - `generate_fixup_html.py` already uses `needs_review` to highlight adventures needing attention
+    - Future auditor tool should prominently display adventures with `needs_review: true`
+
 ### Code Quality
 
 - [ ] **Consolidate duplicate constants**
@@ -101,6 +118,12 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Add more specific error messages when extraction fails
   - Log warnings for missing data fields
   - Location: `adventure.py` - `_extract_raw_data_from_html()` and related functions
+
+- [ ] **Replace print statements with proper logging in RSS parser**
+  - Convert `print()` statements to use Python's `logging` module
+  - Add appropriate log levels (INFO, WARNING, ERROR)
+  - Improve error messages and make them more informative
+  - Location: `maintaindb/dmsguild_rss_parser.py`
 
 - [ ] **Add type hints throughout**
   - Many functions lack complete type hints

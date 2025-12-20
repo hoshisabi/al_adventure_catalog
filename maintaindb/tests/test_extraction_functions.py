@@ -90,6 +90,52 @@ def test_extract_authors_from_html_jsonld():
     assert "John Doe" in authors
 
 
+def test_extract_authors_from_html_angular_format():
+    """Test author extraction from new Angular format (table with obs-publisher-or-creators)."""
+    html = """
+    <table class="table-list full w-lines">
+        <tbody>
+            <tr>
+                <td><p data-codeid="authors" class="u-text-bold"> Author(s) </p></td>
+                <td>
+                    <obs-publisher-or-creators listonly="authors">
+                        <a href="/en/browse?author=%22Richard%20Bellotti%22"> Richard Bellotti</a>
+                    </obs-publisher-or-creators>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    authors = adventure._extract_authors_from_html(soup)
+    assert "Richard Bellotti" in authors
+    assert authors == ["Richard Bellotti"]
+
+
+def test_extract_authors_from_html_angular_format_multiple():
+    """Test author extraction from new Angular format with multiple authors."""
+    html = """
+    <table class="table-list full w-lines">
+        <tbody>
+            <tr>
+                <td><p data-codeid="authors" class="u-text-bold"> Author(s) </p></td>
+                <td>
+                    <obs-publisher-or-creators listonly="authors">
+                        <a href="/en/browse?author=%22Author%20One%22"> Author One</a>
+                        <a href="/en/browse?author=%22Author%20Two%22"> Author Two</a>
+                    </obs-publisher-or-creators>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    authors = adventure._extract_authors_from_html(soup)
+    assert "Author One" in authors
+    assert "Author Two" in authors
+    assert len(authors) == 2
+
+
 def test_extract_authors_from_html_empty():
     """Test author extraction when no authors are found."""
     html = "<div>Some content</div>"
