@@ -148,9 +148,9 @@
         "url": "https://www.dmsguild.com/product/380630/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
-            "D&D Adventurers League"
+            "Jay Africa"
         ],
         "campaigns": [
             "Ravenloft"
@@ -158,18 +158,21 @@
         "code": "RMH-07",
         "date_created": "20220112",
         "full_title": "RMH-07 The City of Dreams",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": 6,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "383265",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-07 The City of Dreams",
-        "url": "https://www.dmsguild.com/product/383265/RMH07-The-City-of-Dreams?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/383265/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
-            "D&D Adventurers League"
+            "Kat Kruger"
         ],
         "campaigns": [
             "Ravenloft"
@@ -177,18 +180,21 @@
         "code": "RMH-08",
         "date_created": "20220112",
         "full_title": "RMH-08 The Palace of Bones",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": 6,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "383275",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-08 The Palace of Bones",
-        "url": "https://www.dmsguild.com/product/383275/RMH08-The-Palace-of-Bones?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/383275/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
-            "D&D Adventurers League"
+            "The GM Tim"
         ],
         "campaigns": [
             "Ravenloft"
@@ -196,18 +202,21 @@
         "code": "RMH-09",
         "date_created": "20220211",
         "full_title": "RMH-09 The Deadliest Game",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": 6,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "386609",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-09 The Deadliest Game",
-        "url": "https://www.dmsguild.com/product/386609/RMH09-The-Deadliest-Game?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/386609/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 7,
         "authors": [
-            "D&D Adventurers League"
+            "Marcello De Velazquez"
         ],
         "campaigns": [
             "Ravenloft"
@@ -215,18 +224,21 @@
         "code": "RMH-10",
         "date_created": "20220218",
         "full_title": "RMH-10 Scion of Darkness",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": 7,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "387334",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-10 Scion of Darkness",
-        "url": "https://www.dmsguild.com/product/387334/RMH10-Scion-of-Darkness?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/387334/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 7,
         "authors": [
-            "D&D Adventurers League"
+            "Gabrielle Harbowy"
         ],
         "campaigns": [
             "Ravenloft"
@@ -234,18 +246,21 @@
         "code": "RMH-11",
         "date_created": "20220310",
         "full_title": "RMH-11 Calling Upon the Dead",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": 7,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "389773",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-11 Calling Upon the Dead",
-        "url": "https://www.dmsguild.com/product/389773/RMH11-Calling-Upon-the-Dead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/389773/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 7,
         "authors": [
-            "D&D Adventurers League"
+            "Steffie de Vaan"
         ],
         "campaigns": [
             "Ravenloft"
@@ -253,18 +268,22 @@
         "code": "RMH-12",
         "date_created": "20220314",
         "full_title": "RMH-12 Beneath the New Star",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": 7,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "389775",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-12 Beneath the New Star",
-        "url": "https://www.dmsguild.com/product/389775/RMH12-Beneath-the-New-Star?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/389775/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ginny Loveday",
+            "Jeremy Forbing"
         ],
         "campaigns": [
             "Ravenloft"
@@ -272,12 +291,14 @@
         "code": "RMH-EP-02",
         "date_created": "20220318",
         "full_title": "RMH-EP-02 A Darklord's Denouement",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
-        "price": 149.86,
+        "level_range": 8,
+        "payWhatYouWant": false,
+        "price": 14.99,
         "product_id": "390632",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-EP-02 A Darklord's Denouement",
         "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
     }
