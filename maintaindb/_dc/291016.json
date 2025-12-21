@@ -11,12 +11,14 @@
     "code": "CCC-JGD-03",
     "date_created": "20191008",
     "full_title": "CCC-JGD-03 Tortle Tribulations",
-    "hours": "4",
+    "hours": "2-4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": null,
-    "product_id": 291016,
+    "payWhatYouWant": false,
+    "price": 3.99,
+    "product_id": "291016",
+    "season": null,
     "tiers": 2,
     "title": "CCC-JGD-03 Tortle Tribulations",
-    "url": "https://www.dmsguild.com/product/291016/DDALJGD03-Tortle-Tribulations"
+    "url": "https://www.dmsguild.com/product/291016/?affiliate_id=171040"
 }

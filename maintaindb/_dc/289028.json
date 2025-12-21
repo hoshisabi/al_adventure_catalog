@@ -11,9 +11,11 @@
     "full_title": "Hellturel",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "5",
+    "payWhatYouWant": false,
+    "price": 3.95,
     "product_id": "289028",
+    "season": null,
     "tiers": null,
     "title": "Hellturel",
     "url": "https://www.dmsguild.com/product/289028/?affiliate_id=171040"

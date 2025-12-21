@@ -1,13 +1,13 @@
 {
-  "apl": null,
-  "authors": null,
+  "apl": 3,
+  "authors": ["Christopher Lindsay"],
   "campaigns": [
     "Forgotten Realms"
   ],
   "code": "DDIA-XGE",
   "date_created": null,
   "full_title": "DDIA-XGE Underworld Speculation",
-  "hours": "4",
+  "hours": "2",
   "is_adventure": true,
   "level_range": "1-4",
   "price": null,
