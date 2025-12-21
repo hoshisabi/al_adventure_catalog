@@ -2206,11 +2206,14 @@
         "full_title": "WBW-DC-ZEP-T2S1-8 Feylost in Zep Series",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 29.99,
         "product_id": "400440",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Feylost in Zep Series",
-        "url": "https://www.dmsguild.com/product/400440/WBWDCZEPT2S18-Feylost-in-Zep-Series?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400440/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -2454,7 +2457,7 @@
         "url": "https://www.dmsguild.com/product/403162/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Nick Stefanski"
         ],
@@ -2467,6 +2470,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.0,
         "product_id": "403741",
         "season": "The Wild Beyond the Witchlight",
@@ -2519,19 +2523,20 @@
         "url": "https://www.dmsguild.com/product/404212/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-TCOM1-",
+        "code": "WBW-DC-PHP-TCOM1",
         "date_created": "20220727",
-        "full_title": "WBW-DC-PHP-TCOM1: Of Festivals and Fiascoes",
+        "full_title": "WBW-DC-PHP-TCOM1 Of Festivals and Fiascoes",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "404240",
         "season": "The Wild Beyond the Witchlight",
@@ -2637,17 +2642,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-LCL",
+        "code": "WBW-DC-PHP-LCL-01",
         "date_created": "20220807",
-        "full_title": "WBW-DC-PHP-LCL 01: A Cure for Freedom",
+        "full_title": "WBW-DC-PHP-LCL-01 A Cure for Freedom",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "405745",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
-        "title": "01 A Cure for Freedom",
+        "title": "A Cure for Freedom",
         "url": "https://www.dmsguild.com/product/405745/?affiliate_id=171040"
     },
     {
@@ -2799,19 +2805,20 @@
         "url": "https://www.dmsguild.com/product/406042/WBWDCPHPPHAN01-If-The-Shoe-Fits?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-TCOM2-",
+        "code": "WBW-DC-PHP-TCOM2",
         "date_created": "20220812",
-        "full_title": "WBW-DC-PHP-TCOM2: Of Toadstools and Tribulations",
+        "full_title": "WBW-DC-PHP-TCOM2 Of Toadstools and Tribulations",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "406239",
         "season": "The Wild Beyond the Witchlight",
@@ -3589,9 +3596,11 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
         "price": 4.99,
         "product_id": "408198",
         "season": "The Wild Beyond the Witchlight",
+        "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "The Nightmare of Dreams",
         "url": "https://www.dmsguild.com/product/408198/?affiliate_id=171040"
@@ -3650,15 +3659,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-01-",
+        "code": "WBW-DC-JSH-LIB-01",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-01: Inter-Library Interception",
+        "full_title": "WBW-DC-JSH-LIB-01 Inter-Library Interception",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408247",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Inter-Library Interception",
         "url": "https://www.dmsguild.com/product/408247/?affiliate_id=171040"
@@ -3715,15 +3726,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-02-",
+        "code": "WBW-DC-JSH-LIB-02",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-02: Search Engine Optimization",
+        "full_title": "WBW-DC-JSH-LIB-02 Search Engine Optimization",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408261",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Search Engine Optimization",
         "url": "https://www.dmsguild.com/product/408261/?affiliate_id=171040"
@@ -3818,22 +3831,24 @@
         "url": "https://www.dmsguild.com/product/408305/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-TCOM3-",
+        "code": "WBW-DC-PHP-TCOM3",
         "date_created": "20220830",
-        "full_title": "WBW-DC-PHP-TCOM3: Of Death and Dawn",
+        "full_title": "WBW-DC-PHP-TCOM3 Of Death and Dawn",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "408344",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Of Death and Dawn",
         "url": "https://www.dmsguild.com/product/408344/?affiliate_id=171040"
@@ -4269,11 +4284,15 @@
         "full_title": "WBW-DC-Death In Defence of Dairy",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "408456",
+        "season": null,
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "WBW-DC-Death In Defence of Dairy",
-        "url": "https://www.dmsguild.com/product/408456/WBWDCDeath-In-Defence-of-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "In Defence of Dairy",
+        "url": "https://www.dmsguild.com/product/408456/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4713,15 +4732,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-03-",
+        "code": "WBW-DC-JSH-LIB-03",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-03: Between Covers and Through Tales",
+        "full_title": "WBW-DC-JSH-LIB-03 Between Covers and Through Tales",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "408582",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Between Covers and Through Tales",
         "url": "https://www.dmsguild.com/product/408582/?affiliate_id=171040"
@@ -4754,15 +4775,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-04-",
+        "code": "WBW-DC-JSH-LIB-04",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-04: Brightly Burn the Flames of Knowledge",
+        "full_title": "WBW-DC-JSH-LIB-04 Brightly Burn the Flames of Knowledge",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "408585",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
         "title": "Brightly Burn the Flames of Knowledge",
         "url": "https://www.dmsguild.com/product/408585/?affiliate_id=171040"
@@ -4836,16 +4859,42 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "WBW-DC-DES-01-08",
+        "date_created": "20220831",
+        "full_title": "WBW-DC-DES-01-08 The Cathedral of the Fomorian Hierophant",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "408601",
+        "season": null,
+        "seed": "Create a Domain of Delight",
+        "tiers": 2,
+        "title": "The Cathedral of the Fomorian Hierophant",
+        "url": "https://www.dmsguild.com/product/408601/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jonathan Self"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DES-01-09",
         "date_created": "20220831",
         "full_title": "Strahd Must Die!",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "408602",
+        "season": null,
         "tiers": 2,
         "title": "Strahd Must Die!",
-        "url": "https://www.dmsguild.com/product/408602/Strahd-Must-Die?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408602/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4861,7 +4910,8 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408606",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
@@ -5007,11 +5057,13 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "524648",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Puffalo's Proposal",
-        "url": "https://www.dmsguild.com/product/524648/WBWDCPUFF01-Puffalos-Proposal?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524648/?affiliate_id=171040"
     },
     {
         "apl": 3,

@@ -9,12 +9,16 @@
     "code": "SJ-DC-TTUC-01",
     "date_created": "20230210",
     "full_title": "SJ-DC-TTUC-01 Shipyard Dilemma",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 4.99,
     "product_id": "425344",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 4.99,
     "tiers": 1,
     "title": "Shipyard Dilemma",
-    "url": "https://www.dmsguild.com/product/425344/SJDCTTUC01-Shipyard-Dilemma?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/425344/?affiliate_id=171040"
 }

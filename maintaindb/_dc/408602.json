@@ -11,9 +11,12 @@
     "full_title": "Strahd Must Die!",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "408602",
+    "season": null,
     "tiers": 2,
     "title": "Strahd Must Die!",
-    "url": "https://www.dmsguild.com/product/408602/Strahd-Must-Die?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408602/?affiliate_id=171040"
 }

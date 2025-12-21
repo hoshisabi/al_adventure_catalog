@@ -1,17 +1,24 @@
 {
     "apl": 3,
-    "authors": [],
+    "authors": [
+        "Kimberly Caswell",
+        "Andrew Sammler"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-BIRE01",
+    "code": "WBW-DC-BIRE-01",
     "date_created": "20221105",
     "full_title": "Walk Into Birefringence (T1) (WBW-DC-BIRE01 to BIRE04) [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 7.99,
     "product_id": "410541",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 1,
-    "title": "Walk Into Birefringence T1  to BIRE04 [BUNDLE]",
-    "url": "https://www.dmsguild.com/product/410541/Walk-Into-Birefringence-T1-WBWDCBIRE01-to-BIRE04-BUNDLE?filters=1000042_100191_100057_0_45356_0_0_0"
+    "title": "Walk Into Birefringence T1 to BIRE04 [BUNDLE]",
+    "url": "https://www.dmsguild.com/product/410541/?affiliate_id=171040",
+    "seed": "Create a Domain of Delight"
 }

@@ -293,14 +293,18 @@
         ],
         "code": "DC-POA",
         "date_created": "20201222",
-        "full_title": "DC-PoA \"A Dragon Heart\"",
+        "full_title": "DC-PoA A Dragon Heart",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 5.84,
         "product_id": "340882",
+        "season": null,
+        "seed": "Once Bitten, Ice Shy",
         "tiers": 1,
-        "title": "DC-PoA \"A Dragon Heart\"",
-        "url": "https://www.dmsguild.com/product/340882/DCPoA-A-Dragon-Heart?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Dragon Heart",
+        "url": "https://www.dmsguild.com/product/340882/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -319,6 +323,7 @@
         "price": 5.95,
         "product_id": "340884",
         "season": "Icewind Dale",
+        "seed": "Once Bitten, Ice Shy",
         "tiers": 1,
         "title": "DC-PoA \"Coeur de Dragon\"",
         "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
@@ -373,16 +378,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-AOT01-01",
         "date_created": "20201230",
-        "full_title": "DC-POA AOT01-01 Counteroffer",
+        "full_title": "DC-POA-AOT01-01 Counteroffer",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.0,
         "product_id": "341720",
+        "season": null,
+        "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-POA AOT01-01 Counteroffer",
-        "url": "https://www.dmsguild.com/product/341720/DCPOA-AOT0101-Counteroffer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Counteroffer",
+        "url": "https://www.dmsguild.com/product/341720/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -392,16 +401,21 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DUCKS-OS-02-ARE",
+        "code": "DC-POA-DUCKS-OS-02",
         "date_created": "20210101",
         "full_title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 1.0,
         "product_id": "341912",
+        "season": "Icewind Dale",
+        "seed": "Burrowing Borrowers",
+        "suggestedPrice": 1.0,
         "tiers": 1,
-        "title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
-        "url": "https://www.dmsguild.com/product/341912/DCPoADUCKSOS02Are-you-openminded?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Are you open-minded?",
+        "url": "https://www.dmsguild.com/product/341912/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -712,17 +726,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-SAD-ODW",
         "date_created": "20210201",
-        "full_title": "DC-PoA \"Out of the Dark Woods\"",
+        "full_title": "DC-POA-SAD-ODW Out of the Dark Woods",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 6.99,
+        "payWhatYouWant": false,
+        "price": 7.02,
         "product_id": "345391",
         "season": "Icewind Dale",
+        "seed": "Out of the Woods",
         "tiers": 2,
-        "title": "DC-PoA \"Out of the Dark Woods\"",
+        "title": "Out of the Dark Woods",
         "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
     },
     {
@@ -1061,11 +1077,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "348672",
         "season": "Icewind Dale",
         "tiers": 1,
-        "title": "DC-PoA Journey to Adventure Icewind Dale",
+        "title": "Journey to Adventure Icewind Dale",
         "url": "https://www.dmsguild.com/product/348672/?affiliate_id=171040"
     },
     {
@@ -1269,16 +1286,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-PoA-ICE01-01",
+        "code": "DC-POA-ICE01-01",
         "date_created": "20210319",
         "full_title": "A Fateful Meading",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 2.24,
+        "price": 2.99,
         "product_id": "350954",
         "season": "Icewind Dale",
+        "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
         "title": "A Fateful Meading",
         "url": "https://www.dmsguild.com/product/350954/?affiliate_id=171040"
@@ -1579,18 +1597,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-AOT01-02",
         "date_created": "20210416",
-        "full_title": "DC-POA AOT01-02 Northern Democracy",
+        "full_title": "DC-POA-AOT01-02 Northern Democracy",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 2.25,
+        "price": 3.0,
         "product_id": "354023",
         "season": "Icewind Dale",
+        "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "AOT01-02 Northern Democracy",
+        "title": "Northern Democracy",
         "url": "https://www.dmsguild.com/product/354023/?affiliate_id=171040"
     },
     {
@@ -1684,17 +1703,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-WI-DD-02-",
+        "code": "DC-POA-WI-DD-02",
         "date_created": "20210428",
         "full_title": "DC-PoA-WI-DD-02: Delving in the Dale",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 2.75,
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "355371",
         "season": "Icewind Dale",
+        "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-PoA-WI-DD-02 Delving in the Dale",
+        "title": "Delving in the Dale",
         "url": "https://www.dmsguild.com/product/355371/?affiliate_id=171040"
     },
     {
@@ -2353,11 +2374,12 @@
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "367241",
         "season": "Icewind Dale",
+        "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "DC-PoA-CONMAR21 For My People",
+        "title": "For My People",
         "url": "https://www.dmsguild.com/product/367241/?affiliate_id=171040"
     },
     {
@@ -2582,35 +2604,44 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DRAGON-01-",
+        "code": "DC-POA-DRAGON-01",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-01: Adventures in Babysitting",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 2.99,
+        "payWhatYouWant": false,
+        "price": 2.39,
         "product_id": "368965",
         "season": "Icewind Dale",
+        "seed": "The Littlest Squidling",
         "tiers": 2,
-        "title": "DC-POA-DRAGON-01 Adventures in Babysitting",
+        "title": "Adventures in Babysitting",
         "url": "https://www.dmsguild.com/product/368965/?affiliate_id=171040"
     },
     {
         "apl": 7,
-        "authors": [],
+        "authors": [
+            "Teddy Benson",
+            "Thomas Valley"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DRAGON-02-",
+        "code": "DC-POA-DRAGON-02",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-02: Hearing the Call",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.39,
         "product_id": "368966",
+        "season": "Icewind Dale",
+        "seed": "Ageless Hunger",
         "tiers": 2,
-        "title": "DC-POA-DRAGON-02 Hearing the Call",
-        "url": "https://www.dmsguild.com/product/368966/DCPOADRAGON02-Hearing-the-Call?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+        "title": "Hearing the Call",
+        "url": "https://www.dmsguild.com/product/368966/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -2621,16 +2652,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DRAGON-03-",
+        "code": "DC-POA-DRAGON-03",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "368967",
+        "season": "Icewind Dale",
+        "seed": "X Marks the Spot",
         "tiers": 2,
-        "title": "DC-POA-DRAGON-03 Battlefield of the Mind",
-        "url": "https://www.dmsguild.com/product/368967/DCPOADRAGON03-Battlefield-of-the-Mind?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+        "title": "Battlefield of the Mind",
+        "url": "https://www.dmsguild.com/product/368967/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -3331,17 +3366,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-SNIPE-01-",
+        "code": "DC-POA-SNIPE-01",
         "date_created": "20210830",
         "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": true,
         "price": 2.0,
         "product_id": "369342",
         "season": "Icewind Dale",
+        "seed": "Snipe Hunt",
+        "suggestedPrice": 2.0,
         "tiers": 1,
-        "title": "DC-POA-SNIPE-01 The Ski Chalet of Artor Morlin",
+        "title": "The Ski Chalet of Artor Morlin",
         "url": "https://www.dmsguild.com/product/369342/?affiliate_id=171040"
     },
     {
@@ -3485,16 +3523,21 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-PoA-ROBIN-01-1",
         "date_created": "20210831",
-        "full_title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
+        "full_title": "DC-PoA-ROBIN-01-1 The Taming of the Chwinga",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 2.99,
         "product_id": "369375",
+        "season": null,
+        "seed": "I'd Like to Make a Return Please",
+        "suggestedPrice": 2.99,
         "tiers": 1,
-        "title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
-        "url": "https://www.dmsguild.com/product/369375/DCPoA-ROBIN-011-The-Taming-of-the-Chwinga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Taming of the Chwinga",
+        "url": "https://www.dmsguild.com/product/369375/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3588,16 +3631,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-PoA-DES-05A",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05A \"Land of Ice and Snow\"",
+        "full_title": "DC-PoA-DES-05A Land of Ice and Snow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373407",
+        "season": null,
+        "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-PoA DES-05A \"Land of Ice and Snow\"",
-        "url": "https://www.dmsguild.com/product/373407/DCPoA-DES05A-Land-of-Ice-and-Snow?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Land of Ice and Snow",
+        "url": "https://www.dmsguild.com/product/373407/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -3608,16 +3655,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-DES-05B",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
+        "full_title": "DC-PoA-DES-05B Drive Our Ships to New Lands",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373409",
+        "season": null,
+        "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
-        "title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
-        "url": "https://www.dmsguild.com/product/373409/DCPoA-DES05B-Drive-Our-Ships-to-New-Lands?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Drive Our Ships to New Lands",
+        "url": "https://www.dmsguild.com/product/373409/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3628,16 +3679,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-DES-05C",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05C \"We Calmed the Tides of War\"",
+        "full_title": "DC-POA-DES-05C We Calmed the Tides of War",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373414",
+        "season": null,
+        "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "DC-PoA DES-05C \"We Calmed the Tides of War\"",
-        "url": "https://www.dmsguild.com/product/373414/DCPoA-DES05C-We-Calmed-the-Tides-of-War?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "We Calmed the Tides of War",
+        "url": "https://www.dmsguild.com/product/373414/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -3647,16 +3702,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-DES-05D",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05D \"Rebuild All Your Ruins\"",
+        "full_title": "DC-POA-DES-05D Rebuild All Your Ruins",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373417",
+        "season": null,
+        "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-PoA DES-05D \"Rebuild All Your Ruins\"",
-        "url": "https://www.dmsguild.com/product/373417/DCPoA-DES05D-Rebuild-All-Your-Ruins?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Rebuild All Your Ruins",
+        "url": "https://www.dmsguild.com/product/373417/?affiliate_id=171040"
     },
     {
         "apl": 8,

@@ -1,17 +1,23 @@
 {
     "apl": 3,
-    "authors": [],
+    "authors": [
+        "Andrew Snelling"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-MEM-01/02",
+    "code": "WBW-DC-MEM-01",
     "date_created": "20230226",
     "full_title": "Memory of Amarda (WBW-DC-MEM-01/02) [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.98,
     "product_id": "428332",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 1,
-    "title": "Memory of Amarda  [BUNDLE]",
-    "url": "https://www.dmsguild.com/product/428332/Memory-of-Amarda-WBWDCMEM01-02-BUNDLE?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+    "title": "Memory of Amarda [BUNDLE]",
+    "url": "https://www.dmsguild.com/product/428332/?affiliate_id=171040",
+    "seed": "Create a Domain of Delight"
 }
