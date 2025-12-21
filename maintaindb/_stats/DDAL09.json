@@ -401,7 +401,7 @@
         "url": "https://www.dmsguild.com/product/321063/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 18,
         "authors": [
             "Greg Marks"
         ],
@@ -413,12 +413,12 @@
         "full_title": "DDAL09-20 Where Devils Fear to Tread",
         "hours": "4-6",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
         "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "321069",
         "season": "Avernus Rising",
-        "tiers": 0,
+        "tiers": 4,
         "title": "DDAL09-20 Where Devils Fear to Tread",
         "url": "https://www.dmsguild.com/product/321069/?affiliate_id=171040"
     }

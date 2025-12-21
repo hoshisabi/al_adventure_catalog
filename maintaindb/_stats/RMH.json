@@ -20,9 +20,10 @@
         "url": "https://www.dmsguild.com/product/367198/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
-            "D&D Adventurers League"
+            "Amy Lynn Dzura",
+            "Ma\u2019at Crook"
         ],
         "campaigns": [
             "Ravenloft"
@@ -32,11 +33,14 @@
         "full_title": "RMH-EP-01 The Grand Masquerade",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 14.99,
         "product_id": "367294",
-        "tiers": 0,
+        "season": null,
+        "tiers": 1,
         "title": "RMH-EP-01 The Grand Masquerade",
-        "url": "https://www.dmsguild.com/product/367294/RMHEP01-The-Grand-Masquerade?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/367294/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -59,9 +63,9 @@
         "url": "https://www.dmsguild.com/product/370754/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
-            "D&D Adventurers League"
+            "Claire Hoffman"
         ],
         "campaigns": [
             "Ravenloft"
@@ -69,13 +73,16 @@
         "code": "RMH-03",
         "date_created": "20211013",
         "full_title": "RMH-03 The Amber Dirge",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "4",
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "373816",
-        "tiers": 0,
+        "season": null,
+        "tiers": 1,
         "title": "RMH-03 The Amber Dirge",
-        "url": "https://www.dmsguild.com/product/373816/RMH03-The-Amber-Dirge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/373816/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -99,7 +106,7 @@
     {
         "apl": null,
         "authors": [
-            "D&D Adventurers League"
+            "Casper Kirketerp-Helenius"
         ],
         "campaigns": [
             "Ravenloft"
@@ -110,15 +117,18 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "380627",
+        "season": null,
         "tiers": 0,
         "title": "RMH-05 Unexpected Hospitality",
-        "url": "https://www.dmsguild.com/product/380627/RMH05-Unexpected-Hospitality?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/380627/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
-            "D&D Adventurers League"
+            "Ayanna Jones-Lightsy"
         ],
         "campaigns": [
             "Ravenloft"
@@ -126,13 +136,16 @@
         "code": "RMH-06",
         "date_created": "20211214",
         "full_title": "RMH-06 Amber Reclamation",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5",
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "380630",
-        "tiers": 0,
+        "season": null,
+        "tiers": 2,
         "title": "RMH-06 Amber Reclamation",
-        "url": "https://www.dmsguild.com/product/380630/RMH06-Amber-Reclamation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/380630/?affiliate_id=171040"
     },
     {
         "apl": null,

@@ -48,40 +48,46 @@
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Joshua Kelly"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-02",
         "date_created": "20160111",
-        "full_title": "DDEX3-02 Shackles of Blood (5e)",
+        "full_title": "DDEX3-02 Shackles of Blood",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "170494",
-        "tiers": 0,
-        "title": "DDEX3-02 Shackles of Blood 5e",
-        "url": "https://www.dmsguild.com/product/170494/DDEX302-Shackles-of-Blood-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 1,
+        "title": "DDEX3-02 Shackles of Blood",
+        "url": "https://www.dmsguild.com/product/170494/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Cindy Moore"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-03",
         "date_created": "20160111",
-        "full_title": "DDEX3-03 The Occupation of Szith Morcane (5e)",
+        "full_title": "DDEX3-03 The Occupation of Szith Morcane",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "170495",
-        "tiers": 0,
-        "title": "DDEX3-03 The Occupation of Szith Morcane 5e",
-        "url": "https://www.dmsguild.com/product/170495/DDEX303-The-Occupation-of-Szith-Morcane-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "DDEX3-03 The Occupation of Szith Morcane",
+        "url": "https://www.dmsguild.com/product/170495/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -128,59 +134,68 @@
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Ash Law"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-06",
         "date_created": "20160111",
-        "full_title": "DDEX3-06 No Foolish Matter (5e)",
+        "full_title": "DDEX3-06 No Foolish Matter",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "170499",
-        "tiers": 0,
-        "title": "DDEX3-06 No Foolish Matter 5e",
-        "url": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 1,
+        "title": "DDEX3-06 No Foolish Matter",
+        "url": "https://www.dmsguild.com/product/170499/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Matt Hudson"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-07",
         "date_created": "20160111",
-        "full_title": "DDEX3-07 Herald of the Moon (5e)",
+        "full_title": "DDEX3-07 Herald of the Moon",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "170501",
-        "tiers": 0,
-        "title": "DDEX3-07 Herald of the Moon 5e",
-        "url": "https://www.dmsguild.com/product/170501/DDEX307-Herald-of-the-Moon-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "DDEX3-07 Herald of the Moon",
+        "url": "https://www.dmsguild.com/product/170501/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Lisa Reinke"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-08",
         "date_created": "20160111",
-        "full_title": "DDEX3-08 The Malady of Elventree (5e)",
+        "full_title": "DDEX3-08 The Malady of Elventree",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "170502",
-        "tiers": 0,
-        "title": "DDEX3-08 The Malady of Elventree 5e",
-        "url": "https://www.dmsguild.com/product/170502/DDEX308-The-Malady-of-Elventree-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "DDEX3-08 The Malady of Elventree",
+        "url": "https://www.dmsguild.com/product/170502/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -205,39 +220,45 @@
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Robert Adducci"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-11",
         "date_created": "20160111",
-        "full_title": "DDEX3-11 The Quest for Sporedome (5e)",
+        "full_title": "DDEX3-11 The Quest for Sporedome",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "170505",
-        "tiers": 0,
-        "title": "DDEX3-11 The Quest for Sporedome 5e",
-        "url": "https://www.dmsguild.com/product/170505/DDEX311-The-Quest-for-Sporedome-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "DDEX3-11 The Quest for Sporedome",
+        "url": "https://www.dmsguild.com/product/170505/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Cindy Moore"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-12",
         "date_created": "20160315",
-        "full_title": "DDEX3-12 Hillsfar Reclaimed (5e)",
+        "full_title": "DDEX3-12 Hillsfar Reclaimed",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "177567",
-        "tiers": 0,
-        "title": "DDEX3-12 Hillsfar Reclaimed 5e",
-        "url": "https://www.dmsguild.com/product/177567/DDEX312-Hillsfar-Reclaimed-5e&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 1,
+        "title": "DDEX3-12 Hillsfar Reclaimed",
+        "url": "https://www.dmsguild.com/product/177567/?affiliate_id=171040"
     }
 ]

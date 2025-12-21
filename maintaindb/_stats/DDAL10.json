@@ -1,8 +1,8 @@
 [
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
-            "D&D Adventurers League"
+            "Shawn Merwin"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10,18 +10,21 @@
         "code": "DDAL10-00",
         "date_created": "20200914",
         "full_title": "DDAL10-00 Ice Road Trackers",
-        "hours": "1",
+        "hours": "1-4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "328476",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 1,
         "title": "DDAL10-00 Ice Road Trackers",
-        "url": "https://www.dmsguild.com/product/328476/DDAL1000-Ice-Road-Trackers&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/328476/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "D&D Adventurers League"
+            "Paige Leitman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -31,16 +34,19 @@
         "full_title": "DDAL10-01 The Frozen North",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "332516",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 1,
         "title": "DDAL10-01 The Frozen North",
-        "url": "https://www.dmsguild.com/product/332516/DDAL1001-The-Frozen-North&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/332516/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Laura Thompson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -50,16 +56,19 @@
         "full_title": "DDAL10-02 Gnashing Teeth",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "343148",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 1,
         "title": "DDAL10-02 Gnashing Teeth",
-        "url": "https://www.dmsguild.com/product/343148/DDAL1002-Gnashing-Teeth&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/343148/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "The GM Tim"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -69,16 +78,19 @@
         "full_title": "DDAL10-03 Divining Evil",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "343150",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 1,
         "title": "DDAL10-03 Divining Evil",
-        "url": "https://www.dmsguild.com/product/343150/DDAL1003-Divining-Evil&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/343150/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Justice Arman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -88,16 +100,19 @@
         "full_title": "DDAL10-04 Cold Benevolence",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "344672",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 1,
         "title": "DDAL10-04 Cold Benevolence",
-        "url": "https://www.dmsguild.com/product/344672/DDAL1004-Cold-Benevolence&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/344672/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
-            "D&D Adventurers League"
+            "Patricia Barnabie"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -107,16 +122,19 @@
         "full_title": "DDAL10-05 A Blight in the Darkness",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "348960",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 2,
         "title": "DDAL10-05 A Blight in the Darkness",
-        "url": "https://www.dmsguild.com/product/348960/DDAL1005-A-Blight-in-the-Darkness&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/348960/?affiliate_id=171040"
     },
     {
         "apl": 7,
         "authors": [
-            "D&D Adventurers League"
+            "Paul Gabat"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -126,16 +144,19 @@
         "full_title": "DDAL10-06 The Fallen Star",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "351522",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 2,
         "title": "DDAL10-06 The Fallen Star",
-        "url": "https://www.dmsguild.com/product/351522/DDAL1006-The-Fallen-Star&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/351522/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Oliver Darkshire"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -145,16 +166,19 @@
         "full_title": "DDAL10-07 Into Darkness",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "353209",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 2,
         "title": "DDAL10-07 Into Darkness",
-        "url": "https://www.dmsguild.com/product/353209/DDAL1007-Into-Darkness&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/353209/?affiliate_id=171040"
     },
     {
         "apl": 9,
         "authors": [
-            "D&D Adventurers League"
+            "Stacey Allan"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -164,16 +188,19 @@
         "full_title": "DDAL10-08 Volatile Thoughts",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "358263",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 2,
         "title": "DDAL10-08 Volatile Thoughts",
-        "url": "https://www.dmsguild.com/product/358263/DDAL1008-Volatile-Thoughts&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/358263/?affiliate_id=171040"
     },
     {
         "apl": 9,
         "authors": [
-            "D&D Adventurers League"
+            "Sonja Dunbar"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -183,16 +210,19 @@
         "full_title": "DDAL10-09 Recipe for Retribution",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "367185",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 2,
         "title": "DDAL10-09 Recipe for Retribution",
-        "url": "https://www.dmsguild.com/product/367185/DDAL1009-Recipe-for-Retribution&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/367185/?affiliate_id=171040"
     },
     {
         "apl": 11,
         "authors": [
-            "D&D Adventurers League"
+            "Scott Thompson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -202,10 +232,13 @@
         "full_title": "DDAL10-10 Burying the Past",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "10",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "370743",
-        "tiers": 0,
+        "season": "Plague of Ancients",
+        "tiers": 3,
         "title": "DDAL10-10 Burying the Past",
-        "url": "https://www.dmsguild.com/product/370743/DDAL1010-Burying-the-Past&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/370743/?affiliate_id=171040"
     }
 ]

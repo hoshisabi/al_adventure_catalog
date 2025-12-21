@@ -85,7 +85,7 @@
         "url": "https://www.dmsguild.com/product/247140/Lost-Tales-of-Myth-Drannor&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Ashley Warren"
         ],
@@ -97,12 +97,12 @@
         "full_title": "DDAL00-05 Winter's Splendor",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "260142",
         "season": 0,
-        "tiers": 0,
+        "tiers": 1,
         "title": "DDAL00-05 Winter's Splendor",
         "url": "https://www.dmsguild.com/product/260142/?affiliate_id=171040"
     },
@@ -138,15 +138,16 @@
         ],
         "code": "DDAL00-09",
         "date_created": "20190401",
-        "full_title": "DDAL00-09 Minsc & Boo's Guide to Stuff and Things - D&D Adventurers League | Wizards of the Coast | Dungeon Masters Guild | Dungeon Masters Guild",
+        "full_title": "DDAL00-09 Minsc & Boo's Guide to Stuff and Things",
         "hours": "",
         "is_adventure": true,
         "level_range": null,
+        "payWhatYouWant": false,
         "price": 5.99,
         "product_id": "271488",
         "season": 0,
         "tiers": 0,
-        "title": "DDAL00-09 Minsc & Boo's Guide to Stuff and Things - D&D Adventurers League | Wizards of the Coast | Dungeon Masters Guild | Dungeon Masters Guild",
+        "title": "Minsc & Boo's Guide to Stuff and Things",
         "url": "https://www.dmsguild.com/product/271488/?affiliate_id=171040"
     },
     {
@@ -224,11 +225,14 @@
         "full_title": "DDAL00-12 Infernal Encounters",
         "hours": "",
         "is_adventure": true,
-        "level_range": "7",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 6.95,
         "product_id": "304029",
-        "tiers": 0,
+        "season": 0,
+        "tiers": 1,
         "title": "DDAL00-12 Infernal Encounters",
-        "url": "https://www.dmsguild.com/product/304029/DDAL0012-Infernal-Encounters&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/304029/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -246,10 +250,13 @@
         "full_title": "DDAL00-13 Knuckleheads & Other Such Curiosities: A Travelers\u2019 Guide to Icewind Dale",
         "hours": "",
         "is_adventure": true,
-        "level_range": "6",
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 11.24,
         "product_id": "328568",
+        "season": 0,
         "tiers": 0,
         "title": "DDAL00-13 Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
-        "url": "https://www.dmsguild.com/product/328568/DDAL0013-Knuckleheads--Other-Such-Curiosities-A-Travelers-Guide-to-Icewind-Dale&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/328568/?affiliate_id=171040"
     }
 ]
