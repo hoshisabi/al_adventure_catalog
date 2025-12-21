@@ -1,0 +1,421 @@
+[
+    {
+        "apl": 1,
+        "authors": [
+            "Shawn Merwin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-01",
+        "date_created": "20160906",
+        "full_title": "DDAL05-01 Treasure of the Broken Hoard",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "189132",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Treasure of the Broken Hoard",
+        "url": "https://www.dmsguild.com/product/189132/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Paige Leitman",
+            "Ben Heisler"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-02",
+        "date_created": "20161004",
+        "full_title": "DDAL05-02 The Black Road",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "193201",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "The Black Road",
+        "url": "https://www.dmsguild.com/product/193201/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Alaniz"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-03",
+        "date_created": "20161004",
+        "full_title": "DDAL05-03 Uninvited Guests",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "193202",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Uninvited Guests",
+        "url": "https://www.dmsguild.com/product/193202/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Jay Africa"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-04",
+        "date_created": "20161101",
+        "full_title": "DDAL05-04 In Dire Need",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "195810",
+        "season": "Storm King's Thunder",
+        "tiers": 2,
+        "title": "In Dire Need",
+        "url": "https://www.dmsguild.com/product/195810/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "James Introcaso"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-05",
+        "date_created": "20161101",
+        "full_title": "DDAL05-05 A Dish Best Served Cold",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "195811",
+        "season": "Storm King's Thunder",
+        "tiers": 2,
+        "title": "A Dish Best Served Cold",
+        "url": "https://www.dmsguild.com/product/195811/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ron Lundeen"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-06",
+        "date_created": "20161206",
+        "full_title": "DDAL05-06 Beneath the Fetid Chelimber",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "197743",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Beneath the Fetid Chelimber",
+        "url": "https://www.dmsguild.com/product/197743/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Claire Hoffman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-07",
+        "date_created": "20161206",
+        "full_title": "DDAL05-07 Chelimber's Descent",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "197746",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Chelimber's Descent",
+        "url": "https://www.dmsguild.com/product/197746/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-08",
+        "date_created": "20170103",
+        "full_title": "DDAL05-08 Durlag's Tower",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "199490",
+        "season": "Storm King's Thunder",
+        "tiers": 0,
+        "title": "Durlag's Tower",
+        "url": "https://www.dmsguild.com/product/199490/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-09",
+        "date_created": "20170103",
+        "full_title": "DDAL05-09 Durlag's Tomb",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "199491",
+        "season": "Storm King's Thunder",
+        "tiers": 0,
+        "title": "Durlag's Tomb",
+        "url": "https://www.dmsguild.com/product/199491/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Rydia Q. Vielehr"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-10",
+        "date_created": "20170103",
+        "full_title": "DDAL05-10 Giant Diplomacy",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "199492",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Giant Diplomacy",
+        "url": "https://www.dmsguild.com/product/199492/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-11",
+        "date_created": "20170103",
+        "full_title": "DDAL05-11 Forgotten Traditions",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "199495",
+        "season": "Storm King's Thunder",
+        "tiers": 2,
+        "title": "Forgotten Traditions",
+        "url": "https://www.dmsguild.com/product/199495/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Joe Marflak"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-12",
+        "date_created": "20170207",
+        "full_title": "DDAL05-12 Bad Business in Parnast",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "202446",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Bad Business in Parnast",
+        "url": "https://www.dmsguild.com/product/202446/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Straley"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-13",
+        "date_created": "20170207",
+        "full_title": "DDAL05-13 Jarl Rising",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "202448",
+        "season": "Storm King's Thunder",
+        "tiers": 2,
+        "title": "Jarl Rising",
+        "url": "https://www.dmsguild.com/product/202448/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Cindy Moore"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-14",
+        "date_created": "20170307",
+        "full_title": "DDAL05-14 Reeducation",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "202449",
+        "season": "Storm King's Thunder",
+        "tiers": 3,
+        "title": "Reeducation",
+        "url": "https://www.dmsguild.com/product/202449/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Cindy Moore"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-15",
+        "date_created": "20170307",
+        "full_title": "DDAL05-15 Reclamation",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "202450",
+        "season": "Storm King's Thunder",
+        "tiers": 3,
+        "title": "Reclamation",
+        "url": "https://www.dmsguild.com/product/202450/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-16",
+        "date_created": "20170307",
+        "full_title": "DDAL05-16 Parnast Under Siege",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "204801",
+        "season": "Storm King's Thunder",
+        "tiers": 1,
+        "title": "Parnast Under Siege",
+        "url": "https://www.dmsguild.com/product/204801/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Merric Blackman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-18",
+        "date_created": "20170404",
+        "full_title": "DDAL05-18 The Mysterious Isle",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "204803",
+        "season": "Storm King's Thunder",
+        "tiers": 4,
+        "title": "The Mysterious Isle",
+        "url": "https://www.dmsguild.com/product/204803/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Merric Blackman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-19",
+        "date_created": "20170404",
+        "full_title": "DDAL05-19 Eye of Xxiphu",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "204805",
+        "season": "Storm King's Thunder",
+        "tiers": 4,
+        "title": "Eye of Xxiphu",
+        "url": "https://www.dmsguild.com/product/204805/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL05-17",
+        "date_created": "20170404",
+        "full_title": "DDAL05-17 Hartkiller's Horn",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "206285",
+        "season": "Storm King's Thunder",
+        "tiers": 2,
+        "title": "Hartkiller's Horn",
+        "url": "https://www.dmsguild.com/product/206285/?affiliate_id=171040"
+    }
+]

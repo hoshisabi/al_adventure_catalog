@@ -1,5 +1,28 @@
 [
     {
+        "apl": 1,
+        "authors": [
+            "Shawn Merwin"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-01",
+        "date_created": "20160315",
+        "full_title": "DDAL4-01 Suits of the Mists",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "177576",
+        "season": "Curse of Strahd",
+        "tiers": 1,
+        "title": "Suits of the Mists",
+        "url": "https://www.dmsguild.com/product/177576/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Alan Patrick"

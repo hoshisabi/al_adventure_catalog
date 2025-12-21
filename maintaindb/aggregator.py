@@ -4,9 +4,11 @@ import logging
 import sys
 import json
 import glob
+import re
 from collections import defaultdict
 
 from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
+from .adventure_utils import normalize_ddal_ddex_code
 from .paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
@@ -25,21 +27,40 @@ def __add_to_map(data, aggregated_by_dc_code):
         logger.info(f">> {data.get('full_title', 'UNKNOWN TITLE')} missing code")
         return
 
+    # Normalize the code first (e.g., DDEX3 -> DDEX03) to ensure consistent grouping
+    normalized_code = normalize_ddal_ddex_code(data['code'])
+    # Update the code in data to the normalized version
+    data['code'] = normalized_code
+
+    # Extract the prefix for grouping (e.g., "DDEX03" from "DDEX03-01")
+    # For DDAL/DDEX codes, extract the season prefix (DDEX03, DDAL05, etc.)
+    code_prefix_match = re.match(r'^(DDEX|DDAL)(\d{2})', normalized_code.upper())
+    if code_prefix_match:
+        # Extract normalized prefix (e.g., DDEX03 from DDEX03-01)
+        normalized_prefix = code_prefix_match.group(0)  # e.g., "DDEX03"
+    else:
+        # For other codes, try to match against known prefixes
+        normalized_prefix = None
+
     # Check if code matches DC_CAMPAIGNS
     dc_code = None
     for code in DC_CAMPAIGNS:
-        if data['code'].upper().startswith(code.upper()):
+        if normalized_code.upper().startswith(code.upper()):
             dc_code = code
             break
 
     # If not found in DC_CAMPAIGNS, check DDAL_CAMPAIGN (for DDEX, DDAL, CCC, etc.)
     if not dc_code:
-        for code in DDAL_CAMPAIGN:
-            if data['code'].upper().startswith(code.upper()):
-                # For AL codes, we still add to all_adventures_map but don't categorize by DC code
-                # We'll use a generic "AL" category or the code prefix itself
-                dc_code = code
-                break
+        # If we extracted a normalized prefix, prefer matching that first
+        if normalized_prefix and normalized_prefix in DDAL_CAMPAIGN:
+            dc_code = normalized_prefix
+        else:
+            # Fall back to iterating through DDAL_CAMPAIGN, checking longer prefixes first
+            # Sort by length descending to check longer prefixes first (e.g., DDEX03 before DDEX3)
+            for code in sorted(DDAL_CAMPAIGN.keys(), key=lambda x: len(x), reverse=True):
+                if normalized_code.upper().startswith(code.upper()):
+                    dc_code = code
+                    break
 
     # Use product_id for deduplication
     product_id = data.get('product_id')
@@ -54,11 +75,13 @@ def __add_to_map(data, aggregated_by_dc_code):
     all_adventures_map[key] = data
     
     # Only add to aggregated_by_dc_code if it matches a DC code
-    if dc_code:
+    # Use normalized_prefix if we extracted one (for consistent grouping of DDAL/DDEX codes)
+    grouping_key = normalized_prefix if normalized_prefix and normalized_prefix in DDAL_CAMPAIGN else dc_code
+    if grouping_key:
         # Ensure the category exists in aggregated_by_dc_code
-        if dc_code.upper() not in aggregated_by_dc_code:
-            aggregated_by_dc_code[dc_code.upper()] = []
-        aggregated_by_dc_code[dc_code.upper()].append(data)
+        if grouping_key.upper() not in aggregated_by_dc_code:
+            aggregated_by_dc_code[grouping_key.upper()] = []
+        aggregated_by_dc_code[grouping_key.upper()].append(data)
 
 def aggregate():
     aggregated_by_dc_code = defaultdict(list)
