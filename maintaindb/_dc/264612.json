@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "Alan Patrick"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL08-13 The Vampire of Skullport",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "264612",
+    "season": "Waterdeep",
     "tiers": 3,
-    "title": "DDAL08-13 The Vampire of Skullport",
-    "url": "https://www.dmsguild.com/product/264612/DDAL0813-The-Vampire-of-Skullport"
+    "title": "The Vampire of Skullport",
+    "url": "https://www.dmsguild.com/product/264612/?affiliate_id=171040"
 }
