@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "James Introcaso"
+    ],
     "campaigns": [
         null
     ],
@@ -9,10 +11,12 @@
     "full_title": "Invasion from the Planet of Tarrasques",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "20",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "258229",
+    "season": null,
     "tiers": null,
     "title": "Invasion from the Planet of Tarrasques",
-    "url": "https://www.dmsguild.com/product/258229/Invasion-from-the-Planet-of-Tarrasques?filters=45680_0_45393_0_45356_0_0_0"
+    "url": "https://www.dmsguild.com/product/258229/?affiliate_id=171040"
 }

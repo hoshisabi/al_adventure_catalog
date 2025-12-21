@@ -6,15 +6,17 @@
     "campaigns": [
         null
     ],
-    "code": null,
+    "code": "DDHC-TOA-13",
     "date_created": "20171110",
     "full_title": "The Risen Mists",
     "hours": null,
-    "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "is_adventure": true,
+    "level_range": "11-15",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "226245",
-    "tiers": null,
+    "season": null,
+    "tiers": 3,
     "title": "The Risen Mists",
     "url": "https://www.dmsguild.com/product/226245/?affiliate_id=171040"
 }

@@ -1,6 +1,10 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Will Doyle",
+        "James Haeck",
+        "James Introcaso"
+    ],
     "campaigns": [
         null
     ],
@@ -10,9 +14,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 7.95,
     "product_id": "265414",
+    "season": null,
     "tiers": null,
     "title": "Dragon Heist Forgotten Tales",
-    "url": "https://www.dmsguild.com/product/265414/Dragon-Heist-Forgotten-Tales?filters=45680_0_45393_0_45356_0_0_0"
+    "url": "https://www.dmsguild.com/product/265414/?affiliate_id=171040"
 }

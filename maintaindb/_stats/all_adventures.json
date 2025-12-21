@@ -3570,6 +3570,28 @@
         "url": "https://www.dmsguild.com/product/225185/CCCBMG21-HULB-23-Winters-Sharp-Bite?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Rich Lescouflair"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "DDHC-TOA-13",
+        "date_created": "20171110",
+        "full_title": "The Risen Mists",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-15",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "226245",
+        "season": null,
+        "tiers": 3,
+        "title": "The Risen Mists",
+        "url": "https://www.dmsguild.com/product/226245/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "William Beers"
@@ -3918,15 +3940,17 @@
         "url": "https://www.dmsguild.com/product/230627/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": null,
+        "apl": 3,
+        "authors": [
+            "Christopher Lindsay"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDIA-XGE",
         "date_created": null,
         "full_title": "DDIA-XGE Underworld Speculation",
-        "hours": "4",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "price": null,
@@ -9113,6 +9137,25 @@
         "url": "https://www.dmsguild.com/product/277526/CCCPRETZPLA02-A-Mine-of-Their-Own&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": null,
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-CA-01",
+        "date_created": null,
+        "full_title": "DDAL-CA-01 Return to the Ghost Tower of Inverness",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "price": null,
+        "product_id": "341695",
+        "season": null,
+        "tiers": 1,
+        "title": "Return to the Ghost Tower of Inverness",
+        "url": "https://www.dmsguild.com/en/product/341695?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Adam Scaramella",
@@ -10316,14 +10359,16 @@
         "code": "CCC-JGD-03",
         "date_created": "20191008",
         "full_title": "CCC-JGD-03 Tortle Tribulations",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
-        "product_id": 291016,
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "291016",
+        "season": null,
         "tiers": 2,
         "title": "CCC-JGD-03 Tortle Tribulations",
-        "url": "https://www.dmsguild.com/product/291016/DDALJGD03-Tortle-Tribulations&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/291016/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -12368,11 +12413,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "309087",
+        "season": null,
         "tiers": 1,
         "title": "House Hunting A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/309087/House-Hunting-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/309087/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -12707,11 +12754,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "311419",
+        "season": null,
         "tiers": 1,
         "title": "Dreams of Salvation A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/311419/Dreams-of-Salvation-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/311419/?affiliate_id=171040"
     },
     {
         "apl": 8,

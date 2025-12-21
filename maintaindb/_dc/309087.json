@@ -12,9 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "309087",
+    "season": null,
     "tiers": 1,
     "title": "House Hunting A 4 hour Tier 1 Salvage Mission",
-    "url": "https://www.dmsguild.com/product/309087/House-Hunting-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/309087/?affiliate_id=171040"
 }
