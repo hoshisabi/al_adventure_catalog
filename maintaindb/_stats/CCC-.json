@@ -2902,7 +2902,7 @@
         "url": "https://www.dmsguild.com/product/250006/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 11,
         "authors": [
             "Al Spader",
             "MOGC"
@@ -3876,7 +3876,7 @@
         "url": "https://www.dmsguild.com/product/257945/CCCCIC10-Terror-at-Soward-Manor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Derek Gray",
             "Chris Totten",
@@ -6040,6 +6040,29 @@
         "tiers": 2,
         "title": "CCC-TRI-34 Rise of the Sea Dragon Part Three of the Dead Men Series",
         "url": "https://www.dmsguild.com/product/284078/CCCTRI34-Rise-of-the-Sea-Dragon-Part-Three-of-the-Dead-Men-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Chelsea Steverson",
+            "MOGC"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ALMOG-24",
+        "date_created": "20190814",
+        "full_title": "Beneath Ironfang Keep",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "284732",
+        "season": null,
+        "tiers": 2,
+        "title": "Beneath Ironfang Keep",
+        "url": "https://www.dmsguild.com/product/284732/?affiliate_id=171040"
     },
     {
         "apl": 11,

@@ -2915,11 +2915,14 @@
         "full_title": "CCC-ALMOG-03 TALES03-01 Claws of Fury",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": 250115,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "250115",
+        "season": null,
         "tiers": 3,
         "title": "CCC-ALMOG-03 TALES03-01 Claws of Fury",
-        "url": "https://www.dmsguild.com/product/250115/CCCALMOG03-TALES0301-Claws-of-Fury?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/250115/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3888,10 +3891,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": 257958,
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "257958",
+        "season": null,
         "tiers": 1,
         "title": "CCC-ALMOG-01 TALES01-01 What Lies Beneath",
-        "url": "https://www.dmsguild.com/product/257958/CCCALMOG01-TALES0101-What-Lies-Beneath?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/257958/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -6049,11 +6055,14 @@
         "full_title": "Beneath Ironfang Keep",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": 284732,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "284732",
+        "season": null,
         "tiers": 2,
         "title": "Beneath Ironfang Keep",
-        "url": "https://www.dmsguild.com/product/284732/Beneath-Ironfang-Keep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/284732/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -8320,15 +8329,17 @@
         ],
         "code": "CCC-SVH-03-01",
         "date_created": "20200429",
-        "full_title": "CCC-SVH-03-01 Finder's Fiend",
+        "full_title": "CCC-SVH-03-01 Finder's Fiend (w/ FG mod)",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 311649,
+        "product_id": "311649",
+        "season": null,
         "tiers": 2,
         "title": "CCC-SVH-03-01 Finder's Fiend w/ FG mod",
-        "url": "https://www.dmsguild.com/product/311649/&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/311649/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -24541,7 +24552,7 @@
         "url": "https://www.dmsguild.com/product/452693/SJDCMONSTER02-Leviathan?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 2,
+        "apl": null,
         "authors": [
             "Jon Christian"
         ],
@@ -24553,11 +24564,14 @@
         "full_title": "BMG-DL-VOTU-02 Dragons of Sorrow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "4",
-        "product_id": 452943,
+        "level_range": "2-4",
+        "payWhatYouWant": false,
+        "price": 9.99,
+        "product_id": "452943",
+        "season": null,
         "tiers": 1,
         "title": "BMG-DL-VOTU-02 Dragons of Sorrow",
-        "url": "https://www.dmsguild.com/product/452943/BMGDLVOTU02-Dragons-of-Sorrow?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/452943/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24844,11 +24858,14 @@
         "full_title": "Breathless (SJ-DC-DFA-04)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": 457185,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "457185",
+        "season": "Spelljammer",
         "tiers": 2,
         "title": "Breathless",
-        "url": "https://www.dmsguild.com/product/457185/Breathless-SJDCDFA04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/457185/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -25544,7 +25561,7 @@
         "url": "https://www.dmsguild.com/product/463637/No-Time-to-Die-PSDCHYS03-5e?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 3,
+        "apl": null,
         "authors": [
             "Janine Hempy",
             "Jon Christian"
@@ -25557,11 +25574,14 @@
         "full_title": "BMG-DL-VOTU-03 Dragons of Treachery",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
-        "product_id": 463661,
+        "level_range": "3-4",
+        "payWhatYouWant": false,
+        "price": 9.99,
+        "product_id": "463661",
+        "season": null,
         "tiers": 1,
         "title": "BMG-DL-VOTU-03 Dragons of Treachery",
-        "url": "https://www.dmsguild.com/product/463661/BMGDLVOTU03-Dragons-of-Treachery?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/463661/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -29836,11 +29856,14 @@
         "full_title": "Book of Wild Magic (FR-DC-MELB-01-05)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": 492295,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "492295",
+        "season": null,
         "tiers": 2,
         "title": "Book of Wild Magic",
-        "url": "https://www.dmsguild.com/product/492295/Book-of-Wild-Magic-FRDCMELB0105?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492295/?affiliate_id=171040"
     },
     {
         "apl": 3,
