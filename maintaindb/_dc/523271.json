@@ -11,10 +11,12 @@
     "full_title": "FR-DC-DIGM-01-02 Sweet Reassignment",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "01",
-    "price": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "523271",
+    "season": null,
     "tiers": 1,
     "title": "Sweet Reassignment",
-    "url": "https://www.dmsguild.com/product/523271/FRDCDIGM0102-Sweet-Reassignment?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/523271/?affiliate_id=171040"
 }

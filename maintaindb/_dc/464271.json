@@ -9,12 +9,14 @@
     "code": "SJ-DC-LLL-01",
     "date_created": "20231218",
     "full_title": "Library Lies & Lift Off! - SJ-DC-LLL-01",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "464271",
+    "season": "Spelljammer",
     "tiers": 2,
-    "title": "Library Lies & Lift Off! -",
+    "title": "Library Lies & Lift Off!",
     "url": "https://www.dmsguild.com/product/464271/?affiliate_id=171040"
 }

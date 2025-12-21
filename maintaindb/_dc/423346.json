@@ -8,14 +8,17 @@
     ],
     "code": "SJ-DC-DEN-H6",
     "date_created": "20230114",
-    "full_title": "SJ-DC-DEN-H6 Sekolah’s Ire",
-    "hours": null,
+    "full_title": "SJ-DC-DEN-H6 Sekolah's Ire",
+    "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": null,
+    "payWhatYouWant": true,
+    "price": 4.0,
     "product_id": "423346",
+    "season": null,
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 4.0,
     "tiers": 2,
-    "title": "Sekolah’s Ire",
-    "url": "https://www.dmsguild.com/product/423346/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "Sekolah's Ire",
+    "url": "https://www.dmsguild.com/product/423346/?affiliate_id=171040"
 }

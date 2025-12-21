@@ -1288,8 +1288,8 @@ def _extract_code_from_description(description_text):
         (r'\b(DDIA-[A-Za-z]+(?:-\d{1,2})?|DDIA\d{1,2})\b', lambda m: m.group(0).upper()),
         # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01)
         (r'\b(AL|CCC-)[A-Z]{2,3}-\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?\b', lambda m: m.group(0).upper()),
-        # BMG codes (e.g., BMG-DRW-01)
-        (r'\b(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}\b', lambda m: m.group(0).upper()),
+        # BMG codes (e.g., BMG-DRW-01, PO-BK-1-04) - may have additional dash-number sequence
+        (r'\b(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}(?:-\d{1,2})?\b', lambda m: m.group(0).upper()),
         # Ravenloft Module Hunt (e.g., RMH-01)
         (r'\b(RMH)-(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # Eberron Sharn Modules (e.g., EB-SM-01)

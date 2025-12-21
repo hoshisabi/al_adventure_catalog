@@ -10,12 +10,14 @@
     "code": "DL-DC-LIGA02",
     "date_created": "20240919",
     "full_title": "DL-DC-LIGA02 - Wickedness over Dargaard",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "495850",
+    "season": null,
     "tiers": 1,
-    "title": "- Wickedness over Dargaard",
+    "title": "Wickedness over Dargaard",
     "url": "https://www.dmsguild.com/product/495850/?affiliate_id=171040"
 }

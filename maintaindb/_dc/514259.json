@@ -1,18 +1,25 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Alan Patrick",
+        "M.T. Black",
+        "Jeff Stevens Games",
+        "Bryan Stevens"
+    ],
     "campaigns": [
         null
     ],
-    "code": null,
+    "code": "DDHC-WDH-03",
     "date_created": "20250303",
     "full_title": "Blue Alley (Roll20)",
-    "hours": null,
+    "hours": "3-4",
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 6.95,
     "product_id": "514259",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "Blue Alley Roll20",
-    "url": "https://www.dmsguild.com/product/514259/Blue-Alley-Roll20?filters=45680_0_45393_0_45356_0_0_0"
+    "url": "https://www.dmsguild.com/product/514259/?affiliate_id=171040"
 }

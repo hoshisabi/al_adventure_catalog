@@ -9,12 +9,14 @@
     "code": "PS-DC-SS",
     "date_created": "20240311",
     "full_title": "Soul and Shadow (PS-DC-SS)",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "17-20",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "473735",
+    "season": null,
     "tiers": 4,
-    "title": "Soul and Shadow PS-DC-SS",
+    "title": "Soul and Shadow",
     "url": "https://www.dmsguild.com/product/473735/?affiliate_id=171040"
 }

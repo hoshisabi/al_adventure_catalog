@@ -10,12 +10,14 @@
     "code": "DL-DC-LIGA01",
     "date_created": "20240821",
     "full_title": "DL-DC-LIGA01 - A Silver Light",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "492361",
+    "season": null,
     "tiers": 1,
-    "title": "- A Silver Light",
+    "title": "A Silver Light",
     "url": "https://www.dmsguild.com/product/492361/?affiliate_id=171040"
 }

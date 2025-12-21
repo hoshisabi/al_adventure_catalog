@@ -194,8 +194,8 @@ class AdventureDataNormalizer:
         # This logic determines if the product is an adventure suitable for the catalog.
         # It's an adventure if it has a code AND is not a bundle/Roll20/Fantasy Grounds product.
         is_adventure_flag = False
-        if normalized_data["code"]:
-            lower_full_title = normalized_data["full_title"].lower() if normalized_data["full_title"] else ""
+        if normalized_data.get("code"):  # Use .get() for safety, check if truthy (not None/empty)
+            lower_full_title = (normalized_data.get("full_title") or "").lower()
             is_bundle = 'bundle' in lower_full_title or 'compendium' in lower_full_title
             is_roll20 = 'roll20' in lower_full_title
             is_fg = 'fantasy grounds' in lower_full_title

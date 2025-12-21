@@ -9,13 +9,16 @@
     "code": "SJ-DC-DEN-H7",
     "date_created": "20230129",
     "full_title": "SJ-DC-DEN-H7 Flummoxing Fire from Afar",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": true,
+    "price": 4.0,
     "product_id": "424979",
+    "season": null,
+    "seed": "Saint Argols Fire",
+    "suggestedPrice": 4.0,
     "tiers": 1,
     "title": "Flummoxing Fire from Afar",
-    "url": "https://www.dmsguild.com/product/424979/?affiliate_id=171040",
-    "seed": "Saint Argol’s Fire"
+    "url": "https://www.dmsguild.com/product/424979/?affiliate_id=171040"
 }
