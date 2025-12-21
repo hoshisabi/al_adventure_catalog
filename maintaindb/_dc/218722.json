@@ -7,13 +7,16 @@
         "Forgotten Realms"
     ],
     "code": "CCC-LINKS-01",
-    "date_created": "20170809",
+    "date_created": "20170810",
     "full_title": "CCC-LINKS-01 Champion of the People",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "218722",
+    "season": "Rage of Demons",
     "tiers": 3,
-    "title": "CCC-LINKS-01 Champion of the People",
-    "url": "https://www.dmsguild.com/product/218722/CCCLINKS01-Champion-of-the-People?filters=45470_0_0_0_0_0_0_0"
+    "title": "Champion of the People",
+    "url": "https://www.dmsguild.com/product/218722/?affiliate_id=171040"
 }

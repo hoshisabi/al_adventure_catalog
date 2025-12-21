@@ -1248,7 +1248,7 @@
         ],
         "code": "WBW-DC-CBB-02",
         "date_created": "20220313",
-        "full_title": "WBW-DC-CBB-02 Escolar\u2019s Grotto",
+        "full_title": "WBW-DC-CBB-02 Escolar’s Grotto",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -1258,7 +1258,7 @@
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
-        "title": "Escolar\u2019s Grotto",
+        "title": "Escolar’s Grotto",
         "url": "https://www.dmsguild.com/product/390077/?affiliate_id=171040"
     },
     {
@@ -1953,7 +1953,7 @@
         "apl": 3,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00e4n Stanhope"
+            "Teän Stanhope"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -2395,7 +2395,7 @@
         "apl": 3,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -2474,6 +2474,7 @@
         "price": 2.0,
         "product_id": "403741",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Beauty's Beast",
         "url": "https://www.dmsguild.com/product/403741/?affiliate_id=171040"
@@ -3101,7 +3102,7 @@
         "apl": 3,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00e4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -3552,14 +3553,14 @@
         ],
         "code": "WBW-DC-ROG-03",
         "date_created": "20220829",
-        "full_title": "WBW-DC-ROG-03 Hope In A Medusa\u00e2\u20ac\u2122s Eye",
+        "full_title": "WBW-DC-ROG-03 Hope In A Medusa’s Eye",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "408193",
         "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "Hope In A Medusa\u00e2\u20ac\u2122s Eye",
+        "title": "Hope In A Medusa’s Eye",
         "url": "https://www.dmsguild.com/product/408193/WBWDCROG03-Hope-In-A-Medusas-Eye?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -3603,6 +3604,7 @@
         "price": 4.99,
         "product_id": "408198",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "The Nightmare of Dreams",
@@ -4052,8 +4054,8 @@
     {
         "apl": 3,
         "authors": [
-            "Lu\u00c3\u00ads Ricardo",
-            "Patr\u00c3\u00adcia Brito"
+            "Luís Ricardo",
+            "Patrícia Brito"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -4895,6 +4897,7 @@
         "price": 6.99,
         "product_id": "408602",
         "season": null,
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
         "title": "Strahd Must Die!",
         "url": "https://www.dmsguild.com/product/408602/?affiliate_id=171040"
@@ -4907,9 +4910,9 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-CEL1-",
+        "code": "WBW-DC-JSH-CEL1",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-CEL1: Better with Friends",
+        "full_title": "WBW-DC-JSH-CEL1 Better with Friends",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
@@ -4917,6 +4920,7 @@
         "price": 0.0,
         "product_id": "408606",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
         "title": "Better with Friends",
         "url": "https://www.dmsguild.com/product/408606/?affiliate_id=171040"
@@ -4931,7 +4935,7 @@
         ],
         "code": "WBW-DC-MC-01",
         "date_created": "20220831",
-        "full_title": "WBW-DC-MC-01 Memento Motus: S\u00c3\u00a9ance for the Lost",
+        "full_title": "WBW-DC-MC-01 Memento Motus: Séance for the Lost",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -4940,7 +4944,7 @@
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
-        "title": "Memento Motus: S\u00c3\u00a9ance for the Lost",
+        "title": "Memento Motus: Séance for the Lost",
         "url": "https://www.dmsguild.com/product/408609/?affiliate_id=171040"
     },
     {
@@ -5064,6 +5068,7 @@
         "price": 1.0,
         "product_id": "524648",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Puffalo's Proposal",
         "url": "https://www.dmsguild.com/product/524648/?affiliate_id=171040"
@@ -5086,6 +5091,7 @@
         "price": 0.5,
         "product_id": "546031",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "suggestedPrice": 0.5,
         "tiers": 1,
         "title": "Disenchanted",

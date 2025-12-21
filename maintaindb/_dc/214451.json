@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 6,
     "authors": [
         "Iam Pace",
         "William Murakami-Brundage"
@@ -12,9 +12,12 @@
     "full_title": "CCC-PDXAGE-02-01 The Dark Hunt",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "214451",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-PDXAGE-02-01 The Dark Hunt",
-    "url": "https://www.dmsguild.com/product/214451/CCCPDXAGE0201-The-Dark-Hunt?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Dark Hunt",
+    "url": "https://www.dmsguild.com/product/214451/?affiliate_id=171040"
 }

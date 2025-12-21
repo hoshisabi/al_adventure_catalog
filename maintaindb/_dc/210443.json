@@ -1,5 +1,5 @@
 {
-    "apl": 1,
+    "apl": 2,
     "authors": [
         "Derek Gray",
         "MOGC"
@@ -12,9 +12,12 @@
     "full_title": "CCC-SALT-01-02 Moor Trouble",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "210443",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SALT-01-02 Moor Trouble",
-    "url": "https://www.dmsguild.com/product/210443/CCCSALT0102-Moor-Trouble?filters=45470_0_0_0_0_0_0_0"
+    "title": "Moor Trouble",
+    "url": "https://www.dmsguild.com/product/210443/?affiliate_id=171040"
 }

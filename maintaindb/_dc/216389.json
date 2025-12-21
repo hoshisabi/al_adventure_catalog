@@ -11,9 +11,12 @@
     "full_title": "CCC-CIC-04 Best Friends Forever",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "216389",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-CIC-04 Best Friends Forever",
-    "url": "https://www.dmsguild.com/product/216389/CCCCIC04-Best-Friends-Forever?filters=45470_0_0_0_0_0_0_0"
+    "title": "Best Friends Forever",
+    "url": "https://www.dmsguild.com/product/216389/?affiliate_id=171040"
 }

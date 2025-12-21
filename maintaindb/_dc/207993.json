@@ -11,9 +11,12 @@
     "full_title": "CCC-CIC-03 The Desolate Undercroft",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 0.0,
     "product_id": "207993",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-CIC-03 The Desolate Undercroft",
-    "url": "https://www.dmsguild.com/product/207993/CCCCIC03-The-Desolate-Undercroft?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Desolate Undercroft",
+    "url": "https://www.dmsguild.com/product/207993/?affiliate_id=171040"
 }
