@@ -291,10 +291,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "payWhatYouWant": true,
+        "price": 2.0,
         "product_id": "375416",
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
+        "suggestedPrice": 2.0,
         "tiers": 1,
         "title": "Pixie Dreams",
         "url": "https://www.dmsguild.com/product/375416/?affiliate_id=171040"
