@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "254453",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-NUKE-01-02 Hide and Seek",
-    "url": "https://www.dmsguild.com/product/254453/CCCNUKE0102-Hide-and-Seek"
+    "title": "Hide and Seek",
+    "url": "https://www.dmsguild.com/product/254453/?affiliate_id=171040"
 }

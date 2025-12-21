@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "279463",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-BWM-005 Chasing Madness",
-    "url": "https://www.dmsguild.com/product/279463/CCCBWM005-Chasing-Madness"
+    "title": "Chasing Madness",
+    "url": "https://www.dmsguild.com/product/279463/?affiliate_id=171040"
 }
