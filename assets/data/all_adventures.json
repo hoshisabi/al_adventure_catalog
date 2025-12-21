@@ -10921,10 +10921,13 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "340682",
+        "season": null,
         "tiers": 1,
         "title": "CCC-HERO-BK03-01 A Walk Along the Borders",
-        "url": "https://www.dmsguild.com/product/340682/CCCHEROBK0301-A-Walk-Along-the-Borders?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/340682/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -12389,10 +12392,13 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "349212",
+        "season": null,
         "tiers": 3,
         "title": "Happy-Go-Lucky",
-        "url": "https://www.dmsguild.com/product/349212/HappyGoLucky?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/349212/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -29406,6 +29412,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "489416",
         "season": "Planescape",
@@ -29622,6 +29629,7 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-2",
+        "payWhatYouWant": false,
         "price": 4.63,
         "product_id": "491254",
         "season": null,
@@ -30837,6 +30845,7 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "499970",
         "season": null,
@@ -34441,6 +34450,7 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "545526",
         "season": null,
