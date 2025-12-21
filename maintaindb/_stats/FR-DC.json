@@ -289,7 +289,7 @@
         "url": "https://www.dmsguild.com/product/465190/FRDCNMB201-Better-Together?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -299,14 +299,14 @@
         "code": "FR-DC-PANDORA-JWEI-06",
         "date_created": "20240101",
         "full_title": "FR-DC-PANDORA-JWEI-06, The Eternals",
-        "hours": "",
+        "hours": "4-5",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "465635",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "The Eternals",
         "url": "https://www.dmsguild.com/product/465635/?affiliate_id=171040"
     },
@@ -597,7 +597,7 @@
         "url": "https://www.dmsguild.com/product/475039/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -607,19 +607,19 @@
         "code": "FR-DC-PANDORA-JWEI-08",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-08, Minerva",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "475041",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "Minerva",
         "url": "https://www.dmsguild.com/product/475041/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -629,14 +629,14 @@
         "code": "FR-DC-PANDORA-JWEI-09",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-09, Echthra",
-        "hours": "",
+        "hours": "4-5",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "475042",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "Echthra",
         "url": "https://www.dmsguild.com/product/475042/?affiliate_id=171040"
     },
@@ -4769,21 +4769,24 @@
         "url": "https://www.dmsguild.com/product/547615/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 3,
+        "authors": [
+            "Roberto C. Rivera"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "FR-DC-WCAG04-02",
-        "date_created": null,
+        "date_created": "20251129",
         "full_title": "FR-DC-WCAG04-02 Underwater Kingdom",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "547618",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "Underwater Kingdom",
         "url": "https://www.dmsguild.com/product/547618/?affiliate_id=171040"
     },
@@ -4914,22 +4917,24 @@
         "url": "https://www.dmsguild.com/product/547961/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 8,
+        "authors": [
+            "West Coast Adventurers Guild"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "FR-DC-WCAG04-06",
         "date_created": "20251205",
         "full_title": "FR-DC-WCAG04-06 A Patch of Unfurled Green",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "548343",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "A Patch of Unfurled Green",
         "url": "https://www.dmsguild.com/product/548343/?affiliate_id=171040"
     },
