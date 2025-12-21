@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "Bianca Bickford"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +12,11 @@
     "hours": "4-6",
     "is_adventure": true,
     "level_range": "11-16",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "301020",
     "season": "Avernus Rising",
     "tiers": 3,
-    "title": "DDAL09-13 The Swarmed Heart",
+    "title": "The Swarmed Heart",
     "url": "https://www.dmsguild.com/product/301020/?affiliate_id=171040"
 }

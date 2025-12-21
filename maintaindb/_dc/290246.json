@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "D&D Adventurers League"
+        "Ted Atkinson"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +12,11 @@
     "hours": "4-6",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "290246",
     "season": "Avernus Rising",
     "tiers": 2,
-    "title": "DDAL09-05 Faces of Fortune the Story of Fai Chen",
+    "title": "Faces of Fortune the Story of Fai Chen",
     "url": "https://www.dmsguild.com/product/290246/?affiliate_id=171040"
 }

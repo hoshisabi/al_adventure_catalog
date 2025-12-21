@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "D&D Adventurers League"
+        "Cat Evans"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +12,11 @@
     "hours": "4-6",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "295212",
     "season": "Avernus Rising",
     "tiers": 2,
-    "title": "DDAL09-09 Ruined Prospects",
+    "title": "Ruined Prospects",
     "url": "https://www.dmsguild.com/product/295212/?affiliate_id=171040"
 }

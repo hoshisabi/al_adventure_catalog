@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Andrew Bishkinskyi"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +12,11 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "289152",
     "season": "Avernus Rising",
     "tiers": 1,
-    "title": "DDAL09-02 Stopped at the Gate",
+    "title": "Stopped at the Gate",
     "url": "https://www.dmsguild.com/product/289152/?affiliate_id=171040"
 }
