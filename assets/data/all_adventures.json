@@ -25007,11 +25007,12 @@
         "full_title": "Hardy and Beholder Investigations: The Reckoning (SJ-DC-HBI-003)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": 2.75,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "411955",
         "season": "Spelljammer",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Hardy and Beholder Investigations The Reckoning",
         "url": "https://www.dmsguild.com/product/411955/?affiliate_id=171040"
     },
@@ -37128,6 +37129,28 @@
         "url": "https://www.dmsguild.com/product/517839/?affiliate_id=171040"
     },
     {
+        "apl": 2,
+        "authors": [
+            "RP Marsh"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "DC-FR-SCROOGE-001",
+        "date_created": "20250411",
+        "full_title": "DC-FR-SCROOGE-001 Funny Bunny Business",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 0.99,
+        "product_id": "518509",
+        "season": null,
+        "tiers": 1,
+        "title": "Funny Bunny Business",
+        "url": "https://www.dmsguild.com/product/518509/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Dennis R Hall"
@@ -39304,6 +39327,29 @@
         "url": "https://www.dmsguild.com/product/546920/?affiliate_id=171040"
     },
     {
+        "apl": 2,
+        "authors": [
+            "RP Marsh"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-LOOSE-02",
+        "date_created": "20251123",
+        "full_title": "FR-DC-LOOSE-02 Spells on the Loose",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 0.99,
+        "product_id": "546997",
+        "season": null,
+        "suggestedPrice": 0.99,
+        "tiers": 1,
+        "title": "Spells on the Loose",
+        "url": "https://www.dmsguild.com/product/546997/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Nick Oller"
@@ -39625,22 +39671,25 @@
         "url": "https://www.dmsguild.com/product/548343/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            null
+        "apl": 2,
+        "authors": [
+            "RP Marsh"
         ],
-        "code": "Spells Gone Wild",
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-LOOSE-02",
         "date_created": "20251207",
-        "full_title": "Spells Gone Wild",
-        "hours": "",
+        "full_title": "FR-DC-LOOSE-02 Spells Gone Wild",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
         "price": 0.99,
         "product_id": "548631",
         "season": null,
-        "tiers": 0,
+        "suggestedPrice": 0.99,
+        "tiers": 1,
         "title": "Spells Gone Wild",
         "url": "https://www.dmsguild.com/product/548631/?affiliate_id=171040"
     },
