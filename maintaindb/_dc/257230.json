@@ -12,9 +12,11 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.99,
-    "product_id": 257230,
+    "product_id": "257230",
+    "season": null,
     "tiers": 2,
-    "title": "DDAL-ELW05 Against the Lightning",
-    "url": "https://www.dmsguild.com/product/257230/DDALELW05-Against-the-Lightning"
+    "title": "Against the Lightning",
+    "url": "https://www.dmsguild.com/product/257230/?affiliate_id=171040"
 }

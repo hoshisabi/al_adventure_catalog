@@ -1,17 +1,24 @@
 {
     "apl": null,
     "authors": [
-        "D&D Adventurers League"
+        "Greg Marks",
+        "Claire Hoffman",
+        "Alan Patrick",
+        "Travis Woodall",
+        "Bill Benham",
+        "Robert Adducci"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDAL00-02",
+    "code": "Lost Tales of Myth Drannor",
     "date_created": "20180713",
     "full_title": "Lost Tales of Myth Drannor",
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-20",
+    "payWhatYouWant": false,
+    "price": 14.99,
     "product_id": "247140",
     "tiers": "1-4",
     "title": "Lost Tales of Myth Drannor",
