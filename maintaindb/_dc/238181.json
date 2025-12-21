@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "238181",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-CIC-06 End of the Line",
-    "url": "https://www.dmsguild.com/product/238181/CCCCIC06-End-of-the-Line?filters=45470_0_0_0_0_0_0_0"
+    "title": "End of the Line",
+    "url": "https://www.dmsguild.com/product/238181/?affiliate_id=171040"
 }

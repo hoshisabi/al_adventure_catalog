@@ -60,7 +60,7 @@ def is_seed_required_code(code):
     return False, None
 
 def generate_stats():
-    with open(adventures_input_path) as f:
+    with open(adventures_input_path, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
         data = []
         # Define the expected parameters for DungeonCraft.__init__
@@ -164,8 +164,8 @@ def generate_stats():
         for season, seed_counts in stats['seed_by_season'].items()
     }
             
-    with open(stats_output_path, 'w') as f:
-        json.dump(stats, f, indent=4)
+    with open(stats_output_path, 'w', encoding='utf-8') as f:
+        json.dump(stats, f, indent=4, ensure_ascii=False)
     
     logger.info(f"Stats generated and saved to {stats_output_path}")
 

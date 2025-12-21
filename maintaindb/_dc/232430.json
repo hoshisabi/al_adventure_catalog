@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "232430",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SFBAY-04-01 The Cornflower Hive",
-    "url": "https://www.dmsguild.com/product/232430/CCCSFBAY0401-The-Cornflower-Hive?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Cornflower Hive",
+    "url": "https://www.dmsguild.com/product/232430/?affiliate_id=171040"
 }

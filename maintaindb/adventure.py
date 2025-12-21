@@ -420,6 +420,12 @@ def _extract_title_from_html(parsed_html):
         if og_title and og_title.get("content"):
             title_result = og_title["content"]
     
+    # Try h1 tag (for newer Angular format)
+    if not title_result:
+        h1_tag = parsed_html.find("h1")
+        if h1_tag and h1_tag.text:
+            title_result = h1_tag.text.strip()
+    
     # Try <title> tag as last resort
     if not title_result:
         title_tag = parsed_html.find("title")
@@ -1106,6 +1112,9 @@ def _normalize_and_convert_data(raw_data):
     processed_data["apl"] = str_to_int(raw_data["apl_raw"])
     processed_data["tiers"] = str_to_int(raw_data["tiers_raw"])
     processed_data["level_range"] = raw_data["level_range_raw"]
+    
+    # Also set full_title to match module_name for compatibility
+    processed_data["full_title"] = processed_data["module_name"]
 
     return processed_data
 
@@ -1163,13 +1172,26 @@ def _infer_missing_adventure_data(data):
             data["level_range"] = derived_level_range
 
     # Determine if it's an adventure
-    lower_full_title = data["module_name"].lower() if data["module_name"] else ""
-    is_bundle = 'bundle' in lower_full_title
+    # Check both module_name and full_title (for compatibility with different data structures)
+    title_for_check = data.get("module_name") or data.get("full_title") or ""
+    if not title_for_check:
+        # If no title at all, can't determine if it's an adventure
+        data["is_adventure"] = False
+        return data
+    
+    lower_full_title = title_for_check.lower()
+    is_bundle = 'bundle' in lower_full_title or 'compendium' in lower_full_title
     is_roll20 = 'roll20' in lower_full_title
     is_fg = 'fantasy grounds' in lower_full_title
 
-    if data["code"] and not is_bundle and not is_roll20 and not is_fg:
-        data["is_adventure"] = True
+    # It's an adventure if it has a code AND is not excluded by keywords
+    code = data.get("code")
+    # Debug: Check if code is truthy (not None, not empty string)
+    if code and code.strip() if isinstance(code, str) else code:
+        if not is_bundle and not is_roll20 and not is_fg:
+            data["is_adventure"] = True
+        else:
+            data["is_adventure"] = False
     else:
         data["is_adventure"] = False
     
@@ -1405,8 +1427,8 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
                     merged_data[key] = new_value
             else:  # Original behavior (not careful, not force)
                 if not is_new_value_empty:
-                    if is_existing_value_empty or existing_value != new_value:
-                        merged_data[key] = new_value
+                    # Always use new non-empty value (including boolean False which is a valid non-empty value)
+                    merged_data[key] = new_value
                 elif not is_existing_value_empty:  # If new is empty, but existing is not, keep existing
                     merged_data[key] = existing_value
     return merged_data
@@ -1432,6 +1454,13 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     raw_data = _extract_raw_data_from_html(parsed_html, product_id)
     normalized_data = _normalize_and_convert_data(raw_data)
     new_data = _infer_missing_adventure_data(normalized_data)
+    
+    # Ensure is_adventure is set correctly after inference
+    # Double-check: if we have a code and title doesn't contain exclusion keywords, it's an adventure
+    if new_data.get("code") and (new_data.get("module_name") or new_data.get("full_title")):
+        title_check = (new_data.get("module_name") or new_data.get("full_title") or "").lower()
+        if not any(keyword in title_check for keyword in ['bundle', 'compendium', 'roll20', 'fantasy grounds']):
+            new_data["is_adventure"] = True
 
     return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
 

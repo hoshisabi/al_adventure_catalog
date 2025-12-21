@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "227812",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-ODFC01-01 Hammer and Anvil",
-    "url": "https://www.dmsguild.com/product/227812/CCCODFC0101-Hammer-and-Anvil?filters=45470_0_0_0_0_0_0_0"
+    "title": "Hammer and Anvil",
+    "url": "https://www.dmsguild.com/product/227812/?affiliate_id=171040"
 }
