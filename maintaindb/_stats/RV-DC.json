@@ -1,65 +1,163 @@
 [
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
-            "Stefan Tomaschitz"
+            "Raymond Holding"
         ],
         "campaigns": [
             "Ravenloft"
         ],
-        "code": "RV-DC-SDG-01",
-        "date_created": "20240811",
-        "full_title": "A Cursed Key",
-        "hours": "3",
+        "code": "RV-DC-DBH-01",
+        "date_created": "20210813",
+        "full_title": "RV-DC-DBH-01 And Then There Was a Murder",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "1-2",
-        "price": 3.22,
-        "product_id": "491254",
-        "season": null,
+        "level_range": null,
+        "product_id": "367527",
         "tiers": 1,
-        "title": "A Cursed Key",
-        "url": "https://www.dmsguild.com/product/491254/?affiliate_id=171040"
+        "title": "And Then There Was a Murder",
+        "url": "https://www.dmsguild.com/product/367527/RVDCDBH01-And-Then-There-Was-a-Murder?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "Katriel Paige"
+            "Teddy Benson",
+            "Paige Leitman"
         ],
         "campaigns": [
             "Ravenloft"
         ],
-        "code": "RV-DC-POE-01",
-        "date_created": "20241013",
-        "full_title": "A Peculiar Premiere RV-DC-POE-01",
+        "code": "RV-DC-GC15-01",
+        "date_created": "20230322",
+        "full_title": "RV-DC-GC15-01 Expedition Into The Desert",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "431307",
+        "tiers": 2,
+        "title": "Expedition Into The Desert",
+        "url": "https://www.dmsguild.com/product/431307/RVDCGC1501-Expedition-Into-The-Desert?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jay H Anderson",
+            "Paige Leitman"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-GC15-02",
+        "date_created": "20230322",
+        "full_title": "RV-DC-GC15-02 Domain Infringement",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "431311",
+        "tiers": 2,
+        "title": "Domain Infringement",
+        "url": "https://www.dmsguild.com/product/431311/RVDCGC1502-Domain-Infringement?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Paige Leitman",
+            "Adrian Rhodes"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-GC15-03",
+        "date_created": "20230322",
+        "full_title": "RV-DC-GC15-03 False Faces",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "431313",
+        "tiers": 2,
+        "title": "False Faces",
+        "url": "https://www.dmsguild.com/product/431313/RVDCGC1503-False-Faces?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Paige Leitmen",
+            "Marcello De Velazquez"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-GC15-04",
+        "date_created": "20230322",
+        "full_title": "RV-DC-GC15-04 Kingdom, Rise!",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "431316",
+        "tiers": 2,
+        "title": "Kingdom, Rise!",
+        "url": "https://www.dmsguild.com/product/431316/RVDCGC1504-Kingdom-Rise?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Miguel Luis de Jesus"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-PHP-1313-01",
+        "date_created": "20230416",
+        "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "price": 3.99,
-        "product_id": "498757",
+        "product_id": "434117",
         "season": null,
         "tiers": 2,
-        "title": "A Peculiar Premiere",
-        "url": "https://www.dmsguild.com/product/498757/?affiliate_id=171040"
+        "title": "On That Fateful Day",
+        "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": null,
         "authors": [
-            "Stefan Tomaschitz"
+            "the illuminhaughti"
         ],
         "campaigns": [
-            "Ravenloft",
-            "Forgotten Realms"
+            "Ravenloft"
         ],
-        "code": "RV-DC-SDG-02",
-        "date_created": "20240301",
-        "full_title": "Der Meister der Puppen",
-        "hours": "2",
+        "code": "RV-DC-HBI-001",
+        "date_created": "20230620",
+        "full_title": "Domains of Dread: the Braska Roadhouse Chainsaw Massacre (RV-DC-HBI-001)",
+        "hours": "",
         "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Der-Meister-der-Puppen",
-        "tiers": 1,
-        "title": "Der Meister der Puppen",
-        "url": "https://www.dmsguild.com/product/472637?affiliate_id=171040"
+        "level_range": null,
+        "price": 2.75,
+        "product_id": "442290",
+        "season": null,
+        "tiers": 0,
+        "title": "Domains of Dread the Braska Roadhouse Chainsaw Massacre",
+        "url": "https://www.dmsguild.com/product/442290/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Nicholas Reed"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-OH01",
+        "date_created": "20230718",
+        "full_title": "RV-DC-OH01 In the Mists of Keening",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "446081",
+        "tiers": 2,
+        "title": "In the Mists of Keening",
+        "url": "https://www.dmsguild.com/product/446081/RVDCOH01-In-the-Mists-of-Keening?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -106,27 +204,6 @@
     {
         "apl": null,
         "authors": [
-            "the illuminhaughti"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-HBI-001",
-        "date_created": "20230620",
-        "full_title": "Domains of Dread: the Braska Roadhouse Chainsaw Massacre (RV-DC-HBI-001)",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "price": 2.75,
-        "product_id": "442290",
-        "season": null,
-        "tiers": 0,
-        "title": "Domains of Dread the Braska Roadhouse Chainsaw Massacre",
-        "url": "https://www.dmsguild.com/product/442290/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
             "Stefan Tomaschitz"
         ],
         "campaigns": [
@@ -139,148 +216,30 @@
         "hours": "",
         "is_adventure": true,
         "level_range": null,
-        "product_id": "Ein-verfluchter-Schl\u00fcssel",
+        "product_id": "472632",
         "tiers": 0,
         "title": "Ein verfluchter Schl\u00fcssel",
         "url": "https://www.dmsguild.com/product/472632/Ein-verfluchter-Schlussel?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 3,
+        "apl": 1,
         "authors": [
-            "Raymond Holding"
+            "Stefan Tomaschitz"
         ],
         "campaigns": [
-            "Ravenloft"
+            "Ravenloft",
+            "Forgotten Realms"
         ],
-        "code": "RV-DC-DBH-01",
-        "date_created": "20210813",
-        "full_title": "RV-DC-DBH-01 And Then There Was a Murder",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "RV-DC-DBH-01-And-Then-There-Was-a-Murder",
-        "tiers": 1,
-        "title": "And Then There Was a Murder",
-        "url": "https://www.dmsguild.com/product/367527/RVDCDBH01-And-Then-There-Was-a-Murder?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-FREAK-01",
-        "date_created": null,
-        "full_title": "RV-DC-FREAK-01 Hypnotic Pattern",
+        "code": "RV-DC-SDG-02",
+        "date_created": "20240301",
+        "full_title": "Der Meister der Puppen",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0.5,
-        "product_id": "541193",
-        "season": null,
+        "product_id": "472637",
         "tiers": 1,
-        "title": "Hypnotic Pattern",
-        "url": "https://www.dmsguild.com/product/541193/?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Teddy Benson",
-            "Paige Leitman"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-GC15-01",
-        "date_created": "20230322",
-        "full_title": "RV-DC-GC15-01 Expedition Into The Desert",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "RV-DC-GC15-01-Expedition-Into-The-Desert",
-        "tiers": 2,
-        "title": "Expedition Into The Desert",
-        "url": "https://www.dmsguild.com/product/431307/RVDCGC1501-Expedition-Into-The-Desert?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Jay H Anderson",
-            "Paige Leitman"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-GC15-02",
-        "date_created": "20230322",
-        "full_title": "RV-DC-GC15-02 Domain Infringement",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "RV-DC-GC15-02-Domain-Infringement",
-        "tiers": 2,
-        "title": "Domain Infringement",
-        "url": "https://www.dmsguild.com/product/431311/RVDCGC1502-Domain-Infringement?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Paige Leitman",
-            "Adrian Rhodes"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-GC15-03",
-        "date_created": "20230322",
-        "full_title": "RV-DC-GC15-03 False Faces",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "RV-DC-GC15-03-False-Faces",
-        "tiers": 2,
-        "title": "False Faces",
-        "url": "https://www.dmsguild.com/product/431313/RVDCGC1503-False-Faces?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Paige Leitmen",
-            "Marcello De Velazquez"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-GC15-04",
-        "date_created": "20230322",
-        "full_title": "RV-DC-GC15-04 Kingdom, Rise!",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "RV-DC-GC15-04-Kingdom-Rise",
-        "tiers": 2,
-        "title": "Kingdom, Rise!",
-        "url": "https://www.dmsguild.com/product/431316/RVDCGC1504-Kingdom-Rise?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "David Sklenicka",
-            "Davestar Gaming"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-HH-01",
-        "date_created": "20250210",
-        "full_title": "RV-DC-HH-01 Inheritance",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "RV-DC-HH-01-Inheritance",
-        "tiers": 1,
-        "title": "Inheritance",
-        "url": "https://www.dmsguild.com/product/511921/RVDCHH01-Inheritance?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Der Meister der Puppen",
+        "url": "https://www.dmsguild.com/product/472637?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -304,6 +263,48 @@
         "url": "https://www.dmsguild.com/product/490715/?affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [
+            "Stefan Tomaschitz"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-SDG-01",
+        "date_created": "20240811",
+        "full_title": "A Cursed Key",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 3.22,
+        "product_id": "491254",
+        "season": null,
+        "tiers": 1,
+        "title": "A Cursed Key",
+        "url": "https://www.dmsguild.com/product/491254/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Katriel Paige"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-POE-01",
+        "date_created": "20241013",
+        "full_title": "A Peculiar Premiere RV-DC-POE-01",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "498757",
+        "season": null,
+        "tiers": 2,
+        "title": "A Peculiar Premiere",
+        "url": "https://www.dmsguild.com/product/498757/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [],
         "campaigns": [
@@ -323,44 +324,24 @@
         "url": "https://www.dmsguild.com/product/499970/?affiliate_id=171040"
     },
     {
-        "apl": 8,
+        "apl": null,
         "authors": [
-            "Nicholas Reed"
+            "David Sklenicka",
+            "Davestar Gaming"
         ],
         "campaigns": [
             "Ravenloft"
         ],
-        "code": "RV-DC-OH01",
-        "date_created": "20230718",
-        "full_title": "RV-DC-OH01 In the Mists of Keening",
+        "code": "RV-DC-HH-01",
+        "date_created": "20250210",
+        "full_title": "RV-DC-HH-01 Inheritance",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "RV-DC-OH01-In-the-Mists-of-Keening",
-        "tiers": 2,
-        "title": "In the Mists of Keening",
-        "url": "https://www.dmsguild.com/product/446081/RVDCOH01-In-the-Mists-of-Keening?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Miguel Luis de Jesus"
-        ],
-        "campaigns": [
-            "Ravenloft"
-        ],
-        "code": "RV-DC-PHP-1313-01",
-        "date_created": "20230416",
-        "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 3.99,
-        "product_id": "434117",
-        "season": null,
-        "tiers": 2,
-        "title": "On That Fateful Day",
-        "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
+        "level_range": "1-4",
+        "product_id": "511921",
+        "tiers": 1,
+        "title": "Inheritance",
+        "url": "https://www.dmsguild.com/product/511921/RVDCHH01-Inheritance?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -376,10 +357,29 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": "Tavern-Rats-RV-DC-CLASSIC-01",
+        "product_id": "519560",
         "tiers": 1,
         "title": "Tavern Rats",
         "url": "https://www.dmsguild.com/product/519560/Tavern-Rats-RVDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RV-DC-FREAK-01",
+        "date_created": null,
+        "full_title": "RV-DC-FREAK-01 Hypnotic Pattern",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 0.5,
+        "product_id": "541193",
+        "season": null,
+        "tiers": 1,
+        "title": "Hypnotic Pattern",
+        "url": "https://www.dmsguild.com/product/541193/?affiliate_id=171040"
     },
     {
         "apl": 3,
