@@ -1,7 +1,6 @@
 {
     "apl": 13,
     "authors": [
-        "Wizards of the Coast",
         "Greg Marks"
     ],
     "campaigns": [
@@ -9,13 +8,15 @@
     ],
     "code": "DDEX03-16",
     "date_created": "20160322",
-    "full_title": "DDEX03-16 Assault on Maerimydra (5e)",
+    "full_title": "DDEX03-16 Assault on Maerimydra",
     "hours": "8",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "177572",
+    "season": "Rage of Demons",
     "tiers": 3,
-    "title": "DDEX03-16 Assault on Maerimydra 5e",
-    "url": "https://www.dmsguild.com/product/177572/DDEX0316-Assault-on-Maerimydra-5e"
+    "title": "Assault on Maerimydra",
+    "url": "https://www.dmsguild.com/product/177572/?affiliate_id=171040"
 }
