@@ -1,7 +1,8 @@
 {
     "apl": 11,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Erik Scott de Bie"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +12,12 @@
     "full_title": "CCC-BMG-15 PHLAN 1-3 Subterfuge",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "11",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "189523",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-15 PHLAN 1-3 Subterfuge",
-    "url": "https://www.dmsguild.com/product/189523/CCCBMG15-PHLAN-13-Subterfuge?filters=45470_0_0_0_0_0_0_0"
+    "title": "PHLAN 1-3 Subterfuge",
+    "url": "https://www.dmsguild.com/product/189523/?affiliate_id=171040"
 }

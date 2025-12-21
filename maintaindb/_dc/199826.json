@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "199826",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-CIC-01 The Vault of the Devourer",
-    "url": "https://www.dmsguild.com/product/199826/CCCCIC01-The-Vault-of-the-Devourer?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Vault of the Devourer",
+    "url": "https://www.dmsguild.com/product/199826/?affiliate_id=171040"
 }
