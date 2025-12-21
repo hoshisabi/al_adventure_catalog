@@ -12,7 +12,7 @@ import sys
 
 import requests
 
-from .adventure import sanitize_filename
+from .adventure import get_dc_code_and_campaign, get_season
 
 # Constants
 DEFAULT_HEADERS = {
@@ -163,7 +163,8 @@ def main() -> int:
         return None
 
     for product_id, full_title, _authors, description_html, pub_date_str, product_url in products:
-        filename = sanitize_filename(full_title)
+        # Use product_id for filename (stable, reliable, no special characters)
+        filename = f"{product_id}.json"
         file_path = output_dir / filename
 
         if file_path.exists() and not args.force:

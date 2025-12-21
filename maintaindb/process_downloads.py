@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-from .adventure import DungeonCraft, sanitize_filename, extract_data_from_html, merge_adventure_data
+from .adventure import DungeonCraft, extract_data_from_html, merge_adventure_data
 from .paths import DMSGUILDINFO_DIR, DC_DIR, DMSGUILDINFO_PROCESSED_DIR
 
 logger = logging.getLogger()
@@ -55,8 +55,8 @@ def process_downloads():
             parsed_html = BeautifulSoup(html_content, features="html.parser")
             # Load existing JSON data if it exists to pass to extract_data_from_html
             existing_json_data_for_extraction = {}
-            json_filename_for_extraction = sanitize_filename(
-                product_id) + ".json"  # Use product_id for initial filename guess
+            # Use product_id for filename (stable, reliable, no special characters)
+            json_filename_for_extraction = f"{product_id}.json"
             output_file_path_for_extraction = os.path.join(output_json_path, json_filename_for_extraction)
             if os.path.exists(output_file_path_for_extraction):
                 with open(output_file_path_for_extraction, 'r', encoding='utf-8') as f:
@@ -73,9 +73,9 @@ def process_downloads():
                               data.get("season"), data["is_adventure"], data["price"],
                               data.get("payWhatYouWant"), data.get("suggestedPrice"), data.get("needs_review"))
 
-            # Determine output JSON filename based on full_title
-            # Sanitize full_title to create a valid filename
-            json_filename = sanitize_filename(dc.full_title)
+            # Determine output JSON filename based on product_id
+            # Product IDs are stable, reliable, and contain no special characters
+            json_filename = f"{product_id}.json"
             output_file_path = os.path.join(output_json_path, json_filename)
 
             # Load existing JSON data if it exists

@@ -132,6 +132,22 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 
 ## Low Priority / Future Considerations
 
+### Data Management & File Naming
+
+- [x] **Use product_id for JSON filenames instead of title**
+  - **Rationale**: Product IDs are stable, reliable, and contain only alphanumeric characters (no special characters that need sanitization)
+  - **Benefits**: 
+    - Eliminates issues with special characters, Unicode, and metadata in titles
+    - More reliable file lookups and deduplication
+    - Simpler, more maintainable code (no need for sanitize_filename)
+    - Product IDs are unique and don't change, making filenames predictable
+  - **Implementation**: Changed `process_downloads.py` and `process_rss.py` to use `f"{product_id}.json"` instead of `sanitize_filename(full_title)`
+  - **Migration**: Created `migrate_filenames_to_product_id.py` script to rename existing JSON files from title-based to product_id-based filenames
+    - Run with `--dry-run` first to see what will be changed
+    - Use `--force` to overwrite existing files if there are conflicts
+    - Handles edge cases: missing product_id, already-migrated files, duplicate product_ids
+  - **Location**: `maintaindb/process_downloads.py` (line 78), `maintaindb/process_rss.py` (line 166), `maintaindb/migrate_filenames_to_product_id.py`
+
 ### Architecture
 
 - [ ] **Consider consolidating code architecture**
