@@ -3137,7 +3137,7 @@
         "product_id": "232624",
         "season": "Tomb of Annihilation",
         "tiers": 3,
-        "title": "DDAL07-11 A Lesson in Love",
+        "title": "A Lesson in Love",
         "url": "https://www.dmsguild.com/product/232624/?affiliate_id=171040"
     },
     {
@@ -3159,7 +3159,7 @@
         "product_id": "232625",
         "season": "Tomb of Annihilation",
         "tiers": 3,
-        "title": "DDAL07-12 In Search of Secrets",
+        "title": "In Search of Secrets",
         "url": "https://www.dmsguild.com/product/232625/?affiliate_id=171040"
     },
     {
@@ -3181,7 +3181,7 @@
         "product_id": "235128",
         "season": "Tomb of Annihilation",
         "tiers": 3,
-        "title": "DDAL07-13 Old Bones and Older Tomes",
+        "title": "Old Bones and Older Tomes",
         "url": "https://www.dmsguild.com/product/235128/?affiliate_id=171040"
     },
     {
@@ -3203,7 +3203,7 @@
         "product_id": "235134",
         "season": "Tomb of Annihilation",
         "tiers": 3,
-        "title": "DDAL07-14 Fathomless Pits of Ill Intent",
+        "title": "Fathomless Pits of Ill Intent",
         "url": "https://www.dmsguild.com/product/235134/?affiliate_id=171040"
     },
     {
@@ -3499,7 +3499,7 @@
     {
         "apl": null,
         "authors": [
-            "Iam Pace,",
+            "Iam Pace",
             "William Murakami-Brundage"
         ],
         "campaigns": [
@@ -3516,7 +3516,7 @@
         "product_id": "238650",
         "season": "Tomb of Annihilation",
         "tiers": 4,
-        "title": "DDAL07-15 Streams of Crimson",
+        "title": "Streams of Crimson",
         "url": "https://www.dmsguild.com/product/238650/?affiliate_id=171040"
     },
     {
@@ -3538,7 +3538,7 @@
         "product_id": "238651",
         "season": "Tomb of Annihilation",
         "tiers": 4,
-        "title": "DDAL07-16 Pools of Cerulean",
+        "title": "Pools of Cerulean",
         "url": "https://www.dmsguild.com/product/238651/?affiliate_id=171040"
     },
     {
@@ -3995,7 +3995,7 @@
         "product_id": "241653",
         "season": "Tomb of Annihilation",
         "tiers": 4,
-        "title": "DDAL07-17 Cauldrons of Sapphire",
+        "title": "Cauldrons of Sapphire",
         "url": "https://www.dmsguild.com/product/241653/?affiliate_id=171040"
     },
     {
@@ -4017,7 +4017,7 @@
         "product_id": "241654",
         "season": "Tomb of Annihilation",
         "tiers": 4,
-        "title": "DDAL07-18 Turn Back the Endless Night",
+        "title": "Turn Back the Endless Night",
         "url": "https://www.dmsguild.com/product/241654/?affiliate_id=171040"
     },
     {
@@ -4484,17 +4484,24 @@
     {
         "apl": null,
         "authors": [
-            "D&D Adventurers League"
+            "Greg Marks",
+            "Claire Hoffman",
+            "Alan Patrick",
+            "Travis Woodall",
+            "Bill Benham",
+            "Robert Adducci"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL00-02",
+        "code": "Lost Tales of Myth Drannor",
         "date_created": "20180713",
         "full_title": "Lost Tales of Myth Drannor",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-20",
+        "payWhatYouWant": false,
+        "price": 14.99,
         "product_id": "247140",
         "tiers": 1,
         "title": "Lost Tales of Myth Drannor",
@@ -4618,7 +4625,7 @@
         "product_id": "248589",
         "season": null,
         "tiers": 0,
-        "title": "DDAL-ELW00 What's Past is Prologue",
+        "title": "What's Past is Prologue",
         "url": "https://www.dmsguild.com/product/248589/?affiliate_id=171040"
     },
     {
@@ -4808,7 +4815,7 @@
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Jay H. Anderson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -4816,18 +4823,21 @@
         "code": "DDAL08-01",
         "date_created": "20181002",
         "full_title": "DDAL08-01 The Map with No Names",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250987",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-01 The Map with No Names",
-        "url": "https://www.dmsguild.com/product/250987/DDAL0801-The-Map-with-No-Names?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Map with No Names",
+        "url": "https://www.dmsguild.com/product/250987/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Kat Kruger"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -4837,16 +4847,19 @@
         "full_title": "DDAL08-02 Beneath the City of the Dead",
         "hours": "",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250990",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-02 Beneath the City of the Dead",
-        "url": "https://www.dmsguild.com/product/250990/DDAL0802-Beneath-the-City-of-the-Dead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Beneath the City of the Dead",
+        "url": "https://www.dmsguild.com/product/250990/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Travis Woodall"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -4856,16 +4869,19 @@
         "full_title": "DDAL08-03 Dock Ward Double Cross",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250991",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-03 Dock Ward Double Cross",
-        "url": "https://www.dmsguild.com/product/250991/DDAL0803-Dock-Ward-Double-Cross?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Dock Ward Double Cross",
+        "url": "https://www.dmsguild.com/product/250991/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "D&D Adventurers League"
+            "Will Doyle"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -4875,11 +4891,14 @@
         "full_title": "DDAL08-00 Once in Waterdeep",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250993",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-00 Once in Waterdeep",
-        "url": "https://www.dmsguild.com/product/250993/DDAL0800-Once-in-Waterdeep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Once in Waterdeep",
+        "url": "https://www.dmsguild.com/product/250993/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -5215,10 +5234,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "252925",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW01 Murder in Skyway",
+        "title": "Murder in Skyway",
         "url": "https://www.dmsguild.com/product/252925/?affiliate_id=171040"
     },
     {
@@ -5394,10 +5415,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "253783",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW02 Boromar Ball",
+        "title": "Boromar Ball",
         "url": "https://www.dmsguild.com/product/253783/?affiliate_id=171040"
     },
     {
@@ -5462,7 +5485,7 @@
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Ginny Loveday"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -5473,17 +5496,18 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "253881",
         "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-04 A Wrinkle in the Weave",
+        "title": "A Wrinkle in the Weave",
         "url": "https://www.dmsguild.com/product/253881/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Lo Pierce"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -5493,16 +5517,19 @@
         "full_title": "DDAL08-05 Hero of the Troll Wars",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "253883",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-05 Hero of the Troll Wars",
-        "url": "https://www.dmsguild.com/product/253883/DDAL0805-Hero-of-the-Troll-Wars&affiliate_id=171040"
+        "title": "Hero of the Troll Wars",
+        "url": "https://www.dmsguild.com/product/253883/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Lysa Chen"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -5512,11 +5539,14 @@
         "full_title": "DDAL08-06 Purging the Blood",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "253884",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-06 Purging the Blood",
-        "url": "https://www.dmsguild.com/product/253884/DDAL0806-Purging-the-Blood&affiliate_id=171040"
+        "title": "Purging the Blood",
+        "url": "https://www.dmsguild.com/product/253884/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -5707,14 +5737,16 @@
         "code": "DDAL-ELW03",
         "date_created": "20181011",
         "full_title": "DDAL-ELW03 The Cannith Code",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "254691",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW03 The Cannith Code",
-        "url": "https://www.dmsguild.com/product/254691?affiliate_id=171040"
+        "title": "The Cannith Code",
+        "url": "https://www.dmsguild.com/product/254691/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -5790,11 +5822,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 256437,
+        "product_id": "256437",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW04 Jack of Daggers",
-        "url": "https://www.dmsguild.com/product/256437/DDALELW04-Jack-of-Daggers&affiliate_id=171040"
+        "title": "Jack of Daggers",
+        "url": "https://www.dmsguild.com/product/256437/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -5829,11 +5863,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 257230,
+        "product_id": "257230",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW05 Against the Lightning",
-        "url": "https://www.dmsguild.com/product/257230/DDALELW05-Against-the-Lightning&affiliate_id=171040"
+        "title": "Against the Lightning",
+        "url": "https://www.dmsguild.com/product/257230/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -5927,16 +5963,18 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 257741,
+        "product_id": "257741",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW06 A Holy Visit",
-        "url": "https://www.dmsguild.com/product/257741?affiliate_id=171040"
+        "title": "A Holy Visit",
+        "url": "https://www.dmsguild.com/product/257741/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "D&D Adventurers League"
+            "BJ Hensley"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -5946,11 +5984,14 @@
         "full_title": "DDAL08-07 Into the Dark",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257779",
+        "season": "Waterdeep",
         "tiers": 2,
-        "title": "DDAL08-07 Into the Dark",
-        "url": "https://www.dmsguild.com/product/257779/DDAL0807-Into-the-Dark&affiliate_id=171040"
+        "title": "Into the Dark",
+        "url": "https://www.dmsguild.com/product/257779/?affiliate_id=171040"
     },
     {
         "apl": 8,
