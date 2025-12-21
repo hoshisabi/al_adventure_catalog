@@ -685,7 +685,10 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Emily Fuller",
+            "Gamehole Con"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -695,7 +698,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "needs_review": true,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "548076",
         "season": null,
