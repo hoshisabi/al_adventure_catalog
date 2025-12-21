@@ -27,22 +27,26 @@
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Claire Hoffman",
+            "Shawn Merwin",
+            "Chris Tulach",
+            "Travis R. Woodall"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-01",
         "date_created": "20160111",
-        "full_title": "DDEX3-01 Harried in Hillsfar (5e)",
+        "full_title": "DDEX3-01 Harried in Hillsfar",
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "170493",
         "season": "Rage of Demons",
         "tiers": 1,
-        "title": "DDEX3-01 Harried in Hillsfar",
+        "title": "Harried in Hillsfar",
         "url": "https://www.dmsguild.com/product/170493/?affiliate_id=171040"
     },
     {
@@ -64,7 +68,7 @@
         "product_id": "170494",
         "season": "Rage of Demons",
         "tiers": 1,
-        "title": "DDEX3-02 Shackles of Blood",
+        "title": "Shackles of Blood",
         "url": "https://www.dmsguild.com/product/170494/?affiliate_id=171040"
     },
     {
@@ -86,49 +90,51 @@
         "product_id": "170495",
         "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX3-03 The Occupation of Szith Morcane",
+        "title": "The Occupation of Szith Morcane",
         "url": "https://www.dmsguild.com/product/170495/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Dave Olson"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-04",
         "date_created": "20160111",
-        "full_title": "DDEX3-04 It's All in the Blood (5e)",
+        "full_title": "DDEX3-04 It's All in the Blood",
         "hours": "8",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "170497",
         "season": "Rage of Demons",
         "tiers": 3,
-        "title": "DDEX3-04 It's All in the Blood",
+        "title": "It's All in the Blood",
         "url": "https://www.dmsguild.com/product/170497/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "Wizards of the Coast"
+            "Robert Alaniz"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-05",
         "date_created": "20160111",
-        "full_title": "DDEX3-05 Bane of the Tradeways (5e)",
+        "full_title": "DDEX3-05 Bane of the Tradeways",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "170498",
-        "season": 3,
+        "season": "Rage of Demons",
         "tiers": 1,
-        "title": "DDEX3-05 Bane of the Tradeways",
+        "title": "Bane of the Tradeways",
         "url": "https://www.dmsguild.com/product/170498/?affiliate_id=171040"
     },
     {
