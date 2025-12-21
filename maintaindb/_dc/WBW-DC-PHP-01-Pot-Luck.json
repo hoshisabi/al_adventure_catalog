@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Miguel Luis de Jesus"
     ],
@@ -11,9 +11,12 @@
     "full_title": "WBW-DC-PHP-01 Pot Luck!",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "WBW-DC-PHP-01-Pot-Luck",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
+    "product_id": "378853",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 2,
     "title": "Pot Luck!",
-    "url": "https://www.dmsguild.com/product/378853/WBWDCPHP01-Pot-Luck?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/378853/?affiliate_id=171040"
 }

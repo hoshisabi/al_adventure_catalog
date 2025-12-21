@@ -227,6 +227,13 @@ class DungeonCraft:
         """Extract a short title by removing code fragments and formatting markers."""
         # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
         t = re.sub(r"\(\s*5e\s*\)", "", str(title), flags=re.IGNORECASE)
+        
+        # Strip common metadata patterns that appear after " - " or " |"
+        # Patterns like: " - Wizards of the Coast | D&D 5th Edition | Dungeon Masters Guild"
+        t = re.sub(r'\s*-\s*(Wizards of the Coast|D&D 5th Edition|Dungeon Masters Guild).*$', '', t, flags=re.IGNORECASE)
+        t = re.sub(r'\s*\|\s*(D&D 5th Edition|Dungeon Masters Guild).*$', '', t, flags=re.IGNORECASE)
+        t = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', t, flags=re.IGNORECASE)
+        
         # Remove DC trailing code fragments like FR-DC-XXX in the visible short title
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
         # Also strip colons; keep parentheses removal after (5e) handled to avoid leaving '5e'
@@ -236,6 +243,8 @@ class DungeonCraft:
         result = re.sub(regex, '', t)
         # Remove any trailing '- 5e' or ' 5e'
         result = re.sub(r"[\s-]*\b5e\b[\s-]*$", "", result, flags=re.IGNORECASE)
+        # Clean up any remaining double spaces
+        result = re.sub(r'\s+', ' ', result)
         return result.strip()
 
     def __str__(self) -> str:
@@ -302,6 +311,38 @@ class DungeonCraft:
 # HTML EXTRACTION FUNCTIONS
 # ============================================================================
 
+def _clean_title_metadata(title):
+    """
+    Remove common metadata patterns from extracted titles.
+    Strips patterns like " - Publisher | Edition | Platform" and edition markers.
+    
+    Args:
+        title: Raw title string from HTML
+        
+    Returns:
+        Cleaned title string
+    """
+    if not title:
+        return title
+    
+    # Strip common metadata patterns that appear after " - " or " |"
+    # Patterns like: " - Wizards of the Coast | D&D 5th Edition | Dungeon Masters Guild"
+    # Also handle variations with just " - Publisher | Platform"
+    title = re.sub(r'\s*-\s*(Wizards of the Coast|D&D 5th Edition|Dungeon Masters Guild).*$', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*\|\s*(D&D 5th Edition|Dungeon Masters Guild).*$', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', title, flags=re.IGNORECASE)
+    
+    # Strip edition markers like "(5e)", "(5th Edition)", etc.
+    title = re.sub(r'\(\s*5e\s*\)', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\(\s*5th\s+Edition\s*\)', '', title, flags=re.IGNORECASE)
+    
+    # Clean up any remaining double spaces or trailing/leading whitespace
+    title = re.sub(r'\s+', ' ', title)
+    title = title.strip()
+    
+    return title
+
+
 def _extract_title_from_html(parsed_html):
     """
     Extract product title from HTML using multiple fallback strategies.
@@ -312,27 +353,33 @@ def _extract_title_from_html(parsed_html):
     Returns:
         Title string or None if not found
     """
+    title_result = None
+    
     # Try legacy format first
     product_title = parsed_html.find("div", {"class": "grid_12 product-title"})
     if product_title:
         children = product_title.findChildren("span", {"itemprop": "name"}, recursive=True)
         for child in children:
-            return child.text
+            title_result = child.text
+            break
     
     # Try og:title meta tag
-    og_title = parsed_html.find("meta", {"property": "og:title"})
-    if og_title and og_title.get("content"):
-        title_txt = og_title["content"]
-        title_txt = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', title_txt, flags=re.IGNORECASE)
-        return title_txt.strip()
+    if not title_result:
+        og_title = parsed_html.find("meta", {"property": "og:title"})
+        if og_title and og_title.get("content"):
+            title_result = og_title["content"]
     
     # Try <title> tag as last resort
-    title_tag = parsed_html.find("title")
-    if title_tag and title_tag.text:
-        title_txt = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', title_tag.text, flags=re.IGNORECASE)
-        return title_txt.strip()
+    if not title_result:
+        title_tag = parsed_html.find("title")
+        if title_tag and title_tag.text:
+            title_result = title_tag.text
     
-    return None
+    # Clean metadata from extracted title
+    if title_result:
+        title_result = _clean_title_metadata(title_result)
+    
+    return title_result
 
 
 def _extract_authors_from_html(parsed_html):
