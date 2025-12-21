@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Casper Kirketerp-Helenius"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL-DRW-INT-02 Watchers of the Trollclaws 1",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 7.99,
     "product_id": "412533",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "DDAL-DRW-INT-02 Watchers of the Trollclaws 1",
-    "url": "https://www.dmsguild.com/product/412533/DDALDRWINT02-Watchers-of-the-Trollclaws-1"
+    "url": "https://www.dmsguild.com/product/412533/?affiliate_id=171040"
 }

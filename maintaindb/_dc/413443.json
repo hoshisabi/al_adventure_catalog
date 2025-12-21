@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Marcello De Velazquez"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL-DRW-INT-03 A Red Day for Elventree",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 7.99,
     "product_id": "413443",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "DDAL-DRW-INT-03 A Red Day for Elventree",
-    "url": "https://www.dmsguild.com/product/413443/DDALDRWINT03-A-Red-Day-for-Elventree"
+    "url": "https://www.dmsguild.com/product/413443/?affiliate_id=171040"
 }

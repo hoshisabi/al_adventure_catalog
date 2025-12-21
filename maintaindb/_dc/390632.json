@@ -1,7 +1,8 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
-        "D&D Adventurers League"
+        "Ginny Loveday",
+        "Jeremy Forbing"
     ],
     "campaigns": [
         "Ravenloft"
@@ -9,12 +10,14 @@
     "code": "RMH-EP-02",
     "date_created": "20220318",
     "full_title": "RMH-EP-02 A Darklord's Denouement",
-    "hours": null,
+    "hours": "3",
     "is_adventure": true,
-    "level_range": null,
-    "price": 149.86,
+    "level_range": 8,
+    "payWhatYouWant": false,
+    "price": 14.99,
     "product_id": "390632",
-    "tiers": null,
+    "season": null,
+    "tiers": 2,
     "title": "RMH-EP-02 A Darklord's Denouement",
     "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
 }
