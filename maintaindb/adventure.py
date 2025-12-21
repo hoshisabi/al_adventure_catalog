@@ -233,6 +233,8 @@ class DungeonCraft:
         t = re.sub(r'\s*-\s*(Wizards of the Coast|D&D 5th Edition|Dungeon Masters Guild).*$', '', t, flags=re.IGNORECASE)
         t = re.sub(r'\s*\|\s*(D&D 5th Edition|Dungeon Masters Guild).*$', '', t, flags=re.IGNORECASE)
         t = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', t, flags=re.IGNORECASE)
+        # Strip "D&D Adventurers League" pattern (appears after " - ")
+        t = re.sub(r'\s*-\s*D&D Adventurers League.*$', '', t, flags=re.IGNORECASE)
         
         # Remove DC trailing code fragments like FR-DC-XXX in the visible short title
         regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
@@ -331,6 +333,8 @@ def _clean_title_metadata(title):
     title = re.sub(r'\s*-\s*(Wizards of the Coast|D&D 5th Edition|Dungeon Masters Guild).*$', '', title, flags=re.IGNORECASE)
     title = re.sub(r'\s*\|\s*(D&D 5th Edition|Dungeon Masters Guild).*$', '', title, flags=re.IGNORECASE)
     title = re.sub(r'\s*-\s*Dungeon Masters Guild.*$', '', title, flags=re.IGNORECASE)
+    # Strip "D&D Adventurers League" pattern (appears after " - ")
+    title = re.sub(r'\s*-\s*D&D Adventurers League.*$', '', title, flags=re.IGNORECASE)
     
     # Strip edition markers like "(5e)", "(5th Edition)", etc.
     title = re.sub(r'\(\s*5e\s*\)', '', title, flags=re.IGNORECASE)
