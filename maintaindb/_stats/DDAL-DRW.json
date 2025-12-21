@@ -2,7 +2,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ashley Warren"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -13,16 +13,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "273777",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW01 Breaking Umberlee's Resolve",
+        "title": "Breaking Umberlee's Resolve",
         "url": "https://www.dmsguild.com/product/273777/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ashley Warren"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -33,16 +35,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "282024",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW02 Blood in the Water",
+        "title": "Blood in the Water",
         "url": "https://www.dmsguild.com/product/282024/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ashley Warren"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -53,17 +57,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "285151",
         "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW03 Saving Silverbeard",
+        "title": "Saving Silverbeard",
         "url": "https://www.dmsguild.com/product/285151/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ginny Loveday"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -74,17 +79,18 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "326717",
         "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-04 Foreign Affairs",
+        "title": "Foreign Affairs",
         "url": "https://www.dmsguild.com/product/326717/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ben Heisler"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -95,16 +101,18 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "330203",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-05 Uncertain Scrutiny",
+        "title": "Uncertain Scrutiny",
         "url": "https://www.dmsguild.com/product/330203/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "M.T. Black"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -115,16 +123,18 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "333727",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-06 Thimblerigging",
+        "title": "Thimblerigging",
         "url": "https://www.dmsguild.com/product/333727/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Toni Winslow-Brill"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -135,10 +145,12 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "344671",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-07 Moment of Peace",
+        "title": "Moment of Peace",
         "url": "https://www.dmsguild.com/product/344671/?affiliate_id=171040"
     },
     {

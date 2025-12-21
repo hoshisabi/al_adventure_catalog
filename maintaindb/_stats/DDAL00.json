@@ -84,7 +84,7 @@
         "product_id": "260142",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-05 Winter's Splendor",
+        "title": "Winter's Splendor",
         "url": "https://www.dmsguild.com/product/260142/?affiliate_id=171040"
     },
     {
@@ -151,7 +151,7 @@
         "product_id": "279062",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-07 The Embers of Hate",
+        "title": "The Embers of Hate",
         "url": "https://www.dmsguild.com/product/279062/?affiliate_id=171040"
     },
     {
@@ -165,18 +165,26 @@
         "code": "DDAL00-10",
         "date_created": "20190908",
         "full_title": "DDAL00-10 Trust and Understanding",
-        "hours": "4",
+        "hours": "6-8",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.79,
         "product_id": "285124",
+        "season": 0,
         "tiers": 4,
-        "title": "DDAL00-10 Trust and Understanding",
-        "url": "https://www.dmsguild.com/product/285124/DDAL0010-Trust-and-Understanding&affiliate_id=171040"
+        "title": "Trust and Understanding",
+        "url": "https://www.dmsguild.com/product/285124/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "D&D Adventurers League"
+            "Greg Marks",
+            "Alan Patrick",
+            "Amy Lynn Dzura",
+            "Lysa Penrose",
+            "Claire Hoffman",
+            "Travis Woodall"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -186,11 +194,14 @@
         "full_title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
         "hours": "",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 22.99,
         "product_id": "288447",
+        "season": 0,
         "tiers": 1,
-        "title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
-        "url": "https://www.dmsguild.com/product/288447/DDAL0011-Pipyaps-Guide-to-All-of-the-Nine-Hells&affiliate_id=171040"
+        "title": "Pipyap's Guide to All of the Nine Hells",
+        "url": "https://www.dmsguild.com/product/288447/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -213,7 +224,7 @@
         "product_id": "304029",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-12 Infernal Encounters",
+        "title": "Infernal Encounters",
         "url": "https://www.dmsguild.com/product/304029/?affiliate_id=171040"
     },
     {
@@ -238,7 +249,7 @@
         "product_id": "328568",
         "season": 0,
         "tiers": 0,
-        "title": "DDAL00-13 Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
+        "title": "Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
         "url": "https://www.dmsguild.com/product/328568/?affiliate_id=171040"
     }
 ]
