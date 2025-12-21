@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "254451",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-NUKE-01-01 The Blighted Sun",
-    "url": "https://www.dmsguild.com/product/254451/CCCNUKE0101-The-Blighted-Sun"
+    "title": "The Blighted Sun",
+    "url": "https://www.dmsguild.com/product/254451/?affiliate_id=171040"
 }

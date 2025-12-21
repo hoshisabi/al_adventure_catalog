@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Jay Africa"
     ],
@@ -11,9 +11,12 @@
     "full_title": "CCC-DRUID-01 The Scourge Unseen",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "252111",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-DRUID-01 The Scourge Unseen",
-    "url": "https://www.dmsguild.com/product/252111/CCCDRUID01-The-Scourge-Unseen"
+    "title": "The Scourge Unseen",
+    "url": "https://www.dmsguild.com/product/252111/?affiliate_id=171040"
 }

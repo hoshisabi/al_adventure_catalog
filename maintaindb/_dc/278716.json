@@ -11,9 +11,12 @@
     "full_title": "CCC-DFW-01-01 Shadows of Ironfang Keep",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "278716",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-DFW-01-01 Shadows of Ironfang Keep",
-    "url": "https://www.dmsguild.com/product/278716/CCCDFW0101-Shadows-of-Ironfang-Keep"
+    "title": "Shadows of Ironfang Keep",
+    "url": "https://www.dmsguild.com/product/278716/?affiliate_id=171040"
 }

@@ -11,10 +11,13 @@
     "date_created": "20181031",
     "full_title": "CCC-Ziege_02 Storm of the Blood Moon",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "257623",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-Ziege_02 Storm of the Blood Moon",
-    "url": "https://www.dmsguild.com/product/257623/CCCZiege02-Storm-of-the-Blood-Moon"
+    "title": "Storm of the Blood Moon",
+    "url": "https://www.dmsguild.com/product/257623/?affiliate_id=171040"
 }
