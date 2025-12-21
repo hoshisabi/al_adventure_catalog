@@ -6,9 +6,9 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-SN-01-",
+    "code": "DC-POA-SN-01",
     "date_created": "20210322",
-    "full_title": "DC-POA-SN-01: The Rider in Black",
+    "full_title": "DC-POA-SN-01 The Rider in Black",
     "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
@@ -17,5 +17,6 @@
     "season": "Icewind Dale",
     "tiers": 1,
     "title": "DC-POA-SN-01 The Rider in Black",
-    "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040",
+    "seed": "A Dark Horse"
 }
