@@ -167,11 +167,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 258975,
+        "product_id": "258975",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW07 Blades of Terror",
-        "url": "https://www.dmsguild.com/product/258975?affiliate_id=171040"
+        "title": "Blades of Terror",
+        "url": "https://www.dmsguild.com/product/258975/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -187,11 +189,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 258976,
+        "product_id": "258976",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW08 The Kundarak Job",
-        "url": "https://www.dmsguild.com/product/258976?affiliate_id=171040"
+        "title": "The Kundarak Job",
+        "url": "https://www.dmsguild.com/product/258976/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -207,11 +211,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 260064,
+        "product_id": "260064",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW09 Searching for Secrets",
-        "url": "https://www.dmsguild.com/product/260064?affiliate_id=171040"
+        "title": "Searching for Secrets",
+        "url": "https://www.dmsguild.com/product/260064/?affiliate_id=171040"
     },
     {
         "apl": 10,
@@ -224,14 +230,16 @@
         "code": "DDAL-ELW10",
         "date_created": "20181207",
         "full_title": "DDAL-ELW10 The Killing Blade",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 260858,
+        "product_id": "260858",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW10 The Killing Blade",
-        "url": "https://www.dmsguild.com/product/260858?affiliate_id=171040"
+        "title": "The Killing Blade",
+        "url": "https://www.dmsguild.com/product/260858/?affiliate_id=171040"
     },
     {
         "apl": 10,
@@ -244,13 +252,15 @@
         "code": "DDAL-ELW11",
         "date_created": "20181214",
         "full_title": "DDAL-ELW11 Secrets Below",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 261301,
+        "product_id": "261301",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW11 Secrets Below",
-        "url": "https://www.dmsguild.com/product/261301?affiliate_id=171040"
+        "title": "Secrets Below",
+        "url": "https://www.dmsguild.com/product/261301/?affiliate_id=171040"
     }
 ]
