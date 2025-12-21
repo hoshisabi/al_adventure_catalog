@@ -222,6 +222,10 @@ def update_json_with_seeds(code_to_seed: Dict[str, str], dry_run: bool = True):
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
+            # Skip if not marked as an adventure
+            if data.get('is_adventure') != True:
+                continue
+            
             # Get code from JSON
             code = data.get('code')
             if not code:
@@ -234,6 +238,13 @@ def update_json_with_seeds(code_to_seed: Dict[str, str], dry_run: bool = True):
             
             # Look up seed by code
             seed = code_to_seed.get(code)
+            
+            # Special case: SJ (Spelljammer) coded adventures default to "Create a Location in Wildspace"
+            if not seed:
+                code_upper = code.upper()
+                if code_upper.startswith('SJ-DC') or code_upper.startswith('DC-SJ'):
+                    seed = "Create a Location in Wildspace"
+            
             if seed:
                 if not dry_run:
                     data['seed'] = seed
@@ -287,6 +298,10 @@ def generate_report(product_info: Dict[str, Dict], missing: List[Dict], code_to_
             product_id = json_file.stem
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+            
+            # Skip if not marked as an adventure
+            if data.get('is_adventure') != True:
+                continue
             
             code = data.get('code')
             if not code:
