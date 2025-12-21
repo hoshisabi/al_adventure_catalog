@@ -45,7 +45,7 @@
         "url": "https://www.dmsguild.com/product/215579/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Ruty Rutenberg"
         ],
@@ -55,19 +55,19 @@
         "code": "DDAL07-03",
         "date_created": "20171107",
         "full_title": "DDAL07-03 A Day at the Races",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "222716",
         "season": "Tomb of Annihilation",
-        "tiers": 0,
+        "tiers": 1,
         "title": "A Day at the Races",
         "url": "https://www.dmsguild.com/product/222716/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Satine Phoenix"
         ],
@@ -77,19 +77,19 @@
         "code": "DDAL07-04",
         "date_created": "20171107",
         "full_title": "DDAL07-04 A Walk in the Park",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "222717",
         "season": "Tomb of Annihilation",
-        "tiers": 0,
+        "tiers": 1,
         "title": "A Walk in the Park",
         "url": "https://www.dmsguild.com/product/222717/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Travis Woodall"
         ],
@@ -99,19 +99,19 @@
         "code": "DDAL07-05",
         "date_created": "20171107",
         "full_title": "DDAL07-05 Whispers in the Dark",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "222718",
         "season": "Tomb of Annihilation",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Whispers in the Dark",
         "url": "https://www.dmsguild.com/product/222718/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "James Introcaso"
         ],
@@ -121,19 +121,19 @@
         "code": "DDAL07-06",
         "date_created": "20171205",
         "full_title": "DDAL07-06 Fester and Burn",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "224832",
         "season": "Tomb of Annihilation",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Fester and Burn",
         "url": "https://www.dmsguild.com/product/224832/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Lysa Chen"
         ],
@@ -143,19 +143,19 @@
         "code": "DDAL07-07",
         "date_created": "20171205",
         "full_title": "DDAL07-07 Rotting Roots",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "224833",
         "season": "Tomb of Annihilation",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Rotting Roots",
         "url": "https://www.dmsguild.com/product/224833/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Cindy Moore"
         ],
@@ -165,14 +165,14 @@
         "code": "DDAL07-08",
         "date_created": "20171205",
         "full_title": "DDAL07-08 Putting the Dead to Rest",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "224834",
         "season": "Tomb of Annihilation",
-        "tiers": 0,
+        "tiers": 2,
         "title": "Putting the Dead to Rest",
         "url": "https://www.dmsguild.com/product/224834/?affiliate_id=171040"
     },

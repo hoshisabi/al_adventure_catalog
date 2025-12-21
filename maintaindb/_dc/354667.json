@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": null,
     "campaigns": [
         "Forgotten Realms"
@@ -9,11 +9,11 @@
     "full_title": "DC-POA-GHL-01 Cold Diggers",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "price": null,
     "product_id": "354667",
     "season": "Icewind Dale",
-    "tiers": null,
+    "tiers": 1,
     "title": "Cold Diggers",
     "url": "https://www.dmsguild.com/product/354667?affiliate_id=171040",
     "seed": "Burrowing Borrowers"

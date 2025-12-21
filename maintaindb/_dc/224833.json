@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Lysa Chen"
     ],
@@ -9,14 +9,14 @@
     "code": "DDAL07-07",
     "date_created": "20171205",
     "full_title": "DDAL07-07 Rotting Roots",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "224833",
     "season": "Tomb of Annihilation",
-    "tiers": null,
+    "tiers": 2,
     "title": "Rotting Roots",
     "url": "https://www.dmsguild.com/product/224833/?affiliate_id=171040"
 }
