@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Steve Hill"
     ],
@@ -8,15 +8,15 @@
     ],
     "code": "PS-DC-PUB-05",
     "date_created": "20250720",
-    "full_title": "Planar Pub Crawl: Nights to Remember",
+    "full_title": "PS-DC-PUB-05 Rock Bottom",
     "hours": "2",
-    "is_adventure": false,
-    "level_range": null,
+    "is_adventure": true,
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "530335",
     "season": "Planescape",
-    "tiers": null,
-    "title": "Planar Pub Crawl Nights to Remember",
+    "tiers": 2,
+    "title": "Rock Bottom",
     "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
 }
