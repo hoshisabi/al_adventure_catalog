@@ -1016,11 +1016,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "348521",
+        "season": "Icewind Dale",
         "seed": "Awake and Afraid",
         "tiers": 1,
-        "title": "DC-POA-CODEX-01 Bear the Lode",
-        "url": "https://www.dmsguild.com/product/348521/DCPOACODEX01-Bear-the-Lode?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Bear the Lode",
+        "url": "https://www.dmsguild.com/product/348521/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1631,10 +1634,10 @@
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "355419",
-        "season": null,
+        "season": "Icewind Dale",
         "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "",
+        "title": "Icedawn Over Ten Trail",
         "url": "https://www.dmsguild.com/product/355419/?affiliate_id=171040"
     },
     {
@@ -1776,11 +1779,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "359195",
+        "season": "Icewind Dale",
         "seed": "The Muttering Gnome",
         "tiers": 1,
-        "title": "DC-POA-CODEX-02 Bear in Mind",
-        "url": "https://www.dmsguild.com/product/359195/DCPOACODEX02-Bear-in-Mind?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Bear in Mind",
+        "url": "https://www.dmsguild.com/product/359195/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2717,17 +2723,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-TDG01-03",
+        "code": "DC-PoA-TDG01-03",
         "date_created": "20210829",
         "full_title": "DC-PoA-TDG01-03 The Wendigo",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.39,
         "product_id": "369142",
+        "season": "Icewind Dale",
         "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
-        "title": "DC-PoA-TDG01-03 The Wendigo",
-        "url": "https://www.dmsguild.com/product/369142/DCPoATDG0103-The-Wendigo?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Wendigo",
+        "url": "https://www.dmsguild.com/product/369142/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -2743,12 +2752,15 @@
         "full_title": "DC-PoA-TDG01-04 Despair In The Family",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "369144",
+        "season": "Icewind Dale",
         "seed": "The Muttering Gnome",
         "tiers": 1,
-        "title": "DC-PoA-TDG01-04 Despair In The Family",
-        "url": "https://www.dmsguild.com/product/369144/DCPoATDG0104-Despair-In-The-Family?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Despair In The Family",
+        "url": "https://www.dmsguild.com/product/369144/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2763,12 +2775,15 @@
         "full_title": "DC-PoA-TDG01-05 Curse of Slaad",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "369145",
+        "season": "Icewind Dale",
         "seed": "Goat-ball!",
         "tiers": 2,
-        "title": "DC-PoA-TDG01-05 Curse of Slaad",
-        "url": "https://www.dmsguild.com/product/369145/DCPoATDG0105-Curse-of-Slaad?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Curse of Slaad",
+        "url": "https://www.dmsguild.com/product/369145/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -2885,11 +2900,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "369176",
+        "season": "Icewind Dale",
         "seed": "My, What Big Feet You Have",
         "tiers": 2,
-        "title": "DC-POA-CODEX-03 Bring to Bear",
-        "url": "https://www.dmsguild.com/product/369176/DCPOACODEX03-Bring-to-Bear?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Bring to Bear",
+        "url": "https://www.dmsguild.com/product/369176/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3215,6 +3233,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "369336",
         "season": "Icewind Dale",
@@ -3257,12 +3276,15 @@
         "full_title": "DC-PoA-ROG-3 The Last Refuge of Spring",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "369343",
+        "season": "Icewind Dale",
         "seed": "This Seems Familiar",
         "tiers": 2,
-        "title": "DC-PoA-ROG-3 The Last Refuge of Spring",
-        "url": "https://www.dmsguild.com/product/369343/DCPoAROG3-The-Last-Refuge-of-Spring?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Last Refuge of Spring",
+        "url": "https://www.dmsguild.com/product/369343/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3278,12 +3300,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "369345",
         "season": "Icewind Dale",
         "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "DC-PoA-EH-1 Horsing Around",
+        "title": "Horsing Around",
         "url": "https://www.dmsguild.com/product/369345/?affiliate_id=171040"
     },
     {
@@ -3300,6 +3323,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "369347",
         "season": "Icewind Dale",
@@ -3572,24 +3596,6 @@
         "tiers": 2,
         "title": "DC-PoA-OGG-02 Judge and Jury",
         "url": "https://www.dmsguild.com/product/374070/DCPoAOGG02-Judge-and-Jury?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CODEX-01",
-        "date_created": "20211210",
-        "full_title": "DC-POA-CODEX-01 Bear the Lode (Fantasy Grounds)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "380327",
-        "seed": "Awake and Afraid",
-        "tiers": 1,
-        "title": "DC-POA-CODEX-01 Bear the Lode Fantasy Grounds",
-        "url": "https://www.dmsguild.com/product/380327/DCPOACODEX01-Bear-the-Lode-Fantasy-Grounds?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"
     },
     {
         "apl": 8,

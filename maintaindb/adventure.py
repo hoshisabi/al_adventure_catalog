@@ -33,7 +33,7 @@ logger = logging.getLogger()
 
 # Import constants from adventure_utils to avoid duplication
 # Re-export them here for backward compatibility with existing imports
-from .adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS, get_campaigns_from_code, get_adventure_code_and_campaigns
+from .adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS, get_campaigns_from_code, get_adventure_code_and_campaigns, normalize_ddal_ddex_code
 
 # SEASON_LABELS is kept for backward compatibility with get_season_label() function
 # It's derived from SEASONS for numeric seasons (1-10)
@@ -1301,6 +1301,8 @@ def _extract_code_from_description(description_text):
         match = re.search(pattern, normalized_text, re.IGNORECASE)
         if match:
             code = code_builder(match)
+            # Normalize DDAL/DDEX codes to zero-pad single-digit season numbers
+            code = normalize_ddal_ddex_code(code)
             campaigns = get_campaigns_from_code(code)
             return (code, campaigns)
     

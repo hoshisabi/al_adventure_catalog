@@ -92,7 +92,7 @@
         "url": "https://www.dmsguild.com/product/178796/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 4,
         "authors": [
             "Ken Hart"
         ],
@@ -100,19 +100,65 @@
             "Forgotten Realms",
             "Ravenloft"
         ],
-        "code": "DDAL04\u201006",
+        "code": "DDAL04-06",
         "date_created": "20160510",
         "full_title": "DDAL04\u201006 The Ghost",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "182769",
         "season": "Curse of Strahd",
-        "tiers": 0,
+        "tiers": 1,
         "title": "The Ghost",
         "url": "https://www.dmsguild.com/product/182769/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Michael E. Shea"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-07",
+        "date_created": "20160510",
+        "full_title": "DDAL04-07 The Innocent",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "182770",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Innocent",
+        "url": "https://www.dmsguild.com/product/182770/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Joshua Kelly"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-08",
+        "date_created": "20160510",
+        "full_title": "DDAL04-08 The Broken One",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "182771",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Broken One",
+        "url": "https://www.dmsguild.com/product/182771/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -136,5 +182,120 @@
         "tiers": 2,
         "title": "The Artifact",
         "url": "https://www.dmsguild.com/product/184341/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "M. Sean Molley"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-09",
+        "date_created": "20160607",
+        "full_title": "DDAL04-09 The Tempter",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "184342",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Tempter",
+        "url": "https://www.dmsguild.com/product/184342/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ash Law"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-11",
+        "date_created": "20160607",
+        "full_title": "DDAL04-11 The Donjon",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "184344",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Donjon",
+        "url": "https://www.dmsguild.com/product/184344/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Matt Hudson"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-12",
+        "date_created": "20160705",
+        "full_title": "DDAL04-12 The Raven",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "186783",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Raven",
+        "url": "https://www.dmsguild.com/product/186783/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Daniel Helmick"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-13",
+        "date_created": "20160705",
+        "full_title": "DDAL04-13 The Horseman",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "186786",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Horseman",
+        "url": "https://www.dmsguild.com/product/186786/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-14",
+        "date_created": "20160705",
+        "full_title": "DDAL04-14 The Darklord",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "186787",
+        "season": "Curse of Strahd",
+        "tiers": 2,
+        "title": "The Darklord",
+        "url": "https://www.dmsguild.com/product/186787/?affiliate_id=171040"
     }
 ]

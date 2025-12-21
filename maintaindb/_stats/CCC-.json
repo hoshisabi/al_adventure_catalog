@@ -567,11 +567,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.49,
         "product_id": "207980",
         "season": null,
         "tiers": 2,
-        "title": "CCC-CIC-02 The Clockwork Laboratory",
+        "title": "The Clockwork Laboratory",
         "url": "https://www.dmsguild.com/product/207980/?affiliate_id=171040"
     },
     {
@@ -608,6 +609,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "209690",
         "season": null,
@@ -630,6 +632,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "209692",
         "season": null,
@@ -652,6 +655,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "209693",
         "season": null,
@@ -851,6 +855,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "216992",
         "season": null,
@@ -872,11 +877,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "217046",
         "season": null,
         "tiers": 1,
-        "title": "CCC-DDSC-02 A Fool and His Gold",
+        "title": "A Fool and His Gold",
         "url": "https://www.dmsguild.com/product/217046/?affiliate_id=171040"
     },
     {
@@ -887,17 +893,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-BLD",
+        "code": "CCC-BLD-1-1",
         "date_created": "20170802",
-        "full_title": "CCC-BLD 1-1 Bleeding Gate: Pandemonium",
+        "full_title": "CCC-BLD-1-1 Bleeding Gate: Pandemonium",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.49,
         "product_id": "218024",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BLD 1-1 Bleeding Gate Pandemonium",
+        "title": "CCC-BLD-1-1 Bleeding Gate Pandemonium",
         "url": "https://www.dmsguild.com/product/218024/?affiliate_id=171040"
     },
     {
@@ -908,17 +915,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-BLD",
+        "code": "CCC-BLD-1-2",
         "date_created": "20170802",
-        "full_title": "CCC-BLD 1-2 Bleeding Gate: Amalgamation",
+        "full_title": "CCC-BLD-1-2 Bleeding Gate: Amalgamation",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.49,
         "product_id": "218099",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BLD 1-2 Bleeding Gate Amalgamation",
+        "title": "Bleeding Gate Amalgamation",
         "url": "https://www.dmsguild.com/product/218099/?affiliate_id=171040"
     },
     {
@@ -6971,6 +6979,28 @@
         "tiers": 1,
         "title": "In Tents",
         "url": "https://www.dmsguild.com/product/297088/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Emilie Gunderson"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-MALTH-001",
+        "date_created": "20191216",
+        "full_title": "CCC-MALTH-001 Sel\u00fbne's Tear",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "297167",
+        "season": null,
+        "tiers": 2,
+        "title": "Sel\u00c3\u00bbne's Tear",
+        "url": "https://www.dmsguild.com/product/297167/?affiliate_id=171040"
     },
     {
         "apl": 8,
