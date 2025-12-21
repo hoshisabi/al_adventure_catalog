@@ -2,160 +2,6 @@
     {
         "apl": 8,
         "authors": [
-            "Lu\u00eds Ricardo",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-04",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-04 Out of the Shaar",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "433901",
-        "season": null,
-        "tiers": 2,
-        "title": "PO-BK-02-04 Out of the Shaar",
-        "url": "https://www.dmsguild.com/product/433901/?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Alex Kurowski",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-05",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-05 Weird Tales",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "433906",
-        "season": null,
-        "tiers": 2,
-        "title": "PO-BK-02-05 Weird Tales",
-        "url": "https://www.dmsguild.com/product/433906/?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Lee Ning Jiang",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-06",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-06 First Contact",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "433909",
-        "season": null,
-        "tiers": 2,
-        "title": "PO-BK-02-06 First Contact",
-        "url": "https://www.dmsguild.com/product/433909/?affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Jeremy Vosberg",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-07",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-07 At Sword's Point",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 4.99,
-        "product_id": "433911",
-        "season": null,
-        "tiers": 3,
-        "title": "PO-BK-02-07 At Sword's Point",
-        "url": "https://www.dmsguild.com/product/433911/?affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Ted Atkinson",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-08",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-08 Straight Through the Heart",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 4.99,
-        "product_id": "433913",
-        "season": null,
-        "tiers": 3,
-        "title": "PO-BK-02-08 Straight Through the Heart",
-        "url": "https://www.dmsguild.com/product/433913/?affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Shu Qing Tan",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-09",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-09 Star Crash",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 4.99,
-        "product_id": "433916",
-        "season": null,
-        "tiers": 3,
-        "title": "PO-BK-02-09 Star Crash",
-        "url": "https://www.dmsguild.com/product/433916/?affiliate_id=171040"
-    },
-    {
-        "apl": 18,
-        "authors": [
-            "Andy Dempz",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-02-10",
-        "date_created": "20230414",
-        "full_title": "PO-BK-02-10 A Grim and Ravenous Arrival",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "17-20",
-        "price": 4.99,
-        "product_id": "433917",
-        "season": null,
-        "tiers": 4,
-        "title": "PO-BK-02-10 A Grim and Ravenous Arrival",
-        "url": "https://www.dmsguild.com/product/433917/?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
             "Marcello De Velazquez",
             "Gamehole Con"
         ],
@@ -328,6 +174,226 @@
         "tiers": 4,
         "title": "PO-BK-1-08 Dark Side of the Rune",
         "url": "https://www.dmsguild.com/product/392893/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Marcello De Velazquez",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK2-03",
+        "date_created": "20221011",
+        "full_title": "PO-BK2-03 What Dreams May Come",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "413092",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK2-03 What Dreams May Come",
+        "url": "https://www.dmsguild.com/product/413092/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Rick O'Donnell",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK2-02",
+        "date_created": "20221011",
+        "full_title": "PO-BK2-02 Some Assembly Required",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "413094",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK2-02 Some Assembly Required",
+        "url": "https://www.dmsguild.com/product/413094/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Lexi McQueen",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK2-01",
+        "date_created": "20221204",
+        "full_title": "PO-BK2-01 The Thayan Connection",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "418769",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK2-01 The Thayan Connection",
+        "url": "https://www.dmsguild.com/product/418769/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Lu\u00eds Ricardo",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-04",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-04 Out of the Shaar",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "433901",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK-02-04 Out of the Shaar",
+        "url": "https://www.dmsguild.com/product/433901/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Alex Kurowski",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-05",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-05 Weird Tales",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "433906",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK-02-05 Weird Tales",
+        "url": "https://www.dmsguild.com/product/433906/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Lee Ning Jiang",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-06",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-06 First Contact",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "433909",
+        "season": null,
+        "tiers": 2,
+        "title": "PO-BK-02-06 First Contact",
+        "url": "https://www.dmsguild.com/product/433909/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jeremy Vosberg",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-07",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-07 At Sword's Point",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "433911",
+        "season": null,
+        "tiers": 3,
+        "title": "PO-BK-02-07 At Sword's Point",
+        "url": "https://www.dmsguild.com/product/433911/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Ted Atkinson",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-08",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-08 Straight Through the Heart",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "433913",
+        "season": null,
+        "tiers": 3,
+        "title": "PO-BK-02-08 Straight Through the Heart",
+        "url": "https://www.dmsguild.com/product/433913/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Shu Qing Tan",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-09",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-09 Star Crash",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "433916",
+        "season": null,
+        "tiers": 3,
+        "title": "PO-BK-02-09 Star Crash",
+        "url": "https://www.dmsguild.com/product/433916/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andy Dempz",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-02-10",
+        "date_created": "20230414",
+        "full_title": "PO-BK-02-10 A Grim and Ravenous Arrival",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "433917",
+        "season": null,
+        "tiers": 4,
+        "title": "PO-BK-02-10 A Grim and Ravenous Arrival",
+        "url": "https://www.dmsguild.com/product/433917/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -573,26 +639,6 @@
         "url": "https://www.dmsguild.com/product/474556/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK-3-12",
-        "date_created": "20251202",
-        "full_title": "PO-BK-3-12 Rule or Ruin",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
-        "price": 4.99,
-        "product_id": "548057",
-        "season": null,
-        "tiers": 0,
-        "title": "PO-BK-3-12 Rule or Ruin",
-        "url": "https://www.dmsguild.com/product/548057/?affiliate_id=171040"
-    },
-    {
         "apl": 8,
         "authors": [
             "Tim Mangan",
@@ -615,6 +661,26 @@
         "url": "https://www.dmsguild.com/product/484628/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-3-12",
+        "date_created": "20251202",
+        "full_title": "PO-BK-3-12 Rule or Ruin",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548057",
+        "season": null,
+        "tiers": 0,
+        "title": "PO-BK-3-12 Rule or Ruin",
+        "url": "https://www.dmsguild.com/product/548057/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [],
         "campaigns": [
@@ -633,71 +699,5 @@
         "tiers": 2,
         "title": "PO-BK-5-01 Paragons of Wrath",
         "url": "https://www.dmsguild.com/product/548076/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Lexi McQueen",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK2-01",
-        "date_created": "20221204",
-        "full_title": "PO-BK2-01 The Thayan Connection",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "418769",
-        "season": null,
-        "tiers": 2,
-        "title": "PO-BK2-01 The Thayan Connection",
-        "url": "https://www.dmsguild.com/product/418769/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Rick O'Donnell",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK2-02",
-        "date_created": "20221011",
-        "full_title": "PO-BK2-02 Some Assembly Required",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "413094",
-        "season": null,
-        "tiers": 2,
-        "title": "PO-BK2-02 Some Assembly Required",
-        "url": "https://www.dmsguild.com/product/413094/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Marcello De Velazquez",
-            "Gamehole Con"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "PO-BK2-03",
-        "date_created": "20221011",
-        "full_title": "PO-BK2-03 What Dreams May Come",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.99,
-        "product_id": "413092",
-        "season": null,
-        "tiers": 2,
-        "title": "PO-BK2-03 What Dreams May Come",
-        "url": "https://www.dmsguild.com/product/413092/?affiliate_id=171040"
     }
 ]

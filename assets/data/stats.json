@@ -1,34 +1,34 @@
 {
     "tier": {
-        "Tier 4": 57,
-        "Tier 1": 680,
-        "Tier 3": 278,
-        "Tier 2": 709,
-        "Unknown": 15
+        "Tier 2": 705,
+        "Tier 1": 679,
+        "Tier 3": 274,
+        "Tier 4": 55,
+        "Unknown": 14
     },
     "duration": {
-        "4 Hours": 1148,
-        "2 Hours": 465,
-        "3 Hours": 68,
-        "1 Hours": 11,
-        "7 Hours": 1,
-        "Unknown": 144,
+        "4 Hours": 1139,
+        "Unknown": 143,
+        "2 Hours": 463,
+        "8 Hours": 2,
         "5 Hours": 19,
         "6 Hours": 19,
-        "8 Hours": 2
+        "3 Hours": 68,
+        "7 Hours": 1,
+        "1 Hours": 11
     },
     "campaign": {
-        "Forgotten Realms": 1669,
-        "Eberron": 31,
+        "Forgotten Realms": 1658,
+        "Eberron": 30,
         "Ravenloft": 20,
         "Dragonlance": 20,
         "Unknown": 1
     },
     "season": {
-        "Planescape": 31,
-        "The Wild Beyond the Witchlight": 88,
-        "Unknown": 1463,
-        "Spelljammer": 90,
-        "Icewind Dale": 67
+        "Unknown": 1442,
+        "Icewind Dale": 68,
+        "The Wild Beyond the Witchlight": 92,
+        "Spelljammer": 93,
+        "Planescape": 32
     }
 }

@@ -20,6 +20,44 @@
         "url": "https://www.dmsguild.com/product/427667/EBDCCOG01-Off-the-Books?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [
+            "Belinda Baldwin"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-DC-THC-01",
+        "date_created": "20230513",
+        "full_title": "The Doll House (EB-DC-THC-01)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "437675",
+        "tiers": 1,
+        "title": "The Doll House",
+        "url": "https://www.dmsguild.com/product/437675/The-Doll-House-EBDCTHC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Steven Truong"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-DC-CLASSIC-01",
+        "date_created": "20250422",
+        "full_title": "Tavern Rats (EB-DC-CLASSIC-01)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "product_id": "519554",
+        "tiers": 1,
+        "title": "Tavern Rats",
+        "url": "https://www.dmsguild.com/product/519554/Tavern-Rats-EBDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [],
         "campaigns": [
@@ -38,43 +76,5 @@
         "tiers": 0,
         "title": "Mercy in the Mournland",
         "url": "https://www.dmsguild.com/product/549619/EBDCMOURN01-Mercy-in-the-Mournland?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Steven Truong"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-DC-CLASSIC-01",
-        "date_created": "20250422",
-        "full_title": "Tavern Rats (EB-DC-CLASSIC-01)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "Tavern-Rats-EB-DC-CLASSIC-01",
-        "tiers": 1,
-        "title": "Tavern Rats",
-        "url": "https://www.dmsguild.com/product/519554/Tavern-Rats-EBDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Belinda Baldwin"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-DC-THC-01",
-        "date_created": "20230513",
-        "full_title": "The Doll House (EB-DC-THC-01)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "product_id": "The-Doll-House-EB-DC-THC-01",
-        "tiers": 1,
-        "title": "The Doll House",
-        "url": "https://www.dmsguild.com/product/437675/The-Doll-House-EBDCTHC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
     }
 ]

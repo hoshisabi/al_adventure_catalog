@@ -1,5 +1,146 @@
 [
     {
+        "apl": 2,
+        "authors": [
+            "JD McComb"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-SDCC-03",
+        "date_created": "20230717",
+        "full_title": "Knight Fall (DL-DC-SDCC-03)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445912",
+        "tiers": 1,
+        "title": "Knight Fall",
+        "url": "https://www.dmsguild.com/product/445912/?affiliate_id=171040"
+    },
+    {
+        "apl": 2,
+        "authors": [
+            "Belinda Baldwin"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-SDCC-01",
+        "date_created": "20230717",
+        "full_title": "Greenshield (DL-DC-SDCC-01)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445922",
+        "tiers": 1,
+        "title": "Greenshield",
+        "url": "https://www.dmsguild.com/product/445922/?affiliate_id=171040"
+    },
+    {
+        "apl": 2,
+        "authors": [
+            "JD McComb"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-SDCC-04",
+        "date_created": "20230717",
+        "full_title": "The Inn of Forgotten Melodies (DL-DC-SDCC-04)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445923",
+        "tiers": 1,
+        "title": "The Inn of Forgotten Melodies",
+        "url": "https://www.dmsguild.com/product/445923/?affiliate_id=171040"
+    },
+    {
+        "apl": 2,
+        "authors": [
+            "Belinda Baldwin"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-SDCC-02",
+        "date_created": "20230717",
+        "full_title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 8.0,
+        "product_id": "445925",
+        "tiers": 1,
+        "title": "The Dog Days of Solamnia",
+        "url": "https://www.dmsguild.com/product/445925/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Marcello De Velazquez"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-MDV-01",
+        "date_created": "20231211",
+        "full_title": "DL-DC-MDV-01 A Mother's Love: A Dragonlance Adventures Experience",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "463522",
+        "tiers": 2,
+        "title": "A Mother's Love: A Dragonlance Adventures Experience",
+        "url": "https://www.dmsguild.com/product/463522/?affiliate_id=171040"
+    },
+    {
+        "apl": 11,
+        "authors": [
+            "George Sanders"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-SF-01",
+        "date_created": "20240311",
+        "full_title": "DL-DC-SF-01 Split or Fuse",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 9.99,
+        "product_id": "473696",
+        "tiers": 3,
+        "title": "Split or Fuse",
+        "url": "https://www.dmsguild.com/product/473696/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Alexander Klement"
+        ],
+        "campaigns": [
+            "Dragonlance"
+        ],
+        "code": "DL-DC-SOTH-01",
+        "date_created": "20240714",
+        "full_title": "Dragonlance: Echoes of war (DL-DC-SOTH-01)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.9,
+        "product_id": "487856",
+        "season": null,
+        "tiers": 1,
+        "title": "Dragonlance Echoes of war",
+        "url": "https://www.dmsguild.com/product/487856/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Marcello De Velazquez",
@@ -63,127 +204,6 @@
         "url": "https://www.dmsguild.com/product/500778/?affiliate_id=171040"
     },
     {
-        "apl": 8,
-        "authors": [
-            "Marcello De Velazquez"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-MDV-01",
-        "date_created": "20231211",
-        "full_title": "DL-DC-MDV-01 A Mother's Love: A Dragonlance Adventures Experience",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 3.99,
-        "product_id": "463522",
-        "tiers": 2,
-        "title": "A Mother's Love: A Dragonlance Adventures Experience",
-        "url": "https://www.dmsguild.com/product/463522/?affiliate_id=171040"
-    },
-    {
-        "apl": 11,
-        "authors": [
-            "George Sanders"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-SF-01",
-        "date_created": "20240311",
-        "full_title": "DL-DC-SF-01 Split or Fuse",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 9.99,
-        "product_id": "473696",
-        "tiers": 3,
-        "title": "Split or Fuse",
-        "url": "https://www.dmsguild.com/product/473696/?affiliate_id=171040"
-    },
-    {
-        "apl": 12,
-        "authors": [
-            "George Sanders"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-SF-02",
-        "date_created": "20250518",
-        "full_title": "DL-DC-SF-02 Wulfgar's Champion",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "11-16",
-        "price": 9.99,
-        "product_id": "522732",
-        "tiers": 3,
-        "title": "Wulfgar's Champion",
-        "url": "https://www.dmsguild.com/product/522732/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Alexander Klement"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-SOTH-01",
-        "date_created": "20240714",
-        "full_title": "Dragonlance: Echoes of war (DL-DC-SOTH-01)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 4.9,
-        "product_id": "487856",
-        "season": null,
-        "tiers": 1,
-        "title": "Dragonlance Echoes of war",
-        "url": "https://www.dmsguild.com/product/487856/?affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [
-            "Belinda Baldwin"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-SDCC-01",
-        "date_created": "20230717",
-        "full_title": "Greenshield (DL-DC-SDCC-01)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 8.0,
-        "product_id": "445922",
-        "tiers": 1,
-        "title": "Greenshield",
-        "url": "https://www.dmsguild.com/product/445922/?affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [
-            "JD McComb"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-SDCC-03",
-        "date_created": "20230717",
-        "full_title": "Knight Fall (DL-DC-SDCC-03)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 8.0,
-        "product_id": "445912",
-        "tiers": 1,
-        "title": "Knight Fall",
-        "url": "https://www.dmsguild.com/product/445912/?affiliate_id=171040"
-    },
-    {
         "apl": 3,
         "authors": [
             "Steven Truong"
@@ -204,43 +224,23 @@
         "url": "https://www.dmsguild.com/product/519557/?affiliate_id=171040"
     },
     {
-        "apl": 2,
+        "apl": 12,
         "authors": [
-            "Belinda Baldwin"
+            "George Sanders"
         ],
         "campaigns": [
             "Dragonlance"
         ],
-        "code": "DL-DC-SDCC-02",
-        "date_created": "20230717",
-        "full_title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",
-        "hours": "2",
+        "code": "DL-DC-SF-02",
+        "date_created": "20250518",
+        "full_title": "DL-DC-SF-02 Wulfgar's Champion",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "1-4",
-        "price": 8.0,
-        "product_id": "445925",
-        "tiers": 1,
-        "title": "The Dog Days of Solamnia",
-        "url": "https://www.dmsguild.com/product/445925/?affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [
-            "JD McComb"
-        ],
-        "campaigns": [
-            "Dragonlance"
-        ],
-        "code": "DL-DC-SDCC-04",
-        "date_created": "20230717",
-        "full_title": "The Inn of Forgotten Melodies (DL-DC-SDCC-04)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 8.0,
-        "product_id": "445923",
-        "tiers": 1,
-        "title": "The Inn of Forgotten Melodies",
-        "url": "https://www.dmsguild.com/product/445923/?affiliate_id=171040"
+        "level_range": "11-16",
+        "price": 9.99,
+        "product_id": "522732",
+        "tiers": 3,
+        "title": "Wulfgar's Champion",
+        "url": "https://www.dmsguild.com/product/522732/?affiliate_id=171040"
     }
 ]
