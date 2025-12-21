@@ -14,11 +14,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "392794",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-1-01 Autumn Burns Red",
+        "title": "Autumn Burns Red",
         "url": "https://www.dmsguild.com/product/392794/?affiliate_id=171040"
     },
     {
@@ -80,11 +81,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "392888",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-1-04 The City in the Mist",
+        "title": "The City in the Mist",
         "url": "https://www.dmsguild.com/product/392888/?affiliate_id=171040"
     },
     {
@@ -124,11 +126,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "392891",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-1-06 Beyond the Starry Veil",
+        "title": "Beyond the Starry Veil",
         "url": "https://www.dmsguild.com/product/392891/?affiliate_id=171040"
     },
     {
@@ -146,11 +149,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "392892",
         "season": null,
         "tiers": 4,
-        "title": "PO-BK-1-07 Beyond This Portal",
+        "title": "Beyond This Portal",
         "url": "https://www.dmsguild.com/product/392892/?affiliate_id=171040"
     },
     {
@@ -408,14 +412,15 @@
         "code": "PO-BK-3-01",
         "date_created": "20240105",
         "full_title": "PO-BK-3-01 A Pirate's Life for Me",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "466325",
         "season": null,
         "tiers": 1,
-        "title": "PO-BK-3-01 A Pirate's Life for Me",
+        "title": "A Pirate's Life for Me",
         "url": "https://www.dmsguild.com/product/466325/?affiliate_id=171040"
     },
     {

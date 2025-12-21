@@ -125,13 +125,15 @@
         "code": "PS-DC-SS",
         "date_created": "20240311",
         "full_title": "Soul and Shadow (PS-DC-SS)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "473735",
+        "season": null,
         "tiers": 4,
-        "title": "Soul and Shadow PS-DC-SS",
+        "title": "Soul and Shadow",
         "url": "https://www.dmsguild.com/product/473735/?affiliate_id=171040"
     },
     {
@@ -1460,6 +1462,28 @@
         "tiers": 4,
         "title": "Dungeon & A Dragon",
         "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-05",
+        "date_created": "20250720",
+        "full_title": "Planar Pub Crawl: Nights to Remember",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335",
+        "season": "Planescape",
+        "tiers": 0,
+        "title": "Planar Pub Crawl Nights to Remember",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
     },
     {
         "apl": 3,
