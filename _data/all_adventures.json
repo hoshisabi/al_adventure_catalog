@@ -311,7 +311,7 @@
         ],
         "code": "DDEX01-11",
         "date_created": "20160111",
-        "full_title": "DDEX1-11 Dark Pyramid of Sorcerer\u2019s Isle",
+        "full_title": "DDEX1-11 Dark Pyramid of Sorcerer’s Isle",
         "hours": "8",
         "is_adventure": true,
         "level_range": "5-10",
@@ -320,7 +320,7 @@
         "product_id": "170470",
         "season": "Tyranny of Dragons",
         "tiers": 2,
-        "title": "Dark Pyramid of Sorcerer\u2019s Isle",
+        "title": "Dark Pyramid of Sorcerer’s Isle",
         "url": "https://www.dmsguild.com/product/170470/?affiliate_id=171040"
     },
     {
@@ -1229,7 +1229,7 @@
         ],
         "code": "DDAL04-06",
         "date_created": "20160510",
-        "full_title": "DDAL04\u201006 The Ghost",
+        "full_title": "DDAL04‐06 The Ghost",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -2504,11 +2504,14 @@
         "full_title": "CCC-CIC-03 The Desolate Undercroft",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "207993",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-CIC-03 The Desolate Undercroft",
-        "url": "https://www.dmsguild.com/product/207993/CCCCIC03-The-Desolate-Undercroft?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Desolate Undercroft",
+        "url": "https://www.dmsguild.com/product/207993/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2615,14 +2618,17 @@
         "full_title": "CCC-SALT-01-01 Rumors of Riches",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "210440",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SALT-01-01 Rumors of Riches",
-        "url": "https://www.dmsguild.com/product/210440/CCCSALT0101-Rumors-of-Riches?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Rumors of Riches",
+        "url": "https://www.dmsguild.com/product/210440/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 2,
         "authors": [
             "Derek Gray",
             "MOGC"
@@ -2635,14 +2641,17 @@
         "full_title": "CCC-SALT-01-02 Moor Trouble",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "210443",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SALT-01-02 Moor Trouble",
-        "url": "https://www.dmsguild.com/product/210443/CCCSALT0102-Moor-Trouble?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Moor Trouble",
+        "url": "https://www.dmsguild.com/product/210443/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 2,
         "authors": [
             "Derek Gray",
             "David Morris",
@@ -2656,11 +2665,14 @@
         "full_title": "CCC-SALT-01-03 Broken Halls of Goldahroud",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "210444",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SALT-01-03 Broken Halls of Goldahroud",
-        "url": "https://www.dmsguild.com/product/210444/CCCSALT0103-Broken-Halls-of-Goldahroud?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Broken Halls of Goldahroud",
+        "url": "https://www.dmsguild.com/product/210444/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2729,7 +2741,7 @@
         "url": "https://www.dmsguild.com/product/214058/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 6,
         "authors": [
             "Iam Pace",
             "William Murakami-Brundage"
@@ -2742,14 +2754,17 @@
         "full_title": "CCC-PDXAGE-02-01 The Dark Hunt",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "214451",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-PDXAGE-02-01 The Dark Hunt",
-        "url": "https://www.dmsguild.com/product/214451/CCCPDXAGE0201-The-Dark-Hunt?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Dark Hunt",
+        "url": "https://www.dmsguild.com/product/214451/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Iam Pace",
             "William Murakami-Brundage"
@@ -2763,13 +2778,16 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "214453",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PDXAGE-01-01 The White Well",
-        "url": "https://www.dmsguild.com/product/214453/CCCPDXAGE0101-The-White-Well?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The White Well",
+        "url": "https://www.dmsguild.com/product/214453/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Jeremy Forbing"
         ],
@@ -2781,14 +2799,17 @@
         "full_title": "CCC-YLRA01-01 Her Dying Wish",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "215448",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-YLRA01-01 Her Dying Wish",
-        "url": "https://www.dmsguild.com/product/215448/CCCYLRA0101-Her-Dying-Wish&affiliate_id=171040"
+        "title": "Her Dying Wish",
+        "url": "https://www.dmsguild.com/product/215448/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 9,
         "authors": [
             "Ryan Cannon"
         ],
@@ -2800,11 +2821,15 @@
         "full_title": "CCC-YLRA01-02 Uneasy Lies the Head",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 4.99,
         "product_id": "215484",
+        "season": null,
+        "suggestedPrice": 4.99,
         "tiers": 2,
-        "title": "CCC-YLRA01-02 Uneasy Lies the Head",
-        "url": "https://www.dmsguild.com/product/215484/CCCYLRA0102-Uneasy-Lies-the-Head?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Uneasy Lies the Head",
+        "url": "https://www.dmsguild.com/product/215484/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2820,11 +2845,14 @@
         "full_title": "CCC-YLRA01-03 Bound By Duty",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "215508",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-YLRA01-03 Bound By Duty",
-        "url": "https://www.dmsguild.com/product/215508/CCCYLRA0103-Bound-By-Duty&affiliate_id=171040"
+        "title": "Bound By Duty",
+        "url": "https://www.dmsguild.com/product/215508/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2862,11 +2890,14 @@
         "full_title": "CCC-CIC-04 Best Friends Forever",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "216389",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-CIC-04 Best Friends Forever",
-        "url": "https://www.dmsguild.com/product/216389/CCCCIC04-Best-Friends-Forever?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Best Friends Forever",
+        "url": "https://www.dmsguild.com/product/216389/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2927,11 +2958,11 @@
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.49,
+        "price": 4.99,
         "product_id": "218024",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BLD-1-1 Bleeding Gate Pandemonium",
+        "title": "Bleeding Gate: Pandemonium",
         "url": "https://www.dmsguild.com/product/218024/?affiliate_id=171040"
     },
     {
@@ -2965,15 +2996,18 @@
             "Forgotten Realms"
         ],
         "code": "CCC-LINKS-01",
-        "date_created": "20170809",
+        "date_created": "20170810",
         "full_title": "CCC-LINKS-01 Champion of the People",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "218722",
+        "season": "Rage of Demons",
         "tiers": 3,
-        "title": "CCC-LINKS-01 Champion of the People",
-        "url": "https://www.dmsguild.com/product/218722/CCCLINKS01-Champion-of-the-People?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Champion of the People",
+        "url": "https://www.dmsguild.com/product/218722/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -2988,11 +3022,14 @@
         "full_title": "CCC-LINKS-02 The Secrets We Keep",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "218925",
-        "tiers": 3,
-        "title": "CCC-LINKS-02 The Secrets We Keep",
-        "url": "https://www.dmsguild.com/product/218925/CCCLINKS02-The-Secrets-We-Keep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "The Secrets We Keep",
+        "url": "https://www.dmsguild.com/product/218925/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3120,11 +3157,14 @@
         "full_title": "CCC-QCC2017 Delusions of Grandeur, Dreams of Revenge",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "221415",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-QCC2017 Delusions of Grandeur, Dreams of Revenge",
-        "url": "https://www.dmsguild.com/product/221415/CCCQCC2017-Delusions-of-Grandeur-Dreams-of-Revenge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Delusions of Grandeur, Dreams of Revenge",
+        "url": "https://www.dmsguild.com/product/221415/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3133,7 +3173,7 @@
             "Eric Boaen",
             "Adam Scaramella",
             "Al Spader",
-            "Garrett Col\u00f3n",
+            "Garrett Colón",
             "The Role Initiative"
         ],
         "campaigns": [
@@ -3144,11 +3184,14 @@
         "full_title": "CCC-TRI-01 Into the Darkness (Part One of the Yulash Series)",
         "hours": "",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "221775",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-01 Into the Darkness Part One of the Yulash Series",
-        "url": "https://www.dmsguild.com/product/221775/CCCTRI01-Into-the-Darkness-Part-One-of-the-Yulash-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Into the Darkness (Part One of the Yulash Series)",
+        "url": "https://www.dmsguild.com/product/221775/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -3163,11 +3206,14 @@
         "full_title": "CCCROZK01-01 Binder's Torment",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "221932",
+        "season": null,
         "tiers": 3,
-        "title": "CCCROZK01-01 Binder's Torment",
-        "url": "https://www.dmsguild.com/product/221932/CCCROZK0101-Binders-Torment?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Binder's Torment",
+        "url": "https://www.dmsguild.com/product/221932/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -3182,11 +3228,14 @@
         "full_title": "CCCROZK01-02 Zhentarim's Lament",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "221933",
+        "season": null,
         "tiers": 3,
-        "title": "CCCROZK01-02 Zhentarim's Lament",
-        "url": "https://www.dmsguild.com/product/221933/CCCROZK0102-Zhentarims-Lament?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Zhentarim's Lament",
+        "url": "https://www.dmsguild.com/product/221933/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -3201,11 +3250,14 @@
         "full_title": "CCCROZK01-03 Necromancer's Ascent",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "221934",
+        "season": null,
         "tiers": 3,
-        "title": "CCCROZK01-03 Necromancer's Ascent",
-        "url": "https://www.dmsguild.com/product/221934/CCCROZK0103-Necromancers-Ascent?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Necromancer's Ascent",
+        "url": "https://www.dmsguild.com/product/221934/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4634,7 +4686,7 @@
     {
         "apl": 8,
         "authors": [
-            "Garrett Col\u00f3n",
+            "Garrett Colón",
             "The Role Initiative"
         ],
         "campaigns": [
@@ -5107,7 +5159,7 @@
         ],
         "code": "CCC-SALT",
         "date_created": "20180609",
-        "full_title": "CCC-SALT 02-01 Mulmaster\u2019s Meddling\u2019s",
+        "full_title": "CCC-SALT 02-01 Mulmaster’s Meddling’s",
         "hours": "4",
         "is_adventure": true,
         "level_range": "01",
@@ -5115,7 +5167,7 @@
         "product_id": "244117",
         "season": null,
         "tiers": 1,
-        "title": "CCC-SALT 02-01 Mulmaster\u2019s Meddling\u2019s",
+        "title": "CCC-SALT 02-01 Mulmaster’s Meddling’s",
         "url": "https://www.dmsguild.com/product/244117/?affiliate_id=171040"
     },
     {
@@ -6721,7 +6773,7 @@
     {
         "apl": 13,
         "authors": [
-            "Garrett Col\u00f3n"
+            "Garrett Colón"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -6851,13 +6903,13 @@
         ],
         "code": "CCC-MCX-01",
         "date_created": "20181028",
-        "full_title": "CCC-MCX-01 All in a Day\u2019s Work",
+        "full_title": "CCC-MCX-01 All in a Day’s Work",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "257386",
         "tiers": 1,
-        "title": "CCC-MCX-01 All in a Day\u2019s Work",
+        "title": "CCC-MCX-01 All in a Day’s Work",
         "url": "https://www.dmsguild.com/product/257386/CCCMCX01-All-in-a-Days-Work?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -7143,13 +7195,13 @@
         ],
         "code": "CCC-SVH-01-02",
         "date_created": "20181104",
-        "full_title": "CCC-SVH-01-02 Raven Lord\u2019s Aerie",
+        "full_title": "CCC-SVH-01-02 Raven Lord’s Aerie",
         "hours": "4",
         "is_adventure": true,
         "level_range": "201",
         "product_id": "257963",
         "tiers": 3,
-        "title": "CCC-SVH-01-02 Raven Lord\u2019s Aerie",
+        "title": "CCC-SVH-01-02 Raven Lord’s Aerie",
         "url": "https://www.dmsguild.com/product/257963/CCCSVH0102-Raven-Lords-Aerie?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -8158,7 +8210,7 @@
     {
         "apl": 3,
         "authors": [
-            "Garrett Col\u00f3n",
+            "Garrett Colón",
             "The Role Initiative"
         ],
         "campaigns": [
@@ -9845,13 +9897,13 @@
         ],
         "code": "CCC-ALMOG-20",
         "date_created": "20191122",
-        "full_title": "Jaunt to the Center of Faer\u00fbn (CCC-ALMOG-20 TALES01-04)",
+        "full_title": "Jaunt to the Center of Faerûn (CCC-ALMOG-20 TALES01-04)",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "284810",
         "tiers": 1,
-        "title": "Jaunt to the Center of Faer\u00fbn",
+        "title": "Jaunt to the Center of Faerûn",
         "url": "https://www.dmsguild.com/product/284810/Jaunt-to-the-Center-of-Faerun?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -10877,7 +10929,7 @@
         "product_id": "296435",
         "season": null,
         "tiers": 1,
-        "title": "CCC\u2010ODFC03\u201001 A Momentary Lapse of Reason",
+        "title": "CCC‐ODFC03‐01 A Momentary Lapse of Reason",
         "url": "https://www.dmsguild.com/product/296435/?affiliate_id=171040"
     },
     {
@@ -10955,7 +11007,7 @@
         ],
         "code": "CCC-MALTH-001",
         "date_created": "20191216",
-        "full_title": "CCC-MALTH-001 Sel\u00fbne's Tear",
+        "full_title": "CCC-MALTH-001 Selûne's Tear",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -10964,7 +11016,7 @@
         "product_id": "297167",
         "season": null,
         "tiers": 2,
-        "title": "Sel\u00c3\u00bbne's Tear",
+        "title": "Selûne's Tear",
         "url": "https://www.dmsguild.com/product/297167/?affiliate_id=171040"
     },
     {
@@ -11227,7 +11279,7 @@
         "apl": 3,
         "authors": [
             "Karrin Jackson",
-            "P\u00f4l Jackson"
+            "Pôl Jackson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -11356,13 +11408,13 @@
         ],
         "code": "CCC-TRI-20",
         "date_created": "20200116",
-        "full_title": "CCC-TRI-20 Breaking Y\u00fblash (Part Five of the Y\u00fblash Series)",
+        "full_title": "CCC-TRI-20 Breaking Yûlash (Part Five of the Yûlash Series)",
         "hours": "",
         "is_adventure": true,
         "level_range": "1",
         "product_id": "299817",
         "tiers": 3,
-        "title": "CCC-TRI-20 Breaking Y\u00fblash Part Five of the Y\u00fblash Series",
+        "title": "CCC-TRI-20 Breaking Yûlash Part Five of the Yûlash Series",
         "url": "https://www.dmsguild.com/product/299817/CCCTRI20-Breaking-Yulash-Part-Five-of-the-Yulash-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -11375,13 +11427,13 @@
         ],
         "code": "CCC-TRI-21",
         "date_created": "20200116",
-        "full_title": "CCC-TRI-21 The Rifts of Madness (Part Six of the Y\u00fblash Series)",
+        "full_title": "CCC-TRI-21 The Rifts of Madness (Part Six of the Yûlash Series)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "2",
         "product_id": "299821",
         "tiers": 3,
-        "title": "CCC-TRI-21 The Rifts of Madness Part Six of the Y\u00fblash Series",
+        "title": "CCC-TRI-21 The Rifts of Madness Part Six of the Yûlash Series",
         "url": "https://www.dmsguild.com/product/299821/CCCTRI21-The-Rifts-of-Madness-Part-Six-of-the-Yulash-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -12138,7 +12190,7 @@
     {
         "apl": 13,
         "authors": [
-            "Mart\u00edn Rodriguez"
+            "Martín Rodriguez"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -12366,7 +12418,7 @@
         ],
         "code": "CCC-KUMORI-03-01",
         "date_created": "20200405",
-        "full_title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
+        "full_title": "CCC-KUMORI-03-01 Protégé of the Trampling Forest",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -12374,7 +12426,7 @@
         "product_id": "308848",
         "season": null,
         "tiers": 1,
-        "title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
+        "title": "CCC-KUMORI-03-01 Protégé of the Trampling Forest",
         "url": "https://www.dmsguild.com/product/308848/?affiliate_id=171040"
     },
     {
@@ -14391,7 +14443,7 @@
         ],
         "code": "DDAL00-13",
         "date_created": "20200915",
-        "full_title": "DDAL00-13 Knuckleheads & Other Such Curiosities: A Travelers\u2019 Guide to Icewind Dale",
+        "full_title": "DDAL00-13 Knuckleheads & Other Such Curiosities: A Travelers’ Guide to Icewind Dale",
         "hours": "",
         "is_adventure": true,
         "level_range": null,
@@ -14400,7 +14452,7 @@
         "product_id": "328568",
         "season": 0,
         "tiers": 0,
-        "title": "Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
+        "title": "Knuckleheads & Other Such Curiosities A Travelers’ Guide to Icewind Dale",
         "url": "https://www.dmsguild.com/product/328568/?affiliate_id=171040"
     },
     {
@@ -14470,7 +14522,7 @@
     {
         "apl": 3,
         "authors": [
-            "Nicol\u00e1s Carrillo"
+            "Nicolás Carrillo"
         ],
         "campaigns": [
             "Eberron"
@@ -14859,7 +14911,7 @@
     {
         "apl": 3,
         "authors": [
-            "Rune S\u00f8rheim"
+            "Rune Sørheim"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -15558,14 +15610,14 @@
         ],
         "code": "DC-POA-HARM-01-02",
         "date_created": "20210220",
-        "full_title": "DC-PoA-HARM-01-02 Time Flies When You\u00e2\u20ac\u2122re Delving Dungeons",
+        "full_title": "DC-PoA-HARM-01-02 Time Flies When You’re Delving Dungeons",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "338670",
         "seed": "In Too Deep",
         "tiers": 1,
-        "title": "DC-PoA-HARM-01-02 Time Flies When You\u00e2\u20ac\u2122re Delving Dungeons",
+        "title": "DC-PoA-HARM-01-02 Time Flies When You’re Delving Dungeons",
         "url": "https://www.dmsguild.com/product/338670/DCPoAHARM0102-Time-Flies-When-Youre-Delving-Dungeons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -17247,7 +17299,7 @@
         "apl": 5,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope"
+            "Teän Stanhope"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -17945,15 +17997,16 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-SN-01-",
+        "code": "DC-POA-SN-01",
         "date_created": "20210322",
-        "full_title": "DC-POA-SN-01: The Rider in Black",
+        "full_title": "DC-POA-SN-01 The Rider in Black",
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "351251",
         "season": "Icewind Dale",
+        "seed": "A Dark Horse",
         "tiers": 1,
         "title": "DC-POA-SN-01 The Rider in Black",
         "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040"
@@ -18234,15 +18287,16 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-SN-02-",
+        "code": "DC-POA-SN-02",
         "date_created": "20210411",
-        "full_title": "DC-POA-SN-02: The Ruins of Balors Reach",
+        "full_title": "DC-POA-SN-02 The Ruins of Balors Reach",
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "353580",
         "season": "Icewind Dale",
+        "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
         "title": "DC-POA-SN-02 The Ruins of Balors Reach",
         "url": "https://www.dmsguild.com/product/353580/?affiliate_id=171040"
@@ -18329,12 +18383,12 @@
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "354319",
         "season": "Icewind Dale",
         "seed": "Goat-ball!",
         "tiers": 1,
-        "title": "Someone Dropped the Goat-Ball DC-POA-PND-1",
+        "title": "Someone Dropped the Goat-Ball",
         "url": "https://www.dmsguild.com/product/354319/?affiliate_id=171040"
     },
     {
@@ -19381,15 +19435,16 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-VID-01-",
+        "code": "DC-POA-VID-01",
         "date_created": "20210809",
-        "full_title": "DC-PoA-VID-01: The Hex of the Horn",
+        "full_title": "DC-PoA-VID-01 The Hex of the Horn",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "367141",
         "season": "Icewind Dale",
+        "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
         "title": "DC-PoA-VID-01 The Hex of the Horn",
         "url": "https://www.dmsguild.com/product/367141/?affiliate_id=171040"
@@ -19463,7 +19518,7 @@
         "apl": 1,
         "authors": [
             "Amy Lynn Dzura",
-            "Ma\u2019at Crook"
+            "Ma’at Crook"
         ],
         "campaigns": [
             "Ravenloft"
@@ -19941,7 +19996,7 @@
         "apl": null,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope"
+            "Teän Stanhope"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -19988,14 +20043,14 @@
         ],
         "code": "DC-POA-CONMAR-12",
         "date_created": "20210828",
-        "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skr\u00c3\u00a5llahie",
+        "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skrållahie",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "369085",
         "seed": "Goat-ball!",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-12 Strike-Out in Skr\u00c3\u00a5llahie",
+        "title": "DC-PoA-CONMAR-12 Strike-Out in Skrållahie",
         "url": "https://www.dmsguild.com/product/369085/DCPoACONMAR12-StrikeOut-in-Skrallahie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -20551,19 +20606,20 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "369329",
         "season": "Icewind Dale",
         "seed": "Burrowing Borrowers",
         "tiers": 1,
-        "title": "What Skitters Beneath? DC-POA-PND-2",
+        "title": "What Skitters Beneath?",
         "url": "https://www.dmsguild.com/product/369329/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "Lu\u00c3\u00ads Ricardo",
-            "Patr\u00c3\u00adcia Brito",
+            "Luís Ricardo",
+            "Patrícia Brito",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -20733,12 +20789,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "369349",
         "season": "Icewind Dale",
         "seed": "My, What Big Feet You Have",
         "tiers": 2,
-        "title": "What Stalks the Night? DC-POA-PND-5",
+        "title": "What Stalks the Night?",
         "url": "https://www.dmsguild.com/product/369349/?affiliate_id=171040"
     },
     {
@@ -20751,7 +20808,7 @@
         ],
         "code": "DC-POA-Z-T2S2",
         "date_created": "20210831",
-        "full_title": "DC-POA-Z-T2S2 Iggy\u00e2\u20ac\u2122s Folly",
+        "full_title": "DC-POA-Z-T2S2 Iggy’s Folly",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -20760,7 +20817,7 @@
         "season": "Icewind Dale",
         "seed": "My, What Big Feet You Have",
         "tiers": 2,
-        "title": "DC-POA-Z-T2S2 Iggy\u00e2\u20ac\u2122s Folly",
+        "title": "DC-POA-Z-T2S2 Iggy’s Folly",
         "url": "https://www.dmsguild.com/product/369353/?affiliate_id=171040"
     },
     {
@@ -22957,7 +23014,7 @@
         ],
         "code": "WBW-DC-CBB-02",
         "date_created": "20220313",
-        "full_title": "WBW-DC-CBB-02 Escolar\u2019s Grotto",
+        "full_title": "WBW-DC-CBB-02 Escolar’s Grotto",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -22967,7 +23024,7 @@
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
-        "title": "Escolar\u2019s Grotto",
+        "title": "Escolar’s Grotto",
         "url": "https://www.dmsguild.com/product/390077/?affiliate_id=171040"
     },
     {
@@ -23887,7 +23944,7 @@
         "apl": 3,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00e4n Stanhope"
+            "Teän Stanhope"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -24561,7 +24618,7 @@
         "apl": 3,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -24640,6 +24697,7 @@
         "price": 2.0,
         "product_id": "403741",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Beauty's Beast",
         "url": "https://www.dmsguild.com/product/403741/?affiliate_id=171040"
@@ -25289,7 +25347,7 @@
         "apl": 3,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00e4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -25740,14 +25798,14 @@
         ],
         "code": "WBW-DC-ROG-03",
         "date_created": "20220829",
-        "full_title": "WBW-DC-ROG-03 Hope In A Medusa\u00e2\u20ac\u2122s Eye",
+        "full_title": "WBW-DC-ROG-03 Hope In A Medusa’s Eye",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "408193",
         "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "Hope In A Medusa\u00e2\u20ac\u2122s Eye",
+        "title": "Hope In A Medusa’s Eye",
         "url": "https://www.dmsguild.com/product/408193/WBWDCROG03-Hope-In-A-Medusas-Eye?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -25791,6 +25849,7 @@
         "price": 4.99,
         "product_id": "408198",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "The Nightmare of Dreams",
@@ -26240,8 +26299,8 @@
     {
         "apl": 3,
         "authors": [
-            "Lu\u00c3\u00ads Ricardo",
-            "Patr\u00c3\u00adcia Brito"
+            "Luís Ricardo",
+            "Patrícia Brito"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -27103,6 +27162,7 @@
         "price": 6.99,
         "product_id": "408602",
         "season": null,
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
         "title": "Strahd Must Die!",
         "url": "https://www.dmsguild.com/product/408602/?affiliate_id=171040"
@@ -27115,9 +27175,9 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-CEL1-",
+        "code": "WBW-DC-JSH-CEL1",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-CEL1: Better with Friends",
+        "full_title": "WBW-DC-JSH-CEL1 Better with Friends",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
@@ -27125,6 +27185,7 @@
         "price": 0.0,
         "product_id": "408606",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
         "title": "Better with Friends",
         "url": "https://www.dmsguild.com/product/408606/?affiliate_id=171040"
@@ -27139,7 +27200,7 @@
         ],
         "code": "WBW-DC-MC-01",
         "date_created": "20220831",
-        "full_title": "WBW-DC-MC-01 Memento Motus: S\u00c3\u00a9ance for the Lost",
+        "full_title": "WBW-DC-MC-01 Memento Motus: Séance for the Lost",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -27148,7 +27209,7 @@
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
-        "title": "Memento Motus: S\u00c3\u00a9ance for the Lost",
+        "title": "Memento Motus: Séance for the Lost",
         "url": "https://www.dmsguild.com/product/408609/?affiliate_id=171040"
     },
     {
@@ -27416,7 +27477,7 @@
         "price": 2.75,
         "product_id": "411601",
         "season": "Spelljammer",
-        "seed": "Saint Argol\u00e2\u20ac\u2122s Fire",
+        "seed": "Saint Argol’s Fire",
         "tiers": 1,
         "title": "Hardy and Beholder Investigations The Stowaway",
         "url": "https://www.dmsguild.com/product/411601/?affiliate_id=171040"
@@ -27754,6 +27815,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "414296",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Madjammer Nightmare Dome",
         "url": "https://www.dmsguild.com/product/414296/SJDCMAD01-Madjammer-Nightmare-Dome?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -27846,7 +27908,7 @@
         "apl": 3,
         "authors": [
             "Baldman Games",
-            "Ciaran O\u2019Halloran"
+            "Ciaran O’Halloran"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -27923,6 +27985,7 @@
         "price": 3.99,
         "product_id": "415677",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Flight of the Wumbo Bee",
         "url": "https://www.dmsguild.com/product/415677/?affiliate_id=171040"
@@ -28203,7 +28266,7 @@
         "apl": 8,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -28301,6 +28364,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "420031",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Speck in the Sky",
         "url": "https://www.dmsguild.com/product/420031/Speck-in-the-Sky-SJDCISL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -28384,6 +28448,7 @@
         "price": 4.99,
         "product_id": "421162",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "A Lush and Dangerous Fruit",
         "url": "https://www.dmsguild.com/product/421162/?affiliate_id=171040"
@@ -28405,6 +28470,7 @@
         "price": 4.99,
         "product_id": "421163",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "To Find A Friend",
         "url": "https://www.dmsguild.com/product/421163/?affiliate_id=171040"
@@ -28426,6 +28492,7 @@
         "price": 4.99,
         "product_id": "421165",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "What A Strange Blue World",
         "url": "https://www.dmsguild.com/product/421165/?affiliate_id=171040"
@@ -28447,6 +28514,7 @@
         "price": 4.99,
         "product_id": "421166",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Frigid Cold of Despair",
         "url": "https://www.dmsguild.com/product/421166/?affiliate_id=171040"
@@ -28468,6 +28536,7 @@
         "price": 4.99,
         "product_id": "421167",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Hunger in the Marshes",
         "url": "https://www.dmsguild.com/product/421167/?affiliate_id=171040"
@@ -28596,6 +28665,7 @@
         "price": 3.99,
         "product_id": "422058",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Let's Go, S.A.G.O!",
         "url": "https://www.dmsguild.com/product/422058/?affiliate_id=171040"
@@ -28615,6 +28685,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "422077",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Moonshot",
         "url": "https://www.dmsguild.com/product/422077/Moonshot-SJDCDFA01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -29101,7 +29172,7 @@
         ],
         "code": "SJ-DC-ARQ-01",
         "date_created": "20230226",
-        "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00c3\u00abon System",
+        "full_title": "SJ-DC-ARQ-01  Welcome to the Arquëon System",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
@@ -29110,7 +29181,7 @@
         "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 1,
-        "title": "Welcome to the Arqu\u00c3\u00abon System",
+        "title": "Welcome to the Arquëon System",
         "url": "https://www.dmsguild.com/product/428240/?affiliate_id=171040"
     },
     {
@@ -29233,6 +29304,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "430296",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Frightmare of the Flux",
         "url": "https://www.dmsguild.com/product/430296/SJDCFLUMPH02-Frightmare-of-the-Flux?filters=45470_0_0_0_0_0&affiliate_id=171040"
@@ -29275,6 +29347,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "430751",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Ghost Ship's Sting",
         "url": "https://www.dmsguild.com/product/430751/SJDCHORNET01-The-Ghost-Ships-Sting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -29283,7 +29356,7 @@
         "apl": 8,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -29632,7 +29705,7 @@
     {
         "apl": 8,
         "authors": [
-            "Lu\u00eds Ricardo",
+            "Luís Ricardo",
             "Gamehole Con"
         ],
         "campaigns": [
@@ -30159,7 +30232,7 @@
     {
         "apl": 8,
         "authors": [
-            "JWei\u00e4\u00bc\u0178"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30179,7 +30252,7 @@
     {
         "apl": 8,
         "authors": [
-            "JWei\u00e4\u00bc\u0178"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30199,7 +30272,7 @@
     {
         "apl": 8,
         "authors": [
-            "JWei\u00e4\u00bc\u0178"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30219,7 +30292,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u00e4\u00bc\u0178"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30239,7 +30312,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u00e4\u00bc\u0178"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30259,7 +30332,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u00e4\u00bc\u0178"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30378,6 +30451,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "439526",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "On The Edge",
         "url": "https://www.dmsguild.com/product/439526/SJDCSSMUBCon01-On-The-Edge?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30405,7 +30479,7 @@
     {
         "apl": 8,
         "authors": [
-            "Lu\u00eds Ricardo",
+            "Luís Ricardo",
             "Liga dos Aventureiros",
             "GameHoleCon"
         ],
@@ -30440,6 +30514,7 @@
         "price": 4.99,
         "product_id": "440818",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Fortress of the Barracuda",
         "url": "https://www.dmsguild.com/product/440818/?affiliate_id=171040"
@@ -30447,7 +30522,7 @@
     {
         "apl": 16,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30462,6 +30537,7 @@
         "price": 4.99,
         "product_id": "440947",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Return of the Unknown II",
         "url": "https://www.dmsguild.com/product/440947/?affiliate_id=171040"
@@ -30481,6 +30557,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "441090",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Moving Up in the World",
         "url": "https://www.dmsguild.com/product/441090/Moving-Up-in-the-World-SJDCANGKA06?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30503,6 +30580,7 @@
         "price": 4.99,
         "product_id": "441108",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "suggestedPrice": 4.99,
         "tiers": 1,
         "title": "Among Us",
@@ -30525,6 +30603,7 @@
         "price": 1.0,
         "product_id": "441754",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "- Save the Forest!",
         "url": "https://www.dmsguild.com/product/441754/?affiliate_id=171040"
@@ -30544,6 +30623,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "441862",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Turmoil in Bral",
         "url": "https://www.dmsguild.com/product/441862/SJDCROCK01-Turmoil-in-Bral?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30566,6 +30646,7 @@
         "price": 4.99,
         "product_id": "441969",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Assault on Hudson 123",
         "url": "https://www.dmsguild.com/product/441969/?affiliate_id=171040"
@@ -30607,6 +30688,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "442801",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Echoes in Space",
         "url": "https://www.dmsguild.com/product/442801/SJDCEND0104-Echoes-in-Space?filters=45470_0_0_0_0_0&affiliate_id=171040"
@@ -30627,6 +30709,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "442860",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Danger Zone",
         "url": "https://www.dmsguild.com/product/442860/Danger-Zone-SJDCTRIDENMW2?filters=45470_0_0_0_0_0&affiliate_id=171040"
@@ -30648,6 +30731,7 @@
         "price": 3.99,
         "product_id": "443050",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "A Proper Farewell",
         "url": "https://www.dmsguild.com/product/443050/?affiliate_id=171040"
@@ -30655,7 +30739,7 @@
     {
         "apl": 16,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30667,6 +30751,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "443085",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Duo Death",
         "url": "https://www.dmsguild.com/product/443085/SJDCTBS01-Duo-Death?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30674,7 +30759,7 @@
     {
         "apl": 16,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30686,6 +30771,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "443342",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Infernal Immolators",
         "url": "https://www.dmsguild.com/product/443342/SJDCTBS02-Infernal-Immolators?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30705,6 +30791,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "444255",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Kindred Spirits",
         "url": "https://www.dmsguild.com/product/444255/SJDCNMB102-Kindred-Spirits?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30713,7 +30800,7 @@
         "apl": 8,
         "authors": [
             "Michelle Churchill",
-            "Lu\u00eds Ricardo"
+            "Luís Ricardo"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -30725,6 +30812,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "444742",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Prime Strikers",
         "url": "https://www.dmsguild.com/product/444742/SJDCDD06-The-Prime-Strikers?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30747,6 +30835,7 @@
         "price": 3.99,
         "product_id": "444946",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Rumble in The Jungle",
         "url": "https://www.dmsguild.com/product/444946/?affiliate_id=171040"
@@ -30769,6 +30858,7 @@
         "price": 4.99,
         "product_id": "445063",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "5 by 5",
@@ -30789,6 +30879,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "445078",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Fool's Hope",
         "url": "https://www.dmsguild.com/product/445078/SJDCEND0105-Fools-Hope?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -30809,6 +30900,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "445604",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Destination Unknown",
         "url": "https://www.dmsguild.com/product/445604/Destination-Unknown-SJDCTRIDENMW3?filters=45470_0_0_0_0_0&affiliate_id=171040"
@@ -30817,7 +30909,7 @@
         "apl": 8,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00e4n Stanhope",
+            "Teän Stanhope",
             "James Twigg"
         ],
         "campaigns": [
@@ -30832,6 +30924,7 @@
         "price": 2.99,
         "product_id": "445673",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Mutiny The Battle of Blunderbuss Bill",
         "url": "https://www.dmsguild.com/product/445673/?affiliate_id=171040"
@@ -30953,6 +31046,7 @@
         "price": 4.99,
         "product_id": "446273",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "It Runs in the Blood",
         "url": "https://www.dmsguild.com/product/446273/?affiliate_id=171040"
@@ -30973,6 +31067,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "446279",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Slammed",
         "url": "https://www.dmsguild.com/product/446279/?affiliate_id=171040"
@@ -30995,6 +31090,7 @@
         "price": 4.95,
         "product_id": "446296",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Hypocritic Oath",
         "url": "https://www.dmsguild.com/product/446296/?affiliate_id=171040"
@@ -31014,6 +31110,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "446761",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Kobolds in Space!",
         "url": "https://www.dmsguild.com/product/446761/SJDCKIS01-Kobolds-in-Space?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31036,6 +31133,7 @@
         "price": 3.99,
         "product_id": "447089",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Rammed",
         "url": "https://www.dmsguild.com/product/447089/?affiliate_id=171040"
@@ -31055,6 +31153,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "447491",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Return to Echo Three",
         "url": "https://www.dmsguild.com/product/447491/SJDCECHO04-Return-to-Echo-Three?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31074,6 +31173,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "447513",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Sinaya's Song",
         "url": "https://www.dmsguild.com/product/447513/SJDCDD07-Sinayas-Song?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31095,6 +31195,7 @@
         "price": 4.99,
         "product_id": "447733",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Wayfarer's Log The Art of War",
         "url": "https://www.dmsguild.com/product/447733/?affiliate_id=171040"
@@ -31115,6 +31216,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "447837",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Taken in the Early Morning",
         "url": "https://www.dmsguild.com/product/447837/?affiliate_id=171040"
@@ -31155,6 +31257,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "448069",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "SJ-DC-Death In Defiance of Dairy",
         "url": "https://www.dmsguild.com/product/448069/SJDCDeath-In-Defiance-of-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31177,6 +31280,7 @@
         "price": 4.99,
         "product_id": "448365",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Plunge in K's Dungeon",
         "url": "https://www.dmsguild.com/product/448365/?affiliate_id=171040"
@@ -31184,7 +31288,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -31199,6 +31303,7 @@
         "price": 4.99,
         "product_id": "448450",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Recesses of the Unknown, Epilogue",
         "url": "https://www.dmsguild.com/product/448450/?affiliate_id=171040"
@@ -31218,6 +31323,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "448603",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Playing with the Boys",
         "url": "https://www.dmsguild.com/product/448603/SJDCMWG01-Playing-with-the-Boys?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31237,6 +31343,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "449202",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "GAAAYS in SPAAAAACE!!!",
         "url": "https://www.dmsguild.com/product/449202/SJDCDES0501-GAAAYS-in-SPAAAAACE?filters=45470_0_0_0_0_0&affiliate_id=171040"
@@ -31256,6 +31363,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "449203",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Escape from the Demonweb Pits",
         "url": "https://www.dmsguild.com/product/449203/SJDCDES0502-Escape-from-the-Demonweb-Pits?filters=45470_0_0_0_0_0&affiliate_id=171040"
@@ -31277,6 +31385,7 @@
         "price": 2.99,
         "product_id": "449776",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "A Taste For Trouble",
         "url": "https://www.dmsguild.com/product/449776/?affiliate_id=171040"
@@ -31296,6 +31405,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "449929",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "A Whale of a Time",
         "url": "https://www.dmsguild.com/product/449929/SJDCCJK0101-A-Whale-of-a-Time?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31317,6 +31427,7 @@
         "price": 3.99,
         "product_id": "449933",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Horizon of Oblivion",
         "url": "https://www.dmsguild.com/product/449933/?affiliate_id=171040"
@@ -31336,6 +31447,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "449939",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Building the Blastflinger",
         "url": "https://www.dmsguild.com/product/449939/SJDCCOULEE2301-Building-the-Blastflinger?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31357,6 +31469,7 @@
         "price": 3.99,
         "product_id": "450030",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Draconic Core",
         "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040"
@@ -31379,6 +31492,7 @@
         "price": 0.99,
         "product_id": "450081",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "the Intergalactic Rodeo",
         "url": "https://www.dmsguild.com/product/450081/?affiliate_id=171040"
@@ -31398,6 +31512,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "450113",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Flight of the Chungus",
         "url": "https://www.dmsguild.com/product/450113/SJDCFAT01-Flight-of-the-Chungus?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31468,7 +31583,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -31480,6 +31595,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "450711",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Pandora Box",
         "url": "https://www.dmsguild.com/product/450711/SJDCPANDORAJWEI01-The-Pandora-Box?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31501,6 +31617,7 @@
         "price": 3.99,
         "product_id": "450714",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Securing Passage",
         "url": "https://www.dmsguild.com/product/450714/?affiliate_id=171040"
@@ -31522,6 +31639,7 @@
         "price": 3.99,
         "product_id": "450816",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Horror From The Planet's Core",
         "url": "https://www.dmsguild.com/product/450816/?affiliate_id=171040"
@@ -31544,6 +31662,7 @@
         "price": 3.99,
         "product_id": "450914",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Pulling Gs",
         "url": "https://www.dmsguild.com/product/450914/?affiliate_id=171040"
@@ -31563,6 +31682,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "450949",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Prismatic Induction",
         "url": "https://www.dmsguild.com/product/450949/SJDCSYL02-Prismatic-Induction?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31606,6 +31726,7 @@
         "price": 4.99,
         "product_id": "451191",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Guide on The Other Side",
         "url": "https://www.dmsguild.com/product/451191/?affiliate_id=171040"
@@ -31625,6 +31746,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "451309",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Galactic Gigglefit",
         "url": "https://www.dmsguild.com/product/451309/SJDCDES0503-Galactic-Gigglefit?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31644,6 +31766,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "451316",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Darkside of Selune  5e",
         "url": "https://www.dmsguild.com/product/451316/Darkside-of-Selune-SJDCHYS02-5e?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -31665,6 +31788,7 @@
         "price": 3.0,
         "product_id": "451371",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Voyage to Goldfish Island",
         "url": "https://www.dmsguild.com/product/451371/?affiliate_id=171040"
@@ -31686,6 +31810,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "451453",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Rock of Bral Caper",
         "url": "https://www.dmsguild.com/product/451453/?affiliate_id=171040"
@@ -31707,6 +31832,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "451461",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Crossing the Void",
         "url": "https://www.dmsguild.com/product/451461/?affiliate_id=171040"
@@ -31728,6 +31854,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "451468",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Starfire Gambit!",
         "url": "https://www.dmsguild.com/product/451468/?affiliate_id=171040"
@@ -31749,6 +31876,7 @@
         "level_range": "5-10",
         "price": 2.99,
         "product_id": "451471",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Call from Space!",
         "url": "https://www.dmsguild.com/product/451471/?affiliate_id=171040"
@@ -31772,6 +31900,7 @@
         "price": 3.99,
         "product_id": "451690",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "A Time to Heal",
         "url": "https://www.dmsguild.com/product/451690/?affiliate_id=171040"
@@ -31795,6 +31924,7 @@
         "price": 3.99,
         "product_id": "451692",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Gone in a Flash",
         "url": "https://www.dmsguild.com/product/451692/?affiliate_id=171040"
@@ -31818,6 +31948,7 @@
         "price": 3.99,
         "product_id": "451697",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Playing the Odds",
         "url": "https://www.dmsguild.com/product/451697/?affiliate_id=171040"
@@ -31837,6 +31968,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "451727",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "i give you this gift of wings",
         "url": "https://www.dmsguild.com/product/451727/SJDCPHPTYVAL01-i-give-you-this-gift-of-wings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -31859,6 +31991,7 @@
         "price": 3.99,
         "product_id": "451742",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Bad Omen",
         "url": "https://www.dmsguild.com/product/451742/?affiliate_id=171040"
@@ -31880,6 +32013,7 @@
         "price": 3.99,
         "product_id": "452614",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Blasted",
         "url": "https://www.dmsguild.com/product/452614/?affiliate_id=171040"
@@ -31899,6 +32033,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "452693",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Leviathan",
         "url": "https://www.dmsguild.com/product/452693/SJDCMONSTER02-Leviathan?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -31928,7 +32063,7 @@
     {
         "apl": 3,
         "authors": [
-            "IGOR FARIA",
+            "Igor Faria",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -31936,20 +32071,24 @@
         ],
         "code": "SJ-DC-LIGA01",
         "date_created": "20230914",
-        "full_title": "SJ-DC-LIGA01 FINAL ASSAULT ON CORNELLIUM",
+        "full_title": "SJ-DC-LIGA01 Final Assault on Cornellium",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "453090",
+        "season": null,
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
-        "title": "FINAL ASSAULT ON CORNELLIUM",
-        "url": "https://www.dmsguild.com/product/453090/SJDCLIGA01-FINAL-ASSAULT-ON-CORNELLIUM?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Final Assault on Cornellium",
+        "url": "https://www.dmsguild.com/product/453090/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
             "Gabrielle Coutinho",
-            "Guilherme \u201cSirLockee\u201d",
+            "Guilherme “SirLockee”",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -31957,14 +32096,18 @@
         ],
         "code": "SJ-DC-LIGA02",
         "date_created": "20231024",
-        "full_title": "SJ-DC-LIGA02 THE RISEN CATACOMBS OF QUINTERRA",
+        "full_title": "SJ-DC-LIGA02 The Risen Catacombs of Quinterra",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "453158",
+        "season": null,
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
-        "title": "THE RISEN CATACOMBS OF QUINTERRA",
-        "url": "https://www.dmsguild.com/product/453158/SJDCLIGA02-THE-RISEN-CATACOMBS-OF-QUINTERRA?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Risen Catacombs of Quinterra",
+        "url": "https://www.dmsguild.com/product/453158/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -31981,6 +32124,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "453680",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Green Hills of the Affricate",
         "url": "https://www.dmsguild.com/product/453680/SJDCVMT03-Green-Hills-of-the-Affricate?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32000,6 +32144,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "453990",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Fortune's Favor",
         "url": "https://www.dmsguild.com/product/453990/SJDCZODIAC1401-Fortunes-Favor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -32019,6 +32164,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "454772",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The First Shades of Dusk",
         "url": "https://www.dmsguild.com/product/454772/SJDCPHPLRD01-The-First-Shades-of-Dusk?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32038,6 +32184,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "454984",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Bral Under Siege",
         "url": "https://www.dmsguild.com/product/454984/SJDCROCK02-Bral-Under-Siege?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32060,6 +32207,7 @@
         "price": 3.99,
         "product_id": "455015",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Tying the Knot",
         "url": "https://www.dmsguild.com/product/455015/?affiliate_id=171040"
@@ -32079,6 +32227,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "456642",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Sleep Now in the Fire",
         "url": "https://www.dmsguild.com/product/456642/Sleep-Now-in-the-Fire-SJDCANGKA07?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32101,6 +32250,7 @@
         "price": 4.99,
         "product_id": "456815",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "suggestedPrice": 4.99,
         "tiers": 1,
         "title": "Will of King",
@@ -32109,7 +32259,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -32121,6 +32271,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "456869",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Pleonexia",
         "url": "https://www.dmsguild.com/product/456869/SJDCPANDORAJWEI02-Pleonexia?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32140,6 +32291,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "456879",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "To Kill an Empress",
         "url": "https://www.dmsguild.com/product/456879/To-Kill-an-Empress-SJDCCGG02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32147,7 +32299,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -32159,6 +32311,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "456970",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Felix!",
         "url": "https://www.dmsguild.com/product/456970/SJDCPANDORAJWEI03B-Felix?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32166,7 +32319,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -32178,6 +32331,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "456972",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Astheneia",
         "url": "https://www.dmsguild.com/product/456972/SJDCPANDORAJWEI03A-Astheneia?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32185,7 +32339,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -32197,6 +32351,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "457175",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Fenrir",
         "url": "https://www.dmsguild.com/product/457175/SJDCPANDORAJWEI04-Fenrir?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32219,6 +32374,7 @@
         "price": 4.99,
         "product_id": "457185",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Breathless",
         "url": "https://www.dmsguild.com/product/457185/?affiliate_id=171040"
@@ -32238,6 +32394,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "457186",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Goldstock",
         "url": "https://www.dmsguild.com/product/457186/Goldstock-SJDCDFA05?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32257,6 +32414,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "458042",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Put Your Hag Together",
         "url": "https://www.dmsguild.com/product/458042/SJDCHAG-Put-Your-Hag-Together?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32276,6 +32434,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "458129",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Moonlit Mysteries A Heist to Remember  5e",
         "url": "https://www.dmsguild.com/product/458129/Moonlit-Mysteries-A-Heist-to-Remember-SJDCKGV01-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -32283,7 +32442,7 @@
     {
         "apl": 10,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -32295,6 +32454,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "458152",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Brightshill",
         "url": "https://www.dmsguild.com/product/458152/SJDCTBS04-Brightshill?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32317,6 +32477,7 @@
         "price": 4.99,
         "product_id": "458162",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Darkness Descending",
         "url": "https://www.dmsguild.com/product/458162/?affiliate_id=171040"
@@ -32337,6 +32498,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "458312",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Lich Queen's Forgotten",
         "url": "https://www.dmsguild.com/product/458312/The-Lich-Queens-Forgotten-SJDCNOS05?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32377,6 +32539,7 @@
         "price": 4.99,
         "product_id": "459533",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Secrets of Old",
         "url": "https://www.dmsguild.com/product/459533/?affiliate_id=171040"
@@ -32418,6 +32581,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "459640",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Starship Under Siege",
         "url": "https://www.dmsguild.com/product/459640/SJDCSUS01-Starship-Under-Siege?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32438,6 +32602,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "459935",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Pounded",
         "url": "https://www.dmsguild.com/product/459935/?affiliate_id=171040"
@@ -32460,6 +32625,7 @@
         "price": 1.99,
         "product_id": "460172",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Caverns and Cultists",
         "url": "https://www.dmsguild.com/product/460172/?affiliate_id=171040"
@@ -32521,6 +32687,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "460523",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Zaratan",
         "url": "https://www.dmsguild.com/product/460523/SJDCMONSTER03-Zaratan?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -32540,6 +32707,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "460548",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Folly Undone",
         "url": "https://www.dmsguild.com/product/460548/Folly-Undone-SJDCPHPPOLAR01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32559,6 +32727,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "460569",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Blast from the Past",
         "url": "https://www.dmsguild.com/product/460569/SJDCDD08-Blast-from-the-Past?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32581,6 +32750,7 @@
         "price": 4.95,
         "product_id": "461144",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Daylight Saving Time",
         "url": "https://www.dmsguild.com/product/461144/?affiliate_id=171040"
@@ -32607,7 +32777,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -32638,6 +32808,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "461456",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Suckerpunch",
         "url": "https://www.dmsguild.com/product/461456/Suckerpunch-SJDCDFA06?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32657,6 +32828,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "461558",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Fey Inferno",
         "url": "https://www.dmsguild.com/product/461558/SJDCZODIAC1402-Fey-Inferno?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -32697,6 +32869,7 @@
         "price": 3.49,
         "product_id": "461673",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Away We Go",
         "url": "https://www.dmsguild.com/product/461673/?affiliate_id=171040"
@@ -32719,6 +32892,7 @@
         "price": 3.99,
         "product_id": "461922",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "A Final Farewell",
         "url": "https://www.dmsguild.com/product/461922/?affiliate_id=171040"
@@ -32739,6 +32913,7 @@
         "level_range": "5-10",
         "price": 3.99,
         "product_id": "461977",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Enter Mission",
         "url": "https://www.dmsguild.com/product/461977/?affiliate_id=171040"
@@ -32760,6 +32935,7 @@
         "price": 4.99,
         "product_id": "462390",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Through the Looking Glass",
         "url": "https://www.dmsguild.com/product/462390/?affiliate_id=171040"
@@ -32779,6 +32955,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "462842",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Haunted Moon",
         "url": "https://www.dmsguild.com/product/462842/SJDCMIST01-The-Haunted-Moon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -32993,6 +33170,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "463682",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Space Hamsterball Run!",
         "url": "https://www.dmsguild.com/product/463682/Space-Hamsterball-Run-SJDCBAD02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33013,6 +33191,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "463852",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Every Move You Make",
         "url": "https://www.dmsguild.com/product/463852/SJDCTRIDENMYKE02-Every-Move-You-Make?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33035,6 +33214,7 @@
         "price": 4.99,
         "product_id": "463888",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Last Stand",
         "url": "https://www.dmsguild.com/product/463888/?affiliate_id=171040"
@@ -33055,6 +33235,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "463925",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Festival of Frun",
         "url": "https://www.dmsguild.com/product/463925/Festival-of-Frun-SJDCBAD03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33093,6 +33274,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464034",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "A Nightmare for Kersfees",
         "url": "https://www.dmsguild.com/product/464034/SJDCDSL01-A-Nightmare-for-Kersfees?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33113,6 +33295,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464113",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Huangfu Heist",
         "url": "https://www.dmsguild.com/product/464113/SJDCDD09-The-Huangfu-Heist?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33137,6 +33320,7 @@
         "price": 4.99,
         "product_id": "464119",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Asteroid Escape",
         "url": "https://www.dmsguild.com/product/464119/?affiliate_id=171040"
@@ -33160,6 +33344,7 @@
         "price": 4.99,
         "product_id": "464120",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Stranded",
         "url": "https://www.dmsguild.com/product/464120/?affiliate_id=171040"
@@ -33201,6 +33386,7 @@
         "price": 2.99,
         "product_id": "464237",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Party Crashers",
         "url": "https://www.dmsguild.com/product/464237/?affiliate_id=171040"
@@ -33220,6 +33406,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464265",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "A Cage in the Void",
         "url": "https://www.dmsguild.com/product/464265/SJDCGON01-A-Cage-in-the-Void?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33242,6 +33429,7 @@
         "price": 1.99,
         "product_id": "464271",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Library Lies & Lift Off!",
         "url": "https://www.dmsguild.com/product/464271/?affiliate_id=171040"
@@ -33261,6 +33449,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464289",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Broken Pact",
         "url": "https://www.dmsguild.com/product/464289/SJDCOLDONE-Broken-Pact?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33280,6 +33469,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464361",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Floof From Planet Floof",
         "url": "https://www.dmsguild.com/product/464361/The-Floof-From-Planet-Floof-SJDCFLF01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -33288,7 +33478,7 @@
         "apl": 3,
         "authors": [
             "Gabriel Kerr",
-            "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
+            "Marco Antônio “Boi” Loureiro",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -33296,14 +33486,18 @@
         ],
         "code": "SJ-DC-LIGA03",
         "date_created": "20231219",
-        "full_title": "SJ-DC-LIGA03 THE DARK HUNGER",
+        "full_title": "SJ-DC-LIGA03 The Dark Hunger",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "464474",
+        "season": null,
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
-        "title": "THE DARK HUNGER",
-        "url": "https://www.dmsguild.com/product/464474/SJDCLIGA03-THE-DARK-HUNGER?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Dark Hunger",
+        "url": "https://www.dmsguild.com/product/464474/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -33322,6 +33516,7 @@
         "price": 4.99,
         "product_id": "464522",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Of Giants And Dragons An Ancient Enemy Returns",
         "url": "https://www.dmsguild.com/product/464522/?affiliate_id=171040"
@@ -33343,6 +33538,7 @@
         "price": 4.99,
         "product_id": "464528",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Of Giants And Dragons Assault on Rimedyl",
         "url": "https://www.dmsguild.com/product/464528/?affiliate_id=171040"
@@ -33366,6 +33562,7 @@
         "price": 4.99,
         "product_id": "464755",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Root of All Evil",
         "url": "https://www.dmsguild.com/product/464755/?affiliate_id=171040"
@@ -33385,6 +33582,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464856",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Bakunawa",
         "url": "https://www.dmsguild.com/product/464856/SJDCTST03-Bakunawa?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33426,6 +33624,7 @@
         "price": 0.5,
         "product_id": "464897",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "suggestedPrice": 0.5,
         "tiers": 3,
         "title": "Rescue on Glyth",
@@ -33446,6 +33645,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464908",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Missing Heir",
         "url": "https://www.dmsguild.com/product/464908/Missing-Heir-SJDCASLM03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33467,6 +33667,7 @@
         "price": 3.99,
         "product_id": "464909",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Strange Light in the Darkness",
         "url": "https://www.dmsguild.com/product/464909/?affiliate_id=171040"
@@ -33488,6 +33689,7 @@
         "price": 3.99,
         "product_id": "464936",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Bloom & Doom",
         "url": "https://www.dmsguild.com/product/464936/?affiliate_id=171040"
@@ -33507,6 +33709,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "464943",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Lunar Freeze",
         "url": "https://www.dmsguild.com/product/464943/Lunar-Freeze-SJDCPAT01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33522,13 +33725,13 @@
         ],
         "code": "FR-DC-QLA-01",
         "date_created": "20231224",
-        "full_title": "Mel\u2019s Pit (FR-DC-QLA-01)",
+        "full_title": "Mel’s Pit (FR-DC-QLA-01)",
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "464961",
         "tiers": 3,
-        "title": "Mel\u2019s Pit",
+        "title": "Mel’s Pit",
         "url": "https://www.dmsguild.com/product/464961/Mels-Pit-FRDCQLA01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -33547,6 +33750,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465079",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "What's Love Got To Do With It?",
         "url": "https://www.dmsguild.com/product/465079/SJDCDSL02-Whats-Love-Got-To-Do-With-It?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33566,6 +33770,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465097",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Last Rays of Dawn",
         "url": "https://www.dmsguild.com/product/465097/SJDCPHPLRD02-The-Last-Rays-of-Dawn?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33573,7 +33778,7 @@
     {
         "apl": 8,
         "authors": [
-            "Patr\u00edcia Brito",
+            "Patrícia Brito",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -33581,14 +33786,18 @@
         ],
         "code": "SJ-DC-LIGA04",
         "date_created": "20231227",
-        "full_title": "SJ-DC-LIGA04 DEEP EXPEDITION TO LANTAN",
+        "full_title": "SJ-DC-LIGA04 Deep Expedition to Lantan",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "465171",
+        "season": null,
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "DEEP EXPEDITION TO LANTAN",
-        "url": "https://www.dmsguild.com/product/465171/SJDCLIGA04-DEEP-EXPEDITION-TO-LANTAN?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Deep Expedition to Lantan",
+        "url": "https://www.dmsguild.com/product/465171/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -33624,6 +33833,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465191",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Conclusion in Karpri",
         "url": "https://www.dmsguild.com/product/465191/SJDCNMB103-Conclusion-in-Karpri?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33638,7 +33848,7 @@
         ],
         "code": "SJ-DC-AMAK-",
         "date_created": "20240101",
-        "full_title": "SJ-DC-AMAK: Starlight\u2019s Lament",
+        "full_title": "SJ-DC-AMAK: Starlight’s Lament",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -33646,8 +33856,9 @@
         "price": 3.99,
         "product_id": "465326",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "Starlight\u2019s Lament",
+        "title": "Starlight’s Lament",
         "url": "https://www.dmsguild.com/product/465326/?affiliate_id=171040"
     },
     {
@@ -33665,6 +33876,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "465330",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Long Game",
         "url": "https://www.dmsguild.com/product/465330/SJDCDD10-The-Long-Game?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33683,9 +33895,11 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.0,
         "product_id": "465366",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "- The Hunt For Moby Duck",
         "url": "https://www.dmsguild.com/product/465366/?affiliate_id=171040"
@@ -33705,6 +33919,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465379",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Escape from Toril",
         "url": "https://www.dmsguild.com/product/465379/Escape-from-Toril-SJDCASLM01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -33724,6 +33939,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465380",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Heart of Glass",
         "url": "https://www.dmsguild.com/product/465380/Heart-of-Glass-SJDCASLM02?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -33744,6 +33960,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465395",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Who Killed Marcus?",
         "url": "https://www.dmsguild.com/product/465395/SJDCCONMAR01-Who-Killed-Marcus?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33764,6 +33981,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465397",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "A Kraken Good Story",
         "url": "https://www.dmsguild.com/product/465397/SJDCCONMAR02-A-Kraken-Good-Story?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33784,6 +34002,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465398",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Heart of Shards",
         "url": "https://www.dmsguild.com/product/465398/SJDCCONMAR03-Heart-of-Shards?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33804,6 +34023,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465399",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Finally Saving Marcus",
         "url": "https://www.dmsguild.com/product/465399/SJDCCONMAR04-Finally-Saving-Marcus?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33824,6 +34044,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465405",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Happily Ever After",
         "url": "https://www.dmsguild.com/product/465405/SJDCARCON-Happily-Ever-After?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33844,6 +34065,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465418",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Hail, Columbia",
         "url": "https://www.dmsguild.com/product/465418/SJDCDSL03-Hail-Columbia?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33865,6 +34087,7 @@
         "price": 4.99,
         "product_id": "465438",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Elemental Brainstorm",
         "url": "https://www.dmsguild.com/product/465438/?affiliate_id=171040"
@@ -33887,6 +34110,7 @@
         "price": 4.99,
         "product_id": "465442",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "I want a Giff for Winter Solstice",
@@ -33909,6 +34133,7 @@
         "price": 0.0,
         "product_id": "465443",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Falrenn Mayhem",
         "url": "https://www.dmsguild.com/product/465443/?affiliate_id=171040"
@@ -33929,6 +34154,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "465449",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Every Bond You Break",
         "url": "https://www.dmsguild.com/product/465449/SJDCTRIDENMYKE03-Every-Bond-You-Break?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -33951,6 +34177,7 @@
         "price": 3.99,
         "product_id": "465458",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Lure of the Transient",
         "url": "https://www.dmsguild.com/product/465458/?affiliate_id=171040"
@@ -33972,6 +34199,7 @@
         "price": 3.99,
         "product_id": "465462",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Turn of the Tide",
         "url": "https://www.dmsguild.com/product/465462/?affiliate_id=171040"
@@ -33993,6 +34221,7 @@
         "price": 3.99,
         "product_id": "465464",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Misery Loves Company",
         "url": "https://www.dmsguild.com/product/465464/?affiliate_id=171040"
@@ -34014,6 +34243,7 @@
         "price": 3.99,
         "product_id": "465465",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "At the Mouth of Decidua",
         "url": "https://www.dmsguild.com/product/465465/?affiliate_id=171040"
@@ -34037,6 +34267,7 @@
         "price": 4.99,
         "product_id": "465466",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Lost in Paradise",
         "url": "https://www.dmsguild.com/product/465466/?affiliate_id=171040"
@@ -34056,6 +34287,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "465467",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Per Aspera",
         "url": "https://www.dmsguild.com/product/465467/SJDCDD11-Per-Aspera?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34075,6 +34307,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "465468",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The End of the Line",
         "url": "https://www.dmsguild.com/product/465468/SJDCDD12-The-End-of-the-Line?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34094,6 +34327,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465475",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Wildspace Race",
         "url": "https://www.dmsguild.com/product/465475/SJDCEND0106-Wildspace-Race?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34110,14 +34344,18 @@
         ],
         "code": "SJ-DC-LIGA05",
         "date_created": "20231230",
-        "full_title": "SJ-DC-LIGA05 OOZED AND CONFUSED",
+        "full_title": "SJ-DC-LIGA05 Oozed and Confused",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "465499",
+        "season": null,
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "OOZED AND CONFUSED",
-        "url": "https://www.dmsguild.com/product/465499/SJDCLIGA05-OOZED-AND-CONFUSED?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Oozed and Confused",
+        "url": "https://www.dmsguild.com/product/465499/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -34134,6 +34372,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465522",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Cods Must Be Crazy",
         "url": "https://www.dmsguild.com/product/465522/The-Cods-Must-Be-Crazy-SJDCCOD?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34157,6 +34396,7 @@
         "price": 4.99,
         "product_id": "465541",
         "season": null,
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Sweet Dreams are Made of Bees",
         "url": "https://www.dmsguild.com/product/465541/?affiliate_id=171040"
@@ -34176,6 +34416,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465546",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Radiant Descent",
         "url": "https://www.dmsguild.com/product/465546/SJDCMIST02-Radiant-Descent?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34195,6 +34436,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465551",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Avoid the Tabloids!",
         "url": "https://www.dmsguild.com/product/465551/SJDCGGS01-Avoid-the-Tabloids?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34214,6 +34456,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465554",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Rocks Fall, Everybody Dies",
         "url": "https://www.dmsguild.com/product/465554/SJDCDCS01-Rocks-Fall-Everybody-Dies?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34233,6 +34476,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465560",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Tempest",
         "url": "https://www.dmsguild.com/product/465560/SJDCMONSTER04-Tempest?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -34254,6 +34498,7 @@
         "price": 3.99,
         "product_id": "465563",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Seclusion of the Snakelords",
         "url": "https://www.dmsguild.com/product/465563/?affiliate_id=171040"
@@ -34275,6 +34520,7 @@
         "price": 3.99,
         "product_id": "465564",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Noble Struggle",
         "url": "https://www.dmsguild.com/product/465564/?affiliate_id=171040"
@@ -34294,6 +34540,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465565",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "A Space Rendezvous",
         "url": "https://www.dmsguild.com/product/465565/SJDCTBE04-A-Space-Rendezvous?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34314,6 +34561,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465568",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Rrakkma Recruitment",
         "url": "https://www.dmsguild.com/product/465568/SJDCRFJK0201-Rrakkma-Recruitment?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34335,6 +34583,7 @@
         "price": 3.99,
         "product_id": "465570",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Temptation for Tiamat",
         "url": "https://www.dmsguild.com/product/465570/?affiliate_id=171040"
@@ -34356,6 +34605,7 @@
         "price": 3.99,
         "product_id": "465571",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Tiamat Wept",
         "url": "https://www.dmsguild.com/product/465571/?affiliate_id=171040"
@@ -34375,6 +34625,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465572",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Tavern at the End of the Wildspace",
         "url": "https://www.dmsguild.com/product/465572/SJDCCJK02-The-Tavern-at-the-End-of-the-Wildspace?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34395,6 +34646,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465578",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Intelligent Intention",
         "url": "https://www.dmsguild.com/product/465578/SJDCRFJK0202-Intelligent-Intention?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34414,6 +34666,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465580",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Herald of War",
         "url": "https://www.dmsguild.com/product/465580/SJDCZODIAC1403-Herald-of-War?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -34434,6 +34687,7 @@
         "level_range": "5-10",
         "price": 5.99,
         "product_id": "465599",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Come Together on the Giffstar",
         "url": "https://www.dmsguild.com/product/465599/?affiliate_id=171040"
@@ -34453,6 +34707,7 @@
         "is_adventure": true,
         "level_range": "11-16",
         "product_id": "465634",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Thousand Tiny Ducks",
         "url": "https://www.dmsguild.com/product/465634/SJDCPHPORNG-Thousand-Tiny-Ducks?affiliate_id=171040&filters=1000042_0_100057_0_0_0_0_0"
@@ -34460,7 +34715,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -34520,6 +34775,7 @@
         "price": 3.99,
         "product_id": "465643",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Pieces of Pain",
         "url": "https://www.dmsguild.com/product/465643/?affiliate_id=171040"
@@ -34527,23 +34783,25 @@
     {
         "apl": 8,
         "authors": [
-            "Lu\u00c3\u00ads Ricardo 'DM Corvo' da Costa",
+            "Luís Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "SJ-DC-LIGA06",
-        "date_created": null,
-        "full_title": "SJ-DC-LIGA06 A STRIKE TO HADAR'S TENTACLES",
+        "date_created": "20231231",
+        "full_title": "SJ-DC-LIGA06 A Strike to Hadar's Tentacles",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "465669",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "A STRIKE TO HADAR'S TENTACLES",
+        "title": "A Strike to Hadar's Tentacles",
         "url": "https://www.dmsguild.com/product/465669/?affiliate_id=171040"
     },
     {
@@ -34561,6 +34819,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465688",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "The Final Countdown",
         "url": "https://www.dmsguild.com/product/465688/SJDCTRIDENTFC-The-Final-Countdown?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -34581,6 +34840,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465696",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Colony Calling",
         "url": "https://www.dmsguild.com/product/465696/SJDCRFJK0203-Colony-Calling?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34600,6 +34860,7 @@
         "price": 1.99,
         "product_id": "465701",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "A Ship Adrift v0.9",
         "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
@@ -34622,6 +34883,7 @@
         "price": 2.99,
         "product_id": "465703",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Very Hungry Monster",
         "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
@@ -34644,6 +34906,7 @@
         "price": 2.99,
         "product_id": "465705",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Little Monster",
         "url": "https://www.dmsguild.com/product/465705/?affiliate_id=171040"
@@ -34663,6 +34926,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465708",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Flux Wars",
         "url": "https://www.dmsguild.com/product/465708/SJDCFLUMPH03-Flux-Wars?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -34682,6 +34946,7 @@
         "is_adventure": true,
         "level_range": null,
         "product_id": "465711",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Flaw in the Machine",
         "url": "https://www.dmsguild.com/product/465711/SJDCFLUMPH04-Flaw-in-the-Machine?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
@@ -34703,6 +34968,7 @@
         "price": 1.0,
         "product_id": "465716",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Stoneheart",
         "url": "https://www.dmsguild.com/product/465716/?affiliate_id=171040"
@@ -34724,6 +34990,7 @@
         "price": 3.99,
         "product_id": "465719",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Chamber of Strife",
         "url": "https://www.dmsguild.com/product/465719/?affiliate_id=171040"
@@ -34745,6 +35012,7 @@
         "price": 1.0,
         "product_id": "465722",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Coldsnap",
         "url": "https://www.dmsguild.com/product/465722/?affiliate_id=171040"
@@ -34764,6 +35032,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "465723",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Many, Many Modrons",
         "url": "https://www.dmsguild.com/product/465723/SJDCTEL05-Many-Many-Modrons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34785,6 +35054,7 @@
         "price": 1.0,
         "product_id": "465724",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Conflagration",
         "url": "https://www.dmsguild.com/product/465724/?affiliate_id=171040"
@@ -34806,6 +35076,7 @@
         "price": 1.0,
         "product_id": "465725",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Chasing the Morning Light",
         "url": "https://www.dmsguild.com/product/465725/?affiliate_id=171040"
@@ -34827,6 +35098,7 @@
         "price": 1.0,
         "product_id": "465726",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Cyclone",
         "url": "https://www.dmsguild.com/product/465726/?affiliate_id=171040"
@@ -34848,6 +35120,7 @@
         "price": 1.0,
         "product_id": "465727",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 3,
         "title": "Behold, Tiamatron",
         "url": "https://www.dmsguild.com/product/465727/?affiliate_id=171040"
@@ -34869,6 +35142,7 @@
         "price": 1.0,
         "product_id": "465728",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Darkening Skies",
         "url": "https://www.dmsguild.com/product/465728/?affiliate_id=171040"
@@ -34888,6 +35162,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "465729",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Liminal Spaces",
         "url": "https://www.dmsguild.com/product/465729/SJDCEPOCH03-Liminal-Spaces?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -34907,6 +35182,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "465730",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "Across the Heavens",
         "url": "https://www.dmsguild.com/product/465730/SJDCEPOCH04-Across-the-Heavens?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
@@ -35339,13 +35615,13 @@
         ],
         "code": "RV-DC-SDG-01",
         "date_created": "20240301",
-        "full_title": "Ein verfluchter Schl\u00fcssel",
+        "full_title": "Ein verfluchter Schlüssel",
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-2",
         "product_id": "472632",
         "tiers": 1,
-        "title": "Ein verfluchter Schl\u00fcssel",
+        "title": "Ein verfluchter Schlüssel",
         "url": "https://www.dmsguild.com/product/472632/Ein-verfluchter-Schlussel?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -35521,7 +35797,7 @@
     {
         "apl": 13,
         "authors": [
-            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Luís Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -35644,7 +35920,7 @@
     {
         "apl": null,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -35666,7 +35942,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -35688,7 +35964,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -35710,7 +35986,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -35729,7 +36005,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -35748,7 +36024,7 @@
     {
         "apl": 13,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -36758,6 +37034,29 @@
         "url": "https://www.dmsguild.com/product/488443/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "John Prichard",
+            "Strategicon AL"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-YLRA01-05",
+        "date_created": "20240719",
+        "full_title": "FR-DC-YLRA01-05 The Shadow from the Stars",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "488532",
+        "season": null,
+        "tiers": 3,
+        "title": "The Shadow from the Stars",
+        "url": "https://www.dmsguild.com/product/488532/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Arthur Marques"
@@ -37416,7 +37715,7 @@
     {
         "apl": 8,
         "authors": [
-            "Denise \u201cCelticdenefew\u201d Atwood",
+            "Denise “Celticdenefew” Atwood",
             "David Sklenicka",
             "Davestar Gaming"
         ],
@@ -38440,7 +38739,7 @@
     {
         "apl": 3,
         "authors": [
-            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Luís Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -38536,11 +38835,14 @@
         "full_title": "FR-DC-YLRA01-04 Down in Flames",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "502129",
+        "season": null,
         "tiers": 2,
         "title": "Down in Flames",
-        "url": "https://www.dmsguild.com/product/502129/FRDCYLRA0104-Down-in-Flames?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/502129/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -38739,7 +39041,7 @@
     {
         "apl": null,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -39256,7 +39558,7 @@
     {
         "apl": 18,
         "authors": [
-            "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+            "Luís Ricardo 'DM Corvo' da Costa",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -39811,7 +40113,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40036,7 +40338,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40346,7 +40648,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40365,7 +40667,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40384,7 +40686,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40403,7 +40705,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40422,7 +40724,7 @@
     {
         "apl": 18,
         "authors": [
-            "JWei\u4f1f"
+            "JWei伟"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -40496,6 +40798,7 @@
         "price": 1.0,
         "product_id": "524648",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Puffalo's Proposal",
         "url": "https://www.dmsguild.com/product/524648/?affiliate_id=171040"
@@ -41246,6 +41549,7 @@
         "price": 3.99,
         "product_id": "532407",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "A Sorrowful Farewell",
         "url": "https://www.dmsguild.com/product/532407/?affiliate_id=171040"
@@ -41390,7 +41694,7 @@
         ],
         "code": "SJ-DC-TKM-WGS",
         "date_created": "20250823",
-        "description_html": "<b>Publisher</b>: Dungeon Masters Guild<br /><p style=\"text-align:center;\"><img src=\"https://tools.dmsguild.com/images/8957/_product_images/534423/TKM-WGS_The_Light_and_the_Lost.png\" alt=\"TKM-WGS_The_Light_and_the_Lost.png\" /></p>\n<p style=\"text-align:center;\">A <strong>Four-Hour</strong> Spelljammer Dungeoncraft Adventure for\u00a0<strong>Level 5-10 Characters</strong>. Optimized for\u00a0<strong>Average Party Level\u00a0(APL) 8</strong>.</p>\n<p align=\"center\"><strong>In the swampy planet of Lepo Gors, a pair of brothers has disappeared into the mysterious forest outside the settlement of Tarasa, and everyone sent to find them has not returned. Will you be able to find them or will you be spirited away as well?</strong></p>\n<div>\n<p><strong>CONTENT WARNINGS:</strong>\u00a0Animal and Child Endangerment, Body Horror, Death, Dismemberment, Excrement, Kidnapping, Rocks, Slight Gore, Torture</p>\n<p>Several elements of this adventure, primarily the creatures featured, are inspired by Philippine mythological creatures. \u00a0</p>\n</div>\n<h2>WHAT'S INSIDE:</h2>\n<ul><li>A 32-page easy to read PDF that includes:\n<ul><li>9 pages of the core adventure</li>\n<li>11 pieces of artwork to bring the adventure to life</li>\n<li>Stat blocks for NPCs and Monsters</li>\n<li>Guidance to adjust encounter difficulty</li>\n</ul></li>\n<li>A downloadable zip of High Quality maps for easy printing and virtual tabletop use</li>\n<li>A downloadable zip file of the artwork and handouts</li>\n</ul><h3>Pillars of Play Composition:</h3>\n<p>Social - 30%</p>\n<p>Exploration - 20%\u00a0</p>\n<p>Combat - 50%</p><img class=\"onestart\" src=\"https://d1vzi28wh99zvq.cloudfront.net/images/8957/534423-thumb140.png\" border=\"0\" alt=\"The Light and the Lost (SJ-DC-TKM-WGS)\" style=\"padding-right:5px; padding-bottom:5px;float:left\"><b>Price</b>: $4.99",
+        "description_html": "<b>Publisher</b>: Dungeon Masters Guild<br /><p style=\"text-align:center;\"><img src=\"https://tools.dmsguild.com/images/8957/_product_images/534423/TKM-WGS_The_Light_and_the_Lost.png\" alt=\"TKM-WGS_The_Light_and_the_Lost.png\" /></p>\n<p style=\"text-align:center;\">A <strong>Four-Hour</strong> Spelljammer Dungeoncraft Adventure for <strong>Level 5-10 Characters</strong>. Optimized for <strong>Average Party Level (APL) 8</strong>.</p>\n<p align=\"center\"><strong>In the swampy planet of Lepo Gors, a pair of brothers has disappeared into the mysterious forest outside the settlement of Tarasa, and everyone sent to find them has not returned. Will you be able to find them or will you be spirited away as well?</strong></p>\n<div>\n<p><strong>CONTENT WARNINGS:</strong> Animal and Child Endangerment, Body Horror, Death, Dismemberment, Excrement, Kidnapping, Rocks, Slight Gore, Torture</p>\n<p>Several elements of this adventure, primarily the creatures featured, are inspired by Philippine mythological creatures.  </p>\n</div>\n<h2>WHAT'S INSIDE:</h2>\n<ul><li>A 32-page easy to read PDF that includes:\n<ul><li>9 pages of the core adventure</li>\n<li>11 pieces of artwork to bring the adventure to life</li>\n<li>Stat blocks for NPCs and Monsters</li>\n<li>Guidance to adjust encounter difficulty</li>\n</ul></li>\n<li>A downloadable zip of High Quality maps for easy printing and virtual tabletop use</li>\n<li>A downloadable zip file of the artwork and handouts</li>\n</ul><h3>Pillars of Play Composition:</h3>\n<p>Social - 30%</p>\n<p>Exploration - 20% </p>\n<p>Combat - 50%</p><img class=\"onestart\" src=\"https://d1vzi28wh99zvq.cloudfront.net/images/8957/534423-thumb140.png\" border=\"0\" alt=\"The Light and the Lost (SJ-DC-TKM-WGS)\" style=\"padding-right:5px; padding-bottom:5px;float:left\"><b>Price</b>: $4.99",
         "full_title": "The Light and the Lost (SJ-DC-TKM-WGS)",
         "hours": "4",
         "id": "534423",
@@ -41401,6 +41705,7 @@
         "product_id": "534423",
         "pub_date": "Sat, 23 Aug 2025 20:34:25 CDT",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Light and the Lost",
         "url": "https://www.dmsguild.com/product/534423/?affiliate_id=171040"
@@ -41552,6 +41857,7 @@
         "price": 3.99,
         "product_id": "537358",
         "season": "Spelljammer",
+        "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "Dohwar Delves",
         "url": "https://www.dmsguild.com/product/537358/?affiliate_id=171040"
@@ -41887,7 +42193,7 @@
         ],
         "code": "FR-DC-CONMAR-00-02",
         "date_created": null,
-        "full_title": "FR-DC-CONMAR-00-02 Oar\u2019s Rest and Below",
+        "full_title": "FR-DC-CONMAR-00-02 Oar’s Rest and Below",
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
@@ -41895,7 +42201,7 @@
         "product_id": "541185",
         "season": null,
         "tiers": 1,
-        "title": "Oar\u2019s Rest and Below",
+        "title": "Oar’s Rest and Below",
         "url": "https://www.dmsguild.com/product/541185/?affiliate_id=171040"
     },
     {
@@ -42125,6 +42431,7 @@
         "price": 0.5,
         "product_id": "546031",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "suggestedPrice": 0.5,
         "tiers": 1,
         "title": "Disenchanted",
@@ -42650,9 +42957,9 @@
         "campaigns": [
             null
         ],
-        "code": "Uma Chave Amaldi\u00e7oada",
+        "code": "Uma Chave Amaldiçoada",
         "date_created": "20251210",
-        "full_title": "Uma Chave Amaldi\u00e7oada",
+        "full_title": "Uma Chave Amaldiçoada",
         "hours": "2-3",
         "is_adventure": true,
         "level_range": "1-2",
@@ -42661,7 +42968,7 @@
         "product_id": "548946",
         "season": null,
         "tiers": 1,
-        "title": "Uma Chave Amaldi\u00e7oada",
+        "title": "Uma Chave Amaldiçoada",
         "url": "https://www.dmsguild.com/product/548946/?affiliate_id=171040"
     },
     {

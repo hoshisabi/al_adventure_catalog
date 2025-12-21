@@ -1297,6 +1297,29 @@
         "url": "https://www.dmsguild.com/product/488443/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "John Prichard",
+            "Strategicon AL"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-YLRA01-05",
+        "date_created": "20240719",
+        "full_title": "FR-DC-YLRA01-05 The Shadow from the Stars",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "488532",
+        "season": null,
+        "tiers": 3,
+        "title": "The Shadow from the Stars",
+        "url": "https://www.dmsguild.com/product/488532/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Arthur Marques"
@@ -2163,11 +2186,14 @@
         "full_title": "FR-DC-YLRA01-04 Down in Flames",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "502129",
+        "season": null,
         "tiers": 2,
         "title": "Down in Flames",
-        "url": "https://www.dmsguild.com/product/502129/FRDCYLRA0104-Down-in-Flames?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/502129/?affiliate_id=171040"
     },
     {
         "apl": 13,
