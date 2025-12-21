@@ -1527,11 +1527,14 @@
         "full_title": "Book of Wild Magic (FR-DC-MELB-01-05)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": 492295,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "492295",
+        "season": null,
         "tiers": 2,
         "title": "Book of Wild Magic",
-        "url": "https://www.dmsguild.com/product/492295/Book-of-Wild-Magic-FRDCMELB0105?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492295/?affiliate_id=171040"
     },
     {
         "apl": 8,

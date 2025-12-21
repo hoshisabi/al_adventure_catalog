@@ -1,21 +1,25 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Teos Abadia",
+        "Claire Hoffman",
+        "Chris Tulach",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX2-13",
     "date_created": "20160111",
-    "full_title": "DDEX2-13 The Howling Void (5e)",
+    "full_title": "DDEX2-13 The Howling Void",
     "hours": "8",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170488",
     "season": "Elemental Evil",
     "tiers": 2,
-    "title": "DDEX2-13 The Howling Void",
+    "title": "The Howling Void",
     "url": "https://www.dmsguild.com/product/170488/?affiliate_id=171040"
 }

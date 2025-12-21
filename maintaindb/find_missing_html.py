@@ -58,9 +58,20 @@ def find_missing_html():
                 data = json.load(f)
                 if data.get("is_adventure") == True:
                     product_id = data.get("product_id")
-                    if product_id and isinstance(product_id, int):
-                        html_filename = f"dmsguildinfo-{product_id}"
-                        print(f'Checking for: {html_filename}')  # Diagnostic print
+                    # Check if product_id is numeric (either int or numeric string)
+                    is_numeric = False
+                    numeric_product_id = None
+                    
+                    if product_id is not None:
+                        if isinstance(product_id, int):
+                            is_numeric = True
+                            numeric_product_id = product_id
+                        elif isinstance(product_id, str) and product_id.isdigit():
+                            is_numeric = True
+                            numeric_product_id = int(product_id)
+                    
+                    if is_numeric and numeric_product_id is not None:
+                        html_filename = f"dmsguildinfo-{numeric_product_id}"
                         if html_filename not in html_files:
                             missing_count += 1
                             title = data.get("full_title", os.path.basename(file_path))
@@ -74,12 +85,13 @@ def find_missing_html():
                     </tr>
 """
                     elif product_id:
+                        # Product ID exists but is not numeric
                         non_numeric_product_ids.append({
                             "title": data.get("full_title", os.path.basename(file_path)),
                             "product_id": product_id,
                             "json_file_link": f"file:///{file_path.replace('\\', '/')}"
                         })
-                        print(f'Skipping non-integer product_id: {product_id}')
+                        print(f'Skipping non-numeric product_id: {product_id}')
             except json.JSONDecodeError as e:
                 print(f"Error decoding JSON from {os.path.basename(file_path)}: {e}")
 

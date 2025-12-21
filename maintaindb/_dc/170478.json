@@ -1,19 +1,25 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Will Doyle",
+        "Claire Hoffman",
+        "Chris Tulach",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX2-04",
     "date_created": "20160111",
-    "full_title": "DDEX2-04 Mayhem in the Earthspur Mines (5e)",
-    "hours": null,
+    "full_title": "DDEX2-04 Mayhem in the Earthspur Mines",
+    "hours": 4,
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "170478",
-    "tiers": null,
-    "title": "DDEX2-04 Mayhem in the Earthspur Mines 5e",
-    "url": "https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e"
+    "season": "Elemental Evil",
+    "tiers": 2,
+    "title": "Mayhem in the Earthspur Mines",
+    "url": "https://www.dmsguild.com/product/170478/?affiliate_id=171040"
 }
