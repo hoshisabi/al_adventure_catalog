@@ -13706,7 +13706,7 @@
         "url": "https://www.dmsguild.com/product/336048/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": null,
         "authors": [
             "Adrian Francisco"
         ],
@@ -13719,10 +13719,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.75,
         "product_id": "336410",
+        "season": "Icewind Dale",
         "tiers": 1,
         "title": "DC-PoA-DCAF01 Let It Goat",
-        "url": "https://www.dmsguild.com/product/336410/DCPoADCAF01-Let-It-Goat?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/336410/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -14631,7 +14634,8 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "341178",
         "season": null,
         "tiers": 1,
@@ -16542,7 +16546,8 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 4.99,
+        "payWhatYouWant": false,
+        "price": 3.74,
         "product_id": "354319",
         "season": "Icewind Dale",
         "tiers": 1,
@@ -19499,23 +19504,26 @@
         "url": "https://www.dmsguild.com/product/375599/The-City-of-Starlight-WBWDCLEGITSV04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 3,
+        "apl": null,
         "authors": [
-            "D&D Adventurers League"
+            "Greg Marks"
         ],
         "campaigns": [
-            "Forgotten Realms"
+            null
         ],
-        "code": "LN-1",
+        "code": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
         "date_created": "20211028",
         "full_title": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
-        "hours": "2",
+        "hours": "",
         "is_adventure": true,
-        "level_range": "1-4",
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "375720",
-        "tiers": 1,
+        "season": null,
+        "tiers": 0,
         "title": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
-        "url": "https://www.dmsguild.com/product/375720/LN1-Fuzzytale-Farm-and-the-Frightful-Candy-Goat-Massacre?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/375720/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -22363,7 +22371,8 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "403162",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
@@ -22589,11 +22598,12 @@
             "Forgotten Realms"
         ],
         "code": "WBW-DC-PHP-POLAR-02",
-        "date_created": "20220807",
+        "date_created": "20220808",
         "full_title": "You've Goat to be kidding me (WBW-DC-PHP-POLAR-02)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "405801",
         "season": "The Wild Beyond the Witchlight",
