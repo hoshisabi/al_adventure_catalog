@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "0",
+    "payWhatYouWant": false,
+    "price": 1.0,
     "product_id": "240925",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-PRIORY-03 Truths in Time",
-    "url": "https://www.dmsguild.com/product/240925/CCCPRIORY03-Truths-in-Time"
+    "title": "Truths in Time",
+    "url": "https://www.dmsguild.com/product/240925/?affiliate_id=171040"
 }

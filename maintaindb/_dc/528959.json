@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Mikael Mansen"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 4.5,
     "product_id": "528959",
+    "season": null,
     "tiers": null,
     "title": "Sanction - Cities of Krynn",
-    "url": "https://www.dmsguild.com/product/528959/Sanction--Cities-of-Krynn"
+    "url": "https://www.dmsguild.com/product/528959/?affiliate_id=171040"
 }

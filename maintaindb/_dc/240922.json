@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "0",
+    "payWhatYouWant": false,
+    "price": 1.0,
     "product_id": "240922",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-PRIORY-01 Maritime Mayhem",
-    "url": "https://www.dmsguild.com/product/240922/CCCPRIORY01-Maritime-Mayhem"
+    "title": "Maritime Mayhem",
+    "url": "https://www.dmsguild.com/product/240922/?affiliate_id=171040"
 }
