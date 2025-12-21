@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "James Introcaso"
     ],
@@ -9,14 +9,14 @@
     "code": "DDAL07-06",
     "date_created": "20171205",
     "full_title": "DDAL07-06 Fester and Burn",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "224832",
     "season": "Tomb of Annihilation",
-    "tiers": null,
+    "tiers": 2,
     "title": "Fester and Burn",
     "url": "https://www.dmsguild.com/product/224832/?affiliate_id=171040"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": null,
     "campaigns": [
         "Forgotten Realms"
@@ -7,13 +7,13 @@
     "code": "DC-POA-SUNLIT-03",
     "date_created": null,
     "full_title": "DC-POA-SUNLIT-03 A Solstice Tradition",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "price": null,
     "product_id": "353288",
     "season": "Icewind Dale",
-    "tiers": null,
+    "tiers": 1,
     "title": "A Solstice Tradition",
     "url": "https://www.dmsguild.com/product/353288?affiliate_id=171040",
     "seed": "Snipe Hunt"

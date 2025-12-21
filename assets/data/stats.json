@@ -1,19 +1,19 @@
 {
     "tier": {
-        "Tier 1": 791,
-        "Tier 2": 816,
-        "Tier 3": 326,
-        "Unknown": 19,
-        "Tier 4": 78
+        "Tier 1": 798,
+        "Tier 2": 819,
+        "Tier 3": 328,
+        "Tier 4": 78,
+        "Unknown": 7
     },
     "duration": {
         "1 Hours": 20,
-        "2 Hours": 560,
+        "2 Hours": 566,
         "3 Hours": 115,
-        "4 Hours": 1363,
+        "4 Hours": 1364,
         "5 Hours": 46,
         "8 Hours": 11,
-        "Unknown": 124,
+        "Unknown": 117,
         "6 Hours": 47,
         "9 Hours": 2,
         "10 Hours": 2,

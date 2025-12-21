@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Ruty Rutenberg"
     ],
@@ -9,14 +9,14 @@
     "code": "DDAL07-03",
     "date_created": "20171107",
     "full_title": "DDAL07-03 A Day at the Races",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "222716",
     "season": "Tomb of Annihilation",
-    "tiers": null,
+    "tiers": 1,
     "title": "A Day at the Races",
     "url": "https://www.dmsguild.com/product/222716/?affiliate_id=171040"
 }
