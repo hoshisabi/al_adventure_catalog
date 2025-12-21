@@ -37,10 +37,10 @@ IF "%GENERATE_REQUIREMENTS%"=="true" (
 )
 
 REM Running aggregator and stats script in case there are changes.
-uv run maintaindb\aggregator.py
+uv run python -m maintaindb.aggregator
 copy maintaindb\_stats\all_adventures.json assets\data\all_adventures.json
 copy maintaindb\_stats\all_adventures.json  _data\all_adventures.json
-uv run maintaindb\stats.py
+uv run python -m maintaindb.stats
 
 REM Stage all changes
 echo Staging all changes for commit...

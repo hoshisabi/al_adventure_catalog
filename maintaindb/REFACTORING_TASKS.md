@@ -84,7 +84,7 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Should integrate with existing data structure and use `all_adventures.json` as input
 
 - [ ] **Add RSS processing to GitHub Actions**
-  - Automate running `dmsguild_rss_parser.py` on a schedule (e.g., daily or weekly)
+  - Automate running `process_rss.py` on a schedule (e.g., daily or weekly)
   - This will make RSS-based data collection more prompt/regular
   - Should commit new/updated JSON files created from RSS feed
   - Consider rate limiting to avoid overloading DMsGuild servers
@@ -95,7 +95,7 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 - [ ] **Document and standardize `needs_review` flag usage**
   - The `needs_review` flag is used throughout the codebase to mark adventures that require human intervention
   - **Current usage:**
-    - RSS parser (`dmsguild_rss_parser.py`): Always sets `needs_review: true` because RSS feeds lack complete data (line 203)
+    - RSS parser (`process_rss.py`): Always sets `needs_review: true` because RSS feeds lack complete data
     - HTML processing (`adventure.py`): Sets `needs_review: true` when module_name cannot be extracted (line 1053)
     - Normalizer (`adventure_normalizers.py`): Sets `needs_review: true` if critical fields (code, level_range, tiers, hours) are missing (lines 174-178)
   - **Documentation needed:**
@@ -123,7 +123,7 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Convert `print()` statements to use Python's `logging` module
   - Add appropriate log levels (INFO, WARNING, ERROR)
   - Improve error messages and make them more informative
-  - Location: `maintaindb/dmsguild_rss_parser.py`
+  - Location: `maintaindb/process_rss.py`
 
 - [ ] **Add type hints throughout**
   - Many functions lack complete type hints

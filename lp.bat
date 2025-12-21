@@ -8,7 +8,7 @@ GOTO :SERVE
 
 :BUILD
     echo Running aggregator.py...
-    uv run maintaindb\aggregator.py
+    uv run python -m maintaindb.aggregator
     IF %ERRORLEVEL% NEQ 0 (
         echo Aggregator failed.
         GOTO :EOF

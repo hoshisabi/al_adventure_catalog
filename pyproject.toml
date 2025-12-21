@@ -14,8 +14,13 @@ dependencies = [
 ]
 
 [project.scripts]
-# lets you run: uv run maintaindb
+# Entry points: Run scripts as commands with "uv run <command>"
+# These create console commands that work with the package structure
 maintaindb = "maintaindb.cli:main"
+maintaindb-stats = "maintaindb.stats:generate_stats"
+maintaindb-process = "maintaindb.process_downloads:process_downloads"
+maintaindb-aggregate = "maintaindb.aggregator:aggregate"
+maintaindb-rss = "maintaindb.process_rss:main"
 
 [tool.pytest.ini_options]
 minversion = "8.0"

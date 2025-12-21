@@ -6,7 +6,7 @@ import json
 import datetime
 from collections import defaultdict
 
-from adventure import DungeonCraft
+from .adventure import DungeonCraft
 import glob
 
 logger = logging.getLogger()

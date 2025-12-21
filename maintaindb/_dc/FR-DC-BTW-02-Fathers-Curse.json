@@ -11,9 +11,12 @@
     "full_title": "FR-DC-BTW-02 Fathers Curse",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
-    "product_id": "FR-DC-BTW-02-Fathers-Curse",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
+    "product_id": "510984",
+    "season": null,
     "tiers": 1,
     "title": "Fathers Curse",
-    "url": "https://www.dmsguild.com/product/510984/FRDCBTW02-Fathers-Curse?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/510984/?affiliate_id=171040"
 }

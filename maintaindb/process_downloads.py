@@ -9,7 +9,7 @@ import sys
 import pathlib
 from bs4 import BeautifulSoup
 
-from adventure import DungeonCraft, sanitize_filename, extract_data_from_html, merge_adventure_data
+from .adventure import DungeonCraft, sanitize_filename, extract_data_from_html, merge_adventure_data
 
 logger = logging.getLogger()
 logger.level = logging.INFO
