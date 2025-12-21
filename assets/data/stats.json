@@ -1,14 +1,14 @@
 {
     "tier": {
         "Tier 1": 791,
-        "Tier 2": 811,
+        "Tier 2": 815,
         "Tier 3": 326,
-        "Unknown": 20,
+        "Unknown": 19,
         "Tier 4": 78
     },
     "duration": {
         "1 Hours": 20,
-        "2 Hours": 557,
+        "2 Hours": 560,
         "3 Hours": 115,
         "4 Hours": 1358,
         "5 Hours": 46,
@@ -22,7 +22,7 @@
         "7 Hours": 2
     },
     "campaign": {
-        "Forgotten Realms": 1894,
+        "Forgotten Realms": 1897,
         "Ravenloft": 49,
         "Unknown": 10,
         "Eberron": 68,
@@ -43,7 +43,7 @@
         "Icewind Dale": 83,
         "The Wild Beyond the Witchlight": 139,
         "Spelljammer": 98,
-        "Planescape": 33
+        "Planescape": 36
     },
     "seed_by_season": {}
 }

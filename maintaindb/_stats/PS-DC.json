@@ -1464,7 +1464,95 @@
         "url": "https://www.dmsguild.com/product/526753/PSDCSTRATTALES06-Dungeon--A-Dragon?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
-        "apl": null,
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-01",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-01 Automatic Updates",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Automatic Updates",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-02",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-02 Endless Glory",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Endless Glory",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-03",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-03 Hunters in the Night",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Hunters in the Night",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-04",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-04 Market Value",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Market Value",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
         "authors": [
             "Steve Hill"
         ],
@@ -1473,17 +1561,281 @@
         ],
         "code": "PS-DC-PUB-05",
         "date_created": "20250720",
-        "full_title": "Planar Pub Crawl: Nights to Remember",
+        "full_title": "PS-DC-PUB-05 Rock Bottom",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 5.0,
         "product_id": "530335",
         "season": "Planescape",
-        "tiers": 0,
-        "title": "Planar Pub Crawl Nights to Remember",
+        "tiers": 2,
+        "title": "Rock Bottom",
         "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-06",
+        "date_created": "20250720",
+        "full_title": "PS-DC-PUB-06 Death Do Us Part",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Death Do Us Part",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-07",
+        "date_created": "20250720",
+        "full_title": "PS-DC-PUB-07 Professor Bartlesby's Inventorium",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Professor Bartlesby's Inventorium",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-08",
+        "date_created": "20250720",
+        "full_title": "PS-DC-PUB-08 Unremembered Things",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Unremembered Things",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-09",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-09 Reign of Frogs",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Reign of Frogs",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-10",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-10 Absent without Leave",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Absent without Leave",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-11",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-11 Fallen for You",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Fallen for You",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-12",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-12 The Endless Revel",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "The Endless Revel",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-13",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-13 Escape from Paradise",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Escape from Paradise",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-14",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-14 Beneath the Prison Tree",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Beneath the Prison Tree",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-15",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-15 Spider Hunt",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Spider Hunt",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-16",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-16 Juxtaposition ",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Juxtaposition ",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-13",
+        "date_created": "20250817",
+        "full_title": "Planar Pub Crawl: Hair of the Dog",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Planar Pub Crawl Hair of the Dog",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
     },
     {
         "apl": 3,
