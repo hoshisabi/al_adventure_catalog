@@ -1,20 +1,19 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
         "Stefan Tomaschitz"
     ],
     "campaigns": [
-        "Ravenloft",
-        "Forgotten Realms"
+        "Ravenloft"
     ],
     "code": "RV-DC-SDG-01",
     "date_created": "20240301",
     "full_title": "Ein verfluchter Schl\u00fcssel",
-    "hours": null,
+    "hours": "3",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-2",
     "product_id": "472632",
-    "tiers": null,
+    "tiers": 1,
     "title": "Ein verfluchter Schl\u00fcssel",
     "url": "https://www.dmsguild.com/product/472632/Ein-verfluchter-Schlussel?filters=0_0_100057_0_0_0_0_0"
 }
