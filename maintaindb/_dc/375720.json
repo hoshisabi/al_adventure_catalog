@@ -1,15 +1,17 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Greg Marks"
     ],
-    "campaigns": null,
-    "code": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "LN-1",
     "date_created": "20211028",
     "full_title": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "375720",
