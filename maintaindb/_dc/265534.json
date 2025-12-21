@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "Gabrielle Harbowy"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL08-15 Forge of Fangs",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "265534",
+    "season": "Waterdeep",
     "tiers": 3,
-    "title": "DDAL08-15 Forge of Fangs",
-    "url": "https://www.dmsguild.com/product/265534/DDAL0815-Forge-of-Fangs"
+    "title": "Forge of Fangs",
+    "url": "https://www.dmsguild.com/product/265534/?affiliate_id=171040"
 }

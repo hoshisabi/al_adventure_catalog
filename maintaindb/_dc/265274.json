@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "Elisa Teague"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL08-14 Rescue from Vanrakdoom",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "265274",
+    "season": "Waterdeep",
     "tiers": 3,
-    "title": "DDAL08-14 Rescue from Vanrakdoom",
-    "url": "https://www.dmsguild.com/product/265274/DDAL0814-Rescue-from-Vanrakdoom"
+    "title": "Rescue from Vanrakdoom",
+    "url": "https://www.dmsguild.com/product/265274/?affiliate_id=171040"
 }

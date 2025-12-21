@@ -1,7 +1,7 @@
 {
     "apl": 18,
     "authors": [
-        "D&D Adventurers League"
+        "Jocelyn Koehler"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL08-17 The Tower of Ahghairon",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "17-20",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "268519",
+    "season": "Waterdeep",
     "tiers": 4,
-    "title": "DDAL08-17 The Tower of Ahghairon",
-    "url": "https://www.dmsguild.com/product/268519/DDAL0817-The-Tower-of-Ahghairon"
+    "title": "The Tower of Ahghairon",
+    "url": "https://www.dmsguild.com/product/268519/?affiliate_id=171040"
 }
