@@ -6,17 +6,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "PS-DC-PUB-09",
+    "code": "PS-DC-PUB-11",
     "date_created": "20250803",
-    "full_title": "Planar Pub Crawl Tourist Traps",
+    "full_title": "PS-DC-PUB-11 Fallen for You",
     "hours": "2",
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "531687",
     "season": "Planescape",
     "tiers": 2,
-    "title": "Planar Pub Crawl Tourist Traps",
+    "title": "Fallen for You",
     "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
 }
