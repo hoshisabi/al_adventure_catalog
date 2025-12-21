@@ -187,14 +187,14 @@
         ],
         "code": "DC-POA-HARM-01-02",
         "date_created": "20210220",
-        "full_title": "DC-PoA-HARM-01-02 Time Flies When You\u00e2\u20ac\u2122re Delving Dungeons",
+        "full_title": "DC-PoA-HARM-01-02 Time Flies When You’re Delving Dungeons",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "product_id": "338670",
         "seed": "In Too Deep",
         "tiers": 1,
-        "title": "DC-PoA-HARM-01-02 Time Flies When You\u00e2\u20ac\u2122re Delving Dungeons",
+        "title": "DC-PoA-HARM-01-02 Time Flies When You’re Delving Dungeons",
         "url": "https://www.dmsguild.com/product/338670/DCPoAHARM0102-Time-Flies-When-Youre-Delving-Dungeons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -849,7 +849,7 @@
         "apl": 5,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope"
+            "Teän Stanhope"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -1329,15 +1329,16 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-SN-01-",
+        "code": "DC-POA-SN-01",
         "date_created": "20210322",
-        "full_title": "DC-POA-SN-01: The Rider in Black",
+        "full_title": "DC-POA-SN-01 The Rider in Black",
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "351251",
         "season": "Icewind Dale",
+        "seed": "A Dark Horse",
         "tiers": 1,
         "title": "DC-POA-SN-01 The Rider in Black",
         "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040"
@@ -1552,15 +1553,16 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-SN-02-",
+        "code": "DC-POA-SN-02",
         "date_created": "20210411",
-        "full_title": "DC-POA-SN-02: The Ruins of Balors Reach",
+        "full_title": "DC-POA-SN-02 The Ruins of Balors Reach",
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "353580",
         "season": "Icewind Dale",
+        "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
         "title": "DC-POA-SN-02 The Ruins of Balors Reach",
         "url": "https://www.dmsguild.com/product/353580/?affiliate_id=171040"
@@ -1647,7 +1649,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "354319",
         "season": "Icewind Dale",
         "seed": "Goat-ball!",
@@ -2346,15 +2348,16 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-VID-01-",
+        "code": "DC-POA-VID-01",
         "date_created": "20210809",
-        "full_title": "DC-PoA-VID-01: The Hex of the Horn",
+        "full_title": "DC-PoA-VID-01 The Hex of the Horn",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 4.99,
         "product_id": "367141",
         "season": "Icewind Dale",
+        "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
         "title": "DC-PoA-VID-01 The Hex of the Horn",
         "url": "https://www.dmsguild.com/product/367141/?affiliate_id=171040"
@@ -2693,7 +2696,7 @@
         "apl": null,
         "authors": [
             "Ethan Stanhope",
-            "Te\u00c3\u00a4n Stanhope"
+            "Teän Stanhope"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -2740,14 +2743,14 @@
         ],
         "code": "DC-POA-CONMAR-12",
         "date_created": "20210828",
-        "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skr\u00c3\u00a5llahie",
+        "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skrållahie",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "369085",
         "seed": "Goat-ball!",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-12 Strike-Out in Skr\u00c3\u00a5llahie",
+        "title": "DC-PoA-CONMAR-12 Strike-Out in Skrållahie",
         "url": "https://www.dmsguild.com/product/369085/DCPoACONMAR12-StrikeOut-in-Skrallahie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -3303,6 +3306,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "369329",
         "season": "Icewind Dale",
@@ -3314,8 +3318,8 @@
     {
         "apl": 3,
         "authors": [
-            "Lu\u00c3\u00ads Ricardo",
-            "Patr\u00c3\u00adcia Brito",
+            "Luís Ricardo",
+            "Patrícia Brito",
             "Liga dos Aventureiros"
         ],
         "campaigns": [
@@ -3485,6 +3489,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "369349",
         "season": "Icewind Dale",
@@ -3503,7 +3508,7 @@
         ],
         "code": "DC-POA-Z-T2S2",
         "date_created": "20210831",
-        "full_title": "DC-POA-Z-T2S2 Iggy\u00e2\u20ac\u2122s Folly",
+        "full_title": "DC-POA-Z-T2S2 Iggy’s Folly",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -3512,7 +3517,7 @@
         "season": "Icewind Dale",
         "seed": "My, What Big Feet You Have",
         "tiers": 2,
-        "title": "DC-POA-Z-T2S2 Iggy\u00e2\u20ac\u2122s Folly",
+        "title": "DC-POA-Z-T2S2 Iggy’s Folly",
         "url": "https://www.dmsguild.com/product/369353/?affiliate_id=171040"
     },
     {

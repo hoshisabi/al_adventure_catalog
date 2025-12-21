@@ -67,7 +67,7 @@ def generate_stats():
         expected_params = {
             'product_id', 'title', 'authors', 'code', 'date_created', 'hours', 
             'tiers', 'apl', 'level_range', 'url', 'campaigns', 'season', 
-            'is_adventure', 'price', 'payWhatYouWant', 'suggestedPrice', 'needs_review'
+            'is_adventure', 'price', 'payWhatYouWant', 'suggestedPrice', 'needs_review', 'seed'
         }
         
         for d in raw_data:
@@ -114,6 +114,9 @@ def generate_stats():
         'seed_by_season': defaultdict(lambda: defaultdict(int))  # season -> seed -> count
     }
 
+    # Standard duration hours we want to track separately
+    standard_durations = {1, 2, 4, 6, 8}
+
     for adventure in data:
         if adventure.tiers:
             stats['tier'][f'Tier {adventure.tiers}'] += 1
@@ -121,8 +124,16 @@ def generate_stats():
             stats['tier']['Unknown'] += 1
 
         if adventure.hours:
-            for hour in _parse_hours_string(adventure.hours):
-                stats['duration'][f'{hour} Hours'] += 1
+            parsed_hours = _parse_hours_string(adventure.hours)
+            if parsed_hours:
+                # Count each hour separately (existing behavior)
+                for hour in parsed_hours:
+                    if hour in standard_durations:
+                        stats['duration'][f'{hour} Hours'] += 1
+                    else:
+                        stats['duration']['All Others'] += 1
+            else:
+                stats['duration']['Unknown'] += 1
         else:
             stats['duration']['Unknown'] += 1
         

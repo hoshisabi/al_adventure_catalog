@@ -91,7 +91,7 @@ def aggregate():
     logger.info(f'Reading all files at: {input_path}')
     input_full_path = f"{str(input_path)}/*.json"
     for file in glob.glob(input_full_path):
-        with open(file, 'r') as _input:
+        with open(file, 'r', encoding='utf-8') as _input:
             try:
                 data = json.load(_input)
             except json.JSONDecodeError as e:
@@ -147,12 +147,12 @@ def aggregate():
     logger.info(f'Writting aggregated data at: {output_path}')
     for dc_season, dc_list in aggregated_by_dc_code.items():
         output_full_path = f"{str(output_path)}/{dc_season}.json"
-        with open(output_full_path, 'w') as f:
-            json.dump(dc_list, f, indent=4, sort_keys=True)
+        with open(output_full_path, 'w', encoding='utf-8') as f:
+            json.dump(dc_list, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     output_full_path = f"{str(output_path)}/all_adventures.json"
-    with open(output_full_path, 'w') as f:
-        json.dump(list(all_adventures_map.values()), f, indent=4, sort_keys=True)
+    with open(output_full_path, 'w', encoding='utf-8') as f:
+        json.dump(list(all_adventures_map.values()), f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 if __name__ == '__main__':

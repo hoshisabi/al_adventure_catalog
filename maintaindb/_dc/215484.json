@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 9,
     "authors": [
         "Ryan Cannon"
     ],
@@ -11,9 +11,13 @@
     "full_title": "CCC-YLRA01-02 Uneasy Lies the Head",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 4.99,
     "product_id": "215484",
+    "season": null,
+    "suggestedPrice": 4.99,
     "tiers": 2,
-    "title": "CCC-YLRA01-02 Uneasy Lies the Head",
-    "url": "https://www.dmsguild.com/product/215484/CCCYLRA0102-Uneasy-Lies-the-Head?filters=45470_0_0_0_0_0_0_0"
+    "title": "Uneasy Lies the Head",
+    "url": "https://www.dmsguild.com/product/215484/?affiliate_id=171040"
 }

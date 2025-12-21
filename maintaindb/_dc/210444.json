@@ -1,5 +1,5 @@
 {
-    "apl": 1,
+    "apl": 2,
     "authors": [
         "Derek Gray",
         "David Morris",
@@ -13,9 +13,12 @@
     "full_title": "CCC-SALT-01-03 Broken Halls of Goldahroud",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "210444",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SALT-01-03 Broken Halls of Goldahroud",
-    "url": "https://www.dmsguild.com/product/210444/CCCSALT0103-Broken-Halls-of-Goldahroud?filters=45470_0_0_0_0_0_0_0"
+    "title": "Broken Halls of Goldahroud",
+    "url": "https://www.dmsguild.com/product/210444/?affiliate_id=171040"
 }

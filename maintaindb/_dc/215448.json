@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Jeremy Forbing"
     ],
@@ -11,9 +11,12 @@
     "full_title": "CCC-YLRA01-01 Her Dying Wish",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "215448",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-YLRA01-01 Her Dying Wish",
-    "url": "https://www.dmsguild.com/product/215448/CCCYLRA0101-Her-Dying-Wish"
+    "title": "Her Dying Wish",
+    "url": "https://www.dmsguild.com/product/215448/?affiliate_id=171040"
 }

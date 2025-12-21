@@ -11,9 +11,12 @@
     "full_title": "CCC-LINKS-02 The Secrets We Keep",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "218925",
-    "tiers": 3,
-    "title": "CCC-LINKS-02 The Secrets We Keep",
-    "url": "https://www.dmsguild.com/product/218925/CCCLINKS02-The-Secrets-We-Keep?filters=45470_0_0_0_0_0_0_0"
+    "season": "Rage of Demons",
+    "tiers": 2,
+    "title": "The Secrets We Keep",
+    "url": "https://www.dmsguild.com/product/218925/?affiliate_id=171040"
 }
