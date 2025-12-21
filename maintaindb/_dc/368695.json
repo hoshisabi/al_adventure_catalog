@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "D&D Adventurers League"
+        "Greg Marks"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -9,12 +9,14 @@
     "code": "DDAL-DRW-09",
     "date_created": "20210824",
     "full_title": "DDAL-DRW-09 Vile Bounty",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 7.99,
     "product_id": "368695",
+    "season": null,
     "tiers": 2,
-    "title": "DDAL-DRW-09 Vile Bounty",
+    "title": "Vile Bounty",
     "url": "https://www.dmsguild.com/product/368695/?affiliate_id=171040"
 }
