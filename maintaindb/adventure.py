@@ -156,7 +156,7 @@ class DungeonCraft:
                  season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None) -> None:
         self.product_id = product_id
         self.full_title = title
-        self.title = self.__get_short_title(title).strip()
+        self.title = self.__get_short_title(title, code).strip()
         self.authors = authors
         self.code = code
         self.date_created = date_created
@@ -223,10 +223,32 @@ class DungeonCraft:
             return True
         return False
 
-    def __get_short_title(self, title):
+    def __get_short_title(self, title, code=None):
         """Extract a short title by removing code fragments and formatting markers."""
+        t = str(title)
+        
+        # Strip code prefix if code is provided and title starts with it
+        if code:
+            code_str = str(code)
+            # Try case-insensitive matching for code removal
+            t_lower = t.lower()
+            code_lower = code_str.lower()
+            # Try to remove code with various possible separators (space, dash, or nothing)
+            code_removed = False
+            for separator in [' ', '-', '']:
+                code_prefix_lower = code_lower + separator
+                if t_lower.startswith(code_prefix_lower):
+                    # Find the actual length to remove (preserving original case)
+                    code_prefix_len = len(code_str + separator)
+                    t = t[code_prefix_len:].strip()
+                    code_removed = True
+                    break
+            # If code is at the start but no separator matched, remove it directly
+            if not code_removed and t_lower.startswith(code_lower):
+                t = t[len(code_str):].strip()
+        
         # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
-        t = re.sub(r"\(\s*5e\s*\)", "", str(title), flags=re.IGNORECASE)
+        t = re.sub(r"\(\s*5e\s*\)", "", t, flags=re.IGNORECASE)
         
         # Strip common metadata patterns that appear after " - " or " |"
         # Patterns like: " - Wizards of the Coast | D&D 5th Edition | Dungeon Masters Guild"
