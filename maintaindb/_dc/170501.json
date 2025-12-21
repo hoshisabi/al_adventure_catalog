@@ -1,19 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Matt Hudson"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX3-07",
     "date_created": "20160111",
-    "full_title": "DDEX3-07 Herald of the Moon (5e)",
+    "full_title": "DDEX3-07 Herald of the Moon",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "170501",
-    "tiers": null,
-    "title": "DDEX3-07 Herald of the Moon 5e",
-    "url": "https://www.dmsguild.com/product/170501/DDEX307-Herald-of-the-Moon-5e"
+    "season": "Rage of Demons",
+    "tiers": 2,
+    "title": "DDEX3-07 Herald of the Moon",
+    "url": "https://www.dmsguild.com/product/170501/?affiliate_id=171040"
 }

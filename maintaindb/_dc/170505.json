@@ -1,19 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Robert Adducci"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX3-11",
     "date_created": "20160111",
-    "full_title": "DDEX3-11 The Quest for Sporedome (5e)",
+    "full_title": "DDEX3-11 The Quest for Sporedome",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "170505",
-    "tiers": null,
-    "title": "DDEX3-11 The Quest for Sporedome 5e",
-    "url": "https://www.dmsguild.com/product/170505/DDEX311-The-Quest-for-Sporedome-5e"
+    "season": "Rage of Demons",
+    "tiers": 2,
+    "title": "DDEX3-11 The Quest for Sporedome",
+    "url": "https://www.dmsguild.com/product/170505/?affiliate_id=171040"
 }

@@ -1,7 +1,7 @@
 {
     "apl": 7,
     "authors": [
-        "D&D Adventurers League"
+        "Paul Gabat"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL10-06 The Fallen Star",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "351522",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 2,
     "title": "DDAL10-06 The Fallen Star",
-    "url": "https://www.dmsguild.com/product/351522/DDAL1006-The-Fallen-Star"
+    "url": "https://www.dmsguild.com/product/351522/?affiliate_id=171040"
 }

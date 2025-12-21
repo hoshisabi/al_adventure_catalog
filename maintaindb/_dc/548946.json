@@ -1,18 +1,20 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 1,
+    "authors": [
+        "Stefan Tomaschitz"
+    ],
     "campaigns": null,
     "code": "Uma Chave Amaldi\u00e7oada",
     "date_created": "20251210",
     "full_title": "Uma Chave Amaldi\u00e7oada",
-    "hours": null,
+    "hours": "2-3",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-2",
     "payWhatYouWant": false,
-    "price": 4.64,
+    "price": 4.63,
     "product_id": "548946",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "Uma Chave Amaldi\u00e7oada",
     "url": "https://www.dmsguild.com/product/548946/?affiliate_id=171040"
 }

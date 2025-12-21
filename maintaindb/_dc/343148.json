@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Laura Thompson"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL10-02 Gnashing Teeth",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.74,
     "product_id": "343148",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 1,
     "title": "DDAL10-02 Gnashing Teeth",
-    "url": "https://www.dmsguild.com/product/343148/DDAL1002-Gnashing-Teeth"
+    "url": "https://www.dmsguild.com/product/343148/?affiliate_id=171040"
 }

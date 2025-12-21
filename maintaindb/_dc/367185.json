@@ -1,7 +1,7 @@
 {
     "apl": 9,
     "authors": [
-        "D&D Adventurers League"
+        "Sonja Dunbar"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL10-09 Recipe for Retribution",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.74,
     "product_id": "367185",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 2,
     "title": "DDAL10-09 Recipe for Retribution",
-    "url": "https://www.dmsguild.com/product/367185/DDAL1009-Recipe-for-Retribution"
+    "url": "https://www.dmsguild.com/product/367185/?affiliate_id=171040"
 }

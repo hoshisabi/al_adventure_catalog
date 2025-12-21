@@ -1,7 +1,8 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
-        "D&D Adventurers League"
+        "Amy Lynn Dzura",
+        "Ma\u2019at Crook"
     ],
     "campaigns": [
         "Ravenloft"
@@ -11,9 +12,12 @@
     "full_title": "RMH-EP-01 The Grand Masquerade",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1",
+    "payWhatYouWant": false,
+    "price": 14.99,
     "product_id": "367294",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "RMH-EP-01 The Grand Masquerade",
-    "url": "https://www.dmsguild.com/product/367294/RMHEP01-The-Grand-Masquerade?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/367294/?affiliate_id=171040"
 }

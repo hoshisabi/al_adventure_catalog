@@ -1,19 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Ash Law"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX3-06",
     "date_created": "20160111",
-    "full_title": "DDEX3-06 No Foolish Matter (5e)",
+    "full_title": "DDEX3-06 No Foolish Matter",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "170499",
-    "tiers": null,
-    "title": "DDEX3-06 No Foolish Matter 5e",
-    "url": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e"
+    "season": "Rage of Demons",
+    "tiers": 1,
+    "title": "DDEX3-06 No Foolish Matter",
+    "url": "https://www.dmsguild.com/product/170499/?affiliate_id=171040"
 }

@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Forever&ADayDM"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,7 +12,7 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
-    "needs_review": true,
+    "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "547813",
     "season": null,

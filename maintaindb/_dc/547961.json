@@ -1,6 +1,9 @@
 {
     "apl": 13,
-    "authors": [],
+    "authors": [
+        "Lex Winter",
+        "Katriel Paige"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,7 +13,7 @@
     "hours": null,
     "is_adventure": true,
     "level_range": "11-16",
-    "needs_review": true,
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "547961",
     "season": null,
