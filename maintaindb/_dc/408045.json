@@ -11,9 +11,13 @@
     "full_title": "WBW-DC-MEZZ Take it to the Mezzanine!",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "408045",
+    "season": null,
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Take it to the Mezzanine!",
-    "url": "https://www.dmsguild.com/product/408045/WBWDCMEZZ-Take-it-to-the-Mezzanine?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408045/?affiliate_id=171040"
 }

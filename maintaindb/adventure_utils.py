@@ -167,25 +167,31 @@ def parse_rss_date_string(date_str: Optional[str]) -> Optional[datetime.date]:
 
 
 def get_campaigns_from_code(code: str) -> List[str]:
+    """
+    Get campaigns from code. Case-insensitive matching.
+    """
     campaigns = []
     if not code:
         return []
 
-    # Check against DDAL_CAMPAIGN first
+    code_upper = code.upper()
+
+    # Check against DDAL_CAMPAIGN first (case-insensitive)
     for prefix, campaign_list in DDAL_CAMPAIGN.items():
+        prefix_upper = prefix.upper()
         # Handle prefixes like DDAL4/DDAL04, DDEX1/DDEX01
-        if prefix.endswith('0') and code.startswith(prefix[:-1]) and code[len(prefix[:-1])].isdigit():
+        if prefix.endswith('0') and code_upper.startswith(prefix_upper[:-1]) and code_upper[len(prefix_upper[:-1]):len(prefix_upper[:-1])+1].isdigit():
              campaigns.extend(campaign_list)
              break
         # Handle exact code matches (e.g., DDALEL, DDALBG) or direct prefixes (DDAL9)
-        elif code.startswith(prefix):
+        elif code_upper.startswith(prefix_upper):
             campaigns.extend(campaign_list)
             break # Assuming one primary DDAL campaign per code prefix
 
-    # If no DDAL campaign found, check against DC_CAMPAIGNS
+    # If no DDAL campaign found, check against DC_CAMPAIGNS (case-insensitive)
     if not campaigns:
         for prefix, campaign_name in DC_CAMPAIGNS.items():
-            if code.startswith(prefix):
+            if code_upper.startswith(prefix.upper()):
                 campaigns.append(campaign_name)
                 break # Assuming one primary DC campaign per code prefix
     
@@ -225,47 +231,50 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
     
     if not full_title:
         return None, []
+    
+    # Normalize Unicode dash variants to standard hyphen-minus for regex matching
+    # U+2010 HYPHEN, U+2011 NON-BREAKING HYPHEN, U+2012 FIGURE DASH, 
+    # U+2013 EN DASH, U+2014 EM DASH, U+2015 HORIZONTAL BAR, U+2212 MINUS SIGN
+    dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+    normalized_title = full_title
+    for dash_char in dash_variants:
+        normalized_title = normalized_title.replace(dash_char, '-')
 
     # Patterns for Adventurers League codes (DDAL, DDEX, DDHC, CCC, etc.)
     # Ordered roughly by specificity or commonality
+    # All patterns are case-insensitive
     patterns = [
-        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01) - flexible for series name
-        r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d{1,2})", 
+        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01) - flexible for series name
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # More general DC codes (e.g., RV-DC01)
-        r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})", 
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
+        # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01) - normalize to all caps
+        (r"^(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-]+-\d{1,2})", lambda m: 'DC-POA' + m.group(2).upper()),
         # Specific recognized prefixes (e.g., DDALELW00, DDALDRW01, SJA01)
-        r"^(DDALELW\d{2}|DDALDRW\d{1,2}(?:-\d{1,2})?|SJA\d{1,2}(?:-\d{1,2})?)",
-        # Standard DDAL/DDEX/DDHC (e.g., DDAL09-01, DDEX3-01)
-        r"^(DDAL|DDEX|DDHC)\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?", 
+        (r"^(DDALELW\d{2}|DDALDRW\d{1,2}(?:-\d{1,2})?|SJA\d{1,2}(?:-\d{1,2})?)", lambda m: m.group(0).upper()),
+        # DDHC hardcover tie-in codes (e.g., DDHC-TOA-10, DDHC-MORD-03, DDHC-LoX-Ch-1)
+        # Pattern: DDHC- followed by 3-5 letter hardcover code, dash, then identifier (alphanumeric, may include dashes)
+        (r"^(DDHC-[A-Za-z]{3,5}-[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*)", lambda m: m.group(0).upper()),
+        # Standard DDAL/DDEX/DDHC (e.g., DDAL09-01, DDEX3-01, DDHC01)
+        (r"^(DDAL|DDEX|DDHC)\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?", lambda m: m.group(0).upper()),
+        # DDIA codes (e.g., DDIA-MORD, DDIA-VOLO, DDIA-MORD-01, DDIA05) - hardcover tie-in adventures
+        (r"^(DDIA-[A-Za-z]+(?:-\d{1,2})?|DDIA\d{1,2})", lambda m: m.group(0).upper()),
         # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01)
-        r"^(AL|CCC-)[A-Z]{2,3}-\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?", 
+        (r"^(AL|CCC-)[A-Z]{2,3}-\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?", lambda m: m.group(0).upper()),
         # BMG codes (e.g., BMG-DRW-01)
-        r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}", 
-        # Specific DC codes (e.g., DC-POA01)
-        r"^(DC-POA)\d{1,2}", 
+        (r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}", lambda m: m.group(0).upper()),
         # Ravenloft Module Hunt (e.g., RMH-01)
-        r"^(RMH)-(\d{1,2})", 
+        (r"^(RMH)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # Eberron Sharn Modules (e.g., EB-SM-01)
-        r"^(EB-SM)-(\d{1,2})", 
+        (r"^(EB-SM)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
     ]
 
-    for patt in patterns:
-        # Match from the beginning of the string
-        match = re.match(patt, full_title, re.IGNORECASE)
+    for pattern, code_builder in patterns:
+        # Match from the beginning of the string (case-insensitive)
+        # Use normalized_title to handle Unicode dash variants
+        match = re.match(pattern, normalized_title, re.IGNORECASE)
         if match:
-            # Reconstruct code based on pattern type and matched groups
-            matched_text = match.group(0).upper().strip()
-
-            if "-DC-" in matched_text: # e.g., FR-DC-STRAT-TALES-02
-                if len(match.groups()) >= 3:
-                    code = f"{match.group(1).upper()}-DC-{match.group(2).upper()}-{match.group(3)}"
-                else: # Fallback for simpler DC codes like RV-DC01
-                    code = matched_text.split(' ')[0]
-            elif matched_text.startswith(('DDALELW', 'DDALDRW', 'SJA', 'RMH', 'EB-SM', 'DC-POA', 'BMG')):
-                # These are already captured well as full prefixes
-                code = matched_text.split(' ')[0]
-            else: # For other standard AL codes (DDAL, DDEX, DDHC, CCC etc.)
-                code = matched_text.split(' ')[0]
+            code = code_builder(match)
             break
 
     if code:

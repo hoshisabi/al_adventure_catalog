@@ -2,7 +2,8 @@
     {
         "apl": 5,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Jay Africa"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -13,17 +14,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "184953",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-10 HILL 1-1 Arrival",
+        "title": "HILL 1-1 Arrival",
         "url": "https://www.dmsguild.com/product/184953/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Scott Moore"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -33,16 +36,20 @@
         "full_title": "CCC-BMG-11 HILL 1-2 Exodus",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "184994",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-11 HILL 1-2 Exodus",
-        "url": "https://www.dmsguild.com/product/184994/CCCBMG11-HILL-12-Exodus?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "HILL 1-2 Exodus",
+        "url": "https://www.dmsguild.com/product/184994/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "M. Sean Molley"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -53,36 +60,42 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "184998",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-01 CORE 1-1 A Scream in the Night",
+        "title": "CORE 1-1 A Scream in the Night",
         "url": "https://www.dmsguild.com/product/184998/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Cindy Moore"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "CCC-BMG-12",
-        "date_created": "20160610",
+        "date_created": "20160611",
         "full_title": "CCC-BMG-12 HILL 1-3 Resurgence",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "185273",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-12 HILL 1-3 Resurgence",
-        "url": "https://www.dmsguild.com/product/185273/CCCBMG12-HILL-13-Resurgence?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "HILL 1-3 Resurgence",
+        "url": "https://www.dmsguild.com/product/185273/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Peter Sleijpen"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -93,17 +106,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "185274",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-02 CORE 1-2 A Cog in the Wheel",
+        "title": "CORE 1-2 A Cog in the Wheel",
         "url": "https://www.dmsguild.com/product/185274/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Christopher Sniezak"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -111,20 +126,22 @@
         "code": "CCC-BMG-03",
         "date_created": "20160916",
         "full_title": "CCC-BMG-03 CORE 1-3 A Hole in the World",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "185275",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-03 CORE 1-3 A Hole in the World",
+        "title": "CORE 1-3 A Hole in the World",
         "url": "https://www.dmsguild.com/product/185275/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "James Introcaso"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -135,17 +152,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189087",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-04 CORE 2-1 Tales of Good & Evil",
+        "title": "CORE 2-1 Tales of Good & Evil",
         "url": "https://www.dmsguild.com/product/189087/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Alan Patrick"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -156,17 +175,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189088",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
+        "title": "CORE 2-2 Songs of Law & Chaos",
         "url": "https://www.dmsguild.com/product/189088/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Derek Myers"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -177,17 +198,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189089",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-06 CORE 2-3 Edicts of Neutrality",
+        "title": "CORE 2-3 Edicts of Neutrality",
         "url": "https://www.dmsguild.com/product/189089/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Dave Zajac"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -198,17 +221,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189329",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-07 HULB 1-1 Hulburg Rebuilding",
+        "title": "HULB 1-1 Hulburg Rebuilding",
         "url": "https://www.dmsguild.com/product/189329/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Mickey Tan"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -219,17 +244,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189330",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-08 HULB 1-2 Hulburg Burning",
+        "title": "HULB 1-2 Hulburg Burning",
         "url": "https://www.dmsguild.com/product/189330/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Merric Blackman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -240,17 +267,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189331",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-09 HULB 1-3 Hulburg Rising",
+        "title": "HULB 1-3 Hulburg Rising",
         "url": "https://www.dmsguild.com/product/189331/?affiliate_id=171040"
     },
     {
         "apl": 11,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Greg Marks"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -260,11 +289,14 @@
         "full_title": "CCC-BMG-13 PHLAN 1-1 Sepulture",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189520",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-13 PHLAN 1-1 Sepulture",
-        "url": "https://www.dmsguild.com/product/189520/CCCBMG13-PHLAN-11-Sepulture?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "PHLAN 1-1 Sepulture",
+        "url": "https://www.dmsguild.com/product/189520/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -288,7 +320,8 @@
     {
         "apl": 11,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Erik Scott de Bie"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -298,11 +331,14 @@
         "full_title": "CCC-BMG-15 PHLAN 1-3 Subterfuge",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "189523",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-15 PHLAN 1-3 Subterfuge",
-        "url": "https://www.dmsguild.com/product/189523/CCCBMG15-PHLAN-13-Subterfuge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "PHLAN 1-3 Subterfuge",
+        "url": "https://www.dmsguild.com/product/189523/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -318,13 +354,16 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "199826",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-CIC-01 The Vault of the Devourer",
-        "url": "https://www.dmsguild.com/product/199826/CCCCIC01-The-Vault-of-the-Devourer?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Vault of the Devourer",
+        "url": "https://www.dmsguild.com/product/199826/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 7,
         "authors": [
             "Alan Patrick"
         ],
@@ -337,17 +376,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "200484",
         "season": null,
         "tiers": 2,
-        "title": "CCC-UCON-01 Blood & Fog",
+        "title": "Blood & Fog",
         "url": "https://www.dmsguild.com/product/200484/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 7,
         "authors": [
             "Alex Kammer",
+            "Ed Greenwood",
             "Gamehole Con"
         ],
         "campaigns": [
@@ -358,16 +399,17 @@
         "full_title": "CCC-GHC-01 Tharaera Lost",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "200723",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-01 Tharaera Lost",
+        "title": "Tharaera Lost",
         "url": "https://www.dmsguild.com/product/200723/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 7,
         "authors": [
             "Ed Greenwood",
             "Alex Kammer",
@@ -381,16 +423,17 @@
         "full_title": "CCC-GHC-02 Skulljaw Hill",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "200738",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-02 Skulljaw Hill",
+        "title": "Skulljaw Hill",
         "url": "https://www.dmsguild.com/product/200738/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 7,
         "authors": [
             "Ed Greenwood",
             "Alex Kammer",
@@ -404,18 +447,23 @@
         "full_title": "CCC-GHC-03 Facing the Dark",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "200739",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-03 Facing the Dark",
+        "title": "Facing the Dark",
         "url": "https://www.dmsguild.com/product/200739/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Jason Gonding",
+            "Eric Menge",
+            "Ben Heisler",
+            "Paige Leitman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -425,16 +473,21 @@
         "full_title": "CCC-BMG-16 ELM 1-1 The Sage of Cormanthor",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "203366",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-16 ELM 1-1 The Sage of Cormanthor",
-        "url": "https://www.dmsguild.com/product/203366/CCCBMG16-ELM-11-The-Sage-of-Cormanthor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "ELM 1-1 The Sage of Cormanthor",
+        "url": "https://www.dmsguild.com/product/203366/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Ben Heisler",
+            "Paige Leitman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -445,17 +498,21 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "204921",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-17 ELM 1-2 The Lost Sanctum",
+        "title": "ELM 1-2 The Lost Sanctum",
         "url": "https://www.dmsguild.com/product/204921/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
-            "Baldman Games"
+            "Baldman Games",
+            "Dave Brainard",
+            "Ben Heisler",
+            "Paige Leitman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -465,14 +522,17 @@
         "full_title": "CCC-BMG-18 ELM 1-3 The Battle of Elmwood",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "204922",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-18 ELM 1-3 The Battle of Elmwood",
-        "url": "https://www.dmsguild.com/product/204922/CCCBMG18-ELM-13-The-Battle-of-Elmwood?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "ELM 1-3 The Battle of Elmwood",
+        "url": "https://www.dmsguild.com/product/204922/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Jason Denton"
         ],
@@ -484,11 +544,14 @@
         "full_title": "CCC-SFBAY-01-01 Plots in Motion",
         "hours": "8",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "206459",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SFBAY-01-01 Plots in Motion",
-        "url": "https://www.dmsguild.com/product/206459/CCCSFBAY0101-Plots-in-Motion?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Plots in Motion",
+        "url": "https://www.dmsguild.com/product/206459/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -1313,15 +1376,16 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "228101",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-04 - Shade Of The Dark",
+        "title": "Shade Of The Dark",
         "url": "https://www.dmsguild.com/product/228101/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Rob Wieland",
             "Gamehole Con"
@@ -1332,18 +1396,19 @@
         "code": "CCC-GHC-05",
         "date_created": "20171204",
         "full_title": "CCC-GHC-05 - Trail Of Treachery",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "228104",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-05 - Trail Of Treachery",
+        "title": "Trail Of Treachery",
         "url": "https://www.dmsguild.com/product/228104/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Shawn Merwin",
             "Gamehole Con"
@@ -1354,18 +1419,19 @@
         "code": "CCC-GHC-06",
         "date_created": "20171204",
         "full_title": "CCC-GHC-06 - What You Wish For",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "228105",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-06 - What You Wish For",
+        "title": "What You Wish For",
         "url": "https://www.dmsguild.com/product/228105/?affiliate_id=171040"
     },
     {
-        "apl": 11,
+        "apl": 13,
         "authors": [
             "Alex Kammer",
             "Ed Greenwood",
@@ -1377,18 +1443,19 @@
         "code": "CCC-GHC-07",
         "date_created": "20171204",
         "full_title": "CCC-GHC-07 - The River Runs Red",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "228106",
         "season": null,
         "tiers": 3,
-        "title": "CCC-GHC-07 - The River Runs Red",
+        "title": "The River Runs Red",
         "url": "https://www.dmsguild.com/product/228106/?affiliate_id=171040"
     },
     {
-        "apl": 11,
+        "apl": 13,
         "authors": [
             "Alex Kammer",
             "Ed Greenwood",
@@ -1400,14 +1467,15 @@
         "code": "CCC-GHC-08",
         "date_created": "20171204",
         "full_title": "CCC-GHC-08 - Death In The Ruins",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "228107",
         "season": null,
         "tiers": 3,
-        "title": "CCC-GHC-08 - Death In The Ruins",
+        "title": "- Death In The Ruins",
         "url": "https://www.dmsguild.com/product/228107/?affiliate_id=171040"
     },
     {
@@ -1426,11 +1494,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "228108",
         "season": null,
         "tiers": 3,
-        "title": "CCC-GHC-09 - Swamp Of Death",
+        "title": "Swamp Of Death",
         "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
     },
     {
@@ -4102,6 +4171,28 @@
         "url": "https://www.dmsguild.com/product/259233/CCCSAC02-Fun-With-Fey?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Steven Grosshuesch"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-MCX-01-02",
+        "date_created": "20181119",
+        "full_title": "CCC-MCX-01-02 The Rescue",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 1.99,
+        "product_id": "259240",
+        "season": null,
+        "tiers": 1,
+        "title": "The Rescue",
+        "url": "https://www.dmsguild.com/product/259240/?affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Shawn Merwin"
@@ -4663,6 +4754,29 @@
         "tiers": 1,
         "title": "CCC-APL-01-01 It's Not Easy Being Gene",
         "url": "https://www.dmsguild.com/product/262265/CCCAPL0101-Its-Not-Easy-Being-Gene?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Fenway Jones",
+            "Ben Heisler"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-JGD-01",
+        "date_created": "20181228",
+        "full_title": "Left Black and Blue: A Red War Story",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "262311",
+        "season": null,
+        "tiers": 3,
+        "title": "Left Black and Blue: A Red War Story",
+        "url": "https://www.dmsguild.com/product/262311/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -6371,6 +6485,28 @@
         "url": "https://www.dmsguild.com/product/286424/CCCSCAR0202-Natures-Defense?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Anthony Joyce"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ROLL20-02",
+        "date_created": "20191024",
+        "full_title": "The Heir of Orcus: Verse III - CCC-ROLL20-02",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 21.99,
+        "product_id": "287714",
+        "season": null,
+        "tiers": 2,
+        "title": "The Heir of Orcus Verse III - CCC-ROLL20-02",
+        "url": "https://www.dmsguild.com/product/287714/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Fenway Jones",
@@ -6835,6 +6971,50 @@
         "tiers": 1,
         "title": "In Tents",
         "url": "https://www.dmsguild.com/product/297088/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Emilie Gunderson"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-MALTH-002",
+        "date_created": "20191216",
+        "full_title": "CCC-MALTH-002 The Jackal's Justice",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "297173",
+        "season": null,
+        "tiers": 2,
+        "title": "The Jackal's Justice",
+        "url": "https://www.dmsguild.com/product/297173/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Emilie Gunderson"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-MALTH-003",
+        "date_created": "20191216",
+        "full_title": "CCC-MALTH-003 Fire's Demise",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "297176",
+        "season": null,
+        "tiers": 2,
+        "title": "Fire's Demise",
+        "url": "https://www.dmsguild.com/product/297176/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -7699,6 +7879,28 @@
         "tiers": 1,
         "title": "CCC - FCC - 001 Isle of Moss",
         "url": "https://www.dmsguild.com/product/307811/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Mart\u00edn Rodriguez"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ODFC03-03",
+        "date_created": "20200330",
+        "full_title": "CCC-ODFC03-03 Removing the Taint",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.0,
+        "product_id": "308171",
+        "season": null,
+        "tiers": 3,
+        "title": "Removing the Taint",
+        "url": "https://www.dmsguild.com/product/308171/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -9865,6 +10067,117 @@
         "url": "https://www.dmsguild.com/product/335286/House-of-Diamonds-CCCUNITEGD01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "Gregory Harris",
+            "Jeremey Arnold"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-WYC-2-1",
+        "date_created": "20201109",
+        "full_title": "CCC-WYC-2-1 The Light of Heresy",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "335411",
+        "season": null,
+        "tiers": 2,
+        "title": "The Light of Heresy",
+        "url": "https://www.dmsguild.com/product/335411/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jeremey Arnold"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-WYC-2-2",
+        "date_created": "20201109",
+        "full_title": "CCC-WYC-2-2 A Shard of Shar",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "335413",
+        "season": null,
+        "tiers": 2,
+        "title": "A Shard of Shar",
+        "url": "https://www.dmsguild.com/product/335413/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jeremey Arnold"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-WYC-2-3",
+        "date_created": "20201109",
+        "full_title": "CCC-WYC-2-3 What History Leaves Behind",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "335414",
+        "season": null,
+        "tiers": 2,
+        "title": "What History Leaves Behind",
+        "url": "https://www.dmsguild.com/product/335414/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Gregory Harris"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-WYC-Intro-01",
+        "date_created": "20201109",
+        "full_title": "CCC-WYC-Intro-01 A Bridge to Thar",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "335417",
+        "season": null,
+        "tiers": 1,
+        "title": "A Bridge to Thar",
+        "url": "https://www.dmsguild.com/product/335417/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Mike Parker"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-WYC-Intro-02",
+        "date_created": "20201109",
+        "full_title": "CCC-WYC-Intro-02 The Ballad of Naoki and Koa",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "335418",
+        "season": null,
+        "tiers": 1,
+        "title": "The Ballad of Naoki and Koa",
+        "url": "https://www.dmsguild.com/product/335418/?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Bruce Wood"
@@ -9986,6 +10299,28 @@
         "tiers": 2,
         "title": "CCC-MELB-01 A Single Tearfall",
         "url": "https://www.dmsguild.com/product/337763/CCCMELB01-A-Single-Tearfall&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Erik Hawley"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-PIPYAP-Glasya",
+        "date_created": "20201202",
+        "full_title": "CCC-PIPYAP-Glasya Glasya's Little Helpers",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "337864",
+        "season": null,
+        "tiers": 2,
+        "title": "Glasya's Little Helpers",
+        "url": "https://www.dmsguild.com/product/337864/?affiliate_id=171040"
     },
     {
         "apl": 3,

@@ -11,9 +11,13 @@
     "full_title": "WBW-DC-PHP-HOE-02 Something Borrowed, Something Brewed",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "407708",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Something Borrowed, Something Brewed",
-    "url": "https://www.dmsguild.com/product/407708/WBWDCPHPHOE02-Something-Borrowed-Something-Brewed?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/407708/?affiliate_id=171040"
 }

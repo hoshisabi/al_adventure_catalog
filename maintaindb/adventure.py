@@ -33,7 +33,7 @@ logger = logging.getLogger()
 
 # Import constants from adventure_utils to avoid duplication
 # Re-export them here for backward compatibility with existing imports
-from .adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS
+from .adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS, get_campaigns_from_code, get_adventure_code_and_campaigns
 
 # SEASON_LABELS is kept for backward compatibility with get_season_label() function
 # It's derived from SEASONS for numeric seasons (1-10)
@@ -153,7 +153,7 @@ def get_patt_first_matching_group(regex, text):
 class DungeonCraft:
 
     def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaigns,
-                 season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None) -> None:
+                 season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None, seed=None) -> None:
         self.product_id = product_id
         self.full_title = title
         self.title = self.__get_short_title(title, code).strip()
@@ -175,6 +175,7 @@ class DungeonCraft:
         self.payWhatYouWant = payWhatYouWant
         self.suggestedPrice = suggestedPrice
         self.needs_review = needs_review
+        self.seed = seed
 
     def is_tier(self, tier):
         """Check if this adventure is for the specified tier."""
@@ -226,26 +227,42 @@ class DungeonCraft:
     def __get_short_title(self, title, code=None):
         """Extract a short title by removing code fragments and formatting markers."""
         t = str(title)
+        original_title = t  # Keep original for fallback
+        
+        # Normalize Unicode dash variants to standard hyphen-minus for code matching
+        # U+2010 HYPHEN, U+2011 NON-BREAKING HYPHEN, U+2012 FIGURE DASH, 
+        # U+2013 EN DASH, U+2014 EM DASH, U+2015 HORIZONTAL BAR, U+2212 MINUS SIGN
+        dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+        normalized_t = t
+        for dash_char in dash_variants:
+            normalized_t = normalized_t.replace(dash_char, '-')
         
         # Strip code prefix if code is provided and title starts with it
         if code:
             code_str = str(code)
-            # Try case-insensitive matching for code removal
-            t_lower = t.lower()
+            # Try case-insensitive matching for code removal using normalized title
+            normalized_t_lower = normalized_t.lower()
             code_lower = code_str.lower()
             # Try to remove code with various possible separators (space, dash, or nothing)
             code_removed = False
             for separator in [' ', '-', '']:
                 code_prefix_lower = code_lower + separator
-                if t_lower.startswith(code_prefix_lower):
+                if normalized_t_lower.startswith(code_prefix_lower):
                     # Find the actual length to remove (preserving original case)
                     code_prefix_len = len(code_str + separator)
-                    t = t[code_prefix_len:].strip()
-                    code_removed = True
+                    # Check if removing the code would leave us with an empty string
+                    remaining = t[code_prefix_len:].strip()
+                    if remaining:  # Only remove if there's something left
+                        t = remaining
+                        normalized_t = normalized_t[code_prefix_len:].strip()
+                        code_removed = True
                     break
             # If code is at the start but no separator matched, remove it directly
-            if not code_removed and t_lower.startswith(code_lower):
-                t = t[len(code_str):].strip()
+            if not code_removed and normalized_t_lower.startswith(code_lower):
+                remaining = t[len(code_str):].strip()
+                if remaining:  # Only remove if there's something left
+                    t = remaining
+                    normalized_t = normalized_t[len(code_str):].strip()
         
         # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
         t = re.sub(r"\(\s*5e\s*\)", "", t, flags=re.IGNORECASE)
@@ -269,7 +286,12 @@ class DungeonCraft:
         result = re.sub(r"[\s-]*\b5e\b[\s-]*$", "", result, flags=re.IGNORECASE)
         # Clean up any remaining double spaces
         result = re.sub(r'\s+', ' ', result)
-        return result.strip()
+        result = result.strip()
+        # If we ended up with an empty string, fall back to the original title
+        # (This handles cases where the title was just the code)
+        if not result:
+            result = original_title.strip()
+        return result
 
     def __str__(self) -> str:
         return json.dumps(self.to_json(), sort_keys=True, indent=2, )
@@ -317,6 +339,9 @@ class DungeonCraft:
         # Add needs_review if it exists (set by inference logic or RSS parser)
         if self.needs_review is not None:
             result["needs_review"] = self.needs_review
+        # Add seed if it exists
+        if self.seed is not None:
+            result["seed"] = self.seed
         return result
 
     def convert_date_to_readable_str(self):
@@ -771,9 +796,19 @@ def _extract_jsonld_price(parsed_html):
                 
                 offers = node.get("offers")
                 if isinstance(offers, dict):
-                    price = offers.get("price")
-                    if price is None and isinstance(offers.get("priceSpecification"), dict):
-                        price = offers["priceSpecification"].get("price")
+                    # Prioritize ListPrice (original/regular price) over sale price
+                    price = None
+                    price_spec = offers.get("priceSpecification")
+                    if isinstance(price_spec, dict):
+                        # Check if it's a ListPrice (regular price, not sale price)
+                        price_type = price_spec.get("priceType", "")
+                        if "ListPrice" in str(price_type):
+                            price = price_spec.get("price")
+                    
+                    # Fall back to offers.price only if ListPrice not found
+                    if price is None:
+                        price = offers.get("price")
+                    
                     if price is not None:
                         try:
                             return float(price)
@@ -956,6 +991,8 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     
     # Get combined text for regex-based extraction
     combined_text = _collect_text_for_regexes(parsed_html)
+    # Store description text for code extraction fallback
+    raw_data["description_text"] = combined_text
     
     # Extract hours from text
     raw_data["hours_raw"] = _extract_hours_from_text(combined_text)
@@ -1028,9 +1065,20 @@ def _normalize_and_convert_data(raw_data):
         processed_data["price"] = processed_data["suggestedPrice"]
 
     if processed_data["module_name"]:
-        result = get_dc_code_and_campaign(processed_data["module_name"])
+        # Use get_adventure_code_and_campaigns for better pattern matching
+        code_from_title, campaigns_from_title = get_adventure_code_and_campaigns(processed_data["module_name"])
+        if code_from_title:
+            # Normalize code to all uppercase
+            processed_data["code"] = code_from_title.upper()
+            processed_data["campaigns"] = campaigns_from_title
+            processed_data["season"] = get_season(processed_data["code"])
+    
+    # Fallback: if code not found in title, search in description text
+    if not processed_data["code"] and raw_data.get("description_text"):
+        result = _extract_code_from_description(raw_data["description_text"])
         if result is not None:
-            processed_data["code"] = result[0]
+            # Normalize code to all uppercase
+            processed_data["code"] = result[0].upper()
             processed_data["campaigns"] = result[1]
             processed_data["season"] = get_season(processed_data["code"])
 
@@ -1197,9 +1245,72 @@ def get_season_label(value):
     return None
 
 
+def _extract_code_from_description(description_text):
+    """
+    Extract adventure code from description text when it's not found in the title.
+    Searches for code patterns anywhere in the text (not just at the start).
+    
+    Args:
+        description_text: Description text string from HTML
+        
+    Returns:
+        Tuple of (code, campaigns_list) or None if no code found
+    """
+    if not description_text:
+        return None
+    
+    # Normalize Unicode dash variants to standard hyphen-minus for regex matching
+    # U+2010 HYPHEN, U+2011 NON-BREAKING HYPHEN, U+2012 FIGURE DASH, 
+    # U+2013 EN DASH, U+2014 EM DASH, U+2015 HORIZONTAL BAR, U+2212 MINUS SIGN
+    dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+    normalized_text = description_text
+    for dash_char in dash_variants:
+        normalized_text = normalized_text.replace(dash_char, '-')
+    
+    # Use the same patterns from get_adventure_code_and_campaigns but search anywhere in text
+    # Patterns for Adventurers League codes (DDAL, DDEX, DDHC, CCC, etc.)
+    # All patterns are case-insensitive
+    patterns = [
+        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01)
+        (r'\b(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
+        # More general DC codes (e.g., RV-DC01)
+        (r'\b(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
+        # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01, dc-poa-ice01-01) - normalize to all caps
+        (r'\b(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-]+-\d{1,2})\b', lambda m: 'DC-POA' + m.group(2).upper()),
+        # Specific recognized prefixes (e.g., DDALELW00, DDALDRW01, SJA01)
+        (r'\b(DDALELW\d{2}|DDALDRW\d{1,2}(?:-\d{1,2})?|SJA\d{1,2}(?:-\d{1,2})?)\b', lambda m: m.group(0).upper()),
+        # DDHC hardcover tie-in codes (e.g., DDHC-TOA-10, DDHC-MORD-03, DDHC-LoX-Ch-1)
+        # Pattern: DDHC- followed by 3-5 letter hardcover code, dash, then identifier (alphanumeric, may include dashes)
+        (r'\b(DDHC-[A-Za-z]{3,5}-[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*)\b', lambda m: m.group(0).upper()),
+        # Standard DDAL/DDEX/DDHC (e.g., DDAL09-01, DDEX3-01, DDHC01)
+        (r'\b(DDAL|DDEX|DDHC)\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?\b', lambda m: m.group(0).upper()),
+        # DDIA codes (e.g., DDIA-MORD, DDIA-VOLO, DDIA-MORD-01, DDIA05) - hardcover tie-in adventures
+        (r'\b(DDIA-[A-Za-z]+(?:-\d{1,2})?|DDIA\d{1,2})\b', lambda m: m.group(0).upper()),
+        # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01)
+        (r'\b(AL|CCC-)[A-Z]{2,3}-\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?\b', lambda m: m.group(0).upper()),
+        # BMG codes (e.g., BMG-DRW-01)
+        (r'\b(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}\b', lambda m: m.group(0).upper()),
+        # Ravenloft Module Hunt (e.g., RMH-01)
+        (r'\b(RMH)-(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
+        # Eberron Sharn Modules (e.g., EB-SM-01)
+        (r'\b(EB-SM)-(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
+    ]
+    
+    for pattern, code_builder in patterns:
+        # Use normalized_text to handle Unicode dash variants
+        match = re.search(pattern, normalized_text, re.IGNORECASE)
+        if match:
+            code = code_builder(match)
+            campaigns = get_campaigns_from_code(code)
+            return (code, campaigns)
+    
+    return None
+
+
 def get_dc_code_and_campaign(product_title):
     """
     Extract adventure code and campaign from a product title.
+    Case-insensitive matching.
     
     Args:
         product_title: Full product title string
@@ -1222,13 +1333,18 @@ def get_dc_code_and_campaign(product_title):
                     # Keep the original code format but recognize it as PO-BK campaign
                     return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
             
-            for code in DC_CAMPAIGNS:
-                if text.startswith(code):
-                    campaign_val = DC_CAMPAIGNS.get(code)
-                    return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
-            for code in DDAL_CAMPAIGN:
-                if text.startswith(code):
-                    campaign_val = DDAL_CAMPAIGN.get(code)
+            # Case-insensitive matching against DC_CAMPAIGNS keys
+            text_upper = text.upper()
+            for code_key in DC_CAMPAIGNS:
+                if text_upper.startswith(code_key.upper()):
+                    campaign_val = DC_CAMPAIGNS.get(code_key)
+                    # Normalize code to all uppercase
+                    return (text.upper(), [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
+            
+            # Case-insensitive matching against DDAL_CAMPAIGN keys
+            for code_key in DDAL_CAMPAIGN:
+                if text_upper.startswith(code_key.upper()):
+                    campaign_val = DDAL_CAMPAIGN.get(code_key)
                     return (text, [campaign_val] if not isinstance(campaign_val, list) else campaign_val)
     return (product_title, None)
 
@@ -1240,7 +1356,8 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
     Args:
         existing_data: Dictionary of existing adventure data (may be None or empty)
         new_data: Dictionary of new adventure data to merge
-        force_overwrite: If True, completely replace existing_data with new_data
+        force_overwrite: If True, overwrite fields with new_data, but preserve existing fields
+                         that are missing or null/empty in new_data (e.g., manually-added fields like 'seed')
         careful_mode: If True, preserve existing non-empty values; only fill in empty ones
         
     Returns:
@@ -1249,7 +1366,24 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
     merged_data = new_data.copy()  # Start with all keys from new_data
 
     if force_overwrite:
-        return new_data
+        # Even in force mode, preserve existing fields that are missing or empty in new_data
+        # This prevents overwriting manually-added fields like 'seed' with null values
+        if existing_data:
+            for key, existing_value in existing_data.items():
+                # Skip if this key is already in new_data with a non-empty value
+                if key in new_data:
+                    new_value = new_data[key]
+                    is_new_value_empty = new_value is None or new_value == "" or new_value == [] or new_value == {}
+                    if not is_new_value_empty:
+                        continue  # Use the new non-empty value
+                
+                # Preserve existing value if:
+                # 1. Key is missing from new_data, OR
+                # 2. Key exists in new_data but is empty/null
+                is_existing_value_empty = existing_value is None or existing_value == "" or existing_value == [] or existing_value == {}
+                if not is_existing_value_empty:  # Only preserve non-empty existing values
+                    merged_data[key] = existing_value
+        return merged_data
 
     if existing_data:
         for key, existing_value in existing_data.items():

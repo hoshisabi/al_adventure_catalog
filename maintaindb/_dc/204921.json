@@ -1,7 +1,9 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Ben Heisler",
+        "Paige Leitman"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +14,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "204921",
     "season": null,
     "tiers": 2,
-    "title": "CCC-BMG-17 ELM 1-2 The Lost Sanctum",
+    "title": "ELM 1-2 The Lost Sanctum",
     "url": "https://www.dmsguild.com/product/204921/?affiliate_id=171040"
 }

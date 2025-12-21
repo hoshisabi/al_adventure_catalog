@@ -11,10 +11,12 @@
     "full_title": "WBW-DC-VMT-01 Tale As Old As Time",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1-4",
+    "level_range": "3",
+    "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "397352",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Tale As Old As Time",
     "url": "https://www.dmsguild.com/product/397352/?affiliate_id=171040"

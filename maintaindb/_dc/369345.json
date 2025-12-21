@@ -9,13 +9,15 @@
     "code": "DC-POA-EH-1",
     "date_created": "20210830",
     "full_title": "DC-PoA-EH-1 Horsing Around",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 1.00,
+    "payWhatYouWant": false,
+    "price": 1.0,
     "product_id": "369345",
     "season": "Icewind Dale",
+    "seed": "A Dark Horse",
     "tiers": 1,
-    "title": "DC-PoA-EH-1 Horsing Around",
+    "title": "Horsing Around",
     "url": "https://www.dmsguild.com/product/369345/?affiliate_id=171040"
 }

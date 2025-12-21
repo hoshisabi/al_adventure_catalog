@@ -1,6 +1,61 @@
 import json
 import os
 import glob
+import sys
+
+def is_standard_code(code):
+    """
+    Check if a code matches standard patterns.
+    Returns True if the code is recognized, False if it's non-standard.
+    
+    This checks against the standard code prefixes without importing the full adventure_utils
+    module to avoid dependency issues.
+    """
+    if not code:
+        return True  # No code is not non-standard, it's just missing
+    
+    code_upper = code.upper()
+    
+    # Standard DC campaign prefixes (from DC_CAMPAIGNS)
+    dc_prefixes = [
+        'DL-DC', 'EB-DC', 'EB-SM', 'FR-DC', 'PS-DC', 'SJ-DC', 'WBW-DC',
+        'DC-POA', 'PO-BK', 'BMG-DRW', 'BMG-DL', 'BMG-MOON', 'CCC-', 'RV-DC'
+    ]
+    for prefix in dc_prefixes:
+        if code_upper.startswith(prefix.upper()):
+            return True
+    
+    # Standard DDAL/DDEX/DDHC/DDIA prefixes (from DDAL_CAMPAIGN)
+    ddal_prefixes = [
+        'DDAL', 'DDEX', 'DDHC', 'DDIA', 'DDALEL', 'DDALBG', 'DDALDR', 'DDALDRW',
+        'DDEP', 'DDAL04', 'DDAL00', 'DDEX1', 'DDEX2', 'DDEX3', 'DDEX4',
+        'AL', 'CCC', 'SJA'
+    ]
+    for prefix in ddal_prefixes:
+        prefix_upper = prefix.upper()
+        # Handle prefixes like DDAL4/DDAL04, DDEX1/DDEX01
+        if prefix.endswith('0') and len(prefix) > 1:
+            # Check if code starts with prefix minus the last '0'
+            prefix_minus_zero = prefix_upper[:-1]
+            if code_upper.startswith(prefix_minus_zero):
+                # Check if next char after prefix is a digit
+                if len(code_upper) > len(prefix_minus_zero) and code_upper[len(prefix_minus_zero):len(prefix_minus_zero)+1].isdigit():
+                    return True
+        # Handle exact matches or prefixes
+        elif code_upper.startswith(prefix_upper):
+            return True
+    
+    # Check for other standard patterns
+    import re
+    # DDIA codes (e.g., DDIA-MORD, DDIA-VOLO, DDIA-MORD-01, DDIA05)
+    if re.match(r'^DDIA-[A-Z]+(?:-\d{1,2})?$|^DDIA\d{1,2}$', code_upper):
+        return True
+    # Ravenloft Module Hunt
+    if re.match(r'^RMH-\d+', code_upper):
+        return True
+    
+    # If we get here, the code is not recognized by any standard pattern
+    return False
 
 def generate_fixup_html():
     dc_path = os.path.join(os.path.dirname(__file__), "_dc")
@@ -99,6 +154,11 @@ def generate_fixup_html():
                     # Check campaigns (should be a list)
                     if not data.get("campaigns") or not isinstance(data.get("campaigns"), list) or len(data.get("campaigns")) == 0:
                         missing_fields.append("campaigns")
+                    
+                    # Check for non-standard codes (worth human review)
+                    code = data.get("code")
+                    if code and not is_standard_code(code):
+                        missing_fields.append("non-standard_code")
 
                     # For needs_review=True, include the row even if the above fields look present
                     if needs_review or missing_fields:

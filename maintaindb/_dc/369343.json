@@ -11,9 +11,13 @@
     "full_title": "DC-PoA-ROG-3 The Last Refuge of Spring",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 0.0,
     "product_id": "369343",
+    "season": "Icewind Dale",
+    "seed": "This Seems Familiar",
     "tiers": 2,
-    "title": "DC-PoA-ROG-3 The Last Refuge of Spring",
-    "url": "https://www.dmsguild.com/product/369343/DCPoAROG3-The-Last-Refuge-of-Spring?filters=0_0_100057_0_0_0_0_0"
+    "title": "The Last Refuge of Spring",
+    "url": "https://www.dmsguild.com/product/369343/?affiliate_id=171040"
 }

@@ -12,9 +12,10 @@
     "hours": 4,
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 4.00,
+    "price": 4.0,
     "product_id": "408133",
     "tiers": 1,
     "title": "Disheartened",
-    "url": "https://www.dmsguild.com/product/408133/?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/408133/?affiliate_id=171040",
+    "seed": "Lending a Hand"
 }

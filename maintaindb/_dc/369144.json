@@ -12,9 +12,13 @@
     "full_title": "DC-PoA-TDG01-04 Despair In The Family",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "369144",
+    "season": "Icewind Dale",
+    "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "DC-PoA-TDG01-04 Despair In The Family",
-    "url": "https://www.dmsguild.com/product/369144/DCPoATDG0104-Despair-In-The-Family?filters=0_0_100057_0_0_0_0_0"
+    "title": "Despair In The Family",
+    "url": "https://www.dmsguild.com/product/369144/?affiliate_id=171040"
 }

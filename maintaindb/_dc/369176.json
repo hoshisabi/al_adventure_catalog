@@ -13,8 +13,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.74,
     "product_id": "369176",
+    "season": "Icewind Dale",
+    "seed": "My, What Big Feet You Have",
     "tiers": 2,
-    "title": "DC-POA-CODEX-03 Bring to Bear",
-    "url": "https://www.dmsguild.com/product/369176/DCPOACODEX03-Bring-to-Bear?filters=0_0_100057_0_0_0_0_0"
+    "title": "Bring to Bear",
+    "url": "https://www.dmsguild.com/product/369176/?affiliate_id=171040"
 }

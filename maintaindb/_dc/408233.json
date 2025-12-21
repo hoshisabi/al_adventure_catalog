@@ -11,9 +11,13 @@
     "full_title": "WBW-DC-MOR-02 Dark Miasma of the Mausoleum",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 0.0,
     "product_id": "408233",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Dark Miasma of the Mausoleum",
-    "url": "https://www.dmsguild.com/product/408233/WBWDCMOR02-Dark-Miasma-of-the-Mausoleum?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408233/?affiliate_id=171040"
 }

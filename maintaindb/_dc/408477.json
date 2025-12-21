@@ -12,9 +12,13 @@
     "full_title": "WBW-DC-AA-ASHALON-01 Beneath the Eternal Glacier",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 5.99,
     "product_id": "408477",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Beneath the Eternal Glacier",
-    "url": "https://www.dmsguild.com/product/408477/WBWDCAAASHALON01-Beneath-the-Eternal-Glacier?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408477/?affiliate_id=171040"
 }

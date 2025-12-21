@@ -1,5 +1,5 @@
 {
-    "apl": 11,
+    "apl": 13,
     "authors": [
         "Alex Kammer",
         "Ed Greenwood",
@@ -11,13 +11,14 @@
     "code": "CCC-GHC-07",
     "date_created": "20171204",
     "full_title": "CCC-GHC-07 - The River Runs Red",
-    "hours": null,
+    "hours": 2,
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "228106",
     "season": null,
     "tiers": 3,
-    "title": "CCC-GHC-07 - The River Runs Red",
+    "title": "The River Runs Red",
     "url": "https://www.dmsguild.com/product/228106/?affiliate_id=171040"
 }

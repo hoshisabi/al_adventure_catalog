@@ -20,8 +20,10 @@
     "hours": null,
     "is_adventure": false,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "220591",
+    "season": null,
     "tiers": 1,
     "title": "Encounters in Port Nyanzaru",
     "url": "https://www.dmsguild.com/product/220591/?affiliate_id=171040"
