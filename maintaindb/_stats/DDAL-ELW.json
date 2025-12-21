@@ -18,7 +18,7 @@
         "product_id": "248589",
         "season": null,
         "tiers": 0,
-        "title": "DDAL-ELW00 What's Past is Prologue",
+        "title": "What's Past is Prologue",
         "url": "https://www.dmsguild.com/product/248589/?affiliate_id=171040"
     },
     {
@@ -35,10 +35,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "252925",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW01 Murder in Skyway",
+        "title": "Murder in Skyway",
         "url": "https://www.dmsguild.com/product/252925/?affiliate_id=171040"
     },
     {
@@ -55,10 +57,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "253783",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW02 Boromar Ball",
+        "title": "Boromar Ball",
         "url": "https://www.dmsguild.com/product/253783/?affiliate_id=171040"
     },
     {
@@ -72,14 +76,16 @@
         "code": "DDAL-ELW03",
         "date_created": "20181011",
         "full_title": "DDAL-ELW03 The Cannith Code",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "254691",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW03 The Cannith Code",
-        "url": "https://www.dmsguild.com/product/254691?affiliate_id=171040"
+        "title": "The Cannith Code",
+        "url": "https://www.dmsguild.com/product/254691/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -95,11 +101,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 256437,
+        "product_id": "256437",
+        "season": null,
         "tiers": 1,
-        "title": "DDAL-ELW04 Jack of Daggers",
-        "url": "https://www.dmsguild.com/product/256437/DDALELW04-Jack-of-Daggers&affiliate_id=171040"
+        "title": "Jack of Daggers",
+        "url": "https://www.dmsguild.com/product/256437/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -115,11 +123,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 257230,
+        "product_id": "257230",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW05 Against the Lightning",
-        "url": "https://www.dmsguild.com/product/257230/DDALELW05-Against-the-Lightning&affiliate_id=171040"
+        "title": "Against the Lightning",
+        "url": "https://www.dmsguild.com/product/257230/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -135,11 +145,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 257741,
+        "product_id": "257741",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-ELW06 A Holy Visit",
-        "url": "https://www.dmsguild.com/product/257741?affiliate_id=171040"
+        "title": "A Holy Visit",
+        "url": "https://www.dmsguild.com/product/257741/?affiliate_id=171040"
     },
     {
         "apl": 7,

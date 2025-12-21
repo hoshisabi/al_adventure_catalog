@@ -2,7 +2,7 @@
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Jay H. Anderson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10,18 +10,21 @@
         "code": "DDAL08-01",
         "date_created": "20181002",
         "full_title": "DDAL08-01 The Map with No Names",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250987",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-01 The Map with No Names",
-        "url": "https://www.dmsguild.com/product/250987/DDAL0801-The-Map-with-No-Names?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Map with No Names",
+        "url": "https://www.dmsguild.com/product/250987/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Kat Kruger"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -31,16 +34,19 @@
         "full_title": "DDAL08-02 Beneath the City of the Dead",
         "hours": "",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250990",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-02 Beneath the City of the Dead",
-        "url": "https://www.dmsguild.com/product/250990/DDAL0802-Beneath-the-City-of-the-Dead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Beneath the City of the Dead",
+        "url": "https://www.dmsguild.com/product/250990/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Travis Woodall"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -50,16 +56,19 @@
         "full_title": "DDAL08-03 Dock Ward Double Cross",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250991",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-03 Dock Ward Double Cross",
-        "url": "https://www.dmsguild.com/product/250991/DDAL0803-Dock-Ward-Double-Cross?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Dock Ward Double Cross",
+        "url": "https://www.dmsguild.com/product/250991/?affiliate_id=171040"
     },
     {
         "apl": 1,
         "authors": [
-            "D&D Adventurers League"
+            "Will Doyle"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -69,16 +78,19 @@
         "full_title": "DDAL08-00 Once in Waterdeep",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "250993",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-00 Once in Waterdeep",
-        "url": "https://www.dmsguild.com/product/250993/DDAL0800-Once-in-Waterdeep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Once in Waterdeep",
+        "url": "https://www.dmsguild.com/product/250993/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Ginny Loveday"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -89,17 +101,18 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "253881",
         "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-04 A Wrinkle in the Weave",
+        "title": "A Wrinkle in the Weave",
         "url": "https://www.dmsguild.com/product/253881/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Lo Pierce"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -109,16 +122,19 @@
         "full_title": "DDAL08-05 Hero of the Troll Wars",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "253883",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-05 Hero of the Troll Wars",
-        "url": "https://www.dmsguild.com/product/253883/DDAL0805-Hero-of-the-Troll-Wars&affiliate_id=171040"
+        "title": "Hero of the Troll Wars",
+        "url": "https://www.dmsguild.com/product/253883/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Lysa Chen"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -128,16 +144,19 @@
         "full_title": "DDAL08-06 Purging the Blood",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "253884",
+        "season": "Waterdeep",
         "tiers": 1,
-        "title": "DDAL08-06 Purging the Blood",
-        "url": "https://www.dmsguild.com/product/253884/DDAL0806-Purging-the-Blood&affiliate_id=171040"
+        "title": "Purging the Blood",
+        "url": "https://www.dmsguild.com/product/253884/?affiliate_id=171040"
     },
     {
         "apl": 5,
         "authors": [
-            "D&D Adventurers League"
+            "BJ Hensley"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -147,11 +166,14 @@
         "full_title": "DDAL08-07 Into the Dark",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257779",
+        "season": "Waterdeep",
         "tiers": 2,
-        "title": "DDAL08-07 Into the Dark",
-        "url": "https://www.dmsguild.com/product/257779/DDAL0807-Into-the-Dark&affiliate_id=171040"
+        "title": "Into the Dark",
+        "url": "https://www.dmsguild.com/product/257779/?affiliate_id=171040"
     },
     {
         "apl": 8,
