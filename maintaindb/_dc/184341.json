@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "Wizards of the Coast"
+        "Teos Abadia"
     ],
     "campaigns": [
         "Forgotten Realms",
@@ -9,12 +9,15 @@
     ],
     "code": "DDAL04-10",
     "date_created": "20160607",
-    "full_title": "DDAL04-10 The Artifact (5e)",
+    "full_title": "DDAL04-10 The Artifact",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "184341",
+    "season": "Curse of Strahd",
     "tiers": 2,
-    "title": "DDAL04-10 The Artifact 5e",
-    "url": "https://www.dmsguild.com/product/184341/DDAL0410-The-Artifact-5e?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Artifact",
+    "url": "https://www.dmsguild.com/product/184341/?affiliate_id=171040"
 }
