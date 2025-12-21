@@ -156,7 +156,7 @@
     {
         "apl": 18,
         "authors": [
-            "D&D Adventurers League"
+            "Carl Sibley"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -164,19 +164,22 @@
         "code": "DDAL-DRW-08",
         "date_created": "20210311",
         "full_title": "DDAL-DRW-08 The Harrowing of Hell",
-        "hours": "",
+        "hours": "8",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "349905",
+        "season": null,
         "tiers": 4,
-        "title": "DDAL-DRW-08 The Harrowing of Hell",
+        "title": "The Harrowing of Hell",
         "url": "https://www.dmsguild.com/product/349905/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Emily Harmon",
+            "Garrett Colon"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -184,19 +187,21 @@
         "code": "DDAL-DRWEP-02",
         "date_created": "20210311",
         "full_title": "DDAL-DRWEP-02 Wings of Death",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 8.99,
         "product_id": "349908",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRWEP-02 Wings of Death",
+        "title": "Wings of Death",
         "url": "https://www.dmsguild.com/product/349908/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Greg Marks"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -204,19 +209,21 @@
         "code": "DDAL-DRW-09",
         "date_created": "20210824",
         "full_title": "DDAL-DRW-09 Vile Bounty",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "368695",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW-09 Vile Bounty",
+        "title": "Vile Bounty",
         "url": "https://www.dmsguild.com/product/368695/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Martine Lassen"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -224,19 +231,21 @@
         "code": "DDAL-DRW-10",
         "date_created": "20210824",
         "full_title": "DDAL-DRW-10 Unsafe Harborage",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "368698",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW-10 Unsafe Harborage",
+        "title": "Unsafe Harborage",
         "url": "https://www.dmsguild.com/product/368698/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Oliver Darkshire"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -244,19 +253,21 @@
         "code": "DDAL-DRW-11",
         "date_created": "20210914",
         "full_title": "DDAL-DRW-11 Shadows in the Stacks",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "370751",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW-11 Shadows in the Stacks",
+        "title": "Shadows in the Stacks",
         "url": "https://www.dmsguild.com/product/370751/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Jeremy Vosberg"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -264,19 +275,21 @@
         "code": "DDAL-DRW-12",
         "date_created": "20210914",
         "full_title": "DDAL-DRW-12 To Walk the Cold Dark",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "370753",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW-12 To Walk the Cold Dark",
+        "title": "To Walk the Cold Dark",
         "url": "https://www.dmsguild.com/product/370753/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "laura Thompson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -284,19 +297,21 @@
         "code": "DDAL-DRW-13",
         "date_created": "20211109",
         "full_title": "DDAL-DRW-13 Night Thieves",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "376808",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW-13 Night Thieves",
+        "title": "Night Thieves",
         "url": "https://www.dmsguild.com/product/376808/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Jay H. Anderson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -307,10 +322,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 7.99,
+        "payWhatYouWant": false,
+        "price": 5.99,
         "product_id": "376810",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-14 The City That Should Not Be",
+        "title": "The City That Should Not Be",
         "url": "https://www.dmsguild.com/product/376810/?affiliate_id=171040"
     },
     {
@@ -332,13 +349,14 @@
         "product_id": "377557",
         "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-15 Frozen Whispers",
+        "title": "Frozen Whispers",
         "url": "https://www.dmsguild.com/product/377557/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Anthony Joyce-Rivera",
+            "Carl Sibley"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -346,19 +364,21 @@
         "code": "DDAL-DRW-EP-03",
         "date_created": "20211130",
         "full_title": "DDAL-DRW-EP-03 When the Lights Went Out in Candlekeep",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
-        "price": null,
+        "level_range": "5-16",
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "378931",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW-EP-03 When the Lights Went Out in Candlekeep",
+        "title": "When the Lights Went Out in Candlekeep",
         "url": "https://www.dmsguild.com/product/378931/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Jonathan Connor Self"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -366,19 +386,21 @@
         "code": "DDAL-DRW-16",
         "date_created": "20220201",
         "full_title": "DDAL-DRW-16 Uprising",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 5.99,
         "product_id": "385383",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-16 Uprising",
+        "title": "Uprising",
         "url": "https://www.dmsguild.com/product/385383/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Paul Gabat"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -386,19 +408,21 @@
         "code": "DDAL-DRW-17",
         "date_created": "20220310",
         "full_title": "DDAL-DRW-17 Expedition to the Supreme Forge",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "389768",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-17 Expedition to the Supreme Forge",
+        "title": "Expedition to the Supreme Forge",
         "url": "https://www.dmsguild.com/product/389768/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Brandes Stoddard"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -406,19 +430,22 @@
         "code": "DDAL-DRW-18",
         "date_created": "20220415",
         "full_title": "DDAL-DRW-18 Against the Machine",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "393665",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-18 Against the Machine",
+        "title": "Against the Machine",
         "url": "https://www.dmsguild.com/product/393665/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Andy Dempz",
+            "Ginny Loveday"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -429,10 +456,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 164.77,
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "402209",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-EP-04 Tears Among the Stars",
+        "title": "Tears Among the Stars",
         "url": "https://www.dmsguild.com/product/402209/?affiliate_id=171040"
     },
     {
@@ -454,13 +483,13 @@
         "product_id": "402519",
         "season": null,
         "tiers": 4,
-        "title": "DDAL-DRW-19 Fall the Cold Night",
+        "title": "Fall the Cold Night",
         "url": "https://www.dmsguild.com/product/402519/?affiliate_id=171040"
     },
     {
         "apl": 18,
         "authors": [
-            "D&D Adventurers League"
+            "Alan Patrick"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -468,13 +497,15 @@
         "code": "DDAL-DRW-20",
         "date_created": "20220803",
         "full_title": "DDAL-DRW-20 The Death of Szass Tam",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": null,
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "405259",
+        "season": null,
         "tiers": 4,
-        "title": "DDAL-DRW-20 The Death of Szass Tam",
+        "title": "The Death of Szass Tam",
         "url": "https://www.dmsguild.com/product/405259/?affiliate_id=171040"
     },
     {
@@ -496,7 +527,7 @@
         "product_id": "412528",
         "season": null,
         "tiers": 1,
-        "title": "DDAL-DRW-INT-01 Big Problems",
+        "title": "Big Problems",
         "url": "https://www.dmsguild.com/product/412528/?affiliate_id=171040"
     },
     {
@@ -518,7 +549,7 @@
         "product_id": "412533",
         "season": null,
         "tiers": 1,
-        "title": "DDAL-DRW-INT-02 Watchers of the Trollclaws 1",
+        "title": "Watchers of the Trollclaws 1",
         "url": "https://www.dmsguild.com/product/412533/?affiliate_id=171040"
     },
     {
@@ -540,7 +571,7 @@
         "product_id": "413443",
         "season": null,
         "tiers": 1,
-        "title": "DDAL-DRW-INT-03 A Red Day for Elventree",
+        "title": "A Red Day for Elventree",
         "url": "https://www.dmsguild.com/product/413443/?affiliate_id=171040"
     },
     {
@@ -562,7 +593,7 @@
         "product_id": "413446",
         "season": null,
         "tiers": 1,
-        "title": "DDAL-DRW-INT-04 Tales of Fang and Claw",
+        "title": "Tales of Fang and Claw",
         "url": "https://www.dmsguild.com/product/413446/?affiliate_id=171040"
     }
 ]
