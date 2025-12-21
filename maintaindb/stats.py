@@ -67,7 +67,7 @@ def generate_stats():
         expected_params = {
             'product_id', 'title', 'authors', 'code', 'date_created', 'hours', 
             'tiers', 'apl', 'level_range', 'url', 'campaigns', 'season', 
-            'is_adventure', 'price', 'payWhatYouWant', 'suggestedPrice', 'needs_review'
+            'is_adventure', 'price', 'payWhatYouWant', 'suggestedPrice', 'needs_review', 'seed'
         }
         
         for d in raw_data:
