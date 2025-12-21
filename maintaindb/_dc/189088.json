@@ -1,7 +1,8 @@
 {
     "apl": 1,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Alan Patrick"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "189088",
     "season": null,
     "tiers": 1,
-    "title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
+    "title": "CORE 2-2 Songs of Law & Chaos",
     "url": "https://www.dmsguild.com/product/189088/?affiliate_id=171040"
 }

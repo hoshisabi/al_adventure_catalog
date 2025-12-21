@@ -1,7 +1,8 @@
 {
     "apl": 1,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Peter Sleijpen"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "185274",
     "season": null,
     "tiers": 1,
-    "title": "CCC-BMG-02 CORE 1-2 A Cog in the Wheel",
+    "title": "CORE 1-2 A Cog in the Wheel",
     "url": "https://www.dmsguild.com/product/185274/?affiliate_id=171040"
 }

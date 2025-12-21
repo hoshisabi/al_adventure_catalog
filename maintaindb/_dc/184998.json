@@ -1,7 +1,8 @@
 {
     "apl": 1,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "M. Sean Molley"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "184998",
     "season": null,
     "tiers": 1,
-    "title": "CCC-BMG-01 CORE 1-1 A Scream in the Night",
+    "title": "CORE 1-1 A Scream in the Night",
     "url": "https://www.dmsguild.com/product/184998/?affiliate_id=171040"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 7,
     "authors": [
         "Alan Patrick"
     ],
@@ -12,10 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "200484",
     "season": null,
     "tiers": 2,
-    "title": "CCC-UCON-01 Blood & Fog",
+    "title": "Blood & Fog",
     "url": "https://www.dmsguild.com/product/200484/?affiliate_id=171040"
 }

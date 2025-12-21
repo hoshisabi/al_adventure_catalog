@@ -1,7 +1,8 @@
 {
-    "apl": 5,
+    "apl": 7,
     "authors": [
         "Alex Kammer",
+        "Ed Greenwood",
         "Gamehole Con"
     ],
     "campaigns": [
@@ -12,11 +13,12 @@
     "full_title": "CCC-GHC-01 Tharaera Lost",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "200723",
     "season": null,
     "tiers": 2,
-    "title": "CCC-GHC-01 Tharaera Lost",
+    "title": "Tharaera Lost",
     "url": "https://www.dmsguild.com/product/200723/?affiliate_id=171040"
 }

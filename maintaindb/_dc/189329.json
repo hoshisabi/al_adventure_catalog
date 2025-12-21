@@ -1,7 +1,8 @@
 {
     "apl": 5,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Dave Zajac"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "189329",
     "season": null,
     "tiers": 2,
-    "title": "CCC-BMG-07 HULB 1-1 Hulburg Rebuilding",
+    "title": "HULB 1-1 Hulburg Rebuilding",
     "url": "https://www.dmsguild.com/product/189329/?affiliate_id=171040"
 }

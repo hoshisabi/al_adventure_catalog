@@ -1,7 +1,8 @@
 {
     "apl": 11,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Greg Marks"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +12,12 @@
     "full_title": "CCC-BMG-13 PHLAN 1-1 Sepulture",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "11",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "189520",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-13 PHLAN 1-1 Sepulture",
-    "url": "https://www.dmsguild.com/product/189520/CCCBMG13-PHLAN-11-Sepulture?filters=45470_0_0_0_0_0_0_0"
+    "title": "PHLAN 1-1 Sepulture",
+    "url": "https://www.dmsguild.com/product/189520/?affiliate_id=171040"
 }
