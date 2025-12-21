@@ -1120,7 +1120,7 @@
         "url": "https://www.dmsguild.com/product/221934/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Sean Payne",
             "David Morris",
@@ -1135,13 +1135,16 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "223038",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SRCC01-01 Trouble in the Old City",
-        "url": "https://www.dmsguild.com/product/223038/CCCSRCC0101-Trouble-in-the-Old-City?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Trouble in the Old City",
+        "url": "https://www.dmsguild.com/product/223038/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Jeremy Forbing",
             "Sean Payne",
@@ -1157,13 +1160,16 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "223039",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SRCC01-02 Down the River of Snakes",
-        "url": "https://www.dmsguild.com/product/223039/CCCSRCC0102-Down-the-River-of-Snakes?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Down the River of Snakes",
+        "url": "https://www.dmsguild.com/product/223039/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Jeremy Forbing",
             "Sean Payne",
@@ -1179,10 +1185,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "223041",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SRCC01-03 Altar of the Smoldering Eye",
-        "url": "https://www.dmsguild.com/product/223041/CCCSRCC0103-Altar-of-the-Smoldering-Eye?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Altar of the Smoldering Eye",
+        "url": "https://www.dmsguild.com/product/223041/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1197,11 +1206,14 @@
         "full_title": "CCCTHENT01-01 Beneath the Surface",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "223663",
+        "season": null,
         "tiers": 1,
         "title": "CCCTHENT01-01 Beneath the Surface",
-        "url": "https://www.dmsguild.com/product/223663/CCCTHENT0101-Beneath-the-Surface?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/223663/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1216,11 +1228,14 @@
         "full_title": "CCCTHENT01-02 Those That Dwell Beneath",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "223665",
+        "season": null,
         "tiers": 1,
         "title": "CCCTHENT01-02 Those That Dwell Beneath",
-        "url": "https://www.dmsguild.com/product/223665/CCCTHENT0102-Those-That-Dwell-Beneath?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/223665/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1235,11 +1250,14 @@
         "full_title": "CCCTHENT01-03 The Dreaming Relic",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "223667",
+        "season": null,
         "tiers": 1,
         "title": "CCCTHENT01-03 The Dreaming Relic",
-        "url": "https://www.dmsguild.com/product/223667/CCCTHENT0103-The-Dreaming-Relic?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/223667/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -1299,7 +1317,7 @@
         "url": "https://www.dmsguild.com/product/225185/CCCBMG21-HULB-23-Winters-Sharp-Bite?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 3,
+        "apl": null,
         "authors": [
             "William Beers"
         ],
@@ -1312,11 +1330,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "226911",
         "season": null,
         "tiers": 1,
-        "title": "CCC-KUMORI-01-02 Wretches",
+        "title": "Wretches",
         "url": "https://www.dmsguild.com/product/226911/?affiliate_id=171040"
     },
     {
@@ -1329,15 +1348,16 @@
         ],
         "code": "CCC-KUMORI-01-01",
         "date_created": "20171120",
-        "full_title": "CCC-KUMORI-01-01  Wreckers",
+        "full_title": "CCC-KUMORI-01-01 Wreckers",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "226912",
         "season": null,
         "tiers": 1,
-        "title": "CCC-KUMORI-01-01  Wreckers",
+        "title": "Wreckers",
         "url": "https://www.dmsguild.com/product/226912/?affiliate_id=171040"
     },
     {
@@ -1358,11 +1378,14 @@
         "full_title": "CCC-TRI-02 Impression Left Behind (Part Two of the Yulash Series)",
         "hours": "",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "227696",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-02 Impression Left Behind Part Two of the Yulash Series",
-        "url": "https://www.dmsguild.com/product/227696/CCCTRI02-Impression-Left-Behind-Part-Two-of-the-Yulash-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Impression Left Behind Part Two of the Yulash Series",
+        "url": "https://www.dmsguild.com/product/227696/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1378,10 +1401,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "227812",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-ODFC01-01 Hammer and Anvil",
-        "url": "https://www.dmsguild.com/product/227812/CCCODFC0101-Hammer-and-Anvil?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Hammer and Anvil",
+        "url": "https://www.dmsguild.com/product/227812/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -1396,11 +1422,14 @@
         "full_title": "CCC-ODFC01-02 Black Blades, Black Wings",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "227841",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-ODFC01-02 Black Blades, Black Wings",
-        "url": "https://www.dmsguild.com/product/227841/CCCODFC0102-Black-Blades-Black-Wings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Black Blades, Black Wings",
+        "url": "https://www.dmsguild.com/product/227841/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -1415,11 +1444,14 @@
         "full_title": "CCC-ODFC01-03 Elders' Eyes Upon You",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "227845",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-ODFC01-03 Elders' Eyes Upon You",
-        "url": "https://www.dmsguild.com/product/227845/CCCODFC0103-Elders-Eyes-Upon-You?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Elders' Eyes Upon You",
+        "url": "https://www.dmsguild.com/product/227845/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1575,11 +1607,14 @@
         "full_title": "CCC-SFBay-02-01 Old Enemies Arise",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "230005",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SFBay-02-01 Old Enemies Arise",
-        "url": "https://www.dmsguild.com/product/230005/CCCSFBay0201-Old-Enemies-Arise?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Old Enemies Arise",
+        "url": "https://www.dmsguild.com/product/230005/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -1658,11 +1693,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "231700",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BLD 01-03 Bleeding Gate Lineage",
+        "title": "01-03 Bleeding Gate Lineage",
         "url": "https://www.dmsguild.com/product/231700/?affiliate_id=171040"
     },
     {
@@ -1680,11 +1716,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "232428",
         "season": null,
         "tiers": 2,
-        "title": "CCC-SFBAY-04-02 Under Earth & Stone",
+        "title": "Under Earth & Stone",
         "url": "https://www.dmsguild.com/product/232428/?affiliate_id=171040"
     },
     {
@@ -1702,10 +1739,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "232430",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SFBAY-04-01 The Cornflower Hive",
-        "url": "https://www.dmsguild.com/product/232430/CCCSFBAY0401-The-Cornflower-Hive?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Cornflower Hive",
+        "url": "https://www.dmsguild.com/product/232430/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1718,10 +1758,11 @@
         ],
         "code": "CCC-Anime-1-1",
         "date_created": "20180313",
-        "full_title": "CCC - Anime - 1-1 Legend of the Sword Bandit Surprise",
+        "full_title": "CCC-Anime-1-1 Legend of the Sword Bandit Surprise",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "236786",
         "season": null,
@@ -1740,15 +1781,16 @@
         ],
         "code": "CCC-Anime-1-2",
         "date_created": "20180313",
-        "full_title": "CCC - Anime - 1-2 Let's Find the Sword, GO!",
+        "full_title": "CCC-Anime-1-2 Let's Find the Sword, GO!",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "236787",
         "season": null,
         "tiers": 2,
-        "title": "CCC - Anime - 1-2 Let's Find the Sword, GO!",
+        "title": "Let's Find the Sword, GO!",
         "url": "https://www.dmsguild.com/product/236787/?affiliate_id=171040"
     },
     {
@@ -1762,15 +1804,16 @@
         ],
         "code": "CCC-Anime-1-3",
         "date_created": "20180313",
-        "full_title": "CCC - Anime - 1-3 Star Sword Return",
+        "full_title": "CCC-Anime-1-3 Star Sword Return",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "236788",
         "season": null,
         "tiers": 2,
-        "title": "CCC - Anime - 1-3 Star Sword Return",
+        "title": "Star Sword Return",
         "url": "https://www.dmsguild.com/product/236788/?affiliate_id=171040"
     },
     {
@@ -1788,10 +1831,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.0,
         "product_id": "237193",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-GEL-01 Bedlam at the Benefit",
-        "url": "https://www.dmsguild.com/product/237193/CCCGEL01-Bedlam-at-the-Benefit?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Bedlam at the Benefit",
+        "url": "https://www.dmsguild.com/product/237193/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1806,11 +1852,14 @@
         "full_title": "CCC-SCAR01-01 Corrupted Artery",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "237410",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SCAR01-01 Corrupted Artery",
-        "url": "https://www.dmsguild.com/product/237410/CCCSCAR0101-Corrupted-Artery?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Corrupted Artery",
+        "url": "https://www.dmsguild.com/product/237410/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1826,10 +1875,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "238181",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-CIC-06 End of the Line",
-        "url": "https://www.dmsguild.com/product/238181/CCCCIC06-End-of-the-Line?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "End of the Line",
+        "url": "https://www.dmsguild.com/product/238181/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2369,10 +2421,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "0",
+        "payWhatYouWant": false,
+        "price": 1.0,
         "product_id": "240922",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PRIORY-01 Maritime Mayhem",
-        "url": "https://www.dmsguild.com/product/240922/CCCPRIORY01-Maritime-Mayhem&affiliate_id=171040"
+        "title": "Maritime Mayhem",
+        "url": "https://www.dmsguild.com/product/240922/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2388,10 +2443,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "0",
+        "payWhatYouWant": false,
+        "price": 1.0,
         "product_id": "240924",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PRIORY-02 Prison Pitfalls",
-        "url": "https://www.dmsguild.com/product/240924/CCCPRIORY02-Prison-Pitfalls&affiliate_id=171040"
+        "title": "Prison Pitfalls",
+        "url": "https://www.dmsguild.com/product/240924/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2407,10 +2465,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "0",
+        "payWhatYouWant": false,
+        "price": 1.0,
         "product_id": "240925",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PRIORY-03 Truths in Time",
-        "url": "https://www.dmsguild.com/product/240925/CCCPRIORY03-Truths-in-Time&affiliate_id=171040"
+        "title": "Truths in Time",
+        "url": "https://www.dmsguild.com/product/240925/?affiliate_id=171040"
     },
     {
         "apl": 5,
