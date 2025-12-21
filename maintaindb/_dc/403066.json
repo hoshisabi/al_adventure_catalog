@@ -11,9 +11,13 @@
     "full_title": "Lost in Reverie (WBW-DC-PHP-REV-01)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "403066",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Lost in Reverie",
-    "url": "https://www.dmsguild.com/product/403066/Lost-in-Reverie-WBWDCPHPREV01?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/403066/?affiliate_id=171040"
 }

@@ -1,7 +1,11 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
-        "Baldman Games"
+        "Baldman Games",
+        "Jason Gonding",
+        "Eric Menge",
+        "Ben Heisler",
+        "Paige Leitman"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +15,12 @@
     "full_title": "CCC-BMG-16 ELM 1-1 The Sage of Cormanthor",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "203366",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-BMG-16 ELM 1-1 The Sage of Cormanthor",
-    "url": "https://www.dmsguild.com/product/203366/CCCBMG16-ELM-11-The-Sage-of-Cormanthor?filters=45470_0_0_0_0_0_0_0"
+    "title": "ELM 1-1 The Sage of Cormanthor",
+    "url": "https://www.dmsguild.com/product/203366/?affiliate_id=171040"
 }

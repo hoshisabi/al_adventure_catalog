@@ -1,6 +1,6 @@
 [
     {
-        "apl": 1,
+        "apl": null,
         "authors": [
             "Shawn Merwin"
         ],
@@ -10,15 +10,15 @@
         "code": "DDAL10-00",
         "date_created": "20200914",
         "full_title": "DDAL10-00 Ice Road Trackers",
-        "hours": "1-4",
+        "hours": "1",
         "is_adventure": true,
-        "level_range": "1-2",
+        "level_range": null,
         "payWhatYouWant": false,
-        "price": 4.99,
+        "price": 3.74,
         "product_id": "328476",
         "season": "Plague of Ancients",
-        "tiers": 1,
-        "title": "DDAL10-00 Ice Road Trackers",
+        "tiers": 0,
+        "title": "Ice Road Trackers",
         "url": "https://www.dmsguild.com/product/328476/?affiliate_id=171040"
     },
     {

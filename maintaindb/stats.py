@@ -45,6 +45,20 @@ def _parse_hours_string(hours_str):
         return []
     return hours_list
 
+def is_seed_required_code(code):
+    """Check if code belongs to POA, WBW, or SJ campaigns that require seeds.
+    Returns (is_required, season_name) tuple."""
+    if not code:
+        return False, None
+    code_upper = code.upper()
+    if 'POA' in code_upper or code_upper.startswith('DC-POA'):
+        return True, 'Icewind Dale (DC-POA)'
+    if 'WBW' in code_upper or code_upper.startswith('WBW-DC') or code_upper.startswith('DC-WBW'):
+        return True, 'Wild Beyond the Witchlight (WBW-DC)'
+    if code_upper.startswith('SJ-DC') or code_upper.startswith('DC-SJ'):
+        return True, 'Spelljammer (SJ-DC)'
+    return False, None
+
 def generate_stats():
     with open(adventures_input_path) as f:
         raw_data = json.load(f)
@@ -96,7 +110,8 @@ def generate_stats():
         'tier': defaultdict(int),
         'duration': defaultdict(int),
         'campaign': defaultdict(int),
-        'season': defaultdict(int)
+        'season': defaultdict(int),
+        'seed_by_season': defaultdict(lambda: defaultdict(int))  # season -> seed -> count
     }
 
     for adventure in data:
@@ -125,6 +140,18 @@ def generate_stats():
             stats['season'][adventure.season] += 1
         else:
             stats['season']['Unknown'] += 1
+        
+        # Collect seed statistics for POA/WBW/SJ campaigns
+        if adventure.code:
+            is_required, season_name = is_seed_required_code(adventure.code)
+            if is_required and hasattr(adventure, 'seed') and adventure.seed:
+                stats['seed_by_season'][season_name][adventure.seed] += 1
+    
+    # Convert nested defaultdicts to regular dicts for JSON serialization
+    stats['seed_by_season'] = {
+        season: dict(seed_counts) 
+        for season, seed_counts in stats['seed_by_season'].items()
+    }
             
     with open(stats_output_path, 'w') as f:
         json.dump(stats, f, indent=4)

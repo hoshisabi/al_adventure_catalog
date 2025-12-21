@@ -28,25 +28,35 @@ class AdventureDataNormalizer:
 
         # Code and Campaigns
         code, campaigns = get_adventure_code_and_campaigns(normalized_data["full_title"]) or (None, [])
-        normalized_data["code"] = code
+        # Normalize code to all uppercase
+        normalized_data["code"] = code.upper() if code else None
         normalized_data["campaigns"] = campaigns
-        normalized_data["season"] = get_season(code)
+        normalized_data["season"] = get_season(normalized_data["code"])
 
         # Title - strip the code from full_title if code was found
         if code and normalized_data["full_title"]:
+            # Normalize Unicode dash variants to standard hyphen-minus for matching
+            # U+2010 HYPHEN, U+2011 NON-BREAKING HYPHEN, U+2012 FIGURE DASH, 
+            # U+2013 EN DASH, U+2014 EM DASH, U+2015 HORIZONTAL BAR, U+2212 MINUS SIGN
+            dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+            title = normalized_data["full_title"]
+            normalized_title_for_strip = title
+            for dash_char in dash_variants:
+                normalized_title_for_strip = normalized_title_for_strip.replace(dash_char, '-')
+            
             # Remove the code (and any trailing spaces/dashes) from the beginning of full_title
             # The code might be followed by a space, dash, or nothing
-            title = normalized_data["full_title"]
             # Try to remove the code with various possible separators
             code_removed = False
             for separator in [' ', '-', '']:
                 code_prefix = code + separator
-                if title.startswith(code_prefix):
+                if normalized_title_for_strip.startswith(code_prefix):
+                    # Use the original title for slicing to preserve Unicode characters
                     title = title[len(code_prefix):].strip()
                     code_removed = True
                     break
             # If code is at the start but no separator matched, remove it directly
-            if not code_removed and title.startswith(code):
+            if not code_removed and normalized_title_for_strip.startswith(code):
                 title = title[len(code):].strip()
         else:
             # Fallback to pattern matching if no code was found

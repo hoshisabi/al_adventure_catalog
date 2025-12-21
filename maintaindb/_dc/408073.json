@@ -12,9 +12,10 @@
     "hours": 4,
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 4.00,
+    "price": 4.0,
     "product_id": "408073",
     "tiers": 2,
     "title": "Pome and Prejudice",
-    "url": "https://www.dmsguild.com/product/408073/?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/408073/?affiliate_id=171040",
+    "seed": "Dryad Despair"
 }

@@ -11,9 +11,13 @@
     "full_title": "WBW-DC-PHP-TYM-02 we woke up in the sky",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "408528",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "we woke up in the sky",
-    "url": "https://www.dmsguild.com/product/408528/WBWDCPHPTYM02-we-woke-up-in-the-sky?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408528/?affiliate_id=171040"
 }

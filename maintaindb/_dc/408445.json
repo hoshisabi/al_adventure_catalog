@@ -11,9 +11,13 @@
     "full_title": "WBW-DC-KW-02 Fair Felonious Faces",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "408445",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Face Off!",
     "tiers": 2,
     "title": "Fair Felonious Faces",
-    "url": "https://www.dmsguild.com/product/408445/WBWDCKW02-Fair-Felonious-Faces?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408445/?affiliate_id=171040"
 }

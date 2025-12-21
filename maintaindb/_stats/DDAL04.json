@@ -2,6 +2,98 @@
     {
         "apl": null,
         "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-02",
+        "date_created": "20160405",
+        "full_title": "DDAL04-02 The Beast",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "178793",
+        "season": "Curse of Strahd",
+        "tiers": 1,
+        "title": "The Beast",
+        "url": "https://www.dmsguild.com/product/178793/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Jerry LeNeave"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-03",
+        "date_created": "20160405",
+        "full_title": "DDAL04-03 The Executioner",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "178794",
+        "season": "Curse of Strahd",
+        "tiers": 1,
+        "title": "The Executioner",
+        "url": "https://www.dmsguild.com/product/178794/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Alaniz"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-04",
+        "date_created": "20160405",
+        "full_title": "DDAL04-04 The Marionette",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "178795",
+        "season": "Curse of Strahd",
+        "tiers": 1,
+        "title": "The Marionette",
+        "url": "https://www.dmsguild.com/product/178795/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ron Lundeen"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-05",
+        "date_created": "20160405",
+        "full_title": "DDAL04-05 The Seer",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "178796",
+        "season": "Curse of Strahd",
+        "tiers": 1,
+        "title": "The Seer",
+        "url": "https://www.dmsguild.com/product/178796/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
             "Ken Hart"
         ],
         "campaigns": [

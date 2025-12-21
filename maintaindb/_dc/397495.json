@@ -12,8 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "397495",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "A Rainbow For The Storm",
-    "url": "https://www.dmsguild.com/product/397495/WBWDCCBB05-A-Rainbow-For-The-Storm?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/397495/?affiliate_id=171040"
 }

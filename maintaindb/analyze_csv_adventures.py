@@ -502,6 +502,10 @@ def generate_report(product_info: Dict[str, Dict], missing: List[Dict], code_to_
             <h3>Could Update Seeds</h3>
             <div class="number">{len(could_update_seeds)}</div>
         </div>
+        <div class="stat-box">
+            <h3>POA/WBW/SJ Missing Seeds</h3>
+            <div class="number">{len(seed_required_missing_seeds)}</div>
+        </div>
     </div>
 """)
         
@@ -596,6 +600,161 @@ def generate_report(product_info: Dict[str, Dict], missing: List[Dict], code_to_
             f.write("""
             </tbody>
         </table>
+    </div>
+""")
+        
+        # POA/WBW/SJ adventures missing seeds
+        if seed_required_missing_seeds:
+            f.write(f"""
+    <div class="section">
+        <h2>POA/WBW/SJ Adventures Missing Seeds ({len(seed_required_missing_seeds)})</h2>
+        <div class="warning">
+            <p><strong>Warning:</strong> These adventures belong to campaigns that require seeds (DC-POA, WBW-DC, or SJ-DC), but they don't have seed information. They should have seeds!</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Code</th>
+                    <th>Title</th>
+                    <th>Season</th>
+                    <th>DMsGuild URL</th>
+                </tr>
+            </thead>
+            <tbody>
+""")
+            for info in sorted(seed_required_missing_seeds, key=lambda x: (x.get('season', ''), x.get('code', ''))):
+                url = info.get('url', '')
+                if url:
+                    url_display = url
+                    url_link = url
+                else:
+                    url_display = 'N/A'
+                    url_link = '#'
+                f.write(f"""
+                <tr>
+                    <td class="product-id">{info['product_id']}</td>
+                    <td class="code">{info.get('code', 'N/A')}</td>
+                    <td>{info.get('title', 'N/A')}</td>
+                    <td>{info.get('season', 'N/A')}</td>
+                    <td><a href="{url_link}" target="_blank" class="url-link">{url_display}</a></td>
+                </tr>
+""")
+            
+            f.write("""
+            </tbody>
+        </table>
+    </div>
+""")
+        
+        # Seed Statistics by Season
+        if seed_stats_by_season:
+            f.write("""
+    <div class="section">
+        <h2>Seed Usage Statistics by Season</h2>
+        <p>Pie charts showing how popular each seed is for POA, WBW, and SJ campaigns.</p>
+        <div class="charts-grid">
+""")
+            
+            # Generate charts for each season
+            chart_id = 0
+            colors = [
+                '#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', 
+                '#1abc9c', '#e67e22', '#34495e', '#16a085', '#27ae60',
+                '#c0392b', '#8e44ad', '#2980b9', '#d35400', '#7f8c8d'
+            ]
+            
+            for season_name, seed_counts in sorted(seed_stats_by_season.items()):
+                if not seed_counts:
+                    continue
+                
+                # Prepare data for chart
+                seeds = list(seed_counts.keys())
+                counts = list(seed_counts.values())
+                total = sum(counts)
+                
+                # Generate colors for this chart
+                chart_colors = []
+                for i in range(len(seeds)):
+                    chart_colors.append(colors[i % len(colors)])
+                
+                canvas_id = f"chart_{chart_id}"
+                chart_id += 1
+                
+                f.write(f"""
+            <div class="season-stats">
+                <h3>{season_name}</h3>
+                <p><strong>Total adventures with seeds: {total}</strong></p>
+                <div class="chart-container">
+                    <canvas id="{canvas_id}"></canvas>
+                </div>
+                <div class="seed-list">
+""")
+                
+                # List seeds with counts, sorted by count descending
+                sorted_seeds = sorted(seed_counts.items(), key=lambda x: x[1], reverse=True)
+                for seed, count in sorted_seeds:
+                    percentage = (count / total * 100) if total > 0 else 0
+                    f.write(f"""
+                    <div class="seed-item">
+                        <span>{seed}</span>
+                        <span class="seed-count">{count} ({percentage:.1f}%)</span>
+                    </div>
+""")
+                
+                f.write("""
+                </div>
+            </div>
+""")
+                
+                # Generate JavaScript for this chart
+                f.write(f"""
+            <script>
+                (function() {{
+                    const ctx_{canvas_id} = document.getElementById('{canvas_id}');
+                    new Chart(ctx_{canvas_id}, {{
+                        type: 'pie',
+                        data: {{
+                            labels: {json.dumps(seeds)},
+                            datasets: [{{
+                                data: {json.dumps(counts)},
+                                backgroundColor: {json.dumps(chart_colors)}
+                            }}]
+                        }},
+                        options: {{
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {{
+                                legend: {{
+                                    position: 'right',
+                                    labels: {{
+                                        font: {{
+                                            size: 12
+                                        }},
+                                        boxWidth: 15,
+                                        padding: 10
+                                    }}
+                                }},
+                                tooltip: {{
+                                    callbacks: {{
+                                        label: function(context) {{
+                                            const label = context.label || '';
+                                            const value = context.parsed || 0;
+                                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                            const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                            return label + ': ' + value + ' (' + percentage + '%)';
+                                        }}
+                                    }}
+                                }}
+                            }}
+                        }}
+                    }});
+                }})();
+            </script>
+""")
+            
+            f.write("""
+        </div>
     </div>
 """)
         

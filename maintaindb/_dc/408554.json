@@ -1,19 +1,23 @@
 {
-    "apl": 4,
+    "apl": 3,
     "authors": [
         "Pauline Feraren"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-PHP-HOE-01",
+    "code": "WBW-DC-PHP-HOE1-01",
     "date_created": "20220831",
-    "full_title": "WBW-DC-PHP-HOE-01 The Mill of Mar-Itez",
+    "full_title": "The Mill of Mar-Itez (WBW-DC-PHP-HOE1-01)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "408554",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "The Mill of Mar-Itez",
-    "url": "https://www.dmsguild.com/product/408554/WBWDCPHPHOE01-The-Mill-of-MarItez?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/408554/?affiliate_id=171040"
 }

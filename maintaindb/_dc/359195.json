@@ -13,8 +13,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "359195",
+    "season": "Icewind Dale",
+    "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "DC-POA-CODEX-02 Bear in Mind",
-    "url": "https://www.dmsguild.com/product/359195/DCPOACODEX02-Bear-in-Mind?filters=0_0_100057_0_0_0_0_0"
+    "title": "Bear in Mind",
+    "url": "https://www.dmsguild.com/product/359195/?affiliate_id=171040"
 }

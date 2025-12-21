@@ -11,11 +11,12 @@
     "full_title": "WBW-DC-ZODIAC-00 Luna Park",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "382130",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Luna Park",
     "url": "https://www.dmsguild.com/product/382130/?affiliate_id=171040"

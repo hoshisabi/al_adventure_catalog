@@ -11,10 +11,12 @@
     "full_title": "Return of the Lizard King",
     "hours": "4",
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 5.95,
     "product_id": "220608",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "Return of the Lizard King",
     "url": "https://www.dmsguild.com/product/220608/?affiliate_id=171040"
 }

@@ -11,9 +11,13 @@
     "full_title": "DC-PoA-TDG01-05 Curse of Slaad",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "369145",
+    "season": "Icewind Dale",
+    "seed": "Goat-ball!",
     "tiers": 2,
-    "title": "DC-PoA-TDG01-05 Curse of Slaad",
-    "url": "https://www.dmsguild.com/product/369145/DCPoATDG0105-Curse-of-Slaad?filters=0_0_100057_0_0_0_0_0"
+    "title": "Curse of Slaad",
+    "url": "https://www.dmsguild.com/product/369145/?affiliate_id=171040"
 }

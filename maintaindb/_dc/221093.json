@@ -12,8 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "221093",
+    "season": null,
     "tiers": 2,
     "title": "Heart of the Wild",
     "url": "https://www.dmsguild.com/product/221093/?affiliate_id=171040"

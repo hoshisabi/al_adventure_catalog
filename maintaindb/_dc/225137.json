@@ -12,14 +12,16 @@
     "campaigns": [
         null
     ],
-    "code": null,
+    "code": "DDHC-TOA-12",
     "date_created": "20171029",
-    "full_title": "Encounters in the Jungles of Chult",
+    "full_title": "DDHC-TOA-12 Encounters in the Jungles of Chult",
     "hours": null,
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": null,
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "225137",
+    "season": null,
     "tiers": null,
     "title": "Encounters in the Jungles of Chult",
     "url": "https://www.dmsguild.com/product/225137/?affiliate_id=171040"

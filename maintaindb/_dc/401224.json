@@ -7,13 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-LSN-03",
-    "date_created": "20220628",
+    "date_created": "20220629",
     "full_title": "That Nice Old Lady (WBW-DC-LSN-03)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.98,
     "product_id": "401224",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "That Nice Old Lady",
-    "url": "https://www.dmsguild.com/product/401224/That-Nice-Old-Lady-WBWDCLSN03?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/401224/?affiliate_id=171040"
 }
