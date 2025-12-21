@@ -6,20 +6,21 @@ import os
 import shutil
 import sys
 
-import pathlib
+from pathlib import Path
 from bs4 import BeautifulSoup
 
 from .adventure import DungeonCraft, sanitize_filename, extract_data_from_html, merge_adventure_data
+from .paths import DMSGUILDINFO_DIR, DC_DIR, DMSGUILDINFO_PROCESSED_DIR
 
 logger = logging.getLogger()
 logger.level = logging.INFO
 stream_handler = logging.StreamHandler(sys.stdout)
 logger.addHandler(stream_handler)
 
-root = str(pathlib.Path(__file__).parent.absolute())
-input_html_path = os.path.join(root, 'dmsguildinfo')
-output_json_path = os.path.join(root, '_dc')
-processed_html_path = os.path.join(input_html_path, 'processed')
+# Use centralized path configuration
+input_html_path = str(DMSGUILDINFO_DIR)
+output_json_path = str(DC_DIR)
+processed_html_path = str(DMSGUILDINFO_PROCESSED_DIR)
 
 
 def process_downloads():

@@ -7,6 +7,7 @@ import datetime
 from collections import defaultdict
 
 from .adventure import DungeonCraft
+from .paths import STATS_JSON, ALL_ADVENTURES_ASSETS
 import glob
 
 logger = logging.getLogger()
@@ -14,9 +15,9 @@ logger.level = logging.INFO
 stream_handler = logging.StreamHandler(sys.stdout)
 logger.addHandler(stream_handler)
 
-root = str(pathlib.Path(__file__).parent.absolute())
-stats_output_path = os.path.join(root, '..', 'assets', 'data', 'stats.json')
-adventures_input_path = os.path.join(root, '..', 'assets', 'data', 'all_adventures.json')
+# Use centralized path configuration
+stats_output_path = str(STATS_JSON)
+adventures_input_path = str(ALL_ADVENTURES_ASSETS)
 
 def _parse_hours_string(hours_str):
     """Parse hours string into a list of hour values. Handles ranges and single values."""

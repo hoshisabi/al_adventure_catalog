@@ -8,6 +8,8 @@ GOTO :SERVE
 
 :BUILD
     echo Running aggregator.py...
+    REM Note: Script uses centralized path configuration and works regardless of CWD,
+    REM but this .bat file assumes it's run from the project root (where pyproject.toml is).
     uv run python -m maintaindb.aggregator
     IF %ERRORLEVEL% NEQ 0 (
         echo Aggregator failed.
