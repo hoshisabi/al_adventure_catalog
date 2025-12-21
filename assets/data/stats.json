@@ -45,5 +45,57 @@
         "Spelljammer": 112,
         "Planescape": 36
     },
-    "seed_by_season": {}
+    "seed_by_season": {
+        "Icewind Dale (DC-POA)": {
+            "Awake and Afraid": 12,
+            "Out of the Woods": 10,
+            "Chwinga-chwinga. CHWINGA!": 3,
+            "The Warmest Day": 6,
+            "Once Bitten, Ice Shy": 8,
+            "I'd Like to Make a Return Please": 14,
+            "Burrowing Borrowers": 8,
+            "In Too Deep": 9,
+            "Breaking Ice-olation": 9,
+            "Caravanning!": 5,
+            "A Dark Horse": 7,
+            "Do You Know the Way to Lonely Wood?": 15,
+            "The Muttering Gnome": 8,
+            "Winter Over": 6,
+            "Holy Auril, Mother of Cod": 4,
+            "The Littlest Squidling": 6,
+            "This Seems Familiar": 10,
+            "Goat-ball!": 5,
+            "My, What Big Feet You Have": 8,
+            "Ageless Hunger": 7,
+            "I'd Like to Make a Return, Please": 1,
+            "Snipe Hunt": 6,
+            "Special": 1,
+            "X Marks the Spot": 4
+        },
+        "Wild Beyond the Witchlight (WBW-DC)": {
+            "Create a Domain of Delight": 199,
+            "Wildest Dreams": 1,
+            "A Draconic Request": 3,
+            "Party Time!": 2,
+            "Face Off!": 3,
+            "Where are We?": 4,
+            "Sticky Little Fingers": 1,
+            "Lending a Hand": 2,
+            "Unknown Seed": 1,
+            "Blood Bath": 2,
+            "A Host Spurned": 2,
+            "Dryad Despair": 1,
+            "Woe Unto Ewe": 2,
+            "Where the Winds Take Us": 1,
+            "Wild Hunt": 1
+        },
+        "Spelljammer (SJ-DC)": {
+            "Create a Location in Wildspace": 101,
+            "Saint Argol\u00e2\u20ac\u2122s Fire": 1,
+            "Unexpected Passenger": 1,
+            "Headed My Way?": 1,
+            "Saint Argols Fire": 1,
+            "Saint Argol's Fire": 1
+        }
+    }
 }
