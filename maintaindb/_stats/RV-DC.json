@@ -120,7 +120,7 @@
         "url": "https://www.dmsguild.com/product/434117/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "the illuminhaughti"
         ],
@@ -130,13 +130,14 @@
         "code": "RV-DC-HBI-001",
         "date_created": "20230620",
         "full_title": "Domains of Dread: the Braska Roadhouse Chainsaw Massacre (RV-DC-HBI-001)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": 2.75,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "442290",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Domains of Dread the Braska Roadhouse Chainsaw Massacre",
         "url": "https://www.dmsguild.com/product/442290/?affiliate_id=171040"
     },
@@ -160,7 +161,7 @@
         "url": "https://www.dmsguild.com/product/446081/RVDCOH01-In-the-Mists-of-Keening?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "the illuminhaughti"
         ],
@@ -172,16 +173,16 @@
         "full_title": "Domains of Dread: Doom Down in Boomtown (RV-DC-HBI-002)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 2.75,
         "product_id": "447852",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Domains of Dread Doom Down in Boomtown",
         "url": "https://www.dmsguild.com/product/447852/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "the illuminhaughti"
         ],
@@ -193,31 +194,30 @@
         "full_title": "Domains of Dread: Terror in Tombstone (RV-DC-HBI-003)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 2.75,
         "product_id": "451012",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Domains of Dread Terror in Tombstone",
         "url": "https://www.dmsguild.com/product/451012/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Stefan Tomaschitz"
         ],
         "campaigns": [
-            "Ravenloft",
-            "Forgotten Realms"
+            "Ravenloft"
         ],
         "code": "RV-DC-SDG-01",
         "date_created": "20240301",
         "full_title": "Ein verfluchter Schl\u00fcssel",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-2",
         "product_id": "472632",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Ein verfluchter Schl\u00fcssel",
         "url": "https://www.dmsguild.com/product/472632/Ein-verfluchter-Schlussel?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -276,7 +276,7 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-2",
-        "price": 3.22,
+        "price": 4.63,
         "product_id": "491254",
         "season": null,
         "tiers": 1,

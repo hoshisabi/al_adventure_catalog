@@ -14897,27 +14897,6 @@
         "url": "https://www.dmsguild.com/product/369435/DCPoACONMAR11-The-Dragonship-Approaches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Martine Brandt Lassen"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CONMAR",
-        "date_created": "20210831",
-        "full_title": "DC-PoA-CONMAR Play Order",
-        "hours": "",
-        "is_adventure": true,
-        "level_range": null,
-        "price": 0.5,
-        "product_id": "369438",
-        "season": "Icewind Dale",
-        "tiers": 0,
-        "title": "DC-PoA-CONMAR Play Order",
-        "url": "https://www.dmsguild.com/product/369438/?affiliate_id=171040"
-    },
-    {
         "apl": 8,
         "authors": [
             "Chironjeev Kanjilal"
@@ -23258,7 +23237,7 @@
         "url": "https://www.dmsguild.com/product/441969/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "the illuminhaughti"
         ],
@@ -23268,13 +23247,14 @@
         "code": "RV-DC-HBI-001",
         "date_created": "20230620",
         "full_title": "Domains of Dread: the Braska Roadhouse Chainsaw Massacre (RV-DC-HBI-001)",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "price": 2.75,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "442290",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Domains of Dread the Braska Roadhouse Chainsaw Massacre",
         "url": "https://www.dmsguild.com/product/442290/?affiliate_id=171040"
     },
@@ -23798,7 +23778,7 @@
         "url": "https://www.dmsguild.com/product/447837/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "the illuminhaughti"
         ],
@@ -23810,11 +23790,11 @@
         "full_title": "Domains of Dread: Doom Down in Boomtown (RV-DC-HBI-002)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 2.75,
         "product_id": "447852",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Domains of Dread Doom Down in Boomtown",
         "url": "https://www.dmsguild.com/product/447852/?affiliate_id=171040"
     },
@@ -24220,7 +24200,7 @@
         "url": "https://www.dmsguild.com/product/450949/SJDCSYL02-Prismatic-Induction?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "the illuminhaughti"
         ],
@@ -24232,11 +24212,11 @@
         "full_title": "Domains of Dread: Terror in Tombstone (RV-DC-HBI-003)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "price": 2.75,
         "product_id": "451012",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "Domains of Dread Terror in Tombstone",
         "url": "https://www.dmsguild.com/product/451012/?affiliate_id=171040"
     },
@@ -27065,7 +27045,7 @@
         "url": "https://www.dmsguild.com/product/465634/SJDCPHPORNG-Thousand-Tiny-Ducks?affiliate_id=171040&filters=1000042_0_100057_0_0_0_0_0"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -27075,14 +27055,14 @@
         "code": "FR-DC-PANDORA-JWEI-06",
         "date_created": "20240101",
         "full_title": "FR-DC-PANDORA-JWEI-06, The Eternals",
-        "hours": "",
+        "hours": "4-5",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "465635",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "The Eternals",
         "url": "https://www.dmsguild.com/product/465635/?affiliate_id=171040"
     },
@@ -27930,22 +27910,21 @@
         "url": "https://www.dmsguild.com/product/472455/The-Ceremony-FRDCQLA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Stefan Tomaschitz"
         ],
         "campaigns": [
-            "Ravenloft",
-            "Forgotten Realms"
+            "Ravenloft"
         ],
         "code": "RV-DC-SDG-01",
         "date_created": "20240301",
         "full_title": "Ein verfluchter Schl\u00fcssel",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-2",
         "product_id": "472632",
-        "tiers": 0,
+        "tiers": 1,
         "title": "Ein verfluchter Schl\u00fcssel",
         "url": "https://www.dmsguild.com/product/472632/Ein-verfluchter-Schlussel?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
@@ -28263,7 +28242,7 @@
         "url": "https://www.dmsguild.com/product/475039/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -28273,19 +28252,19 @@
         "code": "FR-DC-PANDORA-JWEI-08",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-08, Minerva",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "475041",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "Minerva",
         "url": "https://www.dmsguild.com/product/475041/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "JWei\u4f1f"
         ],
@@ -28295,14 +28274,14 @@
         "code": "FR-DC-PANDORA-JWEI-09",
         "date_created": "20240325",
         "full_title": "FR-DC-PANDORA-JWEI-09, Echthra",
-        "hours": "",
+        "hours": "4-5",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "475042",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "Echthra",
         "url": "https://www.dmsguild.com/product/475042/?affiliate_id=171040"
     },
@@ -29643,7 +29622,7 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-2",
-        "price": 3.22,
+        "price": 4.63,
         "product_id": "491254",
         "season": null,
         "tiers": 1,
@@ -34581,21 +34560,24 @@
         "url": "https://www.dmsguild.com/product/547615/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 3,
+        "authors": [
+            "Roberto C. Rivera"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "FR-DC-WCAG04-02",
-        "date_created": null,
+        "date_created": "20251129",
         "full_title": "FR-DC-WCAG04-02 Underwater Kingdom",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "547618",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "Underwater Kingdom",
         "url": "https://www.dmsguild.com/product/547618/?affiliate_id=171040"
     },
@@ -34707,23 +34689,25 @@
         "url": "https://www.dmsguild.com/product/547716/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "PS-DC-RDP-03",
         "date_created": "20251130",
         "full_title": "PS-DC-RDP-03 The Upper Demonweb & PS-DC-RDP-04 The Lower Demonweb",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "547771",
         "season": "Planescape",
-        "tiers": 0,
-        "title": "The Upper Demonweb &  The Lower Demonweb",
+        "tiers": 4,
+        "title": "The Upper Demonweb & The Lower Demonweb",
         "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"
     },
     {
@@ -34787,8 +34771,11 @@
         "url": "https://www.dmsguild.com/product/547961/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 13,
+        "authors": [
+            "Andy Dempz,",
+            "Gamehole Con"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -34797,12 +34784,12 @@
         "full_title": "PO-BK-3-12 Rule or Ruin",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "548057",
         "season": null,
-        "tiers": 0,
+        "tiers": 3,
         "title": "PO-BK-3-12 Rule or Ruin",
         "url": "https://www.dmsguild.com/product/548057/?affiliate_id=171040"
     },
@@ -34827,22 +34814,24 @@
         "url": "https://www.dmsguild.com/product/548076/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 8,
+        "authors": [
+            "West Coast Adventurers Guild"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "FR-DC-WCAG04-06",
         "date_created": "20251205",
         "full_title": "FR-DC-WCAG04-06 A Patch of Unfurled Green",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "548343",
         "season": null,
-        "tiers": 0,
+        "tiers": 2,
         "title": "A Patch of Unfurled Green",
         "url": "https://www.dmsguild.com/product/548343/?affiliate_id=171040"
     },
@@ -34889,23 +34878,25 @@
         "url": "https://www.dmsguild.com/product/549543/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 3,
+        "authors": [
+            "Death 101010"
+        ],
         "campaigns": [
             "Eberron"
         ],
         "code": "EB-DC-MOURN-01",
         "date_created": "20251216",
         "full_title": "EB-DC-MOURN-01 Mercy in the Mournland",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "549619",
         "season": null,
-        "tiers": 0,
+        "tiers": 1,
         "title": "Mercy in the Mournland",
-        "url": "https://www.dmsguild.com/product/549619/EBDCMOURN01-Mercy-in-the-Mournland?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/549619/?affiliate_id=171040"
     }
 ]

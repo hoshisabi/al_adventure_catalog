@@ -1627,23 +1627,25 @@
         "url": "https://www.dmsguild.com/product/547716/?affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [],
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "PS-DC-RDP-03",
         "date_created": "20251130",
         "full_title": "PS-DC-RDP-03 The Upper Demonweb & PS-DC-RDP-04 The Lower Demonweb",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
-        "needs_review": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "547771",
         "season": "Planescape",
-        "tiers": 0,
-        "title": "The Upper Demonweb &  The Lower Demonweb",
+        "tiers": 4,
+        "title": "The Upper Demonweb & The Lower Demonweb",
         "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"
     },
     {
