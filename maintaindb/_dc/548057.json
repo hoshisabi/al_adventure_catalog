@@ -1,6 +1,9 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 13,
+    "authors": [
+        "Andy Dempz,",
+        "Gamehole Con"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -9,12 +12,12 @@
     "full_title": "PO-BK-3-12 Rule or Ruin",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "needs_review": true,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "548057",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "PO-BK-3-12 Rule or Ruin",
     "url": "https://www.dmsguild.com/product/548057/?affiliate_id=171040"
 }

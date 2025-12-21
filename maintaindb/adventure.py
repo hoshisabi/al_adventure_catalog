@@ -621,9 +621,11 @@ def _extract_game_stats_from_text(text):
     stats["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", text)
     stats["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", text)
     
-    # If level_range not captured, try ordinal style like '1st-4th level'
+    # If level_range not captured, try ordinal style like '1st-4th level' or '11th through 16th Level'
     if not stats["level_range_raw"]:
-        m_levels = re.search(r"(?i)(\d+)(?:st|nd|rd|th)?\s*[-to]+\s*(\d+)(?:st|nd|rd|th)?\s*level", text)
+        # Pattern 1: Ordinal numbers with "through", "to", or "-" before "Level" (e.g., "11th through 16th Level")
+        # Allow optional text after "level" (e.g., "Level Characters")
+        m_levels = re.search(r"(?i)(\d+)(?:st|nd|rd|th)?\s*(?:through|to|-)\s*(\d+)(?:st|nd|rd|th)?\s*level\b", text)
         if m_levels:
             try:
                 start = int(m_levels.group(1))
@@ -631,6 +633,17 @@ def _extract_game_stats_from_text(text):
                 stats["level_range_raw"] = f"{start}-{end}"
             except Exception:
                 pass
+        # Pattern 2: "for Xth through Yth Level" (e.g., "for 11th through 16th Level Characters")
+        # Allow optional text after "level" (e.g., "Level Characters")
+        if not stats["level_range_raw"]:
+            m_levels = re.search(r"(?i)for\s+(\d+)(?:st|nd|rd|th)?\s*(?:through|to|-)\s*(\d+)(?:st|nd|rd|th)?\s*level\b", text)
+            if m_levels:
+                try:
+                    start = int(m_levels.group(1))
+                    end = int(m_levels.group(2))
+                    stats["level_range_raw"] = f"{start}-{end}"
+                except Exception:
+                    pass
     
     return stats
 

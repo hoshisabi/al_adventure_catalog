@@ -69,6 +69,30 @@ class AdventureHTMLExtractor:
         raw_data["tiers_raw"] = get_patt_first_matching_group(r"Tier(?:s)?\s*(?:[1-4]|one|two|three|four)(?:\s*-\s*(?:[1-4]|one|two|three|four))?", combined_text)
         raw_data["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
         raw_data["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+(?:\s*,\s*[\d-]+)*)", combined_text) # Capture multiple ranges like "1-4, 5-10"
+        
+        # If level_range not captured, try ordinal style like '11th through 16th Level' or '1st-4th level'
+        if not raw_data["level_range_raw"]:
+            # Pattern 1: Ordinal numbers with "through", "to", or "-" before "Level" (e.g., "11th through 16th Level")
+            # Allow optional text after "level" (e.g., "Level Characters")
+            m_levels = re.search(r"(?i)(\d+)(?:st|nd|rd|th)?\s*(?:through|to|-)\s*(\d+)(?:st|nd|rd|th)?\s*level\b", combined_text)
+            if m_levels:
+                try:
+                    start = int(m_levels.group(1))
+                    end = int(m_levels.group(2))
+                    raw_data["level_range_raw"] = f"{start}-{end}"
+                except Exception:
+                    pass
+            # Pattern 2: "for Xth through Yth Level" (e.g., "for 11th through 16th Level Characters")
+            # Allow optional text after "level" (e.g., "Level Characters")
+            if not raw_data["level_range_raw"]:
+                m_levels = re.search(r"(?i)for\s+(\d+)(?:st|nd|rd|th)?\s*(?:through|to|-)\s*(\d+)(?:st|nd|rd|th)?\s*level\b", combined_text)
+                if m_levels:
+                    try:
+                        start = int(m_levels.group(1))
+                        end = int(m_levels.group(2))
+                        raw_data["level_range_raw"] = f"{start}-{end}"
+                    except Exception:
+                        pass
 
         # --- Price Extraction (complex as it can be in different divs) ---
         price_value = None
