@@ -50,7 +50,8 @@ class AdventureDataNormalizer:
 
         # Authors
         raw_authors = raw_data.get("authors_raw", [])
-        normalized_data["authors"] = [author.strip() for author in raw_authors if author.strip()] if raw_authors else []
+        # Strip whitespace and trailing commas from author names
+        normalized_data["authors"] = [author.strip().rstrip(',') for author in raw_authors if author.strip()] if raw_authors else []
 
         # Price
         raw_price = raw_data.get("price_raw")

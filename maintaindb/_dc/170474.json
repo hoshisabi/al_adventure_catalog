@@ -1,19 +1,25 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Chris Lindsay",
+        "Claire Hoffman",
+        "Chris Tulach",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX1-14",
     "date_created": "20160111",
-    "full_title": "DDEX1-14 Escape from Phlan (5e)",
+    "full_title": "DDEX1-14 Escape from Phlan",
     "hours": 4,
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 0.0,
     "product_id": "170474",
+    "season": "Tyranny of Dragons",
     "tiers": 2,
-    "title": "DDEX1-14 Escape from Phlan 5e",
-    "url": "https://www.dmsguild.com/product/170474/DDEX114-Escape-from-Phlan-5e"
+    "title": "DDEX1-14 Escape from Phlan",
+    "url": "https://www.dmsguild.com/product/170474/?affiliate_id=171040"
 }
