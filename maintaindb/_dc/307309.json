@@ -11,9 +11,12 @@
     "full_title": "CCC-DES-02-01 Those Who Are Eaten",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "307309",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-DES-02-01 Those Who Are Eaten",
-    "url": "https://www.dmsguild.com/product/307309/CCCDES0201-Those-Who-Are-Eaten"
+    "title": "Those Who Are Eaten",
+    "url": "https://www.dmsguild.com/product/307309/?affiliate_id=171040"
 }

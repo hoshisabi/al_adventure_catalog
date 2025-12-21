@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "20Quests Games"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 9.0,
     "product_id": "528602",
+    "season": null,
     "tiers": null,
     "title": "The Cat's Meow Catalogue Roll20",
-    "url": "https://www.dmsguild.com/product/528602/The-Cats-Meow-Catalogue-Roll20"
+    "url": "https://www.dmsguild.com/product/528602/?affiliate_id=171040"
 }

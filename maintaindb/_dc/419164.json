@@ -11,10 +11,13 @@
     "full_title": "The Moonshot (SJ-DC-PAT-00)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "419164",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Moonshot",
-    "url": "https://www.dmsguild.com/product/419164/The-Moonshot-SJDCPAT00",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/419164/?affiliate_id=171040"
 }

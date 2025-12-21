@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "315756",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-COS-02-01 38 Souls",
-    "url": "https://www.dmsguild.com/product/315756/CCCCOS0201-38-Souls"
+    "title": "38 Souls",
+    "url": "https://www.dmsguild.com/product/315756/?affiliate_id=171040"
 }

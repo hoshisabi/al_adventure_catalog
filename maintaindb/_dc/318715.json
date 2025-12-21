@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "318715",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-MAYDAYS-01 The Bandit's Mark",
-    "url": "https://www.dmsguild.com/product/318715/CCCMAYDAYS01-The-Bandits-Mark"
+    "title": "The Bandit's Mark",
+    "url": "https://www.dmsguild.com/product/318715/?affiliate_id=171040"
 }

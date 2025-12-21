@@ -11,9 +11,12 @@
     "full_title": "CCC-DES-01-05 The Die is Cast",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "01",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "297616",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-DES-01-05 The Die is Cast",
-    "url": "https://www.dmsguild.com/product/297616/CCCDES0105-The-Die-is-Cast"
+    "title": "The Die is Cast",
+    "url": "https://www.dmsguild.com/product/297616/?affiliate_id=171040"
 }

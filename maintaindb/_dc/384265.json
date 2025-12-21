@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "384265",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-BMG-MOON15-3 Fallen Wonder",
-    "url": "https://www.dmsguild.com/product/384265/CCCBMGMOON153-Fallen-Wonder"
+    "title": "Fallen Wonder",
+    "url": "https://www.dmsguild.com/product/384265/?affiliate_id=171040"
 }

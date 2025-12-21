@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "308175",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-ODFC03-02 Orchestration of Havoc",
-    "url": "https://www.dmsguild.com/product/308175/CCCODFC0302-Orchestration-of-Havoc"
+    "title": "Orchestration of Havoc",
+    "url": "https://www.dmsguild.com/product/308175/?affiliate_id=171040"
 }
