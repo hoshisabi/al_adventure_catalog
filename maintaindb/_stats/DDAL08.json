@@ -178,7 +178,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Claire Hoffman & Ryan Wheaton"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -188,16 +188,19 @@
         "full_title": "DDAL08-08 Crypt of the Dark Kiss",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257780",
+        "season": "Waterdeep",
         "tiers": 2,
-        "title": "DDAL08-08 Crypt of the Dark Kiss",
-        "url": "https://www.dmsguild.com/product/257780/DDAL0808-Crypt-of-the-Dark-Kiss&affiliate_id=171040"
+        "title": "Crypt of the Dark Kiss",
+        "url": "https://www.dmsguild.com/product/257780/?affiliate_id=171040"
     },
     {
         "apl": 10,
         "authors": [
-            "D&D Adventurers League"
+            "Toni Winslow-Brill"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -207,16 +210,18 @@
         "full_title": "DDAL08-09 Fangs and Frogs",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257781",
+        "season": "Waterdeep",
         "tiers": 2,
-        "title": "DDAL08-09 Fangs and Frogs",
-        "url": "https://www.dmsguild.com/product/257781/DDAL0809-Fangs-and-Frogs&affiliate_id=171040"
+        "title": "Fangs and Frogs",
+        "url": "https://www.dmsguild.com/product/257781/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League",
             "Paige Leitman"
         ],
         "campaigns": [
@@ -239,7 +244,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ben Heisler"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -249,16 +254,19 @@
         "full_title": "DDAL08-11 Poisoned Words",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "263387",
+        "season": "Waterdeep",
         "tiers": 2,
-        "title": "DDAL08-11 Poisoned Words",
-        "url": "https://www.dmsguild.com/product/263387/DDAL0811-Poisoned-Words&affiliate_id=171040"
+        "title": "Poisoned Words",
+        "url": "https://www.dmsguild.com/product/263387/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Kerry Jordan"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -268,16 +276,19 @@
         "full_title": "DDAL08-12 Xanathar's Wrath",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "263388",
+        "season": "Waterdeep",
         "tiers": 2,
-        "title": "DDAL08-12 Xanathar's Wrath",
-        "url": "https://www.dmsguild.com/product/263388/DDAL0812-Xanathars-Wrath&affiliate_id=171040"
+        "title": "Xanathar's Wrath",
+        "url": "https://www.dmsguild.com/product/263388/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Alan Patrick"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -287,16 +298,19 @@
         "full_title": "DDAL08-13 The Vampire of Skullport",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "264612",
+        "season": "Waterdeep",
         "tiers": 3,
-        "title": "DDAL08-13 The Vampire of Skullport",
-        "url": "https://www.dmsguild.com/product/264612/DDAL0813-The-Vampire-of-Skullport&affiliate_id=171040"
+        "title": "The Vampire of Skullport",
+        "url": "https://www.dmsguild.com/product/264612/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Elisa Teague"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -306,16 +320,19 @@
         "full_title": "DDAL08-14 Rescue from Vanrakdoom",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "265274",
+        "season": "Waterdeep",
         "tiers": 3,
-        "title": "DDAL08-14 Rescue from Vanrakdoom",
-        "url": "https://www.dmsguild.com/product/265274/DDAL0814-Rescue-from-Vanrakdoom&affiliate_id=171040"
+        "title": "Rescue from Vanrakdoom",
+        "url": "https://www.dmsguild.com/product/265274/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Gabrielle Harbowy"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -325,16 +342,19 @@
         "full_title": "DDAL08-15 Forge of Fangs",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "265534",
+        "season": "Waterdeep",
         "tiers": 3,
-        "title": "DDAL08-15 Forge of Fangs",
-        "url": "https://www.dmsguild.com/product/265534/DDAL0815-Forge-of-Fangs&affiliate_id=171040"
+        "title": "Forge of Fangs",
+        "url": "https://www.dmsguild.com/product/265534/?affiliate_id=171040"
     },
     {
         "apl": 18,
         "authors": [
-            "D&D Adventurers League"
+            "Rob Steiner"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -342,18 +362,21 @@
         "code": "DDAL08-16",
         "date_created": "20190305",
         "full_title": "DDAL08-16 A Change of Address",
-        "hours": "",
+        "hours": "4-6",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "268517",
+        "season": "Waterdeep",
         "tiers": 4,
-        "title": "DDAL08-16 A Change of Address",
-        "url": "https://www.dmsguild.com/product/268517/DDAL0816-A-Change-of-Address&affiliate_id=171040"
+        "title": "A Change of Address",
+        "url": "https://www.dmsguild.com/product/268517/?affiliate_id=171040"
     },
     {
         "apl": 18,
         "authors": [
-            "D&D Adventurers League"
+            "Jocelyn Koehler"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -363,16 +386,19 @@
         "full_title": "DDAL08-17 The Tower of Ahghairon",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "268519",
+        "season": "Waterdeep",
         "tiers": 4,
-        "title": "DDAL08-17 The Tower of Ahghairon",
-        "url": "https://www.dmsguild.com/product/268519/DDAL0817-The-Tower-of-Ahghairon&affiliate_id=171040"
+        "title": "The Tower of Ahghairon",
+        "url": "https://www.dmsguild.com/product/268519/?affiliate_id=171040"
     },
     {
         "apl": 18,
         "authors": [
-            "D&D Adventurers League"
+            "Lysa Chen"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -380,12 +406,15 @@
         "code": "DDAL08-18",
         "date_created": "20190305",
         "full_title": "DDAL08-18 Moving Day",
-        "hours": "",
+        "hours": "4-6",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "268520",
+        "season": "Waterdeep",
         "tiers": 4,
-        "title": "DDAL08-18 Moving Day",
-        "url": "https://www.dmsguild.com/product/268520/DDAL0818-Moving-Day&affiliate_id=171040"
+        "title": "Moving Day",
+        "url": "https://www.dmsguild.com/product/268520/?affiliate_id=171040"
     }
 ]
