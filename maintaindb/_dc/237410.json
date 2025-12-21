@@ -11,9 +11,12 @@
     "full_title": "CCC-SCAR01-01 Corrupted Artery",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "01",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "237410",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SCAR01-01 Corrupted Artery",
-    "url": "https://www.dmsguild.com/product/237410/CCCSCAR0101-Corrupted-Artery?filters=45470_0_0_0_0_0_0_0"
+    "title": "Corrupted Artery",
+    "url": "https://www.dmsguild.com/product/237410/?affiliate_id=171040"
 }

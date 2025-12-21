@@ -1,5 +1,5 @@
 {
-    "apl": 1,
+    "apl": 3,
     "authors": [
         "Sean Payne",
         "David Morris",
@@ -14,8 +14,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "223038",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SRCC01-01 Trouble in the Old City",
-    "url": "https://www.dmsguild.com/product/223038/CCCSRCC0101-Trouble-in-the-Old-City?filters=45470_0_0_0_0_0_0_0"
+    "title": "Trouble in the Old City",
+    "url": "https://www.dmsguild.com/product/223038/?affiliate_id=171040"
 }

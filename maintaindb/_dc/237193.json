@@ -13,8 +13,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "237193",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-GEL-01 Bedlam at the Benefit",
-    "url": "https://www.dmsguild.com/product/237193/CCCGEL01-Bedlam-at-the-Benefit?filters=45470_0_0_0_0_0_0_0"
+    "title": "Bedlam at the Benefit",
+    "url": "https://www.dmsguild.com/product/237193/?affiliate_id=171040"
 }
