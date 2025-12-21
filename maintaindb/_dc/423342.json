@@ -9,13 +9,16 @@
     "code": "SJ-DC-DEN-H4",
     "date_created": "20230114",
     "full_title": "SJ-DC-DEN-H4 Departure from Fallen Stars",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": null,
+    "payWhatYouWant": true,
+    "price": 4.0,
     "product_id": "423342",
+    "season": null,
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 4.0,
     "tiers": 2,
     "title": "Departure from Fallen Stars",
-    "url": "https://www.dmsguild.com/product/423342/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/423342/?affiliate_id=171040"
 }

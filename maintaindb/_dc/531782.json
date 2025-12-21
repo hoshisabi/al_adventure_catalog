@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Luke Archard"
+    ],
     "campaigns": [],
     "code": null,
     "date_created": "20250804",
@@ -8,10 +10,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 3.31,
     "product_id": "531782",
     "season": null,
     "tiers": null,
     "title": "Dungeon Terrain - Doors - STLs",
-    "url": "https://www.dmsguild.com/product/531782/Dungeon-Terrain--Doors--STLs?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/531782/?affiliate_id=171040"
 }

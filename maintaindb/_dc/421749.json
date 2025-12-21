@@ -10,13 +10,15 @@
     "code": "SJ-DC-DD-02",
     "date_created": "20230101",
     "full_title": "SJ-DC-DD-02 Lone Survivors",
-    "hours": null,
+     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "421749",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Lone Survivors",
-    "url": "https://www.dmsguild.com/product/421749/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/421749/?affiliate_id=171040"
 }

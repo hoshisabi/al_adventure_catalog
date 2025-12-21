@@ -289,8 +289,8 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         (r"^(DDIA-[A-Za-z]+(?:-\d{1,2})?|DDIA\d{1,2})", lambda m: m.group(0).upper()),
         # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01)
         (r"^(AL|CCC-)[A-Z]{2,3}-\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?", lambda m: m.group(0).upper()),
-        # BMG codes (e.g., BMG-DRW-01)
-        (r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}", lambda m: m.group(0).upper()),
+        # BMG codes (e.g., BMG-DRW-01, PO-BK-1-04) - may have additional dash-number sequence
+        (r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}(?:-\d{1,2})?", lambda m: m.group(0).upper()),
         # Ravenloft Module Hunt (e.g., RMH-01)
         (r"^(RMH)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # Eberron Sharn Modules (e.g., EB-SM-01)

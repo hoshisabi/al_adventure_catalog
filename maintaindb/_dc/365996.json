@@ -7,16 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-INAS-01",
-    "date_created": "20210729",
+    "date_created": "20210730",
     "full_title": "DC-PoA-INAS-01 Beauty and the Mead",
     "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
-    "price": null,
+    "payWhatYouWant": false,
+    "price": 3.0,
     "product_id": "365996",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "DC-PoA-INAS-01 Beauty and the Mead",
-    "url": "https://www.dmsguild.com/product/365996/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "Beauty and the Mead",
+    "url": "https://www.dmsguild.com/product/365996/?affiliate_id=171040"
 }

@@ -1,7 +1,8 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "James Ohlen",
+        "Adrian Tchaikovsky"
     ],
     "campaigns": [
         null
@@ -11,10 +12,12 @@
     "full_title": "Chains of Asmodeus",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
-    "price": null,
+    "level_range": "11-20",
+    "payWhatYouWant": false,
+    "price": 29.99,
     "product_id": "457996",
-    "tiers": null,
+    "season": null,
+    "tiers": 3,
     "title": "Chains of Asmodeus",
     "url": "https://www.dmsguild.com/product/457996/?affiliate_id=171040"
 }
