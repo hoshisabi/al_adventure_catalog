@@ -1,5 +1,1112 @@
 [
     {
+        "apl": 1,
+        "authors": [
+            "Shawn Merwin",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-01",
+        "date_created": "20160111",
+        "full_title": "DDEX1-01 Defiance in Phlan",
+        "hours": "1-5",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170384",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-01 Defiance in Phlan",
+        "url": "https://www.dmsguild.com/product/170384/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Shawn Merwin",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-01",
+        "date_created": "20160111",
+        "full_title": "DDEX2-01 City of Danger",
+        "hours": "1-5",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170386",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-01 City of Danger",
+        "url": "https://www.dmsguild.com/product/170386/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ron Lundeen",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-10",
+        "date_created": "20160111",
+        "full_title": "DDEX3-10 Quelling the Horde",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170392",
+        "season": "Rage of Demons",
+        "tiers": 1,
+        "title": "DDEX3-10 Quelling the Horde",
+        "url": "https://www.dmsguild.com/product/170392/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Pieter Sleijpen",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-02",
+        "date_created": "20160111",
+        "full_title": "DDEX1-02 Secrets of Sokol Keep",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170405",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-02 Secrets of Sokol Keep",
+        "url": "https://www.dmsguild.com/product/170405/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-03",
+        "date_created": "20160111",
+        "full_title": "DDEX1-03 Shadows of the Moonsea",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170407",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-03 Shadows of the Moonsea",
+        "url": "https://www.dmsguild.com/product/170407/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Steve Winter",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-04",
+        "date_created": "20160111",
+        "full_title": "DDEX1-04 Dues for the Dead",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170461",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-04 Dues for the Dead",
+        "url": "https://www.dmsguild.com/product/170461/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Shawn Merwin",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-05",
+        "date_created": "20160111",
+        "full_title": "DDEX1-05 The Courting of Fire",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170462",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-05 The Courting of Fire",
+        "url": "https://www.dmsguild.com/product/170462/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Daniel Helmick",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-06",
+        "date_created": "20160111",
+        "full_title": "DDEX1-06 The Scroll Thief",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170463",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-06 The Scroll Thief",
+        "url": "https://www.dmsguild.com/product/170463/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Sterling Hershey",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-07",
+        "date_created": "20160111",
+        "full_title": "DDEX1-07 Drums in the Marsh",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170465",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-07 Drums in the Marsh",
+        "url": "https://www.dmsguild.com/product/170465/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Thomas Reid",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-08",
+        "date_created": "20160111",
+        "full_title": "DDEX1-08 Tales Trees Tell",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170466",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-08 Tales Trees Tell",
+        "url": "https://www.dmsguild.com/product/170466/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-09",
+        "date_created": "20160111",
+        "full_title": "DDEX1-09 Outlaws of the Iron Route",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170467",
+        "season": "Tyranny of Dragons",
+        "tiers": 1,
+        "title": "DDEX1-09 Outlaws of the Iron Route",
+        "url": "https://www.dmsguild.com/product/170467/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-10",
+        "date_created": "20160111",
+        "full_title": "DDEX1-10 Tyranny in Phlan",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170469",
+        "season": "Tyranny of Dragons",
+        "tiers": 2,
+        "title": "DDEX1-10 Tyranny in Phlan",
+        "url": "https://www.dmsguild.com/product/170469/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-11",
+        "date_created": "20160111",
+        "full_title": "DDEX1-11 Dark Pyramid of Sorcerer\u2019s Isle",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "170470",
+        "season": "Tyranny of Dragons",
+        "tiers": 2,
+        "title": "DDEX1-11 Dark Pyramid of Sorcerer\u2019s Isle",
+        "url": "https://www.dmsguild.com/product/170470/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Adducci",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-12",
+        "date_created": "20160111",
+        "full_title": "DDEX1-12 Raiders of the Twilight Marsh",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170471",
+        "season": "Tyranny of Dragons",
+        "tiers": 2,
+        "title": "DDEX1-12 Raiders of the Twilight Marsh",
+        "url": "https://www.dmsguild.com/product/170471/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Chris Tulach",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-13",
+        "date_created": "20160111",
+        "full_title": "DDEX1-13 Pool of Radiance Resurgent",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170472",
+        "season": "Tyranny of Dragons",
+        "tiers": 2,
+        "title": "DDEX1-13 Pool of Radiance Resurgent",
+        "url": "https://www.dmsguild.com/product/170472/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Chris Lindsay",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX1-14",
+        "date_created": "20160111",
+        "full_title": "DDEX1-14 Escape from Phlan",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 0.0,
+        "product_id": "170474",
+        "season": "Tyranny of Dragons",
+        "tiers": 2,
+        "title": "DDEX1-14 Escape from Phlan",
+        "url": "https://www.dmsguild.com/product/170474/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Daniel Helmick",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-02",
+        "date_created": "20160111",
+        "full_title": "DDEX2-02 Embers of Elmwood",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170476",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Embers of Elmwood",
+        "url": "https://www.dmsguild.com/product/170476/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-03",
+        "date_created": "20160111",
+        "full_title": "DDEX2-03 The Drowned Tower (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "170477",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "DDEX2-03 The Drowned Tower",
+        "url": "https://www.dmsguild.com/product/170477/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-04",
+        "date_created": "20160111",
+        "full_title": "DDEX2-04 Mayhem in the Earthspur Mines",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170478",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "Mayhem in the Earthspur Mines",
+        "url": "https://www.dmsguild.com/product/170478/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "John \"Ross\" Rossomangno",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-05",
+        "date_created": "20160111",
+        "full_title": "DDEX2-05 Flames of Kythorn",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170479",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Flames of Kythorn",
+        "url": "https://www.dmsguild.com/product/170479/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-06",
+        "date_created": "20160111",
+        "full_title": "DDEX2-06 Breath of the Yellow Rose",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170480",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Breath of the Yellow Rose",
+        "url": "https://www.dmsguild.com/product/170480/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ken Hart",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-07",
+        "date_created": "20160111",
+        "full_title": "DDEX2-07 Bounty in the Bog",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170481",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Bounty in the Bog",
+        "url": "https://www.dmsguild.com/product/170481/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Tim Eagon",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-08",
+        "date_created": "20160111",
+        "full_title": "DDEX2-08 Foulness Beneath Mulmaster",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170482",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Foulness Beneath Mulmaster",
+        "url": "https://www.dmsguild.com/product/170482/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Pieter Sleijpen",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-09",
+        "date_created": "20160111",
+        "full_title": "DDEX2-09 Eye of the Tempest",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "170484",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "DDEX2-09 Eye of the Tempest",
+        "url": "https://www.dmsguild.com/product/170484/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-10",
+        "date_created": "20160111",
+        "full_title": "DDEX2-10 Cloaks and Shadows",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170485",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-10 Cloaks and Shadows",
+        "url": "https://www.dmsguild.com/product/170485/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-11",
+        "date_created": "20160111",
+        "full_title": "DDEX2-11 Oubliette of Fort Iron",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170486",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-11 Oubliette of Fort Iron",
+        "url": "https://www.dmsguild.com/product/170486/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Adducci",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-12",
+        "date_created": "20160111",
+        "full_title": "DDEX2-12 Dark Rites at Fort Dalton",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170487",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-12 Dark Rites at Fort Dalton",
+        "url": "https://www.dmsguild.com/product/170487/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Teos Abadia",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-13",
+        "date_created": "20160111",
+        "full_title": "DDEX2-13 The Howling Void",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170488",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "The Howling Void",
+        "url": "https://www.dmsguild.com/product/170488/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Daniel Helmick",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-14",
+        "date_created": "20160111",
+        "full_title": "DDEX2-14 The Sword of Selfaril",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170489",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "The Sword of Selfaril",
+        "url": "https://www.dmsguild.com/product/170489/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "John \"Ross\" Rossomangno",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-15",
+        "date_created": "20160111",
+        "full_title": "DDEX2-15 Black Heart of Vengeance",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170490",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "Black Heart of Vengeance",
+        "url": "https://www.dmsguild.com/product/170490/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-16",
+        "date_created": "20160111",
+        "full_title": "DDEX2-16 Boltsmelter's Book",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170491",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Boltsmelter's Book",
+        "url": "https://www.dmsguild.com/product/170491/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-01",
+        "date_created": "20160111",
+        "full_title": "DDEX3-01 Harried in Hillsfar (5e)",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 2.99,
+        "product_id": "170493",
+        "season": "Rage of Demons",
+        "tiers": 1,
+        "title": "DDEX3-01 Harried in Hillsfar",
+        "url": "https://www.dmsguild.com/product/170493/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-02",
+        "date_created": "20160111",
+        "full_title": "DDEX3-02 Shackles of Blood (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "170494",
+        "tiers": 0,
+        "title": "DDEX3-02 Shackles of Blood 5e",
+        "url": "https://www.dmsguild.com/product/170494/DDEX302-Shackles-of-Blood-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-03",
+        "date_created": "20160111",
+        "full_title": "DDEX3-03 The Occupation of Szith Morcane (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "170495",
+        "tiers": 0,
+        "title": "DDEX3-03 The Occupation of Szith Morcane 5e",
+        "url": "https://www.dmsguild.com/product/170495/DDEX303-The-Occupation-of-Szith-Morcane-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-04",
+        "date_created": "20160111",
+        "full_title": "DDEX3-04 It's All in the Blood (5e)",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "170497",
+        "season": "Rage of Demons",
+        "tiers": 3,
+        "title": "DDEX3-04 It's All in the Blood",
+        "url": "https://www.dmsguild.com/product/170497/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-05",
+        "date_created": "20160111",
+        "full_title": "DDEX3-05 Bane of the Tradeways (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "170498",
+        "season": 3,
+        "tiers": 1,
+        "title": "DDEX3-05 Bane of the Tradeways",
+        "url": "https://www.dmsguild.com/product/170498/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-06",
+        "date_created": "20160111",
+        "full_title": "DDEX3-06 No Foolish Matter (5e)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "170499",
+        "tiers": 0,
+        "title": "DDEX3-06 No Foolish Matter 5e",
+        "url": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-07",
+        "date_created": "20160111",
+        "full_title": "DDEX3-07 Herald of the Moon (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "170501",
+        "tiers": 0,
+        "title": "DDEX3-07 Herald of the Moon 5e",
+        "url": "https://www.dmsguild.com/product/170501/DDEX307-Herald-of-the-Moon-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-08",
+        "date_created": "20160111",
+        "full_title": "DDEX3-08 The Malady of Elventree (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "170502",
+        "tiers": 0,
+        "title": "DDEX3-08 The Malady of Elventree 5e",
+        "url": "https://www.dmsguild.com/product/170502/DDEX308-The-Malady-of-Elventree-5e&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-09",
+        "date_created": "20160111",
+        "full_title": "DDEX3-09 The Waydown (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.99,
+        "product_id": "170504",
+        "tiers": 2,
+        "title": "DDEX3-09 The Waydown 5e",
+        "url": "https://www.dmsguild.com/product/170504/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-11",
+        "date_created": "20160111",
+        "full_title": "DDEX3-11 The Quest for Sporedome (5e)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "170505",
+        "tiers": 0,
+        "title": "DDEX3-11 The Quest for Sporedome 5e",
+        "url": "https://www.dmsguild.com/product/170505/DDEX311-The-Quest-for-Sporedome-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX3-12",
+        "date_created": "20160315",
+        "full_title": "DDEX3-12 Hillsfar Reclaimed (5e)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "177567",
+        "tiers": 0,
+        "title": "DDEX3-12 Hillsfar Reclaimed 5e",
+        "url": "https://www.dmsguild.com/product/177567/DDEX312-Hillsfar-Reclaimed-5e&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-13",
+        "date_created": "20160315",
+        "full_title": "DDEX03-13 Writhing in the Dark",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "177568",
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "DDEX03-13 Writhing in the Dark",
+        "url": "https://www.dmsguild.com/product/177568/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-14",
+        "date_created": "20160315",
+        "full_title": "DDEX03-14 Death on the Wall (5e)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "177569",
+        "tiers": 0,
+        "title": "DDEX03-14 Death on the Wall 5e",
+        "url": "https://www.dmsguild.com/product/177569/DDEX0314-Death-on-the-Wall-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-15",
+        "date_created": "20160322",
+        "full_title": "DDEX03-15 Szith Morcane Unbound (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "177570",
+        "tiers": 0,
+        "title": "DDEX03-15 Szith Morcane Unbound 5e",
+        "url": "https://www.dmsguild.com/product/177570/DDEX0315-Szith-Morcane-Unbound-5e&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Wizards of the Coast",
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-16",
+        "date_created": "20160322",
+        "full_title": "DDEX03-16 Assault on Maerimydra (5e)",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "177572",
+        "tiers": 3,
+        "title": "DDEX03-16 Assault on Maerimydra 5e",
+        "url": "https://www.dmsguild.com/product/177572/DDEX0316-Assault-on-Maerimydra-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ken Hart"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04\u201006",
+        "date_created": "20160510",
+        "full_title": "DDAL04\u201006 The Ghost",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "182769",
+        "season": "Curse of Strahd",
+        "tiers": 0,
+        "title": "DDAL04\u201006 The Ghost",
+        "url": "https://www.dmsguild.com/product/182769/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms",
+            "Ravenloft"
+        ],
+        "code": "DDAL04-10",
+        "date_created": "20160607",
+        "full_title": "DDAL04-10 The Artifact (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "184341",
+        "tiers": 2,
+        "title": "DDAL04-10 The Artifact 5e",
+        "url": "https://www.dmsguild.com/product/184341/DDAL0410-The-Artifact-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Baldman Games"
@@ -345,6 +1452,28 @@
         "url": "https://www.dmsguild.com/product/200484/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-01",
+        "date_created": "20161213",
+        "full_title": "DDAL00-01 Window to the Past",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "200609",
+        "season": 0,
+        "tiers": 2,
+        "title": "DDAL00-01 Window to the Past",
+        "url": "https://www.dmsguild.com/product/200609/?affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Alex Kammer",
@@ -658,6 +1787,25 @@
         "url": "https://www.dmsguild.com/product/210444/CCCSALT0103-Broken-Halls-of-Goldahroud?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-01",
+        "date_created": "20170905",
+        "full_title": "DDAL07-01 A City on the Edge (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "214058",
+        "tiers": 0,
+        "title": "DDAL07-01 A City on the Edge 5e",
+        "url": "https://www.dmsguild.com/product/214058/DDAL0701-A-City-on-the-Edge-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Iam Pace",
@@ -754,6 +1902,25 @@
         "tiers": 2,
         "title": "CCC-YLRA01-03 Bound By Duty",
         "url": "https://www.dmsguild.com/product/215508/CCCYLRA0103-Bound-By-Duty&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-02",
+        "date_created": "20170905",
+        "full_title": "DDAL07-02 Over the Edge (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "215579",
+        "tiers": 0,
+        "title": "DDAL07-02 Over the Edge 5e",
+        "url": "https://www.dmsguild.com/product/215579/DDAL0702-Over-the-Edge-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -897,6 +2064,88 @@
         "url": "https://www.dmsguild.com/product/218925/CCCLINKS02-The-Secrets-We-Keep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [
+            "James Introcaso"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-4",
+        "date_created": "20170908",
+        "full_title": "Cellar of Death",
+        "hours": "2-3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "220572",
+        "season": null,
+        "tiers": 1,
+        "title": "Cellar of Death",
+        "url": "https://www.dmsguild.com/product/220572/?affiliate_id=171040"
+    },
+    {
+        "apl": 12,
+        "authors": [
+            "Lysa Chen",
+            "Ruty Rutenberg"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-10",
+        "date_created": "20170908",
+        "full_title": "Ruins of Hisari",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.99,
+        "product_id": "220610",
+        "tiers": 3,
+        "title": "Ruins of Hisari",
+        "url": "https://www.dmsguild.com/product/220610/?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "Rich Lescouflair"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-6",
+        "date_created": "20170907",
+        "full_title": "DDHC-TOA-6 Heart of the Wild",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.95,
+        "product_id": "221093",
+        "tiers": 2,
+        "title": "Heart of the Wild",
+        "url": "https://www.dmsguild.com/product/221093/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Cindy Moore"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-9",
+        "date_created": "20170908",
+        "full_title": "DDHC-TOA-9 Ruins of Matolo: Discovery",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "221157",
+        "tiers": 2,
+        "title": "Ruins of Matolo: Discovery",
+        "url": "https://www.dmsguild.com/product/221157/?affiliate_id=171040"
+    },
+    {
         "apl": 11,
         "authors": [
             "Scott Moore"
@@ -995,6 +2244,63 @@
         "tiers": 3,
         "title": "CCCROZK01-03 Necromancer's Ascent",
         "url": "https://www.dmsguild.com/product/221934/CCCROZK0103-Necromancers-Ascent?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-03",
+        "date_created": "20171107",
+        "full_title": "DDAL07-03 A Day at the Races (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "222716",
+        "tiers": 0,
+        "title": "DDAL07-03 A Day at the Races 5e",
+        "url": "https://www.dmsguild.com/product/222716/DDAL0703-A-Day-at-the-Races-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-04",
+        "date_created": "20171107",
+        "full_title": "DDAL07-04 A Walk in the Park (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "222717",
+        "tiers": 0,
+        "title": "DDAL07-04 A Walk in the Park 5e",
+        "url": "https://www.dmsguild.com/product/222717/DDAL0704-A-Walk-in-the-Park-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-05",
+        "date_created": "20171107",
+        "full_title": "DDAL07-05 Whispers in the Dark (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "222718",
+        "tiers": 0,
+        "title": "DDAL07-05 Whispers in the Dark 5e",
+        "url": "https://www.dmsguild.com/product/222718/DDAL0705-Whispers-in-the-Dark-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -1117,6 +2423,86 @@
         "tiers": 1,
         "title": "CCCTHENT01-03 The Dreaming Relic",
         "url": "https://www.dmsguild.com/product/223667/CCCTHENT0103-The-Dreaming-Relic?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Will Doyle",
+            "James Introcaso"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-11",
+        "date_created": "20171022",
+        "full_title": "Hunter",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.95,
+        "product_id": "224607",
+        "tiers": 1,
+        "title": "Hunter",
+        "url": "https://www.dmsguild.com/product/224607/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-06",
+        "date_created": "20171205",
+        "full_title": "DDAL07-06 Fester and Burn (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "224832",
+        "tiers": 0,
+        "title": "DDAL07-06 Fester and Burn 5e",
+        "url": "https://www.dmsguild.com/product/224832/DDAL0706-Fester-and-Burn-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-07",
+        "date_created": "20171205",
+        "full_title": "DDAL07-07 Rotting Roots (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "224833",
+        "tiers": 0,
+        "title": "DDAL07-07 Rotting Roots 5e",
+        "url": "https://www.dmsguild.com/product/224833/DDAL0707-Rotting-Roots-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-08",
+        "date_created": "20171205",
+        "full_title": "DDAL07-08 Putting the Dead to Rest (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 2.99,
+        "product_id": "224834",
+        "season": "Tomb of Annihilation",
+        "tiers": 0,
+        "title": "DDAL07-08 Putting the Dead to Rest",
+        "url": "https://www.dmsguild.com/product/224834/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -1434,6 +2820,28 @@
         "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Ryan Wheaton"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-04",
+        "date_created": "20171219",
+        "full_title": "DDAL00-04 Winter's Flame",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "229261",
+        "season": 0,
+        "tiers": 1,
+        "title": "DDAL00-04 Winter's Flame",
+        "url": "https://www.dmsguild.com/product/229261/?affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Adrian Arduini"
@@ -1451,6 +2859,28 @@
         "tiers": 2,
         "title": "CCC-SFBay-02-01 Old Enemies Arise",
         "url": "https://www.dmsguild.com/product/230005/CCCSFBay0201-Old-Enemies-Arise?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-03",
+        "date_created": "20171230",
+        "full_title": "DDAL00-03 Those That Came Before",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "230030",
+        "season": 0,
+        "tiers": 2,
+        "title": "DDAL00-03 Those That Came Before",
+        "url": "https://www.dmsguild.com/product/230030/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -1516,6 +2946,44 @@
         "url": "https://www.dmsguild.com/product/230629/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-09",
+        "date_created": "20180206",
+        "full_title": "DDAL07-09 Unusual Opposition (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11",
+        "product_id": "230789",
+        "tiers": 0,
+        "title": "DDAL07-09 Unusual Opposition 5e",
+        "url": "https://www.dmsguild.com/product/230789/DDAL0709-Unusual-Opposition-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-10",
+        "date_created": "20180206",
+        "full_title": "DDAL07-10 Fire, Ash, and Ruin (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11",
+        "product_id": "230794",
+        "tiers": 0,
+        "title": "DDAL07-10 Fire, Ash, and Ruin 5e",
+        "url": "https://www.dmsguild.com/product/230794/DDAL0710-Fire-Ash-and-Ruin-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Ma'at Crook"
@@ -1577,6 +3045,88 @@
         "tiers": 1,
         "title": "CCC-SFBAY-04-01 The Cornflower Hive",
         "url": "https://www.dmsguild.com/product/232430/CCCSFBAY0401-The-Cornflower-Hive?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-11",
+        "date_created": "20180206",
+        "full_title": "DDAL07-11 A Lesson in Love (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11",
+        "product_id": "232624",
+        "tiers": 0,
+        "title": "DDAL07-11 A Lesson in Love 5e",
+        "url": "https://www.dmsguild.com/product/232624/DDAL0711-A-Lesson-in-Love-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-12",
+        "date_created": "20180206",
+        "full_title": "DDAL07-12 In Search of Secrets (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1",
+        "product_id": "232625",
+        "tiers": 0,
+        "title": "DDAL07-12 In Search of Secrets 5e",
+        "url": "https://www.dmsguild.com/product/232625/DDAL0712-In-Search-of-Secrets-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Robert Alaniz"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-13",
+        "date_created": "20180404",
+        "full_title": "DDAL07-13 Old Bones and Older Tomes",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "235128",
+        "season": "Tomb of Annihilation",
+        "tiers": 3,
+        "title": "DDAL07-13 Old Bones and Older Tomes",
+        "url": "https://www.dmsguild.com/product/235128/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Eric Menge"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-14",
+        "date_created": "20180404",
+        "full_title": "DDAL07-14 Fathomless Pits of Ill Intent",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "235134",
+        "season": "Tomb of Annihilation",
+        "tiers": 3,
+        "title": "DDAL07-14 Fathomless Pits of Ill Intent",
+        "url": "https://www.dmsguild.com/product/235134/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1867,6 +3417,51 @@
         "tiers": 2,
         "title": "CCC-GARY-09 The Witch Maiden",
         "url": "https://www.dmsguild.com/product/238360/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Iam Pace,",
+            "William Murakami-Brundage"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-15",
+        "date_created": "20180401",
+        "full_title": "DDAL07-15 Streams of Crimson",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "238650",
+        "season": "Tomb of Annihilation",
+        "tiers": 4,
+        "title": "DDAL07-15 Streams of Crimson",
+        "url": "https://www.dmsguild.com/product/238650/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Alexander Lindsay"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-16",
+        "date_created": "20180401",
+        "full_title": "DDAL07-16 Pools of Cerulean",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "238651",
+        "season": "Tomb of Annihilation",
+        "tiers": 4,
+        "title": "DDAL07-16 Pools of Cerulean",
+        "url": "https://www.dmsguild.com/product/238651/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -2304,6 +3899,50 @@
         "url": "https://www.dmsguild.com/product/241068/CCCSTORM01-The-Barrows-of-Solina?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-17",
+        "date_created": "20180507",
+        "full_title": "DDAL07-17 Cauldrons of Sapphire",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "241653",
+        "season": "Tomb of Annihilation",
+        "tiers": 4,
+        "title": "DDAL07-17 Cauldrons of Sapphire",
+        "url": "https://www.dmsguild.com/product/241653/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL07-18",
+        "date_created": "20180507",
+        "full_title": "DDAL07-18 Turn Back the Endless Night",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "241654",
+        "season": "Tomb of Annihilation",
+        "tiers": 4,
+        "title": "DDAL07-18 Turn Back the Endless Night",
+        "url": "https://www.dmsguild.com/product/241654/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Phil Allison"
@@ -2321,6 +3960,50 @@
         "tiers": 1,
         "title": "CCC-SCAR01-02 Glister By Light",
         "url": "https://www.dmsguild.com/product/242220/CCCSCAR0102-Glister-By-Light?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Claire Hoffman",
+            "James Introcaso",
+            "Greg Marks",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "Riddle of the Raven Queen",
+        "date_created": "20180521",
+        "full_title": "Riddle of the Raven Queen",
+        "hours": "8-12",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 5.95,
+        "product_id": "242611",
+        "season": null,
+        "tiers": 2,
+        "title": "Riddle of the Raven Queen",
+        "url": "https://www.dmsguild.com/product/242611/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Rich Lescouflair"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-MORD-03",
+        "date_created": "20180524",
+        "full_title": "DDHC-MORD-03 To Wake The Leviathan",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.95,
+        "product_id": "242840",
+        "tiers": 3,
+        "title": "To Wake The Leviathan",
+        "url": "https://www.dmsguild.com/product/242840/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2721,6 +4404,25 @@
         "url": "https://www.dmsguild.com/product/247005/CCCAMER01-Asleep-and-Awake?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-02",
+        "date_created": "20180713",
+        "full_title": "Lost Tales of Myth Drannor",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-20",
+        "product_id": "247140",
+        "tiers": 1,
+        "title": "Lost Tales of Myth Drannor",
+        "url": "https://www.dmsguild.com/product/247140/Lost-Tales-of-Myth-Drannor&affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Jeff C. Stevens",
@@ -2818,6 +4520,26 @@
         "tiers": 2,
         "title": "CCC-CIC-07 Pieces of You",
         "url": "https://www.dmsguild.com/product/248551/CCCCIC07-Pieces-of-You?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 0,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW00",
+        "date_created": "20180921",
+        "full_title": "DDAL-ELW00 What's Past is Prologue",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": 0,
+        "price": 4.99,
+        "product_id": "248589",
+        "tiers": 0,
+        "title": "DDAL-ELW00 What's Past is Prologue",
+        "url": "https://www.dmsguild.com/product/248589?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3004,6 +4726,102 @@
         "url": "https://www.dmsguild.com/product/250386/CCCSFBay0203-The-Risen-Minotaur-Lord?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-01",
+        "date_created": "20181002",
+        "full_title": "DDAL08-01 The Map with No Names",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "2",
+        "product_id": "250987",
+        "tiers": 1,
+        "title": "DDAL08-01 The Map with No Names",
+        "url": "https://www.dmsguild.com/product/250987/DDAL0801-The-Map-with-No-Names?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-02",
+        "date_created": "20181002",
+        "full_title": "DDAL08-02 Beneath the City of the Dead",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "2",
+        "product_id": "250990",
+        "tiers": 1,
+        "title": "DDAL08-02 Beneath the City of the Dead",
+        "url": "https://www.dmsguild.com/product/250990/DDAL0802-Beneath-the-City-of-the-Dead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-03",
+        "date_created": "20181002",
+        "full_title": "DDAL08-03 Dock Ward Double Cross",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "250991",
+        "tiers": 1,
+        "title": "DDAL08-03 Dock Ward Double Cross",
+        "url": "https://www.dmsguild.com/product/250991/DDAL0803-Dock-Ward-Double-Cross?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-00",
+        "date_created": "20180827",
+        "full_title": "DDAL08-00 Once in Waterdeep",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "250993",
+        "tiers": 1,
+        "title": "DDAL08-00 Once in Waterdeep",
+        "url": "https://www.dmsguild.com/product/250993/DDAL0800-Once-in-Waterdeep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Rich Lescouflair"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-15",
+        "date_created": "20180829",
+        "full_title": "Maze of Shadows",
+        "hours": "8-10",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 5.95,
+        "product_id": "251151",
+        "tiers": 3,
+        "title": "Maze of Shadows",
+        "url": "https://www.dmsguild.com/product/251151/?affiliate_id=171040"
+    },
+    {
         "apl": 2,
         "authors": [
             "Adam Scaramella",
@@ -3079,6 +4897,26 @@
         "tiers": 1,
         "title": "CCC-TAROT01-07 The Seat of the Ruler",
         "url": "https://www.dmsguild.com/product/251835/CCCTAROT0107-The-Seat-of-the-Ruler?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-MORD-05",
+        "date_created": "20180912",
+        "full_title": "Escape from Wheloon",
+        "hours": "3-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "251922",
+        "tiers": 1,
+        "title": "Escape from Wheloon",
+        "url": "https://www.dmsguild.com/product/251922/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3262,6 +5100,48 @@
         "url": "https://www.dmsguild.com/product/252566/?affiliate_id=171040"
     },
     {
+        "apl": 2,
+        "authors": [
+            "Alan Patrick",
+            "M.T. Black"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-WDH-03",
+        "date_created": "20180920",
+        "full_title": "Blue Alley",
+        "hours": "3-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "252855",
+        "season": null,
+        "tiers": 1,
+        "title": "Blue Alley",
+        "url": "https://www.dmsguild.com/product/252855/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW01",
+        "date_created": "20180920",
+        "full_title": "DDAL-ELW01 Murder in Skyway",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "252925",
+        "tiers": 1,
+        "title": "DDAL-ELW01 Murder in Skyway",
+        "url": "https://www.dmsguild.com/product/252925/?affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Bryan Gillispie",
@@ -3421,6 +5301,26 @@
         "url": "https://www.dmsguild.com/product/253726/?affiliate_id=171040"
     },
     {
+        "apl": 2,
+        "authors": [
+            "Bill Benham"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW02",
+        "date_created": "20181001",
+        "full_title": "DDAL-ELW02 Boromar Ball",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "253783",
+        "tiers": 1,
+        "title": "DDAL-ELW02 Boromar Ball",
+        "url": "https://www.dmsguild.com/product/253783/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Ian Hawthorne"
@@ -3478,6 +5378,65 @@
         "tiers": 2,
         "title": "CCC-BWM-002 The City in the Depths",
         "url": "https://www.dmsguild.com/product/253855/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-04",
+        "date_created": "20181106",
+        "full_title": "DDAL08-04 A Wrinkle in the Weave",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "253881",
+        "season": "Waterdeep",
+        "tiers": 1,
+        "title": "DDAL08-04 A Wrinkle in the Weave",
+        "url": "https://www.dmsguild.com/product/253881/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-05",
+        "date_created": "20181106",
+        "full_title": "DDAL08-05 Hero of the Troll Wars",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "253883",
+        "tiers": 1,
+        "title": "DDAL08-05 Hero of the Troll Wars",
+        "url": "https://www.dmsguild.com/product/253883/DDAL0805-Hero-of-the-Troll-Wars&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-06",
+        "date_created": "20181106",
+        "full_title": "DDAL08-06 Purging the Blood",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "253884",
+        "tiers": 1,
+        "title": "DDAL08-06 Purging the Blood",
+        "url": "https://www.dmsguild.com/product/253884/DDAL0806-Purging-the-Blood&affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -3658,6 +5617,26 @@
         "url": "https://www.dmsguild.com/product/254453/CCCNUKE0102-Hide-and-Seek&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "James Haeck"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW03",
+        "date_created": "20181011",
+        "full_title": "DDAL-ELW03 The Cannith Code",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "254691",
+        "tiers": 1,
+        "title": "DDAL-ELW03 The Cannith Code",
+        "url": "https://www.dmsguild.com/product/254691?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Garrett Col\u00f3n"
@@ -3718,6 +5697,26 @@
         "url": "https://www.dmsguild.com/product/256228/CCCPPTDD0101-Trouble-Under-Winton?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 4,
+        "authors": [
+            "Ginny Loveday"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW04",
+        "date_created": "20181018",
+        "full_title": "DDAL-ELW04 Jack of Daggers",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": 256437,
+        "tiers": 1,
+        "title": "DDAL-ELW04 Jack of Daggers",
+        "url": "https://www.dmsguild.com/product/256437/DDALELW04-Jack-of-Daggers&affiliate_id=171040"
+    },
+    {
         "apl": 6,
         "authors": [
             "Derek Myers"
@@ -3735,6 +5734,26 @@
         "tiers": 2,
         "title": "CCC-AN-03 Winter Wonderland",
         "url": "https://www.dmsguild.com/product/256915/CCCAN03-Winter-Wonderland?affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "Will Doyle"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW05",
+        "date_created": "20181026",
+        "full_title": "DDAL-ELW05 Against the Lightning",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 257230,
+        "tiers": 2,
+        "title": "DDAL-ELW05 Against the Lightning",
+        "url": "https://www.dmsguild.com/product/257230/DDALELW05-Against-the-Lightning&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3813,6 +5832,83 @@
         "tiers": 2,
         "title": "CCC-Ziege_02 Storm of the Blood Moon",
         "url": "https://www.dmsguild.com/product/257623/CCCZiege02-Storm-of-the-Blood-Moon&affiliate_id=171040"
+    },
+    {
+        "apl": 6,
+        "authors": [
+            "Ashley Warren"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW06",
+        "date_created": "20181101",
+        "full_title": "DDAL-ELW06 A Holy Visit",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 257741,
+        "tiers": 2,
+        "title": "DDAL-ELW06 A Holy Visit",
+        "url": "https://www.dmsguild.com/product/257741?affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-07",
+        "date_created": "20181206",
+        "full_title": "DDAL08-07 Into the Dark",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "257779",
+        "tiers": 2,
+        "title": "DDAL08-07 Into the Dark",
+        "url": "https://www.dmsguild.com/product/257779/DDAL0807-Into-the-Dark&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-08",
+        "date_created": "20181211",
+        "full_title": "DDAL08-08 Crypt of the Dark Kiss",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "257780",
+        "tiers": 2,
+        "title": "DDAL08-08 Crypt of the Dark Kiss",
+        "url": "https://www.dmsguild.com/product/257780/DDAL0808-Crypt-of-the-Dark-Kiss&affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-09",
+        "date_created": "20181211",
+        "full_title": "DDAL08-09 Fangs and Frogs",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "257781",
+        "tiers": 2,
+        "title": "DDAL08-09 Fangs and Frogs",
+        "url": "https://www.dmsguild.com/product/257781/DDAL0809-Fangs-and-Frogs&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -4062,6 +6158,46 @@
         "url": "https://www.dmsguild.com/product/258839/?affiliate_id=171040"
     },
     {
+        "apl": 7,
+        "authors": [
+            "Lysa Chen"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW07",
+        "date_created": "20181116",
+        "full_title": "DDAL-ELW07 Blades of Terror",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 258975,
+        "tiers": 2,
+        "title": "DDAL-ELW07 Blades of Terror",
+        "url": "https://www.dmsguild.com/product/258975?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Shawn Merwin"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW08",
+        "date_created": "20181116",
+        "full_title": "DDAL-ELW08 The Kundarak Job",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 258976,
+        "tiers": 2,
+        "title": "DDAL-ELW08 The Kundarak Job",
+        "url": "https://www.dmsguild.com/product/258976?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Adam Gordier"
@@ -4201,6 +6337,48 @@
         "url": "https://www.dmsguild.com/product/259775/CCCKUMORI0204-To-Be-the-Very-Best&affiliate_id=171040"
     },
     {
+        "apl": 9,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW09",
+        "date_created": "20181130",
+        "full_title": "DDAL-ELW09 Searching for Secrets",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 260064,
+        "tiers": 2,
+        "title": "DDAL-ELW09 Searching for Secrets",
+        "url": "https://www.dmsguild.com/product/260064?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ashley Warren"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-05",
+        "date_created": "20181206",
+        "full_title": "DDAL00-05 Winter's Splendor",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "260142",
+        "season": 0,
+        "tiers": 0,
+        "title": "DDAL00-05 Winter's Splendor",
+        "url": "https://www.dmsguild.com/product/260142/?affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Jeremey Arnold"
@@ -4316,6 +6494,26 @@
         "tiers": 2,
         "title": "CCC-DES-01-01 Finding the Rabbit Hole",
         "url": "https://www.dmsguild.com/product/260395/?affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW10",
+        "date_created": "20181207",
+        "full_title": "DDAL-ELW10 The Killing Blade",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 260858,
+        "tiers": 2,
+        "title": "DDAL-ELW10 The Killing Blade",
+        "url": "https://www.dmsguild.com/product/260858?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -4597,6 +6795,26 @@
         "url": "https://www.dmsguild.com/product/261266/CCCKUMORI0202-School-Magic?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 10,
+        "authors": [
+            "M.T. Black"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW11",
+        "date_created": "20181214",
+        "full_title": "DDAL-ELW11 Secrets Below",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 261301,
+        "tiers": 2,
+        "title": "DDAL-ELW11 Secrets Below",
+        "url": "https://www.dmsguild.com/product/261301?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Baldman Games",
@@ -4837,6 +7055,67 @@
         "url": "https://www.dmsguild.com/product/263173/?affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League",
+            "Paige Leitman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-10",
+        "date_created": "20190205",
+        "full_title": "DDAL08-10 The Skull Square Murders",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "263383",
+        "season": "Waterdeep",
+        "tiers": 2,
+        "title": "The Skull Square Murders",
+        "url": "https://www.dmsguild.com/product/263383/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-11",
+        "date_created": "20190205",
+        "full_title": "DDAL08-11 Poisoned Words",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "263387",
+        "tiers": 2,
+        "title": "DDAL08-11 Poisoned Words",
+        "url": "https://www.dmsguild.com/product/263387/DDAL0811-Poisoned-Words&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-12",
+        "date_created": "20190205",
+        "full_title": "DDAL08-12 Xanathar's Wrath",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "263388",
+        "tiers": 2,
+        "title": "DDAL08-12 Xanathar's Wrath",
+        "url": "https://www.dmsguild.com/product/263388/DDAL0812-Xanathars-Wrath&affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Christine Weidenbach"
@@ -4854,6 +7133,25 @@
         "tiers": 1,
         "title": "CCC-ELF-02 An Adventuring Party Walks Into A Bar",
         "url": "https://www.dmsguild.com/product/263415/CCCELF02-An-Adventuring-Party-Walks-Into-A-Bar?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-13",
+        "date_created": "20190120",
+        "full_title": "DDAL08-13 The Vampire of Skullport",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "264612",
+        "tiers": 3,
+        "title": "DDAL08-13 The Vampire of Skullport",
+        "url": "https://www.dmsguild.com/product/264612/DDAL0813-The-Vampire-of-Skullport&affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -4991,6 +7289,44 @@
         "url": "https://www.dmsguild.com/product/265113/CCCBMG45-PHLAN-43-Things-That-Go-Bump-in-the-Night?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-14",
+        "date_created": "20190127",
+        "full_title": "DDAL08-14 Rescue from Vanrakdoom",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "265274",
+        "tiers": 3,
+        "title": "DDAL08-14 Rescue from Vanrakdoom",
+        "url": "https://www.dmsguild.com/product/265274/DDAL0814-Rescue-from-Vanrakdoom&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-15",
+        "date_created": "20190201",
+        "full_title": "DDAL08-15 Forge of Fangs",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "265534",
+        "tiers": 3,
+        "title": "DDAL08-15 Forge of Fangs",
+        "url": "https://www.dmsguild.com/product/265534/DDAL0815-Forge-of-Fangs&affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "Andrew Bishkinskyi"
@@ -5108,6 +7444,27 @@
         "tiers": 1,
         "title": "CCC-BMG-MOON2-1 Defenders of Caer Moray",
         "url": "https://www.dmsguild.com/product/266890/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-08",
+        "date_created": "20190217",
+        "full_title": "DDAL00-08 Layers Upon Layers",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-10",
+        "price": 3.99,
+        "product_id": "266896",
+        "season": 0,
+        "tiers": 1,
+        "title": "DDAL00-08 Layers Upon Layers",
+        "url": "https://www.dmsguild.com/product/266896/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -5270,6 +7627,63 @@
         "url": "https://www.dmsguild.com/product/267942/CCCTarot0203-To-Boldly-Go?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-16",
+        "date_created": "20190305",
+        "full_title": "DDAL08-16 A Change of Address",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "268517",
+        "tiers": 4,
+        "title": "DDAL08-16 A Change of Address",
+        "url": "https://www.dmsguild.com/product/268517/DDAL0816-A-Change-of-Address&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-17",
+        "date_created": "20190305",
+        "full_title": "DDAL08-17 The Tower of Ahghairon",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "268519",
+        "tiers": 4,
+        "title": "DDAL08-17 The Tower of Ahghairon",
+        "url": "https://www.dmsguild.com/product/268519/DDAL0817-The-Tower-of-Ahghairon&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL08-18",
+        "date_created": "20190305",
+        "full_title": "DDAL08-18 Moving Day",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "268520",
+        "tiers": 4,
+        "title": "DDAL08-18 Moving Day",
+        "url": "https://www.dmsguild.com/product/268520/DDAL0818-Moving-Day&affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Baldman Games",
@@ -5373,6 +7787,28 @@
         "url": "https://www.dmsguild.com/product/270904/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "AL Admins",
+            "Rich Lescouflair"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-09",
+        "date_created": "20190401",
+        "full_title": "DDAL00-09 Minsc & Boo's Guide to Stuff and Things - D&D Adventurers League | Wizards of the Coast | Dungeon Masters Guild | Dungeon Masters Guild",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 5.99,
+        "product_id": "271488",
+        "season": 0,
+        "tiers": 0,
+        "title": "DDAL00-09 Minsc & Boo's Guide to Stuff and Things - D&D Adventurers League | Wizards of the Coast | Dungeon Masters Guild | Dungeon Masters Guild",
+        "url": "https://www.dmsguild.com/product/271488/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Keith McKinnis",
@@ -5412,6 +7848,26 @@
         "tiers": 2,
         "title": "CCC-TAROT-02-01 A Sunk Cost",
         "url": "https://www.dmsguild.com/product/273101/CCCTAROT0201-A-Sunk-Cost?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW01",
+        "date_created": "20190706",
+        "full_title": "DDAL-DRW01 Breaking Umberlee's Resolve",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "273777",
+        "tiers": 2,
+        "title": "DDAL-DRW01 Breaking Umberlee's Resolve",
+        "url": "https://www.dmsguild.com/product/273777/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -5673,6 +8129,28 @@
     {
         "apl": 3,
         "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-07",
+        "date_created": "20190606",
+        "full_title": "DDAL00-07 The Embers of Hate",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "279062",
+        "season": 0,
+        "tiers": 1,
+        "title": "DDAL00-07 The Embers of Hate",
+        "url": "https://www.dmsguild.com/product/279062/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "Monkey Mind Tabletop",
             "Curtis Glenn"
         ],
@@ -5862,6 +8340,26 @@
         "tiers": 1,
         "title": "CCC-TAROT02-04 Moonlit Waves Part 1",
         "url": "https://www.dmsguild.com/product/281792/CCCTAROT0204-Moonlit-Waves-Part-1?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW02",
+        "date_created": "20190706",
+        "full_title": "DDAL-DRW02 Blood in the Water",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "282024",
+        "tiers": 2,
+        "title": "DDAL-DRW02 Blood in the Water",
+        "url": "https://www.dmsguild.com/product/282024/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6189,6 +8687,46 @@
         "url": "https://www.dmsguild.com/product/284824/Shadowed-Bellview?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 18,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-10",
+        "date_created": "20190908",
+        "full_title": "DDAL00-10 Trust and Understanding",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "2",
+        "product_id": "285124",
+        "tiers": 4,
+        "title": "DDAL00-10 Trust and Understanding",
+        "url": "https://www.dmsguild.com/product/285124/DDAL0010-Trust-and-Understanding&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW03",
+        "date_created": "20190926",
+        "full_title": "DDAL-DRW03 Saving Silverbeard",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "285151",
+        "season": null,
+        "tiers": 3,
+        "title": "DDAL-DRW03 Saving Silverbeard",
+        "url": "https://www.dmsguild.com/product/285151/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Jason Panella",
@@ -6371,6 +8909,152 @@
         "url": "https://www.dmsguild.com/product/286424/CCCSCAR0202-Natures-Defense?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [
+            "Rich Lescouflair"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-01",
+        "date_created": "20190906",
+        "full_title": "DDAL09-01 Escape From Elturgard",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "287932",
+        "season": "Avernus Rising",
+        "tiers": 1,
+        "title": "DDAL09-01 Escape From Elturgard",
+        "url": "https://www.dmsguild.com/product/287932/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-11",
+        "date_created": "20191024",
+        "full_title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "201",
+        "product_id": "288447",
+        "tiers": 1,
+        "title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
+        "url": "https://www.dmsguild.com/product/288447/DDAL0011-Pipyaps-Guide-to-All-of-the-Nine-Hells&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-02",
+        "date_created": "20190918",
+        "full_title": "DDAL09-02 Stopped at the Gate",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "289152",
+        "season": "Avernus Rising",
+        "tiers": 1,
+        "title": "DDAL09-02 Stopped at the Gate",
+        "url": "https://www.dmsguild.com/product/289152/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-03",
+        "date_created": "20190918",
+        "full_title": "DDAL09-03 Hungry Shadows",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "289153",
+        "season": "Avernus Rising",
+        "tiers": 1,
+        "title": "DDAL09-03 Hungry Shadows",
+        "url": "https://www.dmsguild.com/product/289153/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-04",
+        "date_created": "20190918",
+        "full_title": "DDAL09-04 The Day of the Devil",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "289154",
+        "season": "Avernus Rising",
+        "tiers": 1,
+        "title": "DDAL09-04 The Day of the Devil",
+        "url": "https://www.dmsguild.com/product/289154/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-05",
+        "date_created": "20190930",
+        "full_title": "DDAL09-05 Faces of Fortune: the Story of Fai Chen",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "290246",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-05 Faces of Fortune the Story of Fai Chen",
+        "url": "https://www.dmsguild.com/product/290246/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-06",
+        "date_created": "20191007",
+        "full_title": "DDAL09-06 Infernal Insurgency",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "290898",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-06 Infernal Insurgency",
+        "url": "https://www.dmsguild.com/product/290898/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Fenway Jones",
@@ -6413,6 +9097,27 @@
         "tiers": 2,
         "title": "CCC-JGD-03 Tortle Tribulations",
         "url": "https://www.dmsguild.com/product/291016/DDALJGD03-Tortle-Tribulations&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-07",
+        "date_created": "20191014",
+        "full_title": "DDAL09-07 The Diabolical Dive",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "291677",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-07 The Diabolical Dive",
+        "url": "https://www.dmsguild.com/product/291677/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6472,6 +9177,28 @@
         "url": "https://www.dmsguild.com/product/293956/CCCTAROT0202-Guardians-Scourge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "James Introcaso"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "Abyssal Incursion",
+        "date_created": "20191111",
+        "full_title": "Abyssal Incursion",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "8",
+        "payWhatYouWant": false,
+        "price": 3.95,
+        "product_id": "294570",
+        "season": null,
+        "tiers": 0,
+        "title": "Abyssal Incursion",
+        "url": "https://www.dmsguild.com/product/294570/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Monkey Mind Tabletop",
@@ -6492,6 +9219,69 @@
         "tiers": 1,
         "title": "CCC-MMT 01-02 A Little Competition Never Hurt Anyone",
         "url": "https://www.dmsguild.com/product/294627/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-08",
+        "date_created": "20191118",
+        "full_title": "DDAL09-08 In the Garden of Evil",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "295211",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-08 In the Garden of Evil",
+        "url": "https://www.dmsguild.com/product/295211/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-09",
+        "date_created": "20191118",
+        "full_title": "DDAL09-09 Ruined Prospects",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "295212",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-09 Ruined Prospects",
+        "url": "https://www.dmsguild.com/product/295212/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-10",
+        "date_created": "20191119",
+        "full_title": "DDAL09-10 Tipping the Scales",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "295328",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-10 Tipping the Scales",
+        "url": "https://www.dmsguild.com/product/295328/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -6773,6 +9563,27 @@
         "url": "https://www.dmsguild.com/product/295878/CCCSQC-0303-Toxicity?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-01",
+        "date_created": "20191202",
+        "full_title": "EB-01 The Night Land",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "296403",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-01 The Night Land",
+        "url": "https://www.dmsguild.com/product/296403/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Dennis R Hall"
@@ -6813,6 +9624,27 @@
         "tiers": 2,
         "title": "When Mages Fall CCC-OA-01-01",
         "url": "https://www.dmsguild.com/product/296439/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-11",
+        "date_created": "20200204",
+        "full_title": "DDAL09-11 Losing Fai",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "296738",
+        "season": "Avernus Rising",
+        "tiers": 2,
+        "title": "DDAL09-11 Losing Fai",
+        "url": "https://www.dmsguild.com/product/296738/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -7149,6 +9981,27 @@
         "url": "https://www.dmsguild.com/product/299621/CCCSAF0101-Between-Garrock-and-a-Hard-Place?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 2,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-02",
+        "date_created": "20200107",
+        "full_title": "EB-02 Voice in the Machine",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "299680",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-02 Voice in the Machine",
+        "url": "https://www.dmsguild.com/product/299680/?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "The Role Initiative"
@@ -7324,6 +10177,69 @@
         "url": "https://www.dmsguild.com/product/300573/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-12",
+        "date_created": "20200120",
+        "full_title": "DDAL09-12 The Breath of Life",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "301019",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-12 The Breath of Life",
+        "url": "https://www.dmsguild.com/product/301019/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-13",
+        "date_created": "20200120",
+        "full_title": "DDAL09-13 The Swarmed Heart",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "301020",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-13 The Swarmed Heart",
+        "url": "https://www.dmsguild.com/product/301020/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-14",
+        "date_created": "20200120",
+        "full_title": "DDAL09-14 The Vast Emptiness of Grace",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "301021",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-14 The Vast Emptiness of Grace",
+        "url": "https://www.dmsguild.com/product/301021/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Anthony Joyce",
@@ -7464,6 +10380,27 @@
         "url": "https://www.dmsguild.com/product/302031/CCCGSPMON0101-Shadows-of-Despair&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-03",
+        "date_created": "20200204",
+        "full_title": "EB-03 Where the Dead Wait",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "302373",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-03 Where the Dead Wait",
+        "url": "https://www.dmsguild.com/product/302373/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Andrew Bishkinskyi"
@@ -7503,6 +10440,48 @@
         "tiers": 1,
         "title": "CCC-GSP02-01 Minauros Unchained",
         "url": "https://www.dmsguild.com/product/303699/CCCGSP0201-Minauros-Unchained&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Amy Lynn Dzura",
+            "Gregory Marks",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-12",
+        "date_created": "20200220",
+        "full_title": "DDAL00-12 Infernal Encounters",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "7",
+        "product_id": "304029",
+        "tiers": 0,
+        "title": "DDAL00-12 Infernal Encounters",
+        "url": "https://www.dmsguild.com/product/304029/DDAL0012-Infernal-Encounters&affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-04",
+        "date_created": "20200301",
+        "full_title": "EB-04 The Third Protocol",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "305024",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-04 The Third Protocol",
+        "url": "https://www.dmsguild.com/product/305024/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -7598,6 +10577,69 @@
         "tiers": 2,
         "title": "Ghost Town",
         "url": "https://www.dmsguild.com/product/306912/Ghost-Town?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-15",
+        "date_created": "20200428",
+        "full_title": "DDAL09-15 Maddening Screams",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "306935",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-15 Maddening Screams",
+        "url": "https://www.dmsguild.com/product/306935/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-16",
+        "date_created": "20200428",
+        "full_title": "DDAL09-16 Honors Unforseen",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "306937",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-16 Honors Unforseen",
+        "url": "https://www.dmsguild.com/product/306937/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-17",
+        "date_created": "20200428",
+        "full_title": "DDAL09-17 In the Hand",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "306938",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-17 In the Hand",
+        "url": "https://www.dmsguild.com/product/306938/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -7858,6 +10900,27 @@
         "tiers": 1,
         "title": "CCC-HERO-BK-02-05 Morsels for the Monstrosity",
         "url": "https://www.dmsguild.com/product/308343/CCCHEROBK0205-Morsels-for-the-Monstrosity?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-01",
+        "date_created": "20200407",
+        "full_title": "EB-EP-01 The Iron Titan",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.19,
+        "product_id": "308553",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-EP-01 The Iron Titan",
+        "url": "https://www.dmsguild.com/product/308553/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -8427,6 +11490,27 @@
         "url": "https://www.dmsguild.com/product/311714/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Bum Lee"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EBERRON",
+        "date_created": "20200430",
+        "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "311891",
+        "season": null,
+        "tiers": 1,
+        "title": "Saving Salvation Eberron Salvage Mission Trilogy",
+        "url": "https://www.dmsguild.com/product/311891/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Mike Olson"
@@ -8482,6 +11566,27 @@
         "tiers": 1,
         "title": "CCC-YLRA-SDCC01-3 Cast In Shadow",
         "url": "https://www.dmsguild.com/product/312295/CCCYLRASDCC013-Cast-In-Shadow&affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-05",
+        "date_created": "20200504",
+        "full_title": "EB-05 A Century of Ashes",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "312336",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-05 A Century of Ashes",
+        "url": "https://www.dmsguild.com/product/312336/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -8853,6 +11958,27 @@
         "url": "https://www.dmsguild.com/product/313874/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "Return to the Glory (5e)",
+        "date_created": "20200521",
+        "full_title": "Return to the Glory (5e)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 9.99,
+        "product_id": "314450",
+        "season": null,
+        "tiers": 0,
+        "title": "Return to the Glory",
+        "url": "https://www.dmsguild.com/product/314450/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Gregory Marks"
@@ -9031,6 +12157,27 @@
         "url": "https://www.dmsguild.com/product/315872/CCCUBCON202002Realm-of-the-Brand&affiliate_id=171040"
     },
     {
+        "apl": 6,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-06",
+        "date_created": "20200603",
+        "full_title": "EB-06 The Last Word",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "316059",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-06 The Last Word",
+        "url": "https://www.dmsguild.com/product/316059/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Jonathan Connor Self"
@@ -9165,6 +12312,48 @@
         "tiers": 1,
         "title": "CCC-MAYDAYS-01 The Bandit's Mark",
         "url": "https://www.dmsguild.com/product/318715/CCCMAYDAYS01-The-Bandits-Mark&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-18",
+        "date_created": "20200628",
+        "full_title": "DDAL09-18 Consequences of Choice",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "318834",
+        "season": "Avernus Rising",
+        "tiers": 3,
+        "title": "DDAL09-18 Consequences of Choice",
+        "url": "https://www.dmsguild.com/product/318834/?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-07",
+        "date_created": "20200706",
+        "full_title": "EB-07 Song of the Sky",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "319657",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-07 Song of the Sky",
+        "url": "https://www.dmsguild.com/product/319657/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -9367,6 +12556,50 @@
         "url": "https://www.dmsguild.com/product/321025/CCCSEA0103-Stargazing-on-the-Albatross?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League",
+            "Will Doyle"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-19",
+        "date_created": "20200721",
+        "full_title": "DDAL09-19 Fang and Claw",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 4.99,
+        "product_id": "321063",
+        "season": "Avernus Rising",
+        "tiers": 4,
+        "title": "DDAL09-19 Fang and Claw",
+        "url": "https://www.dmsguild.com/product/321063/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL09-20",
+        "date_created": "20200721",
+        "full_title": "DDAL09-20 Where Devils Fear to Tread",
+        "hours": "4-6",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "321069",
+        "season": "Avernus Rising",
+        "tiers": 0,
+        "title": "DDAL09-20 Where Devils Fear to Tread",
+        "url": "https://www.dmsguild.com/product/321069/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Blake Jones"
@@ -9509,6 +12742,27 @@
         "tiers": 1,
         "title": "CCC-CENTRIC01-03 The Patchwork Tower",
         "url": "https://www.dmsguild.com/product/322508/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-08",
+        "date_created": "20200803",
+        "full_title": "EB-08 Parliament of Gears",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "322749",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-08 Parliament of Gears",
+        "url": "https://www.dmsguild.com/product/322749/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -9666,6 +12920,130 @@
         "url": "https://www.dmsguild.com/product/326052/Dino-World&affiliate_id=171040"
     },
     {
+        "apl": 9,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-09",
+        "date_created": "20200901",
+        "full_title": "EB-09 Lord Bucket",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "326339",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-09 Lord Bucket",
+        "url": "https://www.dmsguild.com/product/326339/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-04",
+        "date_created": "20200831",
+        "full_title": "DDAL-DRW-04 Foreign Affairs",
+        "hours": "6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "326717",
+        "season": null,
+        "tiers": 3,
+        "title": "DDAL-DRW-04 Foreign Affairs",
+        "url": "https://www.dmsguild.com/product/326717/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-00",
+        "date_created": "20200914",
+        "full_title": "DDAL10-00 Ice Road Trackers",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "328476",
+        "tiers": 0,
+        "title": "DDAL10-00 Ice Road Trackers",
+        "url": "https://www.dmsguild.com/product/328476/DDAL1000-Ice-Road-Trackers&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Gregory Marks",
+            "Shawn Merwin",
+            "Alan Patrick",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-13",
+        "date_created": "20200915",
+        "full_title": "DDAL00-13 Knuckleheads & Other Such Curiosities: A Travelers\u2019 Guide to Icewind Dale",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "6",
+        "product_id": "328568",
+        "tiers": 0,
+        "title": "DDAL00-13 Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
+        "url": "https://www.dmsguild.com/product/328568/DDAL0013-Knuckleheads--Other-Such-Curiosities-A-Travelers-Guide-to-Icewind-Dale&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-05",
+        "date_created": "20200928",
+        "full_title": "DDAL-DRW-05 Uncertain Scrutiny",
+        "hours": "6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "330203",
+        "tiers": 3,
+        "title": "DDAL-DRW-05 Uncertain Scrutiny",
+        "url": "https://www.dmsguild.com/product/330203/?affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-10",
+        "date_created": "20201006",
+        "full_title": "EB-10 Judgment of Iron",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "331083",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-10 Judgment of Iron",
+        "url": "https://www.dmsguild.com/product/331083/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Travis Fuller"
@@ -9706,6 +13084,25 @@
         "tiers": 1,
         "title": "Wrongs and Punishment An Eberron Salvage Mission",
         "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-01",
+        "date_created": "20201019",
+        "full_title": "DDAL10-01 The Frozen North",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "332516",
+        "tiers": 0,
+        "title": "DDAL10-01 The Frozen North",
+        "url": "https://www.dmsguild.com/product/332516/DDAL1001-The-Frozen-North&affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -9792,6 +13189,26 @@
         "tiers": 3,
         "title": "CCC-QCC2020-03 Run For The Money",
         "url": "https://www.dmsguild.com/product/333653/CCCQCC202003-Run-For-The-Money?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-06",
+        "date_created": "20201028",
+        "full_title": "DDAL-DRW-06 Thimblerigging",
+        "hours": "6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "333727",
+        "tiers": 3,
+        "title": "DDAL-DRW-06 Thimblerigging",
+        "url": "https://www.dmsguild.com/product/333727/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -10226,6 +13643,27 @@
         "url": "https://www.dmsguild.com/product/335286/House-of-Diamonds-CCCUNITEGD01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-02",
+        "date_created": "20201110",
+        "full_title": "EB-EP-02 Rolling Thunder",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 6.27,
+        "product_id": "335587",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-EP-02 Rolling Thunder",
+        "url": "https://www.dmsguild.com/product/335587/?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Bruce Wood"
@@ -10449,6 +13887,27 @@
         "tiers": 1,
         "title": "The Missing Link DC-PoA-GSP03-01",
         "url": "https://www.dmsguild.com/product/337908/?affiliate_id=171040"
+    },
+    {
+        "apl": 11,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-11",
+        "date_created": "20201201",
+        "full_title": "EB-11 My Undying Heart",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "337947",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-11 My Undying Heart",
+        "url": "https://www.dmsguild.com/product/337947/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -10703,6 +14162,27 @@
         "tiers": 2,
         "title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
         "url": "https://www.dmsguild.com/product/339808/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEP10-00",
+        "date_created": "20201217",
+        "full_title": "DDEP10-00 The Great Knucklehead Rally",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 8.99,
+        "product_id": "340333",
+        "season": null,
+        "tiers": 0,
+        "title": "DDEP10-00 The Great Knucklehead Rally",
+        "url": "https://www.dmsguild.com/product/340333/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -11480,6 +14960,27 @@
         "url": "https://www.dmsguild.com/product/342209/?affiliate_id=171040"
     },
     {
+        "apl": 12,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-12",
+        "date_created": "20210105",
+        "full_title": "EB-12 The Waiting Game",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "342451",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-12 The Waiting Game",
+        "url": "https://www.dmsguild.com/product/342451/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Casper Kirketerp-Helenius"
@@ -11537,6 +15038,44 @@
         "url": "https://www.dmsguild.com/product/342961/DcPoADCAF06-A-Front-On-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-02",
+        "date_created": "20210112",
+        "full_title": "DDAL10-02 Gnashing Teeth",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "343148",
+        "tiers": 0,
+        "title": "DDAL10-02 Gnashing Teeth",
+        "url": "https://www.dmsguild.com/product/343148/DDAL1002-Gnashing-Teeth&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-03",
+        "date_created": "20210112",
+        "full_title": "DDAL10-03 Divining Evil",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "343150",
+        "tiers": 0,
+        "title": "DDAL10-03 Divining Evil",
+        "url": "https://www.dmsguild.com/product/343150/DDAL1003-Divining-Evil&affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "Adrian Francisco"
@@ -11573,6 +15112,27 @@
         "tiers": 2,
         "title": "DC-POA-ROG-1 The Frozen Path To Easthaven",
         "url": "https://www.dmsguild.com/product/343753/DCPOAROG1-The-Frozen-Path-To-Easthaven?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-13",
+        "date_created": "20210125",
+        "full_title": "EB-13 Stonefire",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "344584",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-13 Stonefire",
+        "url": "https://www.dmsguild.com/product/344584/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -11743,6 +15303,45 @@
         "tiers": 4,
         "title": "CCC-GHC-BK03-09 A Convergence of Gods",
         "url": "https://www.dmsguild.com/product/344639/CCCGHCBK0309-A-Convergence-of-Gods?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-07",
+        "date_created": "20210125",
+        "full_title": "DDAL-DRW-07 Moment of Peace",
+        "hours": "6",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "344671",
+        "tiers": 3,
+        "title": "DDAL-DRW-07 Moment of Peace",
+        "url": "https://www.dmsguild.com/product/344671/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-04",
+        "date_created": "20210125",
+        "full_title": "DDAL10-04 Cold Benevolence",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "344672",
+        "tiers": 0,
+        "title": "DDAL10-04 Cold Benevolence",
+        "url": "https://www.dmsguild.com/product/344672/DDAL1004-Cold-Benevolence&affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -12390,6 +15989,46 @@
         "url": "https://www.dmsguild.com/product/348769/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-05",
+        "date_created": "20210303",
+        "full_title": "DDAL10-05 A Blight in the Darkness",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "348960",
+        "tiers": 0,
+        "title": "DDAL10-05 A Blight in the Darkness",
+        "url": "https://www.dmsguild.com/product/348960/DDAL1005-A-Blight-in-the-Darkness&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEP10-01",
+        "date_created": "20210305",
+        "full_title": "DDEP10-01 Terror in Ten Towns",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 8.99,
+        "product_id": "349163",
+        "season": null,
+        "tiers": 0,
+        "title": "DDEP10-01 Terror in Ten Towns",
+        "url": "https://www.dmsguild.com/product/349163/?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Scott Moore"
@@ -12431,6 +16070,27 @@
         "url": "https://www.dmsguild.com/product/349569/Seaside-Salvage-Eberron-Salvage-Mission-Anthology?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 14,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-14",
+        "date_created": "20210309",
+        "full_title": "EB-14 From Dust",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "349669",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-14 From Dust",
+        "url": "https://www.dmsguild.com/product/349669/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Christopher B. Bertucio"
@@ -12469,6 +16129,46 @@
         "tiers": 1,
         "title": "DC-PoA-PM04 Losing your Mind",
         "url": "https://www.dmsguild.com/product/349832/DCPoAPM04-Losing-your-Mind?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-08",
+        "date_created": "20210311",
+        "full_title": "DDAL-DRW-08 The Harrowing of Hell",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": null,
+        "product_id": "349905",
+        "tiers": 4,
+        "title": "DDAL-DRW-08 The Harrowing of Hell",
+        "url": "https://www.dmsguild.com/product/349905/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRWEP-02",
+        "date_created": "20210311",
+        "full_title": "DDAL-DRWEP-02 Wings of Death",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "349908",
+        "tiers": 3,
+        "title": "DDAL-DRWEP-02 Wings of Death",
+        "url": "https://www.dmsguild.com/product/349908/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -12668,6 +16368,25 @@
         "url": "https://www.dmsguild.com/product/351374/DCPoADCAF09-An-Ascent-to-Recall?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 7,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-06",
+        "date_created": "20210325",
+        "full_title": "DDAL10-06 The Fallen Star",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "351522",
+        "tiers": 0,
+        "title": "DDAL10-06 The Fallen Star",
+        "url": "https://www.dmsguild.com/product/351522/DDAL1006-The-Fallen-Star&affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Michelle Churchill"
@@ -12704,6 +16423,47 @@
         "tiers": 1,
         "title": "DC-PoA-PM05 Can you tell me how to get to the east haven way",
         "url": "https://www.dmsguild.com/product/352245/DCPoAPM05-Can-you-tell-me-how-to-get-to-the-east-haven-way?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 15,
+        "authors": [
+            "D&D Adventurers League",
+            "Celeste Conowitch"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-15",
+        "date_created": "20210406",
+        "full_title": "EB-15 Dream Eater",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "352879",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-15 Dream Eater",
+        "url": "https://www.dmsguild.com/product/352879/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-07",
+        "date_created": "20210408",
+        "full_title": "DDAL10-07 Into Darkness",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "353209",
+        "tiers": 0,
+        "title": "DDAL10-07 Into Darkness",
+        "url": "https://www.dmsguild.com/product/353209/DDAL1007-Into-Darkness&affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -12850,6 +16610,27 @@
         "tiers": 2,
         "title": "The Curious Incident of the Dog in the Night Land",
         "url": "https://www.dmsguild.com/product/355475/?affiliate_id=171040"
+    },
+    {
+        "apl": 16,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-16",
+        "date_created": "20210503",
+        "full_title": "EB-16 The Dragon Below",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "356496",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-16 The Dragon Below",
+        "url": "https://www.dmsguild.com/product/356496/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -13104,6 +16885,25 @@
         "tiers": 1,
         "title": "\"Haven Isn't too far Away",
         "url": "https://www.dmsguild.com/product/358204/?affiliate_id=171040"
+    },
+    {
+        "apl": 9,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-08",
+        "date_created": "20210520",
+        "full_title": "DDAL10-08 Volatile Thoughts",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "358263",
+        "tiers": 0,
+        "title": "DDAL10-08 Volatile Thoughts",
+        "url": "https://www.dmsguild.com/product/358263/DDAL1008-Volatile-Thoughts&affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -13374,6 +17174,27 @@
         "url": "https://www.dmsguild.com/product/361021/DCPoADCAF10-The-Lute-Run?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 16,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-03",
+        "date_created": "20210621",
+        "full_title": "EB-EP-03 The Rising City",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 6.27,
+        "product_id": "361712",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-EP-03 The Rising City",
+        "url": "https://www.dmsguild.com/product/361712/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Bernard Jericho Velasco"
@@ -13435,6 +17256,27 @@
         "tiers": 1,
         "title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
         "url": "https://www.dmsguild.com/product/362519/?affiliate_id=171040"
+    },
+    {
+        "apl": 17,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-17",
+        "date_created": "20210706",
+        "full_title": "EB-17 The Final Tribute",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "363337",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-17 The Final Tribute",
+        "url": "https://www.dmsguild.com/product/363337/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -13681,6 +17523,45 @@
         "url": "https://www.dmsguild.com/product/367141/?affiliate_id=171040"
     },
     {
+        "apl": 9,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-09",
+        "date_created": "20210810",
+        "full_title": "DDAL10-09 Recipe for Retribution",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "367185",
+        "tiers": 0,
+        "title": "DDAL10-09 Recipe for Retribution",
+        "url": "https://www.dmsguild.com/product/367185/DDAL1009-Recipe-for-Retribution&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-01",
+        "date_created": "20210810",
+        "full_title": "RMH-01 The Final Curtain",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": 3,
+        "price": 9.99,
+        "product_id": "367198",
+        "tiers": 1,
+        "title": "RMH-01 The Final Curtain",
+        "url": "https://www.dmsguild.com/product/367198/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Brian Collier"
@@ -13701,6 +17582,25 @@
         "tiers": 1,
         "title": "DC-PoA-CONMAR21 For My People",
         "url": "https://www.dmsguild.com/product/367241/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-EP-01",
+        "date_created": "20210810",
+        "full_title": "RMH-EP-01 The Grand Masquerade",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "367294",
+        "tiers": 0,
+        "title": "RMH-EP-01 The Grand Masquerade",
+        "url": "https://www.dmsguild.com/product/367294/RMHEP01-The-Grand-Masquerade?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -13905,6 +17805,67 @@
         "tiers": 1,
         "title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
         "url": "https://www.dmsguild.com/product/368518/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-18",
+        "date_created": "20210824",
+        "full_title": "EB-18 Scales of War",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "368629",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-18 Scales of War",
+        "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-09",
+        "date_created": "20210824",
+        "full_title": "DDAL-DRW-09 Vile Bounty",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "368695",
+        "tiers": 2,
+        "title": "DDAL-DRW-09 Vile Bounty",
+        "url": "https://www.dmsguild.com/product/368695/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-10",
+        "date_created": "20210824",
+        "full_title": "DDAL-DRW-10 Unsafe Harborage",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "368698",
+        "tiers": 2,
+        "title": "DDAL-DRW-10 Unsafe Harborage",
+        "url": "https://www.dmsguild.com/product/368698/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15001,6 +18962,104 @@
         "url": "https://www.dmsguild.com/product/369766/?affiliate_id=171040"
     },
     {
+        "apl": 11,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-10",
+        "date_created": "20210914",
+        "full_title": "DDAL10-10 Burying the Past",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "10",
+        "product_id": "370743",
+        "tiers": 0,
+        "title": "DDAL10-10 Burying the Past",
+        "url": "https://www.dmsguild.com/product/370743/DDAL1010-Burying-the-Past&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEP10-02",
+        "date_created": "20210914",
+        "full_title": "DDEP10-02 Song of Spears",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "370744",
+        "tiers": 0,
+        "title": "DDEP10-02 Song of Spears",
+        "url": "https://www.dmsguild.com/product/370744/DDEP1002-Song-of-Spears&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-11",
+        "date_created": "20210914",
+        "full_title": "DDAL-DRW-11 Shadows in the Stacks",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "370751",
+        "tiers": 2,
+        "title": "DDAL-DRW-11 Shadows in the Stacks",
+        "url": "https://www.dmsguild.com/product/370751/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-12",
+        "date_created": "20210914",
+        "full_title": "DDAL-DRW-12 To Walk the Cold Dark",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "370753",
+        "tiers": 2,
+        "title": "DDAL-DRW-12 To Walk the Cold Dark",
+        "url": "https://www.dmsguild.com/product/370753/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-02",
+        "date_created": "20210914",
+        "full_title": "RMH-02 Back to the Front",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": 3,
+        "price": 9.99,
+        "product_id": "370754",
+        "tiers": 1,
+        "title": "RMH-02 Back to the Front",
+        "url": "https://www.dmsguild.com/product/370754/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Emily Harmon"
@@ -15166,6 +19225,27 @@
         "url": "https://www.dmsguild.com/product/371500/?affiliate_id=171040"
     },
     {
+        "apl": 19,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-19",
+        "date_created": "20210930",
+        "full_title": "EB-19 Back to the Mud",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "372377",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-19 Back to the Mud",
+        "url": "https://www.dmsguild.com/product/372377/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Bernard Jericho Velasco"
@@ -15282,6 +19362,25 @@
         "tiers": 1,
         "title": "Dancing at Her Funeral",
         "url": "https://www.dmsguild.com/product/373669/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-03",
+        "date_created": "20211013",
+        "full_title": "RMH-03 The Amber Dirge",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "373816",
+        "tiers": 0,
+        "title": "RMH-03 The Amber Dirge",
+        "url": "https://www.dmsguild.com/product/373816/RMH03-The-Amber-Dirge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15402,6 +19501,25 @@
     {
         "apl": 3,
         "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "LN-1",
+        "date_created": "20211028",
+        "full_title": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "product_id": "375720",
+        "tiers": 1,
+        "title": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
+        "url": "https://www.dmsguild.com/product/375720/LN1-Fuzzytale-Farm-and-the-Frightful-Candy-Goat-Massacre?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "Christopher B. Bertucio"
         ],
         "campaigns": [
@@ -15417,6 +19535,46 @@
         "tiers": 1,
         "title": "A Fey King's Ransom",
         "url": "https://www.dmsguild.com/product/376646/WBWDCCBB01-A-Fey-Kings-Ransom?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-13",
+        "date_created": "20211109",
+        "full_title": "DDAL-DRW-13 Night Thieves",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "376808",
+        "tiers": 2,
+        "title": "DDAL-DRW-13 Night Thieves",
+        "url": "https://www.dmsguild.com/product/376808/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-14",
+        "date_created": "20211109",
+        "full_title": "DDAL-DRW-14 The City That Should Not Be",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 7.99,
+        "product_id": "376810",
+        "tiers": 3,
+        "title": "DDAL-DRW-14 The City That Should Not Be",
+        "url": "https://www.dmsguild.com/product/376810/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -15436,6 +19594,47 @@
         "tiers": 1,
         "title": "Mirror, Mirror...",
         "url": "https://www.dmsguild.com/product/377009/Mirror-Mirror-WBWDCJOQ02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-04",
+        "date_created": "20211110",
+        "full_title": "RMH-04 The Amber Secret",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": 4,
+        "product_id": "377048",
+        "tiers": 1,
+        "title": "RMH-04 The Amber Secret",
+        "url": "https://www.dmsguild.com/product/377048/RMH04-The-Amber-Secret?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Shawn Banerjee"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-15",
+        "date_created": "20211116",
+        "full_title": "DDAL-DRW-15 Frozen Whispers",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "377557",
+        "season": null,
+        "tiers": 3,
+        "title": "DDAL-DRW-15 Frozen Whispers",
+        "url": "https://www.dmsguild.com/product/377557/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15519,6 +19718,26 @@
         "url": "https://www.dmsguild.com/product/378853/?affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-EP-03",
+        "date_created": "20211130",
+        "full_title": "DDAL-DRW-EP-03 When the Lights Went Out in Candlekeep",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": null,
+        "product_id": "378931",
+        "tiers": 2,
+        "title": "DDAL-DRW-EP-03 When the Lights Went Out in Candlekeep",
+        "url": "https://www.dmsguild.com/product/378931/?affiliate_id=171040"
+    },
+    {
         "apl": 7,
         "authors": [
             "Karianne Fog Heen"
@@ -15555,6 +19774,27 @@
         "tiers": 1,
         "title": "Ballad of Bullywug Bog",
         "url": "https://www.dmsguild.com/product/379049/WBWDCCONMAR03-Ballad-of-Bullywug-Bog?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-04",
+        "date_created": "20211207",
+        "full_title": "EB-EP-04 The Last War",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 6.27,
+        "product_id": "379297",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-EP-04 The Last War",
+        "url": "https://www.dmsguild.com/product/379297/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -15693,6 +19933,44 @@
         "tiers": 1,
         "title": "DC-POA-CODEX-01 Bear the Lode Fantasy Grounds",
         "url": "https://www.dmsguild.com/product/380327/DCPOACODEX01-Bear-the-Lode-Fantasy-Grounds?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-05",
+        "date_created": "20211214",
+        "full_title": "RMH-05 Unexpected Hospitality",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "380627",
+        "tiers": 0,
+        "title": "RMH-05 Unexpected Hospitality",
+        "url": "https://www.dmsguild.com/product/380627/RMH05-Unexpected-Hospitality?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-06",
+        "date_created": "20211214",
+        "full_title": "RMH-06 Amber Reclamation",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "380630",
+        "tiers": 0,
+        "title": "RMH-06 Amber Reclamation",
+        "url": "https://www.dmsguild.com/product/380630/RMH06-Amber-Reclamation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15856,6 +20134,44 @@
         "url": "https://www.dmsguild.com/product/382987/WBWDCCONMAR01-Many-Happy-Returns?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-07",
+        "date_created": "20220112",
+        "full_title": "RMH-07 The City of Dreams",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "383265",
+        "tiers": 0,
+        "title": "RMH-07 The City of Dreams",
+        "url": "https://www.dmsguild.com/product/383265/RMH07-The-City-of-Dreams?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-08",
+        "date_created": "20220112",
+        "full_title": "RMH-08 The Palace of Bones",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "383275",
+        "tiers": 0,
+        "title": "RMH-08 The Palace of Bones",
+        "url": "https://www.dmsguild.com/product/383275/RMH08-The-Palace-of-Bones?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
         "apl": 2,
         "authors": [
             "Arthur Marques"
@@ -15933,6 +20249,27 @@
         "tiers": 2,
         "title": "CCC-BMG-MOON15-3 Fallen Wonder",
         "url": "https://www.dmsguild.com/product/384265/CCCBMGMOON153-Fallen-Wonder&affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-20",
+        "date_created": "20220127",
+        "full_title": "EB-20 Old Scores",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "384724",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-20 Old Scores",
+        "url": "https://www.dmsguild.com/product/384724/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16026,6 +20363,26 @@
         "tiers": 1,
         "title": "Heartfire Lost",
         "url": "https://www.dmsguild.com/product/385353/WBWDCTHAL01-Heartfire-Lost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-16",
+        "date_created": "20220201",
+        "full_title": "DDAL-DRW-16 Uprising",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "385383",
+        "tiers": 3,
+        "title": "DDAL-DRW-16 Uprising",
+        "url": "https://www.dmsguild.com/product/385383/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16159,6 +20516,25 @@
         "tiers": 2,
         "title": "In Vulnerability",
         "url": "https://www.dmsguild.com/product/386389/WBWDCKCB03-In-Vulnerability?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-09",
+        "date_created": "20220211",
+        "full_title": "RMH-09 The Deadliest Game",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "386609",
+        "tiers": 0,
+        "title": "RMH-09 The Deadliest Game",
+        "url": "https://www.dmsguild.com/product/386609/RMH09-The-Deadliest-Game?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16304,6 +20680,25 @@
     {
         "apl": null,
         "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-10",
+        "date_created": "20220218",
+        "full_title": "RMH-10 Scion of Darkness",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "387334",
+        "tiers": 0,
+        "title": "RMH-10 Scion of Darkness",
+        "url": "https://www.dmsguild.com/product/387334/RMH10-Scion-of-Darkness?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
@@ -16359,6 +20754,64 @@
         "tiers": 2,
         "title": "The Inexorable Span",
         "url": "https://www.dmsguild.com/product/389645/The-Inexorable-Span-WBWDCLEGITSV05?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-17",
+        "date_created": "20220310",
+        "full_title": "DDAL-DRW-17 Expedition to the Supreme Forge",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "389768",
+        "tiers": 3,
+        "title": "DDAL-DRW-17 Expedition to the Supreme Forge",
+        "url": "https://www.dmsguild.com/product/389768/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-11",
+        "date_created": "20220310",
+        "full_title": "RMH-11 Calling Upon the Dead",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "389773",
+        "tiers": 0,
+        "title": "RMH-11 Calling Upon the Dead",
+        "url": "https://www.dmsguild.com/product/389773/RMH11-Calling-Upon-the-Dead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-12",
+        "date_created": "20220314",
+        "full_title": "RMH-12 Beneath the New Star",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "389775",
+        "tiers": 0,
+        "title": "RMH-12 Beneath the New Star",
+        "url": "https://www.dmsguild.com/product/389775/RMH12-Beneath-the-New-Star?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16499,6 +20952,26 @@
         "tiers": 1,
         "title": "Freed of Feeling",
         "url": "https://www.dmsguild.com/product/390605/WBWDCHF01-Freed-of-Feeling?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-EP-02",
+        "date_created": "20220318",
+        "full_title": "RMH-EP-02 A Darklord's Denouement",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 149.86,
+        "product_id": "390632",
+        "tiers": 0,
+        "title": "RMH-EP-02 A Darklord's Denouement",
+        "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16892,6 +21365,26 @@
         "tiers": 1,
         "title": "The Black Lily Contract",
         "url": "https://www.dmsguild.com/product/392906/The-Black-Lily-Contract-WBWDCTBLCMB03?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-18",
+        "date_created": "20220415",
+        "full_title": "DDAL-DRW-18 Against the Machine",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": null,
+        "product_id": "393665",
+        "tiers": 3,
+        "title": "DDAL-DRW-18 Against the Machine",
+        "url": "https://www.dmsguild.com/product/393665/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -17655,6 +22148,26 @@
         "url": "https://www.dmsguild.com/product/401770/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-EP-04",
+        "date_created": "20220710",
+        "full_title": "DDAL-DRW-EP-04 Tears Among the Stars",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 164.77,
+        "product_id": "402209",
+        "tiers": 3,
+        "title": "DDAL-DRW-EP-04 Tears Among the Stars",
+        "url": "https://www.dmsguild.com/product/402209/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Matthew Barry"
@@ -17674,6 +22187,28 @@
         "tiers": 2,
         "title": "The Scorpion's Sting",
         "url": "https://www.dmsguild.com/product/402240/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Andy Dempz"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-19",
+        "date_created": "20220710",
+        "full_title": "DDAL-DRW-19 Fall the Cold Night",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 7.99,
+        "product_id": "402519",
+        "season": null,
+        "tiers": 4,
+        "title": "DDAL-DRW-19 Fall the Cold Night",
+        "url": "https://www.dmsguild.com/product/402519/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -17960,6 +22495,26 @@
         "tiers": 2,
         "title": "WBW-DC-Rook-2-2 The Rookery Into the Velarium",
         "url": "https://www.dmsguild.com/product/405242/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-20",
+        "date_created": "20220803",
+        "full_title": "DDAL-DRW-20 The Death of Szass Tam",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": null,
+        "product_id": "405259",
+        "tiers": 4,
+        "title": "DDAL-DRW-20 The Death of Szass Tam",
+        "url": "https://www.dmsguild.com/product/405259/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -20051,6 +24606,25 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "DC-WBW-DES-01-07",
+        "date_created": "20220831",
+        "full_title": "The Dark Thread",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "408599",
+        "tiers": 2,
+        "title": "The Dark Thread",
+        "url": "https://www.dmsguild.com/product/408599/The-Dark-Thread?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jonathan Self"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DES-01-09",
         "date_created": "20220831",
         "full_title": "Strahd Must Die!",
@@ -20461,6 +25035,44 @@
         "url": "https://www.dmsguild.com/product/412076/SJDCSYL01-Prismatic-Invitation?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-INT-01",
+        "date_created": "20221005",
+        "full_title": "DDAL-DRW-INT-01 Big Problems",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "412528",
+        "tiers": 0,
+        "title": "DDAL-DRW-INT-01 Big Problems",
+        "url": "https://www.dmsguild.com/product/412528/DDALDRWINT01-Big-Problems&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-INT-02",
+        "date_created": "20221005",
+        "full_title": "DDAL-DRW-INT-02 Watchers of the Trollclaws 1",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "412533",
+        "tiers": 0,
+        "title": "DDAL-DRW-INT-02 Watchers of the Trollclaws 1",
+        "url": "https://www.dmsguild.com/product/412533/DDALDRWINT02-Watchers-of-the-Trollclaws-1&affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Aileen Adriane Cerrudo"
@@ -20541,6 +25153,44 @@
         "tiers": 1,
         "title": "Hook, Line, and Scavver",
         "url": "https://www.dmsguild.com/product/413198/Hook-Line-and-Scavver-SJDCPHPOJW01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-INT-03",
+        "date_created": "20221014",
+        "full_title": "DDAL-DRW-INT-03 A Red Day for Elventree",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "413443",
+        "tiers": 0,
+        "title": "DDAL-DRW-INT-03 A Red Day for Elventree",
+        "url": "https://www.dmsguild.com/product/413443/DDALDRWINT03-A-Red-Day-for-Elventree&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL-DRW-INT-04",
+        "date_created": "20221014",
+        "full_title": "DDAL-DRW-INT-04 Tales of Fang and Claw",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "413446",
+        "tiers": 0,
+        "title": "DDAL-DRW-INT-04 Tales of Fang and Claw",
+        "url": "https://www.dmsguild.com/product/413446/DDALDRWINT04-Tales-of-Fang-and-Claw&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -21691,6 +26341,28 @@
         "tiers": 1,
         "title": "Flummoxing Fire from Afar",
         "url": "https://www.dmsguild.com/product/424979/?affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "Integral Game Conglomerate LLC"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-SALVAGE-RSM-T4.4",
+        "date_created": "20230131",
+        "full_title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 1.0,
+        "product_id": "425292",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
+        "url": "https://www.dmsguild.com/product/425292/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -23112,6 +27784,27 @@
         "tiers": 2,
         "title": "To Raise a Princess",
         "url": "https://www.dmsguild.com/product/440055/To-Raise-a-Princess-SJDCCGG01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Lu\u00eds Ricardo",
+            "Liga dos Aventureiros",
+            "GameHoleCon"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-HERO-01",
+        "date_created": "20230606",
+        "full_title": "DC-HERO-01 Endless Songs",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "product_id": "440439",
+        "tiers": 2,
+        "title": "DC-HERO-01 Endless Songs",
+        "url": "https://www.dmsguild.com/product/440439/DCHERO01-Endless-Songs&affiliate_id=171040"
     },
     {
         "apl": null,
@@ -33953,6 +38646,27 @@
         "url": "https://www.dmsguild.com/product/535283/?affiliate_id=171040"
     },
     {
+        "apl": 1,
+        "authors": [
+            "Stefan Tomaschitz"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "DC-RV-IC-SDG-01",
+        "date_created": "20250906",
+        "full_title": "Una chiave Maledetta (DC-RV-IC-SDG-01)",
+        "hours": "2-3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.58,
+        "product_id": "536025",
+        "season": null,
+        "tiers": 1,
+        "title": "Una chiave Maledetta",
+        "url": "https://www.dmsguild.com/product/536025/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Christopher B. Bertucio"
@@ -34397,6 +39111,27 @@
         "url": "https://www.dmsguild.com/product/543540/?affiliate_id=171040"
     },
     {
+        "apl": 8,
+        "authors": [
+            "John Ritter"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "Mysterious Mansion Materializes",
+        "date_created": null,
+        "full_title": "Mysterious Mansion Materializes",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 5.0,
+        "product_id": "544334",
+        "season": null,
+        "tiers": 2,
+        "title": "Mysterious Mansion Materializes",
+        "url": "https://www.dmsguild.com/product/544334/?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Jamie Chan"
@@ -34416,6 +39151,27 @@
         "tiers": 3,
         "title": "Only Peacock Fans",
         "url": "https://www.dmsguild.com/product/544390/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Kat Wynne"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "Highharvestide Hullabaloo",
+        "date_created": "20251102",
+        "full_title": "Highharvestide Hullabaloo",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.99,
+        "product_id": "544482",
+        "season": null,
+        "tiers": 1,
+        "title": "Highharvestide Hullabaloo",
+        "url": "https://www.dmsguild.com/product/544482/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -34867,6 +39623,146 @@
         "tiers": 2,
         "title": "A Patch of Unfurled Green",
         "url": "https://www.dmsguild.com/product/548343/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            null
+        ],
+        "code": "Spells Gone Wild",
+        "date_created": "20251207",
+        "full_title": "Spells Gone Wild",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "needs_review": true,
+        "price": 0.99,
+        "product_id": "548631",
+        "season": null,
+        "tiers": 0,
+        "title": "Spells Gone Wild",
+        "url": "https://www.dmsguild.com/product/548631/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "BK-05-02",
+        "date_created": "20251208",
+        "full_title": "BK-05-02 The Anchorite",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548700",
+        "season": null,
+        "tiers": 2,
+        "title": "BK-05-02 The Anchorite",
+        "url": "https://www.dmsguild.com/product/548700/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "BK-05-03",
+        "date_created": "20251208",
+        "full_title": "BK-05-03 By Land and Sea",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548701",
+        "season": null,
+        "tiers": 2,
+        "title": "BK-05-03 By Land and Sea",
+        "url": "https://www.dmsguild.com/product/548701/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "BK-05-04",
+        "date_created": "20251208",
+        "full_title": "BK-05-04 Dark Ascension",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548702",
+        "season": null,
+        "tiers": 3,
+        "title": "BK-05-04 Dark Ascension",
+        "url": "https://www.dmsguild.com/product/548702/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "BK-05-05",
+        "date_created": "20251208",
+        "full_title": "BK-05-05 Descent Into Dragonmount",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548704",
+        "season": null,
+        "tiers": 3,
+        "title": "BK-05-05 Descent Into Dragonmount",
+        "url": "https://www.dmsguild.com/product/548704/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "BK-5-06",
+        "date_created": "20251208",
+        "full_title": "BK-5-06 Death's Door",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "needs_review": true,
+        "price": 4.99,
+        "product_id": "548705",
+        "season": null,
+        "tiers": 3,
+        "title": "BK-5-06 Death's Door",
+        "url": "https://www.dmsguild.com/product/548705/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [],
+        "campaigns": [
+            null
+        ],
+        "code": "Uma Chave Amaldi\u00e7oada",
+        "date_created": "20251210",
+        "full_title": "Uma Chave Amaldi\u00e7oada",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 4.64,
+        "product_id": "548946",
+        "season": null,
+        "tiers": 0,
+        "title": "Uma Chave Amaldi\u00e7oada",
+        "url": "https://www.dmsguild.com/product/548946/?affiliate_id=171040"
     },
     {
         "apl": 18,

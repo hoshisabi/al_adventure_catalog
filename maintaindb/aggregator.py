@@ -6,7 +6,7 @@ import json
 import glob
 from collections import defaultdict
 
-from .adventure import DC_CAMPAIGNS, get_dc_code_and_campaign
+from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
 from .paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
@@ -22,26 +22,42 @@ all_adventures_map = {}
 
 def __add_to_map(data, aggregated_by_dc_code):
     if 'code' not in data or data['code'] is None:
-        logger.info(f">> {data.get('full_title', 'UNKNOWN TITLE')} missing DC code")
+        logger.info(f">> {data.get('full_title', 'UNKNOWN TITLE')} missing code")
         return
 
+    # Check if code matches DC_CAMPAIGNS
     dc_code = None
     for code in DC_CAMPAIGNS:
         if data['code'].upper().startswith(code.upper()):
             dc_code = code
             break
 
-    if dc_code:
-        # Use product_id for deduplication
-        product_id = data.get('product_id')
-        if product_id:
-            key = product_id
-        else:
-            # Generate a fallback key if product_id is missing
-            key = f"{data.get('full_title', 'UNKNOWN')}-{data.get('date_created', 'UNKNOWN')}"
-            logger.warning(f"Using fallback key for '{data.get('full_title', 'UNKNOWN TITLE')}' due to missing product_id.")
+    # If not found in DC_CAMPAIGNS, check DDAL_CAMPAIGN (for DDEX, DDAL, CCC, etc.)
+    if not dc_code:
+        for code in DDAL_CAMPAIGN:
+            if data['code'].upper().startswith(code.upper()):
+                # For AL codes, we still add to all_adventures_map but don't categorize by DC code
+                # We'll use a generic "AL" category or the code prefix itself
+                dc_code = code
+                break
 
-        all_adventures_map[key] = data
+    # Use product_id for deduplication
+    product_id = data.get('product_id')
+    if product_id:
+        key = product_id
+    else:
+        # Generate a fallback key if product_id is missing
+        key = f"{data.get('full_title', 'UNKNOWN')}-{data.get('date_created', 'UNKNOWN')}"
+        logger.warning(f"Using fallback key for '{data.get('full_title', 'UNKNOWN TITLE')}' due to missing product_id.")
+
+    # Always add to all_adventures_map if it has a code (regardless of DC_CAMPAIGNS match)
+    all_adventures_map[key] = data
+    
+    # Only add to aggregated_by_dc_code if it matches a DC code
+    if dc_code:
+        # Ensure the category exists in aggregated_by_dc_code
+        if dc_code.upper() not in aggregated_by_dc_code:
+            aggregated_by_dc_code[dc_code.upper()] = []
         aggregated_by_dc_code[dc_code.upper()].append(data)
 
 def aggregate():

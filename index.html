@@ -29,6 +29,19 @@ title: AL DC Catalog
         </div>
     </div>
 
+    <div class="mb-6">
+        <label for="search" class="block text-sm font-medium mb-2">Search</label>
+        <input type="search" id="search" placeholder="Search by title or code..." 
+               class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+    </div>
+
+    <div class="mb-6">
+        <label class="flex items-center space-x-2 cursor-pointer">
+            <input type="checkbox" id="dc-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+            <span class="text-sm font-medium">Show DC adventures only</span>
+        </label>
+    </div>
+
     <div id="results-info" class="text-sm text-gray-600 mb-4">
         Showing <span id="showing-start">0</span>-<span id="showing-end">0</span> of <span id="total-results">0</span> adventures
     </div>
@@ -51,51 +64,3 @@ title: AL DC Catalog
 </div>
 
 <script src="assets/js/filter.js"></script>
-
-<input id="search" type="search" placeholder="Search title, code, tags…" />
-
-<script>
-    (async function(){
-        const search = document.getElementById('search');
-        const list = document.getElementById('results');       // your container
-        const count = document.getElementById('results-count'); // “Showing … of …”
-        // 1) Load data (adjust path!)
-        const res = await fetch('assets/catalog/catalog.json'); // or ./catalog.json
-        const data = await res.json();
-        let filtered = data;
-
-        const fields = (it) => (
-            (it.title || '') + ' ' +
-            (it.code || '') + ' ' +
-            (it.campaign || '') + ' ' +
-            (it.season || '') + ' ' +
-            (it.tier || '') + ' ' +
-            (Array.isArray(it.tags) ? it.tags.join(' ') : '')
-        ).toLowerCase();
-
-        function render(items) {
-            // TODO: your real card/row renderer here
-            list.innerHTML = items.map(it => `
-      <div class="row">
-        <strong>${it.code || ''}</strong> — ${it.title}
-        <small>${it.campaign || ''} · T${it.tier ?? '?'} · ${it.hours ?? '?'}h</small>
-      </div>`).join('');
-            count.textContent = `Showing ${items.length} of ${data.length} adventures`;
-        }
-
-        function applySearch(q) {
-            q = q.trim().toLowerCase();
-            filtered = q ? data.filter(it => fields(it).includes(q)) : data;
-            render(filtered);
-        }
-
-        let t; // debounce
-        search.addEventListener('input', () => {
-            clearTimeout(t);
-            t = setTimeout(() => applySearch(search.value), 120);
-        });
-
-        // initial render
-        render(data);
-    })();
-</script>

@@ -1,31 +1,43 @@
 {
     "tier": {
-        "Tier 2": 709,
-        "Tier 1": 682,
-        "Tier 3": 278,
-        "Tier 4": 56,
-        "Unknown": 1
+        "Tier 1": 740,
+        "Tier 2": 768,
+        "Unknown": 62,
+        "Tier 3": 317,
+        "Tier 4": 74
     },
     "duration": {
-        "4 Hours": 1144,
-        "Unknown": 133,
-        "2 Hours": 466,
-        "8 Hours": 2,
-        "5 Hours": 21,
-        "6 Hours": 19,
-        "3 Hours": 69,
-        "7 Hours": 1,
-        "1 Hours": 11
+        "1 Hours": 16,
+        "2 Hours": 509,
+        "3 Hours": 92,
+        "4 Hours": 1283,
+        "5 Hours": 43,
+        "Unknown": 185,
+        "8 Hours": 9,
+        "9 Hours": 2,
+        "10 Hours": 2,
+        "11 Hours": 1,
+        "12 Hours": 1,
+        "6 Hours": 43,
+        "7 Hours": 1
     },
     "campaign": {
-        "Forgotten Realms": 1656,
-        "Eberron": 30,
-        "Ravenloft": 20,
-        "Dragonlance": 20,
-        "Unknown": 1
+        "Forgotten Realms": 1833,
+        "Ravenloft": 37,
+        "Unknown": 6,
+        "Eberron": 68,
+        "Dragonlance": 20
     },
     "season": {
-        "Unknown": 1441,
+        "Tyranny of Dragons": 14,
+        "Elemental Evil": 16,
+        "Rage of Demons": 4,
+        "Unknown": 1611,
+        "3": 1,
+        "Curse of Strahd": 1,
+        "Tomb of Annihilation": 7,
+        "Waterdeep": 2,
+        "Avernus Rising": 20,
         "Icewind Dale": 67,
         "The Wild Beyond the Witchlight": 92,
         "Spelljammer": 94,

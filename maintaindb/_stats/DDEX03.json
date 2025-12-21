@@ -1,0 +1,83 @@
+[
+    {
+        "apl": 8,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-13",
+        "date_created": "20160315",
+        "full_title": "DDEX03-13 Writhing in the Dark",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "177568",
+        "season": "Rage of Demons",
+        "tiers": 2,
+        "title": "DDEX03-13 Writhing in the Dark",
+        "url": "https://www.dmsguild.com/product/177568/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-14",
+        "date_created": "20160315",
+        "full_title": "DDEX03-14 Death on the Wall (5e)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "177569",
+        "tiers": 0,
+        "title": "DDEX03-14 Death on the Wall 5e",
+        "url": "https://www.dmsguild.com/product/177569/DDEX0314-Death-on-the-Wall-5e&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-15",
+        "date_created": "20160322",
+        "full_title": "DDEX03-15 Szith Morcane Unbound (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "177570",
+        "tiers": 0,
+        "title": "DDEX03-15 Szith Morcane Unbound 5e",
+        "url": "https://www.dmsguild.com/product/177570/DDEX0315-Szith-Morcane-Unbound-5e&affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Wizards of the Coast",
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX03-16",
+        "date_created": "20160322",
+        "full_title": "DDEX03-16 Assault on Maerimydra (5e)",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 4.99,
+        "product_id": "177572",
+        "tiers": 3,
+        "title": "DDEX03-16 Assault on Maerimydra 5e",
+        "url": "https://www.dmsguild.com/product/177572/DDEX0316-Assault-on-Maerimydra-5e&affiliate_id=171040"
+    }
+]

@@ -1,0 +1,211 @@
+[
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-00",
+        "date_created": "20200914",
+        "full_title": "DDAL10-00 Ice Road Trackers",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "328476",
+        "tiers": 0,
+        "title": "DDAL10-00 Ice Road Trackers",
+        "url": "https://www.dmsguild.com/product/328476/DDAL1000-Ice-Road-Trackers&affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-01",
+        "date_created": "20201019",
+        "full_title": "DDAL10-01 The Frozen North",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "332516",
+        "tiers": 0,
+        "title": "DDAL10-01 The Frozen North",
+        "url": "https://www.dmsguild.com/product/332516/DDAL1001-The-Frozen-North&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-02",
+        "date_created": "20210112",
+        "full_title": "DDAL10-02 Gnashing Teeth",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "343148",
+        "tiers": 0,
+        "title": "DDAL10-02 Gnashing Teeth",
+        "url": "https://www.dmsguild.com/product/343148/DDAL1002-Gnashing-Teeth&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-03",
+        "date_created": "20210112",
+        "full_title": "DDAL10-03 Divining Evil",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "343150",
+        "tiers": 0,
+        "title": "DDAL10-03 Divining Evil",
+        "url": "https://www.dmsguild.com/product/343150/DDAL1003-Divining-Evil&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-04",
+        "date_created": "20210125",
+        "full_title": "DDAL10-04 Cold Benevolence",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "344672",
+        "tiers": 0,
+        "title": "DDAL10-04 Cold Benevolence",
+        "url": "https://www.dmsguild.com/product/344672/DDAL1004-Cold-Benevolence&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-05",
+        "date_created": "20210303",
+        "full_title": "DDAL10-05 A Blight in the Darkness",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "348960",
+        "tiers": 0,
+        "title": "DDAL10-05 A Blight in the Darkness",
+        "url": "https://www.dmsguild.com/product/348960/DDAL1005-A-Blight-in-the-Darkness&affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-06",
+        "date_created": "20210325",
+        "full_title": "DDAL10-06 The Fallen Star",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "351522",
+        "tiers": 0,
+        "title": "DDAL10-06 The Fallen Star",
+        "url": "https://www.dmsguild.com/product/351522/DDAL1006-The-Fallen-Star&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-07",
+        "date_created": "20210408",
+        "full_title": "DDAL10-07 Into Darkness",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "353209",
+        "tiers": 0,
+        "title": "DDAL10-07 Into Darkness",
+        "url": "https://www.dmsguild.com/product/353209/DDAL1007-Into-Darkness&affiliate_id=171040"
+    },
+    {
+        "apl": 9,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-08",
+        "date_created": "20210520",
+        "full_title": "DDAL10-08 Volatile Thoughts",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "358263",
+        "tiers": 0,
+        "title": "DDAL10-08 Volatile Thoughts",
+        "url": "https://www.dmsguild.com/product/358263/DDAL1008-Volatile-Thoughts&affiliate_id=171040"
+    },
+    {
+        "apl": 9,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-09",
+        "date_created": "20210810",
+        "full_title": "DDAL10-09 Recipe for Retribution",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5",
+        "product_id": "367185",
+        "tiers": 0,
+        "title": "DDAL10-09 Recipe for Retribution",
+        "url": "https://www.dmsguild.com/product/367185/DDAL1009-Recipe-for-Retribution&affiliate_id=171040"
+    },
+    {
+        "apl": 11,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL10-10",
+        "date_created": "20210914",
+        "full_title": "DDAL10-10 Burying the Past",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "10",
+        "product_id": "370743",
+        "tiers": 0,
+        "title": "DDAL10-10 Burying the Past",
+        "url": "https://www.dmsguild.com/product/370743/DDAL1010-Burying-the-Past&affiliate_id=171040"
+    }
+]
