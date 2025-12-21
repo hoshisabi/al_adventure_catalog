@@ -1,7 +1,7 @@
 {
     "tier": {
         "Tier 1": 798,
-        "Tier 2": 819,
+        "Tier 2": 820,
         "Tier 3": 328,
         "Tier 4": 78,
         "Unknown": 7
@@ -9,20 +9,14 @@
     "duration": {
         "1 Hours": 20,
         "2 Hours": 566,
-        "3 Hours": 115,
-        "4 Hours": 1364,
-        "5 Hours": 46,
+        "All Others": 169,
+        "4 Hours": 1365,
         "8 Hours": 11,
-        "Unknown": 117,
-        "6 Hours": 47,
-        "9 Hours": 2,
-        "10 Hours": 2,
-        "11 Hours": 1,
-        "12 Hours": 1,
-        "7 Hours": 2
+        "Unknown": 123,
+        "6 Hours": 47
     },
     "campaign": {
-        "Forgotten Realms": 1898,
+        "Forgotten Realms": 1899,
         "Ravenloft": 49,
         "Unknown": 10,
         "Eberron": 68,
@@ -31,9 +25,9 @@
     "season": {
         "Tyranny of Dragons": 14,
         "Elemental Evil": 16,
-        "Rage of Demons": 16,
+        "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1502,
+        "Unknown": 1501,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
@@ -52,13 +46,13 @@
             "Chwinga-chwinga. CHWINGA!": 3,
             "The Warmest Day": 6,
             "Once Bitten, Ice Shy": 8,
-            "I'd Like to Make a Return Please": 14,
+            "I'd Like to Make a Return Please": 15,
             "Burrowing Borrowers": 8,
             "In Too Deep": 9,
             "Breaking Ice-olation": 9,
             "Caravanning!": 5,
-            "A Dark Horse": 7,
-            "Do You Know the Way to Lonely Wood?": 15,
+            "A Dark Horse": 8,
+            "Do You Know the Way to Lonely Wood?": 16,
             "The Muttering Gnome": 8,
             "Winter Over": 6,
             "Holy Auril, Mother of Cod": 4,
@@ -73,7 +67,7 @@
             "X Marks the Spot": 4
         },
         "Wild Beyond the Witchlight (WBW-DC)": {
-            "Create a Domain of Delight": 199,
+            "Create a Domain of Delight": 205,
             "Wildest Dreams": 1,
             "A Draconic Request": 3,
             "Party Time!": 2,
@@ -90,8 +84,8 @@
             "Wild Hunt": 1
         },
         "Spelljammer (SJ-DC)": {
-            "Create a Location in Wildspace": 101,
-            "Saint Argol\u00e2\u20ac\u2122s Fire": 1,
+            "Create a Location in Wildspace": 302,
+            "Saint Argol’s Fire": 1,
             "Unexpected Passenger": 1,
             "Headed My Way?": 1,
             "Saint Argols Fire": 1,
