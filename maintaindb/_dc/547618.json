@@ -1,19 +1,22 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 3,
+    "authors": [
+        "Roberto C. Rivera"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "FR-DC-WCAG04-02",
-    "date_created": null,
+    "date_created": "20251129",
     "full_title": "FR-DC-WCAG04-02 Underwater Kingdom",
-    "hours": null,
+    "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "547618",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "Underwater Kingdom",
     "url": "https://www.dmsguild.com/product/547618/?affiliate_id=171040"
 }
