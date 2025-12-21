@@ -8,14 +8,17 @@
     "campaigns": [
         null
     ],
-    "code": null,
+    "code": "CCC-ALMOG-28",
     "date_created": "20190804",
-    "full_title": "The Drowning Woods",
-    "hours": "4",
-    "is_adventure": false,
-    "level_range": "2",
+    "full_title": "CCC-ALMOG-28 DAGON01-03 The Drowning Woods",
+    "hours": "2-4",
+    "is_adventure": true,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "284826",
+    "season": null,
     "tiers": 1,
     "title": "The Drowning Woods",
-    "url": "https://www.dmsguild.com/product/284826/The-Drowning-Woods"
+    "url": "https://www.dmsguild.com/product/284826/?affiliate_id=171040"
 }

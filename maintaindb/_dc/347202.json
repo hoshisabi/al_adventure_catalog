@@ -1,17 +1,23 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Suus"
+    ],
     "campaigns": [
         null
     ],
     "code": null,
     "date_created": "20250706",
     "full_title": "The Sunken Treasury",
-    "hours": "3",
+    "hours": "3-4",
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": true,
+    "price": 2.34,
     "product_id": "347202",
+    "season": null,
+    "suggestedPrice": 2.34,
     "tiers": null,
     "title": "The Sunken Treasury",
-    "url": "https://www.dmsguild.com/product/347202/The-Sunken-Treasury"
+    "url": "https://www.dmsguild.com/product/347202/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "CCC-SAF02-02 Frozen Contract",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "7",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "334734",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-SAF02-02 Frozen Contract",
-    "url": "https://www.dmsguild.com/product/334734/CCCSAF0202-Frozen-Contract"
+    "title": "Frozen Contract",
+    "url": "https://www.dmsguild.com/product/334734/?affiliate_id=171040"
 }

@@ -45,6 +45,15 @@ def test_ccc_codes_with_long_series_names():
         ("CCC-STORM-01 The Barrows of Solina", "CCC-STORM-01"),
         ("CCC-LINKS-01 Champion of the People", "CCC-LINKS-01"),
         ("CCC-LINKS-02 The Secrets We Keep", "CCC-LINKS-02"),
+        # Test codes with alphanumeric suffixes (e.g., -PLA02, -005)
+        ("CCC-PRETZ-PLA02 A Mine of Their Own", "CCC-PRETZ-PLA02"),
+        ("CCC-PRETZ-PLA01 The Mystery at Coppertop Manor", "CCC-PRETZ-PLA01"),
+        ("CCC-PRETZ-PLA03 The Necroforge", "CCC-PRETZ-PLA03"),
+        ("CCC-BWM-005 Chasing Madness", "CCC-BWM-005"),
+        ("CCC-BWM-001 Howling on the Moonsea", "CCC-BWM-001"),
+        ("CCC-BWM-06 Introduction to Adventuring", "CCC-BWM-06"),
+        ("CCC-BWM-04-02 Thralls of Zuggtmoy", "CCC-BWM-04-02"),
+        ("CCC-BWM-007-01 The Beast Beneath", "CCC-BWM-007-01"),
     ]
     
     for title, expected_code in test_cases:

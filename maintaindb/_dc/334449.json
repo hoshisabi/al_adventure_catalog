@@ -11,9 +11,12 @@
     "full_title": "CCC-CONMAR01-01 Helping Hands",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.39,
     "product_id": "334449",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-CONMAR01-01 Helping Hands",
-    "url": "https://www.dmsguild.com/product/334449/CCCCONMAR0101-Helping-Hands"
+    "title": "Helping Hands",
+    "url": "https://www.dmsguild.com/product/334449/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "Deep Space Vine",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5-10",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "379308",
-    "tiers": 2,
+    "season": null,
+    "tiers": 3,
     "title": "Deep Space Vine",
-    "url": "https://www.dmsguild.com/product/379308/Deep-Space-Vine"
+    "url": "https://www.dmsguild.com/product/379308/?affiliate_id=171040"
 }

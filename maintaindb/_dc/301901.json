@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "301901",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-DWB-CW-01 The Clockwork Caravan",
-    "url": "https://www.dmsguild.com/product/301901/CCCDWBCW01-The-Clockwork-Caravan"
+    "title": "The Clockwork Caravan",
+    "url": "https://www.dmsguild.com/product/301901/?affiliate_id=171040"
 }

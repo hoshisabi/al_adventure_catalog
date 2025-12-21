@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "302031",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-GSP-MON01-01 Shadows of Despair",
-    "url": "https://www.dmsguild.com/product/302031/CCCGSPMON0101-Shadows-of-Despair"
+    "title": "Shadows of Despair",
+    "url": "https://www.dmsguild.com/product/302031/?affiliate_id=171040"
 }

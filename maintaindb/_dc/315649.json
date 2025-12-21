@@ -11,9 +11,12 @@
     "full_title": "CCC-PRETZ-PLA03 The Necroforge",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "315649",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-PRETZ-PLA03 The Necroforge",
-    "url": "https://www.dmsguild.com/product/315649/CCCPRETZPLA03-The-Necroforge"
+    "title": "The Necroforge",
+    "url": "https://www.dmsguild.com/product/315649/?affiliate_id=171040"
 }
