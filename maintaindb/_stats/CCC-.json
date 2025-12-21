@@ -10290,10 +10290,13 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "340682",
+        "season": null,
         "tiers": 1,
         "title": "CCC-HERO-BK03-01 A Walk Along the Borders",
-        "url": "https://www.dmsguild.com/product/340682/CCCHEROBK0301-A-Walk-Along-the-Borders?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/340682/?affiliate_id=171040"
     },
     {
         "apl": 5,
