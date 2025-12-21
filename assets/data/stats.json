@@ -8,11 +8,11 @@
     },
     "duration": {
         "1 Hours": 16,
-        "2 Hours": 511,
+        "2 Hours": 512,
         "3 Hours": 92,
         "4 Hours": 1283,
         "5 Hours": 43,
-        "Unknown": 185,
+        "Unknown": 184,
         "8 Hours": 9,
         "9 Hours": 2,
         "10 Hours": 2,
@@ -22,9 +22,9 @@
         "7 Hours": 1
     },
     "campaign": {
-        "Forgotten Realms": 1834,
+        "Forgotten Realms": 1835,
         "Ravenloft": 37,
-        "Unknown": 7,
+        "Unknown": 6,
         "Eberron": 68,
         "Dragonlance": 20
     },

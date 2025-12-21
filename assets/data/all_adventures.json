@@ -13706,7 +13706,7 @@
         "url": "https://www.dmsguild.com/product/336048/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 1,
         "authors": [
             "Adrian Francisco"
         ],
@@ -19504,19 +19504,19 @@
         "url": "https://www.dmsguild.com/product/375599/The-City-of-Starlight-WBWDCLEGITSV04?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Greg Marks"
         ],
         "campaigns": [
-            null
+            "Forgotten Realms"
         ],
-        "code": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
+        "code": "LN-1",
         "date_created": "20211028",
         "full_title": "LN-1 Fuzzytale Farm and the Frightful Candy Goat Massacre",
-        "hours": "",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "375720",
