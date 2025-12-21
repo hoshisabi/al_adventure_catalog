@@ -1,5 +1,5 @@
 {
-    "apl": 2,
+    "apl": null,
     "authors": [
         "Jon Christian"
     ],
@@ -11,9 +11,12 @@
     "full_title": "BMG-DL-VOTU-02 Dragons of Sorrow",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "4",
-    "product_id": 452943,
+    "level_range": "2-4",
+    "payWhatYouWant": false,
+    "price": 9.99,
+    "product_id": "452943",
+    "season": null,
     "tiers": 1,
     "title": "BMG-DL-VOTU-02 Dragons of Sorrow",
-    "url": "https://www.dmsguild.com/product/452943/BMGDLVOTU02-Dragons-of-Sorrow?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/452943/?affiliate_id=171040"
 }

@@ -1,19 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Robert Adducci"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX2-16",
     "date_created": "20160111",
-    "full_title": "DDEX2-16 Boltsmelter's Book (5e)",
+    "full_title": "DDEX2-16 Boltsmelter's Book",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "2",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "170491",
-    "tiers": null,
-    "title": "DDEX2-16 Boltsmelter's Book 5e",
-    "url": "https://www.dmsguild.com/product/170491/DDEX216-Boltsmelters-Book-5e"
+    "season": "Elemental Evil",
+    "tiers": 1,
+    "title": "Boltsmelter's Book",
+    "url": "https://www.dmsguild.com/product/170491/?affiliate_id=171040"
 }

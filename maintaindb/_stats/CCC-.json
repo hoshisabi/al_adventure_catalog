@@ -2902,7 +2902,7 @@
         "url": "https://www.dmsguild.com/product/250006/?affiliate_id=171040"
     },
     {
-        "apl": 11,
+        "apl": null,
         "authors": [
             "Al Spader",
             "MOGC"
@@ -2915,11 +2915,14 @@
         "full_title": "CCC-ALMOG-03 TALES03-01 Claws of Fury",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
-        "product_id": 250115,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "250115",
+        "season": null,
         "tiers": 3,
         "title": "CCC-ALMOG-03 TALES03-01 Claws of Fury",
-        "url": "https://www.dmsguild.com/product/250115/CCCALMOG03-TALES0301-Claws-of-Fury?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/250115/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3873,7 +3876,7 @@
         "url": "https://www.dmsguild.com/product/257945/CCCCIC10-Terror-at-Soward-Manor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": null,
         "authors": [
             "Derek Gray",
             "Chris Totten",
@@ -3888,10 +3891,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "product_id": 257958,
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "257958",
+        "season": null,
         "tiers": 1,
         "title": "CCC-ALMOG-01 TALES01-01 What Lies Beneath",
-        "url": "https://www.dmsguild.com/product/257958/CCCALMOG01-TALES0101-What-Lies-Beneath?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/257958/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -6036,26 +6042,6 @@
         "url": "https://www.dmsguild.com/product/284078/CCCTRI34-Rise-of-the-Sea-Dragon-Part-Three-of-the-Dead-Men-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 8,
-        "authors": [
-            "Chelsea Steverson",
-            "MOGC"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-ALMOG-24",
-        "date_created": "20190814",
-        "full_title": "Beneath Ironfang Keep",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "2",
-        "product_id": 284732,
-        "tiers": 2,
-        "title": "Beneath Ironfang Keep",
-        "url": "https://www.dmsguild.com/product/284732/Beneath-Ironfang-Keep?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 11,
         "authors": [
             "Jack Jay"
@@ -8120,15 +8106,17 @@
         ],
         "code": "CCC-SVH-03-01",
         "date_created": "20200429",
-        "full_title": "CCC-SVH-03-01 Finder's Fiend",
+        "full_title": "CCC-SVH-03-01 Finder's Fiend (w/ FG mod)",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": 311649,
+        "product_id": "311649",
+        "season": null,
         "tiers": 2,
         "title": "CCC-SVH-03-01 Finder's Fiend w/ FG mod",
-        "url": "https://www.dmsguild.com/product/311649/&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/311649/?affiliate_id=171040"
     },
     {
         "apl": 13,

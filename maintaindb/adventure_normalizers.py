@@ -32,10 +32,34 @@ class AdventureDataNormalizer:
         normalized_data["campaigns"] = campaigns
         normalized_data["season"] = get_season(code)
 
-        # Title
-        title = get_patt_first_matching_group(r"(?:^[A-Z]{2,}-\s?[A-Z]{2,}\d{1,}-\d{1,}\s?)(.*?)(?:\s+PDF|\s*\|\s*DMsGuild)?$", normalized_data["full_title"])
-        if not title:
-            title = get_patt_first_matching_group(r"^(.*?)(?:\s+PDF|\s*\|\s*DMsGuild)?$", normalized_data["full_title"])
+        # Title - strip the code from full_title if code was found
+        if code and normalized_data["full_title"]:
+            # Remove the code (and any trailing spaces/dashes) from the beginning of full_title
+            # The code might be followed by a space, dash, or nothing
+            title = normalized_data["full_title"]
+            # Try to remove the code with various possible separators
+            code_removed = False
+            for separator in [' ', '-', '']:
+                code_prefix = code + separator
+                if title.startswith(code_prefix):
+                    title = title[len(code_prefix):].strip()
+                    code_removed = True
+                    break
+            # If code is at the start but no separator matched, remove it directly
+            if not code_removed and title.startswith(code):
+                title = title[len(code):].strip()
+        else:
+            # Fallback to pattern matching if no code was found
+            title = get_patt_first_matching_group(r"(?:^[A-Z]{2,}-\s?[A-Z]{2,}\d{1,}-\d{1,}\s?)(.*?)(?:\s+PDF|\s*\|\s*DMsGuild)?$", normalized_data["full_title"])
+            if not title:
+                title = get_patt_first_matching_group(r"^(.*?)(?:\s+PDF|\s*\|\s*DMsGuild)?$", normalized_data["full_title"])
+        
+        # Clean up any remaining metadata suffixes
+        if title:
+            title = re.sub(r'\s+PDF\s*$', '', title, flags=re.IGNORECASE)
+            title = re.sub(r'\s*\|\s*DMsGuild\s*$', '', title, flags=re.IGNORECASE)
+            title = title.strip()
+        
         normalized_data["title"] = title if title else normalized_data["full_title"] # Fallback to full title if no specific title found
 
         # Date Created
