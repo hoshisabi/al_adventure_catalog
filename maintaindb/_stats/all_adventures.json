@@ -32996,7 +32996,7 @@
         "url": "https://www.dmsguild.com/product/408585/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Brian Collier"
         ],
@@ -33008,7 +33008,7 @@
         "full_title": "WBW-DC-KCB-01 Sugar Rush",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "product_id": "WBW-DC-KCB-01-Sugar-Rush",
         "tiers": 1,
         "title": "Sugar Rush",
@@ -33027,7 +33027,7 @@
         "full_title": "WBW-DC-KCB-02 Everything's Fine",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-KCB-02-Everythings-Fine",
         "tiers": 2,
         "title": "Everything's Fine",
@@ -33046,7 +33046,7 @@
         "full_title": "WBW-DC-KCB-03 In Vulnerability",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-KCB-03-In-Vulnerability",
         "tiers": 2,
         "title": "In Vulnerability",
@@ -33412,14 +33412,14 @@
         "full_title": "WBW-DC-PAW-01 Sick as a Dog",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-PAW-01-Sick-as-a-Dog",
         "tiers": 2,
         "title": "Sick as a Dog",
         "url": "https://www.dmsguild.com/product/408298/WBWDCPAW01-Sick-as-a-Dog?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Miguel Luis de Jesus"
         ],
@@ -33431,11 +33431,14 @@
         "full_title": "WBW-DC-PHP-01 Pot Luck!",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "WBW-DC-PHP-01-Pot-Luck",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "378853",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Pot Luck!",
-        "url": "https://www.dmsguild.com/product/378853/WBWDCPHP01-Pot-Luck?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/378853/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -33805,7 +33808,7 @@
         "full_title": "WBW-DC-ROG-01 Imagination Lost",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-ROG-01-Imagination-Lost",
         "tiers": 2,
         "title": "Imagination Lost",
@@ -33824,7 +33827,7 @@
         "full_title": "WBW-DC-ROG-02 A Giant Dilemma",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-ROG-02-A-Giant-Dilemma",
         "tiers": 2,
         "title": "A Giant Dilemma",
@@ -33843,7 +33846,7 @@
         "full_title": "WBW-DC-ROG-03 Hope In A Medusa\u2019s Eye",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
         "product_id": "WBW-DC-ROG-03-Hope-In-A-Medusas-Eye",
         "tiers": 2,
         "title": "Hope In A Medusa\u2019s Eye",
@@ -34202,7 +34205,7 @@
         "code": "WBW-DC-TIC-01",
         "date_created": "20211203",
         "full_title": "WBW-DC-TIC-01 Mushrooms and Malfunctions: A Journey into the Caverns",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "price": 3.99,
@@ -34741,7 +34744,7 @@
         "url": "https://www.dmsguild.com/product/497476/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Hariz HUSAINI"
         ],
@@ -34972,7 +34975,7 @@
         "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Brian Balagot"
         ],
@@ -34985,6 +34988,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "410667",
         "season": "Spelljammer",

@@ -1,17 +1,18 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Ashley Warren"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDAL00-05",
     "date_created": "20181206",
-    "full_title": "DDAL00-05 Winter's Splendor (5e)",
+    "full_title": "DDAL00-05 Winter's Splendor",
     "hours": "2",
     "is_adventure": true,
     "level_range": null,
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "260142",
     "season": 0,
