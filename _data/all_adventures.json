@@ -6508,7 +6508,7 @@
         "product_id": "260142",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-05 Winter's Splendor",
+        "title": "Winter's Splendor",
         "url": "https://www.dmsguild.com/product/260142/?affiliate_id=171040"
     },
     {
@@ -8014,7 +8014,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ashley Warren"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -8025,10 +8025,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "273777",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW01 Breaking Umberlee's Resolve",
+        "title": "Breaking Umberlee's Resolve",
         "url": "https://www.dmsguild.com/product/273777/?affiliate_id=171040"
     },
     {
@@ -8307,7 +8309,7 @@
         "product_id": "279062",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-07 The Embers of Hate",
+        "title": "The Embers of Hate",
         "url": "https://www.dmsguild.com/product/279062/?affiliate_id=171040"
     },
     {
@@ -8506,7 +8508,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ashley Warren"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -8517,10 +8519,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "282024",
+        "season": null,
         "tiers": 2,
-        "title": "DDAL-DRW02 Blood in the Water",
+        "title": "Blood in the Water",
         "url": "https://www.dmsguild.com/product/282024/?affiliate_id=171040"
     },
     {
@@ -8859,18 +8863,21 @@
         "code": "DDAL00-10",
         "date_created": "20190908",
         "full_title": "DDAL00-10 Trust and Understanding",
-        "hours": "4",
+        "hours": "6-8",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.79,
         "product_id": "285124",
+        "season": 0,
         "tiers": 4,
-        "title": "DDAL00-10 Trust and Understanding",
-        "url": "https://www.dmsguild.com/product/285124/DDAL0010-Trust-and-Understanding&affiliate_id=171040"
+        "title": "Trust and Understanding",
+        "url": "https://www.dmsguild.com/product/285124/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ashley Warren"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -8881,11 +8888,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "285151",
         "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW03 Saving Silverbeard",
+        "title": "Saving Silverbeard",
         "url": "https://www.dmsguild.com/product/285151/?affiliate_id=171040"
     },
     {
@@ -9089,13 +9097,18 @@
         "product_id": "287932",
         "season": "Avernus Rising",
         "tiers": 1,
-        "title": "DDAL09-01 Escape From Elturgard",
+        "title": "Escape From Elturgard",
         "url": "https://www.dmsguild.com/product/287932/?affiliate_id=171040"
     },
     {
         "apl": null,
         "authors": [
-            "D&D Adventurers League"
+            "Greg Marks",
+            "Alan Patrick",
+            "Amy Lynn Dzura",
+            "Lysa Penrose",
+            "Claire Hoffman",
+            "Travis Woodall"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9105,16 +9118,19 @@
         "full_title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
         "hours": "",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 22.99,
         "product_id": "288447",
+        "season": 0,
         "tiers": 1,
-        "title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
-        "url": "https://www.dmsguild.com/product/288447/DDAL0011-Pipyaps-Guide-to-All-of-the-Nine-Hells&affiliate_id=171040"
+        "title": "Pipyap's Guide to All of the Nine Hells",
+        "url": "https://www.dmsguild.com/product/288447/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Andrew Bishkinskyi"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9125,17 +9141,18 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "289152",
         "season": "Avernus Rising",
         "tiers": 1,
-        "title": "DDAL09-02 Stopped at the Gate",
+        "title": "Stopped at the Gate",
         "url": "https://www.dmsguild.com/product/289152/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "Justin Donie"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9146,17 +9163,18 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "289153",
         "season": "Avernus Rising",
         "tiers": 1,
-        "title": "DDAL09-03 Hungry Shadows",
+        "title": "Hungry Shadows",
         "url": "https://www.dmsguild.com/product/289153/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "D&D Adventurers League"
+            "M.T. Black"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9167,17 +9185,18 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "289154",
         "season": "Avernus Rising",
         "tiers": 1,
-        "title": "DDAL09-04 The Day of the Devil",
+        "title": "The Day of the Devil",
         "url": "https://www.dmsguild.com/product/289154/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Ted Atkinson"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9188,17 +9207,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "290246",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-05 Faces of Fortune the Story of Fai Chen",
+        "title": "Faces of Fortune the Story of Fai Chen",
         "url": "https://www.dmsguild.com/product/290246/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "The GM Tim"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9209,11 +9229,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "290898",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-06 Infernal Insurgency",
+        "title": "Infernal Insurgency",
         "url": "https://www.dmsguild.com/product/290898/?affiliate_id=171040"
     },
     {
@@ -9263,7 +9284,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "James J. Haeck"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9274,11 +9295,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "291677",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-07 The Diabolical Dive",
+        "title": "The Diabolical Dive",
         "url": "https://www.dmsguild.com/product/291677/?affiliate_id=171040"
     },
     {
@@ -9385,7 +9407,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Cameron Blair"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9396,17 +9418,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "295211",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-08 In the Garden of Evil",
+        "title": "In the Garden of Evil",
         "url": "https://www.dmsguild.com/product/295211/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Cat Evans"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9417,17 +9440,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "295212",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-09 Ruined Prospects",
+        "title": "Ruined Prospects",
         "url": "https://www.dmsguild.com/product/295212/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "Mellanie Black"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9438,11 +9462,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "295328",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-10 Tipping the Scales",
+        "title": "Tipping the Scales",
         "url": "https://www.dmsguild.com/product/295328/?affiliate_id=171040"
     },
     {
@@ -9790,7 +9815,7 @@
     {
         "apl": 8,
         "authors": [
-            "D&D Adventurers League"
+            "James Introcaso"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -9801,11 +9826,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "296738",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "DDAL09-11 Losing Fai",
+        "title": "Losing Fai",
         "url": "https://www.dmsguild.com/product/296738/?affiliate_id=171040"
     },
     {
@@ -9822,10 +9848,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "297088",
+        "season": null,
         "tiers": 1,
-        "title": "DDALCCC-DRUIDS-03 In Tents",
+        "title": "In Tents",
         "url": "https://www.dmsguild.com/product/297088/?affiliate_id=171040"
     },
     {
@@ -10341,7 +10369,7 @@
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Jared Fegan"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10352,17 +10380,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "301019",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-12 The Breath of Life",
+        "title": "The Breath of Life",
         "url": "https://www.dmsguild.com/product/301019/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Bianca Bickford"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10373,17 +10402,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "301020",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-13 The Swarmed Heart",
+        "title": "The Swarmed Heart",
         "url": "https://www.dmsguild.com/product/301020/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Travis Woodall"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10394,11 +10424,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "301021",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-14 The Vast Emptiness of Grace",
+        "title": "The Vast Emptiness of Grace",
         "url": "https://www.dmsguild.com/product/301021/?affiliate_id=171040"
     },
     {
@@ -10624,7 +10655,7 @@
         "product_id": "304029",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-12 Infernal Encounters",
+        "title": "Infernal Encounters",
         "url": "https://www.dmsguild.com/product/304029/?affiliate_id=171040"
     },
     {
@@ -10746,7 +10777,7 @@
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Jessica Ross"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10757,17 +10788,18 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "306935",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-15 Maddening Screams",
+        "title": "Maddening Screams",
         "url": "https://www.dmsguild.com/product/306935/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Deridre Donlon"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10778,17 +10810,19 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "306937",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-16 Honors Unforseen",
+        "title": "Honors Unforseen",
         "url": "https://www.dmsguild.com/product/306937/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ben Heisler",
+            "Paige Leitman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -10799,11 +10833,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "306938",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-17 In the Hand",
+        "title": "In the Hand",
         "url": "https://www.dmsguild.com/product/306938/?affiliate_id=171040"
     },
     {
@@ -12493,7 +12528,7 @@
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Claire Hoffman"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -12504,11 +12539,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "318834",
         "season": "Avernus Rising",
         "tiers": 3,
-        "title": "DDAL09-18 Consequences of Choice",
+        "title": "Consequences of Choice",
         "url": "https://www.dmsguild.com/product/318834/?affiliate_id=171040"
     },
     {
@@ -12735,7 +12771,6 @@
     {
         "apl": null,
         "authors": [
-            "D&D Adventurers League",
             "Will Doyle"
         ],
         "campaigns": [
@@ -12747,11 +12782,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "17-20",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "321063",
         "season": "Avernus Rising",
         "tiers": 4,
-        "title": "DDAL09-19 Fang and Claw",
+        "title": "Fang and Claw",
         "url": "https://www.dmsguild.com/product/321063/?affiliate_id=171040"
     },
     {
@@ -12773,7 +12809,7 @@
         "product_id": "321069",
         "season": "Avernus Rising",
         "tiers": 4,
-        "title": "DDAL09-20 Where Devils Fear to Tread",
+        "title": "Where Devils Fear to Tread",
         "url": "https://www.dmsguild.com/product/321069/?affiliate_id=171040"
     },
     {
@@ -13118,9 +13154,9 @@
         "url": "https://www.dmsguild.com/product/326339/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ginny Loveday"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -13131,11 +13167,12 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "326717",
         "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-04 Foreign Affairs",
+        "title": "Foreign Affairs",
         "url": "https://www.dmsguild.com/product/326717/?affiliate_id=171040"
     },
     {
@@ -13153,7 +13190,7 @@
         "is_adventure": true,
         "level_range": "1-2",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "328476",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -13182,13 +13219,13 @@
         "product_id": "328568",
         "season": 0,
         "tiers": 0,
-        "title": "DDAL00-13 Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
+        "title": "Knuckleheads & Other Such Curiosities A Travelers\u2019 Guide to Icewind Dale",
         "url": "https://www.dmsguild.com/product/328568/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Ben Heisler"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -13199,10 +13236,12 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "330203",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-05 Uncertain Scrutiny",
+        "title": "Uncertain Scrutiny",
         "url": "https://www.dmsguild.com/product/330203/?affiliate_id=171040"
     },
     {
@@ -13287,7 +13326,7 @@
         "product_id": "332516",
         "season": "Plague of Ancients",
         "tiers": 1,
-        "title": "DDAL10-01 The Frozen North",
+        "title": "The Frozen North",
         "url": "https://www.dmsguild.com/product/332516/?affiliate_id=171040"
     },
     {
@@ -13379,7 +13418,7 @@
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "M.T. Black"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -13390,10 +13429,12 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "333727",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-06 Thimblerigging",
+        "title": "Thimblerigging",
         "url": "https://www.dmsguild.com/product/333727/?affiliate_id=171040"
     },
     {
@@ -15248,7 +15289,7 @@
         "product_id": "343148",
         "season": "Plague of Ancients",
         "tiers": 1,
-        "title": "DDAL10-02 Gnashing Teeth",
+        "title": "Gnashing Teeth",
         "url": "https://www.dmsguild.com/product/343148/?affiliate_id=171040"
     },
     {
@@ -15270,7 +15311,7 @@
         "product_id": "343150",
         "season": "Plague of Ancients",
         "tiers": 1,
-        "title": "DDAL10-03 Divining Evil",
+        "title": "Divining Evil",
         "url": "https://www.dmsguild.com/product/343150/?affiliate_id=171040"
     },
     {
@@ -15505,7 +15546,7 @@
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League"
+            "Toni Winslow-Brill"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -15516,10 +15557,12 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "344671",
+        "season": null,
         "tiers": 3,
-        "title": "DDAL-DRW-07 Moment of Peace",
+        "title": "Moment of Peace",
         "url": "https://www.dmsguild.com/product/344671/?affiliate_id=171040"
     },
     {
@@ -15541,7 +15584,7 @@
         "product_id": "344672",
         "season": "Plague of Ancients",
         "tiers": 1,
-        "title": "DDAL10-04 Cold Benevolence",
+        "title": "Cold Benevolence",
         "url": "https://www.dmsguild.com/product/344672/?affiliate_id=171040"
     },
     {
@@ -16208,7 +16251,7 @@
         "product_id": "348960",
         "season": "Plague of Ancients",
         "tiers": 2,
-        "title": "DDAL10-05 A Blight in the Darkness",
+        "title": "A Blight in the Darkness",
         "url": "https://www.dmsguild.com/product/348960/?affiliate_id=171040"
     },
     {
