@@ -1,17 +1,21 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Pieter Sleijpen",
+        "Claire Hoffman",
+        "Chris Tulach",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX1-02",
     "date_created": "20160111",
-    "full_title": "DDEX1-02 Secrets of Sokol Keep (5e)",
-    "hours": "4",
+    "full_title": "DDEX1-02 Secrets of Sokol Keep",
+    "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170405",
     "season": "Tyranny of Dragons",

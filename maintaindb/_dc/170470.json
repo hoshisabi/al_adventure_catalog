@@ -1,17 +1,20 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Claire Hoffman",
+        "Chris Tulach",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX1-11",
     "date_created": "20160111",
-    "full_title": "DDEX1-11 Dark Pyramid of Sorcerer\u2019s Isle (5e)",
+    "full_title": "DDEX1-11 Dark Pyramid of Sorcerer\u2019s Isle",
     "hours": "8",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "170470",
     "season": "Tyranny of Dragons",

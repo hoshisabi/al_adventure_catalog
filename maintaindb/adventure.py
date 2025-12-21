@@ -959,9 +959,16 @@ def _normalize_and_convert_data(raw_data):
     Returns:
         Dictionary of normalized/processed data
     """
+    # Normalize authors: strip whitespace and trailing commas
+    authors = raw_data.get("authors", [])
+    if authors:
+        processed_authors = [author.strip().rstrip(',') for author in authors if author and author.strip()]
+    else:
+        processed_authors = []
+    
     processed_data = {
         "module_name": raw_data["module_name"],
-        "authors": raw_data["authors"],
+        "authors": processed_authors,
         "code": None,
         "date_created": raw_data["date_created"],
         "hours": None,

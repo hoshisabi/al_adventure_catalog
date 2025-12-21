@@ -1,17 +1,21 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Thomas Reid",
+        "Claire Hoffman",
+        "Chris Tulach",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX1-08",
     "date_created": "20160111",
-    "full_title": "DDEX1-08 Tales Trees Tell (5e)",
-    "hours": "4",
+    "full_title": "DDEX1-08 Tales Trees Tell",
+    "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170466",
     "season": "Tyranny of Dragons",
