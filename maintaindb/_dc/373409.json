@@ -7,14 +7,18 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA",
+    "code": "DC-POA-DES-05B",
     "date_created": "20211007",
-    "full_title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
+    "full_title": "DC-PoA-DES-05B Drive Our Ships to New Lands",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "373409",
+    "season": null,
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
-    "url": "https://www.dmsguild.com/product/373409/DCPoA-DES05B-Drive-Our-Ships-to-New-Lands?filters=0_0_100057_0_0_0_0_0"
+    "title": "Drive Our Ships to New Lands",
+    "url": "https://www.dmsguild.com/product/373409/?affiliate_id=171040"
 }

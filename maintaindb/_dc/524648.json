@@ -12,9 +12,11 @@
     "hours": "1",
     "is_adventure": true,
     "level_range": "1-2",
+    "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "524648",
+    "season": "The Wild Beyond the Witchlight",
     "tiers": 1,
     "title": "Puffalo's Proposal",
-    "url": "https://www.dmsguild.com/product/524648/WBWDCPUFF01-Puffalos-Proposal?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/524648/?affiliate_id=171040"
 }

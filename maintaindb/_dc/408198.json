@@ -12,9 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": true,
     "price": 4.99,
     "product_id": "408198",
     "season": "The Wild Beyond the Witchlight",
+    "suggestedPrice": 4.99,
     "tiers": 2,
     "title": "The Nightmare of Dreams",
     "url": "https://www.dmsguild.com/product/408198/?affiliate_id=171040"

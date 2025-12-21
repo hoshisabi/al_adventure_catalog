@@ -9,11 +9,14 @@
     "code": "SJ-DC-TTUC-06",
     "date_created": "20231218",
     "full_title": "SJ-DC-TTUC-06 Party Crashers",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "464237",
+    "season": "Spelljammer",
     "tiers": 3,
     "title": "Party Crashers",
-    "url": "https://www.dmsguild.com/product/464237/SJDCTTUC06-Party-Crashers?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/464237/?affiliate_id=171040"
 }

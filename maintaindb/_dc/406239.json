@@ -1,17 +1,18 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Miguel Luis de Jesus"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-PHP-TCOM2-",
+    "code": "WBW-DC-PHP-TCOM2",
     "date_created": "20220812",
-    "full_title": "WBW-DC-PHP-TCOM2: Of Toadstools and Tribulations",
+    "full_title": "WBW-DC-PHP-TCOM2 Of Toadstools and Tribulations",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "406239",
     "season": "The Wild Beyond the Witchlight",

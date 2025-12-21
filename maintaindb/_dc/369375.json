@@ -6,14 +6,19 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA",
+    "code": "DC-PoA-ROBIN-01-1",
     "date_created": "20210831",
-    "full_title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
+    "full_title": "DC-PoA-ROBIN-01-1 The Taming of the Chwinga",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 2.99,
     "product_id": "369375",
+    "season": null,
+    "seed": "I'd Like to Make a Return Please",
+    "suggestedPrice": 2.99,
     "tiers": 1,
-    "title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
-    "url": "https://www.dmsguild.com/product/369375/DCPoA-ROBIN-011-The-Taming-of-the-Chwinga?filters=0_0_100057_0_0_0_0_0"
+    "title": "The Taming of the Chwinga",
+    "url": "https://www.dmsguild.com/product/369375/?affiliate_id=171040"
 }

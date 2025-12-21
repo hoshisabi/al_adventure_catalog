@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Nick Stefanski"
     ],
@@ -12,6 +12,7 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.0,
     "product_id": "403741",
     "season": "The Wild Beyond the Witchlight",

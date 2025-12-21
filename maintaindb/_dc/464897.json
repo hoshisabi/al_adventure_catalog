@@ -6,14 +6,18 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "SJ-DC-ROG-01-RESCUE",
+    "code": "SJ-DC-ROG-01",
     "date_created": "20231223",
-    "full_title": "SJ-DC-ROG-01-Rescue on Glyth",
+    "full_title": "SJ-DC-ROG-01 Rescue on Glyth",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": true,
+    "price": 0.5,
     "product_id": "464897",
+    "season": "Spelljammer",
+    "suggestedPrice": 0.5,
     "tiers": 3,
-    "title": "on Glyth",
-    "url": "https://www.dmsguild.com/product/464897/SJDCROG01Rescue-on-Glyth?filters=0_0_100057_0_0_0_0_0"
+    "title": "Rescue on Glyth",
+    "url": "https://www.dmsguild.com/product/464897/?affiliate_id=171040"
 }

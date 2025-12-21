@@ -7,14 +7,18 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-DRAGON-03-",
+    "code": "DC-POA-DRAGON-03",
     "date_created": "20210830",
     "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "368967",
+    "season": "Icewind Dale",
     "tiers": 2,
-    "title": "DC-POA-DRAGON-03 Battlefield of the Mind",
-    "url": "https://www.dmsguild.com/product/368967/DCPOADRAGON03-Battlefield-of-the-Mind?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+    "title": "Battlefield of the Mind",
+    "url": "https://www.dmsguild.com/product/368967/?affiliate_id=171040",
+    "seed": "X Marks the Spot"
 }
