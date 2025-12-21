@@ -1,7 +1,8 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Ginny Loveday",
+        "Jonathan Connor Self"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,11 +12,12 @@
     "full_title": "DDEP10-01 Terror in Ten Towns",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 8.99,
     "product_id": "349163",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "DDEP10-01 Terror in Ten Towns",
     "url": "https://www.dmsguild.com/product/349163/?affiliate_id=171040"
 }

@@ -1,19 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Cindy Moore"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX3-12",
     "date_created": "20160315",
-    "full_title": "DDEX3-12 Hillsfar Reclaimed (5e)",
+    "full_title": "DDEX3-12 Hillsfar Reclaimed",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "177567",
-    "tiers": null,
-    "title": "DDEX3-12 Hillsfar Reclaimed 5e",
-    "url": "https://www.dmsguild.com/product/177567/DDEX312-Hillsfar-Reclaimed-5e"
+    "season": "Rage of Demons",
+    "tiers": 1,
+    "title": "DDEX3-12 Hillsfar Reclaimed",
+    "url": "https://www.dmsguild.com/product/177567/?affiliate_id=171040"
 }

@@ -1,7 +1,7 @@
 {
-    "apl": null,
+    "apl": 1,
     "authors": [
-        "D&D Adventurers League"
+        "Shawn Merwin"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -9,11 +9,14 @@
     "code": "DDAL10-00",
     "date_created": "20200914",
     "full_title": "DDAL10-00 Ice Road Trackers",
-    "hours": "1",
+    "hours": "1-4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-2",
+    "payWhatYouWant": false,
+    "price": 3.74,
     "product_id": "328476",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 1,
     "title": "DDAL10-00 Ice Road Trackers",
-    "url": "https://www.dmsguild.com/product/328476/DDAL1000-Ice-Road-Trackers"
+    "url": "https://www.dmsguild.com/product/328476/?affiliate_id=171040"
 }

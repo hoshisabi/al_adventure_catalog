@@ -1,7 +1,8 @@
 {
     "apl": 8,
     "authors": [
-        "D&D Adventurers League"
+        "Rich Lescouflair",
+        "Jeff C. Stevens"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -9,11 +10,14 @@
     "code": "DDEP10-02",
     "date_created": "20210914",
     "full_title": "DDEP10-02 Song of Spears",
-    "hours": null,
+    "hours": "3",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 6.74,
     "product_id": "370744",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 2,
     "title": "DDEP10-02 Song of Spears",
-    "url": "https://www.dmsguild.com/product/370744/DDEP1002-Song-of-Spears"
+    "url": "https://www.dmsguild.com/product/370744/?affiliate_id=171040"
 }

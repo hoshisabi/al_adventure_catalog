@@ -1,19 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Rich Lescouflair"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDAL07-01",
     "date_created": "20170905",
-    "full_title": "DDAL07-01 A City on the Edge (5e)",
+    "full_title": "DDAL07-01 A City on the Edge",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "214058",
-    "tiers": null,
-    "title": "DDAL07-01 A City on the Edge 5e",
-    "url": "https://www.dmsguild.com/product/214058/DDAL0701-A-City-on-the-Edge-5e?filters=45470_0_0_0_0_0_0_0"
+    "season": "Tomb of Annihilation",
+    "tiers": 1,
+    "title": "DDAL07-01 A City on the Edge",
+    "url": "https://www.dmsguild.com/product/214058/?affiliate_id=171040"
 }

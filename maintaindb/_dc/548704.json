@@ -1,6 +1,9 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 13,
+    "authors": [
+        "Jeremy Johnston",
+        "Angelo Corsino"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,7 +13,7 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
-    "needs_review": true,
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "548704",
     "season": null,

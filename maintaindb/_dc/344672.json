@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Justice Arman"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL10-04 Cold Benevolence",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.74,
     "product_id": "344672",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 1,
     "title": "DDAL10-04 Cold Benevolence",
-    "url": "https://www.dmsguild.com/product/344672/DDAL1004-Cold-Benevolence"
+    "url": "https://www.dmsguild.com/product/344672/?affiliate_id=171040"
 }

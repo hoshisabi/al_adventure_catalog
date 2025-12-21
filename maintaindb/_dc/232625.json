@@ -1,19 +1,22 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "Christopher M. Sniezak"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDAL07-12",
     "date_created": "20180206",
-    "full_title": "DDAL07-12 In Search of Secrets (5e)",
+    "full_title": "DDAL07-12 In Search of Secrets",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "232625",
-    "tiers": null,
-    "title": "DDAL07-12 In Search of Secrets 5e",
-    "url": "https://www.dmsguild.com/product/232625/DDAL0712-In-Search-of-Secrets-5e?filters=45470_0_0_0_0_0_0_0"
+    "season": "Tomb of Annihilation",
+    "tiers": 3,
+    "title": "DDAL07-12 In Search of Secrets",
+    "url": "https://www.dmsguild.com/product/232625/?affiliate_id=171040"
 }

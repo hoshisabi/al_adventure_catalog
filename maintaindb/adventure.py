@@ -618,8 +618,19 @@ def _extract_game_stats_from_text(text):
     
     # APL pattern: Handle variations like "APL 3", "APL: 3", "APL - 3", "APL (3)", "(APL) 3", "Average Party Level 3", "average party level (APL) of 2", etc.
     stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level|average party level)\s*(?:\(APL\))?\s*(?:of|is|:|-)?\s*(\d+)", text)
+    
+    # If APL not found, try "optimized for Xth level" pattern (e.g., "optimized for 13th level")
+    if not stats["apl_raw"]:
+        stats["apl_raw"] = get_patt_first_matching_group(r"(?i)optimized\s+for\s+(\d+)(?:st|nd|rd|th)?\s*level", text)
+    
     stats["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", text)
-    stats["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", text)
+    
+    # Level range pattern: Handle "Level Range: 11-16", "Levels 11-16", "Level 11-16", etc.
+    stats["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s+Range\s*:?\s*([\d-]+)", text)
+    
+    # If not found with "Range", try simpler pattern "Level(s) 11-16"
+    if not stats["level_range_raw"]:
+        stats["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", text)
     
     # If level_range not captured, try ordinal style like '1st-4th level' or '11th through 16th Level'
     if not stats["level_range_raw"]:

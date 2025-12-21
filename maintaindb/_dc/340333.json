@@ -1,7 +1,8 @@
 {
-    "apl": null,
+    "apl": 2,
     "authors": [
-        "D&D Adventurers League"
+        "Celeste Conowitch",
+        "Shawn Merwin"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,11 +12,12 @@
     "full_title": "DDEP10-00 The Great Knucklehead Rally",
     "hours": "3",
     "is_adventure": true,
-    "level_range": null,
-    "price": 8.99,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 6.74,
     "product_id": "340333",
-    "season": null,
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 1,
     "title": "DDEP10-00 The Great Knucklehead Rally",
     "url": "https://www.dmsguild.com/product/340333/?affiliate_id=171040"
 }

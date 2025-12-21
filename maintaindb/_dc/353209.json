@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "D&D Adventurers League"
+        "Oliver Darkshire"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL10-07 Into Darkness",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.74,
     "product_id": "353209",
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 2,
     "title": "DDAL10-07 Into Darkness",
-    "url": "https://www.dmsguild.com/product/353209/DDAL1007-Into-Darkness"
+    "url": "https://www.dmsguild.com/product/353209/?affiliate_id=171040"
 }
