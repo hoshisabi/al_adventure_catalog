@@ -166,6 +166,34 @@ def parse_rss_date_string(date_str: Optional[str]) -> Optional[datetime.date]:
         return None # Parsing failed due to format mismatch
 
 
+def normalize_ddal_ddex_code(code: str) -> str:
+    """
+    Normalize DDAL and DDEX codes to zero-pad single-digit season numbers.
+    Examples:
+    - DDEX3 -> DDEX03
+    - DDAL5-01 -> DDAL05-01
+    - DDEX03 -> DDEX03 (unchanged)
+    - DDAL05-01 -> DDAL05-01 (unchanged)
+    """
+    if not code:
+        return code
+    
+    code_upper = code.upper()
+    # Check if code starts with DDEX or DDAL
+    if code_upper.startswith('DDEX') or code_upper.startswith('DDAL'):
+        # Match pattern: DDEX/DDAL followed by a single digit (1-9), then optional rest
+        # e.g., DDEX3, DDAL5-01, DDEX3-12
+        match = re.match(r'^(DDEX|DDAL)([1-9])(.*)$', code_upper)
+        if match:
+            prefix = match.group(1)  # DDEX or DDAL
+            single_digit = match.group(2)  # single digit 1-9
+            rest = match.group(3)  # rest of the code (e.g., "-01", "-12", "")
+            # Zero-pad the single digit
+            return f"{prefix}0{single_digit}{rest}"
+    
+    return code
+
+
 def get_campaigns_from_code(code: str) -> List[str]:
     """
     Get campaigns from code. Case-insensitive matching.
@@ -278,6 +306,8 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
             break
 
     if code:
+        # Normalize DDAL/DDEX codes to zero-pad single-digit season numbers
+        code = normalize_ddal_ddex_code(code)
         campaigns = get_campaigns_from_code(code)
 
     return code, campaigns
