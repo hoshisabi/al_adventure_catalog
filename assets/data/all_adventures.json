@@ -16047,14 +16047,18 @@
         ],
         "code": "DC-POA",
         "date_created": "20201222",
-        "full_title": "DC-PoA \"A Dragon Heart\"",
+        "full_title": "DC-PoA A Dragon Heart",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 5.84,
         "product_id": "340882",
+        "season": null,
+        "seed": "Once Bitten, Ice Shy",
         "tiers": 1,
-        "title": "DC-PoA \"A Dragon Heart\"",
-        "url": "https://www.dmsguild.com/product/340882/DCPoA-A-Dragon-Heart?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Dragon Heart",
+        "url": "https://www.dmsguild.com/product/340882/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16073,6 +16077,7 @@
         "price": 5.95,
         "product_id": "340884",
         "season": "Icewind Dale",
+        "seed": "Once Bitten, Ice Shy",
         "tiers": 1,
         "title": "DC-PoA \"Coeur de Dragon\"",
         "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
@@ -16409,16 +16414,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-AOT01-01",
         "date_created": "20201230",
-        "full_title": "DC-POA AOT01-01 Counteroffer",
+        "full_title": "DC-POA-AOT01-01 Counteroffer",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.0,
         "product_id": "341720",
+        "season": null,
+        "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-POA AOT01-01 Counteroffer",
-        "url": "https://www.dmsguild.com/product/341720/DCPOA-AOT0101-Counteroffer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Counteroffer",
+        "url": "https://www.dmsguild.com/product/341720/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16449,16 +16458,21 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DUCKS-OS-02-ARE",
+        "code": "DC-POA-DUCKS-OS-02",
         "date_created": "20210101",
         "full_title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 1.0,
         "product_id": "341912",
+        "season": "Icewind Dale",
+        "seed": "Burrowing Borrowers",
+        "suggestedPrice": 1.0,
         "tiers": 1,
-        "title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
-        "url": "https://www.dmsguild.com/product/341912/DCPoADUCKSOS02Are-you-openminded?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Are you open-minded?",
+        "url": "https://www.dmsguild.com/product/341912/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17110,17 +17124,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-SAD-ODW",
         "date_created": "20210201",
-        "full_title": "DC-PoA \"Out of the Dark Woods\"",
+        "full_title": "DC-POA-SAD-ODW Out of the Dark Woods",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 6.99,
+        "payWhatYouWant": false,
+        "price": 7.02,
         "product_id": "345391",
         "season": "Icewind Dale",
+        "seed": "Out of the Woods",
         "tiers": 2,
-        "title": "DC-PoA \"Out of the Dark Woods\"",
+        "title": "Out of the Dark Woods",
         "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
     },
     {
@@ -17525,11 +17541,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "348672",
         "season": "Icewind Dale",
         "tiers": 1,
-        "title": "DC-PoA Journey to Adventure Icewind Dale",
+        "title": "Journey to Adventure Icewind Dale",
         "url": "https://www.dmsguild.com/product/348672/?affiliate_id=171040"
     },
     {
@@ -17885,16 +17902,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-PoA-ICE01-01",
+        "code": "DC-POA-ICE01-01",
         "date_created": "20210319",
         "full_title": "A Fateful Meading",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 2.24,
+        "price": 2.99,
         "product_id": "350954",
         "season": "Icewind Dale",
+        "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
         "title": "A Fateful Meading",
         "url": "https://www.dmsguild.com/product/350954/?affiliate_id=171040"
@@ -18261,18 +18279,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-AOT01-02",
         "date_created": "20210416",
-        "full_title": "DC-POA AOT01-02 Northern Democracy",
+        "full_title": "DC-POA-AOT01-02 Northern Democracy",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 2.25,
+        "price": 3.0,
         "product_id": "354023",
         "season": "Icewind Dale",
+        "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "AOT01-02 Northern Democracy",
+        "title": "Northern Democracy",
         "url": "https://www.dmsguild.com/product/354023/?affiliate_id=171040"
     },
     {
@@ -18366,17 +18385,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-WI-DD-02-",
+        "code": "DC-POA-WI-DD-02",
         "date_created": "20210428",
         "full_title": "DC-PoA-WI-DD-02: Delving in the Dale",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 2.75,
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "355371",
         "season": "Icewind Dale",
+        "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-PoA-WI-DD-02 Delving in the Dale",
+        "title": "Delving in the Dale",
         "url": "https://www.dmsguild.com/product/355371/?affiliate_id=171040"
     },
     {
@@ -18693,15 +18714,18 @@
         ],
         "code": "CCC-DC-POA-MDV01",
         "date_created": "20210519",
-        "full_title": "CCC-DC-POA-MDV01, \"Haven (Isn't too far Away)",
+        "full_title": "CCC-DC-POA-MDV01 Haven (Isn't too far Away)",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": true,
         "price": 2.0,
         "product_id": "358204",
         "season": "Icewind Dale",
+        "seed": "Chwinga-chwinga. CHWINGA!",
+        "suggestedPrice": 2.0,
         "tiers": 1,
-        "title": "\"Haven Isn't too far Away",
+        "title": "Haven Isn't too far Away",
         "url": "https://www.dmsguild.com/product/358204/?affiliate_id=171040"
     },
     {
@@ -19427,11 +19451,12 @@
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "367241",
         "season": "Icewind Dale",
+        "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "DC-PoA-CONMAR21 For My People",
+        "title": "For My People",
         "url": "https://www.dmsguild.com/product/367241/?affiliate_id=171040"
     },
     {
@@ -19827,35 +19852,44 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DRAGON-01-",
+        "code": "DC-POA-DRAGON-01",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-01: Adventures in Babysitting",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 2.99,
+        "payWhatYouWant": false,
+        "price": 2.39,
         "product_id": "368965",
         "season": "Icewind Dale",
+        "seed": "The Littlest Squidling",
         "tiers": 2,
-        "title": "DC-POA-DRAGON-01 Adventures in Babysitting",
+        "title": "Adventures in Babysitting",
         "url": "https://www.dmsguild.com/product/368965/?affiliate_id=171040"
     },
     {
         "apl": 7,
-        "authors": [],
+        "authors": [
+            "Teddy Benson",
+            "Thomas Valley"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DRAGON-02-",
+        "code": "DC-POA-DRAGON-02",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-02: Hearing the Call",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.39,
         "product_id": "368966",
+        "season": "Icewind Dale",
+        "seed": "Ageless Hunger",
         "tiers": 2,
-        "title": "DC-POA-DRAGON-02 Hearing the Call",
-        "url": "https://www.dmsguild.com/product/368966/DCPOADRAGON02-Hearing-the-Call?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+        "title": "Hearing the Call",
+        "url": "https://www.dmsguild.com/product/368966/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -19866,16 +19900,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-DRAGON-03-",
+        "code": "DC-POA-DRAGON-03",
         "date_created": "20210830",
         "full_title": "DC-POA-DRAGON-03: Battlefield of the Mind",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "368967",
+        "season": "Icewind Dale",
+        "seed": "X Marks the Spot",
         "tiers": 2,
-        "title": "DC-POA-DRAGON-03 Battlefield of the Mind",
-        "url": "https://www.dmsguild.com/product/368967/DCPOADRAGON03-Battlefield-of-the-Mind?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+        "title": "Battlefield of the Mind",
+        "url": "https://www.dmsguild.com/product/368967/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -20576,17 +20614,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA-SNIPE-01-",
+        "code": "DC-POA-SNIPE-01",
         "date_created": "20210830",
         "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": true,
         "price": 2.0,
         "product_id": "369342",
         "season": "Icewind Dale",
+        "seed": "Snipe Hunt",
+        "suggestedPrice": 2.0,
         "tiers": 1,
-        "title": "DC-POA-SNIPE-01 The Ski Chalet of Artor Morlin",
+        "title": "The Ski Chalet of Artor Morlin",
         "url": "https://www.dmsguild.com/product/369342/?affiliate_id=171040"
     },
     {
@@ -20730,16 +20771,21 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-PoA-ROBIN-01-1",
         "date_created": "20210831",
-        "full_title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
+        "full_title": "DC-PoA-ROBIN-01-1 The Taming of the Chwinga",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 2.99,
         "product_id": "369375",
+        "season": null,
+        "seed": "I'd Like to Make a Return Please",
+        "suggestedPrice": 2.99,
         "tiers": 1,
-        "title": "DC-PoA ROBIN 01-1 The Taming of the Chwinga",
-        "url": "https://www.dmsguild.com/product/369375/DCPoA-ROBIN-011-The-Taming-of-the-Chwinga?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Taming of the Chwinga",
+        "url": "https://www.dmsguild.com/product/369375/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21222,16 +21268,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-PoA-DES-05A",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05A \"Land of Ice and Snow\"",
+        "full_title": "DC-PoA-DES-05A Land of Ice and Snow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373407",
+        "season": null,
+        "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-PoA DES-05A \"Land of Ice and Snow\"",
-        "url": "https://www.dmsguild.com/product/373407/DCPoA-DES05A-Land-of-Ice-and-Snow?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Land of Ice and Snow",
+        "url": "https://www.dmsguild.com/product/373407/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -21242,16 +21292,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-DES-05B",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
+        "full_title": "DC-PoA-DES-05B Drive Our Ships to New Lands",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373409",
+        "season": null,
+        "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
-        "title": "DC-PoA DES-05B \"Drive Our Ships to New Lands\"",
-        "url": "https://www.dmsguild.com/product/373409/DCPoA-DES05B-Drive-Our-Ships-to-New-Lands?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Drive Our Ships to New Lands",
+        "url": "https://www.dmsguild.com/product/373409/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21262,16 +21316,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-DES-05C",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05C \"We Calmed the Tides of War\"",
+        "full_title": "DC-POA-DES-05C We Calmed the Tides of War",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373414",
+        "season": null,
+        "seed": "A Dark Horse",
         "tiers": 1,
-        "title": "DC-PoA DES-05C \"We Calmed the Tides of War\"",
-        "url": "https://www.dmsguild.com/product/373414/DCPoA-DES05C-We-Calmed-the-Tides-of-War?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "We Calmed the Tides of War",
+        "url": "https://www.dmsguild.com/product/373414/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -21281,16 +21339,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DC-POA",
+        "code": "DC-POA-DES-05D",
         "date_created": "20211007",
-        "full_title": "DC-PoA DES-05D \"Rebuild All Your Ruins\"",
+        "full_title": "DC-POA-DES-05D Rebuild All Your Ruins",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "373417",
+        "season": null,
+        "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-PoA DES-05D \"Rebuild All Your Ruins\"",
-        "url": "https://www.dmsguild.com/product/373417/DCPoA-DES05D-Rebuild-All-Your-Ruins?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Rebuild All Your Ruins",
+        "url": "https://www.dmsguild.com/product/373417/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24204,11 +24266,14 @@
         "full_title": "WBW-DC-ZEP-T2S1-8 Feylost in Zep Series",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 29.99,
         "product_id": "400440",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
         "title": "Feylost in Zep Series",
-        "url": "https://www.dmsguild.com/product/400440/WBWDCZEPT2S18-Feylost-in-Zep-Series?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/400440/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -24558,7 +24623,7 @@
         "url": "https://www.dmsguild.com/product/403162/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Nick Stefanski"
         ],
@@ -24571,6 +24636,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.0,
         "product_id": "403741",
         "season": "The Wild Beyond the Witchlight",
@@ -24623,22 +24689,24 @@
         "url": "https://www.dmsguild.com/product/404212/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-TCOM1-",
+        "code": "WBW-DC-PHP-TCOM1",
         "date_created": "20220727",
-        "full_title": "WBW-DC-PHP-TCOM1: Of Festivals and Fiascoes",
+        "full_title": "WBW-DC-PHP-TCOM1 Of Festivals and Fiascoes",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "404240",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Of Festivals and Fiascoes",
         "url": "https://www.dmsguild.com/product/404240/?affiliate_id=171040"
@@ -24763,17 +24831,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-LCL",
+        "code": "WBW-DC-PHP-LCL-01",
         "date_created": "20220807",
-        "full_title": "WBW-DC-PHP-LCL 01: A Cure for Freedom",
+        "full_title": "WBW-DC-PHP-LCL-01 A Cure for Freedom",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "405745",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "01 A Cure for Freedom",
+        "title": "A Cure for Freedom",
         "url": "https://www.dmsguild.com/product/405745/?affiliate_id=171040"
     },
     {
@@ -24925,22 +24995,24 @@
         "url": "https://www.dmsguild.com/product/406042/WBWDCPHPPHAN01-If-The-Shoe-Fits?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-TCOM2-",
+        "code": "WBW-DC-PHP-TCOM2",
         "date_created": "20220812",
-        "full_title": "WBW-DC-PHP-TCOM2: Of Toadstools and Tribulations",
+        "full_title": "WBW-DC-PHP-TCOM2 Of Toadstools and Tribulations",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "406239",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Of Toadstools and Tribulations",
         "url": "https://www.dmsguild.com/product/406239/?affiliate_id=171040"
@@ -25715,9 +25787,11 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
         "price": 4.99,
         "product_id": "408198",
         "season": "The Wild Beyond the Witchlight",
+        "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "The Nightmare of Dreams",
         "url": "https://www.dmsguild.com/product/408198/?affiliate_id=171040"
@@ -25776,15 +25850,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-01-",
+        "code": "WBW-DC-JSH-LIB-01",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-01: Inter-Library Interception",
+        "full_title": "WBW-DC-JSH-LIB-01 Inter-Library Interception",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408247",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Inter-Library Interception",
         "url": "https://www.dmsguild.com/product/408247/?affiliate_id=171040"
@@ -25841,15 +25917,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-02-",
+        "code": "WBW-DC-JSH-LIB-02",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-02: Search Engine Optimization",
+        "full_title": "WBW-DC-JSH-LIB-02 Search Engine Optimization",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408261",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Search Engine Optimization",
         "url": "https://www.dmsguild.com/product/408261/?affiliate_id=171040"
@@ -25944,22 +26022,24 @@
         "url": "https://www.dmsguild.com/product/408305/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-PHP-TCOM3-",
+        "code": "WBW-DC-PHP-TCOM3",
         "date_created": "20220830",
-        "full_title": "WBW-DC-PHP-TCOM3: Of Death and Dawn",
+        "full_title": "WBW-DC-PHP-TCOM3 Of Death and Dawn",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "408344",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Of Death and Dawn",
         "url": "https://www.dmsguild.com/product/408344/?affiliate_id=171040"
@@ -26395,11 +26475,15 @@
         "full_title": "WBW-DC-Death In Defence of Dairy",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "408456",
+        "season": null,
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "WBW-DC-Death In Defence of Dairy",
-        "url": "https://www.dmsguild.com/product/408456/WBWDCDeath-In-Defence-of-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "In Defence of Dairy",
+        "url": "https://www.dmsguild.com/product/408456/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -26839,15 +26923,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-03-",
+        "code": "WBW-DC-JSH-LIB-03",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-03: Between Covers and Through Tales",
+        "full_title": "WBW-DC-JSH-LIB-03 Between Covers and Through Tales",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "408582",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Between Covers and Through Tales",
         "url": "https://www.dmsguild.com/product/408582/?affiliate_id=171040"
@@ -26880,15 +26966,17 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "WBW-DC-JSH-LIB-04-",
+        "code": "WBW-DC-JSH-LIB-04",
         "date_created": "20220831",
-        "full_title": "WBW-DC-JSH-LIB-04: Brightly Burn the Flames of Knowledge",
+        "full_title": "WBW-DC-JSH-LIB-04 Brightly Burn the Flames of Knowledge",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "408585",
         "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
         "tiers": 2,
         "title": "Brightly Burn the Flames of Knowledge",
         "url": "https://www.dmsguild.com/product/408585/?affiliate_id=171040"
@@ -26982,16 +27070,42 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "WBW-DC-DES-01-08",
+        "date_created": "20220831",
+        "full_title": "WBW-DC-DES-01-08 The Cathedral of the Fomorian Hierophant",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
+        "product_id": "408601",
+        "season": null,
+        "seed": "Create a Domain of Delight",
+        "tiers": 2,
+        "title": "The Cathedral of the Fomorian Hierophant",
+        "url": "https://www.dmsguild.com/product/408601/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Jonathan Self"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-DES-01-09",
         "date_created": "20220831",
         "full_title": "Strahd Must Die!",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "408602",
+        "season": null,
         "tiers": 2,
         "title": "Strahd Must Die!",
-        "url": "https://www.dmsguild.com/product/408602/Strahd-Must-Die?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408602/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -27007,7 +27121,8 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408606",
         "season": "The Wild Beyond the Witchlight",
         "tiers": 2,
@@ -28821,14 +28936,18 @@
         "code": "SJ-DC-TTUC-01",
         "date_created": "20230210",
         "full_title": "SJ-DC-TTUC-01 Shipyard Dilemma",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 4.99,
         "product_id": "425344",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
+        "suggestedPrice": 4.99,
         "tiers": 1,
         "title": "Shipyard Dilemma",
-        "url": "https://www.dmsguild.com/product/425344/SJDCTTUC01-Shipyard-Dilemma?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/425344/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -30336,13 +30455,16 @@
         "code": "SJ-DC-ROTU-06",
         "date_created": "20230609",
         "full_title": "SJ-DC-ROTU-06 Return of the Unknown II",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "440947",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Return of the Unknown II",
-        "url": "https://www.dmsguild.com/product/440947/SJDCROTU06-Return-of-the-Unknown-II?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/440947/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -30376,11 +30498,15 @@
         "full_title": "SJ-DC-TTUC-02 Among Us",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 4.99,
         "product_id": "441108",
+        "season": "Spelljammer",
+        "suggestedPrice": 4.99,
         "tiers": 1,
         "title": "Among Us",
-        "url": "https://www.dmsguild.com/product/441108/SJDCTTUC02-Among-Us?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/441108/?affiliate_id=171040"
     },
     {
         "apl": 16,
@@ -30617,6 +30743,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "444946",
         "season": "Spelljammer",
@@ -30637,11 +30764,15 @@
         "full_title": "SJ-DC-TTUC-05 5 by 5",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 4.99,
         "product_id": "445063",
+        "season": "Spelljammer",
+        "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "5 by 5",
-        "url": "https://www.dmsguild.com/product/445063/SJDCTTUC05-5-by-5?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/445063/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -30860,6 +30991,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "446296",
         "season": "Spelljammer",
@@ -31041,6 +31173,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "448365",
         "season": "Spelljammer",
@@ -31059,13 +31192,16 @@
         "code": "SJ-DC-ROTU-07",
         "date_created": "20230806",
         "full_title": "SJ-DC-ROTU-07 Recesses of the Unknown, Epilogue",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "448450",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Recesses of the Unknown, Epilogue",
-        "url": "https://www.dmsguild.com/product/448450/SJDCROTU07-Recesses-of-the-Unknown-Epilogue?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/448450/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -31466,6 +31602,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "451191",
         "season": "Spelljammer",
@@ -31959,11 +32096,15 @@
         "full_title": "SJ-DC-TTUC-03 Will of King",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 4.99,
         "product_id": "456815",
+        "season": "Spelljammer",
+        "suggestedPrice": 4.99,
         "tiers": 1,
         "title": "Will of King",
-        "url": "https://www.dmsguild.com/product/456815/SJDCTTUC03-Will-of-King?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/456815/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -32436,6 +32577,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "461144",
         "season": "Spelljammer",
@@ -32889,6 +33031,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "463888",
         "season": "Spelljammer",
@@ -32989,11 +33132,14 @@
         "full_title": "SJ-DC-UNITE-01 Asteroid Escape",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "464119",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Asteroid Escape",
-        "url": "https://www.dmsguild.com/product/464119/SJDCUNITE01-Asteroid-Escape?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464119/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -33009,11 +33155,14 @@
         "full_title": "SJ-DC-UNITE-02 Stranded",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "464120",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "Stranded",
-        "url": "https://www.dmsguild.com/product/464120/SJDCUNITE02-Stranded?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464120/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -33045,13 +33194,16 @@
         "code": "SJ-DC-TTUC-06",
         "date_created": "20231218",
         "full_title": "SJ-DC-TTUC-06 Party Crashers",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "464237",
+        "season": "Spelljammer",
         "tiers": 3,
         "title": "Party Crashers",
-        "url": "https://www.dmsguild.com/product/464237/SJDCTTUC06-Party-Crashers?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464237/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -33209,11 +33361,14 @@
         "full_title": "SJ-DC-UNITE-03 The Root of All Evil",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "464755",
+        "season": "Spelljammer",
         "tiers": 1,
         "title": "The Root of All Evil",
-        "url": "https://www.dmsguild.com/product/464755/SJDCUNITE03-The-Root-of-All-Evil?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/464755/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -33261,16 +33416,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "SJ-DC-ROG-01-RESCUE",
+        "code": "SJ-DC-ROG-01",
         "date_created": "20231223",
-        "full_title": "SJ-DC-ROG-01-Rescue on Glyth",
+        "full_title": "SJ-DC-ROG-01 Rescue on Glyth",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": true,
+        "price": 0.5,
         "product_id": "464897",
+        "season": "Spelljammer",
+        "suggestedPrice": 0.5,
         "tiers": 3,
-        "title": "on Glyth",
-        "url": "https://www.dmsguild.com/product/464897/SJDCROG01Rescue-on-Glyth?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Rescue on Glyth",
+        "url": "https://www.dmsguild.com/product/464897/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -33483,7 +33642,8 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 2.75,
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "465326",
         "season": "Spelljammer",
         "tiers": 2,
@@ -33722,11 +33882,15 @@
         "full_title": "SJ-DC-TTUC-04 I want a Giff for Winter Solstice",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 4.99,
         "product_id": "465442",
+        "season": "Spelljammer",
+        "suggestedPrice": 4.99,
         "tiers": 2,
         "title": "I want a Giff for Winter Solstice",
-        "url": "https://www.dmsguild.com/product/465442/SJDCTTUC04-I-want-a-Giff-for-Winter-Solstice?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/465442/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -33783,6 +33947,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "465458",
         "season": "Spelljammer",
@@ -33862,16 +34027,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "SJ-DC_LP-01",
+        "code": "SJ-DC-LIP-01",
         "date_created": "20231230",
-        "full_title": "SJ-DC_LP-01 Lost in Paradise",
+        "full_title": "SJ-DC-LIP-01 Lost in Paradise",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "465466",
+        "season": "Spelljammer",
         "tiers": 2,
-        "title": "SJ-DC_LP-01 Lost in Paradise",
-        "url": "https://www.dmsguild.com/product/465466/SJDCLP01-Lost-in-Paradise?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Lost in Paradise",
+        "url": "https://www.dmsguild.com/product/465466/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -33985,8 +34153,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 9.98,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "465541",
+        "season": null,
         "tiers": 3,
         "title": "Sweet Dreams are Made of Bees",
         "url": "https://www.dmsguild.com/product/465541/?affiliate_id=171040"
@@ -34323,8 +34493,11 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "465639",
+        "season": "Spelljammer",
+        "seed": "Saint Argol's Fire",
         "tiers": 1,
         "title": "The Monster at the End of this Adventure",
         "url": "https://www.dmsguild.com/product/465639/?affiliate_id=171040"
@@ -34342,7 +34515,8 @@
         "full_title": "SJ-DC-TEL-03 Pieces of Pain",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
+        "level_range": "7",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "465643",
         "season": "Spelljammer",
@@ -34444,6 +34618,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "465703",
         "season": "Spelljammer",
@@ -34465,6 +34640,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "465705",
         "season": "Spelljammer",
@@ -40316,11 +40492,13 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "524648",
+        "season": "The Wild Beyond the Witchlight",
         "tiers": 1,
         "title": "Puffalo's Proposal",
-        "url": "https://www.dmsguild.com/product/524648/WBWDCPUFF01-Puffalos-Proposal?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524648/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -41064,6 +41242,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "532407",
         "season": "Spelljammer",
@@ -41217,6 +41396,7 @@
         "id": "534423",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "534423",
         "pub_date": "Sat, 23 Aug 2025 20:34:25 CDT",

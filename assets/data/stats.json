@@ -1,7 +1,7 @@
 {
     "tier": {
         "Tier 1": 791,
-        "Tier 2": 815,
+        "Tier 2": 816,
         "Tier 3": 326,
         "Unknown": 19,
         "Tier 4": 78
@@ -10,10 +10,10 @@
         "1 Hours": 20,
         "2 Hours": 560,
         "3 Hours": 115,
-        "4 Hours": 1358,
+        "4 Hours": 1363,
         "5 Hours": 46,
         "8 Hours": 11,
-        "Unknown": 128,
+        "Unknown": 124,
         "6 Hours": 47,
         "9 Hours": 2,
         "10 Hours": 2,
@@ -22,7 +22,7 @@
         "7 Hours": 2
     },
     "campaign": {
-        "Forgotten Realms": 1897,
+        "Forgotten Realms": 1898,
         "Ravenloft": 49,
         "Unknown": 10,
         "Eberron": 68,
@@ -33,16 +33,16 @@
         "Elemental Evil": 16,
         "Rage of Demons": 16,
         "Curse of Strahd": 14,
-        "Unknown": 1520,
+        "Unknown": 1502,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
         "Waterdeep": 19,
         "Avernus Rising": 20,
         "Plague of Ancients": 13,
-        "Icewind Dale": 83,
-        "The Wild Beyond the Witchlight": 139,
-        "Spelljammer": 98,
+        "Icewind Dale": 86,
+        "The Wild Beyond the Witchlight": 141,
+        "Spelljammer": 112,
         "Planescape": 36
     },
     "seed_by_season": {}
