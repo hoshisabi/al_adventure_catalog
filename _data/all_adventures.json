@@ -1123,13 +1123,13 @@
         "product_id": "182769",
         "season": "Curse of Strahd",
         "tiers": 0,
-        "title": "DDAL04\u201006 The Ghost",
+        "title": "The Ghost",
         "url": "https://www.dmsguild.com/product/182769/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "Wizards of the Coast"
+            "Teos Abadia"
         ],
         "campaigns": [
             "Forgotten Realms",
@@ -1137,14 +1137,17 @@
         ],
         "code": "DDAL04-10",
         "date_created": "20160607",
-        "full_title": "DDAL04-10 The Artifact (5e)",
+        "full_title": "DDAL04-10 The Artifact",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "184341",
+        "season": "Curse of Strahd",
         "tiers": 2,
-        "title": "DDAL04-10 The Artifact 5e",
-        "url": "https://www.dmsguild.com/product/184341/DDAL0410-The-Artifact-5e?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Artifact",
+        "url": "https://www.dmsguild.com/product/184341/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -1510,7 +1513,7 @@
         "product_id": "200609",
         "season": 0,
         "tiers": 2,
-        "title": "DDAL00-01 Window to the Past",
+        "title": "Window to the Past",
         "url": "https://www.dmsguild.com/product/200609/?affiliate_id=171040"
     },
     {
@@ -1845,7 +1848,7 @@
         "product_id": "214058",
         "season": "Tomb of Annihilation",
         "tiers": 1,
-        "title": "DDAL07-01 A City on the Edge",
+        "title": "A City on the Edge",
         "url": "https://www.dmsguild.com/product/214058/?affiliate_id=171040"
     },
     {
@@ -1966,7 +1969,7 @@
         "product_id": "215579",
         "season": "Tomb of Annihilation",
         "tiers": 2,
-        "title": "DDAL07-02 Over the Edge",
+        "title": "Over the Edge",
         "url": "https://www.dmsguild.com/product/215579/?affiliate_id=171040"
     },
     {
@@ -2311,7 +2314,7 @@
         "product_id": "222716",
         "season": "Tomb of Annihilation",
         "tiers": 0,
-        "title": "DDAL07-03 A Day at the Races",
+        "title": "A Day at the Races",
         "url": "https://www.dmsguild.com/product/222716/?affiliate_id=171040"
     },
     {
@@ -2333,7 +2336,7 @@
         "product_id": "222717",
         "season": "Tomb of Annihilation",
         "tiers": 0,
-        "title": "DDAL07-04 A Walk in the Park",
+        "title": "A Walk in the Park",
         "url": "https://www.dmsguild.com/product/222717/?affiliate_id=171040"
     },
     {
@@ -2355,7 +2358,7 @@
         "product_id": "222718",
         "season": "Tomb of Annihilation",
         "tiers": 0,
-        "title": "DDAL07-05 Whispers in the Dark",
+        "title": "Whispers in the Dark",
         "url": "https://www.dmsguild.com/product/222718/?affiliate_id=171040"
     },
     {
@@ -2520,7 +2523,7 @@
         "product_id": "224832",
         "season": "Tomb of Annihilation",
         "tiers": 0,
-        "title": "DDAL07-06 Fester and Burn",
+        "title": "Fester and Burn",
         "url": "https://www.dmsguild.com/product/224832/?affiliate_id=171040"
     },
     {
@@ -2542,7 +2545,7 @@
         "product_id": "224833",
         "season": "Tomb of Annihilation",
         "tiers": 0,
-        "title": "DDAL07-07 Rotting Roots",
+        "title": "Rotting Roots",
         "url": "https://www.dmsguild.com/product/224833/?affiliate_id=171040"
     },
     {
@@ -2564,7 +2567,7 @@
         "product_id": "224834",
         "season": "Tomb of Annihilation",
         "tiers": 0,
-        "title": "DDAL07-08 Putting the Dead to Rest",
+        "title": "Putting the Dead to Rest",
         "url": "https://www.dmsguild.com/product/224834/?affiliate_id=171040"
     },
     {
@@ -2901,7 +2904,7 @@
         "product_id": "229261",
         "season": 0,
         "tiers": 1,
-        "title": "DDAL00-04 Winter's Flame",
+        "title": "Winter's Flame",
         "url": "https://www.dmsguild.com/product/229261/?affiliate_id=171040"
     },
     {
@@ -2942,7 +2945,7 @@
         "product_id": "230030",
         "season": 0,
         "tiers": 2,
-        "title": "DDAL00-03 Those That Came Before",
+        "title": "Those That Came Before",
         "url": "https://www.dmsguild.com/product/230030/?affiliate_id=171040"
     },
     {
@@ -3027,7 +3030,7 @@
         "product_id": "230789",
         "season": "Tomb of Annihilation",
         "tiers": 3,
-        "title": "DDAL07-09 Unusual Opposition",
+        "title": "Unusual Opposition",
         "url": "https://www.dmsguild.com/product/230789/?affiliate_id=171040"
     },
     {
@@ -3049,7 +3052,7 @@
         "product_id": "230794",
         "season": "Tomb of Annihilation",
         "tiers": 3,
-        "title": "DDAL07-10 Fire, Ash, and Ruin",
+        "title": "Fire, Ash, and Ruin",
         "url": "https://www.dmsguild.com/product/230794/?affiliate_id=171040"
     },
     {
