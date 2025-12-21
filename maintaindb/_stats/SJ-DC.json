@@ -6178,7 +6178,7 @@
         "url": "https://www.dmsguild.com/product/421708/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Brian Balagot"
         ],
@@ -6191,6 +6191,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "410667",
         "season": "Spelljammer",
