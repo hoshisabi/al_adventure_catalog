@@ -1467,6 +1467,66 @@
         "url": "https://www.dmsguild.com/product/352245/DCPoAPM05-Can-you-tell-me-how-to-get-to-the-east-haven-way?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": null,
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-SUNLIT-01",
+        "date_created": null,
+        "full_title": "DC-POA-SUNLIT-01 A Thief in the White",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 1.99,
+        "product_id": "353284",
+        "season": "Icewind Dale",
+        "seed": "I'd Like to Make a Return, Please",
+        "tiers": 1,
+        "title": "A Thief in the White",
+        "url": "https://www.dmsguild.com/product/353284?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": null,
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-SUNLIT-02",
+        "date_created": null,
+        "full_title": "DC-POA-SUNLIT-02 Dug Too Deep?",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "price": null,
+        "product_id": "353286",
+        "season": "Icewind Dale",
+        "seed": "In Too Deep",
+        "tiers": 0,
+        "title": "Dug Too Deep?",
+        "url": "https://www.dmsguild.com/product/353286?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": null,
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-SUNLIT-03",
+        "date_created": null,
+        "full_title": "DC-POA-SUNLIT-03 A Solstice Tradition",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": null,
+        "product_id": "353288",
+        "season": "Icewind Dale",
+        "seed": "Snipe Hunt",
+        "tiers": 0,
+        "title": "A Solstice Tradition",
+        "url": "https://www.dmsguild.com/product/353288?affiliate_id=171040"
+    },
+    {
         "apl": 2,
         "authors": [
             "Nicholas Reed"
@@ -1575,6 +1635,26 @@
         "tiers": 1,
         "title": "Someone Dropped the Goat-Ball DC-POA-PND-1",
         "url": "https://www.dmsguild.com/product/354319/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": null,
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-GHL-01",
+        "date_created": null,
+        "full_title": "DC-POA-GHL-01 Cold Diggers",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": null,
+        "price": null,
+        "product_id": "354667",
+        "season": "Icewind Dale",
+        "seed": "Burrowing Borrowers",
+        "tiers": 0,
+        "title": "Cold Diggers",
+        "url": "https://www.dmsguild.com/product/354667?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1808,7 +1888,7 @@
         "seed": "Out of the Woods",
         "tiers": 2,
         "title": "DC-PoA-TCW-ACW-1 FIRST BLOOD",
-        "url": "https://www.dmsguild.com/product/359324/?affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/359324?affiliate_id=171040"
     },
     {
         "apl": 8,
