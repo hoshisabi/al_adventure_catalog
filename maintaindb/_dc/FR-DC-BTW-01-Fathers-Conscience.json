@@ -11,9 +11,12 @@
     "full_title": "FR-DC-BTW-01 Fathers Conscience",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
-    "product_id": "FR-DC-BTW-01-Fathers-Conscience",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
+    "product_id": "510014",
+    "season": null,
     "tiers": 1,
     "title": "Fathers Conscience",
-    "url": "https://www.dmsguild.com/product/510014/FRDCBTW01-Fathers-Conscience?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/510014/?affiliate_id=171040"
 }

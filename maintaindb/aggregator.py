@@ -6,10 +6,7 @@ import json
 import glob
 from collections import defaultdict
 
-from adventure import DC_CAMPAIGNS
-import glob
-
-from adventure import DC_CAMPAIGNS, get_dc_code_and_campaign
+from .adventure import DC_CAMPAIGNS, get_dc_code_and_campaign
 
 logger = logging.getLogger()
 logger.level = logging.INFO

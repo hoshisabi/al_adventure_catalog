@@ -3,17 +3,23 @@ Sortable and Filterable Catalog of Adventurers League Adventures
 
 Final link will be [here](https://hoshisabi.com/al_adventure_catalog/)
 
+> **Note for AI Assistants**: This project runs on Windows with PowerShell. See [`AI_ASSISTANT_GUIDELINES.md`](AI_ASSISTANT_GUIDELINES.md) for Windows-specific command-line guidelines.
+
 ## Set up
 
 There are two primary methods for ingesting new adventure data:
 
 ### Method 1: Using the RSS Parser (Recommended for bulk updates)
 
-1.  Navigate to the `maintaindb` directory: `cd maintaindb`
-2.  Run the RSS parser: `python3 dmsguild_rss_parser.py`
+1.  From the **project root** (this directory), run:
+    ```bash
+    uv run python -m maintaindb.process_rss
+    ```
     *   This script fetches the latest adventure data from the DMsGuild RSS feed and generates JSON files in the `_dc` directory. This process is quick and efficient.
-    *   You can also test with the bundled fixture: `python3 dmsguild_rss_parser.py --url maintaindb\\dmsguildinfo\\rss.xml --force`
-    *   RSS-derived JSONs are marked with `needs_review: true` because the RSS feed lacks some details. See “RSS data gaps” below.
+    *   You can also test with the bundled fixture: `uv run python -m maintaindb.process_rss --url maintaindb/dmsguildinfo/rss.xml --force`
+    *   RSS-derived JSONs are marked with `needs_review: true` because the RSS feed lacks some details. See "RSS data gaps" below.
+
+**Note**: The `maintaindb` directory is a Python package. Scripts must be run as modules from the project root. See `maintaindb/README.md` for details.
 
 ### Method 2: Using the DMsGuild Bookmarklet (For individual adventure updates or when RSS is insufficient)
 
@@ -26,9 +32,12 @@ There are two primary methods for ingesting new adventure data:
     *   Click on the "DMsGuild Scraper" bookmarklet.
     *   The bookmarklet will prompt you to save an HTML file. Save this file into the `maintaindb/dmsguildinfo` directory (e.g., `maintaindb/dmsguildinfo/`).
 3.  **Process Downloaded Files**:
-    *   Navigate to the `maintaindb` directory: `cd maintaindb`
-    *   Run the processing script: `python3 process_downloads.py`
+    *   From the **project root**, run:
+        ```bash
+        uv run python -m maintaindb.process_downloads
+        ```
     *   This script will parse the HTML files saved in `dmsguildinfo` and generate JSON files in the `_dc` directory. Processed HTML files will be moved to `dmsguildinfo/processed`.
+    *   Supports `--force` flag to overwrite existing files and `--careful` flag to preserve existing non-null data.
 
 ### Post-Ingestion Steps (Common to both methods)
 

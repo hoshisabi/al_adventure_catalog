@@ -7,8 +7,9 @@ import time
 import requests
 import argparse
 import glob
-from warhorn_api import run_query
-from adventure import str_to_int, get_season, generate_warhorn_slug # Import necessary functions from adventure.py
+
+from .warhorn_api import run_query
+from .adventure import str_to_int, get_season, generate_warhorn_slug # Import necessary functions from adventure.py
 
 logger = logging.getLogger()
 logger.level = logging.INFO

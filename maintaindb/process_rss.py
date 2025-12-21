@@ -8,9 +8,11 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import List, Optional, Tuple
 import xml.etree.ElementTree as ET
+import sys
 
 import requests
-from adventure import sanitize_filename
+
+from .adventure import sanitize_filename
 
 # Constants
 DEFAULT_HEADERS = {
@@ -134,7 +136,7 @@ def main() -> int:
     # Restore legacy functionality: normalize data and write Adventure-shaped JSONs
     # without scraping product pages (RSS-only data).
     # Build DungeonCraft-style JSON objects using only RSS fields, aligning with HTML pipeline schema
-    from adventure import get_dc_code_and_campaign, get_season, DungeonCraft
+    from .adventure import get_dc_code_and_campaign, get_season, DungeonCraft
 
     def _parse_price_from_description(desc_html: str) -> Optional[float]:
         if not desc_html:

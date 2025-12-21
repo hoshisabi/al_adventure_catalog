@@ -680,11 +680,14 @@
         "full_title": "FR-DC-BTW-01 Fathers Conscience",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-BTW-01-Fathers-Conscience",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "510014",
+        "season": null,
         "tiers": 1,
         "title": "Fathers Conscience",
-        "url": "https://www.dmsguild.com/product/510014/FRDCBTW01-Fathers-Conscience?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/510014/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -699,11 +702,14 @@
         "full_title": "FR-DC-BTW-02 Fathers Curse",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
-        "product_id": "FR-DC-BTW-02-Fathers-Curse",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "510984",
+        "season": null,
         "tiers": 1,
         "title": "Fathers Curse",
-        "url": "https://www.dmsguild.com/product/510984/FRDCBTW02-Fathers-Curse?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/510984/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -718,11 +724,14 @@
         "full_title": "FR-DC-BTW-03 Fathers Mistakes",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
-        "product_id": "FR-DC-BTW-03-Fathers-Mistakes",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "511728",
+        "season": null,
         "tiers": 2,
         "title": "Fathers Mistakes",
-        "url": "https://www.dmsguild.com/product/511728/FRDCBTW03-Fathers-Mistakes?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511728/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -902,11 +911,14 @@
         "full_title": "FR-DC-CURSE Is this a Curse?",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
-        "product_id": "FR-DC-CURSE-Is-this-a-Curse",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "459561",
+        "season": null,
         "tiers": 1,
         "title": "Is this a Curse?",
-        "url": "https://www.dmsguild.com/product/459561/FRDCCURSE-Is-this-a-Curse?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/459561/?affiliate_id=171040"
     },
     {
         "apl": 13,

@@ -33,7 +33,7 @@ logger = logging.getLogger()
 
 # Import constants from adventure_utils to avoid duplication
 # Re-export them here for backward compatibility with existing imports
-from adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS
+from .adventure_utils import DC_CAMPAIGNS, DDAL_CAMPAIGN, SEASONS
 
 # SEASON_LABELS is kept for backward compatibility with get_season_label() function
 # It's derived from SEASONS for numeric seasons (1-10)
@@ -769,7 +769,7 @@ def _extract_pwyw_info_from_html(parsed_html):
 def _collect_text_for_regexes(parsed_html) -> str:
     """
     Gather text from places both legacy and new pages use, plus simple test fixtures.
-    Collects text from meta description, legacy content divs, and falls back to full document.
+    Collects text from meta description, legacy content divs, product description areas, and falls back to full document.
     
     Args:
         parsed_html: BeautifulSoup parsed HTML document
@@ -801,7 +801,20 @@ def _collect_text_for_regexes(parsed_html) -> str:
         if t and t not in blocks:
             blocks.append(t)
 
-    # 5) absolute fallback: whole doc text
+    # 5) product-description-control (newer page format)
+    desc_control = parsed_html.find("div", {"class": "product-description-control"})
+    if desc_control:
+        t = desc_control.get_text(" ", strip=True)
+        if t and t not in blocks:
+            blocks.append(t)
+
+    # 6) any div whose class contains "description" (catch other description variants)
+    for el in parsed_html.find_all("div", class_=lambda c: isinstance(c, str) and "description" in c.lower()):
+        t = el.get_text(" ", strip=True)
+        if t and t not in blocks and len(t) > 50:  # Only include substantial text blocks
+            blocks.append(t)
+
+    # 7) absolute fallback: whole doc text
     if not blocks:
         t = parsed_html.get_text(" ", strip=True)
         if t:
