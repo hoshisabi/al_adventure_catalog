@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Brian Collier"
     ],
@@ -11,7 +11,7 @@
     "full_title": "WBW-DC-KCB-01 Sugar Rush",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "WBW-DC-KCB-01-Sugar-Rush",
     "tiers": 1,
     "title": "Sugar Rush",
