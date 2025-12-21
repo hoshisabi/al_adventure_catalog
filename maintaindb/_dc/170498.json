@@ -1,21 +1,22 @@
 {
     "apl": null,
     "authors": [
-        "Wizards of the Coast"
+        "Robert Alaniz"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "DDEX3-05",
     "date_created": "20160111",
-    "full_title": "DDEX3-05 Bane of the Tradeways (5e)",
+    "full_title": "DDEX3-05 Bane of the Tradeways",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170498",
-    "season": 3,
+    "season": "Rage of Demons",
     "tiers": 1,
-    "title": "DDEX3-05 Bane of the Tradeways",
+    "title": "Bane of the Tradeways",
     "url": "https://www.dmsguild.com/product/170498/?affiliate_id=171040"
 }
