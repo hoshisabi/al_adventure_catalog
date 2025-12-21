@@ -1,0 +1,271 @@
+[
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-01",
+        "date_created": "20210810",
+        "full_title": "RMH-01 The Final Curtain",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": 3,
+        "price": 9.99,
+        "product_id": "367198",
+        "tiers": 1,
+        "title": "RMH-01 The Final Curtain",
+        "url": "https://www.dmsguild.com/product/367198/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-EP-01",
+        "date_created": "20210810",
+        "full_title": "RMH-EP-01 The Grand Masquerade",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "367294",
+        "tiers": 0,
+        "title": "RMH-EP-01 The Grand Masquerade",
+        "url": "https://www.dmsguild.com/product/367294/RMHEP01-The-Grand-Masquerade?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-02",
+        "date_created": "20210914",
+        "full_title": "RMH-02 Back to the Front",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": 3,
+        "price": 9.99,
+        "product_id": "370754",
+        "tiers": 1,
+        "title": "RMH-02 Back to the Front",
+        "url": "https://www.dmsguild.com/product/370754/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-03",
+        "date_created": "20211013",
+        "full_title": "RMH-03 The Amber Dirge",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "373816",
+        "tiers": 0,
+        "title": "RMH-03 The Amber Dirge",
+        "url": "https://www.dmsguild.com/product/373816/RMH03-The-Amber-Dirge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-04",
+        "date_created": "20211110",
+        "full_title": "RMH-04 The Amber Secret",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": 4,
+        "product_id": "377048",
+        "tiers": 1,
+        "title": "RMH-04 The Amber Secret",
+        "url": "https://www.dmsguild.com/product/377048/RMH04-The-Amber-Secret?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-05",
+        "date_created": "20211214",
+        "full_title": "RMH-05 Unexpected Hospitality",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "380627",
+        "tiers": 0,
+        "title": "RMH-05 Unexpected Hospitality",
+        "url": "https://www.dmsguild.com/product/380627/RMH05-Unexpected-Hospitality?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-06",
+        "date_created": "20211214",
+        "full_title": "RMH-06 Amber Reclamation",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "0",
+        "product_id": "380630",
+        "tiers": 0,
+        "title": "RMH-06 Amber Reclamation",
+        "url": "https://www.dmsguild.com/product/380630/RMH06-Amber-Reclamation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-07",
+        "date_created": "20220112",
+        "full_title": "RMH-07 The City of Dreams",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "383265",
+        "tiers": 0,
+        "title": "RMH-07 The City of Dreams",
+        "url": "https://www.dmsguild.com/product/383265/RMH07-The-City-of-Dreams?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-08",
+        "date_created": "20220112",
+        "full_title": "RMH-08 The Palace of Bones",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "383275",
+        "tiers": 0,
+        "title": "RMH-08 The Palace of Bones",
+        "url": "https://www.dmsguild.com/product/383275/RMH08-The-Palace-of-Bones?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-09",
+        "date_created": "20220211",
+        "full_title": "RMH-09 The Deadliest Game",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "386609",
+        "tiers": 0,
+        "title": "RMH-09 The Deadliest Game",
+        "url": "https://www.dmsguild.com/product/386609/RMH09-The-Deadliest-Game?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-10",
+        "date_created": "20220218",
+        "full_title": "RMH-10 Scion of Darkness",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "387334",
+        "tiers": 0,
+        "title": "RMH-10 Scion of Darkness",
+        "url": "https://www.dmsguild.com/product/387334/RMH10-Scion-of-Darkness?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-11",
+        "date_created": "20220310",
+        "full_title": "RMH-11 Calling Upon the Dead",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "389773",
+        "tiers": 0,
+        "title": "RMH-11 Calling Upon the Dead",
+        "url": "https://www.dmsguild.com/product/389773/RMH11-Calling-Upon-the-Dead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-12",
+        "date_created": "20220314",
+        "full_title": "RMH-12 Beneath the New Star",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "product_id": "389775",
+        "tiers": 0,
+        "title": "RMH-12 Beneath the New Star",
+        "url": "https://www.dmsguild.com/product/389775/RMH12-Beneath-the-New-Star?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Ravenloft"
+        ],
+        "code": "RMH-EP-02",
+        "date_created": "20220318",
+        "full_title": "RMH-EP-02 A Darklord's Denouement",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "price": 149.86,
+        "product_id": "390632",
+        "tiers": 0,
+        "title": "RMH-EP-02 A Darklord's Denouement",
+        "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
+    }
+]

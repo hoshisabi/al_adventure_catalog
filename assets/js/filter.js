@@ -16,8 +16,22 @@ function updateItemsPerPage() {
 let filters = {
     campaign: '',
     tier: '',
-    hours: ''
+    hours: '',
+    dcOnly: false,
+    search: ''
 };
+
+// DC code prefixes (from DC_CAMPAIGNS)
+const DC_CODE_PREFIXES = [
+    'FR-DC', 'DL-DC', 'EB-DC', 'PS-DC', 'RV-DC', 'SJ-DC', 'WBW-DC',
+    'DC-POA', 'PO-BK', 'BMG-DRW', 'BMG-MOON', 'BMG-DL', 'EB-SM', 'CCC-'
+];
+
+function isDCCode(code) {
+    if (!code) return false;
+    const codeUpper = code.toUpperCase();
+    return DC_CODE_PREFIXES.some(prefix => codeUpper.startsWith(prefix));
+}
 
 let baseURL = '';
 if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
@@ -94,6 +108,26 @@ function setupEventListeners() {
         });
     });
 
+    // Add event listener for DC-only checkbox
+    document.getElementById('dc-only').addEventListener('change', (e) => {
+        filters.dcOnly = e.target.checked;
+        currentPage = 1; // Reset to first page when filtering
+        applyFilters();
+    });
+
+    // Add event listener for search input with debouncing
+    const searchInput = document.getElementById('search');
+    let searchTimeout;
+    searchInput.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            filters.search = e.target.value.trim();
+            currentPage = 1; // Reset to first page when searching
+            applyFilters();
+        }, 300); // 300ms debounce
+    });
+}
+
     // Add pagination event listeners
     document.getElementById('prev-page').addEventListener('click', () => {
         if (currentPage > 1) {
@@ -112,6 +146,21 @@ function setupEventListeners() {
 
 function applyFilters() {
     filteredAdventures = adventures.filter(adventure => {
+        // DC-only filter: if enabled, only show adventures with DC codes
+        if (filters.dcOnly && !isDCCode(adventure.code)) {
+            return false;
+        }
+
+        // Search filter: search in title and code (case-insensitive)
+        if (filters.search) {
+            const searchLower = filters.search.toLowerCase();
+            const titleMatch = adventure.title && adventure.title.toLowerCase().includes(searchLower);
+            const codeMatch = adventure.code && adventure.code.toLowerCase().includes(searchLower);
+            if (!titleMatch && !codeMatch) {
+                return false;
+            }
+        }
+
         const campaignMatch = !filters.campaign || (
             Array.isArray(adventure.campaigns)
                 ? adventure.campaigns.includes(filters.campaign)

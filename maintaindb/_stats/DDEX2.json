@@ -1,0 +1,395 @@
+[
+    {
+        "apl": 1,
+        "authors": [
+            "Shawn Merwin",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-01",
+        "date_created": "20160111",
+        "full_title": "DDEX2-01 City of Danger",
+        "hours": "1-5",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170386",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-01 City of Danger",
+        "url": "https://www.dmsguild.com/product/170386/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Daniel Helmick",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-02",
+        "date_created": "20160111",
+        "full_title": "DDEX2-02 Embers of Elmwood",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170476",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Embers of Elmwood",
+        "url": "https://www.dmsguild.com/product/170476/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Wizards of the Coast"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-03",
+        "date_created": "20160111",
+        "full_title": "DDEX2-03 The Drowned Tower (5e)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 2.99,
+        "product_id": "170477",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "DDEX2-03 The Drowned Tower",
+        "url": "https://www.dmsguild.com/product/170477/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-04",
+        "date_created": "20160111",
+        "full_title": "DDEX2-04 Mayhem in the Earthspur Mines",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170478",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "Mayhem in the Earthspur Mines",
+        "url": "https://www.dmsguild.com/product/170478/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "John \"Ross\" Rossomangno",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-05",
+        "date_created": "20160111",
+        "full_title": "DDEX2-05 Flames of Kythorn",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170479",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Flames of Kythorn",
+        "url": "https://www.dmsguild.com/product/170479/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-06",
+        "date_created": "20160111",
+        "full_title": "DDEX2-06 Breath of the Yellow Rose",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170480",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Breath of the Yellow Rose",
+        "url": "https://www.dmsguild.com/product/170480/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Ken Hart",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-07",
+        "date_created": "20160111",
+        "full_title": "DDEX2-07 Bounty in the Bog",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170481",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Bounty in the Bog",
+        "url": "https://www.dmsguild.com/product/170481/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Tim Eagon",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-08",
+        "date_created": "20160111",
+        "full_title": "DDEX2-08 Foulness Beneath Mulmaster",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170482",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Foulness Beneath Mulmaster",
+        "url": "https://www.dmsguild.com/product/170482/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Pieter Sleijpen",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-09",
+        "date_created": "20160111",
+        "full_title": "DDEX2-09 Eye of the Tempest",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "170484",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "DDEX2-09 Eye of the Tempest",
+        "url": "https://www.dmsguild.com/product/170484/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-10",
+        "date_created": "20160111",
+        "full_title": "DDEX2-10 Cloaks and Shadows",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170485",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-10 Cloaks and Shadows",
+        "url": "https://www.dmsguild.com/product/170485/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-11",
+        "date_created": "20160111",
+        "full_title": "DDEX2-11 Oubliette of Fort Iron",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170486",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-11 Oubliette of Fort Iron",
+        "url": "https://www.dmsguild.com/product/170486/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Adducci",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-12",
+        "date_created": "20160111",
+        "full_title": "DDEX2-12 Dark Rites at Fort Dalton",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "170487",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "DDEX2-12 Dark Rites at Fort Dalton",
+        "url": "https://www.dmsguild.com/product/170487/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Teos Abadia",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-13",
+        "date_created": "20160111",
+        "full_title": "DDEX2-13 The Howling Void",
+        "hours": "8",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170488",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "The Howling Void",
+        "url": "https://www.dmsguild.com/product/170488/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Daniel Helmick",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-14",
+        "date_created": "20160111",
+        "full_title": "DDEX2-14 The Sword of Selfaril",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170489",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "The Sword of Selfaril",
+        "url": "https://www.dmsguild.com/product/170489/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "John \"Ross\" Rossomangno",
+            "Claire Hoffman",
+            "Chris Tulach",
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-15",
+        "date_created": "20160111",
+        "full_title": "DDEX2-15 Black Heart of Vengeance",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170490",
+        "season": "Elemental Evil",
+        "tiers": 2,
+        "title": "Black Heart of Vengeance",
+        "url": "https://www.dmsguild.com/product/170490/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDEX2-16",
+        "date_created": "20160111",
+        "full_title": "DDEX2-16 Boltsmelter's Book",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "170491",
+        "season": "Elemental Evil",
+        "tiers": 1,
+        "title": "Boltsmelter's Book",
+        "url": "https://www.dmsguild.com/product/170491/?affiliate_id=171040"
+    }
+]

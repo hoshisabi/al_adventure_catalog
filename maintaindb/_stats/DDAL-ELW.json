@@ -1,0 +1,242 @@
+[
+    {
+        "apl": 0,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW00",
+        "date_created": "20180921",
+        "full_title": "DDAL-ELW00 What's Past is Prologue",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": 0,
+        "price": 4.99,
+        "product_id": "248589",
+        "tiers": 0,
+        "title": "DDAL-ELW00 What's Past is Prologue",
+        "url": "https://www.dmsguild.com/product/248589?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Greg Marks"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW01",
+        "date_created": "20180920",
+        "full_title": "DDAL-ELW01 Murder in Skyway",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "252925",
+        "tiers": 1,
+        "title": "DDAL-ELW01 Murder in Skyway",
+        "url": "https://www.dmsguild.com/product/252925/?affiliate_id=171040"
+    },
+    {
+        "apl": 2,
+        "authors": [
+            "Bill Benham"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW02",
+        "date_created": "20181001",
+        "full_title": "DDAL-ELW02 Boromar Ball",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "253783",
+        "tiers": 1,
+        "title": "DDAL-ELW02 Boromar Ball",
+        "url": "https://www.dmsguild.com/product/253783/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "James Haeck"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW03",
+        "date_created": "20181011",
+        "full_title": "DDAL-ELW03 The Cannith Code",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": "254691",
+        "tiers": 1,
+        "title": "DDAL-ELW03 The Cannith Code",
+        "url": "https://www.dmsguild.com/product/254691?affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "Ginny Loveday"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW04",
+        "date_created": "20181018",
+        "full_title": "DDAL-ELW04 Jack of Daggers",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.99,
+        "product_id": 256437,
+        "tiers": 1,
+        "title": "DDAL-ELW04 Jack of Daggers",
+        "url": "https://www.dmsguild.com/product/256437/DDALELW04-Jack-of-Daggers&affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "Will Doyle"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW05",
+        "date_created": "20181026",
+        "full_title": "DDAL-ELW05 Against the Lightning",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 257230,
+        "tiers": 2,
+        "title": "DDAL-ELW05 Against the Lightning",
+        "url": "https://www.dmsguild.com/product/257230/DDALELW05-Against-the-Lightning&affiliate_id=171040"
+    },
+    {
+        "apl": 6,
+        "authors": [
+            "Ashley Warren"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW06",
+        "date_created": "20181101",
+        "full_title": "DDAL-ELW06 A Holy Visit",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 257741,
+        "tiers": 2,
+        "title": "DDAL-ELW06 A Holy Visit",
+        "url": "https://www.dmsguild.com/product/257741?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "Lysa Chen"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW07",
+        "date_created": "20181116",
+        "full_title": "DDAL-ELW07 Blades of Terror",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 258975,
+        "tiers": 2,
+        "title": "DDAL-ELW07 Blades of Terror",
+        "url": "https://www.dmsguild.com/product/258975?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Shawn Merwin"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW08",
+        "date_created": "20181116",
+        "full_title": "DDAL-ELW08 The Kundarak Job",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 258976,
+        "tiers": 2,
+        "title": "DDAL-ELW08 The Kundarak Job",
+        "url": "https://www.dmsguild.com/product/258976?affiliate_id=171040"
+    },
+    {
+        "apl": 9,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW09",
+        "date_created": "20181130",
+        "full_title": "DDAL-ELW09 Searching for Secrets",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 260064,
+        "tiers": 2,
+        "title": "DDAL-ELW09 Searching for Secrets",
+        "url": "https://www.dmsguild.com/product/260064?affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW10",
+        "date_created": "20181207",
+        "full_title": "DDAL-ELW10 The Killing Blade",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 260858,
+        "tiers": 2,
+        "title": "DDAL-ELW10 The Killing Blade",
+        "url": "https://www.dmsguild.com/product/260858?affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "M.T. Black"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "DDAL-ELW11",
+        "date_created": "20181214",
+        "full_title": "DDAL-ELW11 Secrets Below",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": 261301,
+        "tiers": 2,
+        "title": "DDAL-ELW11 Secrets Below",
+        "url": "https://www.dmsguild.com/product/261301?affiliate_id=171040"
+    }
+]

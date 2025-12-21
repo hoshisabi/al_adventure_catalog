@@ -1,0 +1,550 @@
+[
+    {
+        "apl": 1,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-01",
+        "date_created": "20191202",
+        "full_title": "EB-01 The Night Land",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "296403",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-01 The Night Land",
+        "url": "https://www.dmsguild.com/product/296403/?affiliate_id=171040"
+    },
+    {
+        "apl": 2,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-02",
+        "date_created": "20200107",
+        "full_title": "EB-02 Voice in the Machine",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "299680",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-02 Voice in the Machine",
+        "url": "https://www.dmsguild.com/product/299680/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-03",
+        "date_created": "20200204",
+        "full_title": "EB-03 Where the Dead Wait",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "302373",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-03 Where the Dead Wait",
+        "url": "https://www.dmsguild.com/product/302373/?affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-04",
+        "date_created": "20200301",
+        "full_title": "EB-04 The Third Protocol",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 3.49,
+        "product_id": "305024",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-04 The Third Protocol",
+        "url": "https://www.dmsguild.com/product/305024/?affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-01",
+        "date_created": "20200407",
+        "full_title": "EB-EP-01 The Iron Titan",
+        "hours": "3",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.19,
+        "product_id": "308553",
+        "season": null,
+        "tiers": 1,
+        "title": "EB-EP-01 The Iron Titan",
+        "url": "https://www.dmsguild.com/product/308553/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Bum Lee"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EBERRON",
+        "date_created": "20200430",
+        "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "311891",
+        "season": null,
+        "tiers": 1,
+        "title": "Saving Salvation Eberron Salvage Mission Trilogy",
+        "url": "https://www.dmsguild.com/product/311891/?affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-05",
+        "date_created": "20200504",
+        "full_title": "EB-05 A Century of Ashes",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "312336",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-05 A Century of Ashes",
+        "url": "https://www.dmsguild.com/product/312336/?affiliate_id=171040"
+    },
+    {
+        "apl": 6,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-06",
+        "date_created": "20200603",
+        "full_title": "EB-06 The Last Word",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "316059",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-06 The Last Word",
+        "url": "https://www.dmsguild.com/product/316059/?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-07",
+        "date_created": "20200706",
+        "full_title": "EB-07 Song of the Sky",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "319657",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-07 Song of the Sky",
+        "url": "https://www.dmsguild.com/product/319657/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-08",
+        "date_created": "20200803",
+        "full_title": "EB-08 Parliament of Gears",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "322749",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-08 Parliament of Gears",
+        "url": "https://www.dmsguild.com/product/322749/?affiliate_id=171040"
+    },
+    {
+        "apl": 9,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-09",
+        "date_created": "20200901",
+        "full_title": "EB-09 Lord Bucket",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "326339",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-09 Lord Bucket",
+        "url": "https://www.dmsguild.com/product/326339/?affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-10",
+        "date_created": "20201006",
+        "full_title": "EB-10 Judgment of Iron",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 3.49,
+        "product_id": "331083",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-10 Judgment of Iron",
+        "url": "https://www.dmsguild.com/product/331083/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-02",
+        "date_created": "20201110",
+        "full_title": "EB-EP-02 Rolling Thunder",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 6.27,
+        "product_id": "335587",
+        "season": null,
+        "tiers": 2,
+        "title": "EB-EP-02 Rolling Thunder",
+        "url": "https://www.dmsguild.com/product/335587/?affiliate_id=171040"
+    },
+    {
+        "apl": 11,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-11",
+        "date_created": "20201201",
+        "full_title": "EB-11 My Undying Heart",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "337947",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-11 My Undying Heart",
+        "url": "https://www.dmsguild.com/product/337947/?affiliate_id=171040"
+    },
+    {
+        "apl": 12,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-12",
+        "date_created": "20210105",
+        "full_title": "EB-12 The Waiting Game",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "342451",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-12 The Waiting Game",
+        "url": "https://www.dmsguild.com/product/342451/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-13",
+        "date_created": "20210125",
+        "full_title": "EB-13 Stonefire",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "344584",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-13 Stonefire",
+        "url": "https://www.dmsguild.com/product/344584/?affiliate_id=171040"
+    },
+    {
+        "apl": 14,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-14",
+        "date_created": "20210309",
+        "full_title": "EB-14 From Dust",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "349669",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-14 From Dust",
+        "url": "https://www.dmsguild.com/product/349669/?affiliate_id=171040"
+    },
+    {
+        "apl": 15,
+        "authors": [
+            "D&D Adventurers League",
+            "Celeste Conowitch"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-15",
+        "date_created": "20210406",
+        "full_title": "EB-15 Dream Eater",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "352879",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-15 Dream Eater",
+        "url": "https://www.dmsguild.com/product/352879/?affiliate_id=171040"
+    },
+    {
+        "apl": 16,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-16",
+        "date_created": "20210503",
+        "full_title": "EB-16 The Dragon Below",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 3.49,
+        "product_id": "356496",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-16 The Dragon Below",
+        "url": "https://www.dmsguild.com/product/356496/?affiliate_id=171040"
+    },
+    {
+        "apl": 16,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-03",
+        "date_created": "20210621",
+        "full_title": "EB-EP-03 The Rising City",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "price": 6.27,
+        "product_id": "361712",
+        "season": null,
+        "tiers": 3,
+        "title": "EB-EP-03 The Rising City",
+        "url": "https://www.dmsguild.com/product/361712/?affiliate_id=171040"
+    },
+    {
+        "apl": 17,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-17",
+        "date_created": "20210706",
+        "full_title": "EB-17 The Final Tribute",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "363337",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-17 The Final Tribute",
+        "url": "https://www.dmsguild.com/product/363337/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-18",
+        "date_created": "20210824",
+        "full_title": "EB-18 Scales of War",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "368629",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-18 Scales of War",
+        "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"
+    },
+    {
+        "apl": 19,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-19",
+        "date_created": "20210930",
+        "full_title": "EB-19 Back to the Mud",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "372377",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-19 Back to the Mud",
+        "url": "https://www.dmsguild.com/product/372377/?affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-EP-04",
+        "date_created": "20211207",
+        "full_title": "EB-EP-04 The Last War",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 6.27,
+        "product_id": "379297",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-EP-04 The Last War",
+        "url": "https://www.dmsguild.com/product/379297/?affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "D&D Adventurers League"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-20",
+        "date_created": "20220127",
+        "full_title": "EB-20 Old Scores",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "price": 3.49,
+        "product_id": "384724",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-20 Old Scores",
+        "url": "https://www.dmsguild.com/product/384724/?affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "Integral Game Conglomerate LLC"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-SALVAGE-RSM-T4.4",
+        "date_created": "20230131",
+        "full_title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 1.0,
+        "product_id": "425292",
+        "season": null,
+        "tiers": 4,
+        "title": "EB-SALVAGE-RSM-T4.4 Daughter of Khyber",
+        "url": "https://www.dmsguild.com/product/425292/?affiliate_id=171040"
+    }
+]
