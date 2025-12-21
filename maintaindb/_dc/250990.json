@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Kat Kruger"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +11,12 @@
     "full_title": "DDAL08-02 Beneath the City of the Dead",
     "hours": null,
     "is_adventure": true,
-    "level_range": "2",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "250990",
+    "season": "Waterdeep",
     "tiers": 1,
-    "title": "DDAL08-02 Beneath the City of the Dead",
-    "url": "https://www.dmsguild.com/product/250990/DDAL0802-Beneath-the-City-of-the-Dead?filters=45470_0_0_0_0_0_0_0"
+    "title": "Beneath the City of the Dead",
+    "url": "https://www.dmsguild.com/product/250990/?affiliate_id=171040"
 }

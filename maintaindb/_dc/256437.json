@@ -12,9 +12,11 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
-    "product_id": 256437,
+    "product_id": "256437",
+    "season": null,
     "tiers": 1,
-    "title": "DDAL-ELW04 Jack of Daggers",
-    "url": "https://www.dmsguild.com/product/256437/DDALELW04-Jack-of-Daggers"
+    "title": "Jack of Daggers",
+    "url": "https://www.dmsguild.com/product/256437/?affiliate_id=171040"
 }

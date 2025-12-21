@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "D&D Adventurers League"
+        "Jay H. Anderson"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -9,11 +9,14 @@
     "code": "DDAL08-01",
     "date_created": "20181002",
     "full_title": "DDAL08-01 The Map with No Names",
-    "hours": "2",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": "2",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "250987",
+    "season": "Waterdeep",
     "tiers": 1,
-    "title": "DDAL08-01 The Map with No Names",
-    "url": "https://www.dmsguild.com/product/250987/DDAL0801-The-Map-with-No-Names?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Map with No Names",
+    "url": "https://www.dmsguild.com/product/250987/?affiliate_id=171040"
 }
