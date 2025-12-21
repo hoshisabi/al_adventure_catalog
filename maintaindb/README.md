@@ -27,6 +27,13 @@ uv run maintaindb-aggregate          # Aggregate JSON files
 uv run maintaindb-rss --url <url>    # Parse RSS feed
 ```
 
+### Path Configuration
+
+**All scripts use centralized path configuration** (`maintaindb/paths.py`) that automatically detects the project root by looking for `pyproject.toml`. This means scripts will work correctly whether run from the project root or the `maintaindb/` directory. The path configuration module:
+- Finds the project root automatically
+- Creates necessary directories if they don't exist
+- Provides consistent paths across all scripts
+
 ### Why This Structure?
 
 **Your project organization is correct and follows Python standards:**

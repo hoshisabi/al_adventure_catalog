@@ -7,15 +7,16 @@ import glob
 from collections import defaultdict
 
 from .adventure import DC_CAMPAIGNS, get_dc_code_and_campaign
+from .paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
 logger.level = logging.INFO
 stream_handler = logging.StreamHandler(sys.stdout)
 logger.addHandler(stream_handler)
 
-root = str(pathlib.Path(__file__).parent.absolute())
-input_path = os.path.join(root, '_dc')
-output_path = os.path.join(root, '_stats')
+# Use centralized path configuration
+input_path = str(DC_DIR)
+output_path = str(STATS_DIR)
 
 all_adventures_map = {}
 

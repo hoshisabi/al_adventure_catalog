@@ -37,6 +37,8 @@ IF "%GENERATE_REQUIREMENTS%"=="true" (
 )
 
 REM Running aggregator and stats script in case there are changes.
+REM Note: Python scripts use centralized path configuration (maintaindb/paths.py) and work regardless of CWD.
+REM This .bat file assumes it's run from the project root (where pyproject.toml is).
 uv run python -m maintaindb.aggregator
 copy maintaindb\_stats\all_adventures.json assets\data\all_adventures.json
 copy maintaindb\_stats\all_adventures.json  _data\all_adventures.json

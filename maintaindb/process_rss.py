@@ -121,12 +121,17 @@ def main() -> int:
         "-o",
         "--output-dir",
         type=str,
-        default="_dc",
-        help="The directory to save the JSON files to.",
+        default=None,
+        help="The directory to save the JSON files to. Defaults to maintaindb/_dc.",
     )
     args = parser.parse_args()
 
-    output_dir = Path(args.output_dir)
+    # Use centralized path configuration if no output dir specified
+    if args.output_dir is None:
+        from .paths import DC_DIR
+        output_dir = DC_DIR
+    else:
+        output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Fetching products from {args.url}...")
