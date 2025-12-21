@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "M.T. Black"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,9 +12,11 @@
     "hours": 6,
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "333727",
+    "season": null,
     "tiers": 3,
-    "title": "DDAL-DRW-06 Thimblerigging",
+    "title": "Thimblerigging",
     "url": "https://www.dmsguild.com/product/333727/?affiliate_id=171040"
 }

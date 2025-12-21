@@ -1,7 +1,7 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
-        "D&D Adventurers League"
+        "Ginny Loveday"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +12,11 @@
     "hours": "6",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "326717",
     "season": null,
     "tiers": 3,
-    "title": "DDAL-DRW-04 Foreign Affairs",
+    "title": "Foreign Affairs",
     "url": "https://www.dmsguild.com/product/326717/?affiliate_id=171040"
 }

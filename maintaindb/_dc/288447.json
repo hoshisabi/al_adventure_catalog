@@ -1,7 +1,12 @@
 {
     "apl": null,
     "authors": [
-        "D&D Adventurers League"
+        "Greg Marks",
+        "Alan Patrick",
+        "Amy Lynn Dzura",
+        "Lysa Penrose",
+        "Claire Hoffman",
+        "Travis Woodall"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +16,12 @@
     "full_title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
     "hours": null,
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 22.99,
     "product_id": "288447",
+    "season": 0,
     "tiers": 1,
-    "title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
-    "url": "https://www.dmsguild.com/product/288447/DDAL0011-Pipyaps-Guide-to-All-of-the-Nine-Hells"
+    "title": "Pipyap's Guide to All of the Nine Hells",
+    "url": "https://www.dmsguild.com/product/288447/?affiliate_id=171040"
 }
