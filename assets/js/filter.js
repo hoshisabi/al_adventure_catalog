@@ -33,23 +33,60 @@ function isDCCode(code) {
     return DC_CODE_PREFIXES.some(prefix => codeUpper.startsWith(prefix));
 }
 
+// Determine baseURL based on current path
+// If running locally with --baseurl "", path will be "/"
+// If running with baseurl, path will include the baseurl
 let baseURL = '';
-if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-    baseURL = '/assets/data/';
-} else {
+const pathname = window.location.pathname;
+if (pathname.startsWith('/al_adventure_catalog/')) {
     baseURL = '/al_adventure_catalog/assets/data/';
+} else {
+    // Local development or serving with --baseurl ""
+    baseURL = '/assets/data/';
 }
 
-// Fetch and load the JSON data
-fetch(baseURL + 'all_adventures.json')
-    .then(response => response.json())
-    .then(data => {
-        adventures = data;
-        populateFilters(adventures);
-        updateItemsPerPage(); // Set initial items per page
-        applyFilters();
-        setupEventListeners();
-    });
+// Wait for DOM to be ready, then fetch and load the JSON data
+function startLoading() {
+    console.log('Starting to load adventures...');
+    console.log('Base URL:', baseURL);
+    console.log('Full URL:', baseURL + 'all_adventures.json');
+    
+    fetch(baseURL + 'all_adventures.json')
+        .then(response => {
+            console.log('Fetch response status:', response.status);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (!Array.isArray(data)) {
+                console.error('Expected array but got:', typeof data, data);
+                return;
+            }
+            adventures = data;
+            console.log(`Loaded ${adventures.length} adventures`);
+            console.log('Sample adventure:', adventures[0]);
+            
+            initializeFilters();
+        })
+        .catch(error => {
+            console.error('Error loading adventures:', error);
+            console.error('Attempted URL:', baseURL + 'all_adventures.json');
+            const resultsDiv = document.getElementById('results');
+            if (resultsDiv) {
+                resultsDiv.innerHTML = `<div class="text-red-600 p-4">Error loading adventures: ${error.message}. Check console for details.</div>`;
+            }
+        });
+}
+
+// Start loading when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startLoading);
+} else {
+    // DOM is already ready
+    startLoading();
+}
 
 window.addEventListener('resize', updateItemsPerPage); // Update on resize
 
@@ -98,50 +135,69 @@ function populateDropdown(id, values, defaultOptionText) {
     });
 }
 
+function initializeFilters() {
+    populateFilters(adventures);
+    updateItemsPerPage(); // Set initial items per page
+    setupEventListeners();
+    applyFilters(); // Apply filters after everything is set up
+}
+
 function setupEventListeners() {
     // Add event listeners for filters
     ['campaign', 'tier', 'hours'].forEach(filter => {
-        document.getElementById(filter).addEventListener('change', (e) => {
-            filters[filter] = e.target.value;
-            currentPage = 1; // Reset to first page when filtering
-            applyFilters();
-        });
+        const element = document.getElementById(filter);
+        if (element) {
+            element.addEventListener('change', (e) => {
+                filters[filter] = e.target.value;
+                currentPage = 1; // Reset to first page when filtering
+                applyFilters();
+            });
+        }
     });
 
     // Add event listener for DC-only checkbox
-    document.getElementById('dc-only').addEventListener('change', (e) => {
-        filters.dcOnly = e.target.checked;
-        currentPage = 1; // Reset to first page when filtering
-        applyFilters();
-    });
+    const dcOnlyCheckbox = document.getElementById('dc-only');
+    if (dcOnlyCheckbox) {
+        dcOnlyCheckbox.addEventListener('change', (e) => {
+            filters.dcOnly = e.target.checked;
+            currentPage = 1; // Reset to first page when filtering
+            applyFilters();
+        });
+    }
 
     // Add event listener for search input with debouncing
     const searchInput = document.getElementById('search');
-    let searchTimeout;
-    searchInput.addEventListener('input', (e) => {
-        clearTimeout(searchTimeout);
-        searchTimeout = setTimeout(() => {
-            filters.search = e.target.value.trim();
-            currentPage = 1; // Reset to first page when searching
-            applyFilters();
-        }, 300); // 300ms debounce
-    });
-}
+    if (searchInput) {
+        let searchTimeout;
+        searchInput.addEventListener('input', (e) => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                filters.search = e.target.value.trim();
+                currentPage = 1; // Reset to first page when searching
+                applyFilters();
+            }, 300); // 300ms debounce
+        });
+    }
 
     // Add pagination event listeners
-    document.getElementById('prev-page').addEventListener('click', () => {
-        if (currentPage > 1) {
-            currentPage--;
-            displayResults();
-        }
-    });
-
-    document.getElementById('next-page').addEventListener('click', () => {
-        if (currentPage < getTotalPages()) {
-            currentPage++;
-            displayResults();
-        }
-    });
+    const prevButton = document.getElementById('prev-page');
+    const nextButton = document.getElementById('next-page');
+    if (prevButton) {
+        prevButton.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                displayResults();
+            }
+        });
+    }
+    if (nextButton) {
+        nextButton.addEventListener('click', () => {
+            if (currentPage < getTotalPages()) {
+                currentPage++;
+                displayResults();
+            }
+        });
+    }
 }
 
 function applyFilters() {
@@ -185,12 +241,25 @@ function getTotalPages() {
 
 function displayResults() {
     console.log('Displaying results. Filtered adventures:', filteredAdventures.length);
+    console.log('Items per page:', itemsPerPage);
+    console.log('Current page:', currentPage);
+    
+    if (!itemsPerPage) {
+        console.error('itemsPerPage is not set!');
+        updateItemsPerPage();
+        return;
+    }
+    
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = Math.min(startIndex + itemsPerPage, filteredAdventures.length);
     const currentPageData = filteredAdventures.slice(startIndex, endIndex);
     console.log('Current page data count:', currentPageData.length);
 
     const resultsDiv = document.getElementById('results');
+    if (!resultsDiv) {
+        console.error('Results div not found!');
+        return;
+    }
     resultsDiv.innerHTML = '';
 
     currentPageData.forEach(adventure => {

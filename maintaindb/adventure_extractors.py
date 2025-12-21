@@ -67,7 +67,7 @@ class AdventureHTMLExtractor:
         # --- Raw Tiers, APL, Level Range ---
         # These are still simple patterns that grab a single value/range string
         raw_data["tiers_raw"] = get_patt_first_matching_group(r"Tier(?:s)?\s*(?:[1-4]|one|two|three|four)(?:\s*-\s*(?:[1-4]|one|two|three|four))?", combined_text)
-        raw_data["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*(?:\(APL\))?\s*(\d+)", combined_text)
+        raw_data["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level|average party level)\s*(?:\(APL\))?\s*(?:of|is|:|-)?\s*(\d+)", combined_text)
         raw_data["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+(?:\s*,\s*[\d-]+)*)", combined_text) # Capture multiple ranges like "1-4, 5-10"
         
         # If level_range not captured, try ordinal style like '11th through 16th Level' or '1st-4th level'

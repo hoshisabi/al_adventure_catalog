@@ -616,8 +616,8 @@ def _extract_game_stats_from_text(text):
         "level_range_raw": None,
     }
     
-    # APL pattern: Handle variations like "APL 3", "APL: 3", "APL - 3", "APL (3)", "(APL) 3", "Average Party Level 3", etc.
-    stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level)\s*[:\-]?\s*(?:\(APL\))?\s*(\d+)", text)
+    # APL pattern: Handle variations like "APL 3", "APL: 3", "APL - 3", "APL (3)", "(APL) 3", "Average Party Level 3", "average party level (APL) of 2", etc.
+    stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level|average party level)\s*(?:\(APL\))?\s*(?:of|is|:|-)?\s*(\d+)", text)
     stats["tiers_raw"] = get_patt_first_matching_group(r"Tier ?([1-4])", text)
     stats["level_range_raw"] = get_patt_first_matching_group(r"(?i)Level(?:s)?\s*([\d-]+)", text)
     
