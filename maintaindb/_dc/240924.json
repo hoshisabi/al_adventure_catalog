@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "0",
+    "payWhatYouWant": false,
+    "price": 1.0,
     "product_id": "240924",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-PRIORY-02 Prison Pitfalls",
-    "url": "https://www.dmsguild.com/product/240924/CCCPRIORY02-Prison-Pitfalls"
+    "title": "Prison Pitfalls",
+    "url": "https://www.dmsguild.com/product/240924/?affiliate_id=171040"
 }
