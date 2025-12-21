@@ -1,6 +1,11 @@
 {
     "apl": 1,
-    "authors": [],
+    "authors": [
+        "Rory Dennison",
+        "Brand McMann",
+        "Doug Seipel",
+        "Ed Stoltman"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,8 +15,11 @@
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 10.0,
     "product_id": "369292",
+    "season": null,
     "tiers": 1,
-    "title": "DC-POA-Coulee21-Bundle Legends of the Icewind Dale Snipe Series and VTT Maps",
-    "url": "https://www.dmsguild.com/product/369292/DCPOACoulee21Bundle-Legends-of-the-Icewind-Dale-Snipe-Series-and-VTT-Maps?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
+    "title": "Legends of the Icewind Dale Snipe Series and VTT Maps",
+    "url": "https://www.dmsguild.com/product/369292/?affiliate_id=171040"
 }

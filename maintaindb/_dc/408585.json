@@ -6,16 +6,18 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-JSH-LIB-04-",
+    "code": "WBW-DC-JSH-LIB-04",
     "date_created": "20220831",
-    "full_title": "WBW-DC-JSH-LIB-04: Brightly Burn the Flames of Knowledge",
+    "full_title": "WBW-DC-JSH-LIB-04 Brightly Burn the Flames of Knowledge",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "408585",
     "season": "The Wild Beyond the Witchlight",
     "tiers": 2,
     "title": "Brightly Burn the Flames of Knowledge",
-    "url": "https://www.dmsguild.com/product/408585/?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/product/408585/?affiliate_id=171040",
+    "seed": "Create a Domain of Delight"
 }

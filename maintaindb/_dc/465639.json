@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "465639",
+    "season": "Spelljammer",
+    "seed": "Saint Argol's Fire",
     "tiers": 1,
     "title": "The Monster at the End of this Adventure",
     "url": "https://www.dmsguild.com/product/465639/?affiliate_id=171040"

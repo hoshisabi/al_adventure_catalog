@@ -6,14 +6,19 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-DUCKS-OS-02-ARE",
+    "code": "DC-POA-DUCKS-OS-02",
     "date_created": "20210101",
     "full_title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 1.0,
     "product_id": "341912",
+    "season": "Icewind Dale",
+    "suggestedPrice": 1.0,
     "tiers": 1,
-    "title": "DC-PoA-DUCKS-OS-02-Are you open-minded?",
-    "url": "https://www.dmsguild.com/product/341912/DCPoADUCKSOS02Are-you-openminded?filters=0_0_100057_0_0_0_0_0"
+    "title": "Are you open-minded?",
+    "url": "https://www.dmsguild.com/product/341912/?affiliate_id=171040",
+    "seed": "Burrowing Borrowers"
 }

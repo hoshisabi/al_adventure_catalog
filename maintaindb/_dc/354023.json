@@ -6,17 +6,18 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA",
+    "code": "DC-POA-AOT01-02",
     "date_created": "20210416",
-    "full_title": "DC-POA AOT01-02 Northern Democracy",
+    "full_title": "DC-POA-AOT01-02 Northern Democracy",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "price": 2.25,
+    "price": 3.0,
     "product_id": "354023",
     "season": "Icewind Dale",
     "tiers": 1,
-    "title": "AOT01-02 Northern Democracy",
+    "title": "Northern Democracy",
+    "seed": "A Dark Horse",
     "url": "https://www.dmsguild.com/product/354023/?affiliate_id=171040"
 }
