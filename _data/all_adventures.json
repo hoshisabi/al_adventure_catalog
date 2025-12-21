@@ -902,7 +902,7 @@
         "product_id": "170499",
         "season": "Rage of Demons",
         "tiers": 1,
-        "title": "DDEX3-06 No Foolish Matter",
+        "title": "No Foolish Matter",
         "url": "https://www.dmsguild.com/product/170499/?affiliate_id=171040"
     },
     {
@@ -924,7 +924,7 @@
         "product_id": "170501",
         "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX3-07 Herald of the Moon",
+        "title": "Herald of the Moon",
         "url": "https://www.dmsguild.com/product/170501/?affiliate_id=171040"
     },
     {
@@ -946,27 +946,29 @@
         "product_id": "170502",
         "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX3-08 The Malady of Elventree",
+        "title": "The Malady of Elventree",
         "url": "https://www.dmsguild.com/product/170502/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
-            "Wizards of the Coast"
+            "Cole Kronewitter"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "DDEX3-09",
         "date_created": "20160111",
-        "full_title": "DDEX3-09 The Waydown (5e)",
+        "full_title": "DDEX3-09 The Waydown",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "170504",
+        "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX3-09 The Waydown 5e",
+        "title": "The Waydown",
         "url": "https://www.dmsguild.com/product/170504/?affiliate_id=171040"
     },
     {
@@ -988,7 +990,7 @@
         "product_id": "170505",
         "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX3-11 The Quest for Sporedome",
+        "title": "The Quest for Sporedome",
         "url": "https://www.dmsguild.com/product/170505/?affiliate_id=171040"
     },
     {
@@ -1010,7 +1012,7 @@
         "product_id": "177567",
         "season": "Rage of Demons",
         "tiers": 1,
-        "title": "DDEX3-12 Hillsfar Reclaimed",
+        "title": "Hillsfar Reclaimed",
         "url": "https://www.dmsguild.com/product/177567/?affiliate_id=171040"
     },
     {
@@ -1032,7 +1034,7 @@
         "product_id": "177568",
         "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX03-13 Writhing in the Dark",
+        "title": "Writhing in the Dark",
         "url": "https://www.dmsguild.com/product/177568/?affiliate_id=171040"
     },
     {
@@ -1054,7 +1056,7 @@
         "product_id": "177569",
         "season": "Rage of Demons",
         "tiers": 1,
-        "title": "DDEX03-14 Death on the Wall",
+        "title": "Death on the Wall",
         "url": "https://www.dmsguild.com/product/177569/?affiliate_id=171040"
     },
     {
@@ -1076,13 +1078,12 @@
         "product_id": "177570",
         "season": "Rage of Demons",
         "tiers": 2,
-        "title": "DDEX03-15 Szith Morcane Unbound",
+        "title": "Szith Morcane Unbound",
         "url": "https://www.dmsguild.com/product/177570/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
-            "Wizards of the Coast",
             "Greg Marks"
         ],
         "campaigns": [
@@ -1090,15 +1091,17 @@
         ],
         "code": "DDEX03-16",
         "date_created": "20160322",
-        "full_title": "DDEX03-16 Assault on Maerimydra (5e)",
+        "full_title": "DDEX03-16 Assault on Maerimydra",
         "hours": "8",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "177572",
+        "season": "Rage of Demons",
         "tiers": 3,
-        "title": "DDEX03-16 Assault on Maerimydra 5e",
-        "url": "https://www.dmsguild.com/product/177572/DDEX0316-Assault-on-Maerimydra-5e&affiliate_id=171040"
+        "title": "Assault on Maerimydra",
+        "url": "https://www.dmsguild.com/product/177572/?affiliate_id=171040"
     },
     {
         "apl": null,
