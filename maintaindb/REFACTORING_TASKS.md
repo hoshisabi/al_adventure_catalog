@@ -26,6 +26,10 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Demonstrates the refactored code works correctly
 
 ## High Priority
+- [ ] Sort by Date does not appear to be working as expected.
+- [ ] Add display of date added
+- [ ] Add display of author, allow for searching by author
+
 
 ### Code Organization
 
