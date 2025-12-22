@@ -11,9 +11,12 @@
     "full_title": "CCC-SAC-02 Fun With Fey",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "259233",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-SAC-02 Fun With Fey",
-    "url": "https://www.dmsguild.com/product/259233/CCCSAC02-Fun-With-Fey?filters=45470_0_0_0_0_0_0_0"
+    "title": "Fun With Fey",
+    "url": "https://www.dmsguild.com/product/259233/?affiliate_id=171040"
 }
