@@ -29,6 +29,7 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 - [ ] Sort by Date does not appear to be working as expected.
 - [ ] Add display of date added
 - [ ] Add display of author, allow for searching by author
+- [ ] Add seasons for the non-FR campaigns
 
 
 ### Code Organization
