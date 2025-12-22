@@ -11,9 +11,12 @@
     "full_title": "FR-DC-SAC-07 Haunting in Gloomwood Cemetery",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "493743",
+    "season": null,
     "tiers": 1,
     "title": "Haunting in Gloomwood Cemetery",
-    "url": "https://www.dmsguild.com/product/493743/FRDCSAC07-Haunting-in-Gloomwood-Cemetery?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/493743/?affiliate_id=171040"
 }

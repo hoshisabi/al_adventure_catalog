@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Nick Stefanski"
     ],
@@ -11,9 +11,12 @@
     "full_title": "Mordenkainen's Memory Palace (PS-DC-MORD-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "494546",
+    "season": "Planescape",
     "tiers": 2,
     "title": "Mordenkainen's Memory Palace",
-    "url": "https://www.dmsguild.com/product/494546/Mordenkainens-Memory-Palace-PSDCMORD01?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/494546/?affiliate_id=171040"
 }

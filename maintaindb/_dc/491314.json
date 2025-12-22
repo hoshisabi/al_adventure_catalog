@@ -12,9 +12,12 @@
     "full_title": "FR-DC-RFJK-01 Punny You Ask",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "491314",
+    "season": null,
     "tiers": 1,
     "title": "Punny You Ask",
-    "url": "https://www.dmsguild.com/product/491314/FRDCRFJK01-Punny-You-Ask?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/491314/?affiliate_id=171040"
 }
