@@ -1113,10 +1113,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "513314",
+        "season": "Planescape",
         "tiers": 1,
         "title": "Stolen Hours",
-        "url": "https://www.dmsguild.com/product/513314/Stolen-Hours-PSDCHRS00?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/513314/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1131,11 +1134,14 @@
         "full_title": "PS-DC-DD-01 Shadows on the Wall",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "513396",
+        "season": "Planescape",
         "tiers": 1,
         "title": "Shadows on the Wall",
-        "url": "https://www.dmsguild.com/product/513396/PSDCDD01-Shadows-on-the-Wall?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/513396/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1150,11 +1156,14 @@
         "full_title": "PS-DC-ELEMENT-DEATH-03 Saturated Seas",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "513470",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Saturated Seas",
-        "url": "https://www.dmsguild.com/product/513470/PSDCELEMENTDEATH03-Saturated-Seas?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/513470/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1169,11 +1178,14 @@
         "full_title": "Melting Mechanus (PS-DC-MECH-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "514256",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Melting Mechanus",
-        "url": "https://www.dmsguild.com/product/514256/Melting-Mechanus-PSDCMECH01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/514256/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1231,11 +1243,14 @@
         "full_title": "PS-DC-PANDORA-JWEI-S2-02, Her Origin",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "520749",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Her Origin",
-        "url": "https://www.dmsguild.com/product/520749/PSDCPANDORAJWEIS202-Her-Origin?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/520749/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1271,11 +1286,14 @@
         "full_title": "PS-DC-NBDD-02 Ghost in the Hell",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "521331",
+        "season": "Planescape",
         "tiers": 3,
         "title": "Ghost in the Hell",
-        "url": "https://www.dmsguild.com/product/521331/PSDCNBDD02-Ghost-in-the-Hell?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/521331/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1311,11 +1329,14 @@
         "full_title": "PS-DC-TT-202 May the Cause be with You",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "20",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "524003",
+        "season": "Planescape",
         "tiers": 2,
         "title": "May the Cause be with You",
-        "url": "https://www.dmsguild.com/product/524003/PSDCTT202-May-the-Cause-be-with-You?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524003/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1327,14 +1348,17 @@
         ],
         "code": "PS-DC-PANDORA-JWEI-S2-03",
         "date_created": "20250529",
-        "full_title": "PS-DC-PANDORA-JWEI-S2-03, Elder Eldritch's Nest",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-03 Elder Eldritch's Nest",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "524390",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Elder Eldritch's Nest",
-        "url": "https://www.dmsguild.com/product/524390/PSDCPANDORAJWEIS203-Elder-Eldritchs-Nest?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524390/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1349,11 +1373,14 @@
         "full_title": "PS-DC-PANDORA-JWEI-S2-05, Fall the Eternal Night, Despair",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "524425",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Fall the Eternal Night, Despair",
-        "url": "https://www.dmsguild.com/product/524425/PSDCPANDORAJWEIS205-Fall-the-Eternal-Night-Despair?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524425/?affiliate_id=171040"
     },
     {
         "apl": 17,
@@ -1389,11 +1416,14 @@
         "full_title": "Unlimited Hours (PS-DC-HRS-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "525013",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Unlimited Hours",
-        "url": "https://www.dmsguild.com/product/525013/Unlimited-Hours-PSDCHRS01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/525013/?affiliate_id=171040"
     },
     {
         "apl": 8,

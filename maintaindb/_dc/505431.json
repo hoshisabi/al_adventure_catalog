@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "505431",
+    "season": null,
     "tiers": 1,
     "title": "The Show Must Go On",
-    "url": "https://www.dmsguild.com/product/505431/The-Show-Must-Go-On-FRDCTGT03?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/505431/?affiliate_id=171040"
 }
