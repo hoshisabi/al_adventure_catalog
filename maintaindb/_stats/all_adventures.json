@@ -29582,7 +29582,7 @@
         "product_id": "413092",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK2-03 What Dreams May Come",
+        "title": "What Dreams May Come",
         "url": "https://www.dmsguild.com/product/413092/?affiliate_id=171040"
     },
     {
@@ -29604,7 +29604,7 @@
         "product_id": "413094",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK2-02 Some Assembly Required",
+        "title": "Some Assembly Required",
         "url": "https://www.dmsguild.com/product/413094/?affiliate_id=171040"
     },
     {
@@ -30154,7 +30154,7 @@
         "product_id": "418769",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK2-01 The Thayan Connection",
+        "title": "The Thayan Connection",
         "url": "https://www.dmsguild.com/product/418769/?affiliate_id=171040"
     },
     {
@@ -44716,28 +44716,6 @@
         "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
     },
     {
-        "apl": 18,
-        "authors": [
-            "Johnny Smith"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "FR-DC-RDP-01",
-        "date_created": "20251007",
-        "full_title": "FR-DC-RDP-01 Vault of the Drow Risen & FR-DC-RDP-02 The Great Fane of Lolth",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "17-20",
-        "needs_review": true,
-        "price": 4.95,
-        "product_id": "539689",
-        "season": null,
-        "tiers": 4,
-        "title": "Vault of the Drow Risen &  The Great Fane of Lolth",
-        "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
-    },
-    {
         "apl": 8,
         "authors": [],
         "campaigns": [
@@ -45340,16 +45318,38 @@
         ],
         "code": "PS-DC-RDP-03",
         "date_created": "20251130",
-        "full_title": "PS-DC-RDP-03 The Upper Demonweb & PS-DC-RDP-04 The Lower Demonweb",
+        "full_title": "PS-DC-RDP-03 The Upper Demonweb",
         "hours": "2",
         "is_adventure": true,
         "level_range": "17-20",
         "payWhatYouWant": false,
         "price": 4.95,
-        "product_id": "547771",
+        "product_id": "547771-03",
         "season": "Planescape",
         "tiers": 4,
-        "title": "The Upper Demonweb & The Lower Demonweb",
+        "title": "The Upper Demonweb",
+        "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-RDP-04",
+        "date_created": "20251130",
+        "full_title": "PS-DC-RDP-04 The Lower Demonweb",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "547771-04",
+        "season": "Planescape",
+        "tiers": 4,
+        "title": "The Lower Demonweb",
         "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"
     },
     {
