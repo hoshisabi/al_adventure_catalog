@@ -11,9 +11,12 @@
     "full_title": "FR-DC-WCAG02-01 Mayhem in the Squallrider",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "02",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "511959",
+    "season": null,
     "tiers": 1,
     "title": "Mayhem in the Squallrider",
-    "url": "https://www.dmsguild.com/product/511959/FRDCWCAG0201-Mayhem-in-the-Squallrider?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/511959/?affiliate_id=171040"
 }

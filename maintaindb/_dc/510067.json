@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "510067",
+    "season": null,
     "tiers": 2,
     "title": "Forces of Hail",
-    "url": "https://www.dmsguild.com/product/510067/FRDCNMBHUNT01B-Forces-of-Hail?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/510067/?affiliate_id=171040"
 }

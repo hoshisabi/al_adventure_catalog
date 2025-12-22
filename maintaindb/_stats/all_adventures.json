@@ -19013,11 +19013,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "356501",
+        "season": "Icewind Dale",
         "seed": "Do You Know the Way to Lonely Wood?",
         "tiers": 1,
-        "title": "The Grand Estate DC-POA-KW-01",
-        "url": "https://www.dmsguild.com/product/356501/The-Grand-Estate-DCPOAKW01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Grand Estate",
+        "url": "https://www.dmsguild.com/product/356501/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -23572,9 +23575,10 @@
         "code": "WBW-DC-KW-01",
         "date_created": "20220314",
         "full_title": "WBW-DC-KW-01 Pinepetal's Petty Pilfering",
-        "hours": "Four-Hour",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "390247",
         "season": "The Wild Beyond the Witchlight",
@@ -26517,9 +26521,10 @@
         "code": "WBW-DC-NUKE-01",
         "date_created": "20220829",
         "full_title": "WBW-DC-NUKE-01 Magically Delicious, Possibly Rotten",
-        "hours": "Two-Hour",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "408285",
         "season": "The Wild Beyond the Witchlight",
@@ -27389,9 +27394,10 @@
         "code": "WBW-DC-TREY-01",
         "date_created": "20220901",
         "full_title": "WBW-DC-TREY-01 Mistress Taken!",
-        "hours": "Four-Hour",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "408565",
         "season": "The Wild Beyond the Witchlight",
@@ -40086,10 +40092,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "513314",
+        "season": "Planescape",
         "tiers": 1,
         "title": "Stolen Hours",
-        "url": "https://www.dmsguild.com/product/513314/Stolen-Hours-PSDCHRS00?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/513314/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40104,11 +40113,14 @@
         "full_title": "PS-DC-DD-01 Shadows on the Wall",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "513396",
+        "season": "Planescape",
         "tiers": 1,
         "title": "Shadows on the Wall",
-        "url": "https://www.dmsguild.com/product/513396/PSDCDD01-Shadows-on-the-Wall?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/513396/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -40123,11 +40135,14 @@
         "full_title": "PS-DC-ELEMENT-DEATH-03 Saturated Seas",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "513470",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Saturated Seas",
-        "url": "https://www.dmsguild.com/product/513470/PSDCELEMENTDEATH03-Saturated-Seas?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/513470/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -40143,10 +40158,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "514097",
+        "season": null,
         "tiers": 2,
         "title": "Crazy Lich Thayans",
-        "url": "https://www.dmsguild.com/product/514097/Crazy-Lich-Thayans-FRDCTHAY01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/514097/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -40161,11 +40179,14 @@
         "full_title": "Melting Mechanus (PS-DC-MECH-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "514256",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Melting Mechanus",
-        "url": "https://www.dmsguild.com/product/514256/Melting-Mechanus-PSDCMECH01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/514256/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -40176,15 +40197,18 @@
             "Forgotten Realms"
         ],
         "code": "FR-DC-HAN-01-01",
-        "date_created": "20250306",
+        "date_created": "20250307",
         "full_title": "Harvest of the Withered Wilds (FR-DC-HAN-01-01)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "514594",
+        "season": null,
         "tiers": 2,
         "title": "Harvest of the Withered Wilds",
-        "url": "https://www.dmsguild.com/product/514594/Harvest-of-the-Withered-Wilds-FRDCHAN0101?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/514594/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -40481,11 +40505,14 @@
         "full_title": "How to Seduce a Thayan in Tendays (FR-DC-THAY-02)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "516348",
+        "season": null,
         "tiers": 2,
         "title": "How to Seduce a Thayan in Tendays",
-        "url": "https://www.dmsguild.com/product/516348/How-to-Seduce-a-Thayan-in-Tendays-FRDCTHAY02?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/516348/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -40522,11 +40549,14 @@
         "full_title": "FR-DC-WCAG03-01 How to Get Ahead in Chult",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "03",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "516917",
+        "season": null,
         "tiers": 1,
         "title": "How to Get Ahead in Chult",
-        "url": "https://www.dmsguild.com/product/516917/FRDCWCAG0301-How-to-Get-Ahead-in-Chult?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/516917/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40541,11 +40571,14 @@
         "full_title": "FR-DC-WCAG03-02 The Backside of Water",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "03",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "516918",
+        "season": null,
         "tiers": 1,
         "title": "The Backside of Water",
-        "url": "https://www.dmsguild.com/product/516918/FRDCWCAG0302-The-Backside-of-Water?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/516918/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40561,11 +40594,14 @@
         "full_title": "FR-DC-WCAG03-03 Birds of Paradise",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "03",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "516919",
+        "season": null,
         "tiers": 1,
         "title": "Birds of Paradise",
-        "url": "https://www.dmsguild.com/product/516919/FRDCWCAG0303-Birds-of-Paradise?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/516919/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40580,11 +40616,14 @@
         "full_title": "FR-DC-WCAG03-04 The Eyes of Shaktari",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "03",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "516920",
+        "season": null,
         "tiers": 1,
         "title": "The Eyes of Shaktari",
-        "url": "https://www.dmsguild.com/product/516920/FRDCWCAG0304-The-Eyes-of-Shaktari?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/516920/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -40708,11 +40747,14 @@
         "full_title": "FR-DC-TT-301 Seelie, Rabbit, Tricks are for Fools",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "30",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "519547",
+        "season": null,
         "tiers": 3,
         "title": "Seelie, Rabbit, Tricks are for Fools",
-        "url": "https://www.dmsguild.com/product/519547/FRDCTT301-Seelie-Rabbit-Tricks-are-for-Fools?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/519547/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40728,10 +40770,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "519552",
+        "season": null,
         "tiers": 1,
         "title": "Tavern Rats",
-        "url": "https://www.dmsguild.com/product/519552/Tavern-Rats-FRDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/519552/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40747,10 +40792,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "519554",
+        "season": null,
         "tiers": 1,
         "title": "Tavern Rats",
-        "url": "https://www.dmsguild.com/product/519554/Tavern-Rats-EBDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/519554/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -40786,10 +40834,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "519560",
+        "season": null,
         "tiers": 1,
         "title": "Tavern Rats",
-        "url": "https://www.dmsguild.com/product/519560/Tavern-Rats-RVDCCLASSIC01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/519560/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -40826,11 +40877,14 @@
         "full_title": "The 400 Year Old Thayan (FR-DC-THAY-03)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "40",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "520319",
+        "season": null,
         "tiers": 2,
         "title": "The 400 Year Old Thayan",
-        "url": "https://www.dmsguild.com/product/520319/The-400-Year-Old-Thayan-FRDCTHAY03?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/520319/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -40845,11 +40899,14 @@
         "full_title": "PS-DC-PANDORA-JWEI-S2-02, Her Origin",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "520749",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Her Origin",
-        "url": "https://www.dmsguild.com/product/520749/PSDCPANDORAJWEIS202-Her-Origin?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/520749/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -40928,11 +40985,14 @@
         "full_title": "PS-DC-NBDD-02 Ghost in the Hell",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "521331",
+        "season": "Planescape",
         "tiers": 3,
         "title": "Ghost in the Hell",
-        "url": "https://www.dmsguild.com/product/521331/PSDCNBDD02-Ghost-in-the-Hell?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/521331/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -41112,16 +41172,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-FET01_VATRAS",
+        "code": "FR-DC-FET-01",
         "date_created": "20250526",
-        "full_title": "FR-DC-FET01_Vatras Besieged",
+        "full_title": "FR-DC-FET01 Vatras Besieged",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "523953",
+        "season": null,
         "tiers": 2,
-        "title": "Besieged",
-        "url": "https://www.dmsguild.com/product/523953/FRDCFET01Vatras-Besieged?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Vatras Besieged",
+        "url": "https://www.dmsguild.com/product/523953/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -41136,11 +41199,14 @@
         "full_title": "PS-DC-TT-202 May the Cause be with You",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "20",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "524003",
+        "season": "Planescape",
         "tiers": 2,
         "title": "May the Cause be with You",
-        "url": "https://www.dmsguild.com/product/524003/PSDCTT202-May-the-Cause-be-with-You?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524003/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -41152,14 +41218,17 @@
         ],
         "code": "PS-DC-PANDORA-JWEI-S2-03",
         "date_created": "20250529",
-        "full_title": "PS-DC-PANDORA-JWEI-S2-03, Elder Eldritch's Nest",
+        "full_title": "PS-DC-PANDORA-JWEI-S2-03 Elder Eldritch's Nest",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "524390",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Elder Eldritch's Nest",
-        "url": "https://www.dmsguild.com/product/524390/PSDCPANDORAJWEIS203-Elder-Eldritchs-Nest?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524390/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -41174,11 +41243,14 @@
         "full_title": "FR-DC-PANDORA-JWEI-S2-04, Echoes of the End",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "524422",
+        "season": null,
         "tiers": 4,
         "title": "Echoes of the End",
-        "url": "https://www.dmsguild.com/product/524422/FRDCPANDORAJWEIS204-Echoes-of-the-End?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524422/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -41193,11 +41265,14 @@
         "full_title": "PS-DC-PANDORA-JWEI-S2-05, Fall the Eternal Night, Despair",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "524425",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Fall the Eternal Night, Despair",
-        "url": "https://www.dmsguild.com/product/524425/PSDCPANDORAJWEIS205-Fall-the-Eternal-Night-Despair?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524425/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -41212,11 +41287,14 @@
         "full_title": "FR-DC-PANDORA-JWEI-S2-06, Hope",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 12.99,
         "product_id": "524429",
+        "season": null,
         "tiers": 4,
         "title": "Hope",
-        "url": "https://www.dmsguild.com/product/524429/FRDCPANDORAJWEIS206-Hope?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524429/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -41231,11 +41309,14 @@
         "full_title": "FR-DC-PANDORA-JWEI-S2-07, Moonshire",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "524454",
+        "season": null,
         "tiers": 4,
         "title": "Moonshire",
-        "url": "https://www.dmsguild.com/product/524454/FRDCPANDORAJWEIS207-Moonshire?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524454/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -41250,11 +41331,14 @@
         "full_title": "FR-DC-DIGM-01-03 Sweet Ex Machina",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "524514",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Ex Machina",
-        "url": "https://www.dmsguild.com/product/524514/FRDCDIGM0103-Sweet-Ex-Machina?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/524514/?affiliate_id=171040"
     },
     {
         "apl": 17,
@@ -41335,11 +41419,14 @@
         "full_title": "Unlimited Hours (PS-DC-HRS-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "525013",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Unlimited Hours",
-        "url": "https://www.dmsguild.com/product/525013/Unlimited-Hours-PSDCHRS01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/525013/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -41350,15 +41437,19 @@
             "Forgotten Realms"
         ],
         "code": "FR-DC-KKON-01",
-        "date_created": "20250604",
+        "date_created": "20250605",
         "full_title": "FR-DC-KKON-01 Kontraption Kon",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": true,
+        "price": 3.0,
         "product_id": "525129",
+        "season": null,
+        "suggestedPrice": 3.0,
         "tiers": 1,
         "title": "Kontraption Kon",
-        "url": "https://www.dmsguild.com/product/525129/FRDCKKON01-Kontraption-Kon?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/525129/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -41373,11 +41464,14 @@
         "full_title": "FR-DC-VIN-01 Welcome Home, Adventurer!",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.99,
         "product_id": "525336",
+        "season": null,
         "tiers": 2,
         "title": "Welcome Home, Adventurer!",
-        "url": "https://www.dmsguild.com/product/525336/FRDCVIN01-Welcome-Home-Adventurer?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/525336/?affiliate_id=171040"
     },
     {
         "apl": 1,

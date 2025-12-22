@@ -11,9 +11,12 @@
     "full_title": "FR-DC-WCAG02-05 Shake 'N' Bake",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "02",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "511968",
+    "season": null,
     "tiers": 2,
     "title": "Shake 'N' Bake",
-    "url": "https://www.dmsguild.com/product/511968/FRDCWCAG0205-Shake-N-Bake?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/511968/?affiliate_id=171040"
 }

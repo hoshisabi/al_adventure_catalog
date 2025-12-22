@@ -11,9 +11,12 @@
     "full_title": "FR-DC-WCAG02-02 Murder All the Way Down",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "02",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "511963",
+    "season": null,
     "tiers": 1,
     "title": "Murder All the Way Down",
-    "url": "https://www.dmsguild.com/product/511963/FRDCWCAG0202-Murder-All-the-Way-Down?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/511963/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "FR-DC-VMT-01 The Lord of the Reindeer",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.95,
     "product_id": "506244",
+    "season": null,
     "tiers": 2,
     "title": "The Lord of the Reindeer",
-    "url": "https://www.dmsguild.com/product/506244/FRDCVMT01-The-Lord-of-the-Reindeer?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/506244/?affiliate_id=171040"
 }
