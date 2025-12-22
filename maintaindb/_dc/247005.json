@@ -11,9 +11,12 @@
     "full_title": "CCC-AMER-01 Asleep and Awake",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "247005",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-AMER-01 Asleep and Awake",
-    "url": "https://www.dmsguild.com/product/247005/CCCAMER01-Asleep-and-Awake?filters=45470_0_0_0_0_0_0_0"
+    "title": "Asleep and Awake",
+    "url": "https://www.dmsguild.com/product/247005/?affiliate_id=171040"
 }

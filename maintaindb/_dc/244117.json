@@ -7,16 +7,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-SALT",
+    "code": "CCC-SALT-02-01",
     "date_created": "20180609",
-    "full_title": "CCC-SALT 02-01 Mulmaster\u2019s Meddling\u2019s",
+    "full_title": "CCC-SALT-02-01 Mulmaster's Meddling's",
     "hours": "4",
     "is_adventure": true,
     "level_range": "01",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "244117",
     "season": null,
     "tiers": 1,
-    "title": "CCC-SALT 02-01 Mulmaster\u2019s Meddling\u2019s",
+    "title": "Mulmaster's Meddling's",
     "url": "https://www.dmsguild.com/product/244117/?affiliate_id=171040"
 }

@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "240487",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-RPR-01 Eyes of Blood",
-    "url": "https://www.dmsguild.com/product/240487/CCCRPR01-Eyes-of-Blood?filters=45470_0_0_0_0_0_0_0"
+    "title": "Eyes of Blood",
+    "url": "https://www.dmsguild.com/product/240487/?affiliate_id=171040"
 }

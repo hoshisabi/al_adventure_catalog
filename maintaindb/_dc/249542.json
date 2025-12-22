@@ -13,9 +13,12 @@
     "full_title": "CCC-GLIP-01-01 Glip Dak",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "249542",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-GLIP-01-01 Glip Dak",
-    "url": "https://www.dmsguild.com/product/249542/CCCGLIP0101-Glip-Dak?filters=45470_0_0_0_0_0_0_0"
+    "title": "Glip Dak",
+    "url": "https://www.dmsguild.com/product/249542/?affiliate_id=171040"
 }
