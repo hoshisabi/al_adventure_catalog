@@ -11,9 +11,12 @@
     "full_title": "CCC-SFBay-02-03 The Risen Minotaur Lord",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "250386",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-SFBay-02-03 The Risen Minotaur Lord",
-    "url": "https://www.dmsguild.com/product/250386/CCCSFBay0203-The-Risen-Minotaur-Lord?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Risen Minotaur Lord",
+    "url": "https://www.dmsguild.com/product/250386/?affiliate_id=171040"
 }
