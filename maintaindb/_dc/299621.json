@@ -9,11 +9,14 @@
     "code": "CCC-SAF01-01",
     "date_created": "20200110",
     "full_title": "CCC-SAF01-01 Between Garrock and a Hard Place",
-    "hours": "4",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": "01",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "299621",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-SAF01-01 Between Garrock and a Hard Place",
-    "url": "https://www.dmsguild.com/product/299621/CCCSAF0101-Between-Garrock-and-a-Hard-Place?filters=45470_0_0_0_0_0_0_0"
+    "title": "Between Garrock and a Hard Place",
+    "url": "https://www.dmsguild.com/product/299621/?affiliate_id=171040"
 }
