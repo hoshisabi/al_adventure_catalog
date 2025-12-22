@@ -11,9 +11,12 @@
     "full_title": "PS-DC-DD-01 Shadows on the Wall",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "513396",
+    "season": "Planescape",
     "tiers": 1,
     "title": "Shadows on the Wall",
-    "url": "https://www.dmsguild.com/product/513396/PSDCDD01-Shadows-on-the-Wall?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/513396/?affiliate_id=171040"
 }

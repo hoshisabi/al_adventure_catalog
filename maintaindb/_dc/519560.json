@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "519560",
+    "season": null,
     "tiers": 1,
     "title": "Tavern Rats",
-    "url": "https://www.dmsguild.com/product/519560/Tavern-Rats-RVDCCLASSIC01?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/519560/?affiliate_id=171040"
 }

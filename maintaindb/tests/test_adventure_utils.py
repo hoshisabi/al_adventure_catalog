@@ -133,11 +133,41 @@ def test_non_ccc_codes_still_work():
         ("DDAL5-01", "DDAL05-01"),  # Should normalize to zero-padded
         ("WBW-DC-STRAT-TALES-01", "WBW-DC-STRAT-TALES-01"),
         ("SJ-DC-01", "SJ-DC-01"),
+        # Test DC codes with 3-digit numbers (the bug fix)
+        ("PS-DC-TT-202 May the Cause be with You", "PS-DC-TT-202"),
+        ("FR-DC-TT-201 Return to Mountain's Toe Gold Mine", "FR-DC-TT-201"),
+        ("FR-DC-TT-301 Seelie, Rabbit, Tricks are for Fools", "FR-DC-TT-301"),
+        ("FR-DC-TT-101 Water has no Shape", "FR-DC-TT-101"),
+        ("SJ-DC-HBI-001", "SJ-DC-HBI-001"),
+        ("RV-DC-HBI-003", "RV-DC-HBI-003"),
     ]
     
     for title, expected_code in test_cases:
         code, campaigns = get_adventure_code_and_campaigns(title)
         assert code == expected_code, f"Expected {expected_code}, got {code} for title: {title}"
+
+
+def test_all_bug_fixes_covered():
+    """Test that all the reported bug fixes are working correctly."""
+    # Bug fix 1: CCC codes with longer series names (e.g., KUMORI)
+    code, _ = get_adventure_code_and_campaigns("CCC-KUMORI-01-02 Wretches")
+    assert code == "CCC-KUMORI-01-02", f"Failed: got {code}, expected CCC-KUMORI-01-02"
+    
+    # Bug fix 2: CCC codes without dash after CCC (e.g., CCCTHENT01-03)
+    code, _ = get_adventure_code_and_campaigns("CCCTHENT01-03 The Dreaming Relic")
+    assert code == "CCC-THENT01-03", f"Failed: got {code}, expected CCC-THENT01-03"
+    
+    # Bug fix 3: CCC codes with alphanumeric suffixes (e.g., CCC-PRETZ-PLA02)
+    code, _ = get_adventure_code_and_campaigns("CCC-PRETZ-PLA02 A Mine of Their Own")
+    assert code == "CCC-PRETZ-PLA02", f"Failed: got {code}, expected CCC-PRETZ-PLA02"
+    
+    # Bug fix 4: CCC codes with 3-digit numbers (e.g., CCC-BWM-005)
+    code, _ = get_adventure_code_and_campaigns("CCC-BWM-005 Chasing Madness")
+    assert code == "CCC-BWM-005", f"Failed: got {code}, expected CCC-BWM-005"
+    
+    # Bug fix 5: DC codes with 3-digit numbers (e.g., PS-DC-TT-202)
+    code, _ = get_adventure_code_and_campaigns("PS-DC-TT-202 May the Cause be with You")
+    assert code == "PS-DC-TT-202", f"Failed: got {code}, expected PS-DC-TT-202"
 
 
 if __name__ == '__main__':
@@ -148,5 +178,6 @@ if __name__ == '__main__':
     test_ccc_kumori_specific()
     test_ccc_codes_case_insensitive()
     test_non_ccc_codes_still_work()
+    test_all_bug_fixes_covered()
     print("All tests passed!")
 
