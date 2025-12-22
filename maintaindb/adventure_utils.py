@@ -174,6 +174,7 @@ def normalize_ddal_ddex_code(code: str) -> str:
     - DDAL5-01 -> DDAL05-01
     - DDEX03 -> DDEX03 (unchanged)
     - DDAL05-01 -> DDAL05-01 (unchanged)
+    - DDAL10-01 -> DDAL10-01 (unchanged, season 10+ should not be zero-padded)
     """
     if not code:
         return code
@@ -181,9 +182,10 @@ def normalize_ddal_ddex_code(code: str) -> str:
     code_upper = code.upper()
     # Check if code starts with DDEX or DDAL
     if code_upper.startswith('DDEX') or code_upper.startswith('DDAL'):
-        # Match pattern: DDEX/DDAL followed by a single digit (1-9), then optional rest
-        # e.g., DDEX3, DDAL5-01, DDEX3-12
-        match = re.match(r'^(DDEX|DDAL)([1-9])(.*)$', code_upper)
+        # Match pattern: DDEX/DDAL followed by a single digit (1-9), then dash or end
+        # This ensures we only match single-digit seasons, not two-digit seasons like 10, 11, etc.
+        # e.g., DDEX3, DDAL5-01, DDEX3-12 (but NOT DDAL10-01)
+        match = re.match(r'^(DDEX|DDAL)([1-9])(?![0-9])(.*)$', code_upper)
         if match:
             prefix = match.group(1)  # DDEX or DDAL
             single_digit = match.group(2)  # single digit 1-9
