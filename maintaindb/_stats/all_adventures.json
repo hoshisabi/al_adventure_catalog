@@ -43219,7 +43219,9 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Richard Bellotti"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -43229,12 +43231,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "528610",
         "season": null,
         "tiers": 2,
         "title": "Enter the Arena",
-        "url": "https://www.dmsguild.com/product/528610/FRDCWE01-Enter-the-Arena?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/528610/?affiliate_id=171040"
     },
     {
         "apl": 10,
@@ -43303,7 +43306,9 @@
     },
     {
         "apl": 10,
-        "authors": [],
+        "authors": [
+            "Von Ryan Maicle"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -43313,12 +43318,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "530052",
         "season": null,
         "tiers": 2,
         "title": "The Pale Steed",
-        "url": "https://www.dmsguild.com/product/530052/FRDCREINVR01-The-Pale-Steed?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/530052/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -43362,25 +43368,6 @@
         "tiers": 2,
         "title": "Unremembered Things",
         "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "FR-DC-EXT-HV",
-        "date_created": "20250721",
-        "full_title": "Hive of the Vilified",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 0.0,
-        "product_id": "530421",
-        "season": null,
-        "tiers": 1,
-        "title": "Hive of the Vilified",
-        "url": "https://www.dmsguild.com/product/530421/Hive-of-the-Vilified?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,
@@ -43444,23 +43431,6 @@
         "tiers": 4,
         "title": "The Bonebind Curse",
         "url": "https://www.dmsguild.com/product/530595/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [],
-        "campaigns": [],
-        "code": "FR-DC-F&ADDM-GW5",
-        "date_created": "20250723",
-        "full_title": "The Genie's Wishes, Chap. 5: A Terminal Ambition",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "price": 4.95,
-        "product_id": "530633",
-        "season": null,
-        "tiers": 2,
-        "title": "The Genie's Wishes, Chap. 5 A Terminal Ambition",
-        "url": "https://www.dmsguild.com/product/530633/The-Genies-Wishes-Chap-5-A-Terminal-Ambition?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 8,
