@@ -1,21 +1,21 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Christopher Perkins",
         "Jeremy Crawford"
     ],
     "campaigns": [],
-    "code": "Tortle Package",
+    "code": "DDHC-TOA-2",
     "date_created": "20170915",
-    "full_title": "Tortle Package",
-    "hours": null,
+    "full_title": "Tortle Package (DDHC-TOA-2)",
+    "hours": 4,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "221716",
-    "season": null,
-    "tiers": null,
+    "season": "Tomb of Annihilation",
+    "tiers": 1,
     "title": "Tortle Package",
     "url": "https://www.dmsguild.com/product/221716/?affiliate_id=171040"
 }
