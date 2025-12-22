@@ -1,6 +1,8 @@
 {
     "apl": 8,
-    "authors": [],
+    "authors": [
+        "Richard Bellotti"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,10 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "528610",
     "season": null,
     "tiers": 2,
     "title": "Enter the Arena",
-    "url": "https://www.dmsguild.com/product/528610/FRDCWE01-Enter-the-Arena?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/528610/?affiliate_id=171040"
 }
