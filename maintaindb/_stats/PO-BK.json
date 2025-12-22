@@ -710,5 +710,119 @@
         "tiers": 2,
         "title": "Paragons of Wrath",
         "url": "https://www.dmsguild.com/product/548076/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Joe Alfano",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-05-02",
+        "date_created": "20251208",
+        "full_title": "PO-BK-05-02 The Anchorite",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "548700",
+        "season": null,
+        "tiers": 2,
+        "title": "The Anchorite",
+        "url": "https://www.dmsguild.com/product/548700/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Mark Mapes",
+            "Marcello De Velazquez",
+            "Gamehole Con"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-05-03",
+        "date_created": "20251208",
+        "full_title": "PO-BK-05-03 By Land and Sea",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "548701",
+        "season": null,
+        "tiers": 2,
+        "title": "By Land and Sea",
+        "url": "https://www.dmsguild.com/product/548701/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "David Sklenicka"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-05-04",
+        "date_created": "20251208",
+        "full_title": "PO-BK-05-04 Dark Ascension",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "548702",
+        "season": null,
+        "tiers": 3,
+        "title": "Dark Ascension",
+        "url": "https://www.dmsguild.com/product/548702/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Jeremy Johnston",
+            "Angelo Corsino"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-05-05",
+        "date_created": "20251208",
+        "full_title": "PO-BK-05-05 Descent Into Dragonmount",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "548704",
+        "season": null,
+        "tiers": 3,
+        "title": "Descent Into Dragonmount",
+        "url": "https://www.dmsguild.com/product/548704/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Andrew Bishkinskyi"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PO-BK-5-06",
+        "date_created": "20251208",
+        "full_title": "PO-BK-5-06 Death's Door",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "548705",
+        "season": null,
+        "tiers": 3,
+        "title": "Death's Door",
+        "url": "https://www.dmsguild.com/product/548705/?affiliate_id=171040"
     }
 ]
