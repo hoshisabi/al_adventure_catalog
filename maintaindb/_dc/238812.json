@@ -1,5 +1,5 @@
 {
-    "apl": 1,
+    "apl": 3,
     "authors": [
         "MOGC"
     ],
@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "238812",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-MACE01-01 The Blight of Geoffrey",
-    "url": "https://www.dmsguild.com/product/238812/CCCMACE0101-The-Blight-of-Geoffrey?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Blight of Geoffrey",
+    "url": "https://www.dmsguild.com/product/238812/?affiliate_id=171040"
 }
