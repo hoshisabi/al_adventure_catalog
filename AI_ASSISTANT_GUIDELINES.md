@@ -133,5 +133,6 @@ Get-ChildItem maintaindb/_dc/*.json | Select-Object -First 5
 
 ---
 
-**Remember**: This is a Windows PowerShell environment. When writing or suggesting commands, think "PowerShell" not "bash" or "Unix shell".
+**Remember**: This is a Windows PowerShell environment. When writing or suggesting commands, think "PowerShell" 
+not "bash" or "Unix shell".
 
