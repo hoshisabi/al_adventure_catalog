@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "247513",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-BMG-33 PHLAN 3-3 Spinning on the Edge",
-    "url": "https://www.dmsguild.com/product/247513/CCCBMG33-PHLAN-33-Spinning-on-the-Edge?filters=45470_0_0_0_0_0_0_0"
+    "title": "PHLAN 3-3 Spinning on the Edge",
+    "url": "https://www.dmsguild.com/product/247513/?affiliate_id=171040"
 }

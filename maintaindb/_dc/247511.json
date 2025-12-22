@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "247511",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-BMG-31 PHLAN 3-1 The Conventicle of Chaos",
-    "url": "https://www.dmsguild.com/product/247511/CCCBMG31-PHLAN-31-The-Conventicle-of-Chaos?filters=45470_0_0_0_0_0_0_0"
+    "title": "PHLAN 3-1 The Conventicle of Chaos",
+    "url": "https://www.dmsguild.com/product/247511/?affiliate_id=171040"
 }
