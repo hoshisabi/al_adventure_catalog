@@ -1,6 +1,9 @@
 {
     "apl": 4,
     "authors": [
+        "Will Doyle",
+        "James Introcaso",
+        "Shawn Merwin",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +15,11 @@
     "hours": "3",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 4.19,
+    "payWhatYouWant": false,
+    "price": 5.99,
     "product_id": "308553",
     "season": null,
     "tiers": 1,
-    "title": "EB-EP-01 The Iron Titan",
+    "title": "The Iron Titan",
     "url": "https://www.dmsguild.com/product/308553/?affiliate_id=171040"
 }

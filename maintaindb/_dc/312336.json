@@ -1,6 +1,7 @@
 {
     "apl": 5,
     "authors": [
+        "Bianca Bickford",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "312336",
     "season": null,
     "tiers": 2,
-    "title": "EB-05 A Century of Ashes",
+    "title": "A Century of Ashes",
     "url": "https://www.dmsguild.com/product/312336/?affiliate_id=171040"
 }

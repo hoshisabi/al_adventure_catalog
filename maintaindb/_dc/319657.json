@@ -1,6 +1,7 @@
 {
     "apl": 7,
     "authors": [
+        "Stacey Allan",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "319657",
     "season": null,
     "tiers": 2,
-    "title": "EB-07 Song of the Sky",
+    "title": "Song of the Sky",
     "url": "https://www.dmsguild.com/product/319657/?affiliate_id=171040"
 }

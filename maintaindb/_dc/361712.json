@@ -1,6 +1,8 @@
 {
     "apl": 16,
     "authors": [
+        "Will Doyle",
+        "Tony Porteous",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +14,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
-    "price": 6.27,
+    "payWhatYouWant": false,
+    "price": 8.95,
     "product_id": "361712",
     "season": null,
     "tiers": 3,
-    "title": "EB-EP-03 The Rising City",
+    "title": "The Rising City",
     "url": "https://www.dmsguild.com/product/361712/?affiliate_id=171040"
 }

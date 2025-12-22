@@ -1,6 +1,7 @@
 {
     "apl": 19,
     "authors": [
+        "Andy Dempz",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "17-20",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "372377",
     "season": null,
     "tiers": 4,
-    "title": "EB-19 Back to the Mud",
+    "title": "Back to the Mud",
     "url": "https://www.dmsguild.com/product/372377/?affiliate_id=171040"
 }

@@ -1,6 +1,7 @@
 {
     "apl": 17,
     "authors": [
+        "Richard Green",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "17-20",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "363337",
     "season": null,
     "tiers": 4,
-    "title": "EB-17 The Final Tribute",
+    "title": "The Final Tribute",
     "url": "https://www.dmsguild.com/product/363337/?affiliate_id=171040"
 }

@@ -1,6 +1,7 @@
 {
     "apl": 12,
     "authors": [
+        "Shawn Merwin",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "342451",
     "season": null,
     "tiers": 3,
-    "title": "EB-12 The Waiting Game",
+    "title": "The Waiting Game",
     "url": "https://www.dmsguild.com/product/342451/?affiliate_id=171040"
 }
