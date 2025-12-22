@@ -7,11 +7,11 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-ZIEGE_02",
+    "code": "CCC-ZIEGE-02",
     "date_created": "20181031",
-    "full_title": "CCC-Ziege_02 Storm of the Blood Moon",
+    "full_title": "CCC-Ziege-02 Storm of the Blood Moon",
     "hours": "4",
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

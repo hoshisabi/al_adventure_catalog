@@ -1,25 +1,25 @@
 {
     "tier": {
-        "Tier 1": 798,
-        "Tier 2": 815,
-        "Tier 3": 328,
+        "Tier 1": 806,
+        "Tier 2": 822,
+        "Tier 3": 329,
         "Tier 4": 78,
-        "Unknown": 7
+        "Unknown": 13
     },
     "duration": {
         "1 Hours": 21,
-        "2 Hours": 577,
-        "All Others": 197,
-        "4 Hours": 1386,
+        "2 Hours": 578,
+        "All Others": 201,
+        "4 Hours": 1398,
         "8 Hours": 11,
-        "Unknown": 111,
+        "Unknown": 118,
         "6 Hours": 49
     },
     "campaign": {
-        "Forgotten Realms": 1895,
+        "Forgotten Realms": 1906,
         "Ravenloft": 49,
-        "Unknown": 10,
-        "Eberron": 67,
+        "Unknown": 20,
+        "Eberron": 68,
         "Dragonlance": 20
     },
     "season": {
@@ -27,7 +27,7 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1399,
+        "Unknown": 1418,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
@@ -35,7 +35,7 @@
         "Avernus Rising": 20,
         "Plague of Ancients": 13,
         "Icewind Dale": 143,
-        "The Wild Beyond the Witchlight": 142,
+        "The Wild Beyond the Witchlight": 145,
         "Spelljammer": 115,
         "Planescape": 72
     },
@@ -67,7 +67,7 @@
             "X Marks the Spot": 4
         },
         "Wild Beyond the Witchlight (WBW-DC)": {
-            "Create a Domain of Delight": 205,
+            "Create a Domain of Delight": 208,
             "Wildest Dreams": 1,
             "A Draconic Request": 3,
             "Party Time!": 2,
