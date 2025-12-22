@@ -21169,11 +21169,14 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.5,
         "product_id": "369259",
+        "season": "Icewind Dale",
         "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-POA-CONMAR-17 Unrelenting",
-        "url": "https://www.dmsguild.com/product/369259/DCPOACONMAR17-Unrelenting?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Unrelenting",
+        "url": "https://www.dmsguild.com/product/369259/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -21188,12 +21191,15 @@
         "full_title": "DC-POA-Coulee21-01 The Frozen Snipe",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.95,
         "product_id": "369272",
+        "season": "Icewind Dale",
         "seed": "Snipe Hunt",
         "tiers": 1,
-        "title": "DC-POA-Coulee21-01 The Frozen Snipe",
-        "url": "https://www.dmsguild.com/product/369272/DCPOACoulee2101-The-Frozen-Snipe?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Frozen Snipe",
+        "url": "https://www.dmsguild.com/product/369272/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -21208,12 +21214,15 @@
         "full_title": "DC-POA-Coulee21-02 Driven Like the Snow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.95,
         "product_id": "369279",
+        "season": "Icewind Dale",
         "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-POA-Coulee21-02 Driven Like the Snow",
-        "url": "https://www.dmsguild.com/product/369279/DCPOACoulee2102-Driven-Like-the-Snow?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Driven Like the Snow",
+        "url": "https://www.dmsguild.com/product/369279/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21229,11 +21238,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.49,
         "product_id": "369280",
+        "season": "Icewind Dale",
         "seed": "The Muttering Gnome",
         "tiers": 1,
-        "title": "DC-PoA-CONMAR-08 The Importance of Being Idol",
-        "url": "https://www.dmsguild.com/product/369280/DCPoACONMAR08-The-Importance-of-Being-Idol?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Importance of Being Idol",
+        "url": "https://www.dmsguild.com/product/369280/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21248,12 +21260,15 @@
         "full_title": "DC-POA-Coulee21-03 Beasts of Burden",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.95,
         "product_id": "369281",
+        "season": "Icewind Dale",
         "seed": "Awake and Afraid",
         "tiers": 1,
-        "title": "DC-POA-Coulee21-03 Beasts of Burden",
-        "url": "https://www.dmsguild.com/product/369281/DCPOACoulee2103-Beasts-of-Burden?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Beasts of Burden",
+        "url": "https://www.dmsguild.com/product/369281/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -21268,12 +21283,15 @@
         "full_title": "DC-POA-Coulee21-04 A Snipe in the Hand Is Worth Two Headaches",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.95,
         "product_id": "369289",
+        "season": "Icewind Dale",
         "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-POA-Coulee21-04 A Snipe in the Hand Is Worth Two Headaches",
-        "url": "https://www.dmsguild.com/product/369289/DCPOACoulee2104-A-Snipe-in-the-Hand-Is-Worth-Two-Headaches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Snipe in the Hand Is Worth Two Headaches",
+        "url": "https://www.dmsguild.com/product/369289/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21290,11 +21308,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.49,
         "product_id": "369301",
+        "season": "Icewind Dale",
         "seed": "This Seems Familiar",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-19 Wherever I May Float",
-        "url": "https://www.dmsguild.com/product/369301/DCPoACONMAR19-Wherever-I-May-Float?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Wherever I May Float",
+        "url": "https://www.dmsguild.com/product/369301/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21311,11 +21332,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.75,
         "product_id": "369303",
+        "season": "Icewind Dale",
         "seed": "Out of the Woods",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-10 Who Let the Kobolds Out?",
-        "url": "https://www.dmsguild.com/product/369303/DCPoACONMAR10-Who-Let-the-Kobolds-Out?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Who Let the Kobolds Out?",
+        "url": "https://www.dmsguild.com/product/369303/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21332,11 +21356,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.49,
         "product_id": "369309",
+        "season": "Icewind Dale",
         "seed": "Snipe Hunt",
         "tiers": 1,
-        "title": "DC-PoA-CONMAR-15 A Grim Tale at Winter Solstice",
-        "url": "https://www.dmsguild.com/product/369309/DCPoACONMAR15-A-Grim-Tale-at-Winter-Solstice?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Grim Tale at Winter Solstice",
+        "url": "https://www.dmsguild.com/product/369309/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21352,11 +21379,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "369311",
+        "season": "Icewind Dale",
         "seed": "X Marks the Spot",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-13 Finding Harthin",
-        "url": "https://www.dmsguild.com/product/369311/DCPoACONMAR13-Finding-Harthin?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Finding Harthin",
+        "url": "https://www.dmsguild.com/product/369311/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21372,11 +21402,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "369312",
+        "season": "Icewind Dale",
         "seed": "Ageless Hunger",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-18 The Nightshade Sinners",
-        "url": "https://www.dmsguild.com/product/369312/DCPoACONMAR18-The-Nightshade-Sinners?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Nightshade Sinners",
+        "url": "https://www.dmsguild.com/product/369312/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21417,12 +21450,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "369330",
         "season": "Icewind Dale",
         "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-PoA-LIGA-01 The Forsaken Brewery",
+        "title": "The Forsaken Brewery",
         "url": "https://www.dmsguild.com/product/369330/?affiliate_id=171040"
     },
     {
@@ -21550,16 +21584,19 @@
             "Forgotten Realms"
         ],
         "code": "DC-POA-AMAK01",
-        "date_created": "20210830",
+        "date_created": "20210831",
         "full_title": "DC-PoA-AMAK01 My Loneliness is Killing You",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.93,
         "product_id": "369348",
+        "season": null,
         "seed": "Snipe Hunt",
         "tiers": 1,
-        "title": "DC-PoA-AMAK01 My Loneliness is Killing You",
-        "url": "https://www.dmsguild.com/product/369348/DCPoAAMAK01-My-Loneliness-is-Killing-You?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "My Loneliness is Killing You",
+        "url": "https://www.dmsguild.com/product/369348/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21598,12 +21635,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "369353",
         "season": "Icewind Dale",
         "seed": "My, What Big Feet You Have",
         "tiers": 2,
-        "title": "DC-POA-Z-T2S2 Iggy’s Folly",
+        "title": "Iggy’s Folly",
         "url": "https://www.dmsguild.com/product/369353/?affiliate_id=171040"
     },
     {
@@ -21643,12 +21681,15 @@
         "full_title": "DC-POA-DOBU-01-01, Beneath a Stony Stump",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 7.0,
         "product_id": "369379",
+        "season": "Icewind Dale",
         "seed": "I'd Like to Make a Return Please",
         "tiers": 1,
-        "title": "DC-POA-DOBU-01-01, Beneath a Stony Stump",
-        "url": "https://www.dmsguild.com/product/369379/DCPOADOBU0101-Beneath-a-Stony-Stump?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Beneath a Stony Stump",
+        "url": "https://www.dmsguild.com/product/369379/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21686,11 +21727,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.49,
         "product_id": "369435",
+        "season": "Icewind Dale",
         "seed": "Winter Over",
         "tiers": 2,
-        "title": "DC-PoA-CONMAR-11 The Dragonship Approaches",
-        "url": "https://www.dmsguild.com/product/369435/DCPoACONMAR11-The-Dragonship-Approaches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Dragonship Approaches",
+        "url": "https://www.dmsguild.com/product/369435/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21706,12 +21750,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "369474",
         "season": "Icewind Dale",
         "seed": "The Littlest Squidling",
         "tiers": 2,
-        "title": "DC-PoA-CJK Gnome Place Like Home Adventures in Icewind Dalecare",
+        "title": "Gnome Place Like Home: Adventures in Icewind Dalecare",
         "url": "https://www.dmsguild.com/product/369474/?affiliate_id=171040"
     },
     {
@@ -22256,12 +22301,15 @@
         "full_title": "DC-PoA-OGG-02 Judge and Jury",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "374070",
+        "season": "Icewind Dale",
         "seed": "Out of the Woods",
         "tiers": 2,
-        "title": "DC-PoA-OGG-02 Judge and Jury",
-        "url": "https://www.dmsguild.com/product/374070/DCPoAOGG02-Judge-and-Jury?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Judge and Jury",
+        "url": "https://www.dmsguild.com/product/374070/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -23228,24 +23276,6 @@
         "tiers": 4,
         "title": "Old Scores",
         "url": "https://www.dmsguild.com/product/384724/?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-CODEX-03",
-        "date_created": "20220126",
-        "full_title": "DC-POA-CODEX-03 Bring to Bear (Fantasy Grounds)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "384750",
-        "seed": "My, What Big Feet You Have",
-        "tiers": 2,
-        "title": "DC-POA-CODEX-03 Bring to Bear Fantasy Grounds",
-        "url": "https://www.dmsguild.com/product/384750/DCPOACODEX03-Bring-to-Bear-Fantasy-Grounds?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"
     },
     {
         "apl": 8,
