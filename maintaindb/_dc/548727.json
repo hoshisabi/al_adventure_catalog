@@ -1,18 +1,22 @@
 {
     "apl": null,
-    "authors": [],
-    "campaigns": null,
+    "authors": [
+        "Baldman Games",
+        "Eric Menge"
+    ],
+    "campaigns": [],
     "code": "Rising Shadows Omnibus Collection [BUNDLE]",
     "date_created": "20251215",
     "full_title": "Rising Shadows Omnibus Collection [BUNDLE]",
-    "hours": null,
+    "hours": "2",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "1-4",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 180.0,
     "product_id": "548727",
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "Rising Shadows Omnibus Collection [BUNDLE]",
     "url": "https://www.dmsguild.com/product/548727/?affiliate_id=171040"
 }
