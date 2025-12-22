@@ -1,22 +1,22 @@
 {
     "tier": {
-        "Tier 1": 807,
-        "Tier 2": 822,
-        "Tier 3": 328,
-        "Tier 4": 78,
+        "Tier 1": 809,
+        "Tier 2": 836,
+        "Tier 3": 329,
+        "Tier 4": 80,
         "Unknown": 13
     },
     "duration": {
-        "1 Hours": 23,
-        "2 Hours": 585,
+        "1 Hours": 25,
+        "2 Hours": 600,
         "All Others": 211,
-        "4 Hours": 1401,
+        "4 Hours": 1403,
         "8 Hours": 11,
         "Unknown": 116,
         "6 Hours": 50
     },
     "campaign": {
-        "Forgotten Realms": 1906,
+        "Forgotten Realms": 1925,
         "Ravenloft": 49,
         "Unknown": 20,
         "Eberron": 68,
@@ -27,7 +27,7 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1418,
+        "Unknown": 1423,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
@@ -35,9 +35,9 @@
         "Avernus Rising": 20,
         "Plague of Ancients": 13,
         "Icewind Dale": 143,
-        "The Wild Beyond the Witchlight": 145,
+        "The Wild Beyond the Witchlight": 147,
         "Spelljammer": 115,
-        "Planescape": 72
+        "Planescape": 84
     },
     "seed_by_season": {
         "Icewind Dale (DC-POA)": {
@@ -71,7 +71,7 @@
             "Wildest Dreams": 1,
             "A Draconic Request": 3,
             "Party Time!": 2,
-            "Face Off!": 3,
+            "Face Off!": 5,
             "Where are We?": 4,
             "Sticky Little Fingers": 1,
             "Lending a Hand": 2,

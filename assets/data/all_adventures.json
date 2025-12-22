@@ -4061,25 +4061,25 @@
         "url": "https://www.dmsguild.com/product/230627/?affiliate_id=171040"
     },
     {
-        "apl": 3,
+        "apl": 11,
         "authors": [
-            "Christopher Lindsay"
+            "Baldman Games"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDIA-XGE",
-        "date_created": null,
-        "full_title": "DDIA-XGE Underworld Speculation",
-        "hours": "2",
+        "code": "CCC-BMG-23",
+        "date_created": "20180106",
+        "full_title": "CCC-BMG-23 PHLAN 2-2 Hatemaster",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "1-4",
-        "price": null,
+        "level_range": "11-16",
+        "price": 3.49,
         "product_id": "230628",
         "season": null,
-        "tiers": 1,
-        "title": "Underworld Speculation",
-        "url": "https://www.dmsguild.com/en/product/230970?affiliate_id=171040"
+        "tiers": 3,
+        "title": "Hatemaster (PHLAN 2-2)",
+        "url": "https://www.dmsguild.com/product/230628/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -4145,6 +4145,27 @@
         "tiers": 3,
         "title": "Fire, Ash, and Ruin",
         "url": "https://www.dmsguild.com/product/230794/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Christopher Lindsay"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDIA-XGE",
+        "date_created": null,
+        "full_title": "DDIA-XGE Underworld Speculation",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": null,
+        "product_id": "230970",
+        "season": null,
+        "tiers": 1,
+        "title": "Underworld Speculation",
+        "url": "https://www.dmsguild.com/en/product/230970?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -9921,25 +9942,6 @@
         "tiers": 1,
         "title": "A Mine of Their Own",
         "url": "https://www.dmsguild.com/product/277526/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": null,
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DDAL-CA-01",
-        "date_created": null,
-        "full_title": "DDAL-CA-01 Return to the Ghost Tower of Inverness",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": null,
-        "price": null,
-        "product_id": "341695",
-        "season": null,
-        "tiers": 1,
-        "title": "Return to the Ghost Tower of Inverness",
-        "url": "https://www.dmsguild.com/en/product/341695?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -24024,6 +24026,52 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "WBW-DC-SUNLIT-04",
+        "date_created": "20220111",
+        "full_title": "WBW-DC-Sunlit-04 Blank Stare",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "383251-4",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Face Off!",
+        "tiers": 2,
+        "title": "Blank Stare",
+        "url": "https://www.dmsguild.com/product/383251/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Michael Valdez"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-Sunlit-05",
+        "date_created": "20220111",
+        "full_title": "WBW-DC-Sunlit-05 Travelogue",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "383251-5",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Face Off!",
+        "tiers": 2,
+        "title": "Travelogue",
+        "url": "https://www.dmsguild.com/product/383251/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Michael Valdez"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "WBW-DC-Sunlit-06",
         "date_created": "20220111",
         "full_title": "WBW-DC-Sunlit-06 Township",
@@ -24032,7 +24080,7 @@
         "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 3.99,
-        "product_id": "383251",
+        "product_id": "383251-6",
         "season": "The Wild Beyond the Witchlight",
         "seed": "Face Off!",
         "tiers": 2,
@@ -40806,7 +40854,7 @@
         ],
         "code": "FR-DC-VECNA-03",
         "date_created": "20241103",
-        "full_title": "NEVERDEATH NIGHTS (FR-DC-VECNA-03)",
+        "full_title": "Neverdeath Nights (FR-DC-VECNA-03)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -40814,7 +40862,7 @@
         "product_id": "501014",
         "season": null,
         "tiers": 2,
-        "title": "NEVERDEATH NIGHTS",
+        "title": "Neverdeath Nights",
         "url": "https://www.dmsguild.com/product/501014/?affiliate_id=171040"
     },
     {
@@ -41276,7 +41324,7 @@
         "product_id": "509936",
         "season": null,
         "tiers": 4,
-        "title": "Iron Cook PS-DC-IC",
+        "title": "Iron Cook",
         "url": "https://www.dmsguild.com/product/509936/?affiliate_id=171040"
     },
     {
@@ -41841,7 +41889,7 @@
         ],
         "code": "FR-DC-SAERLOON-04",
         "date_created": "20250314",
-        "full_title": "FR-DC-SAERLOON-04 ASTRINGENT NO MORE",
+        "full_title": "FR-DC-SAERLOON-04 Astringent No More",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -41851,7 +41899,7 @@
         "season": null,
         "suggestedPrice": 1.0,
         "tiers": 1,
-        "title": "ASTRINGENT NO MORE",
+        "title": "Astringent No More",
         "url": "https://www.dmsguild.com/product/515303/?affiliate_id=171040"
     },
     {
@@ -41996,7 +42044,7 @@
         ],
         "code": "PS-DC-CAKE-02",
         "date_created": "20250315",
-        "full_title": "CAKE WARS II (PS-DC-CAKE-02)",
+        "full_title": "Cake Wars II (PS-DC-CAKE-02)",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -42004,7 +42052,7 @@
         "product_id": "515404",
         "season": "Planescape",
         "tiers": 1,
-        "title": "CAKE WARS II",
+        "title": "Cake Wars II",
         "url": "https://www.dmsguild.com/product/515404/?affiliate_id=171040"
     },
     {
@@ -43538,6 +43586,72 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "PS-DC-PUB-01",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-01 Automatic Updates",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845-01",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Automatic Updates",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-02",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-02 Endless Glory",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845-02",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Endless Glory",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-03",
+        "date_created": "20250706",
+        "full_title": "PS-DC-PUB-03 Hunters in the Night",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "528845-03",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Hunters in the Night",
+        "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PUB-04",
         "date_created": "20250706",
         "full_title": "PS-DC-PUB-04 Market Value",
@@ -43546,7 +43660,7 @@
         "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 5.0,
-        "product_id": "528845",
+        "product_id": "528845-04",
         "season": "Planescape",
         "tiers": 2,
         "title": "Market Value",
@@ -43624,6 +43738,72 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "PS-DC-PUB-05",
+        "date_created": "20250720",
+        "full_title": "PS-DC-PUB-05 Rock Bottom",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335-05",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Rock Bottom",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-06",
+        "date_created": "20250720",
+        "full_title": "PS-DC-PUB-06 Death Do Us Part",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335-06",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Death Do Us Part",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-07",
+        "date_created": "20250720",
+        "full_title": "PS-DC-PUB-07 Professor Bartlesby's Inventorium",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "530335-07",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Professor Bartlesby's Inventorium",
+        "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PUB-08",
         "date_created": "20250720",
         "full_title": "PS-DC-PUB-08 Unremembered Things",
@@ -43632,7 +43812,7 @@
         "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 5.0,
-        "product_id": "530335",
+        "product_id": "530335-08",
         "season": "Planescape",
         "tiers": 2,
         "title": "Unremembered Things",
@@ -43751,6 +43931,72 @@
         "campaigns": [
             "Forgotten Realms"
         ],
+        "code": "PS-DC-PUB-09",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-09 Reign of Frogs",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687-09",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Reign of Frogs",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-10",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-10 Absent without Leave",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687-10",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Absent without Leave",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-11",
+        "date_created": "20250803",
+        "full_title": "PS-DC-PUB-11 Fallen for You",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "531687-11",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Fallen for You",
+        "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
         "code": "PS-DC-PUB-12",
         "date_created": "20250803",
         "full_title": "PS-DC-PUB-12 The Endless Revel",
@@ -43759,7 +44005,7 @@
         "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 5.0,
-        "product_id": "531687",
+        "product_id": "531687-12",
         "season": "Planescape",
         "tiers": 2,
         "title": "The Endless Revel",
@@ -43883,16 +44129,82 @@
         ],
         "code": "PS-DC-PUB-13",
         "date_created": "20250817",
-        "full_title": "Planar Pub Crawl: Hair of the Dog",
+        "full_title": "PS-DC-PUB-13 Escape from Paradise",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 5.0,
-        "product_id": "533675",
+        "product_id": "533675-13",
         "season": "Planescape",
         "tiers": 2,
-        "title": "Planar Pub Crawl Hair of the Dog",
+        "title": "Escape from Paradise",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-14",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-14 Beneath the Prison Tree",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675-14",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Beneath the Prison Tree",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-15",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-15 Spider Hunt",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675-15",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Spider Hunt",
+        "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Steve Hill"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-PUB-16",
+        "date_created": "20250817",
+        "full_title": "PS-DC-PUB-16 Juxtaposition ",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "533675-16",
+        "season": "Planescape",
+        "tiers": 2,
+        "title": "Juxtaposition ",
         "url": "https://www.dmsguild.com/product/533675/?affiliate_id=171040"
     },
     {
@@ -44369,6 +44681,50 @@
         ],
         "code": "FR-DC-RDP-01",
         "date_created": "20251007",
+        "full_title": "FR-DC-RDP-01 Vault of the Drow Risen",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "needs_review": true,
+        "price": 4.95,
+        "product_id": "539689-01",
+        "season": null,
+        "tiers": 4,
+        "title": "Vault of the Drow Risen",
+        "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-RDP-02",
+        "date_created": "20251007",
+        "full_title": "FR-DC-RDP-02 The Great Fane of Lolth",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "needs_review": true,
+        "price": 4.95,
+        "product_id": "539689-02",
+        "season": null,
+        "tiers": 4,
+        "title": "The Great Fane of Lolth",
+        "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Johnny Smith"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-RDP-01",
+        "date_created": "20251007",
         "full_title": "FR-DC-RDP-01 Vault of the Drow Risen & FR-DC-RDP-02 The Great Fane of Lolth",
         "hours": "2",
         "is_adventure": true,
@@ -44645,6 +45001,70 @@
         "tiers": 1,
         "title": "The Communion of Laughter",
         "url": "https://www.dmsguild.com/product/545526/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bryan Mets",
+            "Daniel Chapman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25-01",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25-01 Burl Trouble",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 1.0,
+        "product_id": "545950-01",
+        "season": null,
+        "tiers": 1,
+        "title": "Burl Trouble",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bryan Mets"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25-02",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25-02 Oily Conundrum",
+        "hours": "1",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "price": 1.0,
+        "product_id": "545950-02",
+        "season": null,
+        "tiers": 1,
+        "title": "Oily Conundrum",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Bryan Mets"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-UCON25-03",
+        "date_created": null,
+        "full_title": "FR-DC-UCON25-03 Beneath the Burl",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 2.99,
+        "product_id": "545950-03",
+        "season": null,
+        "tiers": 1,
+        "title": "Beneath the Burl",
+        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
     },
     {
         "apl": 3,
