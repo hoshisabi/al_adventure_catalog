@@ -16807,12 +16807,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 5.95,
         "product_id": "340884",
         "season": "Icewind Dale",
         "seed": "Once Bitten, Ice Shy",
         "tiers": 1,
-        "title": "DC-PoA \"Coeur de Dragon\"",
+        "title": "Coeur de Dragon",
         "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
     },
     {
@@ -17309,14 +17310,17 @@
         "code": "DC-POA-CONMAR-01",
         "date_created": "20210108",
         "full_title": "DC-PoA-CONMAR-01 Something Sinister",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "342706",
+        "season": "Icewind Dale",
         "seed": "In Too Deep",
         "tiers": 1,
-        "title": "DC-PoA-CONMAR-01 Something Sinister",
-        "url": "https://www.dmsguild.com/product/342706/DCPoACONMAR01-Something-Sinister?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Something Sinister",
+        "url": "https://www.dmsguild.com/product/342706/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17355,11 +17359,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
         "product_id": "342961",
+        "season": null,
         "seed": "Out of the Woods",
         "tiers": 2,
-        "title": "Dc-PoA-DCAF06 A Front On Frost",
-        "url": "https://www.dmsguild.com/product/342961/DcPoADCAF06-A-Front-On-Frost?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Front On Frost",
+        "url": "https://www.dmsguild.com/product/342961/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -18797,12 +18804,15 @@
         "full_title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "351364",
+        "season": "Icewind Dale",
         "seed": "Goat-ball!",
         "tiers": 2,
-        "title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
-        "url": "https://www.dmsguild.com/product/351364/DCPoAGaryXIII03-Personal-Fouls-and-Penalties?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Personal Fouls and Penalties",
+        "url": "https://www.dmsguild.com/product/351364/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21100,12 +21110,15 @@
         "full_title": "DC-PoA-TDG01-06 Dale Rangers",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "369151",
+        "season": "Icewind Dale",
         "seed": "My, What Big Feet You Have",
         "tiers": 2,
-        "title": "DC-PoA-TDG01-06 Dale Rangers",
-        "url": "https://www.dmsguild.com/product/369151/DCPoATDG0106-Dale-Rangers?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Dale Rangers",
+        "url": "https://www.dmsguild.com/product/369151/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -21120,12 +21133,15 @@
         "full_title": "DC-PoA-TDG01-07 Rage of the Rime",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "369154",
+        "season": "Icewind Dale",
         "seed": "Caravanning!",
         "tiers": 2,
-        "title": "DC-PoA-TDG01-07 Rage of the Rime",
-        "url": "https://www.dmsguild.com/product/369154/DCPoATDG0107-Rage-of-the-Rime?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Rage of the Rime",
+        "url": "https://www.dmsguild.com/product/369154/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21163,12 +21179,15 @@
         "full_title": "DC-PoA-TDG01-09 Wyrm Walkers",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "369157",
+        "season": "Icewind Dale",
         "seed": "The Littlest Squidling",
         "tiers": 2,
-        "title": "DC-PoA-TDG01-09 Wyrm Walkers",
-        "url": "https://www.dmsguild.com/product/369157/DCPoATDG0109-Wyrm-Walkers?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Wyrm Walkers",
+        "url": "https://www.dmsguild.com/product/369157/?affiliate_id=171040"
     },
     {
         "apl": 10,
@@ -21183,12 +21202,15 @@
         "full_title": "DC-PoA-TDG01-10 Endgame of the Elder Evils",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "369159",
+        "season": "Icewind Dale",
         "seed": "This Seems Familiar",
         "tiers": 2,
-        "title": "DC-PoA-TDG01-10 Endgame of the Elder Evils",
-        "url": "https://www.dmsguild.com/product/369159/DCPoATDG0110-Endgame-of-the-Elder-Evils?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Endgame of the Elder Evils",
+        "url": "https://www.dmsguild.com/product/369159/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -21250,12 +21272,15 @@
         "full_title": "DC-POA-Z-T2S1 You Have a Friend in Me",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "369244",
+        "season": null,
         "seed": "This Seems Familiar",
         "tiers": 2,
-        "title": "DC-POA-Z-T2S1 You Have a Friend in Me",
-        "url": "https://www.dmsguild.com/product/369244/DCPOAZT2S1-You-Have-a-Friend-in-Me?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "You Have a Friend in Me",
+        "url": "https://www.dmsguild.com/product/369244/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21808,12 +21833,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "4-10",
+        "payWhatYouWant": false,
         "price": 3.0,
         "product_id": "369397",
         "season": "Icewind Dale",
         "seed": "Ageless Hunger",
         "tiers": 2,
-        "title": "DC-PoA-INAS-02 Left Behind",
+        "title": "Left Behind",
         "url": "https://www.dmsguild.com/product/369397/?affiliate_id=171040"
     },
     {

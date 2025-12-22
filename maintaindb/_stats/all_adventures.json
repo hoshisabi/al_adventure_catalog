@@ -16796,6 +16796,29 @@
     {
         "apl": 3,
         "authors": [
+            "Antoine Deligne"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA",
+        "date_created": "20201222",
+        "full_title": "DC-PoA \"Coeur de Dragon\"",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 5.95,
+        "product_id": "340884",
+        "season": "Icewind Dale",
+        "seed": "Once Bitten, Ice Shy",
+        "tiers": 1,
+        "title": "Coeur de Dragon",
+        "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
             "Nathaniel Tenefrancia"
         ],
         "campaigns": [
@@ -17321,6 +17344,29 @@
         "tiers": 1,
         "title": "A Hot Time in the Cold Town Tonight",
         "url": "https://www.dmsguild.com/product/342909/?affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "Adrian Francisco"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-DCAF06",
+        "date_created": "20210110",
+        "full_title": "Dc-PoA-DCAF06 A Front On Frost",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.0,
+        "product_id": "342961",
+        "season": null,
+        "seed": "Out of the Woods",
+        "tiers": 2,
+        "title": "A Front On Frost",
+        "url": "https://www.dmsguild.com/product/342961/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -21212,6 +21258,29 @@
         "tiers": 2,
         "title": "DaleVision",
         "url": "https://www.dmsguild.com/product/369178/?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "Zardak123"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DC-POA-Z-T2S1",
+        "date_created": "20210829",
+        "full_title": "DC-POA-Z-T2S1 You Have a Friend in Me",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.0,
+        "product_id": "369244",
+        "season": null,
+        "seed": "This Seems Familiar",
+        "tiers": 2,
+        "title": "You Have a Friend in Me",
+        "url": "https://www.dmsguild.com/product/369244/?affiliate_id=171040"
     },
     {
         "apl": 3,
