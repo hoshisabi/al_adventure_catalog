@@ -11,9 +11,12 @@
     "full_title": "House of Silent Tides (CCC-HAL-06)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "323807",
+    "season": null,
     "tiers": 2,
     "title": "House of Silent Tides CCC-HAL-06",
-    "url": "https://www.dmsguild.com/product/323807/House-of-Silent-Tides-CCCHAL06?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/323807/?affiliate_id=171040"
 }

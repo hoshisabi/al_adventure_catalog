@@ -11,9 +11,12 @@
     "full_title": "CCC-UBCON01-01 Back Home Again",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "202",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "315765",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-UBCON01-01 Back Home Again",
-    "url": "https://www.dmsguild.com/product/315765/CCCUBCON0101-Back-Home-Again?filters=45470_0_0_0_0_0_0_0"
+    "title": "Back Home Again",
+    "url": "https://www.dmsguild.com/product/315765/?affiliate_id=171040"
 }

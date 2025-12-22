@@ -11,9 +11,12 @@
     "full_title": "CCC-SEA-01-01 All Good Dead Men",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.95,
     "product_id": "321022",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SEA-01-01 All Good Dead Men",
-    "url": "https://www.dmsguild.com/product/321022/CCCSEA0101-All-Good-Dead-Men?filters=45470_0_0_0_0_0_0_0"
+    "title": "All Good Dead Men",
+    "url": "https://www.dmsguild.com/product/321022/?affiliate_id=171040"
 }

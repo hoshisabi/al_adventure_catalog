@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "316535",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SDREAM-01-01 From Every Winter, Spring",
-    "url": "https://www.dmsguild.com/product/316535/CCCSDREAM0101-From-Every-Winter-Spring?filters=45470_0_0_0_0_0_0_0"
+    "title": "From Every Winter, Spring",
+    "url": "https://www.dmsguild.com/product/316535/?affiliate_id=171040"
 }
