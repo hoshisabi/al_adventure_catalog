@@ -1668,7 +1668,7 @@
         "product_id": "230628",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-23 PHLAN 2-2 Hatemaster",
+        "title": "Hatemaster (PHLAN 2-2)",
         "url": "https://www.dmsguild.com/product/230628/?affiliate_id=171040"
     },
     {
@@ -2266,7 +2266,7 @@
         ],
         "code": "CCC-HATMS01-02",
         "date_created": "20180417",
-        "full_title": "CCCHATMS01-02 Prophecy's Promise",
+        "full_title": "CCC-HATMS01-02 Prophecy's Promise",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -2275,7 +2275,7 @@
         "product_id": "239987",
         "season": null,
         "tiers": 2,
-        "title": "CCCHATMS01-02 Prophecy's Promise",
+        "title": "Prophecy's Promise",
         "url": "https://www.dmsguild.com/product/239987/?affiliate_id=171040"
     },
     {
@@ -2288,7 +2288,7 @@
         ],
         "code": "CCC-HATMS01-03",
         "date_created": "20180417",
-        "full_title": "CCCHATMS01-03 Destiny Defied",
+        "full_title": "CCC-HATMS01-03 Destiny Defied",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -2297,7 +2297,7 @@
         "product_id": "239988",
         "season": null,
         "tiers": 2,
-        "title": "CCCHATMS01-03 Destiny Defied",
+        "title": "Destiny Defied",
         "url": "https://www.dmsguild.com/product/239988/?affiliate_id=171040"
     },
     {
@@ -4614,6 +4614,28 @@
         "tiers": 1,
         "title": "The Rescue",
         "url": "https://www.dmsguild.com/product/259240/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Adam Gordier"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ELO-01",
+        "date_created": "20181123",
+        "full_title": "CCC Priory Series (PRIORY-01/02/03)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "0",
+        "payWhatYouWant": false,
+        "price": 7.99,
+        "product_id": "259555",
+        "season": null,
+        "tiers": 1,
+        "title": "Priory Series PRIORY-01/02/03",
+        "url": "https://www.dmsguild.com/product/259555/?affiliate_id=171040"
     },
     {
         "apl": 8,

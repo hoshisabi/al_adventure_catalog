@@ -4853,7 +4853,7 @@
         ],
         "code": "CCC-HATMS01-02",
         "date_created": "20180417",
-        "full_title": "CCCHATMS01-02 Prophecy's Promise",
+        "full_title": "CCC-HATMS01-02 Prophecy's Promise",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -4862,7 +4862,7 @@
         "product_id": "239987",
         "season": null,
         "tiers": 2,
-        "title": "CCCHATMS01-02 Prophecy's Promise",
+        "title": "Prophecy's Promise",
         "url": "https://www.dmsguild.com/product/239987/?affiliate_id=171040"
     },
     {
@@ -4875,7 +4875,7 @@
         ],
         "code": "CCC-HATMS01-03",
         "date_created": "20180417",
-        "full_title": "CCCHATMS01-03 Destiny Defied",
+        "full_title": "CCC-HATMS01-03 Destiny Defied",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -4884,7 +4884,7 @@
         "product_id": "239988",
         "season": null,
         "tiers": 2,
-        "title": "CCCHATMS01-03 Destiny Defied",
+        "title": "Destiny Defied",
         "url": "https://www.dmsguild.com/product/239988/?affiliate_id=171040"
     },
     {
@@ -7991,6 +7991,28 @@
         "tiers": 1,
         "title": "The Rescue",
         "url": "https://www.dmsguild.com/product/259240/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Adam Gordier"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ELO-01",
+        "date_created": "20181123",
+        "full_title": "CCC Priory Series (PRIORY-01/02/03)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "0",
+        "payWhatYouWant": false,
+        "price": 7.99,
+        "product_id": "259555",
+        "season": null,
+        "tiers": 1,
+        "title": "Priory Series PRIORY-01/02/03",
+        "url": "https://www.dmsguild.com/product/259555/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -15646,7 +15668,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-00",
+        "code": "DDAL10-00",
         "date_created": "20200914",
         "full_title": "DDAL10-00 Ice Road Trackers",
         "hours": "1-4",
@@ -15781,14 +15803,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-01",
+        "code": "DDAL10-01",
         "date_created": "20201019",
         "full_title": "DDAL10-01 The Frozen North",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-2",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "332516",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -17122,11 +17144,11 @@
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 6.74,
+        "price": 8.99,
         "product_id": "340333",
         "season": "Plague of Ancients",
         "tiers": 1,
-        "title": "DDEP10-00 The Great Knucklehead Rally",
+        "title": "The Great Knucklehead Rally",
         "url": "https://www.dmsguild.com/product/340333/?affiliate_id=171040"
     },
     {
@@ -17662,7 +17684,7 @@
         "product_id": "341245",
         "seed": "Awake and Afraid",
         "tiers": 1,
-        "title": "DC-PoA-NB-01 Iruladoon Awakens",
+        "title": "Iruladoon Awakens",
         "url": "https://www.dmsguild.com/product/341245/DCPoANB01-Iruladoon-Awakens?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -17954,7 +17976,7 @@
         "season": "Icewind Dale",
         "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
+        "title": "Tomb of the Banished Thane",
         "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
     },
     {
@@ -18099,14 +18121,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-02",
+        "code": "DDAL10-02",
         "date_created": "20210112",
         "full_title": "DDAL10-02 Gnashing Teeth",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "343148",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -18121,14 +18143,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-03",
+        "code": "DDAL10-03",
         "date_created": "20210112",
         "full_title": "DDAL10-03 Divining Evil",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "343150",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -18418,14 +18440,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-04",
+        "code": "DDAL10-04",
         "date_created": "20210125",
         "full_title": "DDAL10-04 Cold Benevolence",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "344672",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -19166,14 +19188,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-05",
+        "code": "DDAL10-05",
         "date_created": "20210303",
         "full_title": "DDAL10-05 A Blight in the Darkness",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "348960",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -19223,7 +19245,7 @@
         "product_id": "349163",
         "season": null,
         "tiers": 1,
-        "title": "DDEP10-01 Terror in Ten Towns",
+        "title": "Terror in Ten Towns",
         "url": "https://www.dmsguild.com/product/349163/?affiliate_id=171040"
     },
     {
@@ -19651,7 +19673,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-06",
+        "code": "DDAL10-06",
         "date_created": "20210325",
         "full_title": "DDAL10-06 The Fallen Star",
         "hours": "4",
@@ -19742,14 +19764,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-07",
+        "code": "DDAL10-07",
         "date_created": "20210408",
         "full_title": "DDAL10-07 Into Darkness",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "353209",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -20355,14 +20377,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-08",
+        "code": "DDAL10-08",
         "date_created": "20210520",
         "full_title": "DDAL10-08 Volatile Thoughts",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "358263",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -21067,14 +21089,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-09",
+        "code": "DDAL10-09",
         "date_created": "20210810",
         "full_title": "DDAL10-09 Recipe for Retribution",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "367185",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -22732,14 +22754,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-10",
+        "code": "DDAL10-10",
         "date_created": "20210914",
         "full_title": "DDAL10-10 Burying the Past",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "370743",
         "season": "Plague of Ancients",
         "tiers": 3,
@@ -22762,11 +22784,11 @@
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 6.74,
+        "price": 8.99,
         "product_id": "370744",
         "season": "Plague of Ancients",
         "tiers": 2,
-        "title": "DDEP10-02 Song of Spears",
+        "title": "Song of Spears",
         "url": "https://www.dmsguild.com/product/370744/?affiliate_id=171040"
     },
     {
@@ -25173,7 +25195,7 @@
         "product_id": "392801",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-1-02 Trust No One",
+        "title": "Trust No One",
         "url": "https://www.dmsguild.com/product/392801/?affiliate_id=171040"
     },
     {
@@ -25195,7 +25217,7 @@
         "product_id": "392803",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-1-03 Red Masks",
+        "title": "Red Masks",
         "url": "https://www.dmsguild.com/product/392803/?affiliate_id=171040"
     },
     {
@@ -25240,7 +25262,7 @@
         "product_id": "392890",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-1-05 Far in the Forest",
+        "title": "Far in the Forest",
         "url": "https://www.dmsguild.com/product/392890/?affiliate_id=171040"
     },
     {
@@ -25308,7 +25330,7 @@
         "product_id": "392893",
         "season": null,
         "tiers": 4,
-        "title": "PO-BK-1-08 Dark Side of the Rune",
+        "title": "Dark Side of the Rune",
         "url": "https://www.dmsguild.com/product/392893/?affiliate_id=171040"
     },
     {
@@ -31579,7 +31601,7 @@
         "product_id": "433901",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-02-04 Out of the Shaar",
+        "title": "Out of the Shaar",
         "url": "https://www.dmsguild.com/product/433901/?affiliate_id=171040"
     },
     {
@@ -31601,7 +31623,7 @@
         "product_id": "433906",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-02-05 Weird Tales",
+        "title": "Weird Tales",
         "url": "https://www.dmsguild.com/product/433906/?affiliate_id=171040"
     },
     {
@@ -31623,7 +31645,7 @@
         "product_id": "433909",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-02-06 First Contact",
+        "title": "First Contact",
         "url": "https://www.dmsguild.com/product/433909/?affiliate_id=171040"
     },
     {
@@ -31645,7 +31667,7 @@
         "product_id": "433911",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-02-07 At Sword's Point",
+        "title": "At Sword's Point",
         "url": "https://www.dmsguild.com/product/433911/?affiliate_id=171040"
     },
     {
@@ -31667,7 +31689,7 @@
         "product_id": "433913",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-02-08 Straight Through the Heart",
+        "title": "Straight Through the Heart",
         "url": "https://www.dmsguild.com/product/433913/?affiliate_id=171040"
     },
     {
@@ -31689,7 +31711,7 @@
         "product_id": "433916",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-02-09 Star Crash",
+        "title": "Star Crash",
         "url": "https://www.dmsguild.com/product/433916/?affiliate_id=171040"
     },
     {
@@ -31711,7 +31733,7 @@
         "product_id": "433917",
         "season": null,
         "tiers": 4,
-        "title": "PO-BK-02-10 A Grim and Ravenous Arrival",
+        "title": "A Grim and Ravenous Arrival",
         "url": "https://www.dmsguild.com/product/433917/?affiliate_id=171040"
     },
     {
@@ -37121,7 +37143,7 @@
         "product_id": "467923",
         "season": null,
         "tiers": 1,
-        "title": "PO-BK-3-02 Shoreline Spelunking",
+        "title": "Shoreline Spelunking",
         "url": "https://www.dmsguild.com/product/467923/?affiliate_id=171040"
     },
     {
@@ -37143,7 +37165,7 @@
         "product_id": "467926",
         "season": null,
         "tiers": 1,
-        "title": "PO-BK-3-03 Smoke on the Water",
+        "title": "Smoke on the Water",
         "url": "https://www.dmsguild.com/product/467926/?affiliate_id=171040"
     },
     {
@@ -37320,7 +37342,7 @@
         "product_id": "471797",
         "season": null,
         "tiers": 1,
-        "title": "PO-BK-3-04 Dead in the Water",
+        "title": "Dead in the Water",
         "url": "https://www.dmsguild.com/product/471797/?affiliate_id=171040"
     },
     {
@@ -37342,7 +37364,7 @@
         "product_id": "471819",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-05 Into the Shining Sea",
+        "title": "Into the Shining Sea",
         "url": "https://www.dmsguild.com/product/471819/?affiliate_id=171040"
     },
     {
@@ -37364,7 +37386,7 @@
         "product_id": "471825",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-06 Trouble Brewing in Port Nyanzaru",
+        "title": "Trouble Brewing in Port Nyanzaru",
         "url": "https://www.dmsguild.com/product/471825/?affiliate_id=171040"
     },
     {
@@ -37386,7 +37408,7 @@
         "product_id": "471827",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-07 On Pirate's Honor",
+        "title": "On Pirate's Honor",
         "url": "https://www.dmsguild.com/product/471827/?affiliate_id=171040"
     },
     {
@@ -37408,7 +37430,7 @@
         "product_id": "471829",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-08 Weeding Out Trouble",
+        "title": "Weeding Out Trouble",
         "url": "https://www.dmsguild.com/product/471829/?affiliate_id=171040"
     },
     {
@@ -37430,7 +37452,7 @@
         "product_id": "471830",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-09 Isle of Death",
+        "title": "Isle of Death",
         "url": "https://www.dmsguild.com/product/471830/?affiliate_id=171040"
     },
     {
@@ -37452,7 +37474,7 @@
         "product_id": "471832",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-10 Hymn of Love",
+        "title": "Hymn of Love",
         "url": "https://www.dmsguild.com/product/471832/?affiliate_id=171040"
     },
     {
@@ -37765,7 +37787,7 @@
         "product_id": "474556",
         "season": null,
         "tiers": 4,
-        "title": "PO-BK-3-11 Covenant of the Blood Goddess",
+        "title": "Covenant of the Blood Goddess",
         "url": "https://www.dmsguild.com/product/474556/?affiliate_id=171040"
     },
     {
@@ -38550,7 +38572,7 @@
         "product_id": "484628",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-3-13 A Ship on Silent Seas",
+        "title": "A Ship on Silent Seas",
         "url": "https://www.dmsguild.com/product/484628/?affiliate_id=171040"
     },
     {
@@ -42301,7 +42323,7 @@
         ],
         "code": "FR-DC-SAERLOON-06",
         "date_created": "20250420",
-        "full_title": "FR-DC-Saerloon-06 The Tremblers v1.0",
+        "full_title": "FR-DC-Saerloon-06 The Tremblers",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
@@ -42309,7 +42331,7 @@
         "product_id": "519418",
         "season": null,
         "tiers": 2,
-        "title": "FR-DC-Saerloon-06 The Tremblers v1.0",
+        "title": "The Tremblers",
         "url": "https://www.dmsguild.com/product/519418/?affiliate_id=171040"
     },
     {
@@ -43089,7 +43111,7 @@
         "price": 1.0,
         "product_id": "525565",
         "tiers": 2,
-        "title": "FR-DC-Saerloon-08 Saberwing",
+        "title": "Saberwing",
         "url": "https://www.dmsguild.com/product/525565/?affiliate_id=171040"
     },
     {
@@ -44997,7 +45019,7 @@
         "product_id": "548057",
         "season": null,
         "tiers": 3,
-        "title": "PO-BK-3-12 Rule or Ruin",
+        "title": "Rule or Ruin",
         "url": "https://www.dmsguild.com/product/548057/?affiliate_id=171040"
     },
     {
@@ -45020,7 +45042,7 @@
         "product_id": "548076",
         "season": null,
         "tiers": 2,
-        "title": "PO-BK-5-01 Paragons of Wrath",
+        "title": "Paragons of Wrath",
         "url": "https://www.dmsguild.com/product/548076/?affiliate_id=171040"
     },
     {
