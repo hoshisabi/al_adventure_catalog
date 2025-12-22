@@ -1,8 +1,8 @@
 {
     "apl": 3,
     "authors": [
-        "Luís Ricardo",
-        "Patrícia Brito",
+        "Lu\u00eds Ricardo",
+        "Patr\u00edcia Brito",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -14,11 +14,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "369330",
     "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "DC-PoA-LIGA-01 The Forsaken Brewery",
-    "url": "https://www.dmsguild.com/product/369330/?affiliate_id=171040",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "The Forsaken Brewery",
+    "url": "https://www.dmsguild.com/product/369330/?affiliate_id=171040"
 }

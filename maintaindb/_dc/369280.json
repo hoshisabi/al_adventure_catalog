@@ -12,9 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.49,
     "product_id": "369280",
+    "season": "Icewind Dale",
+    "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "DC-PoA-CONMAR-08 The Importance of Being Idol",
-    "url": "https://www.dmsguild.com/product/369280/DCPoACONMAR08-The-Importance-of-Being-Idol?filters=0_0_100057_0_0_0_0_0",
-    "seed": "The Muttering Gnome"
+    "title": "The Importance of Being Idol",
+    "url": "https://www.dmsguild.com/product/369280/?affiliate_id=171040"
 }

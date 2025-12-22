@@ -11,10 +11,13 @@
     "full_title": "DC-POA-Coulee21-01 The Frozen Snipe",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.95,
     "product_id": "369272",
+    "season": "Icewind Dale",
+    "seed": "Snipe Hunt",
     "tiers": 1,
-    "title": "DC-POA-Coulee21-01 The Frozen Snipe",
-    "url": "https://www.dmsguild.com/product/369272/DCPOACoulee2101-The-Frozen-Snipe?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Snipe Hunt"
+    "title": "The Frozen Snipe",
+    "url": "https://www.dmsguild.com/product/369272/?affiliate_id=171040"
 }

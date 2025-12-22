@@ -31,12 +31,13 @@
         "full_title": "Gulgo-13 | An Eberron Salvage Mission for Oracle of War",
         "hours": "4-5",
         "is_adventure": true,
-        "level_range": "1-4",
+        "level_range": "1-5",
+        "payWhatYouWant": false,
         "price": 3.95,
         "product_id": "308079",
         "season": null,
         "tiers": 1,
-        "title": "Gulgo-13 | An Eberron Salvage Mission for Oracle of War",
+        "title": "Gulgo-13",
         "url": "https://www.dmsguild.com/product/308079/?affiliate_id=171040"
     },
     {
@@ -58,7 +59,7 @@
         "product_id": "309087",
         "season": null,
         "tiers": 1,
-        "title": "House Hunting A 4 hour Tier 1 Salvage Mission",
+        "title": "House Hunting",
         "url": "https://www.dmsguild.com/product/309087/?affiliate_id=171040"
     },
     {
@@ -75,11 +76,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "309600",
+        "season": null,
         "tiers": 1,
-        "title": "Snail Tale A 4 hour Tier 1 Salvage Mission",
-        "url": "https://www.dmsguild.com/product/309600/Snail-Tale-A-4-hour-Tier-1-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0&affiliate_id=171040"
+        "title": "Snail Tale",
+        "url": "https://www.dmsguild.com/product/309600/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -177,10 +180,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "311326",
+        "season": null,
         "tiers": 1,
         "title": "Surprise Visitor",
-        "url": "https://www.dmsguild.com/product/311326/Surprise-Visitor?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/311326/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -201,7 +207,7 @@
         "product_id": "311419",
         "season": null,
         "tiers": 1,
-        "title": "Dreams of Salvation A 4 hour Tier 1 Salvage Mission",
+        "title": "Dreams of Salvation",
         "url": "https://www.dmsguild.com/product/311419/?affiliate_id=171040"
     },
     {
@@ -362,13 +368,16 @@
         "code": "EB-SM-COPPER",
         "date_created": "20201102",
         "full_title": "Last Stand at Copper Canyon",
-        "hours": "3",
+        "hours": "3-4",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "334451",
+        "season": null,
         "tiers": 2,
         "title": "Last Stand at Copper Canyon",
-        "url": "https://www.dmsguild.com/product/334451/Last-Stand-at-Copper-Canyon?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/334451/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -431,25 +440,6 @@
         "tiers": 3,
         "title": "Happy-Go-Lucky",
         "url": "https://www.dmsguild.com/product/349212/?affiliate_id=171040"
-    },
-    {
-        "apl": null,
-        "authors": [
-            "Bum Lee"
-        ],
-        "campaigns": [
-            "Eberron"
-        ],
-        "code": "EB-SM-SEASIDE",
-        "date_created": "20210308",
-        "full_title": "Seaside Salvage: Eberron Salvage Mission Anthology",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5",
-        "product_id": "349569",
-        "tiers": 2,
-        "title": "Seaside Salvage Eberron Salvage Mission Anthology",
-        "url": "https://www.dmsguild.com/product/349569/Seaside-Salvage-Eberron-Salvage-Mission-Anthology?filters=1000043_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 8,

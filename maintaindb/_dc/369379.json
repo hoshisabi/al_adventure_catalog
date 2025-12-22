@@ -11,10 +11,13 @@
     "full_title": "DC-POA-DOBU-01-01, Beneath a Stony Stump",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 7.0,
     "product_id": "369379",
+    "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "DC-POA-DOBU-01-01, Beneath a Stony Stump",
-    "url": "https://www.dmsguild.com/product/369379/DCPOADOBU0101-Beneath-a-Stony-Stump?filters=0_0_100057_0_0_0_0_0",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "Beneath a Stony Stump",
+    "url": "https://www.dmsguild.com/product/369379/?affiliate_id=171040"
 }

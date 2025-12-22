@@ -11,10 +11,13 @@
     "full_title": "DC-POA-Coulee21-04 A Snipe in the Hand Is Worth Two Headaches",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.95,
     "product_id": "369289",
+    "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "DC-POA-Coulee21-04 A Snipe in the Hand Is Worth Two Headaches",
-    "url": "https://www.dmsguild.com/product/369289/DCPOACoulee2104-A-Snipe-in-the-Hand-Is-Worth-Two-Headaches?filters=0_0_100057_0_0_0_0_0",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "A Snipe in the Hand Is Worth Two Headaches",
+    "url": "https://www.dmsguild.com/product/369289/?affiliate_id=171040"
 }
