@@ -1,18 +1,18 @@
 {
     "tier": {
         "Tier 1": 809,
-        "Tier 2": 836,
+        "Tier 2": 837,
         "Tier 3": 329,
         "Tier 4": 80,
-        "Unknown": 13
+        "Unknown": 12
     },
     "duration": {
         "1 Hours": 25,
         "2 Hours": 600,
-        "All Others": 211,
+        "All Others": 212,
         "4 Hours": 1403,
         "8 Hours": 11,
-        "Unknown": 116,
+        "Unknown": 115,
         "6 Hours": 50
     },
     "campaign": {

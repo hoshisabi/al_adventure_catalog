@@ -104,7 +104,7 @@
         "url": "https://www.dmsguild.com/product/377048/RMH04-The-Amber-Secret?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 5,
         "authors": [
             "Casper Kirketerp-Helenius"
         ],
@@ -114,15 +114,15 @@
         "code": "RMH-05",
         "date_created": "20211214",
         "full_title": "RMH-05 Unexpected Hospitality",
-        "hours": "",
+        "hours": "3",
         "is_adventure": true,
         "level_range": null,
         "payWhatYouWant": false,
         "price": 9.99,
         "product_id": "380627",
         "season": null,
-        "tiers": 0,
-        "title": "RMH-05 Unexpected Hospitality",
+        "tiers": 2,
+        "title": "Unexpected Hospitality",
         "url": "https://www.dmsguild.com/product/380627/?affiliate_id=171040"
     },
     {
