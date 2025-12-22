@@ -11,9 +11,12 @@
     "full_title": "PS-DC-AUG-02 The Dark Sun",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "17-20",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "483044",
+    "season": "Planescape",
     "tiers": 4,
     "title": "The Dark Sun",
-    "url": "https://www.dmsguild.com/product/483044/PSDCAUG02-The-Dark-Sun?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/483044/?affiliate_id=171040"
 }
