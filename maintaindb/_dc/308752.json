@@ -11,9 +11,12 @@
     "full_title": "CCC-TAROT-S1-01 A Long Night",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "02",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "308752",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-TAROT-S1-01 A Long Night",
-    "url": "https://www.dmsguild.com/product/308752/CCCTAROTS101-A-Long-Night?filters=45470_0_0_0_0_0_0_0"
+    "title": "A Long Night",
+    "url": "https://www.dmsguild.com/product/308752/?affiliate_id=171040"
 }

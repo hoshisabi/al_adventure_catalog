@@ -9,11 +9,14 @@
     "code": "CCC-NBDD01-02",
     "date_created": "20200429",
     "full_title": "CCC-NBDD01-02 Where Can She Be",
-    "hours": "4",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": "202",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "310358",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-NBDD01-02 Where Can She Be",
-    "url": "https://www.dmsguild.com/product/310358/CCCNBDD0102-Where-Can-She-Be?filters=45470_0_0_0_0_0_0_0"
+    "title": "Where Can She Be",
+    "url": "https://www.dmsguild.com/product/310358/?affiliate_id=171040"
 }

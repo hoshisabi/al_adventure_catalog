@@ -13,8 +13,11 @@
     "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "313304",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-GHC-BK2-03 Framed in Felshroun",
-    "url": "https://www.dmsguild.com/product/313304/CCCGHCBK203-Framed-in-Felshroun?filters=45470_0_0_0_0_0_0_0"
+    "title": "Framed in Felshroun",
+    "url": "https://www.dmsguild.com/product/313304/?affiliate_id=171040"
 }

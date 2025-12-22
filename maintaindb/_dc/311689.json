@@ -6,16 +6,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-DWB-TFG",
+    "code": "CCC-DWB-TFG-1",
     "date_created": "20200504",
     "full_title": "CCC-DWB-TFG 1: The Frostbane Garden",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "311689",
     "season": null,
     "tiers": 2,
-    "title": "CCC-DWB-TFG 1 The Frostbane Garden",
+    "title": "The Frostbane Garden",
     "url": "https://www.dmsguild.com/product/311689/?affiliate_id=171040"
 }

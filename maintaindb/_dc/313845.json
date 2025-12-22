@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "313845",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-SDREAM-01-03 The Best Laid Plans of Gnomes",
-    "url": "https://www.dmsguild.com/product/313845/CCCSDREAM0103-The-Best-Laid-Plans-of-Gnomes?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Best Laid Plans of Gnomes",
+    "url": "https://www.dmsguild.com/product/313845/?affiliate_id=171040"
 }
