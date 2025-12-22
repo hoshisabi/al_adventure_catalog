@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "351364",
+    "season": "Icewind Dale",
+    "seed": "Goat-ball!",
     "tiers": 2,
-    "title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
-    "url": "https://www.dmsguild.com/product/351364/DCPoAGaryXIII03-Personal-Fouls-and-Penalties?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Goat-ball!"
+    "title": "Personal Fouls and Penalties",
+    "url": "https://www.dmsguild.com/product/351364/?affiliate_id=171040"
 }
