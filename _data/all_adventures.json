@@ -9863,7 +9863,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL-DRW01",
+        "code": "DDAL-DRW-01",
         "date_created": "20190706",
         "full_title": "DDAL-DRW01 Breaking Umberlee's Resolve",
         "hours": "4-6",
@@ -10411,7 +10411,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL-DRW02",
+        "code": "DDAL-DRW-02",
         "date_created": "20190706",
         "full_title": "DDAL-DRW02 Blood in the Water",
         "hours": "4-6",
@@ -10830,7 +10830,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL-DRW03",
+        "code": "DDAL-DRW-03",
         "date_created": "20190926",
         "full_title": "DDAL-DRW03 Saving Silverbeard",
         "hours": "4-6",
@@ -11228,7 +11228,7 @@
         "product_id": "290246",
         "season": "Avernus Rising",
         "tiers": 2,
-        "title": "Faces of Fortune the Story of Fai Chen",
+        "title": "Faces of Fortune: the Story of Fai Chen",
         "url": "https://www.dmsguild.com/product/290246/?affiliate_id=171040"
     },
     {
@@ -15697,7 +15697,7 @@
         ],
         "code": "DDAL00-13",
         "date_created": "20200915",
-        "full_title": "DDAL00-13 Knuckleheads & Other Such Curiosities: A Travelers’ Guide to Icewind Dale",
+        "full_title": "DDAL00-13 Knuckleheads & Other Such Curiosities: A Traveler's Guide to Icewind Dale",
         "hours": "",
         "is_adventure": true,
         "level_range": null,
@@ -15706,7 +15706,7 @@
         "product_id": "328568",
         "season": 0,
         "tiers": 0,
-        "title": "Knuckleheads & Other Such Curiosities A Travelers’ Guide to Icewind Dale",
+        "title": "Knuckleheads & Other Such Curiosities: A Traveler's Guide to Icewind Dale",
         "url": "https://www.dmsguild.com/product/328568/?affiliate_id=171040"
     },
     {
@@ -26753,7 +26753,7 @@
         ],
         "code": "WBW-DC-PHP-POLAR-02",
         "date_created": "20220808",
-        "full_title": "You've Goat to be kidding me (WBW-DC-PHP-POLAR-02)",
+        "full_title": "You've Goat to be Kidding me (WBW-DC-PHP-POLAR-02)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -26763,7 +26763,7 @@
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
-        "title": "You've Goat to be kidding me",
+        "title": "You've Goat to be Kidding me",
         "url": "https://www.dmsguild.com/product/405801/?affiliate_id=171040"
     },
     {
@@ -27033,14 +27033,14 @@
         ],
         "code": "WBW-DC-PHP-ORNG-01",
         "date_created": "20220818",
-        "full_title": "WBW-DC-PHP-ORNG-01 What is real?",
+        "full_title": "WBW-DC-PHP-ORNG-01 What is Real?",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "product_id": "406954",
         "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "What is real?",
+        "title": "What is Real?",
         "url": "https://www.dmsguild.com/product/406954/WBWDCPHPORNG01-What-is-real?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -28260,7 +28260,7 @@
         ],
         "code": "WBW-DC-LIGA02",
         "date_created": "20220831",
-        "full_title": "WBW-DC-LIGA02 Between one World and Another",
+        "full_title": "WBW-DC-LIGA02 Between One World and Another",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -28270,7 +28270,7 @@
         "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
-        "title": "Between one World and Another",
+        "title": "Between One World and Another",
         "url": "https://www.dmsguild.com/product/408437/?affiliate_id=171040"
     },
     {
@@ -29003,14 +29003,14 @@
         ],
         "code": "WBW-DC-PHP-ORNG-02",
         "date_created": "20220831",
-        "full_title": "WBW-DC-PHP-ORNG-02 Where do they Go?",
+        "full_title": "WBW-DC-PHP-ORNG-02 Where Do They Go?",
         "hours": "4",
         "is_adventure": true,
         "level_range": null,
         "product_id": "408595",
         "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "Where do they Go?",
+        "title": "Where Do They Go?",
         "url": "https://www.dmsguild.com/product/408595/WBWDCPHPORNG02-Where-do-they-Go?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
@@ -30167,7 +30167,7 @@
         ],
         "code": "SJ-DC-PHP-FLN01-01",
         "date_created": "20221204",
-        "full_title": "Forlorn but not Forgotten (SJ-DC-PHP-FLN01-01)",
+        "full_title": "Forlorn But Not Forgotten (SJ-DC-PHP-FLN01-01)",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
@@ -30175,7 +30175,7 @@
         "product_id": "418804",
         "seed": "Create a Location in Wildspace",
         "tiers": 1,
-        "title": "Forlorn but not Forgotten",
+        "title": "Forlorn But Not Forgotten",
         "url": "https://www.dmsguild.com/product/418804/Forlorn-but-not-Forgotten-SJDCPHPFLN0101?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
