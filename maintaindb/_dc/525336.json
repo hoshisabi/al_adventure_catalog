@@ -11,9 +11,12 @@
     "full_title": "FR-DC-VIN-01 Welcome Home, Adventurer!",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 5.99,
     "product_id": "525336",
+    "season": null,
     "tiers": 2,
     "title": "Welcome Home, Adventurer!",
-    "url": "https://www.dmsguild.com/product/525336/FRDCVIN01-Welcome-Home-Adventurer?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/525336/?affiliate_id=171040"
 }
