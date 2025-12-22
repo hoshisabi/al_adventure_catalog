@@ -1,8 +1,8 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope"
+        "Te\u00e4n Stanhope"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -13,9 +13,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "346787",
+    "season": null,
+    "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "DC-PoA-CTH1 Roused by Raiders",
-    "url": "https://www.dmsguild.com/product/346787/DCPoACTH1-Roused-by-Raiders?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Out of the Woods"
+    "title": "Roused by Raiders",
+    "url": "https://www.dmsguild.com/product/346787/?affiliate_id=171040"
 }

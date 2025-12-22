@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-RH01 The Chronographers Curse",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.85,
     "product_id": "347585",
+    "season": null,
+    "seed": "Breaking Ice-olation",
     "tiers": 1,
-    "title": "DC-PoA-RH01 The Chronographers Curse",
-    "url": "https://www.dmsguild.com/product/347585/DCPoARH01-The-Chronographers-Curse?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Breaking Ice-olation"
+    "title": "The Chronographers Curse",
+    "url": "https://www.dmsguild.com/product/347585/?affiliate_id=171040"
 }

@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-LEGIT-CIPH-01 A Bump in the Night",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.49,
     "product_id": "346271",
+    "season": "Icewind Dale",
+    "seed": "Burrowing Borrowers",
     "tiers": 1,
-    "title": "DC-PoA-LEGIT-CIPH-01 A Bump in the Night",
-    "url": "https://www.dmsguild.com/product/346271/DCPoALEGITCIPH01-A-Bump-in-the-Night?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Burrowing Borrowers"
+    "title": "A Bump in the Night",
+    "url": "https://www.dmsguild.com/product/346271/?affiliate_id=171040"
 }

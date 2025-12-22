@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-PM03 Mindless Digging",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 0.75,
     "product_id": "348523",
+    "season": null,
+    "seed": "In Too Deep",
     "tiers": 1,
-    "title": "DC-PoA-PM03 Mindless Digging",
-    "url": "https://www.dmsguild.com/product/348523/DCPoAPM03-Mindless-Digging?filters=0_0_100057_0_0_0_0_0",
-    "seed": "In Too Deep"
+    "title": "Mindless Digging",
+    "url": "https://www.dmsguild.com/product/348523/?affiliate_id=171040"
 }

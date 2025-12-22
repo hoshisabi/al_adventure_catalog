@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 1.5,
     "product_id": "365500",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "DC-POA-JAT-01 Ice to Mead You - Kobold Craziness part 1",
-    "url": "https://www.dmsguild.com/product/365500/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "Ice to Mead You: Kobold Craziness part 1",
+    "url": "https://www.dmsguild.com/product/365500/?affiliate_id=171040"
 }

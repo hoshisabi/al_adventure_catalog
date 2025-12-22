@@ -10,14 +10,15 @@
     "code": "DC-POA-CONMAR-03",
     "date_created": "20210222",
     "full_title": "DC-PoA-CONMAR-03 - Unfrozen",
-    "hours": "2-4",
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 6.63,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "347798",
     "season": "Icewind Dale",
+    "seed": "The Warmest Day",
     "tiers": 1,
-    "title": "DC-PoA-CONMAR-03 - Unfrozen",
-    "url": "https://www.dmsguild.com/product/347798/?affiliate_id=171040",
-    "seed": "The Warmest Day"
+    "title": "Unfrozen",
+    "url": "https://www.dmsguild.com/product/347798/?affiliate_id=171040"
 }
