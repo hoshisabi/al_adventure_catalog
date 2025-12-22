@@ -15,8 +15,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "341677",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-RPSG-06 Of Caravans and Crossings",
-    "url": "https://www.dmsguild.com/product/341677/CCCRPSG06-Of-Caravans-and-Crossings?filters=45470_0_0_0_0_0_0_0"
+    "title": "Of Caravans and Crossings",
+    "url": "https://www.dmsguild.com/product/341677/?affiliate_id=171040"
 }

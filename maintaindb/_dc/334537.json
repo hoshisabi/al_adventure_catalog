@@ -8,14 +8,15 @@
     ],
     "code": "CCC-NUKE-02-01",
     "date_created": "20201104",
-    "full_title": "CCC-NUKE-02-01 \"One Fowl Soup\"",
+    "full_title": "CCC-NUKE-02-01 One Fowl Soup",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "334537",
     "season": null,
     "tiers": 1,
-    "title": "CCC-NUKE-02-01 \"One Fowl Soup\"",
+    "title": "One Fowl Soup",
     "url": "https://www.dmsguild.com/product/334537/?affiliate_id=171040"
 }

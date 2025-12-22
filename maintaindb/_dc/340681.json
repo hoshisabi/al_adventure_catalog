@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "340681",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-HERO-BK03-02 The Fire Rekindled",
-    "url": "https://www.dmsguild.com/product/340681/CCCHEROBK0302-The-Fire-Rekindled?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Fire Rekindled",
+    "url": "https://www.dmsguild.com/product/340681/?affiliate_id=171040"
 }

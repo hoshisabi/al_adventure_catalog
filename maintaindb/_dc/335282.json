@@ -11,9 +11,12 @@
     "full_title": "House of Masks (CCC-TXLIFE-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "335282",
+    "season": null,
     "tiers": 2,
-    "title": "House of Masks CCC-TXLIFE-01",
-    "url": "https://www.dmsguild.com/product/335282/House-of-Masks-CCCTXLIFE01?filters=45470_0_0_0_0_0_0_0"
+    "title": "House of Masks",
+    "url": "https://www.dmsguild.com/product/335282/?affiliate_id=171040"
 }

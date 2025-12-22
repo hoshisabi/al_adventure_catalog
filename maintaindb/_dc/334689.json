@@ -11,9 +11,12 @@
     "full_title": "CCC-ARCANA-02 Seclusion",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "334689",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-ARCANA-02 Seclusion",
-    "url": "https://www.dmsguild.com/product/334689/CCCARCANA02-Seclusion?filters=45470_0_0_0_0_0_0_0"
+    "title": "Seclusion",
+    "url": "https://www.dmsguild.com/product/334689/?affiliate_id=171040"
 }

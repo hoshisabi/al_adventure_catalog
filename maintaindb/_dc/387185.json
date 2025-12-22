@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "387185",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-BMG-MOON16-1 Augurs of Spring",
-    "url": "https://www.dmsguild.com/product/387185/CCCBMGMOON161-Augurs-of-Spring?filters=45470_0_0_0_0_0"
+    "title": "Augurs of Spring",
+    "url": "https://www.dmsguild.com/product/387185/?affiliate_id=171040"
 }

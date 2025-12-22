@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "344638",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-GHC-BK03-08 The Archmage's New Robes",
-    "url": "https://www.dmsguild.com/product/344638/CCCGHCBK0308-The-Archmages-New-Robes?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Archmage's New Robes",
+    "url": "https://www.dmsguild.com/product/344638/?affiliate_id=171040"
 }

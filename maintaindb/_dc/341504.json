@@ -12,10 +12,11 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "341504",
     "season": null,
     "tiers": 1,
-    "title": "CCC-UCON03 The Straw Bears",
+    "title": "The Straw Bears",
     "url": "https://www.dmsguild.com/product/341504/?affiliate_id=171040"
 }
