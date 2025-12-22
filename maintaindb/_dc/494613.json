@@ -11,9 +11,12 @@
     "full_title": "PS-DC-PKL-06 It's A Toss-Up",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "494613",
+    "season": "Planescape",
     "tiers": 2,
     "title": "It's A Toss-Up",
-    "url": "https://www.dmsguild.com/product/494613/PSDCPKL06-Its-A-TossUp?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/494613/?affiliate_id=171040"
 }

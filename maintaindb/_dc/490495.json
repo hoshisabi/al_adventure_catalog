@@ -11,9 +11,12 @@
     "full_title": "PS-DC-NBDD-01 The Greatest Gameshow",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "490495",
+    "season": "Planescape",
     "tiers": 3,
     "title": "The Greatest Gameshow",
-    "url": "https://www.dmsguild.com/product/490495/PSDCNBDD01-The-Greatest-Gameshow?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/490495/?affiliate_id=171040"
 }
