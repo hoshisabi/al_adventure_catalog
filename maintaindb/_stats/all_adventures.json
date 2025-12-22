@@ -3167,6 +3167,27 @@
         "url": "https://www.dmsguild.com/product/221415/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Christopher Perkins",
+            "Jeremy Crawford"
+        ],
+        "campaigns": [],
+        "code": "Tortle Package",
+        "date_created": "20170915",
+        "full_title": "Tortle Package",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 9.99,
+        "product_id": "221716",
+        "season": null,
+        "tiers": 0,
+        "title": "Tortle Package",
+        "url": "https://www.dmsguild.com/product/221716/?affiliate_id=171040"
+    },
+    {
         "apl": 13,
         "authors": [
             "Mark Merida",
@@ -4118,6 +4139,28 @@
     {
         "apl": 5,
         "authors": [
+            "Ma'at Crook"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-BLD-01-03",
+        "date_created": "20180118",
+        "full_title": "CCC-BLD-01-03 Bleeding Gate: Lineage",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "231700",
+        "season": null,
+        "tiers": 2,
+        "title": "Bleeding Gate: Lineage",
+        "url": "https://www.dmsguild.com/product/231700/?affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
             "Iam Pace",
             "William Murakami-Brundage"
         ],
@@ -4844,6 +4887,27 @@
         "tiers": 2,
         "title": "CCC-BMG-28 Hill 2-1 The Red Gathering",
         "url": "https://www.dmsguild.com/product/240059/CCCBMG28-Hill-21-The-Red-Gathering?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 4,
+        "authors": [
+            "Will Doyle",
+            "Lysa Penrose"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-XGE-01",
+        "date_created": "20180422",
+        "full_title": "Rats of Waterdeep",
+        "hours": "3-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "price": 4.95,
+        "product_id": "240322",
+        "tiers": 1,
+        "title": "Rats of Waterdeep",
+        "url": "https://www.dmsguild.com/product/240322/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -5762,6 +5826,32 @@
         "url": "https://www.dmsguild.com/product/247513/CCCBMG33-PHLAN-33-Spinning-on-the-Edge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "James Introcaso",
+            "Greg Marks",
+            "Shawn Merwin",
+            "Alan Patrick",
+            "Ashley Warren",
+            "Travis Woodall"
+        ],
+        "campaigns": [],
+        "code": "Encounters in Sharn",
+        "date_created": "20180723",
+        "full_title": "Encounters in Sharn",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 6.95,
+        "product_id": "247986",
+        "season": null,
+        "tiers": 0,
+        "title": "Encounters in Sharn",
+        "url": "https://www.dmsguild.com/product/247986/?affiliate_id=171040"
+    },
+    {
         "apl": 5,
         "authors": [
             "ROB SILVA"
@@ -5804,6 +5894,26 @@
         "tiers": 0,
         "title": "What's Past is Prologue",
         "url": "https://www.dmsguild.com/product/248589/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Chris Lindsay"
+        ],
+        "campaigns": [],
+        "code": "DDIA-MORD",
+        "date_created": "20180731",
+        "full_title": "DDIA-MORD Rrakkma",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "248633",
+        "season": null,
+        "tiers": 0,
+        "title": "Rrakkma",
+        "url": "https://www.dmsguild.com/product/248633/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -5874,6 +5984,28 @@
         "tiers": 1,
         "title": "An Open Secret",
         "url": "https://www.dmsguild.com/product/249748/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Will Doyle",
+            "Shawn Merwin",
+            "Cindy Moore"
+        ],
+        "campaigns": [],
+        "code": "Pudding Faire",
+        "date_created": "20180813",
+        "full_title": "Pudding Faire",
+        "hours": "3-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "249757",
+        "season": null,
+        "tiers": 1,
+        "title": "Pudding Faire",
+        "url": "https://www.dmsguild.com/product/249757/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6139,6 +6271,54 @@
         "tiers": 1,
         "title": "Tinhammer Falls (Prelude to the Beholder Corps series)",
         "url": "https://www.dmsguild.com/product/251688/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "James Introcaso"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "DDHC-WDH-02",
+        "date_created": "20180907",
+        "full_title": "Unseen Waterdeep",
+        "hours": "0",
+        "is_adventure": true,
+        "level_range": "1-5",
+        "price": 4.95,
+        "product_id": "251792",
+        "tiers": 1,
+        "title": "Unseen Waterdeep",
+        "url": "https://www.dmsguild.com/product/251792/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Alan Patrick",
+            "Cindy Moore",
+            "Greg Marks",
+            "James Introcaso",
+            "M.T. Black",
+            "Robert Adducci",
+            "Shawn Merwin",
+            "Travis Woodall",
+            "Will Doyle"
+        ],
+        "campaigns": [],
+        "code": "Waterdeep: City Encounters",
+        "date_created": "20180906",
+        "full_title": "Waterdeep: City Encounters",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 7.95,
+        "product_id": "251816",
+        "season": null,
+        "tiers": 0,
+        "title": "Waterdeep City Encounters",
+        "url": "https://www.dmsguild.com/product/251816/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -7038,6 +7218,33 @@
         "url": "https://www.dmsguild.com/product/254694/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Alan Patrick",
+            "Ashley Warren",
+            "Cindy Moore",
+            "Greg Marks",
+            "Lysa Chen",
+            "M.T. Black",
+            "Travis Woodall",
+            "Will Doyle"
+        ],
+        "campaigns": [],
+        "code": "Durnan's Guide to Tavernkeeping",
+        "date_created": "20181012",
+        "full_title": "Durnan's Guide to Tavernkeeping",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 8.95,
+        "product_id": "254715",
+        "season": null,
+        "tiers": 0,
+        "title": "Durnan's Guide to Tavernkeeping",
+        "url": "https://www.dmsguild.com/product/254715/?affiliate_id=171040"
+    },
+    {
         "apl": 2,
         "authors": [
             "Greasy Snitches",
@@ -7214,6 +7421,29 @@
         "tiers": 2,
         "title": "Shadows of Blood Moon",
         "url": "https://www.dmsguild.com/product/257622/?affiliate_id=171040"
+    },
+    {
+        "apl": 5,
+        "authors": [
+            "Jessie Swinton",
+            "Aaron Jones"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-ZIEGE-02",
+        "date_created": "20181031",
+        "full_title": "CCC-Ziege-02 Storm of the Blood Moon",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "257623",
+        "season": null,
+        "tiers": 2,
+        "title": "Storm of the Blood Moon",
+        "url": "https://www.dmsguild.com/product/257623/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -7937,6 +8167,29 @@
         "tiers": 2,
         "title": "The Dawn Heresy",
         "url": "https://www.dmsguild.com/product/260272/?affiliate_id=171040"
+    },
+    {
+        "apl": 1,
+        "authors": [
+            "Travis Woodall",
+            "Peter Williams"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-3MAGS-ONE",
+        "date_created": "20181202",
+        "full_title": "CCC-3MAGS-ONE Vormestrand's Scroll",
+        "hours": "7",
+        "is_adventure": true,
+        "level_range": "1-2",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "260364",
+        "season": null,
+        "tiers": 1,
+        "title": "Vormestrand's Scroll",
+        "url": "https://www.dmsguild.com/product/260364/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -10802,6 +11055,26 @@
         "url": "https://www.dmsguild.com/product/289154/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Christopher Lindsay"
+        ],
+        "campaigns": [],
+        "code": "Locathah Rising",
+        "date_created": "20190919",
+        "full_title": "Locathah Rising",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": null,
+        "payWhatYouWant": false,
+        "price": 9.99,
+        "product_id": "289261",
+        "season": null,
+        "tiers": 0,
+        "title": "Locathah Rising",
+        "url": "https://www.dmsguild.com/product/289261/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Ted Atkinson"
@@ -10996,6 +11269,59 @@
         "tiers": 0,
         "title": "Abyssal Incursion",
         "url": "https://www.dmsguild.com/product/294570/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Monkey Mind Tabletop",
+            "John \"Henry\" Hussman"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-MMT-01-02",
+        "date_created": "20191122",
+        "full_title": "CCC-MMT-01-02: A Little Competition Never Hurt Anyone",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.0,
+        "product_id": "294627",
+        "season": null,
+        "tiers": 1,
+        "title": "A Little Competition Never Hurt Anyone",
+        "url": "https://www.dmsguild.com/product/294627/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Bart Carroll",
+            "Bill Benham",
+            "M.T. Black",
+            "Dan Dillon",
+            "Scott Fitzgerald Gray",
+            "James Introcaso",
+            "Ginny Loveday",
+            "Greg Marks",
+            "Shawn Merwin",
+            "Steven Wonser"
+        ],
+        "campaigns": [],
+        "code": "Infernal Machine Rebuild",
+        "date_created": "20191112",
+        "full_title": "Infernal Machine Rebuild",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 9.99,
+        "product_id": "294711",
+        "season": null,
+        "suggestedPrice": 9.99,
+        "tiers": 2,
+        "title": "Infernal Machine Rebuild",
+        "url": "https://www.dmsguild.com/product/294711/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -18721,6 +19047,28 @@
         "tiers": 3,
         "title": "Happy-Go-Lucky",
         "url": "https://www.dmsguild.com/product/349212/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Bum Lee"
+        ],
+        "campaigns": [
+            "Eberron"
+        ],
+        "code": "EB-SM-SEASIDE",
+        "date_created": "20210308",
+        "full_title": "Seaside Salvage: Eberron Salvage Mission Anthology",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 7.95,
+        "product_id": "349569",
+        "season": null,
+        "tiers": 2,
+        "title": "Seaside Salvage",
+        "url": "https://www.dmsguild.com/product/349569/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -27435,6 +27783,29 @@
         "url": "https://www.dmsguild.com/product/408372/WBWDCBIRE07-Convergence-and-Culmination?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 9,
+        "authors": [
+            "PT MacKim"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-EBAL-MEF2",
+        "date_created": "20220830",
+        "full_title": "WBW-DC-EBAL-MEF2 Misty Edge Incursion",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "408374",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
+        "tiers": 2,
+        "title": "Misty Edge Incursion",
+        "url": "https://www.dmsguild.com/product/408374/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Eddie Gioffre"
@@ -27569,6 +27940,30 @@
         "tiers": 2,
         "title": "Rescue for Ryeland",
         "url": "https://www.dmsguild.com/product/408432/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Luís Ricardo",
+            "Patrícia Brito"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-LIGA02",
+        "date_created": "20220831",
+        "full_title": "WBW-DC-LIGA02 Between one World and Another",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "408437",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
+        "tiers": 1,
+        "title": "Between one World and Another",
+        "url": "https://www.dmsguild.com/product/408437/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -28244,6 +28639,30 @@
         "tiers": 1,
         "title": "Depths of Recollection",
         "url": "https://www.dmsguild.com/product/408586/Depths-of-Recollection-WBWDCMEM02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Luís Ricardo",
+            "Patrícia Brito"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-LIGA03",
+        "date_created": "20220831",
+        "full_title": "WBW-DC-LIGA03 Clash of Reality",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "408587",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
+        "tiers": 1,
+        "title": "Clash of Reality",
+        "url": "https://www.dmsguild.com/product/408587/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -39668,6 +40087,28 @@
         "url": "https://www.dmsguild.com/product/498681/?affiliate_id=171040"
     },
     {
+        "apl": 13,
+        "authors": [
+            "Pauline Feraren"
+        ],
+        "campaigns": [
+            null
+        ],
+        "code": "FR-DC-IMP-02",
+        "date_created": "20241013",
+        "full_title": "Hunting Moon (FR-DC-IMP-02)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "498685",
+        "season": null,
+        "tiers": 3,
+        "title": "Hunting Moon",
+        "url": "https://www.dmsguild.com/product/498685/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Katriel Paige"
@@ -42757,6 +43198,45 @@
         "url": "https://www.dmsguild.com/product/528046/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-TT-101",
+        "date_created": "20250702",
+        "full_title": "FR-DC-TT-101 Water has no Shape",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "needs_review": false,
+        "price": 4.99,
+        "product_id": "528426",
+        "season": null,
+        "tiers": 1,
+        "title": "Water has no Shape",
+        "url": "https://www.dmsguild.com/product/528426/FRDCTT101-Water-has-no-Shape?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
+        "apl": 8,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-WE-01",
+        "date_created": "20250716",
+        "full_title": "FR-DC-WE-01 Enter the Arena",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.95,
+        "product_id": "528610",
+        "season": null,
+        "tiers": 2,
+        "title": "Enter the Arena",
+        "url": "https://www.dmsguild.com/product/528610/FRDCWE01-Enter-the-Arena?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    },
+    {
         "apl": 10,
         "authors": [
             "Bernhard Staneker"
@@ -42820,6 +43300,25 @@
         "tiers": 1,
         "title": "A Damsel in Distress",
         "url": "https://www.dmsguild.com/product/529395/?affiliate_id=171040"
+    },
+    {
+        "apl": 10,
+        "authors": [],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-REIN-VR-01",
+        "date_created": "20250717",
+        "full_title": "FR-DC-REIN-VR-01 The Pale Steed",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "price": 4.99,
+        "product_id": "530052",
+        "season": null,
+        "tiers": 2,
+        "title": "The Pale Steed",
+        "url": "https://www.dmsguild.com/product/530052/FRDCREINVR01-The-Pale-Steed?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
     },
     {
         "apl": 13,

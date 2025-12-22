@@ -4014,6 +4014,29 @@
         "url": "https://www.dmsguild.com/product/408372/WBWDCBIRE07-Convergence-and-Culmination?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
+        "apl": 9,
+        "authors": [
+            "PT MacKim"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-EBAL-MEF2",
+        "date_created": "20220830",
+        "full_title": "WBW-DC-EBAL-MEF2 Misty Edge Incursion",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "408374",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
+        "tiers": 2,
+        "title": "Misty Edge Incursion",
+        "url": "https://www.dmsguild.com/product/408374/?affiliate_id=171040"
+    },
+    {
         "apl": 3,
         "authors": [
             "Eddie Gioffre"
@@ -4148,6 +4171,30 @@
         "tiers": 2,
         "title": "Rescue for Ryeland",
         "url": "https://www.dmsguild.com/product/408432/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Luís Ricardo",
+            "Patrícia Brito"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-LIGA02",
+        "date_created": "20220831",
+        "full_title": "WBW-DC-LIGA02 Between one World and Another",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "408437",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
+        "tiers": 1,
+        "title": "Between one World and Another",
+        "url": "https://www.dmsguild.com/product/408437/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4823,6 +4870,30 @@
         "tiers": 1,
         "title": "Depths of Recollection",
         "url": "https://www.dmsguild.com/product/408586/Depths-of-Recollection-WBWDCMEM02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Luís Ricardo",
+            "Patrícia Brito"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "WBW-DC-LIGA03",
+        "date_created": "20220831",
+        "full_title": "WBW-DC-LIGA03 Clash of Reality",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "408587",
+        "season": "The Wild Beyond the Witchlight",
+        "seed": "Create a Domain of Delight",
+        "tiers": 1,
+        "title": "Clash of Reality",
+        "url": "https://www.dmsguild.com/product/408587/?affiliate_id=171040"
     },
     {
         "apl": 3,
