@@ -7,13 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-KKON-01",
-    "date_created": "20250604",
+    "date_created": "20250605",
     "full_title": "FR-DC-KKON-01 Kontraption Kon",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 3.0,
     "product_id": "525129",
+    "season": null,
+    "suggestedPrice": 3.0,
     "tiers": 1,
     "title": "Kontraption Kon",
-    "url": "https://www.dmsguild.com/product/525129/FRDCKKON01-Kontraption-Kon?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/525129/?affiliate_id=171040"
 }

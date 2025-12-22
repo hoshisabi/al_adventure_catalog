@@ -11,9 +11,12 @@
     "full_title": "FR-DC-DIGM-01-03 Sweet Ex Machina",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "01",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "524514",
+    "season": null,
     "tiers": 1,
     "title": "Sweet Ex Machina",
-    "url": "https://www.dmsguild.com/product/524514/FRDCDIGM0103-Sweet-Ex-Machina?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/524514/?affiliate_id=171040"
 }
