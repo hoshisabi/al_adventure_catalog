@@ -2,6 +2,7 @@
     {
         "apl": 1,
         "authors": [
+            "Shawn Merwin",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -13,16 +14,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "296403",
         "season": null,
         "tiers": 1,
-        "title": "EB-01 The Night Land",
+        "title": "The Night Land",
         "url": "https://www.dmsguild.com/product/296403/?affiliate_id=171040"
     },
     {
         "apl": 2,
         "authors": [
+            "Will Doyle",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -34,16 +37,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "299680",
         "season": null,
         "tiers": 1,
-        "title": "EB-02 Voice in the Machine",
+        "title": "Voice in the Machine",
         "url": "https://www.dmsguild.com/product/299680/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
+            "James Introcaso",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -55,16 +60,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "302373",
         "season": null,
         "tiers": 1,
-        "title": "EB-03 Where the Dead Wait",
+        "title": "Where the Dead Wait",
         "url": "https://www.dmsguild.com/product/302373/?affiliate_id=171040"
     },
     {
         "apl": 4,
         "authors": [
+            "M.T. Black",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -76,16 +83,20 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "305024",
         "season": null,
         "tiers": 1,
-        "title": "EB-04 The Third Protocol",
+        "title": "The Third Protocol",
         "url": "https://www.dmsguild.com/product/305024/?affiliate_id=171040"
     },
     {
         "apl": 4,
         "authors": [
+            "Will Doyle",
+            "James Introcaso",
+            "Shawn Merwin",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -97,11 +108,12 @@
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.19,
+        "payWhatYouWant": false,
+        "price": 5.99,
         "product_id": "308553",
         "season": null,
         "tiers": 1,
-        "title": "EB-EP-01 The Iron Titan",
+        "title": "The Iron Titan",
         "url": "https://www.dmsguild.com/product/308553/?affiliate_id=171040"
     },
     {
@@ -128,6 +140,7 @@
     {
         "apl": 5,
         "authors": [
+            "Bianca Bickford",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -139,16 +152,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "312336",
         "season": null,
         "tiers": 2,
-        "title": "EB-05 A Century of Ashes",
+        "title": "A Century of Ashes",
         "url": "https://www.dmsguild.com/product/312336/?affiliate_id=171040"
     },
     {
         "apl": 6,
         "authors": [
+            "Anne Gregersen",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -160,16 +175,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "316059",
         "season": null,
         "tiers": 2,
-        "title": "EB-06 The Last Word",
+        "title": "The Last Word",
         "url": "https://www.dmsguild.com/product/316059/?affiliate_id=171040"
     },
     {
         "apl": 7,
         "authors": [
+            "Stacey Allan",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -181,16 +198,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "319657",
         "season": null,
         "tiers": 2,
-        "title": "EB-07 Song of the Sky",
+        "title": "Song of the Sky",
         "url": "https://www.dmsguild.com/product/319657/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
+            "Ian Hawthorne",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -202,16 +221,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "322749",
         "season": null,
         "tiers": 2,
-        "title": "EB-08 Parliament of Gears",
+        "title": "Parliament of Gears",
         "url": "https://www.dmsguild.com/product/322749/?affiliate_id=171040"
     },
     {
         "apl": 9,
         "authors": [
+            "Travis Woodall",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -223,16 +244,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "326339",
         "season": null,
         "tiers": 2,
-        "title": "EB-09 Lord Bucket",
+        "title": "Lord Bucket",
         "url": "https://www.dmsguild.com/product/326339/?affiliate_id=171040"
     },
     {
         "apl": 10,
         "authors": [
+            "Richard Green",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -244,16 +267,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "331083",
         "season": null,
         "tiers": 2,
-        "title": "EB-10 Judgment of Iron",
+        "title": "Judgment of Iron",
         "url": "https://www.dmsguild.com/product/331083/?affiliate_id=171040"
     },
     {
         "apl": 8,
         "authors": [
+            "Will Doyle",
+            "Tony Porteous",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -265,16 +291,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 6.27,
+        "payWhatYouWant": false,
+        "price": 8.95,
         "product_id": "335587",
         "season": null,
         "tiers": 2,
-        "title": "EB-EP-02 Rolling Thunder",
+        "title": "Rolling Thunder",
         "url": "https://www.dmsguild.com/product/335587/?affiliate_id=171040"
     },
     {
         "apl": 11,
         "authors": [
+            "Tom \"Evhelm\" Donovan",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -286,16 +314,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "337947",
         "season": null,
         "tiers": 3,
-        "title": "EB-11 My Undying Heart",
+        "title": "My Undying Heart",
         "url": "https://www.dmsguild.com/product/337947/?affiliate_id=171040"
     },
     {
         "apl": 12,
         "authors": [
+            "Shawn Merwin",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -307,16 +337,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "342451",
         "season": null,
         "tiers": 3,
-        "title": "EB-12 The Waiting Game",
+        "title": "The Waiting Game",
         "url": "https://www.dmsguild.com/product/342451/?affiliate_id=171040"
     },
     {
         "apl": 13,
         "authors": [
+            "Rich Lescouflair",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -328,16 +360,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344584",
         "season": null,
         "tiers": 3,
-        "title": "EB-13 Stonefire",
+        "title": "Stonefire",
         "url": "https://www.dmsguild.com/product/344584/?affiliate_id=171040"
     },
     {
         "apl": 14,
         "authors": [
+            "Andy Dempz",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -349,11 +383,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "349669",
         "season": null,
         "tiers": 3,
-        "title": "EB-14 From Dust",
+        "title": "From Dust",
         "url": "https://www.dmsguild.com/product/349669/?affiliate_id=171040"
     },
     {
@@ -371,16 +406,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "352879",
         "season": null,
         "tiers": 3,
-        "title": "EB-15 Dream Eater",
+        "title": "Dream Eater",
         "url": "https://www.dmsguild.com/product/352879/?affiliate_id=171040"
     },
     {
         "apl": 16,
         "authors": [
+            "Bianca Bickford",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -392,16 +429,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "356496",
         "season": null,
         "tiers": 3,
-        "title": "EB-16 The Dragon Below",
+        "title": "The Dragon Below",
         "url": "https://www.dmsguild.com/product/356496/?affiliate_id=171040"
     },
     {
         "apl": 16,
         "authors": [
+            "Will Doyle",
+            "Tony Porteous",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -413,16 +453,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 6.27,
+        "payWhatYouWant": false,
+        "price": 8.95,
         "product_id": "361712",
         "season": null,
         "tiers": 3,
-        "title": "EB-EP-03 The Rising City",
+        "title": "The Rising City",
         "url": "https://www.dmsguild.com/product/361712/?affiliate_id=171040"
     },
     {
         "apl": 17,
         "authors": [
+            "Richard Green",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -434,16 +476,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "363337",
         "season": null,
         "tiers": 4,
-        "title": "EB-17 The Final Tribute",
+        "title": "The Final Tribute",
         "url": "https://www.dmsguild.com/product/363337/?affiliate_id=171040"
     },
     {
         "apl": 18,
         "authors": [
+            "Alan Patrick",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -455,16 +499,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "368629",
         "season": null,
         "tiers": 4,
-        "title": "EB-18 Scales of War",
+        "title": "Scales of War",
         "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"
     },
     {
         "apl": 19,
         "authors": [
+            "Andy Dempz",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -476,16 +522,19 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "372377",
         "season": null,
         "tiers": 4,
-        "title": "EB-19 Back to the Mud",
+        "title": "Back to the Mud",
         "url": "https://www.dmsguild.com/product/372377/?affiliate_id=171040"
     },
     {
         "apl": 20,
         "authors": [
+            "Will Doyle",
+            "Laura Thompson",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -497,16 +546,18 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": 6.27,
+        "payWhatYouWant": false,
+        "price": 8.95,
         "product_id": "379297",
         "season": null,
         "tiers": 4,
-        "title": "EB-EP-04 The Last War",
+        "title": "The Last War",
         "url": "https://www.dmsguild.com/product/379297/?affiliate_id=171040"
     },
     {
         "apl": 20,
         "authors": [
+            "Will Doyle",
             "D&D Adventurers League"
         ],
         "campaigns": [
@@ -518,11 +569,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "384724",
         "season": null,
         "tiers": 4,
-        "title": "EB-20 Old Scores",
+        "title": "Old Scores",
         "url": "https://www.dmsguild.com/product/384724/?affiliate_id=171040"
     },
     {
