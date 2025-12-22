@@ -12,9 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.49,
     "product_id": "367964",
+    "season": "Icewind Dale",
+    "seed": "Awake and Afraid",
     "tiers": 1,
-    "title": "DC-PoA-CONMAR-14 Seal Team Sticks",
-    "url": "https://www.dmsguild.com/product/367964/DCPoACONMAR14-Seal-Team-Sticks?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Awake and Afraid"
+    "title": "Seal Team Sticks",
+    "url": "https://www.dmsguild.com/product/367964/?affiliate_id=171040"
 }

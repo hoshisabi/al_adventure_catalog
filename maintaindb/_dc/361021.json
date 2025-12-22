@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-DCAF10 The Lute Run",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 5.0,
     "product_id": "361021",
+    "season": null,
+    "seed": "X Marks the Spot",
     "tiers": 2,
-    "title": "DC-PoA-DCAF10 The Lute Run",
-    "url": "https://www.dmsguild.com/product/361021/DCPoADCAF10-The-Lute-Run?filters=0_0_100057_0_0_0_0_0",
-    "seed": "X Marks the Spot"
+    "title": "The Lute Run",
+    "url": "https://www.dmsguild.com/product/361021/?affiliate_id=171040"
 }

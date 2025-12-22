@@ -1,8 +1,8 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope"
+        "Te\u00e4n Stanhope"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -12,10 +12,13 @@
     "full_title": "DC-PoA-CTH2 Searching for a Shorebird",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "369037",
+    "season": null,
+    "seed": "Snipe Hunt",
     "tiers": 1,
-    "title": "DC-PoA-CTH2 Searching for a Shorebird",
-    "url": "https://www.dmsguild.com/product/369037/DCPoACTH2-Searching-for-a-Shorebird?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Snipe Hunt"
+    "title": "Searching for a Shorebird",
+    "url": "https://www.dmsguild.com/product/369037/?affiliate_id=171040"
 }

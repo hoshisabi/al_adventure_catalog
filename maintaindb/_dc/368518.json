@@ -12,11 +12,13 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 0.66,
+    "payWhatYouWant": true,
+    "price": 1.0,
     "product_id": "368518",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
+    "suggestedPrice": 1.0,
     "tiers": 1,
-    "title": "DC-PoA-JCDC-01 Honey... Where's The Money?",
-    "url": "https://www.dmsguild.com/product/368518/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "Honey... Where's The Money?",
+    "url": "https://www.dmsguild.com/product/368518/?affiliate_id=171040"
 }

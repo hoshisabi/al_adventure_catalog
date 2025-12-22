@@ -11,10 +11,14 @@
     "full_title": "DC-POA-Z-T1S1 Auril's Worship",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 2.0,
     "product_id": "369057",
+    "season": null,
+    "seed": "I'd Like to Make a Return Please",
+    "suggestedPrice": 2.0,
     "tiers": 1,
-    "title": "DC-POA-Z-T1S1 Auril's Worship",
-    "url": "https://www.dmsguild.com/product/369057/DCPOAZT1S1-Aurils-Worship?filters=0_0_100057_0_0_0_0_0",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "Auril's Worship",
+    "url": "https://www.dmsguild.com/product/369057/?affiliate_id=171040"
 }

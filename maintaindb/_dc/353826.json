@@ -14,11 +14,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 5.99,
     "product_id": "353826",
     "season": "Icewind Dale",
+    "seed": "Special",
     "tiers": 1,
-    "title": "DC-PoA-JGD-05 Shadows Under Ice",
-    "url": "https://www.dmsguild.com/product/353826/?affiliate_id=171040",
-    "seed": "Special"
+    "title": "Shadows Under Ice",
+    "url": "https://www.dmsguild.com/product/353826/?affiliate_id=171040"
 }

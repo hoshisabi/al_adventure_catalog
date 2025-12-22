@@ -11,10 +11,13 @@
     "full_title": "DC-POA-ROG-1 The Frozen Path To Easthaven",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 0.0,
     "product_id": "343753",
+    "season": "Icewind Dale",
+    "seed": "Caravanning!",
     "tiers": 2,
-    "title": "DC-POA-ROG-1 The Frozen Path To Easthaven",
-    "url": "https://www.dmsguild.com/product/343753/DCPOAROG1-The-Frozen-Path-To-Easthaven?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Caravanning!"
+    "title": "The Frozen Path To Easthaven",
+    "url": "https://www.dmsguild.com/product/343753/?affiliate_id=171040"
 }

@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 1.5,
     "product_id": "368980",
     "season": "Icewind Dale",
+    "seed": "In Too Deep",
     "tiers": 1,
-    "title": "DC-POA-JAT-04 The Enemy Mine - Kobold Craziness part 4",
-    "url": "https://www.dmsguild.com/product/368980/?affiliate_id=171040",
-    "seed": "In Too Deep"
+    "title": "The Enemy Mine: Kobold Craziness part 4",
+    "url": "https://www.dmsguild.com/product/368980/?affiliate_id=171040"
 }
