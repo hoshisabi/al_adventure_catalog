@@ -1570,7 +1570,7 @@
         "product_id": "228107",
         "season": null,
         "tiers": 3,
-        "title": "- Death In The Ruins",
+        "title": "Death In The Ruins",
         "url": "https://www.dmsguild.com/product/228107/?affiliate_id=171040"
     },
     {
@@ -1679,7 +1679,7 @@
         "product_id": "230629",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-24 PHLAN 2-3 The Royal We",
+        "title": "PHLAN 2-3 The Royal We",
         "url": "https://www.dmsguild.com/product/230629/?affiliate_id=171040"
     },
     {
@@ -1727,6 +1727,29 @@
         "tiers": 1,
         "title": "The Cornflower Hive",
         "url": "https://www.dmsguild.com/product/232430/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "David Morris",
+            "MOGC"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-Anime-1-1",
+        "date_created": "20180313",
+        "full_title": "Legend of the Sword Bandit Surprise",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
+        "product_id": "236786",
+        "season": null,
+        "tiers": 1,
+        "title": "Legend of the Sword Bandit Surprise",
+        "url": "https://www.dmsguild.com/product/236786/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4566,7 +4589,7 @@
         "product_id": "259623",
         "season": null,
         "tiers": 2,
-        "title": "ZETH-03 Six Swords Unbound CCC-HAL-03",
+        "title": "Six Swords Unbound (ZETH-03)",
         "url": "https://www.dmsguild.com/product/259623/?affiliate_id=171040"
     },
     {
@@ -4588,7 +4611,7 @@
         "product_id": "259625",
         "season": null,
         "tiers": 2,
-        "title": "ZETH-02 Six Striking Swords CCC-HAL-02",
+        "title": "Six Striking Swords (ZETH-02)",
         "url": "https://www.dmsguild.com/product/259625/?affiliate_id=171040"
     },
     {
@@ -5150,7 +5173,7 @@
         "product_id": "262639",
         "season": null,
         "tiers": 3,
-        "title": "Contact Part One of the Beholder Corps Series",
+        "title": "Contact (Part One of the Beholder Corps Series)",
         "url": "https://www.dmsguild.com/product/262639/?affiliate_id=171040"
     },
     {
@@ -5246,7 +5269,7 @@
         "product_id": "262922",
         "season": null,
         "tiers": 1,
-        "title": "Flooded Dreams Part One of the Olma Series",
+        "title": "Flooded Dreams (Part One of the Olma Series)",
         "url": "https://www.dmsguild.com/product/262922/?affiliate_id=171040"
     },
     {
@@ -5269,7 +5292,7 @@
         "product_id": "262924",
         "season": null,
         "tiers": 1,
-        "title": "Ill Met in Ylraphon Part Two of the Olma Series",
+        "title": "Ill Met in Ylraphon (Part Two of the Olma Series)",
         "url": "https://www.dmsguild.com/product/262924/?affiliate_id=171040"
     },
     {
@@ -5292,7 +5315,7 @@
         "product_id": "262926",
         "season": null,
         "tiers": 1,
-        "title": "What Lies beneath Ylraphon Part Three of the Olma Series",
+        "title": "What Lies beneath Ylraphon (Part Three of the Olma Series)",
         "url": "https://www.dmsguild.com/product/262926/?affiliate_id=171040"
     },
     {
@@ -6207,7 +6230,7 @@
         "product_id": "278019",
         "season": null,
         "tiers": 1,
-        "title": "Matters of Life and Death Part Two of the DAGGR Series",
+        "title": "Matters of Life and Death (Part Two of the DAGGR Series)",
         "url": "https://www.dmsguild.com/product/278019/?affiliate_id=171040"
     },
     {
@@ -6417,7 +6440,7 @@
         "product_id": "281686",
         "season": null,
         "tiers": 2,
-        "title": "Thralls of Zuggtmoy The Myconic Nidus",
+        "title": "Thralls of Zuggtmoy: The Myconic Nidus",
         "url": "https://www.dmsguild.com/product/281686/?affiliate_id=171040"
     },
     {
@@ -7101,7 +7124,7 @@
         "product_id": "293948",
         "season": null,
         "tiers": 1,
-        "title": ", \"The Gift of Arvandor\"",
+        "title": "The Gift of Arvandor",
         "url": "https://www.dmsguild.com/product/293948/?affiliate_id=171040"
     },
     {
@@ -7141,28 +7164,6 @@
         "tiers": 2,
         "title": "CCC-TAROT02-02 Guardian's Scourge",
         "url": "https://www.dmsguild.com/product/293956/CCCTAROT0202-Guardians-Scourge?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Monkey Mind Tabletop",
-            "John \"Henry\" Hussman"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-MMT",
-        "date_created": "20191122",
-        "full_title": "CCC-MMT 01-02: A Little Competition Never Hurt Anyone",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 2.0,
-        "product_id": "294627",
-        "season": null,
-        "tiers": 1,
-        "title": "CCC-MMT 01-02 A Little Competition Never Hurt Anyone",
-        "url": "https://www.dmsguild.com/product/294627/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -7205,7 +7206,7 @@
         "product_id": "295548",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-MOON4-2 Dangerous Dernall",
+        "title": "Dangerous Dernall",
         "url": "https://www.dmsguild.com/product/295548/?affiliate_id=171040"
     },
     {
@@ -7360,7 +7361,7 @@
         "product_id": "295801",
         "season": null,
         "tiers": 2,
-        "title": "CCC-ALMOG ESC03-02 Mind Blank",
+        "title": "Mind Blank (ESC03-02)",
         "url": "https://www.dmsguild.com/product/295801/?affiliate_id=171040"
     },
     {
@@ -8656,7 +8657,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-HERO-BK-02",
+        "code": "CCC-HERO-BK-02-03",
         "date_created": "20200331",
         "full_title": "CCC-HERO-BK-02-03 Winters Bane",
         "hours": "4",
@@ -8667,7 +8668,7 @@
         "product_id": "308337",
         "season": null,
         "tiers": 2,
-        "title": "03 Winters Bane",
+        "title": "Winters Bane",
         "url": "https://www.dmsguild.com/product/308337/?affiliate_id=171040"
     },
     {
@@ -8704,7 +8705,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-HERO-BK-02",
+        "code": "CCC-HERO-BK-02-05",
         "date_created": "20200401",
         "full_title": "CCC-HERO-BK-02-05 Morsels for the Monstrosity",
         "hours": "2-4",
@@ -8715,7 +8716,7 @@
         "product_id": "308343",
         "season": null,
         "tiers": 1,
-        "title": "05 Morsels for the Monstrosity",
+        "title": "Morsels for the Monstrosity",
         "url": "https://www.dmsguild.com/product/308343/?affiliate_id=171040"
     },
     {
@@ -10680,7 +10681,7 @@
         "product_id": "334450",
         "season": null,
         "tiers": 1,
-        "title": "- Pharmacist Wanted",
+        "title": "Pharmacist Wanted",
         "url": "https://www.dmsguild.com/product/334450/?affiliate_id=171040"
     },
     {
@@ -11756,7 +11757,7 @@
         "product_id": "341259",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GARY-17 A Simple Plan",
+        "title": "A Simple Plan",
         "url": "https://www.dmsguild.com/product/341259/?affiliate_id=171040"
     },
     {
@@ -11936,11 +11937,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344627",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GHC-BK03-01 Assassination in Oeble",
+        "title": "Assassination in Oeble",
         "url": "https://www.dmsguild.com/product/344627/?affiliate_id=171040"
     },
     {
@@ -12269,7 +12271,7 @@
         "product_id": "357635",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON11-1 A Darkened City",
+        "title": "A Darkened City",
         "url": "https://www.dmsguild.com/product/357635/?affiliate_id=171040"
     },
     {
@@ -12405,7 +12407,7 @@
         "product_id": "358291",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-MOON12-3 Tempest of Malice",
+        "title": "Tempest of Malice",
         "url": "https://www.dmsguild.com/product/358291/?affiliate_id=171040"
     },
     {
@@ -12489,11 +12491,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "369762",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON14-1 Hearts Amiss",
+        "title": "Hearts Amiss",
         "url": "https://www.dmsguild.com/product/369762/?affiliate_id=171040"
     },
     {
