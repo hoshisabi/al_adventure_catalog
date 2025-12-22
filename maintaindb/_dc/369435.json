@@ -12,9 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.49,
     "product_id": "369435",
+    "season": "Icewind Dale",
+    "seed": "Winter Over",
     "tiers": 2,
-    "title": "DC-PoA-CONMAR-11 The Dragonship Approaches",
-    "url": "https://www.dmsguild.com/product/369435/DCPoACONMAR11-The-Dragonship-Approaches?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Winter Over"
+    "title": "The Dragonship Approaches",
+    "url": "https://www.dmsguild.com/product/369435/?affiliate_id=171040"
 }

@@ -11,10 +11,13 @@
     "full_title": "DC-POA-Coulee21-03 Beasts of Burden",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.95,
     "product_id": "369281",
+    "season": "Icewind Dale",
+    "seed": "Awake and Afraid",
     "tiers": 1,
-    "title": "DC-POA-Coulee21-03 Beasts of Burden",
-    "url": "https://www.dmsguild.com/product/369281/DCPOACoulee2103-Beasts-of-Burden?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Awake and Afraid"
+    "title": "Beasts of Burden",
+    "url": "https://www.dmsguild.com/product/369281/?affiliate_id=171040"
 }

@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-OGG-02 Judge and Jury",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "374070",
+    "season": "Icewind Dale",
+    "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "DC-PoA-OGG-02 Judge and Jury",
-    "url": "https://www.dmsguild.com/product/374070/DCPoAOGG02-Judge-and-Jury?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Out of the Woods"
+    "title": "Judge and Jury",
+    "url": "https://www.dmsguild.com/product/374070/?affiliate_id=171040"
 }
