@@ -1,6 +1,9 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "TheTrickster314",
+        "Brenden Barth"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +13,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 0.8,
     "product_id": "528893",
+    "season": null,
     "tiers": null,
     "title": "Unremarkable Relics 9 - A Treasury of 10 Odd Magic Items That Are Also Trivial",
-    "url": "https://www.dmsguild.com/product/528893/Unremarkable-Relics-9--A-Treasury-of-10-Odd-Magic-Items-That-Are-Also-Trivial"
+    "url": "https://www.dmsguild.com/product/528893/?affiliate_id=171040"
 }

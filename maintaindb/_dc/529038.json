@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Sewage Orc"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,12 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": true,
+    "price": 0.5,
     "product_id": "529038",
+    "season": null,
+    "suggestedPrice": 0.5,
     "tiers": null,
     "title": "Morga Skullshoulder One Page NPC",
-    "url": "https://www.dmsguild.com/product/529038/Morga-Skullshoulder-One-Page-NPC"
+    "url": "https://www.dmsguild.com/product/529038/?affiliate_id=171040"
 }

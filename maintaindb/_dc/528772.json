@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Tera Jade"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 0.5,
     "product_id": "528772",
+    "season": null,
     "tiers": null,
     "title": "The Blue Sun Inn",
-    "url": "https://www.dmsguild.com/product/528772/The-Blue-Sun-Inn"
+    "url": "https://www.dmsguild.com/product/528772/?affiliate_id=171040"
 }

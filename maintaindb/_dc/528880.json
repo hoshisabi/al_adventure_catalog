@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Sewage Orc"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "528880",
+    "season": null,
     "tiers": null,
     "title": "Sofina\u2019s Tomb of Gore - A Necromancers Spellbook",
-    "url": "https://www.dmsguild.com/product/528880/Sofinas-Tomb-of-Gore--A-Necromancers-Spellbook"
+    "url": "https://www.dmsguild.com/product/528880/?affiliate_id=171040"
 }

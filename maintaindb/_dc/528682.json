@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "B. Foster"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "528682",
+    "season": null,
     "tiers": null,
     "title": "Rune Scribe Artificer",
-    "url": "https://www.dmsguild.com/product/528682/Rune-Scribe-Artificer"
+    "url": "https://www.dmsguild.com/product/528682/?affiliate_id=171040"
 }

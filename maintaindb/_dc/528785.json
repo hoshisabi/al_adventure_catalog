@@ -1,6 +1,10 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Jeff Stevens Games",
+        "Jeff C. Stevens",
+        "Remley Farr"
+    ],
     "campaigns": [
         null
     ],
@@ -9,9 +13,12 @@
     "full_title": "Kip & Wingo vs. Evil (Adventure)",
     "hours": "4",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "1",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "528785",
+    "season": null,
     "tiers": null,
     "title": "Kip & Wingo vs. Evil Adventure",
-    "url": "https://www.dmsguild.com/product/528785/Kip--Wingo-vs-Evil-Adventure"
+    "url": "https://www.dmsguild.com/product/528785/?affiliate_id=171040"
 }

@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Ricaburn"
+    ],
     "campaigns": [
         null
     ],
@@ -9,9 +11,12 @@
     "full_title": "Cursed Family",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "4",
+    "payWhatYouWant": false,
+    "price": 4.49,
     "product_id": "528871",
+    "season": null,
     "tiers": null,
     "title": "Cursed Family",
-    "url": "https://www.dmsguild.com/product/528871/Cursed-Family"
+    "url": "https://www.dmsguild.com/product/528871/?affiliate_id=171040"
 }

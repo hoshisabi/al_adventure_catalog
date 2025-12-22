@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Derek Long"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 9.99,
     "product_id": "528902",
+    "season": null,
     "tiers": null,
     "title": "DB1 - The Burneal and the North",
-    "url": "https://www.dmsguild.com/product/528902/DB1--The-Burneal-and-the-North"
+    "url": "https://www.dmsguild.com/product/528902/?affiliate_id=171040"
 }

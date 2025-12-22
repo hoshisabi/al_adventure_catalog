@@ -1,6 +1,9 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Angela Bradley",
+        "Spooky Action Games"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +13,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "528958",
+    "season": null,
     "tiers": null,
     "title": "Tribal Village -animated map pack w/Fantasy Grounds support - TTRPG Map",
-    "url": "https://www.dmsguild.com/product/528958/Tribal-Village-animated-map-pack-w-Fantasy-Grounds-support--TTRPG-Map"
+    "url": "https://www.dmsguild.com/product/528958/?affiliate_id=171040"
 }

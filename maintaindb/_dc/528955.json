@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "DFMS"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "528955",
+    "season": null,
     "tiers": null,
     "title": "Domains Detailed Klorr",
-    "url": "https://www.dmsguild.com/product/528955/Domains-Detailed-Klorr"
+    "url": "https://www.dmsguild.com/product/528955/?affiliate_id=171040"
 }

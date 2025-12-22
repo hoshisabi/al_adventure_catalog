@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Fantasy Monkeys"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,12 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": true,
+    "price": 1.0,
     "product_id": "528875",
+    "season": null,
+    "suggestedPrice": 1.0,
     "tiers": null,
     "title": "Spores Of Ganzooza",
-    "url": "https://www.dmsguild.com/product/528875/Spores-Of-Ganzooza"
+    "url": "https://www.dmsguild.com/product/528875/?affiliate_id=171040"
 }
