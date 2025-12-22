@@ -12,10 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.99,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "315751",
     "season": null,
     "tiers": 1,
-    "title": "CCC-GAD02-01 The Monster Within",
+    "title": "The Monster Within",
     "url": "https://www.dmsguild.com/product/315751/?affiliate_id=171040"
 }

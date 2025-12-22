@@ -14,9 +14,11 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "291011",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-JGD-02 Tortle Crossing",
-    "url": "https://www.dmsguild.com/product/291011?affiliate_id=171040"
+    "title": "Tortle Crossing",
+    "url": "https://www.dmsguild.com/product/291011/?affiliate_id=171040"
 }

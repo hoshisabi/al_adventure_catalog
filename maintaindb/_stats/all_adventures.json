@@ -2536,75 +2536,6 @@
         "url": "https://www.dmsguild.com/product/209228/?affiliate_id=171040"
     },
     {
-        "apl": 7,
-        "authors": [
-            "Thomas Valley",
-            "Luke Gygax"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-GARY-01",
-        "date_created": "20170414",
-        "full_title": "CCC-GARY01: A Night to Remember",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "payWhatYouWant": false,
-        "price": 4.99,
-        "product_id": "209690",
-        "season": null,
-        "tiers": 2,
-        "title": "CCC-GARY01 A Night to Remember",
-        "url": "https://www.dmsguild.com/product/209690/?affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "Thomas Valley",
-            "Luke Gygax"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-GARY-02",
-        "date_created": "20170414",
-        "full_title": "CCC-GARY02: To Find a Way Out",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "payWhatYouWant": false,
-        "price": 4.99,
-        "product_id": "209692",
-        "season": null,
-        "tiers": 2,
-        "title": "CCC-GARY02 To Find a Way Out",
-        "url": "https://www.dmsguild.com/product/209692/?affiliate_id=171040"
-    },
-    {
-        "apl": 7,
-        "authors": [
-            "Thomas Valley",
-            "Luke Gygax"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-GARY-03",
-        "date_created": "20170414",
-        "full_title": "CCC-GARY03: Oh, We're In It Now",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "payWhatYouWant": false,
-        "price": 4.99,
-        "product_id": "209693",
-        "season": null,
-        "tiers": 2,
-        "title": "CCC-GARY03 Oh, We're In It Now",
-        "url": "https://www.dmsguild.com/product/209693/?affiliate_id=171040"
-    },
-    {
         "apl": 1,
         "authors": [
             "David Morris",
@@ -2918,7 +2849,7 @@
         "product_id": "216992",
         "season": null,
         "tiers": 1,
-        "title": "CCC-DDSC-01 Murder at The Stop",
+        "title": "Murder at The Stop",
         "url": "https://www.dmsguild.com/product/216992/?affiliate_id=171040"
     },
     {
@@ -10443,16 +10374,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-GSP-OOZE01-01-OOZING-HUNGER",
+        "code": "CCC-GSP-OOZE01-01",
         "date_created": "20190820",
         "full_title": "CCC-GSP-OOZE01-01-Oozing-Hunger",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "285730",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-GSP-OOZE01-01-Oozing-Hunger",
-        "url": "https://www.dmsguild.com/product/285730/CCCGSPOOZE0101OozingHunger?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Oozing-Hunger",
+        "url": "https://www.dmsguild.com/product/285730/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -10510,11 +10444,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
         "price": 2.99,
         "product_id": "286221",
         "season": null,
+        "suggestedPrice": 2.99,
         "tiers": 2,
-        "title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
+        "title": "Codex Venator - The Last Hunter",
         "url": "https://www.dmsguild.com/product/286221/?affiliate_id=171040"
     },
     {
@@ -10716,52 +10652,6 @@
         "tiers": 2,
         "title": "Infernal Insurgency",
         "url": "https://www.dmsguild.com/product/290898/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Fenway Jones",
-            "Lucas Curell",
-            "Chance Curell"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-JGD-02",
-        "date_created": "20191008",
-        "full_title": "CCC-JGD-02 Tortle Crossing",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "291011",
-        "tiers": 1,
-        "title": "CCC-JGD-02 Tortle Crossing",
-        "url": "https://www.dmsguild.com/product/291011?affiliate_id=171040"
-    },
-    {
-        "apl": 8,
-        "authors": [
-            "Chance Curell",
-            "Lucas Curell",
-            "Fenway Jones"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-JGD-03",
-        "date_created": "20191008",
-        "full_title": "CCC-JGD-03 Tortle Tribulations",
-        "hours": "2-4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "payWhatYouWant": false,
-        "price": 3.99,
-        "product_id": "291016",
-        "season": null,
-        "tiers": 2,
-        "title": "CCC-JGD-03 Tortle Tribulations",
-        "url": "https://www.dmsguild.com/product/291016/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -11289,7 +11179,8 @@
         "full_title": "When Mages Fall (CCC-OA-01-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "296439",
         "season": null,
@@ -11568,25 +11459,6 @@
         "url": "https://www.dmsguild.com/product/298153/CCCWWC08-Pool-of-Annihilation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": 8,
-        "authors": [
-            "Andrew Bishkinskyi"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "CCC-UNITE-05",
-        "date_created": "20200102",
-        "full_title": "House of Moonlight (CCC-UNITE-05)",
-        "hours": "4-6",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "298232",
-        "tiers": 2,
-        "title": "House of Moonlight CCC-UNITE-05",
-        "url": "https://www.dmsguild.com/product/298232/House-of-Moonlight-CCCUNITE05-?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": null,
         "authors": [
             "Jeff C. Stevens",
@@ -11839,11 +11711,14 @@
         "full_title": "CCC-RCC-01-02 The King of Thar",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "299976",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-RCC-01-02 The King of Thar",
-        "url": "https://www.dmsguild.com/product/299976/CCCRCC0102-The-King-of-Thar?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The King of Thar",
+        "url": "https://www.dmsguild.com/product/299976/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -11858,11 +11733,14 @@
         "full_title": "CCC-RCC-01-03 Chains of Desperation",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "299977",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-RCC-01-03 Chains of Desperation",
-        "url": "https://www.dmsguild.com/product/299977/CCCRCC0103-Chains-of-Desperation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Chains of Desperation",
+        "url": "https://www.dmsguild.com/product/299977/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -11877,11 +11755,14 @@
         "full_title": "CCC-RCC-01-04 Black Bliss",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "299978",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-RCC-01-04 Black Bliss",
-        "url": "https://www.dmsguild.com/product/299978/CCCRCC0104-Black-Bliss?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Black Bliss",
+        "url": "https://www.dmsguild.com/product/299978/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -11896,11 +11777,14 @@
         "full_title": "CCC-RCC-01-06 The Handfasting",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "11",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "299979",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-RCC-01-06 The Handfasting",
-        "url": "https://www.dmsguild.com/product/299979/CCCRCC0106-The-Handfasting?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Handfasting",
+        "url": "https://www.dmsguild.com/product/299979/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -11916,7 +11800,8 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.99,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "300573",
         "season": null,
         "tiers": 2,
@@ -13870,11 +13755,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.99,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "315751",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GAD02-01 The Monster Within",
+        "title": "The Monster Within",
         "url": "https://www.dmsguild.com/product/315751/?affiliate_id=171040"
     },
     {
@@ -13935,11 +13821,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "315764",
         "season": null,
         "tiers": 3,
-        "title": "CCC-GAD02-03 Arena of Champions",
+        "title": "Arena of Champions",
         "url": "https://www.dmsguild.com/product/315764/?affiliate_id=171040"
     },
     {
@@ -14322,11 +14209,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.19,
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "320942",
         "season": null,
         "tiers": 2,
-        "title": "CCC-CNE-006 Burst!",
+        "title": "Burst!",
         "url": "https://www.dmsguild.com/product/320942/?affiliate_id=171040"
     },
     {
@@ -14528,11 +14416,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 2.39,
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "322127",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BFG01-01 A House Divided",
+        "title": "A House Divided",
         "url": "https://www.dmsguild.com/product/322127/?affiliate_id=171040"
     },
     {
@@ -14693,11 +14582,14 @@
         "full_title": "House of Blades (CCC-HAL-05)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "323804",
+        "season": null,
         "tiers": 2,
         "title": "House of Blades CCC-HAL-05",
-        "url": "https://www.dmsguild.com/product/323804/House-of-Blades-CCCHAL05?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/323804/?affiliate_id=171040"
     },
     {
         "apl": 8,
