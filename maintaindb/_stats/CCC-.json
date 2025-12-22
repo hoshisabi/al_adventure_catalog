@@ -3543,10 +3543,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "252563",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-TRI-16 Ph'theev, the Despondent Part One of the Psionic Menace Series",
-        "url": "https://www.dmsguild.com/product/252563/CCCTRI16-Phtheev-the-Despondent-Part-One-of-the-Psionic-Menace-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Ph'theev, the Despondent Part One of the Psionic Menace Series",
+        "url": "https://www.dmsguild.com/product/252563/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3563,10 +3566,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "252565",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-TRI-17 Ph'theev, Unbound! Part Two of the Psionic Menace Series",
-        "url": "https://www.dmsguild.com/product/252565/CCCTRI17-Phtheev-Unbound-Part-Two-of-the-Psionic-Menace-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Ph'theev, Unbound! Part Two of the Psionic Menace Series",
+        "url": "https://www.dmsguild.com/product/252565/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3583,11 +3589,12 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "252566",
         "season": null,
         "tiers": 1,
-        "title": "CCC-TRI-18 Pros & Cons An Original Adventure by The Role Initiative",
+        "title": "Pros & Cons An Original Adventure by The Role Initiative",
         "url": "https://www.dmsguild.com/product/252566/?affiliate_id=171040"
     },
     {
@@ -3924,11 +3931,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "254018",
         "season": null,
         "tiers": 2,
-        "title": "CCC-CNE-03 Into The Depths",
+        "title": "Into The Depths",
         "url": "https://www.dmsguild.com/product/254018/?affiliate_id=171040"
     },
     {
@@ -3945,11 +3953,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "254019",
         "season": null,
         "tiers": 2,
-        "title": "CCC-CNE-02 Before The Hatch",
+        "title": "Before The Hatch",
         "url": "https://www.dmsguild.com/product/254019/?affiliate_id=171040"
     },
     {
@@ -3966,11 +3975,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "254041",
         "season": null,
         "tiers": 2,
-        "title": "CCC-CNE-01 The Treasure Beneath",
+        "title": "The Treasure Beneath",
         "url": "https://www.dmsguild.com/product/254041/?affiliate_id=171040"
     },
     {
@@ -6907,10 +6917,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "286424",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SCAR02-02 Nature's Defense",
-        "url": "https://www.dmsguild.com/product/286424/CCCSCAR0202-Natures-Defense?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Nature's Defense",
+        "url": "https://www.dmsguild.com/product/286424/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -7778,11 +7791,14 @@
         "full_title": "CCC-ELF-03-01 Death's Claw",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "299496",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-ELF-03-01 Death's Claw",
-        "url": "https://www.dmsguild.com/product/299496/CCCELF0301-Deaths-Claw?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Death's Claw",
+        "url": "https://www.dmsguild.com/product/299496/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -7792,16 +7808,19 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-ELF",
+        "code": "CCC-ELF-03-02",
         "date_created": "20200429",
-        "full_title": "CCC-ELF 03-02 Echoes of Rage",
-        "hours": "2",
+        "full_title": "CCC-ELF-03-02 Echoes of Rage",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.95,
         "product_id": "299501",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-ELF 03-02 Echoes of Rage",
-        "url": "https://www.dmsguild.com/product/299501/CCCELF-0302-Echoes-of-Rage?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Echoes of Rage",
+        "url": "https://www.dmsguild.com/product/299501/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -7814,13 +7833,16 @@
         "code": "CCC-SAF01-01",
         "date_created": "20200110",
         "full_title": "CCC-SAF01-01 Between Garrock and a Hard Place",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "299621",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SAF01-01 Between Garrock and a Hard Place",
-        "url": "https://www.dmsguild.com/product/299621/CCCSAF0101-Between-Garrock-and-a-Hard-Place?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Between Garrock and a Hard Place",
+        "url": "https://www.dmsguild.com/product/299621/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -7835,11 +7857,14 @@
         "full_title": "CCC-TRI-20 Breaking Yûlash (Part Five of the Yûlash Series)",
         "hours": "",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "299817",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-20 Breaking Yûlash Part Five of the Yûlash Series",
-        "url": "https://www.dmsguild.com/product/299817/CCCTRI20-Breaking-Yulash-Part-Five-of-the-Yulash-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Breaking Yûlash Part Five of the Yûlash Series",
+        "url": "https://www.dmsguild.com/product/299817/?affiliate_id=171040"
     },
     {
         "apl": 15,
@@ -8274,13 +8299,16 @@
         "code": "CCC-RPSG-02",
         "date_created": "20200318",
         "full_title": "CCC-RPSG-02 Ooze Next?",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "306869",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-RPSG-02 Ooze Next?",
-        "url": "https://www.dmsguild.com/product/306869/CCCRPSG02-Ooze-Next?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Ooze Next?",
+        "url": "https://www.dmsguild.com/product/306869/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -8405,11 +8433,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "307811",
         "season": null,
         "tiers": 1,
-        "title": "CCC - FCC - 001 Isle of Moss",
+        "title": "Isle of Moss",
         "url": "https://www.dmsguild.com/product/307811/?affiliate_id=171040"
     },
     {
@@ -8535,10 +8564,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "308342",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-HERO-BK-02-04 Lanterns at Dusk",
-        "url": "https://www.dmsguild.com/product/308342/CCCHEROBK0204-Lanterns-at-Dusk?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Lanterns at Dusk",
+        "url": "https://www.dmsguild.com/product/308342/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -8713,10 +8745,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "309308",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-WWC-10 Brental's Roads Scholars",
-        "url": "https://www.dmsguild.com/product/309308/CCCWWC10-Brentals-Roads-Scholars?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Brental's Roads Scholars",
+        "url": "https://www.dmsguild.com/product/309308/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -9092,11 +9127,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 6.99,
         "product_id": "312580",
         "season": null,
         "tiers": 2,
-        "title": "CCC-VOTE-01-01 A Small Trifle",
+        "title": "A Small Trifle",
         "url": "https://www.dmsguild.com/product/312580/?affiliate_id=171040"
     },
     {
@@ -9196,10 +9232,13 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "313307",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-GHC-BK2-04 Wicked Little Things",
-        "url": "https://www.dmsguild.com/product/313307/CCCGHCBK204-Wicked-Little-Things?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Wicked Little Things",
+        "url": "https://www.dmsguild.com/product/313307/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -9742,13 +9781,16 @@
         "code": "CCC-MAG01-02",
         "date_created": "20200803",
         "full_title": "CCC-MAG01-02 Murder at the Festival!",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "320871",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-MAG01-02 Murder at the Festival!",
-        "url": "https://www.dmsguild.com/product/320871/CCCMAG0102-Murder-at-the-Festival?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Murder at the Festival!",
+        "url": "https://www.dmsguild.com/product/320871/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -9943,17 +9985,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-BFG01-02-",
+        "code": "CCC-BFG01-02",
         "date_created": "20200807",
         "full_title": "CCC-BFG01-02: Secrets of the Moon",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "322163",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BFG01-02 Secrets of the Moon",
+        "title": "Secrets of the Moon",
         "url": "https://www.dmsguild.com/product/322163/?affiliate_id=171040"
     },
     {
@@ -10033,11 +10076,14 @@
         "full_title": "CCC-DES-03-01 A Snip Here, a Stitch There",
         "hours": "4-6",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 7.99,
         "product_id": "322760",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-DES-03-01 A Snip Here, a Stitch There",
-        "url": "https://www.dmsguild.com/product/322760/CCCDES0301-A-Snip-Here-a-Stitch-There?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Snip Here, a Stitch There",
+        "url": "https://www.dmsguild.com/product/322760/?affiliate_id=171040"
     },
     {
         "apl": 8,
