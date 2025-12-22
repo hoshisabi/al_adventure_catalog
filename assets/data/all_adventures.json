@@ -11718,7 +11718,7 @@
         "product_id": "295871",
         "season": null,
         "tiers": 1,
-        "title": "01-03 Honorable Dissent: A Price of the Red War Adventure",
+        "title": "Honorable Dissent: A Price of the Red War Adventure",
         "url": "https://www.dmsguild.com/product/295871/?affiliate_id=171040"
     },
     {
@@ -11754,14 +11754,17 @@
         ],
         "code": "CCC-SQC-03-03",
         "date_created": "20191212",
-        "full_title": "CCC-SQC 03-03 Toxicity",
+        "full_title": "CCC-SQC-03-03 Toxicity",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.95,
         "product_id": "295878",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SQC 03-03 Toxicity",
-        "url": "https://www.dmsguild.com/product/295878/CCCSQC-0303-Toxicity?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Toxicity",
+        "url": "https://www.dmsguild.com/product/295878/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -11800,11 +11803,13 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": true,
         "price": 4.0,
         "product_id": "296435",
         "season": null,
+        "suggestedPrice": 4.0,
         "tiers": 1,
-        "title": "CCC‐ODFC03‐01 A Momentary Lapse of Reason",
+        "title": "A Momentary Lapse of Reason",
         "url": "https://www.dmsguild.com/product/296435/?affiliate_id=171040"
     },
     {
@@ -13626,11 +13631,14 @@
         "full_title": "CCC-BWM-007-01 The Beast Beneath",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "070",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "309754",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-BWM-007-01 The Beast Beneath",
-        "url": "https://www.dmsguild.com/product/309754/CCCBWM00701-The-Beast-Beneath?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Beast Beneath",
+        "url": "https://www.dmsguild.com/product/309754/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -16099,15 +16107,16 @@
         ],
         "code": "CCC-NUKE-02-01",
         "date_created": "20201104",
-        "full_title": "CCC-NUKE-02-01 \"One Fowl Soup\"",
+        "full_title": "CCC-NUKE-02-01 One Fowl Soup",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "334537",
         "season": null,
         "tiers": 1,
-        "title": "CCC-NUKE-02-01 \"One Fowl Soup\"",
+        "title": "One Fowl Soup",
         "url": "https://www.dmsguild.com/product/334537/?affiliate_id=171040"
     },
     {
@@ -16121,13 +16130,16 @@
         "code": "CCC-AETHER-02-03",
         "date_created": "20201103",
         "full_title": "CCC-AETHER-02-03 One Step Ahead",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "334544",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-AETHER-02-03 One Step Ahead",
-        "url": "https://www.dmsguild.com/product/334544/CCCAETHER0203-One-Step-Ahead?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "One Step Ahead",
+        "url": "https://www.dmsguild.com/product/334544/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16165,11 +16177,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.95,
         "product_id": "334613",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ARCON01-01 - Forest Song",
+        "title": "Forest Song",
         "url": "https://www.dmsguild.com/product/334613/?affiliate_id=171040"
     },
     {
@@ -16186,11 +16199,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.49,
         "product_id": "334674",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ARCON01-02 - A Whale of a Tale",
+        "title": "A Whale of a Tale",
         "url": "https://www.dmsguild.com/product/334674/?affiliate_id=171040"
     },
     {
@@ -16206,11 +16220,14 @@
         "full_title": "CCC-ARCANA-02 Seclusion",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "334689",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-ARCANA-02 Seclusion",
-        "url": "https://www.dmsguild.com/product/334689/CCCARCANA02-Seclusion?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Seclusion",
+        "url": "https://www.dmsguild.com/product/334689/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16225,11 +16242,14 @@
         "full_title": "CCC-ARCANA-01 The Phantom Pursuit",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "334713",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-ARCANA-01 The Phantom Pursuit",
-        "url": "https://www.dmsguild.com/product/334713/CCCARCANA01-The-Phantom-Pursuit?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Phantom Pursuit",
+        "url": "https://www.dmsguild.com/product/334713/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -16244,11 +16264,14 @@
         "full_title": "CCC-DES-04-01 A Hellish Haul",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "202",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "334715",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-DES-04-01 A Hellish Haul",
-        "url": "https://www.dmsguild.com/product/334715/CCCDES0401-A-Hellish-Haul?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Hellish Haul",
+        "url": "https://www.dmsguild.com/product/334715/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16263,11 +16286,14 @@
         "full_title": "CCC-DES-04-02 A Hell of a Party",
         "hours": "4-6",
         "is_adventure": true,
-        "level_range": "202",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "334716",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-DES-04-02 A Hell of a Party",
-        "url": "https://www.dmsguild.com/product/334716/CCCDES0402-A-Hell-of-a-Party?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Hell of a Party",
+        "url": "https://www.dmsguild.com/product/334716/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -16326,11 +16352,14 @@
         "full_title": "House of Masks (CCC-TXLIFE-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "335282",
+        "season": null,
         "tiers": 2,
-        "title": "House of Masks CCC-TXLIFE-01",
-        "url": "https://www.dmsguild.com/product/335282/House-of-Masks-CCCTXLIFE01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "House of Masks",
+        "url": "https://www.dmsguild.com/product/335282/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16345,11 +16374,14 @@
         "full_title": "House of Diamonds (CCC-UNITE-GD-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "335286",
+        "season": null,
         "tiers": 2,
-        "title": "House of Diamonds CCC-UNITE-GD-01",
-        "url": "https://www.dmsguild.com/product/335286/House-of-Diamonds-CCCUNITEGD01?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "House of Diamonds",
+        "url": "https://www.dmsguild.com/product/335286/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -16986,11 +17018,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "339685",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON8-1 Blood on the Moors",
+        "title": "Blood on the Moors",
         "url": "https://www.dmsguild.com/product/339685/?affiliate_id=171040"
     },
     {
@@ -17008,11 +17041,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "339686",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON8-2 Breasal Strife",
+        "title": "Breasal Strife",
         "url": "https://www.dmsguild.com/product/339686/?affiliate_id=171040"
     },
     {
@@ -17096,13 +17130,16 @@
         "code": "CCC-SAC-04",
         "date_created": "20201218",
         "full_title": "CCC-SAC-04 One With the Storm",
-        "hours": "4",
+        "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "340372",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SAC-04 One With the Storm",
-        "url": "https://www.dmsguild.com/product/340372/CCCSAC04-One-With-the-Storm?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "One With the Storm",
+        "url": "https://www.dmsguild.com/product/340372/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -17184,11 +17221,14 @@
         "full_title": "CCC-DWB-ANH-1 A Negotiated Heist",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "340592",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-DWB-ANH-1 A Negotiated Heist",
-        "url": "https://www.dmsguild.com/product/340592/CCCDWBANH1-A-Negotiated-Heist?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Negotiated Heist",
+        "url": "https://www.dmsguild.com/product/340592/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -17204,10 +17244,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "340593",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-DWB-ACM-1 A Colossal Mess",
-        "url": "https://www.dmsguild.com/product/340593/CCCDWBACM1-A-Colossal-Mess?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Colossal Mess",
+        "url": "https://www.dmsguild.com/product/340593/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17223,10 +17266,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "340594",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-DWB-TLA-1 The Lakebed Archive",
-        "url": "https://www.dmsguild.com/product/340594/CCCDWBTLA1-The-Lakebed-Archive?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Lakebed Archive",
+        "url": "https://www.dmsguild.com/product/340594/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -17265,11 +17311,14 @@
         "full_title": "CCC-HERO-BK03-04 Lilium Inter Spinas",
         "hours": "",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "340676",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-HERO-BK03-04 Lilium Inter Spinas",
-        "url": "https://www.dmsguild.com/product/340676/CCCHEROBK0304-Lilium-Inter-Spinas?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Lilium Inter Spinas",
+        "url": "https://www.dmsguild.com/product/340676/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -17286,10 +17335,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "340677",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-HERO-BK03-03 A Lute Strung Double",
-        "url": "https://www.dmsguild.com/product/340677/CCCHEROBK0303-A-Lute-Strung-Double?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Lute Strung Double",
+        "url": "https://www.dmsguild.com/product/340677/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -17306,10 +17358,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "340681",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-HERO-BK03-02 The Fire Rekindled",
-        "url": "https://www.dmsguild.com/product/340681/CCCHEROBK0302-The-Fire-Rekindled?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Fire Rekindled",
+        "url": "https://www.dmsguild.com/product/340681/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -17331,7 +17386,7 @@
         "product_id": "340682",
         "season": null,
         "tiers": 1,
-        "title": "CCC-HERO-BK03-01 A Walk Along the Borders",
+        "title": "A Walk Along the Borders",
         "url": "https://www.dmsguild.com/product/340682/?affiliate_id=171040"
     },
     {
@@ -17349,10 +17404,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "340685",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-BK2-10 Into the Dark, Black Forest",
-        "url": "https://www.dmsguild.com/product/340685/CCCGHCBK210-Into-the-Dark-Black-Forest?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Into the Dark, Black Forest",
+        "url": "https://www.dmsguild.com/product/340685/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -17391,10 +17449,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "340804",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PSA-01 In the Darkest of Times",
-        "url": "https://www.dmsguild.com/product/340804/CCCPSA01-In-the-Darkest-of-Times?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "In the Darkest of Times",
+        "url": "https://www.dmsguild.com/product/340804/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17456,10 +17517,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "340992",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-DWB-AF-1 Adventuring Fates",
-        "url": "https://www.dmsguild.com/product/340992/CCCDWBAF1-Adventuring-Fates?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Adventuring Fates",
+        "url": "https://www.dmsguild.com/product/340992/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -17475,10 +17539,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "340994",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-DWB-GAT-1 To Give and to Take",
-        "url": "https://www.dmsguild.com/product/340994/CCCDWBGAT1-To-Give-and-to-Take?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "To Give and to Take",
+        "url": "https://www.dmsguild.com/product/340994/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17599,13 +17666,16 @@
         "code": "CCC-MAYDAYS-02-01",
         "date_created": "20201230",
         "full_title": "CCC-MAYDAYS-02-01 King Obould's Fist",
-        "hours": "4",
+        "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "341252",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-MAYDAYS-02-01 King Obould's Fist",
-        "url": "https://www.dmsguild.com/product/341252/CCCMAYDAYS0201-King-Oboulds-Fist?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "King Obould's Fist",
+        "url": "https://www.dmsguild.com/product/341252/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17643,10 +17713,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "341466",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-DWB-DFT-1 Digging For Trouble",
-        "url": "https://www.dmsguild.com/product/341466/CCCDWBDFT1-Digging-For-Trouble?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Digging For Trouble",
+        "url": "https://www.dmsguild.com/product/341466/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17662,11 +17735,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "341504",
         "season": null,
         "tiers": 1,
-        "title": "CCC-UCON03 The Straw Bears",
+        "title": "The Straw Bears",
         "url": "https://www.dmsguild.com/product/341504/?affiliate_id=171040"
     },
     {
@@ -17683,11 +17757,12 @@
         "hours": "6",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.0,
         "product_id": "341614",
         "season": null,
         "tiers": 2,
-        "title": "CCC-SAF02-01 Stygia A Refuge In the Cold",
+        "title": "Stygia A Refuge In the Cold",
         "url": "https://www.dmsguild.com/product/341614/?affiliate_id=171040"
     },
     {
@@ -17704,10 +17779,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "341624",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SAC-06 So, You Get Frogs",
-        "url": "https://www.dmsguild.com/product/341624/CCCSAC06-So-You-Get-Frogs?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "So, You Get Frogs",
+        "url": "https://www.dmsguild.com/product/341624/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17722,11 +17800,14 @@
         "full_title": "CCC-RPSG-04 The Waystop",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "341653",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-RPSG-04 The Waystop",
-        "url": "https://www.dmsguild.com/product/341653/CCCRPSG04-The-Waystop?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Waystop",
+        "url": "https://www.dmsguild.com/product/341653/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17743,10 +17824,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "341670",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-RPSG-05 Through the Ashes and Flames",
-        "url": "https://www.dmsguild.com/product/341670/CCCRPSG05-Through-the-Ashes-and-Flames?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Through the Ashes and Flames",
+        "url": "https://www.dmsguild.com/product/341670/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -17765,10 +17849,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "341677",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-RPSG-06 Of Caravans and Crossings",
-        "url": "https://www.dmsguild.com/product/341677/CCCRPSG06-Of-Caravans-and-Crossings?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Of Caravans and Crossings",
+        "url": "https://www.dmsguild.com/product/341677/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -18168,11 +18255,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344629",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-BK03-04 A Mural of Arthyn",
+        "title": "A Mural of Arthyn",
         "url": "https://www.dmsguild.com/product/344629/?affiliate_id=171040"
     },
     {
@@ -18190,11 +18278,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344630",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-BK03-05 Duskwood Wild Magic Pools",
+        "title": "Duskwood Wild Magic Pools",
         "url": "https://www.dmsguild.com/product/344630/?affiliate_id=171040"
     },
     {
@@ -18212,11 +18301,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344634",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GHC-BK03-06 Sour in Splondar",
+        "title": "Sour in Splondar",
         "url": "https://www.dmsguild.com/product/344634/?affiliate_id=171040"
     },
     {
@@ -18234,10 +18324,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344636",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-GHC-BK03-07 Once Stolen, Twice Deceived",
-        "url": "https://www.dmsguild.com/product/344636/CCCGHCBK0307-Once-Stolen-Twice-Deceived?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Once Stolen, Twice Deceived",
+        "url": "https://www.dmsguild.com/product/344636/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -18254,10 +18347,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344638",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-GHC-BK03-08 The Archmage's New Robes",
-        "url": "https://www.dmsguild.com/product/344638/CCCGHCBK0308-The-Archmages-New-Robes?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Archmage's New Robes",
+        "url": "https://www.dmsguild.com/product/344638/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -18273,11 +18369,14 @@
         "full_title": "CCC-GHC-BK03-09 A Convergence of Gods",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344639",
+        "season": null,
         "tiers": 4,
-        "title": "CCC-GHC-BK03-09 A Convergence of Gods",
-        "url": "https://www.dmsguild.com/product/344639/CCCGHCBK0309-A-Convergence-of-Gods?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Convergence of Gods",
+        "url": "https://www.dmsguild.com/product/344639/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -18901,11 +19000,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "348025",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON9-3 Dark Moon Bound",
+        "title": "Dark Moon Bound",
         "url": "https://www.dmsguild.com/product/348025/?affiliate_id=171040"
     },
     {
@@ -20066,11 +20166,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "357308",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-MOON10-1 Whispers & Warnings",
+        "title": "Whispers & Warnings",
         "url": "https://www.dmsguild.com/product/357308/?affiliate_id=171040"
     },
     {
@@ -20088,11 +20189,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "357309",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-MOON10-2 Shadows & Shrouds",
+        "title": "Shadows & Shrouds",
         "url": "https://www.dmsguild.com/product/357309/?affiliate_id=171040"
     },
     {
@@ -20111,11 +20213,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "357310",
         "season": null,
         "tiers": 1,
-        "title": "CCC-BMG-MOON10-3 Fortresses & Fortunes",
+        "title": "Fortresses & Fortunes",
         "url": "https://www.dmsguild.com/product/357310/?affiliate_id=171040"
     },
     {
@@ -20178,11 +20281,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "357636",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON11-2 A Darkened Court",
+        "title": "A Darkened Court",
         "url": "https://www.dmsguild.com/product/357636/?affiliate_id=171040"
     },
     {
@@ -20201,11 +20305,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "357637",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON11-3 A Darkened Heart",
+        "title": "A Darkened Heart",
         "url": "https://www.dmsguild.com/product/357637/?affiliate_id=171040"
     },
     {
@@ -20270,11 +20375,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "358288",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-MOON12-1 Nothing Is Sacred",
+        "title": "Nothing Is Sacred",
         "url": "https://www.dmsguild.com/product/358288/?affiliate_id=171040"
     },
     {
@@ -20292,11 +20398,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "358290",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-MOON12-2 A Gift from the Queen",
+        "title": "A Gift from the Queen",
         "url": "https://www.dmsguild.com/product/358290/?affiliate_id=171040"
     },
     {
@@ -21201,11 +21308,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "368071",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-MOON13-3 Wolves of the Sea",
+        "title": "Wolves of the Sea",
         "url": "https://www.dmsguild.com/product/368071/?affiliate_id=171040"
     },
     {
@@ -22575,11 +22683,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "369765",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON14-2 The Lost Seasons",
+        "title": "The Lost Seasons",
         "url": "https://www.dmsguild.com/product/369765/?affiliate_id=171040"
     },
     {
@@ -22597,11 +22706,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "369766",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON14-3 The Ghosts of Grief",
+        "title": "The Ghosts of Grief",
         "url": "https://www.dmsguild.com/product/369766/?affiliate_id=171040"
     },
     {
@@ -24421,10 +24531,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "387185",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON16-1 Augurs of Spring",
-        "url": "https://www.dmsguild.com/product/387185/CCCBMGMOON161-Augurs-of-Spring?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Augurs of Spring",
+        "url": "https://www.dmsguild.com/product/387185/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -24441,10 +24554,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "387188",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON16-2 Procession of the Sage",
-        "url": "https://www.dmsguild.com/product/387188/CCCBMGMOON162-Procession-of-the-Sage?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Procession of the Sage",
+        "url": "https://www.dmsguild.com/product/387188/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -24461,11 +24577,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "387190",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON16-3 The Sacrificial Dance",
+        "title": "The Sacrificial Dance",
         "url": "https://www.dmsguild.com/product/387190/?affiliate_id=171040"
     },
     {
@@ -25645,11 +25762,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "398582",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON17-1 Sailors on the Sea of Shadow",
+        "title": "Sailors on the Sea of Shadow",
         "url": "https://www.dmsguild.com/product/398582/?affiliate_id=171040"
     },
     {
@@ -25667,11 +25785,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "398587",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON17-2 Shed Light, Shed Blood",
+        "title": "Shed Light, Shed Blood",
         "url": "https://www.dmsguild.com/product/398587/?affiliate_id=171040"
     },
     {
@@ -25689,11 +25808,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "398588",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON17-3 Hope Amidst the Ashes",
+        "title": "Hope Amidst the Ashes",
         "url": "https://www.dmsguild.com/product/398588/?affiliate_id=171040"
     },
     {
@@ -25780,10 +25900,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "399824",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-MOON18-1 Phantom of Prophecy",
-        "url": "https://www.dmsguild.com/product/399824/CCCBMGMOON181-Phantom-of-Prophecy?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Phantom of Prophecy",
+        "url": "https://www.dmsguild.com/product/399824/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -25800,10 +25923,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "399829",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-BMG-MOON18-2 What We Reap",
-        "url": "https://www.dmsguild.com/product/399829/CCCBMGMOON182-What-We-Reap?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "What We Reap",
+        "url": "https://www.dmsguild.com/product/399829/?affiliate_id=171040"
     },
     {
         "apl": 13,
