@@ -11,9 +11,12 @@
     "full_title": "Dead in Daggerford (FR-DC-MELB-00-01)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "495431",
+    "season": null,
     "tiers": 1,
     "title": "Dead in Daggerford",
-    "url": "https://www.dmsguild.com/product/495431/Dead-in-Daggerford-FRDCMELB0001?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/495431/?affiliate_id=171040"
 }

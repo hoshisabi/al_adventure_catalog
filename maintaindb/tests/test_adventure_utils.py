@@ -140,6 +140,14 @@ def test_non_ccc_codes_still_work():
         ("FR-DC-TT-101 Water has no Shape", "FR-DC-TT-101"),
         ("SJ-DC-HBI-001", "SJ-DC-HBI-001"),
         ("RV-DC-HBI-003", "RV-DC-HBI-003"),
+        # Test DC codes ending with letters (the bug fix)
+        ("FR-DC-ELEMENT-DEATH Everything Changed", "FR-DC-ELEMENT-DEATH"),
+        ("Iron Cook (PS-DC-IC)", "PS-DC-IC"),
+        ("PS-DC-IC", "PS-DC-IC"),
+        # Test DC codes with 2-digit numbers (e.g., PS-DC-PKL-08)
+        ("PS-DC-PKL-08 Darker Shade of Pale", "PS-DC-PKL-08"),
+        # Test DC codes with multiple dash-number sequences (e.g., FR-DC-DIGM-01-01)
+        ("FR-DC-DIGM-01-01 Sweet Tooth", "FR-DC-DIGM-01-01"),
     ]
     
     for title, expected_code in test_cases:
@@ -168,6 +176,22 @@ def test_all_bug_fixes_covered():
     # Bug fix 5: DC codes with 3-digit numbers (e.g., PS-DC-TT-202)
     code, _ = get_adventure_code_and_campaigns("PS-DC-TT-202 May the Cause be with You")
     assert code == "PS-DC-TT-202", f"Failed: got {code}, expected PS-DC-TT-202"
+    
+    # Bug fix 6: DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
+    code, _ = get_adventure_code_and_campaigns("FR-DC-ELEMENT-DEATH Everything Changed")
+    assert code == "FR-DC-ELEMENT-DEATH", f"Failed: got {code}, expected FR-DC-ELEMENT-DEATH"
+    
+    # Bug fix 7: DC codes ending with just letters (e.g., PS-DC-IC)
+    code, _ = get_adventure_code_and_campaigns("Iron Cook (PS-DC-IC)")
+    assert code == "PS-DC-IC", f"Failed: got {code}, expected PS-DC-IC"
+    
+    # Bug fix 8: DC codes with 2-digit numbers (e.g., PS-DC-PKL-08)
+    code, _ = get_adventure_code_and_campaigns("PS-DC-PKL-08 Darker Shade of Pale")
+    assert code == "PS-DC-PKL-08", f"Failed: got {code}, expected PS-DC-PKL-08"
+    
+    # Bug fix 9: DC codes with multiple dash-number sequences (e.g., FR-DC-DIGM-01-01)
+    code, _ = get_adventure_code_and_campaigns("FR-DC-DIGM-01-01 Sweet Tooth")
+    assert code == "FR-DC-DIGM-01-01", f"Failed: got {code}, expected FR-DC-DIGM-01-01"
 
 
 if __name__ == '__main__':

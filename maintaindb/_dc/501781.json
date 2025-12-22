@@ -11,9 +11,12 @@
     "full_title": "FR-DC-NMB-HUNT-01 Ice Water",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "501781",
+    "season": null,
     "tiers": 1,
     "title": "Ice Water",
-    "url": "https://www.dmsguild.com/product/501781/FRDCNMBHUNT01-Ice-Water?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/501781/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "FR-DC-WCAG-02 Neverwinter Days & Lunar Nights",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "500390",
+    "season": null,
     "tiers": 1,
     "title": "Neverwinter Days & Lunar Nights",
-    "url": "https://www.dmsguild.com/product/500390/FRDCWCAG02-Neverwinter-Days--Lunar-Nights?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/500390/?affiliate_id=171040"
 }

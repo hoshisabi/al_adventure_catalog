@@ -13,8 +13,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "500685",
+    "season": null,
     "tiers": 1,
     "title": "Charming",
-    "url": "https://www.dmsguild.com/product/500685/Charming-FRDCTKMRGT01?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/500685/?affiliate_id=171040"
 }
