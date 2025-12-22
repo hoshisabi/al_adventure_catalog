@@ -10,11 +10,14 @@
     "code": "CCC-GREY-01-01",
     "date_created": "20190716",
     "full_title": "CCC-GREY-01-01 A Rat's Tale",
-    "hours": "4",
+    "hours": "1-4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "282281",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-GREY-01-01 A Rat's Tale",
-    "url": "https://www.dmsguild.com/product/282281/CCCGREY0101-A-Rats-Tale?filters=45470_0_0_0_0_0_0_0"
+    "title": "A Rat's Tale",
+    "url": "https://www.dmsguild.com/product/282281/?affiliate_id=171040"
 }

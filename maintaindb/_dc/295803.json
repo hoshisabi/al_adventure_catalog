@@ -11,12 +11,13 @@
     "date_created": "20191203",
     "full_title": "CCC-ALMOG ESC03-03- Memory Leak",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "295803",
     "season": null,
     "tiers": 3,
-    "title": "CCC-ALMOG ESC03-03- Memory Leak",
+    "title": "Memory Leak (ESC03-03)",
     "url": "https://www.dmsguild.com/product/295803/?affiliate_id=171040"
 }
