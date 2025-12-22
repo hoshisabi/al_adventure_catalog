@@ -794,11 +794,14 @@
         "full_title": "PS-DC-PKL-08 Darker Shade of Pale",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "494615",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Darker Shade of Pale",
-        "url": "https://www.dmsguild.com/product/494615/PSDCPKL08-Darker-Shade-of-Pale?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494615/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -813,11 +816,14 @@
         "full_title": "PS-DC-PKL-09 'Someday'",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "494617",
+        "season": "Planescape",
         "tiers": 2,
-        "title": "'Someday'",
-        "url": "https://www.dmsguild.com/product/494617/PSDCPKL09-Someday?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Someday",
+        "url": "https://www.dmsguild.com/product/494617/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -832,11 +838,14 @@
         "full_title": "PS-DC-PKL-10 Behind Blue Eyes",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "494618",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Behind Blue Eyes",
-        "url": "https://www.dmsguild.com/product/494618/PSDCPKL10-Behind-Blue-Eyes?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494618/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -849,13 +858,16 @@
         "code": "PS-DC-ELEMENT-DEATH-02",
         "date_created": "20240924",
         "full_title": "PS-DC-ELEMENT-DEATH-02 And Then They Attacked",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "496426",
+        "season": "Planescape",
         "tiers": 4,
         "title": "And Then They Attacked",
-        "url": "https://www.dmsguild.com/product/496426/PSDCELEMENTDEATH02-And-Then-They-Attacked?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/496426/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -870,11 +882,14 @@
         "full_title": "PS-DC-FOT-01 When Faunel Attacks: Riverwood Under Siege",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "497173",
+        "season": "Planescape",
         "tiers": 1,
         "title": "When Faunel Attacks Riverwood Under Siege",
-        "url": "https://www.dmsguild.com/product/497173/PSDCFOT01-When-Faunel-Attacks-Riverwood-Under-Siege?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/497173/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -959,10 +974,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "500715",
+        "season": "Planescape",
         "tiers": 3,
         "title": "Vhaeraun's Wish",
-        "url": "https://www.dmsguild.com/product/500715/PSDCPESCH-Vhaerauns-Wish?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/500715/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -977,11 +995,14 @@
         "full_title": "PS-DC-TST-01 The Eye Behind the Mask",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "504348",
+        "season": "Planescape",
         "tiers": 4,
         "title": "The Eye Behind the Mask",
-        "url": "https://www.dmsguild.com/product/504348/PSDCTST01-The-Eye-Behind-the-Mask?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/504348/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -994,13 +1015,16 @@
         "code": "PS-DC-PKL-18",
         "date_created": "20241229",
         "full_title": "PS-DC-PKL-18 The Power and The Glory",
-        "hours": "2",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "507101",
+        "season": "Planescape",
         "tiers": 4,
         "title": "The Power and The Glory",
-        "url": "https://www.dmsguild.com/product/507101/PSDCPKL18-The-Power-and-The-Glory?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/507101/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1013,13 +1037,16 @@
         "code": "PS-DC-PKL-19",
         "date_created": "20241231",
         "full_title": "PS-DC-PKL-19 Kingdom Come Undone",
-        "hours": "2",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "507261",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Kingdom Come Undone",
-        "url": "https://www.dmsguild.com/product/507261/PSDCPKL19-Kingdom-Come-Undone?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/507261/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1032,13 +1059,16 @@
         "code": "PS-DC-PKL-20",
         "date_created": "20250101",
         "full_title": "PS-DC-PKL-20 Jawbreakers and Jailbreakers",
-        "hours": "2",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "507343",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Jawbreakers and Jailbreakers",
-        "url": "https://www.dmsguild.com/product/507343/PSDCPKL20-Jawbreakers-and-Jailbreakers?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/507343/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1055,10 +1085,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "507765",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Goddess, Interrupted",
-        "url": "https://www.dmsguild.com/product/507765/Goddess-Interrupted-PSDCNOS04?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/507765/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1075,9 +1108,10 @@
         "is_adventure": true,
         "level_range": "1",
         "product_id": "509936",
+        "season": null,
         "tiers": 4,
         "title": "Iron Cook PS-DC-IC",
-        "url": "https://www.dmsguild.com/product/509936/Iron-Cook-PSDCIC?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/509936/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -1093,11 +1127,14 @@
         "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "17",
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "512667",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Roots, Bloody Roots",
-        "url": "https://www.dmsguild.com/product/512667/PSDCGLITCH01-Roots-Bloody-Roots?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/512667/?affiliate_id=171040"
     },
     {
         "apl": 3,
