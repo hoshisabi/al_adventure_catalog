@@ -15646,7 +15646,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-00",
+        "code": "DDAL10-00",
         "date_created": "20200914",
         "full_title": "DDAL10-00 Ice Road Trackers",
         "hours": "1-4",
@@ -15781,14 +15781,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-01",
+        "code": "DDAL10-01",
         "date_created": "20201019",
         "full_title": "DDAL10-01 The Frozen North",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-2",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "332516",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -17122,11 +17122,11 @@
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 6.74,
+        "price": 8.99,
         "product_id": "340333",
         "season": "Plague of Ancients",
         "tiers": 1,
-        "title": "DDEP10-00 The Great Knucklehead Rally",
+        "title": "The Great Knucklehead Rally",
         "url": "https://www.dmsguild.com/product/340333/?affiliate_id=171040"
     },
     {
@@ -18099,14 +18099,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-02",
+        "code": "DDAL10-02",
         "date_created": "20210112",
         "full_title": "DDAL10-02 Gnashing Teeth",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "343148",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -18121,14 +18121,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-03",
+        "code": "DDAL10-03",
         "date_created": "20210112",
         "full_title": "DDAL10-03 Divining Evil",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "343150",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -18418,14 +18418,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-04",
+        "code": "DDAL10-04",
         "date_created": "20210125",
         "full_title": "DDAL10-04 Cold Benevolence",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "344672",
         "season": "Plague of Ancients",
         "tiers": 1,
@@ -19166,14 +19166,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-05",
+        "code": "DDAL10-05",
         "date_created": "20210303",
         "full_title": "DDAL10-05 A Blight in the Darkness",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "348960",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -19223,7 +19223,7 @@
         "product_id": "349163",
         "season": null,
         "tiers": 1,
-        "title": "DDEP10-01 Terror in Ten Towns",
+        "title": "Terror in Ten Towns",
         "url": "https://www.dmsguild.com/product/349163/?affiliate_id=171040"
     },
     {
@@ -19651,7 +19651,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-06",
+        "code": "DDAL10-06",
         "date_created": "20210325",
         "full_title": "DDAL10-06 The Fallen Star",
         "hours": "4",
@@ -19742,14 +19742,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-07",
+        "code": "DDAL10-07",
         "date_created": "20210408",
         "full_title": "DDAL10-07 Into Darkness",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "353209",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -20355,14 +20355,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-08",
+        "code": "DDAL10-08",
         "date_created": "20210520",
         "full_title": "DDAL10-08 Volatile Thoughts",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "358263",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -21067,14 +21067,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-09",
+        "code": "DDAL10-09",
         "date_created": "20210810",
         "full_title": "DDAL10-09 Recipe for Retribution",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "367185",
         "season": "Plague of Ancients",
         "tiers": 2,
@@ -22732,14 +22732,14 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL010-10",
+        "code": "DDAL10-10",
         "date_created": "20210914",
         "full_title": "DDAL10-10 Burying the Past",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "payWhatYouWant": false,
-        "price": 3.74,
+        "price": 4.99,
         "product_id": "370743",
         "season": "Plague of Ancients",
         "tiers": 3,
@@ -22762,11 +22762,11 @@
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
-        "price": 6.74,
+        "price": 8.99,
         "product_id": "370744",
         "season": "Plague of Ancients",
         "tiers": 2,
-        "title": "DDEP10-02 Song of Spears",
+        "title": "Song of Spears",
         "url": "https://www.dmsguild.com/product/370744/?affiliate_id=171040"
     },
     {
