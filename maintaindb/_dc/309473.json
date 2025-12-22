@@ -11,9 +11,12 @@
     "full_title": "CCC-BWM-07-02 The Beast Within",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "07",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "309473",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BWM-07-02 The Beast Within",
-    "url": "https://www.dmsguild.com/product/309473/CCCBWM0702-The-Beast-Within?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Beast Within",
+    "url": "https://www.dmsguild.com/product/309473/?affiliate_id=171040"
 }

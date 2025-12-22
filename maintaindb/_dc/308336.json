@@ -10,11 +10,14 @@
     "code": "CCC-HERO-BK-02-02",
     "date_created": "20200331",
     "full_title": "CCC-HERO-BK-02-02 Flight of the Wyvern",
-    "hours": "2",
+    "hours": "2-4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "308336",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-HERO-BK-02-02 Flight of the Wyvern",
-    "url": "https://www.dmsguild.com/product/308336/CCCHEROBK0202-Flight-of-the-Wyvern?filters=45470_0_0_0_0_0_0_0"
+    "title": "Flight of the Wyvern",
+    "url": "https://www.dmsguild.com/product/308336/?affiliate_id=171040"
 }

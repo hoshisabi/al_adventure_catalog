@@ -13,11 +13,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "338645",
     "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "DC-PoA-KCB-MBL - The Stolen Curse",
-    "url": "https://www.dmsguild.com/product/338645/?affiliate_id=171040",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "The Stolen Curse",
+    "url": "https://www.dmsguild.com/product/338645/?affiliate_id=171040"
 }

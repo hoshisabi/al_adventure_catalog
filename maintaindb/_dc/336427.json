@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "336427",
     "season": "Icewind Dale",
+    "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "OGRE KRUSH DC-POA-ZL-01",
-    "url": "https://www.dmsguild.com/product/336427/?affiliate_id=171040",
-    "seed": "Out of the Woods"
+    "title": "OGRE KRUSH",
+    "url": "https://www.dmsguild.com/product/336427/?affiliate_id=171040"
 }
