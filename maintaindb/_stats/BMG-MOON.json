@@ -152,7 +152,6 @@
     {
         "apl": 13,
         "authors": [
-            "D&D Adventurers League",
             "Johnny Smith"
         ],
         "campaigns": [
@@ -164,6 +163,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 8.99,
         "product_id": "495773",
         "season": null,
