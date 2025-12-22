@@ -11,10 +11,14 @@
     "full_title": "SJ-DC Happy New Year!",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 5.0,
     "product_id": "421711",
+    "season": null,
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 5.0,
     "tiers": 2,
-    "title": "SJ-DC Happy New Year!",
-    "url": "https://www.dmsguild.com/product/421711/SJDC-Happy-New-Year?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Happy New Year!",
+    "url": "https://www.dmsguild.com/product/421711/?affiliate_id=171040"
 }
