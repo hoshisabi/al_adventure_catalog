@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "337701",
     "season": "Icewind Dale",
+    "seed": "The Warmest Day",
     "tiers": 1,
-    "title": "DC-POA-LEGIT-SV-01 The Coldlight Star",
-    "url": "https://www.dmsguild.com/product/337701/?affiliate_id=171040",
-    "seed": "The Warmest Day"
+    "title": "The Coldlight Star",
+    "url": "https://www.dmsguild.com/product/337701/?affiliate_id=171040"
 }

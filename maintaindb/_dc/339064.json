@@ -12,11 +12,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "339064",
     "season": "Icewind Dale",
+    "seed": "Breaking Ice-olation",
     "tiers": 1,
-    "title": "DC-PoA-MCIW-01 Icewind Whale",
-    "url": "https://www.dmsguild.com/product/339064/?affiliate_id=171040",
-    "seed": "Breaking Ice-olation"
+    "title": "Icewind Whale",
+    "url": "https://www.dmsguild.com/product/339064/?affiliate_id=171040"
 }
