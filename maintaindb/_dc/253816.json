@@ -11,9 +11,12 @@
     "full_title": "CCC-UK-1 Call of the Elvenflow",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "3",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "253816",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-UK-1 Call of the Elvenflow",
-    "url": "https://www.dmsguild.com/product/253816/CCCUK1-Call-of-the-Elvenflow?filters=45470_0_0_0_0_0_0_0"
+    "title": "Call of the Elvenflow",
+    "url": "https://www.dmsguild.com/product/253816/?affiliate_id=171040"
 }
