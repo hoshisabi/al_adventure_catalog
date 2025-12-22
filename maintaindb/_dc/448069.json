@@ -12,9 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "448069",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "SJ-DC-Death In Defiance of Dairy",
-    "url": "https://www.dmsguild.com/product/448069/SJDCDeath-In-Defiance-of-Dairy?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "In Defiance of Dairy",
+    "url": "https://www.dmsguild.com/product/448069/?affiliate_id=171040"
 }
