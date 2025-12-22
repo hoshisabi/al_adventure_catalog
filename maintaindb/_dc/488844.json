@@ -9,11 +9,14 @@
     "code": "PS-DC-ELEMENT-DEATH-01",
     "date_created": "20240725",
     "full_title": "PS-DC-ELEMENT-DEATH-01 Rocky Road",
-    "hours": null,
+    "hours": "4-5",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "17-20",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "488844",
+    "season": "Planescape",
     "tiers": 4,
     "title": "Rocky Road",
-    "url": "https://www.dmsguild.com/product/488844/PSDCELEMENTDEATH01-Rocky-Road?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/488844/?affiliate_id=171040"
 }

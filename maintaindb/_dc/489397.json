@@ -11,9 +11,12 @@
     "full_title": "Cathedral of Ice (FR-DC-FALL-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "489397",
+    "season": null,
     "tiers": 3,
     "title": "Cathedral of Ice",
-    "url": "https://www.dmsguild.com/product/489397/Cathedral-of-Ice-FRDCFALL01?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/489397/?affiliate_id=171040"
 }
