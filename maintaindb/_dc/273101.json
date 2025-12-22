@@ -11,9 +11,12 @@
     "full_title": "CCC-TAROT-02-01 A Sunk Cost",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "273101",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-TAROT-02-01 A Sunk Cost",
-    "url": "https://www.dmsguild.com/product/273101/CCCTAROT0201-A-Sunk-Cost?filters=45470_0_0_0_0_0_0_0"
+    "title": "A Sunk Cost",
+    "url": "https://www.dmsguild.com/product/273101/?affiliate_id=171040"
 }

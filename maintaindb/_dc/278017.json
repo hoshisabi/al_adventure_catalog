@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "278017",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-TRI-31 Out of Time",
-    "url": "https://www.dmsguild.com/product/278017/CCCTRI31-Out-of-Time?filters=45470_0_0_0_0_0_0_0"
+    "title": "Out of Time",
+    "url": "https://www.dmsguild.com/product/278017/?affiliate_id=171040"
 }

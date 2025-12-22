@@ -9,11 +9,14 @@
     "code": "CCC-PRETZ-PLA01",
     "date_created": "20190522",
     "full_title": "CCC-PRETZ-PLA01 The Mystery at Coppertop Manor",
-    "hours": "2",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "277524",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-PRETZ-PLA01 The Mystery at Coppertop Manor",
-    "url": "https://www.dmsguild.com/product/277524/CCCPRETZPLA01-The-Mystery-at-Coppertop-Manor?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Mystery at Coppertop Manor",
+    "url": "https://www.dmsguild.com/product/277524/?affiliate_id=171040"
 }
