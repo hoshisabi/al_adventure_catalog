@@ -12,10 +12,13 @@
     "full_title": "DC-PoA-DCAFCG01 Catastrophe Caravan",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.0,
     "product_id": "368869",
+    "season": null,
+    "seed": "Caravanning!",
     "tiers": 2,
-    "title": "DC-PoA-DCAFCG01 Catastrophe Caravan",
-    "url": "https://www.dmsguild.com/product/368869/DCPoADCAFCG01-Catastrophe-Caravan?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Caravanning!"
+    "title": "Catastrophe Caravan",
+    "url": "https://www.dmsguild.com/product/368869/?affiliate_id=171040"
 }

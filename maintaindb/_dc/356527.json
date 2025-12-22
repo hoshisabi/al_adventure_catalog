@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-TDG01-01 Wayward Beginnings",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.19,
     "product_id": "356527",
+    "season": "Icewind Dale",
+    "seed": "Once Bitten, Ice Shy",
     "tiers": 1,
-    "title": "DC-PoA-TDG01-01 Wayward Beginnings",
-    "url": "https://www.dmsguild.com/product/356527/DCPoATDG0101-Wayward-Beginnings?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Once Bitten, Ice Shy"
+    "title": "Wayward Beginnings",
+    "url": "https://www.dmsguild.com/product/356527/?affiliate_id=171040"
 }

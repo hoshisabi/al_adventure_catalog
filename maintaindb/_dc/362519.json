@@ -11,12 +11,13 @@
     "full_title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1-4",
+    "level_range": "3",
+    "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "362519",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
-    "url": "https://www.dmsguild.com/product/362519/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "The Thief's Gambit",
+    "url": "https://www.dmsguild.com/product/362519/?affiliate_id=171040"
 }

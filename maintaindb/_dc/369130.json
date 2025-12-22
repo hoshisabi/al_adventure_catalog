@@ -11,10 +11,14 @@
     "full_title": "DC-PoA-PESCH-01 To Appease Hunger",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 1.99,
     "product_id": "369130",
+    "season": "Icewind Dale",
+    "seed": "Awake and Afraid",
+    "suggestedPrice": 1.99,
     "tiers": 1,
-    "title": "DC-PoA-PESCH-01 To Appease Hunger",
-    "url": "https://www.dmsguild.com/product/369130/DCPoAPESCH01-To-Appease-Hunger?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Awake and Afraid"
+    "title": "To Appease Hunger",
+    "url": "https://www.dmsguild.com/product/369130/?affiliate_id=171040"
 }

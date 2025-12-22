@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-TDG01-11 DaleVision",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "369178",
+    "season": "Icewind Dale",
+    "seed": "Winter Over",
     "tiers": 2,
-    "title": "DC-PoA-TDG01-11 DaleVision",
-    "url": "https://www.dmsguild.com/product/369178/DCPoATDG0111-DaleVision?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Winter Over"
+    "title": "DaleVision",
+    "url": "https://www.dmsguild.com/product/369178/?affiliate_id=171040"
 }

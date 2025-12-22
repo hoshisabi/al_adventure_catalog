@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-SSM-01 Among the Conifers",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "364494",
+    "season": "Icewind Dale",
+    "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "DC-PoA-SSM-01 Among the Conifers",
-    "url": "https://www.dmsguild.com/product/364494/DCPoASSM01-Among-the-Conifers?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Out of the Woods"
+    "title": "Among the Conifers",
+    "url": "https://www.dmsguild.com/product/364494/?affiliate_id=171040"
 }

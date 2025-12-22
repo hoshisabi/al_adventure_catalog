@@ -14,11 +14,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 2.2,
+    "payWhatYouWant": false,
+    "price": 3.19,
     "product_id": "345134",
     "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "The Horror Sphere DC-PoA-GSP02-04H",
-    "url": "https://www.dmsguild.com/product/345134/?affiliate_id=171040",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "The Horror Sphere",
+    "url": "https://www.dmsguild.com/product/345134/?affiliate_id=171040"
 }
