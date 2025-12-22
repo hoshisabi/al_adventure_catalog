@@ -12,7 +12,7 @@ SEASONS = {
     'WBW-DC': "The Wild Beyond the Witchlight",
     'SJ-DC': "Spelljammer",
     'PS-DC': "Planescape",
-    'DC-POA': "Icewind Dale",
+    'DC-POA': "Plague of Ancients",  # Changed from "Icewind Dale" - they are synonyms
     1: "Tyranny of Dragons",
     2: "Elemental Evil",
     3: "Rage of Demons",
@@ -23,6 +23,11 @@ SEASONS = {
     8: "Waterdeep",
     9: "Avernus Rising",
     10: "Plague of Ancients",
+}
+
+# Season name normalization: map synonyms to canonical names
+SEASON_NORMALIZATION = {
+    "Icewind Dale": "Plague of Ancients",
 }
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
@@ -235,24 +240,33 @@ def get_season(code: Optional[str]):
     - For codes starting with WBW-DC, SJ-DC, PS-DC, DC-POA return the program name.
     - For DDEXn/DDALn (optionally zero-padded), map known numeric seasons (1-10) to human-friendly names;
       if an unknown number is encountered, return the number to avoid data loss.
+    - Normalizes season names using SEASON_NORMALIZATION to handle synonyms.
     """
     if not code:
         return None
     code_u = str(code).upper()
+    season = None
     # Named programs
-    for prefix, season in SEASONS.items():
+    for prefix, season_name in SEASONS.items():
         if isinstance(prefix, str) and code_u.startswith(prefix):
-            return season
+            season = season_name
+            break
     # Numeric AL seasons
-    m = re.match(r"^(DDEX|DDAL)0?(\d+)", code_u)
-    if m:
-        try:
-            season_num = int(m.group(2))
-            # Prefer descriptive label when known
-            return SEASONS.get(season_num, season_num)
-        except Exception:
-            pass
-    return None
+    if season is None:
+        m = re.match(r"^(DDEX|DDAL)0?(\d+)", code_u)
+        if m:
+            try:
+                season_num = int(m.group(2))
+                # Prefer descriptive label when known
+                season = SEASONS.get(season_num, season_num)
+            except Exception:
+                pass
+    
+    # Normalize season name if it's a known synonym
+    if season and season in SEASON_NORMALIZATION:
+        season = SEASON_NORMALIZATION[season]
+    
+    return season
 
 
 def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optional[str], List[str]]:
