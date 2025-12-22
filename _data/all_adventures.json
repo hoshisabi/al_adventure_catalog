@@ -2555,7 +2555,7 @@
         "product_id": "209690",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GARY01 A Night to Remember",
+        "title": "A Night to Remember",
         "url": "https://www.dmsguild.com/product/209690/?affiliate_id=171040"
     },
     {
@@ -2578,7 +2578,7 @@
         "product_id": "209692",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GARY02 To Find a Way Out",
+        "title": "To Find a Way Out",
         "url": "https://www.dmsguild.com/product/209692/?affiliate_id=171040"
     },
     {
@@ -2601,7 +2601,7 @@
         "product_id": "209693",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GARY03 Oh, We're In It Now",
+        "title": "Oh, We're In It Now",
         "url": "https://www.dmsguild.com/product/209693/?affiliate_id=171040"
     },
     {
@@ -6804,7 +6804,7 @@
         "url": "https://www.dmsguild.com/product/253884/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Dave Knighton",
             "MOGC"
@@ -6817,11 +6817,14 @@
         "full_title": "CCC-SALT02-05 The Darkness Never Forgets",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "253907",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SALT02-05 The Darkness Never Forgets",
-        "url": "https://www.dmsguild.com/product/253907/CCCSALT0205-The-Darkness-Never-Forgets?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Darkness Never Forgets",
+        "url": "https://www.dmsguild.com/product/253907/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -7071,10 +7074,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "256228",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PP-TDD01-01 Trouble Under Winton",
-        "url": "https://www.dmsguild.com/product/256228/CCCPPTDD0101-Trouble-Under-Winton?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Trouble Under Winton",
+        "url": "https://www.dmsguild.com/product/256228/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -7112,10 +7118,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "256915",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-AN-03 Winter Wonderland",
-        "url": "https://www.dmsguild.com/product/256915/CCCAN03-Winter-Wonderland?affiliate_id=171040"
+        "title": "Winter Wonderland",
+        "url": "https://www.dmsguild.com/product/256915/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -7153,10 +7162,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257386",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-MCX-01 All in a Day’s Work",
-        "url": "https://www.dmsguild.com/product/257386/CCCMCX01-All-in-a-Days-Work?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "All in a Day’s Work",
+        "url": "https://www.dmsguild.com/product/257386/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -7522,10 +7534,13 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "258129",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-TRI-25 Dead Men's Treasure Part Two of the Dead Men Series",
-        "url": "https://www.dmsguild.com/product/258129/CCCTRI25-Dead-Mens-Treasure-Part-Two-of-the-Dead-Men-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Dead Men's Treasure (Part Two of the Dead Men Series)",
+        "url": "https://www.dmsguild.com/product/258129/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -7541,11 +7556,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 5.95,
         "product_id": "258606",
         "season": null,
         "tiers": 1,
-        "title": "CCC-AETHER-01-01 The Heir of Orcus Verse I",
+        "title": "The Heir of Orcus: Verse I",
         "url": "https://www.dmsguild.com/product/258606/?affiliate_id=171040"
     },
     {
@@ -7562,11 +7578,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 5.95,
         "product_id": "258619",
         "season": null,
         "tiers": 1,
-        "title": "CCC-AETHER-01-02 The Heir of Orcus Verse II",
+        "title": "The Heir of Orcus: Verse II",
         "url": "https://www.dmsguild.com/product/258619/?affiliate_id=171040"
     },
     {
@@ -7577,17 +7594,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-SAC-01-",
+        "code": "CCC-SAC-01",
         "date_created": "20181114",
         "full_title": "CCC-SAC-01: A Light in the Dark",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "258839",
         "season": null,
         "tiers": 3,
-        "title": "CCC-SAC-01 A Light in the Dark",
+        "title": "A Light in the Dark",
         "url": "https://www.dmsguild.com/product/258839/?affiliate_id=171040"
     },
     {
@@ -7669,11 +7687,14 @@
         "full_title": "CCC-SAC-02 Fun With Fey",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "259233",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SAC-02 Fun With Fey",
-        "url": "https://www.dmsguild.com/product/259233/CCCSAC02-Fun-With-Fey?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Fun With Fey",
+        "url": "https://www.dmsguild.com/product/259233/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -29552,12 +29573,16 @@
         "full_title": "SJ-DC Happy New Year!",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 5.0,
         "product_id": "421711",
+        "season": null,
         "seed": "Create a Location in Wildspace",
+        "suggestedPrice": 5.0,
         "tiers": 2,
-        "title": "SJ-DC Happy New Year!",
-        "url": "https://www.dmsguild.com/product/421711/SJDC-Happy-New-Year?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Happy New Year!",
+        "url": "https://www.dmsguild.com/product/421711/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -30924,15 +30949,18 @@
         ],
         "code": "SJ-DC-HYS-01",
         "date_created": "20230420",
-        "full_title": "The Hystero SJ-DC-HYS-01 (5e)",
+        "full_title": "The Hystero (SJ-DC-HYS-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "434610",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "The Hystero  5e",
-        "url": "https://www.dmsguild.com/product/434610/The-Hystero-SJDCHYS01-5e?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Hystero",
+        "url": "https://www.dmsguild.com/product/434610/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -32235,11 +32263,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "448069",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 3,
-        "title": "SJ-DC-Death In Defiance of Dairy",
-        "url": "https://www.dmsguild.com/product/448069/SJDCDeath-In-Defiance-of-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "In Defiance of Dairy",
+        "url": "https://www.dmsguild.com/product/448069/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -35826,22 +35857,25 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "John Rogers Jr."
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "SJ-DC-FTC-02",
-        "date_created": null,
-        "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
+        "date_created": "20240103",
+        "full_title": "SJ-DC-FTC-02 A Ship Adrift",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "465701",
         "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "A Ship Adrift v0.9",
+        "title": "A Ship Adrift",
         "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
     },
     {

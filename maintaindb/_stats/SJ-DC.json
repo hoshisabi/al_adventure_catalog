@@ -1021,12 +1021,16 @@
         "full_title": "SJ-DC Happy New Year!",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 5.0,
         "product_id": "421711",
+        "season": null,
         "seed": "Create a Location in Wildspace",
+        "suggestedPrice": 5.0,
         "tiers": 2,
-        "title": "SJ-DC Happy New Year!",
-        "url": "https://www.dmsguild.com/product/421711/SJDC-Happy-New-Year?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Happy New Year!",
+        "url": "https://www.dmsguild.com/product/421711/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2008,15 +2012,18 @@
         ],
         "code": "SJ-DC-HYS-01",
         "date_created": "20230420",
-        "full_title": "The Hystero SJ-DC-HYS-01 (5e)",
+        "full_title": "The Hystero (SJ-DC-HYS-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "434610",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "The Hystero  5e",
-        "url": "https://www.dmsguild.com/product/434610/The-Hystero-SJDCHYS01-5e?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Hystero",
+        "url": "https://www.dmsguild.com/product/434610/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3091,11 +3098,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "448069",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 3,
-        "title": "SJ-DC-Death In Defiance of Dairy",
-        "url": "https://www.dmsguild.com/product/448069/SJDCDeath-In-Defiance-of-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "In Defiance of Dairy",
+        "url": "https://www.dmsguild.com/product/448069/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6123,22 +6133,25 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "John Rogers Jr."
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
         "code": "SJ-DC-FTC-02",
-        "date_created": null,
-        "full_title": "SJ-DC-FTC-02 A Ship Adrift v0.9",
+        "date_created": "20240103",
+        "full_title": "SJ-DC-FTC-02 A Ship Adrift",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "465701",
         "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
-        "title": "A Ship Adrift v0.9",
+        "title": "A Ship Adrift",
         "url": "https://www.dmsguild.com/product/465701/?affiliate_id=171040"
     },
     {
