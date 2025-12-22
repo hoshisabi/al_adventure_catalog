@@ -301,7 +301,12 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         (r"^(DDAL|DDEX|DDHC)\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?", lambda m: m.group(0).upper()),
         # DDIA codes (e.g., DDIA-MORD, DDIA-VOLO, DDIA-MORD-01, DDIA05) - hardcover tie-in adventures
         (r"^(DDIA-[A-Za-z]+(?:-\d{1,2})?|DDIA\d{1,2})", lambda m: m.group(0).upper()),
-        # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01, CCC-KUMORI-01-02, CCC-ODFC01-01, CCCTHENT01-03, CCC-PRETZ-PLA02)
+        # CCCs with series code ending in numbers directly (e.g., CCC-UCON03, CCC-ODFC01)
+        # Series code: 2+ letters followed by numbers (no dash between letters and numbers)
+        # Must not be followed by dash-alphanumeric (to avoid matching partial codes like "UCON" from "UCON-03")
+        (r"^(AL|CCC-?)([A-Z]{2,}[0-9]+)(?![A-Za-z0-9-])",
+         lambda m: f"{m.group(1).upper()}-{m.group(2).upper()}" if m.group(1).upper() == "CCC" and not m.group(1).endswith("-") else m.group(0).upper()),
+        # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01, CCC-KUMORI-01-02, CCCTHENT01-03, CCC-PRETZ-PLA02)
         # Series code can be 2+ letters, optionally followed by numbers (no dash between letters and numbers)
         # Dash after CCC is optional (handles both CCC-THENT01-03 and CCCTHENT01-03)
         # Then required: dash followed by alphanumeric (e.g., -PLA02) or digits (e.g., -01)
