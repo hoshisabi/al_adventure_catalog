@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 4.99,
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "345146",
     "season": "Icewind Dale",
+    "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
-    "url": "https://www.dmsguild.com/product/345146/?affiliate_id=171040",
-    "seed": "The Muttering Gnome"
+    "title": "The Shape of Silence",
+    "url": "https://www.dmsguild.com/product/345146/?affiliate_id=171040"
 }

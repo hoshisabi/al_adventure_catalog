@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 3.99,
+    "payWhatYouWant": false,
+    "price": 3.19,
     "product_id": "345714",
     "season": "Icewind Dale",
+    "seed": "A Dark Horse",
     "tiers": 1,
-    "title": "DC-PoA-ZF01 Undisclosed Ordeals",
-    "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040",
-    "seed": "A Dark Horse"
+    "title": "Undisclosed Ordeals",
+    "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
 }

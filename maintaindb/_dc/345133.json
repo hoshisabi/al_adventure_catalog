@@ -14,11 +14,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "345133",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "That Ain't Mead DC-PoA-GSP02-03H",
-    "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "That Ain't Mead",
+    "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
 }

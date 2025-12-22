@@ -7026,11 +7026,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "254694",
         "season": null,
         "tiers": 3,
-        "title": "CCC-OCC-01 Red War Housekeeping",
+        "title": "Red War Housekeeping",
         "url": "https://www.dmsguild.com/product/254694/?affiliate_id=171040"
     },
     {
@@ -7305,11 +7306,14 @@
         "full_title": "CCC-GLIP-01-03 Citadel of Vlaakith",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257864",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-GLIP-01-03 Citadel of Vlaakith",
-        "url": "https://www.dmsguild.com/product/257864/CCCGLIP0103-Citadel-of-Vlaakith?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Citadel of Vlaakith",
+        "url": "https://www.dmsguild.com/product/257864/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -7326,14 +7330,17 @@
         "full_title": "CCC-GLIP-02-01 Blue Scales",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257866",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-GLIP-02-01 Blue Scales",
-        "url": "https://www.dmsguild.com/product/257866/CCCGLIP0201-Blue-Scales?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Blue Scales",
+        "url": "https://www.dmsguild.com/product/257866/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Shawn Merwin"
         ],
@@ -7345,14 +7352,17 @@
         "full_title": "CCC-CIC-10 Terror at Soward Manor",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257945",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-CIC-10 Terror at Soward Manor",
-        "url": "https://www.dmsguild.com/product/257945/CCCCIC10-Terror-at-Soward-Manor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Terror at Soward Manor",
+        "url": "https://www.dmsguild.com/product/257945/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Derek Gray",
             "Chris Totten",
@@ -7372,7 +7382,7 @@
         "product_id": "257958",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ALMOG-01 TALES01-01 What Lies Beneath",
+        "title": "TALES01-01 What Lies Beneath",
         "url": "https://www.dmsguild.com/product/257958/?affiliate_id=171040"
     },
     {
@@ -7389,11 +7399,14 @@
         "full_title": "CCC-SVH-01-01 Dawn of the Raven Lord",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257960",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SVH-01-01 Dawn of the Raven Lord",
-        "url": "https://www.dmsguild.com/product/257960/CCCSVH0101-Dawn-of-the-Raven-Lord?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Dawn of the Raven Lord",
+        "url": "https://www.dmsguild.com/product/257960/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -7409,11 +7422,14 @@
         "full_title": "CCC-SVH-01-03 Vault of the Raven Lord",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257962",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SVH-01-03 Vault of the Raven Lord",
-        "url": "https://www.dmsguild.com/product/257962/CCCSVH0103-Vault-of-the-Raven-Lord?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Vault of the Raven Lord",
+        "url": "https://www.dmsguild.com/product/257962/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -7429,11 +7445,14 @@
         "full_title": "CCC-SVH-01-02 Raven Lord’s Aerie",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257963",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SVH-01-02 Raven Lord’s Aerie",
-        "url": "https://www.dmsguild.com/product/257963/CCCSVH0102-Raven-Lords-Aerie?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Raven Lord’s Aerie",
+        "url": "https://www.dmsguild.com/product/257963/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -7479,11 +7498,14 @@
         "full_title": "CCC-HAL-01 Fate of the Nightworms",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "258088",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-HAL-01 Fate of the Nightworms",
-        "url": "https://www.dmsguild.com/product/258088/CCCHAL01-Fate-of-the-Nightworms?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Fate of the Nightworms",
+        "url": "https://www.dmsguild.com/product/258088/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -7626,11 +7648,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "6",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "259022",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ELO-01 For the Kids!",
+        "title": "For the Kids!",
         "url": "https://www.dmsguild.com/product/259022/?affiliate_id=171040"
     },
     {
@@ -17588,11 +17611,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344691",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GHC-BK03-02 The Girl with the Wet Nose",
+        "title": "The Girl with the Wet Nose",
         "url": "https://www.dmsguild.com/product/344691/?affiliate_id=171040"
     },
     {
@@ -17608,83 +17632,15 @@
         "full_title": "DC-PoA-KCB-01 The Lady of the Maer",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344979",
+        "season": "Icewind Dale",
         "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-PoA-KCB-01 The Lady of the Maer",
-        "url": "https://www.dmsguild.com/product/344979/DCPoAKCB01-The-Lady-of-the-Maer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Paul Gabat",
-            "Kristoff Alejo"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-GSP02-01H",
-        "date_created": "20210130",
-        "full_title": "The Arrival of Mr. Sorrow (DC-PoA-GSP02-01H)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345129",
-        "season": "Icewind Dale",
-        "seed": "A Dark Horse",
-        "tiers": 1,
-        "title": "The Arrival of Mr. Sorrow DC-PoA-GSP02-01H",
-        "url": "https://www.dmsguild.com/product/345129/?affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [
-            "Miles Silbor II",
-            "Paul Gabat",
-            "Kristoff Alejo"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-GSP02-02H",
-        "date_created": "20210130",
-        "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345131",
-        "season": "Icewind Dale",
-        "seed": "The Muttering Gnome",
-        "tiers": 1,
-        "title": "The Priest of Caer-Dineval DC-PoA-GSP02-02H",
-        "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Niccolo Estrella",
-            "Paul Gabat",
-            "Kristoff Alejo"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-GSP02-03H",
-        "date_created": "20210130",
-        "full_title": "That Ain't Mead (DC-PoA-GSP02-03H)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345133",
-        "season": "Icewind Dale",
-        "seed": "Do You Know the Way to Lonely Wood?",
-        "tiers": 1,
-        "title": "That Ain't Mead DC-PoA-GSP02-03H",
-        "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
+        "title": "The Lady of the Maer",
+        "url": "https://www.dmsguild.com/product/344979/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -17724,12 +17680,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "345146",
         "season": "Icewind Dale",
         "seed": "The Muttering Gnome",
         "tiers": 1,
-        "title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
+        "title": "The Shape of Silence",
         "url": "https://www.dmsguild.com/product/345146/?affiliate_id=171040"
     },
     {
@@ -17745,12 +17702,15 @@
         "full_title": "DC-PoA-NBDD-01 Ice, Ice, Birdie",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "345306",
+        "season": "Icewind Dale",
         "seed": "Winter Over",
         "tiers": 2,
-        "title": "DC-PoA-NBDD-01 Ice, Ice, Birdie",
-        "url": "https://www.dmsguild.com/product/345306/DCPoANBDD01-Ice-Ice-Birdie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Ice, Ice, Birdie",
+        "url": "https://www.dmsguild.com/product/345306/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -17774,48 +17734,6 @@
         "tiers": 2,
         "title": "Out of the Dark Woods",
         "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
-    },
-    {
-        "apl": 5,
-        "authors": [
-            "Adrian Francisco"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DCAF07",
-        "date_created": "20210203",
-        "full_title": "DC-PoA-DCAF07 I'm In Your Arms",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "345460",
-        "seed": "Holy Auril, Mother of Cod",
-        "tiers": 2,
-        "title": "DC-PoA-DCAF07 I'm In Your Arms",
-        "url": "https://www.dmsguild.com/product/345460/DCPoADCAF07-Im-In-Your-Arms?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Zarajane Ferrier"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-ZF01",
-        "date_created": "20210204",
-        "full_title": "DC-PoA-ZF01 Undisclosed Ordeals",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345714",
-        "season": "Icewind Dale",
-        "seed": "A Dark Horse",
-        "tiers": 1,
-        "title": "DC-PoA-ZF01 Undisclosed Ordeals",
-        "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
     },
     {
         "apl": null,
