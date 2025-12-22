@@ -27,7 +27,7 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1422,
+        "Unknown": 1416,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
@@ -36,8 +36,8 @@
         "Plague of Ancients": 13,
         "Icewind Dale": 143,
         "The Wild Beyond the Witchlight": 147,
-        "Spelljammer": 115,
-        "Planescape": 85
+        "Spelljammer": 119,
+        "Planescape": 87
     },
     "seed_by_season": {
         "Icewind Dale (DC-POA)": {
