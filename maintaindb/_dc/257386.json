@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "257386",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-MCX-01 All in a Day\u2019s Work",
-    "url": "https://www.dmsguild.com/product/257386/CCCMCX01-All-in-a-Days-Work?filters=45470_0_0_0_0_0_0_0"
+    "title": "All in a Day\u2019s Work",
+    "url": "https://www.dmsguild.com/product/257386/?affiliate_id=171040"
 }
