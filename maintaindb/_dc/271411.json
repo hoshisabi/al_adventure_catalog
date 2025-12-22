@@ -9,11 +9,14 @@
     "code": null,
     "date_created": "20190331",
     "full_title": "Riders in the Mist",
-    "hours": "2",
+    "hours": "2-4",
     "is_adventure": false,
-    "level_range": "2",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "271411",
-    "tiers": null,
+    "season": null,
+    "tiers": 1,
     "title": "Riders in the Mist",
-    "url": "https://www.dmsguild.com/product/271411/Riders-in-the-Mist"
+    "url": "https://www.dmsguild.com/product/271411/?affiliate_id=171040"
 }

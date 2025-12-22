@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Kymerik Kreationz"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 0.99,
     "product_id": "529044",
+    "season": null,
     "tiers": null,
     "title": "Krampus's Summer Break",
-    "url": "https://www.dmsguild.com/product/529044/Krampuss-Summer-Break"
+    "url": "https://www.dmsguild.com/product/529044/?affiliate_id=171040"
 }

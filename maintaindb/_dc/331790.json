@@ -12,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": "0",
+    "payWhatYouWant": false,
+    "price": 1.0,
     "product_id": "331790",
+    "season": null,
     "tiers": null,
-    "title": "DDAL-DRW-01 VTT Assets",
-    "url": "https://www.dmsguild.com/product/331790/DDALDRW01-VTT-Assets"
+    "title": "VTT Assets",
+    "url": "https://www.dmsguild.com/product/331790/?affiliate_id=171040"
 }

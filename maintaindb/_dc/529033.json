@@ -1,17 +1,22 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Steve Trenkamp"
+    ],
     "campaigns": [
         null
     ],
     "code": null,
     "date_created": "20250707",
-    "full_title": "Barbarian Character Sheet with Backpack for 5e - Form Fillable",
+    "full_title": "Barbarian Character Sheet with Backpack for 5e - Printable & Fillable in Web Browser",
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 1.0,
     "product_id": "529033",
+    "season": null,
     "tiers": null,
-    "title": "Barbarian Character Sheet with Backpack for 5e - Form Fillable",
-    "url": "https://www.dmsguild.com/product/529033/Barbarian-Character-Sheet-with-Backpack-for-5e--Form-Fillable"
+    "title": "Barbarian Character Sheet with Backpack for 5e - Printable & Fillable in Web Browser",
+    "url": "https://www.dmsguild.com/product/529033/?affiliate_id=171040"
 }

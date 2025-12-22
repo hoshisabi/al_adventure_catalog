@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Sheppe Pharis"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,11 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
+    "price": 5.99,
     "product_id": "529005",
+    "season": null,
     "tiers": null,
     "title": "Treant 3D Printable STL D&D",
-    "url": "https://www.dmsguild.com/product/529005/Treant-3D-Printable-STL-DD"
+    "url": "https://www.dmsguild.com/product/529005/?affiliate_id=171040"
 }

@@ -1,6 +1,8 @@
 {
     "apl": null,
-    "authors": [],
+    "authors": [
+        "Fantasy Monkeys"
+    ],
     "campaigns": [
         null
     ],
@@ -10,8 +12,12 @@
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": true,
+    "price": 1.0,
     "product_id": "528874",
+    "season": null,
+    "suggestedPrice": 1.0,
     "tiers": null,
     "title": "The Outsiders",
-    "url": "https://www.dmsguild.com/product/528874/The-Outsiders"
+    "url": "https://www.dmsguild.com/product/528874/?affiliate_id=171040"
 }
