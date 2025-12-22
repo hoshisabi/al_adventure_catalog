@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Shawn Merwin"
     ],
@@ -11,9 +11,12 @@
     "full_title": "CCC-CIC-12 Redemption at Talos Sound",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "259563",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-CIC-12 Redemption at Talos Sound",
-    "url": "https://www.dmsguild.com/product/259563/CCCCIC12-Redemption-at-Talos-Sound?filters=45470_0_0_0_0_0_0_0"
+    "title": "Redemption at Talos Sound",
+    "url": "https://www.dmsguild.com/product/259563/?affiliate_id=171040"
 }

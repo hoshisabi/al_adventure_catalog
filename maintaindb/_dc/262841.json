@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 7,
     "authors": [
         "Rob Eddins",
         "Ginny Loveday",
@@ -16,10 +16,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "262841",
     "season": null,
     "tiers": 2,
-    "title": "CCC-SKULL01-02 Not All Who Are Lost Should Be Found",
+    "title": "Not All Who Are Lost Should Be Found",
     "url": "https://www.dmsguild.com/product/262841/?affiliate_id=171040"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": 5,
+    "apl": 8,
     "authors": [
         "Shawn Merwin"
     ],
@@ -11,9 +11,12 @@
     "full_title": "CCC-CIC-11 Death at Peril Island",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "259558",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-CIC-11 Death at Peril Island",
-    "url": "https://www.dmsguild.com/product/259558/CCCCIC11-Death-at-Peril-Island?filters=45470_0_0_0_0_0_0_0"
+    "title": "Death at Peril Island",
+    "url": "https://www.dmsguild.com/product/259558/?affiliate_id=171040"
 }
