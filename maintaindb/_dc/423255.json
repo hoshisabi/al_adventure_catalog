@@ -15,8 +15,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 9.99,
     "product_id": "423255",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-MOON20 Through the Storm",
-    "url": "https://www.dmsguild.com/product/423255/CCCBMGMOON20-Through-the-Storm?filters=45470_0_0_0_0_0"
+    "title": "Through the Storm",
+    "url": "https://www.dmsguild.com/product/423255/?affiliate_id=171040"
 }

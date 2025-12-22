@@ -14,8 +14,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "402680",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-MOON19-2 A Tide and a Storm",
-    "url": "https://www.dmsguild.com/product/402680/CCCBMGMOON192-A-Tide-and-a-Storm?filters=45470_0_0_0_0_0"
+    "title": "A Tide and a Storm",
+    "url": "https://www.dmsguild.com/product/402680/?affiliate_id=171040"
 }
