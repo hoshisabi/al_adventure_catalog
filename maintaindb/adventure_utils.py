@@ -272,9 +272,18 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
     # Ordered roughly by specificity or commonality
     # All patterns are case-insensitive
     patterns = [
-        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01, PS-DC-TT-202) - flexible for series name
+        # DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
+        # This must come before the simple letter pattern to avoid partial matches
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-([A-Z]+)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        # DC codes ending with just letters (no dashes in series, e.g., PS-DC-IC)
+        # This must come after the dash-letter pattern to avoid matching "ELEMENT" from "ELEMENT-DEATH"
+        # Use negative lookahead to ensure no dash or digit follows the letters
+        # This prevents matching "PKL" from "PKL-08" or "ELEMENT" from "ELEMENT-DEATH"
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01, PS-DC-TT-202, FR-DC-DIGM-01-01) - flexible for series name
         # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d+)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
+        # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # More general DC codes (e.g., RV-DC01)
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
         # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01) - normalize to all caps

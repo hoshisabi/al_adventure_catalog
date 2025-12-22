@@ -11,9 +11,12 @@
     "full_title": "PS-DC-TST-01 The Eye Behind the Mask",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "17-20",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "504348",
+    "season": "Planescape",
     "tiers": 4,
     "title": "The Eye Behind the Mask",
-    "url": "https://www.dmsguild.com/product/504348/PSDCTST01-The-Eye-Behind-the-Mask?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/504348/?affiliate_id=171040"
 }

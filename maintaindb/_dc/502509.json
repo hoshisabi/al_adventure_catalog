@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "502509",
+    "season": null,
     "tiers": 3,
     "title": "The Icarus Connection",
-    "url": "https://www.dmsguild.com/product/502509/FRDCUCON24-The-Icarus-Connection?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/502509/?affiliate_id=171040"
 }
