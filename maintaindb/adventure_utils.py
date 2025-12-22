@@ -275,17 +275,18 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
         # This must come before the simple letter pattern to avoid partial matches
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-([A-Z]+)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        # DC codes with dash-number sequences (e.g., FR-DC-STRAT-TALES-02, PS-DC-NBDD-01, FR-DC-DIGM-01-01)
+        # This must come BEFORE the alphanumeric pattern to match "NBDD-01" instead of just "NBDD"
+        # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
+        # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., FR-DC-UCON24)
-        # This must come before the letters-only pattern to avoid partial matches like "UCO" from "UCON24"
+        # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes ending with just letters (no dashes in series, e.g., PS-DC-IC)
         # This must come after the alphanumeric pattern to avoid matching "UCO" from "UCON24"
         # Use negative lookahead to ensure no alphanumeric or dash follows (only space/end of string)
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z]+)(?![A-Z0-9-])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
-        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01, PS-DC-TT-202, FR-DC-DIGM-01-01) - flexible for series name
-        # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
-        # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # More general DC codes (e.g., RV-DC01)
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
         # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01) - normalize to all caps

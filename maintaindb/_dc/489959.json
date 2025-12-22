@@ -11,9 +11,12 @@
     "full_title": "FR-DC-DOBU-02-01, Hoard of the Death Dragon",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 7.0,
     "product_id": "489959",
+    "season": null,
     "tiers": 2,
     "title": "Hoard of the Death Dragon",
-    "url": "https://www.dmsguild.com/product/489959/FRDCDOBU0201-Hoard-of-the-Death-Dragon?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/489959/?affiliate_id=171040"
 }
