@@ -11,9 +11,12 @@
     "full_title": "CCC-GAD-01-03 Caught in Time",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "11",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 0.0,
     "product_id": "284754",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-GAD-01-03 Caught in Time",
-    "url": "https://www.dmsguild.com/product/284754/CCCGAD0103-Caught-in-Time?filters=45470_0_0_0_0_0_0_0"
+    "title": "Caught in Time",
+    "url": "https://www.dmsguild.com/product/284754/?affiliate_id=171040"
 }

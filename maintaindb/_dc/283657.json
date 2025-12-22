@@ -11,9 +11,12 @@
     "full_title": "CCC-UK-4 Bourne of Candles",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "3",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.95,
     "product_id": "283657",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-UK-4 Bourne of Candles",
-    "url": "https://www.dmsguild.com/product/283657/CCCUK4-Bourne-of-Candles?filters=45470_0_0_0_0_0_0_0"
+    "title": "Bourne of Candles",
+    "url": "https://www.dmsguild.com/product/283657/?affiliate_id=171040"
 }
