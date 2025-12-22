@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "309301",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-WWC-09 Defenders of Est'Ellma",
-    "url": "https://www.dmsguild.com/product/309301/CCCWWC09-Defenders-of-EstEllma?filters=45470_0_0_0_0_0_0_0"
+    "title": "Defenders of Est'Ellma",
+    "url": "https://www.dmsguild.com/product/309301/?affiliate_id=171040"
 }

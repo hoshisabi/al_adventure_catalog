@@ -13,8 +13,11 @@
     "hours": null,
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "313797",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-GHC-BK2-05 Finglebruggle's Phantomball Field",
-    "url": "https://www.dmsguild.com/product/313797/CCCGHCBK205-Finglebruggles-Phantomball-Field?filters=45470_0_0_0_0_0_0_0"
+    "title": "Finglebruggle's Phantomball Field",
+    "url": "https://www.dmsguild.com/product/313797/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "CCC-RCC-01-01 Flight of the Forgemage",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "01",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "299975",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-RCC-01-01 Flight of the Forgemage",
-    "url": "https://www.dmsguild.com/product/299975/CCCRCC0101-Flight-of-the-Forgemage?filters=45470_0_0_0_0_0_0_0"
+    "title": "Flight of the Forgemage",
+    "url": "https://www.dmsguild.com/product/299975/?affiliate_id=171040"
 }

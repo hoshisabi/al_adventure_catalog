@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "307705",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-SAC-03 They're Good Adventurers, Brent",
-    "url": "https://www.dmsguild.com/product/307705/CCCSAC03-Theyre-Good-Adventurers-Brent?filters=45470_0_0_0_0_0_0_0"
+    "title": "They're Good Adventurers, Brent",
+    "url": "https://www.dmsguild.com/product/307705/?affiliate_id=171040"
 }

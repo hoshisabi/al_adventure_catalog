@@ -12,8 +12,11 @@
     "hours": "6",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "309290",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-ELF-04 Blood of the Covenent",
-    "url": "https://www.dmsguild.com/product/309290/CCCELF04-Blood-of-the-Covenent?filters=45470_0_0_0_0_0_0_0"
+    "title": "Blood of the Covenent",
+    "url": "https://www.dmsguild.com/product/309290/?affiliate_id=171040"
 }
