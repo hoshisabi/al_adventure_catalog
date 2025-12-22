@@ -2082,7 +2082,7 @@
         "url": "https://www.dmsguild.com/product/200484/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 20,
         "authors": [
             "Alan Patrick"
         ],
@@ -2091,16 +2091,16 @@
         ],
         "code": "DDAL00-01",
         "date_created": "20161213",
-        "full_title": "DDAL00-01 Window to the Past",
+        "full_title": "DDAL00-01 Window to the Past (tier 4)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
+        "level_range": "17-20",
         "payWhatYouWant": false,
         "price": 5.99,
-        "product_id": "200609",
+        "product_id": "200609-2",
         "season": 0,
-        "tiers": 2,
-        "title": "Window to the Past",
+        "tiers": 4,
+        "title": "Window to the Past (tier 4)",
         "url": "https://www.dmsguild.com/product/200609/?affiliate_id=171040"
     },
     {
@@ -2302,7 +2302,7 @@
         "code": "DDIA-VOLO",
         "date_created": "20170131",
         "full_title": "In Volo's Wake",
-        "hours": "1-6",
+        "hours": "4-8",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
@@ -3057,6 +3057,58 @@
         "url": "https://www.dmsguild.com/product/220572/?affiliate_id=171040"
     },
     {
+        "apl": null,
+        "authors": [
+            "Lysa Chen",
+            "Will Doyle",
+            "Claire Hoffman",
+            "James Introcaso",
+            "Rich Lescouflair",
+            "Shawn Merwin",
+            "Cindy Moore",
+            "Satine Phoenix",
+            "Ruty Rutenberg"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-5",
+        "date_created": "20170908",
+        "full_title": "Encounters in Port Nyanzaru",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "1-11",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "220591",
+        "season": "Tomb of Annihilation",
+        "tiers": 1,
+        "title": "Encounters in Port Nyanzaru",
+        "url": "https://www.dmsguild.com/product/220591/?affiliate_id=171040"
+    },
+    {
+        "apl": null,
+        "authors": [
+            "Shawn Merwin"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDHC-TOA-8",
+        "date_created": "20170901",
+        "full_title": "Return of the Lizard King (DDHC-TOA-8)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 5.95,
+        "product_id": "220608",
+        "season": "Tomb of Annihilation",
+        "tiers": 1,
+        "title": "Return of the Lizard King",
+        "url": "https://www.dmsguild.com/product/220608/?affiliate_id=171040"
+    },
+    {
         "apl": 12,
         "authors": [
             "Lysa Chen",
@@ -3067,14 +3119,14 @@
         ],
         "code": "DDHC-TOA-10",
         "date_created": "20170908",
-        "full_title": "Ruins of Hisari",
+        "full_title": "Ruins of Hisari (DDHC-TOA-10)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "220610",
-        "season": null,
+        "season": "Tomb of Annihilation",
         "tiers": 3,
         "title": "Ruins of Hisari",
         "url": "https://www.dmsguild.com/product/220610/?affiliate_id=171040"
@@ -3135,14 +3187,14 @@
         ],
         "code": "DDHC-TOA-9",
         "date_created": "20170908",
-        "full_title": "DDHC-TOA-9 Ruins of Matolo: Discovery",
+        "full_title": "Ruins of Matolo: Discovery (DDHC-TOA-9)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "221157",
-        "season": null,
+        "season": "Tomb of Annihilation",
         "tiers": 2,
         "title": "Ruins of Matolo: Discovery",
         "url": "https://www.dmsguild.com/product/221157/?affiliate_id=171040"
@@ -3170,23 +3222,23 @@
         "url": "https://www.dmsguild.com/product/221415/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Christopher Perkins",
             "Jeremy Crawford"
         ],
         "campaigns": [],
-        "code": "Tortle Package",
+        "code": "DDHC-TOA-2",
         "date_created": "20170915",
-        "full_title": "Tortle Package",
-        "hours": "",
+        "full_title": "Tortle Package (DDHC-TOA-2)",
+        "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 9.99,
         "product_id": "221716",
-        "season": null,
-        "tiers": 0,
+        "season": "Tomb of Annihilation",
+        "tiers": 1,
         "title": "Tortle Package",
         "url": "https://www.dmsguild.com/product/221716/?affiliate_id=171040"
     },
@@ -3500,14 +3552,14 @@
         ],
         "code": "DDHC-TOA-11",
         "date_created": "20171022",
-        "full_title": "DDHC-TOA-11 Hunter",
+        "full_title": "Hunter (DDHC-TOA-11)",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 3.95,
         "product_id": "224607",
-        "season": null,
+        "season": "Tomb of Annihilation",
         "tiers": 1,
         "title": "Hunter",
         "url": "https://www.dmsguild.com/product/224607/?affiliate_id=171040"
@@ -3689,7 +3741,7 @@
         "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "226245",
-        "season": null,
+        "season": "Tomb of Annihilation",
         "tiers": 3,
         "title": "The Risen Mists",
         "url": "https://www.dmsguild.com/product/226245/?affiliate_id=171040"
@@ -3973,7 +4025,7 @@
         "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Ryan Wheaton"
         ],
@@ -4017,7 +4069,7 @@
         "url": "https://www.dmsguild.com/product/230005/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Alan Patrick"
         ],
@@ -4026,16 +4078,38 @@
         ],
         "code": "DDAL00-03",
         "date_created": "20171230",
-        "full_title": "DDAL00-03 Those That Came Before",
+        "full_title": "DDAL00-03 Those That Came Before (tier 3)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
+        "level_range": "11-16",
         "payWhatYouWant": false,
         "price": 5.99,
-        "product_id": "230030",
+        "product_id": "230030-3",
         "season": 0,
-        "tiers": 2,
-        "title": "Those That Came Before",
+        "tiers": 3,
+        "title": "Those That Came Before (tier 3)",
+        "url": "https://www.dmsguild.com/product/230030/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-03",
+        "date_created": "20171230",
+        "full_title": "DDAL00-03 Those That Came Before (tier 4)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "230030-4",
+        "season": 0,
+        "tiers": 4,
+        "title": "Those That Came Before (tier 4)",
         "url": "https://www.dmsguild.com/product/230030/?affiliate_id=171040"
     },
     {
@@ -9518,6 +9592,50 @@
         "url": "https://www.dmsguild.com/product/266890/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-08",
+        "date_created": "20190217",
+        "full_title": "DDAL00-08 Layers Upon Layers (tier 1)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "266896-1",
+        "season": 0,
+        "tiers": 1,
+        "title": "Layers Upon Layers (tier 1)",
+        "url": "https://www.dmsguild.com/product/266896/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-08",
+        "date_created": "20190217",
+        "full_title": "DDAL00-08 Layers Upon Layers (tier 2)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "266896-2",
+        "season": 0,
+        "tiers": 2,
+        "title": "Layers Upon Layers (tier 2)",
+        "url": "https://www.dmsguild.com/product/266896/?affiliate_id=171040"
+    },
+    {
         "apl": null,
         "authors": [
             "Travis Woodall"
@@ -10282,7 +10400,7 @@
         "url": "https://www.dmsguild.com/product/278716/?affiliate_id=171040"
     },
     {
-        "apl": 3,
+        "apl": 8,
         "authors": [
             "Travis Woodall"
         ],
@@ -10291,16 +10409,16 @@
         ],
         "code": "DDAL00-07",
         "date_created": "20190606",
-        "full_title": "DDAL00-07 The Embers of Hate",
+        "full_title": "DDAL00-07 The Embers of Hate (tier 2)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": "279062",
+        "product_id": "279062-1",
         "season": 0,
-        "tiers": 1,
-        "title": "The Embers of Hate",
+        "tiers": 2,
+        "title": "The Embers of Hate (tier 2)",
         "url": "https://www.dmsguild.com/product/279062/?affiliate_id=171040"
     },
     {
