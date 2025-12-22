@@ -11,9 +11,12 @@
     "full_title": "House of Diamonds (CCC-UNITE-GD-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "335286",
+    "season": null,
     "tiers": 2,
-    "title": "House of Diamonds CCC-UNITE-GD-01",
-    "url": "https://www.dmsguild.com/product/335286/House-of-Diamonds-CCCUNITEGD01?filters=45470_0_0_0_0_0_0_0"
+    "title": "House of Diamonds",
+    "url": "https://www.dmsguild.com/product/335286/?affiliate_id=171040"
 }

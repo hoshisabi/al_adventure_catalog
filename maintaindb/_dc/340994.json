@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "340994",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-DWB-GAT-1 To Give and to Take",
-    "url": "https://www.dmsguild.com/product/340994/CCCDWBGAT1-To-Give-and-to-Take?filters=45470_0_0_0_0_0_0_0"
+    "title": "To Give and to Take",
+    "url": "https://www.dmsguild.com/product/340994/?affiliate_id=171040"
 }

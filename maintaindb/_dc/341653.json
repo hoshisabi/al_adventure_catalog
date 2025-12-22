@@ -11,9 +11,12 @@
     "full_title": "CCC-RPSG-04 The Waystop",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "341653",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-RPSG-04 The Waystop",
-    "url": "https://www.dmsguild.com/product/341653/CCCRPSG04-The-Waystop?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Waystop",
+    "url": "https://www.dmsguild.com/product/341653/?affiliate_id=171040"
 }

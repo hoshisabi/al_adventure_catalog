@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "340992",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-DWB-AF-1 Adventuring Fates",
-    "url": "https://www.dmsguild.com/product/340992/CCCDWBAF1-Adventuring-Fates?filters=45470_0_0_0_0_0_0_0"
+    "title": "Adventuring Fates",
+    "url": "https://www.dmsguild.com/product/340992/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "CCC-DWB-ANH-1 A Negotiated Heist",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "340592",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-DWB-ANH-1 A Negotiated Heist",
-    "url": "https://www.dmsguild.com/product/340592/CCCDWBANH1-A-Negotiated-Heist?filters=45470_0_0_0_0_0_0_0"
+    "title": "A Negotiated Heist",
+    "url": "https://www.dmsguild.com/product/340592/?affiliate_id=171040"
 }

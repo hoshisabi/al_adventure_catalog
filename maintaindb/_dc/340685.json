@@ -13,8 +13,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "340685",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-GHC-BK2-10 Into the Dark, Black Forest",
-    "url": "https://www.dmsguild.com/product/340685/CCCGHCBK210-Into-the-Dark-Black-Forest?filters=45470_0_0_0_0_0_0_0"
+    "title": "Into the Dark, Black Forest",
+    "url": "https://www.dmsguild.com/product/340685/?affiliate_id=171040"
 }

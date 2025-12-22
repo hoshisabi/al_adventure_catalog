@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "399829",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-MOON18-2 What We Reap",
-    "url": "https://www.dmsguild.com/product/399829/CCCBMGMOON182-What-We-Reap?filters=45470_0_0_0_0_0"
+    "title": "What We Reap",
+    "url": "https://www.dmsguild.com/product/399829/?affiliate_id=171040"
 }

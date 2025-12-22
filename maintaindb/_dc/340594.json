@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "340594",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-DWB-TLA-1 The Lakebed Archive",
-    "url": "https://www.dmsguild.com/product/340594/CCCDWBTLA1-The-Lakebed-Archive?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Lakebed Archive",
+    "url": "https://www.dmsguild.com/product/340594/?affiliate_id=171040"
 }

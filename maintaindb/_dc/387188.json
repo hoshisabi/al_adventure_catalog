@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "387188",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-BMG-MOON16-2 Procession of the Sage",
-    "url": "https://www.dmsguild.com/product/387188/CCCBMGMOON162-Procession-of-the-Sage?filters=45470_0_0_0_0_0"
+    "title": "Procession of the Sage",
+    "url": "https://www.dmsguild.com/product/387188/?affiliate_id=171040"
 }
