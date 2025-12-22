@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Greg Marks",
         "Claire Hoffman",
@@ -11,17 +11,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDAL00-02",
+    "code": "DDAL00-02d",
     "date_created": "20180713",
-    "full_title": "Lost Tales of Myth Drannor",
-    "hours": "2-4",
-    "is_adventure": false,
-    "level_range": "1-20",
+    "full_title": "DDAL00-02d Echos of the Weeping War (Lost Tales of Myth Drannor)",
+    "hours": "2",
+    "is_adventure": true,
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 14.99,
-    "product_id": "247140",
+    "product_id": "247140-4",
     "season": 0,
-    "tiers": "1-4",
-    "title": "Lost Tales of Myth Drannor",
+    "tiers": "2",
+    "title": "Echos of the Weeping War (Lost Tales of Myth Drannor)",
     "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
 }
