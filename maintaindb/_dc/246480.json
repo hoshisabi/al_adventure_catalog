@@ -1,5 +1,5 @@
 {
-    "apl": 11,
+    "apl": 13,
     "authors": [
         "Alan Patrick",
         "MOGC"
@@ -8,13 +8,16 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MIND01-03",
-    "date_created": "20180705",
+    "date_created": "20180706",
     "full_title": "CCC-MIND01-03 Dream Walkers",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "11",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "246480",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-MIND01-03 Dream Walkers",
-    "url": "https://www.dmsguild.com/product/246480/CCCMIND0103-Dream-Walkers?filters=45470_0_0_0_0_0_0_0"
+    "title": "Dream Walkers",
+    "url": "https://www.dmsguild.com/product/246480/?affiliate_id=171040"
 }

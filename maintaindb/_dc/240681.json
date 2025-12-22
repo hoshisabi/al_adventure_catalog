@@ -11,9 +11,12 @@
     "full_title": "CCC-WWC-04 The Black Hand",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "240681",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-WWC-04 The Black Hand",
-    "url": "https://www.dmsguild.com/product/240681/CCCWWC04-The-Black-Hand?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Black Hand",
+    "url": "https://www.dmsguild.com/product/240681/?affiliate_id=171040"
 }

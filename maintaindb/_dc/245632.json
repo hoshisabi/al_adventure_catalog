@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "245632",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-ODFC02-01 Serenade of Pain",
-    "url": "https://www.dmsguild.com/product/245632/CCCODFC0201-Serenade-of-Pain?filters=45470_0_0_0_0_0_0_0"
+    "title": "Serenade of Pain",
+    "url": "https://www.dmsguild.com/product/245632/?affiliate_id=171040"
 }

@@ -1,5 +1,5 @@
 {
-    "apl": 11,
+    "apl": 13,
     "authors": [
         "Jay H. Anderson",
         "MOGC"
@@ -12,9 +12,12 @@
     "full_title": "CCC-MIND01-01 Lost in Thought",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "11",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "246253",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-MIND01-01 Lost in Thought",
-    "url": "https://www.dmsguild.com/product/246253/CCCMIND0101-Lost-in-Thought?filters=45470_0_0_0_0_0_0_0"
+    "title": "Lost in Thought",
+    "url": "https://www.dmsguild.com/product/246253/?affiliate_id=171040"
 }
