@@ -1,25 +1,25 @@
 {
     "tier": {
         "Tier 1": 800,
-        "Tier 2": 817,
+        "Tier 2": 816,
         "Tier 3": 328,
         "Tier 4": 78,
         "Unknown": 7
     },
     "duration": {
         "1 Hours": 20,
-        "2 Hours": 574,
-        "All Others": 189,
-        "4 Hours": 1380,
+        "2 Hours": 575,
+        "All Others": 192,
+        "4 Hours": 1383,
         "8 Hours": 11,
-        "Unknown": 116,
+        "Unknown": 114,
         "6 Hours": 48
     },
     "campaign": {
         "Forgotten Realms": 1898,
         "Ravenloft": 49,
         "Unknown": 10,
-        "Eberron": 68,
+        "Eberron": 67,
         "Dragonlance": 20
     },
     "season": {
@@ -27,14 +27,14 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1462,
+        "Unknown": 1444,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
         "Waterdeep": 19,
         "Avernus Rising": 20,
         "Plague of Ancients": 13,
-        "Icewind Dale": 87,
+        "Icewind Dale": 104,
         "The Wild Beyond the Witchlight": 141,
         "Spelljammer": 113,
         "Planescape": 72
