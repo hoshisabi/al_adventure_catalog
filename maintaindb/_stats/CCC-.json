@@ -1212,7 +1212,7 @@
         "product_id": "223663",
         "season": null,
         "tiers": 1,
-        "title": "CCCTHENT01-01 Beneath the Surface",
+        "title": "Beneath the Surface",
         "url": "https://www.dmsguild.com/product/223663/?affiliate_id=171040"
     },
     {
@@ -1234,7 +1234,7 @@
         "product_id": "223665",
         "season": null,
         "tiers": 1,
-        "title": "CCCTHENT01-02 Those That Dwell Beneath",
+        "title": "Those That Dwell Beneath",
         "url": "https://www.dmsguild.com/product/223665/?affiliate_id=171040"
     },
     {
@@ -1256,7 +1256,7 @@
         "product_id": "223667",
         "season": null,
         "tiers": 1,
-        "title": "CCCTHENT01-03 The Dreaming Relic",
+        "title": "The Dreaming Relic",
         "url": "https://www.dmsguild.com/product/223667/?affiliate_id=171040"
     },
     {
@@ -2212,7 +2212,7 @@
         "product_id": "239986",
         "season": null,
         "tiers": 2,
-        "title": "CCCHATMS01-01 Threatening Tides",
+        "title": "Threatening Tides",
         "url": "https://www.dmsguild.com/product/239986/?affiliate_id=171040"
     },
     {
@@ -3646,13 +3646,16 @@
         "code": "CCC-GOC01-03",
         "date_created": "20180924",
         "full_title": "CCCGOC01-03 Winds of Rot",
-        "hours": "4",
+        "hours": "3-4",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "253212",
+        "season": null,
         "tiers": 3,
-        "title": "CCCGOC01-03 Winds of Rot",
-        "url": "https://www.dmsguild.com/product/253212/CCCGOC0103-Winds-of-Rot?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Winds of Rot",
+        "url": "https://www.dmsguild.com/product/253212/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -3667,11 +3670,14 @@
         "full_title": "CCC-BWM-001 Howling on the Moonsea",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "253539",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-BWM-001 Howling on the Moonsea",
-        "url": "https://www.dmsguild.com/product/253539/CCCBWM001-Howling-on-the-Moonsea?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Howling on the Moonsea",
+        "url": "https://www.dmsguild.com/product/253539/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -3686,11 +3692,14 @@
         "full_title": "CCC-SQC-001 The Woodland Sage",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "253547",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-SQC-001 The Woodland Sage",
-        "url": "https://www.dmsguild.com/product/253547/CCCSQC001-The-Woodland-Sage?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Woodland Sage",
+        "url": "https://www.dmsguild.com/product/253547/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3706,11 +3715,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "253558",
         "season": null,
         "tiers": 3,
-        "title": "CCC-BWM-003 A Tale of Two Towers",
+        "title": "A Tale of Two Towers",
         "url": "https://www.dmsguild.com/product/253558/?affiliate_id=171040"
     },
     {
@@ -3721,17 +3731,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-SQC-02-01",
+        "code": "CCC-SQC-01",
         "date_created": "20180929",
         "full_title": "CCC-SQC-02-01 None the Wiser",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "253561",
         "season": null,
         "tiers": 2,
-        "title": "CCC-SQC-02-01 None the Wiser",
+        "title": "None the Wiser",
         "url": "https://www.dmsguild.com/product/253561/?affiliate_id=171040"
     },
     {
@@ -3748,11 +3759,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.0,
         "product_id": "253726",
         "season": null,
         "tiers": 2,
-        "title": "CCC-SQC-02-02 Last Gasp",
+        "title": "Last Gasp",
         "url": "https://www.dmsguild.com/product/253726/?affiliate_id=171040"
     },
     {
@@ -3768,11 +3780,14 @@
         "full_title": "CCC-UK-1 Call of the Elvenflow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "253816",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-UK-1 Call of the Elvenflow",
-        "url": "https://www.dmsguild.com/product/253816/CCCUK1-Call-of-the-Elvenflow?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Call of the Elvenflow",
+        "url": "https://www.dmsguild.com/product/253816/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -3787,11 +3802,14 @@
         "full_title": "CCC-UK-2 The Wayward Wives",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "253817",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-UK-2 The Wayward Wives",
-        "url": "https://www.dmsguild.com/product/253817/CCCUK2-The-Wayward-Wives?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Wayward Wives",
+        "url": "https://www.dmsguild.com/product/253817/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3807,11 +3825,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "253855",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BWM-002 The City in the Depths",
+        "title": "The City in the Depths",
         "url": "https://www.dmsguild.com/product/253855/?affiliate_id=171040"
     },
     {
