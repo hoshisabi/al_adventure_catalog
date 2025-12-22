@@ -2536,6 +2536,75 @@
         "url": "https://www.dmsguild.com/product/209228/?affiliate_id=171040"
     },
     {
+        "apl": 7,
+        "authors": [
+            "Thomas Valley",
+            "Luke Gygax"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-GARY-01",
+        "date_created": "20170414",
+        "full_title": "CCC-GARY01: A Night to Remember",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "209690",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-GARY01 A Night to Remember",
+        "url": "https://www.dmsguild.com/product/209690/?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "Thomas Valley",
+            "Luke Gygax"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-GARY-02",
+        "date_created": "20170414",
+        "full_title": "CCC-GARY02: To Find a Way Out",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "209692",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-GARY02 To Find a Way Out",
+        "url": "https://www.dmsguild.com/product/209692/?affiliate_id=171040"
+    },
+    {
+        "apl": 7,
+        "authors": [
+            "Thomas Valley",
+            "Luke Gygax"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-GARY-03",
+        "date_created": "20170414",
+        "full_title": "CCC-GARY03: Oh, We're In It Now",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "209693",
+        "season": null,
+        "tiers": 2,
+        "title": "CCC-GARY03 Oh, We're In It Now",
+        "url": "https://www.dmsguild.com/product/209693/?affiliate_id=171040"
+    },
+    {
         "apl": 1,
         "authors": [
             "David Morris",
@@ -10376,7 +10445,7 @@
         ],
         "code": "CCC-GSP-OOZE01-01",
         "date_created": "20190820",
-        "full_title": "CCC-GSP-OOZE01-01-Oozing-Hunger",
+        "full_title": "CCC-GSP-OOZE01-01 Oozing Hunger",
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
@@ -10385,7 +10454,7 @@
         "product_id": "285730",
         "season": null,
         "tiers": 2,
-        "title": "Oozing-Hunger",
+        "title": "Oozing Hunger",
         "url": "https://www.dmsguild.com/product/285730/?affiliate_id=171040"
     },
     {
@@ -10652,6 +10721,54 @@
         "tiers": 2,
         "title": "Infernal Insurgency",
         "url": "https://www.dmsguild.com/product/290898/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Fenway Jones",
+            "Lucas Curell",
+            "Chance Curell"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-JGD-02",
+        "date_created": "20191008",
+        "full_title": "CCC-JGD-02 Tortle Crossing",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "291011",
+        "season": null,
+        "tiers": 1,
+        "title": "Tortle Crossing",
+        "url": "https://www.dmsguild.com/product/291011/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Chance Curell",
+            "Lucas Curell",
+            "Fenway Jones"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-JGD-03",
+        "date_created": "20191008",
+        "full_title": "CCC-JGD-03 Tortle Tribulations",
+        "hours": "2-4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "291016",
+        "season": null,
+        "tiers": 2,
+        "title": "Tortle Tribulations",
+        "url": "https://www.dmsguild.com/product/291016/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -11185,7 +11302,7 @@
         "product_id": "296439",
         "season": null,
         "tiers": 2,
-        "title": "When Mages Fall CCC-OA-01-01",
+        "title": "When Mages Fall",
         "url": "https://www.dmsguild.com/product/296439/?affiliate_id=171040"
     },
     {
@@ -11457,6 +11574,28 @@
         "tiers": 2,
         "title": "CCC-WWC-08 Pool of Annihilation",
         "url": "https://www.dmsguild.com/product/298153/CCCWWC08-Pool-of-Annihilation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Andrew Bishkinskyi"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "CCC-UNITE-05",
+        "date_created": "20200102",
+        "full_title": "House of Moonlight (CCC-UNITE-05)",
+        "hours": "6",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "298232",
+        "season": null,
+        "tiers": 2,
+        "title": "House of Moonlight",
+        "url": "https://www.dmsguild.com/product/298232/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -11805,7 +11944,7 @@
         "product_id": "300573",
         "season": null,
         "tiers": 2,
-        "title": "House of Revenance CCC-MTL-02",
+        "title": "House of Revenance",
         "url": "https://www.dmsguild.com/product/300573/?affiliate_id=171040"
     },
     {
@@ -14588,7 +14727,7 @@
         "product_id": "323804",
         "season": null,
         "tiers": 2,
-        "title": "House of Blades CCC-HAL-05",
+        "title": "House of Blades",
         "url": "https://www.dmsguild.com/product/323804/?affiliate_id=171040"
     },
     {
