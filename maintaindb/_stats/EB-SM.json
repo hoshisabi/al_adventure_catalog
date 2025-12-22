@@ -321,10 +321,13 @@
         "hours": "3-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.95,
         "product_id": "326052",
+        "season": null,
         "tiers": 2,
         "title": "Dino World",
-        "url": "https://www.dmsguild.com/product/326052/Dino-World&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/326052/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -503,11 +506,14 @@
         "full_title": "Deep Space Vine",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5-10",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "379308",
-        "tiers": 2,
+        "season": null,
+        "tiers": 3,
         "title": "Deep Space Vine",
-        "url": "https://www.dmsguild.com/product/379308/Deep-Space-Vine&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/379308/?affiliate_id=171040"
     },
     {
         "apl": 10,
