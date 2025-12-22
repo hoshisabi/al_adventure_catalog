@@ -8,13 +8,16 @@
     ],
     "code": "DC-POA-CONMAR-12",
     "date_created": "20210828",
-    "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skrållahie",
+    "full_title": "DC-PoA-CONMAR-12 Strike-Out in Skr\u00e5llahie",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.49,
     "product_id": "369085",
+    "season": "Icewind Dale",
+    "seed": "Goat-ball!",
     "tiers": 2,
-    "title": "DC-PoA-CONMAR-12 Strike-Out in Skrållahie",
-    "url": "https://www.dmsguild.com/product/369085/DCPoACONMAR12-StrikeOut-in-Skrallahie?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Goat-ball!"
+    "title": "Strike-Out in Skr\u00e5llahie",
+    "url": "https://www.dmsguild.com/product/369085/?affiliate_id=171040"
 }

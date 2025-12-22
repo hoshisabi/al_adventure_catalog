@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-SH01 Escape from Murder Valley",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.0,
     "product_id": "351154",
+    "season": null,
+    "seed": "This Seems Familiar",
     "tiers": 2,
-    "title": "DC-PoA-SH01 Escape from Murder Valley",
-    "url": "https://www.dmsguild.com/product/351154/DCPoASH01-Escape-from-Murder-Valley?filters=0_0_100057_0_0_0_0_0",
-    "seed": "This Seems Familiar"
+    "title": "Escape from Murder Valley",
+    "url": "https://www.dmsguild.com/product/351154/?affiliate_id=171040"
 }

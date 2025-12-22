@@ -10,10 +10,13 @@
     "date_created": "20210308",
     "full_title": "Seaside Salvage: Eberron Salvage Mission Anthology",
     "hours": "4",
-    "is_adventure": true,
-    "level_range": "5",
+    "is_adventure": false,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 7.95,
     "product_id": "349569",
+    "season": null,
     "tiers": 2,
-    "title": "Seaside Salvage Eberron Salvage Mission Anthology",
-    "url": "https://www.dmsguild.com/product/349569/Seaside-Salvage-Eberron-Salvage-Mission-Anthology?filters=1000043_0_0_0_0_0_0_0"
+    "title": "Seaside Salvage",
+    "url": "https://www.dmsguild.com/product/349569/?affiliate_id=171040"
 }

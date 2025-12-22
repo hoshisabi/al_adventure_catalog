@@ -12,9 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "348001",
+    "season": "Icewind Dale",
+    "seed": "This Seems Familiar",
     "tiers": 2,
-    "title": "Don't Wake Yeti DC-PoA-LEXI-01",
-    "url": "https://www.dmsguild.com/product/348001/Dont-Wake-Yeti-DCPoALEXI01?filters=0_0_100057_0_0_0_0_0",
-    "seed": "This Seems Familiar"
+    "title": "Don't Wake Yeti",
+    "url": "https://www.dmsguild.com/product/348001/?affiliate_id=171040"
 }

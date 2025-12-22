@@ -12,10 +12,13 @@
     "full_title": "DC-PoA-PJE-01 Ragdoll Nightmare",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "356551",
+    "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "DC-PoA-PJE-01 Ragdoll Nightmare",
-    "url": "https://www.dmsguild.com/product/356551/DCPoAPJE01-Ragdoll-Nightmare?filters=0_0_100057_0_0_0_0_0",
-    "seed": "I'd Like to Make a Return Please"
+    "title": "Ragdoll Nightmare",
+    "url": "https://www.dmsguild.com/product/356551/?affiliate_id=171040"
 }

@@ -11,10 +11,13 @@
     "full_title": "DC-POA-INGH-01 A Hot Time in the Cold Town Tonight",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.5,
     "product_id": "342909",
+    "season": "Icewind Dale",
+    "seed": "The Warmest Day",
     "tiers": 1,
-    "title": "DC-POA-INGH-01 A Hot Time in the Cold Town Tonight",
-    "url": "https://www.dmsguild.com/product/342909/DCPOAINGH01-A-Hot-Time-in-the-Cold-Town-Tonight?filters=0_0_100057_0_0_0_0_0",
-    "seed": "The Warmest Day"
+    "title": "A Hot Time in the Cold Town Tonight",
+    "url": "https://www.dmsguild.com/product/342909/?affiliate_id=171040"
 }

@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-MCWWS-02 Wine, Wizards and Song",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "352164",
+    "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "DC-PoA-MCWWS-02 Wine, Wizards and Song",
-    "url": "https://www.dmsguild.com/product/352164/DCPoAMCWWS02-Wine-Wizards-and-Song?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "Wine, Wizards and Song",
+    "url": "https://www.dmsguild.com/product/352164/?affiliate_id=171040"
 }

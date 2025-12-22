@@ -13,9 +13,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.49,
     "product_id": "369123",
+    "season": "Icewind Dale",
+    "seed": "Holy Auril, Mother of Cod",
     "tiers": 2,
-    "title": "DC-PoA-CONMAR-06 The Codmothers",
-    "url": "https://www.dmsguild.com/product/369123/DCPoACONMAR06-The-Codmothers?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Holy Auril, Mother of Cod"
+    "title": "The Codmothers",
+    "url": "https://www.dmsguild.com/product/369123/?affiliate_id=171040"
 }

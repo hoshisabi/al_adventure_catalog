@@ -7,16 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-RED-01",
-    "date_created": "20210824",
+    "date_created": "20210825",
     "full_title": "DC-POA-RED-01 Chwingatown",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "368753",
     "season": "Icewind Dale",
+    "seed": "Chwinga-chwinga. CHWINGA!",
     "tiers": 1,
-    "title": "DC-POA-RED-01 Chwingatown",
-    "url": "https://www.dmsguild.com/product/368753/?affiliate_id=171040",
-    "seed": "Chwinga-chwinga. CHWINGA!"
+    "title": "Chwingatown",
+    "url": "https://www.dmsguild.com/product/368753/?affiliate_id=171040"
 }

@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "349733",
     "season": "Icewind Dale",
+    "seed": "This Seems Familiar",
     "tiers": 2,
-    "title": "DC-PoA-CBB-03  The Menagerie of Count Zapharry",
-    "url": "https://www.dmsguild.com/product/349733/?affiliate_id=171040",
-    "seed": "This Seems Familiar"
+    "title": "The Menagerie of Count Zapharry",
+    "url": "https://www.dmsguild.com/product/349733/?affiliate_id=171040"
 }

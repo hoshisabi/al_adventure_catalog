@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "357847",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "DC-PoA-DCAF04 A Macabre Nightal [FGU Mod]",
-    "url": "https://www.dmsguild.com/product/357847/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "title": "A Macabre Nightal [FGU Mod]",
+    "url": "https://www.dmsguild.com/product/357847/?affiliate_id=171040"
 }

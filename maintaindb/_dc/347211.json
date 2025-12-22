@@ -12,10 +12,13 @@
     "full_title": "Lost in the Woods (DC-PoA-GSP03-02)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "347211",
+    "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
     "title": "Lost in the Woods DC-PoA-GSP03-02",
-    "url": "https://www.dmsguild.com/product/347211/Lost-in-the-Woods-DCPoAGSP0302?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "url": "https://www.dmsguild.com/product/347211/?affiliate_id=171040"
 }

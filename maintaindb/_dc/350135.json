@@ -10,12 +10,16 @@
     "code": "DC-POA-HAG-SF4",
     "date_created": "20210314",
     "full_title": "DC-PoA-HAG-SF4 Failing You",
-    "hours": null,
+    "hours": "2-3",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 3.99,
     "product_id": "350135",
+    "season": null,
+    "seed": "Holy Auril, Mother of Cod",
+    "suggestedPrice": 3.99,
     "tiers": 2,
-    "title": "DC-PoA-HAG-SF4 Failing You",
-    "url": "https://www.dmsguild.com/product/350135/DCPoAHAGSF4-Failing-You?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Holy Auril, Mother of Cod"
+    "title": "Failing You",
+    "url": "https://www.dmsguild.com/product/350135/?affiliate_id=171040"
 }
