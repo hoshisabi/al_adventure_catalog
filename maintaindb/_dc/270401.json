@@ -11,9 +11,12 @@
     "full_title": "CCC-GAD01-01 Broken Blade",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "270401",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-GAD01-01 Broken Blade",
-    "url": "https://www.dmsguild.com/product/270401/CCCGAD0101-Broken-Blade?filters=45470_0_0_0_0_0_0_0"
+    "title": "Broken Blade",
+    "url": "https://www.dmsguild.com/product/270401/?affiliate_id=171040"
 }

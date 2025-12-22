@@ -8,16 +8,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-MMT",
+    "code": "CCC-MMT-02-01",
     "date_created": "20190606",
-    "full_title": "CCC-MMT 02-01: The Stuff of Memories",
+    "full_title": "CCC-MMT-02-01: The Stuff of Memories",
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.2,
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "279118",
     "season": null,
     "tiers": 2,
-    "title": "CCC-MMT 02-01 The Stuff of Memories",
+    "title": "The Stuff of Memories",
     "url": "https://www.dmsguild.com/product/279118/?affiliate_id=171040"
 }

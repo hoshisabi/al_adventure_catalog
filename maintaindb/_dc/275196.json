@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "275196",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-NBDD01-01 Clever",
-    "url": "https://www.dmsguild.com/product/275196/CCCNBDD0101-Clever?filters=45470_0_0_0_0_0_0_0"
+    "title": "Clever",
+    "url": "https://www.dmsguild.com/product/275196/?affiliate_id=171040"
 }
