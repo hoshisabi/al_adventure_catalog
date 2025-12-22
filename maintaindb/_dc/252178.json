@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "252178",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-QCC2018-02 Heart and Soul",
-    "url": "https://www.dmsguild.com/product/252178/CCCQCC201802-Heart-and-Soul?filters=45470_0_0_0_0_0_0_0"
+    "title": "Heart and Soul",
+    "url": "https://www.dmsguild.com/product/252178/?affiliate_id=171040"
 }
