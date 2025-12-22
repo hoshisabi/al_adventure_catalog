@@ -1130,11 +1130,14 @@
         "full_title": "Monsters (FR-DC-MELB-01-04)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "484655",
+        "season": null,
         "tiers": 2,
         "title": "Monsters",
-        "url": "https://www.dmsguild.com/product/484655/Monsters-FRDCMELB0104?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/484655/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1150,10 +1153,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.5,
         "product_id": "485373",
+        "season": null,
         "tiers": 2,
         "title": "Mines and Monsters",
-        "url": "https://www.dmsguild.com/product/485373/FRDCARCON01-Mines-and-Monsters?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485373/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1168,11 +1174,14 @@
         "full_title": "FR-DC-BMK-03 Phandelver and the Blood Moon Coven",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "485589",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Coven",
-        "url": "https://www.dmsguild.com/product/485589/FRDCBMK03-Phandelver-and-the-Blood-Moon-Coven?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485589/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1187,11 +1196,14 @@
         "full_title": "Sweet Dreams are Made of Teas (FR-DC-WATERDEEP-TZZ)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.5,
         "product_id": "485629",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Dreams are Made of Teas",
-        "url": "https://www.dmsguild.com/product/485629/Sweet-Dreams-are-Made-of-Teas-FRDCWATERDEEPTZZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485629/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1206,11 +1218,14 @@
         "full_title": "FR-DC-DEATH Debilitating Dairy",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "485765",
+        "season": null,
         "tiers": 3,
         "title": "Debilitating Dairy",
-        "url": "https://www.dmsguild.com/product/485765/FRDCDEATH-Debilitating-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485765/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1247,11 +1262,14 @@
         "full_title": "FR-DC-BMK-04 Phandelver and the Blood Moon Behemoth",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "487357",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Behemoth",
-        "url": "https://www.dmsguild.com/product/487357/FRDCBMK04-Phandelver-and-the-Blood-Moon-Behemoth?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487357/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1332,11 +1350,14 @@
         "full_title": "FR-DC-BMK-05 Phandelver and the Blood Moon Devourer",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "488625",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Devourer",
-        "url": "https://www.dmsguild.com/product/488625/FRDCBMK05-Phandelver-and-the-Blood-Moon-Devourer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/488625/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1351,11 +1372,14 @@
         "full_title": "Cathedral of Ice (FR-DC-FALL-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "489397",
+        "season": null,
         "tiers": 3,
         "title": "Cathedral of Ice",
-        "url": "https://www.dmsguild.com/product/489397/Cathedral-of-Ice-FRDCFALL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489397/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1370,11 +1394,14 @@
         "full_title": "Sweet Dreams are Made of Trees (FR-DC-WATERDEEP-TRZ)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.5,
         "product_id": "489670",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Dreams are Made of Trees",
-        "url": "https://www.dmsguild.com/product/489670/Sweet-Dreams-are-Made-of-Trees-FRDCWATERDEEPTRZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489670/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1389,11 +1416,14 @@
         "full_title": "Syncopated Denouement (FR-DC-MELB-01-06)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "489688",
+        "season": null,
         "tiers": 3,
         "title": "Syncopated Denouement",
-        "url": "https://www.dmsguild.com/product/489688/Syncopated-Denouement-FRDCMELB0106?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489688/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1408,11 +1438,14 @@
         "full_title": "Secrets In The Deep (FR-DC-MELB-01-07)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "489791",
+        "season": null,
         "tiers": 3,
         "title": "Secrets In The Deep",
-        "url": "https://www.dmsguild.com/product/489791/Secrets-In-The-Deep-FRDCMELB0107?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489791/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1427,11 +1460,14 @@
         "full_title": "FR-DC-DOBU-02-01, Hoard of the Death Dragon",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 7.0,
         "product_id": "489959",
+        "season": null,
         "tiers": 2,
         "title": "Hoard of the Death Dragon",
-        "url": "https://www.dmsguild.com/product/489959/FRDCDOBU0201-Hoard-of-the-Death-Dragon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489959/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1444,14 +1480,17 @@
         ],
         "code": "FR-DC-VECNA-02",
         "date_created": "20240731",
-        "full_title": "ELDRITCH EYE WIDE SHUT (FR-DC-VECNA-02)",
+        "full_title": "Eldritch Eye Wide Shut (FR-DC-VECNA-02)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 8.99,
         "product_id": "490000",
+        "season": null,
         "tiers": 2,
-        "title": "ELDRITCH EYE WIDE SHUT",
-        "url": "https://www.dmsguild.com/product/490000/ELDRITCH-EYE-WIDE-SHUT-FRDCVECNA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Eldritch Eye Wide Shut",
+        "url": "https://www.dmsguild.com/product/490000/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1488,11 +1527,14 @@
         "full_title": "FR-DC-RFJK-01 Punny You Ask",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "491314",
+        "season": null,
         "tiers": 1,
         "title": "Punny You Ask",
-        "url": "https://www.dmsguild.com/product/491314/FRDCRFJK01-Punny-You-Ask?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491314/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -1519,8 +1561,8 @@
     {
         "apl": 3,
         "authors": [
-            "Jeremy Johnston",
-            "Unite the Factions"
+            "Unite the Factions",
+            "Jeremy Johnston"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -1530,11 +1572,14 @@
         "full_title": "FR-DC-UNITE-SHADOW-01 To Be an Apprentice",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "492266",
+        "season": null,
         "tiers": 1,
         "title": "To Be an Apprentice",
-        "url": "https://www.dmsguild.com/product/492266/FRDCUNITESHADOW01-To-Be-an-Apprentice?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492266/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1572,11 +1617,14 @@
         "full_title": "FR-DC-LAX-01-01 A Bone to Pick",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "492551",
+        "season": null,
         "tiers": 2,
         "title": "A Bone to Pick",
-        "url": "https://www.dmsguild.com/product/492551/FRDCLAX0101-A-Bone-to-Pick?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492551/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1635,11 +1683,14 @@
         "full_title": "FR-DC-SAC-07 Haunting in Gloomwood Cemetery",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "493743",
+        "season": null,
         "tiers": 1,
         "title": "Haunting in Gloomwood Cemetery",
-        "url": "https://www.dmsguild.com/product/493743/FRDCSAC07-Haunting-in-Gloomwood-Cemetery?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493743/?affiliate_id=171040"
     },
     {
         "apl": 8,

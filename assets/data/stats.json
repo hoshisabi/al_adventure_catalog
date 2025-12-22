@@ -9,10 +9,10 @@
     "duration": {
         "1 Hours": 20,
         "2 Hours": 573,
-        "All Others": 184,
-        "4 Hours": 1375,
+        "All Others": 185,
+        "4 Hours": 1376,
         "8 Hours": 11,
-        "Unknown": 118,
+        "Unknown": 117,
         "6 Hours": 48
     },
     "campaign": {
@@ -27,7 +27,7 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1476,
+        "Unknown": 1462,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
@@ -37,7 +37,7 @@
         "Icewind Dale": 87,
         "The Wild Beyond the Witchlight": 141,
         "Spelljammer": 113,
-        "Planescape": 58
+        "Planescape": 72
     },
     "seed_by_season": {
         "Icewind Dale (DC-POA)": {

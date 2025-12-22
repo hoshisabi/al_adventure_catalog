@@ -11042,6 +11042,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "295614",
         "season": null,
@@ -11064,11 +11065,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "295621",
         "season": null,
         "tiers": 2,
-        "title": "CCC-EPI01-01 Hordes of Thar - The White Hand of Death",
+        "title": "Hordes of Thar - The White Hand of Death",
         "url": "https://www.dmsguild.com/product/295621/?affiliate_id=171040"
     },
     {
@@ -11102,14 +11104,16 @@
         ],
         "code": "CCC-SQC-03-02",
         "date_created": "20191212",
-        "full_title": "CCC - SQC - 03-02 Shiitake",
-        "hours": "2-4",
+        "full_title": "CCC-SQC-03-02 Shiitake",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
-        "product_id": 295790,
+        "product_id": "295790",
+        "season": null,
         "tiers": 2,
-        "title": "CCC - SQC - 03-02 Shiitake",
+        "title": "Shiitake",
         "url": "https://www.dmsguild.com/product/295790/?affiliate_id=171040"
     },
     {
@@ -11121,17 +11125,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-ALMOG",
+        "code": "CCC-ALMOG-ESC03-01",
         "date_created": "20191203",
-        "full_title": "CCC-ALMOG ESC03-01 Thoughts Lost",
+        "full_title": "CCC-ALMOG-ESC03-01 Thoughts Lost",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "295799",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ALMOG ESC03-01 Thoughts Lost",
+        "title": "Thoughts Lost",
         "url": "https://www.dmsguild.com/product/295799/?affiliate_id=171040"
     },
     {
@@ -11445,17 +11450,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-TTS-3-",
+        "code": "CCC-TTS-3",
         "date_created": "20191214",
         "full_title": "CCC-TTS-3: Heart of the Storm",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "1-4",
-        "price": 2.39,
+        "level_range": "3",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "297746",
         "season": null,
         "tiers": 1,
-        "title": "CCC-TTS-3 Heart of the Storm",
+        "title": "Heart of the Storm",
         "url": "https://www.dmsguild.com/product/297746/?affiliate_id=171040"
     },
     {
@@ -11512,11 +11518,14 @@
         "full_title": "CCC-WWC-05 Tyrant of Orcs",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "298149",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-WWC-05 Tyrant of Orcs",
-        "url": "https://www.dmsguild.com/product/298149/CCCWWC05-Tyrant-of-Orcs?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Tyrant of Orcs",
+        "url": "https://www.dmsguild.com/product/298149/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -11531,11 +11540,14 @@
         "full_title": "CCC-WWC-06 The Fear of Fiends",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "298151",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-WWC-06 The Fear of Fiends",
-        "url": "https://www.dmsguild.com/product/298151/CCCWWC06-The-Fear-of-Fiends?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Fear of Fiends",
+        "url": "https://www.dmsguild.com/product/298151/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -11550,11 +11562,14 @@
         "full_title": "CCC-WWC-07 The Icy Hand of Hate",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "298152",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-WWC-07 The Icy Hand of Hate",
-        "url": "https://www.dmsguild.com/product/298152/CCCWWC07-The-Icy-Hand-of-Hate?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Icy Hand of Hate",
+        "url": "https://www.dmsguild.com/product/298152/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -11569,11 +11584,14 @@
         "full_title": "CCC-WWC-08 Pool of Annihilation",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "298153",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-WWC-08 Pool of Annihilation",
-        "url": "https://www.dmsguild.com/product/298153/CCCWWC08-Pool-of-Annihilation?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Pool of Annihilation",
+        "url": "https://www.dmsguild.com/product/298153/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -11598,7 +11616,7 @@
         "url": "https://www.dmsguild.com/product/298232/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Jeff C. Stevens",
             "Brad Kelley"
@@ -11611,11 +11629,14 @@
         "full_title": "CCC-MWGF-01 The Constellation (Part Four of the Dead Men Series)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "2",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "298336",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-MWGF-01 The Constellation Part Four of the Dead Men Series",
-        "url": "https://www.dmsguild.com/product/298336/CCCMWGF01-The-Constellation-Part-Four-of-the-Dead-Men-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Constellation (Part Four of the Dead Men Series)",
+        "url": "https://www.dmsguild.com/product/298336/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -11628,13 +11649,16 @@
         "code": "CCC-TTS-1",
         "date_created": "20191230",
         "full_title": "CCC-TTS-1 Three Moles for Father Octavius",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "299061",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-TTS-1 Three Moles for Father Octavius",
-        "url": "https://www.dmsguild.com/product/299061/CCCTTS1-Three-Moles-for-Father-Octavius?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Three Moles for Father Octavius",
+        "url": "https://www.dmsguild.com/product/299061/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -11651,11 +11675,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "299369",
         "season": null,
         "tiers": 1,
-        "title": "CCC-KUMORI-03-03 Scales of Justice A Moonsea Adventure",
+        "title": "Scales of Justice A Moonsea Adventure",
         "url": "https://www.dmsguild.com/product/299369/?affiliate_id=171040"
     },
     {
@@ -37199,11 +37224,14 @@
         "full_title": "Monsters (FR-DC-MELB-01-04)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "484655",
+        "season": null,
         "tiers": 2,
         "title": "Monsters",
-        "url": "https://www.dmsguild.com/product/484655/Monsters-FRDCMELB0104?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/484655/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -37219,10 +37247,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.5,
         "product_id": "485373",
+        "season": null,
         "tiers": 2,
         "title": "Mines and Monsters",
-        "url": "https://www.dmsguild.com/product/485373/FRDCARCON01-Mines-and-Monsters?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485373/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -37258,11 +37289,14 @@
         "full_title": "FR-DC-BMK-03 Phandelver and the Blood Moon Coven",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "485589",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Coven",
-        "url": "https://www.dmsguild.com/product/485589/FRDCBMK03-Phandelver-and-the-Blood-Moon-Coven?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485589/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -37277,11 +37311,14 @@
         "full_title": "Sweet Dreams are Made of Teas (FR-DC-WATERDEEP-TZZ)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.5,
         "product_id": "485629",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Dreams are Made of Teas",
-        "url": "https://www.dmsguild.com/product/485629/Sweet-Dreams-are-Made-of-Teas-FRDCWATERDEEPTZZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485629/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -37296,11 +37333,14 @@
         "full_title": "FR-DC-DEATH Debilitating Dairy",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "485765",
+        "season": null,
         "tiers": 3,
         "title": "Debilitating Dairy",
-        "url": "https://www.dmsguild.com/product/485765/FRDCDEATH-Debilitating-Dairy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/485765/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -37383,11 +37423,14 @@
         "full_title": "PS-DC-BINGO-2 Esse Est Percipi",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.0,
         "product_id": "487240",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Esse Est Percipi",
-        "url": "https://www.dmsguild.com/product/487240/PSDCBINGO2-Esse-Est-Percipi?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487240/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -37402,11 +37445,14 @@
         "full_title": "FR-DC-BMK-04 Phandelver and the Blood Moon Behemoth",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "487357",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Behemoth",
-        "url": "https://www.dmsguild.com/product/487357/FRDCBMK04-Phandelver-and-the-Blood-Moon-Behemoth?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/487357/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -37572,11 +37618,14 @@
         "full_title": "FR-DC-BMK-05 Phandelver and the Blood Moon Devourer",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "488625",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Devourer",
-        "url": "https://www.dmsguild.com/product/488625/FRDCBMK05-Phandelver-and-the-Blood-Moon-Devourer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/488625/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -37589,13 +37638,16 @@
         "code": "PS-DC-ELEMENT-DEATH-01",
         "date_created": "20240725",
         "full_title": "PS-DC-ELEMENT-DEATH-01 Rocky Road",
-        "hours": "",
+        "hours": "4-5",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "488844",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Rocky Road",
-        "url": "https://www.dmsguild.com/product/488844/PSDCELEMENTDEATH01-Rocky-Road?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/488844/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -37610,11 +37662,14 @@
         "full_title": "Cathedral of Ice (FR-DC-FALL-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "489397",
+        "season": null,
         "tiers": 3,
         "title": "Cathedral of Ice",
-        "url": "https://www.dmsguild.com/product/489397/Cathedral-of-Ice-FRDCFALL01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489397/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -37651,11 +37706,14 @@
         "full_title": "Sweet Dreams are Made of Trees (FR-DC-WATERDEEP-TRZ)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.5,
         "product_id": "489670",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Dreams are Made of Trees",
-        "url": "https://www.dmsguild.com/product/489670/Sweet-Dreams-are-Made-of-Trees-FRDCWATERDEEPTRZ?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489670/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -37670,11 +37728,14 @@
         "full_title": "Syncopated Denouement (FR-DC-MELB-01-06)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "489688",
+        "season": null,
         "tiers": 3,
         "title": "Syncopated Denouement",
-        "url": "https://www.dmsguild.com/product/489688/Syncopated-Denouement-FRDCMELB0106?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489688/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -37689,30 +37750,36 @@
         "full_title": "Secrets In The Deep (FR-DC-MELB-01-07)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "489791",
+        "season": null,
         "tiers": 3,
         "title": "Secrets In The Deep",
-        "url": "https://www.dmsguild.com/product/489791/Secrets-In-The-Deep-FRDCMELB0107?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489791/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 13,
         "authors": [
             "Miguel Luis de Jesus"
         ],
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "PS-DC-PHP-CKA2-",
+        "code": "PS-DC-PHP-CKA2",
         "date_created": "20240730",
         "full_title": "PS-DC-PHP-CKA2: Qubicorubikonomicon",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "489877",
+        "season": "Planescape",
         "tiers": 3,
         "title": "Qubicorubikonomicon",
-        "url": "https://www.dmsguild.com/product/489877/PSDCPHPCKA2-Qubicorubikonomicon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489877/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -37727,11 +37794,14 @@
         "full_title": "FR-DC-DOBU-02-01, Hoard of the Death Dragon",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 7.0,
         "product_id": "489959",
+        "season": null,
         "tiers": 2,
         "title": "Hoard of the Death Dragon",
-        "url": "https://www.dmsguild.com/product/489959/FRDCDOBU0201-Hoard-of-the-Death-Dragon?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/489959/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -37744,14 +37814,17 @@
         ],
         "code": "FR-DC-VECNA-02",
         "date_created": "20240731",
-        "full_title": "ELDRITCH EYE WIDE SHUT (FR-DC-VECNA-02)",
+        "full_title": "Eldritch Eye Wide Shut (FR-DC-VECNA-02)",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 8.99,
         "product_id": "490000",
+        "season": null,
         "tiers": 2,
-        "title": "ELDRITCH EYE WIDE SHUT",
-        "url": "https://www.dmsguild.com/product/490000/ELDRITCH-EYE-WIDE-SHUT-FRDCVECNA02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Eldritch Eye Wide Shut",
+        "url": "https://www.dmsguild.com/product/490000/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -37766,11 +37839,14 @@
         "full_title": "PS-DC-NBDD-01 The Greatest Gameshow",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "490495",
+        "season": "Planescape",
         "tiers": 3,
         "title": "The Greatest Gameshow",
-        "url": "https://www.dmsguild.com/product/490495/PSDCNBDD01-The-Greatest-Gameshow?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/490495/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -37827,11 +37903,14 @@
         "full_title": "PS-DC-MIKE-01 The Clash for the Multiversal Championship",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "491179",
+        "season": "Planescape",
         "tiers": 4,
         "title": "The Clash for the Multiversal Championship",
-        "url": "https://www.dmsguild.com/product/491179/PSDCMIKE01-The-Clash-for-the-Multiversal-Championship?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491179/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -37869,11 +37948,14 @@
         "full_title": "FR-DC-RFJK-01 Punny You Ask",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "491314",
+        "season": null,
         "tiers": 1,
         "title": "Punny You Ask",
-        "url": "https://www.dmsguild.com/product/491314/FRDCRFJK01-Punny-You-Ask?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491314/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -37974,10 +38056,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "491824",
+        "season": "Planescape",
         "tiers": 1,
         "title": "The Unmemory of You",
-        "url": "https://www.dmsguild.com/product/491824/The-Unmemory-of-You-PSDCUMY01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491824/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -38014,17 +38099,20 @@
         "full_title": "PS-DC-TYM-PHP-DIV-01 below the world, beneath the sun, i hear somebody singing",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "491981",
+        "season": "Planescape",
         "tiers": 4,
         "title": "below the world, beneath the sun, i hear somebody singing",
-        "url": "https://www.dmsguild.com/product/491981/PSDCTYMPHPDIV01-below-the-world-beneath-the-sun-i-hear-somebody-singing?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/491981/?affiliate_id=171040"
     },
     {
         "apl": 3,
         "authors": [
-            "Jeremy Johnston",
-            "Unite the Factions"
+            "Unite the Factions",
+            "Jeremy Johnston"
         ],
         "campaigns": [
             "Forgotten Realms"
@@ -38034,11 +38122,14 @@
         "full_title": "FR-DC-UNITE-SHADOW-01 To Be an Apprentice",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "492266",
+        "season": null,
         "tiers": 1,
         "title": "To Be an Apprentice",
-        "url": "https://www.dmsguild.com/product/492266/FRDCUNITESHADOW01-To-Be-an-Apprentice?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492266/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -38099,11 +38190,14 @@
         "full_title": "FR-DC-LAX-01-01 A Bone to Pick",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.95,
         "product_id": "492551",
+        "season": null,
         "tiers": 2,
         "title": "A Bone to Pick",
-        "url": "https://www.dmsguild.com/product/492551/FRDCLAX0101-A-Bone-to-Pick?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/492551/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -38274,11 +38368,14 @@
         "full_title": "PS-DC-STRAT-DRAGON-03 This One is for the Liches",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "493225",
+        "season": "Planescape",
         "tiers": 3,
         "title": "This One is for the Liches",
-        "url": "https://www.dmsguild.com/product/493225/PSDCSTRATDRAGON03-This-One-is-for-the-Liches?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493225/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -38294,11 +38391,14 @@
         "full_title": "PS-DC-STRAT-DRAGON-07 The War of Dragons",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 6.99,
         "product_id": "493270",
+        "season": "Planescape",
         "tiers": 4,
         "title": "The War of Dragons",
-        "url": "https://www.dmsguild.com/product/493270/PSDCSTRATDRAGON07-The-War-of-Dragons?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493270/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -38313,11 +38413,14 @@
         "full_title": "FR-DC-SAC-07 Haunting in Gloomwood Cemetery",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "493743",
+        "season": null,
         "tiers": 1,
         "title": "Haunting in Gloomwood Cemetery",
-        "url": "https://www.dmsguild.com/product/493743/FRDCSAC07-Haunting-in-Gloomwood-Cemetery?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/493743/?affiliate_id=171040"
     },
     {
         "apl": 18,
@@ -38333,13 +38436,16 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "494242",
+        "season": "Planescape",
         "tiers": 4,
         "title": "Its Always Boring in Automata",
-        "url": "https://www.dmsguild.com/product/494242/Its-Always-Boring-in-Automata-PSDCNOS03?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494242/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 8,
         "authors": [
             "Nick Stefanski"
         ],
@@ -38351,11 +38457,14 @@
         "full_title": "Mordenkainen's Memory Palace (PS-DC-MORD-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "494546",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Mordenkainen's Memory Palace",
-        "url": "https://www.dmsguild.com/product/494546/Mordenkainens-Memory-Palace-PSDCMORD01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494546/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -38370,11 +38479,14 @@
         "full_title": "PS-DC-PKL-05 Mass Hysteria",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "494610",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Mass Hysteria",
-        "url": "https://www.dmsguild.com/product/494610/PSDCPKL05-Mass-Hysteria?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494610/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -38389,11 +38501,14 @@
         "full_title": "PS-DC-PKL-06 It's A Toss-Up",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "494613",
+        "season": "Planescape",
         "tiers": 2,
         "title": "It's A Toss-Up",
-        "url": "https://www.dmsguild.com/product/494613/PSDCPKL06-Its-A-TossUp?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494613/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -38408,11 +38523,14 @@
         "full_title": "PS-DC-PKL-07 Back to the Abyss",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "494614",
+        "season": "Planescape",
         "tiers": 2,
         "title": "Back to the Abyss",
-        "url": "https://www.dmsguild.com/product/494614/PSDCPKL07-Back-to-the-Abyss?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/494614/?affiliate_id=171040"
     },
     {
         "apl": 8,
