@@ -150,8 +150,9 @@ def test_non_ccc_codes_still_work():
         ("FR-DC-DIGM-01-01 Sweet Tooth", "FR-DC-DIGM-01-01"),
         # Test DC codes ending with alphanumeric (e.g., FR-DC-UCON24)
         ("FR-DC-UCON24 The Icarus Connection", "FR-DC-UCON24"),
-        # Test DC codes with dash-number (e.g., PS-DC-NBDD-01)
+        # Test DC codes with dash-number (e.g., PS-DC-NBDD-01, FR-DC-REIN-VR-01)
         ("PS-DC-NBDD-01 The Greatest Gameshow", "PS-DC-NBDD-01"),
+        ("FR-DC-REIN-VR-01 The Pale Steed", "FR-DC-REIN-VR-01"),
     ]
     
     for title, expected_code in test_cases:
@@ -201,9 +202,12 @@ def test_all_bug_fixes_covered():
     code, _ = get_adventure_code_and_campaigns("FR-DC-UCON24 The Icarus Connection")
     assert code == "FR-DC-UCON24", f"Failed: got {code}, expected FR-DC-UCON24"
     
-    # Bug fix 11: DC codes with dash-number sequences (e.g., PS-DC-NBDD-01)
+    # Bug fix 11: DC codes with dash-number sequences (e.g., PS-DC-NBDD-01, FR-DC-REIN-VR-01)
     code, _ = get_adventure_code_and_campaigns("PS-DC-NBDD-01 The Greatest Gameshow")
     assert code == "PS-DC-NBDD-01", f"Failed: got {code}, expected PS-DC-NBDD-01"
+    
+    code, _ = get_adventure_code_and_campaigns("FR-DC-REIN-VR-01 The Pale Steed")
+    assert code == "FR-DC-REIN-VR-01", f"Failed: got {code}, expected FR-DC-REIN-VR-01"
 
 
 if __name__ == '__main__':

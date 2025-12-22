@@ -272,14 +272,15 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
     # Ordered roughly by specificity or commonality
     # All patterns are case-insensitive
     patterns = [
-        # DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
-        # This must come before the simple letter pattern to avoid partial matches
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-([A-Z]+)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
-        # DC codes with dash-number sequences (e.g., FR-DC-STRAT-TALES-02, PS-DC-NBDD-01, FR-DC-DIGM-01-01)
-        # This must come BEFORE the alphanumeric pattern to match "NBDD-01" instead of just "NBDD"
+        # DC codes with dash-number sequences (e.g., FR-DC-STRAT-TALES-02, PS-DC-NBDD-01, FR-DC-DIGM-01-01, FR-DC-REIN-VR-01)
+        # This must come BEFORE the dash-letter pattern to match "REIN-VR-01" instead of just "REIN-VR"
         # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
         # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
+        # DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
+        # This must come AFTER the dash-number pattern to avoid matching "REIN-VR" from "REIN-VR-01"
+        # Use negative lookahead to ensure no dash-number sequence follows
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-([A-Z]+)(?!-\d)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., FR-DC-UCON24)
         # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
