@@ -11,10 +11,13 @@
     "full_title": "DC-PoA-TDG01-06 Dale Rangers",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "369151",
+    "season": "Icewind Dale",
+    "seed": "My, What Big Feet You Have",
     "tiers": 2,
-    "title": "DC-PoA-TDG01-06 Dale Rangers",
-    "url": "https://www.dmsguild.com/product/369151/DCPoATDG0106-Dale-Rangers?filters=0_0_100057_0_0_0_0_0",
-    "seed": "My, What Big Feet You Have"
+    "title": "Dale Rangers",
+    "url": "https://www.dmsguild.com/product/369151/?affiliate_id=171040"
 }
