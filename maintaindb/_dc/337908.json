@@ -13,11 +13,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "337908",
     "season": "Icewind Dale",
+    "seed": "Once Bitten, Ice Shy",
     "tiers": 1,
-    "title": "The Missing Link DC-PoA-GSP03-01",
-    "url": "https://www.dmsguild.com/product/337908/?affiliate_id=171040",
-    "seed": "Once Bitten, Ice Shy"
+    "title": "The Missing Link",
+    "url": "https://www.dmsguild.com/product/337908/?affiliate_id=171040"
 }

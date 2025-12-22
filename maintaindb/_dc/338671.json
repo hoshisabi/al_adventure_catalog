@@ -13,9 +13,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.95,
     "product_id": "338671",
+    "season": "Icewind Dale",
+    "seed": "In Too Deep",
     "tiers": 1,
-    "title": "DC-PoA-HARM-01-03 Killing Time",
-    "url": "https://www.dmsguild.com/product/338671/DCPoAHARM0103-Killing-Time?filters=0_0_100057_0_0_0_0_0",
-    "seed": "In Too Deep"
+    "title": "Killing Time",
+    "url": "https://www.dmsguild.com/product/338671/?affiliate_id=171040"
 }
