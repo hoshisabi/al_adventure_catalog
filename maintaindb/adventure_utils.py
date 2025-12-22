@@ -280,8 +280,8 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes ending with just letters (no dashes in series, e.g., PS-DC-IC)
         # This must come after the alphanumeric pattern to avoid matching "UCO" from "UCON24"
-        # Use negative lookahead to ensure no dash or digit follows the letters
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z]+)(?![-\dA-Z0-9])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        # Use negative lookahead to ensure no alphanumeric or dash follows (only space/end of string)
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z]+)(?![A-Z0-9-])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01, PS-DC-TT-202, FR-DC-DIGM-01-01) - flexible for series name
         # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
         # Also handle multiple dash-number sequences (e.g., DIGM-01-01)

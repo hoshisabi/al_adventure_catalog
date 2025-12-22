@@ -148,6 +148,8 @@ def test_non_ccc_codes_still_work():
         ("PS-DC-PKL-08 Darker Shade of Pale", "PS-DC-PKL-08"),
         # Test DC codes with multiple dash-number sequences (e.g., FR-DC-DIGM-01-01)
         ("FR-DC-DIGM-01-01 Sweet Tooth", "FR-DC-DIGM-01-01"),
+        # Test DC codes ending with alphanumeric (e.g., FR-DC-UCON24)
+        ("FR-DC-UCON24 The Icarus Connection", "FR-DC-UCON24"),
     ]
     
     for title, expected_code in test_cases:
@@ -192,6 +194,10 @@ def test_all_bug_fixes_covered():
     # Bug fix 9: DC codes with multiple dash-number sequences (e.g., FR-DC-DIGM-01-01)
     code, _ = get_adventure_code_and_campaigns("FR-DC-DIGM-01-01 Sweet Tooth")
     assert code == "FR-DC-DIGM-01-01", f"Failed: got {code}, expected FR-DC-DIGM-01-01"
+    
+    # Bug fix 10: DC codes ending with alphanumeric (e.g., FR-DC-UCON24)
+    code, _ = get_adventure_code_and_campaigns("FR-DC-UCON24 The Icarus Connection")
+    assert code == "FR-DC-UCON24", f"Failed: got {code}, expected FR-DC-UCON24"
 
 
 if __name__ == '__main__':
