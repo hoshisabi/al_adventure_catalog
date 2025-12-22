@@ -2082,6 +2082,50 @@
         "url": "https://www.dmsguild.com/product/200484/?affiliate_id=171040"
     },
     {
+        "apl": 10,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-01",
+        "date_created": "20161213",
+        "full_title": "DDAL00-01 Window to the Past (tier 2)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "200609-2",
+        "season": 0,
+        "tiers": 2,
+        "title": "Window to the Past (tier 2)",
+        "url": "https://www.dmsguild.com/product/200609/?affiliate_id=171040"
+    },
+    {
+        "apl": 15,
+        "authors": [
+            "Alan Patrick"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-01",
+        "date_created": "20161213",
+        "full_title": "DDAL00-01 Window to the Past (tier 3)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 5.99,
+        "product_id": "200609-3",
+        "season": 0,
+        "tiers": 3,
+        "title": "Window to the Past (tier 3)",
+        "url": "https://www.dmsguild.com/product/200609/?affiliate_id=171040"
+    },
+    {
         "apl": 20,
         "authors": [
             "Alan Patrick"
@@ -2097,7 +2141,7 @@
         "level_range": "17-20",
         "payWhatYouWant": false,
         "price": 5.99,
-        "product_id": "200609-2",
+        "product_id": "200609-4",
         "season": 0,
         "tiers": 4,
         "title": "Window to the Past (tier 4)",
@@ -10400,6 +10444,28 @@
         "url": "https://www.dmsguild.com/product/278716/?affiliate_id=171040"
     },
     {
+        "apl": 3,
+        "authors": [
+            "Travis Woodall"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-07",
+        "date_created": "20190606",
+        "full_title": "DDAL00-07 The Embers of Hate (tier 1)",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
+        "product_id": "279062-1",
+        "season": 0,
+        "tiers": 1,
+        "title": "The Embers of Hate (tier 1)",
+        "url": "https://www.dmsguild.com/product/279062/?affiliate_id=171040"
+    },
+    {
         "apl": 8,
         "authors": [
             "Travis Woodall"
@@ -10415,7 +10481,7 @@
         "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 4.99,
-        "product_id": "279062-1",
+        "product_id": "279062-2",
         "season": 0,
         "tiers": 2,
         "title": "The Embers of Hate (tier 2)",
@@ -14258,7 +14324,7 @@
         "campaigns": [
             "Eberron"
         ],
-        "code": "EBERRON",
+        "code": "EBERRON-SAVESALVATION",
         "date_created": "20200430",
         "full_title": "Saving Salvation: Eberron Salvage Mission Trilogy",
         "hours": "",
@@ -14268,7 +14334,7 @@
         "product_id": "311891",
         "season": null,
         "tiers": 1,
-        "title": "Saving Salvation Eberron Salvage Mission Trilogy",
+        "title": "Saving Salvation: Eberron Salvage Mission Trilogy",
         "url": "https://www.dmsguild.com/product/311891/?affiliate_id=171040"
     },
     {
