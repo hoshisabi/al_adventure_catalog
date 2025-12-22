@@ -687,7 +687,7 @@
         "code": "DDEX02-13",
         "date_created": "20160111",
         "full_title": "DDEX2-13 The Howling Void",
-        "hours": "8",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "payWhatYouWant": false,
@@ -872,7 +872,7 @@
         "code": "DDEX03-05",
         "date_created": "20160111",
         "full_title": "DDEX3-05 Bane of the Tradeways",
-        "hours": "4",
+        "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
@@ -1817,7 +1817,7 @@
         "url": "https://www.dmsguild.com/product/189523/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Paige Leitman",
             "Ben Heisler"
@@ -1840,7 +1840,7 @@
         "url": "https://www.dmsguild.com/product/193201/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Robert Alaniz"
         ],
@@ -5763,7 +5763,7 @@
         "url": "https://www.dmsguild.com/product/247005/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 3,
         "authors": [
             "Greg Marks",
             "Claire Hoffman",
@@ -5775,18 +5775,126 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL00-02",
+        "code": "DDAL00-02a",
         "date_created": "20180713",
-        "full_title": "Lost Tales of Myth Drannor",
-        "hours": "2-4",
+        "full_title": "DDAL00-02a The Darkwood Webs (Lost Tales of Myth Drannor)",
+        "hours": "2",
         "is_adventure": true,
-        "level_range": "1-20",
+        "level_range": "1-4",
         "payWhatYouWant": false,
         "price": 14.99,
-        "product_id": "247140",
+        "product_id": "247140-1",
         "season": 0,
-        "tiers": 1,
-        "title": "Lost Tales of Myth Drannor",
+        "tiers": "1",
+        "title": "The Darkwood Webs (Lost Tales of Myth Drannor)",
+        "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
+    },
+    {
+        "apl": 3,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Alan Patrick",
+            "Travis Woodall",
+            "Bill Benham",
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-02b",
+        "date_created": "20180713",
+        "full_title": "DDAL00-02b The Weirding Vats (Lost Tales of Myth Drannor)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 14.99,
+        "product_id": "247140-2",
+        "season": 0,
+        "tiers": "1",
+        "title": "The Weirding Vats (Lost Tales of Myth Drannor)",
+        "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Alan Patrick",
+            "Travis Woodall",
+            "Bill Benham",
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-02c",
+        "date_created": "20180713",
+        "full_title": "DDAL00-02c Spawn of the Maimed Virulence (Lost Tales of Myth Drannor)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 14.99,
+        "product_id": "247140-3",
+        "season": 0,
+        "tiers": "2",
+        "title": "Spawn of the Maimed Virulence (Lost Tales of Myth Drannor)",
+        "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
+    },
+    {
+        "apl": 8,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Alan Patrick",
+            "Travis Woodall",
+            "Bill Benham",
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-02d",
+        "date_created": "20180713",
+        "full_title": "DDAL00-02d Echos of the Weeping War (Lost Tales of Myth Drannor)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 14.99,
+        "product_id": "247140-4",
+        "season": 0,
+        "tiers": "2",
+        "title": "Echos of the Weeping War (Lost Tales of Myth Drannor)",
+        "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
+    },
+    {
+        "apl": 18,
+        "authors": [
+            "Greg Marks",
+            "Claire Hoffman",
+            "Alan Patrick",
+            "Travis Woodall",
+            "Bill Benham",
+            "Robert Adducci"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "DDAL00-02f",
+        "date_created": "20180713",
+        "full_title": "DDAL00-02f The Definition of Heroism (Lost Tales of Myth Drannor)",
+        "hours": "2",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 14.99,
+        "product_id": "247140-5",
+        "season": 0,
+        "tiers": "4",
+        "title": "The Definition of Heroism (Lost Tales of Myth Drannor)",
         "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
     },
     {
@@ -19394,7 +19502,7 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "DDAL-DRWEP-02",
+        "code": "DDAL-DRW-EP-02",
         "date_created": "20210311",
         "full_title": "DDAL-DRWEP-02 Wings of Death",
         "hours": "4",
