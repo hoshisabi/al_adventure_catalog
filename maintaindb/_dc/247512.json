@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "247512",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-BMG-32 PHLAN 3-2 The First Rule",
-    "url": "https://www.dmsguild.com/product/247512/CCCBMG32-PHLAN-32-The-First-Rule?filters=45470_0_0_0_0_0_0_0"
+    "title": "PHLAN 3-2 The First Rule",
+    "url": "https://www.dmsguild.com/product/247512/?affiliate_id=171040"
 }
