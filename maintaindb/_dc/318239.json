@@ -11,9 +11,12 @@
     "full_title": "CCC-CIC-16 Open Ambitions",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "2",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "318239",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-CIC-16 Open Ambitions",
-    "url": "https://www.dmsguild.com/product/318239/CCCCIC16-Open-Ambitions?filters=45470_0_0_0_0_0_0_0"
+    "title": "Open Ambitions",
+    "url": "https://www.dmsguild.com/product/318239/?affiliate_id=171040"
 }

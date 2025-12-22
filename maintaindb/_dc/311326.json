@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "311326",
+    "season": null,
     "tiers": 1,
     "title": "Surprise Visitor",
-    "url": "https://www.dmsguild.com/product/311326/Surprise-Visitor?filters=1000043_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/311326/?affiliate_id=171040"
 }

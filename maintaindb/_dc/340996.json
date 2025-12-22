@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "340996",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-DWB-TMG-1 The Mournful Golem",
-    "url": "https://www.dmsguild.com/product/340996/CCCDWBTMG1-The-Mournful-Golem?filters=45470_0_0_0_0_0_0_0"
+    "title": "The Mournful Golem",
+    "url": "https://www.dmsguild.com/product/340996/?affiliate_id=171040"
 }
