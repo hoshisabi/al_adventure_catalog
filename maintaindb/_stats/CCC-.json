@@ -5237,10 +5237,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 0.99,
         "product_id": "263415",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-ELF-02 An Adventuring Party Walks Into A Bar",
-        "url": "https://www.dmsguild.com/product/263415/CCCELF02-An-Adventuring-Party-Walks-Into-A-Bar?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "An Adventuring Party Walks Into A Bar",
+        "url": "https://www.dmsguild.com/product/263415/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -5410,10 +5413,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "265961",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-OCC-02 Feast of the Moon",
-        "url": "https://www.dmsguild.com/product/265961/CCCOCC02-Feast-of-the-Moon?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Feast of the Moon",
+        "url": "https://www.dmsguild.com/product/265961/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -5530,11 +5536,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "267821",
         "season": null,
         "tiers": 2,
-        "title": "CCC-FC3-01-02 Tales of Estirwald Corruption of the Elderoak",
+        "title": "Tales of Estirwald Corruption of the Elderoak",
         "url": "https://www.dmsguild.com/product/267821/?affiliate_id=171040"
     },
     {
@@ -5550,11 +5557,14 @@
         "full_title": "CCC-HATMS02-02 Something Vile This Way Comes",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "267822",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-HATMS02-02 Something Vile This Way Comes",
-        "url": "https://www.dmsguild.com/product/267822/CCCHATMS0202-Something-Vile-This-Way-Comes?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Something Vile This Way Comes",
+        "url": "https://www.dmsguild.com/product/267822/?affiliate_id=171040"
     },
     {
         "apl": 14,
@@ -5569,11 +5579,14 @@
         "full_title": "CCC-HATMS02-03 A Vile Wake",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "267823",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-HATMS02-03 A Vile Wake",
-        "url": "https://www.dmsguild.com/product/267823/CCCHATMS0203-A-Vile-Wake?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Vile Wake",
+        "url": "https://www.dmsguild.com/product/267823/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -5583,17 +5596,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-COTN-01-01-BY",
+        "code": "CCC-COTN-01-01",
         "date_created": "20190228",
         "full_title": "CCC-COTN-01-01-By The Seashore: A Red War Tale",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "267847",
         "season": null,
         "tiers": 1,
-        "title": "CCC-COTN-01-01-By The Seashore A Red War Tale",
+        "title": "By The Seashore A Red War Tale",
         "url": "https://www.dmsguild.com/product/267847/?affiliate_id=171040"
     },
     {
@@ -5609,11 +5623,14 @@
         "full_title": "CCC-SCAR02-01 Glister By Dark",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "010",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "267891",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-SCAR02-01 Glister By Dark",
-        "url": "https://www.dmsguild.com/product/267891/CCCSCAR0201-Glister-By-Dark?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Glister By Dark",
+        "url": "https://www.dmsguild.com/product/267891/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -5650,11 +5667,14 @@
         "full_title": "CCC-Tarot02-03 To Boldly Go",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "267942",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-Tarot02-03 To Boldly Go",
-        "url": "https://www.dmsguild.com/product/267942/CCCTarot0203-To-Boldly-Go?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "To Boldly Go",
+        "url": "https://www.dmsguild.com/product/267942/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -5693,11 +5713,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "269392",
         "season": null,
         "tiers": 3,
-        "title": "CCC-FC3-03 Tales of Estirwald The Fun House",
+        "title": "Tales of Estirwald The Fun House",
         "url": "https://www.dmsguild.com/product/269392/?affiliate_id=171040"
     },
     {
@@ -5735,11 +5756,14 @@
         "full_title": "CCC-GAD01-01 Broken Blade",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "270401",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-GAD01-01 Broken Blade",
-        "url": "https://www.dmsguild.com/product/270401/CCCGAD0101-Broken-Blade?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Broken Blade",
+        "url": "https://www.dmsguild.com/product/270401/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -5755,11 +5779,12 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "270904",
         "season": null,
         "tiers": 2,
-        "title": "CCC-GAD01-02 Red War Black Phoenix",
+        "title": "Red War Black Phoenix",
         "url": "https://www.dmsguild.com/product/270904/?affiliate_id=171040"
     },
     {
@@ -5777,11 +5802,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "271604",
         "season": null,
         "tiers": 2,
-        "title": "CCC-STORM-02 Swamp of Sorrow Bloodpurge Village",
+        "title": "Swamp of Sorrow Bloodpurge Village",
         "url": "https://www.dmsguild.com/product/271604/?affiliate_id=171040"
     },
     {
@@ -5797,11 +5823,14 @@
         "full_title": "CCC-TAROT-02-01 A Sunk Cost",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "273101",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-TAROT-02-01 A Sunk Cost",
-        "url": "https://www.dmsguild.com/product/273101/CCCTAROT0201-A-Sunk-Cost?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "A Sunk Cost",
+        "url": "https://www.dmsguild.com/product/273101/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -5817,10 +5846,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "275196",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-NBDD01-01 Clever",
-        "url": "https://www.dmsguild.com/product/275196/CCCNBDD0101-Clever?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Clever",
+        "url": "https://www.dmsguild.com/product/275196/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -5833,13 +5865,16 @@
         "code": "CCC-PRETZ-PLA01",
         "date_created": "20190522",
         "full_title": "CCC-PRETZ-PLA01 The Mystery at Coppertop Manor",
-        "hours": "2",
+        "hours": "2-4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "277524",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-PRETZ-PLA01 The Mystery at Coppertop Manor",
-        "url": "https://www.dmsguild.com/product/277524/CCCPRETZPLA01-The-Mystery-at-Coppertop-Manor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "The Mystery at Coppertop Manor",
+        "url": "https://www.dmsguild.com/product/277524/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -5901,10 +5936,13 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "277951",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-22 On the Baron's Trail Part One of the Storm Series",
-        "url": "https://www.dmsguild.com/product/277951/CCCTRI22-On-the-Barons-Trail-Part-One-of-the-Storm-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "On the Baron's Trail Part One of the Storm Series",
+        "url": "https://www.dmsguild.com/product/277951/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -5921,10 +5959,13 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "277955",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-23 Sub Rosa Part Two of the Storm Series",
-        "url": "https://www.dmsguild.com/product/277955/CCCTRI23-Sub-Rosa-Part-Two-of-the-Storm-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Sub Rosa Part Two of the Storm Series",
+        "url": "https://www.dmsguild.com/product/277955/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -5941,10 +5982,13 @@
         "hours": "",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "277957",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-24 Knight Errand Part Three of the Storm Series",
-        "url": "https://www.dmsguild.com/product/277957/CCCTRI24-Knight-Errand-Part-Three-of-the-Storm-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Knight Errand Part Three of the Storm Series",
+        "url": "https://www.dmsguild.com/product/277957/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -5961,10 +6005,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "278015",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-TRI-29 Tidefall",
-        "url": "https://www.dmsguild.com/product/278015/CCCTRI29-Tidefall?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Tidefall",
+        "url": "https://www.dmsguild.com/product/278015/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -5980,11 +6027,14 @@
         "full_title": "CCC-TRI-30 Remnants of a Dream",
         "hours": "1",
         "is_adventure": true,
-        "level_range": "1-2",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "278016",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-TRI-30 Remnants of a Dream",
-        "url": "https://www.dmsguild.com/product/278016/CCCTRI30-Remnants-of-a-Dream?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Remnants of a Dream",
+        "url": "https://www.dmsguild.com/product/278016/?affiliate_id=171040"
     },
     {
         "apl": 7,
@@ -6001,10 +6051,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "278017",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-TRI-31 Out of Time",
-        "url": "https://www.dmsguild.com/product/278017/CCCTRI31-Out-of-Time?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Out of Time",
+        "url": "https://www.dmsguild.com/product/278017/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6020,11 +6073,14 @@
         "full_title": "CCC-TRI-32 Casks and Caskets (Part One of the DAGGR Series)",
         "hours": "",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "278018",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-TRI-32 Casks and Caskets Part One of the DAGGR Series",
-        "url": "https://www.dmsguild.com/product/278018/CCCTRI32-Casks-and-Caskets-Part-One-of-the-DAGGR-Series?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Casks and Caskets Part One of the DAGGR Series",
+        "url": "https://www.dmsguild.com/product/278018/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -6098,17 +6154,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-MMT",
+        "code": "CCC-MMT-01-01",
         "date_created": "20190606",
-        "full_title": "CCC-MMT 01-01: Secrets of Imaginary Friends",
+        "full_title": "CCC-MMT-01-01: Secrets of Imaginary Friends",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.0,
         "product_id": "279110",
         "season": null,
         "tiers": 1,
-        "title": "CCC-MMT 01-01 Secrets of Imaginary Friends",
+        "title": "Secrets of Imaginary Friends",
         "url": "https://www.dmsguild.com/product/279110/?affiliate_id=171040"
     },
     {
@@ -6121,17 +6178,18 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "CCC-MMT",
+        "code": "CCC-MMT-02-01",
         "date_created": "20190606",
-        "full_title": "CCC-MMT 02-01: The Stuff of Memories",
+        "full_title": "CCC-MMT-02-01: The Stuff of Memories",
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.2,
+        "payWhatYouWant": false,
+        "price": 4.0,
         "product_id": "279118",
         "season": null,
         "tiers": 2,
-        "title": "CCC-MMT 02-01 The Stuff of Memories",
+        "title": "The Stuff of Memories",
         "url": "https://www.dmsguild.com/product/279118/?affiliate_id=171040"
     },
     {
@@ -6188,16 +6246,17 @@
             "Forgotten Realms"
         ],
         "code": "CCC-BMG-MOON3-2",
-        "date_created": "20190701",
+        "date_created": "20190702",
         "full_title": "CCC-BMG-MOON3-2 Within the Tunnels of Dwarvenholm",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "281623",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BMG-MOON3-2 Within the Tunnels of Dwarvenholm",
+        "title": "Within the Tunnels of Dwarvenholm",
         "url": "https://www.dmsguild.com/product/281623/?affiliate_id=171040"
     },
     {
@@ -6216,11 +6275,12 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "281685",
         "season": null,
         "tiers": 2,
-        "title": "CCC-BWM-04-02 Thralls of Zuggtmoy Sanctum of Rot",
+        "title": "Thralls of Zuggtmoy: Sanctum of Rot",
         "url": "https://www.dmsguild.com/product/281685/?affiliate_id=171040"
     },
     {
