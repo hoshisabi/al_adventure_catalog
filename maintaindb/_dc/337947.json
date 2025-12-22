@@ -1,6 +1,7 @@
 {
     "apl": 11,
     "authors": [
+        "Tom \"Evhelm\" Donovan",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "337947",
     "season": null,
     "tiers": 3,
-    "title": "EB-11 My Undying Heart",
+    "title": "My Undying Heart",
     "url": "https://www.dmsguild.com/product/337947/?affiliate_id=171040"
 }

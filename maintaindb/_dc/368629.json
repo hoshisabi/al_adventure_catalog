@@ -1,6 +1,7 @@
 {
     "apl": 18,
     "authors": [
+        "Alan Patrick",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "17-20",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "368629",
     "season": null,
     "tiers": 4,
-    "title": "EB-18 Scales of War",
+    "title": "Scales of War",
     "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"
 }

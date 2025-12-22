@@ -1,6 +1,8 @@
 {
     "apl": 8,
     "authors": [
+        "Will Doyle",
+        "Tony Porteous",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +14,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 6.27,
+    "payWhatYouWant": false,
+    "price": 8.95,
     "product_id": "335587",
     "season": null,
     "tiers": 2,
-    "title": "EB-EP-02 Rolling Thunder",
+    "title": "Rolling Thunder",
     "url": "https://www.dmsguild.com/product/335587/?affiliate_id=171040"
 }

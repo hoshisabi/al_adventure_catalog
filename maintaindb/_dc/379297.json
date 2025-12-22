@@ -1,6 +1,8 @@
 {
     "apl": 20,
     "authors": [
+        "Will Doyle",
+        "Laura Thompson",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +14,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "17-20",
-    "price": 6.27,
+    "payWhatYouWant": false,
+    "price": 8.95,
     "product_id": "379297",
     "season": null,
     "tiers": 4,
-    "title": "EB-EP-04 The Last War",
+    "title": "The Last War",
     "url": "https://www.dmsguild.com/product/379297/?affiliate_id=171040"
 }

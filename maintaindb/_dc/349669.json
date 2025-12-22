@@ -1,6 +1,7 @@
 {
     "apl": 14,
     "authors": [
+        "Andy Dempz",
         "D&D Adventurers League"
     ],
     "campaigns": [
@@ -12,10 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
-    "price": 3.49,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "349669",
     "season": null,
     "tiers": 3,
-    "title": "EB-14 From Dust",
+    "title": "From Dust",
     "url": "https://www.dmsguild.com/product/349669/?affiliate_id=171040"
 }
