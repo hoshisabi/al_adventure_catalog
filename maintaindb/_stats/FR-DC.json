@@ -1674,11 +1674,14 @@
         "full_title": "Dead in Daggerford (FR-DC-MELB-00-01)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "495431",
+        "season": null,
         "tiers": 1,
         "title": "Dead in Daggerford",
-        "url": "https://www.dmsguild.com/product/495431/Dead-in-Daggerford-FRDCMELB0001?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/495431/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1693,11 +1696,14 @@
         "full_title": "FR-DC-DIGM-01-01 Sweet Tooth",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "01",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "496429",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Tooth",
-        "url": "https://www.dmsguild.com/product/496429/FRDCDIGM0101-Sweet-Tooth?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/496429/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -1712,11 +1718,14 @@
         "full_title": "FR-DC-BMK Phandelver and the Blood Moon Keep",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 9.99,
         "product_id": "496886",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Keep",
-        "url": "https://www.dmsguild.com/product/496886/FRDCBMK-Phandelver-and-the-Blood-Moon-Keep?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/496886/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1731,11 +1740,14 @@
         "full_title": "Sweet Dreams are Made of Candies (FR-DC-WATERDEEP-CDZ)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "1",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.5,
         "product_id": "497184",
+        "season": null,
         "tiers": 1,
         "title": "Sweet Dreams are Made of Candies",
-        "url": "https://www.dmsguild.com/product/497184/Sweet-Dreams-are-Made-of-Candies-FRDCWATERDEEPCDZ?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/497184/?affiliate_id=171040"
     },
     {
         "apl": 2,
@@ -1814,11 +1826,14 @@
         "full_title": "The Weeping Maiden (FR-DC-MELB-00-02)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "497583",
+        "season": null,
         "tiers": 1,
         "title": "The Weeping Maiden",
-        "url": "https://www.dmsguild.com/product/497583/The-Weeping-Maiden-FRDCMELB0002?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/497583/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1861,25 +1876,6 @@
         "tiers": 3,
         "title": "The Sapphire Hoard",
         "url": "https://www.dmsguild.com/product/498681/?affiliate_id=171040"
-    },
-    {
-        "apl": 13,
-        "authors": [
-            "Pauline Feraren"
-        ],
-        "campaigns": [
-            null
-        ],
-        "code": "FR-DC-IMP-02",
-        "date_created": "20241012",
-        "full_title": "Hunting Moon (FR DC IMP 02)",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1",
-        "product_id": "498685",
-        "tiers": 3,
-        "title": "Hunting Moon FR DC IMP 02",
-        "url": "https://www.dmsguild.com/product/498685/Hunting-Moon-FR-DC-IMP-02?filters=45470_0_0_0_0_0&affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -2003,11 +1999,15 @@
         "date_created": "20241028",
         "full_title": "Mummy Dust (FR-DC-GHG-04)",
         "hours": "4",
-        "level_range": null,
+        "is_adventure": true,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 1.99,
         "product_id": "500326",
+        "season": null,
         "tiers": 1,
         "title": "Mummy Dust",
-        "url": "https://www.dmsguild.com/product/500326/Mummy-Dust-FRDCGHG04?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/500326/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2044,11 +2044,14 @@
         "full_title": "FR-DC-WCAG-02 Neverwinter Days & Lunar Nights",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "500390",
+        "season": null,
         "tiers": 1,
         "title": "Neverwinter Days & Lunar Nights",
-        "url": "https://www.dmsguild.com/product/500390/FRDCWCAG02-Neverwinter-Days--Lunar-Nights?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/500390/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2063,11 +2066,14 @@
         "full_title": "FR-DC-WCAG-03 Crashing Waves & Crushing Depths",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "500392",
+        "season": null,
         "tiers": 1,
         "title": "Crashing Waves & Crushing Depths",
-        "url": "https://www.dmsguild.com/product/500392/FRDCWCAG03-Crashing-Waves--Crushing-Depths?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/500392/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2105,10 +2111,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "500685",
+        "season": null,
         "tiers": 1,
         "title": "Charming",
-        "url": "https://www.dmsguild.com/product/500685/Charming-FRDCTKMRGT01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/500685/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2166,11 +2175,14 @@
         "full_title": "FR-DC-NMB-HUNT-01 Ice Water",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 2.0,
         "product_id": "501781",
+        "season": null,
         "tiers": 1,
         "title": "Ice Water",
-        "url": "https://www.dmsguild.com/product/501781/FRDCNMBHUNT01-Ice-Water?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/501781/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2231,10 +2243,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "502509",
+        "season": null,
         "tiers": 3,
         "title": "The Icarus Connection",
-        "url": "https://www.dmsguild.com/product/502509/FRDCUCON24-The-Icarus-Connection?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/502509/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2250,10 +2265,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "10-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "504942",
+        "season": null,
         "tiers": 2,
         "title": "You better Watch Out",
-        "url": "https://www.dmsguild.com/product/504942/FRDCAMAK01-You-better-Watch-Out?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/504942/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2269,10 +2287,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "505431",
+        "season": null,
         "tiers": 1,
         "title": "The Show Must Go On",
-        "url": "https://www.dmsguild.com/product/505431/The-Show-Must-Go-On-FRDCTGT03?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/505431/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2287,11 +2308,14 @@
         "full_title": "FR-DC-VMT-01 The Lord of the Reindeer",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.95,
         "product_id": "506244",
+        "season": null,
         "tiers": 2,
         "title": "The Lord of the Reindeer",
-        "url": "https://www.dmsguild.com/product/506244/FRDCVMT01-The-Lord-of-the-Reindeer?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/506244/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2306,11 +2330,14 @@
         "full_title": "FR-DC-TBS-03, One Chance",
         "hours": "",
         "is_adventure": true,
-        "level_range": "3",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 0.99,
         "product_id": "508001",
+        "season": null,
         "tiers": 3,
         "title": "One Chance",
-        "url": "https://www.dmsguild.com/product/508001/FRDCTBS03-One-Chance?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/508001/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2327,10 +2354,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "508671",
+        "season": null,
         "tiers": 1,
         "title": "The Freezing of Starflow Fall",
-        "url": "https://www.dmsguild.com/product/508671/The-Freezing-of-Starflow-Fall-FRDCMELB0003?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/508671/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2368,11 +2398,14 @@
         "full_title": "FR-DC-ELEMENT-DEATH Everything Changed",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "509173",
+        "season": null,
         "tiers": 3,
         "title": "Everything Changed",
-        "url": "https://www.dmsguild.com/product/509173/FRDCELEMENTDEATH-Everything-Changed?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/509173/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2410,10 +2443,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 2.0,
         "product_id": "510067",
+        "season": null,
         "tiers": 2,
         "title": "Forces of Hail",
-        "url": "https://www.dmsguild.com/product/510067/FRDCNMBHUNT01B-Forces-of-Hail?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/510067/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2538,11 +2574,14 @@
         "full_title": "FR-DC-WCAG02-01 Mayhem in the Squallrider",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "511959",
+        "season": null,
         "tiers": 1,
         "title": "Mayhem in the Squallrider",
-        "url": "https://www.dmsguild.com/product/511959/FRDCWCAG0201-Mayhem-in-the-Squallrider?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511959/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2557,11 +2596,14 @@
         "full_title": "FR-DC-WCAG02-02 Murder All the Way Down",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "511963",
+        "season": null,
         "tiers": 1,
         "title": "Murder All the Way Down",
-        "url": "https://www.dmsguild.com/product/511963/FRDCWCAG0202-Murder-All-the-Way-Down?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511963/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2576,11 +2618,14 @@
         "full_title": "FR-DC-WCAG02-03 Fixing the Pearl Fissures",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "511964",
+        "season": null,
         "tiers": 1,
         "title": "Fixing the Pearl Fissures",
-        "url": "https://www.dmsguild.com/product/511964/FRDCWCAG0203-Fixing-the-Pearl-Fissures?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511964/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -2596,11 +2641,14 @@
         "full_title": "FR-DC-WCAG02-04 An Inside Job",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "511966",
+        "season": null,
         "tiers": 1,
         "title": "An Inside Job",
-        "url": "https://www.dmsguild.com/product/511966/FRDCWCAG0204-An-Inside-Job?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511966/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2615,11 +2663,14 @@
         "full_title": "FR-DC-WCAG02-05 Shake 'N' Bake",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "511968",
+        "season": null,
         "tiers": 2,
         "title": "Shake 'N' Bake",
-        "url": "https://www.dmsguild.com/product/511968/FRDCWCAG0205-Shake-N-Bake?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511968/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2635,11 +2686,14 @@
         "full_title": "FR-DC-WCAG02-06 Whispers Beneath the Waves",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "02",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "511970",
+        "season": null,
         "tiers": 2,
         "title": "Whispers Beneath the Waves",
-        "url": "https://www.dmsguild.com/product/511970/FRDCWCAG0206-Whispers-Beneath-the-Waves?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/511970/?affiliate_id=171040"
     },
     {
         "apl": 13,
