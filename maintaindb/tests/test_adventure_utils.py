@@ -153,6 +153,8 @@ def test_non_ccc_codes_still_work():
         # Test DC codes with dash-number (e.g., PS-DC-NBDD-01, FR-DC-REIN-VR-01)
         ("PS-DC-NBDD-01 The Greatest Gameshow", "PS-DC-NBDD-01"),
         ("FR-DC-REIN-VR-01 The Pale Steed", "FR-DC-REIN-VR-01"),
+        # Test CCC codes with series code ending in numbers (e.g., CCC-UCON03)
+        ("CCC-UCON03 The Straw Bears", "CCC-UCON03"),
     ]
     
     for title, expected_code in test_cases:
@@ -208,6 +210,10 @@ def test_all_bug_fixes_covered():
     
     code, _ = get_adventure_code_and_campaigns("FR-DC-REIN-VR-01 The Pale Steed")
     assert code == "FR-DC-REIN-VR-01", f"Failed: got {code}, expected FR-DC-REIN-VR-01"
+    
+    # Bug fix 12: CCC codes with series code ending in numbers directly (e.g., CCC-UCON03)
+    code, _ = get_adventure_code_and_campaigns("CCC-UCON03 The Straw Bears")
+    assert code == "CCC-UCON03", f"Failed: got {code}, expected CCC-UCON03"
 
 
 if __name__ == '__main__':
