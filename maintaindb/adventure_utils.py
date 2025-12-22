@@ -272,8 +272,9 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
     # Ordered roughly by specificity or commonality
     # All patterns are case-insensitive
     patterns = [
-        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01) - flexible for series name
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
+        # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01, PS-DC-TT-202) - flexible for series name
+        # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
+        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d+)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # More general DC codes (e.g., RV-DC01)
         (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
         # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01) - normalize to all caps

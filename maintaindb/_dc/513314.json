@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "513314",
+    "season": "Planescape",
     "tiers": 1,
     "title": "Stolen Hours",
-    "url": "https://www.dmsguild.com/product/513314/Stolen-Hours-PSDCHRS00?filters=45470_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/513314/?affiliate_id=171040"
 }
