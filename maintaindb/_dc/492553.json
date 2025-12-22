@@ -6,9 +6,9 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "FR-DC-LAX",
+    "code": "FR-DC-LAX-01-02 ",
     "date_created": "20240823",
-    "full_title": "FR-DC-LAX 01-02 No Strings Attached",
+    "full_title": "FR-DC-LAX-01-02 No Strings Attached",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
@@ -17,6 +17,6 @@
     "product_id": "492553",
     "season": null,
     "tiers": 2,
-    "title": "01-02 No Strings Attached",
+    "title": "No Strings Attached",
     "url": "https://www.dmsguild.com/product/492553/?affiliate_id=171040"
 }
