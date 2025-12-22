@@ -574,83 +574,15 @@
         "full_title": "DC-PoA-KCB-01 The Lady of the Maer",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344979",
+        "season": "Icewind Dale",
         "seed": "Breaking Ice-olation",
         "tiers": 1,
-        "title": "DC-PoA-KCB-01 The Lady of the Maer",
-        "url": "https://www.dmsguild.com/product/344979/DCPoAKCB01-The-Lady-of-the-Maer?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 1,
-        "authors": [
-            "Paul Gabat",
-            "Kristoff Alejo"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-GSP02-01H",
-        "date_created": "20210130",
-        "full_title": "The Arrival of Mr. Sorrow (DC-PoA-GSP02-01H)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345129",
-        "season": "Icewind Dale",
-        "seed": "A Dark Horse",
-        "tiers": 1,
-        "title": "The Arrival of Mr. Sorrow DC-PoA-GSP02-01H",
-        "url": "https://www.dmsguild.com/product/345129/?affiliate_id=171040"
-    },
-    {
-        "apl": 2,
-        "authors": [
-            "Miles Silbor II",
-            "Paul Gabat",
-            "Kristoff Alejo"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-GSP02-02H",
-        "date_created": "20210130",
-        "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345131",
-        "season": "Icewind Dale",
-        "seed": "The Muttering Gnome",
-        "tiers": 1,
-        "title": "The Priest of Caer-Dineval DC-PoA-GSP02-02H",
-        "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Niccolo Estrella",
-            "Paul Gabat",
-            "Kristoff Alejo"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-GSP02-03H",
-        "date_created": "20210130",
-        "full_title": "That Ain't Mead (DC-PoA-GSP02-03H)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345133",
-        "season": "Icewind Dale",
-        "seed": "Do You Know the Way to Lonely Wood?",
-        "tiers": 1,
-        "title": "That Ain't Mead DC-PoA-GSP02-03H",
-        "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
+        "title": "The Lady of the Maer",
+        "url": "https://www.dmsguild.com/product/344979/?affiliate_id=171040"
     },
     {
         "apl": 4,
@@ -690,12 +622,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 4.99,
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "345146",
         "season": "Icewind Dale",
         "seed": "The Muttering Gnome",
         "tiers": 1,
-        "title": "DC-POA-LEGIT-SV-02 The Shape of Silence",
+        "title": "The Shape of Silence",
         "url": "https://www.dmsguild.com/product/345146/?affiliate_id=171040"
     },
     {
@@ -711,12 +644,15 @@
         "full_title": "DC-PoA-NBDD-01 Ice, Ice, Birdie",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "345306",
+        "season": "Icewind Dale",
         "seed": "Winter Over",
         "tiers": 2,
-        "title": "DC-PoA-NBDD-01 Ice, Ice, Birdie",
-        "url": "https://www.dmsguild.com/product/345306/DCPoANBDD01-Ice-Ice-Birdie?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "title": "Ice, Ice, Birdie",
+        "url": "https://www.dmsguild.com/product/345306/?affiliate_id=171040"
     },
     {
         "apl": 6,
@@ -740,48 +676,6 @@
         "tiers": 2,
         "title": "Out of the Dark Woods",
         "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
-    },
-    {
-        "apl": 5,
-        "authors": [
-            "Adrian Francisco"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-DCAF07",
-        "date_created": "20210203",
-        "full_title": "DC-PoA-DCAF07 I'm In Your Arms",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "5-10",
-        "product_id": "345460",
-        "seed": "Holy Auril, Mother of Cod",
-        "tiers": 2,
-        "title": "DC-PoA-DCAF07 I'm In Your Arms",
-        "url": "https://www.dmsguild.com/product/345460/DCPoADCAF07-Im-In-Your-Arms?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Zarajane Ferrier"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "DC-POA-ZF01",
-        "date_created": "20210204",
-        "full_title": "DC-PoA-ZF01 Undisclosed Ordeals",
-        "hours": "4",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 3.99,
-        "product_id": "345714",
-        "season": "Icewind Dale",
-        "seed": "A Dark Horse",
-        "tiers": 1,
-        "title": "DC-PoA-ZF01 Undisclosed Ordeals",
-        "url": "https://www.dmsguild.com/product/345714/?affiliate_id=171040"
     },
     {
         "apl": null,

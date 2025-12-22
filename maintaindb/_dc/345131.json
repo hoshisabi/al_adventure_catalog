@@ -14,11 +14,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "345131",
     "season": "Icewind Dale",
+    "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "The Priest of Caer-Dineval DC-PoA-GSP02-02H",
-    "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040",
-    "seed": "The Muttering Gnome"
+    "title": "The Priest of Caer-Dineval",
+    "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040"
 }

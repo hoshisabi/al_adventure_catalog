@@ -13,9 +13,12 @@
     "full_title": "CCC-GLIP-02-01 Blue Scales",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "257866",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-GLIP-02-01 Blue Scales",
-    "url": "https://www.dmsguild.com/product/257866/CCCGLIP0201-Blue-Scales?filters=45470_0_0_0_0_0_0_0"
+    "title": "Blue Scales",
+    "url": "https://www.dmsguild.com/product/257866/?affiliate_id=171040"
 }

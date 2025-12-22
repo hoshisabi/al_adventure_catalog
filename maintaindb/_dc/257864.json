@@ -13,9 +13,12 @@
     "full_title": "CCC-GLIP-01-03 Citadel of Vlaakith",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "257864",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-GLIP-01-03 Citadel of Vlaakith",
-    "url": "https://www.dmsguild.com/product/257864/CCCGLIP0103-Citadel-of-Vlaakith?filters=45470_0_0_0_0_0_0_0"
+    "title": "Citadel of Vlaakith",
+    "url": "https://www.dmsguild.com/product/257864/?affiliate_id=171040"
 }

@@ -4041,11 +4041,12 @@
         "hours": "4-6",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "254694",
         "season": null,
         "tiers": 3,
-        "title": "CCC-OCC-01 Red War Housekeeping",
+        "title": "Red War Housekeeping",
         "url": "https://www.dmsguild.com/product/254694/?affiliate_id=171040"
     },
     {
@@ -4188,11 +4189,14 @@
         "full_title": "CCC-GLIP-01-03 Citadel of Vlaakith",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257864",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-GLIP-01-03 Citadel of Vlaakith",
-        "url": "https://www.dmsguild.com/product/257864/CCCGLIP0103-Citadel-of-Vlaakith?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Citadel of Vlaakith",
+        "url": "https://www.dmsguild.com/product/257864/?affiliate_id=171040"
     },
     {
         "apl": 5,
@@ -4209,14 +4213,17 @@
         "full_title": "CCC-GLIP-02-01 Blue Scales",
         "hours": "2",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257866",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-GLIP-02-01 Blue Scales",
-        "url": "https://www.dmsguild.com/product/257866/CCCGLIP0201-Blue-Scales?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Blue Scales",
+        "url": "https://www.dmsguild.com/product/257866/?affiliate_id=171040"
     },
     {
-        "apl": 5,
+        "apl": 8,
         "authors": [
             "Shawn Merwin"
         ],
@@ -4228,14 +4235,17 @@
         "full_title": "CCC-CIC-10 Terror at Soward Manor",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "5",
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "257945",
+        "season": null,
         "tiers": 2,
-        "title": "CCC-CIC-10 Terror at Soward Manor",
-        "url": "https://www.dmsguild.com/product/257945/CCCCIC10-Terror-at-Soward-Manor?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Terror at Soward Manor",
+        "url": "https://www.dmsguild.com/product/257945/?affiliate_id=171040"
     },
     {
-        "apl": 1,
+        "apl": 3,
         "authors": [
             "Derek Gray",
             "Chris Totten",
@@ -4255,7 +4265,7 @@
         "product_id": "257958",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ALMOG-01 TALES01-01 What Lies Beneath",
+        "title": "TALES01-01 What Lies Beneath",
         "url": "https://www.dmsguild.com/product/257958/?affiliate_id=171040"
     },
     {
@@ -4272,11 +4282,14 @@
         "full_title": "CCC-SVH-01-01 Dawn of the Raven Lord",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257960",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SVH-01-01 Dawn of the Raven Lord",
-        "url": "https://www.dmsguild.com/product/257960/CCCSVH0101-Dawn-of-the-Raven-Lord?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Dawn of the Raven Lord",
+        "url": "https://www.dmsguild.com/product/257960/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -4292,11 +4305,14 @@
         "full_title": "CCC-SVH-01-03 Vault of the Raven Lord",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257962",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SVH-01-03 Vault of the Raven Lord",
-        "url": "https://www.dmsguild.com/product/257962/CCCSVH0103-Vault-of-the-Raven-Lord?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Vault of the Raven Lord",
+        "url": "https://www.dmsguild.com/product/257962/?affiliate_id=171040"
     },
     {
         "apl": 11,
@@ -4312,11 +4328,14 @@
         "full_title": "CCC-SVH-01-02 Raven Lord’s Aerie",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "201",
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 2.99,
         "product_id": "257963",
+        "season": null,
         "tiers": 3,
-        "title": "CCC-SVH-01-02 Raven Lord’s Aerie",
-        "url": "https://www.dmsguild.com/product/257963/CCCSVH0102-Raven-Lords-Aerie?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Raven Lord’s Aerie",
+        "url": "https://www.dmsguild.com/product/257963/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -4331,11 +4350,14 @@
         "full_title": "CCC-HAL-01 Fate of the Nightworms",
         "hours": "4",
         "is_adventure": true,
-        "level_range": "0",
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "258088",
+        "season": null,
         "tiers": 1,
-        "title": "CCC-HAL-01 Fate of the Nightworms",
-        "url": "https://www.dmsguild.com/product/258088/CCCHAL01-Fate-of-the-Nightworms?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "title": "Fate of the Nightworms",
+        "url": "https://www.dmsguild.com/product/258088/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4434,11 +4456,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "6",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "259022",
         "season": null,
         "tiers": 1,
-        "title": "CCC-ELO-01 For the Kids!",
+        "title": "For the Kids!",
         "url": "https://www.dmsguild.com/product/259022/?affiliate_id=171040"
     },
     {
@@ -11824,11 +11847,12 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "344691",
         "season": null,
         "tiers": 1,
-        "title": "CCC-GHC-BK03-02 The Girl with the Wet Nose",
+        "title": "The Girl with the Wet Nose",
         "url": "https://www.dmsguild.com/product/344691/?affiliate_id=171040"
     },
     {
