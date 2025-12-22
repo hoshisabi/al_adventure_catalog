@@ -6,17 +6,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-BLD",
+    "code": "CCC-BLD-01-03",
     "date_created": "20180118",
-    "full_title": "CCC-BLD 01-03 Bleeding Gate: Lineage",
+    "full_title": "CCC-BLD-01-03 Bleeding Gate: Lineage",
     "hours": "4",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "231700",
     "season": null,
     "tiers": 2,
-    "title": "01-03 Bleeding Gate Lineage",
+    "title": "Bleeding Gate Lineage",
     "url": "https://www.dmsguild.com/product/231700/?affiliate_id=171040"
 }

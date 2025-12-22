@@ -6,16 +6,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-GARY-09-",
+    "code": "CCC-GARY-09",
     "date_created": "20180330",
     "full_title": "CCC-GARY-09: The Witch Maiden",
-    "hours": 2,
+    "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "238360",
     "season": null,
     "tiers": 2,
-    "title": "CCC-GARY-09 The Witch Maiden",
+    "title": "The Witch Maiden",
     "url": "https://www.dmsguild.com/product/238360/?affiliate_id=171040"
 }

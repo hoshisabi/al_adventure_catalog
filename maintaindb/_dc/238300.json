@@ -11,9 +11,12 @@
     "full_title": "CCC-CIC-05 Donum Vitae",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "0",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "238300",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-CIC-05 Donum Vitae",
-    "url": "https://www.dmsguild.com/product/238300/CCCCIC05-Donum-Vitae?filters=45470_0_0_0_0_0_0_0"
+    "title": "Donum Vitae",
+    "url": "https://www.dmsguild.com/product/238300/?affiliate_id=171040"
 }
