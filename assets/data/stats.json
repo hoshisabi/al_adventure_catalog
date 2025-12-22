@@ -2,21 +2,21 @@
     "tier": {
         "Tier 1": 806,
         "Tier 2": 822,
-        "Tier 3": 329,
+        "Tier 3": 328,
         "Tier 4": 78,
         "Unknown": 13
     },
     "duration": {
-        "1 Hours": 21,
-        "2 Hours": 578,
-        "All Others": 201,
-        "4 Hours": 1398,
+        "1 Hours": 22,
+        "2 Hours": 579,
+        "All Others": 202,
+        "4 Hours": 1397,
         "8 Hours": 11,
         "Unknown": 118,
         "6 Hours": 49
     },
     "campaign": {
-        "Forgotten Realms": 1906,
+        "Forgotten Realms": 1905,
         "Ravenloft": 49,
         "Unknown": 20,
         "Eberron": 68,
@@ -27,7 +27,7 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1418,
+        "Unknown": 1417,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
