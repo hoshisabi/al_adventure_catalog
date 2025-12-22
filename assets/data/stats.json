@@ -1,7 +1,7 @@
 {
     "tier": {
         "Tier 1": 800,
-        "Tier 2": 816,
+        "Tier 2": 815,
         "Tier 3": 328,
         "Tier 4": 78,
         "Unknown": 7
@@ -10,13 +10,13 @@
         "1 Hours": 20,
         "2 Hours": 575,
         "All Others": 192,
-        "4 Hours": 1383,
+        "4 Hours": 1382,
         "8 Hours": 11,
         "Unknown": 114,
         "6 Hours": 48
     },
     "campaign": {
-        "Forgotten Realms": 1898,
+        "Forgotten Realms": 1897,
         "Ravenloft": 49,
         "Unknown": 10,
         "Eberron": 67,
@@ -27,14 +27,14 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1444,
+        "Unknown": 1429,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 18,
         "Waterdeep": 19,
         "Avernus Rising": 20,
         "Plague of Ancients": 13,
-        "Icewind Dale": 104,
+        "Icewind Dale": 118,
         "The Wild Beyond the Witchlight": 141,
         "Spelljammer": 113,
         "Planescape": 72
@@ -59,7 +59,7 @@
             "The Littlest Squidling": 6,
             "This Seems Familiar": 10,
             "Goat-ball!": 5,
-            "My, What Big Feet You Have": 8,
+            "My, What Big Feet You Have": 7,
             "Ageless Hunger": 7,
             "I'd Like to Make a Return, Please": 1,
             "Snipe Hunt": 6,
