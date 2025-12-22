@@ -13,8 +13,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "402678",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-MOON19-1 A Compassionate Friend",
-    "url": "https://www.dmsguild.com/product/402678/CCCBMGMOON191-A-Compassionate-Friend?filters=45470_0_0_0_0_0"
+    "title": "A Compassionate Friend",
+    "url": "https://www.dmsguild.com/product/402678/?affiliate_id=171040"
 }

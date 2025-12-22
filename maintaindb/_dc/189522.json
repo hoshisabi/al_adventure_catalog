@@ -12,8 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "189522",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-BMG-14 PHLAN 1-2 Enemy of my Enemy",
-    "url": "https://www.dmsguild.com/product/189522/CCCBMG14-PHLAN-12-Enemy-of-my-Enemy?filters=45470_0_0_0_0_0_0_0"
+    "title": "PHLAN 1-2 Enemy of my Enemy",
+    "url": "https://www.dmsguild.com/product/189522/?affiliate_id=171040"
 }
