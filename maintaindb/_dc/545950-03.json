@@ -1,7 +1,11 @@
 {
     "apl": 3,
-    "authors": ["Bryan Mets"],
-    "campaigns": ["Forgotten Realms"],
+    "authors": [
+        "Bryan Mets"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-UCON25-03",
     "date_created": null,
     "full_title": "FR-DC-UCON25-03 Beneath the Burl",
@@ -9,7 +13,7 @@
     "is_adventure": true,
     "level_range": "1-4",
     "price": 2.99,
-    "product_id": "545950",
+    "product_id": "545950-03",
     "season": null,
     "tiers": 1,
     "title": "Beneath the Burl",
