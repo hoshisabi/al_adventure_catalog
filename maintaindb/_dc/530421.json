@@ -1,6 +1,8 @@
 {
     "apl": 3,
-    "authors": [],
+    "authors": [
+        "Extra Troubadour"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,10 +12,11 @@
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "530421",
     "season": null,
     "tiers": 1,
     "title": "Hive of the Vilified",
-    "url": "https://www.dmsguild.com/product/530421/Hive-of-the-Vilified?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/530421/?affiliate_id=171040"
 }
