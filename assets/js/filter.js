@@ -15,11 +15,14 @@ function updateItemsPerPage() {
 
 let filters = {
     campaign: '',
+    season: '',
     tier: '',
     hours: '',
     dcOnly: false,
     search: ''
 };
+
+let sortBy = 'date-desc'; // Default sort: newest first
 
 // DC code prefixes (from DC_CAMPAIGNS)
 const DC_CODE_PREFIXES = [
@@ -108,14 +111,27 @@ function parseHoursString(hoursStr) {
     return hoursList;
 }
 
+// Season name normalization: map synonyms to canonical names
+const SEASON_NORMALIZATION = {
+    "Icewind Dale": "Plague of Ancients",
+};
+
+function normalizeSeason(season) {
+    if (!season) return season;
+    return SEASON_NORMALIZATION[season] || season;
+}
+
 function populateFilters(adventures) {
     const campaigns = [...new Set(adventures.map(a => Array.isArray(a.campaigns) ? a.campaigns : [a.campaigns]).flat())].sort();
+    // Normalize season names to handle synonyms (e.g., "Icewind Dale" -> "Plague of Ancients")
+    const seasons = [...new Set(adventures.map(a => normalizeSeason(a.season)).filter(s => s !== null && s !== undefined))].sort();
     // Convert tiers to numbers and ensure proper deduplication
     // Filter out null/undefined, convert to numbers, then deduplicate with Set, then sort
     const tiers = [...new Set(adventures.map(a => a.tiers).filter(t => t !== null && t !== undefined).map(t => Number(t)))].sort((a, b) => a - b);
     const hours = [...new Set(adventures.map(a => parseHoursString(a.hours)).flat().filter(h => h !== null).sort((a, b) => a - b))];
 
     populateDropdown('campaign', campaigns, 'All Campaigns');
+    populateDropdown('season', seasons, 'All Seasons');
     populateDropdown('tier', tiers, 'All Tiers');
     populateDropdown('hours', hours, 'All Lengths');
 }
@@ -146,23 +162,33 @@ function initializeFilters() {
 
 function setupEventListeners() {
     // Add event listeners for filters
-    ['campaign', 'tier', 'hours'].forEach(filter => {
+    ['campaign', 'season', 'tier', 'hours'].forEach(filter => {
         const element = document.getElementById(filter);
         if (element) {
             element.addEventListener('change', (e) => {
                 filters[filter] = e.target.value;
-                currentPage = 1; // Reset to first page when filtering
+                // applyFilters() will reset currentPage and sort all filtered data
                 applyFilters();
             });
         }
     });
+    
+    // Add event listener for sort dropdown
+    const sortElement = document.getElementById('sort');
+    if (sortElement) {
+        sortElement.addEventListener('change', (e) => {
+            sortBy = e.target.value;
+            // applyFilters() will reset currentPage and sort all filtered data
+            applyFilters();
+        });
+    }
 
     // Add event listener for DC-only checkbox
     const dcOnlyCheckbox = document.getElementById('dc-only');
     if (dcOnlyCheckbox) {
         dcOnlyCheckbox.addEventListener('change', (e) => {
             filters.dcOnly = e.target.checked;
-            currentPage = 1; // Reset to first page when filtering
+            // applyFilters() will reset currentPage and sort all filtered data
             applyFilters();
         });
     }
@@ -203,6 +229,7 @@ function setupEventListeners() {
 }
 
 function applyFilters() {
+    // Filter all adventures based on current filter criteria
     filteredAdventures = adventures.filter(adventure => {
         // DC-only filter: if enabled, only show adventures with DC codes
         if (filters.dcOnly && !isDCCode(adventure.code)) {
@@ -229,12 +256,59 @@ function applyFilters() {
             parseHoursString(adventure.hours).includes(parseInt(filters.hours))
         );
 
+        // Normalize season for comparison to handle synonyms
+        const normalizedAdventureSeason = normalizeSeason(adventure.season);
+        const seasonMatch = !filters.season || normalizedAdventureSeason === filters.season;
+
         return campaignMatch &&
+            seasonMatch &&
             (!filters.tier || adventure.tiers === parseInt(filters.tier)) &&
             hoursMatch;
     });
 
+    // Sort ALL filtered adventures (not just current page) before pagination
+    sortAdventures();
+
+    // Reset to first page when filters/sort change
+    currentPage = 1;
+
     displayResults();
+}
+
+function sortAdventures() {
+    const [sortField, sortDirection] = sortBy.split('-');
+    
+    filteredAdventures.sort((a, b) => {
+        let aValue, bValue;
+        
+        switch (sortField) {
+            case 'title':
+                aValue = (a.title || '').toLowerCase();
+                bValue = (b.title || '').toLowerCase();
+                break;
+            case 'code':
+                aValue = (a.code || '').toLowerCase();
+                bValue = (b.code || '').toLowerCase();
+                break;
+            case 'date':
+                // Parse date_created if it's a string, otherwise use as-is
+                aValue = a.date_created ? (typeof a.date_created === 'string' ? new Date(a.date_created) : a.date_created) : new Date(0);
+                bValue = b.date_created ? (typeof b.date_created === 'string' ? new Date(b.date_created) : b.date_created) : new Date(0);
+                break;
+            default:
+                return 0;
+        }
+        
+        let comparison = 0;
+        if (sortField === 'date') {
+            comparison = aValue - bValue; // For dates, subtract directly
+        } else {
+            if (aValue < bValue) comparison = -1;
+            else if (aValue > bValue) comparison = 1;
+        }
+        
+        return sortDirection === 'desc' ? -comparison : comparison;
+    });
 }
 
 function getTotalPages() {

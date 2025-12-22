@@ -4,16 +4,19 @@
         "Adam Gordier"
     ],
     "campaigns": [
-        null
+        "Forgotten Realms"
     ],
-    "code": null,
+    "code": "CCC-ELO-01",
     "date_created": "20181123",
     "full_title": "CCC Priory Series (PRIORY-01/02/03)",
     "hours": "2",
-    "is_adventure": false,
+    "is_adventure": true,
     "level_range": "0",
+    "payWhatYouWant": false,
+    "price": 7.99,
     "product_id": "259555",
+    "season": null,
     "tiers": 1,
-    "title": "CCC Priory Series PRIORY-01/02/03",
-    "url": "https://www.dmsguild.com/product/259555/CCC-Priory-Series-PRIORY01-02-03?filters=45470_0_0_0_0_0_0_0"
+    "title": "Priory Series PRIORY-01/02/03",
+    "url": "https://www.dmsguild.com/product/259555/?affiliate_id=171040"
 }
