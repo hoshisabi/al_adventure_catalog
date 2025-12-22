@@ -11,9 +11,12 @@
     "full_title": "CCC-RCC-01-04 Black Bliss",
     "hours": "2",
     "is_adventure": true,
-    "level_range": "11",
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "299978",
+    "season": null,
     "tiers": 3,
-    "title": "CCC-RCC-01-04 Black Bliss",
-    "url": "https://www.dmsguild.com/product/299978/CCCRCC0104-Black-Bliss?filters=45470_0_0_0_0_0_0_0"
+    "title": "Black Bliss",
+    "url": "https://www.dmsguild.com/product/299978/?affiliate_id=171040"
 }

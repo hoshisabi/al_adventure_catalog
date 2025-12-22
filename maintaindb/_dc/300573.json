@@ -12,10 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
-    "price": 3.99,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "300573",
     "season": null,
     "tiers": 2,
-    "title": "House of Revenance CCC-MTL-02",
+    "title": "House of Revenance",
     "url": "https://www.dmsguild.com/product/300573/?affiliate_id=171040"
 }
