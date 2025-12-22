@@ -12,8 +12,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "309308",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-WWC-10 Brental's Roads Scholars",
-    "url": "https://www.dmsguild.com/product/309308/CCCWWC10-Brentals-Roads-Scholars?filters=45470_0_0_0_0_0_0_0"
+    "title": "Brental's Roads Scholars",
+    "url": "https://www.dmsguild.com/product/309308/?affiliate_id=171040"
 }

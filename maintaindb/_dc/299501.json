@@ -6,14 +6,17 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-ELF",
+    "code": "CCC-ELF-03-02",
     "date_created": "20200429",
-    "full_title": "CCC-ELF 03-02 Echoes of Rage",
-    "hours": "2",
+    "full_title": "CCC-ELF-03-02 Echoes of Rage",
+    "hours": "2-4",
     "is_adventure": true,
-    "level_range": "201",
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.95,
     "product_id": "299501",
+    "season": null,
     "tiers": 2,
-    "title": "CCC-ELF 03-02 Echoes of Rage",
-    "url": "https://www.dmsguild.com/product/299501/CCCELF-0302-Echoes-of-Rage?filters=45470_0_0_0_0_0_0_0"
+    "title": "Echoes of Rage",
+    "url": "https://www.dmsguild.com/product/299501/?affiliate_id=171040"
 }

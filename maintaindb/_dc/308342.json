@@ -14,8 +14,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "308342",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-HERO-BK-02-04 Lanterns at Dusk",
-    "url": "https://www.dmsguild.com/product/308342/CCCHEROBK0204-Lanterns-at-Dusk?filters=45470_0_0_0_0_0_0_0"
+    "title": "Lanterns at Dusk",
+    "url": "https://www.dmsguild.com/product/308342/?affiliate_id=171040"
 }

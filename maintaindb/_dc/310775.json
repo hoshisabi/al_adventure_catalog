@@ -9,13 +9,14 @@
     "code": "EB-SM-VISIONS",
     "date_created": "20200422",
     "full_title": "Visions of Salvation: A 4 hour Tier 1 Salvage Mission",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "310775",
     "season": null,
     "tiers": 1,
-    "title": "Visions of Salvation A 4 hour Tier 1 Salvage Mission",
+    "title": "Visions of Salvation",
     "url": "https://www.dmsguild.com/product/310775/?affiliate_id=171040"
 }
