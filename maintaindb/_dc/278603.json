@@ -11,11 +11,14 @@
     "code": "CCC-BWM-06",
     "date_created": "20190610",
     "full_title": "CCC-BWM-06 Introduction to Adventuring",
-    "hours": null,
+    "hours": "1",
     "is_adventure": true,
-    "level_range": "06",
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "278603",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-BWM-06 Introduction to Adventuring",
-    "url": "https://www.dmsguild.com/product/278603/CCCBWM06-Introduction-to-Adventuring?filters=45470_0_0_0_0_0_0_0"
+    "title": "Introduction to Adventuring",
+    "url": "https://www.dmsguild.com/product/278603/?affiliate_id=171040"
 }

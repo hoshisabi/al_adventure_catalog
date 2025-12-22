@@ -13,8 +13,11 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "260870",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-GHC-BK1-01 Into the Border Kingdoms",
-    "url": "https://www.dmsguild.com/product/260870/CCCGHCBK101-Into-the-Border-Kingdoms?filters=45470_0_0_0_0_0_0_0"
+    "title": "Into the Border Kingdoms",
+    "url": "https://www.dmsguild.com/product/260870/?affiliate_id=171040"
 }

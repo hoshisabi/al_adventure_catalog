@@ -12,8 +12,11 @@
     "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "261266",
+    "season": null,
     "tiers": 1,
-    "title": "CCC-KUMORI-02-02 School Magic",
-    "url": "https://www.dmsguild.com/product/261266/CCCKUMORI0202-School-Magic?filters=45470_0_0_0_0_0_0_0"
+    "title": "School Magic",
+    "url": "https://www.dmsguild.com/product/261266/?affiliate_id=171040"
 }
