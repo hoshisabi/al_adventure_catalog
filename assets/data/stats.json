@@ -40,7 +40,7 @@
         "Planescape": 87
     },
     "seed_by_season": {
-        "Icewind Dale (DC-POA)": {
+        "Plague of Ancients (DC-POA)": {
             "Awake and Afraid": 12,
             "Out of the Woods": 10,
             "Chwinga-chwinga. CHWINGA!": 3,
@@ -85,11 +85,9 @@
         },
         "Spelljammer (SJ-DC)": {
             "Create a Location in Wildspace": 302,
-            "Saint Argol’s Fire": 1,
+            "St. Argol's Fire": 3,
             "Unexpected Passenger": 1,
-            "Headed My Way?": 1,
-            "Saint Argols Fire": 1,
-            "Saint Argol's Fire": 1
+            "Headed My Way?": 1
         }
     }
 }
