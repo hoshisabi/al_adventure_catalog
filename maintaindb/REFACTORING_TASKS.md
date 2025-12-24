@@ -88,6 +88,25 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Location: New file `maintaindb/auditor.py`
   - Should integrate with existing data structure and use `all_adventures.json` as input
 
+- [ ] **Create HTML restore tool for processed DMsGuild pages**
+  - Purpose: Rehydrate HTML from `dmsguildinfo/processed/` back into `dmsguildinfo/` so existing parsers can run without re-downloading.
+  - Paths: Use `DMSGUILDINFO_DIR` and `DMSGUILDINFO_PROCESSED_DIR` from `maintaindb/paths.py`.
+  - Inputs/CLI:
+    - `--product-id <id>` (repeatable)
+    - `--from-file <ids.txt>` (newline-separated list)
+    - `--all-missing` (copy any processed HTML not present in `dmsguildinfo/`)
+    - `--dry-run`, `--overwrite`, `--checksum` (skip if same hash), `--report <csv|json>`
+  - Behavior: For each product_id, find `dmsguildinfo-{product_id}.html` under `processed/` and copy to `dmsguildinfo/`.
+  - Output: Console log + optional summary report of copied/skipped/missing files.
+  - Location: New file `maintaindb/restore_html.py`; optional wiring via `maintaindb/cli.py`.
+  - Tests: `tests/test_restore_html.py` covering dry-run, overwrite, checksum, and missing-file cases.
+  - estimated effort: 2–4 hours (incl. tests and docs).
+  - Risks/Issues:
+    - Filename mismatches or legacy naming schemes; consider tolerant lookup/glob.
+    - Stale HTML vs latest site; make behavior explicit in docs.
+    - Existing file conflicts; default to no-overwrite unless `--overwrite`.
+    - Case sensitivity and Windows path edge cases; use pathlib and safe copy.
+    - Ensure no network calls; purely local file operations.
 - [ ] **Add RSS processing to GitHub Actions**
   - Automate running `process_rss.py` on a schedule (e.g., daily or weekly)
   - This will make RSS-based data collection more prompt/regular
