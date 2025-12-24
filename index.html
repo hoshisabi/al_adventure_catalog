@@ -6,59 +6,79 @@ title: AL DC Catalog
     <h1 class="text-3xl font-bold mb-6">Adventure Filter</h1>
     <p class="mb-4"><a href="{{ site.baseurl }}/stats.html" class="text-blue-500 hover:underline">View Statistics</a></p>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-        <div>
-            <label for="campaign" class="block text-sm font-medium mb-2">Campaign</label>
-            <select id="campaign" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <option value="">All Campaigns</option>
-            </select>
-        </div>
-        
-        <div>
-            <label for="season" class="block text-sm font-medium mb-2">Season</label>
-            <select id="season" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <option value="">All Seasons</option>
-            </select>
-        </div>
-        
-        <div>
-            <label for="tier" class="block text-sm font-medium mb-2">Tier</label>
-            <select id="tier" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <option value="">All Tiers</option>
-            </select>
-        </div>
-        
-        <div>
-            <label for="hours" class="block text-sm font-medium mb-2">Hours</label>
-            <select id="hours" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <option value="">All Lengths</option>
-            </select>
-        </div>
+    <div class="mb-4">
+        <button id="toggle-filters" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+            Show Filters
+        </button>
     </div>
     
-    <div class="mb-6">
-        <label for="sort" class="block text-sm font-medium mb-2">Sort By</label>
-        <select id="sort" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-            <option value="title-asc">Title (A-Z)</option>
-            <option value="title-desc">Title (Z-A)</option>
-            <option value="code-asc">Code (A-Z)</option>
-            <option value="code-desc">Code (Z-A)</option>
-            <option value="date-desc" selected>Date (Newest First)</option>
-            <option value="date-asc">Date (Oldest First)</option>
-        </select>
+    <div id="filter-panel" class="mb-6 hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+            <div>
+                <label for="campaign" class="block text-sm font-medium mb-2">Campaign</label>
+                <select id="campaign" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <option value="">All Campaigns</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="season" class="block text-sm font-medium mb-2">Season</label>
+                <select id="season" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <option value="">All Seasons</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="tier" class="block text-sm font-medium mb-2">Tier</label>
+                <select id="tier" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <option value="">All Tiers</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="hours" class="block text-sm font-medium mb-2">Hours</label>
+                <select id="hours" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <option value="">All Lengths</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="mb-6">
+            <label for="sort" class="block text-sm font-medium mb-2">Sort By</label>
+            <select id="sort" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <option value="title-asc">Title (A-Z)</option>
+                <option value="title-desc">Title (Z-A)</option>
+                <option value="code-asc">Code (A-Z)</option>
+                <option value="code-desc">Code (Z-A)</option>
+                <option value="date-desc" selected>Date (Newest First)</option>
+                <option value="date-asc">Date (Oldest First)</option>
+            </select>
+        </div>
+
+        <div class="mb-6">
+            <label for="search" class="block text-sm font-medium mb-2">Search</label>
+            <input type="search" id="search" placeholder="Search by title, code, or author..." 
+                   class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+        </div>
+
+        <div class="mb-6">
+            <label class="flex items-center space-x-2 cursor-pointer">
+                <input type="checkbox" id="dc-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                <span class="text-sm font-medium">Show DC adventures only</span>
+            </label>
+        </div>
     </div>
 
-    <div class="mb-6">
-        <label for="search" class="block text-sm font-medium mb-2">Search</label>
-        <input type="search" id="search" placeholder="Search by title or code..." 
-               class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-    </div>
-
-    <div class="mb-6">
-        <label class="flex items-center space-x-2 cursor-pointer">
-            <input type="checkbox" id="dc-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
-            <span class="text-sm font-medium">Show DC adventures only</span>
-        </label>
+    <div class="mb-6 flex items-center justify-end">
+        <div class="flex items-center space-x-2">
+            <span class="text-sm font-medium">View:</span>
+            <button id="view-card" class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle active">
+                Cards
+            </button>
+            <button id="view-grid" class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle">
+                Grid
+            </button>
+        </div>
     </div>
 
     <div id="results-info" class="text-sm text-gray-600 mb-4">

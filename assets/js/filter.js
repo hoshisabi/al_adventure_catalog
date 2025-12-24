@@ -23,6 +23,57 @@ let filters = {
 };
 
 let sortBy = 'date-desc'; // Default sort: newest first
+let viewMode = 'card'; // 'card' or 'grid'
+
+// Map season names to their numeric values for display
+const SEASON_NUMBERS = {
+    'Tyranny of Dragons': 1,
+    'Elemental Evil': 2,
+    'Rage of Demons': 3,
+    'Curse of Strahd': 4,
+    "Storm King's Thunder": 5,
+    "Tales From the Yawning Portal": 6,
+    "Tomb of Annihilation": 7,
+    'Waterdeep': 8,
+    'Avernus Rising': 9,
+    'Plague of Ancients': 10
+};
+
+// Named seasons that don't have numeric values (Eberron, Ravenloft, etc.)
+const NAMED_SEASONS = [
+    'The Wild Beyond the Witchlight',
+    'Spelljammer',
+    'Planescape',
+    'Oracle of War',
+    'Embers of War',
+    'Salvage Missions',
+    'Eberron Dungeoncraft',
+    'Ravenloft Mist Hunters',
+    'Ravenloft Dungeoncraft'
+];
+
+function formatSeason(season, code) {
+    if (!season || season === 'Unknown' || season === 'Unspecified') {
+        return 'Unspecified';
+    }
+    
+    // Check if it's a numeric season (1-10)
+    const seasonNum = SEASON_NUMBERS[season];
+    if (seasonNum) {
+        return `Season ${seasonNum} ${season}`;
+    }
+    
+    // For named programs/seasons (WBW-DC, SJ-DC, Eberron, Ravenloft, etc.), just return the name
+    // These don't have numeric season numbers
+    return season;
+}
+
+function formatValue(value, defaultValue = 'Unspecified') {
+    if (value === null || value === undefined || value === '' || value === 0 || value === '0') {
+        return defaultValue;
+    }
+    return value;
+}
 
 // DC code prefixes (from DC_CAMPAIGNS)
 const DC_CODE_PREFIXES = [
@@ -122,13 +173,22 @@ function normalizeSeason(season) {
 }
 
 function populateFilters(adventures) {
-    const campaigns = [...new Set(adventures.map(a => Array.isArray(a.campaigns) ? a.campaigns : [a.campaigns]).flat())].sort();
+    // Filter out null, empty, and 'null' string values for campaigns
+    const campaigns = [...new Set(adventures.map(a => {
+        const camp = Array.isArray(a.campaigns) ? a.campaigns : [a.campaigns];
+        return camp.filter(c => c && c !== '' && c !== 'null');
+    }).flat())].sort();
+    
     // Normalize season names to handle synonyms (e.g., "Icewind Dale" -> "Plague of Ancients")
-    const seasons = [...new Set(adventures.map(a => normalizeSeason(a.season)).filter(s => s !== null && s !== undefined))].sort();
+    // Filter out null/undefined/empty values
+    const seasons = [...new Set(adventures.map(a => normalizeSeason(a.season)).filter(s => s !== null && s !== undefined && s !== ''))].sort();
+    
     // Convert tiers to numbers and ensure proper deduplication
-    // Filter out null/undefined, convert to numbers, then deduplicate with Set, then sort
-    const tiers = [...new Set(adventures.map(a => a.tiers).filter(t => t !== null && t !== undefined).map(t => Number(t)))].sort((a, b) => a - b);
-    const hours = [...new Set(adventures.map(a => parseHoursString(a.hours)).flat().filter(h => h !== null).sort((a, b) => a - b))];
+    // Filter out null/undefined/0, convert to numbers, then deduplicate with Set, then sort
+    const tiers = [...new Set(adventures.map(a => a.tiers).filter(t => t !== null && t !== undefined && t !== 0 && t !== '0').map(t => Number(t)))].sort((a, b) => a - b);
+    
+    // Filter out 0 values for hours
+    const hours = [...new Set(adventures.map(a => parseHoursString(a.hours)).flat().filter(h => h !== null && h !== 0 && h !== '0').sort((a, b) => a - b))];
 
     populateDropdown('campaign', campaigns, 'All Campaigns');
     populateDropdown('season', seasons, 'All Seasons');
@@ -157,6 +217,7 @@ function initializeFilters() {
     populateFilters(adventures);
     updateItemsPerPage(); // Set initial items per page
     setupEventListeners();
+    updateViewToggleButtons(); // Set initial view toggle state
     applyFilters(); // Apply filters after everything is set up
 }
 
@@ -226,6 +287,58 @@ function setupEventListeners() {
             }
         });
     }
+
+    // Add view toggle event listeners
+    const viewCardButton = document.getElementById('view-card');
+    const viewGridButton = document.getElementById('view-grid');
+    if (viewCardButton) {
+        viewCardButton.addEventListener('click', () => {
+            viewMode = 'card';
+            updateViewToggleButtons();
+            displayResults();
+        });
+    }
+    if (viewGridButton) {
+        viewGridButton.addEventListener('click', () => {
+            viewMode = 'grid';
+            updateViewToggleButtons();
+            displayResults();
+        });
+    }
+
+    // Add filter toggle event listener
+    const toggleFiltersButton = document.getElementById('toggle-filters');
+    const filterPanel = document.getElementById('filter-panel');
+    if (toggleFiltersButton && filterPanel) {
+        toggleFiltersButton.addEventListener('click', () => {
+            const isHidden = filterPanel.classList.contains('hidden');
+            if (isHidden) {
+                filterPanel.classList.remove('hidden');
+                toggleFiltersButton.textContent = 'Hide Filters';
+            } else {
+                filterPanel.classList.add('hidden');
+                toggleFiltersButton.textContent = 'Show Filters';
+            }
+        });
+    }
+}
+
+function updateViewToggleButtons() {
+    const viewCardButton = document.getElementById('view-card');
+    const viewGridButton = document.getElementById('view-grid');
+    if (viewCardButton && viewGridButton) {
+        if (viewMode === 'card') {
+            viewCardButton.classList.add('active', 'bg-blue-500', 'text-white');
+            viewCardButton.classList.remove('hover:bg-gray-100');
+            viewGridButton.classList.remove('active', 'bg-blue-500', 'text-white');
+            viewGridButton.classList.add('hover:bg-gray-100');
+        } else {
+            viewGridButton.classList.add('active', 'bg-blue-500', 'text-white');
+            viewGridButton.classList.remove('hover:bg-gray-100');
+            viewCardButton.classList.remove('active', 'bg-blue-500', 'text-white');
+            viewCardButton.classList.add('hover:bg-gray-100');
+        }
+    }
 }
 
 function applyFilters() {
@@ -236,12 +349,14 @@ function applyFilters() {
             return false;
         }
 
-        // Search filter: search in title and code (case-insensitive)
+        // Search filter: search in title, code, and authors (case-insensitive)
         if (filters.search) {
             const searchLower = filters.search.toLowerCase();
             const titleMatch = adventure.title && adventure.title.toLowerCase().includes(searchLower);
             const codeMatch = adventure.code && adventure.code.toLowerCase().includes(searchLower);
-            if (!titleMatch && !codeMatch) {
+            const authorsMatch = adventure.authors && Array.isArray(adventure.authors) && 
+                adventure.authors.some(author => author && author.toLowerCase().includes(searchLower));
+            if (!titleMatch && !codeMatch && !authorsMatch) {
                 return false;
             }
         }
@@ -338,25 +453,55 @@ function displayResults() {
     }
     resultsDiv.innerHTML = '';
 
-    currentPageData.forEach(adventure => {
-        const card = document.createElement('div');
-        card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow';
-
-        // Handle campaign display for both array and single value cases
-        const campaignDisplay = Array.isArray(adventure.campaigns)
-            ? adventure.campaigns.join(', ')
-            : adventure.campaigns; // Should be campaigns now
-
-        const hoursDisplay = adventure.hours ? adventure.hours + ' Hours' : 'N/A';
-
-        card.innerHTML = `
-            <a href="${adventure.url}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800">${adventure.title}</a>
-            <p class="text-sm text-gray-600 mb-1">Code: ${adventure.code}</p>
-            <p class="text-sm text-gray-600 mb-1">Campaign: ${campaignDisplay}</p>
-            <p class="text-sm text-gray-600 mb-1">Hours: ${hoursDisplay} &bull; Tier: ${adventure.tiers}</p>
+    // Update results container class based on view mode
+    if (viewMode === 'grid') {
+        resultsDiv.className = 'overflow-x-auto';
+        // Create table structure for grid view
+        const table = document.createElement('table');
+        table.className = 'w-full border-collapse';
+        table.setAttribute('role', 'table');
+        
+        // Create table header
+        const thead = document.createElement('thead');
+        thead.className = 'bg-gray-100 sticky top-0 z-10';
+        const headerRow = document.createElement('tr');
+        headerRow.className = 'border-b-2 border-gray-300';
+        headerRow.innerHTML = `
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700 border-r border-gray-300">Title</th>
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700 border-r border-gray-300">Code</th>
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700 border-r border-gray-300">Author(s)</th>
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700 border-r border-gray-300">Campaign</th>
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700 border-r border-gray-300">Season</th>
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700 border-r border-gray-300">Hours</th>
+            <th class="px-4 py-2 text-left font-semibold text-sm text-gray-700">Tier</th>
         `;
-        resultsDiv.appendChild(card);
-    });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+        
+        // Create table body
+        const tbody = document.createElement('tbody');
+        tbody.id = 'grid-tbody';
+        table.appendChild(tbody);
+        
+        resultsDiv.innerHTML = '';
+        resultsDiv.appendChild(table);
+    } else {
+        resultsDiv.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
+    }
+
+    if (viewMode === 'grid') {
+        const tbody = document.getElementById('grid-tbody');
+        if (tbody) {
+            tbody.innerHTML = '';
+            currentPageData.forEach(adventure => {
+                tbody.appendChild(createGridRow(adventure));
+            });
+        }
+    } else {
+        currentPageData.forEach(adventure => {
+            resultsDiv.appendChild(createCard(adventure));
+        });
+    }
 
     // Update pagination UI
     const totalPages = getTotalPages();
@@ -372,4 +517,93 @@ function displayResults() {
 
     // Scroll to top of page
     window.scrollTo(0, 0);
+}
+
+function createCard(adventure) {
+    const card = document.createElement('div');
+    card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow';
+
+    // Handle campaign display for both array and single value cases
+    let campaignDisplay = Array.isArray(adventure.campaigns)
+        ? adventure.campaigns.filter(c => c && c !== '' && c !== 'null').join(', ')
+        : (adventure.campaigns && adventure.campaigns !== '' && adventure.campaigns !== 'null' ? adventure.campaigns : null);
+    campaignDisplay = campaignDisplay || 'Unspecified';
+
+    // Handle hours display
+    let hoursDisplay = 'Unspecified';
+    if (adventure.hours) {
+        if (Array.isArray(adventure.hours)) {
+            const hoursList = adventure.hours.filter(h => h && h !== '0' && h !== 0);
+            hoursDisplay = hoursList.length > 0 ? hoursList.join(', ') + ' Hours' : 'Unspecified';
+        } else if (adventure.hours !== '0' && adventure.hours !== 0) {
+            hoursDisplay = adventure.hours + ' Hours';
+        }
+    }
+    
+    // Handle authors display
+    const authorsDisplay = adventure.authors && Array.isArray(adventure.authors) && adventure.authors.length > 0
+        ? adventure.authors.join(', ')
+        : 'N/A';
+    
+    // Handle season display
+    const seasonDisplay = formatSeason(adventure.season, adventure.code);
+    
+    // Handle tier display
+    const tierDisplay = formatValue(adventure.tiers, 'Unspecified');
+
+    card.innerHTML = `
+        <a href="${adventure.url}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800 block">${adventure.title || adventure.full_title || 'Untitled'}</a>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${adventure.code || 'N/A'}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${authorsDisplay}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${campaignDisplay}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Season:</span> ${seasonDisplay}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Hours:</span> ${hoursDisplay} &bull; <span class="font-medium">Tier:</span> ${tierDisplay}</p>
+    `;
+    return card;
+}
+
+function createGridRow(adventure) {
+    const row = document.createElement('tr');
+    row.className = 'border-b border-gray-200 hover:bg-gray-50 transition-colors';
+
+    // Handle campaign display for both array and single value cases
+    let campaignDisplay = Array.isArray(adventure.campaigns)
+        ? adventure.campaigns.filter(c => c && c !== '' && c !== 'null').join(', ')
+        : (adventure.campaigns && adventure.campaigns !== '' && adventure.campaigns !== 'null' ? adventure.campaigns : null);
+    campaignDisplay = campaignDisplay || 'Unspecified';
+
+    // Handle hours display
+    let hoursDisplay = 'Unspecified';
+    if (adventure.hours) {
+        if (Array.isArray(adventure.hours)) {
+            const hoursList = adventure.hours.filter(h => h && h !== '0' && h !== 0);
+            hoursDisplay = hoursList.length > 0 ? hoursList.join(', ') : 'Unspecified';
+        } else if (adventure.hours !== '0' && adventure.hours !== 0) {
+            hoursDisplay = adventure.hours;
+        }
+    }
+    
+    // Handle authors display
+    const authorsDisplay = adventure.authors && Array.isArray(adventure.authors) && adventure.authors.length > 0
+        ? adventure.authors.join(', ')
+        : 'N/A';
+    
+    // Handle season display
+    const seasonDisplay = formatSeason(adventure.season, adventure.code);
+    
+    // Handle tier display
+    const tierDisplay = formatValue(adventure.tiers, 'Unspecified');
+
+    row.innerHTML = `
+        <td class="px-4 py-2 border-r border-gray-300">
+            <a href="${adventure.url}" target="_blank" class="text-base font-semibold text-blue-600 hover:text-blue-800">${adventure.title || adventure.full_title || 'Untitled'}</a>
+        </td>
+        <td class="px-4 py-2 text-sm text-gray-600 border-r border-gray-300">${adventure.code || 'N/A'}</td>
+        <td class="px-4 py-2 text-sm text-gray-600 border-r border-gray-300">${authorsDisplay}</td>
+        <td class="px-4 py-2 text-sm text-gray-600 border-r border-gray-300">${campaignDisplay}</td>
+        <td class="px-4 py-2 text-sm text-gray-600 border-r border-gray-300">${seasonDisplay}</td>
+        <td class="px-4 py-2 text-sm text-gray-600 border-r border-gray-300">${hoursDisplay}</td>
+        <td class="px-4 py-2 text-sm text-gray-600">${tierDisplay}</td>
+    `;
+    return row;
 }

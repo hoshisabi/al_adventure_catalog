@@ -45,6 +45,27 @@ def _parse_hours_string(hours_str):
         return []
     return hours_list
 
+def normalize_seed_name(seed):
+    """
+    Normalize seed names to handle variations and inconsistencies.
+    For example, "St. Argol's Fire", "Saint Argol's Fire", "Saint Argols Fire" should all map to the same canonical name.
+    """
+    if not seed:
+        return seed
+    
+    seed_lower = seed.lower().strip()
+    
+    # Normalize "St. Argol's Fire" variations
+    # Handle variations: "st. argol's fire", "saint argol's fire", "saint argols fire", "st argol's fire", etc.
+    if 'argol' in seed_lower and 'fire' in seed_lower:
+        # Normalize to "St. Argol's Fire" (canonical form)
+        # This handles: "St. Argol's Fire", "Saint Argol's Fire", "Saint Argols Fire", "St Argol's Fire", etc.
+        return "St. Argol's Fire"
+    
+    # Add more normalization rules here as needed for other seed name variations
+    # For now, return the original seed if no normalization rule matches
+    return seed
+
 def is_seed_required_code(code):
     """Check if code belongs to POA, WBW, or SJ campaigns that require seeds.
     Returns (is_required, season_name) tuple."""
@@ -52,7 +73,7 @@ def is_seed_required_code(code):
         return False, None
     code_upper = code.upper()
     if 'POA' in code_upper or code_upper.startswith('DC-POA'):
-        return True, 'Icewind Dale (DC-POA)'
+        return True, 'Plague of Ancients (DC-POA)'
     if 'WBW' in code_upper or code_upper.startswith('WBW-DC') or code_upper.startswith('DC-WBW'):
         return True, 'Wild Beyond the Witchlight (WBW-DC)'
     if code_upper.startswith('SJ-DC') or code_upper.startswith('DC-SJ'):
@@ -156,7 +177,12 @@ def generate_stats():
         if adventure.code:
             is_required, season_name = is_seed_required_code(adventure.code)
             if is_required and hasattr(adventure, 'seed') and adventure.seed:
-                stats['seed_by_season'][season_name][adventure.seed] += 1
+                # Normalize "Icewind Dale" to "Plague of Ancients" for consistency
+                if season_name and 'Icewind Dale' in season_name:
+                    season_name = season_name.replace('Icewind Dale', 'Plague of Ancients')
+                # Normalize seed name to handle variations (e.g., "St. Argol's Fire" vs "Saint Argol's Fire")
+                normalized_seed = normalize_seed_name(adventure.seed)
+                stats['seed_by_season'][season_name][normalized_seed] += 1
     
     # Convert nested defaultdicts to regular dicts for JSON serialization
     stats['seed_by_season'] = {

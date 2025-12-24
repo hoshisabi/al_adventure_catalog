@@ -7,12 +7,20 @@ from word2number import w2n
 from typing import List, Optional, Tuple, Any
 
 # --- Campaign Dictionaries ---
-# Season labels (named programs + numeric seasons 1-10)
+# Season labels (named programs + numeric seasons 1-10 + Eberron/Ravenloft seasons)
+# Note: Order matters for prefix matching - more specific prefixes should come first
 SEASONS = {
     'WBW-DC': "The Wild Beyond the Witchlight",
     'SJ-DC': "Spelljammer",
     'PS-DC': "Planescape",
     'DC-POA': "Plague of Ancients",  # Changed from "Icewind Dale" - they are synonyms
+    'EB-EP': "Oracle of War",  # Eberron Oracle of War (EB-EP-??) - check before EB-
+    'EB-SM': "Salvage Missions",  # Eberron Salvage Missions (EB-SM-???) - deprecated, no new entries - check before EB-
+    'EB-DC': "Eberron Dungeoncraft",  # Eberron Dungeoncraft - check before EB-
+    'EB-': "Oracle of War",  # Eberron Oracle of War (EB-??) - general case, check after specific EB-* patterns
+    'ELW': "Embers of War",  # Eberron Embers of War (ELW-??)
+    'RMH': "Ravenloft Mist Hunters",  # Ravenloft Mist Hunters (RMH-???)
+    'RV-DC': "Ravenloft Dungeoncraft",  # Ravenloft Dungeoncraft
     1: "Tyranny of Dragons",
     2: "Elemental Evil",
     3: "Rage of Demons",
@@ -240,17 +248,47 @@ def get_season(code: Optional[str]):
     - For codes starting with WBW-DC, SJ-DC, PS-DC, DC-POA return the program name.
     - For DDEXn/DDALn (optionally zero-padded), map known numeric seasons (1-10) to human-friendly names;
       if an unknown number is encountered, return the number to avoid data loss.
+    - For Eberron: EB-EP-?? and EB-?? → "Oracle of War", ELW-?? → "Embers of War", EB-SM-??? → "Salvage Missions", EB-DC → "Eberron Dungeoncraft"
+    - For Ravenloft: RMH-??? → "Ravenloft Mist Hunters", RV-DC → "Ravenloft Dungeoncraft"
     - Normalizes season names using SEASON_NORMALIZATION to handle synonyms.
     """
     if not code:
         return None
     code_u = str(code).upper()
     season = None
-    # Named programs
-    for prefix, season_name in SEASONS.items():
-        if isinstance(prefix, str) and code_u.startswith(prefix):
-            season = season_name
-            break
+    
+    # Check for specific patterns first (more specific before general)
+    # Eberron patterns
+    if code_u.startswith('EB-EP'):
+        season = SEASONS.get('EB-EP')
+    elif code_u.startswith('EB-SM'):
+        season = SEASONS.get('EB-SM')
+    elif code_u.startswith('EB-DC'):
+        season = SEASONS.get('EB-DC')
+    elif code_u.startswith('EB-'):
+        # General EB-?? pattern (but not EB-EP, EB-SM, or EB-DC)
+        season = SEASONS.get('EB-')
+    # Check for Eberron Embers of War (ELW-?? or DDALELW/DDAL-ELW)
+    elif code_u.startswith('ELW-') or code_u.startswith('DDALELW') or code_u.startswith('DDAL-ELW'):
+        season = SEASONS.get('ELW')
+    # Check for Ravenloft Mist Hunters (RMH-???)
+    elif code_u.startswith('RMH'):
+        season = SEASONS.get('RMH')
+    # Check for Ravenloft Dungeoncraft (RV-DC)
+    elif code_u.startswith('RV-DC'):
+        season = SEASONS.get('RV-DC')
+    
+    # Named programs (check after specific patterns to avoid conflicts)
+    # Only check if season not already found, and skip EB- patterns we already handled
+    if season is None:
+        for prefix, season_name in SEASONS.items():
+            if isinstance(prefix, str) and code_u.startswith(prefix):
+                # Skip EB- patterns we already handled above
+                if prefix in ('EB-EP', 'EB-SM', 'EB-DC', 'EB-', 'ELW', 'RMH', 'RV-DC'):
+                    continue
+                season = season_name
+                break
+    
     # Numeric AL seasons
     if season is None:
         m = re.match(r"^(DDEX|DDAL)0?(\d+)", code_u)
