@@ -2,6 +2,9 @@
 dmsguildinfo/
 **/dmsguildinfo-*.html
 
+# Rewards spreadsheet dumps
+_data/Updated*.csv
+
 # Editors
 .vscode/
 .idea/
