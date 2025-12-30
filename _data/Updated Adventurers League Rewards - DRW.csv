@@ -1,0 +1,53 @@
+Adventure,Adventure Title,Level Range,APL,Runtime,Consumables,Magic Items,,Spellbooks and Scrolls,Story Award,Treasure (GP),Series
+DRW-01,Breaking Umberlee's Resolve,5-10,8,4-6,,Iron Bands of Bilarro,,,,,
+DRW-02,Blood in the Water,5-10,8,4-6,,Bowl of Commanding Water Elementals,,,,,
+DRW-03,Saving Silverbeard,11-16,14,4-6,,Helm of Brilliance,,,,,
+DRW-04,Foreign Affairs,11-16,13,4-6,"Potion of Supreme Healing, Potion of Water Breathing","Dragontooth Dagger, Necklace of Fireballs",Shield of the Uven Rune,,,,Storm King's Descent
+DRW-05,Uncertain Scrutiny,11-16,13,6,"Potion of Superior Healing, 2x Potion of Vitality","Cape of the Mountebank, Horn of Silent Alarm",Staff of Frost,"Spell Scroll of Forcecage, Spell Scroll of Mass Cure Wounds, Spell Tile of Teleport",,,
+DRW-06,Thimblerigging,11-16,13,6,"Potion of Heroism, Potion of Superior Healing",Ioun Stone of Vitality,Necklace of Prayer Beads,,,,
+DRW-07,Moment of Peace,11-16,13,6,Elixer of Health,Dancing Longsword,Stonespeaker Crystal,"Spell Scroll of Passwall, Spell Scroll of True Seeing",,,
+DRW-08,Harrowing of Hell,17-20,18,8,"Potion of Storm Giant Strength, 3x Potion of Vitality","Chime of Opening, Oathbow",Scarab of Protection,,,,
+DRW-09,Vile Bounty,5-10,8,4,"Potion of Heroism, Potion of Mind Control (Beast)",Mariner's Armor (Studded Leather),Amulet of Health,,,,Shadow Games
+DRW-10,Unsafe Harborage,5-10,8,4,"Potion of Superior Healing, Elixir of Health",Moon Sickle +1,Ring of X-Ray Vision,Spell Scroll of Intellect Fortress,,,
+DRW-11,Shadows in the Stacks,5-10,8,4,,Mantle of Spell Resistance,Amulet of the Devout +2,"Spell Scroll of Locate Object, Mending, Move Earth",,,
+DRW-12,To Walk the Cold Dark,5-10,8,4,Potion of Resistance (Cold),Goggles of Night,Wand of Winter,"Spell Scroll of Greater Restoration, Contact Other Plane",,,
+DRW-13,Night Thieves,5-10,8,4,Potion of Invisibility,Pearl of Power,Flame Tongue Longsword,,,,
+DRW-14,The City That Should Not Be,11-16,13,4,"Potion of Comprehension, Potion of Vitality",Bracers of Defense,Belt of Stone Giant Strength,"Spell Scroll of Sending, Spell Scroll of Teleportation Circle",,,The Cold Dark
+DRW-15,Frozen Whispers,11-16,13,4,"Potion of Possibility, Potion of Maximum Power","Discord (Plate +2, unique, cannot be traded)",Ring of Regeneration,Spell Scroll of Sunburst,,,
+DRW-16,Uprising,11-16,13,4,"Potion of Speed, Potion of Greater Healing, Potion of Invisibility",Jasper Ring (Ring of Evasion),"Woe (unique Longsword +3, unique, cannot be traded)","Spell Scroll (Summon Undead, Summon Fiend)",,,
+DRW-17,Expedition to the Supreme Forge,11-16,13,4,Potion of Superior Healing x2,"Moon-Touched Greatsword, Portable Hole",Ioun Stone of Intellect,,,23000 + 10000 per character,
+DRW-18,Against the Machine,11-16,13,4,"Potion of Heroism, Potion of Invulnerability",Necklace of Fireballs,Anstruth Harp (Instrument of the Bards),Spell Scroll of Cone of Cold,,22500,
+DRW-19,Fall the Cold Night,17-20,18,4,,Sapphire Buckler,Ascendant Dragon-Touched Focus (Gem),,,95000,Frozen Worlds
+DRW-20,The Death of Szass Tam,17-20,18,4,"Potion of Invisibility,
+Potion of Vitality",Kyrzin's Ooze,Blood Fury Tattoo,Spell Scroll of Maddening Darkness,,22500,
+DRW-INT-01,Big Problems,1-4,3,2,Potion of Giant Strength (Hill),Bag of Holding,,,,650,
+DRW-INT-02,Watchers of the Trollclaws,1-4,3,2,"Potion of Healing, Potion of Resistance (Necrotic)",Sentinel Shield,,,,300,
+DRW-INT-03,A Red Day for Elventree,1-4,3,2,"Potion of Healing, +1 Arrows (6)",Boots of Elvenkind,,,,250,
+DRW-INT-04,Tales of Fang and Claw,1-4,3,2,Potion of Healing,Mask of the Beast,,"Spell Scroll of Revivify, Dahovnia's Spellbook",,400,
+BMG-DRW-OD-01,Something in the Way,5-10,8,4,Potion of Greater Healing,Moon-Touched Longsword,Bracers of Defense,Spell Scroll of Haste,,6000,
+BMG-DRW-OD-02,Something Wicked,5-10,8,4,Potion of Flying,Cloak of Many Fashions,Battering Shield,Scroll of See Invisible,Friend of the Sha'Sal Khou,5000,
+BMG-DRW-OD-03,Something's on the Move,5-10,8,4,Potion of Greater Healing,Clockwork Amulet,Alchemical Compendium,Spell Scroll of Leomund's Tiny Hut,,5000,
+BMG-DRW-OD-04,We're All in This Together,5-10,8,4,,Instrument of Scribing,Devotee's Censer,Spell Scroll of Blight,,,
+BMG-DRW-OD-05,Now We've Done It,5-10,8,4,Potion of Gaseous Form,Cast-Off Plate Armor,Crystal Blade (Rapier),"Yen's Spellbook, Spell Scroll of Summon Draconic Spirit","I Trust Dar'lon Ma, Tested by Dar'lon Ma",15000,
+BMG-DRW-OD-06,We Almost Had It All,11-16,13,4,Potion of Supreme Healing,Clothes of Mending,Amulet of the Devout +3,"Spell Scroll of Heal, Old Citadel Spellbook","We Have Their Number / 
+Going in Blind",46000,
+BMG-DRW-OD-07,The Subtlety of Subterfuge,11-16,13,4,"Potion of Flying, Oil of Etherealness, Potion of Supreme Healing",Pole of Collapsing,Shield +3,"Spell Scrolls of Blur, Mirror Image, Haste, Greater Invisibility
+Melthrar's Spellbook","Oghma Closes the Book /
+Blessed by the Binder",50000,
+BMG-DRW-OD-08,Lonely is the Night,11-16,13,4,Potion of Vitality,,Cauldron of Rebirth,"Scroll of Disintegrate, Scroll of Word of Recall",,18000,
+BMG-DRW-OD-09,"Sschindylryn, the City of Portals",11-16,13,4,Potion of Speed,Hat of Wizardry,"Belt of Fire Giant Strength, Dragon-Touched Focus (Wakened, Chromatic)",Scroll of Power Word: Stun,,5000,
+BMG-DRW-OD-10,Across the Glacier of the White Worm,17-20,18,4,Potion of Supreme Healing,Enduring Spellbook,Ruby Weave Gem,Scroll of Dominate Monster,A Crown Prevented,21000,
+BMG-DRW-OD-11,Summit at Tantras,17-20,18,4,Potion of Supreme Healing,Listening Ear (Ear Horn of Hearing),Cloak of Invisibility (Guardian),,,75000,
+,,,,,,,,,,,
+DRW-EP-01,Assault on Myth Nantar,5-10,8,4,,Tentacle Rod,Gloves of Swimming and Climbing,,,5000,
+,,11-16,13,4,,,Staff of Thunder and Lightning,,,50000,
+DRW-EP-02,Wings of Death,11-16,13,4,"Potion of Fire Giant Strength, Potion of Superior Healing","Bracers of Defense, Spellguard Shield",,Spell Scroll of Etherealness,,,Storm King's Descent
+,,17-20,18,4,"Potion of Cloud Giant Strength, Potion of Supreme Healing",,Ring of Earth Elementals Command,Spell Scroll of Control Weather,Born From the Ashes,,
+DRW-EP-03,When the Lights Went Out in Candlekeep,5-10,8,4,"Potion of Heroism, Potion of Invulnerability","Bracers of Archery, Arrow-Catching Shield",,,,1000,
+,,11-16,13,4,"Potion of Heroism, Potion of Invulnerability, Potion of Speed, Potion of Greater Healing",,Rod of the Pact Keeper +3,,,10000,
+DRW-EP-04,Tears Among the Stars,11-16,13,4,"Potion of Giant Size, Potion of Heroism, Potion of Mind Control (monster), Potion of Vitality","Knave's Eye Patch, Cloak of Arachnida",,Spell Scroll of Greater Restoration,,50000,
+,,17-20,18,4,,,Ioun Stone of Mastery,,,100000,
+BMG-DRWEP-OD-01,The Enemy of My Enemy,5-10,8,4,"Potion of Greater Healing, Potion of Heroism","Moon Sickle +2, Wand of Fireballs",Earring of Message,Spell Scroll of Revivify,"Free-Floating Psi Crystal, Qualith Psi Crystal Retrieved",5000,
+BMG-DRWEP-OD-02,The Burning of Algarond,5-10,8,4,Potion of Superior Healing,Pipe of Smoke Monsters,"Butcher's Bib, Dragon Wing Bow (Radiant)",Scroll of Steel Wind Strike,Scourge of the Zulkir,,
+,,11-16,13,4,"Potion of Speed, Potion of Supreme Healing",,"Obsidian Plate +2, Longbow +3",Scroll of Heal,"Scourge of the Zulkir, Plaguemarked; Weal, Plaguemarked; Woe",50000,
+BMG-DRWEP-OD-03,The Undead in Our Closets,11-16,13,4,"Arrow +3 (x6), Potion of Invisibility",Atlas of Endless Horizons,All-Purpose Tool +3,Scroll of Wall of Thorns,,35000,
