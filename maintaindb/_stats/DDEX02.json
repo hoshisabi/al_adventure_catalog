@@ -175,7 +175,7 @@
         "url": "https://www.dmsguild.com/product/170481/?affiliate_id=171040"
     },
     {
-        "apl": null,
+        "apl": 6,
         "authors": [
             "Tim Eagon",
             "Claire Hoffman",
@@ -188,7 +188,7 @@
         "code": "DDEX02-08",
         "date_created": "20160111",
         "full_title": "DDEX2-08 Foulness Beneath Mulmaster",
-        "hours": "",
+        "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
         "payWhatYouWant": false,
