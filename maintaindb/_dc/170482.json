@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 6,
     "authors": [
         "Tim Eagon",
         "Claire Hoffman",
@@ -12,7 +12,7 @@
     "code": "DDEX2-08",
     "date_created": "20160111",
     "full_title": "DDEX2-08 Foulness Beneath Mulmaster",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
     "level_range": "1-4",
     "payWhatYouWant": false,
