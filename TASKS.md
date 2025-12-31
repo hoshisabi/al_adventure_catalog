@@ -1,4 +1,39 @@
-# Adventure Catalog – Updated Tasks
+# Adventure Catalog Master Task List
+
+## 1. High-Performance Data Architecture (New Optimization)
+- [ ] **Python: Generate Summary Index (`summary_index.json`)**
+    - Only include fields needed for UI display/slicers (ID, Title, Code, Tier, Level, Campaign).
+- [ ] **Python: Generate Search Index (`search_index.json`)**
+    - Create a map of `{ id: "normalized_search_string" }`.
+    - Normalize: Lowercase, remove punctuation, concatenate Title + Code + Authors.
+- [ ] **JS: Async Detail Fetching**
+    - Update `index.html` to load the small indices on page load.
+    - Fetch `_data/{product_id}.json` only when a user selects an adventure.
+    - Implement a simple JS cache for fetched details.
+
+## 2. Python Aggregator & Data Quality
+- [ ] **Validation Enhancements** (in `aggregator.py`)
+    - Flag malformed `hours` or `apl` fields.
+    - Add a "Sanity Check" build step: Ensure every index entry has a matching individual JSON file.
+- [ ] **Deduplication Strategy**
+    - Refine logic to handle duplicate codes or titles during aggregation.
+- [ ] **Stats Generation**
+    - Update aggregator to output `stats.json` for the stats dashboard.
+
+## 3. Web UI Improvements
+- [ ] **Search Experience**
+    - Add the text search box using the new `search_index.json`.
+- [ ] **Detail View**
+    - Create a UI component (modal or side-panel) to display the "fetched" individual adventure data.
+- [ ] **Result Counts**
+    - Ensure result counts update dynamically based on filters + search.
+
+## 4. Repository & Maintenance (Plan 2 Implementation)
+- [ ] **Fixture Management**
+    - Move raw HTML snapshots to a private fixtures submodule.
+    - Update `.gitignore` to protect DMG HTML.
+- [ ] **History Scrubbing**
+    - Use `git filter-repo` to remove any accidentally published HTML from the history.
 
 ## Data Quality & Validation
 
