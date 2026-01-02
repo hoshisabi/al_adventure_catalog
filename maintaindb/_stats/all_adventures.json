@@ -33858,6 +33858,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 9.99,
         "product_id": "450335",
         "season": null,
@@ -46132,5 +46133,73 @@
         "tiers": 2,
         "title": "3 The Final Touch",
         "url": "https://www.dmsguild.com/product/551172/?affiliate_id=171040"
+    },
+    {
+        "apl": 20,
+        "authors": [
+            "Jieying Ji"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-APAB-01",
+        "date_created": "20251231",
+        "full_title": "FR-DC-APAB-01 A Paladin Requiem",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "17-20",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "551219",
+        "season": null,
+        "tiers": 4,
+        "title": "A Paladin Requiem",
+        "url": "https://www.dmsguild.com/product/551219/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Lex Winter",
+            "Katriel Paige"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "FR-DC-ONI-05",
+        "date_created": "20251231",
+        "full_title": "The Shogun of Storms (FR-DC-ONI-05)",
+        "hours": "",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
+        "product_id": "551359",
+        "season": null,
+        "tiers": 3,
+        "title": "The Shogun of Storms",
+        "url": "https://www.dmsguild.com/product/551359/?affiliate_id=171040"
+    },
+    {
+        "apl": 13,
+        "authors": [
+            "Brian Balagot",
+            "Johnny Smith"
+        ],
+        "campaigns": [
+            "Forgotten Realms"
+        ],
+        "code": "PS-DC-JUDGE",
+        "date_created": "20260102",
+        "full_title": "PS-DC-JUDGE Tower of Judgement",
+        "hours": "4",
+        "is_adventure": true,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.95,
+        "product_id": "551546",
+        "season": "Planescape",
+        "tiers": 3,
+        "title": "Tower of Judgement",
+        "url": "https://www.dmsguild.com/product/551546/?affiliate_id=171040"
     }
 ]
