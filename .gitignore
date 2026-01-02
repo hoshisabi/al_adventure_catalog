@@ -1,6 +1,6 @@
 # DM’s Guild raw HTML snapshots
 dmsguildinfo/
-**/dmsguildinfo-*.html
+**/dmsguildinfo-*.*
 
 # Rewards spreadsheet dumps
 _data/Updated*.csv
