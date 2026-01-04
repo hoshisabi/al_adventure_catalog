@@ -9,12 +9,15 @@
     "code": "SJ-DC-MONSTER-02",
     "date_created": "20230911",
     "full_title": "SJ-DC-MONSTER-02 Leviathan",
-    "hours": null,
+    "hours": "2-3",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "452693",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Leviathan",
-    "url": "https://www.dmsguild.com/product/452693/SJDCMONSTER02-Leviathan?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/452693/SJDCMONSTER02-Leviathan?filters=45470_0_0_0_0_0_0_0"
 }

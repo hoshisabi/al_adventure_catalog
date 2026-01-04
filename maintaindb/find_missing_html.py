@@ -16,8 +16,8 @@ def find_missing_html():
         path_exists = os.path.exists(path)
         print(f"Checking path: {path} (exists: {path_exists})")
         # Search recursively for HTML files
-        files_found = glob.glob(os.path.join(path, "**", "*.html"))
-        print(f"  Found {len(files_found)} HTML files in this path")
+        files_found = glob.glob(os.path.join(path, "**", "*.html"), recursive=True)
+        print(f"  Found {len(files_found)} HTML files in this path (recursive)")
         for i, filepath in enumerate(files_found):
             filename_no_ext = os.path.splitext(os.path.basename(filepath))[0]
             if i < 5: # Print first 5 for verification

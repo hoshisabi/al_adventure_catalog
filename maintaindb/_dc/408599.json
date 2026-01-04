@@ -12,9 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "408599",
+    "season": null,
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "The Dark Thread",
-    "url": "https://www.dmsguild.com/product/408599/The-Dark-Thread?filters=45470_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408599/The-Dark-Thread?filters=45470_0_0_0_0_0"
 }
