@@ -13,6 +13,7 @@
     "is_adventure": true,
     "level_range": "5-10",
     "needs_review": false,
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "535283",
     "season": null,
