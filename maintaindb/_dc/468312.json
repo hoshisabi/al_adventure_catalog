@@ -11,9 +11,12 @@
     "full_title": "FR-DC-AEG-07 The Missing Adventurers",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.49,
     "product_id": "468312",
+    "season": null,
     "tiers": 2,
     "title": "The Missing Adventurers",
-    "url": "https://www.dmsguild.com/product/468312/FRDCAEG07-The-Missing-Adventurers?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/468312/?affiliate_id=171040"
 }

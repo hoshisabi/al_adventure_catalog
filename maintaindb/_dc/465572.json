@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-CJK02 The Tavern at the End of the Wildspace",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "465572",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Tavern at the End of the Wildspace",
-    "url": "https://www.dmsguild.com/product/465572/SJDCCJK02-The-Tavern-at-the-End-of-the-Wildspace?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465572/?affiliate_id=171040"
 }

@@ -11,9 +11,12 @@
     "full_title": "FR-DC-AEG-09 What's in the Box?",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.49,
     "product_id": "470654",
+    "season": null,
     "tiers": 2,
     "title": "What's in the Box?",
-    "url": "https://www.dmsguild.com/product/470654/FRDCAEG09-Whats-in-the-Box?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/470654/?affiliate_id=171040"
 }

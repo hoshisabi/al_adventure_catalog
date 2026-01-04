@@ -11,9 +11,12 @@
     "full_title": "FR-DC-AEG-10 The Ritual",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "471198",
+    "season": null,
     "tiers": 3,
     "title": "The Ritual",
-    "url": "https://www.dmsguild.com/product/471198/FRDCAEG10-The-Ritual?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/471198/?affiliate_id=171040"
 }

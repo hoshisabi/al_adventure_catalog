@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-ZODIAC-14-03 Herald of War",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "465580",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Herald of War",
-    "url": "https://www.dmsguild.com/product/465580/SJDCZODIAC1403-Herald-of-War?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465580/?affiliate_id=171040"
 }
