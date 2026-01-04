@@ -14,11 +14,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "451697",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Playing the Odds",
-    "url": "https://www.dmsguild.com/product/451697/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/451697/?affiliate_id=171040"
 }

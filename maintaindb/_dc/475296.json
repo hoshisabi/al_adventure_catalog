@@ -11,8 +11,11 @@
     "full_title": "FR-DC-PANDORA-JWEI-12, Pandora",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "475296",
+    "season": null,
     "tiers": 3,
     "title": "Pandora",
     "url": "https://www.dmsguild.com/product/475296/FRDCPANDORAJWEI12-Pandora?filters=0_0_100057_0_0_0_0_0"

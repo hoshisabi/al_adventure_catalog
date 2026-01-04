@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-OLD-ONE Broken Pact",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "464289",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Broken Pact",
-    "url": "https://www.dmsguild.com/product/464289/SJDCOLDONE-Broken-Pact?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/464289/SJDCOLDONE-Broken-Pact?filters=0_0_100057_0_0_0_0_0"
 }

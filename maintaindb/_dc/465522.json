@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 13,
     "authors": [
         "Bryan Mets"
     ],
@@ -11,10 +11,13 @@
     "full_title": "The Cods Must Be Crazy (SJ-DC-COD)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "465522",
+    "season": null,
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "The Cods Must Be Crazy",
-    "url": "https://www.dmsguild.com/product/465522/The-Cods-Must-Be-Crazy-SJDCCOD?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465522/The-Cods-Must-Be-Crazy-SJDCCOD?filters=0_0_100057_0_0_0_0_0"
 }
