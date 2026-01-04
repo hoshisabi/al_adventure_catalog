@@ -56,8 +56,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": 3,
+        "payWhatYouWant": false,
         "price": 9.99,
         "product_id": "370754",
+        "season": "Ravenloft Mist Hunters",
         "tiers": 1,
         "title": "RMH-02 Back to the Front",
         "url": "https://www.dmsguild.com/product/370754/?affiliate_id=171040"
@@ -297,7 +299,7 @@
         "payWhatYouWant": false,
         "price": 14.99,
         "product_id": "390632",
-        "season": null,
+        "season": "Ravenloft Mist Hunters",
         "tiers": 2,
         "title": "RMH-EP-02 A Darklord's Denouement",
         "url": "https://www.dmsguild.com/product/390632/?affiliate_id=171040"
