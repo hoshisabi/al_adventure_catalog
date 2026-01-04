@@ -11,10 +11,13 @@
     "full_title": "WBW-DC-CONMAR-04 A pleasure cruise",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "378998",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "A pleasure cruise",
-    "url": "https://www.dmsguild.com/product/378998/WBWDCCONMAR04-A-pleasure-cruise?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/378998/WBWDCCONMAR04-A-pleasure-cruise?filters=0_0_100057_0_0_0_0_0"
 }

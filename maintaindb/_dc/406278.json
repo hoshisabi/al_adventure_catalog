@@ -9,14 +9,15 @@
     "code": "WBW-DC-EBAL-MEF1",
     "date_created": "20220812",
     "full_title": "WBW-DC-EBAL-MEF1 Misty Edge Falls",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "406278",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Misty Edge Falls",
-    "url": "https://www.dmsguild.com/product/406278/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/406278/?affiliate_id=171040"
 }
