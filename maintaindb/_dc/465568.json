@@ -12,10 +12,13 @@
     "full_title": "SJ-DC-RFJK-02-01 Rrakkma Recruitment",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "465568",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Rrakkma Recruitment",
-    "url": "https://www.dmsguild.com/product/465568/SJDCRFJK0201-Rrakkma-Recruitment?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465568/?affiliate_id=171040"
 }

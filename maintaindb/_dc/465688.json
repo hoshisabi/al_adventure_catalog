@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-TRIDEN-TFC The Final Countdown",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "465688",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "The Final Countdown",
-    "url": "https://www.dmsguild.com/product/465688/SJDCTRIDENTFC-The-Final-Countdown?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465688/?affiliate_id=171040"
 }

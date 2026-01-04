@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-EPOCH-04",
-    "date_created": "20231231",
+    "date_created": "20240101",
     "full_title": "SJ-DC-EPOCH-04 Across the Heavens",
-    "hours": 2,
+    "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 1.0,
     "product_id": "465730",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 1.0,
     "tiers": 2,
     "title": "Across the Heavens",
-    "url": "https://www.dmsguild.com/product/465730/SJDCEPOCH04-Across-the-Heavens?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465730/?affiliate_id=171040"
 }
