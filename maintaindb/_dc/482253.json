@@ -1,7 +1,8 @@
 {
     "apl": 18,
     "authors": [
-        "Nguyen Le"
+        "Nguyen Le",
+        "Strategicon AL"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -11,9 +12,12 @@
     "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "17-20",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "482253",
+    "season": "Planescape",
     "tiers": 4,
     "title": "Return of the Dragon",
-    "url": "https://www.dmsguild.com/product/482253/PSDCSTRATUNDEAD05-Return-of-the-Dragon?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/482253/?affiliate_id=171040"
 }

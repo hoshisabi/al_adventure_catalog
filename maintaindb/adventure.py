@@ -826,6 +826,40 @@ def _extract_jsonld_price(parsed_html):
     return None
 
 
+def _extract_seed_from_text(text):
+    """
+    Extract seed name from adventure description text.
+    Looks for patterns like "Seed used: [name]" or "Seed: [name]"
+    
+    Args:
+        text: Combined text from HTML description
+        
+    Returns:
+        Seed name string or None if not found
+    """
+    if not text:
+        return None
+    
+    # Pattern 1: "Seed used: [name]" or "Seed: [name]"
+    # The seed name is typically followed by "Content Warnings:" or end of line
+    patterns = [
+        r'[Ss]eed\s+(?:used\s*:)?\s*([^\.\n]+?)(?:Content\s+Warnings|$)',
+        r'[Ss]eed\s*:\s*([^\.\n]+?)(?:Content\s+Warnings|$)',
+    ]
+    
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            seed = match.group(1).strip()
+            # Clean up common artifacts
+            seed = re.sub(r'^used\s*:\s*', '', seed, flags=re.IGNORECASE)
+            seed = seed.strip()
+            if seed:
+                return seed
+    
+    return None
+
+
 def _extract_pwyw_info_from_html(parsed_html):
     """
     Extract Pay What You Want (PWYW) information from HTML.
@@ -1017,6 +1051,9 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     pwyw_info = _extract_pwyw_info_from_html(parsed_html)
     raw_data["pwyw_flag_raw"] = pwyw_info["pwyw_flag_raw"]
     raw_data["suggested_price_raw"] = pwyw_info["suggested_price_raw"]
+    
+    # Extract seed information
+    raw_data["seed_raw"] = _extract_seed_from_text(combined_text)
 
     return raw_data
 
@@ -1057,7 +1094,9 @@ def _normalize_and_convert_data(raw_data):
         "price": raw_data["price_raw"],
         # New normalized fields for Pay What You Want
         "payWhatYouWant": bool(raw_data.get("pwyw_flag_raw", False)),
-        "suggestedPrice": raw_data.get("suggested_price_raw")
+        "suggestedPrice": raw_data.get("suggested_price_raw"),
+        # Seed field (only for POA, WBW, SJ campaigns)
+        "seed": raw_data.get("seed_raw")
     }
     
     # If suggestedPrice is found but PWYW flag wasn't set, infer that it's PWYW

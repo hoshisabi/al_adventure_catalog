@@ -12,10 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "408590",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Party Time!",
     "tiers": 1,
     "title": "The Party that Split",
-    "url": "https://www.dmsguild.com/product/408590/?affiliate_id=171040",
-    "seed": "Party Time!"
+    "url": "https://www.dmsguild.com/product/408590/?affiliate_id=171040"
 }
