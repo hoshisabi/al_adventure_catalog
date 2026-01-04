@@ -33,8 +33,10 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 8.0,
         "product_id": "445922",
+        "season": null,
         "tiers": 1,
         "title": "Greenshield",
         "url": "https://www.dmsguild.com/product/445922/?affiliate_id=171040"

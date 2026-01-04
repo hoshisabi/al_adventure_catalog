@@ -8,17 +8,17 @@
     },
     "duration": {
         "1 Hours": 23,
-        "2 Hours": 606,
-        "All Others": 211,
-        "4 Hours": 1438,
+        "2 Hours": 608,
+        "All Others": 213,
+        "4 Hours": 1441,
         "8 Hours": 11,
         "6 Hours": 50,
-        "Unknown": 92
+        "Unknown": 87
     },
     "campaign": {
-        "Forgotten Realms": 1944,
+        "Forgotten Realms": 1945,
         "Ravenloft": 50,
-        "Unknown": 18,
+        "Unknown": 17,
         "Eberron": 68,
         "Dragonlance": 20
     },
@@ -27,7 +27,7 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1393,
+        "Unknown": 1357,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 25,
@@ -35,9 +35,11 @@
         "Avernus Rising": 20,
         "Plague of Ancients": 19,
         "Icewind Dale": 137,
-        "The Wild Beyond the Witchlight": 153,
-        "Spelljammer": 138,
-        "Planescape": 95
+        "Ravenloft Mist Hunters": 2,
+        "The Wild Beyond the Witchlight": 168,
+        "Spelljammer": 154,
+        "Planescape": 96,
+        "Ravenloft Dungeoncraft": 2
     },
     "seed_by_season": {
         "Plague of Ancients (DC-POA)": {
