@@ -11,9 +11,12 @@
     "full_title": "FR-DC-LGBTQ-01 Pride for Phlan",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "484003",
+    "season": null,
     "tiers": 3,
     "title": "Pride for Phlan",
-    "url": "https://www.dmsguild.com/product/484003/FRDCLGBTQ01-Pride-for-Phlan?filters=45470_0_0_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/484003/?affiliate_id=171040"
 }
