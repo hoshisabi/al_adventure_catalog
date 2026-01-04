@@ -13,10 +13,15 @@ def find_missing_html():
     html_files = set()
     print("--- Loading HTML files ---")
     for path in [dmsguildinfo_path, processed_path]:
-        for i, filepath in enumerate(glob.glob(os.path.join(path, "*.html"))):
+        path_exists = os.path.exists(path)
+        print(f"Checking path: {path} (exists: {path_exists})")
+        # Search recursively for HTML files
+        files_found = glob.glob(os.path.join(path, "**", "*.html"))
+        print(f"  Found {len(files_found)} HTML files in this path")
+        for i, filepath in enumerate(files_found):
             filename_no_ext = os.path.splitext(os.path.basename(filepath))[0]
             if i < 5: # Print first 5 for verification
-                print(f"Loaded HTML file: {filename_no_ext}")
+                print(f"  Loaded HTML file: {filename_no_ext}")
             html_files.add(filename_no_ext)
     print(f"--- Loaded {len(html_files)} total HTML files ---")
 

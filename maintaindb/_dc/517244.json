@@ -6,12 +6,13 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "FR-DC-SSG-FAI-01-",
+    "code": "FR-DC-SSG-FAI-01",
     "date_created": "20250401",
     "full_title": "FR-DC-SSG-FAI-01: The Secret in Sanctuary",
     "hours": "3",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "517244",
     "season": null,

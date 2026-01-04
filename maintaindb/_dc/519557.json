@@ -12,8 +12,10 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
-    "price": 19.96,
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "519557",
+    "season": null,
     "tiers": 1,
     "title": "Tavern Rats",
     "url": "https://www.dmsguild.com/product/519557/?affiliate_id=171040"

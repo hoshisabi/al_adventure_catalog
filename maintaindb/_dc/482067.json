@@ -11,9 +11,12 @@
     "full_title": "PS-DC-BINGO-1 Lorem Ipsum",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.0,
     "product_id": "482067",
+    "season": "Planescape",
     "tiers": 2,
     "title": "Lorem Ipsum",
-    "url": "https://www.dmsguild.com/product/482067/PSDCBINGO1-Lorem-Ipsum?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/482067/?affiliate_id=171040"
 }
