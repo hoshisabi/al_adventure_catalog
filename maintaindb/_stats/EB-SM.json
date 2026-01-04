@@ -350,9 +350,11 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": true,
         "price": 0.5,
         "product_id": "332476",
         "season": null,
+        "suggestedPrice": 0.5,
         "tiers": 1,
         "title": "Wrongs and Punishment An Eberron Salvage Mission",
         "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"

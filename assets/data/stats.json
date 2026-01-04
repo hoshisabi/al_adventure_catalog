@@ -1,14 +1,14 @@
 {
     "tier": {
-        "Tier 1": 816,
+        "Tier 1": 814,
         "Tier 2": 842,
         "Tier 3": 334,
         "Tier 4": 84,
         "Unknown": 11
     },
     "duration": {
-        "1 Hours": 24,
-        "2 Hours": 607,
+        "1 Hours": 23,
+        "2 Hours": 606,
         "All Others": 211,
         "4 Hours": 1438,
         "8 Hours": 11,
@@ -16,7 +16,7 @@
         "Unknown": 92
     },
     "campaign": {
-        "Forgotten Realms": 1946,
+        "Forgotten Realms": 1944,
         "Ravenloft": 50,
         "Unknown": 18,
         "Eberron": 68,
@@ -27,17 +27,17 @@
         "Elemental Evil": 16,
         "Rage of Demons": 18,
         "Curse of Strahd": 14,
-        "Unknown": 1426,
+        "Unknown": 1393,
         "Storm King's Thunder": 20,
         "Tales From the Yawning Portal": 3,
         "Tomb of Annihilation": 25,
-        "Waterdeep": 19,
+        "Waterdeep": 20,
         "Avernus Rising": 20,
-        "Plague of Ancients": 13,
-        "Icewind Dale": 143,
-        "The Wild Beyond the Witchlight": 147,
-        "Spelljammer": 119,
-        "Planescape": 90
+        "Plague of Ancients": 19,
+        "Icewind Dale": 137,
+        "The Wild Beyond the Witchlight": 153,
+        "Spelljammer": 138,
+        "Planescape": 95
     },
     "seed_by_season": {
         "Plague of Ancients (DC-POA)": {
@@ -84,10 +84,10 @@
             "Wild Hunt": 1
         },
         "Spelljammer (SJ-DC)": {
-            "Create a Location in Wildspace": 302,
+            "Create a Location in Wildspace": 299,
             "St. Argol's Fire": 3,
-            "Unexpected Passenger": 1,
-            "Headed My Way?": 1
+            "Unexpected Passenger": 2,
+            "Headed My Way?": 2
         }
     }
 }
