@@ -323,11 +323,14 @@
         "full_title": "FR-DC-AEG-07 The Missing Adventurers",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.49,
         "product_id": "468312",
+        "season": null,
         "tiers": 2,
         "title": "The Missing Adventurers",
-        "url": "https://www.dmsguild.com/product/468312/FRDCAEG07-The-Missing-Adventurers?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/468312/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -342,11 +345,14 @@
         "full_title": "FR-DC-AEG-08 The Lost Artifact",
         "hours": "",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.49,
         "product_id": "468948",
+        "season": null,
         "tiers": 2,
         "title": "The Lost Artifact",
-        "url": "https://www.dmsguild.com/product/468948/FRDCAEG08-The-Lost-Artifact?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/468948/?affiliate_id=171040"
     },
     {
         "apl": 9,
@@ -361,11 +367,14 @@
         "full_title": "FR-DC-AEG-09 What's in the Box?",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.49,
         "product_id": "470654",
+        "season": null,
         "tiers": 2,
         "title": "What's in the Box?",
-        "url": "https://www.dmsguild.com/product/470654/FRDCAEG09-Whats-in-the-Box?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/470654/?affiliate_id=171040"
     },
     {
         "apl": 12,
@@ -380,11 +389,14 @@
         "full_title": "FR-DC-AEG-10 The Ritual",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "471198",
+        "season": null,
         "tiers": 3,
         "title": "The Ritual",
-        "url": "https://www.dmsguild.com/product/471198/FRDCAEG10-The-Ritual?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/471198/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1035,11 +1047,14 @@
         "full_title": "FR-DC-BMK-02 Phandelver and the Blood Moon Crypts",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "483900",
+        "season": null,
         "tiers": 2,
         "title": "Phandelver and the Blood Moon Crypts",
-        "url": "https://www.dmsguild.com/product/483900/FRDCBMK02-Phandelver-and-the-Blood-Moon-Crypts?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/483900/?affiliate_id=171040"
     },
     {
         "apl": 15,
@@ -1054,11 +1069,14 @@
         "full_title": "FR-DC-LGBTQ-01 Pride for Phlan",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "11-16",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "484003",
+        "season": null,
         "tiers": 3,
         "title": "Pride for Phlan",
-        "url": "https://www.dmsguild.com/product/484003/FRDCLGBTQ01-Pride-for-Phlan?filters=45470_0_0_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/484003/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1091,15 +1109,18 @@
             "Forgotten Realms"
         ],
         "code": "FR-DC-MELB-01-02",
-        "date_created": "20240611",
+        "date_created": "20240612",
         "full_title": "The Broken Stronghold (FR-DC-MELB-01-02)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "484393",
+        "season": null,
         "tiers": 2,
         "title": "The Broken Stronghold",
-        "url": "https://www.dmsguild.com/product/484393/The-Broken-Stronghold-FRDCMELB0102?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/484393/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1114,11 +1135,14 @@
         "full_title": "Signs of Corruption (FR-DC-MELB-01-03)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "484589",
+        "season": null,
         "tiers": 2,
         "title": "Signs of Corruption",
-        "url": "https://www.dmsguild.com/product/484589/Signs-of-Corruption-FRDCMELB0103?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/484589/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -1245,6 +1269,7 @@
         "hours": "2-4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "486042",
         "season": null,
@@ -1310,9 +1335,11 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": true,
         "price": 1.0,
         "product_id": "488443",
         "season": null,
+        "suggestedPrice": 1.0,
         "tiers": 3,
         "title": "Darkhouse, Deliverance",
         "url": "https://www.dmsguild.com/product/488443/?affiliate_id=171040"
@@ -1818,6 +1845,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 3.49,
         "product_id": "497270",
         "season": null,
@@ -1861,7 +1889,8 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "497476",
         "season": null,
         "tiers": 1,
@@ -2919,6 +2948,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "515378",
         "season": null,
@@ -2941,6 +2971,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "515379",
         "season": null,
@@ -2963,6 +2994,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "515381",
         "season": null,
@@ -2985,6 +3017,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "515382",
         "season": null,
@@ -3007,6 +3040,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "515383",
         "season": null,
@@ -3029,6 +3063,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "515385",
         "season": null,
@@ -3050,6 +3085,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "515929",
         "season": null,
@@ -3071,6 +3107,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "515932",
         "season": null,
@@ -3092,6 +3129,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "515935",
         "season": null,
@@ -3114,6 +3152,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "515936",
         "season": null,
@@ -3262,12 +3301,13 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-SSG-FAI-01-",
+        "code": "FR-DC-SSG-FAI-01",
         "date_created": "20250401",
         "full_title": "FR-DC-SSG-FAI-01: The Secret in Sanctuary",
         "hours": "3",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "517244",
         "season": null,
@@ -3285,7 +3325,7 @@
         ],
         "code": "FR-DC-SAERLOON-05",
         "date_created": "20250406",
-        "full_title": "FR-DC-Saerloon-05 That's a lot of Flambe",
+        "full_title": "FR-DC-Saerloon-05 That’s a lot of Flambe",
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
@@ -3295,7 +3335,7 @@
         "season": null,
         "suggestedPrice": 1.0,
         "tiers": 1,
-        "title": "That's a lot of Flambe",
+        "title": "That’s a lot of Flambe",
         "url": "https://www.dmsguild.com/product/517839/?affiliate_id=171040"
     },
     {
@@ -3308,13 +3348,15 @@
         ],
         "code": "FR-DC-SAERLOON-06",
         "date_created": "20250420",
-        "full_title": "FR-DC-Saerloon-06 The Tremblers",
+        "full_title": "FR-DC-Saerloon-06 The Tremblers v1.0",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
         "price": 1.0,
         "product_id": "519418",
         "season": null,
+        "suggestedPrice": 1.0,
         "tiers": 2,
         "title": "The Tremblers",
         "url": "https://www.dmsguild.com/product/519418/?affiliate_id=171040"
@@ -3421,6 +3463,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "520855",
         "season": null,
@@ -3443,6 +3486,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "521237",
         "season": null,
@@ -3509,8 +3553,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "521913",
+        "season": null,
         "tiers": 1,
         "title": "Darkest Dairy",
         "url": "https://www.dmsguild.com/product/521913/?affiliate_id=171040"
@@ -3529,7 +3575,8 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
-        "price": 0,
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "522751",
         "season": null,
         "tiers": 1,
@@ -3572,7 +3619,8 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "523867",
         "season": null,
         "tiers": 2,
@@ -3704,6 +3752,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 2.99,
         "product_id": "524677",
         "season": null,
@@ -3770,6 +3819,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-2",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "525512",
         "season": null,
@@ -3791,8 +3841,11 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
         "price": 1.0,
         "product_id": "525565",
+        "season": null,
+        "suggestedPrice": 1.0,
         "tiers": 2,
         "title": "Saberwing",
         "url": "https://www.dmsguild.com/product/525565/?affiliate_id=171040"
@@ -3811,6 +3864,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "526383",
         "season": null,
@@ -3820,7 +3874,10 @@
     },
     {
         "apl": 8,
-        "authors": [],
+        "authors": [
+            "Brendon Watson",
+            "Mitch Gatt"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -3830,11 +3887,13 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "526429",
+        "season": null,
         "tiers": 2,
         "title": "Brine and Bone",
-        "url": "https://www.dmsguild.com/product/526429/Brine-and-Bone-FRDCMELB0202?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526429/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3851,12 +3910,13 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "526528",
         "season": null,
         "tiers": 2,
         "title": "The Turning Tide",
-        "url": "https://www.dmsguild.com/product/526528/The-Turning-Tide-FRDCMELB0203?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526528/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3874,12 +3934,13 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 5.99,
         "product_id": "526741",
         "season": null,
         "tiers": 2,
         "title": "On Fey Tides",
-        "url": "https://www.dmsguild.com/product/526741/FRDCSTRATTALES02-On-Fey-Tides?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526741/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -3897,12 +3958,13 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 5.99,
         "product_id": "526743",
         "season": null,
         "tiers": 2,
         "title": "What Big Teeth",
-        "url": "https://www.dmsguild.com/product/526743/FRDCSTRATTALES01-What-Big-Teeth?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526743/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3920,12 +3982,13 @@
         "is_adventure": true,
         "level_range": "11-16",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 5.99,
         "product_id": "526746",
         "season": null,
         "tiers": 3,
         "title": "The Beast Within",
-        "url": "https://www.dmsguild.com/product/526746/FRDCSTRATTALES03-The-Beast-Within?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526746/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3943,12 +4006,13 @@
         "is_adventure": true,
         "level_range": "11-16",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 5.99,
         "product_id": "526748",
         "season": null,
         "tiers": 3,
         "title": "The Baroness and the Hag",
-        "url": "https://www.dmsguild.com/product/526748/FRDCSTRATTALES04-The-Baroness-and-the-Hag?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/526748/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -3959,18 +4023,20 @@
             "Forgotten Realms"
         ],
         "code": "FR-DC-FRI-13",
-        "date_created": "20250621",
+        "date_created": "20250622",
         "full_title": "FR-DC-FRI-13 Flamerule the 13th",
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
         "needs_review": false,
+        "payWhatYouWant": true,
         "price": 1.0,
         "product_id": "527132",
         "season": null,
+        "suggestedPrice": 1.0,
         "tiers": 1,
         "title": "Flamerule the 13th",
-        "url": "https://www.dmsguild.com/product/527132/FRDCFRI13-Flamerule-the-13th?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527132/?affiliate_id=171040"
     },
     {
         "apl": 13,
@@ -3986,6 +4052,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "527475",
         "season": null,
@@ -4008,6 +4075,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "527493",
         "season": null,
@@ -4024,18 +4092,19 @@
             "Forgotten Realms"
         ],
         "code": "FR-DC-MCG-CH1",
-        "date_created": "20250625",
+        "date_created": "20250626",
         "full_title": "FR-DC-MCG-CH1 The Open Hand",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 2.5,
         "product_id": "527653",
         "season": null,
         "tiers": 2,
         "title": "The Open Hand",
-        "url": "https://www.dmsguild.com/product/527653/FRDCMCGCH1-The-Open-Hand?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527653/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4052,12 +4121,13 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "527701",
         "season": null,
         "tiers": 2,
         "title": "Phantom's Lament",
-        "url": "https://www.dmsguild.com/product/527701/FRDCAKU01-Phantoms-Lament?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/527701/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4074,6 +4144,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "528046",
         "season": null,
@@ -4083,7 +4154,9 @@
     },
     {
         "apl": 3,
-        "authors": [],
+        "authors": [
+            "Ting Yuen Tjiong"
+        ],
         "campaigns": [
             "Forgotten Realms"
         ],
@@ -4093,13 +4166,13 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
-        "needs_review": false,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "528426",
         "season": null,
         "tiers": 1,
         "title": "Water has no Shape",
-        "url": "https://www.dmsguild.com/product/528426/FRDCTT101-Water-has-no-Shape?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "url": "https://www.dmsguild.com/product/528426/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -4131,19 +4204,20 @@
         "campaigns": [
             "Forgotten Realms"
         ],
-        "code": "FR-DC-FET02_VATRAS",
+        "code": "FR-DC-FET02",
         "date_created": "20250705",
-        "full_title": "FR-DC-FET02_Vatras Abyss",
+        "full_title": "FR-DC-FET02 Vatras Abyss",
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "528753",
         "season": null,
         "tiers": 2,
-        "title": "Abyss",
-        "url": "https://www.dmsguild.com/product/528753/FRDCFET02Vatras-Abyss?affiliate_id=171040&filters=45470_0_0_0_0_0_0_0_0"
+        "title": "Vatras Abyss",
+        "url": "https://www.dmsguild.com/product/528753/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4159,6 +4233,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 1.0,
         "product_id": "529395",
         "season": null,
@@ -4202,6 +4277,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "530068",
         "season": null,
@@ -4223,6 +4299,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "530582",
         "season": null,
@@ -4244,6 +4321,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "530589",
         "season": null,
@@ -4265,6 +4343,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "17-20",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "530595",
         "season": null,
@@ -4286,6 +4365,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 2.5,
         "product_id": "531330",
         "season": null,
@@ -4307,6 +4387,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "531524",
         "season": null,
@@ -4349,6 +4430,7 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 1.99,
         "product_id": "532997",
         "season": null,
@@ -4392,6 +4474,7 @@
         "hours": "1",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 0.0,
         "product_id": "533613",
         "season": null,
@@ -4414,6 +4497,7 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "534206",
         "season": null,
@@ -4436,6 +4520,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 3.99,
         "product_id": "534978",
         "season": null,
@@ -4479,6 +4564,7 @@
         "is_adventure": true,
         "level_range": "5-10",
         "needs_review": false,
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "535283",
         "season": null,
@@ -4958,28 +5044,6 @@
         "season": null,
         "tiers": 1,
         "title": "Beneath the Burl",
-        "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
-    },
-    {
-        "apl": 3,
-        "authors": [
-            "Bryan Mets",
-            "Daniel Chapman"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "FR-DC-UCON25",
-        "date_created": null,
-        "full_title": "FR-DC-UCON25 Welcome to Basht Series",
-        "hours": "1",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "price": 4.99,
-        "product_id": "545950",
-        "season": null,
-        "tiers": 1,
-        "title": "Welcome to Basht Series",
         "url": "https://www.dmsguild.com/product/545950/?affiliate_id=171040"
     },
     {

@@ -223,8 +223,10 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "1-4",
-        "price": 19.96,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "519557",
+        "season": null,
         "tiers": 1,
         "title": "Tavern Rats",
         "url": "https://www.dmsguild.com/product/519557/?affiliate_id=171040"
@@ -238,13 +240,15 @@
             "Dragonlance"
         ],
         "code": "DL-DC-SF-02",
-        "date_created": "20250518",
+        "date_created": "20250519",
         "full_title": "DL-DC-SF-02 Wulfgar's Champion",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
+        "payWhatYouWant": false,
         "price": 9.99,
         "product_id": "522732",
+        "season": null,
         "tiers": 3,
         "title": "Wulfgar's Champion",
         "url": "https://www.dmsguild.com/product/522732/?affiliate_id=171040"
