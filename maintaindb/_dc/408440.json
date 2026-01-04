@@ -12,9 +12,13 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 3.33,
     "product_id": "408440",
+    "season": null,
+    "seed": "Create a Domain of Delight",
+    "suggestedPrice": 3.33,
     "tiers": 2,
     "title": "One Last Time",
-    "url": "https://www.dmsguild.com/product/408440/One-Last-Time?filters=45470_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408440/?affiliate_id=171040"
 }
