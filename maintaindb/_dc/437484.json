@@ -11,10 +11,13 @@
     "full_title": "The Borkfather (SJ-DC-PHP-BORK)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "437484",
+    "season": null,
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Borkfather",
-    "url": "https://www.dmsguild.com/product/437484/The-Borkfather-SJDCPHPBORK?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/437484/?affiliate_id=171040"
 }
