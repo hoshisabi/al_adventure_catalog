@@ -964,11 +964,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.98,
         "product_id": "385498",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "The Hat That Spat Rats",
-        "url": "https://www.dmsguild.com/product/385498/The-Hat-That-Spat-Rats-WBWDCLSN01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/385498/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -984,11 +987,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.98,
         "product_id": "385499",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "The Party in a Box",
-        "url": "https://www.dmsguild.com/product/385499/The-Party-in-a-Box-WBWDCLSN02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/385499/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -2873,8 +2879,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "406494",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Kobold King's Labyrinth",
@@ -3564,11 +3572,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408193",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "Hope In A Medusa’s Eye",
-        "url": "https://www.dmsguild.com/product/408193/WBWDCROG03-Hope-In-A-Medusas-Eye?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Hope In A Medusa's Eye",
+        "url": "https://www.dmsguild.com/product/408193/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -4233,11 +4244,15 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 3.33,
         "product_id": "408440",
+        "season": null,
         "seed": "Create a Domain of Delight",
+        "suggestedPrice": 3.33,
         "tiers": 2,
         "title": "One Last Time",
-        "url": "https://www.dmsguild.com/product/408440/One-Last-Time?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408440/?affiliate_id=171040"
     },
     {
         "apl": 8,

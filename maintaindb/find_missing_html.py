@@ -53,11 +53,19 @@ def find_missing_html():
     missing_count = 0
     non_numeric_product_ids = []
     for file_path in json_files:
+        filename = os.path.basename(file_path)
         with open(file_path, 'r', encoding='utf-8') as f:
             try:
                 data = json.load(f)
                 if data.get("is_adventure") == True:
                     product_id = data.get("product_id")
+                    
+                    # If product_id is missing from JSON, use filename as fallback
+                    if product_id is None:
+                        # Extract numeric part from filename (e.g., "230970.json" -> "230970")
+                        filename_no_ext = os.path.splitext(filename)[0]
+                        product_id = filename_no_ext
+
                     # Check if product_id is numeric (either int or numeric string)
                     is_numeric = False
                     numeric_product_id = None
@@ -66,9 +74,14 @@ def find_missing_html():
                         if isinstance(product_id, int):
                             is_numeric = True
                             numeric_product_id = product_id
-                        elif isinstance(product_id, str) and product_id.isdigit():
-                            is_numeric = True
-                            numeric_product_id = int(product_id)
+                        elif isinstance(product_id, str):
+                            # Handle product IDs with non-numeric suffixes (e.g., "200609-2" or "200609_2")
+                            # We want to extract the first continuous numeric part
+                            import re
+                            match = re.search(r'(\d+)', product_id)
+                            if match:
+                                is_numeric = True
+                                numeric_product_id = int(match.group(1))
                     
                     if is_numeric and numeric_product_id is not None:
                         html_filename = f"dmsguildinfo-{numeric_product_id}"

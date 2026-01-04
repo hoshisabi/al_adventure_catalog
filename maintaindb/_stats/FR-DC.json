@@ -772,11 +772,14 @@
         "full_title": "Kobolds Are The Worst Guests! (FR-DC-TGT-01)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "477025",
+        "season": null,
         "tiers": 1,
         "title": "Kobolds Are The Worst Guests!",
-        "url": "https://www.dmsguild.com/product/477025/Kobolds-Are-The-Worst-Guests-FRDCTGT01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/477025/?affiliate_id=171040"
     },
     {
         "apl": 1,

@@ -4187,12 +4187,13 @@
             "Forgotten Realms"
         ],
         "code": "CCC-BMG-23",
-        "date_created": "20180106",
+        "date_created": "20180107",
         "full_title": "CCC-BMG-23 PHLAN 2-2 Hatemaster",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "230628",
         "season": null,
         "tiers": 3,
@@ -4208,12 +4209,13 @@
             "Forgotten Realms"
         ],
         "code": "CCC-BMG-24",
-        "date_created": "20180106",
+        "date_created": "20180107",
         "full_title": "CCC-BMG-24 PHLAN 2-3 The Royal We",
         "hours": "4",
         "is_adventure": true,
         "level_range": "11-16",
-        "price": 3.49,
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "230629",
         "season": null,
         "tiers": 3,
@@ -4280,7 +4282,7 @@
         "level_range": "1-4",
         "price": null,
         "product_id": "230970",
-        "season": null,
+        "season": "Waterdeep",
         "tiers": 1,
         "title": "Underworld Speculation",
         "url": "https://www.dmsguild.com/en/product/230970?affiliate_id=171040"
@@ -5064,8 +5066,10 @@
         "hours": "3-4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.95,
         "product_id": "240322",
+        "season": null,
         "tiers": 1,
         "title": "Rats of Waterdeep",
         "url": "https://www.dmsguild.com/product/240322/?affiliate_id=171040"
@@ -24701,11 +24705,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.98,
         "product_id": "385498",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "The Hat That Spat Rats",
-        "url": "https://www.dmsguild.com/product/385498/The-Hat-That-Spat-Rats-WBWDCLSN01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/385498/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -24721,11 +24728,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.98,
         "product_id": "385499",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "The Party in a Box",
-        "url": "https://www.dmsguild.com/product/385499/The-Party-in-a-Box-WBWDCLSN02?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/385499/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -27289,8 +27299,10 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "1-4",
+        "payWhatYouWant": false,
         "price": 4.99,
         "product_id": "406494",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 1,
         "title": "Kobold King's Labyrinth",
@@ -27980,11 +27992,14 @@
         "hours": "4",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 0.0,
         "product_id": "408193",
+        "season": "The Wild Beyond the Witchlight",
         "seed": "Create a Domain of Delight",
         "tiers": 2,
-        "title": "Hope In A Medusa’s Eye",
-        "url": "https://www.dmsguild.com/product/408193/WBWDCROG03-Hope-In-A-Medusas-Eye?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "title": "Hope In A Medusa's Eye",
+        "url": "https://www.dmsguild.com/product/408193/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -28649,11 +28664,15 @@
         "hours": "2",
         "is_adventure": true,
         "level_range": "5-10",
+        "payWhatYouWant": true,
+        "price": 3.33,
         "product_id": "408440",
+        "season": null,
         "seed": "Create a Domain of Delight",
+        "suggestedPrice": 3.33,
         "tiers": 2,
         "title": "One Last Time",
-        "url": "https://www.dmsguild.com/product/408440/One-Last-Time?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/408440/?affiliate_id=171040"
     },
     {
         "apl": 8,
@@ -29670,26 +29689,6 @@
         "url": "https://www.dmsguild.com/product/411348/SJDCFLUMPH01-Flurry-of-Flumphs?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Brian Balagot"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-SQD",
-        "date_created": "20220924",
-        "full_title": "Squidaddle! (SJ-DC-SQD)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "411384",
-        "seed": "Create a Location in Wildspace",
-        "tiers": 1,
-        "title": "Squidaddle!",
-        "url": "https://www.dmsguild.com/product/411384/Squidaddle-SJDCSQD?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 3,
         "authors": [
             "Jamie Chan"
@@ -30467,12 +30466,15 @@
         "full_title": "The Hunger (SJ-DC-BEB-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "418584",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Hunger",
-        "url": "https://www.dmsguild.com/product/418584/The-Hunger-SJDCBEB01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418584/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -31803,12 +31805,15 @@
         "full_title": "SJ-DC-NMB1-01 An Enemy",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 1.0,
         "product_id": "432159",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "An Enemy",
-        "url": "https://www.dmsguild.com/product/432159/SJDCNMB101-An-Enemy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/432159/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -32375,12 +32380,15 @@
         "full_title": "The Borkfather (SJ-DC-PHP-BORK)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "437484",
+        "season": null,
         "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Borkfather",
-        "url": "https://www.dmsguild.com/product/437484/The-Borkfather-SJDCPHPBORK?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/437484/?affiliate_id=171040"
     },
     {
         "apl": 1,
@@ -38407,11 +38415,14 @@
         "full_title": "Kobolds Are The Worst Guests! (FR-DC-TGT-01)",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "477025",
+        "season": null,
         "tiers": 1,
         "title": "Kobolds Are The Worst Guests!",
-        "url": "https://www.dmsguild.com/product/477025/Kobolds-Are-The-Worst-Guests-FRDCTGT01?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/477025/?affiliate_id=171040"
     },
     {
         "apl": 1,
