@@ -11,10 +11,14 @@
     "full_title": "WBW-DC-THAL-01 Heartfire Lost",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 2.0,
     "product_id": "385353",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
+    "suggestedPrice": 2.0,
     "tiers": 1,
     "title": "Heartfire Lost",
-    "url": "https://www.dmsguild.com/product/385353/WBWDCTHAL01-Heartfire-Lost?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/385353/WBWDCTHAL01-Heartfire-Lost?filters=0_0_100057_0_0_0_0_0"
 }
