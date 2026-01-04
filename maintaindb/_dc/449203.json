@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-DES05-02 Escape from the Demonweb Pits",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "449203",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Escape from the Demonweb Pits",
-    "url": "https://www.dmsguild.com/product/449203/SJDCDES0502-Escape-from-the-Demonweb-Pits?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/449203/SJDCDES0502-Escape-from-the-Demonweb-Pits?filters=45470_0_0_0_0_0"
 }

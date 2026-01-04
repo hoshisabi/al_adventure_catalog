@@ -11,8 +11,11 @@
     "full_title": "Sweet Dreams are Made of Peace (FR-DC-WATERDEEP-PCZ)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.5,
     "product_id": "479086",
+    "season": null,
     "tiers": 1,
     "title": "Sweet Dreams are Made of Peace",
     "url": "https://www.dmsguild.com/product/479086/Sweet-Dreams-are-Made-of-Peace-FRDCWATERDEEPPCZ?filters=0_0_100057_0_0_0_0_0"
