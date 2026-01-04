@@ -12,8 +12,10 @@
     "hours": "8-10",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "251151",
+    "season": null,
     "tiers": 3,
     "title": "Maze of Shadows",
     "url": "https://www.dmsguild.com/product/251151/?affiliate_id=171040"

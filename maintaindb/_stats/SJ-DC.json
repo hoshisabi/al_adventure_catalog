@@ -103,26 +103,6 @@
         "url": "https://www.dmsguild.com/product/411348/SJDCFLUMPH01-Flurry-of-Flumphs?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
     },
     {
-        "apl": null,
-        "authors": [
-            "Brian Balagot"
-        ],
-        "campaigns": [
-            "Forgotten Realms"
-        ],
-        "code": "SJ-DC-SQD",
-        "date_created": "20220924",
-        "full_title": "Squidaddle! (SJ-DC-SQD)",
-        "hours": "2",
-        "is_adventure": true,
-        "level_range": "1-4",
-        "product_id": "411384",
-        "seed": "Create a Location in Wildspace",
-        "tiers": 1,
-        "title": "Squidaddle!",
-        "url": "https://www.dmsguild.com/product/411384/Squidaddle-SJDCSQD?filters=45470_0_0_0_0_0&affiliate_id=171040"
-    },
-    {
         "apl": 3,
         "authors": [
             "Jamie Chan"
@@ -676,12 +656,15 @@
         "full_title": "The Hunger (SJ-DC-BEB-01)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 3.99,
         "product_id": "418584",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "The Hunger",
-        "url": "https://www.dmsguild.com/product/418584/The-Hunger-SJDCBEB01?filters=45470_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/418584/?affiliate_id=171040"
     },
     {
         "apl": 3,
@@ -1820,12 +1803,15 @@
         "full_title": "SJ-DC-NMB1-01 An Enemy",
         "hours": "2",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "5-10",
+        "payWhatYouWant": false,
+        "price": 1.0,
         "product_id": "432159",
+        "season": "Spelljammer",
         "seed": "Create a Location in Wildspace",
         "tiers": 2,
         "title": "An Enemy",
-        "url": "https://www.dmsguild.com/product/432159/SJDCNMB101-An-Enemy?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/432159/?affiliate_id=171040"
     },
     {
         "apl": null,
@@ -2172,12 +2158,15 @@
         "full_title": "The Borkfather (SJ-DC-PHP-BORK)",
         "hours": "4",
         "is_adventure": true,
-        "level_range": null,
+        "level_range": "1-4",
+        "payWhatYouWant": false,
+        "price": 4.99,
         "product_id": "437484",
+        "season": null,
         "seed": "Create a Location in Wildspace",
         "tiers": 1,
         "title": "The Borkfather",
-        "url": "https://www.dmsguild.com/product/437484/The-Borkfather-SJDCPHPBORK?filters=0_0_100057_0_0_0_0_0&affiliate_id=171040"
+        "url": "https://www.dmsguild.com/product/437484/?affiliate_id=171040"
     },
     {
         "apl": 13,
