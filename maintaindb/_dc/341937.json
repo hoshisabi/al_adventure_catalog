@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": null,
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "341937",
     "season": "Icewind Dale",
+    "seed": "Breaking Ice-olation",
     "tiers": 1,
     "title": "Tomb of the Banished Thane",
-    "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040",
-    "seed": "Breaking Ice-olation"
+    "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
 }
