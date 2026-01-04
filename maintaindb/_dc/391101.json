@@ -11,10 +11,13 @@
     "full_title": "WBW-DC-GC14-02 Soul of The Forest",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.0,
     "product_id": "391101",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Soul of The Forest",
-    "url": "https://www.dmsguild.com/product/391101/WBWDCGC1402-Soul-of-The-Forest?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/391101/WBWDCGC1402-Soul-of-The-Forest?filters=0_0_100057_0_0_0_0_0"
 }

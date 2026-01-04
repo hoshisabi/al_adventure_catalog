@@ -11,10 +11,13 @@
     "full_title": "Club Diamond (SJ-DC-LEGIT-SB-02)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "415683",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Club Diamond",
-    "url": "https://www.dmsguild.com/product/415683/Club-Diamond-SJDCLEGITSB02?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/415683/Club-Diamond-SJDCLEGITSB02?filters=0_0_100057_0_0_0_0_0"
 }

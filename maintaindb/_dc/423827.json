@@ -11,10 +11,13 @@
     "full_title": "The Horror in Darkfall SJ-DC-THID-MB04",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "423827",
+    "season": null,
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Horror in Darkfall",
-    "url": "https://www.dmsguild.com/product/423827/The-Horror-in-Darkfall-SJDCTHIDMB04?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/423827/The-Horror-in-Darkfall-SJDCTHIDMB04?filters=45470_0_0_0_0_0"
 }
