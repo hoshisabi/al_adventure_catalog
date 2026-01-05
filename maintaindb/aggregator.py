@@ -144,15 +144,63 @@ def aggregate():
         logger.info(f'  {dc_season} :: {len(dc_list)} DCs')
 
     logger.info("------")
-    logger.info(f'Writting aggregated data at: {output_path}')
-    for dc_season, dc_list in aggregated_by_dc_code.items():
-        output_full_path = f"{str(output_path)}/{dc_season}.json"
-        with open(output_full_path, 'w', encoding='utf-8') as f:
-            json.dump(dc_list, f, indent=4, sort_keys=True, ensure_ascii=False)
+    # Use ASSETS_DATA_DIR from paths.py if available, otherwise assume assets/data relative to root or use STATS_DIR logic
+    # The user asked to move them to the data folder. In paths.py, ASSETS_DATA_DIR = PROJECT_ROOT / 'assets' / 'data'
+    # We will use the existing output_path variable but point it to assets/data if we can resolve it, 
+    # but strictly speaking output_path was STATS_DIR.
+    # Let's override output_path to point to assets/data for this new architecture.
+    
+    # We need to import ASSETS_DATA_DIR. Since we can't easily change imports in this block, 
+    # we'll resolve it relative to the current output_path (which is maintaindb/_stats).
+    # maintaindb/_stats/../../assets/data
+    
+    assets_data_path = pathlib.Path(output_path).parent.parent / 'assets' / 'data'
+    assets_data_path.mkdir(parents=True, exist_ok=True)
+    logger.info(f'Writing distributed data to: {assets_data_path}')
 
-    output_full_path = f"{str(output_path)}/all_adventures.json"
-    with open(output_full_path, 'w', encoding='utf-8') as f:
-        json.dump(list(all_adventures_map.values()), f, indent=4, sort_keys=True, ensure_ascii=False)
+    # 1. Write Individual Files
+    for key, adventure in all_adventures_map.items():
+        # Use product_id as filename if available, otherwise sanitize key
+        filename = adventure.get('product_id')
+        if not filename:
+             # Sanitize key for filename
+             filename = "".join(x for x in key if x.isalnum() or x in ('-','_'))
+        
+        file_path = assets_data_path / f"{filename}.json"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(adventure, f, indent=4, sort_keys=True, ensure_ascii=False)
+
+    # 2. Generate Pivoted Indices
+    by_tier = defaultdict(list)
+    by_campaign = defaultdict(list)
+
+    for adventure in all_adventures_map.values():
+        p_id = adventure.get('product_id')
+        if not p_id: 
+            continue # specific indices need product_id
+            
+        # By Tier
+        tier = adventure.get('tiers')
+        # handle 0 or None -> "Unknown" or just skip? 
+        # let's stringify. If it's an int, it becomes "1", "2".
+        if tier is not None:
+             by_tier[str(tier)].append(p_id)
+        
+        # By Campaign
+        campaigns = adventure.get('campaigns', [])
+        for c in campaigns:
+            if c:
+                by_campaign[c].append(p_id)
+
+    # Write Indices
+    with open(assets_data_path / "by_tier.json", 'w', encoding='utf-8') as f:
+        json.dump(by_tier, f, indent=None, sort_keys=True, ensure_ascii=False)
+        
+    with open(assets_data_path / "by_campaign.json", 'w', encoding='utf-8') as f:
+        json.dump(by_campaign, f, indent=None, sort_keys=True, ensure_ascii=False)
+
+    logger.info(f"Generated {len(all_adventures_map)} individual files.")
+    logger.info(f"Generated output indices: by_tier.json, by_campaign.json")
 
 
 if __name__ == '__main__':

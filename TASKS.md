@@ -1,7 +1,7 @@
 # Adventure Catalog Master Task List
 
 ## 1. High-Performance Data Architecture (New Optimization)
-- [ ] **Python: Generate Summary Index (`summary_index.json`)**
+- [x] **Python: Generate Summary Index (`summary_index.json`)**
     - Only include fields needed for UI display/slicers (ID, Title, Code, Tier, Level, Campaign).
 - [ ] **Python: Generate Search Index (`search_index.json`)**
     - Create a map of `{ id: "normalized_search_string" }`.
