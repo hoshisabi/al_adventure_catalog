@@ -1,18 +1,25 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": null,
+    "apl": 8,
+    "authors": [
+        "Baldman Games",
+        "Jay Anderson",
+        "Andy Dempz",
+        "Collette Quach"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "Rising Shadows Trilogy 15: Scattered Sentiments Trilogy [BUNDLE]",
     "date_created": "20251027",
     "full_title": "Rising Shadows Trilogy 15: Scattered Sentiments Trilogy [BUNDLE]",
-    "hours": null,
+    "hours": "4",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 11.22,
     "product_id": "542300",
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "Rising Shadows Trilogy 15 Scattered Sentiments Trilogy [BUNDLE]",
     "url": "https://www.dmsguild.com/product/542300/?affiliate_id=171040"
 }

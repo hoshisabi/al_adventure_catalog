@@ -1,6 +1,9 @@
 {
     "apl": 18,
-    "authors": [],
+    "authors": [
+        "Strategicon AL",
+        "John Paiva"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -11,6 +14,7 @@
     "is_adventure": true,
     "level_range": "17-20",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "539642",
     "season": "Planescape",

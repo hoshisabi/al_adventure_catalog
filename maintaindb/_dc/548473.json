@@ -1,18 +1,31 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": null,
+    "apl": 3,
+    "authors": [
+        "Bryan Mets",
+        "Daniel Chapman",
+        "Brian Balagot",
+        "Arthur Marques",
+        "Robbie Pleasant",
+        "Steven Truong",
+        "Ron Angelo Gatinga",
+        "Tom Klein",
+        "Ting Yuen Tjiong"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "2025 Year End Celebration [BUNDLE]",
     "date_created": "20251208",
     "full_title": "2025 Year End Celebration [BUNDLE]",
-    "hours": null,
+    "hours": "2-4",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "17-20",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 14.99,
     "product_id": "548473",
-    "season": null,
-    "tiers": null,
+    "season": "Spelljammer",
+    "tiers": 1,
     "title": "2025 Year End Celebration [BUNDLE]",
     "url": "https://www.dmsguild.com/product/548473/?affiliate_id=171040"
 }

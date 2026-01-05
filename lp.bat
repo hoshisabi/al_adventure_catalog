@@ -22,7 +22,7 @@ GOTO :SERVE
         GOTO :EOF
     )
     echo Building Jekyll site...
-    call jekyll build
+    call bundle exec jekyll build
     IF %ERRORLEVEL% NEQ 0 (
         echo Jekyll build failed.
         GOTO :EOF
@@ -33,7 +33,7 @@ GOTO :SERVE
 :SERVE
     echo Serving Jekyll site locally...
     echo To rebuild the site before serving, run with the "rebuild" parameter (e.g., lp rebuild)
-    jekyll serve --baseurl ""
+    bundle exec jekyll serve --baseurl ""
     IF %ERRORLEVEL% NEQ 0 (
         echo Jekyll serve failed.
     )

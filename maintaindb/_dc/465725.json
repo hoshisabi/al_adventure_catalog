@@ -9,14 +9,16 @@
     "code": "SJ-DC-EPOCH-01",
     "date_created": "20231231",
     "full_title": "SJ-DC-EPOCH-01 Chasing the Morning Light",
-    "hours": 2,
+    "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": true,
     "price": 1.0,
     "product_id": "465725",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 1.0,
     "tiers": 2,
     "title": "Chasing the Morning Light",
-    "url": "https://www.dmsguild.com/product/465725/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465725/?affiliate_id=171040"
 }

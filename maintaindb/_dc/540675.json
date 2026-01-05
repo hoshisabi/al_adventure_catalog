@@ -1,6 +1,8 @@
 {
     "apl": 8,
-    "authors": [],
+    "authors": [
+        "Jeremy Cheong"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -11,6 +13,7 @@
     "is_adventure": true,
     "level_range": "5-10",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 3.0,
     "product_id": "540675",
     "season": null,

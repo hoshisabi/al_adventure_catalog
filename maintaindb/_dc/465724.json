@@ -12,11 +12,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "465724",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Conflagration",
-    "url": "https://www.dmsguild.com/product/465724/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465724/?affiliate_id=171040"
 }

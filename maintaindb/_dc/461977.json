@@ -12,10 +12,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "461977",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Enter Mission",
-    "url": "https://www.dmsguild.com/product/461977/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/461977/?affiliate_id=171040"
 }

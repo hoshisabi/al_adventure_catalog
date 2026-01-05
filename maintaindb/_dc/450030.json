@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "450030",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "The Draconic Core",
-    "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/450030/?affiliate_id=171040"
 }

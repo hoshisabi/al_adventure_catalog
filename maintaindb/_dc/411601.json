@@ -12,11 +12,12 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.75,
     "product_id": "411601",
     "season": "Spelljammer",
+    "seed": "Saint Argol\u2019s Fire",
     "tiers": 1,
     "title": "Hardy and Beholder Investigations The Stowaway",
-    "url": "https://www.dmsguild.com/product/411601/?affiliate_id=171040",
-    "seed": "Saint Argol’s Fire"
+    "url": "https://www.dmsguild.com/product/411601/?affiliate_id=171040"
 }

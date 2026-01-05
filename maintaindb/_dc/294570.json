@@ -3,7 +3,9 @@
     "authors": [
         "James Introcaso"
     ],
-    "campaigns": ["Forgotten Realms"],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "Abyssal Incursion",
     "date_created": "20191111",
     "full_title": "Abyssal Incursion",

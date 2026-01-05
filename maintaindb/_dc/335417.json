@@ -3,7 +3,9 @@
     "authors": [
         "Gregory Harris"
     ],
-    "campaigns": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-WYC-Intro-01",
     "date_created": "20201109",
     "full_title": "CCC-WYC-Intro-01 A Bridge to Thar",

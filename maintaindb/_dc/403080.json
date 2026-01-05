@@ -2,7 +2,7 @@
     "apl": 3,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope",
+        "Te\u00e4n Stanhope",
         "James Twigg"
     ],
     "campaigns": [
@@ -13,10 +13,13 @@
     "full_title": "WBW-DC-FEN-02 Tiddy Mun and the Burrow of Bandits",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "403080",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Tiddy Mun and the Burrow of Bandits",
-    "url": "https://www.dmsguild.com/product/403080/WBWDCFEN02-Tiddy-Mun-and-the-Burrow-of-Bandits?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/403080/WBWDCFEN02-Tiddy-Mun-and-the-Burrow-of-Bandits?filters=0_0_100057_0_0_0_0_0"
 }

@@ -8,7 +8,8 @@ import re
 from collections import defaultdict
 
 from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
-from .adventure_utils import normalize_ddal_ddex_code
+from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
+from .adventure_utils import normalize_ddal_ddex_code, SEASONS
 from .paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
@@ -144,63 +145,84 @@ def aggregate():
         logger.info(f'  {dc_season} :: {len(dc_list)} DCs')
 
     logger.info("------")
-    # Use ASSETS_DATA_DIR from paths.py if available, otherwise assume assets/data relative to root or use STATS_DIR logic
-    # The user asked to move them to the data folder. In paths.py, ASSETS_DATA_DIR = PROJECT_ROOT / 'assets' / 'data'
-    # We will use the existing output_path variable but point it to assets/data if we can resolve it, 
-    # but strictly speaking output_path was STATS_DIR.
-    # Let's override output_path to point to assets/data for this new architecture.
-    
-    # We need to import ASSETS_DATA_DIR. Since we can't easily change imports in this block, 
-    # we'll resolve it relative to the current output_path (which is maintaindb/_stats).
-    # maintaindb/_stats/../../assets/data
-    
+    # Use ASSETS_DATA_DIR logic or relative path
     assets_data_path = pathlib.Path(output_path).parent.parent / 'assets' / 'data'
     assets_data_path.mkdir(parents=True, exist_ok=True)
-    logger.info(f'Writing distributed data to: {assets_data_path}')
+    logger.info(f'Writing consolidated catalog to: {assets_data_path}')
 
-    # 1. Write Individual Files
-    for key, adventure in all_adventures_map.items():
-        # Use product_id as filename if available, otherwise sanitize key
-        filename = adventure.get('product_id')
-        if not filename:
-             # Sanitize key for filename
-             filename = "".join(x for x in key if x.isalnum() or x in ('-','_'))
-        
-        file_path = assets_data_path / f"{filename}.json"
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(adventure, f, indent=4, sort_keys=True, ensure_ascii=False)
+    # Pre-defined mappings for recent seasons
+    CUSTOM_SEASON_MAPPINGS = {
+        '0': 'Season Agnostic',
+        '11': 'The Wild Beyond the Witchlight',
+        '12': 'Spelljammer',
+        '13': 'Planescape'
+    }
 
-    # 2. Generate Pivoted Indices
-    by_tier = defaultdict(list)
-    by_campaign = defaultdict(list)
+    catalog = []
 
     for adventure in all_adventures_map.values():
-        p_id = adventure.get('product_id')
-        if not p_id: 
-            continue # specific indices need product_id
+        # Format Season: "N - Name"
+        raw_season = adventure.get('season')
+        formatted_season = raw_season
+        
+        if raw_season:
+            r_str = str(raw_season)
+            # 1. Check custom mappings (strings "0", "11", etc.)
+            if r_str in CUSTOM_SEASON_MAPPINGS:
+                formatted_season = f"{r_str} - {CUSTOM_SEASON_MAPPINGS[r_str]}"
+            # 2. Check strict integers (e.g. from Derived logic)
+            elif r_str.isdigit():
+                 i_val = int(r_str)
+                 if i_val in SEASONS:
+                     formatted_season = f"{r_str} - {SEASONS[i_val]}"
+                 else:
+                     formatted_season = r_str
+            # 3. Check if it is a Name (e.g. "Tyranny of Dragons") -> Reverse Lookup
+            else:
+                 # Try to find the Key (ID) for this Value (Name) in SEASONS
+                 # SEASONS keys are mix of int and str
+                 found_id = None
+                 for k, v in SEASONS.items():
+                     if v.lower() == r_str.lower():
+                         found_id = k
+                         break
+                 
+                 if found_id is not None:
+                     formatted_season = f"{found_id} - {r_str}"
+                 else:
+                     # Leave as is
+                     formatted_season = r_str
             
-        # By Tier
-        tier = adventure.get('tiers')
-        # handle 0 or None -> "Unknown" or just skip? 
-        # let's stringify. If it's an int, it becomes "1", "2".
-        if tier is not None:
-             by_tier[str(tier)].append(p_id)
+        # Minified Payload with Abbreviated Keys
+        # id: product_id
+        # t: title/full_title
+        # c: code
+        # a: authors
+        # ca: campaigns
+        # s: season
+        # h: hours
+        # ti: tiers
+        # u: url
+        # d: date_created
         
-        # By Campaign
-        campaigns = adventure.get('campaigns', [])
-        for c in campaigns:
-            if c:
-                by_campaign[c].append(p_id)
-
-    # Write Indices
-    with open(assets_data_path / "by_tier.json", 'w', encoding='utf-8') as f:
-        json.dump(by_tier, f, indent=None, sort_keys=True, ensure_ascii=False)
+        entry = {
+            'id': adventure.get('product_id'),
+            't': adventure.get('title') or adventure.get('full_title'),
+            'c': adventure.get('code'),
+            'a': adventure.get('authors'),
+            'ca': adventure.get('campaigns'),
+            's': formatted_season, 
+            'h': adventure.get('hours'),
+            'ti': adventure.get('tiers'),
+            'u': adventure.get('url'),
+            'd': adventure.get('date_created')
+        }
+        catalog.append(entry)
         
-    with open(assets_data_path / "by_campaign.json", 'w', encoding='utf-8') as f:
-        json.dump(by_campaign, f, indent=None, sort_keys=True, ensure_ascii=False)
+    with open(assets_data_path / "catalog.json", 'w', encoding='utf-8') as f:
+        json.dump(catalog, f, indent=None, ensure_ascii=False)
 
-    logger.info(f"Generated {len(all_adventures_map)} individual files.")
-    logger.info(f"Generated output indices: by_tier.json, by_campaign.json")
+    logger.info(f"Generated consolidated catalog: catalog.json ({len(catalog)} items)")
 
 
 if __name__ == '__main__':
