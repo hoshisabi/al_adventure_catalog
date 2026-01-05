@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "Patrícia Brito",
+        "Patr\u00edcia Brito",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -16,9 +16,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "465171",
-    "season": null,
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Deep Expedition to Lantan",
-    "url": "https://www.dmsguild.com/product/465171/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465171/?affiliate_id=171040"
 }

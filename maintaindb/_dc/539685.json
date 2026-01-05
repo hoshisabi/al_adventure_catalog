@@ -1,18 +1,23 @@
 {
-    "apl": null,
-    "authors": [],
+    "apl": 13,
+    "authors": [
+        "Andrew Hewitt",
+        "Joe Raso",
+        "Jessica Ross"
+    ],
     "campaigns": [],
     "code": null,
     "date_created": "20251007",
     "full_title": "Rising Shadows Trilogy 13: Hunters of the Sea Trilogy [BUNDLE]",
-    "hours": null,
+    "hours": "4",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "11-16",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 12.0,
     "product_id": "539685",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "Rising Shadows Trilogy 13 Hunters of the Sea Trilogy [BUNDLE]",
     "url": "https://www.dmsguild.com/product/539685/?affiliate_id=171040"
 }

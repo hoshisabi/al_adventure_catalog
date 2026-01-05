@@ -11,10 +11,13 @@
     "full_title": "Promises of Hope (WBW-DC-NJ-HOPE-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "391852",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Promises of Hope",
-    "url": "https://www.dmsguild.com/product/391852/Promises-of-Hope-WBWDCNJHOPE01?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/391852/Promises-of-Hope-WBWDCNJHOPE01?filters=0_0_100057_0_0_0_0_0"
 }

@@ -3,7 +3,9 @@
     "authors": [
         "Mike Parker"
     ],
-    "campaigns": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-WYC-Intro-02",
     "date_created": "20201109",
     "full_title": "CCC-WYC-Intro-02 The Ballad of Naoki and Koa",

@@ -3,7 +3,9 @@
     "authors": [
         "Emilie Gunderson"
     ],
-    "campaigns": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-MALTH-001",
     "date_created": "20191216",
     "full_title": "CCC-MALTH-001 Sel\u00fbne's Tear",
@@ -15,6 +17,6 @@
     "product_id": "297167",
     "season": null,
     "tiers": 2,
-    "title": "Selûne's Tear",
+    "title": "Sel\u00fbne's Tear",
     "url": "https://www.dmsguild.com/product/297167/?affiliate_id=171040"
 }

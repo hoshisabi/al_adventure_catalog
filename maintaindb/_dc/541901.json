@@ -1,7 +1,9 @@
 {
     "apl": 13,
     "authors": [],
-    "campaigns": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "The Elemental Chaos Series [BUNDLE]",
     "date_created": "20251023",
     "full_title": "The Elemental Chaos Series [BUNDLE]",
@@ -11,7 +13,7 @@
     "payWhatYouWant": false,
     "price": 19.99,
     "product_id": "541901",
-    "season": null,
+    "season": "Planescape",
     "tiers": 3,
     "title": "The Elemental Chaos Series [BUNDLE]",
     "url": "https://www.dmsguild.com/product/541901/?affiliate_id=171040"

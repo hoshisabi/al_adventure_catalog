@@ -11,8 +11,11 @@
     "full_title": "FR-DC-AEG-04 The School",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "463668",
+    "season": null,
     "tiers": 1,
     "title": "The School",
     "url": "https://www.dmsguild.com/product/463668/FRDCAEG04-The-School?filters=45470_0_0_0_0_0_0_0"

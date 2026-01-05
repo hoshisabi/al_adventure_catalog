@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "465443",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Falrenn Mayhem",
-    "url": "https://www.dmsguild.com/product/465443/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465443/?affiliate_id=171040"
 }

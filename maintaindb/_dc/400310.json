@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "400310",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "The Korred Corsair",
-    "url": "https://www.dmsguild.com/product/400310/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/400310/?affiliate_id=171040"
 }

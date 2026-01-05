@@ -1,22 +1,23 @@
 {
-  "apl": 18,
-  "authors": [
-    "Johnny Smith"
-  ],
-  "campaigns": [
-    "Forgotten Realms"
-  ],
-  "code": "FR-DC-RDP-01",
-  "date_created": "20251007",
-  "full_title": "FR-DC-RDP-01 Vault of the Drow Risen & FR-DC-RDP-02 The Great Fane of Lolth",
-  "hours": 2,
-  "is_adventure": false,
-  "level_range": "17-20",
-  "needs_review": true,
-  "price": 4.95,
-  "product_id": "539689",
-  "season": null,
-  "tiers": 4,
-  "title": "Vault of the Drow Risen & The Great Fane of Lolth",
-  "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
+    "apl": 18,
+    "authors": [
+        "Johnny Smith"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-RDP-01",
+    "date_created": "20251007",
+    "full_title": "FR-DC-RDP-01 Vault of the Drow Risen & FR-DC-RDP-02 The Great Fane of Lolth",
+    "hours": "2",
+    "is_adventure": false,
+    "level_range": "17-20",
+    "needs_review": true,
+    "payWhatYouWant": false,
+    "price": 4.95,
+    "product_id": "539689",
+    "season": null,
+    "tiers": 4,
+    "title": "Vault of the Drow Risen & The Great Fane of Lolth",
+    "url": "https://www.dmsguild.com/product/539689/?affiliate_id=171040"
 }

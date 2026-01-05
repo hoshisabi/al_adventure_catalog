@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "421167",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "The Hunger in the Marshes",
-    "url": "https://www.dmsguild.com/product/421167/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/421167/?affiliate_id=171040"
 }

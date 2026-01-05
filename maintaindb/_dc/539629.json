@@ -1,6 +1,9 @@
 {
     "apl": 3,
-    "authors": [],
+    "authors": [
+        "Strategicon AL",
+        "Zach Sundstrom"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -11,6 +14,7 @@
     "is_adventure": true,
     "level_range": "1-4",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "539629",
     "season": null,

@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "464522",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Of Giants And Dragons An Ancient Enemy Returns",
-    "url": "https://www.dmsguild.com/product/464522/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/464522/?affiliate_id=171040"
 }

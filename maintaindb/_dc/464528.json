@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "464528",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Of Giants And Dragons Assault on Rimedyl",
-    "url": "https://www.dmsguild.com/product/464528/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/464528/?affiliate_id=171040"
 }

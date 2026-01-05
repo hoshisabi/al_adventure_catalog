@@ -1,18 +1,28 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": null,
+    "apl": 13,
+    "authors": [
+        "Baldman Games",
+        "Eric Menge",
+        "Krishna Simonse",
+        "Pieter Sleijpen",
+        "Justin Vandermeer",
+        "Toni Winslow-Brill"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "Rising Shadows 19: Shattered Reflections & Conclusion [BUNDLE]",
     "date_created": "20251124",
     "full_title": "Rising Shadows 19: Shattered Reflections & Conclusion [BUNDLE]",
-    "hours": null,
+    "hours": "4",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "11-16",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 16.0,
     "product_id": "547125",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "Rising Shadows 19 Shattered Reflections & Conclusion [BUNDLE]",
     "url": "https://www.dmsguild.com/product/547125/?affiliate_id=171040"
 }

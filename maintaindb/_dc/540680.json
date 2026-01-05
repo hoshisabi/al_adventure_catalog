@@ -1,18 +1,23 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": [],
-    "code": null,
+    "apl": 8,
+    "authors": [
+        "Jeremy Cheong"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "DC-POA-LEGIT-SV-03",
     "date_created": "20251015",
     "full_title": "The Severed Vault [BUNDLE]",
-    "hours": null,
+    "hours": "2",
     "is_adventure": false,
-    "level_range": null,
+    "level_range": "5-10",
     "needs_review": true,
+    "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "540680",
-    "season": null,
-    "tiers": null,
+    "season": "Plague of Ancients",
+    "tiers": 2,
     "title": "The Severed Vault [BUNDLE]",
     "url": "https://www.dmsguild.com/product/540680/?affiliate_id=171040"
 }

@@ -2,7 +2,7 @@
     "apl": 8,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope",
+        "Te\u00e4n Stanhope",
         "James Twigg"
     ],
     "campaigns": [
@@ -14,11 +14,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "431087",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Mutiny The Blunderbuss of Blunderbuss Bill",
-    "url": "https://www.dmsguild.com/product/431087/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/431087/?affiliate_id=171040"
 }

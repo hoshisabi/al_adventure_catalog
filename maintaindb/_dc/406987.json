@@ -13,11 +13,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "406987",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Buck Wild!",
-    "url": "https://www.dmsguild.com/product/406987/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/406987/?affiliate_id=171040"
 }

@@ -1,7 +1,14 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": null,
+    "apl": 8,
+    "authors": [
+        "Baldman Games",
+        "Ma'at Crook",
+        "Marina Desmarais",
+        "Leighton Eash"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "Rising Shadows Trilogy 16: Rites of Spring Trilogy [BUNDLE]",
     "date_created": "20251103",
     "full_title": "Rising Shadows Trilogy 16: Rites of Spring Trilogy [BUNDLE]",

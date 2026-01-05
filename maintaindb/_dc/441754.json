@@ -12,11 +12,13 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": true,
     "price": 1.0,
     "product_id": "441754",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 1.0,
     "tiers": 3,
     "title": "Save the Forest!",
-    "url": "https://www.dmsguild.com/product/441754/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/441754/?affiliate_id=171040"
 }

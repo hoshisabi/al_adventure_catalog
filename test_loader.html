@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distributed Data Test</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        .card { border: 1px solid #ccc; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; }
+        .loading { color: #666; font-style: italic; }
+        button { cursor: pointer; padding: 0.5rem 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Distributed Data Arch Test</h1>
+    <p>This page verifies that we can fetch the pivoted index (`by_tier.json`) and then resolve individual adventures (`{id}.json`) from the `assets/data` folder.</p>
+    
+    <div>
+        <button id="loadBtn">Load Tier 1 Adventures</button>
+    </div>
+
+    <div id="status" style="margin: 1rem 0;"></div>
+    <div id="results"></div>
+
+    <script>
+        const statusEl = document.getElementById('status');
+        const resultsEl = document.getElementById('results');
+
+        document.getElementById('loadBtn').addEventListener('click', async () => {
+            statusEl.textContent = 'Fetching by_tier.json...';
+            resultsEl.innerHTML = '';
+            
+            try {
+                // 1. Fetch the Index
+                const tierResp = await fetch('assets/data/by_tier.json');
+                if (!tierResp.ok) throw new Error('Failed to load by_tier.json');
+                const tierData = await tierResp.json();
+                
+                const tier1Ids = tierData['1'] || [];
+                statusEl.textContent = `Found ${tier1Ids.length} adventures in Tier 1. Fetching details for the first 5...`;
+
+                // 2. Fetch Details for first 5 (Distribution Test)
+                const sampleIds = tier1Ids.slice(0, 5);
+                
+                for (const id of sampleIds) {
+                    const card = document.createElement('div');
+                    card.className = 'card loading';
+                    card.textContent = `Fetching ${id}.json...`;
+                    resultsEl.appendChild(card);
+
+                    try {
+                        const advResp = await fetch(`assets/data/${id}.json`);
+                        if (!advResp.ok) throw new Error(`Missing ${id}.json`);
+                        const adv = await advResp.json();
+                        
+                        card.className = 'card';
+                        card.innerHTML = `<strong>${adv.title || adv.full_title}</strong> (${adv.code})<br><small>ID: ${id}</small>`;
+                    } catch (e) {
+                        card.textContent = `Error loading ${id}: ${e.message}`;
+                        card.style.borderColor = 'red';
+                    }
+                }
+                
+                statusEl.textContent += ' Done.';
+
+            } catch (err) {
+                statusEl.textContent = `Error: ${err.message}`;
+                statusEl.style.color = 'red';
+            }
+        });
+    </script>
+</body>
+</html>

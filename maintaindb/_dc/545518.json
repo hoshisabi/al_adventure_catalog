@@ -1,7 +1,14 @@
 {
-    "apl": null,
-    "authors": [],
-    "campaigns": null,
+    "apl": 8,
+    "authors": [
+        "Baldman Games",
+        "Gareth Anderson",
+        "Jackie Leung",
+        "Sean Smith"
+    ],
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "Rising Shadows Trilogy 17: Summer of War Trilogy [BUNDLE]",
     "date_created": "20251110",
     "full_title": "Rising Shadows Trilogy 17: Summer of War Trilogy [BUNDLE]",

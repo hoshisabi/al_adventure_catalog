@@ -1,15 +1,18 @@
 {
     "apl": 1,
-    "authors": [],
+    "authors": [
+        "Karianne Fog Heen"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "FR-DC-CONMAR-00-02",
-    "date_created": null,
+    "date_created": "20251020",
     "full_title": "FR-DC-CONMAR-00-02 Oar\u2019s Rest and Below",
     "hours": "1",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 1.49,
     "product_id": "541185",
     "season": null,

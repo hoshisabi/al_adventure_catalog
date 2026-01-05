@@ -3,13 +3,16 @@
     "authors": [
         "Dungeon Masters Guild"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-CGB-01",
     "date_created": "20250904",
     "full_title": "Chaotic Good Brewing Dragon Con 2025 Bundle [BUNDLE]",
     "hours": null,
     "is_adventure": false,
     "level_range": null,
+    "payWhatYouWant": false,
     "price": 14.97,
     "product_id": "535799",
     "season": null,

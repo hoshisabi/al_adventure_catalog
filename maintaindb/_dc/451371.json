@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3.0,
     "product_id": "451371",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Voyage to Goldfish Island",
-    "url": "https://www.dmsguild.com/product/451371/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/451371/?affiliate_id=171040"
 }

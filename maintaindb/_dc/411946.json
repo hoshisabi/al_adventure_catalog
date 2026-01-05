@@ -12,11 +12,12 @@
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 2.75,
     "product_id": "411946",
     "season": "Spelljammer",
+    "seed": "Unexpected Passenger",
     "tiers": 1,
     "title": "Hardy and Beholder Investigations The Hitchhiker",
-    "url": "https://www.dmsguild.com/product/411946/?affiliate_id=171040",
-    "seed": "Unexpected Passenger"
+    "url": "https://www.dmsguild.com/product/411946/?affiliate_id=171040"
 }

@@ -3,7 +3,9 @@
     "authors": [
         "RP Marsh"
     ],
-    "campaigns": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "FR-DC-LOOSE-02",
     "date_created": "20251123",
     "full_title": "FR-DC-LOOSE-02 Spells on the Loose",

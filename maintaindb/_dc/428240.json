@@ -8,15 +8,16 @@
     ],
     "code": "SJ-DC-ARQ-01",
     "date_created": "20230226",
-    "full_title": "SJ-DC-ARQ-01  Welcome to the Arquëon System",
+    "full_title": "SJ-DC-ARQ-01  Welcome to the Arqu\u00ebon System",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "428240",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Welcome to the Arquëon System",
-    "url": "https://www.dmsguild.com/product/428240/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "Welcome to the Arqu\u00ebon System",
+    "url": "https://www.dmsguild.com/product/428240/?affiliate_id=171040"
 }

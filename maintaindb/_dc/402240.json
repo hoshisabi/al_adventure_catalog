@@ -12,11 +12,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "402240",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Unknown Seed",
     "tiers": 2,
     "title": "The Scorpion's Sting",
-    "url": "https://www.dmsguild.com/product/402240/?affiliate_id=171040",
-    "seed": "Unknown Seed"
+    "url": "https://www.dmsguild.com/product/402240/?affiliate_id=171040"
 }

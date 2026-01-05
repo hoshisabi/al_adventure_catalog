@@ -12,11 +12,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "11-16",
+    "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "465716",
     "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Stoneheart",
-    "url": "https://www.dmsguild.com/product/465716/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465716/?affiliate_id=171040"
 }

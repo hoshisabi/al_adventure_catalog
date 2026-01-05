@@ -2,7 +2,7 @@
     "apl": 3,
     "authors": [
         "Gabriel Kerr",
-        "Marco Antônio “Boi” Loureiro",
+        "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -17,9 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "464474",
-    "season": null,
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Dark Hunger",
-    "url": "https://www.dmsguild.com/product/464474/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/464474/?affiliate_id=171040"
 }

@@ -3,7 +3,9 @@
     "authors": [
         "Erik Hawley"
     ],
-    "campaigns": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
     "code": "CCC-PIPYAP-Glasya",
     "date_created": "20201202",
     "full_title": "CCC-PIPYAP-Glasya Glasya's Little Helpers",

@@ -13,11 +13,12 @@
     "hours": "4-Hour",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "406782",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Spectacle at Shrineholt",
-    "url": "https://www.dmsguild.com/product/406782/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/406782/?affiliate_id=171040"
 }
