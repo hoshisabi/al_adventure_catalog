@@ -9,14 +9,15 @@
     "code": "DC-POA-VID-01",
     "date_created": "20210809",
     "full_title": "DC-PoA-VID-01 The Hex of the Horn",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "367141",
     "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
     "title": "The Hex of the Horn",
-    "url": "https://www.dmsguild.com/product/367141/?affiliate_id=171040",
-    "seed": "I'd Like to Make a Return Please"
+    "url": "https://www.dmsguild.com/product/367141/?affiliate_id=171040"
 }

@@ -12,8 +12,10 @@
     "hours": "3",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 3,
     "product_id": "323626",
+    "season": null,
     "tiers": 1,
     "title": "The Khyber Heart A Salvage Mission",
     "url": "https://www.dmsguild.com/product/323626/The-Khyber-Heart-A-Salvage-Mission?filters=1000043_0_45418_0_0_0_0_0"

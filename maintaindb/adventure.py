@@ -435,6 +435,10 @@ def _extract_title_from_html(parsed_html):
     # Clean metadata from extracted title
     if title_result:
         title_result = _clean_title_metadata(title_result)
+        
+        # Handle "Dungeon Masters Guild - " (empty) titles for removed products
+        if title_result.strip() == "Dungeon Masters Guild -" or title_result.strip() == "Dungeon Masters Guild":
+            title_result = None
     
     return title_result
 
@@ -1226,11 +1230,14 @@ def _infer_missing_adventure_data(data):
     # It's an adventure if it has a code AND is not excluded by keywords
     code = data.get("code")
     # Debug: Check if code is truthy (not None, not empty string)
-    if code and code.strip() if isinstance(code, str) else code:
+    if code and (code.strip() if isinstance(code, str) else code):
         if not is_bundle and not is_roll20 and not is_fg:
             data["is_adventure"] = True
         else:
             data["is_adventure"] = False
+    elif data.get("is_adventure") is True:
+        # Keep it as an adventure if it was already marked as one
+        pass
     else:
         data["is_adventure"] = False
     

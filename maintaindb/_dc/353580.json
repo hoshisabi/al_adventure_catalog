@@ -12,11 +12,12 @@
     "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "353580",
     "season": "Icewind Dale",
+    "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
     "title": "The Ruins of Balors Reach",
-    "url": "https://www.dmsguild.com/product/353580/?affiliate_id=171040",
-    "seed": "Do You Know the Way to Lonely Wood?"
+    "url": "https://www.dmsguild.com/product/353580/?affiliate_id=171040"
 }

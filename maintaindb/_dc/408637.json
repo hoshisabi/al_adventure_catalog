@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Zardak 123"
     ],
@@ -11,10 +11,13 @@
     "full_title": "WBW-DC-ZEP-T1S4 Mall of Zep",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "408637",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Mall of Zep",
-    "url": "https://www.dmsguild.com/product/408637/WBWDCZEPT1S4-Mall-of-Zep?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408637/WBWDCZEPT1S4-Mall-of-Zep?filters=0_0_100057_0_0_0_0_0"
 }

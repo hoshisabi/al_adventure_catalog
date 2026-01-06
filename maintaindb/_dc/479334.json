@@ -11,8 +11,11 @@
     "full_title": "FR-DC-TT-201 Return to Mountain's Toe Gold Mine",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "479334",
+    "season": null,
     "tiers": 2,
     "title": "Return to Mountain's Toe Gold Mine",
     "url": "https://www.dmsguild.com/product/479334/FRDCTT201-Return-to-Mountains-Toe-Gold-Mine?filters=45470_0_0_0_0_0_0_0"

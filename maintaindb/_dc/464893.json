@@ -11,8 +11,11 @@
     "full_title": "FR-DC-AEG-06 The Abandoned City",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.49,
     "product_id": "464893",
+    "season": null,
     "tiers": 2,
     "title": "The Abandoned City",
     "url": "https://www.dmsguild.com/product/464893/FRDCAEG06-The-Abandoned-City?filters=45470_0_0_0_0_0_0_0"

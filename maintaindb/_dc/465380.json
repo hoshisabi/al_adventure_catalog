@@ -11,10 +11,13 @@
     "full_title": "Heart of Glass (SJ-DC-ASLM-02)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "465380",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Heart of Glass",
-    "url": "https://www.dmsguild.com/product/465380/Heart-of-Glass-SJDCASLM02?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465380/Heart-of-Glass-SJDCASLM02?filters=45470_0_0_0_0_0_0_0"
 }

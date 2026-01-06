@@ -12,7 +12,10 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "313869",
+    "season": null,
     "tiers": 1,
     "title": "Estranged Tower",
     "url": "https://www.dmsguild.com/product/313869/Estranged-Tower?filters=1000043_0_0_0_0_0_0_0"

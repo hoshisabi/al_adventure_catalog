@@ -11,8 +11,11 @@
     "full_title": "FR-DC-AEG-05 The House in the Forest",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.49,
     "product_id": "464141",
+    "season": null,
     "tiers": 2,
     "title": "The House in the Forest",
     "url": "https://www.dmsguild.com/product/464141/FRDCAEG05-The-House-in-the-Forest?filters=45470_0_0_0_0_0_0_0"
