@@ -46,10 +46,6 @@ if %errorlevel% neq 0 (
     goto :eof
 )
 
-echo Copying aggregated data to assets...
-copy maintaindb\_stats\all_adventures.json assets\data\all_adventures.json
-copy maintaindb\_stats\all_adventures.json _data\all_adventures.json
-
 echo Running stats generator...
 uv run python -m maintaindb.stats
 if %errorlevel% neq 0 (

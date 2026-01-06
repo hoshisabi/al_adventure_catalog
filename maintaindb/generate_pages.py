@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from .paths import CATALOG_JSON
 
 def slugify(text):
     text = str(text).strip().lower()
@@ -17,15 +18,15 @@ title: {title}
 adventures:
 """
     for adventure in adventures:
-        content += f"""  - product_id: {adventure.get('product_id')}
-    full_title: {adventure.get('full_title')}
-    authors: {adventure.get('authors')}
-    campaign: {adventure.get('campaign')}
-    code: {adventure.get('code')}
-    date_created: {adventure.get('date_created')}
-    hours: {adventure.get('hours')}
-    tiers: {adventure.get('tiers')}
-    url: {adventure.get('url')}
+        content += f"""  - product_id: {adventure.get('i')}
+    full_title: "{adventure.get('n').replace('"', '\\"')}"
+    authors: {json.dumps(adventure.get('a'))}
+    campaign: {json.dumps(adventure.get('p'))}
+    code: {adventure.get('c')}
+    date_created: {adventure.get('d')}
+    hours: {adventure.get('h')}
+    tiers: {adventure.get('t')}
+    url: {adventure.get('u')}
 """
     content += """---
 
@@ -48,7 +49,7 @@ adventures:
     <tr>
       <td><a href="{{ adventure.url }}">{{ adventure.full_title }}</a></td>
       <td>{{ adventure.authors | join: ", " }}</td>
-      <td>{{ adventure.campaign }}</td>
+      <td>{{ adventure.campaign | join: ", " }}</td>
       <td>{{ adventure.code }}</td>
       <td>{{ adventure.date_created }}</td>
       <td>{{ adventure.hours }}</td>
@@ -63,7 +64,7 @@ adventures:
 
 def main():
     script_dir = os.path.dirname(__file__)
-    data_file = os.path.join(script_dir, '..', '_data', 'all_adventures.json')
+    data_file = str(CATALOG_JSON)
     adventures_dir = os.path.join(script_dir, '..', '_adventures')
 
     with open(data_file, 'r', encoding='utf-8') as f:
@@ -75,44 +76,54 @@ def main():
     # Generate all adventures page
     generate_markdown_page(os.path.join(adventures_dir, 'all_adventures.md'), 'All Adventures', adventures_data)
 
-    # Get unique values for filtering
-    campaigns = sorted(list(set(','.join(a['campaign']) if isinstance(a.get('campaign'), list) else a.get('campaign') for a in adventures_data if a.get('campaign'))))
-    hours = sorted(list(set(a['hours'] for a in adventures_data if a.get('hours'))))
-    tiers = sorted(list(set(a['tiers'] for a in adventures_data if a.get('tiers'))))
+    # Get unique values for filtering from minified keys
+    # p: campaigns (list)
+    # h: hours (str)
+    # t: tiers (int)
+    
+    all_campaigns = set()
+    for a in adventures_data:
+        if a.get('p'):
+            for c in a['p']:
+                all_campaigns.add(c)
+    campaigns = sorted(list(all_campaigns))
+    
+    hours = sorted(list(set(str(a['h']) for a in adventures_data if a.get('h'))))
+    tiers = sorted(list(set(str(a['t']) for a in adventures_data if a.get('t'))))
 
     # Generate pages for each campaign
     for campaign in campaigns:
-        filtered_adventures = [a for a in adventures_data if (isinstance(a.get('campaign'), list) and campaign in a.get('campaign')) or (isinstance(a.get('campaign'), str) and a.get('campaign') == campaign)]
+        filtered_adventures = [a for a in adventures_data if a.get('p') and campaign in a.get('p')]
         generate_markdown_page(os.path.join(adventures_dir, f'{slugify(campaign)}_adventures.md'), f'Adventures in {campaign}', filtered_adventures)
 
     # Generate pages for each tier
     for tier in tiers:
-        filtered_adventures = [a for a in adventures_data if a.get('tiers') == tier]
+        filtered_adventures = [a for a in adventures_data if str(a.get('t')) == tier]
         generate_markdown_page(os.path.join(adventures_dir, f'tier_{slugify(tier)}_adventures.md'), f'Adventures Tier {tier}', filtered_adventures)
 
     # Generate pages for each duration (hours)
     for hour in hours:
-        filtered_adventures = [a for a in adventures_data if a.get('hours') == hour]
+        filtered_adventures = [a for a in adventures_data if str(a.get('h')) == hour]
         generate_markdown_page(os.path.join(adventures_dir, f'duration_{slugify(hour)}_hours_adventures.md'), f'Adventures of {hour} Hours', filtered_adventures)
 
     # Generate pages for campaign and tier combinations
     for campaign in campaigns:
         for tier in tiers:
-            filtered_adventures = [a for a in adventures_data if ((isinstance(a.get('campaign'), list) and campaign in a.get('campaign')) or (isinstance(a.get('campaign'), str) and a.get('campaign') == campaign)) and a.get('tiers') == tier]
+            filtered_adventures = [a for a in adventures_data if (a.get('p') and campaign in a.get('p')) and str(a.get('t')) == tier]
             if filtered_adventures:
                 generate_markdown_page(os.path.join(adventures_dir, f'{slugify(campaign)}_tier_{slugify(tier)}_adventures.md'), f'Adventures in {campaign}, Tier {tier}', filtered_adventures)
 
     # Generate pages for campaign and hours combinations
     for campaign in campaigns:
         for hour in hours:
-            filtered_adventures = [a for a in adventures_data if ((isinstance(a.get('campaign'), list) and campaign in a.get('campaign')) or (isinstance(a.get('campaign'), str) and a.get('campaign') == campaign)) and a.get('hours') == hour]
+            filtered_adventures = [a for a in adventures_data if (a.get('p') and campaign in a.get('p')) and str(a.get('h')) == hour]
             if filtered_adventures:
                 generate_markdown_page(os.path.join(adventures_dir, f'{slugify(campaign)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures in {campaign}, {hour} Hours', filtered_adventures)
 
     # Generate pages for tier and hours combinations
     for tier in tiers:
         for hour in hours:
-            filtered_adventures = [a for a in adventures_data if a.get('tiers') == tier and a.get('hours') == hour]
+            filtered_adventures = [a for a in adventures_data if str(a.get('t')) == tier and str(a.get('h')) == hour]
             if filtered_adventures:
                 generate_markdown_page(os.path.join(adventures_dir, f'tier_{slugify(tier)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures Tier {tier}, {hour} Hours', filtered_adventures)
 
@@ -120,7 +131,7 @@ def main():
     for campaign in campaigns:
         for tier in tiers:
             for hour in hours:
-                filtered_adventures = [a for a in adventures_data if ((isinstance(a.get('campaign'), list) and campaign in a.get('campaign')) or (isinstance(a.get('campaign'), str) and a.get('campaign') == campaign)) and a.get('tiers') == tier and a.get('hours') == hour]
+                filtered_adventures = [a for a in adventures_data if (a.get('p') and campaign in a.get('p')) and str(a.get('t')) == tier and str(a.get('h')) == hour]
                 if filtered_adventures:
                     generate_markdown_page(os.path.join(adventures_dir, f'{slugify(campaign)}_tier_{slugify(tier)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures in {campaign}, Tier {tier}, {hour} Hours', filtered_adventures)
 

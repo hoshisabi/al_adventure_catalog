@@ -56,9 +56,7 @@ ASSETS_DATA_DIR = PROJECT_ROOT / 'assets' / 'data'
 DATA_DIR = PROJECT_ROOT / '_data'
 
 # Specific file paths
-ALL_ADVENTURES_JSON = STATS_DIR / 'all_adventures.json'
-ALL_ADVENTURES_ASSETS = ASSETS_DATA_DIR / 'all_adventures.json'
-ALL_ADVENTURES_DATA = DATA_DIR / 'all_adventures.json'
+CATALOG_JSON = ASSETS_DATA_DIR / 'catalog.json'
 STATS_JSON = ASSETS_DATA_DIR / 'stats.json'
 
 

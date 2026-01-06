@@ -15,12 +15,7 @@ GOTO :SERVE
         echo Aggregator failed.
         GOTO :EOF
     )
-    echo Copying all_adventures.json...
-    copy maintaindb\_stats\all_adventures.json assets\data\all_adventures.json
-    IF %ERRORLEVEL% NEQ 0 (
-        echo Failed to copy all_adventures.json.
-        GOTO :EOF
-    )
+    echo Aggregator finished.
     echo Building Jekyll site...
     call bundle exec jekyll build
     IF %ERRORLEVEL% NEQ 0 (

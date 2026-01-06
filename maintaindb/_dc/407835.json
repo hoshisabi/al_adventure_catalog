@@ -12,11 +12,12 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "407835",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "A Host Spurned",
     "tiers": 2,
     "title": "Writer's Block",
-    "url": "https://www.dmsguild.com/product/407835/?affiliate_id=171040",
-    "seed": "A Host Spurned"
+    "url": "https://www.dmsguild.com/product/407835/?affiliate_id=171040"
 }

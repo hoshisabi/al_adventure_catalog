@@ -71,19 +71,19 @@ function populateFilterUI() {
     // flatten all campaigns
     const allCampaigns = new Set();
     catalog.forEach(adv => {
-        if (Array.isArray(adv.ca)) {
-            adv.ca.forEach(c => allCampaigns.add(c));
-        } else if (adv.ca) {
-            allCampaigns.add(adv.ca);
+        if (Array.isArray(adv.p)) {
+            adv.p.forEach(c => allCampaigns.add(c));
+        } else if (adv.p) {
+            allCampaigns.add(adv.p);
         }
     });
     const sortedCampaigns = Array.from(allCampaigns).sort();
     populateDropdown('campaign', sortedCampaigns, 'All Campaigns');
 
-    // 2. Tiers (ti)
+    // 2. Tiers (t)
     const allTiers = new Set();
     catalog.forEach(adv => {
-        if (adv.ti !== null && adv.ti !== undefined) allTiers.add(Number(adv.ti));
+        if (adv.t !== null && adv.t !== undefined) allTiers.add(Number(adv.t));
     });
     const sortedTiers = Array.from(allTiers).sort((a, b) => Number(a) - Number(b));
     populateDropdown('tier', sortedTiers, 'All Tiers');
@@ -151,13 +151,13 @@ function applyFilters() {
     // 1. Filter
     if (filters.campaign) {
         results = results.filter(adv => {
-            const c = adv.ca;
+            const c = adv.p;
             return (Array.isArray(c) && c.includes(filters.campaign)) || c === filters.campaign;
         });
     }
 
     if (filters.tier) {
-        results = results.filter(adv => String(adv.ti) === filters.tier);
+        results = results.filter(adv => String(adv.t) === filters.tier);
     }
 
     if (filters.hours) {
@@ -196,7 +196,7 @@ function applyFilters() {
     if (filters.search) {
         const q = filters.search.toLowerCase();
         results = results.filter(adv => {
-            return (adv.t && adv.t.toLowerCase().includes(q)) ||
+            return (adv.n && adv.n.toLowerCase().includes(q)) ||
                 (adv.c && adv.c.toLowerCase().includes(q)) ||
                 (adv.a && typeof adv.a === 'string' && adv.a.toLowerCase().includes(q));
         });
@@ -212,8 +212,8 @@ function applyFilters() {
             valA = a.d || '';
             valB = b.d || '';
         } else if (field === 'title') {
-            valA = (a.t || '').toLowerCase();
-            valB = (b.t || '').toLowerCase();
+            valA = (a.n || '').toLowerCase();
+            valB = (b.n || '').toLowerCase();
         } else if (field === 'code') {
             valA = (a.c || '').toLowerCase();
             valB = (b.c || '').toLowerCase();
@@ -268,14 +268,14 @@ function createCard(adventure) {
     const card = document.createElement('div');
     card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow bg-white';
 
-    const campaign = formatList(adventure.ca) || 'Unspecified';
+    const campaign = formatList(adventure.p) || 'Unspecified';
     const hours = formatHours(adventure.h);
     const season = formatSeason(adventure.s, adventure.c);
     const authors = formatList(adventure.a) || 'N/A';
 
     card.innerHTML = `
         <a href="${adventure.u || '#'}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800 block">
-            ${adventure.t || 'Untitled'}
+            ${adventure.n || 'Untitled'}
         </a>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${adventure.c || 'N/A'}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${authors}</p>
@@ -283,7 +283,7 @@ function createCard(adventure) {
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Season:</span> ${season}</p>
         <p class="text-sm text-gray-600 mb-1">
             <span class="font-medium">Hours:</span> ${hours} &bull; 
-            <span class="font-medium">Tier:</span> ${adventure.ti !== null ? adventure.ti : 'Unspecified'}
+            <span class="font-medium">Tier:</span> ${adventure.t !== null ? adventure.t : 'Unspecified'}
         </p>
     `;
     return card;
@@ -298,6 +298,7 @@ function renderGridView(adventures, container) {
             <tr>
                 <th class="px-4 py-2 text-left border">Title</th>
                 <th class="px-4 py-2 text-left border">Code</th>
+                <th class="px-4 py-2 text-left border">Hours</th>
                 <th class="px-4 py-2 text-left border">Campaign</th>
                 <th class="px-4 py-2 text-left border">Tier</th>
             </tr>
@@ -310,10 +311,11 @@ function renderGridView(adventures, container) {
         const row = document.createElement('tr');
         row.className = 'hover:bg-gray-50';
         row.innerHTML = `
-             <td class="px-4 py-2 border"><a href="${adv.u}" target="_blank" class="text-blue-600 hover:underline">${adv.t}</a></td>
+             <td class="px-4 py-2 border"><a href="${adv.u}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
              <td class="px-4 py-2 border">${adv.c || ''}</td>
-             <td class="px-4 py-2 border">${formatList(adv.ca)}</td>
-             <td class="px-4 py-2 border">${adv.ti !== null ? adv.ti : ''}</td>
+             <td class="px-4 py-2 border">${formatHours(adv.h)}</td>
+             <td class="px-4 py-2 border">${formatList(adv.p)}</td>
+             <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
         `;
         tbody.appendChild(row);
     });

@@ -1,3 +1,20 @@
+"""
+Aggregates individual adventure JSON files from `_dc/` into a minified `catalog.json`.
+
+This script processes all JSON files in the `_dc/` directory, normalizes adventure data 
+(codes, campaigns, tiers, hours, seasons), and generates a consolidated catalog 
+used by the Jekyll site's filtering system.
+
+Key features:
+- Data normalization for consistent filtering (campaigns as lists, integer tiers, string hours).
+- DDAL/DDEX code normalization (e.g., DDEX3 -> DDEX03).
+- Intelligent season formatting (e.g., "11 - The Wild Beyond the Witchlight").
+- Minified output payload with abbreviated keys to reduce file size.
+- Automatic affiliate ID injection for DMsGuild URLs.
+
+Output:
+- `assets/data/catalog.json`: Minified JSON file with abbreviated keys.
+"""
 import pathlib
 import os
 import logging
@@ -85,6 +102,26 @@ def __add_to_map(data, aggregated_by_dc_code):
         aggregated_by_dc_code[grouping_key.upper()].append(data)
 
 def aggregate():
+    """
+    Main aggregation function.
+    
+    1. Reads all .json files from DC_DIR.
+    2. Filters for `is_adventure == True`.
+    3. Normalizes fields: campaigns (list), tiers (int), hours (str).
+    4. Formats seasons using SEASONS lookup and custom mappings.
+    5. Maps data to abbreviated keys:
+       - i: product_id
+       - n: title
+       - c: code
+       - a: authors
+       - p: campaigns
+       - s: season
+       - h: hours
+       - t: tiers
+       - u: url
+       - d: date_created
+    6. Writes minified JSON to `assets/data/catalog.json`.
+    """
     aggregated_by_dc_code = defaultdict(list)
     for code in DC_CAMPAIGNS:
         aggregated_by_dc_code[code.upper()] = []
@@ -194,26 +231,26 @@ def aggregate():
                      formatted_season = r_str
             
         # Minified Payload with Abbreviated Keys
-        # id: product_id
-        # t: title/full_title
+        # i: product_id (was id)
+        # n: title/full_title (was t)
         # c: code
         # a: authors
-        # ca: campaigns
+        # p: campaigns (was ca)
         # s: season
         # h: hours
-        # ti: tiers
+        # t: tiers (was ti)
         # u: url
         # d: date_created
         
         entry = {
-            'id': adventure.get('product_id'),
-            't': adventure.get('title') or adventure.get('full_title'),
+            'i': adventure.get('product_id'),
+            'n': adventure.get('title') or adventure.get('full_title'),
             'c': adventure.get('code'),
             'a': adventure.get('authors'),
-            'ca': adventure.get('campaigns'),
+            'p': adventure.get('campaigns'),
             's': formatted_season, 
             'h': adventure.get('hours'),
-            'ti': adventure.get('tiers'),
+            't': adventure.get('tiers'),
             'u': adventure.get('url'),
             'd': adventure.get('date_created')
         }

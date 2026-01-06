@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-ECHO-04 Return to Echo Three",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "447491",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Return to Echo Three",
-    "url": "https://www.dmsguild.com/product/447491/SJDCECHO04-Return-to-Echo-Three?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/447491/SJDCECHO04-Return-to-Echo-Three?filters=0_0_100057_0_0_0_0_0"
 }

@@ -11,8 +11,11 @@
     "full_title": "Oni of the Thousand Gates (FR-DC-ONI-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "474962",
+    "season": null,
     "tiers": 2,
     "title": "Oni of the Thousand Gates",
     "url": "https://www.dmsguild.com/product/474962/Oni-of-the-Thousand-Gates-FRDCONI01?filters=0_0_100057_0_0_0_0_0"
