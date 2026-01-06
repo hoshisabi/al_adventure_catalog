@@ -247,9 +247,9 @@ class DungeonCraft:
             # Try case-insensitive matching for code removal using normalized title
             normalized_t_lower = normalized_t.lower()
             code_lower = code_str.lower()
-            # Try to remove code with various possible separators (space, dash, or nothing)
+            # Try to remove code with various possible separators (space, dash, colon, or nothing)
             code_removed = False
-            for separator in [' ', '-', '']:
+            for separator in [' ', '-', ':', '']:
                 code_prefix_lower = code_lower + separator
                 if normalized_t_lower.startswith(code_prefix_lower):
                     # Find the actual length to remove (preserving original case)
@@ -1408,8 +1408,8 @@ def get_dc_code_and_campaign(product_title):
     content = str(product_title).upper().split()
     for text in content:
         text = text.replace(',', '').replace(
-            '(', '').replace(')', '').replace("'", '').replace(':', '-')
-        text = text.strip()
+            '(', '').replace(')', '').replace("'", '').replace(':', '')
+        text = text.strip().rstrip('-').rstrip('.')
         if text:
             # Special case: "BK-XX-XX" codes should be treated as "PO-BK" variants
             # This handles cases where the HTML doesn't include the "PO-" prefix
