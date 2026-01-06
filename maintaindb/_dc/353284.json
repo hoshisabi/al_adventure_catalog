@@ -1,6 +1,6 @@
 {
     "apl": 3,
-    "authors": null,
+    "authors": [],
     "campaigns": [
         "Forgotten Realms"
     ],
@@ -10,11 +10,12 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "353284",
     "season": "Icewind Dale",
+    "seed": "I'd Like to Make a Return, Please",
     "tiers": 1,
     "title": "A Thief in the White",
-    "url": "https://www.dmsguild.com/product/353284?affiliate_id=171040",
-    "seed": "I'd Like to Make a Return, Please"
+    "url": "https://www.dmsguild.com/product/353284?affiliate_id=171040"
 }

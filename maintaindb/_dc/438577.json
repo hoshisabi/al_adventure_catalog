@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "JWei伟"
+        "JWei\u4f1f"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -9,12 +9,15 @@
     "code": "SJ-DC-ROTU-00",
     "date_created": "20230522",
     "full_title": "SJ-DC-ROTU-00 Recesses of the Unknown, Prologue",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "438577",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Recesses of the Unknown, Prologue",
-    "url": "https://www.dmsguild.com/product/438577/SJDCROTU00-Recesses-of-the-Unknown-Prologue?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/438577/SJDCROTU00-Recesses-of-the-Unknown-Prologue?filters=0_0_100057_0_0_0_0_0"
 }

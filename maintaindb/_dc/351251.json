@@ -12,11 +12,12 @@
     "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "351251",
     "season": "Icewind Dale",
+    "seed": "A Dark Horse",
     "tiers": 1,
     "title": "The Rider in Black",
-    "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040",
-    "seed": "A Dark Horse"
+    "url": "https://www.dmsguild.com/product/351251/?affiliate_id=171040"
 }

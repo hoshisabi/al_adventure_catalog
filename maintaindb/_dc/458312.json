@@ -10,12 +10,15 @@
     "code": "SJ-DC-NOS-05",
     "date_created": "20231029",
     "full_title": "The Lich Queen's Forgotten (SJ-DC-NOS-05)",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "458312",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "The Lich Queen's Forgotten",
-    "url": "https://www.dmsguild.com/product/458312/The-Lich-Queens-Forgotten-SJDCNOS05?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/458312/The-Lich-Queens-Forgotten-SJDCNOS05?filters=0_0_100057_0_0_0_0_0"
 }

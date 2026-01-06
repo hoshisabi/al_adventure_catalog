@@ -11,10 +11,13 @@
     "full_title": "SJ-DC-MONSTER-04 Tempest",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "465560",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Tempest",
-    "url": "https://www.dmsguild.com/product/465560/SJDCMONSTER04-Tempest?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465560/SJDCMONSTER04-Tempest?filters=45470_0_0_0_0_0_0_0"
 }

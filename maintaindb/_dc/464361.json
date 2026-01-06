@@ -11,10 +11,13 @@
     "full_title": "The Floof From Planet Floof (SJ-DC-FLF-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": false,
+    "price": 2.99,
     "product_id": "464361",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "The Floof From Planet Floof",
-    "url": "https://www.dmsguild.com/product/464361/The-Floof-From-Planet-Floof-SJDCFLF01?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/464361/The-Floof-From-Planet-Floof-SJDCFLF01?filters=45470_0_0_0_0_0_0_0"
 }

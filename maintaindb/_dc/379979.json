@@ -11,10 +11,14 @@
     "full_title": "WBW-DC-DCAF02 Harengon Harana",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": true,
+    "price": 2.0,
     "product_id": "379979",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
+    "suggestedPrice": 2.0,
     "tiers": 1,
     "title": "Harengon Harana",
-    "url": "https://www.dmsguild.com/product/379979/WBWDCDCAF02-Harengon-Harana?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/379979/WBWDCDCAF02-Harengon-Harana?filters=0_0_100057_0_0_0_0_0"
 }

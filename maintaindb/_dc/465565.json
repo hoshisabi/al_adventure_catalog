@@ -11,10 +11,14 @@
     "full_title": "SJ-DC-TBE-04 A Space Rendezvous",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 1.0,
     "product_id": "465565",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
+    "suggestedPrice": 1.0,
     "tiers": 2,
     "title": "A Space Rendezvous",
-    "url": "https://www.dmsguild.com/product/465565/SJDCTBE04-A-Space-Rendezvous?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/465565/SJDCTBE04-A-Space-Rendezvous?filters=0_0_100057_0_0_0_0_0"
 }

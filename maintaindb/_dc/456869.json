@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "JWei伟"
+        "JWei\u4f1f"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -9,12 +9,15 @@
     "code": "SJ-DC-PANDORA-JWEI-02",
     "date_created": "20231017",
     "full_title": "SJ-DC-PANDORA-JWEI-02, Pleonexia",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 6.99,
     "product_id": "456869",
+    "season": "Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Pleonexia",
-    "url": "https://www.dmsguild.com/product/456869/SJDCPANDORAJWEI02-Pleonexia?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/456869/SJDCPANDORAJWEI02-Pleonexia?filters=0_0_100057_0_0_0_0_0"
 }
