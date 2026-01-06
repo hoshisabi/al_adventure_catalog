@@ -241,6 +241,7 @@ def aggregate():
         # t: tiers (was ti)
         # u: url
         # d: date_created
+        # e: seed
         
         entry = {
             'i': adventure.get('product_id'),
@@ -252,7 +253,8 @@ def aggregate():
             'h': adventure.get('hours'),
             't': adventure.get('tiers'),
             'u': adventure.get('url'),
-            'd': adventure.get('date_created')
+            'd': adventure.get('date_created'),
+            'e': adventure.get('seed')
         }
         catalog.append(entry)
         

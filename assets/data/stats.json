@@ -1,45 +1,46 @@
 {
     "tier": {
-        "Tier 1": 814,
+        "Tier 1": 816,
         "Tier 2": 842,
         "Tier 3": 334,
         "Tier 4": 84,
-        "Unknown": 11
+        "Unknown": 12
     },
     "duration": {
         "1 Hours": 23,
-        "2 Hours": 608,
-        "All Others": 213,
-        "4 Hours": 1441,
+        "2 Hours": 614,
+        "All Others": 217,
+        "4 Hours": 1468,
         "8 Hours": 11,
-        "6 Hours": 50,
-        "Unknown": 87
+        "6 Hours": 51,
+        "Unknown": 57
     },
     "campaign": {
-        "Forgotten Realms": 1945,
+        "Forgotten Realms": 1948,
         "Ravenloft": 50,
-        "Unknown": 17,
-        "Eberron": 68,
+        "Unknown": 16,
+        "Eberron": 69,
         "Dragonlance": 20
     },
     "season": {
-        "Tyranny of Dragons": 14,
-        "Elemental Evil": 16,
-        "Rage of Demons": 18,
-        "Curse of Strahd": 14,
-        "Unknown": 1357,
-        "Storm King's Thunder": 20,
-        "Tales From the Yawning Portal": 3,
-        "Tomb of Annihilation": 25,
-        "Waterdeep": 20,
-        "Avernus Rising": 20,
-        "Plague of Ancients": 19,
+        "1 - Tyranny of Dragons": 15,
+        "2 - Elemental Evil": 16,
+        "3 - Rage of Demons": 18,
+        "4 - Curse of Strahd": 14,
+        "Unknown": 1268,
+        "5 - Storm King's Thunder": 20,
+        "6 - Tales From the Yawning Portal": 3,
+        "7 - Tomb of Annihilation": 25,
+        "8 - Waterdeep": 20,
+        "9 - Avernus Rising": 20,
+        "DC-POA - Plague of Ancients": 20,
         "Icewind Dale": 137,
-        "Ravenloft Mist Hunters": 2,
-        "The Wild Beyond the Witchlight": 168,
-        "Spelljammer": 154,
-        "Planescape": 96,
-        "Ravenloft Dungeoncraft": 2
+        "RMH - Ravenloft Mist Hunters": 13,
+        "WBW-DC - The Wild Beyond the Witchlight": 183,
+        "SJ-DC - Spelljammer": 205,
+        "RV-DC - Ravenloft Dungeoncraft": 8,
+        "PS-DC - Planescape": 101,
+        "EB-DC - Eberron Dungeoncraft": 2
     },
     "seed_by_season": {
         "Plague of Ancients (DC-POA)": {

@@ -96,7 +96,8 @@ def generate_stats():
             't': 'tiers',
             'p': 'campaigns',
             's': 'season',
-            'u': 'url'
+            'u': 'url',
+            'e': 'seed'
         }
         
         for entry in raw_catalog:
