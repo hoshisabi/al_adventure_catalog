@@ -60,6 +60,9 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Need to verify data accuracy, add error handling, and ensure graphs render correctly
 
 ## Medium Priority
+- [ ] For adventures with missing information, we can make our audit tools provide a link to the Warhorn site,
+      which can have a URL like this: https://warhorn.net/organized-play/p/dnd-adventurers-league?q=(keyword)
+      where keyword could be the code or the title
 
 ### New Tools
 

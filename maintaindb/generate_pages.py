@@ -85,7 +85,8 @@ def main():
     for a in adventures_data:
         if a.get('p'):
             for c in a['p']:
-                all_campaigns.add(c)
+                if c:
+                    all_campaigns.add(c)
     campaigns = sorted(list(all_campaigns))
     
     hours = sorted(list(set(str(a['h']) for a in adventures_data if a.get('h'))))

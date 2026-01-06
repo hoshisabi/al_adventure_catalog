@@ -152,11 +152,13 @@ def get_patt_first_matching_group(regex, text):
 
 class DungeonCraft:
 
-    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl, level_range, url, campaigns,
+    def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl=None, level_range=None, url=None, campaigns=None,
                  season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None, seed=None) -> None:
         self.product_id = product_id
-        self.full_title = title
+        self.full_title = title if title != "None" else None
         self.title = self.__get_short_title(title, code).strip()
+        if not self.title or self.title == "None":
+            self.title = None
         self.authors = authors
         self.code = code
         self.date_created = date_created
@@ -226,6 +228,8 @@ class DungeonCraft:
 
     def __get_short_title(self, title, code=None):
         """Extract a short title by removing code fragments and formatting markers."""
+        if title is None or str(title) == "None":
+            return ""
         t = str(title)
         original_title = t  # Keep original for fallback
         
@@ -432,12 +436,19 @@ def _extract_title_from_html(parsed_html):
         if title_tag and title_tag.text:
             title_result = title_tag.text
     
-    # Clean metadata from extracted title
+    # If title_result is a placeholder or generic, set to None so we don't save it
     if title_result:
         title_result = _clean_title_metadata(title_result)
         
-        # Handle "Dungeon Masters Guild - " (empty) titles for removed products
-        if title_result.strip() == "Dungeon Masters Guild -" or title_result.strip() == "Dungeon Masters Guild":
+        # Handle generic titles for removed products
+        generic_titles = [
+            "Dungeon Masters Guild",
+            "Dungeon Masters Guild -",
+            "Dungeon Masters Guild - Product Not Found",
+            "Product Not Found",
+            "None"
+        ]
+        if title_result.strip() in generic_titles:
             title_result = None
     
     return title_result
@@ -1227,19 +1238,25 @@ def _infer_missing_adventure_data(data):
     is_roll20 = 'roll20' in lower_full_title
     is_fg = 'fantasy grounds' in lower_full_title
 
-    # It's an adventure if it has a code AND is not excluded by keywords
-    code = data.get("code")
-    # Debug: Check if code is truthy (not None, not empty string)
-    if code and (code.strip() if isinstance(code, str) else code):
-        if not is_bundle and not is_roll20 and not is_fg:
-            data["is_adventure"] = True
+    # If is_adventure is not explicitly provided, we try to infer it
+    if data.get("is_adventure") is None:
+        # It's an adventure if it has a code AND is not excluded by keywords
+        code = data.get("code")
+        # Debug: Check if code is truthy (not None, not empty string)
+        if code and (code.strip() if isinstance(code, str) else code):
+            if not is_bundle and not is_roll20 and not is_fg:
+                data["is_adventure"] = True
+            else:
+                data["is_adventure"] = False
         else:
             data["is_adventure"] = False
-    elif data.get("is_adventure") is True:
-        # Keep it as an adventure if it was already marked as one
-        pass
-    else:
-        data["is_adventure"] = False
+    elif data.get("is_adventure") is False:
+         # If it was explicitly False, but now has a code, maybe it's an adventure now?
+         code = data.get("code")
+         if code and (code.strip() if isinstance(code, str) else code):
+            if not is_bundle and not is_roll20 and not is_fg:
+                data["is_adventure"] = True
+    # If is_adventure is already True, we keep it True (persistence for removed products)
     
     # Flag for human review if title (module_name) couldn't be extracted
     # This indicates the title wasn't in the HTML and may need manual entry
@@ -1433,6 +1450,14 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
     Returns:
         Merged dictionary of adventure data
     """
+    # If new_data has generic/null title, preserve existing title even in force mode
+    generic_titles = ["None", "Product Not Found", "Dungeon Masters Guild"]
+    if existing_data:
+        if not new_data.get("module_name") or new_data.get("module_name") in generic_titles:
+            new_data["module_name"] = existing_data.get("module_name")
+        if not new_data.get("full_title") or new_data.get("full_title") in generic_titles:
+            new_data["full_title"] = existing_data.get("full_title")
+
     merged_data = new_data.copy()  # Start with all keys from new_data
 
     if force_overwrite:
@@ -1499,6 +1524,11 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     """
     raw_data = _extract_raw_data_from_html(parsed_html, product_id)
     normalized_data = _normalize_and_convert_data(raw_data)
+    
+    # Pre-set is_adventure if we already know it is one
+    if existing_data and existing_data.get("is_adventure"):
+        normalized_data["is_adventure"] = True
+
     new_data = _infer_missing_adventure_data(normalized_data)
     
     # Ensure is_adventure is set correctly after inference
@@ -1507,6 +1537,10 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         title_check = (new_data.get("module_name") or new_data.get("full_title") or "").lower()
         if not any(keyword in title_check for keyword in ['bundle', 'compendium', 'roll20', 'fantasy grounds']):
             new_data["is_adventure"] = True
+
+    # If it was an adventure before and we have NO code now (removed product), keep it an adventure
+    if existing_data and existing_data.get("is_adventure") and not new_data.get("code"):
+        new_data["is_adventure"] = True
 
     return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
 
