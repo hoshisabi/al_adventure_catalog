@@ -11,8 +11,11 @@
     "full_title": "The March of the Manticore (FR-DC-GHG-03)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 1.99,
     "product_id": "471339",
+    "season": null,
     "tiers": 1,
     "title": "The March of the Manticore",
     "url": "https://www.dmsguild.com/product/471339/The-March-of-the-Manticore-FRDCGHG03?filters=0_0_100057_0_0_0_0_0"

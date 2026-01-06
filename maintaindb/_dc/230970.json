@@ -11,6 +11,7 @@
     "full_title": "DDIA-XGE Underworld Speculation",
     "hours": "2",
     "is_adventure": true,
+    "suppress_missing_html": true,
     "level_range": "1-4",
     "price": null,
     "product_id": "230970",

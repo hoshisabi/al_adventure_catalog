@@ -12,7 +12,11 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
+    "payWhatYouWant": true,
+    "price": 3.99,
     "product_id": "306912",
+    "season": null,
+    "suggestedPrice": 3.99,
     "tiers": 2,
     "title": "Ghost Town",
     "url": "https://www.dmsguild.com/product/306912/Ghost-Town?filters=1000043_0_0_0_0_0_0_0"

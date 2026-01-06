@@ -9,12 +9,15 @@
     "code": "DC-POA-NB-01",
     "date_created": "20201226",
     "full_title": "DC-PoA-NB-01 Iruladoon Awakens",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "341245",
+    "season": "Plague of Ancients",
+    "seed": "Awake and Afraid",
     "tiers": 1,
     "title": "Iruladoon Awakens",
-    "url": "https://www.dmsguild.com/product/341245/DCPoANB01-Iruladoon-Awakens?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Awake and Afraid"
+    "url": "https://www.dmsguild.com/product/341245/DCPoANB01-Iruladoon-Awakens?filters=0_0_100057_0_0_0_0_0"
 }

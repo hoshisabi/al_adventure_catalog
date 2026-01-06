@@ -13,7 +13,10 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 2.95,
     "product_id": "284824",
+    "season": null,
     "tiers": 1,
     "title": "Shadowed Bellview",
     "url": "https://www.dmsguild.com/product/284824/Shadowed-Bellview?filters=45470_0_0_0_0_0_0_0"

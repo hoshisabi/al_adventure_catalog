@@ -12,8 +12,11 @@
     "full_title": "PS-DC-POP-01 Pillars of Peril",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "17-20",
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "472724",
+    "season": "Planescape",
     "tiers": 4,
     "title": "Pillars of Peril",
     "url": "https://www.dmsguild.com/product/472724/PSDCPOP01-Pillars-of-Peril?filters=0_0_100057_0_0_0_0_0"
