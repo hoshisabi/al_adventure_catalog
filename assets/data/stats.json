@@ -4,7 +4,7 @@
         "Tier 2": 844,
         "Tier 3": 334,
         "Tier 4": 84,
-        "Unknown": 12
+        "Unknown": 11
     },
     "duration": {
         "1 Hours": 23,
@@ -13,17 +13,17 @@
         "4 Hours": 1472,
         "8 Hours": 11,
         "6 Hours": 51,
-        "Unknown": 57
+        "Unknown": 56
     },
     "campaign": {
-        "Forgotten Realms": 1952,
+        "Forgotten Realms": 1951,
         "Ravenloft": 50,
         "Unknown": 16,
         "Eberron": 69,
         "Dragonlance": 20
     },
     "season": {
-        "1 - Tyranny of Dragons": 15,
+        "1 - Tyranny of Dragons": 14,
         "2 - Elemental Evil": 16,
         "3 - Rage of Demons": 18,
         "4 - Curse of Strahd": 14,
