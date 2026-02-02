@@ -107,7 +107,14 @@ function populateFilterUI() {
     // Use ONLY the explicit season field which should be normalized by backend
     const allSeasons = new Set();
     catalog.forEach(adv => {
-        if (adv.s) allSeasons.add(adv.s);
+        if (adv.s) {
+            let s = adv.s;
+            // Normalize Icewind Dale and Plague of Ancients
+            if (s === "Icewind Dale" || s === "Plague of Ancients") {
+                s = "Icewind Dale (Plague of Ancients)";
+            }
+            allSeasons.add(s);
+        }
     });
     const sortedSeasons = Array.from(allSeasons).sort((a, b) => {
         // Extract leading number for sort (e.g., "1 - Name" -> 1)
@@ -185,6 +192,12 @@ function applyFilters() {
         results = results.filter(adv => {
             // Explicit match
             if (adv.s && String(adv.s) === filters.season) return true;
+            
+            // Handle merged season
+            if (filters.season === "Icewind Dale (Plague of Ancients)") {
+                return adv.s === "Icewind Dale" || adv.s === "Plague of Ancients";
+            }
+            
             return false;
         });
     }
@@ -335,6 +348,9 @@ function formatHours(val) {
 }
 
 function formatSeason(season, code) {
+    if (season === "Icewind Dale" || season === "Plague of Ancients") {
+        return "Icewind Dale (Plague of Ancients)";
+    }
     return season || 'Unspecified';
 }
 

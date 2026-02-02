@@ -1,22 +1,22 @@
 {
     "tier": {
         "Tier 1": 818,
-        "Tier 2": 844,
-        "Tier 3": 334,
+        "Tier 2": 846,
+        "Tier 3": 335,
         "Tier 4": 84,
-        "Unknown": 11
+        "Unknown": 12
     },
     "duration": {
         "1 Hours": 23,
         "2 Hours": 614,
         "All Others": 217,
-        "4 Hours": 1472,
+        "4 Hours": 1474,
         "8 Hours": 11,
         "6 Hours": 51,
-        "Unknown": 56
+        "Unknown": 58
     },
     "campaign": {
-        "Forgotten Realms": 1951,
+        "Forgotten Realms": 1955,
         "Ravenloft": 50,
         "Unknown": 16,
         "Eberron": 69,
@@ -27,23 +27,23 @@
         "2 - Elemental Evil": 16,
         "3 - Rage of Demons": 18,
         "4 - Curse of Strahd": 14,
-        "Unknown": 1272,
+        "Unknown": 1273,
         "5 - Storm King's Thunder": 20,
         "6 - Tales From the Yawning Portal": 3,
         "7 - Tomb of Annihilation": 25,
         "8 - Waterdeep": 20,
         "9 - Avernus Rising": 20,
-        "DC-POA - Plague of Ancients": 20,
+        "Plague of Ancients": 20,
         "Icewind Dale": 137,
         "RMH - Ravenloft Mist Hunters": 13,
-        "WBW-DC - The Wild Beyond the Witchlight": 183,
+        "WBW-DC - The Wild Beyond the Witchlight": 186,
         "SJ-DC - Spelljammer": 205,
         "RV-DC - Ravenloft Dungeoncraft": 8,
         "PS-DC - Planescape": 101,
         "EB-DC - Eberron Dungeoncraft": 2
     },
     "seed_by_season": {
-        "Plague of Ancients (DC-POA)": {
+        "Icewind Dale (Plague of Ancients)": {
             "Awake and Afraid": 12,
             "Out of the Woods": 10,
             "Chwinga-chwinga. CHWINGA!": 3,

@@ -12,11 +12,13 @@
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
+    "module_name": null,
+    "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "408092",
     "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Paradise In  The Tidalbore Isles",
-    "url": "https://www.dmsguild.com/product/408092/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408092/?affiliate_id=171040"
 }

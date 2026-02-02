@@ -13,7 +13,7 @@ SEASONS = {
     'WBW-DC': "The Wild Beyond the Witchlight",
     'SJ-DC': "Spelljammer",
     'PS-DC': "Planescape",
-    'DC-POA': "Plague of Ancients",  # Changed from "Icewind Dale" - they are synonyms
+    'DC-POA': "Icewind Dale (Plague of Ancients)",  # Changed from "Plague of Ancients"
     'EB-EP': "Oracle of War",  # Eberron Oracle of War (EB-EP-??) - check before EB-
     'EB-SM': "Salvage Missions",  # Eberron Salvage Missions (EB-SM-???) - deprecated, no new entries - check before EB-
     'EB-DC': "Eberron Dungeoncraft",  # Eberron Dungeoncraft - check before EB-
@@ -30,12 +30,13 @@ SEASONS = {
     7: "Tomb of Annihilation",
     8: "Waterdeep",
     9: "Avernus Rising",
-    10: "Plague of Ancients",
+    10: "Icewind Dale (Plague of Ancients)", # Changed from "Plague of Ancients"
 }
 
 # Season name normalization: map synonyms to canonical names
 SEASON_NORMALIZATION = {
-    "Icewind Dale": "Plague of Ancients",
+    "Icewind Dale": "Icewind Dale (Plague of Ancients)",
+    "Plague of Ancients": "Icewind Dale (Plague of Ancients)",
 }
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',

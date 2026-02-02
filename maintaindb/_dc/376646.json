@@ -12,9 +12,13 @@
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
+    "module_name": null,
+    "payWhatYouWant": false,
+    "price": 3.99,
     "product_id": "376646",
+    "season": "The Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "A Fey King's Ransom",
-    "url": "https://www.dmsguild.com/product/376646/WBWDCCBB01-A-Fey-Kings-Ransom?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/376646/WBWDCCBB01-A-Fey-Kings-Ransom?filters=0_0_100057_0_0_0_0_0"
 }

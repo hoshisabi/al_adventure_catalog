@@ -68,7 +68,7 @@ def process_downloads():
 
             # Construct the DungeonCraft object
             dc_hours = str(data.get("hours")) if data.get("hours") is not None else None
-            dc = DungeonCraft(product_id, data["module_name"], data["authors"], data["code"], data["date_created"],
+            dc = DungeonCraft(product_id, data["full_title"], data["authors"], data["code"], data["date_created"],
                               dc_hours, data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"],
                               data.get("season"), data["is_adventure"], data["price"],
                               data.get("payWhatYouWant"), data.get("suggestedPrice"), data.get("needs_review"))

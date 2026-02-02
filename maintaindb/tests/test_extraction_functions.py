@@ -360,28 +360,28 @@ def test_extract_game_stats_from_text_all_stats():
 
 def test_infer_tier_from_apl_tier1():
     """Test deriving Tier 1 from APL in range 1-4."""
-    data = {"tiers": None, "apl": 3, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": 3, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 1
 
 
 def test_infer_tier_from_apl_tier2():
     """Test deriving Tier 2 from APL in range 5-10."""
-    data = {"tiers": None, "apl": 7, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": 7, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 2
 
 
 def test_infer_tier_from_apl_tier3():
     """Test deriving Tier 3 from APL in range 11-16."""
-    data = {"tiers": None, "apl": 13, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": 13, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 3
 
 
 def test_infer_tier_from_apl_tier4():
     """Test deriving Tier 4 from APL in range 17-20."""
-    data = {"tiers": None, "apl": 18, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": 18, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 4
 
@@ -395,35 +395,35 @@ def test_infer_tier_from_apl_boundary_values():
         (17, 4), (20, 4),  # Tier 4 boundaries
     ]
     for apl, expected_tier in test_cases:
-        data = {"tiers": None, "apl": apl, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+        data = {"tiers": None, "apl": apl, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
         result = adventure._infer_missing_adventure_data(data)
         assert result["tiers"] == expected_tier, f"APL {apl} should map to Tier {expected_tier}"
 
 
 def test_infer_tier_from_level_range_tier1():
     """Test deriving Tier 1 from level range 1-4."""
-    data = {"tiers": None, "apl": None, "level_range": "1-4", "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": None, "level_range": "1-4", "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 1
 
 
 def test_infer_tier_from_level_range_tier2():
     """Test deriving Tier 2 from level range 5-10."""
-    data = {"tiers": None, "apl": None, "level_range": "5-10", "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": None, "level_range": "5-10", "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 2
 
 
 def test_infer_tier_from_level_range_tier3():
     """Test deriving Tier 3 from level range 11-16."""
-    data = {"tiers": None, "apl": None, "level_range": "11-16", "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": None, "level_range": "11-16", "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 3
 
 
 def test_infer_tier_from_level_range_tier4():
     """Test deriving Tier 4 from level range 17-20."""
-    data = {"tiers": None, "apl": None, "level_range": "17-20", "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": None, "apl": None, "level_range": "17-20", "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 4
 
@@ -431,70 +431,70 @@ def test_infer_tier_from_level_range_tier4():
 def test_infer_tier_from_level_range_prefers_apl():
     """Test that APL takes precedence over level range for tier inference."""
     # If both APL and level_range are present, APL should be used
-    data = {"tiers": None, "apl": 8, "level_range": "1-4", "module_name": "Test Adventure", "code": "TEST-01"}  # APL suggests Tier 2, level_range suggests Tier 1
+    data = {"tiers": None, "apl": 8, "level_range": "1-4", "full_title": "Test Adventure", "code": "TEST-01"}  # APL suggests Tier 2, level_range suggests Tier 1
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 2  # Should use APL
 
 
 def test_infer_level_range_from_tier_tier1():
     """Test deriving level range 1-4 from Tier 1."""
-    data = {"tiers": 1, "apl": None, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": 1, "apl": None, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "1-4"
 
 
 def test_infer_level_range_from_tier_tier2():
     """Test deriving level range 5-10 from Tier 2."""
-    data = {"tiers": 2, "apl": None, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": 2, "apl": None, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "5-10"
 
 
 def test_infer_level_range_from_tier_tier3():
     """Test deriving level range 11-16 from Tier 3."""
-    data = {"tiers": 3, "apl": None, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": 3, "apl": None, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "11-16"
 
 
 def test_infer_level_range_from_tier_tier4():
     """Test deriving level range 17-20 from Tier 4."""
-    data = {"tiers": 4, "apl": None, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": 4, "apl": None, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "17-20"
 
 
 def test_infer_level_range_from_tier_overrides_invalid():
     """Test that invalid level_range is overridden by tier-derived value."""
-    data = {"tiers": 2, "apl": None, "level_range": "invalid", "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": 2, "apl": None, "level_range": "invalid", "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "5-10"
 
 
 def test_infer_level_range_from_tier_overrides_empty():
     """Test that empty level_range is overridden by tier-derived value."""
-    data = {"tiers": 3, "apl": None, "level_range": "", "module_name": "Test Adventure", "code": "TEST-01"}
+    data = {"tiers": 3, "apl": None, "level_range": "", "full_title": "Test Adventure", "code": "TEST-01"}
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "11-16"
 
 
 def test_infer_level_range_from_tier_preserves_valid():
     """Test that valid existing level_range is preserved."""
-    data = {"tiers": 2, "apl": None, "level_range": "5-8", "module_name": "Test Adventure", "code": "TEST-01"}  # Valid but different from default
+    data = {"tiers": 2, "apl": None, "level_range": "5-8", "full_title": "Test Adventure", "code": "TEST-01"}  # Valid but different from default
     result = adventure._infer_missing_adventure_data(data)
     assert result["level_range"] == "5-8"  # Should preserve existing valid range
 
 
 def test_infer_no_override_existing_tier():
     """Test that existing tier is not overridden."""
-    data = {"tiers": 3, "apl": 5, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}  # APL suggests Tier 2, but tier is already set
+    data = {"tiers": 3, "apl": 5, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}  # APL suggests Tier 2, but tier is already set
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 3  # Should preserve existing tier
 
 
 def test_infer_cascade_apl_to_tier_to_level_range():
     """Test inference cascade: APL -> Tier -> Level Range."""
-    data = {"tiers": None, "apl": 12, "level_range": None, "module_name": "Test Adventure", "code": "TEST-01"}  # APL 12 -> Tier 3 -> Level 11-16
+    data = {"tiers": None, "apl": 12, "level_range": None, "full_title": "Test Adventure", "code": "TEST-01"}  # APL 12 -> Tier 3 -> Level 11-16
     result = adventure._infer_missing_adventure_data(data)
     assert result["tiers"] == 3
     assert result["level_range"] == "11-16"
