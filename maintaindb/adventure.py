@@ -1020,10 +1020,10 @@ def _extract_raw_data_from_html(parsed_html, product_id):
         product_id: Product ID string
         
     Returns:
-        Dictionary of raw extracted data with keys like module_name, authors, hours_raw, etc.
+        Dictionary of raw extracted data with keys like full_title, authors, hours_raw, etc.
     """
     raw_data = {
-        "module_name": None,
+        "full_title": None,
         "authors": [],
         "date_created": None,
         "hours_raw": None,
@@ -1037,7 +1037,7 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     }
 
     # Extract basic fields using helper functions
-    raw_data["module_name"] = _extract_title_from_html(parsed_html)
+    raw_data["full_title"] = _extract_title_from_html(parsed_html)
     raw_data["authors"] = _extract_authors_from_html(parsed_html)
     raw_data["date_created"] = _extract_date_from_html(parsed_html)
     
@@ -1095,7 +1095,7 @@ def _normalize_and_convert_data(raw_data):
         processed_authors = []
     
     processed_data = {
-        "module_name": raw_data["module_name"],
+        "full_title": raw_data["full_title"],
         "authors": processed_authors,
         "code": None,
         "date_created": raw_data["date_created"],
@@ -1124,9 +1124,9 @@ def _normalize_and_convert_data(raw_data):
     if processed_data["payWhatYouWant"] and processed_data["price"] is None and processed_data["suggestedPrice"] is not None:
         processed_data["price"] = processed_data["suggestedPrice"]
 
-    if processed_data["module_name"]:
+    if processed_data["full_title"]:
         # Use get_adventure_code_and_campaigns for better pattern matching
-        code_from_title, campaigns_from_title = get_adventure_code_and_campaigns(processed_data["module_name"])
+        code_from_title, campaigns_from_title = get_adventure_code_and_campaigns(processed_data["full_title"])
         if code_from_title:
             # Normalize code to all uppercase
             processed_data["code"] = code_from_title.upper()
@@ -1167,8 +1167,8 @@ def _normalize_and_convert_data(raw_data):
     processed_data["tiers"] = str_to_int(raw_data["tiers_raw"])
     processed_data["level_range"] = raw_data["level_range_raw"]
     
-    # Also set full_title to match module_name for compatibility
-    processed_data["full_title"] = processed_data["module_name"]
+    # Also set full_title for compatibility
+    processed_data["full_title"] = processed_data["full_title"]
 
     return processed_data
 
@@ -1226,8 +1226,8 @@ def _infer_missing_adventure_data(data):
             data["level_range"] = derived_level_range
 
     # Determine if it's an adventure
-    # Check both module_name and full_title (for compatibility with different data structures)
-    title_for_check = data.get("module_name") or data.get("full_title") or ""
+    # Check full_title
+    title_for_check = data.get("full_title") or ""
     if not title_for_check:
         # If no title at all, can't determine if it's an adventure
         data["is_adventure"] = False
@@ -1258,20 +1258,20 @@ def _infer_missing_adventure_data(data):
                 data["is_adventure"] = True
     # If is_adventure is already True, we keep it True (persistence for removed products)
     
-    # Flag for human review if title (module_name) couldn't be extracted
+    # Flag for human review if title (full_title) couldn't be extracted
     # This indicates the title wasn't in the HTML and may need manual entry
     # (e.g., title might only be visible in thumbnail images)
-    module_name = data.get("module_name")
-    if not module_name or module_name.strip() == "":
+    full_title = data.get("full_title")
+    if not full_title or full_title.strip() == "":
         data["needs_review"] = True
         # Try to use code as a fallback title if available, but still flag for review
         if data.get("code"):
-            data["module_name"] = data["code"]
-            # Note: title will be derived from module_name by DungeonCraft.__get_short_title()
+            data["full_title"] = data["code"]
+            # Note: title will be derived from full_title by DungeonCraft.__get_short_title()
         else:
             # If we don't even have a code, use product_id as absolute fallback
             if data.get("product_id"):
-                data["module_name"] = f"Product {data['product_id']}"
+                data["full_title"] = f"Product {data['product_id']}"
 
     return data
 
@@ -1453,8 +1453,6 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
     # If new_data has generic/null title, preserve existing title even in force mode
     generic_titles = ["None", "Product Not Found", "Dungeon Masters Guild"]
     if existing_data:
-        if not new_data.get("module_name") or new_data.get("module_name") in generic_titles:
-            new_data["module_name"] = existing_data.get("module_name")
         if not new_data.get("full_title") or new_data.get("full_title") in generic_titles:
             new_data["full_title"] = existing_data.get("full_title")
 
@@ -1533,8 +1531,8 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
     
     # Ensure is_adventure is set correctly after inference
     # Double-check: if we have a code and title doesn't contain exclusion keywords, it's an adventure
-    if new_data.get("code") and (new_data.get("module_name") or new_data.get("full_title")):
-        title_check = (new_data.get("module_name") or new_data.get("full_title") or "").lower()
+    if new_data.get("code") and (new_data.get("full_title")):
+        title_check = (new_data.get("full_title") or "").lower()
         if not any(keyword in title_check for keyword in ['bundle', 'compendium', 'roll20', 'fantasy grounds']):
             new_data["is_adventure"] = True
 

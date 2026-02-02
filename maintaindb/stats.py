@@ -73,7 +73,7 @@ def is_seed_required_code(code):
         return False, None
     code_upper = code.upper()
     if 'POA' in code_upper or code_upper.startswith('DC-POA'):
-        return True, 'Plague of Ancients (DC-POA)'
+        return True, 'Icewind Dale (Plague of Ancients)'
     if 'WBW' in code_upper or code_upper.startswith('WBW-DC') or code_upper.startswith('DC-WBW'):
         return True, 'Wild Beyond the Witchlight (WBW-DC)'
     if code_upper.startswith('SJ-DC') or code_upper.startswith('DC-SJ'):
@@ -171,9 +171,6 @@ def generate_stats():
         if adventure.code:
             is_required, season_name = is_seed_required_code(adventure.code)
             if is_required and hasattr(adventure, 'seed') and adventure.seed:
-                # Normalize "Icewind Dale" to "Plague of Ancients" for consistency
-                if season_name and 'Icewind Dale' in season_name:
-                    season_name = season_name.replace('Icewind Dale', 'Plague of Ancients')
                 # Normalize seed name to handle variations (e.g., "St. Argol's Fire" vs "Saint Argol's Fire")
                 normalized_seed = normalize_seed_name(adventure.seed)
                 stats['seed_by_season'][season_name][normalized_seed] += 1
