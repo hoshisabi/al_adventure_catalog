@@ -3,18 +3,29 @@
 This directory contains Python scripts used for maintaining the adventure catalog data.
 
 > **Note for AI Assistants**: This project runs on Windows with PowerShell. See [`AI_ASSISTANT_GUIDELINES.md`](../AI_ASSISTANT_GUIDELINES.md) for Windows-specific command-line guidelines.
+> **IMPORTANT**: Use `uv` for all environment management and script execution. Read this README carefully before running any commands.
 
 ## How to Run Scripts
 
 **IMPORTANT**: This is a Python package. Scripts use relative imports (`.adventure`, `.adventure_utils`) which only work when Python recognizes the package structure.
 
 ### Recommended: Run as Module with `uv run`
-From the **project root**, use `uv run` with the module syntax:
+From the **project root** (the directory above `maintaindb/`), use `uv run` with the module syntax:
 ```bash
 uv run python -m maintaindb.stats
 uv run python -m maintaindb.process_downloads
 uv run python -m maintaindb.aggregator
 uv run python -m maintaindb.process_rss --url <url>
+```
+
+### Running Tests
+To run the project tests using `uv`:
+```bash
+uv run pytest
+```
+Or to run a specific test file:
+```bash
+uv run pytest tests/test_extraction_functions.py
 ```
 
 ### Alternative: Use Entry Points (requires package installation)

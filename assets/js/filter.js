@@ -34,7 +34,23 @@ async function initialize() {
     try {
         const resp = await fetch(baseURL + 'catalog.json');
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        catalog = await resp.json();
+        const data = await resp.json();
+
+        if (data.adventures && Array.isArray(data.adventures)) {
+            catalog = data.adventures;
+            if (data.last_update) {
+                const lu = data.last_update;
+                const formattedDate = `${lu.substring(0, 4)}-${lu.substring(4, 6)}-${lu.substring(6, 8)}`;
+                const luContainer = document.getElementById('last-update-container');
+                const luDate = document.getElementById('last-update-date');
+                if (luContainer && luDate) {
+                    luDate.textContent = formattedDate;
+                    luContainer.classList.remove('hidden');
+                }
+            }
+        } else {
+            catalog = data;
+        }
 
         console.log(`Loaded ${catalog.length} adventures.`);
 
@@ -156,6 +172,7 @@ function applyFilters() {
     let results = [...catalog];
 
     // 1. Filter
+    // ... filters ...
     if (filters.campaign) {
         results = results.filter(adv => {
             const c = adv.p;
@@ -209,21 +226,28 @@ function applyFilters() {
     if (filters.search) {
         const q = filters.search.toLowerCase();
         results = results.filter(adv => {
+            const authors = Array.isArray(adv.a) ? adv.a.join(' ').toLowerCase() : (adv.a || '').toLowerCase();
             return (adv.n && adv.n.toLowerCase().includes(q)) ||
                 (adv.c && adv.c.toLowerCase().includes(q)) ||
-                (adv.a && typeof adv.a === 'string' && adv.a.toLowerCase().includes(q));
+                authors.includes(q);
         });
     }
 
     // 2. Sort
-    const [field, dir] = sortBy.split('-');
+    let field, dir;
+    if (sortBy) {
+        [field, dir] = sortBy.split('-');
+    } else {
+        field = 'date';
+        dir = 'desc';
+    }
 
     results.sort((a, b) => {
         let valA, valB;
 
         if (field === 'date') {
-            valA = a.d || '';
-            valB = b.d || '';
+            valA = a.d || '00000000';
+            valB = b.d || '00000000';
         } else if (field === 'title') {
             valA = (a.n || '').toLowerCase();
             valB = (b.n || '').toLowerCase();
@@ -234,6 +258,14 @@ function applyFilters() {
 
         if (valA < valB) return dir === 'asc' ? -1 : 1;
         if (valA > valB) return dir === 'asc' ? 1 : -1;
+        
+        // Secondary sort by title if dates/codes are equal
+        if (field !== 'title') {
+            let titleA = (a.n || '').toLowerCase();
+            let titleB = (b.n || '').toLowerCase();
+            if (titleA < titleB) return -1;
+            if (titleA > titleB) return 1;
+        }
         return 0;
     });
 
@@ -285,6 +317,7 @@ function createCard(adventure) {
     const hours = formatHours(adventure.h);
     const season = formatSeason(adventure.s, adventure.c);
     const authors = formatList(adventure.a) || 'N/A';
+    const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
 
     card.innerHTML = `
         <a href="${adventure.u || '#'}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800 block">
@@ -298,6 +331,7 @@ function createCard(adventure) {
             <span class="font-medium">Hours:</span> ${hours} &bull; 
             <span class="font-medium">Tier:</span> ${adventure.t !== null ? adventure.t : 'Unspecified'}
         </p>
+        <p class="text-sm text-gray-500 mt-2 italic">Added: ${dateAdded}</p>
     `;
     return card;
 }
@@ -314,6 +348,7 @@ function renderGridView(adventures, container) {
                 <th class="px-4 py-2 text-left border">Hours</th>
                 <th class="px-4 py-2 text-left border">Campaign</th>
                 <th class="px-4 py-2 text-left border">Tier</th>
+                <th class="px-4 py-2 text-left border">Added</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -323,12 +358,14 @@ function renderGridView(adventures, container) {
     adventures.forEach(adv => {
         const row = document.createElement('tr');
         row.className = 'hover:bg-gray-50';
+        const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
         row.innerHTML = `
              <td class="px-4 py-2 border"><a href="${adv.u}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
              <td class="px-4 py-2 border">${adv.c || ''}</td>
              <td class="px-4 py-2 border">${formatHours(adv.h)}</td>
              <td class="px-4 py-2 border">${formatList(adv.p)}</td>
              <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
+             <td class="px-4 py-2 border text-sm text-gray-500 italic">${dateAdded}</td>
         `;
         tbody.appendChild(row);
     });
@@ -366,7 +403,11 @@ function setupEventListeners() {
     ['campaign', 'tier', 'hours', 'season', 'sort', 'search'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', e => {
-            filters[id] = e.target.value;
+            if (id === 'sort') {
+                sortBy = e.target.value;
+            } else {
+                filters[id] = e.target.value;
+            }
             applyFilters();
         });
     });

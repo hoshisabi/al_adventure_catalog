@@ -1,4 +1,5 @@
 import argparse
+import datetime
 import glob
 import json
 import logging
@@ -43,6 +44,9 @@ def process_downloads():
 
     for file_path in html_files:
         try:
+            # Get the modification time of the HTML file
+            file_mtime = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
+
             with open(file_path, 'r', encoding='utf-8') as f:
                 html_content = f.read()
 
@@ -71,7 +75,8 @@ def process_downloads():
             dc = DungeonCraft(product_id, data["full_title"], data["authors"], data["code"], data["date_created"],
                               dc_hours, data["tiers"], data["apl"], data["level_range"], dummy_url, data["campaigns"],
                               data.get("season"), data["is_adventure"], data["price"],
-                              data.get("payWhatYouWant"), data.get("suggestedPrice"), data.get("needs_review"))
+                              data.get("payWhatYouWant"), data.get("suggestedPrice"), data.get("needs_review"),
+                              last_update=file_mtime)
 
             # Determine output JSON filename based on product_id
             # Product IDs are stable, reliable, and contain no special characters
@@ -80,21 +85,28 @@ def process_downloads():
 
             # Load existing JSON data if it exists
             existing_json_data = {}
-            if os.path.exists(output_file_path):
+            output_exists = os.path.exists(output_file_path)
+            if output_exists:
                 with open(output_file_path, 'r', encoding='utf-8') as f:
                     existing_json_data = json.load(f)
 
             # Merge new data with existing data
             merged_json_data = dc.to_json()
 
-            # Check if any values would be overwritten (excluding nulls/empty values)
-            did_overwrite = False
-            for key, new_value in merged_json_data.items():
-                if key in existing_json_data and existing_json_data[key] is not None and existing_json_data[
-                    key] != "" and existing_json_data[key] != [] and existing_json_data[key] != {} and \
-                        existing_json_data[key] != new_value:
-                    did_overwrite = True
-                    break
+            # Check if any values were changed or if it's a new file
+            is_new_or_changed = not output_exists
+            if not is_new_or_changed:
+                for key, new_value in merged_json_data.items():
+                    if key not in existing_json_data:
+                        # New field added
+                        is_new_or_changed = True
+                        break
+                    
+                    old_value = existing_json_data[key]
+                    if old_value != new_value:
+                        # Field value changed
+                        is_new_or_changed = True
+                        break
 
             # Perform the merge using the new function
             final_data = merge_adventure_data(existing_json_data, merged_json_data, args.force, args.careful)
@@ -103,8 +115,8 @@ def process_downloads():
                 json.dump(final_data, f, indent=4, sort_keys=True)
             logger.info(f"Successfully processed {file_name} and saved to {output_file_path}")
 
-            # Move processed HTML file only if force is true or if data was actually overwritten/new
-            if args.force or did_overwrite:
+            # Move processed HTML file only if force is true or if data was actually new or changed
+            if args.force or is_new_or_changed:
                 shutil.move(file_path, os.path.join(processed_html_path, file_name))
                 logger.info(f"Moved {file_name} to {processed_html_path}")
             else:

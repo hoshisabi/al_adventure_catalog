@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import re
 from email.utils import parsedate_to_datetime
@@ -189,6 +190,9 @@ def main() -> int:
 
         price_value = _parse_price_from_description(description_html)
 
+        # Use current time as last_update for RSS-originated entries
+        last_update = datetime.datetime.now()
+
         dc_obj = DungeonCraft(
             product_id=product_id,
             title=full_title,
@@ -204,6 +208,7 @@ def main() -> int:
             season=season,
             is_adventure=is_adventure_flag,
             price=price_value,
+            last_update=last_update
         )
 
         data = dc_obj.to_json()

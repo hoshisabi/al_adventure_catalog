@@ -153,7 +153,8 @@ def get_patt_first_matching_group(regex, text):
 class DungeonCraft:
 
     def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl=None, level_range=None, url=None, campaigns=None,
-                 season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None, seed=None) -> None:
+                 season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None, seed=None,
+                 last_update=None) -> None:
         self.product_id = product_id
         self.full_title = title if title != "None" else None
         self.title = self.__get_short_title(title, code).strip()
@@ -178,6 +179,7 @@ class DungeonCraft:
         self.suggestedPrice = suggestedPrice
         self.needs_review = needs_review
         self.seed = seed
+        self.last_update = last_update
 
     def is_tier(self, tier):
         """Check if this adventure is for the specified tier."""
@@ -346,6 +348,9 @@ class DungeonCraft:
         # Add seed if it exists
         if self.seed is not None:
             result["seed"] = self.seed
+        # Add last_update if it exists
+        if self.last_update is not None:
+            result["last_update"] = _fmt_date_yyyymmdd(self.last_update)
         return result
 
     def convert_date_to_readable_str(self):
@@ -791,6 +796,40 @@ def _extract_price_from_html(parsed_html):
     return None
 
 
+def _extract_jsonld_sku(parsed_html):
+    """
+    Extract SKU or MPN from JSON-LD structured data.
+    
+    Args:
+        parsed_html: BeautifulSoup parsed HTML document
+        
+    Returns:
+        SKU as string or None if not found
+    """
+    try:
+        for script in parsed_html.find_all("script", attrs={"type": "application/ld+json"}):
+            if not script.string:
+                continue
+            try:
+                blob = json.loads(script.string)
+            except Exception:
+                continue
+            
+            nodes = blob if isinstance(blob, list) else [blob]
+            for node in nodes:
+                if not isinstance(node, dict):
+                    continue
+                
+                # Check SKU and MPN fields
+                sku = node.get("sku") or node.get("mpn")
+                if sku and isinstance(sku, str):
+                    return sku.strip()
+    except Exception:
+        pass
+    
+    return None
+
+
 def _extract_jsonld_price(parsed_html):
     """
     Extract price from JSON-LD structured data.
@@ -1034,6 +1073,8 @@ def _extract_raw_data_from_html(parsed_html, product_id):
         # Pay What You Want markers (raw)
         "pwyw_flag_raw": False,
         "suggested_price_raw": None,
+        # SKU from JSON-LD
+        "sku_raw": None,
     }
 
     # Extract basic fields using helper functions
@@ -1043,6 +1084,9 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     
     # Extract price from JSON-LD first (highest precedence)
     raw_data["price_raw"] = _extract_jsonld_price(parsed_html)
+    
+    # Extract SKU from JSON-LD
+    raw_data["sku_raw"] = _extract_jsonld_sku(parsed_html)
     
     # Get combined text for regex-based extraction
     combined_text = _collect_text_for_regexes(parsed_html)
@@ -1133,7 +1177,17 @@ def _normalize_and_convert_data(raw_data):
             processed_data["campaigns"] = campaigns_from_title
             processed_data["season"] = get_season(processed_data["code"])
     
-    # Fallback: if code not found in title, search in description text
+    # If code not in title, use SKU from JSON-LD if it looks like an AL code
+    if not processed_data["code"] and raw_data.get("sku_raw"):
+        sku = raw_data["sku_raw"]
+        # Check if it matches any of our code patterns
+        sku_code, sku_campaigns = get_adventure_code_and_campaigns(sku)
+        if sku_code:
+            processed_data["code"] = sku_code.upper()
+            processed_data["campaigns"] = sku_campaigns
+            processed_data["season"] = get_season(processed_data["code"])
+    
+    # Fallback: if code not found in title or SKU, search in description text
     if not processed_data["code"] and raw_data.get("description_text"):
         result = _extract_code_from_description(raw_data["description_text"])
         if result is not None:
@@ -1357,9 +1411,9 @@ def _extract_code_from_description(description_text):
     # All patterns are case-insensitive
     patterns = [
         # DC codes (e.g., FR-DC-STRAT-TALES-02, RV-DC-01, DC-PoA-ICE01-01)
-        (r'\b(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
+        (r'\b(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-(\d{1,3})\b', lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # More general DC codes (e.g., RV-DC01)
-        (r'\b(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
+        (r'\b(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,3})\b', lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
         # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01, dc-poa-ice01-01) - normalize to all caps
         (r'\b(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-]+-\d{1,2})\b', lambda m: 'DC-POA' + m.group(2).upper()),
         # Specific recognized prefixes (e.g., DDALELW00, DDALDRW01, SJA01)
@@ -1495,7 +1549,15 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
                 else:  # Both are empty, keep new (which is empty)
                     merged_data[key] = new_value
             else:  # Original behavior (not careful, not force)
-                if not is_new_value_empty:
+                if key == "last_update":
+                    # For last_update, we always want the most recent date
+                    if not is_new_value_empty and not is_existing_value_empty:
+                        merged_data[key] = max(str(new_value), str(existing_value))
+                    elif not is_new_value_empty:
+                        merged_data[key] = new_value
+                    else:
+                        merged_data[key] = existing_value
+                elif not is_new_value_empty:
                     # Always use new non-empty value (including boolean False which is a valid non-empty value)
                     merged_data[key] = new_value
                 elif not is_existing_value_empty:  # If new is empty, but existing is not, keep existing

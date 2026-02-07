@@ -378,12 +378,18 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
     ]
 
     for pattern, code_builder in patterns:
-        # Match from the beginning of the string (case-insensitive)
+        # Match from the beginning of the string or inside parentheses
         # Use normalized_title to handle Unicode dash variants
-        match = re.match(pattern, normalized_title, re.IGNORECASE)
+        # Remove '^' anchor for re.search if we want to find it anywhere, 
+        # but the patterns have '^' in them. Let's strip '^' from the pattern if we are searching.
+        search_pattern = pattern[1:] if pattern.startswith('^') else pattern
+        match = re.search(search_pattern, normalized_title, re.IGNORECASE)
         if match:
-            code = code_builder(match)
-            break
+            # If match starts at index 0, or is preceded by '(', it's likely our code
+            start = match.start()
+            if start == 0 or (start > 0 and normalized_title[start-1] == '('):
+                code = code_builder(match)
+                break
 
     if code:
         # Normalize DDAL/DDEX codes to zero-pad single-digit season numbers
