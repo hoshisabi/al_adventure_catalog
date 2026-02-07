@@ -591,11 +591,11 @@ def _extract_date_from_html(parsed_html):
                         date_match = re.search(r'(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})', date_text)
                         if date_match:
                             month, day, year = date_match.groups()
-                            # Normalize year: if 2 digits, assume 20XX for years 00-99
+                            # Normalize year: if 2 digits, assume 20XX for years 00-75
                             if len(year) == 2:
                                 year_int = int(year)
-                                # Assume years 00-25 are 2000-2025, 26-99 are 1926-1999
-                                year = f"20{year}" if year_int <= 25 else f"19{year}"
+                                # Pivot year is 75. 00-75 -> 2000-2075, 76-99 -> 1976-1999
+                                year = f"20{year}" if year_int <= 75 else f"19{year}"
                             # Try parsing with normalized format
                             try:
                                 date_str = f"{month}/{day}/{year}"

@@ -3,12 +3,15 @@
     "authors": [
         "RP Marsh"
     ],
-    "campaigns": [],
-    "code": null,
-    "date_created": "19260131",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-SCROOGE-002",
+    "date_created": "20260131",
     "full_title": "Love and Doppelgangers",
     "hours": "2-4",
-    "is_adventure": false,
+    "is_adventure": true,
+    "last_update": "20260202",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 0.99,

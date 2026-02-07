@@ -3,12 +3,15 @@
     "authors": [
         "RP Marsh"
     ],
-    "campaigns": [],
-    "code": null,
-    "date_created": "19260102",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-LOOSE-003",
+    "date_created": "20260102",
     "full_title": "This Spells Trouble",
     "hours": "2",
-    "is_adventure": false,
+    "is_adventure": true,
+    "last_update": "20260202",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 0.99,
