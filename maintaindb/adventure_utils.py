@@ -15,7 +15,7 @@ SEASONS = {
     'PS-DC': "Planescape",
     'DC-POA': "Icewind Dale (Plague of Ancients)",  # Changed from "Plague of Ancients"
     'EB-EP': "Oracle of War",  # Eberron Oracle of War (EB-EP-??) - check before EB-
-    'EB-SM': "Salvage Missions",  # Eberron Salvage Missions (EB-SM-???) - deprecated, no new entries - check before EB-
+    'EB-SM': "Eberron Dungeoncraft",  # Eberron Salvage Missions grouped with EB-DC
     'EB-DC': "Eberron Dungeoncraft",  # Eberron Dungeoncraft - check before EB-
     'EB-': "Oracle of War",  # Eberron Oracle of War (EB-??) - general case, check after specific EB-* patterns
     'ELW': "Embers of War",  # Eberron Embers of War (ELW-??)
@@ -35,13 +35,12 @@ SEASONS = {
 
 # Season name normalization: map synonyms to canonical names
 SEASON_NORMALIZATION = {
-    "Icewind Dale": "Icewind Dale (Plague of Ancients)",
-    "Plague of Ancients": "Icewind Dale (Plague of Ancients)",
+    "Plague of Ancients": "Icewind Dale",
 }
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
     'EB-DC': 'Eberron',
-    'EB-SM': 'Eberron', # Eberron Sharn Modules
+    'EB-SM': 'Eberron', # Eberron Salvage Missions
     'FR-DC': 'Forgotten Realms',
     'PS-DC': 'Forgotten Realms', # Changed from Planescape
     'SJ-DC': 'Forgotten Realms', # Changed from Spelljammer
@@ -78,6 +77,7 @@ DDAL_CAMPAIGN = {
     'DDAL10': ['Forgotten Realms'],
     'DDAL11': ['Forgotten Realms'],
     'DDAL00': ['Forgotten Realms'], # Season 0 special adventures
+    'DDAL0': ['Forgotten Realms'], # Season 0 special adventures
     'DDAL-DRW': ['Forgotten Realms'], # Dreams of the Red Wizards (with hyphen)
     'DDALDRW': ['Forgotten Realms'], # Dreams of the Red Wizards (without hyphen, for pattern matching)
     'DDAL-ELW': ['Eberron'], # Era of the Last War (with hyphen)

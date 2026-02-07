@@ -72,7 +72,7 @@ def is_seed_required_code(code):
     if not code:
         return False, None
     code_upper = code.upper()
-    if 'POA' in code_upper or code_upper.startswith('DC-POA'):
+    if 'POA' in code_upper or code_upper.startswith('DC-POA') or code_upper.startswith('DDAL10'):
         return True, 'Icewind Dale (Plague of Ancients)'
     if 'WBW' in code_upper or code_upper.startswith('WBW-DC') or code_upper.startswith('DC-WBW'):
         return True, 'Wild Beyond the Witchlight (WBW-DC)'
@@ -82,7 +82,13 @@ def is_seed_required_code(code):
 
 def generate_stats():
     with open(adventures_input_path, 'r', encoding='utf-8') as f:
-        raw_catalog = json.load(f)
+        catalog_data = json.load(f)
+        
+        if isinstance(catalog_data, dict):
+            raw_catalog = catalog_data.get('adventures', [])
+        else:
+            raw_catalog = catalog_data
+            
         data = []
         
         # Mapping from minified keys to DungeonCraft parameters
