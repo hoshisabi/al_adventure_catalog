@@ -196,8 +196,15 @@ def aggregate():
     }
 
     catalog = []
+    max_last_update = None
 
     for adventure in all_adventures_map.values():
+        # Track max_last_update
+        adventure_last_update = adventure.get('last_update')
+        if adventure_last_update:
+            if max_last_update is None or adventure_last_update > max_last_update:
+                max_last_update = adventure_last_update
+
         # Format Season: "N - Name"
         raw_season = adventure.get('season')
         formatted_season = raw_season
@@ -256,12 +263,23 @@ def aggregate():
             'd': adventure.get('date_created'),
             'e': adventure.get('seed')
         }
+        # Include last_update in entry if needed, but minification prefers smaller payload.
+        # However, the requirement says "include a 'last_update' property to all of our JSON files".
+        # If the catalog needs it, we should add it.
+        if adventure_last_update:
+             entry['lu'] = adventure_last_update
         catalog.append(entry)
         
+    # Create final catalog object including the global last_update
+    catalog_data = {
+        'last_update': max_last_update,
+        'adventures': catalog
+    }
+        
     with open(assets_data_path / "catalog.json", 'w', encoding='utf-8') as f:
-        json.dump(catalog, f, indent=None, ensure_ascii=False)
+        json.dump(catalog_data, f, indent=None, ensure_ascii=False)
 
-    logger.info(f"Generated consolidated catalog: catalog.json ({len(catalog)} items)")
+    logger.info(f"Generated consolidated catalog: catalog.json ({len(catalog)} items, last update: {max_last_update})")
 
 
 if __name__ == '__main__':

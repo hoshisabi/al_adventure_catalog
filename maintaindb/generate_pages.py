@@ -68,7 +68,14 @@ def main():
     adventures_dir = os.path.join(script_dir, '..', '_adventures')
 
     with open(data_file, 'r', encoding='utf-8') as f:
-        adventures_data = json.load(f)
+        catalog_data = json.load(f)
+
+    if isinstance(catalog_data, dict):
+        adventures_data = catalog_data.get('adventures', [])
+        last_update = catalog_data.get('last_update')
+    else:
+        adventures_data = catalog_data
+        last_update = None
 
     # Create a directory for the generated pages
     os.makedirs(adventures_dir, exist_ok=True)
@@ -126,7 +133,7 @@ def main():
         for hour in hours:
             filtered_adventures = [a for a in adventures_data if str(a.get('t')) == tier and str(a.get('h')) == hour]
             if filtered_adventures:
-                generate_markdown_page(os.path.join(adventures_dir, f'tier_{slugify(tier)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures Tier {tier}, {hour} Hours', filtered_adventures)
+                generate_markdown_page(os.path.join(adventures_dir, f'tier_{slugify(tier)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures Tier {tier}, {hour} Hours', filtered_adventures, last_update)
 
     # Generate pages for campaign, tier, and hours combinations
     for campaign in campaigns:
@@ -134,7 +141,7 @@ def main():
             for hour in hours:
                 filtered_adventures = [a for a in adventures_data if (a.get('p') and campaign in a.get('p')) and str(a.get('t')) == tier and str(a.get('h')) == hour]
                 if filtered_adventures:
-                    generate_markdown_page(os.path.join(adventures_dir, f'{slugify(campaign)}_tier_{slugify(tier)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures in {campaign}, Tier {tier}, {hour} Hours', filtered_adventures)
+                    generate_markdown_page(os.path.join(adventures_dir, f'{slugify(campaign)}_tier_{slugify(tier)}_duration_{slugify(hour)}_hours_adventures.md'), f'Adventures in {campaign}, Tier {tier}, {hour} Hours', filtered_adventures, last_update)
 
 if __name__ == '__main__':
     main()
