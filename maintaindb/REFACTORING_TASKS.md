@@ -169,11 +169,7 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
     - Simpler, more maintainable code (no need for sanitize_filename)
     - Product IDs are unique and don't change, making filenames predictable
   - **Implementation**: Changed `process_downloads.py` and `process_rss.py` to use `f"{product_id}.json"` instead of `sanitize_filename(full_title)`
-  - **Migration**: Created `migrate_filenames_to_product_id.py` script to rename existing JSON files from title-based to product_id-based filenames
-    - Run with `--dry-run` first to see what will be changed
-    - Use `--force` to overwrite existing files if there are conflicts
-    - Handles edge cases: missing product_id, already-migrated files, duplicate product_ids
-  - **Location**: `maintaindb/process_downloads.py` (line 78), `maintaindb/process_rss.py` (line 166), `maintaindb/migrate_filenames_to_product_id.py`
+  - **Location**: `maintaindb/process_downloads.py` (line 78), `maintaindb/process_rss.py` (line 166)
 
 ### Architecture
 

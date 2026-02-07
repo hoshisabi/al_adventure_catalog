@@ -33,9 +33,19 @@ SEASONS = {
     10: "Icewind Dale (Plague of Ancients)", # Changed from "Plague of Ancients"
 }
 
-# Season name normalization: map synonyms to canonical names
+# Season name normalization: map synonyms to canonical display form for filtering/stats.
+# Used so "Icewind Dale", "Plague of Ancients", "DC-POA", "DDAL10" all show as one season;
+# and "Rage of Demons" / "Out of the Abyss" (DDEX3) show as one.
 SEASON_NORMALIZATION = {
-    "Plague of Ancients": "Icewind Dale",
+    # Icewind Dale / Plague of Ancients / DC-POA / DDAL10 -> single canonical
+    "Plague of Ancients": "10 - Icewind Dale (Plague of Ancients)",
+    "Icewind Dale": "10 - Icewind Dale (Plague of Ancients)",
+    "Icewind Dale (Plague of Ancients)": "10 - Icewind Dale (Plague of Ancients)",
+    "Plague of Ancients (DC-POA)": "10 - Icewind Dale (Plague of Ancients)",
+    "Icewind Dale (DC-POA)": "10 - Icewind Dale (Plague of Ancients)",
+    # Rage of Demons / Out of the Abyss (DDEX3) -> single canonical
+    "Rage of Demons": "3 - Rage of Demons",
+    "Out of the Abyss": "3 - Rage of Demons",
 }
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
@@ -99,6 +109,35 @@ def sanitize_filename(filename: str) -> str:
     s = s.strip('.')
     # Truncate to a reasonable length if needed (e.g., 200 characters)
     return s[:200]
+
+
+def is_component_filename(filename: str) -> bool:
+    """
+    Check if filename is a bundle/component file (X-Y.json where X and Y are digits).
+
+    Component files represent either virtual entries within a bundle (e.g. 545950-01.json
+    for one adventure in the 545950 PDF) or tier variants of the same adventure (e.g.
+    200609-2.json). The base product is X.json; the URL in component JSON points to
+    the store product X.
+    """
+    if not filename or not isinstance(filename, str):
+        return False
+    stem = filename if not filename.endswith('.json') else filename[:-5]
+    return bool(re.match(r'^\d+-\d+$', stem))
+
+
+def get_base_product_id_from_component_filename(filename: str) -> Optional[str]:
+    """
+    Return the base (store) product ID for a component filename, or None if not a component.
+
+    E.g. '545950-01.json' -> '545950', '200609-4.json' -> '200609'.
+    """
+    if not filename or not isinstance(filename, str):
+        return None
+    stem = filename if not filename.endswith('.json') else filename[:-5]
+    match = re.match(r'^(\d+)-\d+$', stem)
+    return match.group(1) if match else None
+
 
 def get_patt_first_matching_group(pattern: str, text: Optional[str]) -> Optional[str]:
     """
@@ -301,11 +340,23 @@ def get_season(code: Optional[str]):
             except Exception:
                 pass
     
-    # Normalize season name if it's a known synonym
+    # Normalize season name if it's a known synonym (e.g. "Rage of Demons" -> "3 - Rage of Demons")
     if season and season in SEASON_NORMALIZATION:
         season = SEASON_NORMALIZATION[season]
     
     return season
+
+
+def normalize_season_display(season_str: Optional[str]) -> Optional[str]:
+    """
+    Return the canonical season string for display, filtering, and stats.
+    Maps all synonyms (Icewind Dale, Plague of Ancients, DC-POA, DDAL10; Rage of Demons, Out of the Abyss)
+    to a single label so dropdown and statistics treat them as one.
+    """
+    if not season_str or not isinstance(season_str, str):
+        return season_str
+    s = season_str.strip()
+    return SEASON_NORMALIZATION.get(s, s)
 
 
 def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optional[str], List[str]]:
@@ -375,6 +426,11 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         (r"^(RMH)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # Eberron Sharn Modules (e.g., EB-SM-01)
         (r"^(EB-SM)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
+        # General DC- (Dungeon Craft) codes (e.g., DC-PO-01, DC-BWP-01, DC-POA-ICE01-01, POA-DC-01)
+        (r"^(?:POA-)?(DC-(?:POA-)?[A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"DC-{m.group(1).upper()}-{m.group(2)}"),
+        (r"^(POA-DC)-(\d+(?:-\d+)*)", lambda m: f"POA-DC-{m.group(2)}"),
+        # General DC codes without prefix (e.g., DC-01, DC01)
+        (r"^(DC)-?(\d{1,2})", lambda m: f"DC-{m.group(2)}"),
     ]
 
     for pattern, code_builder in patterns:
