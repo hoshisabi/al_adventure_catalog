@@ -75,8 +75,12 @@ uv run maintaindb-rss --url <url>    # Parse RSS feed
 ## Library Modules:
 
 *   `adventure.py`: **Main library module** currently in use. Provides utility methods and data structures for individual AL Adventures. Contains the `DungeonCraft` class and functions for HTML extraction, normalization, and data merging. This is the active implementation used by `process_downloads.py` and other scripts.
-*   `adventure_utils.py`: Shared utility functions used across modules (date parsing, code/campaign extraction, season mapping, etc.). Used by both the current and refactored architectures.
+*   `adventure_utils.py`: Shared utility functions used across modules (date parsing, code/campaign extraction, season mapping, etc.). Used by both the current and refactored architectures. Includes helpers for bundle/component filenames: `is_component_filename()`, `get_base_product_id_from_component_filename()`.
 *   `warhorn_api.py`: Library module providing functions to interact with the Warhorn GraphQL API. Used by `warhorn_corrector.py`.
+
+### Bundles and component files
+
+Some products are bundles (one PDF with multiple adventures) or one adventure at multiple tiers. We use component files named `X-Y.json` (e.g. `545950-01.json`, `200609-4.json`) so each adventure or tier is a separate catalog entry. See [BUNDLES_AND_COMPONENTS.md](BUNDLES_AND_COMPONENTS.md) for the convention and how automation treats them.
 
 ### Refactored Architecture Modules (Currently Unused):
 

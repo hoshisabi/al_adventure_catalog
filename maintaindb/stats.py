@@ -7,6 +7,7 @@ import datetime
 from collections import defaultdict
 
 from .adventure import DungeonCraft
+from .adventure_utils import normalize_season_display
 from .paths import STATS_JSON, CATALOG_JSON
 import glob
 
@@ -73,7 +74,7 @@ def is_seed_required_code(code):
         return False, None
     code_upper = code.upper()
     if 'POA' in code_upper or code_upper.startswith('DC-POA') or code_upper.startswith('DDAL10'):
-        return True, 'Icewind Dale (Plague of Ancients)'
+        return True, '10 - Icewind Dale (Plague of Ancients)'
     if 'WBW' in code_upper or code_upper.startswith('WBW-DC') or code_upper.startswith('DC-WBW'):
         return True, 'Wild Beyond the Witchlight (WBW-DC)'
     if code_upper.startswith('SJ-DC') or code_upper.startswith('DC-SJ'):
@@ -169,7 +170,8 @@ def generate_stats():
             stats['campaign']['Unknown'] += 1
         
         if adventure.season:
-            stats['season'][adventure.season] += 1
+            canonical_season = normalize_season_display(adventure.season)
+            stats['season'][canonical_season] += 1
         else:
             stats['season']['Unknown'] += 1
         

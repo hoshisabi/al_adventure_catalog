@@ -26,7 +26,7 @@ from collections import defaultdict
 
 from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
 from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
-from .adventure_utils import normalize_ddal_ddex_code, SEASONS
+from .adventure_utils import normalize_ddal_ddex_code, normalize_season_display, SEASONS
 from .paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
@@ -205,8 +205,9 @@ def aggregate():
             if max_last_update is None or adventure_last_update > max_last_update:
                 max_last_update = adventure_last_update
 
-        # Format Season: "N - Name"
+        # Format Season: "N - Name"; normalize synonyms to one canonical (Icewind/POA/DDAL10, Rage of Demons/Out of Abyss)
         raw_season = adventure.get('season')
+        raw_season = normalize_season_display(raw_season) if raw_season else raw_season
         formatted_season = raw_season
         
         if raw_season:
@@ -261,7 +262,10 @@ def aggregate():
             't': adventure.get('tiers'),
             'u': adventure.get('url'),
             'd': adventure.get('date_created'),
-            'e': adventure.get('seed')
+            'e': adventure.get('seed'),
+            'sm': adventure.get('salvage_mission'),
+            'dc': adventure.get('dungeon_craft'),
+            'cc': adventure.get('community_content')
         }
         # Include last_update in entry if needed, but minification prefers smaller payload.
         # However, the requirement says "include a 'last_update' property to all of our JSON files".

@@ -203,6 +203,16 @@ class AdventureDataNormalizer:
                 is_adventure_flag = True
         normalized_data["is_adventure"] = is_adventure_flag
 
+        # Flag salvage_mission, dungeon_craft, and community_content
+        code = normalized_data.get("code") or ""
+        salvage_mission = code.startswith("EB-SM")
+        dungeon_craft = code.startswith("DC-") or code.startswith("POA-DC")
+        community_content = salvage_mission or dungeon_craft or code.startswith("CCC-")
+
+        normalized_data["salvage_mission"] = salvage_mission
+        normalized_data["dungeon_craft"] = dungeon_craft
+        normalized_data["community_content"] = community_content
+
         # Needs Review - for initial processing, set to True if critical data is missing
         # This flag can be updated by a separate fixup script
         normalized_data["needs_review"] = False # Default to False, will be updated by process_downloads_new.py more thoroughly

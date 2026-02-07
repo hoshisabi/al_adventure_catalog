@@ -16,7 +16,7 @@ let filters = {
 };
 
 let sortBy = 'date-desc';
-let viewMode = 'card';
+let viewMode = 'grid';
 
 // Config
 let baseURL = '';
@@ -63,7 +63,8 @@ async function initialize() {
         setupEventListeners();
         updateViewToggleButtons();
 
-        applyFilters();
+        // Apply filters from URL if present, then run filter logic
+        applyFiltersFromURL();
 
     } catch (err) {
         console.error('Failed to initialize:', err);
@@ -119,18 +120,10 @@ function populateFilterUI() {
     const sortedHours = Array.from(allHours).sort((a, b) => a - b);
     populateDropdown('hours', sortedHours, 'All Lengths');
 
-    // 4. Seasons (s)
-    // Use ONLY the explicit season field which should be normalized by backend
+    // 4. Seasons (s) — backend (aggregator) normalizes synonyms to one canonical per season
     const allSeasons = new Set();
     catalog.forEach(adv => {
-        if (adv.s) {
-            let s = adv.s;
-            // Normalize Icewind Dale and Plague of Ancients
-            if (s === "Icewind Dale" || s === "Plague of Ancients") {
-                s = "Icewind Dale (Plague of Ancients)";
-            }
-            allSeasons.add(s);
-        }
+        if (adv.s) allSeasons.add(adv.s);
     });
     const sortedSeasons = Array.from(allSeasons).sort((a, b) => {
         // Extract leading number for sort (e.g., "1 - Name" -> 1)
@@ -146,6 +139,46 @@ function populateFilterUI() {
         return String(a).localeCompare(String(b));
     });
     populateDropdown('season', sortedSeasons, 'All Seasons');
+}
+
+function applyFiltersFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('campaign')) filters.campaign = params.get('campaign');
+    if (params.has('season')) filters.season = params.get('season');
+    if (params.has('tier')) filters.tier = params.get('tier');
+    if (params.has('hours')) filters.hours = params.get('hours');
+    if (params.has('search')) filters.search = params.get('search');
+    if (params.has('sort')) sortBy = params.get('sort');
+
+    // Sync to DOM so dropdowns and search input show the URL state
+    const campaignEl = document.getElementById('campaign');
+    if (campaignEl) campaignEl.value = filters.campaign || '';
+    const seasonEl = document.getElementById('season');
+    if (seasonEl) seasonEl.value = filters.season || '';
+    const tierEl = document.getElementById('tier');
+    if (tierEl) tierEl.value = filters.tier || '';
+    const hoursEl = document.getElementById('hours');
+    if (hoursEl) hoursEl.value = filters.hours || '';
+    const sortEl = document.getElementById('sort');
+    if (sortEl) sortEl.value = sortBy || 'date-desc';
+    const searchEl = document.getElementById('search');
+    if (searchEl) searchEl.value = filters.search || '';
+
+    applyFilters();
+}
+
+function updateURLFromFilters() {
+    const params = new URLSearchParams();
+    if (filters.campaign) params.set('campaign', filters.campaign);
+    if (filters.season) params.set('season', filters.season);
+    if (filters.tier) params.set('tier', filters.tier);
+    if (filters.hours) params.set('hours', filters.hours);
+    if (filters.search) params.set('search', filters.search);
+    if (sortBy && sortBy !== 'date-desc') params.set('sort', sortBy);
+
+    const query = params.toString();
+    const newUrl = window.location.pathname + (query ? '?' + query : '') + (window.location.hash || '');
+    history.replaceState(null, '', newUrl);
 }
 
 function populateDropdown(id, values, defaultText) {
@@ -206,17 +239,7 @@ function applyFilters() {
     }
 
     if (filters.season) {
-        results = results.filter(adv => {
-            // Explicit match
-            if (adv.s && String(adv.s) === filters.season) return true;
-            
-            // Handle merged season
-            if (filters.season === "Icewind Dale (Plague of Ancients)") {
-                return adv.s === "Icewind Dale" || adv.s === "Plague of Ancients";
-            }
-            
-            return false;
-        });
+        results = results.filter(adv => adv.s && String(adv.s) === filters.season);
     }
 
     if (filters.dcOnly) {
@@ -343,11 +366,11 @@ function renderGridView(adventures, container) {
     table.innerHTML = `
         <thead class="bg-gray-100">
             <tr>
-                <th class="px-4 py-2 text-left border">Title</th>
                 <th class="px-4 py-2 text-left border">Code</th>
+                <th class="px-4 py-2 text-left border">Title</th>
+                <th class="px-4 py-2 text-left border">Tier</th>
                 <th class="px-4 py-2 text-left border">Hours</th>
                 <th class="px-4 py-2 text-left border">Campaign</th>
-                <th class="px-4 py-2 text-left border">Tier</th>
                 <th class="px-4 py-2 text-left border">Added</th>
             </tr>
         </thead>
@@ -360,11 +383,11 @@ function renderGridView(adventures, container) {
         row.className = 'hover:bg-gray-50';
         const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
         row.innerHTML = `
-             <td class="px-4 py-2 border"><a href="${adv.u}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
              <td class="px-4 py-2 border">${adv.c || ''}</td>
+             <td class="px-4 py-2 border"><a href="${adv.u}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
+             <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
              <td class="px-4 py-2 border">${formatHours(adv.h)}</td>
              <td class="px-4 py-2 border">${formatList(adv.p)}</td>
-             <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
              <td class="px-4 py-2 border text-sm text-gray-500 italic">${dateAdded}</td>
         `;
         tbody.appendChild(row);
@@ -385,9 +408,6 @@ function formatHours(val) {
 }
 
 function formatSeason(season, code) {
-    if (season === "Icewind Dale" || season === "Plague of Ancients") {
-        return "Icewind Dale (Plague of Ancients)";
-    }
     return season || 'Unspecified';
 }
 
@@ -409,6 +429,7 @@ function setupEventListeners() {
                 filters[id] = e.target.value;
             }
             applyFilters();
+            updateURLFromFilters();
         });
     });
 
