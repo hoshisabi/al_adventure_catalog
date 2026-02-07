@@ -1224,6 +1224,19 @@ def _normalize_and_convert_data(raw_data):
     # Also set full_title for compatibility
     processed_data["full_title"] = processed_data["full_title"]
 
+    # Prepend code to full_title if it's missing from the title but we found it elsewhere
+    if processed_data["code"] and processed_data["full_title"]:
+        # Normalize code and title for comparison
+        code_u = processed_data["code"].upper()
+        # Create a version of the title without dash variants for matching
+        title_normalized = processed_data["full_title"]
+        dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+        for dash_char in dash_variants:
+            title_normalized = title_normalized.replace(dash_char, '-')
+        
+        if code_u not in title_normalized.upper():
+            processed_data["full_title"] = f"{processed_data['code']} {processed_data['full_title']}"
+
     return processed_data
 
 
@@ -1562,6 +1575,7 @@ def merge_adventure_data(existing_data, new_data, force_overwrite=False, careful
                     merged_data[key] = new_value
                 elif not is_existing_value_empty:  # If new is empty, but existing is not, keep existing
                     merged_data[key] = existing_value
+
     return merged_data
 
 
@@ -1590,19 +1604,34 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         normalized_data["is_adventure"] = True
 
     new_data = _infer_missing_adventure_data(normalized_data)
+
+    # Merge new data with existing data
+    merged_data = merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
     
-    # Ensure is_adventure is set correctly after inference
+    # Ensure code is prepended to full_title if it's missing (even if code was from existing_data)
+    if merged_data.get("code") and merged_data.get("full_title"):
+        code_u = str(merged_data["code"]).upper()
+        title_val = str(merged_data["full_title"])
+        title_normalized = title_val
+        dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+        for dash_char in dash_variants:
+            title_normalized = title_normalized.replace(dash_char, '-')
+        
+        if code_u not in title_normalized.upper():
+            merged_data["full_title"] = f"{merged_data['code']} {title_val}"
+
+    # Ensure is_adventure is set correctly after inference and merge
     # Double-check: if we have a code and title doesn't contain exclusion keywords, it's an adventure
-    if new_data.get("code") and (new_data.get("full_title")):
-        title_check = (new_data.get("full_title") or "").lower()
+    if merged_data.get("code") and (merged_data.get("full_title")):
+        title_check = (merged_data.get("full_title") or "").lower()
         if not any(keyword in title_check for keyword in ['bundle', 'compendium', 'roll20', 'fantasy grounds']):
-            new_data["is_adventure"] = True
+            merged_data["is_adventure"] = True
 
     # If it was an adventure before and we have NO code now (removed product), keep it an adventure
-    if existing_data and existing_data.get("is_adventure") and not new_data.get("code"):
-        new_data["is_adventure"] = True
+    if existing_data and existing_data.get("is_adventure") and not merged_data.get("code"):
+        merged_data["is_adventure"] = True
 
-    return merge_adventure_data(existing_data, new_data, force_overwrite, careful_mode)
+    return merged_data
 
 
 # ============================================================================
