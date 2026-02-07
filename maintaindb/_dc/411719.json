@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-ANGKA-01",
+    "community_content": true,
     "date_created": "20220928",
+    "dungeoncraft": true,
     "full_title": "Requiem for Lost Souls (SJ-DC-ANGKA-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "411719",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Requiem for Lost Souls",
-    "url": "https://www.dmsguild.com/product/411719/Requiem-for-Lost-Souls-SJDCANGKA01?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Requiem for Lost Souls (SJ-DC-ANGKA-01)",
+    "url": "https://www.dmsguild.com/product/411719/Requiem-for-Lost-Souls-SJDCANGKA01?filters=0_0_100057_0_0_0_0_0"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-27",
+    "community_content": true,
     "date_created": "20180412",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-27 CORE 3-3 The Spirited Investigation",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "239578",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Spirited Investigation (CORE 3-3)",
+    "title": "CORE 3-3 The Spirited Investigation",
     "url": "https://www.dmsguild.com/product/239578/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DPIP-01",
+    "community_content": true,
     "date_created": "20201220",
+    "dungeoncraft": false,
     "full_title": "CCC-DPIP-01 The Toils And Troubles of Minauros",
     "hours": null,
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": true,
     "price": 6.66,
     "product_id": "340726",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 6.66,
     "tiers": 1,

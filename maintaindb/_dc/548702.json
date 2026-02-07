@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-05-04",
+    "community_content": false,
     "date_created": "20251208",
+    "dungeoncraft": false,
     "full_title": "PO-BK-05-04 Dark Ascension",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "548702",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Dark Ascension",

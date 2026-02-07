@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TCW-ACW-3",
+    "community_content": true,
     "date_created": "20210605",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "359932",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Caravanning!",
     "tiers": 2,
-    "title": "Written in Blood",
+    "title": "DC-PoA-TCW-ACW-3 WRITTEN IN BLOOD",
     "url": "https://www.dmsguild.com/product/359932/?affiliate_id=171040"
 }

@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-ZEP-T1S1",
+    "code": "WBW-DC-ZEP-T",
+    "community_content": true,
     "date_created": "20211224",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-ZEP-T1S1 Dragon-bard's Christmas Carol - FANTASY GROUNDS",
     "hours": "2",
     "is_adventure": false,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "381765",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Dragon-bard's Christmas Carol (Fantasy Grounds)",
+    "title": "1S1 Dragon-bard's Christmas Carol - FANTASY GROUNDS",
     "url": "https://www.dmsguild.com/product/381765/?affiliate_id=171040"
 }

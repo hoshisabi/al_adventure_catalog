@@ -7,16 +7,19 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-MB06-ATFT",
+    "community_content": true,
     "date_created": "20230817",
+    "dungeoncraft": true,
     "full_title": "A Taste For Trouble SJ-DC-MB06-ATFT",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 2.99,
     "product_id": "449776",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "A Taste For Trouble",
-    "url": "https://www.dmsguild.com/product/449776/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "A Taste For Trouble SJ-DC-MB06-ATFT",
+    "url": "https://www.dmsguild.com/product/449776/?affiliate_id=171040"
 }

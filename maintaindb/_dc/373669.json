@@ -7,16 +7,19 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-JOQ-01",
+    "community_content": true,
     "date_created": "20211011",
+    "dungeoncraft": true,
     "full_title": "Dancing at Her Funeral (WBW-DC-JOQ-01)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 4.99,
     "product_id": "373669",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Dancing at Her Funeral",
-    "url": "https://www.dmsguild.com/product/373669/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "title": "Dancing at Her Funeral (WBW-DC-JOQ-01)",
+    "url": "https://www.dmsguild.com/product/373669/?affiliate_id=171040"
 }

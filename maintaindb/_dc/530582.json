@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WE-03",
+    "community_content": true,
     "date_created": "20250725",
+    "dungeoncraft": true,
     "full_title": "FR-DC-WE-03 Veins and Veils",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "530582",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Veins and Veils",

@@ -1,13 +1,15 @@
 {
     "apl": 3,
     "authors": [
-        "Nicol\u00e1s Carrillo"
+        "Nicolás Carrillo"
     ],
     "campaigns": [
         "Eberron"
     ],
     "code": "EB-SM-WRONGS",
+    "community_content": true,
     "date_created": "20201016",
+    "dungeoncraft": false,
     "full_title": "Wrongs and Punishment: An Eberron Salvage Mission",
     "hours": "2",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": true,
     "price": 0.5,
     "product_id": "332476",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "suggestedPrice": 0.5,
     "tiers": 1,
-    "title": "Wrongs and Punishment An Eberron Salvage Mission",
+    "title": "Wrongs and Punishment: An Eberron Salvage Mission",
     "url": "https://www.dmsguild.com/product/332476/?affiliate_id=171040"
 }

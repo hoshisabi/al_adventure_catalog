@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-01",
+    "community_content": true,
     "date_created": "20161215",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-01 Tharaera Lost",
     "hours": "2",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "200723",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Tharaera Lost",

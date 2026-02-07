@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-BAD-01",
+    "community_content": true,
     "date_created": "20230902",
+    "dungeoncraft": true,
     "full_title": "Bad Omen (SJ-DC-BAD-01)",
     "hours": "2",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "451742",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Bad Omen",
+    "title": "Bad Omen (SJ-DC-BAD-01)",
     "url": "https://www.dmsguild.com/product/451742/?affiliate_id=171040"
 }

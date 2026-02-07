@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-HH-02",
+    "community_content": true,
     "date_created": "20220212",
+    "dungeoncraft": true,
     "full_title": "Trial of Flower (WBW-DC-HH-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "386788",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Trial of Flower",
+    "title": "Trial of Flower (WBW-DC-HH-02)",
     "url": "https://www.dmsguild.com/product/386788/?affiliate_id=171040"
 }

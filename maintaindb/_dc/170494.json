@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX3-02",
+    "code": "DDEX03-02",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX3-02 Shackles of Blood",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170494",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 1,
-    "title": "Shackles of Blood",
+    "title": "DDEX3-02 Shackles of Blood",
     "url": "https://www.dmsguild.com/product/170494/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-HYS-02",
+    "community_content": true,
     "date_created": "20230830",
+    "dungeoncraft": true,
     "full_title": "Darkside of Selune (SJ-DC-HYS-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "451316",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Darkside of Selune",
+    "title": "Darkside of Selune (SJ-DC-HYS-02)",
     "url": "https://www.dmsguild.com/product/451316/Darkside-of-Selune-SJDCHYS02-5e?filters=0_0_100057_0_0_0_0_0"
 }

@@ -3,11 +3,11 @@
     "authors": [
         "RP Marsh"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DC-FR-SCROOGE-001",
+    "community_content": true,
     "date_created": "20250411",
+    "dungeoncraft": true,
     "full_title": "DC-FR-SCROOGE-001 Funny Bunny Business",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 0.99,
     "product_id": "518509",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Funny Bunny Business",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-TT-301",
+    "community_content": true,
     "date_created": "20250422",
+    "dungeoncraft": true,
     "full_title": "FR-DC-TT-301 Seelie, Rabbit, Tricks are for Fools",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "519547",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Seelie, Rabbit, Tricks are for Fools",

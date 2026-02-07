@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-ZODIAC-14-02",
+    "community_content": true,
     "date_created": "20231125",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-ZODIAC-14-02 Fey Inferno",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
     "product_id": "461558",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Fey Inferno",
-    "url": "https://www.dmsguild.com/product/461558/SJDCZODIAC1402-Fey-Inferno?filters=45470_0_0_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/461558/SJDCZODIAC1402-Fey-Inferno?filters=45470_0_0_0_0_0_0_0"
 }

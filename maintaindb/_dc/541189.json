@@ -3,11 +3,11 @@
     "authors": [
         "Karianne Fog Heen"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "Welcome to Oar's Rest! [BUNDLE]",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20251020",
+    "dungeoncraft": false,
     "full_title": "Welcome to Oar's Rest! [BUNDLE]",
     "hours": "1",
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "541189",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Welcome to Oar's Rest! [BUNDLE]",

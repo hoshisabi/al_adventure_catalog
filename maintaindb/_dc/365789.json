@@ -3,17 +3,18 @@
     "authors": [
         "Ghost Katsu"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20210728",
+    "dungeoncraft": false,
     "full_title": "The Hideous Damsel (1st Tier Adventure)",
     "hours": null,
     "is_adventure": false,
     "level_range": null,
     "product_id": "365789",
+    "salvage_mission": false,
     "tiers": null,
-    "title": "The Hideous Damsel 1st Tier Adventure",
+    "title": "The Hideous Damsel (1st Tier Adventure)",
     "url": "https://www.dmsguild.com/product/365789/The-Hideous-Damsel-1st-Tier-Adventure?filters=1000043_0_0_0_0_0_0_0"
 }

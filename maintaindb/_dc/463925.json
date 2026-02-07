@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-BAD-03",
+    "community_content": true,
     "date_created": "20231215",
+    "dungeoncraft": true,
     "full_title": "Festival of Frun (SJ-DC-BAD-03)",
     "hours": "2",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "463925",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Festival of Frun",
+    "title": "Festival of Frun (SJ-DC-BAD-03)",
     "url": "https://www.dmsguild.com/product/463925/Festival-of-Frun-SJDCBAD03?filters=0_0_100057_0_0_0_0_0"
 }

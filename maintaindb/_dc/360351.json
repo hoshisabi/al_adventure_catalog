@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-WC-01",
+    "community_content": true,
     "date_created": "20210609",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-WC-01 Love Finds a Way",
     "hours": null,
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "360351",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Warmest Day",
     "tiers": 1,
-    "title": "Love Finds a Way",
+    "title": "DC-PoA-WC-01 Love Finds a Way",
     "url": "https://www.dmsguild.com/product/360351/?affiliate_id=171040"
 }

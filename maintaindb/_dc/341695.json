@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-RPSG-07",
-    "date_created": null,
+    "community_content": true,
+    "date_created": "20210107",
+    "dungeoncraft": false,
     "full_title": "CCC-RPSG-07 In Good Company",
     "hours": "2",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "341695",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "In Good Company",
-    "url": "https://www.dmsguild.com/product/341695/CCCRPSG07-In-Good-Company"
+    "url": "https://www.dmsguild.com/product/341695?affiliate_id=171040"
 }

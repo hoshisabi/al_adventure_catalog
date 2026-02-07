@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-JGD-01",
+    "community_content": true,
     "date_created": "20181228",
+    "dungeoncraft": false,
     "full_title": "CCC-JGD-01 Left Black and Blue: A Red War Story",
     "hours": "2",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "262311",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Left Black and Blue: A Red War Story",

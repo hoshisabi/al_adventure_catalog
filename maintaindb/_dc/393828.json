@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-SSM-01",
+    "community_content": true,
     "date_created": "20220416",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-SSM-01 The Grimm Reality",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "393828",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "The Grimm Reality",
-    "url": "https://www.dmsguild.com/product/393828/WBWDCSSM01-The-Grimm-Reality?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/393828/WBWDCSSM01-The-Grimm-Reality?filters=0_0_100057_0_0_0_0_0"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-THENT01-03",
+    "community_content": true,
     "date_created": "20171010",
+    "dungeoncraft": false,
     "full_title": "CCCTHENT01-03 The Dreaming Relic",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "223667",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Dreaming Relic",
+    "title": "CCCTHENT01-03 The Dreaming Relic",
     "url": "https://www.dmsguild.com/product/223667/?affiliate_id=171040"
 }

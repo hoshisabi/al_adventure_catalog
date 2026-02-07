@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-18",
+    "community_content": true,
     "date_created": "20180917",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-18 Pros & Cons (An Original Adventure by The Role Initiative)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "252566",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Pros & Cons (An Original Adventure by The Role Initiative)",

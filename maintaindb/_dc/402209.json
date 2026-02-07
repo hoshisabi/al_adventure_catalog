@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-EP-04",
+    "community_content": false,
     "date_created": "20220710",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-EP-04 Tears Among the Stars",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "402209",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Tears Among the Stars",

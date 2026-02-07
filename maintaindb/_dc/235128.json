@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL07-13",
+    "community_content": false,
     "date_created": "20180404",
+    "dungeoncraft": false,
     "full_title": "DDAL07-13 Old Bones and Older Tomes",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "235128",
-    "season": "Tomb of Annihilation",
+    "salvage_mission": false,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 3,
     "title": "Old Bones and Older Tomes",
     "url": "https://www.dmsguild.com/product/235128/?affiliate_id=171040"

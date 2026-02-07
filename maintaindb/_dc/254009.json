@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-35",
+    "community_content": true,
     "date_created": "20181003",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-35 ELM 2-2 Mists of the Moonsea",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "254009",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Mists of the Moonsea (ELM 2-2)",
+    "title": "ELM 2-2 Mists of the Moonsea",
     "url": "https://www.dmsguild.com/product/254009/?affiliate_id=171040"
 }

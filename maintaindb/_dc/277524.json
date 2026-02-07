@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-PRETZ-PLA01",
+    "community_content": true,
     "date_created": "20190522",
+    "dungeoncraft": false,
     "full_title": "CCC-PRETZ-PLA01 The Mystery at Coppertop Manor",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "277524",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Mystery at Coppertop Manor",

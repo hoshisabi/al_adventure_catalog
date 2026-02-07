@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-MELB-02-02",
+    "community_content": true,
     "date_created": "20250615",
+    "dungeoncraft": true,
     "full_title": "Brine and Bone (FR-DC-MELB-02-02)",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "526429",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Brine and Bone",
+    "title": "Brine and Bone (FR-DC-MELB-02-02)",
     "url": "https://www.dmsguild.com/product/526429/?affiliate_id=171040"
 }

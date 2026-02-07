@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-YLRA01-02",
+    "community_content": true,
     "date_created": "20170702",
+    "dungeoncraft": false,
     "full_title": "CCC-YLRA01-02 Uneasy Lies the Head",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": true,
     "price": 4.99,
     "product_id": "215484",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 4.99,
     "tiers": 2,

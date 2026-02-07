@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PKL-20",
+    "community_content": true,
     "date_created": "20250101",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PKL-20 Jawbreakers and Jailbreakers",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "507343",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "Jawbreakers and Jailbreakers",
     "url": "https://www.dmsguild.com/product/507343/?affiliate_id=171040"

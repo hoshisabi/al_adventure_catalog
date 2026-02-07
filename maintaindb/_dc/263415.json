@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ELF-02",
+    "community_content": true,
     "date_created": "20190105",
+    "dungeoncraft": false,
     "full_title": "CCC-ELF-02 An Adventuring Party Walks Into A Bar",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 0.99,
     "product_id": "263415",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "An Adventuring Party Walks Into A Bar",

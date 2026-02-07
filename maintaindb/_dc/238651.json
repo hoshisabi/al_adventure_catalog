@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL07-16",
+    "community_content": false,
     "date_created": "20180401",
+    "dungeoncraft": false,
     "full_title": "DDAL07-16 Pools of Cerulean",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "238651",
-    "season": "Tomb of Annihilation",
+    "salvage_mission": false,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 4,
     "title": "Pools of Cerulean",
     "url": "https://www.dmsguild.com/product/238651/?affiliate_id=171040"

@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "PS-DC-RAVENGARD",
+    "code": "PS-DC-RAVENGARD-V",
+    "community_content": true,
     "date_created": "20240430",
+    "dungeoncraft": true,
     "full_title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "479242",
-    "season": null,
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "Duke Ravengard Gets Sent to Hell Again",
+    "title": "Duke Ravengard Gets Sent to Hell (Again) (PS-DC-RAVENGARD-V)",
     "url": "https://www.dmsguild.com/product/479242/Duke-Ravengard-Gets-Sent-to-Hell-Again-PSDCRAVENGARDV?filters=0_0_100057_0_0_0_0_0"
 }

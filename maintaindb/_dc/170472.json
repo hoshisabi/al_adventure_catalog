@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX1-13",
+    "code": "DDEX01-13",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX1-13 Pool of Radiance Resurgent",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170472",
-    "season": "Tyranny of Dragons",
+    "salvage_mission": false,
+    "season": "1 - Tyranny of Dragons",
     "tiers": 2,
-    "title": "Pool of Radiance Resurgent",
+    "title": "DDEX1-13 Pool of Radiance Resurgent",
     "url": "https://www.dmsguild.com/product/170472/?affiliate_id=171040"
 }

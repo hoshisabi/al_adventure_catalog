@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-12",
+    "community_content": false,
     "date_created": "20210914",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-12 To Walk the Cold Dark",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 7.99,
     "product_id": "370753",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "To Walk the Cold Dark",

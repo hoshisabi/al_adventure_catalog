@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-AEG-09",
+    "community_content": true,
     "date_created": "20240211",
+    "dungeoncraft": true,
     "full_title": "FR-DC-AEG-09 What's in the Box?",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.49,
     "product_id": "470654",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "What's in the Box?",

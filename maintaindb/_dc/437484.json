@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PHP-BORK",
+    "community_content": true,
     "date_created": "20230511",
+    "dungeoncraft": true,
     "full_title": "The Borkfather (SJ-DC-PHP-BORK)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "437484",
-    "season": null,
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "The Borkfather",
+    "title": "The Borkfather (SJ-DC-PHP-BORK)",
     "url": "https://www.dmsguild.com/product/437484/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-MEM-01",
+    "community_content": true,
     "date_created": "20230226",
+    "dungeoncraft": true,
     "full_title": "Memory of Amarda (WBW-DC-MEM-01/02) [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.98,
     "product_id": "428332",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Memory of Amarda [BUNDLE]",
+    "title": "Memory of Amarda (WBW-DC-MEM-01/02) [BUNDLE]",
     "url": "https://www.dmsguild.com/product/428332/?affiliate_id=171040"
 }

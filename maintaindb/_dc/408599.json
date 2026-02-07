@@ -3,11 +3,11 @@
     "authors": [
         "Jonathan Self"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DC-WBW-DES-01-07",
+    "community_content": true,
     "date_created": "20220831",
+    "dungeoncraft": true,
     "full_title": "The Dark Thread",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +16,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "408599",
+    "salvage_mission": false,
     "season": null,
     "seed": "Create a Domain of Delight",
     "tiers": 2,

@@ -7,15 +7,19 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "SJ-DC-TRIDEN-MW3",
+    "code": "SJ-DC-TRIDEN-MW",
+    "community_content": true,
     "date_created": "20230714",
+    "dungeoncraft": true,
     "full_title": "Destination Unknown (SJ-DC-TRIDEN-MW3)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
     "product_id": "445604",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Destination Unknown",
-    "url": "https://www.dmsguild.com/product/445604/Destination-Unknown-SJDCTRIDENMW3?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Destination Unknown (SJ-DC-TRIDEN-MW3)",
+    "url": "https://www.dmsguild.com/product/445604/Destination-Unknown-SJDCTRIDENMW3?filters=45470_0_0_0_0_0"
 }

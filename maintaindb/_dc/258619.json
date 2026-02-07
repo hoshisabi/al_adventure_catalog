@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-AETHER-01-02",
+    "community_content": true,
     "date_created": "20181113",
+    "dungeoncraft": false,
     "full_title": "CCC-AETHER-01-02 The Heir of Orcus: Verse II",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "258619",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Heir of Orcus: Verse II",

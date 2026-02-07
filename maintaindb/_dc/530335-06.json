@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PUB-06",
+    "community_content": true,
     "date_created": "20250720",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PUB-06 Death Do Us Part",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "530335-06",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 2,
     "title": "Death Do Us Part",
     "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"

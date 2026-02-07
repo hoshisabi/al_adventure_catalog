@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DRA-05",
+    "community_content": true,
     "date_created": "20221225",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-DRA-05: The Hunger in the Marshes",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "421167",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "The Hunger in the Marshes",
+    "title": ": The Hunger in the Marshes",
     "url": "https://www.dmsguild.com/product/421167/?affiliate_id=171040"
 }

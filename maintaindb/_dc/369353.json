@@ -7,17 +7,20 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-Z-T2S2",
+    "community_content": true,
     "date_created": "20210831",
-    "full_title": "DC-POA-Z-T2S2 Iggy\u2019s Folly",
+    "dungeoncraft": true,
+    "full_title": "DC-POA-Z-T2S2 Iggy’s Folly",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "369353",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "My, What Big Feet You Have",
     "tiers": 2,
-    "title": "Iggy\u2019s Folly",
+    "title": "Iggy’s Folly",
     "url": "https://www.dmsguild.com/product/369353/?affiliate_id=171040"
 }

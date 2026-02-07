@@ -1,13 +1,15 @@
 {
     "apl": 3,
     "authors": [
-        "Rune S\u00f8rheim"
+        "Rune Sørheim"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "CCC-ARCON01-01",
+    "community_content": true,
     "date_created": "20201105",
+    "dungeoncraft": false,
     "full_title": "CCC-ARCON01-01 - Forest Song",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "334613",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Forest Song",
+    "title": "- Forest Song",
     "url": "https://www.dmsguild.com/product/334613/?affiliate_id=171040"
 }

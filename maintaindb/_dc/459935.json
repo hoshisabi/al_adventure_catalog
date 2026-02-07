@@ -7,15 +7,19 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-BST-05",
+    "community_content": true,
     "date_created": "20231111",
+    "dungeoncraft": true,
     "full_title": "Pounded (SJ-DC-BST-05)",
-    "hours": 2,
+    "hours": null,
     "is_adventure": true,
     "level_range": "5-10",
     "price": 3.99,
     "product_id": "459935",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Pounded",
-    "url": "https://www.dmsguild.com/product/459935/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "Pounded (SJ-DC-BST-05)",
+    "url": "https://www.dmsguild.com/product/459935/?affiliate_id=171040"
 }

@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "FR-DC-LAX-01-02 ",
+    "code": "FR-DC-LAX-01-02",
+    "community_content": true,
     "date_created": "20240823",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LAX-01-02 No Strings Attached",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "492553",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "No Strings Attached",

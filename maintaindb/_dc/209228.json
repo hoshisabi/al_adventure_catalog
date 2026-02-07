@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL06-01",
+    "community_content": false,
     "date_created": "20170502",
+    "dungeoncraft": false,
     "full_title": "DDAL06-01 A Thousand Tiny Deaths",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "209228",
-    "season": "Tales From the Yawning Portal",
+    "salvage_mission": false,
+    "season": "6 - Tales From the Yawning Portal",
     "tiers": 1,
     "title": "A Thousand Tiny Deaths",
     "url": "https://www.dmsguild.com/product/209228/?affiliate_id=171040"

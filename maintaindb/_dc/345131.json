@@ -8,8 +8,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-GSP02-02H",
+    "code": "DC-POA-GSP02-02",
+    "community_content": true,
     "date_created": "20210130",
+    "dungeoncraft": true,
     "full_title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
     "hours": "2",
     "is_adventure": true,
@@ -17,9 +19,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "345131",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "The Priest of Caer-Dineval",
+    "title": "The Priest of Caer-Dineval (DC-PoA-GSP02-02H)",
     "url": "https://www.dmsguild.com/product/345131/?affiliate_id=171040"
 }

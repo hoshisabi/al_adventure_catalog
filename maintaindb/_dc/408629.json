@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-ZEP-T1S3",
+    "code": "WBW-DC-ZEP-T",
+    "community_content": true,
     "date_created": "20220901",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-ZEP-T1S3 Zep Sightseeing",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "408629",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Zep Sightseeing",
+    "title": "1S3 Zep Sightseeing",
     "url": "https://www.dmsguild.com/product/408629/?affiliate_id=171040"
 }

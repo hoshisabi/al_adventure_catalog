@@ -8,8 +8,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-HERO-BK-02-04",
+    "code": "CCC-HERO-BK-02",
+    "community_content": true,
     "date_created": "20200401",
+    "dungeoncraft": false,
     "full_title": "CCC-HERO-BK-02-04 Lanterns at Dusk",
     "hours": "4",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "308342",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Lanterns at Dusk",
+    "title": "04 Lanterns at Dusk",
     "url": "https://www.dmsguild.com/product/308342/?affiliate_id=171040"
 }

@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-04",
+    "community_content": false,
     "date_created": "20200301",
+    "dungeoncraft": false,
     "full_title": "EB-04 The Third Protocol",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "305024",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 1,
     "title": "The Third Protocol",
     "url": "https://www.dmsguild.com/product/305024/?affiliate_id=171040"

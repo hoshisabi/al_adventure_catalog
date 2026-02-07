@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-RDP-03",
+    "community_content": true,
     "date_created": "20251130",
+    "dungeoncraft": true,
     "full_title": "PS-DC-RDP-03 The Upper Demonweb & PS-DC-RDP-04 The Lower Demonweb",
     "hours": "2",
     "is_adventure": false,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "547771",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "The Upper Demonweb & The Lower Demonweb",
+    "title": "The Upper Demonweb & PS-DC-RDP-04 The Lower Demonweb",
     "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"
 }

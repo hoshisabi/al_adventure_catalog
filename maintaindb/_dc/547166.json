@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-NSO-BALANCE",
+    "community_content": true,
     "date_created": "20251201",
+    "dungeoncraft": true,
     "full_title": "FR-DC-NSO-BALANCE A New Order Rises",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": true,
     "price": 4.95,
     "product_id": "547166",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 4.95,
     "tiers": 1,

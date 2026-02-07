@@ -7,13 +7,16 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-GHG-01",
+    "community_content": true,
     "date_created": "20231130",
+    "dungeoncraft": true,
     "full_title": "The Griffons of Longsaddle (FR-DC-GHG-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "461201",
+    "salvage_mission": false,
     "tiers": 1,
-    "title": "The Griffons of Longsaddle",
+    "title": "The Griffons of Longsaddle (FR-DC-GHG-01)",
     "url": "https://www.dmsguild.com/product/461201/The-Griffons-of-Longsaddle-FRDCGHG01?filters=0_0_100057_0_0_0_0_0"
 }

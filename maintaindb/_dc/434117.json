@@ -7,7 +7,9 @@
         "Ravenloft"
     ],
     "code": "RV-DC-PHP-1313-01",
+    "community_content": true,
     "date_created": "20230416",
+    "dungeoncraft": true,
     "full_title": "RV-DC-PHP-1313-01 On That Fateful Day",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "434117",
+    "salvage_mission": false,
     "season": "Ravenloft Dungeoncraft",
     "tiers": 2,
     "title": "On That Fateful Day",

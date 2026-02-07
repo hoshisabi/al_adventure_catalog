@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON2-2",
+    "community_content": true,
     "date_created": "20190228",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON2-2 Army of the Unseen",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "267912",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Army of the Unseen",

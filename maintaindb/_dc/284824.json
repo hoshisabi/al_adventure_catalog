@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ALMOG-26",
+    "community_content": true,
     "date_created": "20190814",
+    "dungeoncraft": false,
     "full_title": "CCC-ALMOG-26 Shadowed Bellview",
     "hours": "2",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "284824",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Shadowed Bellview",

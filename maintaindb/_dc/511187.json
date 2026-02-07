@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-LIGA-10",
+    "community_content": true,
     "date_created": "20250203",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LIGA-10 - Tangled Threads of the Moor",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "511187",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Tangled Threads of the Moor",
+    "title": "- Tangled Threads of the Moor",
     "url": "https://www.dmsguild.com/product/511187/?affiliate_id=171040"
 }

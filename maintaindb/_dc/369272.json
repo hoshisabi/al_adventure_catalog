@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-COULEE21-01",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "DC-POA-Coulee21-01 The Frozen Snipe",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "369272",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Snipe Hunt",
     "tiers": 1,
-    "title": "The Frozen Snipe",
+    "title": "DC-POA-Coulee21-01 The Frozen Snipe",
     "url": "https://www.dmsguild.com/product/369272/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-PM03",
+    "community_content": true,
     "date_created": "20210228",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-PM03 Mindless Digging",
     "hours": null,
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.75,
     "product_id": "348523",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "In Too Deep",
     "tiers": 1,
-    "title": "Mindless Digging",
+    "title": "DC-PoA-PM03 Mindless Digging",
     "url": "https://www.dmsguild.com/product/348523/?affiliate_id=171040"
 }

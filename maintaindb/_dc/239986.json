@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-HATMS01-01",
+    "community_content": true,
     "date_created": "20180417",
+    "dungeoncraft": false,
     "full_title": "CCCHATMS01-01 Threatening Tides",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "239986",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Threatening Tides",
+    "title": "CCCHATMS01-01 Threatening Tides",
     "url": "https://www.dmsguild.com/product/239986/?affiliate_id=171040"
 }

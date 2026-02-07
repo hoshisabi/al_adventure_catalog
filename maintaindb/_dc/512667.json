@@ -1,14 +1,16 @@
 {
     "apl": 18,
     "authors": [
-        "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+        "Luís Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "PS-DC-GLITCH-01",
+    "community_content": true,
     "date_created": "20250217",
+    "dungeoncraft": true,
     "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "512667",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "Roots, Bloody Roots",
     "url": "https://www.dmsguild.com/product/512667/?affiliate_id=171040"

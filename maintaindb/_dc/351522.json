@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL10-06",
+    "community_content": false,
     "date_created": "20210325",
+    "dungeoncraft": false,
     "full_title": "DDAL10-06 The Fallen Star",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "351522",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "tiers": 2,
     "title": "The Fallen Star",
     "url": "https://www.dmsguild.com/product/351522/?affiliate_id=171040"

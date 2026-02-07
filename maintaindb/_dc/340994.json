@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DWB-GAT-1",
+    "community_content": true,
     "date_created": "20201229",
+    "dungeoncraft": false,
     "full_title": "CCC-DWB-GAT-1 To Give and to Take",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "340994",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "To Give and to Take",

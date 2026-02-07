@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-15",
+    "community_content": false,
     "date_created": "20210406",
+    "dungeoncraft": false,
     "full_title": "EB-15 Dream Eater",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "352879",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 3,
     "title": "Dream Eater",
     "url": "https://www.dmsguild.com/product/352879/?affiliate_id=171040"

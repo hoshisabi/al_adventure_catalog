@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DRAGON-03",
+    "community_content": true,
     "date_created": "20230926",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-DRAGON-03 : The Starfire Gambit!",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "451468",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "The Starfire Gambit!",
+    "title": ": The Starfire Gambit!",
     "url": "https://www.dmsguild.com/product/451468/?affiliate_id=171040"
 }

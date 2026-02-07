@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-DRAGON-01",
+    "community_content": true,
     "date_created": "20241021",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-DRAGON-01 Dancing in the Moonlight",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "499514",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Dancing in the Moonlight",

@@ -5,14 +5,16 @@
         "Eric Boaen",
         "Adam Scaramella",
         "Al Spader",
-        "Garrett Col\u00f3n",
+        "Garrett Colón",
         "The Role Initiative"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-01",
+    "community_content": true,
     "date_created": "20170916",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-01 Into the Darkness (Part One of the Yulash Series)",
     "hours": "4",
     "is_adventure": true,
@@ -20,6 +22,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "221775",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Into the Darkness (Part One of the Yulash Series)",

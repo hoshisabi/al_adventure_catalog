@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-HAL-02",
+    "community_content": true,
     "date_created": "20181125",
+    "dungeoncraft": false,
     "full_title": "ZETH-02 Six Striking Swords (CCC-HAL-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "259625",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Six Striking Swords (ZETH-02)",
+    "title": "ZETH-02 Six Striking Swords (CCC-HAL-02)",
     "url": "https://www.dmsguild.com/product/259625/?affiliate_id=171040"
 }

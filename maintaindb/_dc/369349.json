@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-PND-5",
+    "community_content": true,
     "date_created": "20210831",
+    "dungeoncraft": true,
     "full_title": "What Stalks the Night? (DC-POA-PND-5)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "369349",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "My, What Big Feet You Have",
     "tiers": 2,
-    "title": "What Stalks the Night?",
+    "title": "What Stalks the Night? (DC-POA-PND-5)",
     "url": "https://www.dmsguild.com/product/369349/?affiliate_id=171040"
 }

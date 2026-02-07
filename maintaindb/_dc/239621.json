@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-03",
+    "community_content": true,
     "date_created": "20180413",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-03 Fences and Swords (Part One of the RocSlide Series)",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "239621",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Fences and Swords: Part One of the RocSlide Series",
+    "title": "Fences and Swords (Part One of the RocSlide Series)",
     "url": "https://www.dmsguild.com/product/239621/?affiliate_id=171040"
 }

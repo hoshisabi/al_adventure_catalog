@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-VECNA-03",
+    "community_content": true,
     "date_created": "20241103",
+    "dungeoncraft": true,
     "full_title": "Neverdeath Nights (FR-DC-VECNA-03)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "501014",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Neverdeath Nights",
+    "title": "Neverdeath Nights (FR-DC-VECNA-03)",
     "url": "https://www.dmsguild.com/product/501014/?affiliate_id=171040"
 }

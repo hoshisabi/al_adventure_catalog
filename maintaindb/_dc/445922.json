@@ -7,7 +7,9 @@
         "Dragonlance"
     ],
     "code": "DL-DC-SDCC-01",
+    "community_content": true,
     "date_created": "20230717",
+    "dungeoncraft": true,
     "full_title": "Greenshield (DL-DC-SDCC-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 8.0,
     "product_id": "445922",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Greenshield",
+    "title": "Greenshield (DL-DC-SDCC-01)",
     "url": "https://www.dmsguild.com/product/445922/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-OGG-02",
+    "community_content": true,
     "date_created": "20211014",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-OGG-02 Judge and Jury",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "374070",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "Judge and Jury",
+    "title": "DC-PoA-OGG-02 Judge and Jury",
     "url": "https://www.dmsguild.com/product/374070/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-CBB-06",
+    "community_content": true,
     "date_created": "20210808",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "367061",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "The Mystery of Mendax The Menacing",
+    "title": "DC-PoA-CBB-06 The Mystery of Mendax The Menacing",
     "url": "https://www.dmsguild.com/product/367061/?affiliate_id=171040"
 }

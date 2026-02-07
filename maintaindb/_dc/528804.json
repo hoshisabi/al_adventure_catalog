@@ -3,11 +3,11 @@
     "authors": [
         "Kymerik Kreationz"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250705",
+    "dungeoncraft": false,
     "full_title": "Echoes of Liberty",
     "hours": null,
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": true,
     "price": 1.99,
     "product_id": "528804",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 1.99,
     "tiers": null,

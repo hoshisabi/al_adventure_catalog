@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-02",
+    "code": "DDEX02-02",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-02 Embers of Elmwood",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170476",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 1,
-    "title": "Embers of Elmwood",
+    "title": "DDEX2-02 Embers of Elmwood",
     "url": "https://www.dmsguild.com/product/170476/?affiliate_id=171040"
 }

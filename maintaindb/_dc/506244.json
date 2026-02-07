@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-VMT-01",
+    "community_content": true,
     "date_created": "20241218",
+    "dungeoncraft": true,
     "full_title": "FR-DC-VMT-01 The Lord of the Reindeer",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "506244",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Lord of the Reindeer",

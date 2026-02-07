@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SFBAY-04-02",
+    "community_content": true,
     "date_created": "20180126",
+    "dungeoncraft": false,
     "full_title": "CCC-SFBAY-04-02 Under Earth & Stone",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "232428",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Under Earth & Stone",

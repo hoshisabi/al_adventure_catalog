@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-TRIDEN-MYKE-01",
+    "community_content": true,
     "date_created": "20221222",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-TRIDEN-MYKE-01 Every Breath You Take",
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
     "product_id": "420213",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
     "title": "Every Breath You Take",
-    "url": "https://www.dmsguild.com/product/420213/SJDCTRIDENMYKE01-Every-Breath-You-Take?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/420213/SJDCTRIDENMYKE01-Every-Breath-You-Take?filters=0_0_100057_0_0_0_0_0"
 }

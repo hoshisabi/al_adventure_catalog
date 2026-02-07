@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-CIC-08",
+    "community_content": true,
     "date_created": "20180328",
+    "dungeoncraft": false,
     "full_title": "CCC-CIC-08 The Last Voyage of the Woolgathering Tidsoptimist",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "238289",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Last Voyage of the Woolgathering Tidsoptimist",

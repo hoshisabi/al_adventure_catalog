@@ -7,12 +7,16 @@
         "Ravenloft"
     ],
     "code": "RV-DC-DBH-01",
+    "community_content": true,
     "date_created": "20210813",
+    "dungeoncraft": true,
     "full_title": "RV-DC-DBH-01 And Then There Was a Murder",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "367527",
+    "salvage_mission": false,
+    "season": "Ravenloft Dungeoncraft",
     "tiers": 1,
     "title": "And Then There Was a Murder",
     "url": "https://www.dmsguild.com/product/367527/RVDCDBH01-And-Then-There-Was-a-Murder?filters=0_0_100057_0_0_0_0_0"

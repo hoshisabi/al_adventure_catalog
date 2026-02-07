@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-42",
+    "community_content": true,
     "date_created": "20190121",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-42 HULB 4-3 Call of the Deep",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "264701",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Call of the Deep (HULB 4-3)",
+    "title": "HULB 4-3 Call of the Deep",
     "url": "https://www.dmsguild.com/product/264701/?affiliate_id=171040"
 }

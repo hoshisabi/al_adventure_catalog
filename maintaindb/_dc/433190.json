@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-SQD2",
+    "community_content": true,
     "date_created": "20230408",
+    "dungeoncraft": true,
     "full_title": "Squidoosh! (SJ-DC-SQD2)",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "product_id": "433190",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Squidoosh!",
-    "url": "https://www.dmsguild.com/product/433190/Squidoosh-SJDCSQD2?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Squidoosh! (SJ-DC-SQD2)",
+    "url": "https://www.dmsguild.com/product/433190/Squidoosh-SJDCSQD2?filters=45470_0_0_0_0_0"
 }

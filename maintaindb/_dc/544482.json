@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-KW-000",
+    "community_content": true,
     "date_created": "20251102",
+    "dungeoncraft": true,
     "full_title": "FR-DC-KW-000 Highharvestide Hullabaloo",
     "hours": null,
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "544482",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Highharvestide Hullabaloo",

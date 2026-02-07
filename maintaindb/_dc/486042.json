@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-UNDEAD-01",
+    "community_content": true,
     "date_created": "20240627",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-UNDEAD-01 Undead Like Me",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "486042",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Undead Like Me",

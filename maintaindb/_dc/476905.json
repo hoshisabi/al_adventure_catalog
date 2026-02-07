@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WATERDEEP-KYZ",
+    "community_content": true,
     "date_created": "20240407",
+    "dungeoncraft": true,
     "full_title": "Sweet Dreams are Made of Keys (FR-DC-WATERDEEP-KYZ)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.5,
     "product_id": "476905",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Sweet Dreams are Made of Keys",
+    "title": "Sweet Dreams are Made of Keys (FR-DC-WATERDEEP-KYZ)",
     "url": "https://www.dmsguild.com/product/476905/Sweet-Dreams-are-Made-of-Keys-FRDCWATERDEEPKYZ?filters=0_0_100057_0_0_0_0_0"
 }

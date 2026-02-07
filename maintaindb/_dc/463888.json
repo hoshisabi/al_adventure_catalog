@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-AMO-KURI-03",
+    "community_content": true,
     "date_created": "20231215",
+    "dungeoncraft": true,
     "full_title": "Last Stand (SJ-DC-AMO-KURI-03)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "463888",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Last Stand",
+    "title": "Last Stand (SJ-DC-AMO-KURI-03)",
     "url": "https://www.dmsguild.com/product/463888/?affiliate_id=171040"
 }

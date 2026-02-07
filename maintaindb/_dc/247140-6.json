@@ -11,17 +11,20 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDAL00-02f",
+    "code": "DDAL00-02",
+    "community_content": false,
     "date_created": "20180713",
+    "dungeoncraft": false,
     "full_title": "DDAL00-02f The Definition of Heroism (Lost Tales of Myth Drannor)",
     "hours": "2",
     "is_adventure": true,
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 14.99,
-    "product_id": "247140-5",
+    "product_id": "247140-6",
+    "salvage_mission": false,
     "season": 0,
-    "tiers": "4",
-    "title": "The Definition of Heroism (Lost Tales of Myth Drannor)",
+    "tiers": 4,
+    "title": "f The Definition of Heroism (Lost Tales of Myth Drannor)",
     "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
 }

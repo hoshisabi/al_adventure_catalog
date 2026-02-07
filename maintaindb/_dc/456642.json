@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-ANGKA-07",
+    "community_content": true,
     "date_created": "20231014",
+    "dungeoncraft": true,
     "full_title": "Sleep Now in the Fire (SJ-DC-ANGKA-07)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
     "product_id": "456642",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Sleep Now in the Fire",
-    "url": "https://www.dmsguild.com/product/456642/Sleep-Now-in-the-Fire-SJDCANGKA07?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Sleep Now in the Fire (SJ-DC-ANGKA-07)",
+    "url": "https://www.dmsguild.com/product/456642/Sleep-Now-in-the-Fire-SJDCANGKA07?filters=0_0_100057_0_0_0_0_0"
 }

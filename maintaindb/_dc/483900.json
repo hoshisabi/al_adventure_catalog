@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-BMK-02",
+    "community_content": true,
     "date_created": "20240608",
+    "dungeoncraft": true,
     "full_title": "FR-DC-BMK-02 Phandelver and the Blood Moon Crypts",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "483900",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Phandelver and the Blood Moon Crypts",

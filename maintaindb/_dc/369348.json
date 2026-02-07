@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-AMAK01",
+    "community_content": true,
     "date_created": "20210831",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-AMAK01 My Loneliness is Killing You",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.93,
     "product_id": "369348",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Snipe Hunt",
     "tiers": 1,
-    "title": "My Loneliness is Killing You",
+    "title": "DC-PoA-AMAK01 My Loneliness is Killing You",
     "url": "https://www.dmsguild.com/product/369348/?affiliate_id=171040"
 }

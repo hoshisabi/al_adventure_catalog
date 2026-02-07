@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-GMM-02",
+    "community_content": true,
     "date_created": "20250521",
+    "dungeoncraft": true,
     "full_title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "523232",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 2,
-    "title": "Pazuzu's Askew Kazoo",
+    "title": "Pazuzu's Askew Kazoo (PS-DC-GMM-02)",
     "url": "https://www.dmsguild.com/product/523232/?affiliate_id=171040"
 }

@@ -3,17 +3,18 @@
     "authors": [
         "Stefan Tomaschitz"
     ],
-    "campaigns": [
-        "UNKNOWN"
-    ],
-    "code": "UNKNOWN",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20240301",
-    "full_title": "Das Fl\u00fcstern aus dem Brunnen",
+    "dungeoncraft": false,
+    "full_title": "Das Flüstern aus dem Brunnen",
     "hours": null,
     "is_adventure": false,
     "level_range": null,
     "product_id": "472635",
+    "salvage_mission": false,
     "tiers": null,
-    "title": "Das Fl\u00fcstern aus dem Brunnen",
+    "title": "Das Flüstern aus dem Brunnen",
     "url": "https://www.dmsguild.com/product/472635/Das-Flustern-aus-dem-Brunnen?filters=0_0_100057_0_0_0_0_0"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-CONMAR-19",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-CONMAR-19 Wherever I May Float",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 4.49,
     "product_id": "369301",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "This Seems Familiar",
     "tiers": 2,
-    "title": "Wherever I May Float",
+    "title": "DC-PoA-CONMAR-19 Wherever I May Float",
     "url": "https://www.dmsguild.com/product/369301/?affiliate_id=171040"
 }

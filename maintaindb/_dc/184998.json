@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-01",
+    "community_content": true,
     "date_created": "20160916",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-01 CORE 1-1 A Scream in the Night",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "184998",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "A Scream in the Night (CORE 1-1)",
+    "title": "CORE 1-1 A Scream in the Night",
     "url": "https://www.dmsguild.com/product/184998/?affiliate_id=171040"
 }

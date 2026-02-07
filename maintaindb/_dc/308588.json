@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TAROT02-07",
+    "community_content": true,
     "date_created": "20200420",
+    "dungeoncraft": false,
     "full_title": "CCC-TAROT02-07 Moonlit Waves Part 2",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 0.99,
     "product_id": "308588",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Moonlit Waves: Part 2",
+    "title": "Moonlit Waves Part 2",
     "url": "https://www.dmsguild.com/product/308588/?affiliate_id=171040"
 }

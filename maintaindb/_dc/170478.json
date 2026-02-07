@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-04",
+    "code": "DDEX02-04",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-04 Mayhem in the Earthspur Mines",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170478",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 2,
-    "title": "Mayhem in the Earthspur Mines",
+    "title": "DDEX2-04 Mayhem in the Earthspur Mines",
     "url": "https://www.dmsguild.com/product/170478/?affiliate_id=171040"
 }

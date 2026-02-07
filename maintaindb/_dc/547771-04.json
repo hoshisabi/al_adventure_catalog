@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-RDP-04",
+    "community_content": true,
     "date_created": "20251130",
+    "dungeoncraft": true,
     "full_title": "PS-DC-RDP-04 The Lower Demonweb",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "547771-04",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "The Lower Demonweb",
     "url": "https://www.dmsguild.com/product/547771/?affiliate_id=171040"

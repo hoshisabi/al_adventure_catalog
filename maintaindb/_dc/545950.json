@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-UCON25",
+    "community_content": true,
     "date_created": "20251113",
+    "dungeoncraft": true,
     "full_title": "FR-DC-UCON25 Welcome to Basht Series",
     "hours": "1",
     "is_adventure": false,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "545950",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Welcome to Basht Series",

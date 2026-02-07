@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-BIRE-06",
+    "community_content": true,
     "date_created": "20220830",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-BIRE-06 Clutter and Contraptions",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "408369",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Clutter and Contraptions",
-    "url": "https://www.dmsguild.com/product/408369/WBWDCBIRE06-Clutter-and-Contraptions?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408369/WBWDCBIRE06-Clutter-and-Contraptions?filters=0_0_100057_0_0_0_0_0"
 }

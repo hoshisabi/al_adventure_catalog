@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-FLUMPH-02",
+    "community_content": true,
     "date_created": "20230314",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-FLUMPH-02 Frightmare of the Flux",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "430296",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Frightmare of the Flux",
-    "url": "https://www.dmsguild.com/product/430296/SJDCFLUMPH02-Frightmare-of-the-Flux?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/430296/SJDCFLUMPH02-Frightmare-of-the-Flux?filters=45470_0_0_0_0_0"
 }

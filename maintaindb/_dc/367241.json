@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-CONMAR21",
+    "community_content": true,
     "date_created": "20210809",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-CONMAR21 For My People",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "367241",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "A Dark Horse",
     "tiers": 1,
-    "title": "For My People",
+    "title": "DC-PoA-CONMAR21 For My People",
     "url": "https://www.dmsguild.com/product/367241/?affiliate_id=171040"
 }

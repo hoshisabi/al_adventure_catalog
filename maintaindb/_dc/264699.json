@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-41",
+    "community_content": true,
     "date_created": "20190121",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-41 HULB 4-2 Voices from the Deep",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "264699",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Voices from the Deep (HULB 4-2)",
+    "title": "HULB 4-2 Voices from the Deep",
     "url": "https://www.dmsguild.com/product/264699/?affiliate_id=171040"
 }

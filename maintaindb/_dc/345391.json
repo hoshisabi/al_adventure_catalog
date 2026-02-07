@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-SAD-ODW",
+    "community_content": true,
     "date_created": "20210201",
+    "dungeoncraft": true,
     "full_title": "DC-POA-SAD-ODW Out of the Dark Woods",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 7.02,
     "product_id": "345391",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
+    "seed": "Out of the Woods",
     "tiers": 2,
     "title": "Out of the Dark Woods",
-    "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040",
-    "seed": "Out of the Woods"
+    "url": "https://www.dmsguild.com/product/345391/?affiliate_id=171040"
 }

@@ -3,16 +3,17 @@
     "authors": [
         "Santiago Victoria"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20211209",
+    "dungeoncraft": false,
     "full_title": "Quien es el caminante de planos",
     "hours": null,
     "is_adventure": false,
     "level_range": null,
     "product_id": "380183",
+    "salvage_mission": false,
     "tiers": null,
     "title": "Quien es el caminante de planos",
     "url": "https://www.dmsguild.com/product/380183/Quien-es-el-caminante-de-planos?filters=1000043_0_0_0_0_0_0_0"

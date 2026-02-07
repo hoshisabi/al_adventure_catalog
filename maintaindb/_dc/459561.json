@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-CURSE",
+    "community_content": true,
     "date_created": "20231109",
+    "dungeoncraft": true,
     "full_title": "FR-DC-CURSE Is this a Curse?",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "459561",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Is this a Curse?",

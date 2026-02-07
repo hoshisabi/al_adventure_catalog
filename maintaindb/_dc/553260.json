@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-LFGCON-01",
+    "community_content": true,
     "date_created": "20260115",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LFGCON-01 Warren of the Mad Kobold",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "553260",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Warren of the Mad Kobold",

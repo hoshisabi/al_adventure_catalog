@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-BK03-03",
+    "community_content": true,
     "date_created": "20210125",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-BK03-03 Secrets in Storage",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "344628",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Secrets in Storage",

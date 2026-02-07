@@ -8,7 +8,9 @@
         "Ravenloft"
     ],
     "code": "DDAL04-14",
+    "community_content": false,
     "date_created": "20160705",
+    "dungeoncraft": false,
     "full_title": "DDAL04-14 The Darklord",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "186787",
-    "season": "Curse of Strahd",
+    "salvage_mission": false,
+    "season": "4 - Curse of Strahd",
     "tiers": 2,
     "title": "The Darklord",
     "url": "https://www.dmsguild.com/product/186787/?affiliate_id=171040"

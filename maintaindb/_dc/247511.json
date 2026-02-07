@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-31",
+    "community_content": true,
     "date_created": "20180716",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-31 PHLAN 3-1 The Conventicle of Chaos",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "247511",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Conventicle of Chaos (PHLAN 3-1)",
+    "title": "PHLAN 3-1 The Conventicle of Chaos",
     "url": "https://www.dmsguild.com/product/247511/?affiliate_id=171040"
 }

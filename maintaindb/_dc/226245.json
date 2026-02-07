@@ -3,11 +3,11 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": "DDHC-TOA-13",
+    "community_content": false,
     "date_created": "20171110",
+    "dungeoncraft": false,
     "full_title": "DDHC-TOA-13 The Risen Mists",
     "hours": null,
     "is_adventure": true,
@@ -16,7 +16,8 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "226245",
-    "season": "Tomb of Annihilation",
+    "salvage_mission": false,
+    "season": null,
     "tiers": 3,
     "title": "The Risen Mists",
     "url": "https://www.dmsguild.com/product/226245/?affiliate_id=171040"

@@ -2,14 +2,16 @@
     "apl": 3,
     "authors": [
         "Gabriel Kerr",
-        "Marco Ant\u00f4nio \u201cBoi\u201d Loureiro",
+        "Marco Antônio “Boi” Loureiro",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "SJ-DC-LIGA03",
+    "community_content": true,
     "date_created": "20231219",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-LIGA03 The Dark Hunger",
     "hours": "4",
     "is_adventure": true,
@@ -17,7 +19,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "464474",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Dark Hunger",

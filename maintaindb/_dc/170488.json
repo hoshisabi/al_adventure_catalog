@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-13",
+    "code": "DDEX02-13",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-13 The Howling Void",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170488",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 2,
-    "title": "The Howling Void",
+    "title": "DDEX2-13 The Howling Void",
     "url": "https://www.dmsguild.com/product/170488/?affiliate_id=171040"
 }

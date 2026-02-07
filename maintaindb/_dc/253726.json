@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SQC-02-02",
+    "community_content": true,
     "date_created": "20180930",
+    "dungeoncraft": false,
     "full_title": "CCC-SQC-02-02 Last Gasp",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.0,
     "product_id": "253726",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Last Gasp",

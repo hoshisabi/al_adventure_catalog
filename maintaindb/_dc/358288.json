@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON12-1",
+    "community_content": true,
     "date_created": "20210520",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON12-1 Nothing Is Sacred",
     "hours": "2-4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "358288",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Nothing Is Sacred",

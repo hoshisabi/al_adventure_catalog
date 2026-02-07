@@ -3,11 +3,11 @@
     "authors": [
         "Dungeon Masters Guild"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "FR-DC-TKM-RGT-02",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20250728",
+    "dungeoncraft": false,
     "full_title": "TKM FR Bundle [BUNDLE]",
     "hours": "2",
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 13.46,
     "product_id": "531102",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "TKM FR Bundle [BUNDLE]",

@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "PS-DC-SV-A2",
+    "code": "PS-DC-SV-A",
+    "community_content": true,
     "date_created": "20251015",
+    "dungeoncraft": true,
     "full_title": "PS-DC-SV-A2 Escape from the Severed Vault",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.0,
     "product_id": "540678",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 2,
-    "title": "Escape from the Severed Vault",
+    "title": "2 Escape from the Severed Vault",
     "url": "https://www.dmsguild.com/product/540678/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-SAERLOON-00",
+    "community_content": true,
     "date_created": "20240718",
+    "dungeoncraft": true,
     "full_title": "FR-DC-SAERLOON-00 Darkhouse, Deliverance",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": true,
     "price": 1.0,
     "product_id": "488443",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 1.0,
     "tiers": 3,

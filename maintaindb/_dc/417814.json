@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-RFJK-01",
+    "community_content": true,
     "date_created": "20221125",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-RFJK-01 Bringing Home the Bacon",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "417814",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Bringing Home the Bacon",
-    "url": "https://www.dmsguild.com/product/417814/SJDCRFJK01-Bringing-Home-the-Bacon?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/417814/SJDCRFJK01-Bringing-Home-the-Bacon?filters=0_0_100057_0_0_0_0_0"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-DRWEP-OD-01",
+    "community_content": false,
     "date_created": "20240215",
+    "dungeoncraft": false,
     "full_title": "BMG-DRWEP-OD-01 The Enemy of My Enemy",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 12.99,
     "product_id": "471087",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Enemy of My Enemy",

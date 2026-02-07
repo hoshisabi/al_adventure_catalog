@@ -10,42 +10,56 @@ from typing import List, Optional, Tuple, Any
 # Season labels (named programs + numeric seasons 1-10 + Eberron/Ravenloft seasons)
 # Note: Order matters for prefix matching - more specific prefixes should come first
 SEASONS = {
-    'WBW-DC': "The Wild Beyond the Witchlight",
-    'SJ-DC': "Spelljammer",
-    'PS-DC': "Planescape",
-    'DC-POA': "Icewind Dale (Plague of Ancients)",  # Changed from "Plague of Ancients"
-    'EB-EP': "Oracle of War",  # Eberron Oracle of War (EB-EP-??) - check before EB-
-    'EB-SM': "Eberron Dungeoncraft",  # Eberron Salvage Missions grouped with EB-DC
-    'EB-DC': "Eberron Dungeoncraft",  # Eberron Dungeoncraft - check before EB-
-    'EB-': "Oracle of War",  # Eberron Oracle of War (EB-??) - general case, check after specific EB-* patterns
-    'ELW': "Embers of War",  # Eberron Embers of War (ELW-??)
-    'RMH': "Ravenloft Mist Hunters",  # Ravenloft Mist Hunters (RMH-???)
-    'RV-DC': "Ravenloft Dungeoncraft",  # Ravenloft Dungeoncraft
-    1: "Tyranny of Dragons",
-    2: "Elemental Evil",
-    3: "Rage of Demons",
-    4: "Curse of Strahd",
-    5: "Storm King's Thunder",
-    6: "Tales From the Yawning Portal",
-    7: "Tomb of Annihilation",
-    8: "Waterdeep",
-    9: "Avernus Rising",
-    10: "Icewind Dale (Plague of Ancients)", # Changed from "Plague of Ancients"
+    'WBW-DC': "11 - Wild Beyond the Witchlight",
+    'SJ-DC': "12 - Spelljammer",
+    'PS-DC': "13 - Planescape",
+    'DC-POA': "10 - Icewind Dale",
+    'EB-EP': "Oracle of War",
+    'EB-SM': "Eberron Salvage Mission",
+    'EB-DC': "Eberron Dungeoncraft",
+    'EB-ELW': "Embers of War",
+    'EB-': "Oracle of War",
+    'ELW': "Embers of War",
+    'RMH': "Ravenloft Mist Hunters",
+    'RV-DC': "Ravenloft Dungeoncraft",
+    1: "1 - Tyranny of Dragons",
+    2: "2 - Elemental Evil",
+    3: "3 - Rage of Demons",
+    4: "4 - Curse of Strahd",
+    5: "5 - Storm King's Thunder",
+    6: "6 - Tales From the Yawning Portal",
+    7: "7 - Tomb of Annihilation",
+    8: "8 - Waterdeep",
+    9: "9 - Avernus Rising",
+    10: "10 - Icewind Dale",
+    11: "11 - Wild Beyond the Witchlight",
+    12: "12 - Spelljammer",
+    13: "13 - Planescape"
 }
 
 # Season name normalization: map synonyms to canonical display form for filtering/stats.
 # Used so "Icewind Dale", "Plague of Ancients", "DC-POA", "DDAL10" all show as one season;
 # and "Rage of Demons" / "Out of the Abyss" (DDEX3) show as one.
 SEASON_NORMALIZATION = {
-    # Icewind Dale / Plague of Ancients / DC-POA / DDAL10 -> single canonical
-    "Plague of Ancients": "10 - Icewind Dale (Plague of Ancients)",
-    "Icewind Dale": "10 - Icewind Dale (Plague of Ancients)",
-    "Icewind Dale (Plague of Ancients)": "10 - Icewind Dale (Plague of Ancients)",
-    "Plague of Ancients (DC-POA)": "10 - Icewind Dale (Plague of Ancients)",
-    "Icewind Dale (DC-POA)": "10 - Icewind Dale (Plague of Ancients)",
-    # Rage of Demons / Out of the Abyss (DDEX3) -> single canonical
+    "Tyranny of Dragons": "1 - Tyranny of Dragons",
+    "Elemental Evil": "2 - Elemental Evil",
     "Rage of Demons": "3 - Rage of Demons",
+    "Curse of Strahd": "4 - Curse of Strahd",
+    "Storm King's Thunder": "5 - Storm King's Thunder",
+    "Tales From the Yawning Portal": "6 - Tales From the Yawning Portal",
+    "Tomb of Annihilation": "7 - Tomb of Annihilation",
+    "Waterdeep": "8 - Waterdeep",
+    "Avernus Rising": "9 - Avernus Rising",
+    "Plague of Ancients": "10 - Icewind Dale",
+    "Icewind Dale": "10 - Icewind Dale",
+    "Icewind Dale (Plague of Ancients)": "10 - Icewind Dale",
+    "Plague of Ancients (DC-POA)": "10 - Icewind Dale",
+    "Icewind Dale (DC-POA)": "10 - Icewind Dale",
     "Out of the Abyss": "3 - Rage of Demons",
+    "Wild Beyond the Witchlight": "11 - Wild Beyond the Witchlight",
+    "The Wild Beyond the Witchlight": "11 - Wild Beyond the Witchlight",
+    "Spelljammer": "12 - Spelljammer",
+    "Planescape": "13 - Planescape",
 }
 DC_CAMPAIGNS = {
     'DL-DC': 'Dragonlance',
@@ -305,6 +319,8 @@ def get_season(code: Optional[str]):
         season = SEASONS.get('EB-SM')
     elif code_u.startswith('EB-DC'):
         season = SEASONS.get('EB-DC')
+    elif code_u.startswith('EB-ELW'):
+        season = SEASONS.get('EB-ELW')
     elif code_u.startswith('EB-'):
         # General EB-?? pattern (but not EB-EP, EB-SM, or EB-DC)
         season = SEASONS.get('EB-')
@@ -324,7 +340,7 @@ def get_season(code: Optional[str]):
         for prefix, season_name in SEASONS.items():
             if isinstance(prefix, str) and code_u.startswith(prefix):
                 # Skip EB- patterns we already handled above
-                if prefix in ('EB-EP', 'EB-SM', 'EB-DC', 'EB-', 'ELW', 'RMH', 'RV-DC'):
+                if prefix in ('EB-EP', 'EB-SM', 'EB-DC', 'EB-ELW', 'EB-', 'ELW', 'RMH', 'RV-DC'):
                     continue
                 season = season_name
                 break
@@ -356,7 +372,18 @@ def normalize_season_display(season_str: Optional[str]) -> Optional[str]:
     if not season_str or not isinstance(season_str, str):
         return season_str
     s = season_str.strip()
-    return SEASON_NORMALIZATION.get(s, s)
+    
+    # 1. Check if it's a known synonym
+    if s in SEASON_NORMALIZATION:
+        return SEASON_NORMALIZATION[s]
+    
+    # 2. Check if it's a numeric season ID
+    if s.isdigit():
+        i_val = int(s)
+        if i_val in SEASONS:
+            return SEASONS[i_val]
+            
+    return s
 
 
 def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optional[str], List[str]]:
@@ -424,11 +451,11 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         (r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}(?:-\d{1,2})?", lambda m: m.group(0).upper()),
         # Ravenloft Module Hunt (e.g., RMH-01)
         (r"^(RMH)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
-        # Eberron Sharn Modules (e.g., EB-SM-01)
-        (r"^(EB-SM)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
+        # Eberron Sharn Modules / Salvage Missions (e.g., EB-SM-01, EB-SM-METALLUS)
+        (r"^(EB-SM)-([A-Z0-9-]+)", lambda m: f"{m.group(1).upper()}-{m.group(2).upper()}"),
         # General DC- (Dungeon Craft) codes (e.g., DC-PO-01, DC-BWP-01, DC-POA-ICE01-01, POA-DC-01)
-        (r"^(?:POA-)?(DC-(?:POA-)?[A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"DC-{m.group(1).upper()}-{m.group(2)}"),
-        (r"^(POA-DC)-(\d+(?:-\d+)*)", lambda m: f"POA-DC-{m.group(2)}"),
+        (r"^(?:POA-)?(DC-(?:POA-)?[A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
+        (r"^(POA-DC)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # General DC codes without prefix (e.g., DC-01, DC01)
         (r"^(DC)-?(\d{1,2})", lambda m: f"DC-{m.group(2)}"),
     ]

@@ -3,18 +3,19 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20161019",
+    "dungeoncraft": false,
     "full_title": "Murder in Velen",
     "hours": "4",
     "is_adventure": false,
-    "level_range": "1",
+    "level_range": null,
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "196220",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
     "title": "Murder in Velen",

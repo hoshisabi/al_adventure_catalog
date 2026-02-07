@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-33",
+    "community_content": true,
     "date_created": "20180716",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-33 PHLAN 3-3 Spinning on the Edge",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "247513",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Spinning on the Edge (PHLAN 3-3)",
+    "title": "PHLAN 3-3 Spinning on the Edge",
     "url": "https://www.dmsguild.com/product/247513/?affiliate_id=171040"
 }

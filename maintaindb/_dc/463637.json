@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-HYS-03",
+    "community_content": true,
     "date_created": "20231212",
+    "dungeoncraft": true,
     "full_title": "No Time to Die (PS-DC-HYS-03)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "463637",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "No Time to Die",
+    "title": "No Time to Die (PS-DC-HYS-03)",
     "url": "https://www.dmsguild.com/product/463637/No-Time-to-Die-PSDCHYS03-5e?filters=0_0_100057_0_0_0_0_0"
 }

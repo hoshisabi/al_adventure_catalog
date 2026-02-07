@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GARY01-03",
+    "community_content": true,
     "date_created": "20170414",
+    "dungeoncraft": false,
     "full_title": "CCC-GARY01-03: The Gary Con 2017 Story Arc",
     "hours": null,
     "is_adventure": false,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 12.99,
     "product_id": "209694",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "The Gary Con 2017 Story Arc",
+    "title": ": The Gary Con 2017 Story Arc",
     "url": "https://www.dmsguild.com/product/209694/?affiliate_id=171040"
 }

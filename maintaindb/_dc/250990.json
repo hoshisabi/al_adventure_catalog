@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL08-02",
+    "community_content": false,
     "date_created": "20181002",
+    "dungeoncraft": false,
     "full_title": "DDAL08-02 Beneath the City of the Dead",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "250990",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": "8 - Waterdeep",
     "tiers": 1,
     "title": "Beneath the City of the Dead",
     "url": "https://www.dmsguild.com/product/250990/?affiliate_id=171040"

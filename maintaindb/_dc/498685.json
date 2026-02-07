@@ -4,10 +4,12 @@
         "Pauline Feraren"
     ],
     "campaigns": [
-        null
+        "Forgotten Realms"
     ],
     "code": "FR-DC-IMP-02",
+    "community_content": true,
     "date_created": "20241013",
+    "dungeoncraft": true,
     "full_title": "Hunting Moon (FR-DC-IMP-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 5.99,
     "product_id": "498685",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Hunting Moon",
+    "title": "Hunting Moon (FR-DC-IMP-02)",
     "url": "https://www.dmsguild.com/product/498685/?affiliate_id=171040"
 }

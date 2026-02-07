@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DES-04-01",
+    "community_content": true,
     "date_created": "20201109",
+    "dungeoncraft": false,
     "full_title": "CCC-DES-04-01 A Hellish Haul",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "334715",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "A Hellish Haul",

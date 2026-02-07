@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL08-15",
+    "community_content": false,
     "date_created": "20190201",
+    "dungeoncraft": false,
     "full_title": "DDAL08-15 Forge of Fangs",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "265534",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": "8 - Waterdeep",
     "tiers": 3,
     "title": "Forge of Fangs",
     "url": "https://www.dmsguild.com/product/265534/?affiliate_id=171040"

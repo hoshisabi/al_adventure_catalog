@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-1-07",
+    "community_content": false,
     "date_created": "20220408",
+    "dungeoncraft": false,
     "full_title": "PO-BK-1-07 Beyond This Portal",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "392892",
+    "salvage_mission": false,
     "season": null,
     "tiers": 4,
     "title": "Beyond This Portal",

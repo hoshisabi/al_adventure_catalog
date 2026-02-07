@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-TLRMB-02",
+    "community_content": true,
     "date_created": "20220106",
+    "dungeoncraft": true,
     "full_title": "The Last Resort WBW-DC-TLRMB-02",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "382720",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Last Resort",
+    "title": "The Last Resort WBW-DC-TLRMB-02",
     "url": "https://www.dmsguild.com/product/382720/?affiliate_id=171040"
 }

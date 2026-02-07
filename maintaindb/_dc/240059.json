@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-28",
+    "community_content": true,
     "date_created": "20180418",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-28 Hill 2-1 The Red Gathering",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "240059",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Red Gathering (Hill 2-1)",
+    "title": "Hill 2-1 The Red Gathering",
     "url": "https://www.dmsguild.com/product/240059/?affiliate_id=171040"
 }

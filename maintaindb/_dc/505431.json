@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-TGT-03",
+    "community_content": true,
     "date_created": "20241217",
+    "dungeoncraft": true,
     "full_title": "The Show Must Go On (FR-DC-TGT-03)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "505431",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Show Must Go On",
+    "title": "The Show Must Go On (FR-DC-TGT-03)",
     "url": "https://www.dmsguild.com/product/505431/?affiliate_id=171040"
 }

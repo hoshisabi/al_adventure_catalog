@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ARCON01-03",
+    "community_content": true,
     "date_created": "20201103",
+    "dungeoncraft": false,
     "full_title": "CCC-ARCON01-03 - Pharmacist Wanted",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "334450",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Pharmacist Wanted",
+    "title": "- Pharmacist Wanted",
     "url": "https://www.dmsguild.com/product/334450/?affiliate_id=171040"
 }

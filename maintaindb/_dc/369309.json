@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-CONMAR-15",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-CONMAR-15 A Grim Tale at Winter Solstice",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 4.49,
     "product_id": "369309",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Snipe Hunt",
     "tiers": 1,
-    "title": "A Grim Tale at Winter Solstice",
+    "title": "DC-PoA-CONMAR-15 A Grim Tale at Winter Solstice",
     "url": "https://www.dmsguild.com/product/369309/?affiliate_id=171040"
 }

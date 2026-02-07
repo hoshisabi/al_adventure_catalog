@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX3-10",
+    "code": "DDEX03-10",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX3-10 Quelling the Horde",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170392",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 1,
-    "title": "Quelling the Horde",
+    "title": "DDEX3-10 Quelling the Horde",
     "url": "https://www.dmsguild.com/product/170392/?affiliate_id=171040"
 }

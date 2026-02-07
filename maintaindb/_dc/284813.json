@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ALMOG-25",
+    "community_content": true,
     "date_created": "20190905",
+    "dungeoncraft": false,
     "full_title": "How the Prison was Fed (CCC-ALMOG-25 SALT01-05)",
     "hours": "2-4",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "284813",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "How the Prison was Fed",
+    "title": "How the Prison was Fed (CCC-ALMOG-25 SALT01-05)",
     "url": "https://www.dmsguild.com/product/284813/How-the-Prison-was-Fed?filters=45470_0_0_0_0_0_0_0"
 }

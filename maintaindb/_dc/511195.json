@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-FOT-02",
+    "community_content": true,
     "date_created": "20250204",
+    "dungeoncraft": true,
     "full_title": "FR-DC-FOT-02 The Spider of Candlekeep",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "511195",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Spider of Candlekeep",

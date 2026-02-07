@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-WHISPER",
+    "community_content": true,
     "date_created": "20200511",
+    "dungeoncraft": false,
     "full_title": "A Whisper In Your Mind",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "313252",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 2,
     "title": "A Whisper In Your Mind",
     "url": "https://www.dmsguild.com/product/313252/?affiliate_id=171040"

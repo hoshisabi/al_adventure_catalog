@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-PHP-PEST-01",
+    "community_content": true,
     "date_created": "20241030",
+    "dungeoncraft": true,
     "full_title": "FR-DC-PHP-PEST-01: Pest Control",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.75,
     "product_id": "500527",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Pest Control",
+    "title": ": Pest Control",
     "url": "https://www.dmsguild.com/product/500527/?affiliate_id=171040"
 }

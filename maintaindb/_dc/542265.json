@@ -3,11 +3,11 @@
     "authors": [
         "Steve Hill"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "Planar Pub Crawl: the Complete Series [BUNDLE]",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20251027",
+    "dungeoncraft": false,
     "full_title": "Planar Pub Crawl: the Complete Series [BUNDLE]",
     "hours": "2",
     "is_adventure": false,
@@ -15,8 +15,9 @@
     "payWhatYouWant": false,
     "price": 16.0,
     "product_id": "542265",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Planar Pub Crawl the Complete Series [BUNDLE]",
+    "title": "Planar Pub Crawl: the Complete Series [BUNDLE]",
     "url": "https://www.dmsguild.com/product/542265/?affiliate_id=171040"
 }

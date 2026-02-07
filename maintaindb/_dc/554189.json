@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-SAERLOON-10",
+    "community_content": true,
     "date_created": "20260123",
+    "dungeoncraft": true,
     "full_title": "FR-DC-SAERLOON-10 BLOOD RED, BLACK ROCK",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": true,
     "price": 1.0,
     "product_id": "554189",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 1.0,
     "tiers": 2,

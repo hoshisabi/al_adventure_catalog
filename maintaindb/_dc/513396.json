@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-DD-01",
+    "community_content": true,
     "date_created": "20250224",
+    "dungeoncraft": true,
     "full_title": "PS-DC-DD-01 Shadows on the Wall",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "513396",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 1,
     "title": "Shadows on the Wall",
     "url": "https://www.dmsguild.com/product/513396/?affiliate_id=171040"

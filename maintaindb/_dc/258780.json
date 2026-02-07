@@ -4,11 +4,11 @@
         "Rich Lescouflair",
         "Will Doyle"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20181128",
+    "dungeoncraft": false,
     "full_title": "Lost City of Mezro",
     "hours": null,
     "is_adventure": true,
@@ -16,6 +16,7 @@
     "payWhatYouWant": false,
     "price": 14.95,
     "product_id": "258780",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Lost City of Mezro",

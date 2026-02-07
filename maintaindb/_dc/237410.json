@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SCAR01-01",
+    "community_content": true,
     "date_created": "20180319",
+    "dungeoncraft": false,
     "full_title": "CCC-SCAR01-01 Corrupted Artery",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "237410",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Corrupted Artery",

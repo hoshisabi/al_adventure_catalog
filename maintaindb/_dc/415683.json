@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-LEGIT-SB-02",
+    "community_content": true,
     "date_created": "20221104",
+    "dungeoncraft": true,
     "full_title": "Club Diamond (SJ-DC-LEGIT-SB-02)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "415683",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Club Diamond",
+    "title": "Club Diamond (SJ-DC-LEGIT-SB-02)",
     "url": "https://www.dmsguild.com/product/415683/Club-Diamond-SJDCLEGITSB02?filters=0_0_100057_0_0_0_0_0"
 }

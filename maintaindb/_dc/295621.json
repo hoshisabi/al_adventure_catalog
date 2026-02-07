@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-EPI01-01",
+    "community_content": true,
     "date_created": "20191125",
+    "dungeoncraft": false,
     "full_title": "CCC-EPI01-01 Hordes of Thar - The White Hand of Death",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "295621",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Hordes of Thar - The White Hand of Death",

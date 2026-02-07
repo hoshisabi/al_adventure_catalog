@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-PHP-TCOM1",
+    "code": "WBW-DC-PHP-TCOM",
+    "community_content": true,
     "date_created": "20220727",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-PHP-TCOM1 Of Festivals and Fiascoes",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "404240",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Of Festivals and Fiascoes",
-    "url": "https://www.dmsguild.com/product/404240/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "title": "1 Of Festivals and Fiascoes",
+    "url": "https://www.dmsguild.com/product/404240/?affiliate_id=171040"
 }

@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX1-06",
+    "code": "DDEX01-06",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX1-06 The Scroll Thief",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170463",
-    "season": "Tyranny of Dragons",
+    "salvage_mission": false,
+    "season": "1 - Tyranny of Dragons",
     "tiers": 1,
-    "title": "The Scroll Thief",
+    "title": "DDEX1-06 The Scroll Thief",
     "url": "https://www.dmsguild.com/product/170463/?affiliate_id=171040"
 }

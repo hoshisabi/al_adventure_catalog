@@ -2,14 +2,16 @@
     "apl": 3,
     "authors": [
         "Gabrielle Coutinho",
-        "Guilherme \u201cSirLockee\u201d",
+        "Guilherme “SirLockee”",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "SJ-DC-LIGA02",
+    "community_content": true,
     "date_created": "20231024",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-LIGA02 The Risen Catacombs of Quinterra",
     "hours": "4",
     "is_adventure": true,
@@ -17,7 +19,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "453158",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "The Risen Catacombs of Quinterra",

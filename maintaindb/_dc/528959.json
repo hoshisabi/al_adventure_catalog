@@ -3,11 +3,11 @@
     "authors": [
         "Mikael Mansen"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250707",
+    "dungeoncraft": false,
     "full_title": "Sanction - Cities of Krynn",
     "hours": null,
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 4.5,
     "product_id": "528959",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
     "title": "Sanction - Cities of Krynn",

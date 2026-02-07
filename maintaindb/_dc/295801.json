@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ALMOG",
+    "community_content": true,
     "date_created": "20191203",
+    "dungeoncraft": false,
     "full_title": "CCC-ALMOG ESC03-02 Mind Blank",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "295801",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Mind Blank (ESC03-02)",
+    "title": "ESC03-02 Mind Blank",
     "url": "https://www.dmsguild.com/product/295801/?affiliate_id=171040"
 }

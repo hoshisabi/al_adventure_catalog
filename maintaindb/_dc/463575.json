@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-AEG-01",
+    "community_content": true,
     "date_created": "20231212",
+    "dungeoncraft": true,
     "full_title": "FR-DC-AEG-01 The Ambush",
     "hours": null,
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "463575",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Ambush",

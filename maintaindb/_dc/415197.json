@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON1-3",
+    "community_content": true,
     "date_created": "20221031",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON1-3 Heritage vs Kinship",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "415197",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Heritage vs Kinship",

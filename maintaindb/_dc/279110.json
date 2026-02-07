@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MMT-01-01",
+    "community_content": true,
     "date_created": "20190606",
+    "dungeoncraft": false,
     "full_title": "CCC-MMT-01-01: Secrets of Imaginary Friends",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.0,
     "product_id": "279110",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Secrets of Imaginary Friends",
+    "title": ": Secrets of Imaginary Friends",
     "url": "https://www.dmsguild.com/product/279110/?affiliate_id=171040"
 }

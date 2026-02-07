@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ALMOG",
+    "community_content": true,
     "date_created": "20191203",
+    "dungeoncraft": false,
     "full_title": "CCC-ALMOG ESC03-03- Memory Leak",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "295803",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Memory Leak (ESC03-03)",
+    "title": "ESC03-03- Memory Leak",
     "url": "https://www.dmsguild.com/product/295803/?affiliate_id=171040"
 }

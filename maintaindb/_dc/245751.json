@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SFBAY-04-03",
+    "community_content": true,
     "date_created": "20180628",
+    "dungeoncraft": false,
     "full_title": "CCC-SFBAY-04-03 The Ashen Scar",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "245751",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Ashen Scar",

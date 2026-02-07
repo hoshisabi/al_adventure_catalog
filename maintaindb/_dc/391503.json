@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-TST-01",
+    "community_content": true,
     "date_created": "20220401",
+    "dungeoncraft": true,
     "full_title": "Color in Light (WBW-DC-TST-01)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "391503",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Color in Light",
-    "url": "https://www.dmsguild.com/product/391503/Color-in-Light-WBWDCTST01?filters=45470_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "title": "Color in Light (WBW-DC-TST-01)",
+    "url": "https://www.dmsguild.com/product/391503/Color-in-Light-WBWDCTST01?filters=45470_0_0_0_0_0"
 }

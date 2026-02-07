@@ -3,11 +3,11 @@
     "authors": [
         "James Introcaso"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDHC-TOA-4",
+    "community_content": false,
     "date_created": "20170908",
+    "dungeoncraft": false,
     "full_title": "DDHC-TOA-4 Cellar of Death",
     "hours": "2-3",
     "is_adventure": true,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "220572",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Cellar of Death",

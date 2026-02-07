@@ -7,14 +7,17 @@
         "Dragonlance"
     ],
     "code": "DL-DC-SDCC-02",
+    "community_content": true,
     "date_created": "20230717",
+    "dungeoncraft": true,
     "full_title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 8.0,
     "product_id": "445925",
+    "salvage_mission": false,
     "tiers": 1,
-    "title": "The Dog Days of Solamnia",
+    "title": "The Dog Days of Solamnia (DL-DC-SDCC-02)",
     "url": "https://www.dmsguild.com/product/445925/?affiliate_id=171040"
 }

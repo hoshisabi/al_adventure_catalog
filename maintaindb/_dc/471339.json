@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-GHG-03",
+    "community_content": true,
     "date_created": "20240217",
+    "dungeoncraft": true,
     "full_title": "The March of the Manticore (FR-DC-GHG-03)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "471339",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The March of the Manticore",
+    "title": "The March of the Manticore (FR-DC-GHG-03)",
     "url": "https://www.dmsguild.com/product/471339/The-March-of-the-Manticore-FRDCGHG03?filters=0_0_100057_0_0_0_0_0"
 }

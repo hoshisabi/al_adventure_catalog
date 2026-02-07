@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-TKM-02",
+    "community_content": true,
     "date_created": "20230327",
+    "dungeoncraft": true,
     "full_title": "Tink, Tink, Boom! (SJ-DC-TKM-02)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "431720",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Tink, Tink, Boom!",
+    "title": "Tink, Tink, Boom! (SJ-DC-TKM-02)",
     "url": "https://www.dmsguild.com/product/431720/?affiliate_id=171040"
 }

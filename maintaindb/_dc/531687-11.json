@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PUB-11",
+    "community_content": true,
     "date_created": "20250803",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PUB-11 Fallen for You",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "531687-11",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 2,
     "title": "Fallen for You",
     "url": "https://www.dmsguild.com/product/531687/?affiliate_id=171040"

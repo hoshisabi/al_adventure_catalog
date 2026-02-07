@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PND-2",
+    "community_content": true,
     "date_created": "20231231",
+    "dungeoncraft": true,
     "full_title": "The Very Hungry Monster (SJ-DC-PND-2)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "465703",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Headed My Way?",
     "tiers": 1,
-    "title": "The Very Hungry Monster",
+    "title": "The Very Hungry Monster (SJ-DC-PND-2)",
     "url": "https://www.dmsguild.com/product/465703/?affiliate_id=171040"
 }

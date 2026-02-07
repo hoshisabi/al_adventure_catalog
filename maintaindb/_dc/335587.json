@@ -9,7 +9,9 @@
         "Eberron"
     ],
     "code": "EB-EP-02",
+    "community_content": false,
     "date_created": "20201110",
+    "dungeoncraft": false,
     "full_title": "EB-EP-02 Rolling Thunder",
     "hours": "4",
     "is_adventure": true,
@@ -17,7 +19,8 @@
     "payWhatYouWant": false,
     "price": 8.95,
     "product_id": "335587",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 2,
     "title": "Rolling Thunder",
     "url": "https://www.dmsguild.com/product/335587/?affiliate_id=171040"

@@ -3,11 +3,11 @@
     "authors": [
         "M.T. Black"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20180521",
+    "dungeoncraft": false,
     "full_title": "The Lich-Queen's Begotten",
     "hours": "4-6",
     "is_adventure": true,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "242645",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Lich-Queen's Begotten",

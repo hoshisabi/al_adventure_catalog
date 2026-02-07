@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-CIC-09",
+    "community_content": true,
     "date_created": "20180623",
+    "dungeoncraft": false,
     "full_title": "CCC-CIC-09 Steamy Shores of Danger",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "245320",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Steamy Shores of Danger",

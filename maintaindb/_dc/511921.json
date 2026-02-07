@@ -8,7 +8,9 @@
         "Ravenloft"
     ],
     "code": "RV-DC-HH-01",
+    "community_content": true,
     "date_created": "20250210",
+    "dungeoncraft": true,
     "full_title": "RV-DC-HH-01 Inheritance",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "511921",
+    "salvage_mission": false,
     "season": "Ravenloft Dungeoncraft",
     "tiers": 1,
     "title": "Inheritance",

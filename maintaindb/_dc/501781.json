@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-NMB-HUNT-01",
+    "community_content": true,
     "date_created": "20241110",
+    "dungeoncraft": true,
     "full_title": "FR-DC-NMB-HUNT-01 Ice Water",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.0,
     "product_id": "501781",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Ice Water",

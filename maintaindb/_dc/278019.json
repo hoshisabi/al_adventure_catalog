@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-33",
+    "community_content": true,
     "date_created": "20190527",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-33 Matters of Life and Death (Part Two of the DAGGR Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "278019",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Matters of Life and Death Part Two of the DAGGR Series",
+    "title": "Matters of Life and Death (Part Two of the DAGGR Series)",
     "url": "https://www.dmsguild.com/product/278019/?affiliate_id=171040"
 }

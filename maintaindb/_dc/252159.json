@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-REAP-01",
+    "community_content": true,
     "date_created": "20180911",
+    "dungeoncraft": false,
     "full_title": "CCC-REAP-01 Red War: Lost Ashes of a Wayward Gnome",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "252159",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Red War: Lost Ashes of a Wayward Gnome",

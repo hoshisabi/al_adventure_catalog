@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DFA-03",
+    "community_content": true,
     "date_created": "20230421",
+    "dungeoncraft": true,
     "full_title": "Dragonfall (SJ-DC-DFA-03)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
     "product_id": "434717",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Dragonfall",
-    "url": "https://www.dmsguild.com/product/434717/Dragonfall-SJDCDFA03?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Dragonfall (SJ-DC-DFA-03)",
+    "url": "https://www.dmsguild.com/product/434717/Dragonfall-SJDCDFA03?filters=0_0_100057_0_0_0_0_0"
 }

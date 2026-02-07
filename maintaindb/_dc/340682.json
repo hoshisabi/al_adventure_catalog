@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-HERO-BK03-01",
+    "community_content": true,
     "date_created": "20201220",
+    "dungeoncraft": false,
     "full_title": "CCC-HERO-BK03-01 A Walk Along the Borders",
     "hours": "1",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "340682",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "A Walk Along the Borders",

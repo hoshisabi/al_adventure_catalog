@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-GREATBEYOND",
+    "community_content": true,
     "date_created": "20210101",
+    "dungeoncraft": false,
     "full_title": "Into the Great Beyond: A Salvage Mission",
     "hours": null,
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": null,
     "product_id": "342001",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 1,
-    "title": "Into the Great Beyond",
+    "title": "Into the Great Beyond: A Salvage Mission",
     "url": "https://www.dmsguild.com/product/342001/?affiliate_id=171040"
 }

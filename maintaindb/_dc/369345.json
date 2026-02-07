@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-EH-1",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-EH-1 Horsing Around",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "369345",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "A Dark Horse",
     "tiers": 1,
-    "title": "Horsing Around",
+    "title": "DC-PoA-EH-1 Horsing Around",
     "url": "https://www.dmsguild.com/product/369345/?affiliate_id=171040"
 }

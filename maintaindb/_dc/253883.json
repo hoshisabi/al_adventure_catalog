@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL08-05",
+    "community_content": false,
     "date_created": "20181106",
+    "dungeoncraft": false,
     "full_title": "DDAL08-05 Hero of the Troll Wars",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "253883",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": "8 - Waterdeep",
     "tiers": 1,
     "title": "Hero of the Troll Wars",
     "url": "https://www.dmsguild.com/product/253883/?affiliate_id=171040"

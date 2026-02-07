@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DWB-EOG-1",
+    "community_content": true,
     "date_created": "20201229",
+    "dungeoncraft": false,
     "full_title": "CCC-DWB-EoG-1 The Enemy of Greed",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": true,
     "price": 2.99,
     "product_id": "340596",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 2.99,
     "tiers": 1,
-    "title": "The Enemy of Greed",
+    "title": "CCC-DWB-EoG-1 The Enemy of Greed",
     "url": "https://www.dmsguild.com/product/340596/?affiliate_id=171040"
 }

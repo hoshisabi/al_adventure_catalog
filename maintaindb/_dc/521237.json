@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-TKM-RGT-02",
+    "community_content": true,
     "date_created": "20250505",
+    "dungeoncraft": true,
     "full_title": "Boil and Bubble (FR-DC-TKM-RGT-02)",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "521237",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Boil and Bubble",
+    "title": "Boil and Bubble (FR-DC-TKM-RGT-02)",
     "url": "https://www.dmsguild.com/product/521237/?affiliate_id=171040"
 }

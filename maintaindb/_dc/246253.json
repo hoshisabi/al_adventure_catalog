@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MIND01-01",
+    "community_content": true,
     "date_created": "20180703",
+    "dungeoncraft": false,
     "full_title": "CCC-MIND01-01 Lost in Thought",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "246253",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Lost in Thought",

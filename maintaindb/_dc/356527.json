@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TDG01-01",
+    "community_content": true,
     "date_created": "20210504",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TDG01-01 Wayward Beginnings",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.19,
     "product_id": "356527",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Once Bitten, Ice Shy",
     "tiers": 1,
-    "title": "Wayward Beginnings",
+    "title": "DC-PoA-TDG01-01 Wayward Beginnings",
     "url": "https://www.dmsguild.com/product/356527/?affiliate_id=171040"
 }

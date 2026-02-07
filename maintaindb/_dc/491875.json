@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-LIGA-07",
+    "community_content": true,
     "date_created": "20240816",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LIGA-07 - The Lurking Blade",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "491875",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "The Lurking Blade",
+    "title": "- The Lurking Blade",
     "url": "https://www.dmsguild.com/product/491875/?affiliate_id=171040"
 }

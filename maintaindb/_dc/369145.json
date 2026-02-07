@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TDG01-05",
+    "community_content": true,
     "date_created": "20210829",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TDG01-05 Curse of Slaad",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "369145",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Goat-ball!",
     "tiers": 2,
-    "title": "Curse of Slaad",
+    "title": "DC-PoA-TDG01-05 Curse of Slaad",
     "url": "https://www.dmsguild.com/product/369145/?affiliate_id=171040"
 }

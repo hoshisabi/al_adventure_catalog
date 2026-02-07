@@ -1,16 +1,17 @@
 {
     "apl": 13,
     "authors": [],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20231202",
+    "dungeoncraft": false,
     "full_title": "Pandora's Bundle I [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
     "level_range": "11-16",
     "product_id": "462424",
+    "salvage_mission": false,
     "tiers": 3,
     "title": "Pandora's Bundle I [BUNDLE]",
     "url": "https://www.dmsguild.com/product/462424/Pandoras-Bundle-I-BUNDLE?filters=1000042_45728_100057_0_45356_0_0_0"

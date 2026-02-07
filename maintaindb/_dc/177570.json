@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDEX03-15",
+    "community_content": false,
     "date_created": "20160322",
+    "dungeoncraft": false,
     "full_title": "DDEX03-15 Szith Morcane Unbound",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "177570",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 2,
     "title": "Szith Morcane Unbound",
     "url": "https://www.dmsguild.com/product/177570/?affiliate_id=171040"

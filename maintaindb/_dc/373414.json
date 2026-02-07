@@ -7,8 +7,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-DES-05C",
+    "code": "DC-POA-DES-05",
+    "community_content": true,
     "date_created": "20211007",
+    "dungeoncraft": true,
     "full_title": "DC-POA-DES-05C We Calmed the Tides of War",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "373414",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "A Dark Horse",
     "tiers": 1,
-    "title": "We Calmed the Tides of War",
+    "title": "C We Calmed the Tides of War",
     "url": "https://www.dmsguild.com/product/373414/?affiliate_id=171040"
 }

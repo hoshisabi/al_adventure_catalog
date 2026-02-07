@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WCAG04-04",
+    "community_content": true,
     "date_created": "20251129",
+    "dungeoncraft": true,
     "full_title": "FR-DC-WCAG04-04 Eve of Explosive Endings",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "547623",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Eve of Explosive Endings",

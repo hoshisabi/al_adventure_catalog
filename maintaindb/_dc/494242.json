@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-NOS-03",
+    "community_content": true,
     "date_created": "20240906",
+    "dungeoncraft": true,
     "full_title": "Its Always Boring in Automata (PS-DC-NOS-03)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "494242",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "Its Always Boring in Automata",
+    "title": "Its Always Boring in Automata (PS-DC-NOS-03)",
     "url": "https://www.dmsguild.com/product/494242/?affiliate_id=171040"
 }

@@ -3,19 +3,20 @@
     "authors": [
         "Christopher Lindsay"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDIA-XGE",
-    "date_created": null,
+    "community_content": false,
+    "date_created": "20180110",
+    "dungeoncraft": false,
     "full_title": "DDIA-XGE Underworld Speculation",
     "hours": "2",
     "is_adventure": true,
-    "suppress_missing_html": true,
     "level_range": "1-4",
     "price": null,
     "product_id": "230970",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": null,
+    "suppress_missing_html": true,
     "tiers": 1,
     "title": "Underworld Speculation",
     "url": "https://www.dmsguild.com/en/product/230970?affiliate_id=171040"

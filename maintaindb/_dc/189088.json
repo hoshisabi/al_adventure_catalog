@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-05",
+    "community_content": true,
     "date_created": "20160724",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-05 CORE 2-2 Songs of Law & Chaos",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "189088",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Songs of Law & Chaos (CORE 2-2)",
+    "title": "CORE 2-2 Songs of Law & Chaos",
     "url": "https://www.dmsguild.com/product/189088/?affiliate_id=171040"
 }

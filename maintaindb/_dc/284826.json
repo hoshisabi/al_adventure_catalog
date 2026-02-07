@@ -6,10 +6,12 @@
         "MOGC"
     ],
     "campaigns": [
-        null
+        "Forgotten Realms"
     ],
     "code": "CCC-ALMOG-28",
+    "community_content": true,
     "date_created": "20190804",
+    "dungeoncraft": false,
     "full_title": "CCC-ALMOG-28 DAGON01-03 The Drowning Woods",
     "hours": "2-4",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "284826",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Drowning Woods",
+    "title": "DAGON01-03 The Drowning Woods",
     "url": "https://www.dmsguild.com/product/284826/?affiliate_id=171040"
 }

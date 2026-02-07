@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-DCAF06",
+    "community_content": true,
     "date_created": "20210110",
+    "dungeoncraft": true,
     "full_title": "Dc-PoA-DCAF06 A Front On Frost",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "342961",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "A Front On Frost",
+    "title": "Dc-PoA-DCAF06 A Front On Frost",
     "url": "https://www.dmsguild.com/product/342961/?affiliate_id=171040"
 }

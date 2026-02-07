@@ -3,11 +3,11 @@
     "authors": [
         "Martine Brandt Lassen"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "DC-POA-CONMAR",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20210831",
+    "dungeoncraft": false,
     "full_title": "DC-PoA-CONMAR Play Order",
     "hours": null,
     "is_adventure": false,
@@ -15,8 +15,9 @@
     "payWhatYouWant": false,
     "price": 0.5,
     "product_id": "369438",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": null,
     "tiers": null,
-    "title": "Play Order",
+    "title": "DC-PoA-CONMAR Play Order",
     "url": "https://www.dmsguild.com/product/369438/?affiliate_id=171040"
 }

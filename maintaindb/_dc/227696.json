@@ -12,7 +12,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-02",
+    "community_content": true,
     "date_created": "20171129",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-02 Impression Left Behind (Part Two of the Yulash Series)",
     "hours": "4",
     "is_adventure": true,
@@ -20,6 +22,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "227696",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Impression Left Behind (Part Two of the Yulash Series)",

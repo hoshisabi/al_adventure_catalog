@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-FIEND-07",
+    "community_content": true,
     "date_created": "20250214",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-FIEND-07 Go There & Kill More Things",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "512338",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Go There & Kill More Things",

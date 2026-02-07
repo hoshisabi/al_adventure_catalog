@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-09",
+    "community_content": true,
     "date_created": "20180905",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-09 Tinhammer Falls (Prelude to the Beholder Corps series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "251688",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Tinhammer Falls (Prelude to the Beholder Corps series)",

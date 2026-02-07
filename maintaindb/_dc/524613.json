@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-CAR-01",
+    "community_content": true,
     "date_created": "20250531",
+    "dungeoncraft": true,
     "full_title": "13 Hours in Sigil (PS-DC-CAR-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 0.99,
     "product_id": "524613",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "13 Hours in Sigil",
+    "title": "13 Hours in Sigil (PS-DC-CAR-01)",
     "url": "https://www.dmsguild.com/product/524613/?affiliate_id=171040"
 }

@@ -3,18 +3,19 @@
     "authors": [
         "James Introcaso"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20190917",
+    "dungeoncraft": false,
     "full_title": "Hellturel",
     "hours": null,
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": null,
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "289028",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
     "title": "Hellturel",

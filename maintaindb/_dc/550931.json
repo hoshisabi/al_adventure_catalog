@@ -3,11 +3,11 @@
     "authors": [
         "Jamie Chan"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "FR-DC-GAMEJAM-01",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20251228",
+    "dungeoncraft": false,
     "full_title": "The Birds and the Bees [BUNDLE]",
     "hours": "2",
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 6.0,
     "product_id": "550931",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Birds and the Bees [BUNDLE]",

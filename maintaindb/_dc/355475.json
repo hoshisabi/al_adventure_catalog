@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-CURIOUS",
+    "community_content": true,
     "date_created": "20210429",
+    "dungeoncraft": false,
     "full_title": "The Curious Incident of the Dog in the Night Land",
     "hours": "3-4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "355475",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 2,
     "title": "The Curious Incident of the Dog in the Night Land",
     "url": "https://www.dmsguild.com/product/355475/?affiliate_id=171040"

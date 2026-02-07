@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SRCC01-01",
+    "community_content": true,
     "date_created": "20171003",
+    "dungeoncraft": false,
     "full_title": "CCC-SRCC01-01 Trouble in the Old City",
     "hours": "2",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "223038",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Trouble in the Old City",

@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-TRIDEN-MW",
+    "community_content": true,
     "date_created": "20221019",
+    "dungeoncraft": true,
     "full_title": "Mighty Wings (SJ-DC-TRIDEN-MW)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "product_id": "413966",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Mighty Wings",
-    "url": "https://www.dmsguild.com/product/413966/Mighty-Wings-SJDCTRIDENMW?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Mighty Wings (SJ-DC-TRIDEN-MW)",
+    "url": "https://www.dmsguild.com/product/413966/Mighty-Wings-SJDCTRIDENMW?filters=45470_0_0_0_0_0"
 }

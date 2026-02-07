@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WATERDEEP-CHZ",
+    "community_content": true,
     "date_created": "20240318",
+    "dungeoncraft": true,
     "full_title": "Sweet Dreams are Made of Cheese (FR-DC-WATERDEEP-CHZ)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.5,
     "product_id": "474519",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Sweet Dreams are Made of Cheese",
+    "title": "Sweet Dreams are Made of Cheese (FR-DC-WATERDEEP-CHZ)",
     "url": "https://www.dmsguild.com/product/474519/Sweet-Dreams-are-Made-of-Cheese-FRDCWATERDEEPCHZ?filters=0_0_100057_0_0_0_0_0"
 }

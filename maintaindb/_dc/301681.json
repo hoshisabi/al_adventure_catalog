@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-AETHER02-01",
+    "community_content": true,
     "date_created": "20200218",
+    "dungeoncraft": false,
     "full_title": "The Heir of Orcus: Verse IV CCC-AETHER02-01",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "301681",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Heir of Orcus: Verse IV",
+    "title": "The Heir of Orcus: Verse IV CCC-AETHER02-01",
     "url": "https://www.dmsguild.com/product/301681/?affiliate_id=171040"
 }

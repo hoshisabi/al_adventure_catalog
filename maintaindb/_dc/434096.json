@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PAT-02",
+    "community_content": true,
     "date_created": "20230416",
+    "dungeoncraft": true,
     "full_title": "Snake-Eye Satellite (SJ-DC-PAT-02)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "434096",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Snake-Eye Satellite",
-    "url": "https://www.dmsguild.com/product/434096/SnakeEye-Satellite-SJDCPAT02?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Snake-Eye Satellite (SJ-DC-PAT-02)",
+    "url": "https://www.dmsguild.com/product/434096/SnakeEye-Satellite-SJDCPAT02?filters=0_0_100057_0_0_0_0_0"
 }

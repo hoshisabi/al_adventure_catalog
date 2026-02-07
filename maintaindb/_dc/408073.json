@@ -6,16 +6,20 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-DEN-H1",
+    "code": "WBW-DC-DEN-H",
+    "community_content": true,
     "date_created": "20220827",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-DEN-H1 Pome and Prejudice",
-    "hours": 4,
+    "hours": null,
     "is_adventure": true,
     "level_range": "5-10",
     "price": 4.0,
     "product_id": "408073",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Dryad Despair",
     "tiers": 2,
-    "title": "Pome and Prejudice",
-    "url": "https://www.dmsguild.com/product/408073/?affiliate_id=171040",
-    "seed": "Dryad Despair"
+    "title": "1 Pome and Prejudice",
+    "url": "https://www.dmsguild.com/product/408073/?affiliate_id=171040"
 }

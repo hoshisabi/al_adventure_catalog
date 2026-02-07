@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL00-05",
+    "community_content": false,
     "date_created": "20181206",
+    "dungeoncraft": false,
     "full_title": "DDAL00-05 Winter's Splendor",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "260142",
+    "salvage_mission": false,
     "season": 0,
     "tiers": 1,
     "title": "Winter's Splendor",

@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-03",
+    "community_content": false,
     "date_created": "20200204",
+    "dungeoncraft": false,
     "full_title": "EB-03 Where the Dead Wait",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "302373",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 1,
     "title": "Where the Dead Wait",
     "url": "https://www.dmsguild.com/product/302373/?affiliate_id=171040"

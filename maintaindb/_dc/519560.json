@@ -7,7 +7,9 @@
         "Ravenloft"
     ],
     "code": "RV-DC-CLASSIC-01",
+    "community_content": true,
     "date_created": "20250422",
+    "dungeoncraft": true,
     "full_title": "Tavern Rats (RV-DC-CLASSIC-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "519560",
+    "salvage_mission": false,
     "season": "Ravenloft Dungeoncraft",
     "tiers": 1,
-    "title": "Tavern Rats",
+    "title": "Tavern Rats (RV-DC-CLASSIC-01)",
     "url": "https://www.dmsguild.com/product/519560/?affiliate_id=171040"
 }

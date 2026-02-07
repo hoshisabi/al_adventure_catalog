@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WE",
+    "community_content": true,
     "date_created": "20250726",
+    "dungeoncraft": true,
     "full_title": "FR-DC-WE The Warlock's Escape [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 24.75,
     "product_id": "531003",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Warlock's Escape [BUNDLE]",

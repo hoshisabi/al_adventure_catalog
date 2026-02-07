@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-07",
+    "community_content": true,
     "date_created": "20160727",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-07 HULB 1-1 Hulburg Rebuilding",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "189329",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Hulburg Rebuilding (HULB 1-1)",
+    "title": "HULB 1-1 Hulburg Rebuilding",
     "url": "https://www.dmsguild.com/product/189329/?affiliate_id=171040"
 }

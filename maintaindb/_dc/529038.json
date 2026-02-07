@@ -3,11 +3,11 @@
     "authors": [
         "Sewage Orc"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250707",
+    "dungeoncraft": false,
     "full_title": "Morga Skullshoulder (One Page NPC)",
     "hours": null,
     "is_adventure": false,
@@ -15,9 +15,10 @@
     "payWhatYouWant": true,
     "price": 0.5,
     "product_id": "529038",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 0.5,
     "tiers": null,
-    "title": "Morga Skullshoulder One Page NPC",
+    "title": "Morga Skullshoulder (One Page NPC)",
     "url": "https://www.dmsguild.com/product/529038/?affiliate_id=171040"
 }

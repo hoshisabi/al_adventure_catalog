@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-QCC2019-01",
+    "community_content": true,
     "date_created": "20190714",
+    "dungeoncraft": false,
     "full_title": "CCC-QCC2019-01 Hillsfar's Rancid Webs",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "282851",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Hillsfar's Rancid Webs",

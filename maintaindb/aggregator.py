@@ -24,10 +24,14 @@ import glob
 import re
 from collections import defaultdict
 
-from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
-from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
-from .adventure_utils import normalize_ddal_ddex_code, normalize_season_display, SEASONS
-from .paths import DC_DIR, STATS_DIR
+try:
+    from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
+    from .adventure_utils import normalize_ddal_ddex_code, normalize_season_display, SEASONS
+    from .paths import DC_DIR, STATS_DIR
+except (ImportError, ValueError):
+    from adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
+    from adventure_utils import normalize_ddal_ddex_code, normalize_season_display, SEASONS
+    from paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
 logger.level = logging.INFO
@@ -187,12 +191,12 @@ def aggregate():
     assets_data_path.mkdir(parents=True, exist_ok=True)
     logger.info(f'Writing consolidated catalog to: {assets_data_path}')
 
-    # Pre-defined mappings for recent seasons
-    CUSTOM_SEASON_MAPPINGS = {
-        '0': 'Season Agnostic',
-        '11': 'The Wild Beyond the Witchlight',
-        '12': 'Spelljammer',
-        '13': 'Planescape'
+    # Campaign bitmask mapping
+    CAMPAIGN_BITS = {
+        'Forgotten Realms': 1,
+        'Eberron': 2,
+        'Ravenloft': 4,
+        'Dragonlance': 8
     }
 
     catalog = []
@@ -205,73 +209,7 @@ def aggregate():
             if max_last_update is None or adventure_last_update > max_last_update:
                 max_last_update = adventure_last_update
 
-        # Format Season: "N - Name"; normalize synonyms to one canonical (Icewind/POA/DDAL10, Rage of Demons/Out of Abyss)
-        raw_season = adventure.get('season')
-        raw_season = normalize_season_display(raw_season) if raw_season else raw_season
-        formatted_season = raw_season
-        
-        if raw_season:
-            r_str = str(raw_season)
-            # 1. Check custom mappings (strings "0", "11", etc.)
-            if r_str in CUSTOM_SEASON_MAPPINGS:
-                formatted_season = f"{r_str} - {CUSTOM_SEASON_MAPPINGS[r_str]}"
-            # 2. Check strict integers (e.g. from Derived logic)
-            elif r_str.isdigit():
-                 i_val = int(r_str)
-                 if i_val in SEASONS:
-                     formatted_season = f"{r_str} - {SEASONS[i_val]}"
-                 else:
-                     formatted_season = r_str
-            # 3. Check if it is a Name (e.g. "Tyranny of Dragons") -> Reverse Lookup
-            else:
-                 # Try to find the Key (ID) for this Value (Name) in SEASONS
-                 # SEASONS keys are mix of int and str
-                 found_id = None
-                 for k, v in SEASONS.items():
-                     if v.lower() == r_str.lower():
-                         found_id = k
-                         break
-                 
-                 if found_id is not None:
-                     formatted_season = f"{found_id} - {r_str}"
-                 else:
-                     # Leave as is
-                     formatted_season = r_str
-            
-        # Minified Payload with Abbreviated Keys
-        # i: product_id (was id)
-        # n: title/full_title (was t)
-        # c: code
-        # a: authors
-        # p: campaigns (was ca)
-        # s: season
-        # h: hours
-        # t: tiers (was ti)
-        # u: url
-        # d: date_created
-        # e: seed
-        
-        entry = {
-            'i': adventure.get('product_id'),
-            'n': adventure.get('title') or adventure.get('full_title'),
-            'c': adventure.get('code'),
-            'a': adventure.get('authors'),
-            'p': adventure.get('campaigns'),
-            's': formatted_season, 
-            'h': adventure.get('hours'),
-            't': adventure.get('tiers'),
-            'u': adventure.get('url'),
-            'd': adventure.get('date_created'),
-            'e': adventure.get('seed'),
-            'sm': adventure.get('salvage_mission'),
-            'dc': adventure.get('dungeon_craft'),
-            'cc': adventure.get('community_content')
-        }
-        # Include last_update in entry if needed, but minification prefers smaller payload.
-        # However, the requirement says "include a 'last_update' property to all of our JSON files".
-        # If the catalog needs it, we should add it.
-        if adventure_last_update:
-             entry['lu'] = adventure_last_update
+        entry = create_catalog_entry(adventure)
         catalog.append(entry)
         
     # Create final catalog object including the global last_update
@@ -284,6 +222,98 @@ def aggregate():
         json.dump(catalog_data, f, indent=None, ensure_ascii=False)
 
     logger.info(f"Generated consolidated catalog: catalog.json ({len(catalog)} items, last update: {max_last_update})")
+
+
+def create_catalog_entry(adventure):
+    """
+    Creates a minified catalog entry from an adventure dictionary.
+    """
+    # Campaign bitmask mapping
+    CAMPAIGN_BITS = {
+        'Forgotten Realms': 1,
+        'Eberron': 2,
+        'Ravenloft': 4,
+        'Dragonlance': 8
+    }
+
+    # Format Season: "N - Name"; normalize synonyms to one canonical
+    raw_season = adventure.get('season')
+    formatted_season = normalize_season_display(raw_season) if raw_season else raw_season
+    
+    # Minified Payload with Abbreviated Keys
+    # i: product_id (was id)
+    # n: title/full_title (was t)
+    # c: code
+    # a: authors
+    # p: campaigns bitmask (1: FR, 2: Eberron, 4: Ravenloft, 8: Dragonlance)
+    # s: season
+    # h: hours
+    # t: tiers (was ti)
+    # u: url (omitted if standard DMsGuild affiliate pattern)
+    # d: date_created
+    # f: flags bitmask (1: cc, 2: dc, 4: sm)
+    # e: seed (optional)
+    # lu: last_update (optional)
+    
+    # Campaign bitmask
+    campaign_mask = 0
+    campaigns = adventure.get('campaigns', [])
+    if isinstance(campaigns, str):
+        campaigns = [campaigns]
+    
+    for camp in campaigns:
+        if camp in CAMPAIGN_BITS:
+            campaign_mask |= CAMPAIGN_BITS[camp]
+        else:
+            logger.warning(f"Unknown campaign: {camp} in adventure {adventure.get('product_id')}")
+
+    # URL Optimization
+    url = adventure.get('url')
+    product_id = adventure.get('product_id')
+    if product_id:
+        # Strip suffix for URL generation (e.g., 200609-2 -> 200609)
+        base_product_id = re.sub(r'-\d+$', '', str(product_id))
+        standard_url = f"https://www.dmsguild.com/product/{base_product_id}/?affiliate_id=171040"
+        if url == standard_url:
+            url = None
+    
+    entry = {
+        'i': product_id,
+        'n': adventure.get('title') or adventure.get('full_title'),
+        'c': adventure.get('code'),
+        'a': adventure.get('authors'),
+        's': formatted_season, 
+        'h': adventure.get('hours'),
+        't': adventure.get('tiers'),
+        'd': adventure.get('date_created'),
+    }
+
+    if campaign_mask > 0:
+        entry['p'] = campaign_mask
+        
+    if url:
+        entry['u'] = url
+
+    # Optional fields - omit if null to save space
+    seed = adventure.get('seed')
+    if seed:
+        entry['e'] = seed
+        
+    # Flags bitmask: cc=1, dc=2, sm=4
+    flags = 0
+    if adventure.get('community_content'): flags += 1
+    if adventure.get('dungeoncraft'): flags += 2
+    if adventure.get('salvage_mission'): flags += 4
+    
+    if flags > 0:
+        entry['f'] = flags
+
+    # Include last_update in entry if needed
+    adventure_last_update = adventure.get('last_update')
+    if adventure_last_update:
+         entry['lu'] = adventure_last_update
+    
+    return entry
 
 
 if __name__ == '__main__':

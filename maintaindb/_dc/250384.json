@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SFBAY-02-02",
+    "community_content": true,
     "date_created": "20180821",
+    "dungeoncraft": false,
     "full_title": "CCC-SFBay-02-02 Rise of the Ogre King",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "250384",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Rise of the Ogre King",
+    "title": "CCC-SFBay-02-02 Rise of the Ogre King",
     "url": "https://www.dmsguild.com/product/250384/?affiliate_id=171040"
 }

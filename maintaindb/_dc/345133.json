@@ -8,8 +8,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-GSP02-03H",
+    "code": "DC-POA-GSP02-03",
+    "community_content": true,
     "date_created": "20210130",
+    "dungeoncraft": true,
     "full_title": "That Ain't Mead (DC-PoA-GSP02-03H)",
     "hours": "2",
     "is_adventure": true,
@@ -17,9 +19,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "345133",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "That Ain't Mead",
+    "title": "That Ain't Mead (DC-PoA-GSP02-03H)",
     "url": "https://www.dmsguild.com/product/345133/?affiliate_id=171040"
 }

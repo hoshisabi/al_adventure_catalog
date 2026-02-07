@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DUCKS-TTT-01",
+    "community_content": true,
     "date_created": "20230616",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-DUCKS-TTT-01 - Save the Forest!",
     "hours": "4",
     "is_adventure": true,
@@ -15,10 +17,11 @@
     "payWhatYouWant": true,
     "price": 1.0,
     "product_id": "441754",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "suggestedPrice": 1.0,
     "tiers": 3,
-    "title": "Save the Forest!",
+    "title": "- Save the Forest!",
     "url": "https://www.dmsguild.com/product/441754/?affiliate_id=171040"
 }

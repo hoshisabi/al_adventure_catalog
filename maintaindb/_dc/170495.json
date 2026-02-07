@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX3-03",
+    "code": "DDEX03-03",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX3-03 The Occupation of Szith Morcane",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170495",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 2,
-    "title": "The Occupation of Szith Morcane",
+    "title": "DDEX3-03 The Occupation of Szith Morcane",
     "url": "https://www.dmsguild.com/product/170495/?affiliate_id=171040"
 }

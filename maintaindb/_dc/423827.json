@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-THID-MB04",
+    "community_content": true,
     "date_created": "20230118",
+    "dungeoncraft": true,
     "full_title": "The Horror in Darkfall SJ-DC-THID-MB04",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "423827",
-    "season": null,
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "The Horror in Darkfall",
+    "title": "The Horror in Darkfall SJ-DC-THID-MB04",
     "url": "https://www.dmsguild.com/product/423827/The-Horror-in-Darkfall-SJDCTHIDMB04?filters=45470_0_0_0_0_0"
 }

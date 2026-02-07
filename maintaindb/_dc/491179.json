@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-MIKE-01",
+    "community_content": true,
     "date_created": "20240810",
+    "dungeoncraft": true,
     "full_title": "PS-DC-MIKE-01 The Clash for the Multiversal Championship",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "491179",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "The Clash for the Multiversal Championship",
     "url": "https://www.dmsguild.com/product/491179/?affiliate_id=171040"

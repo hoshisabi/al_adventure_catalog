@@ -6,16 +6,20 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-DEN-H2",
+    "code": "WBW-DC-DEN-H",
+    "community_content": true,
     "date_created": "20220828",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-DEN-H2 Disheartened",
-    "hours": 4,
+    "hours": null,
     "is_adventure": true,
     "level_range": "1-4",
     "price": 4.0,
     "product_id": "408133",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Lending a Hand",
     "tiers": 1,
-    "title": "Disheartened",
-    "url": "https://www.dmsguild.com/product/408133/?affiliate_id=171040",
-    "seed": "Lending a Hand"
+    "title": "2 Disheartened",
+    "url": "https://www.dmsguild.com/product/408133/?affiliate_id=171040"
 }

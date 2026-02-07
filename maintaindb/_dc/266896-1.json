@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDAL00-08-01",
+    "code": "DDAL00-08",
+    "community_content": false,
     "date_created": "20190217",
+    "dungeoncraft": false,
     "full_title": "DDAL00-08 Layers Upon Layers (tier 1)",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "266896-1",
+    "salvage_mission": false,
     "season": 0,
     "tiers": 1,
     "title": "Layers Upon Layers (tier 1)",

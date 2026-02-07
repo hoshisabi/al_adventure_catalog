@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-DOBU-02-01",
+    "community_content": true,
     "date_created": "20240731",
+    "dungeoncraft": true,
     "full_title": "FR-DC-DOBU-02-01, Hoard of the Death Dragon",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 7.0,
     "product_id": "489959",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Hoard of the Death Dragon",
+    "title": ", Hoard of the Death Dragon",
     "url": "https://www.dmsguild.com/product/489959/?affiliate_id=171040"
 }

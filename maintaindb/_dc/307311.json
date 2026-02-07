@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DES-02-02",
+    "community_content": true,
     "date_created": "20200420",
+    "dungeoncraft": false,
     "full_title": "CCC-DES-02-02 On a Six-Fingered Trail",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "307311",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "On a Six-Fingered Trail",

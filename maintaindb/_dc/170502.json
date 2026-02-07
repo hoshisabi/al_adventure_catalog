@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX3-08",
+    "code": "DDEX03-08",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX3-08 The Malady of Elventree",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170502",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 2,
-    "title": "The Malady of Elventree",
+    "title": "DDEX3-08 The Malady of Elventree",
     "url": "https://www.dmsguild.com/product/170502/?affiliate_id=171040"
 }

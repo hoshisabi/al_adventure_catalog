@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-MURDER",
+    "community_content": true,
     "date_created": "20200418",
+    "dungeoncraft": false,
     "full_title": "Murder in Salvation: A 3 hour Tier 1 Salvage Mission",
     "hours": "3",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "310332",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 1,
-    "title": "Murder in Salvation A 3 hour Tier 1 Salvage Mission",
+    "title": "Murder in Salvation: A 3 hour Tier 1 Salvage Mission",
     "url": "https://www.dmsguild.com/product/310332/?affiliate_id=171040"
 }

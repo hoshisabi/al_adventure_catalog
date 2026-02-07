@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-09",
+    "code": "DDEX02-09",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-09 Eye of the Tempest",
     "hours": "8",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "170484",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 2,
-    "title": "Eye of the Tempest",
+    "title": "DDEX2-09 Eye of the Tempest",
     "url": "https://www.dmsguild.com/product/170484/?affiliate_id=171040"
 }

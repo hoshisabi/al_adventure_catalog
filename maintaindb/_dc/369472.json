@@ -1,16 +1,17 @@
 {
     "apl": 3,
     "authors": [],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20210901",
+    "dungeoncraft": false,
     "full_title": "The Ursa Major Trilogy [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
     "product_id": "369472",
+    "salvage_mission": false,
     "tiers": 1,
     "title": "The Ursa Major Trilogy [BUNDLE]",
     "url": "https://www.dmsguild.com/product/369472/The-Ursa-Major-Trilogy-BUNDLE?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"

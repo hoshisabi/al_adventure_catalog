@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-30",
+    "community_content": true,
     "date_created": "20180423",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-30 Hill 2-3 The Red Death",
     "hours": "4",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "240423",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Red Death (Hill 2-3)",
+    "title": "Hill 2-3 The Red Death",
     "url": "https://www.dmsguild.com/product/240423/?affiliate_id=171040"
 }

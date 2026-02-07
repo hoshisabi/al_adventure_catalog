@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-DRW-OD-04",
+    "community_content": false,
     "date_created": "20240314",
+    "dungeoncraft": false,
     "full_title": "BMG-DRW-OD-04 We're All in this Together",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "474103",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "We're All in this Together",

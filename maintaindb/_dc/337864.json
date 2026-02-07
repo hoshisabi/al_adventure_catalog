@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-PIPYAP-Glasya",
+    "code": "CCC-PIPYAP-GLASYA",
+    "community_content": true,
     "date_created": "20201202",
+    "dungeoncraft": false,
     "full_title": "CCC-PIPYAP-Glasya Glasya's Little Helpers",
     "hours": null,
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "337864",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Glasya's Little Helpers",
+    "title": "CCC-PIPYAP-Glasya Glasya's Little Helpers",
     "url": "https://www.dmsguild.com/product/337864/?affiliate_id=171040"
 }

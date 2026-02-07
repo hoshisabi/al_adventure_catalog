@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-CONMAR-07",
+    "community_content": true,
     "date_created": "20210505",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-CONMAR-07 Counting Kobolds",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 4.75,
     "product_id": "356647",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Once Bitten, Ice Shy",
     "tiers": 1,
-    "title": "Counting Kobolds",
+    "title": "DC-PoA-CONMAR-07 Counting Kobolds",
     "url": "https://www.dmsguild.com/product/356647/?affiliate_id=171040"
 }

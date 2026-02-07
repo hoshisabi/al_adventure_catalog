@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-39",
+    "community_content": true,
     "date_created": "20181207",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-39 HULB 3-3 Darkest Vein",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "260906",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Darkest Vein (HULB 3-3)",
+    "title": "HULB 3-3 Darkest Vein",
     "url": "https://www.dmsguild.com/product/260906/?affiliate_id=171040"
 }

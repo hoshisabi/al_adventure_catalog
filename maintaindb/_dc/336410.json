@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-DCAF01",
+    "community_content": true,
     "date_created": "20201117",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-DCAF01 Let It Goat",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "336410",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Awake and Afraid",
     "tiers": 1,
-    "title": "Let It Goat",
+    "title": "DC-PoA-DCAF01 Let It Goat",
     "url": "https://www.dmsguild.com/product/336410/?affiliate_id=171040"
 }

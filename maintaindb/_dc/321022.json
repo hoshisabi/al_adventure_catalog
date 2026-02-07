@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SEA-01-01",
+    "community_content": true,
     "date_created": "20200803",
+    "dungeoncraft": false,
     "full_title": "CCC-SEA-01-01 All Good Dead Men",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "321022",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "All Good Dead Men",

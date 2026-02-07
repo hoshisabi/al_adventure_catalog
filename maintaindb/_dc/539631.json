@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-WYRM-02",
+    "community_content": true,
     "date_created": "20251006",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-WYRM-02 A Golden Start",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "539631",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "A Golden Start",

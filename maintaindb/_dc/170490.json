@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-15",
+    "code": "DDEX02-15",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-15 Black Heart of Vengeance",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170490",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 2,
-    "title": "Black Heart of Vengeance",
+    "title": "DDEX2-15 Black Heart of Vengeance",
     "url": "https://www.dmsguild.com/product/170490/?affiliate_id=171040"
 }

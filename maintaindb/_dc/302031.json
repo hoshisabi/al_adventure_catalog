@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GSP-MON01-01",
+    "community_content": true,
     "date_created": "20200204",
+    "dungeoncraft": false,
     "full_title": "CCC-GSP-MON01-01 Shadows of Despair",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "302031",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Shadows of Despair",

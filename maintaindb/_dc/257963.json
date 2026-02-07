@@ -8,16 +8,19 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SVH-01-02",
+    "community_content": true,
     "date_created": "20181104",
-    "full_title": "CCC-SVH-01-02 Raven Lord\u2019s Aerie",
+    "dungeoncraft": false,
+    "full_title": "CCC-SVH-01-02 Raven Lord’s Aerie",
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "257963",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Raven Lord\u2019s Aerie",
+    "title": "Raven Lord’s Aerie",
     "url": "https://www.dmsguild.com/product/257963/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-HRS-00",
+    "community_content": true,
     "date_created": "20250223",
+    "dungeoncraft": true,
     "full_title": "Stolen Hours (PS-DC-HRS-00)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "513314",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 1,
-    "title": "Stolen Hours",
+    "title": "Stolen Hours (PS-DC-HRS-00)",
     "url": "https://www.dmsguild.com/product/513314/?affiliate_id=171040"
 }

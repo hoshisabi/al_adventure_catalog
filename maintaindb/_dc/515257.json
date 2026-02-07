@@ -7,7 +7,9 @@
         "Dragonlance"
     ],
     "code": "BMG-DLEP-VOTU-02",
+    "community_content": false,
     "date_created": "20250313",
+    "dungeoncraft": false,
     "full_title": "BMG-DLEP-VOTU-02 Dragons of Future Past",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 11.99,
     "product_id": "515257",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Dragons of Future Past",

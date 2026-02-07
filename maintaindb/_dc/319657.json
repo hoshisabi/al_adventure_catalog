@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-07",
+    "community_content": false,
     "date_created": "20200706",
+    "dungeoncraft": false,
     "full_title": "EB-07 Song of the Sky",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "319657",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 2,
     "title": "Song of the Sky",
     "url": "https://www.dmsguild.com/product/319657/?affiliate_id=171040"

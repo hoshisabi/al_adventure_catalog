@@ -12,7 +12,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL00-11",
+    "community_content": false,
     "date_created": "20191024",
+    "dungeoncraft": false,
     "full_title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
     "hours": null,
     "is_adventure": true,
@@ -20,6 +22,7 @@
     "payWhatYouWant": false,
     "price": 22.99,
     "product_id": "288447",
+    "salvage_mission": false,
     "season": 0,
     "tiers": 1,
     "title": "Pipyap's Guide to All of the Nine Hells",

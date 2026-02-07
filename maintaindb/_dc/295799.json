@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ALMOG-ESC03-01",
+    "community_content": true,
     "date_created": "20191203",
+    "dungeoncraft": false,
     "full_title": "CCC-ALMOG-ESC03-01 Thoughts Lost",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "295799",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Thoughts Lost",

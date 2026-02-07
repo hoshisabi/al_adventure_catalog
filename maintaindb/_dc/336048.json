@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GSP04-01",
+    "community_content": true,
     "date_created": "20201117",
+    "dungeoncraft": false,
     "full_title": "CCC-GSP04-01 Devil King High School: Year One",
     "hours": "2",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "336048",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Devil King High School: Year One",

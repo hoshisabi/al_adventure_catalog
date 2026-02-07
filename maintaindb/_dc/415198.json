@@ -2,13 +2,15 @@
     "apl": 3,
     "authors": [
         "Baldman Games",
-        "Ciaran O\u2019Halloran"
+        "Ciaran O’Halloran"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON1-4",
+    "community_content": true,
     "date_created": "20221031",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON1-4 The Bravest of West Breasal",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "415198",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Bravest of West Breasal",

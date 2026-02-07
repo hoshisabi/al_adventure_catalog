@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-SUNLIT-01",
+    "community_content": true,
     "date_created": "20220110",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-Sunlit-01 to -03 Complete Bundle!",
     "hours": "4",
     "is_adventure": false,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "383193",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "I'd Like to Make a Return Please",
     "tiers": null,
-    "title": "to -03 Complete Bundle!",
+    "title": "DC-PoA-Sunlit-01 to -03 Complete Bundle!",
     "url": "https://www.dmsguild.com/product/383193/?affiliate_id=171040"
 }

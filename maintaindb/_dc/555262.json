@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-SCROOGE-002",
+    "community_content": true,
     "date_created": "20260131",
+    "dungeoncraft": true,
     "full_title": "FR-DC-SCROOGE-002 Love and Doppelgangers",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 0.99,
     "product_id": "555262",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Love and Doppelgangers",

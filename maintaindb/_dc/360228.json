@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-CHROME",
+    "community_content": true,
     "date_created": "20210608",
+    "dungeoncraft": false,
     "full_title": "Chrome On The Range",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "360228",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 3,
     "title": "Chrome On The Range",
     "url": "https://www.dmsguild.com/product/360228/?affiliate_id=171040"

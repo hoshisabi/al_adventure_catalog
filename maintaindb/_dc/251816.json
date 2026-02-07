@@ -12,8 +12,10 @@
         "Will Doyle"
     ],
     "campaigns": [],
-    "code": "Waterdeep: City Encounters",
+    "code": "WATERDEEP: CITY ENCOUNTERS",
+    "community_content": false,
     "date_created": "20180906",
+    "dungeoncraft": false,
     "full_title": "Waterdeep: City Encounters",
     "hours": null,
     "is_adventure": true,
@@ -21,8 +23,9 @@
     "payWhatYouWant": false,
     "price": 7.95,
     "product_id": "251816",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Waterdeep City Encounters",
+    "title": "Waterdeep: City Encounters",
     "url": "https://www.dmsguild.com/product/251816/?affiliate_id=171040"
 }

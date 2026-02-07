@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WCAG02-04",
+    "community_content": true,
     "date_created": "20250211",
+    "dungeoncraft": true,
     "full_title": "FR-DC-WCAG02-04 An Inside Job",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "511966",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "An Inside Job",

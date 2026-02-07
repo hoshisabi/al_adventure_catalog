@@ -7,7 +7,9 @@
         "Ravenloft"
     ],
     "code": "RV-DC-SDG-01",
+    "community_content": true,
     "date_created": "20240811",
+    "dungeoncraft": true,
     "full_title": "A Cursed Key",
     "hours": "3",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.63,
     "product_id": "491254",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Ravenloft Dungeoncraft",
     "tiers": 1,
     "title": "A Cursed Key",
     "url": "https://www.dmsguild.com/product/491254/?affiliate_id=171040"

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-HERO-BK03-04",
+    "community_content": true,
     "date_created": "20201220",
+    "dungeoncraft": false,
     "full_title": "CCC-HERO-BK03-04 Lilium Inter Spinas",
     "hours": null,
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "340676",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Lilium Inter Spinas",

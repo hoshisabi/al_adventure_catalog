@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TDG01-04",
+    "community_content": true,
     "date_created": "20210829",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TDG01-04 Despair In The Family",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "369144",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "Despair In The Family",
+    "title": "DC-PoA-TDG01-04 Despair In The Family",
     "url": "https://www.dmsguild.com/product/369144/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-PM01",
+    "community_content": true,
     "date_created": "20210207",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-PM01 Adventures in babysitting squids",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.5,
     "product_id": "346128",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Littlest Squidling",
     "tiers": 2,
-    "title": "Adventures in babysitting squids",
+    "title": "DC-PoA-PM01 Adventures in babysitting squids",
     "url": "https://www.dmsguild.com/product/346128/?affiliate_id=171040"
 }

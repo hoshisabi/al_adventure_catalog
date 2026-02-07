@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX3-07",
+    "code": "DDEX03-07",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX3-07 Herald of the Moon",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170501",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 2,
-    "title": "Herald of the Moon",
+    "title": "DDEX3-07 Herald of the Moon",
     "url": "https://www.dmsguild.com/product/170501/?affiliate_id=171040"
 }

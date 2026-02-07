@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-CONMAR-05",
+    "community_content": true,
     "date_created": "20220214",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-CONMAR-05 Death by Chocolate",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "386931",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Death by Chocolate",
-    "url": "https://www.dmsguild.com/product/386931/WBWDCCONMAR05-Death-by-Chocolate?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/386931/WBWDCCONMAR05-Death-by-Chocolate?filters=0_0_100057_0_0_0_0_0"
 }

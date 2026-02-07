@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-KW-01",
+    "community_content": true,
     "date_created": "20210503",
+    "dungeoncraft": true,
     "full_title": "The Grand Estate (DC-POA-KW-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "356501",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "The Grand Estate",
+    "title": "The Grand Estate (DC-POA-KW-01)",
     "url": "https://www.dmsguild.com/product/356501/?affiliate_id=171040"
 }

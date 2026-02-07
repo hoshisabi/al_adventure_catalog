@@ -11,7 +11,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON1-1",
+    "community_content": true,
     "date_created": "20181220",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON1-1 Moonshae Treasure Hunt",
     "hours": "2-6",
     "is_adventure": true,
@@ -19,6 +21,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "262080",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Moonshae Treasure Hunt",

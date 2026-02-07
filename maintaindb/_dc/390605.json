@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-HF-01",
+    "community_content": true,
     "date_created": "20220317",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-HF-01 Freed of Feeling",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "product_id": "390605",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Freed of Feeling",
-    "url": "https://www.dmsguild.com/product/390605/WBWDCHF01-Freed-of-Feeling?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/390605/WBWDCHF01-Freed-of-Feeling?filters=0_0_100057_0_0_0_0_0"
 }

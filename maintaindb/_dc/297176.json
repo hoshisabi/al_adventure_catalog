@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MALTH-003",
+    "community_content": true,
     "date_created": "20191216",
+    "dungeoncraft": false,
     "full_title": "CCC-MALTH-003 Fire's Demise",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "297176",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Fire's Demise",

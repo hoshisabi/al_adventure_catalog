@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ELF-001",
+    "community_content": true,
     "date_created": "20181221",
+    "dungeoncraft": false,
     "full_title": "CCC-ELF-001 Life's a Party",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "262096",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Life's a Party",

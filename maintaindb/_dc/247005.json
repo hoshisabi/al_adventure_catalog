@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-AMER-01",
+    "community_content": true,
     "date_created": "20180711",
+    "dungeoncraft": false,
     "full_title": "CCC-AMER-01 Asleep and Awake",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "247005",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Asleep and Awake",

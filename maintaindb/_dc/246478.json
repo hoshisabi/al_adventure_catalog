@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MIND01-02",
+    "community_content": true,
     "date_created": "20180706",
+    "dungeoncraft": false,
     "full_title": "CCC-MIND01-02 Mind Trip",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "246478",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Mind Trip",

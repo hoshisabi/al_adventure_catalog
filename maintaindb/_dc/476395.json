@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-ONI-02",
+    "community_content": true,
     "date_created": "20240402",
+    "dungeoncraft": true,
     "full_title": "Battlefield Blooms (FR-DC-ONI-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "476395",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Battlefield Blooms",
+    "title": "Battlefield Blooms (FR-DC-ONI-02)",
     "url": "https://www.dmsguild.com/product/476395/?affiliate_id=171040"
 }

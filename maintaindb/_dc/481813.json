@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-MOON-MD-05",
+    "community_content": false,
     "date_created": "20240520",
+    "dungeoncraft": false,
     "full_title": "BMG-MOON-MD-05 Fleeing Snowdown",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "481813",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Fleeing Snowdown",

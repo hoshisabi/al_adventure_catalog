@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-NMB-HUNT-02",
+    "community_content": true,
     "date_created": "20251226",
+    "dungeoncraft": true,
     "full_title": "PS-DC-NMB-HUNT-02 Her. United.",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 2.0,
     "product_id": "550694",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 1,
     "title": "Her. United.",
     "url": "https://www.dmsguild.com/product/550694/?affiliate_id=171040"

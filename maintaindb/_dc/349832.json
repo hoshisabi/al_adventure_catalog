@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-PM04",
+    "community_content": true,
     "date_created": "20210310",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-PM04 Losing your Mind",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.95,
     "product_id": "349832",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "Losing your Mind",
+    "title": "DC-PoA-PM04 Losing your Mind",
     "url": "https://www.dmsguild.com/product/349832/?affiliate_id=171040"
 }

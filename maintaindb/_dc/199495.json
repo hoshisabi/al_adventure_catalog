@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL05-11",
+    "community_content": false,
     "date_created": "20170103",
+    "dungeoncraft": false,
     "full_title": "DDAL05-11 Forgotten Traditions",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "199495",
-    "season": "Storm King's Thunder",
+    "salvage_mission": false,
+    "season": "5 - Storm King's Thunder",
     "tiers": 2,
     "title": "Forgotten Traditions",
     "url": "https://www.dmsguild.com/product/199495/?affiliate_id=171040"

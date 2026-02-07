@@ -3,15 +3,15 @@
     "authors": [
         "Eric Boaen",
         "Adam Scaramella",
-        "Garrett Col\u00f3n",
+        "Garrett Colón",
         "Derek DaSilva",
         "The Role Initiative"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "TRI Nightmare Series Bundle",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20181106",
+    "dungeoncraft": false,
     "full_title": "TRI Nightmare Series Bundle",
     "hours": "4",
     "is_adventure": false,
@@ -19,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 16.0,
     "product_id": "258089",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "TRI Nightmare Series Bundle",

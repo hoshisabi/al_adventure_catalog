@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-END-01-04",
+    "community_content": true,
     "date_created": "20230625",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-END-01-04 Echoes in Space",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "442801",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Echoes in Space",
-    "url": "https://www.dmsguild.com/product/442801/SJDCEND0104-Echoes-in-Space?filters=45470_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/442801/SJDCEND0104-Echoes-in-Space?filters=45470_0_0_0_0_0"
 }

@@ -7,8 +7,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-Anime-1-1",
+    "code": "CCC-ANIME-1-1",
+    "community_content": true,
     "date_created": "20180313",
+    "dungeoncraft": false,
     "full_title": "CCC-Anime-1-1 Legend of the Sword Bandit Surprise",
     "hours": "2",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "236786",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Legend of the Sword Bandit Surprise",
+    "title": "CCC-Anime-1-1 Legend of the Sword Bandit Surprise",
     "url": "https://www.dmsguild.com/product/236786/?affiliate_id=171040"
 }

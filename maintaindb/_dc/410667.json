@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-ETA",
+    "community_content": true,
     "date_created": "20220918",
+    "dungeoncraft": true,
     "full_title": "You Are My Sunshine (SJ-DC-ETA)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "410667",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "You Are My Sunshine",
-    "url": "https://www.dmsguild.com/product/410667/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "You Are My Sunshine (SJ-DC-ETA)",
+    "url": "https://www.dmsguild.com/product/410667/?affiliate_id=171040"
 }

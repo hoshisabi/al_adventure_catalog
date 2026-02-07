@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-COULEE21-02",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "DC-POA-Coulee21-02 Driven Like the Snow",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "369279",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Breaking Ice-olation",
     "tiers": 1,
-    "title": "Driven Like the Snow",
+    "title": "DC-POA-Coulee21-02 Driven Like the Snow",
     "url": "https://www.dmsguild.com/product/369279/?affiliate_id=171040"
 }

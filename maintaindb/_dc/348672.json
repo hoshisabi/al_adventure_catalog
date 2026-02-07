@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA",
+    "community_content": true,
     "date_created": "20210315",
+    "dungeoncraft": true,
     "full_title": "DC-PoA Journey to Adventure: Icewind Dale",
     "hours": "2",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "348672",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "tiers": 1,
-    "title": "Journey to Adventure Icewind Dale",
+    "title": "DC-PoA Journey to Adventure: Icewind Dale",
     "url": "https://www.dmsguild.com/product/348672/?affiliate_id=171040"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GSP-PHIL01-03",
+    "community_content": true,
     "date_created": "20190820",
+    "dungeoncraft": false,
     "full_title": "CCC-GSP-PHIL01-03 The Whispering Shadows of the Eldest Ruin",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "285849",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Whispering Shadows of the Eldest Ruin",

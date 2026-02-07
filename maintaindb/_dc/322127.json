@@ -10,7 +10,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BFG01-01",
+    "community_content": true,
     "date_created": "20200807",
+    "dungeoncraft": false,
     "full_title": "CCC-BFG01-01 A House Divided",
     "hours": "2-4",
     "is_adventure": true,
@@ -18,6 +20,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "322127",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "A House Divided",

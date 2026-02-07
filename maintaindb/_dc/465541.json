@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-TRIDEN-BZ",
+    "community_content": true,
     "date_created": "20231230",
+    "dungeoncraft": true,
     "full_title": "Sweet Dreams are Made of Bees (SJ-DC-TRIDEN-BZ)",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "465541",
-    "season": null,
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Sweet Dreams are Made of Bees",
+    "title": "Sweet Dreams are Made of Bees (SJ-DC-TRIDEN-BZ)",
     "url": "https://www.dmsguild.com/product/465541/?affiliate_id=171040"
 }

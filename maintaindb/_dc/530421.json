@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-EXT-HV",
+    "community_content": true,
     "date_created": "20250721",
+    "dungeoncraft": true,
     "full_title": "FR-DC-EXT-HV Hive of the Vilified",
     "hours": "4",
     "is_adventure": false,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "530421",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Hive of the Vilified",

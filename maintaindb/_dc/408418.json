@@ -8,16 +8,19 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-LIGA01",
+    "community_content": true,
     "date_created": "20220830",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-LIGA01 - Breath on the Run",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 4.99,
     "product_id": "408418",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Breath on the Run",
-    "url": "https://www.dmsguild.com/product/408418/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "title": "- Breath on the Run",
+    "url": "https://www.dmsguild.com/product/408418/?affiliate_id=171040"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-5-01",
+    "community_content": false,
     "date_created": "20251202",
+    "dungeoncraft": false,
     "full_title": "PO-BK-5-01 Paragons of Wrath",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "548076",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Paragons of Wrath",

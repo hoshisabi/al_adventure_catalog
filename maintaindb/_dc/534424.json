@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-BLACKFLAME-01",
+    "community_content": true,
     "date_created": "20250823",
+    "dungeoncraft": true,
     "full_title": "Blackflame in the Broken Lands (PS-DC-BLACKFLAME-01)",
     "hours": "4",
     "id": "534424",
@@ -17,8 +19,9 @@
     "price": 3.99,
     "product_id": "534424",
     "pub_date": "Sat, 23 Aug 2025 21:49:38 CDT",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 3,
-    "title": "Blackflame in the Broken Lands",
+    "title": "Blackflame in the Broken Lands (PS-DC-BLACKFLAME-01)",
     "url": "https://www.dmsguild.com/product/534424/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PND-3",
+    "community_content": true,
     "date_created": "20231231",
+    "dungeoncraft": true,
     "full_title": "The Little Monster (SJ-DC-PND-3)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "465705",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Unexpected Passenger",
     "tiers": 1,
-    "title": "The Little Monster",
+    "title": "The Little Monster (SJ-DC-PND-3)",
     "url": "https://www.dmsguild.com/product/465705/?affiliate_id=171040"
 }

@@ -7,14 +7,17 @@
         "Dragonlance"
     ],
     "code": "DL-DC-SDCC-03",
+    "community_content": true,
     "date_created": "20230717",
+    "dungeoncraft": true,
     "full_title": "Knight Fall (DL-DC-SDCC-03)",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 8.0,
     "product_id": "445912",
+    "salvage_mission": false,
     "tiers": 1,
-    "title": "Knight Fall",
+    "title": "Knight Fall (DL-DC-SDCC-03)",
     "url": "https://www.dmsguild.com/product/445912/?affiliate_id=171040"
 }

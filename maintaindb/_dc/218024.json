@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BLD-1-1",
+    "community_content": true,
     "date_created": "20170802",
+    "dungeoncraft": false,
     "full_title": "CCC-BLD-1-1 Bleeding Gate: Pandemonium",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "218024",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Bleeding Gate: Pandemonium",

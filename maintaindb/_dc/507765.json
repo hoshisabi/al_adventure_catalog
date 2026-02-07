@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-NOS-04",
+    "community_content": true,
     "date_created": "20250105",
+    "dungeoncraft": true,
     "full_title": "Goddess, Interrupted (PS-DC-NOS-04)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "507765",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "Goddess, Interrupted",
+    "title": "Goddess, Interrupted (PS-DC-NOS-04)",
     "url": "https://www.dmsguild.com/product/507765/?affiliate_id=171040"
 }

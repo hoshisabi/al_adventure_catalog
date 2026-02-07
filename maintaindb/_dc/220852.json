@@ -5,11 +5,11 @@
         "Ruty Rutenberg",
         "James Introcaso"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": "DDHC-TOA-7",
+    "community_content": false,
     "date_created": "20170908",
+    "dungeoncraft": false,
     "full_title": "DDHC-TOA-7 Ruins of Mezro",
     "hours": null,
     "is_adventure": true,
@@ -17,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "220852",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Ruins of Mezro",

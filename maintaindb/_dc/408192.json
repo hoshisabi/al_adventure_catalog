@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ROG-02",
+    "community_content": true,
     "date_created": "20220829",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-ROG-02 A Giant Dilemma",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "408192",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "A Giant Dilemma",
-    "url": "https://www.dmsguild.com/product/408192/WBWDCROG02-A-Giant-Dilemma?filters=45470_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408192/WBWDCROG02-A-Giant-Dilemma?filters=45470_0_0_0_0_0"
 }

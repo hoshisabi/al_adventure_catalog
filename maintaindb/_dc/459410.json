@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-GOBLIN-01",
+    "community_content": true,
     "date_created": "20231108",
+    "dungeoncraft": true,
     "full_title": "Goblin's Gambit (FR-DC-GOBLIN-01)",
     "hours": "2-3",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "459410",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Goblin's Gambit",
+    "title": "Goblin's Gambit (FR-DC-GOBLIN-01)",
     "url": "https://www.dmsguild.com/product/459410/Goblins-Gambit-FRDCGOBLIN01?filters=0_0_100057_0_0_0_0_0"
 }

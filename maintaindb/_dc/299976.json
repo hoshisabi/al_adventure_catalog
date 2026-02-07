@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-RCC-01-02",
+    "community_content": true,
     "date_created": "20200109",
+    "dungeoncraft": false,
     "full_title": "CCC-RCC-01-02 The King of Thar",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "299976",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The King of Thar",

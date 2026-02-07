@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-THAY-04",
+    "community_content": true,
     "date_created": "20250525",
+    "dungeoncraft": true,
     "full_title": "What Thayans Want (FR-DC-THAY-04)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "523867",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "What Thayans Want",
+    "title": "What Thayans Want (FR-DC-THAY-04)",
     "url": "https://www.dmsguild.com/product/523867/?affiliate_id=171040"
 }

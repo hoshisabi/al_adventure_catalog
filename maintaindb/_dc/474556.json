@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-3-11",
+    "community_content": false,
     "date_created": "20240318",
+    "dungeoncraft": false,
     "full_title": "PO-BK-3-11 Covenant of the Blood Goddess",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "474556",
+    "salvage_mission": false,
     "season": null,
     "tiers": 4,
     "title": "Covenant of the Blood Goddess",

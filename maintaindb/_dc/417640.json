@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DWR-02",
+    "community_content": true,
     "date_created": "20221124",
+    "dungeoncraft": true,
     "full_title": "Last Flight Of The Orca (SJ-DC-DWR-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "417640",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Last Flight Of The Orca",
+    "title": "Last Flight Of The Orca (SJ-DC-DWR-02)",
     "url": "https://www.dmsguild.com/product/417640/Last-Flight-Of-The-Orca-SJDCDWR02?filters=0_0_100057_0_0_0_0_0"
 }

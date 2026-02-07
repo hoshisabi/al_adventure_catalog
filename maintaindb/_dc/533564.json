@@ -3,11 +3,11 @@
     "authors": [
         "Dungeon Masters Guild"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "FR-DC-RPSG-09",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20250820",
+    "dungeoncraft": false,
     "full_title": "Ruckus, Chaos, Murder, Havoc - RPSG Tier 1 Bundle [BUNDLE]",
     "hours": "2",
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 7.96,
     "product_id": "533564",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Ruckus, Chaos, Murder, Havoc - RPSG Tier 1 Bundle [BUNDLE]",

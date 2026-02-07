@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-EPO-2",
+    "community_content": true,
     "date_created": "20210706",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-EPO-2 The Lighthouse of Graybill",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "363397",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Warmest Day",
     "tiers": 1,
-    "title": "The Lighthouse of Graybill",
+    "title": "DC-PoA-EPO-2 The Lighthouse of Graybill",
     "url": "https://www.dmsguild.com/product/363397/?affiliate_id=171040"
 }

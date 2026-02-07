@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL08-12",
+    "community_content": false,
     "date_created": "20190205",
+    "dungeoncraft": false,
     "full_title": "DDAL08-12 Xanathar's Wrath",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "263388",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": "8 - Waterdeep",
     "tiers": 2,
     "title": "Xanathar's Wrath",
     "url": "https://www.dmsguild.com/product/263388/?affiliate_id=171040"

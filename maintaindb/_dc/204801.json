@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL05-16",
+    "community_content": false,
     "date_created": "20170307",
+    "dungeoncraft": false,
     "full_title": "DDAL05-16 Parnast Under Siege",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "204801",
-    "season": "Storm King's Thunder",
+    "salvage_mission": false,
+    "season": "5 - Storm King's Thunder",
     "tiers": 1,
     "title": "Parnast Under Siege",
     "url": "https://www.dmsguild.com/product/204801/?affiliate_id=171040"

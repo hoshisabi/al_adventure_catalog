@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-AEG-05",
+    "community_content": true,
     "date_created": "20231217",
+    "dungeoncraft": true,
     "full_title": "FR-DC-AEG-05 The House in the Forest",
     "hours": null,
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.49,
     "product_id": "464141",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The House in the Forest",

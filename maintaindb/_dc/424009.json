@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-DD-03",
+    "community_content": true,
     "date_created": "20230120",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-DD-03 Castles in the Sand",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "424009",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Castles in the Sand",
-    "url": "https://www.dmsguild.com/product/424009/SJDCDD03-Castles-in-the-Sand?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/424009/SJDCDD03-Castles-in-the-Sand?filters=0_0_100057_0_0_0_0_0"
 }

@@ -7,16 +7,19 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-IC",
+    "community_content": true,
     "date_created": "20250125",
+    "dungeoncraft": true,
     "full_title": "Iron Cook (PS-DC-IC)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "509936",
-    "season": null,
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "Iron Cook",
+    "title": "Iron Cook (PS-DC-IC)",
     "url": "https://www.dmsguild.com/product/509936/?affiliate_id=171040"
 }

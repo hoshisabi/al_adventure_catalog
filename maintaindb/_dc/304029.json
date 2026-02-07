@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL00-12",
+    "community_content": false,
     "date_created": "20200220",
+    "dungeoncraft": false,
     "full_title": "DDAL00-12 Infernal Encounters",
     "hours": null,
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 6.95,
     "product_id": "304029",
+    "salvage_mission": false,
     "season": 0,
     "tiers": 1,
     "title": "Infernal Encounters",

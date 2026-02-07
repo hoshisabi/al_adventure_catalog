@@ -7,13 +7,16 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-GHG-02",
+    "community_content": true,
     "date_created": "20231214",
+    "dungeoncraft": true,
     "full_title": "Owlbear Ascension (FR-DC-GHG-02)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "462901",
+    "salvage_mission": false,
     "tiers": 1,
-    "title": "Owlbear Ascension",
+    "title": "Owlbear Ascension (FR-DC-GHG-02)",
     "url": "https://www.dmsguild.com/product/462901/Owlbear-Ascension-FRDCGHG02?filters=0_0_100057_0_0_0_0_0"
 }

@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "WBW-DC-JSH-CEL1",
+    "code": "WBW-DC-JSH-CEL",
+    "community_content": true,
     "date_created": "20220831",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-JSH-CEL1 Better with Friends",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "408606",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Better with Friends",
+    "title": "1 Better with Friends",
     "url": "https://www.dmsguild.com/product/408606/?affiliate_id=171040"
 }

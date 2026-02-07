@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MAG01-03",
+    "community_content": true,
     "date_created": "20200719",
+    "dungeoncraft": false,
     "full_title": "CCC-MAG01-03 The Clock that Didn't Tick",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "320986",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Clock that Didn't Tick",

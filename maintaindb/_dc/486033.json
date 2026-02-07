@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-STRAT-UNDEAD-04",
+    "community_content": true,
     "date_created": "20240627",
+    "dungeoncraft": true,
     "full_title": "PS-DC-STRAT-UNDEAD-04 Overtime",
     "hours": "4",
     "is_adventure": true,
@@ -17,7 +19,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "486033",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "Overtime",
     "url": "https://www.dmsguild.com/product/486033/?affiliate_id=171040"

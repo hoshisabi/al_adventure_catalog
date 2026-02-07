@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-UNITE-SHADOW-01",
+    "community_content": true,
     "date_created": "20240820",
+    "dungeoncraft": true,
     "full_title": "FR-DC-UNITE-SHADOW-01 To Be an Apprentice",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "492266",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "To Be an Apprentice",

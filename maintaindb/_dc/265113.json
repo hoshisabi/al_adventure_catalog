@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-45",
+    "community_content": true,
     "date_created": "20190125",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-45 PHLAN 4-3 Things That Go Bump in the Night",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "265113",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Things That Go Bump in the Night (PHLAN 4-3)",
+    "title": "PHLAN 4-3 Things That Go Bump in the Night",
     "url": "https://www.dmsguild.com/product/265113/?affiliate_id=171040"
 }

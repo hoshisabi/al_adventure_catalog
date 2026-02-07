@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL10-00",
+    "community_content": false,
     "date_created": "20200914",
+    "dungeoncraft": false,
     "full_title": "DDAL10-00 Ice Road Trackers",
     "hours": "1-4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "328476",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "tiers": 1,
     "title": "Ice Road Trackers",
     "url": "https://www.dmsguild.com/product/328476/?affiliate_id=171040"

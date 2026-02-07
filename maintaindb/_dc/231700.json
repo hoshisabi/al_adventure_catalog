@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BLD-01-03",
+    "community_content": true,
     "date_created": "20180118",
+    "dungeoncraft": false,
     "full_title": "CCC-BLD-01-03 Bleeding Gate: Lineage",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "231700",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Bleeding Gate: Lineage",

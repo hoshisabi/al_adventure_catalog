@@ -1,11 +1,11 @@
 {
     "apl": null,
     "authors": [],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250303",
+    "dungeoncraft": false,
     "full_title": "Blue Alley | PDF + Roll20 [BUNDLE]",
     "hours": "3-4",
     "is_adventure": false,
@@ -13,6 +13,7 @@
     "payWhatYouWant": false,
     "price": 9.52,
     "product_id": "514264",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Blue Alley | PDF + Roll20 [BUNDLE]",

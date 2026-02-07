@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-AS-1",
+    "community_content": true,
     "date_created": "20230426",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-AS-1 Hunt for the Recluse",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "435121",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Hunt for the Recluse",
-    "url": "https://www.dmsguild.com/product/435121/SJDCAS1-Hunt-for-the-Recluse?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/435121/SJDCAS1-Hunt-for-the-Recluse?filters=0_0_100057_0_0_0_0_0"
 }

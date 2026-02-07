@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GARY-17",
+    "community_content": true,
     "date_created": "20201228",
+    "dungeoncraft": false,
     "full_title": "CCC-GARY-17 A Simple Plan",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "341259",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "A Simple Plan",
