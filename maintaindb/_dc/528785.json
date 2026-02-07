@@ -5,20 +5,21 @@
         "Jeff C. Stevens",
         "Remley Farr"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250705",
+    "dungeoncraft": false,
     "full_title": "Kip & Wingo vs. Evil (Adventure)",
     "hours": "4",
     "is_adventure": false,
-    "level_range": "1",
+    "level_range": null,
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "528785",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Kip & Wingo vs. Evil Adventure",
+    "title": "Kip & Wingo vs. Evil (Adventure)",
     "url": "https://www.dmsguild.com/product/528785/?affiliate_id=171040"
 }

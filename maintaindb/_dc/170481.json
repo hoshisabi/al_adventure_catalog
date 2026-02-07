@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-07",
+    "code": "DDEX02-07",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-07 Bounty in the Bog",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170481",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 1,
-    "title": "Bounty in the Bog",
+    "title": "DDEX2-07 Bounty in the Bog",
     "url": "https://www.dmsguild.com/product/170481/?affiliate_id=171040"
 }

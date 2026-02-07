@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PUB-01",
+    "community_content": true,
     "date_created": "20250706",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PUB-01 Planar Pub Crawl: Cover Charge",
     "hours": "2",
     "is_adventure": false,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "528845",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": null,
-    "title": "Planar Pub Crawl Cover Charge",
+    "title": "Planar Pub Crawl: Cover Charge",
     "url": "https://www.dmsguild.com/product/528845/?affiliate_id=171040"
 }

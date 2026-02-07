@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-MOON-MD-02",
+    "community_content": false,
     "date_created": "20231113",
+    "dungeoncraft": false,
     "full_title": "BMG-MOON-MD-02 The Tarthwood Curse",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "460205",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Tarthwood Curse",

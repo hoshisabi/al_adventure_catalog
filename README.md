@@ -44,6 +44,8 @@ There are two primary methods for ingesting new adventure data:
 1.  Review the generated JSON files in `_dc` and fix any missing or incorrect data.
 2.  **Generate Fixup HTML (for missing data):** If you have adventures with missing `hours`, `tier`, or `campaign` data, run `python3 maintaindb/generate_fixup_html.py`. This will create a `fixup.html` file in the `_site/` directory. Open this file in your browser to get direct links to the DMsGuild pages for manual data retrieval.
 3.  Run the aggregator to combine all adventure data: `python3 aggregator.py`
+    *   This generates the minified `assets/data/catalog.json` used by the frontend.
+    *   See [CATALOG_FORMAT.md](CATALOG_FORMAT.md) for details on the optimized JSON format (including bitmasks).
 4.  The aggregated results will be available in `_stats`.
 
 ## Running the Site Locally

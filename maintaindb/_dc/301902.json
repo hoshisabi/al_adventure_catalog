@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DWB-Q01",
+    "community_content": true,
     "date_created": "20200131",
+    "dungeoncraft": false,
     "full_title": "CCC-DWB-Q01 Quarantine",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "301902",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Quarantine",

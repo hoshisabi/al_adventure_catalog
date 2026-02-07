@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-CBB-01",
+    "community_content": true,
     "date_created": "20210104",
+    "dungeoncraft": true,
     "full_title": "DC-POA-CBB-01 : Twirling Towards Oblivion",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "342209",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "A Dark Horse",
     "tiers": 1,
-    "title": "Twirling Towards Oblivion",
+    "title": ": Twirling Towards Oblivion",
     "url": "https://www.dmsguild.com/product/342209/?affiliate_id=171040"
 }

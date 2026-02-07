@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MTL-02",
+    "community_content": true,
     "date_created": "20200116",
+    "dungeoncraft": false,
     "full_title": "House of Revenance (CCC-MTL-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "300573",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "House of Revenance",
+    "title": "House of Revenance (CCC-MTL-02)",
     "url": "https://www.dmsguild.com/product/300573/?affiliate_id=171040"
 }

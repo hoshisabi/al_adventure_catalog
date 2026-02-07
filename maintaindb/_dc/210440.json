@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SALT-01-01",
+    "community_content": true,
     "date_created": "20170425",
+    "dungeoncraft": false,
     "full_title": "CCC-SALT-01-01 Rumors of Riches",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "210440",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Rumors of Riches",

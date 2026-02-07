@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-MAR-01",
+    "community_content": true,
     "date_created": "20240712",
+    "dungeoncraft": true,
     "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "487680",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "Death, Taxes, & Maruts",
     "url": "https://www.dmsguild.com/product/487680/?affiliate_id=171040"

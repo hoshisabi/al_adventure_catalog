@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-ZL-01",
+    "community_content": true,
     "date_created": "20201117",
+    "dungeoncraft": true,
     "full_title": "OGRE KRUSH (DC-POA-ZL-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "336427",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Out of the Woods",
     "tiers": 2,
-    "title": "OGRE KRUSH",
+    "title": "OGRE KRUSH (DC-POA-ZL-01)",
     "url": "https://www.dmsguild.com/product/336427/?affiliate_id=171040"
 }

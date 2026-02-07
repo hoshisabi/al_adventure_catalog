@@ -3,11 +3,11 @@
     "authors": [
         "Cindy Moore"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDHC-TOA-9",
+    "community_content": false,
     "date_created": "20170908",
+    "dungeoncraft": false,
     "full_title": "Ruins of Matolo: Discovery (DDHC-TOA-9)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +15,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "221157",
-    "season": "Tomb of Annihilation",
+    "salvage_mission": false,
+    "season": null,
     "tiers": 2,
-    "title": "Ruins of Matolo: Discovery",
+    "title": "Ruins of Matolo: Discovery (DDHC-TOA-9)",
     "url": "https://www.dmsguild.com/product/221157/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TAROT01-02",
+    "community_content": true,
     "date_created": "20180704",
+    "dungeoncraft": false,
     "full_title": "CCC-TAROT01-02 By the Light of the Moon",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "246352",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "By the Light of the Moon",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PUB-05",
+    "community_content": true,
     "date_created": "20250720",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PUB-05 Planar Pub Crawl: Nights to Remember",
     "hours": "2",
     "is_adventure": false,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "530335",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": null,
-    "title": "Planar Pub Crawl Nights to Remember",
+    "title": "Planar Pub Crawl: Nights to Remember",
     "url": "https://www.dmsguild.com/product/530335/?affiliate_id=171040"
 }

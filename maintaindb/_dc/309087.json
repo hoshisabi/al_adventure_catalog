@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-HOUSE",
+    "community_content": true,
     "date_created": "20200407",
+    "dungeoncraft": false,
     "full_title": "House Hunting: A 4 hour Tier 1 Salvage Mission",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "309087",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 1,
-    "title": "House Hunting",
+    "title": "House Hunting: A 4 hour Tier 1 Salvage Mission",
     "url": "https://www.dmsguild.com/product/309087/?affiliate_id=171040"
 }

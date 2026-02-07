@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-CONMAR01-01",
+    "community_content": true,
     "date_created": "20201103",
+    "dungeoncraft": false,
     "full_title": "CCC-CONMAR01-01 Helping Hands",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.39,
     "product_id": "334449",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Helping Hands",

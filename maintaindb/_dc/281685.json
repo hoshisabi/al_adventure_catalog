@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BWM-04-02",
+    "community_content": true,
     "date_created": "20190711",
+    "dungeoncraft": false,
     "full_title": "CCC-BWM-04-02 Thralls of Zuggtmoy: Sanctum of Rot",
     "hours": "2-4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "281685",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Thralls of Zuggtmoy: Sanctum of Rot",

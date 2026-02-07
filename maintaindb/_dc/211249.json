@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL06-02",
+    "community_content": false,
     "date_created": "20170606",
+    "dungeoncraft": false,
     "full_title": "DDAL06-02 The Redemption of Kelvan",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "211249",
-    "season": "Tales From the Yawning Portal",
+    "salvage_mission": false,
+    "season": "6 - Tales From the Yawning Portal",
     "tiers": 2,
     "title": "The Redemption of Kelvan",
     "url": "https://www.dmsguild.com/product/211249/?affiliate_id=171040"

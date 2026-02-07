@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-CIC-01",
+    "community_content": true,
     "date_created": "20161204",
+    "dungeoncraft": false,
     "full_title": "CCC-CIC-01 The Vault of the Devourer",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "199826",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Vault of the Devourer",

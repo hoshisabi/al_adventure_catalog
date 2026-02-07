@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-3MAGS-ONE",
+    "community_content": true,
     "date_created": "20181202",
+    "dungeoncraft": false,
     "full_title": "CCC-3MAGS-ONE Vormestrand's Scroll",
     "hours": "7",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 5.99,
     "product_id": "260364",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Vormestrand's Scroll",

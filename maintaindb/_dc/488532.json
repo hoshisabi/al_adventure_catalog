@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-YLRA01-05",
+    "community_content": true,
     "date_created": "20240719",
+    "dungeoncraft": true,
     "full_title": "FR-DC-YLRA01-05 The Shadow from the Stars",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "488532",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Shadow from the Stars",

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON15-1",
+    "community_content": true,
     "date_created": "20220126",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON15-1 Shattered Omens",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "384260",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Shattered Omens",

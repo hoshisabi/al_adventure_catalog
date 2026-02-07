@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-NN01-01",
+    "community_content": true,
     "date_created": "20210213",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-NN01-01 Where Are Yew",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": true,
     "price": 3.19,
     "product_id": "346821",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Once Bitten, Ice Shy",
     "tiers": 1,
-    "title": "Where Are Yew",
+    "title": "DC-PoA-NN01-01 Where Are Yew",
     "url": "https://www.dmsguild.com/product/346821/?affiliate_id=171040"
 }

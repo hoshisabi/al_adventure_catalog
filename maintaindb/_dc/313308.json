@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-BK2-07",
+    "community_content": true,
     "date_created": "20200511",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-BK2-07 In The Dead of Knight",
     "hours": null,
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "313308",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "In The Dead of Knight",

@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-BIRE-02",
+    "community_content": true,
     "date_created": "20220830",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-BIRE-02 Clues and Confrontations",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "product_id": "408361",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Clues and Confrontations",
-    "url": "https://www.dmsguild.com/product/408361/WBWDCBIRE02-Clues-and-Confrontations?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408361/WBWDCBIRE02-Clues-and-Confrontations?filters=0_0_100057_0_0_0_0_0"
 }

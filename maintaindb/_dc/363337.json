@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-17",
+    "community_content": false,
     "date_created": "20210706",
+    "dungeoncraft": false,
     "full_title": "EB-17 The Final Tribute",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "363337",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 4,
     "title": "The Final Tribute",
     "url": "https://www.dmsguild.com/product/363337/?affiliate_id=171040"

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SFBAY-04-01",
+    "community_content": true,
     "date_created": "20180126",
+    "dungeoncraft": false,
     "full_title": "CCC-SFBAY-04-01 The Cornflower Hive",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "232430",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Cornflower Hive",

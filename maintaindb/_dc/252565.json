@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-17",
+    "community_content": true,
     "date_created": "20180917",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-17 Ph'theev, Unbound! (Part Two of the Psionic Menace Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "252565",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Ph'theev, Unbound! Part Two of the Psionic Menace Series",
+    "title": "Ph'theev, Unbound! (Part Two of the Psionic Menace Series)",
     "url": "https://www.dmsguild.com/product/252565/?affiliate_id=171040"
 }

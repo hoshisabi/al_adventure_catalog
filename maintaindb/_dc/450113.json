@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-FAT-01",
+    "community_content": true,
     "date_created": "20230820",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-FAT-01 Flight of the Chungus",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "450113",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
     "title": "Flight of the Chungus",
-    "url": "https://www.dmsguild.com/product/450113/SJDCFAT01-Flight-of-the-Chungus?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/450113/SJDCFAT01-Flight-of-the-Chungus?filters=0_0_100057_0_0_0_0_0"
 }

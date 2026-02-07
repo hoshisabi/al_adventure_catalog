@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ZION-03",
+    "community_content": true,
     "date_created": "20220831",
+    "dungeoncraft": true,
     "full_title": "Noctis' Sacrifice (WBW-DC-ZION-03)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "408581",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Noctis' Sacrifice",
+    "title": "Noctis' Sacrifice (WBW-DC-ZION-03)",
     "url": "https://www.dmsguild.com/product/408581/?affiliate_id=171040"
 }

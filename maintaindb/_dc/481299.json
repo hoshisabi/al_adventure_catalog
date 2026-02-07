@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-DRW-OD-06",
+    "community_content": false,
     "date_created": "20240516",
+    "dungeoncraft": false,
     "full_title": "BMG-DRW-OD-06 We Almost Had It All",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "481299",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "We Almost Had It All",

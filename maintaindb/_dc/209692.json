@@ -7,8 +7,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-GARY-02",
+    "code": "CCC-GARY02",
+    "community_content": true,
     "date_created": "20170414",
+    "dungeoncraft": false,
     "full_title": "CCC-GARY02: To Find a Way Out",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "209692",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "To Find a Way Out",
+    "title": ": To Find a Way Out",
     "url": "https://www.dmsguild.com/product/209692/?affiliate_id=171040"
 }

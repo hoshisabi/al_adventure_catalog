@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX1-01",
+    "code": "DDEX01-01",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX1-01 Defiance in Phlan",
     "hours": "1-5",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170384",
-    "season": "Tyranny of Dragons",
+    "salvage_mission": false,
+    "season": "1 - Tyranny of Dragons",
     "tiers": 1,
-    "title": "Defiance in Phlan",
+    "title": "DDEX1-01 Defiance in Phlan",
     "url": "https://www.dmsguild.com/product/170384/?affiliate_id=171040"
 }

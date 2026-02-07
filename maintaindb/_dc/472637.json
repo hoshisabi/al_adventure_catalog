@@ -4,11 +4,12 @@
         "Stefan Tomaschitz"
     ],
     "campaigns": [
-        "Ravenloft",
-        "Forgotten Realms"
+        "Ravenloft"
     ],
     "code": "RV-DC-SDG-02",
+    "community_content": true,
     "date_created": "20240301",
+    "dungeoncraft": true,
     "full_title": "Der Meister der Puppen",
     "hours": "2",
     "is_adventure": true,
@@ -16,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.63,
     "product_id": "472637",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Ravenloft Dungeoncraft",
     "tiers": 1,
     "title": "Der Meister der Puppen",
     "url": "https://www.dmsguild.com/product/472637?affiliate_id=171040"

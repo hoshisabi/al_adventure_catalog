@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ANDL-01",
+    "community_content": true,
     "date_created": "20211122",
+    "dungeoncraft": true,
     "full_title": "The Petrified Forest (WBW-DC-ANDL-01)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "378100",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "The Petrified Forest",
-    "url": "https://www.dmsguild.com/product/378100/The-Petrified-Forest-WBWDCANDL01?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "title": "The Petrified Forest (WBW-DC-ANDL-01)",
+    "url": "https://www.dmsguild.com/product/378100/The-Petrified-Forest-WBWDCANDL01?filters=0_0_100057_0_0_0_0_0"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-GARYXIII-03",
+    "community_content": true,
     "date_created": "20210325",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.0,
     "product_id": "351364",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Goat-ball!",
     "tiers": 2,
-    "title": "Personal Fouls and Penalties",
+    "title": "DC-PoA-GaryXIII-03 Personal Fouls and Penalties",
     "url": "https://www.dmsguild.com/product/351364/?affiliate_id=171040"
 }

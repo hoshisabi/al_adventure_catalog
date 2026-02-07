@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-AH-01",
+    "community_content": true,
     "date_created": "20220617",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-AH-01 Afraid of the Dark",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "400182",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Afraid of the Dark",
-    "url": "https://www.dmsguild.com/product/400182/WBWDCAH01-AFRAID-OF-THE-DARK?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/400182/WBWDCAH01-AFRAID-OF-THE-DARK?filters=0_0_100057_0_0_0_0_0"
 }

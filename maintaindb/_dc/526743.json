@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-TALES-01",
+    "community_content": true,
     "date_created": "20250618",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-TALES-01 What Big Teeth",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 5.99,
     "product_id": "526743",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "What Big Teeth",

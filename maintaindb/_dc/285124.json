@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL00-10",
+    "community_content": false,
     "date_created": "20190908",
+    "dungeoncraft": false,
     "full_title": "DDAL00-10 Trust and Understanding",
     "hours": "6-8",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.79,
     "product_id": "285124",
+    "salvage_mission": false,
     "season": 0,
     "tiers": 4,
     "title": "Trust and Understanding",

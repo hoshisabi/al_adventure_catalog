@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-TYM-PHP-DIV-01",
+    "community_content": true,
     "date_created": "20240818",
+    "dungeoncraft": true,
     "full_title": "PS-DC-TYM-PHP-DIV-01 below the world, beneath the sun, i hear somebody singing",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "491981",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "below the world, beneath the sun, i hear somebody singing",
     "url": "https://www.dmsguild.com/product/491981/?affiliate_id=171040"

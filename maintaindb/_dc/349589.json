@@ -1,11 +1,11 @@
 {
     "apl": null,
     "authors": [],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20210308",
+    "dungeoncraft": false,
     "full_title": "Salvage Missions for Tier 1 and 2 [BUNDLE]",
     "hours": "4",
     "is_adventure": true,
@@ -13,6 +13,7 @@
     "payWhatYouWant": false,
     "price": 11.61,
     "product_id": "349589",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Salvage Missions for Tier 1 and 2 [BUNDLE]",

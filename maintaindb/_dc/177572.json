@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDEX03-16",
+    "community_content": false,
     "date_created": "20160322",
+    "dungeoncraft": false,
     "full_title": "DDEX03-16 Assault on Maerimydra",
     "hours": "8",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "177572",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 3,
     "title": "Assault on Maerimydra",
     "url": "https://www.dmsguild.com/product/177572/?affiliate_id=171040"

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-UK-3",
+    "community_content": true,
     "date_created": "20190722",
+    "dungeoncraft": false,
     "full_title": "CCC-UK-3 The Tainted Grove",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "283656",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Tainted Grove",

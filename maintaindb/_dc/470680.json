@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-NOS-01",
+    "community_content": true,
     "date_created": "20240212",
+    "dungeoncraft": true,
     "full_title": "Githzerai Glitch (PS-DC-NOS-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "470680",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "Githzerai Glitch",
+    "title": "Githzerai Glitch (PS-DC-NOS-01)",
     "url": "https://www.dmsguild.com/product/470680/?affiliate_id=171040"
 }

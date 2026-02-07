@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-TEN-02",
+    "community_content": true,
     "date_created": "20220808",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-TEN-02 Festival of Fyre",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "405901",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Festival of Fyre",
-    "url": "https://www.dmsguild.com/product/405901/WBWDCTEN02-Festival-of-Fyre?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/405901/WBWDCTEN02-Festival-of-Fyre?filters=0_0_100057_0_0_0_0_0"
 }

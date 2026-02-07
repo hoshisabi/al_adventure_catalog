@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL00-04",
+    "community_content": false,
     "date_created": "20171219",
+    "dungeoncraft": false,
     "full_title": "DDAL00-04 Winter's Flame",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "229261",
+    "salvage_mission": false,
     "season": 0,
     "tiers": 1,
     "title": "Winter's Flame",

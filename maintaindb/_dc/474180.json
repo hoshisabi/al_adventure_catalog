@@ -1,14 +1,16 @@
 {
     "apl": 13,
     "authors": [
-        "Lu\u00eds Ricardo 'DM Corvo' da Costa",
+        "Luís Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "FR-DC-LIGA-01",
+    "community_content": true,
     "date_created": "20240314",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LIGA-01  Wyrmwell Flame",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "474180",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Wyrmwell Flame",

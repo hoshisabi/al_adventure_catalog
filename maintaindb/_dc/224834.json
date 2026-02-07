@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL07-08",
+    "community_content": false,
     "date_created": "20171205",
+    "dungeoncraft": false,
     "full_title": "DDAL07-08 Putting the Dead to Rest",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "224834",
-    "season": "Tomb of Annihilation",
+    "salvage_mission": false,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 2,
     "title": "Putting the Dead to Rest",
     "url": "https://www.dmsguild.com/product/224834/?affiliate_id=171040"

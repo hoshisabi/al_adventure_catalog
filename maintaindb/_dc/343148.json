@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL10-02",
+    "community_content": false,
     "date_created": "20210112",
+    "dungeoncraft": false,
     "full_title": "DDAL10-02 Gnashing Teeth",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "343148",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "tiers": 1,
     "title": "Gnashing Teeth",
     "url": "https://www.dmsguild.com/product/343148/?affiliate_id=171040"

@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-DC-MOURN-01",
+    "community_content": true,
     "date_created": "20251216",
+    "dungeoncraft": true,
     "full_title": "EB-DC-MOURN-01 Mercy in the Mournland",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "549619",
+    "salvage_mission": false,
     "season": "Eberron Dungeoncraft",
     "tiers": 1,
     "title": "Mercy in the Mournland",

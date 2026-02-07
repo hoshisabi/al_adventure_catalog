@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MMT-01-03",
+    "community_content": true,
     "date_created": "20200102",
+    "dungeoncraft": false,
     "full_title": "CCC-MMT-01-03 Honorable Dissent: A Price of the Red War Adventure",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "295871",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Honorable Dissent: A Price of the Red War Adventure",

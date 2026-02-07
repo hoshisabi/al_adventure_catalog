@@ -3,20 +3,21 @@
     "authors": [
         "Fernando Oliveira"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "DDAL-DRW-02",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20210102",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-02 VTT Assets",
     "hours": null,
     "is_adventure": false,
-    "level_range": "0",
+    "level_range": null,
     "payWhatYouWant": false,
     "price": 2.0,
     "product_id": "342082",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "VTT Assets",
+    "title": "DDAL-DRW-02 VTT Assets",
     "url": "https://www.dmsguild.com/product/342082/?affiliate_id=171040"
 }

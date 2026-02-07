@@ -6,7 +6,9 @@
     ],
     "campaigns": [],
     "code": "DDHC-TOA-2",
+    "community_content": false,
     "date_created": "20170915",
+    "dungeoncraft": false,
     "full_title": "Tortle Package (DDHC-TOA-2)",
     "hours": "4",
     "is_adventure": true,
@@ -14,8 +16,9 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "221716",
-    "season": "Tomb of Annihilation",
+    "salvage_mission": false,
+    "season": null,
     "tiers": 1,
-    "title": "Tortle Package",
+    "title": "Tortle Package (DDHC-TOA-2)",
     "url": "https://www.dmsguild.com/product/221716/?affiliate_id=171040"
 }

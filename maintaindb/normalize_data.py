@@ -18,9 +18,9 @@ from pathlib import Path
 # Add parent directory to path to import from maintaindb
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from maintaindb.paths import DC_DIR
-from maintaindb.adventure_normalizers import AdventureDataNormalizer
-from maintaindb.adventure import merge_adventure_data
+from .paths import DC_DIR
+from .adventure_normalizers import AdventureDataNormalizer
+from .adventure import merge_adventure_data
 
 def normalize_data():
     """Normalize all JSON files in the _dc directory."""
@@ -92,14 +92,15 @@ def normalize_data():
             # Check core fields
             fields_to_check = [
                 'product_id', 'full_title', 'code', 'campaigns', 'season', 
-                'authors', 'hours', 'tiers', 'level_range', 'title'
+                'authors', 'hours', 'tiers', 'level_range', 'title',
+                'salvage_mission', 'dungeoncraft', 'community_content'
             ]
             
             for field in fields_to_check:
                 if normalized_data.get(field) != data.get(field):
                     data[field] = normalized_data.get(field)
                     has_changes = True
-            
+
             # Price needs special handling for Decimal vs float/str
             # Skip for now to avoid simple type diffs
             

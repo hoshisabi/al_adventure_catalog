@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-GC14-04",
+    "community_content": true,
     "date_created": "20220324",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-GC14-04 Peace Talks",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "391104",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Peace Talks",
-    "url": "https://www.dmsguild.com/product/391104/WBWDCGC1404-Peace-Talks?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/391104/WBWDCGC1404-Peace-Talks?filters=0_0_100057_0_0_0_0_0"
 }

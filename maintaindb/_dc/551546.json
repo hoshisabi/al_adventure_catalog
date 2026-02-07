@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-JUDGE",
+    "community_content": true,
     "date_created": "20260102",
+    "dungeoncraft": true,
     "full_title": "PS-DC-JUDGE Tower of Judgement",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "551546",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 3,
     "title": "Tower of Judgement",
     "url": "https://www.dmsguild.com/product/551546/?affiliate_id=171040"

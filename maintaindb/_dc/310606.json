@@ -3,11 +3,11 @@
     "authors": [
         "Fynn Headen"
     ],
-    "campaigns": [
-        "Eberron"
-    ],
-    "code": "EB-SM-SALVINSP",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20200420",
+    "dungeoncraft": false,
     "full_title": "Salvation Inspection: A 4 hour Tier 1 Salvage Mission",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +16,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "310606",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Salvation Inspection A 4 hour Tier 1 Salvage Mission",
+    "title": "Salvation Inspection: A 4 hour Tier 1 Salvage Mission",
     "url": "https://www.dmsguild.com/product/310606/?affiliate_id=171040"
 }

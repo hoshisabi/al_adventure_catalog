@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PKL-19",
+    "community_content": true,
     "date_created": "20241231",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PKL-19 Kingdom Come Undone",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "507261",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "Kingdom Come Undone",
     "url": "https://www.dmsguild.com/product/507261/?affiliate_id=171040"

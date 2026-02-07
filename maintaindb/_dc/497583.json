@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-MELB-00-02",
+    "community_content": true,
     "date_created": "20241003",
+    "dungeoncraft": true,
     "full_title": "The Weeping Maiden (FR-DC-MELB-00-02)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "497583",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Weeping Maiden",
+    "title": "The Weeping Maiden (FR-DC-MELB-00-02)",
     "url": "https://www.dmsguild.com/product/497583/?affiliate_id=171040"
 }

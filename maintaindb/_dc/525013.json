@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-HRS-01",
+    "community_content": true,
     "date_created": "20250603",
+    "dungeoncraft": true,
     "full_title": "Unlimited Hours (PS-DC-HRS-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "525013",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 2,
-    "title": "Unlimited Hours",
+    "title": "Unlimited Hours (PS-DC-HRS-01)",
     "url": "https://www.dmsguild.com/product/525013/?affiliate_id=171040"
 }

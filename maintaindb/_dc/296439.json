@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-OA-01-01",
+    "community_content": true,
     "date_created": "20191212",
+    "dungeoncraft": false,
     "full_title": "When Mages Fall (CCC-OA-01-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "296439",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "When Mages Fall",
+    "title": "When Mages Fall (CCC-OA-01-01)",
     "url": "https://www.dmsguild.com/product/296439/?affiliate_id=171040"
 }

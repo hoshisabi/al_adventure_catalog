@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SALT02-05",
+    "community_content": true,
     "date_created": "20181002",
+    "dungeoncraft": false,
     "full_title": "CCC-SALT02-05 The Darkness Never Forgets",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "253907",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Darkness Never Forgets",

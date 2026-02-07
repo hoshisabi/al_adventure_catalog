@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX3-12",
+    "code": "DDEX03-12",
+    "community_content": false,
     "date_created": "20160315",
+    "dungeoncraft": false,
     "full_title": "DDEX3-12 Hillsfar Reclaimed",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "177567",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": "3 - Rage of Demons",
     "tiers": 1,
-    "title": "Hillsfar Reclaimed",
+    "title": "DDEX3-12 Hillsfar Reclaimed",
     "url": "https://www.dmsguild.com/product/177567/?affiliate_id=171040"
 }

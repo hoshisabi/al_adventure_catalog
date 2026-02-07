@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-19",
+    "community_content": true,
     "date_created": "20180716",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-19 Dead Men's Tales (Part One of the Dead Men Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "247439",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Dead Men's Tales (Part One of the Dead Men Series)",

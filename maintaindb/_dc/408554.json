@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-PHP-HOE1-01",
+    "community_content": true,
     "date_created": "20220831",
+    "dungeoncraft": true,
     "full_title": "The Mill of Mar-Itez (WBW-DC-PHP-HOE1-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "408554",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Mill of Mar-Itez",
+    "title": "The Mill of Mar-Itez (WBW-DC-PHP-HOE1-01)",
     "url": "https://www.dmsguild.com/product/408554/?affiliate_id=171040"
 }

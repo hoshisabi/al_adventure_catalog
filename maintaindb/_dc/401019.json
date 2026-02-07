@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-IDL-02",
+    "community_content": true,
     "date_created": "20220627",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-IDL-02 Two For Flinching",
     "hours": "2",
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "401019",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Two For Flinching",
-    "url": "https://www.dmsguild.com/product/401019/WBWDCIDL02-Two-For-Flinching?filters=45470_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/401019/WBWDCIDL02-Two-For-Flinching?filters=45470_0_0_0_0_0"
 }

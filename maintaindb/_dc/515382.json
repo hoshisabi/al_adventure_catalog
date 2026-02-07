@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-FIEND-06",
+    "community_content": true,
     "date_created": "20250314",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-FIEND-06 Cold Blooded Bandit",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "515382",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Cold Blooded Bandit",

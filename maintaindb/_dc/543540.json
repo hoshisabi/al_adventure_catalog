@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-CASE-01",
+    "community_content": true,
     "date_created": "20251030",
+    "dungeoncraft": true,
     "full_title": "FR-DC-CASE-01 Under Lock and Key",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.54,
     "product_id": "543540",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Under Lock and Key",

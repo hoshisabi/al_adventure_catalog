@@ -3,11 +3,11 @@
     "authors": [
         "Dungeon Masters Guild"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "FR-DC-SCROG-02",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20250818",
+    "dungeoncraft": false,
     "full_title": "Longsaddle Adventures Bundle [BUNDLE]",
     "hours": "1",
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "533826",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Longsaddle Adventures Bundle [BUNDLE]",

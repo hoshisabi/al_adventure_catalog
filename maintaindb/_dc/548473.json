@@ -11,11 +11,11 @@
         "Tom Klein",
         "Ting Yuen Tjiong"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "2025 Year End Celebration [BUNDLE]",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20251208",
+    "dungeoncraft": false,
     "full_title": "2025 Year End Celebration [BUNDLE]",
     "hours": "2-4",
     "is_adventure": false,
@@ -24,7 +24,8 @@
     "payWhatYouWant": false,
     "price": 14.99,
     "product_id": "548473",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": null,
     "tiers": 1,
     "title": "2025 Year End Celebration [BUNDLE]",
     "url": "https://www.dmsguild.com/product/548473/?affiliate_id=171040"

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ZEP-T2S1-8",
+    "community_content": true,
     "date_created": "20220622",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-ZEP-T2S1-8 Feylost in Zep Series",
     "hours": null,
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 29.99,
     "product_id": "400440",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "tiers": 2,
     "title": "Feylost in Zep Series",
     "url": "https://www.dmsguild.com/product/400440/?affiliate_id=171040"

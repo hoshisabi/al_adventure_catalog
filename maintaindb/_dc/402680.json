@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON19-2",
+    "community_content": true,
     "date_created": "20220809",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON19-2 A Tide and a Storm",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "402680",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "A Tide and a Storm",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-ELEMENT-DEATH-04",
+    "community_content": true,
     "date_created": "20251108",
+    "dungeoncraft": true,
     "full_title": "PS-DC-ELEMENT-DEATH-04 Skulls and Skies",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "545230",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "Skulls and Skies",
     "url": "https://www.dmsguild.com/product/545230/?affiliate_id=171040"

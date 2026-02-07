@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-ONI-05",
+    "community_content": true,
     "date_created": "20251231",
+    "dungeoncraft": true,
     "full_title": "The Shogun of Storms (FR-DC-ONI-05)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "551359",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "The Shogun of Storms",
+    "title": "The Shogun of Storms (FR-DC-ONI-05)",
     "url": "https://www.dmsguild.com/product/551359/?affiliate_id=171040"
 }

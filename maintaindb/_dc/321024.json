@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SEA-01-02",
+    "community_content": true,
     "date_created": "20200803",
+    "dungeoncraft": false,
     "full_title": "CCC-SEA-01-02 Oh, Not the Bees!",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "321024",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Oh, Not the Bees!",

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-BK03-09",
+    "community_content": true,
     "date_created": "20210125",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-BK03-09 A Convergence of Gods",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "344639",
+    "salvage_mission": false,
     "season": null,
     "tiers": 4,
     "title": "A Convergence of Gods",

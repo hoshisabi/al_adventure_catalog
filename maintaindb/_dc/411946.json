@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-HBI-002",
+    "community_content": true,
     "date_created": "20220929",
+    "dungeoncraft": true,
     "full_title": "Hardy and Beholder Investigations: The Hitchhiker (SJ-DC-HBI-002)",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.75,
     "product_id": "411946",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Unexpected Passenger",
     "tiers": 1,
-    "title": "Hardy and Beholder Investigations The Hitchhiker",
+    "title": "Hardy and Beholder Investigations: The Hitchhiker (SJ-DC-HBI-002)",
     "url": "https://www.dmsguild.com/product/411946/?affiliate_id=171040"
 }

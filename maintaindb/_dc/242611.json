@@ -6,11 +6,11 @@
         "Greg Marks",
         "Travis Woodall"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": "DDHC-MORD-01",
+    "community_content": false,
     "date_created": "20180521",
+    "dungeoncraft": false,
     "full_title": "DDHC-MORD-01 Riddle of the Raven Queen",
     "hours": "8-12",
     "is_adventure": true,
@@ -18,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "242611",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Riddle of the Raven Queen",

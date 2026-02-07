@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-TOWER",
+    "community_content": true,
     "date_created": "20200515",
+    "dungeoncraft": false,
     "full_title": "Estranged Tower",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "313869",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 1,
     "title": "Estranged Tower",
     "url": "https://www.dmsguild.com/product/313869/?affiliate_id=171040"

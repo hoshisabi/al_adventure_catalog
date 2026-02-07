@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-DCAF07",
+    "community_content": true,
     "date_created": "20210203",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-DCAF07 I'm In Your Arms",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "345460",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Holy Auril, Mother of Cod",
     "tiers": 2,
-    "title": "I'm In Your Arms",
+    "title": "DC-PoA-DCAF07 I'm In Your Arms",
     "url": "https://www.dmsguild.com/product/345460/?affiliate_id=171040"
 }

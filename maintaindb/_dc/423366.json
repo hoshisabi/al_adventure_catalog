@@ -3,11 +3,11 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20230114",
+    "dungeoncraft": false,
     "full_title": "Keep on the Feywild: An Adventure for Tier 2 Characters",
     "hours": "2-4",
     "is_adventure": false,
@@ -15,8 +15,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "423366",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Keep on the Feywild An Adventure for Tier 2 Characters",
+    "title": "Keep on the Feywild: An Adventure for Tier 2 Characters",
     "url": "https://www.dmsguild.com/product/423366/?affiliate_id=171040"
 }

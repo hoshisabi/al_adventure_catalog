@@ -6,11 +6,11 @@
         "Christopher Perkins",
         "Richard Whitters"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDIA05",
+    "community_content": false,
     "date_created": "20160906",
+    "dungeoncraft": false,
     "full_title": "DDIA05 Storm King's Thunder: A Great Upheaveal",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "189150",
-    "season": "Storm King's Thunder",
+    "salvage_mission": false,
+    "season": null,
     "tiers": 1,
-    "title": "A Great Upheaveal",
+    "title": "Storm King's Thunder: A Great Upheaveal",
     "url": "https://www.dmsguild.com/product/189150/?affiliate_id=171040"
 }

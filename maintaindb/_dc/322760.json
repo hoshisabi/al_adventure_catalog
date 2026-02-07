@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DES-03-01",
+    "community_content": true,
     "date_created": "20200821",
+    "dungeoncraft": false,
     "full_title": "CCC-DES-03-01 A Snip Here, a Stitch There",
     "hours": "4-6",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 7.99,
     "product_id": "322760",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "A Snip Here, a Stitch There",

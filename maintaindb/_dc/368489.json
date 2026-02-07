@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TLOH-01",
+    "community_content": true,
     "date_created": "20210822",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TLOH-01 The Light of Hope",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "368489",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Winter Over",
     "tiers": 2,
-    "title": "The Light of Hope",
+    "title": "DC-PoA-TLOH-01 The Light of Hope",
     "url": "https://www.dmsguild.com/product/368489/?affiliate_id=171040"
 }

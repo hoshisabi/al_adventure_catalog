@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-16",
+    "community_content": false,
     "date_created": "20210503",
+    "dungeoncraft": false,
     "full_title": "EB-16 The Dragon Below",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "356496",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 3,
     "title": "The Dragon Below",
     "url": "https://www.dmsguild.com/product/356496/?affiliate_id=171040"

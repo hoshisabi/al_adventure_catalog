@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ODFC02-01",
+    "community_content": true,
     "date_created": "20180626",
+    "dungeoncraft": false,
     "full_title": "CCC-ODFC02-01 Serenade of Pain",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.0,
     "product_id": "245632",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Serenade of Pain",

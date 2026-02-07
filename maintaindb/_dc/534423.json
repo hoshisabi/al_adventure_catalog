@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-TKM-WGS",
+    "community_content": true,
     "date_created": "20250823",
+    "dungeoncraft": true,
     "full_title": "The Light and the Lost (SJ-DC-TKM-WGS)",
     "hours": "4",
     "id": "534423",
@@ -18,9 +20,10 @@
     "price": 4.99,
     "product_id": "534423",
     "pub_date": "Sat, 23 Aug 2025 20:34:25 CDT",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "The Light and the Lost",
+    "title": "The Light and the Lost (SJ-DC-TKM-WGS)",
     "url": "https://www.dmsguild.com/product/534423/?affiliate_id=171040"
 }

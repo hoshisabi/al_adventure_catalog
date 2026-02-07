@@ -8,17 +8,20 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX1-11",
+    "code": "DDEX01-11",
+    "community_content": false,
     "date_created": "20160111",
-    "full_title": "DDEX1-11 Dark Pyramid of Sorcerer\u2019s Isle",
+    "dungeoncraft": false,
+    "full_title": "DDEX1-11 Dark Pyramid of Sorcerer’s Isle",
     "hours": "8",
     "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "170470",
-    "season": "Tyranny of Dragons",
+    "salvage_mission": false,
+    "season": "1 - Tyranny of Dragons",
     "tiers": 2,
-    "title": "Dark Pyramid of Sorcerer\u2019s Isle",
+    "title": "DDEX1-11 Dark Pyramid of Sorcerer’s Isle",
     "url": "https://www.dmsguild.com/product/170470/?affiliate_id=171040"
 }

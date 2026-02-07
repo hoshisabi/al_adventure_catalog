@@ -3,11 +3,11 @@
     "authors": [
         "Fantasy Monkeys"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250706",
+    "dungeoncraft": false,
     "full_title": "Spores Of Ganzooza",
     "hours": null,
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": true,
     "price": 1.0,
     "product_id": "528875",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 1.0,
     "tiers": null,

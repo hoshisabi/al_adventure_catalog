@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON16-2",
+    "community_content": true,
     "date_created": "20220216",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON16-2 Procession of the Sage",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "387188",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Procession of the Sage",

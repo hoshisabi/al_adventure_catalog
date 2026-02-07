@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-BST-07",
+    "community_content": true,
     "date_created": "20230930",
+    "dungeoncraft": true,
     "full_title": "Tying the Knot (SJ-DC-BST-07)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "455015",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Tying the Knot",
+    "title": "Tying the Knot (SJ-DC-BST-07)",
     "url": "https://www.dmsguild.com/product/455015/?affiliate_id=171040"
 }

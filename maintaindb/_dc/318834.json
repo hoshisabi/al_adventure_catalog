@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL09-18",
+    "community_content": false,
     "date_created": "20200628",
+    "dungeoncraft": false,
     "full_title": "DDAL09-18 Consequences of Choice",
     "hours": "4-6",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "318834",
-    "season": "Avernus Rising",
+    "salvage_mission": false,
+    "season": "9 - Avernus Rising",
     "tiers": 3,
     "title": "Consequences of Choice",
     "url": "https://www.dmsguild.com/product/318834/?affiliate_id=171040"

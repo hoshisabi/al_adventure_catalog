@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MAG01-02",
+    "community_content": true,
     "date_created": "20200803",
+    "dungeoncraft": false,
     "full_title": "CCC-MAG01-02 Murder at the Festival!",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "320871",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Murder at the Festival!",

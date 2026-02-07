@@ -7,8 +7,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-Anime-1-2",
+    "code": "CCC-ANIME-1-2",
+    "community_content": true,
     "date_created": "20180313",
+    "dungeoncraft": false,
     "full_title": "CCC-Anime-1-2 Let's Find the Sword, GO!",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "236787",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Let's Find the Sword, GO!",
+    "title": "CCC-Anime-1-2 Let's Find the Sword, GO!",
     "url": "https://www.dmsguild.com/product/236787/?affiliate_id=171040"
 }

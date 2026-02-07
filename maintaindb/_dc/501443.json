@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-NUKE-01",
+    "community_content": true,
     "date_created": "20241106",
+    "dungeoncraft": true,
     "full_title": "FR-DC-NUKE-01 The Search for the Scarlet Stallion",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "501443",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Search for the Scarlet Stallion",

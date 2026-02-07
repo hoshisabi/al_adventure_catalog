@@ -8,8 +8,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-POA-GSP02-04H",
+    "code": "DC-POA-GSP02-04",
+    "community_content": true,
     "date_created": "20210130",
+    "dungeoncraft": true,
     "full_title": "The Horror Sphere (DC-PoA-GSP02-04H)",
     "hours": "2",
     "is_adventure": true,
@@ -17,9 +19,10 @@
     "payWhatYouWant": false,
     "price": 3.19,
     "product_id": "345134",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "The Horror Sphere",
+    "title": "The Horror Sphere (DC-PoA-GSP02-04H)",
     "url": "https://www.dmsguild.com/product/345134/?affiliate_id=171040"
 }

@@ -4,14 +4,26 @@ import datetime
 from decimal import Decimal
 from typing import Dict, Any, List, Optional
 
-from adventure_utils import (
-    get_patt_first_matching_group,
-    parse_number_string_to_int,
-    parse_date_string,
-    parse_rss_date_string, # <--- NEW IMPORT
-    get_adventure_code_and_campaigns,
-    get_season
-)
+try:
+    from .adventure_utils import (
+        get_patt_first_matching_group,
+        parse_number_string_to_int,
+        parse_date_string,
+        parse_rss_date_string,
+        get_adventure_code_and_campaigns,
+        get_campaigns_from_code,
+        get_season
+    )
+except (ImportError, ValueError):
+    from adventure_utils import (
+        get_patt_first_matching_group,
+        parse_number_string_to_int,
+        parse_date_string,
+        parse_rss_date_string,
+        get_adventure_code_and_campaigns,
+        get_campaigns_from_code,
+        get_season
+    )
 
 class AdventureDataNormalizer:
     def normalize(self, raw_data: Dict[str, Any]) -> Dict[str, Any]:
@@ -27,7 +39,16 @@ class AdventureDataNormalizer:
         normalized_data["url"] = raw_data.get("url_raw")
 
         # Code and Campaigns
+        existing_code = raw_data.get("code")
         code, campaigns = get_adventure_code_and_campaigns(normalized_data["full_title"]) or (None, [])
+
+        # If no code was found in the title, use the existing one if available
+        if not code and existing_code:
+            code = existing_code
+            # Also try to get campaigns from the existing code if we don't have any
+            if not campaigns:
+                campaigns = get_campaigns_from_code(code)
+
         # Normalize code to all uppercase
         normalized_data["code"] = code.upper() if code else None
         normalized_data["campaigns"] = campaigns
@@ -187,7 +208,7 @@ class AdventureDataNormalizer:
             if x not in seen:
                 unique_hours.append(x)
                 seen.add(x)
-        normalized_data["hours"] = unique_hours
+        normalized_data["hours"] = ", ".join(unique_hours) if unique_hours else None
 
 
         # Is Adventure (boolean) - for consistency, let's derive it here based on normalized data
@@ -203,14 +224,14 @@ class AdventureDataNormalizer:
                 is_adventure_flag = True
         normalized_data["is_adventure"] = is_adventure_flag
 
-        # Flag salvage_mission, dungeon_craft, and community_content
+        # Flag salvage_mission, dungeoncraft, and community_content
         code = normalized_data.get("code") or ""
         salvage_mission = code.startswith("EB-SM")
-        dungeon_craft = code.startswith("DC-") or code.startswith("POA-DC")
-        community_content = salvage_mission or dungeon_craft or code.startswith("CCC-")
+        dungeoncraft = code.startswith("DC-") or "-DC-" in code
+        community_content = salvage_mission or dungeoncraft or code.startswith("CCC-")
 
         normalized_data["salvage_mission"] = salvage_mission
-        normalized_data["dungeon_craft"] = dungeon_craft
+        normalized_data["dungeoncraft"] = dungeoncraft
         normalized_data["community_content"] = community_content
 
         # Needs Review - for initial processing, set to True if critical data is missing

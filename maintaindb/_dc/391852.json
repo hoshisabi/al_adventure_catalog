@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-NJ-HOPE-01",
+    "community_content": true,
     "date_created": "20220330",
+    "dungeoncraft": true,
     "full_title": "Promises of Hope (WBW-DC-NJ-HOPE-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "391852",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Promises of Hope",
+    "title": "Promises of Hope (WBW-DC-NJ-HOPE-01)",
     "url": "https://www.dmsguild.com/product/391852/Promises-of-Hope-WBWDCNJHOPE01?filters=0_0_100057_0_0_0_0_0"
 }

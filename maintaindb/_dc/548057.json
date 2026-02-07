@@ -1,14 +1,16 @@
 {
     "apl": 13,
     "authors": [
-        "Andy Dempz,",
+        "Andy Dempz",
         "Gamehole Con"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "PO-BK-3-12",
+    "community_content": false,
     "date_created": "20251202",
+    "dungeoncraft": false,
     "full_title": "PO-BK-3-12 Rule or Ruin",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "548057",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Rule or Ruin",

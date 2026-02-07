@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GREY-01-01",
+    "community_content": true,
     "date_created": "20190716",
+    "dungeoncraft": false,
     "full_title": "CCC-GREY-01-01 A Rat's Tale",
     "hours": "1-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "282281",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "A Rat's Tale",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-KCB-05",
+    "community_content": true,
     "date_created": "20220821",
+    "dungeoncraft": true,
     "full_title": "Fishing in the Dark WBW-DC-KCB-05",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "407379",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Fishing in the Dark",
+    "title": "Fishing in the Dark WBW-DC-KCB-05",
     "url": "https://www.dmsguild.com/product/407379/?affiliate_id=171040"
 }

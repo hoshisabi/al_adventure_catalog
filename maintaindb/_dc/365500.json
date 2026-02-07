@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-JAT-01",
+    "community_content": true,
     "date_created": "20210725",
+    "dungeoncraft": true,
     "full_title": "DC-POA-JAT-01 Ice to Mead You - Kobold Craziness part 1",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.5,
     "product_id": "365500",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "Ice to Mead You: Kobold Craziness part 1",
+    "title": "Ice to Mead You - Kobold Craziness part 1",
     "url": "https://www.dmsguild.com/product/365500/?affiliate_id=171040"
 }

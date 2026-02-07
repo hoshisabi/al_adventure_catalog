@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-UNITE-AN-04",
+    "community_content": true,
     "date_created": "20191125",
+    "dungeoncraft": false,
     "full_title": "Sisterhood of the Blade (CCC-UNITE-AN-04)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "295614",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Sisterhood of the Blade",
+    "title": "Sisterhood of the Blade (CCC-UNITE-AN-04)",
     "url": "https://www.dmsguild.com/product/295614/?affiliate_id=171040"
 }

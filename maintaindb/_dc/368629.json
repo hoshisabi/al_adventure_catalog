@@ -8,7 +8,9 @@
         "Eberron"
     ],
     "code": "EB-18",
+    "community_content": false,
     "date_created": "20210824",
+    "dungeoncraft": false,
     "full_title": "EB-18 Scales of War",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "368629",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 4,
     "title": "Scales of War",
     "url": "https://www.dmsguild.com/product/368629/?affiliate_id=171040"

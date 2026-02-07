@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-TT-101",
+    "community_content": true,
     "date_created": "20250702",
+    "dungeoncraft": true,
     "full_title": "FR-DC-TT-101 Water has no Shape",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "528426",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Water has no Shape",

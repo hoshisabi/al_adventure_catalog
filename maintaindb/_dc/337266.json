@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GARY-15",
+    "community_content": true,
     "date_created": "20201130",
+    "dungeoncraft": false,
     "full_title": "CCC-GARY-15: Friendship Never Dies",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "337266",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Friendship Never Dies",
+    "title": ": Friendship Never Dies",
     "url": "https://www.dmsguild.com/product/337266/?affiliate_id=171040"
 }

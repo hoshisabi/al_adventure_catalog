@@ -11,7 +11,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-16",
+    "community_content": true,
     "date_created": "20170120",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-16 ELM 1-1 The Sage of Cormanthor",
     "hours": "4",
     "is_adventure": true,
@@ -19,8 +21,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "203366",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Sage of Cormanthor (ELM 1-1)",
+    "title": "ELM 1-1 The Sage of Cormanthor",
     "url": "https://www.dmsguild.com/product/203366/?affiliate_id=171040"
 }

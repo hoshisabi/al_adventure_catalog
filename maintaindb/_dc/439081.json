@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-STRATCON-01",
+    "community_content": true,
     "date_created": "20230526",
+    "dungeoncraft": true,
     "full_title": "The Lost God (SJ-DC-STRATCON-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "439081",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "The Lost God",
-    "url": "https://www.dmsguild.com/product/439081/The-Lost-God-SJDCSTRATCON01?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "The Lost God (SJ-DC-STRATCON-01)",
+    "url": "https://www.dmsguild.com/product/439081/The-Lost-God-SJDCSTRATCON01?filters=0_0_100057_0_0_0_0_0"
 }

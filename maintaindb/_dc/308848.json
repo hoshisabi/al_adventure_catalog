@@ -7,16 +7,19 @@
         "Forgotten Realms"
     ],
     "code": "CCC-KUMORI-03-01",
+    "community_content": true,
     "date_created": "20200405",
-    "full_title": "CCC-KUMORI-03-01 Prot\u00e9g\u00e9 of the Trampling Forest",
+    "dungeoncraft": false,
+    "full_title": "CCC-KUMORI-03-01 Protégé of the Trampling Forest",
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "308848",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Prot\u00e9g\u00e9 of the Trampling Forest",
+    "title": "Protégé of the Trampling Forest",
     "url": "https://www.dmsguild.com/product/308848/?affiliate_id=171040"
 }

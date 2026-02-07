@@ -5,7 +5,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-SUNLIT-02",
-    "date_created": null,
+    "community_content": true,
+    "date_created": "20220110",
+    "dungeoncraft": true,
     "full_title": "DC-POA-SUNLIT-02 Dug Too Deep?",
     "hours": "4",
     "is_adventure": true,
@@ -13,9 +15,10 @@
     "payWhatYouWant": false,
     "price": null,
     "product_id": "353286",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "In Too Deep",
     "tiers": 1,
     "title": "Dug Too Deep?",
-    "url": "https://www.dmsguild.com/product/353286?affiliate_id=171040"
+    "url": "https://www.dmsguild.com/en/product/383193?affiliate_id=171040"
 }

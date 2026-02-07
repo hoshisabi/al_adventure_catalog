@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-NAS-01",
+    "community_content": true,
     "date_created": "20260123",
+    "dungeoncraft": true,
     "full_title": "FR-DC-NAS-01: The Nascant Initiative",
     "hours": null,
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": true,
     "price": 0.5,
     "product_id": "554203",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 0.5,
     "tiers": null,
-    "title": "The Nascant Initiative",
+    "title": ": The Nascant Initiative",
     "url": "https://www.dmsguild.com/product/554203/?affiliate_id=171040"
 }

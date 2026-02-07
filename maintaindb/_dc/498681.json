@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-NUKE-03",
+    "community_content": true,
     "date_created": "20241012",
+    "dungeoncraft": true,
     "full_title": "FR-DC-NUKE-03 The Sapphire Hoard",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "498681",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Sapphire Hoard",

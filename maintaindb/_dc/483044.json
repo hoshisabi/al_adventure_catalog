@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-AUG-02",
+    "community_content": true,
     "date_created": "20240531",
+    "dungeoncraft": true,
     "full_title": "PS-DC-AUG-02 The Dark Sun",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "483044",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
     "title": "The Dark Sun",
     "url": "https://www.dmsguild.com/product/483044/?affiliate_id=171040"

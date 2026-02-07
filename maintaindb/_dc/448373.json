@@ -4,14 +4,18 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "SJ-DC-PHP-FLN01-02[ROLL20]",
+    "code": "SJ-DC-PHP-FLN01-02",
+    "community_content": true,
     "date_created": "20230805",
+    "dungeoncraft": true,
     "full_title": "Kaleidoscope Vault (SJ-DC-PHP-FLN01-02)[Roll20]",
     "hours": "2",
     "is_adventure": false,
     "level_range": "1-4",
     "product_id": "448373",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "tiers": 1,
-    "title": "Kaleidoscope Vault",
+    "title": "Kaleidoscope Vault (SJ-DC-PHP-FLN01-02)[Roll20]",
     "url": "https://www.dmsguild.com/product/448373/Kaleidoscope-Vault-SJDCPHPFLN0102Roll20?affiliate_id=171040&filters=1000042_0_100057_45747_45356_0_0_0"
 }

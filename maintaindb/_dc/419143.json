@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-ANGKA-03",
+    "community_content": true,
     "date_created": "20221206",
+    "dungeoncraft": true,
     "full_title": "Shipwrecked in the Sea of Madness (SJ-DC-ANGKA-03)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "419143",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Shipwrecked in the Sea of Madness",
-    "url": "https://www.dmsguild.com/product/419143/Shipwrecked-in-the-Sea-of-Madness-SJDCANGKA03?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Shipwrecked in the Sea of Madness (SJ-DC-ANGKA-03)",
+    "url": "https://www.dmsguild.com/product/419143/Shipwrecked-in-the-Sea-of-Madness-SJDCANGKA03?filters=0_0_100057_0_0_0_0_0"
 }

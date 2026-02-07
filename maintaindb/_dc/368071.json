@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON13-3",
+    "community_content": true,
     "date_created": "20210818",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON13-3 Wolves of the Sea",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "368071",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Wolves of the Sea",

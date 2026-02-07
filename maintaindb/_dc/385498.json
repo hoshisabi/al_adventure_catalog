@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-LSN-01",
+    "community_content": true,
     "date_created": "20220202",
+    "dungeoncraft": true,
     "full_title": "The Hat That Spat Rats (WBW-DC-LSN-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.98,
     "product_id": "385498",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Hat That Spat Rats",
+    "title": "The Hat That Spat Rats (WBW-DC-LSN-01)",
     "url": "https://www.dmsguild.com/product/385498/?affiliate_id=171040"
 }

@@ -7,17 +7,20 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-VAN-MT-01",
+    "community_content": true,
     "date_created": "20210629",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "3",
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "362519",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "The Thief's Gambit",
+    "title": "DC-PoA-VAN-MT-01 The Thief's Gambit",
     "url": "https://www.dmsguild.com/product/362519/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ROZK01-03",
+    "community_content": true,
     "date_created": "20170918",
+    "dungeoncraft": false,
     "full_title": "CCCROZK01-03 Necromancer's Ascent",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "221934",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Necromancer's Ascent",
+    "title": "CCCROZK01-03 Necromancer's Ascent",
     "url": "https://www.dmsguild.com/product/221934/?affiliate_id=171040"
 }

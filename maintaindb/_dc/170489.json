@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-14",
+    "code": "DDEX02-14",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-14 The Sword of Selfaril",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "170489",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 2,
-    "title": "The Sword of Selfaril",
+    "title": "DDEX2-14 The Sword of Selfaril",
     "url": "https://www.dmsguild.com/product/170489/?affiliate_id=171040"
 }

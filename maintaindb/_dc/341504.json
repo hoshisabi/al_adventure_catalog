@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-UCON03",
+    "community_content": true,
     "date_created": "20201230",
+    "dungeoncraft": false,
     "full_title": "CCC-UCON03 The Straw Bears",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "341504",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "The Straw Bears",

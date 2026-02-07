@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-AEG-10",
+    "community_content": true,
     "date_created": "20240216",
+    "dungeoncraft": true,
     "full_title": "FR-DC-AEG-10 The Ritual",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "471198",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Ritual",

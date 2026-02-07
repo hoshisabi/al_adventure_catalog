@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-HH-01",
+    "community_content": true,
     "date_created": "20211231",
+    "dungeoncraft": true,
     "full_title": "What is Heroism (WBW-DC-HH-01)",
     "hours": "5",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "382223",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "What is Heroism",
+    "title": "What is Heroism (WBW-DC-HH-01)",
     "url": "https://www.dmsguild.com/product/382223/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-THAY-01",
+    "community_content": true,
     "date_created": "20250302",
+    "dungeoncraft": true,
     "full_title": "Crazy Lich Thayans (FR-DC-THAY-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "514097",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Crazy Lich Thayans",
+    "title": "Crazy Lich Thayans (FR-DC-THAY-01)",
     "url": "https://www.dmsguild.com/product/514097/?affiliate_id=171040"
 }

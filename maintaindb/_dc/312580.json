@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-VOTE-01-01",
+    "community_content": true,
     "date_created": "20200508",
+    "dungeoncraft": false,
     "full_title": "CCC-VOTE-01-01 A Small Trifle",
     "hours": "4-6",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "312580",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "A Small Trifle",

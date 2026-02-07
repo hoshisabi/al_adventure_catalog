@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-MELB-01-01",
+    "community_content": true,
     "date_created": "20240611",
+    "dungeoncraft": true,
     "full_title": "Mistbourne: The Musical (FR-DC-MELB-01-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "484234",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Mistbourne The Musical",
+    "title": "Mistbourne: The Musical (FR-DC-MELB-01-01)",
     "url": "https://www.dmsguild.com/product/484234/?affiliate_id=171040"
 }

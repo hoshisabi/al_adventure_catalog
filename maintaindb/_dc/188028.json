@@ -3,20 +3,21 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20160713",
+    "dungeoncraft": false,
     "full_title": "Descent to Ascension: A 20th-Level Adventure",
     "hours": null,
     "is_adventure": false,
-    "level_range": "20",
+    "level_range": null,
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "188028",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Descent to Ascension A 20th-Level Adventure",
+    "title": "Descent to Ascension: A 20th-Level Adventure",
     "url": "https://www.dmsguild.com/product/188028/?affiliate_id=171040"
 }

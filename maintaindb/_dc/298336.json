@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MWGF-01",
+    "community_content": true,
     "date_created": "20191220",
+    "dungeoncraft": false,
     "full_title": "CCC-MWGF-01 The Constellation (Part Four of the Dead Men Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "298336",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Constellation (Part Four of the Dead Men Series)",

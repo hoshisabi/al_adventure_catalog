@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-PND-2",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "What Skitters Beneath? (DC-POA-PND-2)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "369329",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Burrowing Borrowers",
     "tiers": 1,
-    "title": "What Skitters Beneath?",
+    "title": "What Skitters Beneath? (DC-POA-PND-2)",
     "url": "https://www.dmsguild.com/product/369329/?affiliate_id=171040"
 }

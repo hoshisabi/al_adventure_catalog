@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-MECH-01",
+    "community_content": true,
     "date_created": "20250303",
+    "dungeoncraft": true,
     "full_title": "Melting Mechanus (PS-DC-MECH-01)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "514256",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 4,
-    "title": "Melting Mechanus",
+    "title": "Melting Mechanus (PS-DC-MECH-01)",
     "url": "https://www.dmsguild.com/product/514256/?affiliate_id=171040"
 }

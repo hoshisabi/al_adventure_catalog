@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-LIGA-03",
+    "community_content": true,
     "date_created": "20240412",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LIGA-03 Doom Reborn",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "477366",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Doom Reborn",

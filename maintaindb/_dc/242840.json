@@ -3,11 +3,11 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDHC-MORD-03",
+    "community_content": false,
     "date_created": "20180524",
+    "dungeoncraft": false,
     "full_title": "DDHC-MORD-03 To Wake The Leviathan",
     "hours": "4-6",
     "is_adventure": true,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "242840",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "To Wake The Leviathan",

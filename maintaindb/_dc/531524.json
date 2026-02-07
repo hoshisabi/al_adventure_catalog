@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-PNKE-01",
+    "community_content": true,
     "date_created": "20250801",
+    "dungeoncraft": true,
     "full_title": "FR-DC-PNKE-01 Vie for the Eye",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "531524",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Vie for the Eye",

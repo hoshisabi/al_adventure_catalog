@@ -7,7 +7,9 @@
         "Ravenloft"
     ],
     "code": "RV-DC-HBI-003",
+    "community_content": true,
     "date_created": "20230912",
+    "dungeoncraft": true,
     "full_title": "Domains of Dread: Terror in Tombstone (RV-DC-HBI-003)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.75,
     "product_id": "451012",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Ravenloft Dungeoncraft",
     "tiers": 2,
-    "title": "Domains of Dread Terror in Tombstone",
+    "title": "Domains of Dread: Terror in Tombstone (RV-DC-HBI-003)",
     "url": "https://www.dmsguild.com/product/451012/?affiliate_id=171040"
 }

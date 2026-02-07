@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-28",
+    "community_content": true,
     "date_created": "20200323",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-28 Siege of the Yellow Rose (Part Three of the Siege of the Yellow Rose Series)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "305273",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Siege of the Yellow Rose Part Three of the Siege of the Yellow Rose Series",
+    "title": "Siege of the Yellow Rose (Part Three of the Siege of the Yellow Rose Series)",
     "url": "https://www.dmsguild.com/product/305273/?affiliate_id=171040"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-TALES-02",
+    "community_content": true,
     "date_created": "20250618",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-TALES-02 On Fey Tides",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 5.99,
     "product_id": "526741",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "On Fey Tides",

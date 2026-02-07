@@ -11,12 +11,19 @@ let filters = {
     season: '',
     tier: '',
     hours: '',
-    dcOnly: false,
+    ccOnly: false,
     search: ''
 };
 
 let sortBy = 'date-desc';
 let viewMode = 'grid';
+
+const CAMPAIGN_MAP = {
+    1: 'Forgotten Realms',
+    2: 'Eberron',
+    4: 'Ravenloft',
+    8: 'Dragonlance'
+};
 
 // Config
 let baseURL = '';
@@ -84,11 +91,15 @@ function updateItemsPerPage() {
 }
 
 function populateFilterUI() {
-    // 1. Campaigns (ca)
-    // flatten all campaigns
+    // 1. Campaigns (p)
+    // p is now a bitmask (integer)
     const allCampaigns = new Set();
     catalog.forEach(adv => {
-        if (Array.isArray(adv.p)) {
+        if (typeof adv.p === 'number') {
+            for (const [bit, name] of Object.entries(CAMPAIGN_MAP)) {
+                if (adv.p & parseInt(bit)) allCampaigns.add(name);
+            }
+        } else if (Array.isArray(adv.p)) {
             adv.p.forEach(c => allCampaigns.add(c));
         } else if (adv.p) {
             allCampaigns.add(adv.p);
@@ -148,6 +159,7 @@ function applyFiltersFromURL() {
     if (params.has('tier')) filters.tier = params.get('tier');
     if (params.has('hours')) filters.hours = params.get('hours');
     if (params.has('search')) filters.search = params.get('search');
+    if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
     if (params.has('sort')) sortBy = params.get('sort');
 
     // Sync to DOM so dropdowns and search input show the URL state
@@ -163,6 +175,8 @@ function applyFiltersFromURL() {
     if (sortEl) sortEl.value = sortBy || 'date-desc';
     const searchEl = document.getElementById('search');
     if (searchEl) searchEl.value = filters.search || '';
+    const ccOnlyEl = document.getElementById('cc-only');
+    if (ccOnlyEl) ccOnlyEl.checked = filters.ccOnly || false;
 
     applyFilters();
 }
@@ -174,6 +188,7 @@ function updateURLFromFilters() {
     if (filters.tier) params.set('tier', filters.tier);
     if (filters.hours) params.set('hours', filters.hours);
     if (filters.search) params.set('search', filters.search);
+    if (filters.ccOnly) params.set('ccOnly', 'true');
     if (sortBy && sortBy !== 'date-desc') params.set('sort', sortBy);
 
     const query = params.toString();
@@ -208,6 +223,10 @@ function applyFilters() {
     // ... filters ...
     if (filters.campaign) {
         results = results.filter(adv => {
+            if (typeof adv.p === 'number') {
+                const bit = Object.keys(CAMPAIGN_MAP).find(k => CAMPAIGN_MAP[k] === filters.campaign);
+                return bit && (adv.p & parseInt(bit));
+            }
             const c = adv.p;
             return (Array.isArray(c) && c.includes(filters.campaign)) || c === filters.campaign;
         });
@@ -242,8 +261,8 @@ function applyFilters() {
         results = results.filter(adv => adv.s && String(adv.s) === filters.season);
     }
 
-    if (filters.dcOnly) {
-        // Logic for 'DC Only'. 
+    if (filters.ccOnly) {
+        results = results.filter(adv => adv.f && (adv.f & 1));
     }
 
     if (filters.search) {
@@ -336,14 +355,17 @@ function createCard(adventure) {
     const card = document.createElement('div');
     card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow bg-white';
 
-    const campaign = formatList(adventure.p) || 'Unspecified';
+    const campaign = formatCampaigns(adventure.p) || 'Unspecified';
     const hours = formatHours(adventure.h);
     const season = formatSeason(adventure.s, adventure.c);
     const authors = formatList(adventure.a) || 'N/A';
     const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
 
+    const productId = String(adventure.i).replace(/-\d+$/, '');
+    const url = adventure.u || `https://www.dmsguild.com/product/${productId}/?affiliate_id=171040`;
+
     card.innerHTML = `
-        <a href="${adventure.u || '#'}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800 block">
+        <a href="${url}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800 block">
             ${adventure.n || 'Untitled'}
         </a>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${adventure.c || 'N/A'}</p>
@@ -382,12 +404,14 @@ function renderGridView(adventures, container) {
         const row = document.createElement('tr');
         row.className = 'hover:bg-gray-50';
         const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
+        const productId = String(adv.i).replace(/-\d+$/, '');
+        const url = adv.u || `https://www.dmsguild.com/product/${productId}/?affiliate_id=171040`;
         row.innerHTML = `
              <td class="px-4 py-2 border">${adv.c || ''}</td>
-             <td class="px-4 py-2 border"><a href="${adv.u}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
+             <td class="px-4 py-2 border"><a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
              <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
              <td class="px-4 py-2 border">${formatHours(adv.h)}</td>
-             <td class="px-4 py-2 border">${formatList(adv.p)}</td>
+             <td class="px-4 py-2 border">${formatCampaigns(adv.p)}</td>
              <td class="px-4 py-2 border text-sm text-gray-500 italic">${dateAdded}</td>
         `;
         tbody.appendChild(row);
@@ -399,6 +423,17 @@ function renderGridView(adventures, container) {
 function formatList(val) {
     if (Array.isArray(val)) return val.filter(x => x).join(', ');
     return val;
+}
+
+function formatCampaigns(p) {
+    if (typeof p === 'number') {
+        const names = [];
+        for (const [bit, name] of Object.entries(CAMPAIGN_MAP)) {
+            if (p & parseInt(bit)) names.push(name);
+        }
+        return names.join(', ');
+    }
+    return formatList(p);
 }
 
 function formatHours(val) {
@@ -436,6 +471,13 @@ function setupEventListeners() {
     document.getElementById('prev-page')?.addEventListener('click', () => {
         if (currentPage > 1) { currentPage--; displayResults(); }
     });
+
+    document.getElementById('cc-only')?.addEventListener('change', e => {
+        filters.ccOnly = e.target.checked;
+        applyFilters();
+        updateURLFromFilters();
+    });
+
     document.getElementById('next-page')?.addEventListener('click', () => {
         const max = Math.ceil(filteredItems.length / itemsPerPage);
         if (currentPage < max) { currentPage++; displayResults(); }

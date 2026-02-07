@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-MELB-00-03",
+    "community_content": true,
     "date_created": "20250114",
+    "dungeoncraft": true,
     "full_title": "The Freezing of Starflow Fall (FR-DC-MELB-00-03)",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "508671",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Freezing of Starflow Fall",
+    "title": "The Freezing of Starflow Fall (FR-DC-MELB-00-03)",
     "url": "https://www.dmsguild.com/product/508671/?affiliate_id=171040"
 }

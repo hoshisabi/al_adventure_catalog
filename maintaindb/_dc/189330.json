@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-08",
+    "community_content": true,
     "date_created": "20160727",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-08 HULB 1-2 Hulburg Burning",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "189330",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Hulburg Burning (HULB 1-2)",
+    "title": "HULB 1-2 Hulburg Burning",
     "url": "https://www.dmsguild.com/product/189330/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-LLL-01",
+    "community_content": true,
     "date_created": "20231218",
+    "dungeoncraft": true,
     "full_title": "Library Lies & Lift Off! - SJ-DC-LLL-01",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "464271",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Library Lies & Lift Off!",
+    "title": "Library Lies & Lift Off! - SJ-DC-LLL-01",
     "url": "https://www.dmsguild.com/product/464271/?affiliate_id=171040"
 }

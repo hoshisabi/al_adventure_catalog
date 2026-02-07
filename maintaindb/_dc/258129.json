@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-25",
+    "community_content": true,
     "date_created": "20181107",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-25 Dead Men's Treasure (Part Two of the Dead Men Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "258129",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Dead Men's Treasure Part Two of the Dead Men Series",
+    "title": "Dead Men's Treasure (Part Two of the Dead Men Series)",
     "url": "https://www.dmsguild.com/product/258129/?affiliate_id=171040"
 }

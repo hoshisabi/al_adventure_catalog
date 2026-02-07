@@ -7,8 +7,10 @@
         "Forgotten Realms",
         "Ravenloft"
     ],
-    "code": "DDAL4-01",
+    "code": "DDAL04-01",
+    "community_content": false,
     "date_created": "20160315",
+    "dungeoncraft": false,
     "full_title": "DDAL4-01 Suits of the Mists",
     "hours": "1",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "177576",
-    "season": "Curse of Strahd",
+    "salvage_mission": false,
+    "season": "4 - Curse of Strahd",
     "tiers": 1,
-    "title": "Suits of the Mists",
+    "title": "DDAL4-01 Suits of the Mists",
     "url": "https://www.dmsguild.com/product/177576/?affiliate_id=171040"
 }

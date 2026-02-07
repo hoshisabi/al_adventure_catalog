@@ -9,7 +9,9 @@
         "Eberron"
     ],
     "code": "EB-EP-03",
+    "community_content": false,
     "date_created": "20210621",
+    "dungeoncraft": false,
     "full_title": "EB-EP-03 The Rising City",
     "hours": "4",
     "is_adventure": true,
@@ -17,7 +19,8 @@
     "payWhatYouWant": false,
     "price": 8.95,
     "product_id": "361712",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Oracle of War",
     "tiers": 3,
     "title": "The Rising City",
     "url": "https://www.dmsguild.com/product/361712/?affiliate_id=171040"

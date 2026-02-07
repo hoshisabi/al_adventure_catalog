@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ROOK-1-2",
+    "community_content": true,
     "date_created": "20220406",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-Rook-1-2 The Rookery: Rise of the Everplume",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "392772",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Rookery Rise of the Everplume",
+    "title": "WBW-DC-Rook-1-2 The Rookery: Rise of the Everplume",
     "url": "https://www.dmsguild.com/product/392772/?affiliate_id=171040"
 }

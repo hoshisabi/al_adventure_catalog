@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DC-PoA-DES-05A",
+    "code": "DC-POA-DES-05",
+    "community_content": true,
     "date_created": "20211007",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-DES-05A Land of Ice and Snow",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "373407",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Breaking Ice-olation",
     "tiers": 1,
-    "title": "Land of Ice and Snow",
+    "title": "DC-PoA-DES-05A Land of Ice and Snow",
     "url": "https://www.dmsguild.com/product/373407/?affiliate_id=171040"
 }

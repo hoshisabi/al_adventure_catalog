@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "FR-DC-MCG-CH3",
+    "code": "FR-DC-MCG-CH",
+    "community_content": true,
     "date_created": "20251230",
+    "dungeoncraft": true,
     "full_title": "FR-DC-MCG-CH3 The Final Touch",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.5,
     "product_id": "551172",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Final Touch",
+    "title": "3 The Final Touch",
     "url": "https://www.dmsguild.com/product/551172/?affiliate_id=171040"
 }

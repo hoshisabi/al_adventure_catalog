@@ -3,11 +3,11 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDHC-TOA-15",
+    "community_content": false,
     "date_created": "20180829",
+    "dungeoncraft": false,
     "full_title": "DDHC-TOA-15 Maze of Shadows",
     "hours": "8-10",
     "is_adventure": true,
@@ -16,6 +16,7 @@
     "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "251151",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Maze of Shadows",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-PHP-INFRN01-01",
+    "community_content": true,
     "date_created": "20240807",
+    "dungeoncraft": true,
     "full_title": "FR-DC-PHP-INFRN01-01: The Hidden Sanctum",
     "hours": "4-6",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.44,
     "product_id": "490910",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Hidden Sanctum",
+    "title": ": The Hidden Sanctum",
     "url": "https://www.dmsguild.com/product/490910/?affiliate_id=171040"
 }

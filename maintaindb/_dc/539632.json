@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-WYRM-03",
+    "community_content": true,
     "date_created": "20251006",
+    "dungeoncraft": true,
     "full_title": "FR-DC-STRAT-WYRM-03 The Wayward Wyrmling",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "539632",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Wayward Wyrmling",

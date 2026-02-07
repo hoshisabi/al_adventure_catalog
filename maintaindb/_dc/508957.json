@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-MOON-MD-12",
+    "community_content": false,
     "date_created": "20250116",
+    "dungeoncraft": false,
     "full_title": "BMG-MOON-MD-12 Malevolent Reign",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 8.99,
     "product_id": "508957",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Malevolent Reign",

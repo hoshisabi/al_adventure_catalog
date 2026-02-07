@@ -3,11 +3,11 @@
     "authors": [
         "Craig Smith"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20200511",
+    "dungeoncraft": false,
     "full_title": "D&D 5E Eberron Base Log (editable/fillable PDF, printer friendly)",
     "hours": null,
     "is_adventure": false,
@@ -15,8 +15,9 @@
     "payWhatYouWant": false,
     "price": 0.5,
     "product_id": "313291",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "D&D 5E Eberron Base Log editable/fillable PDF, printer friendly",
+    "title": "D&D 5E Eberron Base Log (editable/fillable PDF, printer friendly)",
     "url": "https://www.dmsguild.com/product/313291/?affiliate_id=171040"
 }

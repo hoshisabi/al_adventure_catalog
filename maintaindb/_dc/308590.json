@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TAROT-02-08",
+    "community_content": true,
     "date_created": "20200420",
+    "dungeoncraft": false,
     "full_title": "CCC-TAROT-02-08 Winding Road to Freedom",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "308590",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Winding Road to Freedom",

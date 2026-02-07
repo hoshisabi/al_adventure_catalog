@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TCW-ACW-2",
+    "community_content": true,
     "date_created": "20210602",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TCW-ACW-2 A CRY FOR HELP",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "359586",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "X Marks the Spot",
     "tiers": 2,
-    "title": "A Cry for Help",
+    "title": "DC-PoA-TCW-ACW-2 A CRY FOR HELP",
     "url": "https://www.dmsguild.com/product/359586/?affiliate_id=171040"
 }

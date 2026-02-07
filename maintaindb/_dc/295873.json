@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-QUAKE-01",
+    "community_content": true,
     "date_created": "20191212",
+    "dungeoncraft": false,
     "full_title": "CCC-QUAKE-01: Red War: Thayan Peace Keeper",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "295873",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Red War: Thayan Peace Keeper",
+    "title": ": Red War: Thayan Peace Keeper",
     "url": "https://www.dmsguild.com/product/295873/?affiliate_id=171040"
 }

@@ -7,17 +7,20 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-SFG01",
+    "community_content": true,
     "date_created": "20210101",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-SFG01 Tomb of the Banished Thane",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "341937",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Breaking Ice-olation",
     "tiers": 1,
-    "title": "Tomb of the Banished Thane",
+    "title": "DC-PoA-SFG01 Tomb of the Banished Thane",
     "url": "https://www.dmsguild.com/product/341937/?affiliate_id=171040"
 }

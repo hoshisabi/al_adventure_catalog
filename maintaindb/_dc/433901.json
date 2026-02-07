@@ -1,20 +1,23 @@
 {
     "apl": 8,
     "authors": [
-        "Lu\u00eds Ricardo",
+        "Luís Ricardo",
         "Gamehole Con"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "PO-BK-02-04",
+    "community_content": false,
     "date_created": "20230414",
+    "dungeoncraft": false,
     "full_title": "PO-BK-02-04 Out of the Shaar",
     "hours": "2-4",
     "is_adventure": true,
     "level_range": "5-10",
     "price": 4.99,
     "product_id": "433901",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Out of the Shaar",

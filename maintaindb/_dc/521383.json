@@ -3,11 +3,11 @@
     "authors": [
         "Baldman Games"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20250506",
+    "dungeoncraft": false,
     "full_title": "Rising Shadows Introduction [BUNDLE]",
     "hours": "2",
     "is_adventure": false,
@@ -15,6 +15,7 @@
     "payWhatYouWant": false,
     "price": 19.99,
     "product_id": "521383",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Rising Shadows Introduction [BUNDLE]",

@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-PHP-ORNG-01",
+    "community_content": true,
     "date_created": "20220818",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-PHP-ORNG-01 What is Real?",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "product_id": "406954",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "What is Real?",
-    "url": "https://www.dmsguild.com/product/406954/WBWDCPHPORNG01-What-is-real?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/406954/WBWDCPHPORNG01-What-is-real?filters=0_0_100057_0_0_0_0_0"
 }

@@ -2,14 +2,16 @@
     "apl": 8,
     "authors": [
         "Ethan Stanhope",
-        "Te\u00e4n Stanhope",
+        "Teän Stanhope",
         "James Twigg"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "SJ-DC-BBB-01",
+    "community_content": true,
     "date_created": "20221205",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-BBB-01 Mutiny: The Ballad of Blunderbuss Bill",
     "hours": "20-4",
     "is_adventure": true,
@@ -17,9 +19,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "418922",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Mutiny The Ballad of Blunderbuss Bill",
+    "title": "Mutiny: The Ballad of Blunderbuss Bill",
     "url": "https://www.dmsguild.com/product/418922/?affiliate_id=171040"
 }

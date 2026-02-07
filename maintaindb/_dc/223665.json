@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-THENT01-02",
+    "community_content": true,
     "date_created": "20171010",
+    "dungeoncraft": false,
     "full_title": "CCCTHENT01-02 Those That Dwell Beneath",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "223665",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Those That Dwell Beneath",
+    "title": "CCCTHENT01-02 Those That Dwell Beneath",
     "url": "https://www.dmsguild.com/product/223665/?affiliate_id=171040"
 }

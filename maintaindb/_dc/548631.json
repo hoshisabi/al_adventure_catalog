@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-LOOSE-02",
+    "community_content": true,
     "date_created": "20251207",
+    "dungeoncraft": true,
     "full_title": "FR-DC-LOOSE-02 Spells Gone Wild",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": true,
     "price": 0.99,
     "product_id": "548631",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 0.99,
     "tiers": 1,

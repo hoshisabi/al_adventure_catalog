@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-NUKE-02-01",
+    "community_content": true,
     "date_created": "20201104",
+    "dungeoncraft": false,
     "full_title": "CCC-NUKE-02-01 One Fowl Soup",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "334537",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "One Fowl Soup",

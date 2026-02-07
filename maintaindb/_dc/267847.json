@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-COTN-01-01",
+    "community_content": true,
     "date_created": "20190228",
+    "dungeoncraft": false,
     "full_title": "CCC-COTN-01-01-By The Seashore: A Red War Tale",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "267847",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "By The Seashore: A Red War Tale",

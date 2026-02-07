@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-SAC-07",
+    "community_content": true,
     "date_created": "20240902",
+    "dungeoncraft": true,
     "full_title": "FR-DC-SAC-07 Haunting in Gloomwood Cemetery",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "493743",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Haunting in Gloomwood Cemetery",

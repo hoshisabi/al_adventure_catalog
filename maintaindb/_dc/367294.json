@@ -2,22 +2,25 @@
     "apl": 1,
     "authors": [
         "Amy Lynn Dzura",
-        "Ma\u2019at Crook"
+        "Ma’at Crook"
     ],
     "campaigns": [
         "Ravenloft"
     ],
     "code": "RMH-EP-01",
+    "community_content": false,
     "date_created": "20210810",
+    "dungeoncraft": false,
     "full_title": "RMH-EP-01 The Grand Masquerade",
     "hours": "4",
     "is_adventure": true,
-    "level_range": "1",
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 14.99,
     "product_id": "367294",
+    "salvage_mission": false,
     "season": "Ravenloft Mist Hunters",
     "tiers": 1,
-    "title": "RMH-EP-01 The Grand Masquerade",
+    "title": "The Grand Masquerade",
     "url": "https://www.dmsguild.com/product/367294/?affiliate_id=171040"
 }

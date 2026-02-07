@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-DINO",
+    "community_content": true,
     "date_created": "20200827",
+    "dungeoncraft": false,
     "full_title": "Dino World",
     "hours": "3-4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "326052",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 2,
     "title": "Dino World",
     "url": "https://www.dmsguild.com/product/326052/?affiliate_id=171040"

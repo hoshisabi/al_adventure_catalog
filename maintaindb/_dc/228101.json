@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-04",
+    "community_content": true,
     "date_created": "20171204",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-04 - Shade Of The Dark",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "228101",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Shade Of The Dark",
+    "title": "- Shade Of The Dark",
     "url": "https://www.dmsguild.com/product/228101/?affiliate_id=171040"
 }

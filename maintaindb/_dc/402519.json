@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-19",
+    "community_content": false,
     "date_created": "20220710",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-19 Fall the Cold Night",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 7.99,
     "product_id": "402519",
+    "salvage_mission": false,
     "season": null,
     "tiers": 4,
     "title": "Fall the Cold Night",

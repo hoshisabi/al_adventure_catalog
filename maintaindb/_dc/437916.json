@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-ANGKA-05",
+    "community_content": true,
     "date_created": "20230516",
+    "dungeoncraft": true,
     "full_title": "Never Let Me Go (SJ-DC-ANGKA-05)",
     "hours": "2",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "11-16",
     "product_id": "437916",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Never Let Me Go",
-    "url": "https://www.dmsguild.com/product/437916/Never-Let-Me-Go-SJDCANGKA05?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "title": "Never Let Me Go (SJ-DC-ANGKA-05)",
+    "url": "https://www.dmsguild.com/product/437916/Never-Let-Me-Go-SJDCANGKA05?filters=0_0_100057_0_0_0_0_0"
 }

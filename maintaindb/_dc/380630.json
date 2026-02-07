@@ -7,16 +7,19 @@
         "Ravenloft"
     ],
     "code": "RMH-06",
+    "community_content": false,
     "date_created": "20211214",
+    "dungeoncraft": false,
     "full_title": "RMH-06 Amber Reclamation",
     "hours": "3",
     "is_adventure": true,
-    "level_range": "5",
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "380630",
+    "salvage_mission": false,
     "season": "Ravenloft Mist Hunters",
     "tiers": 2,
-    "title": "RMH-06 Amber Reclamation",
+    "title": "Amber Reclamation",
     "url": "https://www.dmsguild.com/product/380630/?affiliate_id=171040"
 }

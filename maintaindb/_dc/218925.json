@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-LINKS-02",
+    "community_content": true,
     "date_created": "20170813",
+    "dungeoncraft": false,
     "full_title": "CCC-LINKS-02 The Secrets We Keep",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "218925",
-    "season": "Rage of Demons",
+    "salvage_mission": false,
+    "season": null,
     "tiers": 2,
     "title": "The Secrets We Keep",
     "url": "https://www.dmsguild.com/product/218925/?affiliate_id=171040"

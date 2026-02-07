@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-KCB-01",
+    "community_content": true,
     "date_created": "20210128",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-KCB-01 The Lady of the Maer",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "344979",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Breaking Ice-olation",
     "tiers": 1,
-    "title": "The Lady of the Maer",
+    "title": "DC-PoA-KCB-01 The Lady of the Maer",
     "url": "https://www.dmsguild.com/product/344979/?affiliate_id=171040"
 }

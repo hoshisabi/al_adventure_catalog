@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-FDC-04",
+    "community_content": true,
     "date_created": "20210921",
+    "dungeoncraft": true,
     "full_title": "The Monster of Wonderia (WBW-DC-FDC-04)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "371476",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Monster of Wonderia",
+    "title": "The Monster of Wonderia (WBW-DC-FDC-04)",
     "url": "https://www.dmsguild.com/product/371476/?affiliate_id=171040"
 }

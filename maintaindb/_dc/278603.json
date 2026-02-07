@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BWM-06",
+    "community_content": true,
     "date_created": "20190610",
+    "dungeoncraft": false,
     "full_title": "CCC-BWM-06 Introduction to Adventuring",
     "hours": "1",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "278603",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Introduction to Adventuring",

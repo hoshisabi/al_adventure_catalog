@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-SNIPE-01",
+    "community_content": true,
     "date_created": "20210830",
+    "dungeoncraft": true,
     "full_title": "DC-POA-SNIPE-01: The Ski Chalet of Artor Morlin",
     "hours": "2",
     "is_adventure": true,
@@ -15,10 +17,11 @@
     "payWhatYouWant": true,
     "price": 2.0,
     "product_id": "369342",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
+    "seed": "Snipe Hunt",
     "suggestedPrice": 2.0,
     "tiers": 1,
-    "title": "The Ski Chalet of Artor Morlin",
-    "url": "https://www.dmsguild.com/product/369342/?affiliate_id=171040",
-    "seed": "Snipe Hunt"
+    "title": ": The Ski Chalet of Artor Morlin",
+    "url": "https://www.dmsguild.com/product/369342/?affiliate_id=171040"
 }

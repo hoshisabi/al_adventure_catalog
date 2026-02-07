@@ -11,8 +11,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDAL00-02d",
+    "code": "DDAL00-02",
+    "community_content": false,
     "date_created": "20180713",
+    "dungeoncraft": false,
     "full_title": "DDAL00-02d Echos of the Weeping War (Lost Tales of Myth Drannor)",
     "hours": "2",
     "is_adventure": true,
@@ -20,8 +22,9 @@
     "payWhatYouWant": false,
     "price": 14.99,
     "product_id": "247140-4",
+    "salvage_mission": false,
     "season": 0,
-    "tiers": "2",
-    "title": "Echos of the Weeping War (Lost Tales of Myth Drannor)",
+    "tiers": 2,
+    "title": "d Echos of the Weeping War (Lost Tales of Myth Drannor)",
     "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
 }

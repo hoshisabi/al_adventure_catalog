@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX1-14",
+    "code": "DDEX01-14",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX1-14 Escape from Phlan",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "170474",
-    "season": "Tyranny of Dragons",
+    "salvage_mission": false,
+    "season": "1 - Tyranny of Dragons",
     "tiers": 2,
-    "title": "Escape from Phlan",
+    "title": "DDEX1-14 Escape from Phlan",
     "url": "https://www.dmsguild.com/product/170474/?affiliate_id=171040"
 }

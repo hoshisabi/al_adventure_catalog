@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WATERDEEP-CDZ",
+    "community_content": true,
     "date_created": "20240930",
+    "dungeoncraft": true,
     "full_title": "Sweet Dreams are Made of Candies (FR-DC-WATERDEEP-CDZ)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.5,
     "product_id": "497184",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Sweet Dreams are Made of Candies",
+    "title": "Sweet Dreams are Made of Candies (FR-DC-WATERDEEP-CDZ)",
     "url": "https://www.dmsguild.com/product/497184/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SAF01-01",
+    "community_content": true,
     "date_created": "20200110",
+    "dungeoncraft": false,
     "full_title": "CCC-SAF01-01 Between Garrock and a Hard Place",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "299621",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Between Garrock and a Hard Place",

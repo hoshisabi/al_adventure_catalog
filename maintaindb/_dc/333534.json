@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON7-1",
+    "community_content": true,
     "date_created": "20201026",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON7-1 The Temple of the Beast",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "333534",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Temple of the Beast",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TDG01-11",
+    "community_content": true,
     "date_created": "20210829",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TDG01-11 DaleVision",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "369178",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Winter Over",
     "tiers": 2,
-    "title": "DaleVision",
+    "title": "DC-PoA-TDG01-11 DaleVision",
     "url": "https://www.dmsguild.com/product/369178/?affiliate_id=171040"
 }

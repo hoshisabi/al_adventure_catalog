@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA",
+    "community_content": true,
     "date_created": "20201222",
+    "dungeoncraft": true,
     "full_title": "DC-PoA \"Coeur de Dragon\"",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.95,
     "product_id": "340884",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Once Bitten, Ice Shy",
     "tiers": 1,
-    "title": "Coeur de Dragon",
+    "title": "DC-PoA \"Coeur de Dragon\"",
     "url": "https://www.dmsguild.com/product/340884/?affiliate_id=171040"
 }

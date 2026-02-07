@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-THAY-05",
+    "community_content": true,
     "date_created": "20250629",
+    "dungeoncraft": true,
     "full_title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "528046",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Four Assassinations & a Funeral",
+    "title": "Four Assassinations & a Funeral (FR-DC-THAY-05)",
     "url": "https://www.dmsguild.com/product/528046/?affiliate_id=171040"
 }

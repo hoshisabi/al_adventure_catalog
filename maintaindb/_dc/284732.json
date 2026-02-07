@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ALMOG-24",
+    "community_content": true,
     "date_created": "20190814",
+    "dungeoncraft": false,
     "full_title": "CCC-ALMOG-24 Beneath Ironfang Keep",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "284732",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Beneath Ironfang Keep",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-17",
+    "community_content": false,
     "date_created": "20220310",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-17 Expedition to the Supreme Forge",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 7.99,
     "product_id": "389768",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Expedition to the Supreme Forge",

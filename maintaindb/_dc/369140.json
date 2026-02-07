@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-TDG01-02",
+    "community_content": true,
     "date_created": "20210829",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-TDG01-02 Blood Hunters",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.19,
     "product_id": "369140",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Burrowing Borrowers",
     "tiers": 1,
-    "title": "Blood Hunters",
+    "title": "DC-PoA-TDG01-02 Blood Hunters",
     "url": "https://www.dmsguild.com/product/369140/?affiliate_id=171040"
 }

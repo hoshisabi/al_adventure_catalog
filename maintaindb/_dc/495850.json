@@ -8,7 +8,9 @@
         "Dragonlance"
     ],
     "code": "DL-DC-LIGA02",
+    "community_content": true,
     "date_created": "20240919",
+    "dungeoncraft": true,
     "full_title": "DL-DC-LIGA02 - Wickedness Over Dargaard",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "495850",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Wickedness Over Dargaard",
+    "title": "- Wickedness Over Dargaard",
     "url": "https://www.dmsguild.com/product/495850/?affiliate_id=171040"
 }

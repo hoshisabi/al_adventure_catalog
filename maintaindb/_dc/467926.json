@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-3-03",
+    "community_content": false,
     "date_created": "20240119",
+    "dungeoncraft": false,
     "full_title": "PO-BK-3-03 Smoke on the Water",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "467926",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Smoke on the Water",

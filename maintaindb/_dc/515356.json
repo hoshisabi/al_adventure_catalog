@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-HNL-03",
+    "community_content": true,
     "date_created": "20250314",
+    "dungeoncraft": true,
     "full_title": "Ardragon of Sigil (PS-DC-HNL-03)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "515356",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 1,
-    "title": "Ardragon of Sigil",
+    "title": "Ardragon of Sigil (PS-DC-HNL-03)",
     "url": "https://www.dmsguild.com/product/515356/?affiliate_id=171040"
 }

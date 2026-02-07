@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-KJ2108",
+    "community_content": true,
     "date_created": "20210803",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-KJ2108 The Needs of the Many",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.39,
     "product_id": "366508",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "The Needs of the Many",
+    "title": "DC-PoA-KJ2108 The Needs of the Many",
     "url": "https://www.dmsguild.com/product/366508/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-PHP-REV-01",
+    "community_content": true,
     "date_created": "20220715",
+    "dungeoncraft": true,
     "full_title": "Lost in Reverie (WBW-DC-PHP-REV-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "403066",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "Lost in Reverie",
+    "title": "Lost in Reverie (WBW-DC-PHP-REV-01)",
     "url": "https://www.dmsguild.com/product/403066/?affiliate_id=171040"
 }

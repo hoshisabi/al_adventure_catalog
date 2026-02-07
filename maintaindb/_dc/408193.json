@@ -7,17 +7,20 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ROG-03",
+    "community_content": true,
     "date_created": "20220829",
-    "full_title": "WBW-DC-ROG-03 Hope In A Medusa\u2019s Eye",
+    "dungeoncraft": true,
+    "full_title": "WBW-DC-ROG-03 Hope In A Medusa’s Eye",
     "hours": "4",
     "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "408193",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Hope In A Medusa's Eye",
+    "title": "Hope In A Medusa’s Eye",
     "url": "https://www.dmsguild.com/product/408193/?affiliate_id=171040"
 }

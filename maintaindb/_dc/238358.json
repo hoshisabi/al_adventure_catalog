@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GARY-07",
+    "community_content": true,
     "date_created": "20180330",
+    "dungeoncraft": false,
     "full_title": "CCC-GARY-07: The Mirror Cities of Gulthias",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "238358",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Mirror Cities of Gulthias",
+    "title": ": The Mirror Cities of Gulthias",
     "url": "https://www.dmsguild.com/product/238358/?affiliate_id=171040"
 }

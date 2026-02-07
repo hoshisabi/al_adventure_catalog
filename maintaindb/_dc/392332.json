@@ -8,14 +8,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-TEN-01",
+    "community_content": true,
     "date_created": "20220401",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-TEN-01 Two to Tengu",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "392332",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "Two to Tengu",
-    "url": "https://www.dmsguild.com/product/392332/WBWDCTEN01-Two-to-Tengu?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/392332/WBWDCTEN01-Two-to-Tengu?filters=0_0_100057_0_0_0_0_0"
 }

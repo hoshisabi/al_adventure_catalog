@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-34",
+    "community_content": true,
     "date_created": "20181003",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-34 ELM 2-1 Tendrils in the Fog",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "254008",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Tendrils in the Fog (ELM 2-1)",
+    "title": "ELM 2-1 Tendrils in the Fog",
     "url": "https://www.dmsguild.com/product/254008/?affiliate_id=171040"
 }

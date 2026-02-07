@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-07",
+    "community_content": true,
     "date_created": "20171204",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-07 - The River Runs Red",
     "hours": "2",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "228106",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "The River Runs Red",
+    "title": "- The River Runs Red",
     "url": "https://www.dmsguild.com/product/228106/?affiliate_id=171040"
 }

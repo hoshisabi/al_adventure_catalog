@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-CRIMSON",
+    "community_content": true,
     "date_created": "20201224",
+    "dungeoncraft": false,
     "full_title": "A Crimson Carol",
     "hours": "3",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "341110",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 3,
     "title": "A Crimson Carol",
     "url": "https://www.dmsguild.com/product/341110/?affiliate_id=171040"

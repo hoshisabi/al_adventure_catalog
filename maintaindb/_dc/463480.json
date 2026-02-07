@@ -7,13 +7,16 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-XMAS-01",
+    "community_content": true,
     "date_created": "20231211",
+    "dungeoncraft": true,
     "full_title": "Silent Night (FR-DC-XMAS-01)",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "463480",
+    "salvage_mission": false,
     "tiers": 1,
-    "title": "Silent Night",
+    "title": "Silent Night (FR-DC-XMAS-01)",
     "url": "https://www.dmsguild.com/product/463480/Silent-Night-FRDCXMAS01-5e?filters=45470_0_0_0_0_0_0_0"
 }

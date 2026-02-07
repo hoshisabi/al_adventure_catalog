@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-GARY-04",
+    "community_content": true,
     "date_created": "20250320",
+    "dungeoncraft": true,
     "full_title": "FR-DC-GARY-04: Frost to Fire",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "515936",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Frost to Fire",
+    "title": ": Frost to Fire",
     "url": "https://www.dmsguild.com/product/515936/?affiliate_id=171040"
 }

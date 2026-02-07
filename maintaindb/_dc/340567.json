@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-UNITE-007",
+    "community_content": true,
     "date_created": "20201221",
+    "dungeoncraft": false,
     "full_title": "CCC-UNITE-007 The Second Exodus of Syln Nahail",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "340567",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Second Exodus of Syln Nahail",

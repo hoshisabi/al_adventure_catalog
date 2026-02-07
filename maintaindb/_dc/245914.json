@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-15",
+    "community_content": true,
     "date_created": "20180629",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-15 The Dark of the Hive (Part Four of the Yulash Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "245914",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Dark of the Hive (Part Four of the Yulash Series)",

@@ -4,11 +4,11 @@
         "Alan Patrick",
         "M.T. Black"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
+    "campaigns": [],
     "code": "DDHC-WDH-03",
+    "community_content": false,
     "date_created": "20180920",
+    "dungeoncraft": false,
     "full_title": "DDHC-WDH-03 Blue Alley",
     "hours": "3-4",
     "is_adventure": true,
@@ -17,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "252855",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Blue Alley",

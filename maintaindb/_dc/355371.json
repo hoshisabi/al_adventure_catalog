@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-WI-DD-02",
+    "community_content": true,
     "date_created": "20210428",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-WI-DD-02: Delving in the Dale",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "355371",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "I'd Like to Make a Return Please",
     "tiers": 1,
-    "title": "Delving in the Dale",
+    "title": "DC-PoA-WI-DD-02: Delving in the Dale",
     "url": "https://www.dmsguild.com/product/355371/?affiliate_id=171040"
 }

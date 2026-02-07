@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-DCAF03",
+    "community_content": true,
     "date_created": "20201127",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-DCAF03 Sputtering Out",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.0,
     "product_id": "337518",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Chwinga-chwinga. CHWINGA!",
     "tiers": 1,
-    "title": "Sputtering Out",
+    "title": "DC-PoA-DCAF03 Sputtering Out",
     "url": "https://www.dmsguild.com/product/337518/?affiliate_id=171040"
 }

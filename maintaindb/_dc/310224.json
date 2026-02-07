@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "EB-SM-HOME",
+    "community_content": true,
     "date_created": "20200416",
+    "dungeoncraft": false,
     "full_title": "Finding a Home",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "310224",
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 1,
     "title": "Finding a Home",
     "url": "https://www.dmsguild.com/product/310224/?affiliate_id=171040"

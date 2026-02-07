@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "PS-DC-SB-BISH01",
+    "code": "PS-DC-SB-BISH",
+    "community_content": true,
     "date_created": "20250505",
+    "dungeoncraft": true,
     "full_title": "PS-DC-SB-BISH01 - The Mill On Turley Hill",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 7.99,
     "product_id": "520780",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 3,
-    "title": "The Mill On Turley Hill",
+    "title": "01 - The Mill On Turley Hill",
     "url": "https://www.dmsguild.com/product/520780/?affiliate_id=171040"
 }

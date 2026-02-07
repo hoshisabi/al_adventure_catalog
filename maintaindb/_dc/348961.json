@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-WC-02",
+    "community_content": true,
     "date_created": "20210303",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-WC-02 Library of Lost Books",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "348961",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "Library of Lost Books",
+    "title": "DC-PoA-WC-02 Library of Lost Books",
     "url": "https://www.dmsguild.com/product/348961/?affiliate_id=171040"
 }

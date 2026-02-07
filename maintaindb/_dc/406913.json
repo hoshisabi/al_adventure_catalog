@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-MPOP-01",
+    "community_content": true,
     "date_created": "20220817",
+    "dungeoncraft": true,
     "full_title": "Out on a Limb (WBW-DC-MPOP-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "406913",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Where are We?",
     "tiers": 1,
-    "title": "Out on a Limb",
+    "title": "Out on a Limb (WBW-DC-MPOP-01)",
     "url": "https://www.dmsguild.com/product/406913/?affiliate_id=171040"
 }

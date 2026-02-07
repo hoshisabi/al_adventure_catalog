@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WCAG03-01",
+    "community_content": true,
     "date_created": "20250401",
+    "dungeoncraft": true,
     "full_title": "FR-DC-WCAG03-01 How to Get Ahead in Chult",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "516917",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "How to Get Ahead in Chult",

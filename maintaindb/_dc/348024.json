@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON9-2",
+    "community_content": true,
     "date_created": "20210223",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON9-2 Dark Moon Marching",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "348024",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Dark Moon Marching",

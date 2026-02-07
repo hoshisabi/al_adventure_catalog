@@ -8,7 +8,9 @@
         "Ravenloft"
     ],
     "code": "DDAL04-04",
+    "community_content": false,
     "date_created": "20160405",
+    "dungeoncraft": false,
     "full_title": "DDAL04-04 The Marionette",
     "hours": "4",
     "is_adventure": true,
@@ -16,7 +18,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "178795",
-    "season": "Curse of Strahd",
+    "salvage_mission": false,
+    "season": "4 - Curse of Strahd",
     "tiers": 1,
     "title": "The Marionette",
     "url": "https://www.dmsguild.com/product/178795/?affiliate_id=171040"

@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-03",
+    "code": "DDEX02-03",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-03 The Drowned Tower",
     "hours": "4",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170477",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 2,
-    "title": "The Drowned Tower",
+    "title": "DDEX2-03 The Drowned Tower",
     "url": "https://www.dmsguild.com/product/170477/?affiliate_id=171040"
 }

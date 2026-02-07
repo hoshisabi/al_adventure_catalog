@@ -10,7 +10,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON20",
+    "community_content": true,
     "date_created": "20230124",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON20 Through the Storm",
     "hours": "4",
     "is_adventure": true,
@@ -18,6 +20,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "423255",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Through the Storm",

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-3-05",
+    "community_content": false,
     "date_created": "20240222",
+    "dungeoncraft": false,
     "full_title": "PO-BK-3-05 Into the Shining Sea",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "471819",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Into the Shining Sea",

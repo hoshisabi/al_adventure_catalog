@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-05",
+    "community_content": false,
     "date_created": "20200928",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-05 Uncertain Scrutiny",
     "hours": "6",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "330203",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Uncertain Scrutiny",

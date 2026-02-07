@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GSP01-03",
+    "community_content": true,
     "date_created": "20200204",
+    "dungeoncraft": false,
     "full_title": "CCC-GSP01-03 Tainted Love",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "301973",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Tainted Love",

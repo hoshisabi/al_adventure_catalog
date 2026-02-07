@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-26",
+    "community_content": true,
     "date_created": "20200323",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-26 Touch the Stars (Part One of the Siege of the Yellow Rose)",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "305254",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Touch the Stars Part One of the Siege of the Yellow Rose",
+    "title": "Touch the Stars (Part One of the Siege of the Yellow Rose)",
     "url": "https://www.dmsguild.com/product/305254/?affiliate_id=171040"
 }

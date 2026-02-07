@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-UCON02-02",
+    "community_content": true,
     "date_created": "20201228",
+    "dungeoncraft": false,
     "full_title": "CCC-UCON02-02 Rescue Down Under",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "337260",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Rescue Down Under",

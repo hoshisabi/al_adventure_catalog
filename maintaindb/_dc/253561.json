@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-SQC-01",
+    "code": "CCC-SQC-02-01",
+    "community_content": true,
     "date_created": "20180929",
+    "dungeoncraft": false,
     "full_title": "CCC-SQC-02-01 None the Wiser",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "253561",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "None the Wiser",

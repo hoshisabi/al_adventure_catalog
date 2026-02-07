@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-CJK01-01",
+    "community_content": true,
     "date_created": "20230818",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-CJK01-01 A Whale of a Time",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "449929",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "A Whale of a Time",
-    "url": "https://www.dmsguild.com/product/449929/SJDCCJK0101-A-Whale-of-a-Time?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Location in Wildspace"
+    "url": "https://www.dmsguild.com/product/449929/SJDCCJK0101-A-Whale-of-a-Time?filters=0_0_100057_0_0_0_0_0"
 }

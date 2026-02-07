@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-OGG-01",
+    "community_content": true,
     "date_created": "20210605",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-OGG-01 Where Good Adventurers Go to Die",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "359867",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "The Muttering Gnome",
     "tiers": 1,
-    "title": "Where Good Adventurers Go to Die",
+    "title": "DC-PoA-OGG-01 Where Good Adventurers Go to Die",
     "url": "https://www.dmsguild.com/product/359867/?affiliate_id=171040"
 }

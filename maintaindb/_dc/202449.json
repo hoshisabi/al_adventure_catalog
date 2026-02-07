@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL05-14",
+    "community_content": false,
     "date_created": "20170307",
+    "dungeoncraft": false,
     "full_title": "DDAL05-14 Reeducation",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "202449",
-    "season": "Storm King's Thunder",
+    "salvage_mission": false,
+    "season": "5 - Storm King's Thunder",
     "tiers": 3,
     "title": "Reeducation",
     "url": "https://www.dmsguild.com/product/202449/?affiliate_id=171040"

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL10-07",
+    "community_content": false,
     "date_created": "20210408",
+    "dungeoncraft": false,
     "full_title": "DDAL10-07 Into Darkness",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "353209",
-    "season": "Plague of Ancients",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "tiers": 2,
     "title": "Into Darkness",
     "url": "https://www.dmsguild.com/product/353209/?affiliate_id=171040"

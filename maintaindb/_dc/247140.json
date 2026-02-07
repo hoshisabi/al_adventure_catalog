@@ -8,11 +8,11 @@
         "Bill Benham",
         "Robert Adducci"
     ],
-    "campaigns": [
-        "Forgotten Realms"
-    ],
-    "code": "DDAL00-02",
+    "campaigns": [],
+    "code": null,
+    "community_content": false,
     "date_created": "20180713",
+    "dungeoncraft": false,
     "full_title": "Lost Tales of Myth Drannor",
     "hours": "2-4",
     "is_adventure": false,
@@ -20,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 14.99,
     "product_id": "247140",
-    "season": 0,
-    "tiers": "1-4",
+    "salvage_mission": false,
+    "season": null,
+    "tiers": 1,
     "title": "Lost Tales of Myth Drannor",
     "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
 }

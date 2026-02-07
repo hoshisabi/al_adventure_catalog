@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-MOONEP-MD-02",
+    "community_content": false,
     "date_created": "20250116",
+    "dungeoncraft": false,
     "full_title": "BMG-MOONEP-MD-02 The Enchantment of Chaos",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 11.99,
     "product_id": "508959",
+    "salvage_mission": false,
     "season": null,
-    "tiers": "3-4",
+    "tiers": 3,
     "title": "The Enchantment of Chaos",
     "url": "https://www.dmsguild.com/product/508959/?affiliate_id=171040"
 }

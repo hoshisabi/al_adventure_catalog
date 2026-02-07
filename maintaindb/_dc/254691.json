@@ -7,7 +7,9 @@
         "Eberron"
     ],
     "code": "DDAL-ELW03",
+    "community_content": false,
     "date_created": "20181011",
+    "dungeoncraft": false,
     "full_title": "DDAL-ELW03 The Cannith Code",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "254691",
-    "season": null,
+    "salvage_mission": false,
+    "season": "Embers of War",
     "tiers": 1,
     "title": "The Cannith Code",
     "url": "https://www.dmsguild.com/product/254691/?affiliate_id=171040"

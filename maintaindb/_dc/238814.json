@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-MACE01-02",
+    "community_content": true,
     "date_created": "20180404",
+    "dungeoncraft": false,
     "full_title": "CCC-MACE01-02 A Panthers Peril",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "238814",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "A Panthers Peril",

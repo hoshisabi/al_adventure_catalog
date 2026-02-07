@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-INT-02",
+    "community_content": false,
     "date_created": "20221005",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-INT-02 Watchers of the Trollclaws 1",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 7.99,
     "product_id": "412533",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Watchers of the Trollclaws 1",

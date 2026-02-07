@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WCAG-01",
+    "community_content": true,
     "date_created": "20241029",
+    "dungeoncraft": true,
     "full_title": "FR-DC-WCAG-01 Black Water & Blue Wine",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "500389",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Black Water & Blue Wine",

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-MELB-01-05",
+    "community_content": true,
     "date_created": "20240821",
+    "dungeoncraft": true,
     "full_title": "Book of Wild Magic (FR-DC-MELB-01-05)",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "492295",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Book of Wild Magic",
+    "title": "Book of Wild Magic (FR-DC-MELB-01-05)",
     "url": "https://www.dmsguild.com/product/492295/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-WRT-00",
+    "community_content": true,
     "date_created": "20220825",
+    "dungeoncraft": true,
     "full_title": "Writer's Block (WBW-DC-WRT-00)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "407835",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "A Host Spurned",
     "tiers": 2,
-    "title": "Writer's Block",
+    "title": "Writer's Block (WBW-DC-WRT-00)",
     "url": "https://www.dmsguild.com/product/407835/?affiliate_id=171040"
 }

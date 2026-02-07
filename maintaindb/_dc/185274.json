@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-02",
+    "community_content": true,
     "date_created": "20160916",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-02 CORE 1-2 A Cog in the Wheel",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "185274",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "A Cog in the Wheel (CORE 1-2)",
+    "title": "CORE 1-2 A Cog in the Wheel",
     "url": "https://www.dmsguild.com/product/185274/?affiliate_id=171040"
 }

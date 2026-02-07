@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-09",
+    "community_content": true,
     "date_created": "20171204",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-09 - Swamp Of Death",
     "hours": "2",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "228108",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Swamp Of Death",
+    "title": "- Swamp Of Death",
     "url": "https://www.dmsguild.com/product/228108/?affiliate_id=171040"
 }

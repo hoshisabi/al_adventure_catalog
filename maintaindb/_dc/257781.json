@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL08-09",
+    "community_content": false,
     "date_created": "20181211",
+    "dungeoncraft": false,
     "full_title": "DDAL08-09 Fangs and Frogs",
     "hours": "2",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "257781",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": "8 - Waterdeep",
     "tiers": 2,
     "title": "Fangs and Frogs",
     "url": "https://www.dmsguild.com/product/257781/?affiliate_id=171040"

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PHP-FLN01-03",
+    "community_content": true,
     "date_created": "20230527",
+    "dungeoncraft": true,
     "full_title": "Unsworn Oath (SJ-DC-PHP-FLN01-03)",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "439154",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
-    "title": "Unsworn Oath",
+    "title": "Unsworn Oath (SJ-DC-PHP-FLN01-03)",
     "url": "https://www.dmsguild.com/product/439154/?affiliate_id=171040"
 }

@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-SO-01",
+    "community_content": true,
     "date_created": "20220817",
+    "dungeoncraft": true,
     "full_title": "The Labyrinth of Forgotten Memories (WBW-DC-SO-01)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
     "product_id": "406822",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Labyrinth of Forgotten Memories",
-    "url": "https://www.dmsguild.com/product/406822/The-Labyrinth-of-Forgotten-Memories-WBWDCSO01?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "title": "The Labyrinth of Forgotten Memories (WBW-DC-SO-01)",
+    "url": "https://www.dmsguild.com/product/406822/The-Labyrinth-of-Forgotten-Memories-WBWDCSO01?filters=0_0_100057_0_0_0_0_0"
 }

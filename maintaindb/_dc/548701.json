@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "PO-BK-05-03",
+    "community_content": false,
     "date_created": "20251208",
+    "dungeoncraft": false,
     "full_title": "PO-BK-05-03 By Land and Sea",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "548701",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "By Land and Sea",

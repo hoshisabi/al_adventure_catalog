@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-DCAF10",
+    "community_content": true,
     "date_created": "20210615",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-DCAF10 The Lute Run",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "361021",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "X Marks the Spot",
     "tiers": 2,
-    "title": "The Lute Run",
+    "title": "DC-PoA-DCAF10 The Lute Run",
     "url": "https://www.dmsguild.com/product/361021/?affiliate_id=171040"
 }

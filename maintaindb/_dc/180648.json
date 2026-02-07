@@ -3,20 +3,21 @@
     "authors": [
         "Dave Zajac"
     ],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20160415",
+    "dungeoncraft": false,
     "full_title": "Roadside Robbery: A 2nd-Level Side Trek",
     "hours": null,
     "is_adventure": false,
-    "level_range": "1",
+    "level_range": null,
     "payWhatYouWant": false,
     "price": 0.5,
     "product_id": "180648",
+    "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Roadside Robbery A 2nd-Level Side Trek",
+    "title": "Roadside Robbery: A 2nd-Level Side Trek",
     "url": "https://www.dmsguild.com/product/180648/?affiliate_id=171040"
 }

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BWM-007-01",
+    "community_content": true,
     "date_created": "20200429",
+    "dungeoncraft": false,
     "full_title": "CCC-BWM-007-01 The Beast Beneath",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "309754",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Beast Beneath",

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-FOT-03",
+    "community_content": true,
     "date_created": "20250422",
+    "dungeoncraft": true,
     "full_title": "FR-DC-FOT-03 Showdown at the Forge of Tiamat",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "519576",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Showdown at the Forge of Tiamat",

@@ -9,8 +9,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDEX2-11",
+    "code": "DDEX02-11",
+    "community_content": false,
     "date_created": "20160111",
+    "dungeoncraft": false,
     "full_title": "DDEX2-11 Oubliette of Fort Iron",
     "hours": "2",
     "is_adventure": true,
@@ -18,8 +20,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "170486",
-    "season": "Elemental Evil",
+    "salvage_mission": false,
+    "season": "2 - Elemental Evil",
     "tiers": 1,
-    "title": "Oubliette of Fort Iron",
+    "title": "DDEX2-11 Oubliette of Fort Iron",
     "url": "https://www.dmsguild.com/product/170486/?affiliate_id=171040"
 }

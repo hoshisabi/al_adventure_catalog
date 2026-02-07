@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-BST-06",
+    "community_content": true,
     "date_created": "20231231",
+    "dungeoncraft": true,
     "full_title": "Come Together on the Giffstar (SJ-DC-BST-06)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 5.99,
     "product_id": "465599",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Come Together on the Giffstar",
+    "title": "Come Together on the Giffstar (SJ-DC-BST-06)",
     "url": "https://www.dmsguild.com/product/465599/?affiliate_id=171040"
 }

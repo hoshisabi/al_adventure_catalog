@@ -1,14 +1,16 @@
 {
     "apl": 3,
     "authors": [
-        "Garrett Col\u00f3n",
+        "Garrett Colón",
         "The Role Initiative"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-11",
+    "community_content": true,
     "date_created": "20181231",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-11 Flooded Dreams (Part One of the Olma Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "262922",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Flooded Dreams (Part One of the Olma Series)",

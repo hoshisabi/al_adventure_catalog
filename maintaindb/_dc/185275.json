@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-03",
+    "community_content": true,
     "date_created": "20160916",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-03 CORE 1-3 A Hole in the World",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "185275",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "A Hole in the World (CORE 1-3)",
+    "title": "CORE 1-3 A Hole in the World",
     "url": "https://www.dmsguild.com/product/185275/?affiliate_id=171040"
 }

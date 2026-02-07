@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL09-04",
+    "community_content": false,
     "date_created": "20190918",
+    "dungeoncraft": false,
     "full_title": "DDAL09-04 The Day of the Devil",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "289154",
-    "season": "Avernus Rising",
+    "salvage_mission": false,
+    "season": "9 - Avernus Rising",
     "tiers": 1,
     "title": "The Day of the Devil",
     "url": "https://www.dmsguild.com/product/289154/?affiliate_id=171040"

@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-OGC-01",
+    "community_content": true,
     "date_created": "20231229",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-OGC-01 - The Hunt: For Moby Duck",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 2.0,
     "product_id": "465366",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "The Hunt For Moby Duck",
-    "url": "https://www.dmsguild.com/product/465366/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "- The Hunt: For Moby Duck",
+    "url": "https://www.dmsguild.com/product/465366/?affiliate_id=171040"
 }

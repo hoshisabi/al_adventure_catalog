@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-PM05",
+    "community_content": true,
     "date_created": "20210331",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-PM05 Can you tell me how to get to the east haven way",
     "hours": "2",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 0.75,
     "product_id": "352245",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "Can you tell me how to get to the east haven way",
+    "title": "DC-PoA-PM05 Can you tell me how to get to the east haven way",
     "url": "https://www.dmsguild.com/product/352245/?affiliate_id=171040"
 }

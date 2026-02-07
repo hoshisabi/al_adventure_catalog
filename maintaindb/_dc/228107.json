@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-08",
+    "community_content": true,
     "date_created": "20171204",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-08 - Death In The Ruins",
     "hours": "2",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 1.99,
     "product_id": "228107",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Death In The Ruins",
+    "title": "- Death In The Ruins",
     "url": "https://www.dmsguild.com/product/228107/?affiliate_id=171040"
 }

@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-PHP-ORNG-02",
+    "community_content": true,
     "date_created": "20220831",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-PHP-ORNG-02 Where Do They Go?",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "5-10",
     "product_id": "408595",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 2,
     "title": "Where Do They Go?",
-    "url": "https://www.dmsguild.com/product/408595/WBWDCPHPORNG02-Where-do-they-Go?filters=45470_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/408595/WBWDCPHPORNG02-Where-do-they-Go?filters=45470_0_0_0_0_0"
 }

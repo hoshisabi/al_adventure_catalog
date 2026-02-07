@@ -7,16 +7,19 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-ARCON-04",
+    "community_content": true,
     "date_created": "20220803",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-ARCON-04 The Multivertshus II",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 11.96,
     "product_id": "405358",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "The Multivertshus II",
-    "url": "https://www.dmsguild.com/product/405358/?affiliate_id=171040",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/405358/?affiliate_id=171040"
 }

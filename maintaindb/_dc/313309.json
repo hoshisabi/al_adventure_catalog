@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GHC-BK2-09",
+    "community_content": true,
     "date_created": "20200511",
+    "dungeoncraft": false,
     "full_title": "CCC-GHC-BK2-09 Breath of Fire",
     "hours": null,
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "313309",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Breath of Fire",

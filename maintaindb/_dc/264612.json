@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL08-13",
+    "community_content": false,
     "date_created": "20190120",
+    "dungeoncraft": false,
     "full_title": "DDAL08-13 The Vampire of Skullport",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "264612",
-    "season": "Waterdeep",
+    "salvage_mission": false,
+    "season": "8 - Waterdeep",
     "tiers": 3,
     "title": "The Vampire of Skullport",
     "url": "https://www.dmsguild.com/product/264612/?affiliate_id=171040"

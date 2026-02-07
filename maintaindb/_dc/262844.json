@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SKULL01-03",
+    "community_content": true,
     "date_created": "20190408",
+    "dungeoncraft": false,
     "full_title": "CCC-SKULL01-03 Who Pulls the Strings",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "262844",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Who Pulls the Strings",

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-MOON17-2",
+    "community_content": true,
     "date_created": "20220601",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-MOON17-2 Shed Light, Shed Blood",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "398587",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Shed Light, Shed Blood",

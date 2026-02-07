@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-BMG-17",
+    "community_content": true,
     "date_created": "20170210",
+    "dungeoncraft": false,
     "full_title": "CCC-BMG-17 ELM 1-2 The Lost Sanctum",
     "hours": "4",
     "is_adventure": true,
@@ -17,8 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "204921",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Lost Sanctum (ELM 1-2)",
+    "title": "ELM 1-2 The Lost Sanctum",
     "url": "https://www.dmsguild.com/product/204921/?affiliate_id=171040"
 }

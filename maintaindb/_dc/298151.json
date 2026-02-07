@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-WWC-06",
+    "community_content": true,
     "date_created": "20191217",
+    "dungeoncraft": false,
     "full_title": "CCC-WWC-06 The Fear of Fiends",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "298151",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "The Fear of Fiends",

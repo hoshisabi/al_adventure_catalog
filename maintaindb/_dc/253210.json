@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GOC01-02",
+    "community_content": true,
     "date_created": "20180924",
+    "dungeoncraft": false,
     "full_title": "CCC-GOC01-02 Cairns of Rot",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "253210",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Cairns of Rot",

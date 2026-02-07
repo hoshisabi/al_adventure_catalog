@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PHP-WUMBO",
+    "community_content": true,
     "date_created": "20221104",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-PHP-WUMBO: Flight of the Wumbo Bee",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "415677",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 2,
-    "title": "Flight of the Wumbo Bee",
+    "title": ": Flight of the Wumbo Bee",
     "url": "https://www.dmsguild.com/product/415677/?affiliate_id=171040"
 }

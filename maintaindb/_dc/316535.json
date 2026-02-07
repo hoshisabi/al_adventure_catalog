@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SDREAM-01-01",
+    "community_content": true,
     "date_created": "20200720",
+    "dungeoncraft": false,
     "full_title": "CCC-SDREAM-01-01 From Every Winter, Spring",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "316535",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "From Every Winter, Spring",

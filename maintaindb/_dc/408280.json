@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-TMP-03",
+    "community_content": true,
     "date_created": "20220829",
+    "dungeoncraft": true,
     "full_title": "The Buck Stops (WBW-DC-TMP-03)",
     "hours": "2",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "408280",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "The Buck Stops",
+    "title": "The Buck Stops (WBW-DC-TMP-03)",
     "url": "https://www.dmsguild.com/product/408280/?affiliate_id=171040"
 }

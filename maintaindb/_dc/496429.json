@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-DIGM-01-01",
+    "community_content": true,
     "date_created": "20240924",
+    "dungeoncraft": true,
     "full_title": "FR-DC-DIGM-01-01 Sweet Tooth",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "496429",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Sweet Tooth",

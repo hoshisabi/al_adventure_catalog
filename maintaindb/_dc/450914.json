@@ -8,16 +8,19 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-CEG-01",
+    "community_content": true,
     "date_created": "20230827",
+    "dungeoncraft": true,
     "full_title": "Pulling Gs (SJ-DC-CEG-01)",
     "hours": "4",
     "is_adventure": true,
     "level_range": "11-16",
     "price": 3.99,
     "product_id": "450914",
-    "season": "Spelljammer",
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
+    "seed": "Create a Location in Wildspace",
     "tiers": 3,
-    "title": "Pulling Gs",
-    "url": "https://www.dmsguild.com/product/450914/?affiliate_id=171040",
-    "seed": "Create a Location in Wildspace"
+    "title": "Pulling Gs (SJ-DC-CEG-01)",
+    "url": "https://www.dmsguild.com/product/450914/?affiliate_id=171040"
 }

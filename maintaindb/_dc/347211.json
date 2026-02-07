@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-GSP03-02",
+    "community_content": true,
     "date_created": "20210216",
+    "dungeoncraft": true,
     "full_title": "Lost in the Woods (DC-PoA-GSP03-02)",
     "hours": "4",
     "is_adventure": true,
@@ -16,9 +18,10 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "347211",
-    "season": "Icewind Dale",
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "Lost in the Woods DC-PoA-GSP03-02",
+    "title": "Lost in the Woods (DC-PoA-GSP03-02)",
     "url": "https://www.dmsguild.com/product/347211/?affiliate_id=171040"
 }

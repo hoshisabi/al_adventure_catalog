@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SLMH01-01",
+    "community_content": true,
     "date_created": "20190820",
+    "dungeoncraft": false,
     "full_title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
     "hours": "4",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": true,
     "price": 2.99,
     "product_id": "286221",
+    "salvage_mission": false,
     "season": null,
     "suggestedPrice": 2.99,
     "tiers": 2,

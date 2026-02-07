@@ -11,7 +11,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-SKULL01-02",
+    "community_content": true,
     "date_created": "20190408",
+    "dungeoncraft": false,
     "full_title": "CCC-SKULL01-02 Not All Who Are Lost Should Be Found",
     "hours": "4",
     "is_adventure": true,
@@ -19,6 +21,7 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "262841",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Not All Who Are Lost Should Be Found",

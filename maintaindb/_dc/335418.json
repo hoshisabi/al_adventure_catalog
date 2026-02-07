@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-WYC-Intro-02",
+    "code": "CCC-WYC-INTRO-02",
+    "community_content": true,
     "date_created": "20201109",
+    "dungeoncraft": false,
     "full_title": "CCC-WYC-Intro-02 The Ballad of Naoki and Koa",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "335418",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "The Ballad of Naoki and Koa",
+    "title": "CCC-WYC-Intro-02 The Ballad of Naoki and Koa",
     "url": "https://www.dmsguild.com/product/335418/?affiliate_id=171040"
 }

@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GSP-OOZE01-01",
+    "community_content": true,
     "date_created": "20190820",
+    "dungeoncraft": false,
     "full_title": "CCC-GSP-OOZE01-01 Oozing Hunger",
     "hours": "2",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "285730",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Oozing Hunger",

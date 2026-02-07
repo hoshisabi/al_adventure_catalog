@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-DRW-OD-03",
+    "community_content": false,
     "date_created": "20240118",
+    "dungeoncraft": false,
     "full_title": "BMG-DRW-OD-03 Something on the Move",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "467791",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Something on the Move",

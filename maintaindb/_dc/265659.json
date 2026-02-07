@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-OHAYOCON-01-03",
+    "community_content": true,
     "date_created": "20190202",
+    "dungeoncraft": false,
     "full_title": "CCC-OHAYOCON-01-03 Fiendly Competition",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "265659",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Fiendly Competition",

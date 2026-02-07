@@ -7,17 +7,20 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-SUNLIT-05",
+    "community_content": true,
     "date_created": "20220111",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-Sunlit-05 Travelogue",
-    "hours": 4,
+    "hours": null,
     "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "383251-5",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Face Off!",
     "tiers": 2,
-    "title": "Travelogue",
-    "url": "https://www.dmsguild.com/product/383251/?affiliate_id=171040",
-    "seed": "Face Off!"
+    "title": "WBW-DC-Sunlit-05 Travelogue",
+    "url": "https://www.dmsguild.com/product/383251/?affiliate_id=171040"
 }

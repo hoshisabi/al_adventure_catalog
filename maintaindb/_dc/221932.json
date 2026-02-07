@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ROZK01-01",
+    "community_content": true,
     "date_created": "20170918",
+    "dungeoncraft": false,
     "full_title": "CCCROZK01-01 Binder's Torment",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "221932",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Binder's Torment",
+    "title": "CCCROZK01-01 Binder's Torment",
     "url": "https://www.dmsguild.com/product/221932/?affiliate_id=171040"
 }

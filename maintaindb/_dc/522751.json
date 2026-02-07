@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-SCROG-01",
+    "community_content": true,
     "date_created": "20250518",
+    "dungeoncraft": true,
     "full_title": "Pretty Teeth, Sharp Teeth (FR-DC-SCROG-01)",
     "hours": "1",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "522751",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Pretty Teeth, Sharp Teeth",
+    "title": "Pretty Teeth, Sharp Teeth (FR-DC-SCROG-01)",
     "url": "https://www.dmsguild.com/product/522751/?affiliate_id=171040"
 }

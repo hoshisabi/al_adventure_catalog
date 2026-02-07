@@ -7,7 +7,9 @@
         "Ravenloft"
     ],
     "code": "RV-DC-KEN-01",
+    "community_content": true,
     "date_created": "20251201",
+    "dungeoncraft": true,
     "full_title": "The Merchant (RV-DC-KEN-01)",
     "hours": "2",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "547890",
+    "salvage_mission": false,
     "season": "Ravenloft Dungeoncraft",
     "tiers": 1,
-    "title": "The Merchant",
+    "title": "The Merchant (RV-DC-KEN-01)",
     "url": "https://www.dmsguild.com/product/547890/?affiliate_id=171040"
 }

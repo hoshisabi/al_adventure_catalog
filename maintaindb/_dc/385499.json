@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-LSN-02",
+    "community_content": true,
     "date_created": "20220326",
+    "dungeoncraft": true,
     "full_title": "The Party in a Box (WBW-DC-LSN-02)",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 3.98,
     "product_id": "385499",
-    "season": "The Wild Beyond the Witchlight",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 1,
-    "title": "The Party in a Box",
+    "title": "The Party in a Box (WBW-DC-LSN-02)",
     "url": "https://www.dmsguild.com/product/385499/?affiliate_id=171040"
 }

@@ -1,16 +1,17 @@
 {
     "apl": 1,
     "authors": [],
-    "campaigns": [
-        null
-    ],
+    "campaigns": [],
     "code": null,
+    "community_content": false,
     "date_created": "20211231",
+    "dungeoncraft": false,
     "full_title": "Land of the Midnight Sun - Campaign for levels 1-5 [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
     "level_range": "1-4",
     "product_id": "382264",
+    "salvage_mission": false,
     "tiers": 1,
     "title": "Land of the Midnight Sun - Campaign for levels 1-5 [BUNDLE]",
     "url": "https://www.dmsguild.com/product/382264/Land-of-the-Midnight-Sun--Campaign-for-levels-15-BUNDLE?affiliate_id=171040&filters=1000042_0_100057_100018_45356_0_0_0"

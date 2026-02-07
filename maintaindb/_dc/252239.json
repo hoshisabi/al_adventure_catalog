@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-ST2-1",
+    "community_content": true,
     "date_created": "20180912",
+    "dungeoncraft": false,
     "full_title": "CCC-ST2-1 Red War: Embassy of Evil",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "252239",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Red War: Embassy of Evil",

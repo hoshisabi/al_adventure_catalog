@@ -7,14 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-RKS-01",
+    "community_content": true,
     "date_created": "20220225",
+    "dungeoncraft": true,
     "full_title": "WBW-DC-RKS-01 No Glory In Sleep",
     "hours": "4",
     "is_adventure": true,
-    "level_range": null,
+    "level_range": "1-4",
     "product_id": "388277",
+    "salvage_mission": false,
+    "season": "11 - Wild Beyond the Witchlight",
+    "seed": "Create a Domain of Delight",
     "tiers": 1,
     "title": "No Glory In Sleep",
-    "url": "https://www.dmsguild.com/product/388277/WBWDCRKS01-No-Glory-In-Sleep?filters=0_0_100057_0_0_0_0_0",
-    "seed": "Create a Domain of Delight"
+    "url": "https://www.dmsguild.com/product/388277/WBWDCRKS01-No-Glory-In-Sleep?filters=0_0_100057_0_0_0_0_0"
 }

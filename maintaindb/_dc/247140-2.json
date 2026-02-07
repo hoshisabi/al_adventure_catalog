@@ -11,8 +11,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDAL00-02b",
+    "code": "DDAL00-02",
+    "community_content": false,
     "date_created": "20180713",
+    "dungeoncraft": false,
     "full_title": "DDAL00-02b The Weirding Vats (Lost Tales of Myth Drannor)",
     "hours": "2",
     "is_adventure": true,
@@ -20,8 +22,9 @@
     "payWhatYouWant": false,
     "price": 14.99,
     "product_id": "247140-2",
+    "salvage_mission": false,
     "season": 0,
-    "tiers": "1",
-    "title": "The Weirding Vats (Lost Tales of Myth Drannor)",
+    "tiers": 1,
+    "title": "b The Weirding Vats (Lost Tales of Myth Drannor)",
     "url": "https://www.dmsguild.com/product/247140/?affiliate_id=171040"
 }

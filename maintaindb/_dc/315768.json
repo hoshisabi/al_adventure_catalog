@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-UBCON01-03",
+    "community_content": true,
     "date_created": "20200605",
+    "dungeoncraft": false,
     "full_title": "CCC-UBCON01-03 Grime and Gears",
     "hours": "2",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 2.95,
     "product_id": "315768",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Grime and Gears",

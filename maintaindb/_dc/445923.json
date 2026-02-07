@@ -7,14 +7,17 @@
         "Dragonlance"
     ],
     "code": "DL-DC-SDCC-04",
+    "community_content": true,
     "date_created": "20230717",
+    "dungeoncraft": true,
     "full_title": "The Inn of Forgotten Melodies (DL-DC-SDCC-04)",
     "hours": "2",
     "is_adventure": true,
     "level_range": "1-4",
     "price": 8.0,
     "product_id": "445923",
+    "salvage_mission": false,
     "tiers": 1,
-    "title": "The Inn of Forgotten Melodies",
+    "title": "The Inn of Forgotten Melodies (DL-DC-SDCC-04)",
     "url": "https://www.dmsguild.com/product/445923/?affiliate_id=171040"
 }

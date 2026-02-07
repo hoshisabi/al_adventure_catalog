@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "BMG-DRW-OD-07",
+    "community_content": false,
     "date_created": "20240815",
+    "dungeoncraft": false,
     "full_title": "BMG-DRW-OD-07 The Subtlety of Subterfuge",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 8.99,
     "product_id": "491737",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "The Subtlety of Subterfuge",

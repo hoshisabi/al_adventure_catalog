@@ -1,13 +1,15 @@
 {
     "apl": 18,
     "authors": [
-        "JWei\u4f1f"
+        "JWei伟"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
     "code": "FR-DC-PANDORA-JWEI-S2-07",
+    "community_content": true,
     "date_created": "20250530",
+    "dungeoncraft": true,
     "full_title": "FR-DC-PANDORA-JWEI-S2-07, Moonshire",
     "hours": "4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 6.99,
     "product_id": "524454",
+    "salvage_mission": false,
     "season": null,
     "tiers": 4,
-    "title": "Moonshire",
+    "title": ", Moonshire",
     "url": "https://www.dmsguild.com/product/524454/?affiliate_id=171040"
 }

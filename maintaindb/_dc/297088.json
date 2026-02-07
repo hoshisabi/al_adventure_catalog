@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-DRUIDS-03",
+    "community_content": true,
     "date_created": "20191210",
+    "dungeoncraft": false,
     "full_title": "DDALCCC-DRUIDS-03 In Tents",
     "hours": "2-4",
     "is_adventure": true,
@@ -15,8 +17,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "297088",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "In Tents",
+    "title": "DDALCCC-DRUIDS-03 In Tents",
     "url": "https://www.dmsguild.com/product/297088/?affiliate_id=171040"
 }

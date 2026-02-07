@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-TRI-10",
+    "community_content": true,
     "date_created": "20181228",
+    "dungeoncraft": false,
     "full_title": "CCC-TRI-10 Contact (Part One of the Beholder Corps Series)",
     "hours": "4",
     "is_adventure": true,
@@ -16,6 +18,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "262639",
+    "salvage_mission": false,
     "season": null,
     "tiers": 3,
     "title": "Contact (Part One of the Beholder Corps Series)",

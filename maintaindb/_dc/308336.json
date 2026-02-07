@@ -7,8 +7,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-HERO-BK-02-02",
+    "code": "CCC-HERO-BK-02",
+    "community_content": true,
     "date_created": "20200331",
+    "dungeoncraft": false,
     "full_title": "CCC-HERO-BK-02-02 Flight of the Wyvern",
     "hours": "2-4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "308336",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "Flight of the Wyvern",
+    "title": "02 Flight of the Wyvern",
     "url": "https://www.dmsguild.com/product/308336/?affiliate_id=171040"
 }

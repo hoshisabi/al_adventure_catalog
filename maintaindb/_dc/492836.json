@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-TKM-WW",
+    "community_content": true,
     "date_created": "20240826",
+    "dungeoncraft": true,
     "full_title": "What's Within (FR-DC-TKM-WW)",
     "hours": "2",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 3.99,
     "product_id": "492836",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "What's Within",
+    "title": "What's Within (FR-DC-TKM-WW)",
     "url": "https://www.dmsguild.com/product/492836/?affiliate_id=171040"
 }

@@ -6,8 +6,10 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "SJ-DC-DEN-H8",
+    "code": "SJ-DC-DEN-H",
+    "community_content": true,
     "date_created": "20230313",
+    "dungeoncraft": true,
     "full_title": "SJ-DC-DEN-H8 Pesky Problems of Proprietors and Priests",
     "hours": "4",
     "is_adventure": true,
@@ -15,10 +17,11 @@
     "payWhatYouWant": true,
     "price": 4.0,
     "product_id": "430250",
-    "season": null,
+    "salvage_mission": false,
+    "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "suggestedPrice": 4.0,
     "tiers": 1,
-    "title": "Pesky Problems of Proprietors and Priests",
+    "title": "8 Pesky Problems of Proprietors and Priests",
     "url": "https://www.dmsguild.com/product/430250/?affiliate_id=171040"
 }

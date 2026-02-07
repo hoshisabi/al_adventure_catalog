@@ -9,7 +9,9 @@
         "Forgotten Realms"
     ],
     "code": "CCC-GLIP-02-01",
+    "community_content": true,
     "date_created": "20181103",
+    "dungeoncraft": false,
     "full_title": "CCC-GLIP-02-01 Blue Scales",
     "hours": "2",
     "is_adventure": true,
@@ -17,6 +19,7 @@
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "257866",
+    "salvage_mission": false,
     "season": null,
     "tiers": 2,
     "title": "Blue Scales",

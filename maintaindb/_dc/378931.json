@@ -8,7 +8,9 @@
         "Forgotten Realms"
     ],
     "code": "DDAL-DRW-EP-03",
+    "community_content": false,
     "date_created": "20211130",
+    "dungeoncraft": false,
     "full_title": "DDAL-DRW-EP-03 When the Lights Went Out in Candlekeep",
     "hours": "4",
     "is_adventure": true,
@@ -16,8 +18,9 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "378931",
+    "salvage_mission": false,
     "season": null,
-    "tiers": "2-3",
+    "tiers": 2,
     "title": "When the Lights Went Out in Candlekeep",
     "url": "https://www.dmsguild.com/product/378931/?affiliate_id=171040"
 }

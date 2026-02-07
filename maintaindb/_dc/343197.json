@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "DC-POA-DCAF04",
+    "community_content": true,
     "date_created": "20210119",
+    "dungeoncraft": true,
     "full_title": "DC-PoA-DCAF04 A Macabre Nightal",
     "hours": "4",
     "is_adventure": true,
@@ -15,9 +17,10 @@
     "payWhatYouWant": false,
     "price": 4.0,
     "product_id": "343197",
-    "season": null,
+    "salvage_mission": false,
+    "season": "10 - Icewind Dale",
     "seed": "Do You Know the Way to Lonely Wood?",
     "tiers": 1,
-    "title": "A Macabre Nightal",
+    "title": "DC-PoA-DCAF04 A Macabre Nightal",
     "url": "https://www.dmsguild.com/product/343197/?affiliate_id=171040"
 }

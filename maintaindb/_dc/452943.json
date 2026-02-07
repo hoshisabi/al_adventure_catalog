@@ -7,7 +7,9 @@
         "Dragonlance"
     ],
     "code": "BMG-DL-VOTU-02",
+    "community_content": false,
     "date_created": "20230912",
+    "dungeoncraft": false,
     "full_title": "BMG-DL-VOTU-02 Dragons of Sorrow",
     "hours": "4",
     "is_adventure": true,
@@ -15,6 +17,7 @@
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "452943",
+    "salvage_mission": false,
     "season": null,
     "tiers": 1,
     "title": "Dragons of Sorrow",

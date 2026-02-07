@@ -7,7 +7,9 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-PESCH",
+    "community_content": true,
     "date_created": "20241031",
+    "dungeoncraft": true,
     "full_title": "PS-DC-PESCH Vhaeraun's Wish",
     "hours": "4",
     "is_adventure": true,
@@ -15,7 +17,8 @@
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "500715",
-    "season": "Planescape",
+    "salvage_mission": false,
+    "season": "13 - Planescape",
     "tiers": 3,
     "title": "Vhaeraun's Wish",
     "url": "https://www.dmsguild.com/product/500715/?affiliate_id=171040"
