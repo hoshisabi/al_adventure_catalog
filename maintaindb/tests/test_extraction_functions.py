@@ -592,3 +592,42 @@ def test_extract_pwyw_info_from_html_not_found():
     assert pwyw_info["pwyw_flag_raw"] is False
     assert pwyw_info["suggested_price_raw"] is None
 
+
+def test_extract_date_from_html_2_digit_year():
+    """Test date extraction with 2-digit years to ensure correct century normalization."""
+    # Test case 1: 26 -> 2026 (the issue)
+    html1 = """
+    <div>
+        <p>Added to Catalog</p>
+        <p class="u-text-bold"> 1/31/26 </p>
+    </div>
+    """
+    soup1 = BeautifulSoup(html1, "html.parser")
+    date1 = adventure._extract_date_from_html(soup1)
+    assert date1 is not None
+    assert date1.year == 2026
+    assert date1.month == 1
+    assert date1.day == 31
+
+    # Test case 2: 75 -> 2075
+    html2 = """
+    <div>
+        <p>Added to Catalog</p>
+        <p class="u-text-bold"> 12/31/75 </p>
+    </div>
+    """
+    soup2 = BeautifulSoup(html2, "html.parser")
+    date2 = adventure._extract_date_from_html(soup2)
+    assert date2.year == 2075
+
+    # Test case 3: 76 -> 1976
+    html3 = """
+    <div>
+        <p>Added to Catalog</p>
+        <p class="u-text-bold"> 01/01/76 </p>
+    </div>
+    """
+    soup3 = BeautifulSoup(html3, "html.parser")
+    date3 = adventure._extract_date_from_html(soup3)
+    assert date3.year == 1976
+
