@@ -26,11 +26,17 @@ from collections import defaultdict
 
 try:
     from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
-    from .adventure_utils import normalize_ddal_ddex_code, normalize_season_display, SEASONS
+    from .adventure_utils import (
+        normalize_ddal_ddex_code, normalize_season_display, SEASONS,
+        CAMPAIGN_BITMASK, FLAG_BITMASK
+    )
     from .paths import DC_DIR, STATS_DIR
 except (ImportError, ValueError):
     from adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
-    from adventure_utils import normalize_ddal_ddex_code, normalize_season_display, SEASONS
+    from adventure_utils import (
+        normalize_ddal_ddex_code, normalize_season_display, SEASONS,
+        CAMPAIGN_BITMASK, FLAG_BITMASK
+    )
     from paths import DC_DIR, STATS_DIR
 
 logger = logging.getLogger()
@@ -191,14 +197,7 @@ def aggregate():
     assets_data_path.mkdir(parents=True, exist_ok=True)
     logger.info(f'Writing consolidated catalog to: {assets_data_path}')
 
-    # Campaign bitmask mapping
-    CAMPAIGN_BITS = {
-        'Forgotten Realms': 1,
-        'Eberron': 2,
-        'Ravenloft': 4,
-        'Dragonlance': 8
-    }
-
+    # Campaign bitmask mapping is now imported from adventure_utils: CAMPAIGN_BITMASK
     catalog = []
     max_last_update = None
 
@@ -228,15 +227,7 @@ def create_catalog_entry(adventure):
     """
     Creates a minified catalog entry from an adventure dictionary.
     """
-    # Campaign bitmask mapping
-    CAMPAIGN_BITS = {
-        'Forgotten Realms': 1,
-        'Eberron': 2,
-        'Ravenloft': 4,
-        'Dragonlance': 8
-    }
-
-    # Format Season: "N - Name"; normalize synonyms to one canonical
+    # Campaign bitmask mapping is now imported from adventure_utils: CAMPAIGN_BITMASK
     raw_season = adventure.get('season')
     formatted_season = normalize_season_display(raw_season) if raw_season else raw_season
     
@@ -262,8 +253,8 @@ def create_catalog_entry(adventure):
         campaigns = [campaigns]
     
     for camp in campaigns:
-        if camp in CAMPAIGN_BITS:
-            campaign_mask |= CAMPAIGN_BITS[camp]
+        if camp in CAMPAIGN_BITMASK:
+            campaign_mask |= CAMPAIGN_BITMASK[camp]
         else:
             logger.warning(f"Unknown campaign: {camp} in adventure {adventure.get('product_id')}")
 
@@ -301,9 +292,9 @@ def create_catalog_entry(adventure):
         
     # Flags bitmask: cc=1, dc=2, sm=4
     flags = 0
-    if adventure.get('community_content'): flags += 1
-    if adventure.get('dungeoncraft'): flags += 2
-    if adventure.get('salvage_mission'): flags += 4
+    if adventure.get('community_content'): flags |= FLAG_BITMASK['community_content']
+    if adventure.get('dungeoncraft'): flags |= FLAG_BITMASK['dungeoncraft']
+    if adventure.get('salvage_mission'): flags |= FLAG_BITMASK['salvage_mission']
     
     if flags > 0:
         entry['f'] = flags

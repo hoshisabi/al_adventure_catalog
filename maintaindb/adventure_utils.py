@@ -7,6 +7,19 @@ from word2number import w2n
 from typing import List, Optional, Tuple, Any
 
 # --- Campaign Dictionaries ---
+CAMPAIGN_BITMASK = {
+    'Forgotten Realms': 1,
+    'Eberron': 2,
+    'Ravenloft': 4,
+    'Dragonlance': 8
+}
+
+FLAG_BITMASK = {
+    'community_content': 1,
+    'dungeoncraft': 2,
+    'salvage_mission': 4
+}
+
 # Season labels (named programs + numeric seasons 1-10 + Eberron/Ravenloft seasons)
 # Note: Order matters for prefix matching - more specific prefixes should come first
 SEASONS = {
