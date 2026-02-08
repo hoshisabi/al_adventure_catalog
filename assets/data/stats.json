@@ -10,15 +10,15 @@
         "1 Hours": 23,
         "2 Hours": 613,
         "All Others": 218,
-        "4 Hours": 1468,
+        "4 Hours": 1469,
         "8 Hours": 11,
         "6 Hours": 51,
-        "Unknown": 69
+        "Unknown": 68
     },
     "campaign": {
-        "Forgotten Realms": 1938,
+        "Forgotten Realms": 1939,
         "Ravenloft": 48,
-        "Unknown": 38,
+        "Unknown": 37,
         "Eberron": 68,
         "Dragonlance": 20
     },
@@ -27,7 +27,7 @@
         "2 - Elemental Evil": 16,
         "3 - Rage of Demons": 16,
         "4 - Curse of Strahd": 14,
-        "Unknown": 1028,
+        "Unknown": 1027,
         "5 - Storm King's Thunder": 19,
         "6 - Tales From the Yawning Portal": 3,
         "7 - Tomb of Annihilation": 18,
@@ -40,7 +40,7 @@
         "Ravenloft Mist Hunters": 13,
         "Ravenloft Dungeoncraft": 20,
         "11 - Wild Beyond the Witchlight": 236,
-        "12 - Spelljammer": 306,
+        "12 - Spelljammer": 307,
         "Eberron Dungeoncraft": 4,
         "13 - Planescape": 104
     },
@@ -89,7 +89,7 @@
             "Wild Hunt": 1
         },
         "Spelljammer (SJ-DC)": {
-            "Create a Location in Wildspace": 299,
+            "Create a Location in Wildspace": 300,
             "St. Argol's Fire": 3,
             "Unexpected Passenger": 2,
             "Headed My Way?": 2
