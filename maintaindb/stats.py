@@ -6,9 +6,14 @@ import json
 import datetime
 from collections import defaultdict
 
-from .adventure import DungeonCraft
-from .adventure_utils import normalize_season_display
-from .paths import STATS_JSON, CATALOG_JSON
+try:
+    from .adventure import DungeonCraft
+    from .adventure_utils import normalize_season_display, CAMPAIGN_BITMASK
+    from .paths import STATS_JSON, CATALOG_JSON
+except (ImportError, ValueError):
+    from adventure import DungeonCraft
+    from adventure_utils import normalize_season_display, CAMPAIGN_BITMASK
+    from paths import STATS_JSON, CATALOG_JSON
 import glob
 
 logger = logging.getLogger()
@@ -81,6 +86,45 @@ def is_seed_required_code(code):
         return True, 'Spelljammer (SJ-DC)'
     return False, None
 
+def catalog_entry_to_dungeoncraft_params(entry):
+    """
+    Maps a minified catalog entry back to parameters for DungeonCraft.
+    """
+    # Mapping from minified keys to DungeonCraft parameters
+    key_map = {
+        'i': 'product_id',
+        'n': 'title',
+        'a': 'authors',
+        'c': 'code',
+        'd': 'date_created',
+        'h': 'hours',
+        't': 'tiers',
+        'p': 'campaigns',
+        's': 'season',
+        'u': 'url',
+        'e': 'seed'
+    }
+
+    # Map abbreviated keys back to DungeonCraft param names
+    d = {key_map[k]: v for k, v in entry.items() if k in key_map}
+    
+    # Decode campaign bitmask if necessary
+    if 'campaigns' in d and isinstance(d['campaigns'], int):
+        bitmask = d['campaigns']
+        d['campaigns'] = [name for name, bit in CAMPAIGN_BITMASK.items() if bitmask & bit]
+    
+    # Safely parse date_created (YYYYMMDD)
+    date_created_str = d.get('date_created')
+    if date_created_str:
+        try:
+            d['date_created'] = datetime.datetime.strptime(date_created_str, "%Y%m%d").date()
+        except (ValueError, TypeError):
+            d['date_created'] = None
+    else:
+        d['date_created'] = None
+        
+    return d
+
 def generate_stats():
     with open(adventures_input_path, 'r', encoding='utf-8') as f:
         catalog_data = json.load(f)
@@ -108,24 +152,7 @@ def generate_stats():
         }
         
         for entry in raw_catalog:
-            # Map abbreviated keys back to DungeonCraft param names
-            d = {key_map[k]: v for k, v in entry.items() if k in key_map}
-            
-            # Safely parse date_created (YYYYMMDD)
-            date_created_str = d.get('date_created')
-            if date_created_str:
-                try:
-                    d['date_created'] = datetime.datetime.strptime(date_created_str, "%Y%m%d").date()
-                except (ValueError, TypeError):
-                    d['date_created'] = None
-            else:
-                d['date_created'] = None
-            
-            # Tiers in catalog are already int or range string, but DungeonCraft might expect specific format
-            # Let's ensure it's passed correctly.
-            
-            # Campaigns are already a list in catalog.json
-            
+            d = catalog_entry_to_dungeoncraft_params(entry)
             data.append(DungeonCraft(**d))
 
     stats = {
