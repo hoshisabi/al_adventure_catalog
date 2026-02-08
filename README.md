@@ -46,6 +46,7 @@ There are two primary methods for ingesting new adventure data:
 3.  Run the aggregator to combine all adventure data: `python3 aggregator.py`
     *   This generates the minified `assets/data/catalog.json` used by the frontend.
     *   See [CATALOG_FORMAT.md](CATALOG_FORMAT.md) for details on the optimized JSON format (including bitmasks).
+    *   See [CODE_RECOGNITION.md](CODE_RECOGNITION.md) for details on how adventure codes are recognized from titles.
 4.  The aggregated results will be available in `_stats`.
 
 ## Running the Site Locally

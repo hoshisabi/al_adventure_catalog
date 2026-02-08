@@ -26,12 +26,25 @@ def _extract_data_from_warhorn(scenario_data):
     # Extract data from Warhorn scenario data
     hours = None
     if scenario_data.get("blurb"):
-        hours_match = re.search(r'(\d+)(?:-(\d+))?\s*[-h]*(?:hour|hours|hr)', scenario_data["blurb"], re.IGNORECASE)
-        if hours_match:
-            if hours_match.group(2):
-                hours = f"{hours_match.group(1)}-{hours_match.group(2)}"
+        text = scenario_data["blurb"]
+        # Primary pattern: handle numeric and word forms with ranges (borrowed from adventure.py)
+        # We don't have str_to_int here easily without circular imports, so we use a simpler version
+        # or just a better regex.
+        
+        # Numeric range or single: "4 hours", "2-4 hours", "4-hour"
+        match = re.search(r'(\d+)(?:\s*[-/to]\s*(\d+))?\s*[-h]*(?:hour|hours|hr)', text, re.IGNORECASE)
+        if match:
+            if match.group(2):
+                hours = f"{match.group(1)}-{match.group(2)}"
             else:
-                hours = hours_match.group(1)
+                hours = match.group(1)
+        else:
+            # Word-based single: "Four-Hour", "Two hours"
+            words = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8}
+            for word, num in words.items():
+                if re.search(rf'\b{word}-?hour', text, re.IGNORECASE):
+                    hours = str(num)
+                    break
 
     return {
         "hours": hours,
@@ -79,10 +92,160 @@ query_fields_query = """
     }
 """
 
+def fetch_warhorn_scenario_data(title):
+    """
+    Searches for a scenario on Warhorn and returns extracted data.
+    """
+    if not WARHORN_APPLICATION_TOKEN:
+        return None
+
+    expected_slug = generate_warhorn_slug(title)
+
+    warhorn_query = """
+        query ($searchQuery: String!) {
+            globalScenarios(query: $searchQuery) {
+                nodes {
+                    name
+                    blurb
+                    author
+                    minLevel
+                    maxLevel
+                    campaign {
+                        name
+                    }
+                    gameSystem {
+                        name
+                    }
+                    tags {
+                        name
+                    }
+                    slug
+                }
+            }
+        }
+    """
+    
+    try:
+        result = run_query(warhorn_query, {"searchQuery": title})
+        
+        if result and result.get("data") and result["data"].get("globalScenarios") and result["data"]["globalScenarios"].get("nodes"):
+            # Prioritize exact slug match
+            nodes = result["data"]["globalScenarios"]["nodes"]
+            warhorn_scenario = None
+            for node in nodes:
+                if node.get("slug") == expected_slug:
+                    warhorn_scenario = node
+                    break
+            
+            # Fallback to first result
+            if not warhorn_scenario:
+                warhorn_scenario = nodes[0]
+                
+            return {
+                "raw": warhorn_scenario,
+                "extracted": _extract_data_from_warhorn(warhorn_scenario)
+            }
+    except Exception as e:
+        print(f"Error fetching Warhorn data for '{title}': {e}")
+        
+    return None
+
+def fetch_warhorn_scenarios_batched(titles):
+    """
+    Searches for multiple scenarios on Warhorn in a single batched GraphQL query.
+    Returns a dictionary mapping titles to their extracted data.
+    """
+    if not WARHORN_APPLICATION_TOKEN or not titles:
+        return {}
+
+    query_parts = []
+    variables = {}
+    
+    # Process each title in the batch
+    for i, title in enumerate(titles):
+        alias = f"r{i}"
+        var_name = f"q{i}"
+        query_parts.append(f"""
+            {alias}: globalScenarios(query: ${var_name}) {{
+                nodes {{
+                    name
+                    blurb
+                    author
+                    minLevel
+                    maxLevel
+                    campaign {{
+                        name
+                    }}
+                    gameSystem {{
+                        name
+                    }}
+                    tags {{
+                        name
+                    }}
+                    slug
+                }}
+            }}
+        """)
+        variables[var_name] = title
+        
+    full_query = "query (" + ", ".join([f"${v}: String!" for v in variables.keys()]) + ") {\n" + "\n".join(query_parts) + "\n}"
+    
+    try:
+        result = run_query(full_query, variables)
+        
+        batched_results = {}
+        if result and result.get("data"):
+            data = result["data"]
+            for i, title in enumerate(titles):
+                alias = f"r{i}"
+                nodes = data.get(alias, {}).get("nodes", [])
+                if nodes:
+                    # Try to find a node with a matching name or slug
+                    warhorn_scenario = None
+                    # 1. Try exact slug match
+                    expected_slug = generate_warhorn_slug(title)
+                    for node in nodes:
+                        if node.get("slug") == expected_slug:
+                            warhorn_scenario = node
+                            break
+                    
+                    # 2. Try exact name match (case-insensitive)
+                    if not warhorn_scenario:
+                        for node in nodes:
+                            if node.get("name") and node["name"].lower() == title.lower():
+                                warhorn_scenario = node
+                                break
+                    
+                    # 3. Try if the title is contained in the node name (or vice versa)
+                    if not warhorn_scenario:
+                        for node in nodes:
+                            if node.get("name") and (title.lower() in node["name"].lower() or node["name"].lower() in title.lower()):
+                                warhorn_scenario = node
+                                break
+
+                    # 4. Fallback to first result
+                    if not warhorn_scenario:
+                        warhorn_scenario = nodes[0]
+                    
+                    batched_results[title] = {
+                        "raw": warhorn_scenario,
+                        "extracted": _extract_data_from_warhorn(warhorn_scenario)
+                    }
+                else:
+                    batched_results[title] = None
+        return batched_results
+    except Exception as e:
+        print(f"Error fetching batched Warhorn data: {e}")
+        return {title: None for title in titles}
+
 if __name__ == "__main__":
     try:
         result = run_query(query_fields_query)
-        print(json.dumps(result, indent=2))
+        if result and result.get("data") and result["data"].get("__type"):
+            fields = [f['name'] for f in result["data"]["__type"]["fields"]]
+            print(f"Query fields: {fields}")
+        else:
+            print(f"Raw result: {json.dumps(result, indent=2)}")
     except requests.exceptions.RequestException as e:
         print(f"Error during API request: {e}")
     except KeyError as e:

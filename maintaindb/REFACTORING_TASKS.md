@@ -4,6 +4,14 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 
 ## Completed ✅
 
+- [x] Add display of date added
+- [x] Add display of author, allow for searching by author
+- [x] Add seasons for the non-FR campaigns (Eberron, Ravenloft)
+- [x] Consolidate duplicate constants (CAMPAIGN_BITMASK, FLAG_BITMASK, SEASONS moved to adventure_utils.py)
+- [x] Fix stats page and graphs (stats.py bugs)
+  - [x] Line 39: Date parsing will crash if `date_created` is `None` - added null handling
+  - [x] Line 38: `d.pop('full_title')` will fail - refactored to use `catalog_entry_to_dungeoncraft_params`
+  - [x] Hours parsing: `_parse_hours_string()` will crash - added error handling and tests
 - [x] Sort by Date does not appear to be working as expected.
 - [x] Remove unused/incomplete `@dataclass DungeonCraft` definition
 - [x] Add missing `generate_warhorn_slug` function
@@ -27,9 +35,6 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Demonstrates the refactored code works correctly
 
 ## High Priority
-- [ ] Add display of date added
-- [ ] Add display of author, allow for searching by author
-- [ ] Add seasons for the non-FR campaigns
 
 
 ### Code Organization
@@ -42,17 +47,17 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 
 ### Bug Fixes
 
-- [ ] **Fix stats page and graphs**
-  - Stats numbers are incorrect (e.g., 1698 "Unknown" campaigns seems wrong)
-  - Graphs don't render properly or show incorrect data
-  - Issues identified in `stats.py`:
-    - **Line 39**: Date parsing will crash if `date_created` is `None` - needs null handling
-    - **Line 38**: `d.pop('full_title')` will fail if key doesn't exist - should use `.get()` with fallback
-    - **Missing filter**: Code doesn't filter out non-adventures (bundles, Roll20, Fantasy Grounds) - should only count where `is_adventure == True`
-    - **Hours parsing**: `_parse_hours_string()` will crash on malformed input (non-numeric, invalid ranges) - needs error handling
-    - **Campaign counting**: Counts each adventure multiple times if it has multiple campaigns - may be intentional but inflates totals
-    - **Empty campaigns**: Treats empty list `[]` as "Unknown" - may be correct but worth verifying
-  - Issues identified in `stats.html`:
+- [x] **Fix stats page and graphs (Backend fixed, Frontend/HTML pending)**
+  - [x] Stats numbers are incorrect (Verified: Unknown campaigns reduced from ~1700 to 38)
+  - [ ] Graphs in stats.html don't render properly or show incorrect data
+  - [x] Issues identified in `stats.py` resolved:
+    - [x] Line 39: Date parsing will crash if `date_created` is `None` - added null handling
+    - [x] Line 38: `d.pop('full_title')` will fail - refactored to use `catalog_entry_to_dungeoncraft_params`
+    - [x] Missing filter: Catalog input is now pre-filtered for `is_adventure == True` in aggregator
+    - [x] Hours parsing: `_parse_hours_string()` will crash - added error handling and tests
+    - [x] Campaign counting: Fixed bitmask decoding to correctly count campaigns
+    - [x] Empty campaigns: Verified and handled during bitmask decoding
+  - Issues remaining in `stats.html`:
     - Uses Chart.js v2 API (`getContext('2d')`) which may be outdated
     - No error handling if stats.json fails to load
     - Chart configuration may need updates for better display (sorting, colors, labels)
@@ -136,10 +141,9 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
 
 ### Code Quality
 
-- [ ] **Consolidate duplicate constants**
-  - `DC_CAMPAIGNS`, `DDAL_CAMPAIGN`, `SEASONS` exist in both `adventure.py` and `adventure_utils.py`
-  - Consider importing from `adventure_utils.py` to reduce duplication
-  - Keep exports in `adventure.py` for backward compatibility
+- [x] **Consolidate duplicate constants** (Completed)
+  - Moved `CAMPAIGN_BITMASK`, `FLAG_BITMASK`, `SEASONS`, and `DC_CAMPAIGNS` to `adventure_utils.py`
+  - Refactored `adventure.py`, `aggregator.py`, and `stats.py` to import from common location
 
 - [ ] **Improve error handling in HTML extraction**
   - Add more specific error messages when extraction fails
@@ -177,29 +181,31 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
   - Currently have both `process_downloads.py` and `process_downloads_new.py`
   - `adventure.py` (current) vs `adventure_extractors.py` + `adventure_normalizers.py` (alternative architecture)
   - Decide on migration path or consolidation strategy
+  - Note: `generate_pages.py` appears redundant and is currently broken due to `catalog.json` bitmask optimizations. Dynamic filtering is now handled by `filter.js`.
   - Note: The extraction code already handles both old and new DMsGuild website UI formats (legacy HTML vs new Angular-based HTML), which is necessary since we have a mix of downloaded HTML files. This is separate from the code architecture question.
 
 - [ ] **Expand unit test coverage**
   - Add more comprehensive tests for extraction functions with real HTML fixtures
-  - Add unit tests for normalization logic (code pattern variants, campaign/season detection)
+  - [x] Add unit tests for normalization logic (bitmask decoding, catalog entry reconstruction)
   - Add integration tests for the full extraction pipeline
-  - Test edge cases and error handling
+  - [x] Test edge cases and error handling (date parsing, malformed hours in stats)
   - Location: `tests/` directory
 
-- [ ] **Document code pattern recognition rules**
+- [x] **Document code pattern recognition rules**
   - Create a reference document explaining how different code formats are recognized
   - Include examples of special cases (like BK-05-02 → PO-BK)
+  - See [CODE_RECOGNITION.md](../CODE_RECOGNITION.md)
 
 ### Advanced Data Extraction
 
-- [ ] **OCR/Image analysis for thumbnail extraction**
-  - Evaluate thumbnail images to extract data not available on download page
-  - Use OCR or image analysis to read text from product thumbnails
-  - Could extract: level range, hours, tier information that might be visible in thumbnails
-  - **Note**: PDF preview interaction may be forbidden by DMsGuild terms of service
-  - This is exploratory - verify legal/ethical constraints before implementation
-  - Consider using libraries like Tesseract (OCR) or image processing libraries
-  - Location: New file `maintaindb/image_extractor.py` (if pursued)
+- [x] **Warhorn-based validation and auditing**
+  - Integrate Warhorn API data into `generate_fixup_html.py`
+  - Cross-reference local JSON data with Warhorn's scenario data (hours, level range, tiers)
+  - Flag discrepancies between local data and Warhorn data in the audit report
+  - **Note**: Warhorn auditing is disabled by default (use `--warhorn` flag) to avoid rate limiting.
+  - [x] **Investigate and implement GraphQL batching for Warhorn API**
+    - Implemented query-level batching using GraphQL aliases to reduce API load.
+    - Updated `generate_fixup_html.py` to use batched requests (batch size: 20).
 
 ## Notes
 
