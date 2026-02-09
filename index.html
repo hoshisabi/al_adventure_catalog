@@ -1,11 +1,23 @@
----
-layout: default
-title: AL DC Catalog
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AL DC Catalog</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+</head>
+<body class="bg-gray-50">
 <div class="container mx-auto px-4 py-8 max-w-screen-lg">
     <h1 class="text-3xl font-bold mb-6">Adventure Filter</h1>
     <div class="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-        <p><a href="{{ site.baseurl }}/stats.html" class="text-blue-500 hover:underline">View Statistics</a></p>
+        <p><a href="stats.html" class="text-blue-500 hover:underline">View Statistics</a></p>
         <p id="last-update-container" class="text-sm text-gray-500 hidden">Last update: <span id="last-update-date"></span></p>
     </div>
     
@@ -76,10 +88,14 @@ title: AL DC Catalog
                     Try Example
                 </button>
             </div>
-            <p class="text-xs text-gray-500 mt-1">Provide a URL to a JSON file mapping Product IDs to your private links. <a href="{{ site.baseurl }}/private-inventory-guide/" target="_blank" class="text-blue-500 hover:underline">How do I do this?</a></p>
+            <p class="text-xs text-gray-500 mt-1">Provide a URL to a JSON file mapping Product IDs to your private links. <a href="private-inventory-guide/index.html" target="_blank" class="text-blue-500 hover:underline">How do I do this?</a></p>
         </div>
 
         <div class="mb-6 flex flex-wrap gap-4">
+            <label class="flex items-center space-x-2 cursor-pointer">
+                <input type="checkbox" id="private-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                <span class="text-sm font-medium text-green-700">Only show adventures in private inventory</span>
+            </label>
             <label class="flex items-center space-x-2 cursor-pointer">
                 <input type="checkbox" id="cc-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
                 <span class="text-sm font-medium">Show Community Content only</span>
@@ -125,3 +141,5 @@ title: AL DC Catalog
 </div>
 
 <script src="assets/js/filter.js"></script>
+</body>
+</html>

@@ -16,21 +16,14 @@ GOTO :SERVE
         GOTO :EOF
     )
     echo Aggregator finished.
-    echo Building Jekyll site...
-    call bundle exec jekyll build
-    IF %ERRORLEVEL% NEQ 0 (
-        echo Jekyll build failed.
-        GOTO :EOF
-    )
-    echo Build complete.
     GOTO :SERVE
 
 :SERVE
-    echo Serving Jekyll site locally...
-    echo To rebuild the site before serving, run with the "rebuild" parameter (e.g., lp rebuild)
-    bundle exec jekyll serve --baseurl ""
+    echo Serving site locally at http://localhost:8000 ...
+    echo To rebuild the catalog before serving, run with the "rebuild" parameter (e.g., lp rebuild)
+    uv run python serve.py
     IF %ERRORLEVEL% NEQ 0 (
-        echo Jekyll serve failed.
+        echo Serve failed.
     )
 
 ENDLOCAL

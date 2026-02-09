@@ -12,6 +12,7 @@ let filters = {
     tier: '',
     hours: '',
     ccOnly: false,
+    privateOnly: false,
     showProductId: false,
     search: '',
     inventoryURL: '',
@@ -29,13 +30,7 @@ const CAMPAIGN_MAP = {
 };
 
 // Config
-let baseURL = '';
-const pathname = window.location.pathname;
-if (pathname.startsWith('/al_adventure_catalog/')) {
-    baseURL = '/al_adventure_catalog/assets/data/';
-} else {
-    baseURL = '/assets/data/';
-}
+const baseURL = 'assets/data/';
 
 // Initialization
 async function initialize() {
@@ -194,6 +189,7 @@ function applyFiltersFromURL() {
     if (params.has('hours')) filters.hours = params.get('hours');
     if (params.has('search')) filters.search = params.get('search');
     if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
+    if (params.has('privateOnly')) filters.privateOnly = params.get('privateOnly') === 'true';
     if (params.has('showProductId')) filters.showProductId = params.get('showProductId') === 'true';
     if (params.has('sort')) sortBy = params.get('sort');
 
@@ -214,6 +210,8 @@ function applyFiltersFromURL() {
     if (inventoryEl) inventoryEl.value = filters.inventoryURL || '';
     const ccOnlyEl = document.getElementById('cc-only');
     if (ccOnlyEl) ccOnlyEl.checked = filters.ccOnly || false;
+    const privateOnlyEl = document.getElementById('private-only');
+    if (privateOnlyEl) privateOnlyEl.checked = filters.privateOnly || false;
     const showProductIdEl = document.getElementById('show-product-id');
     if (showProductIdEl) showProductIdEl.checked = filters.showProductId || false;
 
@@ -228,6 +226,7 @@ function updateURLFromFilters() {
     if (filters.hours) params.set('hours', filters.hours);
     if (filters.search) params.set('search', filters.search);
     if (filters.ccOnly) params.set('ccOnly', 'true');
+    if (filters.privateOnly) params.set('privateOnly', 'true');
     if (filters.showProductId) params.set('showProductId', 'true');
     if (sortBy && sortBy !== 'date-desc') params.set('sort', sortBy);
 
@@ -299,6 +298,13 @@ function applyFilters() {
 
     if (filters.season) {
         results = results.filter(adv => adv.s && String(adv.s) === filters.season);
+    }
+
+    if (filters.privateOnly) {
+        results = results.filter(adv => {
+            const productId = String(adv.i).replace(/-\d+$/, '');
+            return filters.privateLinks[adv.i] || filters.privateLinks[productId];
+        });
     }
 
     if (filters.ccOnly) {
@@ -545,6 +551,12 @@ function setupEventListeners() {
         updateURLFromFilters();
     });
 
+    document.getElementById('private-only')?.addEventListener('change', e => {
+        filters.privateOnly = e.target.checked;
+        applyFilters();
+        updateURLFromFilters();
+    });
+
     document.getElementById('show-product-id')?.addEventListener('change', e => {
         filters.showProductId = e.target.checked;
         applyFilters();
@@ -564,6 +576,23 @@ function setupEventListeners() {
         const input = document.getElementById('inventory-url');
         if (input) {
             input.value = exampleURL;
+            
+            // Helpful hint for the user
+            alert("Example inventory loaded! Select '1 - Tyranny of Dragons' in the Season filter to see the green private PDF links.");
+            
+            // Auto-select Season 1 to show the markers
+            const seasonEl = document.getElementById('season');
+            if (seasonEl) {
+                // We need to find the option that starts with "1"
+                for (let i = 0; i < seasonEl.options.length; i++) {
+                    if (seasonEl.options[i].value.startsWith("1 -")) {
+                        seasonEl.value = seasonEl.options[i].value;
+                        filters.season = seasonEl.value;
+                        break;
+                    }
+                }
+            }
+            
             // Optionally trigger the apply logic immediately
             document.getElementById('save-inventory')?.click();
         }
