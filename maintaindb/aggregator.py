@@ -3,7 +3,7 @@ Aggregates individual adventure JSON files from `_dc/` into a minified `catalog.
 
 This script processes all JSON files in the `_dc/` directory, normalizes adventure data 
 (codes, campaigns, tiers, hours, seasons), and generates a consolidated catalog 
-used by the Jekyll site's filtering system.
+used by the site's filtering system.
 
 Key features:
 - Data normalization for consistent filtering (campaigns as lists, integer tiers, string hours).

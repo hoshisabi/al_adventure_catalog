@@ -51,10 +51,16 @@ There are two primary methods for ingesting new adventure data:
 
 ## Running the Site Locally
 
-The `lp.bat` script is a convenience script for running the Jekyll site locally.
+The `lp.bat` script is a convenience script for running the site locally.
 
-*   **`lp.bat` (no parameters):** Serves the Jekyll site locally without rebuilding.
-*   **`lp.bat rebuild`:** Runs the aggregator, rebuilds the Jekyll site, and then serves it locally.
+*   **`lp.bat` (no parameters):** Serves the site locally using a simple Python server.
+*   **`lp.bat rebuild`:** Runs the aggregator and then serves the site locally.
+
+Alternatively, you can run:
+```bash
+uv run python serve.py
+```
+And then visit `http://localhost:8000` in your browser.
 
 ## Git Workflow
 
