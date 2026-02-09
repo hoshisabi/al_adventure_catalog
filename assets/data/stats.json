@@ -1,22 +1,22 @@
 {
     "tier": {
         "Tier 1": 819,
-        "Tier 2": 846,
-        "Tier 3": 336,
+        "Tier 2": 847,
+        "Tier 3": 337,
         "Tier 4": 84,
-        "Unknown": 13
+        "Unknown": 15
     },
     "duration": {
         "1 Hours": 23,
         "2 Hours": 613,
-        "All Others": 218,
-        "4 Hours": 1469,
+        "All Others": 219,
+        "4 Hours": 1470,
         "8 Hours": 11,
-        "6 Hours": 51,
-        "Unknown": 68
+        "6 Hours": 52,
+        "Unknown": 71
     },
     "campaign": {
-        "Forgotten Realms": 1939,
+        "Forgotten Realms": 1943,
         "Ravenloft": 48,
         "Unknown": 37,
         "Eberron": 68,
@@ -27,13 +27,13 @@
         "2 - Elemental Evil": 16,
         "3 - Rage of Demons": 16,
         "4 - Curse of Strahd": 14,
-        "Unknown": 1027,
+        "Unknown": 1030,
         "5 - Storm King's Thunder": 19,
         "6 - Tales From the Yawning Portal": 3,
         "7 - Tomb of Annihilation": 18,
         "Embers of War": 12,
         "8 - Waterdeep": 19,
-        "9 - Avernus Rising": 20,
+        "9 - Avernus Rising": 21,
         "Oracle of War": 25,
         "Eberron Salvage Mission": 26,
         "10 - Icewind Dale": 185,
