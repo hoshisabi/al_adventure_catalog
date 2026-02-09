@@ -12,6 +12,7 @@ let filters = {
     tier: '',
     hours: '',
     ccOnly: false,
+    showProductId: false,
     search: ''
 };
 
@@ -160,6 +161,7 @@ function applyFiltersFromURL() {
     if (params.has('hours')) filters.hours = params.get('hours');
     if (params.has('search')) filters.search = params.get('search');
     if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
+    if (params.has('showProductId')) filters.showProductId = params.get('showProductId') === 'true';
     if (params.has('sort')) sortBy = params.get('sort');
 
     // Sync to DOM so dropdowns and search input show the URL state
@@ -177,6 +179,8 @@ function applyFiltersFromURL() {
     if (searchEl) searchEl.value = filters.search || '';
     const ccOnlyEl = document.getElementById('cc-only');
     if (ccOnlyEl) ccOnlyEl.checked = filters.ccOnly || false;
+    const showProductIdEl = document.getElementById('show-product-id');
+    if (showProductIdEl) showProductIdEl.checked = filters.showProductId || false;
 
     applyFilters();
 }
@@ -189,6 +193,7 @@ function updateURLFromFilters() {
     if (filters.hours) params.set('hours', filters.hours);
     if (filters.search) params.set('search', filters.search);
     if (filters.ccOnly) params.set('ccOnly', 'true');
+    if (filters.showProductId) params.set('showProductId', 'true');
     if (sortBy && sortBy !== 'date-desc') params.set('sort', sortBy);
 
     const query = params.toString();
@@ -385,9 +390,12 @@ function renderGridView(adventures, container) {
     const table = document.createElement('table');
     table.className = 'w-full border-collapse bg-white';
 
+    const showProductId = filters.showProductId;
+
     table.innerHTML = `
         <thead class="bg-gray-100">
             <tr>
+                ${showProductId ? '<th class="px-4 py-2 text-left border">ID</th>' : ''}
                 <th class="px-4 py-2 text-left border">Code</th>
                 <th class="px-4 py-2 text-left border">Title</th>
                 <th class="px-4 py-2 text-left border">Tier</th>
@@ -407,6 +415,7 @@ function renderGridView(adventures, container) {
         const productId = String(adv.i).replace(/-\d+$/, '');
         const url = adv.u || `https://www.dmsguild.com/product/${productId}/?affiliate_id=171040`;
         row.innerHTML = `
+             ${showProductId ? `<td class="px-4 py-2 border text-sm">${productId}</td>` : ''}
              <td class="px-4 py-2 border">${adv.c || ''}</td>
              <td class="px-4 py-2 border"><a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a></td>
              <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
@@ -474,6 +483,12 @@ function setupEventListeners() {
 
     document.getElementById('cc-only')?.addEventListener('change', e => {
         filters.ccOnly = e.target.checked;
+        applyFilters();
+        updateURLFromFilters();
+    });
+
+    document.getElementById('show-product-id')?.addEventListener('change', e => {
+        filters.showProductId = e.target.checked;
         applyFilters();
         updateURLFromFilters();
     });
