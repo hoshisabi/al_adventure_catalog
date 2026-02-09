@@ -148,11 +148,22 @@ def test_non_ccc_codes_still_work():
         ("PS-DC-PKL-08 Darker Shade of Pale", "PS-DC-PKL-08"),
         # Test DC codes with multiple dash-number sequences (e.g., FR-DC-DIGM-01-01)
         ("FR-DC-DIGM-01-01 Sweet Tooth", "FR-DC-DIGM-01-01"),
+        # Test DC codes with alphanumeric parts in episode (e.g., WBW-DC-ZEP-T-1S2)
+        ("WBW-DC-ZEP-T-1S2 The Court of Zep", "WBW-DC-ZEP-T-1S2"),
+        # Test CCC codes with multiple dashes (e.g., CCC-HERO-BK-02-01)
+        ("CCC-HERO-BK-02-01 Riders of the Storm", "CCC-HERO-BK-02-01"),
         # Test DC codes ending with alphanumeric (e.g., FR-DC-UCON24)
         ("FR-DC-UCON24 The Icarus Connection", "FR-DC-UCON24"),
         # Test DC codes with dash-number (e.g., PS-DC-NBDD-01, FR-DC-REIN-VR-01)
         ("PS-DC-NBDD-01 The Greatest Gameshow", "PS-DC-NBDD-01"),
         ("FR-DC-REIN-VR-01 The Pale Steed", "FR-DC-REIN-VR-01"),
+        # Test DC codes with alphanumeric suffix (e.g., PS-DC-SB-BISH01)
+        ("PS-DC-SB-BISH01 - The Mill On Turley Hill", "PS-DC-SB-BISH01"),
+        # Test DC-POA with alphanumeric suffix
+        ("DC-POA-BISH01 The Mill", "DC-POA-BISH01"),
+        ("DC-POA-ICE01-01 The Frozen North", "DC-POA-ICE01-01"),
+        # Test CCC with alphanumeric suffix
+        ("CCC-GSP-BISH01 The Mill", "CCC-GSP-BISH01"),
         # Test CCC codes with series code ending in numbers (e.g., CCC-UCON03)
         ("CCC-UCON03 The Straw Bears", "CCC-UCON03"),
     ]
@@ -210,6 +221,18 @@ def test_all_bug_fixes_covered():
     
     code, _ = get_adventure_code_and_campaigns("FR-DC-REIN-VR-01 The Pale Steed")
     assert code == "FR-DC-REIN-VR-01", f"Failed: got {code}, expected FR-DC-REIN-VR-01"
+
+    # Bug fix 13: DC codes with alphanumeric suffix (e.g., PS-DC-SB-BISH01)
+    code, _ = get_adventure_code_and_campaigns("PS-DC-SB-BISH01 - The Mill On Turley Hill")
+    assert code == "PS-DC-SB-BISH01", f"Failed: got {code}, expected PS-DC-SB-BISH01"
+
+    # Bug fix 14: DC-POA with alphanumeric suffix
+    code, _ = get_adventure_code_and_campaigns("DC-POA-BISH01 The Mill")
+    assert code == "DC-POA-BISH01", f"Failed: got {code}, expected DC-POA-BISH01"
+
+    # Bug fix 15: CCC with alphanumeric suffix
+    code, _ = get_adventure_code_and_campaigns("CCC-GSP-BISH01 The Mill")
+    assert code == "CCC-GSP-BISH01", f"Failed: got {code}, expected CCC-GSP-BISH01"
     
     # Bug fix 12: CCC codes with series code ending in numbers directly (e.g., CCC-UCON03)
     code, _ = get_adventure_code_and_campaigns("CCC-UCON03 The Straw Bears")

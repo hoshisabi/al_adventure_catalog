@@ -422,22 +422,26 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # This must come BEFORE the dash-letter pattern to match "REIN-VR-01" instead of just "REIN-VR"
         # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
         # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-(\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
+        # Supports alphanumeric parts like 1S2 if they are followed by more digits or are the final part
+        (r"^([A-Z]{2,})-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-([A-Z0-9]*\d+(?:-[A-Z0-9]*\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        # DC codes ending with alphanumeric (letters and numbers together, e.g., PS-DC-SB-BISH01, FR-DC-UCON24)
+        # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
+        (r"^([A-Z]{2,})-DC-([A-Z0-9-]+[A-Z][0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
         # This must come AFTER the dash-number pattern to avoid matching "REIN-VR" from "REIN-VR-01"
         # Use negative lookahead to ensure no dash-number sequence follows
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9-]+)-([A-Z]+)(?!-\d)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9-]+)-([A-Z]+)(?!-\d)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., FR-DC-UCON24)
         # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes ending with just letters (no dashes in series, e.g., PS-DC-IC)
         # This must come after the alphanumeric pattern to avoid matching "UCO" from "UCON24"
         # Use negative lookahead to ensure no alphanumeric or dash follows (only space/end of string)
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC-([A-Z]+)(?![A-Z0-9-])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z]+)(?![A-Z0-9-])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # More general DC codes (e.g., RV-DC01)
-        (r"^(FR|DL|EB|PS|RV|SJ|WBW)-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
-        # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01) - normalize to all caps
-        (r"^(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-]+-\d{1,2})", lambda m: 'DC-POA' + m.group(2).upper()),
+        (r"^([A-Z]{2,})-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
+        # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01, DC-POA-BISH01) - normalize to all caps
+        (r"^(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-]+-?\d{1,2})", lambda m: 'DC-POA' + m.group(2).upper()),
         # Specific recognized prefixes (e.g., DDALELW00, DDALDRW01, SJA01)
         (r"^(DDALELW\d{2}|DDALDRW\d{1,2}(?:-\d{1,2})?|SJA\d{1,2}(?:-\d{1,2})?)", lambda m: m.group(0).upper()),
         # DDHC hardcover tie-in codes (e.g., DDHC-TOA-10, DDHC-MORD-03, DDHC-LoX-Ch-1)
@@ -452,13 +456,12 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # Must not be followed by dash-alphanumeric (to avoid matching partial codes like "UCON" from "UCON-03")
         (r"^(AL|CCC-?)([A-Z]{2,}[0-9]+)(?![A-Za-z0-9-])",
          lambda m: f"{m.group(1).upper()}-{m.group(2).upper()}" if m.group(1).upper() == "CCC" and not m.group(1).endswith("-") else m.group(0).upper()),
-        # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01, CCC-KUMORI-01-02, CCCTHENT01-03, CCC-PRETZ-PLA02)
+        # CCCs with optional extra parts (e.g., CCC-BMG-01, CCC-GSP-01-01, CCC-KUMORI-01-02, CCCTHENT01-03, CCC-PRETZ-PLA02, CCC-HERO-BK-02-01)
         # Series code can be 2+ letters, optionally followed by numbers (no dash between letters and numbers)
         # Dash after CCC is optional (handles both CCC-THENT01-03 and CCCTHENT01-03)
-        # Then required: dash followed by alphanumeric (e.g., -PLA02) or digits (e.g., -01)
-        # Optionally followed by another dash-alphanumeric or dash-digits sequence
+        # Then REQUIRED: dash followed by alphanumeric or digits, repeated as needed
         # Normalize to always include dash after CCC (e.g., CCCTHENT01-03 -> CCC-THENT01-03)
-        (r"^(AL|CCC-?)([A-Z]{2,}[0-9]*(?:-[A-Za-z0-9]+|-\d{1,2})(?:-[A-Za-z0-9]+|-\d{1,2})?)", 
+        (r"^(AL|CCC-?)([A-Z]{2,}[0-9]*(?:-[A-Za-z0-9]+|-\d{1,2})+)", 
          lambda m: f"{m.group(1).upper()}-{m.group(2).upper()}" if m.group(1).upper() == "CCC" and not m.group(1).endswith("-") else m.group(0).upper()),
         # BMG codes (e.g., BMG-DRW-01, PO-BK-1-04) - may have additional dash-number sequence
         (r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}(?:-\d{1,2})?", lambda m: m.group(0).upper()),
