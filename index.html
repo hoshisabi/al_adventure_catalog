@@ -64,6 +64,21 @@ title: AL DC Catalog
                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
         </div>
 
+        <div class="mb-6">
+            <label for="inventory-url" class="block text-sm font-medium mb-2">Private Inventory JSON URL (Optional)</label>
+            <div class="flex flex-wrap gap-2">
+                <input type="url" id="inventory-url" placeholder="https://example.com/my-inventory.json" 
+                       class="flex-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <button id="save-inventory" class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    Apply
+                </button>
+                <button id="load-example-inventory" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                    Try Example
+                </button>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Provide a URL to a JSON file mapping Product IDs to your private links. <a href="{{ site.baseurl }}/private-inventory-guide/" target="_blank" class="text-blue-500 hover:underline">How do I do this?</a></p>
+        </div>
+
         <div class="mb-6 flex flex-wrap gap-4">
             <label class="flex items-center space-x-2 cursor-pointer">
                 <input type="checkbox" id="cc-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
