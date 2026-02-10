@@ -1,23 +1,25 @@
 {
-    "apl": null,
-    "authors": [
-        "Chris Lindsay"
-    ],
-    "campaigns": [],
-    "code": "DDIA-MORD",
-    "community_content": false,
-    "date_created": "20180731",
-    "dungeoncraft": false,
-    "full_title": "DDIA-MORD Rrakkma",
-    "hours": null,
-    "is_adventure": true,
-    "level_range": null,
-    "payWhatYouWant": false,
-    "price": 4.99,
-    "product_id": "248633",
-    "salvage_mission": false,
-    "season": null,
-    "tiers": null,
-    "title": "Rrakkma",
-    "url": "https://www.dmsguild.com/product/248633/?affiliate_id=171040"
+  "apl": 9,
+  "authors": [
+    "Chris Lindsay"
+  ],
+  "campaigns": [
+    "Forgotten Realms"
+  ],
+  "code": "DDIA-MORD",
+  "community_content": false,
+  "date_created": "20180731",
+  "dungeoncraft": false,
+  "full_title": "DDIA-MORD Rrakkma",
+  "hours": "6-8",
+  "is_adventure": true,
+  "level_range": "5-10",
+  "payWhatYouWant": false,
+  "price": 4.99,
+  "product_id": "248633",
+  "salvage_mission": false,
+  "season": null,
+  "tiers": 2,
+  "title": "Rrakkma",
+  "url": "https://www.dmsguild.com/product/248633/?affiliate_id=171040"
 }
