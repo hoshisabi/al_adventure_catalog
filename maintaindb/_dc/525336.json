@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Vin De Guzman"
     ],
@@ -11,7 +11,7 @@
     "date_created": "20250606",
     "dungeoncraft": true,
     "full_title": "FR-DC-VIN-01 Welcome Home, Adventurer!",
-    "hours": null,
+    "hours": 4,
     "is_adventure": true,
     "level_range": "5-10",
     "payWhatYouWant": false,
