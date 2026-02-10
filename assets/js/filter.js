@@ -575,7 +575,7 @@ function setupEventListeners() {
     document.getElementById('view-grid')?.addEventListener('click', () => { viewMode = 'grid'; updateViewToggleButtons(); displayResults(); });
     
     document.getElementById('load-example-inventory')?.addEventListener('click', () => {
-        const exampleURL = window.location.origin + (baseURL.startsWith('/') ? '' : '/') + baseURL.replace('assets/data/', '') + 'example_private_intentory.json';
+        const exampleURL = window.location.origin + (baseURL.startsWith('/') ? '' : '/') + baseURL.replace('assets/data/', 'al_adventure_catalog/') + 'example_private_intentory.json';
         const input = document.getElementById('inventory-url');
         if (input) {
             input.value = exampleURL;
