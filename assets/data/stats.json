@@ -1,19 +1,19 @@
 {
     "tier": {
-        "Tier 1": 819,
+        "Tier 1": 820,
         "Tier 2": 850,
         "Tier 3": 337,
         "Tier 4": 84,
-        "Unknown": 12
+        "Unknown": 11
     },
     "duration": {
         "1 Hours": 23,
-        "2 Hours": 613,
+        "2 Hours": 616,
         "All Others": 219,
-        "4 Hours": 1473,
+        "4 Hours": 1476,
         "8 Hours": 11,
         "6 Hours": 52,
-        "Unknown": 68
+        "Unknown": 62
     },
     "campaign": {
         "Forgotten Realms": 1943,
