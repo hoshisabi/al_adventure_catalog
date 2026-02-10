@@ -212,8 +212,11 @@ def aggregate():
         catalog.append(entry)
         
     # Create final catalog object including the global last_update
+    import datetime
+    full_timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     catalog_data = {
         'last_update': max_last_update,
+        'timestamp': full_timestamp,
         'adventures': catalog
     }
         
