@@ -1,24 +1,24 @@
 {
     "tier": {
         "Tier 1": 820,
-        "Tier 2": 850,
+        "Tier 2": 851,
         "Tier 3": 337,
         "Tier 4": 84,
-        "Unknown": 11
+        "Unknown": 10
     },
     "duration": {
         "1 Hours": 23,
         "2 Hours": 616,
-        "All Others": 219,
+        "All Others": 220,
         "4 Hours": 1476,
-        "8 Hours": 11,
-        "6 Hours": 52,
-        "Unknown": 62
+        "8 Hours": 12,
+        "6 Hours": 53,
+        "Unknown": 61
     },
     "campaign": {
-        "Forgotten Realms": 1943,
+        "Forgotten Realms": 1944,
         "Ravenloft": 48,
-        "Unknown": 37,
+        "Unknown": 36,
         "Eberron": 68,
         "Dragonlance": 20
     },
