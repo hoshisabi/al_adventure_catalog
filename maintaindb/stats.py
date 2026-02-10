@@ -215,6 +215,9 @@ def generate_stats():
         season: dict(seed_counts) 
         for season, seed_counts in stats['seed_by_season'].items()
     }
+    
+    # Add timestamp for cache busting
+    stats['timestamp'] = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
             
     with open(stats_output_path, 'w', encoding='utf-8') as f:
         json.dump(stats, f, indent=4, ensure_ascii=False)

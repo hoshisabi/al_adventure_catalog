@@ -40,7 +40,10 @@ async function initialize() {
         // Handle Private Inventory before or during catalog load
         await loadPrivateInventory();
 
-        const resp = await fetch(baseURL + 'catalog.json');
+        // Use a simple fetch. Browsers will use ETag/Last-Modified headers 
+        // to check if catalog.json has changed without re-downloading the whole file
+        // if the server (GitHub Pages) says it hasn't changed (304 Not Modified).
+        const resp = await fetch(`${baseURL}catalog.json`);
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         const data = await resp.json();
 
