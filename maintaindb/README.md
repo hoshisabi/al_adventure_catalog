@@ -93,3 +93,22 @@ The following modules are part of an alternative/refactored architecture but are
 
 *   `__init__.py`: Initializes the Python package.
 *   `cli.py`: CLI entry point for the maintaindb package (configured in `pyproject.toml`). Currently delegates to `process_downloads`.
+
+## Data Caution: `maintaindb/_dc` Directory
+
+**Important:** The `maintaindb/_dc` directory contains JSON files that are generated from various sources, including the DMsGuild RSS feed and manually processed HTML files. Some of these files, particularly those derived from older or manually processed data, may contain information that cannot be easily regenerated. Therefore, exercise extreme caution when modifying or deleting files within this directory. Always ensure a backup or Git restoration plan is in place before performing destructive operations.
+
+## Data Validation and Correction Process
+
+This process outlines the steps for validating and correcting adventure data:
+
+1.  **Generate Fixup HTML:** Run `generate_fixup_html.py` to produce a `fixup.html` page.
+2.  **Identify Problematic Entries:** Refresh the `fixup.html` page and visually identify problematic entries that need correction.
+3.  **Download New HTML:** For identified problematic entries, manually download the corresponding HTML files and place them in the `maintaindb/dmsguildinfo/` directory.
+4.  **Process Downloads:** Run the `maintaindb/process_downloads.py` script. This script will process the newly downloaded HTML files, extract metadata, and update the corresponding JSON files in the `maintaindb/_dc/` directory.
+5.  **Examine Product IDs (if needed):** If further diagnosis is required for specific product IDs:
+    *   Examine the `.json` file for that product ID in the `maintaindb/_dc/` directory.
+    *   Examine the corresponding HTML file in `maintaindb/dmsguildinfo/` (or `maintaindb/dmsguildinfo/processed/` if it has been moved).
+    *   Determine why settings are incorrect and make necessary code fixes (e.g., to `adventure.py`'s extraction logic).
+6.  **Troubleshooting Note:** When troubleshooting, HTML files can be freely moved from the `maintaindb/dmsguildinfo/processed/` subdirectory back into the `maintaindb/dmsguildinfo/` directory to force re-processing, and `maintaindb/process_downloads.py` can be run as needed. However, **do not** delete files in the `maintaindb/_dc/` directory without a backup.
+7.  **Repeat as Necessary:** This process (steps 4-5) may be repeated until the data for the problematic entries is correct.
