@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,133 +14,149 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="assets/favicon.ico">
 </head>
+
 <body class="bg-gray-50">
-<div class="container mx-auto px-4 py-8 max-w-screen-lg">
-    <h1 class="text-3xl font-bold mb-6">Adventure Filter</h1>
-    <div class="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-        <p><a href="stats.html" class="text-blue-500 hover:underline">View Statistics</a></p>
-        <p id="last-update-container" class="text-sm text-gray-500 hidden">Last update: <span id="last-update-date"></span></p>
-    </div>
-    
-    <div class="mb-4">
-        <button id="toggle-filters" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-            Show Filters
-        </button>
-    </div>
-    
-    <div id="filter-panel" class="mb-6 hidden">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-            <div>
-                <label for="campaign" class="block text-sm font-medium mb-2">Campaign</label>
-                <select id="campaign" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                    <option value="">All Campaigns</option>
-                </select>
-            </div>
-            
-            <div>
-                <label for="season" class="block text-sm font-medium mb-2">Season</label>
-                <select id="season" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                    <option value="">All Seasons</option>
-                </select>
-            </div>
-            
-            <div>
-                <label for="tier" class="block text-sm font-medium mb-2">Tier</label>
-                <select id="tier" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                    <option value="">All Tiers</option>
-                </select>
-            </div>
-            
-            <div>
-                <label for="hours" class="block text-sm font-medium mb-2">Hours</label>
-                <select id="hours" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                    <option value="">All Lengths</option>
-                </select>
-            </div>
-        </div>
-        
-        <div class="mb-6">
-            <label for="sort" class="block text-sm font-medium mb-2">Sort By</label>
-            <select id="sort" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <option value="title-asc">Title (A-Z)</option>
-                <option value="title-desc">Title (Z-A)</option>
-                <option value="code-asc">Code (A-Z)</option>
-                <option value="code-desc">Code (Z-A)</option>
-                <option value="date-desc" selected>Date (Newest First)</option>
-                <option value="date-asc">Date (Oldest First)</option>
-            </select>
+    <div class="container mx-auto px-4 py-8 max-w-screen-lg">
+        <h1 class="text-3xl font-bold mb-6">Adventure Filter</h1>
+        <div class="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <p>
+                <a href="stats.html" class="text-blue-500 hover:underline">View Statistics</a>
+                <span class="mx-2 text-gray-400">|</span>
+                <a href="inventory.html" class="text-blue-500 hover:underline">Manage Private Inventory</a>
+            </p>
+            <p id="last-update-container" class="text-sm text-gray-500 hidden">Last update: <span
+                    id="last-update-date"></span></p>
         </div>
 
-        <div class="mb-6">
-            <label for="search" class="block text-sm font-medium mb-2">Search</label>
-            <input type="search" id="search" placeholder="Search by title, code, or author..." 
-                   class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-        </div>
-
-        <div class="mb-6">
-            <label for="inventory-url" class="block text-sm font-medium mb-2">Private Inventory JSON URL (Optional)</label>
-            <div class="flex flex-wrap gap-2">
-                <input type="url" id="inventory-url" placeholder="https://hoshisabi.com/al_adventure_catalog/example_private_intentory.json" 
-                       class="flex-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <button id="save-inventory" class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">
-                    Apply
-                </button>
-                <button id="load-example-inventory" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400">
-                    Try Example
-                </button>
-            </div>
-            <p class="text-xs text-gray-500 mt-1">Provide a URL to a JSON file mapping Product IDs to your private links. <a href="private-inventory-guide/index.html" target="_blank" class="text-blue-500 hover:underline">How do I do this?</a></p>
-        </div>
-
-        <div class="mb-6 flex flex-wrap gap-4">
-            <label class="flex items-center space-x-2 cursor-pointer">
-                <input type="checkbox" id="private-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
-                <span class="text-sm font-medium text-green-700">Only show adventures in private inventory</span>
-            </label>
-            <label class="flex items-center space-x-2 cursor-pointer">
-                <input type="checkbox" id="cc-only" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
-                <span class="text-sm font-medium">Show Community Content only</span>
-            </label>
-            <label class="flex items-center space-x-2 cursor-pointer">
-                <input type="checkbox" id="show-product-id" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
-                <span class="text-sm font-medium">Show Product ID</span>
-            </label>
-        </div>
-    </div>
-
-    <div class="mb-6 flex items-center justify-end">
-        <div class="flex items-center space-x-2">
-            <span class="text-sm font-medium">View:</span>
-            <button id="view-card" class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle active">
-                Cards
-            </button>
-            <button id="view-grid" class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle">
-                Grid
+        <div class="mb-4">
+            <button id="toggle-filters"
+                class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                Show Filters
             </button>
         </div>
+
+        <div id="filter-panel" class="mb-6 hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                <div>
+                    <label for="campaign" class="block text-sm font-medium mb-2">Campaign</label>
+                    <select id="campaign"
+                        class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        <option value="">All Campaigns</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="season" class="block text-sm font-medium mb-2">Season</label>
+                    <select id="season"
+                        class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        <option value="">All Seasons</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="tier" class="block text-sm font-medium mb-2">Tier</label>
+                    <select id="tier"
+                        class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        <option value="">All Tiers</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="hours" class="block text-sm font-medium mb-2">Hours</label>
+                    <select id="hours"
+                        class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        <option value="">All Lengths</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <label for="sort" class="block text-sm font-medium mb-2">Sort By</label>
+                <select id="sort"
+                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <option value="title-asc">Title (A-Z)</option>
+                    <option value="title-desc">Title (Z-A)</option>
+                    <option value="code-asc">Code (A-Z)</option>
+                    <option value="code-desc">Code (Z-A)</option>
+                    <option value="date-desc" selected>Date (Newest First)</option>
+                    <option value="date-asc">Date (Oldest First)</option>
+                    <option value="id-asc">ID (Low-High)</option>
+                    <option value="id-desc">ID (High-Low)</option>
+                    <option value="tier-asc">Tier (Low-High)</option>
+                    <option value="tier-desc">Tier (High-Low)</option>
+                    <option value="hours-asc">Hours (Short-Long)</option>
+                    <option value="hours-desc">Hours (Long-Short)</option>
+                    <option value="campaign-asc">Campaign (A-Z)</option>
+                    <option value="campaign-desc">Campaign (Z-A)</option>
+                </select>
+            </div>
+
+            <div class="mb-6">
+                <label for="search" class="block text-sm font-medium mb-2">Search</label>
+                <input type="search" id="search" placeholder="Search by title, code, or author..."
+                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+            </div>
+
+
+
+            <div class="mb-6 flex flex-wrap gap-4">
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="checkbox" id="private-only"
+                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <span class="text-sm font-medium text-green-700">Only show adventures in private inventory</span>
+                </label>
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="checkbox" id="cc-only"
+                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <span class="text-sm font-medium">Show Community Content only</span>
+                </label>
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="checkbox" id="show-product-id"
+                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <span class="text-sm font-medium">Show Product ID</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="mb-6 flex items-center justify-end">
+            <div class="flex items-center space-x-2">
+                <span class="text-sm font-medium">View:</span>
+                <button id="view-card"
+                    class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle active">
+                    Cards
+                </button>
+                <button id="view-grid"
+                    class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle">
+                    Grid
+                </button>
+            </div>
+        </div>
+
+        <div id="results-info" class="text-sm text-gray-600 mb-4">
+            Showing <span id="showing-start">0</span>-<span id="showing-end">0</span> of <span
+                id="total-results">0</span> adventures
+        </div>
+
+        <div id="results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Results will be populated here -->
+        </div>
+
+        <div id="pagination" class="mt-6 flex justify-center items-center space-x-2">
+            <button id="prev-page"
+                class="px-5 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
+                Previous
+            </button>
+            <span id="page-info" class="text-sm text-gray-600">
+                Page <span id="current-page">1</span> of <span id="total-pages">1</span>
+            </span>
+            <button id="next-page"
+                class="px-5 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
+                Next
+            </button>
+        </div>
     </div>
 
-    <div id="results-info" class="text-sm text-gray-600 mb-4">
-        Showing <span id="showing-start">0</span>-<span id="showing-end">0</span> of <span id="total-results">0</span> adventures
-    </div>
-
-    <div id="results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Results will be populated here -->
-    </div>
-
-    <div id="pagination" class="mt-6 flex justify-center items-center space-x-2">
-        <button id="prev-page" class="px-5 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
-            Previous
-        </button>
-        <span id="page-info" class="text-sm text-gray-600">
-            Page <span id="current-page">1</span> of <span id="total-pages">1</span>
-        </span>
-        <button id="next-page" class="px-5 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
-            Next
-        </button>
-    </div>
-</div>
-
-<script src="assets/js/filter.js"></script>
+    <script src="assets/js/filter.js"></script>
 </body>
+
 </html>
