@@ -416,6 +416,14 @@ function displayResults() {
     document.getElementById('showing-end').textContent = end;
     document.getElementById('total-results').textContent = total;
 
+    // Bottom Stats
+    const ssb = document.getElementById('showing-start-bottom');
+    if (ssb) ssb.textContent = total > 0 ? start + 1 : 0;
+    const seb = document.getElementById('showing-end-bottom');
+    if (seb) seb.textContent = end;
+    const trb = document.getElementById('total-results-bottom');
+    if (trb) trb.textContent = total;
+
     updatePaginationUI();
 
     // Render
@@ -445,9 +453,10 @@ function createCard(adventure) {
     const authors = formatList(adventure.a) || 'N/A';
     const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
 
-    const productId = String(adventure.i).replace(/-\d+$/, '');
-    const url = adventure.u || `https://www.dmsguild.com/product/${productId}/?affiliate_id=171040`;
-    const privateLink = filters.privateLinks[adventure.i] || filters.privateLinks[productId];
+    const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
+    const displayProductId = String(adventure.i);
+    const url = adventure.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
+    const privateLink = filters.privateLinks[adventure.i] || filters.privateLinks[cleanProductId];
 
     card.innerHTML = `
         <div class="flex justify-between items-start">
@@ -495,13 +504,13 @@ function renderGridView(adventures, container) {
     table.innerHTML = `
         <thead class="bg-gray-100 text-xs uppercase text-gray-700">
             <tr>
-                ${showProductId ? `<th class="px-4 py-2 text-left border ${getSortClass('id')}" data-sort="id">ID <span class="ml-1">${getIcon('id')}</span></th>` : ''}
-                <th class="px-4 py-2 text-left border ${getSortClass('code')}" data-sort="code">Code <span class="ml-1">${getIcon('code')}</span></th>
+                ${showProductId ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('id')}" data-sort="id">ID <span class="ml-1">${getIcon('id')}</span></th>` : ''}
+                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('code')}" data-sort="code">Code <span class="ml-1">${getIcon('code')}</span></th>
                 <th class="px-4 py-2 text-left border ${getSortClass('title')}" data-sort="title">Title <span class="ml-1">${getIcon('title')}</span></th>
-                <th class="px-4 py-2 text-left border ${getSortClass('tier')}" data-sort="tier">Tier <span class="ml-1">${getIcon('tier')}</span></th>
-                <th class="px-4 py-2 text-left border ${getSortClass('hours')}" data-sort="hours">Hours <span class="ml-1">${getIcon('hours')}</span></th>
-                <th class="px-4 py-2 text-left border ${getSortClass('campaign')}" data-sort="campaign">Campaign <span class="ml-1">${getIcon('campaign')}</span></th>
-                <th class="px-4 py-2 text-left border ${getSortClass('date')}" data-sort="date">Added <span class="ml-1">${getIcon('date')}</span></th>
+                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('tier')}" data-sort="tier">Tier <span class="ml-1">${getIcon('tier')}</span></th>
+                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('hours')}" data-sort="hours">Hours <span class="ml-1">${getIcon('hours')}</span></th>
+                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('campaign')}" data-sort="campaign">Campaign <span class="ml-1">${getIcon('campaign')}</span></th>
+                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('date')}" data-sort="date">Added <span class="ml-1">${getIcon('date')}</span></th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -542,13 +551,14 @@ function renderGridView(adventures, container) {
         const row = document.createElement('tr');
         row.className = 'hover:bg-gray-50';
         const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
-        const productId = String(adv.i).replace(/-\d+$/, '');
-        const url = adv.u || `https://www.dmsguild.com/product/${productId}/?affiliate_id=171040`;
-        const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[productId];
+        const cleanProductId = String(adv.i).replace(/-\d+$/, '');
+        const displayProductId = String(adv.i);
+        const url = adv.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
+        const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[cleanProductId];
 
         row.innerHTML = `
-             ${showProductId ? `<td class="px-4 py-2 border text-sm">${productId}</td>` : ''}
-             <td class="px-4 py-2 border">${adv.c || ''}</td>
+             ${showProductId ? `<td class="px-4 py-2 border text-sm whitespace-nowrap">${displayProductId}</td>` : ''}
+             <td class="px-4 py-2 border whitespace-nowrap">${adv.c || ''}</td>
              <td class="px-4 py-2 border">
                 <div class="flex items-center justify-between">
                     <a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a>
@@ -561,10 +571,10 @@ function renderGridView(adventures, container) {
                     ` : ''}
                 </div>
              </td>
-             <td class="px-4 py-2 border">${adv.t !== null ? adv.t : ''}</td>
-             <td class="px-4 py-2 border">${formatHours(adv.h)}</td>
-             <td class="px-4 py-2 border">${formatCampaigns(adv.p)}</td>
-             <td class="px-4 py-2 border text-sm text-gray-500 italic">${dateAdded}</td>
+             <td class="px-4 py-2 border whitespace-nowrap">${adv.t !== null ? adv.t : ''}</td>
+             <td class="px-4 py-2 border whitespace-nowrap">${formatHours(adv.h)}</td>
+             <td class="px-4 py-2 border whitespace-nowrap">${formatCampaigns(adv.p)}</td>
+             <td class="px-4 py-2 border text-sm text-gray-500 italic whitespace-nowrap">${dateAdded}</td>
         `;
         tbody.appendChild(row);
     });
@@ -600,10 +610,28 @@ function formatSeason(season, code) {
 
 function updatePaginationUI() {
     const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
-    document.getElementById('current-page').textContent = currentPage;
-    document.getElementById('total-pages').textContent = totalPages;
-    document.getElementById('prev-page').disabled = currentPage === 1;
-    document.getElementById('next-page').disabled = currentPage === totalPages;
+
+    // Bottom
+    const cp = document.getElementById('current-page');
+    const tp = document.getElementById('total-pages');
+    const pp = document.getElementById('prev-page');
+    const np = document.getElementById('next-page');
+
+    if (cp) cp.textContent = currentPage;
+    if (tp) tp.textContent = totalPages;
+    if (pp) pp.disabled = currentPage === 1;
+    if (np) np.disabled = currentPage === totalPages;
+
+    // Top
+    const cpTop = document.getElementById('current-page-top');
+    const tpTop = document.getElementById('total-pages-top');
+    const ppTop = document.getElementById('prev-page-top');
+    const npTop = document.getElementById('next-page-top');
+
+    if (cpTop) cpTop.textContent = currentPage;
+    if (tpTop) tpTop.textContent = totalPages;
+    if (ppTop) ppTop.disabled = currentPage === 1;
+    if (npTop) npTop.disabled = currentPage === totalPages;
 }
 
 function setupEventListeners() {
@@ -621,6 +649,10 @@ function setupEventListeners() {
     });
 
     document.getElementById('prev-page')?.addEventListener('click', () => {
+        if (currentPage > 1) { currentPage--; displayResults(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    });
+
+    document.getElementById('prev-page-top')?.addEventListener('click', () => {
         if (currentPage > 1) { currentPage--; displayResults(); }
     });
 
@@ -643,6 +675,11 @@ function setupEventListeners() {
     });
 
     document.getElementById('next-page')?.addEventListener('click', () => {
+        const max = Math.ceil(filteredItems.length / itemsPerPage);
+        if (currentPage < max) { currentPage++; displayResults(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    });
+
+    document.getElementById('next-page-top')?.addEventListener('click', () => {
         const max = Math.ceil(filteredItems.length / itemsPerPage);
         if (currentPage < max) { currentPage++; displayResults(); }
     });
