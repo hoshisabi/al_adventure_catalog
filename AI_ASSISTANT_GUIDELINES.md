@@ -136,3 +136,14 @@ Get-ChildItem maintaindb/_dc/*.json | Select-Object -First 5
 **Remember**: This is a Windows PowerShell environment. When writing or suggesting commands, think "PowerShell" 
 not "bash" or "Unix shell".
 
+
+### 10. `jq` on Windows
+
+- When running `jq` commands with filters or complex expressions on Windows, it's often necessary to write the `jq` command to a temporary batch file (e.g., `temp_jq_command.bat`) and then execute the batch file. This helps bypass quoting issues with `cmd.exe`.
+- After running `maintaindb/aggregator.py`, verify the `catalog.json` file using `jq` to ensure the data is correctly aggregated and formatted. For example, to check the `hours` field for a specific adventure:
+  ```powershell
+  # Write command to batch file to avoid quoting issues
+  echo jq ".[] | select(.n == \"Your Adventure Title\") | .h" assets/data/catalog.json > temp_check.bat
+  .\temp_check.bat
+  del temp_check.bat
+  ```
