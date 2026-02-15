@@ -454,7 +454,6 @@ function createCard(adventure) {
     const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
 
     const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
-    const displayProductId = String(adventure.i);
     const url = adventure.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
     const privateLink = filters.privateLinks[adventure.i] || filters.privateLinks[cleanProductId];
 
@@ -552,12 +551,11 @@ function renderGridView(adventures, container) {
         row.className = 'hover:bg-gray-50';
         const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
-        const displayProductId = String(adv.i);
         const url = adv.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
         const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[cleanProductId];
 
         row.innerHTML = `
-             ${showProductId ? `<td class="px-4 py-2 border text-sm whitespace-nowrap">${displayProductId}</td>` : ''}
+             ${showProductId ? `<td class="px-4 py-2 border text-sm whitespace-nowrap">${cleanProductId}</td>` : ''}
              <td class="px-4 py-2 border whitespace-nowrap">${adv.c || ''}</td>
              <td class="px-4 py-2 border">
                 <div class="flex items-center justify-between">
@@ -697,6 +695,25 @@ function setupEventListeners() {
             toggleBtn.textContent = panel.classList.contains('hidden') ? 'Show Filters' : 'Hide Filters';
         });
     }
+
+    // Listen for storage changes from other tabs (like the inventory manager)
+    window.addEventListener('storage', (e) => {
+        if (e.key === 'private_inventory') {
+            console.log('Private inventory updated in another tab/window. Refreshing links...');
+            if (e.newValue) {
+                try {
+                    filters.privateLinks = JSON.parse(e.newValue);
+                } catch (err) {
+                    console.error('Failed to parse updated private inventory:', err);
+                    filters.privateLinks = {};
+                }
+            } else {
+                filters.privateLinks = {};
+            }
+            applyFilters();
+            displayResults();
+        }
+    });
 }
 
 function updateViewToggleButtons() {

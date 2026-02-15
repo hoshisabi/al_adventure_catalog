@@ -547,6 +547,15 @@
                 if (confirm("Are you sure you want to clear ALL private inventory data from this browser? This cannot be undone.")) {
                     inventoryData = {};
                     saveData();
+                    // Also clear inventory_url cookie to be thorough
+                    document.cookie = "inventory_url=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                    // Clear memory cache in filter.js if it's already loaded
+                    if (window.opener && window.opener.filters) {
+                        window.opener.filters.privateLinks = {};
+                        if (typeof window.opener.displayResults === 'function') {
+                            window.opener.displayResults();
+                        }
+                    }
                     alert("Data cleared.");
                 }
             });
