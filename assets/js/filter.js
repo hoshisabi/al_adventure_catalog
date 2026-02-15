@@ -74,19 +74,19 @@ async function initialize() {
         setupEventListeners();
         updateViewToggleButtons();
 
-    // Apply filters from URL if present, then run filter logic
-    applyFiltersFromURL();
+        // Apply filters from URL if present, then run filter logic
+        applyFiltersFromURL();
 
-} catch (err) {
-    console.error('Failed to initialize:', err);
-    document.getElementById('results').innerHTML = `<div class="p-4 text-red-600">Error loading catalog: ${err.message}</div>`;
-}
+    } catch (err) {
+        console.error('Failed to initialize:', err);
+        document.getElementById('results').innerHTML = `<div class="p-4 text-red-600">Error loading catalog: ${err.message}</div>`;
+    }
 }
 
 async function loadPrivateInventory() {
     const params = new URLSearchParams(window.location.search);
     let invURL = params.get('inventory');
-    
+
     // Check cookie if URL param is missing
     if (!invURL) {
         const cookieValue = document.cookie
@@ -103,11 +103,24 @@ async function loadPrivateInventory() {
             const resp = await fetch(invURL);
             if (resp.ok) {
                 filters.privateLinks = await resp.json();
-                console.log(`Loaded ${Object.keys(filters.privateLinks).length} private links.`);
+                console.log(`Loaded ${Object.keys(filters.privateLinks).length} private links from URL.`);
             }
         } catch (e) {
             console.warn('Failed to load private inventory:', e);
         }
+    }
+
+    // Load from Local Storage and Merge
+    try {
+        const localRaw = localStorage.getItem('private_inventory');
+        if (localRaw) {
+            const localData = JSON.parse(localRaw);
+            // Merge: local overwrites remote if there's a conflict
+            filters.privateLinks = { ...filters.privateLinks, ...localData };
+            console.log(`Merged ${Object.keys(localData).length} items from Local Storage.`);
+        }
+    } catch (e) {
+        console.warn('Failed to load private inventory from Local Storage:', e);
     }
 }
 
@@ -209,8 +222,7 @@ function applyFiltersFromURL() {
     if (sortEl) sortEl.value = sortBy || 'date-desc';
     const searchEl = document.getElementById('search');
     if (searchEl) searchEl.value = filters.search || '';
-    const inventoryEl = document.getElementById('inventory-url');
-    if (inventoryEl) inventoryEl.value = filters.inventoryURL || '';
+
     const ccOnlyEl = document.getElementById('cc-only');
     if (ccOnlyEl) ccOnlyEl.checked = filters.ccOnly || false;
     const privateOnlyEl = document.getElementById('private-only');
@@ -345,11 +357,34 @@ function applyFilters() {
         } else if (field === 'code') {
             valA = (a.c || '').toLowerCase();
             valB = (b.c || '').toLowerCase();
+        } else if (field === 'id') {
+            // Sort by numerical ID
+            // Strip suffix if present
+            const cleanId = (i) => parseInt(String(i).split('-')[0]) || 0;
+            valA = cleanId(a.i);
+            valB = cleanId(b.i);
+        } else if (field === 'tier') {
+            valA = (a.t !== null && a.t !== undefined) ? Number(a.t) : -1;
+            valB = (b.t !== null && b.t !== undefined) ? Number(b.t) : -1;
+        } else if (field === 'hours') {
+            // Average hours? Or just start?
+            // Format: "4", "2-4" -> take first number
+            const getH = (h) => {
+                if (!h) return 0;
+                if (Array.isArray(h)) return parseInt(h[0]) || 0;
+                return parseInt(String(h).match(/\d+/)) || 0;
+            };
+            valA = getH(a.h);
+            valB = getH(b.h);
+        } else if (field === 'campaign') {
+            // Sort by campaign name
+            valA = formatCampaigns(a.p).toLowerCase();
+            valB = formatCampaigns(b.p).toLowerCase();
         }
 
         if (valA < valB) return dir === 'asc' ? -1 : 1;
         if (valA > valB) return dir === 'asc' ? 1 : -1;
-        
+
         // Secondary sort by title if dates/codes are equal
         if (field !== 'title') {
             let titleA = (a.n || '').toLowerCase();
@@ -446,20 +481,61 @@ function renderGridView(adventures, container) {
 
     const showProductId = filters.showProductId;
 
+    // Helper for header sort class
+    const getSortClass = (col) => {
+        if (!sortBy.startsWith(col)) return 'cursor-pointer hover:bg-gray-200 select-none';
+        return 'cursor-pointer bg-gray-200 hover:bg-gray-300 select-none';
+    };
+
+    const getIcon = (col) => {
+        if (!sortBy.startsWith(col)) return '↕';
+        return sortBy.endsWith('asc') ? '↑' : '↓';
+    };
+
     table.innerHTML = `
-        <thead class="bg-gray-100">
+        <thead class="bg-gray-100 text-xs uppercase text-gray-700">
             <tr>
-                ${showProductId ? '<th class="px-4 py-2 text-left border">ID</th>' : ''}
-                <th class="px-4 py-2 text-left border">Code</th>
-                <th class="px-4 py-2 text-left border">Title</th>
-                <th class="px-4 py-2 text-left border">Tier</th>
-                <th class="px-4 py-2 text-left border">Hours</th>
-                <th class="px-4 py-2 text-left border">Campaign</th>
-                <th class="px-4 py-2 text-left border">Added</th>
+                ${showProductId ? `<th class="px-4 py-2 text-left border ${getSortClass('id')}" data-sort="id">ID <span class="ml-1">${getIcon('id')}</span></th>` : ''}
+                <th class="px-4 py-2 text-left border ${getSortClass('code')}" data-sort="code">Code <span class="ml-1">${getIcon('code')}</span></th>
+                <th class="px-4 py-2 text-left border ${getSortClass('title')}" data-sort="title">Title <span class="ml-1">${getIcon('title')}</span></th>
+                <th class="px-4 py-2 text-left border ${getSortClass('tier')}" data-sort="tier">Tier <span class="ml-1">${getIcon('tier')}</span></th>
+                <th class="px-4 py-2 text-left border ${getSortClass('hours')}" data-sort="hours">Hours <span class="ml-1">${getIcon('hours')}</span></th>
+                <th class="px-4 py-2 text-left border ${getSortClass('campaign')}" data-sort="campaign">Campaign <span class="ml-1">${getIcon('campaign')}</span></th>
+                <th class="px-4 py-2 text-left border ${getSortClass('date')}" data-sort="date">Added <span class="ml-1">${getIcon('date')}</span></th>
             </tr>
         </thead>
         <tbody></tbody>
     `;
+
+    // Header Click Listeners
+    table.querySelectorAll('th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+            const col = th.dataset.sort;
+            let newDir = 'asc';
+            if (sortBy.startsWith(col) && sortBy.endsWith('asc')) {
+                newDir = 'desc';
+            }
+            sortBy = `${col}-${newDir}`;
+
+            // Sync Dropdown if it matches one of the options
+            const sortDropdown = document.getElementById('sort');
+            if (sortDropdown) {
+                // Try to find an option with this value
+                const option = sortDropdown.querySelector(`option[value="${sortBy}"]`);
+                if (option) {
+                    sortDropdown.value = sortBy;
+                } else {
+                    // If no exact match in dropdown (e.g. tier/hours), maybe set to empty or custom?
+                    // For now, we just leave it or let it desync since dropdown is limited.
+                    // Or we could dynamically add options? 
+                    // Let's just update the internal state and UI.
+                }
+            }
+
+            applyFilters();
+            updateURLFromFilters();
+        });
+    });
 
     const tbody = table.querySelector('tbody');
     adventures.forEach(adv => {
@@ -469,7 +545,7 @@ function renderGridView(adventures, container) {
         const productId = String(adv.i).replace(/-\d+$/, '');
         const url = adv.u || `https://www.dmsguild.com/product/${productId}/?affiliate_id=171040`;
         const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[productId];
-        
+
         row.innerHTML = `
              ${showProductId ? `<td class="px-4 py-2 border text-sm">${productId}</td>` : ''}
              <td class="px-4 py-2 border">${adv.c || ''}</td>
@@ -573,54 +649,8 @@ function setupEventListeners() {
 
     document.getElementById('view-card')?.addEventListener('click', () => { viewMode = 'card'; updateViewToggleButtons(); displayResults(); });
     document.getElementById('view-grid')?.addEventListener('click', () => { viewMode = 'grid'; updateViewToggleButtons(); displayResults(); });
-    
-    document.getElementById('load-example-inventory')?.addEventListener('click', () => {
-        const exampleURL = window.location.origin + (baseURL.startsWith('/') ? '' : '/') + baseURL.replace('assets/data/', 'al_adventure_catalog/') + 'example_private_intentory.json';
-        const input = document.getElementById('inventory-url');
-        if (input) {
-            input.value = exampleURL;
-            
-            // Helpful hint for the user
-            alert("Example inventory loaded! Select '1 - Tyranny of Dragons' in the Season filter to see the green private PDF links.");
-            
-            // Auto-select Season 1 to show the markers
-            const seasonEl = document.getElementById('season');
-            if (seasonEl) {
-                // We need to find the option that starts with "1"
-                for (let i = 0; i < seasonEl.options.length; i++) {
-                    if (seasonEl.options[i].value.startsWith("1 -")) {
-                        seasonEl.value = seasonEl.options[i].value;
-                        filters.season = seasonEl.value;
-                        break;
-                    }
-                }
-            }
-            
-            // Optionally trigger the apply logic immediately
-            document.getElementById('save-inventory')?.click();
-        }
-    });
 
-    document.getElementById('save-inventory')?.addEventListener('click', () => {
-        const url = document.getElementById('inventory-url')?.value.trim();
-        if (url) {
-            // Set cookie for 1 year
-            const expires = new Date();
-            expires.setFullYear(expires.getFullYear() + 1);
-            document.cookie = `inventory_url=${encodeURIComponent(url)}; expires=${expires.toUTCString()}; path=/; SameSite=Lax`;
-            
-            // Reload page to apply
-            const params = new URLSearchParams(window.location.search);
-            params.set('inventory', url);
-            window.location.search = params.toString();
-        } else {
-            // Clear cookie
-            document.cookie = `inventory_url=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-            const params = new URLSearchParams(window.location.search);
-            params.delete('inventory');
-            window.location.search = params.toString();
-        }
-    });
+
 
     const toggleBtn = document.getElementById('toggle-filters');
     const panel = document.getElementById('filter-panel');

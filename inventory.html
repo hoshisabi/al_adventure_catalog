@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Private Inventory Manager</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto px-4 py-8 max-w-screen-lg">
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-3xl font-bold">Private Inventory Manager</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium">&larr; Back to Catalog</a>
+        </div>
+
+        <!-- Status Overview -->
+        <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4 border-b pb-2">Storage Status</h2>
+            <div class="flex items-center space-x-4">
+                <div class="text-4xl font-bold text-blue-600" id="item-count">0</div>
+                <div class="text-gray-600">items currently in Local Storage</div>
+            </div>
+            <div class="mt-4 flex space-x-3">
+                <button id="clear-data-btn"
+                    class="px-4 py-2 bg-red-100 text-red-700 rounded hover:bg-red-200 transition-colors">
+                    Clear All Data
+                </button>
+                <button id="export-csv-btn"
+                    class="px-4 py-2 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors">
+                    Export CSV
+                </button>
+                <button id="export-data-btn"
+                    class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200 transition-colors">
+                    Export JSON
+                </button>
+            </div>
+        </div>
+
+        <!-- Import Section -->
+        <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4 border-b pb-2">Import Inventory</h2>
+            <p class="text-gray-600 mb-4">
+                Upload one or more <code>.json</code> or <code>.csv</code> files.
+            </p>
+            <p class="text-sm text-gray-500 mb-4 italic">
+                JSON: Object with Product ID keys and URL values.<br>
+                CSV: Two columns - Product ID, URL. (Header row is optional/skipped if present).
+            </p>
+
+            <div class="flex items-center justify-center w-full">
+                <label for="file-upload"
+                    class="flex flex-col items-center justify-center w-full h-32 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
+                    <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                        <svg class="w-8 h-8 mb-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 16">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
+                        </svg>
+                        <p class="mb-2 text-sm text-gray-500"><span class="font-semibold">Click to upload</span> or drag
+                            and drop</p>
+                        <p class="text-xs text-gray-500">JSON or CSV files</p>
+                    </div>
+                    <input id="file-upload" type="file" multiple accept=".json,.csv" class="hidden" />
+                </label>
+            </div>
+            <div id="upload-status" class="mt-4 text-sm font-medium"></div>
+
+            <div class="mt-8 border-t pt-6">
+                <h3 class="text-lg font-medium mb-3">Or Import from URL</h3>
+                <div class="flex flex-wrap gap-2">
+                    <input type="url" id="import-url" placeholder="https://example.com/inventory.json"
+                        class="flex-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <button id="import-url-btn"
+                        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        Import URL
+                    </button>
+                    <button id="try-example-btn"
+                        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                        Try Example
+                    </button>
+                </div>
+                <p class="text-xs text-gray-500 mt-2">Fetches JSON from the URL and merges it into your local storage.
+                    Note: The URL must support CORS (Cross-Origin Resource Sharing).</p>
+            </div>
+        </div>
+
+        <!-- Add/Edit Section -->
+        <div id="edit-section" class="bg-white rounded-xl shadow-md p-6 mb-8 scroll-mt-6">
+            <h2 class="text-xl font-semibold mb-4 border-b pb-2">Add or Edit Item</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div>
+                    <label for="manual-search" class="block text-sm font-medium mb-1">Find Adventure (Title or
+                        Code)</label>
+                    <input type="text" id="manual-search" list="adventure-list" placeholder="Type to search..."
+                        class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <datalist id="adventure-list">
+                        <!-- Populated by JS -->
+                    </datalist>
+                </div>
+                <div>
+                    <label for="manual-id" class="block text-sm font-medium mb-1">Product ID</label>
+                    <input type="text" id="manual-id" readonly placeholder="Auto-filled..."
+                        class="w-full p-3 border border-gray-300 rounded-md bg-gray-100 text-gray-500 cursor-not-allowed">
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="manual-link" class="block text-sm font-medium mb-1">Private Link / URL</label>
+                <div class="flex gap-2">
+                    <input type="url" id="manual-link" placeholder="https://..."
+                        class="flex-1 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <button id="test-link-btn" type="button"
+                        class="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                        title="Open Link in New Tab">
+                        Test
+                    </button>
+                </div>
+            </div>
+            <div class="flex items-center justify-between">
+                <button id="manual-delete-btn"
+                    class="px-4 py-2 bg-red-100 text-red-700 rounded-md hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-red-500 hidden">
+                    Delete Item
+                </button>
+                <div class="flex items-center">
+                    <div id="manual-status" class="mr-4 text-sm font-medium"></div>
+                    <button id="manual-add-btn"
+                        class="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+                        Save to Inventory
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Viewer -->
+        <div class="bg-white rounded-xl shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-4 border-b pb-2">Current Inventory Data</h2>
+            <div class="flex justify-between items-center mb-4">
+                <input type="text" id="search-inventory" placeholder="Search ID or URL..."
+                    class="border rounded px-3 py-2 text-sm w-full md:w-1/3">
+                <div class="text-sm text-gray-500" id="visible-count"></div>
+            </div>
+            <div class="overflow-x-auto max-h-96 overflow-y-auto border rounded">
+                <table class="w-full text-sm text-left text-gray-500">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-100 sticky top-0">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 border-b w-32 cursor-pointer hover:bg-gray-200 select-none"
+                                data-sort="id">
+                                Product ID <span class="sort-icon ml-1">↕</span>
+                            </th>
+                            <th scope="col" class="px-6 py-3 border-b w-32 cursor-pointer hover:bg-gray-200 select-none"
+                                data-sort="code">
+                                Code <span class="sort-icon ml-1">↕</span>
+                            </th>
+                            <th scope="col" class="px-6 py-3 border-b cursor-pointer hover:bg-gray-200 select-none"
+                                data-sort="title">
+                                Title <span class="sort-icon ml-1">↕</span>
+                            </th>
+                            <th scope="col"
+                                class="px-6 py-3 border-b w-1/4 cursor-pointer hover:bg-gray-200 select-none"
+                                data-sort="url">
+                                Private Link / URL <span class="sort-icon ml-1">↕</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="inventory-table-body">
+                        <!-- Rows generated by JS -->
+                        <tr class="bg-white border-b hover:bg-gray-50">
+                            <td colspan="3" class="px-6 py-4 text-center">Loading...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const STORAGE_KEY = 'private_inventory';
+        let inventoryData = {};
+        let catalogMap = {};
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            loadData();
+            await loadCatalog(); // Load catalog for metadata
+            renderTable();       // Re-render with metadata
+            setupEventListeners();
+        });
+
+        async function loadCatalog() {
+            try {
+                const resp = await fetch('assets/data/catalog.json');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    const adventures = Array.isArray(data.adventures) ? data.adventures : data;
+
+                    // Build a map for fast lookup: item_id -> adventure_object
+                    adventures.forEach(adv => {
+                        // Catalog Ids are often "12345-slug", but inventory might just be "12345" or matching
+                        // We'll map both specific ID and productId
+                        if (adv.i) catalogMap[adv.i] = adv;
+                        const pid = String(adv.i).replace(/-\d+$/, '');
+                        catalogMap[pid] = adv;
+                    });
+                    console.log(`Loaded metadata for ${adventures.length} adventures.`);
+                }
+            } catch (e) {
+                console.warn("Could not load catalog metadata:", e);
+            }
+        }
+
+        function loadData() {
+            try {
+                const raw = localStorage.getItem(STORAGE_KEY);
+                if (raw) {
+                    inventoryData = JSON.parse(raw);
+                } else {
+                    inventoryData = {};
+                }
+            } catch (e) {
+                console.error("Failed to parse local storage:", e);
+                inventoryData = {};
+            }
+            renderTable();
+            updateStatus();
+        }
+
+        function saveData() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(inventoryData));
+            updateStatus();
+            renderTable();
+        }
+
+        function updateStatus() {
+            const count = Object.keys(inventoryData).length;
+            document.getElementById('item-count').textContent = count;
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('inventory-table-body');
+            const searchTerm = document.getElementById('search-inventory').value.toLowerCase();
+
+            tbody.innerHTML = '';
+
+            tbody.innerHTML = '';
+
+            // Header is now static in HTML, no need to dynamically insert columns.
+
+            const keys = Object.keys(inventoryData).sort();
+            let visible = 0;
+
+            keys.forEach(key => {
+                const url = inventoryData[key];
+
+                // Metadata Lookup
+                const meta = catalogMap[key] || {};
+                const title = meta.n || '(Unknown Title)';
+                const code = meta.c || '';
+
+                if (searchTerm &&
+                    !key.toLowerCase().includes(searchTerm) &&
+                    !url.toLowerCase().includes(searchTerm) &&
+                    !title.toLowerCase().includes(searchTerm) &&
+                    !code.toLowerCase().includes(searchTerm)
+                ) {
+                    return;
+                }
+                visible++;
+
+                const tr = document.createElement('tr');
+                tr.className = 'bg-white border-b hover:bg-blue-50 cursor-pointer transition-colors';
+                tr.dataset.id = key; // Store ID for click handler
+
+                tr.innerHTML = `
+                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${key}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-gray-600">${code}</td>
+                <td class="px-6 py-4 text-gray-800 font-medium">${title}</td>
+                <td class="px-6 py-4 truncate max-w-xs" title="${url}">
+                    <span class="text-blue-600 hover:underline">${url}</span>
+                </td>
+            `;
+                tbody.appendChild(tr);
+            });
+
+            if (visible === 0) {
+                tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-gray-500">No data found</td></tr>`;
+            }
+
+            document.getElementById('visible-count').textContent = `Showing ${visible} of ${keys.length}`;
+
+            // Attach Click Listeners to Rows
+            tbody.querySelectorAll('tr').forEach(tr => {
+                tr.addEventListener('click', () => {
+                    const id = tr.dataset.id;
+                    if (id && inventoryData[id]) {
+                        // Populate Form
+                        populateEditForm(id);
+                        // Scroll to form
+                        document.getElementById('edit-section').scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        }
+
+        function populateEditForm(id) {
+            const manualSearch = document.getElementById('manual-search');
+            const manualId = document.getElementById('manual-id');
+            const manualLink = document.getElementById('manual-link');
+            const deleteBtn = document.getElementById('manual-delete-btn');
+            const manualStatus = document.getElementById('manual-status');
+
+            // 1. Fill ID and Link
+            manualId.value = id;
+            manualLink.value = inventoryData[id] || '';
+
+            // 2. Fill Search with formatted title logic
+            // We need to reverse lookup or just construct it from catalogMap if we have it
+            // catalogMap is keyed by ID (and simple ID)
+            const adv = catalogMap[id];
+            if (adv) {
+                const codeStr = adv.c ? ` (${adv.c})` : '';
+                manualSearch.value = `${adv.n || 'Untitled'}${codeStr}`;
+                // Note: We don't strictly need [ID: ...] suffix for the input value if we already set manualId,
+                // but the input event listener might clear manualId if it doesn't match?
+                // Let's check the input listener logic. 
+                // The listener clears manualId if matches fail. 
+                // So we should probably set it to something that won't trigger a clear, or update the listener.
+                // Actually the listener only runs on 'input' event (typing), not when we set value programmatically.
+                // So we are safe setting value here.
+            } else {
+                manualSearch.value = id; // Fallback
+            }
+
+            // 3. Show Delete Button
+            deleteBtn.classList.remove('hidden');
+
+            // 4. Status update
+            manualStatus.textContent = "Loaded item for editing.";
+            manualStatus.className = "mr-4 text-sm font-medium text-blue-600";
+            setTimeout(() => { manualStatus.textContent = ''; }, 2000);
+        }
+
+        function setupEventListeners() {
+            // Manual Entry Logic
+            const manualSearch = document.getElementById('manual-search');
+            const manualId = document.getElementById('manual-id');
+            const manualLink = document.getElementById('manual-link');
+            const manualAddBtn = document.getElementById('manual-add-btn');
+            const manualStatus = document.getElementById('manual-status');
+
+            // Populate Datalist dynamically
+            const datalist = document.getElementById('adventure-list');
+
+            const updateDatalist = (searchTerm) => {
+                datalist.innerHTML = '';
+                const titleLower = searchTerm.toLowerCase();
+
+                // Filter catalog
+                const matches = Object.values(catalogMap).filter(adv => {
+                    const n = (adv.n || '').toLowerCase();
+                    const c = (adv.c || '').toLowerCase();
+                    const id = String(adv.i);
+                    return n.includes(titleLower) || c.includes(titleLower) || id.includes(titleLower);
+                });
+
+                // Limit result size for performance (e.g., top 50)
+                const limitedMatches = matches.slice(0, 50);
+
+                limitedMatches.forEach(adv => {
+                    const opt = document.createElement('option');
+                    // Format: "Title (Code) [ID]"
+                    const codeStr = adv.c ? ` (${adv.c})` : '';
+                    const cleanId = String(adv.i).replace(/-\d+$/, '');
+                    opt.value = `${adv.n || 'Untitled'}${codeStr} [ID: ${cleanId}]`;
+                    datalist.appendChild(opt);
+                });
+            };
+
+            // Input Event
+            manualSearch.addEventListener('input', (e) => {
+                const val = e.target.value;
+
+                // 1. Update Datalist if enough chars
+                if (val.length >= 3) {
+                    // Debounce? For now, direct update might be fast enough for local array
+                    updateDatalist(val);
+                } else {
+                    datalist.innerHTML = '';
+                }
+
+                // 2. Try to extract [ID: 12345]
+                const match = val.match(/\[ID:\s*(\d+)\]/);
+                let selectedId = null;
+
+                if (match) {
+                    selectedId = match[1];
+                    manualId.value = selectedId;
+                } else {
+                    // Maybe user typed ID directly?
+                    if (catalogMap[val]) {
+                        selectedId = String(catalogMap[val].i).replace(/-\d+$/, '');
+                        manualId.value = selectedId;
+                    } else {
+                        manualId.value = '';
+                    }
+                }
+            });
+
+            const deleteBtn = document.getElementById('manual-delete-btn');
+            const testLinkBtn = document.getElementById('test-link-btn');
+
+            // Test Button
+            testLinkBtn.addEventListener('click', () => {
+                const url = manualLink.value.trim();
+                console.log("Testing URL:", url); // Debug
+                if (url) {
+                    window.open(url, '_blank');
+                } else {
+                    manualStatus.textContent = "Please enter a URL to test.";
+                    manualStatus.className = "mr-4 text-sm font-medium text-orange-600";
+                    setTimeout(() => { manualStatus.textContent = ''; }, 3000);
+                }
+            });
+
+            // Add Button
+            manualAddBtn.addEventListener('click', () => {
+                const id = manualId.value.trim();
+                const link = manualLink.value.trim();
+
+                if (!id) {
+                    manualStatus.textContent = "Please select an adventure/ID.";
+                    manualStatus.className = "mr-4 text-sm font-medium text-red-600";
+                    return;
+                }
+                if (!link) {
+                    manualStatus.textContent = "Please enter a valid link.";
+                    manualStatus.className = "mr-4 text-sm font-medium text-red-600";
+                    return;
+                }
+
+                // Add/Update inventory
+                inventoryData[id] = link;
+                saveData();
+
+                // Keep the form filled? Or clear? 
+                // Usually nicer to clear after save to indicate completion, or keep for further edits?
+                // Let's clear to allow adding next item easily.
+                resetEditForm();
+
+                manualStatus.textContent = "Item saved successfully!";
+                manualStatus.className = "mr-4 text-sm font-medium text-green-600";
+                setTimeout(() => { manualStatus.textContent = ''; }, 3000);
+            });
+
+            // Delete Button
+            deleteBtn.addEventListener('click', () => {
+                const id = manualId.value.trim();
+                if (!id || !inventoryData[id]) return;
+
+                if (confirm(`Are you sure you want to delete item ${id} from your inventory?`)) {
+                    delete inventoryData[id];
+                    saveData();
+                    resetEditForm();
+                    manualStatus.textContent = "Item deleted.";
+                    manualStatus.className = "mr-4 text-sm font-medium text-red-600";
+                    setTimeout(() => { manualStatus.textContent = ''; }, 3000);
+                }
+            });
+
+            function resetEditForm() {
+                manualSearch.value = '';
+                manualId.value = '';
+                manualLink.value = '';
+                deleteBtn.classList.add('hidden');
+                datalist.innerHTML = ''; // Request to clear datalist?
+            }
+
+
+
+
+            // URL Import
+            const importUrlBtn = document.getElementById('import-url-btn');
+            const importUrlInput = document.getElementById('import-url');
+
+            async function handleUrlImport(url) {
+                const statusEl = document.getElementById('upload-status');
+                statusEl.textContent = `Fetching from URL...`;
+                statusEl.className = 'mt-4 text-sm font-medium text-blue-600';
+
+                try {
+                    const resp = await fetch(url);
+                    if (!resp.ok) throw new Error(`HTTP Error ${resp.status}`);
+
+                    const json = await resp.json();
+                    if (typeof json !== 'object' || json === null) {
+                        throw new Error('Invalid JSON format');
+                    }
+
+                    let updatedCount = 0;
+                    for (const [id, link] of Object.entries(json)) {
+                        if (id && link) {
+                            inventoryData[id] = link;
+                            updatedCount++;
+                        }
+                    }
+
+                    saveData();
+                    statusEl.textContent = `Success! Merged ${updatedCount} items from URL.`;
+                    statusEl.className = 'mt-4 text-sm font-medium text-green-600';
+                    importUrlInput.value = ''; // Clear input
+                } catch (err) {
+                    console.error("Import failed:", err);
+                    statusEl.textContent = `Import failed: ${err.message}`;
+                    statusEl.className = 'mt-4 text-sm font-medium text-red-600';
+                }
+
+                setTimeout(() => { statusEl.textContent = ''; }, 5000);
+            }
+
+            importUrlBtn.addEventListener('click', () => {
+                const url = importUrlInput.value.trim();
+                if (url) handleUrlImport(url);
+            });
+
+            document.getElementById('try-example-btn').addEventListener('click', () => {
+                // Construct example URL relative to current location
+                // Assuming structure: /assets/data/ -> /al_adventure_catalog/example_private_intentory.json
+                // Or just hardcode the known path if simpler, but relative is safer for local/prod diffs
+                // Let's deduce it from window.location
+                let baseUrl = window.location.href.substring(0, window.location.href.lastIndexOf('/'));
+                // If running locally or on github pages, try to find the file
+                const exampleUrl = "https://hoshisabi.github.io/al_adventure_catalog/example_private_intentory.json";
+
+                importUrlInput.value = exampleUrl;
+                handleUrlImport(exampleUrl);
+            });
+
+            // Clear Data
+            document.getElementById('clear-data-btn').addEventListener('click', () => {
+                if (confirm("Are you sure you want to clear ALL private inventory data from this browser? This cannot be undone.")) {
+                    inventoryData = {};
+                    saveData();
+                    alert("Data cleared.");
+                }
+            });
+
+            // Export JSON
+            document.getElementById('export-data-btn').addEventListener('click', () => {
+                const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(inventoryData, null, 2));
+                const downloadAnchorNode = document.createElement('a');
+                downloadAnchorNode.setAttribute("href", dataStr);
+                downloadAnchorNode.setAttribute("download", "private_inventory_backup.json");
+                document.body.appendChild(downloadAnchorNode);
+                downloadAnchorNode.click();
+                downloadAnchorNode.remove();
+            });
+
+            // Export CSV
+            document.getElementById('export-csv-btn').addEventListener('click', () => {
+                // Header
+                let csvContent = "data:text/csv;charset=utf-8,Product ID,Private Link\n";
+
+                // Rows
+                Object.keys(inventoryData).forEach(key => {
+                    // Escape logic if needed, but IDs and URLs are usually safe.
+                    // Simple structure: key,value
+                    csvContent += `${key},${inventoryData[key]}\n`;
+                });
+
+                const encodedUri = encodeURI(csvContent);
+                const link = document.createElement("a");
+                link.setAttribute("href", encodedUri);
+                link.setAttribute("download", "private_inventory.csv");
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+            });
+
+            // File Upload (JSON & CSV)
+            const fileInput = document.getElementById('file-upload');
+            fileInput.addEventListener('change', async (e) => {
+                const files = e.target.files;
+                if (!files.length) return;
+
+                const statusEl = document.getElementById('upload-status');
+                statusEl.textContent = `Processing ${files.length} file(s)...`;
+                statusEl.className = 'mt-4 text-sm font-medium text-blue-600';
+
+                let updatedCount = 0;
+                let errorCount = 0;
+
+                for (const file of files) {
+                    try {
+                        const text = await file.text();
+
+                        if (file.name.toLowerCase().endsWith('.json')) {
+                            // JSON Handler
+                            const json = JSON.parse(text);
+                            if (typeof json !== 'object' || json === null) {
+                                throw new Error('Invalid JSON format');
+                            }
+                            for (const [id, url] of Object.entries(json)) {
+                                if (id && url) {
+                                    inventoryData[id] = url;
+                                    updatedCount++;
+                                }
+                            }
+                        } else if (file.name.toLowerCase().endsWith('.csv')) {
+                            // CSV Handler
+                            const lines = text.split(/\r\n|\n/);
+                            if (lines.length === 0) return;
+
+                            // 1. Detect Headers
+                            const potentialHeaders = lines[0].split(',').map(h => h.trim().toLowerCase().replace(/['"]+/g, ''));
+
+                            let idIndex = -1;
+                            let urlIndex = -1;
+
+                            const idKeywords = ['productid', 'product id', 'product_id', 'id', 'itemid', 'item_id'];
+                            const urlKeywords = ['privatelink', 'private link', 'url', 'link', 'download', 'website'];
+
+                            // Helper to find index
+                            const findIndex = (keywords) => potentialHeaders.findIndex(h => keywords.includes(h));
+                            const findIndexPartial = (keywords) => potentialHeaders.findIndex(h => keywords.some(k => h.includes(k)));
+
+                            idIndex = findIndex(idKeywords);
+                            urlIndex = findIndex(urlKeywords);
+
+                            // fallback to partial matching if exact fail
+                            if (idIndex === -1) idIndex = findIndexPartial(idKeywords);
+                            if (urlIndex === -1) urlIndex = findIndexPartial(urlKeywords);
+
+                            // 2. Determine Start Row
+                            let startRow = 1; // Assume row 0 is header if we found matches
+
+                            // Fallback: If no headers found, assume raw data (Col 0 = ID, Col 1 = URL)
+                            if (idIndex === -1 && urlIndex === -1 && lines.length > 0) {
+                                idIndex = 0;
+                                urlIndex = 1;
+                                startRow = 0; // No header row to skip
+                            } else {
+                                // If we found only one, maybe default the other? 
+                                // E.g. found "ID" but no "URL"? Assume Col 1?
+                                if (idIndex !== -1 && urlIndex === -1) urlIndex = (idIndex === 0) ? 1 : 0;
+                                if (urlIndex !== -1 && idIndex === -1) idIndex = (urlIndex === 0) ? 1 : 0;
+                            }
+
+                            // 3. Process Rows
+                            for (let i = startRow; i < lines.length; i++) {
+                                const line = lines[i].trim();
+                                if (!line) continue;
+
+                                // Handle basic comma split (TODO: handle quoted commas if crucial, but usually simple here)
+                                const parts = line.split(',');
+
+                                if (parts.length > Math.max(idIndex, urlIndex)) {
+                                    const id = parts[idIndex]?.trim().replace(/^"|"$/g, '');
+                                    // URL might contain commas, so if it's the last column, join the rest?
+                                    // For now, let's assume simple CSV.
+                                    // If strict column mapping, use the index.
+                                    let url = parts[urlIndex]?.trim().replace(/^"|"$/g, '');
+
+                                    if (id && url && id.toLowerCase() !== 'product id') { // Double check we aren't reading a repeated header
+                                        inventoryData[id] = url;
+                                        updatedCount++;
+                                    }
+                                }
+                            }
+                        } else {
+                            throw new Error('Unsupported file type');
+                        }
+
+                    } catch (err) {
+                        console.error(`Error processing file ${file.name}:`, err);
+                        errorCount++;
+                    }
+                }
+
+                saveData();
+                fileInput.value = ''; // Reset input
+
+                if (errorCount > 0) {
+                    statusEl.textContent = `Import complete: ${updatedCount} items merged. ${errorCount} file(s) failed.`;
+                    statusEl.className = 'mt-4 text-sm font-medium text-orange-600';
+                } else {
+                    statusEl.textContent = `Success! Merged ${updatedCount} items from ${files.length} file(s).`;
+                    statusEl.className = 'mt-4 text-sm font-medium text-green-600';
+                }
+
+                setTimeout(() => { statusEl.textContent = ''; }, 5000);
+            });
+
+            // Search
+            document.getElementById('search-inventory').addEventListener('input', renderTable);
+        }
+    </script>
+</body>
+
+</html>
