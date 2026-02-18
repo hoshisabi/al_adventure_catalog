@@ -62,6 +62,28 @@ uv run python serve.py
 ```
 And then visit `http://localhost:8000` in your browser.
 
+### Private Inventory Manager
+
+This version includes a **Private Inventory Manager** (`inventory.html`) that allows you to:
+- **Import** your inventory from `.json` or `.csv` files.
+- **Add or edit** individual items manually.
+- **Sync** across tabs: Changes in the manager are immediately reflected on the main catalog page without a reload.
+- **Auto-generate** inventory from local files using `sync_local_inventory.py`.
+
+### Generating Inventory from Google Drive (Desktop)
+
+If you use **Google Drive for Desktop**, you can use the `sync_local_inventory.py` script to automatically create your `private_inventory.json` from your locally synced files.
+
+```powershell
+python sync_local_inventory.py "F:\Path\To\Your\GoogleDrive\Adventures"
+```
+
+The script:
+- Matches files by Product ID, Adventure Code, or Title.
+- Automatically resolves **Google Drive share links** by querying your local Google Drive for Desktop metadata database.
+- Supports multiple Google accounts simultaneously.
+- Falls back to `file://` links if a Google Drive link cannot be found.
+
 ## Git Workflow
 
 To upload your changes to the repository:

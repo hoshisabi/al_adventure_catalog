@@ -19,9 +19,17 @@ see them, and only people you've authorized on Google Drive can actually open th
 
 ## Step 1: Create Your Inventory List
 
-The easiest way to do this is using a Google Sheet or a simple text file.
+You can create your inventory list in several ways.
 
-### Option A: Google Drive (Best for Friends)
+### Option A: Private Inventory Manager (Easiest)
+
+This catalog includes a built-in [Private Inventory Manager](inventory.html) where you can:
+1. **Import** existing `.json` or `.csv` files.
+2. **Scan** your local Google Drive folder using the `sync_local_inventory.py` script.
+3. **Add** items manually by searching for the adventure title.
+4. **Export** your combined inventory to a single JSON file that you can host online or share.
+
+### Option B: Google Drive (Best for Sharing)
 
 If you want to collaborate with friends, use Google Drive.
 
