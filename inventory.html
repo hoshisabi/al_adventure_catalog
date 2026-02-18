@@ -186,6 +186,8 @@
         const STORAGE_KEY = 'private_inventory';
         let inventoryData = {};
         let catalogMap = {};
+        let currentSortField = 'id';
+        let currentSortOrder = 'asc'; // 'asc' or 'desc'
 
         document.addEventListener('DOMContentLoaded', async () => {
             loadData();
@@ -249,24 +251,83 @@
 
             tbody.innerHTML = '';
 
-            tbody.innerHTML = '';
+            // Update Sort Icons
+            document.querySelectorAll('th[data-sort] .sort-icon').forEach(span => {
+                span.textContent = '↕';
+                span.classList.remove('text-blue-600');
+            });
+            const activeHeader = document.querySelector(`th[data-sort="${currentSortField}"]`);
+            if (activeHeader) {
+                const icon = activeHeader.querySelector('.sort-icon');
+                icon.textContent = currentSortOrder === 'asc' ? '↑' : '↓';
+                icon.classList.add('text-blue-600');
+            }
 
-            // Header is now static in HTML, no need to dynamically insert columns.
+            // Prepare Data with Metadata
+            const items = Object.keys(inventoryData).map(key => {
+                const meta = catalogMap[key] || {};
+                return {
+                    id: key,
+                    url: inventoryData[key],
+                    title: meta.n || '(Unknown Title)',
+                    code: meta.c || ''
+                };
+            });
 
-            const keys = Object.keys(inventoryData).sort();
+            // Sorting Logic
+            items.sort((a, b) => {
+                let valA = a[currentSortField];
+                let valB = b[currentSortField];
+
+                // Special handling for Product ID (numerical sort if possible)
+                if (currentSortField === 'id') {
+                    const numA = parseInt(valA) || 0;
+                    const numB = parseInt(valB) || 0;
+                    if (numA !== numB) {
+                        return currentSortOrder === 'asc' ? numA - numB : numB - numA;
+                    }
+                }
+
+                valA = String(valA).toLowerCase();
+                valB = String(valB).toLowerCase();
+
+                if (valA < valB) return currentSortOrder === 'asc' ? -1 : 1;
+                if (valA > valB) return currentSortOrder === 'asc' ? 1 : -1;
+                return 0;
+            });
+
             let visible = 0;
 
-            keys.forEach(key => {
-                const url = inventoryData[key];
+            items.forEach(item => {
+                const { id, url, title, code } = item;
 
-                // Metadata Lookup
-                const meta = catalogMap[key] || {};
-                const title = meta.n || '(Unknown Title)';
-                const code = meta.c || '';
+                let matchesUrl = false;
+                if (searchTerm) {
+                    const urlLower = url.toLowerCase();
+                    if (urlLower.includes(searchTerm)) {
+                        // If it's a Google Drive link, don't match short search terms inside the ID parameter
+                        // to avoid false positives like 'pnd' matching random string '...pnD...'
+                        if (searchTerm.length < 5 && urlLower.includes('drive.google.com')) {
+                            const urlObj = new URL(url.startsWith('http') ? url : 'http://' + url);
+                            const driveId = urlObj.searchParams.get('id');
+                            if (driveId && driveId.toLowerCase().includes(searchTerm)) {
+                                // Match only if it's NOT just in the ID, or if it's also somewhere else in the URL
+                                const urlWithoutId = urlLower.replace(driveId.toLowerCase(), '');
+                                if (urlWithoutId.includes(searchTerm)) {
+                                    matchesUrl = true;
+                                }
+                            } else {
+                                matchesUrl = true;
+                            }
+                        } else {
+                            matchesUrl = true;
+                        }
+                    }
+                }
 
                 if (searchTerm &&
-                    !key.toLowerCase().includes(searchTerm) &&
-                    !url.toLowerCase().includes(searchTerm) &&
+                    !id.toLowerCase().includes(searchTerm) &&
+                    !matchesUrl &&
                     !title.toLowerCase().includes(searchTerm) &&
                     !code.toLowerCase().includes(searchTerm)
                 ) {
@@ -276,10 +337,10 @@
 
                 const tr = document.createElement('tr');
                 tr.className = 'bg-white border-b hover:bg-blue-50 cursor-pointer transition-colors';
-                tr.dataset.id = key; // Store ID for click handler
+                tr.dataset.id = id;
 
                 tr.innerHTML = `
-                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${key}</td>
+                <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${id}</td>
                 <td class="px-6 py-4 whitespace-nowrap text-gray-600">${code}</td>
                 <td class="px-6 py-4 text-gray-800 font-medium">${title}</td>
                 <td class="px-6 py-4 truncate max-w-xs" title="${url}">
@@ -293,7 +354,7 @@
                 tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-gray-500">No data found</td></tr>`;
             }
 
-            document.getElementById('visible-count').textContent = `Showing ${visible} of ${keys.length}`;
+            document.getElementById('visible-count').textContent = `Showing ${visible} of ${items.length}`;
 
             // Attach Click Listeners to Rows
             tbody.querySelectorAll('tr').forEach(tr => {
@@ -708,6 +769,20 @@
 
             // Search
             document.getElementById('search-inventory').addEventListener('input', renderTable);
+
+            // Table Header Sorting
+            document.querySelectorAll('th[data-sort]').forEach(th => {
+                th.addEventListener('click', () => {
+                    const field = th.dataset.sort;
+                    if (currentSortField === field) {
+                        currentSortOrder = currentSortOrder === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        currentSortField = field;
+                        currentSortOrder = 'asc';
+                    }
+                    renderTable();
+                });
+            });
         }
     </script>
 </body>
