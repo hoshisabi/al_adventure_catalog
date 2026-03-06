@@ -87,8 +87,10 @@ class AdventureDataNormalizer:
                     title = title[:match.start()].strip()
                     
                 # Final safety check: if we stripped EVERYTHING, return the original
-                if not title.strip():
+                if not title.strip(" ,:-"):
                     title = normalized_data["full_title"]
+                else:
+                    title = title.strip(" ,:-")
         else:
             # Fallback to pattern matching if no code was found
             title = get_patt_first_matching_group(r"(?:^[A-Z]{2,}-\s?[A-Z]{2,}\d{1,}-\d{1,}\s?)(.*?)(?:\s+PDF|\s*\|\s*DMsGuild)?$", normalized_data["full_title"])
