@@ -493,6 +493,7 @@ function createCard(adventure) {
                 </a>
             ` : ''}
         </div>
+        ${filters.showProductId ? `<p class="text-xs text-gray-400 mb-1"><span class="font-medium">Product ID:</span> ${adventure.i}</p>` : ''}
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${adventure.c || 'N/A'}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${authors}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${campaign}</p>

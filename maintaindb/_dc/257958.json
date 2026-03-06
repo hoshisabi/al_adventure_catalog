@@ -8,11 +8,11 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "CCC-ALMOG-01",
+    "code": "CCC-ALMOG-01-TALES01-01",
     "community_content": true,
     "date_created": "20181112",
     "dungeoncraft": false,
-    "full_title": "CCC-ALMOG-01 TALES01-01 What Lies Beneath",
+    "full_title": "CCC-ALMOG-01-TALES01-01 What Lies Beneath",
     "hours": "4",
     "is_adventure": true,
     "level_range": "1-4",
@@ -22,6 +22,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "TALES01-01 What Lies Beneath",
+    "title": "What Lies Beneath",
     "url": "https://www.dmsguild.com/product/257958/?affiliate_id=171040"
 }
