@@ -238,6 +238,14 @@ def test_all_bug_fixes_covered():
     code, _ = get_adventure_code_and_campaigns("CCC-UCON03 The Straw Bears")
     assert code == "CCC-UCON03", f"Failed: got {code}, expected CCC-UCON03"
 
+    # Bug fix 16: Ampersand in DC Codes
+    code, _ = get_adventure_code_and_campaigns("FR-DC-F&ADDM-LES2 Normal code")
+    assert code == "FR-DC-F&ADDM-LES2", f"Failed: got {code}, expected FR-DC-F&ADDM-LES2"
+    
+    # Bug fix 17: Optional trailing letters on DC codes
+    code, _ = get_adventure_code_and_campaigns("SJ-DC-PANDORA-JWEI-03A A, Title Here")
+    assert code == "SJ-DC-PANDORA-JWEI-03A", f"Failed: got {code}, expected SJ-DC-PANDORA-JWEI-03A"
+
 
 if __name__ == '__main__':
     # Run tests

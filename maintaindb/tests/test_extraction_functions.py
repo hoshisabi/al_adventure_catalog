@@ -294,6 +294,12 @@ def test_extract_game_stats_from_text_apl_average_party_level_colon():
     stats = adventure._extract_game_stats_from_text(text)
     assert stats["apl_raw"] == "6"
 
+def test_extract_game_stats_from_text_apl_of_level():
+    """Test APL extraction using 'APL of Level X' structure."""
+    text = "optimized for an APL of Level 13. This is a dungeon crawl"
+    stats = adventure._extract_game_stats_from_text(text)
+    assert stats["apl_raw"] == "13"
+
 
 def test_extract_game_stats_from_text_apl_in_context():
     """Test APL extraction in realistic context text."""
