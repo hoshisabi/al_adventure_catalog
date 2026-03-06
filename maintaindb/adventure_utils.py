@@ -423,7 +423,7 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
         # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
         # Supports alphanumeric parts like 1S2 if they are followed by more digits or are the final part
-        (r"^([A-Z]{2,})-DC-([A-Z0-9&]+(?:-[A-Z0-9&]+)*?)-([A-Z0-9&]*\d+(?:-[A-Z0-9&]*\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9&]+(?:-[A-Z0-9&]+)*?)-([A-Z0-9&]*\d+(?:-[A-Z0-9&]*\d+)*[A-Za-z]?)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., PS-DC-SB-BISH01, FR-DC-UCON24)
         # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
         (r"^([A-Z]{2,})-DC-([A-Z0-9-&]+[A-Z&][0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),

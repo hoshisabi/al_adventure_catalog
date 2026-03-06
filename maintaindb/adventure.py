@@ -418,7 +418,7 @@ def _extract_title_from_html(parsed_html):
     # Try legacy format first
     product_title = parsed_html.find("div", {"class": "grid_12 product-title"})
     if product_title:
-        children = product_title.findChildren("span", {"itemprop": "name"}, recursive=True)
+        children = product_title.find_all("span", {"itemprop": "name"}, recursive=True)
         for child in children:
             title_result = child.text
             break
@@ -474,7 +474,7 @@ def _extract_authors_from_html(parsed_html):
     # Try legacy format
     product_from = parsed_html.find("div", {"class": "grid_12 product-from"})
     if product_from:
-        children = product_from.findChildren("a", recursive=True)
+        children = product_from.find_all("a", recursive=True)
         for child in children:
             authors.append(child.text)
     
@@ -690,7 +690,7 @@ def _extract_game_stats_from_text(text):
     }
     
     # APL pattern: Handle variations like "APL 3", "APL: 3", "APL - 3", "APL (3)", "(APL) 3", "Average Party Level 3", "average party level (APL) of 2", etc.
-    stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level|average party level)\s*(?:\(APL\))?\s*(?:of|is|:|-)?\s*(\d+)", text)
+    stats["apl_raw"] = get_patt_first_matching_group(r"(?:APL|Average Party Level|average party level)\s*(?:\(APL\))?\s*(?:of|is|:|-)?\s*(?:level\s*)?(\d+)", text)
     
     # If APL not found, try "optimized for Xth level" pattern (e.g., "optimized for 13th level")
     if not stats["apl_raw"]:
