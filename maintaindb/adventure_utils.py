@@ -423,25 +423,25 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # Allow 1+ digits for the final number (handles 2-digit, 3-digit, etc.)
         # Also handle multiple dash-number sequences (e.g., DIGM-01-01)
         # Supports alphanumeric parts like 1S2 if they are followed by more digits or are the final part
-        (r"^([A-Z]{2,})-DC-([A-Z0-9]+(?:-[A-Z0-9]+)*?)-([A-Z0-9]*\d+(?:-[A-Z0-9]*\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9&]+(?:-[A-Z0-9&]+)*?)-([A-Z0-9&]*\d+(?:-[A-Z0-9&]*\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., PS-DC-SB-BISH01, FR-DC-UCON24)
         # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
-        (r"^([A-Z]{2,})-DC-([A-Z0-9-]+[A-Z][0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9-&]+[A-Z&][0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes ending with letters after a dash (e.g., FR-DC-ELEMENT-DEATH)
         # This must come AFTER the dash-number pattern to avoid matching "REIN-VR" from "REIN-VR-01"
         # Use negative lookahead to ensure no dash-number sequence follows
-        (r"^([A-Z]{2,})-DC-([A-Z0-9-]+)-([A-Z]+)(?!-\d)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9-&]+)-([A-Z&]+)(?!-\d)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., FR-DC-UCON24)
         # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
-        (r"^([A-Z]{2,})-DC-([A-Z0-9]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z0-9&]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # DC codes ending with just letters (no dashes in series, e.g., PS-DC-IC)
         # This must come after the alphanumeric pattern to avoid matching "UCO" from "UCON24"
         # Use negative lookahead to ensure no alphanumeric or dash follows (only space/end of string)
-        (r"^([A-Z]{2,})-DC-([A-Z]+)(?![A-Z0-9-])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
+        (r"^([A-Z]{2,})-DC-([A-Z&]+)(?![A-Z0-9-&])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),
         # More general DC codes (e.g., RV-DC01)
         (r"^([A-Z]{2,})-DC(\d{1,2})", lambda m: f"{m.group(1).upper()}-DC{m.group(2)}"),
         # DC-POA codes (e.g., DC-PoA-ICE01-01, DC-POA01, DC-POA-BISH01) - normalize to all caps
-        (r"^(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-]+-?\d{1,2})", lambda m: 'DC-POA' + m.group(2).upper()),
+        (r"^(DC-[Pp][Oo][Aa])(\d{1,2}|-[A-Z0-9-&]+-?\d{1,2})", lambda m: 'DC-POA' + m.group(2).upper()),
         # Specific recognized prefixes (e.g., DDALELW00, DDALDRW01, SJA01)
         (r"^(DDALELW\d{2}|DDALDRW\d{1,2}(?:-\d{1,2})?|SJA\d{1,2}(?:-\d{1,2})?)", lambda m: m.group(0).upper()),
         # DDHC hardcover tie-in codes (e.g., DDHC-TOA-10, DDHC-MORD-03, DDHC-LoX-Ch-1)

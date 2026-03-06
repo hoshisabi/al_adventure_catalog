@@ -1,18 +1,19 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Forever&ADayDM"
     ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "FR-DC-F",
+    "code": "FR-DC-F&ADDM-GW5",
     "community_content": true,
     "date_created": "20250723",
     "dungeoncraft": true,
     "full_title": "The Genie's Wishes, Chap. 5: A Terminal Ambition (FR-DC-F&ADDM-GW5)",
     "hours": "4",
-    "is_adventure": false,
+    "is_adventure": true,
+    "last_update": "20260305",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.95,
@@ -20,6 +21,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 2,
-    "title": "The Genie's Wishes, Chap. 5: A Terminal Ambition (FR-DC-F&ADDM-GW5)",
+    "title": "The Genie's Wishes, Chap. 5 A Terminal Ambition FR-DC-F&ADDM-GW5",
     "url": "https://www.dmsguild.com/product/530633/?affiliate_id=171040"
 }

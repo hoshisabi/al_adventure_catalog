@@ -4,13 +4,13 @@
         "Stefan Tomaschitz"
     ],
     "campaigns": [],
-    "code": "UMA CHAVE AMALDIÇOADA",
+    "code": "UMA CHAVE AMALDI\u00c7OADA",
     "community_content": false,
     "date_created": "20251210",
     "dungeoncraft": false,
-    "full_title": "Uma Chave Amaldiçoada",
+    "full_title": "Uma Chave Amaldi\u00e7oada",
     "hours": "2-3",
-    "is_adventure": true,
+    "is_adventure": false,
     "level_range": "1-2",
     "payWhatYouWant": false,
     "price": 4.63,
@@ -18,6 +18,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Uma Chave Amaldiçoada",
+    "title": "Uma Chave Amaldi\u00e7oada",
     "url": "https://www.dmsguild.com/product/548946/?affiliate_id=171040"
 }
