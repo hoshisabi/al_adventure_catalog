@@ -56,29 +56,39 @@ class AdventureDataNormalizer:
 
         # Title - strip the code from full_title if code was found
         if code and normalized_data["full_title"]:
-            # Normalize Unicode dash variants to standard hyphen-minus for matching
-            # U+2010 HYPHEN, U+2011 NON-BREAKING HYPHEN, U+2012 FIGURE DASH, 
-            # U+2013 EN DASH, U+2014 EM DASH, U+2015 HORIZONTAL BAR, U+2212 MINUS SIGN
-            dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
-            title = normalized_data["full_title"]
-            normalized_title_for_strip = title
-            for dash_char in dash_variants:
-                normalized_title_for_strip = normalized_title_for_strip.replace(dash_char, '-')
-            
-            # Remove the code (and any trailing spaces/dashes) from the beginning of full_title
-            # The code might be followed by a space, dash, or nothing
-            # Try to remove the code with various possible separators
-            code_removed = False
-            for separator in [' ', '-', '']:
-                code_prefix = code + separator
-                if normalized_title_for_strip.startswith(code_prefix):
-                    # Use the original title for slicing to preserve Unicode characters
-                    title = title[len(code_prefix):].strip()
-                    code_removed = True
-                    break
-            # If code is at the start but no separator matched, remove it directly
-            if not code_removed and normalized_title_for_strip.startswith(code):
-                title = title[len(code):].strip()
+            # Check if the title IS the code (or code in parentheses/brackets)
+            clean_title = normalized_data["full_title"].strip()
+            code_upper = code.upper()
+            if clean_title.upper() in [code_upper, f"({code_upper})", f"[{code_upper}]", f"<{code_upper}>"]:
+                # Do not strip!
+                title = normalized_data["full_title"]
+            else:
+                title = normalized_data["full_title"]
+                
+                # Normalize Unicode dash variants to standard hyphen-minus for matching
+                dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
+                normalized_title_for_strip = title
+                for dash_char in dash_variants:
+                    normalized_title_for_strip = normalized_title_for_strip.replace(dash_char, '-')
+                
+                safe_code = re.escape(code_upper)
+                
+                # 1. Strip from beginning
+                start_pattern = r'^\s*[\(\[<]?\s*' + safe_code + r'\s*[\)\]>]?[\s\-:]*'
+                match = re.search(start_pattern, normalized_title_for_strip, re.IGNORECASE)
+                if match:
+                    title = title[match.end():].strip()
+                    normalized_title_for_strip = normalized_title_for_strip[match.end():].strip()
+
+                # 2. Strip from end
+                end_pattern = r'[\s\-:]*[\(\[<]?\s*' + safe_code + r'\s*[\)\]>]?\s*$'
+                match = re.search(end_pattern, normalized_title_for_strip, re.IGNORECASE)
+                if match:
+                    title = title[:match.start()].strip()
+                    
+                # Final safety check: if we stripped EVERYTHING, return the original
+                if not title.strip():
+                    title = normalized_data["full_title"]
         else:
             # Fallback to pattern matching if no code was found
             title = get_patt_first_matching_group(r"(?:^[A-Z]{2,}-\s?[A-Z]{2,}\d{1,}-\d{1,}\s?)(.*?)(?:\s+PDF|\s*\|\s*DMsGuild)?$", normalized_data["full_title"])

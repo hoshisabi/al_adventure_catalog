@@ -1,7 +1,8 @@
-# DM’s Guild raw HTML snapshots
+# DMsGuild raw HTML snapshots
 dmsguildinfo/
 **/dmsguildinfo-*.*
 private_inventory*.json
+private_inventory*.csv
 private_inventory*.html
 link_audit_report.json
 unmatched_inventory_report*.*
