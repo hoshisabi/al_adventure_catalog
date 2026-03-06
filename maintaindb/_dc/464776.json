@@ -1,21 +1,22 @@
 {
-    "apl": null,
+    "apl": 15,
     "authors": [
         "Legend Prime"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": ["Forgotten Realms"],
+    "code": "PS-DC-HOT-01",
     "date_created": "20231222",
     "full_title": "Eyes of the Beholder",
-    "hours": null,
-    "is_adventure": false,
-    "last_update": "20260215",
-    "level_range": null,
+    "hours": 4,
+    "is_adventure": true,
+    "last_update": "20260306",
+    "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 0.0,
     "product_id": "464776",
     "season": null,
-    "tiers": null,
+    "tiers": 3,
     "title": "Eyes of the Beholder",
+    "seed": "Create a Location in Wildspace",
     "url": "https://www.dmsguild.com/product/464776/?affiliate_id=171040"
 }
