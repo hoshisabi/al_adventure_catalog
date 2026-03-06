@@ -88,6 +88,8 @@
                     <option value="hours-desc">Hours (Long-Short)</option>
                     <option value="campaign-asc">Campaign (A-Z)</option>
                     <option value="campaign-desc">Campaign (Z-A)</option>
+                    <option value="author-asc">Author (A-Z)</option>
+                    <option value="author-desc">Author (Z-A)</option>
                 </select>
             </div>
 
@@ -114,6 +116,11 @@
                     <input type="checkbox" id="show-product-id"
                         class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
                     <span class="text-sm font-medium">Show Product ID</span>
+                </label>
+                <label class="flex items-center space-x-2 cursor-pointer">
+                    <input type="checkbox" id="show-author"
+                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <span class="text-sm font-medium">Show Author</span>
                 </label>
             </div>
         </div>
@@ -143,7 +150,7 @@
                     class="px-3 py-1 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
                     Prev
                 </button>
-                <span class="text-sm text-gray-600">
+                <span class="text-sm text-gray-600 cursor-pointer hover:bg-gray-200 px-2 py-1 rounded transition-colors" id="goto-page-info-top">
                     Page <span id="current-page-top">1</span> of <span id="total-pages-top">1</span>
                 </span>
                 <button id="next-page-top"
@@ -168,7 +175,7 @@
                     class="px-3 py-1 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
                     Prev
                 </button>
-                <span id="page-info" class="text-sm text-gray-600">
+                <span id="page-info" class="text-sm text-gray-600 cursor-pointer hover:bg-gray-200 px-2 py-1 rounded transition-colors">
                     Page <span id="current-page">1</span> of <span id="total-pages">1</span>
                 </span>
                 <button id="next-page"
