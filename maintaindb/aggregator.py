@@ -184,7 +184,8 @@ def aggregate():
                 
                 __add_to_map(data, aggregated_by_dc_code)
             else:
-                logger.info(f"Skipping '{data.get('full_title', 'UNKNOWN TITLE')}' as it is not an adventure.")
+                title_safe = str(data.get('full_title', 'UNKNOWN TITLE')).encode('ascii', 'replace').decode('ascii')
+                logger.info(f"Skipping '{title_safe}' as it is not an adventure.")
     
     logger.info("------")
     logger.info(f'Aggregated stats:')
