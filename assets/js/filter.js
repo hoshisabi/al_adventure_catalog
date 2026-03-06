@@ -14,6 +14,7 @@ let filters = {
     ccOnly: false,
     privateOnly: false,
     showProductId: false,
+    showAuthor: false,
     search: '',
     inventoryURL: '',
     privateLinks: {}
@@ -21,6 +22,7 @@ let filters = {
 
 let sortBy = 'date-desc';
 let viewMode = 'grid';
+let highlightedAdventureId = null;
 
 const CAMPAIGN_MAP = {
     1: 'Forgotten Realms',
@@ -87,15 +89,7 @@ async function loadPrivateInventory() {
     const params = new URLSearchParams(window.location.search);
     let invURL = params.get('inventory');
 
-    // Check cookie if URL param is missing
-    if (!invURL) {
-        const cookieValue = document.cookie
-            .split('; ')
-            .find(row => row.startsWith('inventory_url='))
-            ?.split('=')[1];
-        if (cookieValue) invURL = decodeURIComponent(cookieValue);
-    }
-
+    // Check URL param
     if (invURL) {
         filters.inventoryURL = invURL;
         try {
@@ -207,6 +201,7 @@ function applyFiltersFromURL() {
     if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
     if (params.has('privateOnly')) filters.privateOnly = params.get('privateOnly') === 'true';
     if (params.has('showProductId')) filters.showProductId = params.get('showProductId') === 'true';
+    if (params.has('showAuthor')) filters.showAuthor = params.get('showAuthor') === 'true';
     if (params.has('sort')) sortBy = params.get('sort');
 
     // Sync to DOM so dropdowns and search input show the URL state
@@ -229,6 +224,8 @@ function applyFiltersFromURL() {
     if (privateOnlyEl) privateOnlyEl.checked = filters.privateOnly || false;
     const showProductIdEl = document.getElementById('show-product-id');
     if (showProductIdEl) showProductIdEl.checked = filters.showProductId || false;
+    const showAuthorEl = document.getElementById('show-author');
+    if (showAuthorEl) showAuthorEl.checked = filters.showAuthor || false;
 
     applyFilters();
 }
@@ -243,6 +240,7 @@ function updateURLFromFilters() {
     if (filters.ccOnly) params.set('ccOnly', 'true');
     if (filters.privateOnly) params.set('privateOnly', 'true');
     if (filters.showProductId) params.set('showProductId', 'true');
+    if (filters.showAuthor) params.set('showAuthor', 'true');
     if (sortBy && sortBy !== 'date-desc') params.set('sort', sortBy);
 
     const query = params.toString();
@@ -380,6 +378,9 @@ function applyFilters() {
             // Sort by campaign name
             valA = formatCampaigns(a.p).toLowerCase();
             valB = formatCampaigns(b.p).toLowerCase();
+        } else if (field === 'author') {
+            valA = (formatList(a.a) || '').toLowerCase();
+            valB = (formatList(b.a) || '').toLowerCase();
         }
 
         if (valA < valB) return dir === 'asc' ? -1 : 1;
@@ -438,6 +439,27 @@ function displayResults() {
         pageItems.forEach(adv => {
             resultsDiv.appendChild(createCard(adv));
         });
+
+        // After cards are rendered, check for highlight
+        if (highlightedAdventureId) {
+            const card = document.getElementById(`card-${highlightedAdventureId}`);
+            if (card) {
+                // Scroll to the card
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                // Add highlight classes
+                card.classList.add('ring-4', 'ring-blue-400', 'bg-blue-50', 'border-blue-500');
+
+                // Clear after timeout
+                setTimeout(() => {
+                    card.classList.remove('ring-4', 'ring-blue-400', 'bg-blue-50', 'border-blue-500');
+                    highlightedAdventureId = null;
+                }, 3000);
+            } else {
+                // If not found (maybe on another page), clear it
+                highlightedAdventureId = null;
+            }
+        }
     }
 }
 
@@ -445,7 +467,8 @@ function displayResults() {
 
 function createCard(adventure) {
     const card = document.createElement('div');
-    card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow bg-white';
+    card.id = `card-${adventure.i}`;
+    card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-all bg-white';
 
     const campaign = formatCampaigns(adventure.p) || 'Unspecified';
     const hours = formatHours(adventure.h);
@@ -488,6 +511,7 @@ function renderGridView(adventures, container) {
     table.className = 'w-full border-collapse bg-white';
 
     const showProductId = filters.showProductId;
+    const showAuthor = filters.showAuthor;
 
     // Helper for header sort class
     const getSortClass = (col) => {
@@ -506,6 +530,7 @@ function renderGridView(adventures, container) {
                 ${showProductId ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('id')}" data-sort="id">ID <span class="ml-1">${getIcon('id')}</span></th>` : ''}
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('code')}" data-sort="code">Code <span class="ml-1">${getIcon('code')}</span></th>
                 <th class="px-4 py-2 text-left border ${getSortClass('title')}" data-sort="title">Title <span class="ml-1">${getIcon('title')}</span></th>
+                ${showAuthor ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('author')}" data-sort="author">Author <span class="ml-1">${getIcon('author')}</span></th>` : ''}
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('tier')}" data-sort="tier">Tier <span class="ml-1">${getIcon('tier')}</span></th>
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('hours')}" data-sort="hours">Hours <span class="ml-1">${getIcon('hours')}</span></th>
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('campaign')}" data-sort="campaign">Campaign <span class="ml-1">${getIcon('campaign')}</span></th>
@@ -548,7 +573,16 @@ function renderGridView(adventures, container) {
     const tbody = table.querySelector('tbody');
     adventures.forEach(adv => {
         const row = document.createElement('tr');
-        row.className = 'hover:bg-gray-50';
+        row.className = 'hover:bg-gray-50 cursor-pointer transition-colors';
+        row.addEventListener('click', (e) => {
+            // If we click an anchor, don't trigger the view switch
+            if (e.target.closest('a')) return;
+
+            highlightedAdventureId = adv.i;
+            viewMode = 'card';
+            updateViewToggleButtons();
+            displayResults();
+        });
         const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
         const url = adv.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
@@ -569,6 +603,7 @@ function renderGridView(adventures, container) {
                     ` : ''}
                 </div>
              </td>
+             ${showAuthor ? `<td class="px-4 py-2 border text-sm">${formatList(adv.a) || ''}</td>` : ''}
              <td class="px-4 py-2 border whitespace-nowrap">${adv.t !== null ? adv.t : ''}</td>
              <td class="px-4 py-2 border whitespace-nowrap">${formatHours(adv.h)}</td>
              <td class="px-4 py-2 border whitespace-nowrap">${formatCampaigns(adv.p)}</td>
@@ -632,6 +667,30 @@ function updatePaginationUI() {
     if (npTop) npTop.disabled = currentPage === totalPages;
 }
 
+function showGoToPagePrompt() {
+    const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
+    const input = prompt(`Enter page number (1-${totalPages}):`, currentPage);
+    if (input === null) return;
+
+    const pageNum = parseInt(input);
+    if (!isNaN(pageNum) && pageNum >= 1 && pageNum <= totalPages) {
+        currentPage = pageNum;
+        displayResults();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+        alert('Please enter a valid page number.');
+    }
+}
+
+function toggleFilters() {
+    const toggleBtn = document.getElementById('toggle-filters');
+    const panel = document.getElementById('filter-panel');
+    if (toggleBtn && panel) {
+        panel.classList.toggle('hidden');
+        toggleBtn.textContent = panel.classList.contains('hidden') ? 'Show Filters' : 'Hide Filters';
+    }
+}
+
 function setupEventListeners() {
     ['campaign', 'tier', 'hours', 'season', 'sort', 'search'].forEach(id => {
         const el = document.getElementById(id);
@@ -672,6 +731,12 @@ function setupEventListeners() {
         updateURLFromFilters();
     });
 
+    document.getElementById('show-author')?.addEventListener('change', e => {
+        filters.showAuthor = e.target.checked;
+        applyFilters();
+        updateURLFromFilters();
+    });
+
     document.getElementById('next-page')?.addEventListener('click', () => {
         const max = Math.ceil(filteredItems.length / itemsPerPage);
         if (currentPage < max) { currentPage++; displayResults(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
@@ -688,13 +753,38 @@ function setupEventListeners() {
 
 
     const toggleBtn = document.getElementById('toggle-filters');
-    const panel = document.getElementById('filter-panel');
-    if (toggleBtn && panel) {
-        toggleBtn.addEventListener('click', () => {
-            panel.classList.toggle('hidden');
-            toggleBtn.textContent = panel.classList.contains('hidden') ? 'Show Filters' : 'Hide Filters';
-        });
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', toggleFilters);
     }
+
+    // Left/Right arrow keys for pagination
+    document.addEventListener('keydown', (e) => {
+        // Only if we're not typing in an input
+        if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+
+        if (e.key === 'ArrowLeft') {
+            if (currentPage > 1) {
+                currentPage--;
+                displayResults();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        } else if (e.key === 'ArrowRight') {
+            const max = Math.ceil(filteredItems.length / itemsPerPage);
+            if (currentPage < max) {
+                currentPage++;
+                displayResults();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        } else if (e.key.toLowerCase() === 'g') {
+            showGoToPagePrompt();
+        } else if (e.key.toLowerCase() === 'f') {
+            toggleFilters();
+        }
+    });
+
+    // Go to page click listeners
+    document.getElementById('goto-page-info-top')?.addEventListener('click', showGoToPagePrompt);
+    document.getElementById('page-info')?.addEventListener('click', showGoToPagePrompt);
 
     // Listen for storage changes from other tabs (like the inventory manager)
     window.addEventListener('storage', (e) => {
