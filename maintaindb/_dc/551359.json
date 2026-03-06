@@ -9,11 +9,12 @@
     ],
     "code": "FR-DC-ONI-05",
     "community_content": true,
-    "date_created": "20251231",
+    "date_created": "20260101",
     "dungeoncraft": true,
     "full_title": "The Shogun of Storms (FR-DC-ONI-05)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260305",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.99,
@@ -21,6 +22,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "The Shogun of Storms (FR-DC-ONI-05)",
+    "title": "The Shogun of Storms",
     "url": "https://www.dmsguild.com/product/551359/?affiliate_id=171040"
 }

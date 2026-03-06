@@ -2,7 +2,7 @@
     "apl": null,
     "authors": [
         "Randall Harris",
-        "Marcello De Velazques",
+        "Marcello De Velazquez",
         "David Sklenicka",
         "Davestar Gaming"
     ],
@@ -12,9 +12,9 @@
     "code": "FR-DC-TDD-01",
     "date_created": "20260209",
     "full_title": "FR-DC-TDD-01 Lofty Ambitions, Part 1 of the Twelfth Daughter of Diancastra",
-    "hours": 4,
+    "hours": "4",
     "is_adventure": true,
-    "last_update": "20260209",
+    "last_update": "20260305",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,
