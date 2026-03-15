@@ -4,16 +4,18 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import logging
 import re
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import List, Optional, Tuple
 import xml.etree.ElementTree as ET
-import sys
 
 import requests
 
 from .adventure import get_dc_code_and_campaign, get_season
+
+log = logging.getLogger(__name__)
 
 # Constants
 DEFAULT_HEADERS = {
@@ -59,7 +61,7 @@ def parse_dmsguild_rss(url: str) -> List[ProductTuple]:
         try:
             text = p.read_text(encoding="utf-8")
         except OSError as e:
-            print(f"Error reading local file {url}: {e}")
+            log.error("Error reading local file %s: %s", url, e)
             return []
     else:
         try:
@@ -67,13 +69,13 @@ def parse_dmsguild_rss(url: str) -> List[ProductTuple]:
             resp.raise_for_status()
             text = resp.text
         except requests.RequestException as e:
-            print(f"Error fetching {url}: {e}")
+            log.error("Error fetching %s: %s", url, e)
             return []
 
     try:
         root = ET.fromstring(text)
     except ET.ParseError as e:
-        print(f"Error parsing XML from {url}: {e}")
+        log.error("Error parsing XML from %s: %s", url, e)
         return []
 
     products: List[ProductTuple] = []
@@ -127,6 +129,8 @@ def main() -> int:
     )
     args = parser.parse_args()
 
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
     # Use centralized path configuration if no output dir specified
     if args.output_dir is None:
         from .paths import DC_DIR
@@ -135,9 +139,9 @@ def main() -> int:
         output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Fetching products from {args.url}...")
+    log.info("Fetching products from %s...", args.url)
     products = parse_dmsguild_rss(args.url)
-    print(f"Found {len(products)} products.")
+    log.info("Found %d products.", len(products))
 
     # Restore legacy functionality: normalize data and write Adventure-shaped JSONs
     # without scraping product pages (RSS-only data).
@@ -169,7 +173,7 @@ def main() -> int:
         file_path = output_dir / filename
 
         if file_path.exists() and not args.force:
-            print(f"Skipping existing file (use --force to overwrite): {file_path.name}")
+            log.debug("Skipping existing file (use --force to overwrite): %s", file_path.name)
             continue
 
         date_created_str = parse_pub_date(pub_date_str)
@@ -217,7 +221,7 @@ def main() -> int:
 
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)
-        print(f"Wrote: {file_path.name}")
+        log.info("Wrote: %s", file_path.name)
 
     return 0
 

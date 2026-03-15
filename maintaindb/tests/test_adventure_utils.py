@@ -166,6 +166,8 @@ def test_non_ccc_codes_still_work():
         ("CCC-GSP-BISH01 The Mill", "CCC-GSP-BISH01"),
         # Test CCC codes with series code ending in numbers (e.g., CCC-UCON03)
         ("CCC-UCON03 The Straw Bears", "CCC-UCON03"),
+        # DC code with letter-only suffix segment (e.g., SJ-DC-PHP-FLN03-EOS)
+        ("Eyes on the Sun (SJ-DC-PHP-FLN03-EOS)", "SJ-DC-PHP-FLN03-EOS"),
     ]
     
     for title, expected_code in test_cases:
@@ -245,6 +247,10 @@ def test_all_bug_fixes_covered():
     # Bug fix 17: Optional trailing letters on DC codes
     code, _ = get_adventure_code_and_campaigns("SJ-DC-PANDORA-JWEI-03A A, Title Here")
     assert code == "SJ-DC-PANDORA-JWEI-03A", f"Failed: got {code}, expected SJ-DC-PANDORA-JWEI-03A"
+
+    # Bug fix 18: DC codes with letter-only suffix segment (e.g., SJ-DC-PHP-FLN03-EOS)
+    code, _ = get_adventure_code_and_campaigns("Eyes on the Sun (SJ-DC-PHP-FLN03-EOS)")
+    assert code == "SJ-DC-PHP-FLN03-EOS", f"Failed: got {code}, expected SJ-DC-PHP-FLN03-EOS"
 
 
 if __name__ == '__main__':
