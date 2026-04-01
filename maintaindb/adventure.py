@@ -285,7 +285,8 @@ class DungeonCraft:
         t = re.sub(r'\s*-\s*D&D Adventurers League.*$', '', t, flags=re.IGNORECASE)
         
         # Remove DC trailing code fragments like FR-DC-XXX in the visible short title
-        regex = r'[A-Z]{2,}-DC-([A-Z]{2,})([^\s]+)'
+        # [A-Z0-9&] handles single-letter prefixes like 'F' in FR-DC-F&ADDM-LES3
+        regex = r'[A-Z]{2,}-DC-[A-Z0-9&][^\s]*'
         # Also strip colons; keep parentheses removal after (5e) handled to avoid leaving '5e'
         t = t.replace(':', '')
         # Remove parentheses contents gently (except we've already removed (5e))

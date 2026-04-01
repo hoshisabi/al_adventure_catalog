@@ -18,6 +18,8 @@ def test_normalize_title_strips_code():
         # With various brackets
         ({"code": "FR-DC-F&ADDM-GW1", "full_title_raw": "[FR-DC-F&ADDM-GW1] The Genie's Wishes, Chap. 1 Cold Open"}, "The Genie's Wishes, Chap. 1 Cold Open"),
         ({"code": "FR-DC-F&ADDM-GW1", "full_title_raw": "The Genie's Wishes, Chap. 1 Cold Open (FR-DC-F&ADDM-GW1)"}, "The Genie's Wishes, Chap. 1 Cold Open"),
+        # Single-letter part before & (e.g., F&ADDM — only 'F' before '&', was failing [A-Z]{2,} check)
+        ({"code": "FR-DC-F&ADDM-LES3", "full_title_raw": "The Hunger of Duamutef (FR-DC-F&ADDM-LES3)"}, "The Hunger of Duamutef"),
         ({"code": "FR-DC-F&ADDM-LES2", "full_title_raw": "<FR-DC-F&ADDM-LES2> The Draught of Qebehsenuef"}, "The Draught of Qebehsenuef"),
         
         # With trailing/leading punctuation
