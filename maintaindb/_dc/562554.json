@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 18,
     "authors": [
         "Robbie Pleasant"
     ],
@@ -11,7 +11,7 @@
     "full_title": "FR-DC-NBDD-02 The Paladin's Gauntlet",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20260331",
+    "last_update": "20260412",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,

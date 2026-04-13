@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 3,
     "authors": [
         "Captain Faqrullah Arman"
     ],
@@ -9,9 +9,9 @@
     "code": "FR-DC-NASKGV-01",
     "date_created": "20260327",
     "full_title": "FR-DC-NASKGV-01: A Star is Me: A Golden Vault Heist",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "last_update": "20260331",
+    "last_update": "20260412",
     "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 1.99,
