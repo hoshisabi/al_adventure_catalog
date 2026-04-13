@@ -1,5 +1,5 @@
 {
-    "apl": null,
+    "apl": 8,
     "authors": [
         "Charles Pandi"
     ],
@@ -11,7 +11,7 @@
     "full_title": "Eyes on the Sun (SJ-DC-PHP-FLN03-EOS)",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20260320",
+    "last_update": "20260412",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,
