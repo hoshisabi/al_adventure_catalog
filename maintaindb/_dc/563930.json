@@ -1,5 +1,7 @@
 {
-    "apl": 3,
+    "product_id": "563930",
+    "date_created": "20260410",
+    "season": null,
     "authors": [
         "Strategicon AL",
         "Kevin Haw"
@@ -8,17 +10,15 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-DUNGEON-01",
-    "date_created": "20260410",
     "full_title": "FR-DC-STRAT-DUNGEON-01 The Crooked Tower",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20260502",
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "price": 4.99,
-    "product_id": "563930",
-    "season": null,
+    "last_update": "20260502",
+    "url": "https://www.dmsguild.com/product/563930/?affiliate_id=171040",
     "tiers": 1,
+    "apl": 3,
     "title": "The Crooked Tower",
-    "url": "https://www.dmsguild.com/product/563930/?affiliate_id=171040"
+    "price": 4.99
 }

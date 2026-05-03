@@ -1,5 +1,7 @@
 {
-    "apl": 8,
+    "product_id": "563026",
+    "date_created": "20260402",
+    "season": null,
     "authors": [
         "Sean Ware"
     ],
@@ -7,17 +9,15 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-BINGO-5",
-    "date_created": "20260402",
     "full_title": "FR-DC-BINGO-5 Othelli",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20260502",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "price": 2.0,
-    "product_id": "563026",
-    "season": null,
+    "last_update": "20260502",
+    "url": "https://www.dmsguild.com/product/563026/?affiliate_id=171040",
     "tiers": 2,
+    "apl": 8,
     "title": "Othelli",
-    "url": "https://www.dmsguild.com/product/563026/?affiliate_id=171040"
+    "price": 2.0
 }

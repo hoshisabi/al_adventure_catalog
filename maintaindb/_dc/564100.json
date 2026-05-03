@@ -1,5 +1,7 @@
 {
-    "apl": 8,
+    "product_id": "564100",
+    "date_created": "20260412",
+    "season": null,
     "authors": [
         "Lex Winter",
         "Katriel Paige"
@@ -8,17 +10,15 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-ONI-06",
-    "date_created": "20260412",
     "full_title": "Taken By the Foxes (FR-DC-ONI-06",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20260502",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "price": 3.99,
-    "product_id": "564100",
-    "season": null,
+    "last_update": "20260502",
+    "url": "https://www.dmsguild.com/product/564100/?affiliate_id=171040",
     "tiers": 2,
+    "apl": 8,
     "title": "Taken By the Foxes",
-    "url": "https://www.dmsguild.com/product/564100/?affiliate_id=171040"
+    "price": 3.99
 }
