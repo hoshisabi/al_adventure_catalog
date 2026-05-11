@@ -1,7 +1,5 @@
 {
-    "product_id": "563940",
-    "date_created": "20260410",
-    "season": null,
+    "apl": 18,
     "authors": [
         "Strategicon AL",
         "Sam Mars"
@@ -10,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-DUNGEON-06",
+    "date_created": "20260410",
     "full_title": "FR-DC-STRAT-DUNGEON-06 Stalking the Eye",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260511",
     "level_range": "17-20",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/563940/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "563940",
+    "season": null,
     "tiers": 4,
-    "apl": 18,
     "title": "Stalking the Eye",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/563940/?affiliate_id=171040"
 }

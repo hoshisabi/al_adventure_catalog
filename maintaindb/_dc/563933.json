@@ -1,7 +1,5 @@
 {
-    "product_id": "563933",
-    "date_created": "20260410",
-    "season": null,
+    "apl": 8,
     "authors": [
         "Strategicon AL",
         "Anealia Kortkamp"
@@ -10,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-DUNGEON-03",
+    "date_created": "20260410",
     "full_title": "FR-DC-STRAT-DUNGEON-03 Tomb of Terror",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260511",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/563933/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "563933",
+    "season": null,
     "tiers": 2,
-    "apl": 8,
     "title": "Tomb of Terror",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/563933/?affiliate_id=171040"
 }

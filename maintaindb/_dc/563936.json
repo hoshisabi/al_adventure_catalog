@@ -1,7 +1,5 @@
 {
-    "product_id": "563936",
-    "date_created": "20260410",
-    "season": null,
+    "apl": 13,
     "authors": [
         "Strategicon AL",
         "Jim Heitman"
@@ -10,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-DUNGEON-05",
+    "date_created": "20260410",
     "full_title": "FR-DC-STRAT-DUNGEON-05 By Invitation Only",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260511",
     "level_range": "11-16",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/563936/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "563936",
+    "season": null,
     "tiers": 3,
-    "apl": 13,
     "title": "By Invitation Only",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/563936/?affiliate_id=171040"
 }
