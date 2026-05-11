@@ -1,7 +1,5 @@
 {
-    "product_id": "563935",
-    "date_created": "20260410",
-    "season": null,
+    "apl": 13,
     "authors": [
         "Strategicon AL",
         "Alex Tackett"
@@ -10,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-STRAT-DUNGEON-04",
+    "date_created": "20260410",
     "full_title": "FR-DC-STRAT-DUNGEON-04 The Lost Secrets of Shar",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260511",
     "level_range": "11-16",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/563935/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "563935",
+    "season": null,
     "tiers": 3,
-    "apl": 13,
     "title": "The Lost Secrets of Shar",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/563935/?affiliate_id=171040"
 }
