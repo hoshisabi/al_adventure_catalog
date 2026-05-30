@@ -465,15 +465,78 @@ function displayResults() {
 
 // ... Rendering functions (Card/Grid) ...
 
+function filterByValue(field, value) {
+    const panel = document.getElementById('filter-panel');
+    const toggleBtn = document.getElementById('toggle-filters');
+    if (panel && panel.classList.contains('hidden')) {
+        panel.classList.remove('hidden');
+        if (toggleBtn) toggleBtn.textContent = 'Hide Filters';
+        panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    if (field === 'author' || field === 'search') {
+        filters.search = value;
+        const searchEl = document.getElementById('search');
+        if (searchEl) searchEl.value = value;
+    } else {
+        filters[field] = value;
+        const el = document.getElementById(field);
+        if (el) el.value = value;
+    }
+
+    applyFilters();
+    updateURLFromFilters();
+}
+
+function makeFilterChip(field, value) {
+    const escaped = String(value).replace(/"/g, '&quot;');
+    return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="${field}" data-value="${escaped}" title="Filter by: ${escaped}">${value}</span>`;
+}
+
+function makeCampaignChips(p) {
+    const names = [];
+    if (typeof p === 'number') {
+        for (const [bit, name] of Object.entries(CAMPAIGN_MAP)) {
+            if (p & parseInt(bit)) names.push(name);
+        }
+    } else if (Array.isArray(p)) {
+        names.push(...p.filter(x => x));
+    } else if (p) {
+        names.push(p);
+    }
+    if (names.length === 0) return '<span>Unspecified</span>';
+    return names.map(n => makeFilterChip('campaign', n)).join(', ');
+}
+
+function makeAuthorChips(a) {
+    const items = Array.isArray(a) ? a.filter(x => x) : (a ? [a] : []);
+    if (items.length === 0) return '<span>N/A</span>';
+    return items.map(name => makeFilterChip('author', name)).join(', ');
+}
+
+function makeSeasonChip(s) {
+    if (!s) return '<span>Unspecified</span>';
+    return makeFilterChip('season', s);
+}
+
+function makeTierChip(t) {
+    if (t === null || t === undefined) return '<span>Unspecified</span>';
+    return makeFilterChip('tier', String(t));
+}
+
+function makeCodeChip(c) {
+    if (!c) return '<span>N/A</span>';
+    const series = c.replace(/[^a-zA-Z]*\d+$/, '') || c;
+    const escaped = series.replace(/"/g, '&quot;');
+    return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="search" data-value="${escaped}" title="Filter by series: ${escaped}">${c}</span>`;
+}
+
 function createCard(adventure) {
     const card = document.createElement('div');
     card.id = `card-${adventure.i}`;
     card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-all bg-white';
 
-    const campaign = formatCampaigns(adventure.p) || 'Unspecified';
     const hours = formatHours(adventure.h);
-    const season = formatSeason(adventure.s, adventure.c);
-    const authors = formatList(adventure.a) || 'N/A';
     const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
 
     const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
@@ -494,16 +557,24 @@ function createCard(adventure) {
             ` : ''}
         </div>
         ${filters.showProductId ? `<p class="text-xs text-gray-400 mb-1"><span class="font-medium">Product ID:</span> ${adventure.i}</p>` : ''}
-        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${adventure.c || 'N/A'}</p>
-        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${authors}</p>
-        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${campaign}</p>
-        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Season:</span> ${season}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${makeCodeChip(adventure.c)}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${makeAuthorChips(adventure.a)}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${makeCampaignChips(adventure.p)}</p>
+        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Season:</span> ${makeSeasonChip(adventure.s)}</p>
         <p class="text-sm text-gray-600 mb-1">
-            <span class="font-medium">Hours:</span> ${hours} &bull; 
-            <span class="font-medium">Tier:</span> ${adventure.t !== null ? adventure.t : 'Unspecified'}
+            <span class="font-medium">Hours:</span> ${hours} &bull;
+            <span class="font-medium">Tier:</span> ${makeTierChip(adventure.t)}
         </p>
         <p class="text-sm text-gray-500 mt-2 italic">Added: ${dateAdded}</p>
     `;
+
+    card.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.addEventListener('click', e => {
+            e.stopPropagation();
+            filterByValue(chip.dataset.filter, chip.dataset.value);
+        });
+    });
+
     return card;
 }
 
