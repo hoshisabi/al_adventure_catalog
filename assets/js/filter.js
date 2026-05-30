@@ -57,7 +57,7 @@ async function initialize() {
                 const luContainer = document.getElementById('last-update-container');
                 const luDate = document.getElementById('last-update-date');
                 if (luContainer && luDate) {
-                    luDate.textContent = formattedDate;
+                    luDate.innerHTML = `<a href="https://github.com/hoshisabi/al_adventure_catalog/commits/main" target="_blank" class="hover:underline">${formattedDate}</a>`;
                     luContainer.classList.remove('hidden');
                 }
             }
@@ -488,9 +488,10 @@ function filterByValue(field, value) {
     updateURLFromFilters();
 }
 
-function makeFilterChip(field, value) {
+function makeFilterChip(field, value, displayText) {
     const escaped = String(value).replace(/"/g, '&quot;');
-    return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="${field}" data-value="${escaped}" title="Filter by: ${escaped}">${value}</span>`;
+    const label = displayText !== undefined ? displayText : value;
+    return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="${field}" data-value="${escaped}" title="Filter by: ${label}">${label}</span>`;
 }
 
 function makeCampaignChips(p) {
@@ -524,6 +525,14 @@ function makeTierChip(t) {
     return makeFilterChip('tier', String(t));
 }
 
+function makeHoursChip(h) {
+    if (!h) return '<span>Unspecified</span>';
+    const display = formatHours(h);
+    const firstNum = String(h).match(/\d+/);
+    if (!firstNum) return `<span>${display}</span>`;
+    return makeFilterChip('hours', firstNum[0], display);
+}
+
 function makeCodeChip(c) {
     if (!c) return '<span>N/A</span>';
     const series = c.replace(/[^a-zA-Z]*\d+$/, '') || c;
@@ -536,7 +545,6 @@ function createCard(adventure) {
     card.id = `card-${adventure.i}`;
     card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-all bg-white';
 
-    const hours = formatHours(adventure.h);
     const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
 
     const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
@@ -562,7 +570,7 @@ function createCard(adventure) {
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${makeCampaignChips(adventure.p)}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Season:</span> ${makeSeasonChip(adventure.s)}</p>
         <p class="text-sm text-gray-600 mb-1">
-            <span class="font-medium">Hours:</span> ${hours} &bull;
+            <span class="font-medium">Hours:</span> ${makeHoursChip(adventure.h)} &bull;
             <span class="font-medium">Tier:</span> ${makeTierChip(adventure.t)}
         </p>
         <p class="text-sm text-gray-500 mt-2 italic">Added: ${dateAdded}</p>
@@ -754,6 +762,28 @@ function showGoToPagePrompt() {
     }
 }
 
+function clearFilters() {
+    filters.campaign = '';
+    filters.season = '';
+    filters.tier = '';
+    filters.hours = '';
+    filters.ccOnly = false;
+    filters.privateOnly = false;
+    filters.search = '';
+
+    ['campaign', 'season', 'tier', 'hours', 'search'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.value = '';
+    });
+    const ccOnly = document.getElementById('cc-only');
+    if (ccOnly) ccOnly.checked = false;
+    const privateOnly = document.getElementById('private-only');
+    if (privateOnly) privateOnly.checked = false;
+
+    applyFilters();
+    updateURLFromFilters();
+}
+
 function toggleFilters() {
     const toggleBtn = document.getElementById('toggle-filters');
     const panel = document.getElementById('filter-panel');
@@ -828,6 +858,8 @@ function setupEventListeners() {
     if (toggleBtn) {
         toggleBtn.addEventListener('click', toggleFilters);
     }
+
+    document.getElementById('clear-filters')?.addEventListener('click', clearFilters);
 
     // Left/Right arrow keys for pagination
     document.addEventListener('keydown', (e) => {
