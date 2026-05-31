@@ -533,6 +533,44 @@ function makeHoursChip(h) {
     return makeFilterChip('hours', firstNum[0], display);
 }
 
+function tierPill(t) {
+    if (t === null || t === undefined) return '';
+    return `<span class="meta-pill tier-${t} filter-chip" data-filter="tier" data-value="${t}" title="Filter: Tier ${t}">Tier ${t}</span>`;
+}
+
+function hoursPill(h) {
+    if (!h) return '';
+    const display = formatHours(h);
+    const firstNum = String(h).match(/\d+/);
+    if (!firstNum) return `<span class="meta-pill">${display}</span>`;
+    const n = parseInt(firstNum[0]);
+    const colorClass = [1, 2, 4, 8].includes(n) ? `hours-${n}` : 'hours-other';
+    return `<span class="meta-pill ${colorClass} filter-chip" data-filter="hours" data-value="${firstNum[0]}" title="Filter by hours">${display}</span>`;
+}
+
+function seasonPill(s) {
+    if (!s) return '';
+    const escaped = String(s).replace(/"/g, '&quot;');
+    return `<span class="meta-pill clickable filter-chip" data-filter="season" data-value="${escaped}" title="Filter by season">${s}</span>`;
+}
+
+function campaignPills(p) {
+    const names = [];
+    if (typeof p === 'number') {
+        for (const [bit, name] of Object.entries(CAMPAIGN_MAP)) {
+            if (p & parseInt(bit)) names.push(name);
+        }
+    } else if (Array.isArray(p)) {
+        names.push(...p.filter(x => x));
+    } else if (p) {
+        names.push(p);
+    }
+    return names.map(n => {
+        const escaped = n.replace(/"/g, '&quot;');
+        return `<span class="meta-pill clickable filter-chip" data-filter="campaign" data-value="${escaped}" title="Filter: ${n}">${n}</span>`;
+    }).join('');
+}
+
 function makeCodeChip(c) {
     if (!c) return '<span>N/A</span>';
     const series = c.replace(/[^a-zA-Z]*\d+$/, '') || c;
@@ -552,12 +590,12 @@ function createCard(adventure) {
     const privateLink = filters.privateLinks[adventure.i] || filters.privateLinks[cleanProductId];
 
     card.innerHTML = `
-        <div class="flex justify-between items-start">
-            <a href="${url}" target="_blank" class="text-lg font-semibold mb-2 text-blue-600 hover:text-blue-800 block">
+        <div class="flex justify-between items-start mb-2">
+            <a href="${url}" target="_blank" class="text-lg font-semibold text-blue-600 hover:text-blue-800 block leading-snug">
                 ${adventure.n || 'Untitled'}
             </a>
             ${privateLink ? `
-                <a href="${privateLink}" target="_blank" title="View Private PDF" class="ml-2 p-1 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors">
+                <a href="${privateLink}" target="_blank" title="View Private PDF" class="ml-2 p-1 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
                     </svg>
@@ -568,12 +606,12 @@ function createCard(adventure) {
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${makeCodeChip(adventure.c)}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${makeAuthorChips(adventure.a)}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${makeCampaignChips(adventure.p)}</p>
-        <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Season:</span> ${makeSeasonChip(adventure.s)}</p>
-        <p class="text-sm text-gray-600 mb-1">
-            <span class="font-medium">Hours:</span> ${makeHoursChip(adventure.h)} &bull;
-            <span class="font-medium">Tier:</span> ${makeTierChip(adventure.t)}
-        </p>
-        <p class="text-sm text-gray-500 mt-2 italic">Added: ${dateAdded}</p>
+        <div class="card-meta">
+            ${tierPill(adventure.t)}
+            ${hoursPill(adventure.h)}
+            ${seasonPill(adventure.s)}
+            <span class="meta-pill">${dateAdded}</span>
+        </div>
     `;
 
     card.querySelectorAll('.filter-chip').forEach(chip => {

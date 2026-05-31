@@ -7,19 +7,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Private Inventory Manager</title>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Theme -->
+    <link rel="stylesheet" href="assets/css/catalog.css">
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="assets/favicon.ico">
+
+    <style>
+        /* Inventory-specific overrides */
+        .bg-red-100   { background: rgba(244,63,94,0.12) !important; }
+        .text-red-700 { color: #f87171 !important; }
+        .hover\:bg-red-200:hover { background: rgba(244,63,94,0.22) !important; }
+        .text-red-600 { color: #f87171 !important; }
+        .bg-green-600 { background: rgba(94,234,212,0.2) !important; border: 1px solid rgba(94,234,212,0.4) !important; }
+        .text-white   { color: var(--success) !important; }
+        .hover\:bg-green-700:hover { background: rgba(94,234,212,0.3) !important; }
+        .bg-gray-100.text-gray-500 { color: var(--text-muted) !important; }
+        .hover\:bg-blue-50:hover { background: var(--bg-card-hi) !important; }
+        .text-gray-900, .text-gray-800 { color: var(--text) !important; }
+        .text-blue-600 { color: var(--link) !important; }
+        .text-orange-600 { color: var(--warning) !important; }
+        .rounded-xl.shadow-md { box-shadow: none !important; background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)) !important; border: 1px solid var(--border) !important; }
+        .border-b { border-color: var(--border) !important; }
+        .border { border-color: var(--border) !important; }
+        input[type="text"], input[type="url"] { background: var(--bg-raised) !important; color: var(--text) !important; border-color: var(--border) !important; }
+        /* File drop zone */
+        label[for="file-upload"] { background: var(--bg-raised) !important; border-color: var(--border-hi) !important; }
+        label[for="file-upload"]:hover { background: var(--bg-card-hi) !important; }
+    </style>
 </head>
 
-<body class="bg-gray-50 text-gray-800">
+<body>
     <div class="container mx-auto px-4 py-8 max-w-screen-lg">
-        <div class="flex justify-between items-center mb-8">
-            <h1 class="text-3xl font-bold">Private Inventory Manager</h1>
-            <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium">&larr; Back to Catalog</a>
+        <div class="catalog-header">
+            <h1 class="catalog-title">Private Inventory Manager</h1>
+            <nav class="catalog-nav">
+                <a href="index.html">&larr; Back to Catalog</a>
+            </nav>
         </div>
 
         <!-- Status Overview -->
