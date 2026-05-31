@@ -60,12 +60,17 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 <script>
-    // Dark theme defaults for Chart.js
+    // Dark theme defaults for Chart.js v3
     Chart.defaults.color = '#a8b0c8';
     Chart.defaults.borderColor = '#232844';
     Chart.defaults.plugins.legend.labels.color = '#a8b0c8';
-    Chart.defaults.scale.grid = { color: '#232844' };
-    Chart.defaults.scale.ticks = { color: '#6c7390' };
+    // Set scale grid/tick colors via the v3 scales API
+    const DARK_SCALE = { grid: { color: '#232844' }, ticks: { color: '#6c7390' } };
+    ['linear', 'category'].forEach(t => {
+        if (Chart.defaults.scales && Chart.defaults.scales[t]) {
+            Object.assign(Chart.defaults.scales[t], DARK_SCALE);
+        }
+    });
 
     fetch('assets/data/stats.json')
         .then(response => response.json())
