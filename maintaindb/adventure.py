@@ -246,32 +246,39 @@ class DungeonCraft:
         for dash_char in dash_variants:
             normalized_t = normalized_t.replace(dash_char, '-')
         
-        # Strip code prefix if code is provided and title starts with it
+        # Strip code prefix if code is provided and title starts with it.
+        # Try both the stored code and its non-zero-padded variant (e.g. DDEX01-01 → DDEX1-01)
+        # so that titles still using the legacy non-padded form are handled correctly.
         if code:
             code_str = str(code)
-            # Try case-insensitive matching for code removal using normalized title
+            code_alt = re.sub(r'^(DDEX|DDAL)0([1-9])', r'\1\2', code_str.upper())
+            codes_to_try = [code_str, code_alt] if code_alt != code_str.upper() else [code_str]
             normalized_t_lower = normalized_t.lower()
-            code_lower = code_str.lower()
-            # Try to remove code with various possible separators (space, dash, colon, or nothing)
             code_removed = False
-            for separator in [' ', '-', ':', '']:
-                code_prefix_lower = code_lower + separator
-                if normalized_t_lower.startswith(code_prefix_lower):
-                    # Find the actual length to remove (preserving original case)
-                    code_prefix_len = len(code_str + separator)
-                    # Check if removing the code would leave us with an empty string
-                    remaining = t[code_prefix_len:].strip()
-                    if remaining:  # Only remove if there's something left
-                        t = remaining
-                        normalized_t = normalized_t[code_prefix_len:].strip()
-                        code_removed = True
+            for try_code in codes_to_try:
+                code_lower = try_code.lower()
+                for separator in [' ', '-', ':', '']:
+                    code_prefix_lower = code_lower + separator
+                    if normalized_t_lower.startswith(code_prefix_lower):
+                        code_prefix_len = len(try_code + separator)
+                        remaining = t[code_prefix_len:].strip()
+                        if remaining:
+                            t = remaining
+                            normalized_t = normalized_t[code_prefix_len:].strip()
+                            normalized_t_lower = normalized_t.lower()
+                            code_removed = True
+                        break
+                if code_removed:
                     break
-            # If code is at the start but no separator matched, remove it directly
-            if not code_removed and normalized_t_lower.startswith(code_lower):
-                remaining = t[len(code_str):].strip()
-                if remaining:  # Only remove if there's something left
-                    t = remaining
-                    normalized_t = normalized_t[len(code_str):].strip()
+                if not code_removed and normalized_t_lower.startswith(code_lower):
+                    remaining = t[len(try_code):].strip()
+                    if remaining:
+                        t = remaining
+                        normalized_t = normalized_t[len(try_code):].strip()
+                        normalized_t_lower = normalized_t.lower()
+                        code_removed = True
+                if code_removed:
+                    break
         
         # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
         t = re.sub(r"\(\s*5e\s*\)", "", t, flags=re.IGNORECASE)
@@ -1053,6 +1060,22 @@ def _collect_text_for_regexes(parsed_html) -> str:
     return " ".join(blocks)
 
 
+def _code_in_title(code_u: str, title_upper: str) -> bool:
+    """Check if a code appears in a title, accounting for DDEX/DDAL zero-padding variants.
+
+    Stored codes are zero-padded (e.g. 'DDEX01-01') but legacy full_title strings may
+    use the non-padded form ('DDEX1-01'). Both forms must be accepted as a match to
+    avoid spurious double-prepend of the code.
+    """
+    if code_u in title_upper:
+        return True
+    # Also try the non-padded variant for zero-padded DDEX/DDAL codes (e.g. DDEX01 → DDEX1)
+    alt = re.sub(r'^(DDEX|DDAL)0([1-9])', r'\1\2', code_u)
+    if alt != code_u and alt in title_upper:
+        return True
+    return False
+
+
 def _extract_raw_data_from_html(parsed_html, product_id):
     """
     Extract raw data fields from DMsGuild HTML content.
@@ -1237,8 +1260,8 @@ def _normalize_and_convert_data(raw_data):
         dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
         for dash_char in dash_variants:
             title_normalized = title_normalized.replace(dash_char, '-')
-        
-        if code_u not in title_normalized.upper():
+
+        if not _code_in_title(code_u, title_normalized.upper()):
             processed_data["full_title"] = f"{processed_data['code']} {processed_data['full_title']}"
 
     return processed_data
@@ -1620,8 +1643,8 @@ def extract_data_from_html(parsed_html, product_id, product_alt=None, existing_d
         dash_variants = ['\u2010', '\u2011', '\u2012', '\u2013', '\u2014', '\u2015', '\u2212']
         for dash_char in dash_variants:
             title_normalized = title_normalized.replace(dash_char, '-')
-        
-        if code_u not in title_normalized.upper():
+
+        if not _code_in_title(code_u, title_normalized.upper()):
             merged_data["full_title"] = f"{merged_data['code']} {title_val}"
 
     # Ensure is_adventure is set correctly after inference and merge

@@ -1,7 +1,5 @@
 {
-    "product_id": "562077",
-    "date_created": "20260327",
-    "season": null,
+    "apl": 3,
     "authors": [
         "Captain Faqrullah Arman"
     ],
@@ -9,16 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-NASKGV-01",
+    "date_created": "20260327",
     "full_title": "FR-DC-NASKGV-01: A Star is Me: A Golden Vault Heist",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260530",
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/562077/?affiliate_id=171040",
+    "price": 1.99,
+    "product_id": "562077",
+    "season": null,
     "suggestedPrice": 1.99,
-    "apl": 3,
     "tiers": 1,
     "title": "A Star is Me A Golden Vault Heist",
-    "price": 1.99
+    "url": "https://www.dmsguild.com/product/562077/?affiliate_id=171040"
 }
