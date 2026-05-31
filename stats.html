@@ -6,17 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adventure Stats</title>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Theme -->
+    <link rel="stylesheet" href="assets/css/catalog.css">
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="assets/favicon.ico">
 </head>
-<body class="bg-gray-50">
+<body>
 <div class="container mx-auto px-4 py-8 max-w-screen-lg">
-    <h1 class="text-3xl font-bold mb-6">Adventure Statistics</h1>
-    <p class="mb-4"><a href="index.html" class="text-blue-500 hover:underline">Return to Main Page</a></p>
+    <div class="catalog-header">
+        <h1 class="catalog-title">Adventure Statistics</h1>
+        <nav class="catalog-nav">
+            <a href="index.html">&larr; Back to Catalog</a>
+        </nav>
+    </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
@@ -48,6 +60,13 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 <script>
+    // Dark theme defaults for Chart.js
+    Chart.defaults.color = '#a8b0c8';
+    Chart.defaults.borderColor = '#232844';
+    Chart.defaults.plugins.legend.labels.color = '#a8b0c8';
+    Chart.defaults.scale.grid = { color: '#232844' };
+    Chart.defaults.scale.ticks = { color: '#6c7390' };
+
     fetch('assets/data/stats.json')
         .then(response => response.json())
         .then(data => {
@@ -55,6 +74,21 @@
             const tierLabels = ['Tier 1', 'Tier 2', 'Tier 3', 'Tier 4', 'Unknown'];
             const tierData = tierLabels.map(label => data.tier[label] || 0);
             
+            const tierColors = [
+                'rgba(94,234,212,0.75)',   // T1 teal
+                'rgba(185,161,255,0.75)',  // T2 lavender
+                'rgba(245,158,11,0.75)',   // T3 amber
+                'rgba(244,63,94,0.75)',    // T4 red
+                'rgba(108,115,144,0.4)',   // Unknown muted
+            ];
+            const tierBorders = [
+                'rgba(94,234,212,1)',
+                'rgba(185,161,255,1)',
+                'rgba(245,158,11,1)',
+                'rgba(244,63,94,1)',
+                'rgba(108,115,144,0.8)',
+            ];
+
             const tierCtx = document.getElementById('tier-chart').getContext('2d');
             new Chart(tierCtx, {
                 type: 'bar',
@@ -63,16 +97,14 @@
                     datasets: [{
                         label: '# of Adventures',
                         data: tierData,
-                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                        borderColor: 'rgba(54, 162, 235, 1)',
+                        backgroundColor: tierColors,
+                        borderColor: tierBorders,
                         borderWidth: 1
                     }]
                 },
                 options: {
                     scales: {
-                        y: {
-                            beginAtZero: true
-                        }
+                        y: { beginAtZero: true }
                     }
                 }
             });
@@ -82,6 +114,16 @@
             const durationLabels = durationOrder.filter(label => data.duration[label] !== undefined && data.duration[label] > 0);
             const durationData = durationLabels.map(label => data.duration[label]);
             
+            const durationColorMap = {
+                '1 Hours': ['rgba(109,212,255,0.75)', 'rgba(109,212,255,1)'],
+                '2 Hours': ['rgba(94,234,212,0.75)',  'rgba(94,234,212,1)'],
+                '4 Hours': ['rgba(185,161,255,0.75)', 'rgba(185,161,255,1)'],
+                '6 Hours': ['rgba(245,158,11,0.6)',   'rgba(245,158,11,1)'],
+                '8 Hours': ['rgba(245,158,11,0.75)',  'rgba(245,158,11,1)'],
+            };
+            const durationBgColors = durationLabels.map(l => (durationColorMap[l] || ['rgba(108,115,144,0.4)', 'rgba(108,115,144,0.8)'])[0]);
+            const durationBorderColors = durationLabels.map(l => (durationColorMap[l] || ['rgba(108,115,144,0.4)', 'rgba(108,115,144,0.8)'])[1]);
+
             const durationCtx = document.getElementById('duration-chart').getContext('2d');
             new Chart(durationCtx, {
                 type: 'bar',
@@ -90,16 +132,14 @@
                     datasets: [{
                         label: '# of Adventures',
                         data: durationData,
-                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                        borderColor: 'rgba(255, 99, 132, 1)',
+                        backgroundColor: durationBgColors,
+                        borderColor: durationBorderColors,
                         borderWidth: 1
                     }]
                 },
                 options: {
                     scales: {
-                        y: {
-                            beginAtZero: true
-                        }
+                        y: { beginAtZero: true }
                     }
                 }
             });
@@ -108,8 +148,8 @@
             const campaignLabels = Object.keys(data.campaign);
             const campaignData = Object.values(data.campaign);
             const campaignColors = [
-                '#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', 
-                '#1abc9c', '#e67e22', '#34495e', '#16a085', '#27ae60'
+                '#b9a1ff', '#6dd4ff', '#5eead4', '#f59e0b', '#f43f5e',
+                '#a78bfa', '#34d399', '#fb923c', '#60a5fa', '#e879f9'
             ];
             const campaignChartColors = campaignLabels.map((_, i) => campaignColors[i % campaignColors.length]);
             
@@ -168,16 +208,14 @@
                     datasets: [{
                         label: '# of Adventures',
                         data: Object.values(seasonDataFiltered),
-                        backgroundColor: 'rgba(153, 102, 255, 0.2)',
-                        borderColor: 'rgba(153, 102, 255, 1)',
+                        backgroundColor: 'rgba(185,161,255,0.5)',
+                        borderColor: 'rgba(185,161,255,1)',
                         borderWidth: 1
                     }]
                 },
                 options: {
                     scales: {
-                        y: {
-                            beginAtZero: true
-                        }
+                        y: { beginAtZero: true }
                     }
                 }
             });
@@ -187,7 +225,10 @@
                 // Create chart container
                 const chartDiv = document.createElement('div');
                 chartDiv.className = 'bg-white p-4 rounded-lg shadow';
-                
+                chartDiv.style.background = 'linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))';
+                chartDiv.style.border = '1px solid #232844';
+                chartDiv.style.borderRadius = '12px';
+
                 const chartTitle = document.createElement('h3');
                 chartTitle.className = 'text-lg font-semibold mb-2';
                 chartTitle.textContent = seasonName + (subtitle ? ` - ${subtitle}` : '');
@@ -250,9 +291,9 @@
             if (data.seed_by_season && Object.keys(data.seed_by_season).length > 0) {
                 const seedChartsContainer = document.getElementById('seed-charts-container');
                 const colors = [
-                    '#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', 
-                    '#1abc9c', '#e67e22', '#34495e', '#16a085', '#27ae60',
-                    '#c0392b', '#8e44ad', '#2980b9', '#d35400', '#7f8c8d'
+                    '#b9a1ff', '#6dd4ff', '#5eead4', '#f59e0b', '#f43f5e',
+                    '#a78bfa', '#34d399', '#fb923c', '#60a5fa', '#e879f9',
+                    '#818cf8', '#2dd4bf', '#fbbf24', '#f87171', '#c084fc'
                 ];
 
                 // Define sort order: Icewind Dale/Plague of Ancients, Wild Beyond the Witchlight, Spelljammer (canonical names from stats)

@@ -1,0 +1,339 @@
+/* ============================================================
+   AL Adventure Catalog — hoshisabi dark theme
+   ============================================================ */
+
+:root {
+  --bg:          #0a0c1a;
+  --bg-2:        #0e1226;
+  --bg-raised:   #131730;
+  --bg-card:     #131730;
+  --bg-card-hi:  #181d36;
+  --border:      #232844;
+  --border-hi:   #35406c;
+  --text:        #e8ecf7;
+  --text-dim:    #a8b0c8;
+  --text-muted:  #6c7390;
+  --accent:      #b9a1ff;
+  --accent-2:    #6dd4ff;
+  --accent-soft: rgba(185,161,255,0.16);
+  --link:        #b9a1ff;
+  --link-hover:  #d4c4ff;
+  --success:     #5eead4;
+  --warning:     #f59e0b;
+  --danger:      #f43f5e;
+  --font:         "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-mono:    "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+}
+
+/* ── Base ─────────────────────────────────────────────────── */
+html { background: var(--bg); }
+
+body {
+  font-family: var(--font);
+  background:
+    radial-gradient(1200px 800px at 50% -10%, rgba(185,161,255,0.06), transparent 60%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+a { color: var(--link); }
+a:hover { color: var(--link-hover); }
+
+/* ── Tailwind surface overrides ───────────────────────────── */
+.bg-gray-50  { background: transparent !important; }
+.bg-white    { background: var(--bg-card) !important; }
+.bg-gray-100 { background: var(--bg-raised) !important; }
+.bg-gray-200 { background: var(--bg-card-hi) !important; }
+
+.hover\:bg-gray-50:hover,
+.hover\:bg-gray-100:hover,
+.hover\:bg-gray-200:hover,
+.hover\:bg-gray-300:hover { background: var(--bg-card-hi) !important; }
+
+.text-gray-600, .text-gray-700 { color: var(--text-dim) !important; }
+.text-gray-500, .text-gray-400 { color: var(--text-muted) !important; }
+.text-blue-500, .text-blue-600 { color: var(--link) !important; }
+.hover\:text-blue-800:hover    { color: var(--link-hover) !important; }
+.text-green-700 { color: var(--success) !important; }
+.text-green-600 { color: var(--success) !important; }
+.bg-green-100   { background: rgba(94,234,212,0.1) !important; }
+.hover\:bg-green-200:hover { background: rgba(94,234,212,0.2) !important; }
+
+.border          { border-color: var(--border) !important; }
+.border-gray-300 { border-color: var(--border) !important; }
+
+.shadow-lg                { box-shadow: 0 4px 24px rgba(0,0,0,0.4) !important; }
+.hover\:shadow-xl:hover   { box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important; }
+
+/* ── Catalog header ───────────────────────────────────────── */
+.catalog-header {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+.catalog-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 2.25rem;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+}
+
+.catalog-nav {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+}
+
+.catalog-nav a {
+  color: var(--text-dim) !important;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.catalog-nav a:hover { color: var(--accent) !important; }
+
+.catalog-nav .sep {
+  color: var(--border-hi);
+  margin: 0 0.5rem;
+}
+
+#last-update-container {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted) !important;
+}
+
+/* ── Buttons ──────────────────────────────────────────────── */
+button {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.bg-blue-500 {
+  background: var(--accent-soft) !important;
+  color: var(--accent) !important;
+  border: 1px solid rgba(185,161,255,0.3) !important;
+}
+
+.hover\:bg-blue-600:hover {
+  background: rgba(185,161,255,0.25) !important;
+}
+
+#clear-filters {
+  background: var(--bg-raised) !important;
+  color: var(--text-dim) !important;
+  border: 1px solid var(--border) !important;
+}
+
+#clear-filters:hover {
+  background: var(--bg-card-hi) !important;
+  color: var(--text) !important;
+}
+
+.view-toggle {
+  background: var(--bg-raised) !important;
+  color: var(--text-dim) !important;
+  border: 1px solid var(--border) !important;
+}
+
+/* active view toggle is set via JS adding bg-blue-500; .bg-blue-500 override above handles it */
+
+/* ── Form controls ────────────────────────────────────────── */
+select,
+input[type="search"] {
+  background: var(--bg-raised) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+select option {
+  background: var(--bg-raised);
+  color: var(--text);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--accent);
+}
+
+label { color: var(--text-dim); }
+
+/* Section labels inside filter panel */
+#filter-panel label.block {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── Filter chips ─────────────────────────────────────────── */
+.filter-chip {
+  color: var(--accent) !important;
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.filter-chip:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline;
+}
+
+/* ── Adventure cards (card view) ─────────────────────────── */
+#results > div {
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: none !important;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+#results > div:hover {
+  border-color: var(--border-hi) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4) !important;
+}
+
+/* ── Meta pills ───────────────────────────────────────────── */
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+  color: var(--text-muted);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.meta-pill.tier-1 { background: rgba(94,234,212,0.1);  color: var(--success); border-color: rgba(94,234,212,0.3); }
+.meta-pill.tier-2 { background: rgba(185,161,255,0.1); color: var(--accent);  border-color: rgba(185,161,255,0.32); }
+.meta-pill.tier-3 { background: rgba(245,158,11,0.1);  color: var(--warning); border-color: rgba(245,158,11,0.32); }
+.meta-pill.tier-4 { background: rgba(244,63,94,0.1);   color: var(--danger);  border-color: rgba(244,63,94,0.32); }
+
+/* Hours pills */
+.meta-pill.hours-1 { background: rgba(109,212,255,0.1);  color: var(--accent-2); border-color: rgba(109,212,255,0.3); }
+.meta-pill.hours-2 { background: rgba(94,234,212,0.1);   color: var(--success);  border-color: rgba(94,234,212,0.3); }
+.meta-pill.hours-4 { background: rgba(185,161,255,0.1);  color: var(--accent);   border-color: rgba(185,161,255,0.32); }
+.meta-pill.hours-8 { background: rgba(245,158,11,0.1);   color: var(--warning);  border-color: rgba(245,158,11,0.32); }
+/* hours-other keeps the default muted style */
+
+.meta-pill.filter-chip {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.meta-pill.filter-chip:hover {
+  filter: brightness(1.25);
+  text-decoration: none;
+}
+
+.meta-pill.filter-chip.tier-1:hover,
+.meta-pill.filter-chip.tier-2:hover,
+.meta-pill.filter-chip.tier-3:hover,
+.meta-pill.filter-chip.tier-4:hover {
+  filter: brightness(1.2);
+}
+
+/* Generic clickable meta pill (hours, season, etc.) */
+.meta-pill.clickable {
+  cursor: pointer;
+  color: var(--accent) !important;
+  background: var(--accent-soft);
+  border-color: rgba(185,161,255,0.3);
+}
+
+.meta-pill.clickable:hover {
+  background: rgba(185,161,255,0.25);
+  filter: none;
+  text-decoration: none;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Table (grid view) ────────────────────────────────────── */
+table {
+  background: var(--bg-card) !important;
+}
+
+thead tr {
+  background: var(--bg-raised) !important;
+}
+
+thead th {
+  color: var(--text-muted) !important;
+  border-color: var(--border) !important;
+  font-family: var(--font-mono);
+  font-size: 0.65rem !important;
+  letter-spacing: 0.15em;
+}
+
+tbody td {
+  color: var(--text-dim);
+  border-color: var(--border) !important;
+}
+
+tbody tr:hover {
+  background: var(--bg-card-hi) !important;
+}
+
+thead th.bg-gray-200 {
+  background: var(--bg-card-hi) !important;
+  color: var(--text) !important;
+}
+
+/* ── Results info + pagination ────────────────────────────── */
+#results-info,
+#results-info-bottom {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--text-muted) !important;
+}
+
+#page-info,
+#goto-page-info-top {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted) !important;
+}
+
+/* View toggle labels */
+#results ~ div .text-sm.font-medium {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
