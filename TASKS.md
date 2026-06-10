@@ -149,6 +149,7 @@
 
 ## Future Enhancements
 
+* [ ] **"Created with AI tools" filter** — DM's Guild exposes an "AI tools" filter on product listings. Investigate whether this is discoverable per-product (e.g. in product page HTML/RSS metadata) and, if so, back-propagate it through `_dc/*.json` and `aggregator.py` so it can be added as a catalog filter.
 * [ ] Convert `season` to a tag-based system.
 * [ ] Add richer stats (e.g., adventures per year, adventures per publisher).
 * [ ] Consider basic test coverage for `aggregator.py` functions.
