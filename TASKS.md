@@ -70,6 +70,22 @@
 * [ ] Remove reliance on `_stats/` (or configure `_config.yml` to include it).
 * [ ] Standardize Python version to `3.12` for GitHub Actions unless 3.13-specific features are required.
 
+### RSS Sync Action (`.github/workflows/rss-sync.yml`) — DISABLED 2026-06-11
+
+* Fixed a rebase-conflict crash (`workflow_dispatch` was checking out a stale
+  pinned SHA, regenerating `catalog.json`/`stats.json` from an outdated
+  `_dc/` tree, then conflicting on `git pull --rebase` with newer generated
+  files already on `main`). See commit `ccf1ea15`.
+* However, DMsGuild returns `403 Forbidden` to GitHub-hosted runners (same
+  URL + User-Agent returns `200` from a home IP) — looks like an
+  IP-reputation/WAF block on Azure datacenter ranges. `process_rss` swallows
+  the error and reports "0 products", so the job exits "success" while
+  silently doing nothing.
+* Disabled via `gh workflow disable rss-sync.yml` until a real fix is chosen:
+  self-hosted runner on a home machine, a local scheduled task instead of a
+  GH Action, or some other fetch path that isn't IP-blocked.
+* Re-enable with `gh workflow enable rss-sync.yml` once a fetch path is sorted.
+
 ---
 
 ## Data Handling & Repo Restructure (Plan 2)
