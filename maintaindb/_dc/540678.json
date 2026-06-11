@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Jeremy Cheong"
@@ -13,6 +14,7 @@
     "full_title": "PS-DC-SV-A-2 Escape from the Severed Vault",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251020",
     "level_range": "5-10",
     "needs_review": true,
     "payWhatYouWant": false,

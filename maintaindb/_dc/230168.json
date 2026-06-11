@@ -1,22 +1,26 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Sterling Hershey"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "DDEX01-07",
     "community_content": false,
     "date_created": "20171231",
     "dungeoncraft": false,
     "full_title": "Roaming Chult",
     "hours": null,
     "is_adventure": false,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "230168",
     "salvage_mission": false,
-    "season": null,
+    "season": "1 - Tyranny of Dragons",
     "tiers": null,
     "title": "Roaming Chult",
     "url": "https://www.dmsguild.com/product/230168/?affiliate_id=171040"

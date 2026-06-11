@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Shawn Merwin"
@@ -11,6 +12,7 @@
     "full_title": "Return of the Lizard King (DDHC-TOA-8)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 5.95,

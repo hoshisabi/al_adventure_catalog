@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Rich Lescouflair",
@@ -14,6 +15,7 @@
     "full_title": "DDEP10-02 Song of Spears",
     "hours": "3",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 8.99,

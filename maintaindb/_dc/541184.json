@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Karianne Fog Heen"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-CONMAR-00-01 A Night at the Frumious Bandersnatch",
     "hours": "1",
     "is_adventure": true,
+    "last_update": "20251020",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 1.49,

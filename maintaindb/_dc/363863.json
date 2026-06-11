@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Jeremy Cheong"
@@ -13,6 +14,7 @@
     "full_title": "DC-POA-LEGIT-SV-03 The Beggar's Blood",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

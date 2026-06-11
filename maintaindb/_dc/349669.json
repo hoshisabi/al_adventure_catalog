@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 14,
     "authors": [
         "Andy Dempz",
@@ -14,6 +15,7 @@
     "full_title": "EB-14 From Dust",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

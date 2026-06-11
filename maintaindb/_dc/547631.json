@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Greg Marks"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-WCAG04-07 The Gloom of Glimmer-Goo Cove",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251215",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

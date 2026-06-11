@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Iam Pace",
@@ -14,6 +15,7 @@
     "full_title": "CCC-PDXAGE-01-01 The White Well",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Marcello De Velazquez"
@@ -13,6 +14,7 @@
     "full_title": "DDAL-DRW-INT-01 Big Problems",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 7.99,

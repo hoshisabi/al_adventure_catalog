@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Alan Patrick",
@@ -18,6 +19,7 @@
     "full_title": "Durnan's Guide to Tavernkeeping",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 8.95,

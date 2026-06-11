@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Baldman Games",
@@ -14,6 +15,7 @@
     "full_title": "CCC-BMG-31 PHLAN 3-1 The Conventicle of Chaos",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Karianne Fog Heen"
@@ -10,9 +11,10 @@
     "community_content": true,
     "date_created": "20251020",
     "dungeoncraft": true,
-    "full_title": "FR-DC-CONMAR-00-02 Oar’s Rest and Below",
+    "full_title": "FR-DC-CONMAR-00-02 Oar\u2019s Rest and Below",
     "hours": "1",
     "is_adventure": true,
+    "last_update": "20251020",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 1.49,
@@ -20,6 +22,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "Oar’s Rest and Below",
+    "title": "Oar\u2019s Rest and Below",
     "url": "https://www.dmsguild.com/product/541185/?affiliate_id=171040"
 }

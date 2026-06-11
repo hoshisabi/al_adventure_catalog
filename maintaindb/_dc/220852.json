@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Will Doyle",
@@ -13,6 +14,7 @@
     "full_title": "DDHC-TOA-7 Ruins of Mezro",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-16",
     "payWhatYouWant": false,
     "price": 4.95,

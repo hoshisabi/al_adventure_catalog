@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 14,
     "authors": [
         "Eric Weberg"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-TEL-11 Temptation for Tiamat",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251011",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.99,

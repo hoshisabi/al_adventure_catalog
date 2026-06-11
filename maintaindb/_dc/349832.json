@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 2,
     "authors": [
         "patrick mcgovern"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA-PM04 Losing your Mind",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 0.95,

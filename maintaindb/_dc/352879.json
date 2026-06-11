@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 15,
     "authors": [
         "D&D Adventurers League",
@@ -14,6 +15,7 @@
     "full_title": "EB-15 Dream Eater",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

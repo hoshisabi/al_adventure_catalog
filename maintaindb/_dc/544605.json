@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Darryl Ho"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-SCRC-01 Scar City",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251215",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

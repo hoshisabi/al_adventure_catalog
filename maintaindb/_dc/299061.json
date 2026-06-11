@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Ian Hawthorne"
@@ -13,6 +14,7 @@
     "full_title": "CCC-TTS-1 Three Moles for Father Octavius",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.95,

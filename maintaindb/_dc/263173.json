@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Keith Christensen",
@@ -14,6 +15,7 @@
     "full_title": "CCC-AN-01 Secrets of Golden Fire",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

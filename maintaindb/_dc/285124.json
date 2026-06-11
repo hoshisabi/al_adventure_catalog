@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 18,
     "authors": [
         "Alan Patrick"
@@ -13,6 +14,7 @@
     "full_title": "DDAL00-10 Trust and Understanding",
     "hours": "6-8",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.79,

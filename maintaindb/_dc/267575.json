@@ -1,10 +1,11 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Alan Tucker",
         "Chad M. Lensch",
         "Harm Delva",
-        "C M O’Halloran",
+        "C M O\u2019Halloran",
         "Elven Tower",
         "Tony Petrecca",
         "Beatriz T. Dias",
@@ -22,9 +23,10 @@
     "community_content": false,
     "date_created": "20190224",
     "dungeoncraft": false,
-    "full_title": "So, a Blind Woman and a Medusa Walk Along the Road…",
+    "full_title": "So, a Blind Woman and a Medusa Walk Along the Road\u2026",
     "hours": null,
     "is_adventure": false,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 0.0,
@@ -32,6 +34,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "So, a Blind Woman and a Medusa Walk Along the Road…",
+    "title": "So, a Blind Woman and a Medusa Walk Along the Road\u2026",
     "url": "https://www.dmsguild.com/product/267575/?affiliate_id=171040"
 }

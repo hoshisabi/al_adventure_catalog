@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 5,
     "authors": [
         "Bryan Gillispie",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GOC01-02 Cairns of Rot",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

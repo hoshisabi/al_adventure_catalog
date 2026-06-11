@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Alec Shaner"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA-INAS-02 Left Behind",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "4-10",
     "payWhatYouWant": false,
     "price": 3.0,

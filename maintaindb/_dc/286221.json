@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Andrea Lucca",
@@ -15,6 +16,7 @@
     "full_title": "CCC-SLMH01-01 Codex Venator - The Last Hunter",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "5-10",
     "payWhatYouWant": true,
     "price": 2.99,

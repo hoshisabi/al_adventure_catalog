@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Christian Alhaug",
@@ -14,6 +15,7 @@
     "full_title": "SJ-DC-CONMAR-04 Finally Saving Marcus",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.49,

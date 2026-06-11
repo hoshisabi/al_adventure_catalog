@@ -144,6 +144,71 @@ def test_extract_authors_from_html_empty():
     assert authors == []
 
 
+def _creation_method_row(value_html):
+    return f"""
+    <table class="table-list full w-lines">
+        <tbody>
+            <tr>
+                <td><p data-codeid="creationMethod" class="u-text-bold"> Creation Method </p></td>
+                <td>{value_html}</td>
+            </tr>
+        </tbody>
+    </table>
+    """
+
+
+def test_extract_creation_method_contains_ai():
+    html = _creation_method_row(
+        '<i class="fas fa-robot u-mr-1"></i>Contains AI-Generated Content'
+    )
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) == "contains_ai"
+    assert adventure._normalize_ai_content("contains_ai") is True
+
+
+def test_extract_creation_method_human_created():
+    html = _creation_method_row(
+        '<i class="fas fa-user-friends u-mr-1"></i>Human-Created Without AI'
+    )
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) == "human_created"
+    assert adventure._normalize_ai_content("human_created") is False
+
+
+def test_extract_creation_method_not_chosen():
+    html = _creation_method_row('Creation Method Not Chosen By Publisher')
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) == "not_chosen"
+    assert adventure._normalize_ai_content("not_chosen") is None
+
+
+def test_extract_creation_method_absent():
+    html = "<div>Some content</div>"
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) is None
+    assert adventure._normalize_ai_content(None) is None
+
+
+def test_normalize_and_convert_data_ai_content():
+    raw_data = {
+        "full_title": "Test Adventure",
+        "authors": [],
+        "creation_method_raw": "contains_ai",
+        "date_created": None,
+        "hours_raw": None,
+        "tiers_raw": None,
+        "apl_raw": None,
+        "level_range_raw": None,
+        "price_raw": None,
+        "pwyw_flag_raw": False,
+        "suggested_price_raw": None,
+        "seed_raw": None,
+        "description_text": "",
+    }
+    processed = adventure._normalize_and_convert_data(raw_data)
+    assert processed["ai_content"] is True
+
+
 def test_extract_hours_from_text_single_hour():
     """Test hours extraction for single hour value."""
     text = "This is a 4-hour adventure for Tier 2 characters."

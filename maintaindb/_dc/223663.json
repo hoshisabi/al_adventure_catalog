@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Jeremy Hochhalter"
@@ -13,6 +14,7 @@
     "full_title": "CCCTHENT01-01 Beneath the Surface",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

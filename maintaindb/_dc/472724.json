@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 18,
     "authors": [
         "Briarwall Press",
@@ -14,6 +15,7 @@
     "full_title": "PS-DC-POP-01 Pillars of Peril",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 3.99,

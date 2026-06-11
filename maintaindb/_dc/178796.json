@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Ron Lundeen"
@@ -14,6 +15,7 @@
     "full_title": "DDAL04-05 The Seer",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

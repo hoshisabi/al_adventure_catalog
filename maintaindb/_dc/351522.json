@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 7,
     "authors": [
         "Paul Gabat"
@@ -13,6 +14,7 @@
     "full_title": "DDAL10-06 The Fallen Star",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

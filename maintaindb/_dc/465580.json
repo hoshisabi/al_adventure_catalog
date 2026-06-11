@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 14,
     "authors": [
         "Steven Truong"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-ZODIAC-14-03 Herald of War",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

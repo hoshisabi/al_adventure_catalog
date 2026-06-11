@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Karl Sciberras"
@@ -10,9 +11,10 @@
     "community_content": true,
     "date_created": "20181028",
     "dungeoncraft": false,
-    "full_title": "CCC-MCX-01 All in a Day’s Work",
+    "full_title": "CCC-MCX-01 All in a Day\u2019s Work",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,
@@ -20,6 +22,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "All in a Day’s Work",
+    "title": "All in a Day\u2019s Work",
     "url": "https://www.dmsguild.com/product/257386/?affiliate_id=171040"
 }

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 6,
     "authors": [
         "PT MacKim"
@@ -13,6 +14,7 @@
     "full_title": "DC-POA-EBAL-TT1 Bru in Trouble",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "5-10",
     "payWhatYouWant": true,
     "price": 4.99,

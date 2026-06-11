@@ -1,7 +1,7 @@
 {
     "apl": 13,
     "authors": [
-        "Luís Ricardo 'DM Corvo' da Costa",
+        "Lu\u00eds Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -14,6 +14,7 @@
     "full_title": "FR-DC-LIGA-01  Wyrmwell Flame",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251026",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 6.99,

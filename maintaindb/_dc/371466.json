@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 4,
     "authors": [
         "Kat Kruger"
@@ -13,6 +14,7 @@
     "full_title": "A Stitch in Time (WBW-DC-FDC-09)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 7.95,

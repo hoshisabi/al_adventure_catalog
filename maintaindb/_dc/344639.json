@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 18,
     "authors": [
         "Anthony Joyce",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GHC-BK03-09 A Convergence of Gods",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,

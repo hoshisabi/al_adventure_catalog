@@ -1,8 +1,9 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Karrin Jackson",
-        "Pôl Jackson"
+        "P\u00f4l Jackson"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -14,6 +15,7 @@
     "full_title": "CCC-KUMORI-03-03 Scales of Justice: A Moonsea Adventure",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

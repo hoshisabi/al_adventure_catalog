@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Ian Gopal Gould"
@@ -13,6 +14,7 @@
     "full_title": "CCC-SEA-01-01 All Good Dead Men",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.95,

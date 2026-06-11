@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Bernard Jericho Velasco"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-TCW-AVG-2 Unbreak the H'earth",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 1.99,

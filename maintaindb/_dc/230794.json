@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "James Haeck"
@@ -13,6 +14,7 @@
     "full_title": "DDAL07-10 Fire, Ash, and Ruin",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.99,

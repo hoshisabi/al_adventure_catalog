@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 14,
     "authors": [
         "The Role Initiative"
@@ -13,6 +14,7 @@
     "full_title": "CCC-TRI-28 Siege of the Yellow Rose (Part Three of the Siege of the Yellow Rose Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

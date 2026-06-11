@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "James Introcaso"
@@ -11,7 +12,8 @@
     "full_title": "Hellturel",
     "hours": null,
     "is_adventure": true,
-    "level_range": null,
+    "last_update": "20260106",
+    "level_range": "5",
     "payWhatYouWant": false,
     "price": 3.95,
     "product_id": "289028",

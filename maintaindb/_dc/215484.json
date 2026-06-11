@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 9,
     "authors": [
         "Ryan Cannon"
@@ -13,6 +14,7 @@
     "full_title": "CCC-YLRA01-02 Uneasy Lies the Head",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": true,
     "price": 4.99,

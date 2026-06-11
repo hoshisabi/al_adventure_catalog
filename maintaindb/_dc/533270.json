@@ -3,20 +3,23 @@
     "authors": [
         "Dungeon Masters Guild"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "SJ-DC-HYS-02",
     "community_content": false,
     "date_created": "20250815",
     "dungeoncraft": false,
     "full_title": "Collected works of Author Hunter [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
+    "last_update": "20251003",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 23.94,
     "product_id": "533270",
     "salvage_mission": false,
-    "season": null,
+    "season": "12 - Spelljammer",
     "tiers": 3,
     "title": "Collected works of Author Hunter [BUNDLE]",
     "url": "https://www.dmsguild.com/product/533270/?affiliate_id=171040"

@@ -1,16 +1,20 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Karianne Fog Heen"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "FR-DC-CONMAR-00-01",
     "community_content": false,
     "date_created": "20251020",
     "dungeoncraft": false,
     "full_title": "Welcome to Oar's Rest! [BUNDLE]",
     "hours": "1",
     "is_adventure": false,
+    "last_update": "20251020",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 1.0,

@@ -1,11 +1,12 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Mark Merida",
         "Eric Boaen",
         "Adam Scaramella",
         "Al Spader",
-        "Garrett Colón",
+        "Garrett Col\u00f3n",
         "The Role Initiative"
     ],
     "campaigns": [
@@ -18,6 +19,7 @@
     "full_title": "CCC-TRI-01 Into the Darkness (Part One of the Yulash Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

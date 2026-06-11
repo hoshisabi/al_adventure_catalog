@@ -496,3 +496,48 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         campaigns = get_campaigns_from_code(code)
 
     return code, campaigns
+
+
+# --- Browser duplicate download filenames (e.g. "565907 (1).html") ---
+
+_BROWSER_DUP_SUFFIX_RE = re.compile(r' \(\d+\)$')
+
+
+def is_browser_duplicate_filename(name: str) -> bool:
+    """True when a download filename looks like a Windows/browser duplicate copy."""
+    return '(' in os.path.basename(name)
+
+
+def strip_browser_duplicate_suffix(stem: str) -> str:
+    """Strip trailing ' (1)', ' (2)', etc. from a filename stem."""
+    stem = stem.strip()
+    match = _BROWSER_DUP_SUFFIX_RE.search(stem)
+    if match:
+        return stem[:match.start()]
+    return stem
+
+
+def product_id_from_dmsguild_html_filename(file_name: str) -> str:
+    """Extract canonical product_id from a dmsguildinfo-*.html filename."""
+    stem = file_name.replace('dmsguildinfo-', '').replace('.html', '')
+    return strip_browser_duplicate_suffix(stem)
+
+
+def adventure_json_equivalent(left: dict, right: dict) -> bool:
+    """Return True if the duplicate record matches the canonical record."""
+    ignore = {'product_id', 'url', 'last_update'}
+    if '(' in str(left.get('product_id', '')):
+        duplicate, canonical = left, right
+    elif '(' in str(right.get('product_id', '')):
+        duplicate, canonical = right, left
+    elif len(left) <= len(right):
+        duplicate, canonical = left, right
+    else:
+        duplicate, canonical = right, left
+
+    for key, dup_val in duplicate.items():
+        if key in ignore:
+            continue
+        if key not in canonical or canonical[key] != dup_val:
+            return False
+    return True

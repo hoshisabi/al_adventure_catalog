@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Zardak 123"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-ZEP-T-1S4 Mall of Zep",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

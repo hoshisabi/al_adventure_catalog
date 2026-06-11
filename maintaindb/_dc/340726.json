@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "George DeMeglio"
@@ -13,6 +14,7 @@
     "full_title": "CCC-DPIP-01 The Toils And Troubles of Minauros",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 6.66,

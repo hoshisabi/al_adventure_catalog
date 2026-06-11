@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Steven Truong"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA-TDG01-02 Blood Hunters",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.19,

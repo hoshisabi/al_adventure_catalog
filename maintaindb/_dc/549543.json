@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 18,
     "authors": [
         "Richard Bellotti"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-LCO-01 When Stars Forget",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 3.99,

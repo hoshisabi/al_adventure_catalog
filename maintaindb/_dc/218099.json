@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Ma'at Crook"
@@ -13,6 +14,7 @@
     "full_title": "CCC-BLD-1-2 Bleeding Gate: Amalgamation",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.49,

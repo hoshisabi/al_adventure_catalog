@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 11,
     "authors": [
         "Baldman Games",
@@ -14,6 +15,7 @@
     "full_title": "CCC-BMG-15 PHLAN 1-3 Subterfuge",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

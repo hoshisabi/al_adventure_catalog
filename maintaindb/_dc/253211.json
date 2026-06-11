@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Scott Ketner"
@@ -13,6 +14,7 @@
     "full_title": "CCC-GOC01-01 Tree Rot",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

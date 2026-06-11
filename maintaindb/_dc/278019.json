@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Matthew Lee Myers",
@@ -14,6 +15,7 @@
     "full_title": "CCC-TRI-33 Matters of Life and Death (Part Two of the DAGGR Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

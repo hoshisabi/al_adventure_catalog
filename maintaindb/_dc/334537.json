@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 4,
     "authors": [
         "Jerrold R Warren"
@@ -13,6 +14,7 @@
     "full_title": "CCC-NUKE-02-01 One Fowl Soup",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

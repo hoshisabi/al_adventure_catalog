@@ -1,8 +1,9 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope"
+        "Te\u00e4n Stanhope"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -14,6 +15,7 @@
     "full_title": "DC-PoA-CTH2 Searching for a Shorebird",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 7,
     "authors": [
         "Thomas Valley",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GARY03: Oh, We're In It Now",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

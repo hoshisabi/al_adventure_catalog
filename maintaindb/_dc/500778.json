@@ -1,7 +1,7 @@
 {
     "apl": 3,
     "authors": [
-        "Luís Ricardo 'DM Corvo' da Costa",
+        "Lu\u00eds Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -14,6 +14,7 @@
     "full_title": "DL-DC-LIGA03 - Firstwal under Siege",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 6.99,

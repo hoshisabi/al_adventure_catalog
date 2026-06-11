@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [],
     "campaigns": [],
@@ -9,6 +10,7 @@
     "full_title": "Salvage Missions for Tier 1 and 2 [BUNDLE]",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 11.61,

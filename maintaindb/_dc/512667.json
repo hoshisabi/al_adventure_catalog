@@ -1,7 +1,7 @@
 {
     "apl": 18,
     "authors": [
-        "Luís Ricardo 'DM Corvo' da Costa",
+        "Lu\u00eds Ricardo 'DM Corvo' da Costa",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -14,6 +14,7 @@
     "full_title": "PS-DC-GLITCH-01 Roots, Bloody Roots",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,

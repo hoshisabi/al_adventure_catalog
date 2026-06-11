@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "Denise “Celticdenefew” Atwood",
+        "Denise \u201cCelticdenefew\u201d Atwood",
         "David Sklenicka",
         "Davestar Gaming"
     ],
@@ -15,6 +15,7 @@
     "full_title": "PS-DC-DRAGON24-04 The Gallery of Souls, Chapter Four of the Broken Ring Saga",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251011",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

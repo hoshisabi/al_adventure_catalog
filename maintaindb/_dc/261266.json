@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Drew Wood"
@@ -13,6 +14,7 @@
     "full_title": "CCC-KUMORI-02-02 School Magic",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

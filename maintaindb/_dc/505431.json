@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Dagny Mol"
@@ -13,6 +14,7 @@
     "full_title": "The Show Must Go On (FR-DC-TGT-03)",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

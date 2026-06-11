@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Alex Kammer",
@@ -15,6 +16,7 @@
     "full_title": "CCC-GHC-07 - The River Runs Red",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 1.99,

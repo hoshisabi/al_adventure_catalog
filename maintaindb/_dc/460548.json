@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 13,
     "authors": [
         "Franz Bedonia"
@@ -13,6 +14,7 @@
     "full_title": "Folly Undone (SJ-DC-PHP-POLAR-01)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

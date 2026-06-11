@@ -94,6 +94,19 @@ def test_url_optimization():
     entry = create_catalog_entry(adv)
     assert entry['u'] == adv['url']
 
+def test_ai_content_field():
+    adv = {'ai_content': True}
+    entry = create_catalog_entry(adv)
+    assert entry['ac'] == 2
+
+    adv = {'ai_content': False}
+    entry = create_catalog_entry(adv)
+    assert entry['ac'] == 1
+
+    adv = {}
+    entry = create_catalog_entry(adv)
+    assert 'ac' not in entry
+
 def test_optional_fields():
     # Seed
     adv = {'seed': 'Some seed'}

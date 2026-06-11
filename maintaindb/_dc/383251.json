@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Michael Valdez"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-Sunlit-04 to -06 Bundle!",
     "hours": null,
     "is_adventure": false,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.99,

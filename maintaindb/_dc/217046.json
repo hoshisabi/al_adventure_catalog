@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Anthony Caroselli"
@@ -13,6 +14,7 @@
     "full_title": "CCC-DDSC-02 A Fool and His Gold",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

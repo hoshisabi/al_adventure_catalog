@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "James Introcaso",
@@ -14,6 +15,7 @@
     "full_title": "EB-03 Where the Dead Wait",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 18,
     "authors": [
         "Death 101010"
@@ -13,6 +14,7 @@
     "full_title": "PS-DC-ELEMENT-DEATH-04 Skulls and Skies",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251215",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,

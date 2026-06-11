@@ -1,20 +1,23 @@
 {
     "apl": 13,
     "authors": [],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "PS-DC-ELEMENT-DEATH-01",
     "community_content": false,
     "date_created": "20251023",
     "dungeoncraft": false,
     "full_title": "The Elemental Chaos Series [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
+    "last_update": "20251215",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 19.99,
     "product_id": "541901",
     "salvage_mission": false,
-    "season": null,
+    "season": "13 - Planescape",
     "tiers": 3,
     "title": "The Elemental Chaos Series [BUNDLE]",
     "url": "https://www.dmsguild.com/product/541901/?affiliate_id=171040"

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Erik Tukey"
@@ -13,6 +14,7 @@
     "full_title": "CCC-SDREAM-01-03 The Best Laid Plans of Gnomes",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.99,

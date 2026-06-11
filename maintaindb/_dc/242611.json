@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Claire Hoffman",
@@ -14,6 +15,7 @@
     "full_title": "DDHC-MORD-01 Riddle of the Raven Queen",
     "hours": "8-12",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 5.95,

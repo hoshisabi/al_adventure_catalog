@@ -1,7 +1,6 @@
 {
-    "product_id": "561244",
-    "date_created": "20260319",
-    "season": null,
+    "ai_content": false,
+    "apl": 8,
     "authors": [
         "Christopher B. Bertucio"
     ],
@@ -9,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-CBB25-03",
+    "date_created": "20260319",
     "full_title": "FR-DC-CBB25-03 Dreams Sacrificed",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260502",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/561244/?affiliate_id=171040",
+    "price": 3.99,
+    "product_id": "561244",
+    "season": null,
     "tiers": 2,
-    "apl": 8,
     "title": "Dreams Sacrificed",
-    "price": 3.99
+    "url": "https://www.dmsguild.com/product/561244/?affiliate_id=171040"
 }

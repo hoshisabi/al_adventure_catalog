@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Mark Merida",
@@ -18,6 +19,7 @@
     "full_title": "CCC-TRI-02 Impression Left Behind (Part Two of the Yulash Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

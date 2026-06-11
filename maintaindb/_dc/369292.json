@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Rory Dennison",
@@ -6,20 +7,23 @@
         "Doug Seipel",
         "Ed Stoltman"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "DC-POA-COULEE21",
     "community_content": false,
     "date_created": "20210830",
     "dungeoncraft": false,
     "full_title": "DC-POA-Coulee21-Bundle Legends of the Icewind Dale Snipe Series and VTT Maps",
     "hours": "4",
     "is_adventure": false,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 10.0,
     "product_id": "369292",
     "salvage_mission": false,
-    "season": null,
+    "season": "10 - Icewind Dale",
     "tiers": 1,
     "title": "DC-POA-Coulee21-Bundle Legends of the Icewind Dale Snipe Series and VTT Maps",
     "url": "https://www.dmsguild.com/product/369292/?affiliate_id=171040"

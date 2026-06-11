@@ -1,7 +1,8 @@
 {
+    "ai_content": true,
     "apl": 10,
     "authors": [
-        "JWei伟"
+        "JWei\u4f1f"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-TBS-04, Brightshill",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 6.95,

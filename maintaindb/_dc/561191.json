@@ -1,7 +1,6 @@
 {
-    "product_id": "561191",
-    "date_created": "20260319",
-    "season": null,
+    "ai_content": false,
+    "apl": 3,
     "authors": [
         "Jonathan Bennett"
     ],
@@ -9,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-SCROG-GHH",
+    "date_created": "20260319",
     "full_title": "Gilded Hog Heresy (FR-DC-SCROG-GHH)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260502",
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/561191/?affiliate_id=171040",
+    "price": 0.0,
+    "product_id": "561191",
+    "season": null,
     "tiers": 1,
-    "apl": 3,
     "title": "Gilded Hog Heresy",
-    "price": 0.0
+    "url": "https://www.dmsguild.com/product/561191/?affiliate_id=171040"
 }

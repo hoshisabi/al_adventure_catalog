@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Steve Hill"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-THAL-01 Heartfire Lost",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 2.0,

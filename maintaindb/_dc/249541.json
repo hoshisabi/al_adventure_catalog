@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "William Beers",
@@ -15,6 +16,7 @@
     "full_title": "CCC-GLIP-01-02 Beneath Glip Dak",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,
