@@ -1,7 +1,5 @@
 {
-    "product_id": "562377",
-    "date_created": "20260329",
-    "season": null,
+    "apl": 3,
     "authors": [
         "Jamie Chan"
     ],
@@ -9,15 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-WATERDEEP-DTZ",
+    "date_created": "20260329",
     "full_title": "Sweet Dreams are Made of Ditties (FR-DC-WATERDEEP-DTZ)",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260610",
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/562377/?affiliate_id=171040",
+    "price": 3.5,
+    "product_id": "562377",
+    "season": null,
     "tiers": 1,
-    "apl": 3,
     "title": "Sweet Dreams are Made of Ditties",
-    "price": 3.5
+    "url": "https://www.dmsguild.com/product/562377/?affiliate_id=171040"
 }
