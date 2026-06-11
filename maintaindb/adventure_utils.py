@@ -50,6 +50,10 @@ SEASONS = {
     13: "13 - Planescape"
 }
 
+# Official AL program seasons (1-13) for stats charts and filtering
+AL_SEASON_ORDER = [SEASONS[i] for i in range(1, 14)]
+AL_SEASON_LABELS = frozenset(AL_SEASON_ORDER)
+
 # Season name normalization: map synonyms to canonical display form for filtering/stats.
 # Used so "Icewind Dale", "Plague of Ancients", "DC-POA", "DDAL10" all show as one season;
 # and "Rage of Demons" / "Out of the Abyss" (DDEX3) show as one.
@@ -374,6 +378,30 @@ def get_season(code: Optional[str]):
         season = SEASON_NORMALIZATION[season]
     
     return season
+
+
+def resolve_al_season(season: Optional[str] = None, code: Optional[str] = None) -> Optional[str]:
+    """
+    Return the canonical AL season label (seasons 1-13) for stats, or None if not an AL season.
+    Uses stored season when available, otherwise derives from adventure code.
+    """
+    def _to_al_label(value) -> Optional[str]:
+        if value is None:
+            return None
+        if isinstance(value, int):
+            label = SEASONS.get(value)
+            return label if label in AL_SEASON_LABELS else None
+        if isinstance(value, str):
+            canonical = normalize_season_display(value)
+            return canonical if canonical in AL_SEASON_LABELS else None
+        return None
+
+    label = _to_al_label(season)
+    if label:
+        return label
+    if code:
+        return _to_al_label(get_season(code))
+    return None
 
 
 def normalize_season_display(season_str: Optional[str]) -> Optional[str]:

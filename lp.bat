@@ -16,6 +16,13 @@ GOTO :SERVE
         GOTO :EOF
     )
     echo Aggregator finished.
+    echo Running stats.py...
+    uv run python -m maintaindb.stats
+    IF %ERRORLEVEL% NEQ 0 (
+        echo Stats generation failed.
+        GOTO :EOF
+    )
+    echo Stats finished.
     GOTO :SERVE
 
 :SERVE
