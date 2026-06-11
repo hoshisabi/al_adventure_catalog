@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Daniel Helmick"
@@ -14,6 +15,7 @@
     "full_title": "DDAL04-13 The Horseman",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251220",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

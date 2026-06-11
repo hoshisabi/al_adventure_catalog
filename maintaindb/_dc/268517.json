@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 18,
     "authors": [
         "Rob Steiner"
@@ -13,6 +14,7 @@
     "full_title": "DDAL08-16 A Change of Address",
     "hours": "4-6",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,

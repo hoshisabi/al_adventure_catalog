@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Miguel Luis de Jesus"
@@ -13,6 +14,7 @@
     "full_title": "RV-DC-LAGIM-02: The Horrors of Uninhabited Places",
     "hours": "3",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

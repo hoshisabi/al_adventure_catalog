@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Adrian Francisco"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-DCAF02 Harengon Harana",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 2.0,

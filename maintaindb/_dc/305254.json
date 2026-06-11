@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "The Role Initiative"
@@ -13,6 +14,7 @@
     "full_title": "CCC-TRI-26 Touch the Stars (Part One of the Siege of the Yellow Rose)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

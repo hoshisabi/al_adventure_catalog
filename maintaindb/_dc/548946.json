@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Stefan Tomaschitz"
@@ -11,6 +12,7 @@
     "full_title": "Uma Chave Amaldi\u00e7oada",
     "hours": "2-3",
     "is_adventure": false,
+    "last_update": "20251222",
     "level_range": "1-2",
     "payWhatYouWant": false,
     "price": 4.63,

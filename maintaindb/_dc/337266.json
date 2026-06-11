@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Emily Harmon",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GARY-15: Friendship Never Dies",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.95,

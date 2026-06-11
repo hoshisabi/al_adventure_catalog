@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 18,
     "authors": [
         "Hunter Sinclair"
@@ -13,6 +14,7 @@
     "full_title": "No Time to Die (PS-DC-HYS-03)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 3.99,

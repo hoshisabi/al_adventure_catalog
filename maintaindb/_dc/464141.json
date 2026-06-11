@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 6,
     "authors": [
         "Joseph George"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-AEG-05 The House in the Forest",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.49,

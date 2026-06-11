@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Marcello De Velazquez",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GHC-BK03-01 Assassination in Oeble",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

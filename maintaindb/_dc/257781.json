@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 10,
     "authors": [
         "Toni Winslow-Brill"
@@ -13,6 +14,7 @@
     "full_title": "DDAL08-09 Fangs and Frogs",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 18,
     "authors": [
         "Nguyen Le",
@@ -14,6 +15,7 @@
     "full_title": "PS-DC-STRAT-UNDEAD-05 Return of the Dragon",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 6.99,

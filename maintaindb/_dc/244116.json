@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 5,
     "authors": [
         "Zach Pickett",
@@ -14,6 +15,7 @@
     "full_title": "CCC-SALT-02-02 Tower in the Valley",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

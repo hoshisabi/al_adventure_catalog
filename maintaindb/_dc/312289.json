@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Mike Olson"
@@ -13,6 +14,7 @@
     "full_title": "CCC-YLRA-SDCC01-1 Exploratory Arts",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 5.0,

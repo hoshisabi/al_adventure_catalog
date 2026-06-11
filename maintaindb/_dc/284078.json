@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 5,
     "authors": [
         "The Role Initiative",
@@ -14,6 +15,7 @@
     "full_title": "CCC-TRI-34 Rise of the Sea Dragon (Part Three of the Dead Men Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

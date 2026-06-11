@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Jason Koh"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-DD-11 Per Aspera",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.5,

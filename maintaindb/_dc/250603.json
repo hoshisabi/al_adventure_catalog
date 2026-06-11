@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Jeff Stevens Games",
@@ -26,6 +27,7 @@
     "full_title": "Encounters in the Savage Wilderness",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 14.95,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Matthew Whitby"
@@ -13,6 +14,7 @@
     "full_title": "CCC-DWB-GAT-1 To Give and to Take",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

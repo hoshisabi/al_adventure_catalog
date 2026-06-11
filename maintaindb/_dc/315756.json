@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Jason Panella",
@@ -14,6 +15,7 @@
     "full_title": "CCC-COS-02-01 38 Souls",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.99,

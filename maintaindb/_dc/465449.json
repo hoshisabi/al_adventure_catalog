@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 14,
     "authors": [
         "MykeMyke",
@@ -14,6 +15,7 @@
     "full_title": "SJ-DC-TRIDEN-MYKE-03 Every Bond You Break",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

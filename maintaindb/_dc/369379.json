@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Douglas Bushong"
@@ -13,6 +14,7 @@
     "full_title": "DC-POA-DOBU-01-01 Beneath a Stony Stump",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 7.0,

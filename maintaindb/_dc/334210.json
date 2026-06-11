@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Trevor Duston"
@@ -13,6 +14,7 @@
     "full_title": "CCC-Pipyap-PhAL03-01 Lost Holy Man: Portal Chase through Maladomini",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

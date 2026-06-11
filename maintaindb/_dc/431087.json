@@ -2,7 +2,7 @@
     "apl": 8,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope",
+        "Te\u00e4n Stanhope",
         "James Twigg"
     ],
     "campaigns": [
@@ -15,6 +15,7 @@
     "full_title": "SJ-DC-BBB-02 Mutiny: The Blunderbuss of Blunderbuss Bill",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251020",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

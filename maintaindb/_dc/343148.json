@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Laura Thompson"
@@ -13,6 +14,7 @@
     "full_title": "DDAL10-02 Gnashing Teeth",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

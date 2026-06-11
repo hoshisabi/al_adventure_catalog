@@ -1,7 +1,6 @@
 {
-    "product_id": "561086",
-    "date_created": "20260318",
-    "season": "13 - Planescape",
+    "ai_content": false,
+    "apl": 8,
     "authors": [
         "Sean Ware"
     ],
@@ -9,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-BINGO-3",
+    "date_created": "20260318",
     "full_title": "PS-DC-BINGO-3 Symposium",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260502",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/561086/?affiliate_id=171040",
+    "price": 2.0,
+    "product_id": "561086",
+    "season": "13 - Planescape",
     "tiers": 2,
-    "apl": 8,
     "title": "Symposium",
-    "price": 2.0
+    "url": "https://www.dmsguild.com/product/561086/?affiliate_id=171040"
 }

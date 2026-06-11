@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 7,
     "authors": [
         "Steffie de Vaan"
@@ -11,6 +12,7 @@
     "full_title": "RMH-12 Beneath the New Star",
     "hours": "3",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": 7,
     "payWhatYouWant": false,
     "price": 9.99,

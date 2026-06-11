@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Steven Truong"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-FLUMPH-03 Flux Wars",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 5.99,

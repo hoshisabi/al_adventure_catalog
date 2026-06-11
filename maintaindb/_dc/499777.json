@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 3,
     "authors": [
         "Hunter Sinclair"
@@ -13,6 +14,7 @@
     "full_title": "Witch, Please - It's a Carnival (FR-DC-DUNG-01)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

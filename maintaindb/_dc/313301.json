@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Ginny Loveday",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GHC-BK2-02 The Folly of Sneaky Simon",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

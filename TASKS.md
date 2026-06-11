@@ -150,19 +150,25 @@
 ## Future Enhancements
 
 * [ ] **"Created with AI tools" filter** — DM's Guild exposes an "AI tools" filter on product listings.
-    * **Investigation: DONE.** Confirmed via 3 sample HTML files (`dmsguildinfo-557345.html`, `dmsguildinfo-570387.html`, `dmsguildinfo-341178.html` — paths shared in chat, in `~/Downloads/`). Each product page has a `<p data-codeid="creationMethod">` row in the details table, e.g.:
-        * `<i class="fas fa-robot"></i>Contains AI-Generated Content`
-        * `<i class="fas fa-user-friends"></i>Human-Created Without AI`
-    * Notably, **341178** (a 2014-era DungeonCraft adventure, predates this filter existing) already shows "Human-Created Without AI" — DM's Guild has retroactively backfilled this field on the entire back catalog.
-    * **HOWEVER: the backfilled value is not trustworthy.** The user's own Icewind Dale product (which *did* use AI) is also labeled "Human-Created Without AI". This means DM's Guild defaulted everything published before some cutoff date to "Human-Created Without AI" regardless of actual content — it wasn't a real per-product review. So for older listings, `creationMethod` reflects "predates the AI-disclosure requirement", not ground truth.
-    * **Conclusion: back-propagation across the existing catalog is not worth doing.** The field is only meaningful for products published after DM's Guild introduced the AI-disclosure requirement (exact cutoff date unknown — would need to be determined empirically, e.g. by checking `date_created` of several products against their `creationMethod` value to find where real "Contains AI-Generated Content" labels start appearing).
-    * **Revised implementation plan (not started):**
-        1. `adventure.py`: add `_extract_creation_method_from_html()` following the pattern of `_extract_authors_from_html()` (find `<p data-codeid="creationMethod">`, get parent `<tr>`, read the second `<td>` text/icon class).
-        2. `_dc/*.json`: add a new field, e.g. `"ai_content": true|false|null` (null = unknown/predates disclosure requirement).
-        3. `aggregator.py` / `CATALOG_FORMAT.md`: add a new bit to the `f` flags bitmask (currently 1=community, 2=dungeoncraft, 4=salvage) — e.g. `8 = ai_content`.
-        4. `index.html`: add a filter control, framed as "AI content: Yes / No / Unknown" (not a binary), since "No"/unset for old entries means "not disclosed", not "verified human-made".
-        5. **Going forward only**: extract `creationMethod` for all *newly ingested* products (RSS/HTML downloads) from now on — no bulk re-download of the existing back catalog. Over time, coverage naturally improves as new adventures are added.
-    * Note: any re-downloading of old product pages is intentionally manual (existing "DMS Guild Scrape" bookmarklet, ctrl-click per page) — both because the backfilled data isn't trustworthy (see above) and out of courtesy to DM's Guild's Cloudflare-protected site (no automated bulk scraping).
+    * **Investigation: DONE.** Each product page has a `<p data-codeid="creationMethod">` row in the details table. Confirmed three possible values across sample HTML:
+        * `<i class="fas fa-robot"></i>Contains AI-Generated Content` → `ai_content = true`
+        * `<i class="fas fa-user-friends"></i>Human-Created Without AI` → `ai_content = false`
+        * `Creation Method Not Chosen By Publisher` (no icon) → `ai_content = null` (unknown)
+        * Field absent entirely (pre-feature pages) → `ai_content = null` (unknown)
+    * **Caveat**: pre-disclosure-requirement listings were bulk-backfilled by DM's Guild to "Human-Created Without AI" regardless of actual content (confirmed via the user's own Icewind Dale product, which used AI but is labeled "Human-Created Without AI"). So `ai_content = false` on old/unrefreshed pages isn't fully trustworthy — frame the live filter as "self-disclosed AI content", not "verified human-made".
+    * **Decisions**:
+        * `_dc/*.json` gets a new field `"ai_content": true|false|null`.
+        * `catalog.json` gets a new optional field `"ac"`: `1` = human-created/no AI, `2` = contains AI, omitted = unknown. Document in `CATALOG_FORMAT.md`.
+        * One-time back-propagation pass over the ~81 local HTML files in `maintaindb/dmsguildinfo/processed/` modified in the last 30 days — re-extract `creationMethod` and merge `ai_content` into the matching `_dc/*.json` (careful mode: only fill `ai_content`, don't touch other fields). Sample check already found 3 real "Contains AI-Generated Content" hits: `561552` (FR-DC-LCO-04), `568545` (FR-DC-LCO-05), `562730` (FR-DC-F&ADDM-LES4).
+        * Going forward: extract `creationMethod` automatically for every newly-ingested HTML download. RSS ingestion has no HTML, so `ai_content` stays `null` for RSS-only entries until an HTML download happens.
+    * **Implementation steps:**
+        1. [x] `adventure.py`: add `_extract_creation_method_from_html()` following the pattern of `_extract_authors_from_html()` (find `<p data-codeid="creationMethod">`, get parent `<tr>`, read the second `<td>` text/icon class). Wire into `extract_raw_data_from_html` (`raw_data["creation_method_raw"]`) and `_normalize_and_convert_data` (`processed_data["ai_content"]`). Add unit tests covering all raw values + absent field.
+        2. [x] `DungeonCraft`: add `ai_content` param/attribute; include in `to_json()` only if not `None`. Update `process_downloads.py` constructor call (`data.get("ai_content")`).
+        3. [x] `aggregator.py` + `CATALOG_FORMAT.md`: add `ac` field to `create_catalog_entry` (1/2/omitted per above).
+        4. [x] `index.html` + `filter.js`: add a 3-state "AI Content" filter (Any / Hide flagged / Flagged only), following the existing `ccOnly` pattern (URL param, reset, filter logic on `adv.ac`).
+        5. [x] Back-propagation pass: re-run extraction against the ~81 recently-touched HTML files in `dmsguildinfo/processed/`, merge `ai_content` into matching `_dc/*.json` (careful mode), regenerate `catalog.json`.
+        6. [x] Spot-check results (especially the 3 known "Contains AI-Generated Content" hits above) and confirm the filter works end-to-end in the browser.
+    * Note: any re-downloading of old product pages beyond this is intentionally manual (existing "DMS Guild Scrape" bookmarklet, ctrl-click per page) — both because the backfilled data isn't trustworthy (see above) and out of courtesy to DM's Guild's Cloudflare-protected site (no automated bulk scraping).
 * [ ] Convert `season` to a tag-based system.
 * [ ] Add richer stats (e.g., adventures per year, adventures per publisher).
 * [ ] Consider basic test coverage for `aggregator.py` functions.

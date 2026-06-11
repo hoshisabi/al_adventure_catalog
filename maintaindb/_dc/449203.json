@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 8,
     "authors": [
         "Jonathan Self"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-DES05-02 Escape from the Demonweb Pits",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 6.99,

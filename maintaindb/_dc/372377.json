@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 19,
     "authors": [
         "Andy Dempz",
@@ -14,6 +15,7 @@
     "full_title": "EB-19 Back to the Mud",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.99,

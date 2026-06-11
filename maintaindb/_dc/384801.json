@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Shu Qing Tan"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-CONMAR-06 Two Hearts Apart",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

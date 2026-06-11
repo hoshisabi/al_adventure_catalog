@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 14,
     "authors": [
         "Al Spader",
@@ -14,6 +15,7 @@
     "full_title": "CCC-TRI-10 Contact (Part One of the Beholder Corps Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

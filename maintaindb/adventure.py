@@ -157,7 +157,7 @@ class DungeonCraft:
 
     def __init__(self, product_id, title, authors, code, date_created, hours, tiers, apl=None, level_range=None, url=None, campaigns=None,
                  season=None, is_adventure=None, price=None, payWhatYouWant=None, suggestedPrice=None, needs_review=None, seed=None,
-                 last_update=None) -> None:
+                 last_update=None, ai_content=None) -> None:
         self.product_id = product_id
         self.full_title = title if title != "None" else None
         self.title = self.__get_short_title(title, code).strip()
@@ -183,6 +183,7 @@ class DungeonCraft:
         self.needs_review = needs_review
         self.seed = seed
         self.last_update = last_update
+        self.ai_content = ai_content
 
     def is_tier(self, tier):
         """Check if this adventure is for the specified tier."""
@@ -362,6 +363,9 @@ class DungeonCraft:
         # Add last_update if it exists
         if self.last_update is not None:
             result["last_update"] = _fmt_date_yyyymmdd(self.last_update)
+        # Add ai_content only when publisher disclosed a value (true/false)
+        if self.ai_content is not None:
+            result["ai_content"] = self.ai_content
         return result
 
     def convert_date_to_readable_str(self):
@@ -554,6 +558,63 @@ def _extract_authors_from_html(parsed_html):
             pass
     
     return authors
+
+
+def _extract_creation_method_from_html(parsed_html):
+    """
+    Extract DM's Guild creation-method disclosure from the product details table.
+
+    Returns a normalized token:
+      - "contains_ai" for self-disclosed AI-generated content
+      - "human_created" for human-created without AI
+      - "not_chosen" when the publisher has not chosen a value
+      - None when the field is absent from the page
+    """
+    label = parsed_html.find("p", {"data-codeid": "creationMethod"})
+    if not label:
+        return None
+
+    tr = label.find_parent("tr")
+    if not tr:
+        return None
+
+    tds = tr.find_all("td")
+    if len(tds) < 2:
+        return None
+
+    value_td = tds[1]
+    icon = value_td.find("i")
+    if icon:
+        class_str = " ".join(icon.get("class", []))
+        if "fa-robot" in class_str:
+            return "contains_ai"
+        if "fa-user-friends" in class_str:
+            return "human_created"
+
+    text = value_td.get_text(strip=True)
+    if not text:
+        return None
+
+    lower = text.lower()
+    if "not chosen" in lower:
+        return "not_chosen"
+    if "ai-generated" in lower or "ai generated" in lower:
+        return "contains_ai"
+    if "without ai" in lower or "human-created" in lower or "human created" in lower:
+        return "human_created"
+
+    return None
+
+
+def _normalize_ai_content(creation_method_raw):
+    """Map raw creation-method token to ai_content boolean, or None if unknown."""
+    if creation_method_raw is None:
+        return None
+    if creation_method_raw == "contains_ai":
+        return True
+    if creation_method_raw == "human_created":
+        return False
+    return None
 
 
 def _extract_date_from_html(parsed_html):
@@ -1102,11 +1163,14 @@ def _extract_raw_data_from_html(parsed_html, product_id):
         "suggested_price_raw": None,
         # SKU from JSON-LD
         "sku_raw": None,
+        # DM's Guild creation-method disclosure
+        "creation_method_raw": None,
     }
 
     # Extract basic fields using helper functions
     raw_data["full_title"] = _extract_title_from_html(parsed_html)
     raw_data["authors"] = _extract_authors_from_html(parsed_html)
+    raw_data["creation_method_raw"] = _extract_creation_method_from_html(parsed_html)
     raw_data["date_created"] = _extract_date_from_html(parsed_html)
     
     # Extract price from JSON-LD first (highest precedence)
@@ -1182,7 +1246,9 @@ def _normalize_and_convert_data(raw_data):
         "payWhatYouWant": bool(raw_data.get("pwyw_flag_raw", False)),
         "suggestedPrice": raw_data.get("suggested_price_raw"),
         # Seed field (only for POA, WBW, SJ campaigns)
-        "seed": raw_data.get("seed_raw")
+        "seed": raw_data.get("seed_raw"),
+        # Self-disclosed AI content (true/false) or unknown (null)
+        "ai_content": _normalize_ai_content(raw_data.get("creation_method_raw")),
     }
     
     # If suggestedPrice is found but PWYW flag wasn't set, infer that it's PWYW

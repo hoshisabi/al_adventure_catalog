@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Alan Patrick"
@@ -13,6 +14,7 @@
     "full_title": "DDAL08-13 The Vampire of Skullport",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

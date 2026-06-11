@@ -20,6 +20,7 @@ The `catalog.json` file is a minified JSON file used by the Adventurers League A
       "d": "YYYYMMDD",
       "p": CampaignBitmask,
       "f": FlagBitmask,
+      "ac": AiContentCode,
       "u": "Optional Override URL",
       "e": "Optional Seed/Meta",
       "lu": "Last Update per Adventure"
@@ -42,6 +43,7 @@ The `catalog.json` file is a minified JSON file used by the Adventurers League A
 | `d` | `date_created` | String | The creation/publication date in `YYYYMMDD` format. |
 | `p` | `campaigns` | Integer | **Bitmask** for campaigns. See below. |
 | `f` | `flags` | Integer | **Bitmask** for classification flags. See below. |
+| `ac` | `ai_content` | Integer | Optional. Publisher self-disclosure of AI-generated content. `1` = human-created without AI, `2` = contains AI-generated content. Omitted = unknown/not disclosed. |
 | `u` | `url` | String | Optional. Only present if the URL does NOT follow the standard DMsGuild affiliate pattern. |
 | `e` | `seed` | String | Optional. Supplementary info or "seed" metadata. |
 | `lu`| `last_update` | String | Optional. Last modification date for this specific entry. |
@@ -73,6 +75,16 @@ A bitwise OR of the following values:
 
 Example: `f: 3` means it is both Community Content and Dungeoncraft.
 
+### AI Content Code (`ac`)
+
+Based on DM's Guild publisher self-disclosure, not verified human-made content:
+
+| Value | Meaning |
+| :--- | :--- |
+| 1 | Human-created without AI |
+| 2 | Contains AI-generated content |
+| (omitted) | Unknown or not disclosed by publisher |
+
 ## Optimizations
 
 ### URL Derivation
@@ -84,6 +96,7 @@ where `base_product_id` is the `i` field with any trailing dash and numbers remo
 To save space, the following fields are omitted if they are null, empty, or have their default value:
 - `u`: Omitted if it matches the standard pattern.
 - `f`: Omitted if 0 (no flags).
+- `ac`: Omitted if unknown/not disclosed.
 - `p`: Omitted if 0 (no known campaign).
 - `e`: Omitted if null or empty.
 - `lu`: Omitted if not available.

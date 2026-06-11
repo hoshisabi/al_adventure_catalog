@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 0,
     "authors": [
         "Alan Patrick"
@@ -13,7 +14,8 @@
     "full_title": "DDAL-ELW00 What's Past is Prologue",
     "hours": "2-4",
     "is_adventure": true,
-    "level_range": null,
+    "last_update": "20260104",
+    "level_range": "0",
     "payWhatYouWant": false,
     "price": 4.99,
     "product_id": "248589",

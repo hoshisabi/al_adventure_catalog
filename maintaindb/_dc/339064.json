@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Michelle Churchill"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA-MCIW-01 Icewind Whale",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

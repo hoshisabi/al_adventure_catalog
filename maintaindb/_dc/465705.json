@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Daniel Chapman"
@@ -13,6 +14,7 @@
     "full_title": "The Little Monster (SJ-DC-PND-3)",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

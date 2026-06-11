@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Rich Lescouflair"
@@ -11,6 +12,7 @@
     "full_title": "DDHC-MORD-03 To Wake The Leviathan",
     "hours": "4-6",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.95,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 18,
     "authors": [
         "Dev Alva",
@@ -14,6 +15,7 @@
     "full_title": "PS-DC-MAR-01 Death, Taxes, & Maruts",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251027",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 6.99,

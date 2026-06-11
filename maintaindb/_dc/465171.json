@@ -1,7 +1,7 @@
 {
     "apl": 8,
     "authors": [
-        "Patrícia Brito",
+        "Patr\u00edcia Brito",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -14,6 +14,7 @@
     "full_title": "SJ-DC-LIGA04 Deep Expedition to Lantan",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

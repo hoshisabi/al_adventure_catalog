@@ -242,6 +242,17 @@ label { color: var(--text-dim); }
 .meta-pill.hours-8 { background: rgba(245,158,11,0.1);   color: var(--warning);  border-color: rgba(245,158,11,0.32); }
 /* hours-other keeps the default muted style */
 
+.meta-pill.ai-assisted {
+  background: rgba(245,158,11,0.12);
+  color: var(--warning);
+  border-color: rgba(245,158,11,0.35);
+}
+
+.meta-pill.ai-assisted.filter-chip:hover {
+  background: rgba(245,158,11,0.22);
+  filter: none;
+}
+
 .meta-pill.filter-chip {
   cursor: pointer;
   text-decoration: none;

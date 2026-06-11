@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Baldman Games"
@@ -13,6 +14,7 @@
     "full_title": "CCC-BMG-46 HILL 3-1 Shepherd the Weak",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

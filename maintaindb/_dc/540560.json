@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Baldman Games",
@@ -14,6 +15,7 @@
     "full_title": "Rising Shadows Trilogy 14: Fractured Winter Trilogy [BUNDLE]",
     "hours": "4",
     "is_adventure": false,
+    "last_update": "20251020",
     "level_range": "5-10",
     "needs_review": true,
     "payWhatYouWant": false,

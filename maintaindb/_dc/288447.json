@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Greg Marks",
@@ -18,6 +19,7 @@
     "full_title": "DDAL00-11 Pipyap's Guide to All of the Nine Hells",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 22.99,

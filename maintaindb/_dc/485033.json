@@ -1,7 +1,8 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
-        "Luís Ricardo “DM Corvo” da Costa",
+        "Lu\u00eds Ricardo \u201cDM Corvo\u201d da Costa",
         "Johnny Smith",
         "Liga dos Aventureiros"
     ],
@@ -13,6 +14,7 @@
     "full_title": "Shadows of the Eldritch Eye",
     "hours": null,
     "is_adventure": false,
+    "last_update": "20251222",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 3.99,

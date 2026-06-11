@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 7,
     "authors": [
         "Lysa Chen"
@@ -13,6 +14,7 @@
     "full_title": "DDAL-ELW07 Blades of Terror",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

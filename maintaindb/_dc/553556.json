@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Dungeon Edd"
@@ -12,7 +13,7 @@
     "hours": null,
     "is_adventure": false,
     "last_update": "20260202",
-    "level_range": null,
+    "level_range": "1",
     "payWhatYouWant": true,
     "price": 3.0,
     "product_id": "553556",

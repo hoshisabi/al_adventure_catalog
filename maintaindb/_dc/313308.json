@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 5,
     "authors": [
         "Fenway Jones",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GHC-BK2-07 In The Dead of Knight",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

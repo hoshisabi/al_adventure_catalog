@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Ashley Warren",
@@ -15,6 +16,7 @@
     "full_title": "Saltmarsh Encounters",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 4.95,

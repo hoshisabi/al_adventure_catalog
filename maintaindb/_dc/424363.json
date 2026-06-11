@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 3,
     "authors": [
         "Johnny Smith",
@@ -14,6 +15,7 @@
     "full_title": "SJ-DC-AUG-06 The Rock: Tales of the Beholder Corps",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.95,

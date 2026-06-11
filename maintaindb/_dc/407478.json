@@ -1,8 +1,9 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope",
+        "Te\u00e4n Stanhope",
         "James Twigg"
     ],
     "campaigns": [
@@ -15,6 +16,7 @@
     "full_title": "WBW-DC-FEN-03 Tiddy Mun and the Legends of Fennebog",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 13,
     "authors": [
         "S C Townsley"
@@ -13,6 +14,7 @@
     "full_title": "Heart of Glass (SJ-DC-ASLM-02)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.99,

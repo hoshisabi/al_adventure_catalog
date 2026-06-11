@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Jay Africa"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-WCAG04-05 All the Worlds' Stage",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251215",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.99,

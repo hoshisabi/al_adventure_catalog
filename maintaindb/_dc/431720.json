@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 3,
     "authors": [
         "Tricia Monsod"
@@ -13,6 +14,7 @@
     "full_title": "Tink, Tink, Boom! (SJ-DC-TKM-02)",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

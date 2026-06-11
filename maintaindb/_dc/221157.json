@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Cindy Moore"
@@ -11,6 +12,7 @@
     "full_title": "Ruins of Matolo: Discovery (DDHC-TOA-9)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

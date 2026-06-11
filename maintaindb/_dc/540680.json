@@ -1,23 +1,27 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Jeremy Cheong"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "DC-POA-LEGIT-SV-03",
     "community_content": false,
     "date_created": "20251015",
     "dungeoncraft": false,
     "full_title": "The Severed Vault [BUNDLE]",
     "hours": "2",
     "is_adventure": false,
+    "last_update": "20251020",
     "level_range": "5-10",
     "needs_review": true,
     "payWhatYouWant": false,
     "price": 5.0,
     "product_id": "540680",
     "salvage_mission": false,
-    "season": null,
+    "season": "10 - Icewind Dale",
     "tiers": 2,
     "title": "The Severed Vault [BUNDLE]",
     "url": "https://www.dmsguild.com/product/540680/?affiliate_id=171040"

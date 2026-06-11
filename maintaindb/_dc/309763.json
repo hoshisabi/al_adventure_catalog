@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 11,
     "authors": [
         "William Kerney"
@@ -13,6 +14,7 @@
     "full_title": "CCC-BWM-007-03 The Beast Unleashed",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251231",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

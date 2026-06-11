@@ -1,7 +1,8 @@
 {
+    "ai_content": true,
     "apl": 13,
     "authors": [
-        "JWei伟"
+        "JWei\u4f1f"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-PANDORA-JWEI-06, The Eternals",
     "hours": "4-5",
     "is_adventure": true,
+    "last_update": "20251220",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 6.99,

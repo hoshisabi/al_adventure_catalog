@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Dave Zajac"
@@ -11,7 +12,8 @@
     "full_title": "Descent to Ascension: A 20th-Level Adventure",
     "hours": null,
     "is_adventure": false,
-    "level_range": null,
+    "last_update": "20251221",
+    "level_range": "20",
     "payWhatYouWant": false,
     "price": 2.99,
     "product_id": "188028",

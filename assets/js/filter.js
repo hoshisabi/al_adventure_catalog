@@ -12,6 +12,7 @@ let filters = {
     tier: '',
     hours: '',
     ccOnly: false,
+    hideAiContent: false,
     privateOnly: false,
     showProductId: false,
     showAuthor: false,
@@ -199,6 +200,8 @@ function applyFiltersFromURL() {
     if (params.has('hours')) filters.hours = params.get('hours');
     if (params.has('search')) filters.search = params.get('search');
     if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
+    if (params.has('hideAi')) filters.hideAiContent = params.get('hideAi') === 'true';
+    else if (params.get('aiContent') === 'hide') filters.hideAiContent = true;
     if (params.has('privateOnly')) filters.privateOnly = params.get('privateOnly') === 'true';
     if (params.has('showProductId')) filters.showProductId = params.get('showProductId') === 'true';
     if (params.has('showAuthor')) filters.showAuthor = params.get('showAuthor') === 'true';
@@ -220,6 +223,8 @@ function applyFiltersFromURL() {
 
     const ccOnlyEl = document.getElementById('cc-only');
     if (ccOnlyEl) ccOnlyEl.checked = filters.ccOnly || false;
+    const hideAiEl = document.getElementById('hide-ai-content');
+    if (hideAiEl) hideAiEl.checked = filters.hideAiContent || false;
     const privateOnlyEl = document.getElementById('private-only');
     if (privateOnlyEl) privateOnlyEl.checked = filters.privateOnly || false;
     const showProductIdEl = document.getElementById('show-product-id');
@@ -238,6 +243,7 @@ function updateURLFromFilters() {
     if (filters.hours) params.set('hours', filters.hours);
     if (filters.search) params.set('search', filters.search);
     if (filters.ccOnly) params.set('ccOnly', 'true');
+    if (filters.hideAiContent) params.set('hideAi', 'true');
     if (filters.privateOnly) params.set('privateOnly', 'true');
     if (filters.showProductId) params.set('showProductId', 'true');
     if (filters.showAuthor) params.set('showAuthor', 'true');
@@ -322,6 +328,10 @@ function applyFilters() {
 
     if (filters.ccOnly) {
         results = results.filter(adv => adv.f && (adv.f & 1));
+    }
+
+    if (filters.hideAiContent) {
+        results = results.filter(adv => adv.ac !== 2);
     }
 
     if (filters.search) {
@@ -465,6 +475,25 @@ function displayResults() {
 
 // ... Rendering functions (Card/Grid) ...
 
+function setHideAiContent(hide, { openPanel = false } = {}) {
+    filters.hideAiContent = hide;
+    const hideAiEl = document.getElementById('hide-ai-content');
+    if (hideAiEl) hideAiEl.checked = hide;
+
+    if (hide && openPanel) {
+        const panel = document.getElementById('filter-panel');
+        const toggleBtn = document.getElementById('toggle-filters');
+        if (panel && panel.classList.contains('hidden')) {
+            panel.classList.remove('hidden');
+            if (toggleBtn) toggleBtn.textContent = 'Hide Filters';
+            panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+
+    applyFilters();
+    updateURLFromFilters();
+}
+
 function filterByValue(field, value) {
     const panel = document.getElementById('filter-panel');
     const toggleBtn = document.getElementById('toggle-filters');
@@ -554,6 +583,11 @@ function seasonPill(s) {
     return `<span class="meta-pill clickable filter-chip" data-filter="season" data-value="${escaped}" title="Filter by season">${s}</span>`;
 }
 
+function aiPill(ac) {
+    if (ac !== 2) return '';
+    return `<span class="meta-pill ai-assisted clickable filter-chip" data-filter="hide-ai" title="Hide AI assisted content (publisher self-disclosure on DM's Guild)">AI assisted</span>`;
+}
+
 function campaignPills(p) {
     const names = [];
     if (typeof p === 'number') {
@@ -610,6 +644,7 @@ function createCard(adventure) {
             ${tierPill(adventure.t)}
             ${hoursPill(adventure.h)}
             ${seasonPill(adventure.s)}
+            ${aiPill(adventure.ac)}
             <span class="meta-pill">${dateAdded}</span>
         </div>
     `;
@@ -617,6 +652,10 @@ function createCard(adventure) {
     card.querySelectorAll('.filter-chip').forEach(chip => {
         chip.addEventListener('click', e => {
             e.stopPropagation();
+            if (chip.dataset.filter === 'hide-ai') {
+                setHideAiContent(true, { openPanel: true });
+                return;
+            }
             filterByValue(chip.dataset.filter, chip.dataset.value);
         });
     });
@@ -806,6 +845,7 @@ function clearFilters() {
     filters.tier = '';
     filters.hours = '';
     filters.ccOnly = false;
+    filters.hideAiContent = false;
     filters.privateOnly = false;
     filters.search = '';
 
@@ -815,6 +855,8 @@ function clearFilters() {
     });
     const ccOnly = document.getElementById('cc-only');
     if (ccOnly) ccOnly.checked = false;
+    const hideAi = document.getElementById('hide-ai-content');
+    if (hideAi) hideAi.checked = false;
     const privateOnly = document.getElementById('private-only');
     if (privateOnly) privateOnly.checked = false;
 
@@ -857,6 +899,10 @@ function setupEventListeners() {
         filters.ccOnly = e.target.checked;
         applyFilters();
         updateURLFromFilters();
+    });
+
+    document.getElementById('hide-ai-content')?.addEventListener('change', e => {
+        setHideAiContent(e.target.checked);
     });
 
     document.getElementById('private-only')?.addEventListener('change', e => {

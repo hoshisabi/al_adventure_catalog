@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 10,
     "authors": [
         "JD McComb"
@@ -10,9 +11,10 @@
     "community_content": true,
     "date_created": "20220829",
     "dungeoncraft": true,
-    "full_title": "WBW-DC-ROG-03 Hope In A Medusa’s Eye",
+    "full_title": "WBW-DC-ROG-03 Hope In A Medusa\u2019s Eye",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 0.0,
@@ -21,6 +23,6 @@
     "season": "11 - Wild Beyond the Witchlight",
     "seed": "Create a Domain of Delight",
     "tiers": 2,
-    "title": "Hope In A Medusa’s Eye",
+    "title": "Hope In A Medusa\u2019s Eye",
     "url": "https://www.dmsguild.com/product/408193/?affiliate_id=171040"
 }

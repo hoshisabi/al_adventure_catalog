@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 12,
     "authors": [
         "Lysa Chen",
@@ -12,6 +13,7 @@
     "full_title": "Ruins of Hisari (DDHC-TOA-10)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 3.99,

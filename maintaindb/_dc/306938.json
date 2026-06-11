@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Ben Heisler",
@@ -14,6 +15,7 @@
     "full_title": "DDAL09-17 In the Hand",
     "hours": "4-6",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

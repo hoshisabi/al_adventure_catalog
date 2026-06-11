@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 5,
     "authors": [
         "Mark McClenaghan"
@@ -13,6 +14,7 @@
     "full_title": "CCC-CNE-03 Into The Depths",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.99,

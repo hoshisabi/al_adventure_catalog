@@ -1,7 +1,7 @@
 {
     "apl": 16,
     "authors": [
-        "JWei伟"
+        "JWei\u4f1f"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -13,6 +13,7 @@
     "full_title": "SJ-DC-ROTU-06 Return of the Unknown II",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

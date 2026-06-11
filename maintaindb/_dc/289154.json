@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "M.T. Black"
@@ -13,6 +14,7 @@
     "full_title": "DDAL09-04 The Day of the Devil",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

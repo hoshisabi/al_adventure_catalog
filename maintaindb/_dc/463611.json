@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 18,
     "authors": [
         "Johnny Smith"
@@ -13,6 +14,7 @@
     "full_title": "PS-DC-AUG-01 Celestia Has Fallen",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251222",
     "level_range": "17-20",
     "payWhatYouWant": false,
     "price": 4.95,

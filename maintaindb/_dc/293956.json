@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Joshua Clark"
@@ -13,6 +14,7 @@
     "full_title": "CCC-TAROT02-02 Guardian's Scourge",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 3.99,

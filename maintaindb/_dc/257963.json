@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 11,
     "authors": [
         "Justin Hicks",
@@ -11,9 +12,10 @@
     "community_content": true,
     "date_created": "20181104",
     "dungeoncraft": false,
-    "full_title": "CCC-SVH-01-02 Raven Lord’s Aerie",
+    "full_title": "CCC-SVH-01-02 Raven Lord\u2019s Aerie",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 2.99,
@@ -21,6 +23,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "Raven Lord’s Aerie",
+    "title": "Raven Lord\u2019s Aerie",
     "url": "https://www.dmsguild.com/product/257963/?affiliate_id=171040"
 }

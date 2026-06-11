@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "JAWSH MURDOCK"
@@ -13,6 +14,7 @@
     "full_title": "CCC-BWM-007-01 The Beast Beneath",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Jaime Hernandez IV"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA-ROBIN-01-1 The Taming of the Chwinga",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 2.99,

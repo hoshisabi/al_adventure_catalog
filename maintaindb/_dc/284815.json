@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Emily Smith",
@@ -14,6 +15,7 @@
     "full_title": "Cove of Fallen Souls (CCC-ALMOG-27-DAGON01-02)",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.95,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Dan Dillon",
@@ -14,6 +15,7 @@
     "full_title": "CCC-BMG-26 CORE 3-2 The Ghostly Infestation",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 4,
     "authors": [
         "Chris Valentine"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-Rook-1-4 The Rookery: Long Live the Goblins",
     "hours": "4-6",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

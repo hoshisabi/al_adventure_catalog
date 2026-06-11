@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Joe Alfano",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GARY-05: The Shadows of the Trees",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

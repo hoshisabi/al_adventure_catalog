@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 2,
     "authors": [
         "Jonathan Self"
@@ -13,6 +14,7 @@
     "full_title": "SJ-DC-COULEE23-01 Building the Blastflinger",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 6.99,

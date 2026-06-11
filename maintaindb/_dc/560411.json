@@ -1,7 +1,6 @@
 {
-    "product_id": "560411",
-    "date_created": "20260312",
-    "season": "12 - Spelljammer",
+    "ai_content": false,
+    "apl": 8,
     "authors": [
         "Charles Pandi"
     ],
@@ -9,15 +8,17 @@
         "Forgotten Realms"
     ],
     "code": "SJ-DC-PHP-FLN03-EOS",
+    "date_created": "20260312",
     "full_title": "Eyes on the Sun (SJ-DC-PHP-FLN03-EOS)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260502",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/560411/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "560411",
+    "season": "12 - Spelljammer",
     "tiers": 2,
-    "apl": 8,
     "title": "Eyes on the Sun",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/560411/?affiliate_id=171040"
 }

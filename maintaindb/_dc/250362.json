@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 2,
     "authors": [
         "Xavier A. Devenoges",
@@ -14,6 +15,7 @@
     "full_title": "CCC-FXC-01 - Nothing Happens in Elmwood",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 1.99,

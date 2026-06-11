@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Ginny Loveday",
@@ -12,6 +13,7 @@
     "full_title": "RMH-EP-02 A Darklord's Denouement",
     "hours": "3",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": 8,
     "payWhatYouWant": false,
     "price": 14.99,

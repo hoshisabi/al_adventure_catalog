@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Dennis R Hall"
@@ -13,6 +14,7 @@
     "full_title": "CCC-ODFC03-01 A Momentary Lapse of Reason",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": true,
     "price": 4.0,

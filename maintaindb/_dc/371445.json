@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Gabe Hicks"
@@ -13,6 +14,7 @@
     "full_title": "The Landscape of Estorian LeFae WBW-DC-FDC-06",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 5.95,

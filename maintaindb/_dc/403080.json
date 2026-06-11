@@ -1,8 +1,9 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Ethan Stanhope",
-        "Teän Stanhope",
+        "Te\u00e4n Stanhope",
         "James Twigg"
     ],
     "campaigns": [
@@ -15,6 +16,7 @@
     "full_title": "WBW-DC-FEN-02 Tiddy Mun and the Burrow of Bandits",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

@@ -2,7 +2,7 @@
     "apl": 3,
     "authors": [
         "Gabrielle Coutinho",
-        "Guilherme “SirLockee”",
+        "Guilherme \u201cSirLockee\u201d",
         "Liga dos Aventureiros"
     ],
     "campaigns": [
@@ -15,6 +15,7 @@
     "full_title": "SJ-DC-LIGA02 The Risen Catacombs of Quinterra",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 4.99,

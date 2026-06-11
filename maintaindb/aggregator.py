@@ -139,6 +139,9 @@ def aggregate():
     logger.info(f'Reading all files at: {input_path}')
     input_full_path = f"{str(input_path)}/*.json"
     for file in glob.glob(input_full_path):
+        if '(' in os.path.basename(file):
+            logger.warning(f"Skipping browser duplicate JSON: {os.path.basename(file)}")
+            continue
         with open(file, 'r', encoding='utf-8') as _input:
             try:
                 data = json.load(_input)
@@ -247,6 +250,7 @@ def create_catalog_entry(adventure):
     # u: url (omitted if standard DMsGuild affiliate pattern)
     # d: date_created
     # f: flags bitmask (1: cc, 2: dc, 4: sm)
+    # ac: ai_content (1: human-created/no AI, 2: contains AI; omitted = unknown)
     # e: seed (optional)
     # lu: last_update (optional)
     
@@ -302,6 +306,12 @@ def create_catalog_entry(adventure):
     
     if flags > 0:
         entry['f'] = flags
+
+    ai_content = adventure.get('ai_content')
+    if ai_content is True:
+        entry['ac'] = 2
+    elif ai_content is False:
+        entry['ac'] = 1
 
     # Include last_update in entry if needed
     adventure_last_update = adventure.get('last_update')

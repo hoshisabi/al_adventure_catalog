@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Antoine Deligne"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA Coeur de Dragon",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 5.95,

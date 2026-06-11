@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Alec Shaner"
@@ -13,6 +14,7 @@
     "full_title": "DC-PoA-INAS-01 Beauty and the Mead",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260105",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.0,

@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 9,
     "authors": [
         "Bernhard Staneker"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-FET01 Vatras Besieged",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,

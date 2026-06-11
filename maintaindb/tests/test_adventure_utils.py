@@ -12,9 +12,21 @@ if str(PROJECT_ROOT) not in sys.path:
 
 # Try both layout options: project root module or package under maintaindb
 try:
-    from adventure_utils import get_adventure_code_and_campaigns  # type: ignore
+    from adventure_utils import (  # type: ignore
+        get_adventure_code_and_campaigns,
+        adventure_json_equivalent,
+        is_browser_duplicate_filename,
+        product_id_from_dmsguild_html_filename,
+        strip_browser_duplicate_suffix,
+    )
 except ModuleNotFoundError:
-    from maintaindb.adventure_utils import get_adventure_code_and_campaigns  # type: ignore
+    from maintaindb.adventure_utils import (  # type: ignore
+        get_adventure_code_and_campaigns,
+        adventure_json_equivalent,
+        is_browser_duplicate_filename,
+        product_id_from_dmsguild_html_filename,
+        strip_browser_duplicate_suffix,
+    )
 
 
 def test_ccc_codes_with_short_series_names():
@@ -251,6 +263,39 @@ def test_all_bug_fixes_covered():
     # Bug fix 18: DC codes with letter-only suffix segment (e.g., SJ-DC-PHP-FLN03-EOS)
     code, _ = get_adventure_code_and_campaigns("Eyes on the Sun (SJ-DC-PHP-FLN03-EOS)")
     assert code == "SJ-DC-PHP-FLN03-EOS", f"Failed: got {code}, expected SJ-DC-PHP-FLN03-EOS"
+
+
+def test_browser_duplicate_filename_helpers():
+    assert is_browser_duplicate_filename("565907 (1).json")
+    assert is_browser_duplicate_filename("dmsguildinfo-565907 (1).html")
+    assert not is_browser_duplicate_filename("565907.json")
+
+    assert strip_browser_duplicate_suffix("565907 (1)") == "565907"
+    assert strip_browser_duplicate_suffix("565907 (12)") == "565907"
+    assert strip_browser_duplicate_suffix("565907") == "565907"
+
+    assert product_id_from_dmsguild_html_filename("dmsguildinfo-565907 (1).html") == "565907"
+    assert product_id_from_dmsguild_html_filename("dmsguildinfo-565907.html") == "565907"
+
+
+def test_adventure_json_equivalent_ignores_duplicate_metadata():
+    canonical = {
+        "product_id": "565907",
+        "url": "https://www.dmsguild.com/product/565907/?affiliate_id=171040",
+        "last_update": "20260610",
+        "code": "FR-DC-CONMAR-04",
+        "title": "The Lair of a Dragon",
+    }
+    duplicate = {
+        "product_id": "565907 (1)",
+        "url": "https://www.dmsguild.com/product/565907 (1)/?affiliate_id=171040",
+        "last_update": "20260519",
+        "code": "FR-DC-CONMAR-04",
+        "title": "The Lair of a Dragon",
+    }
+    assert adventure_json_equivalent(canonical, duplicate)
+    duplicate["hours"] = "4"
+    assert not adventure_json_equivalent(canonical, duplicate)
 
 
 if __name__ == '__main__':

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Ginny Loveday"
@@ -13,6 +14,7 @@
     "full_title": "DDAL-DRW-04 Foreign Affairs",
     "hours": "6",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,

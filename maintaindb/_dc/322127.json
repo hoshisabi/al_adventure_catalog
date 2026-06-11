@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Ginny Loveday",
@@ -16,6 +17,7 @@
     "full_title": "CCC-BFG01-01 A House Divided",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

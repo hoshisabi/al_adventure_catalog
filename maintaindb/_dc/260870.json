@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 1,
     "authors": [
         "Dave Zajac",
@@ -14,6 +15,7 @@
     "full_title": "CCC-GHC-BK1-01 Into the Border Kingdoms",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

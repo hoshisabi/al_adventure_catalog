@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 7,
     "authors": [
         "Karianne Fog Heen"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-CONMAR-04 A pleasure cruise",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

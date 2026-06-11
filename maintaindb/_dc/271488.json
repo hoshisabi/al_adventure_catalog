@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "AL Admins",
@@ -14,6 +15,7 @@
     "full_title": "DDAL00-09 Minsc & Boo's Guide to Stuff and Things",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 5.99,

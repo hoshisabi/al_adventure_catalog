@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": 4,
     "authors": [
         "Joseph George"
@@ -13,6 +14,7 @@
     "full_title": "FR-DC-AEG-04 The School",
     "hours": null,
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

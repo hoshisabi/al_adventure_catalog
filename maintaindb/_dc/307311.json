@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Jason Pesch"
@@ -13,6 +14,7 @@
     "full_title": "CCC-DES-02-02 On a Six-Fingered Trail",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

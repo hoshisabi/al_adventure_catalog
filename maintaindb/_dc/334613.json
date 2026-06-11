@@ -1,7 +1,8 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
-        "Rune Sørheim"
+        "Rune S\u00f8rheim"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -13,6 +14,7 @@
     "full_title": "CCC-ARCON01-01 - Forest Song",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.95,

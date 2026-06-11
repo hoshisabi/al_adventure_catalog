@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Christopher B. Bertucio"
@@ -13,6 +14,7 @@
     "full_title": "WBW-DC-CBB-08 Paradise In  The Tidalbore Isles",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20260118",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 2.99,

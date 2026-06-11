@@ -1,8 +1,9 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Alan Tucker",
-        "C M O’Halloran",
+        "C M O\u2019Halloran",
         "David McDonough",
         "Elise Cretel",
         "Aaron M Lopez",
@@ -20,9 +21,10 @@
     "community_content": false,
     "date_created": "20190214",
     "dungeoncraft": false,
-    "full_title": "So, a Wizard's Apprentice and a Demon Walk Into a Magic Shop…",
+    "full_title": "So, a Wizard's Apprentice and a Demon Walk Into a Magic Shop\u2026",
     "hours": null,
     "is_adventure": false,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 0.0,
@@ -30,6 +32,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "So, a Wizard's Apprentice and a Demon Walk Into a Magic Shop…",
+    "title": "So, a Wizard's Apprentice and a Demon Walk Into a Magic Shop\u2026",
     "url": "https://www.dmsguild.com/product/266699/?affiliate_id=171040"
 }

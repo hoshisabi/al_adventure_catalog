@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Brian Balagot"
@@ -13,6 +14,7 @@
     "full_title": "Squidaddle! (SJ-DC-SQD)",
     "hours": "2",
     "is_adventure": false,
+    "last_update": "20260104",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

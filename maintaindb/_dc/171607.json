@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": null,
     "authors": [
         "Dave Zajac"
@@ -11,6 +12,7 @@
     "full_title": "Journey to the Buried Vale",
     "hours": "2",
     "is_adventure": false,
+    "last_update": "20251221",
     "level_range": null,
     "payWhatYouWant": false,
     "price": 2.99,

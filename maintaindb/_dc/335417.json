@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Gregory Harris"
@@ -13,6 +14,7 @@
     "full_title": "CCC-WYC-Intro-01 A Bridge to Thar",
     "hours": "2",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 2.99,

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 15,
     "authors": [
         "The Role Initiative"
@@ -10,9 +11,10 @@
     "community_content": true,
     "date_created": "20200116",
     "dungeoncraft": false,
-    "full_title": "CCC-TRI-21 The Rifts of Madness (Part Six of the Yûlash Series)",
+    "full_title": "CCC-TRI-21 The Rifts of Madness (Part Six of the Y\u00fblash Series)",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20251221",
     "level_range": "11-16",
     "payWhatYouWant": false,
     "price": 4.99,
@@ -20,6 +22,6 @@
     "salvage_mission": false,
     "season": null,
     "tiers": 3,
-    "title": "The Rifts of Madness (Part Six of the Yûlash Series)",
+    "title": "The Rifts of Madness (Part Six of the Y\u00fblash Series)",
     "url": "https://www.dmsguild.com/product/299821/?affiliate_id=171040"
 }

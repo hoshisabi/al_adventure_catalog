@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Jon Emil Sletaker",
@@ -14,6 +15,7 @@
     "full_title": "DC-PoA-CONMAR-04 - Midwinter Celebrations",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260106",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,
