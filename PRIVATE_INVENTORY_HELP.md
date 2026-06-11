@@ -25,9 +25,24 @@ You can create your inventory list in several ways.
 
 This catalog includes a built-in [Private Inventory Manager](inventory.html) where you can:
 1. **Import** existing `.json` or `.csv` files.
-2. **Scan** your local Google Drive folder using the `sync_local_inventory.py` script.
+2. **Scan** your local Google Drive folder using the `sync_local_inventory.py` script (see below).
 3. **Add** items manually by searching for the adventure title.
 4. **Export** your combined inventory to a single JSON file that you can host online or share.
+
+#### Generating your inventory from Google Drive (Desktop)
+
+If you use **Google Drive for Desktop**, you can use the `sync_local_inventory.py` script to
+automatically create your `private_inventory.json` from your locally synced files.
+
+```powershell
+python sync_local_inventory.py "F:\Path\To\Your\GoogleDrive\Adventures"
+```
+
+The script:
+- Matches files by Product ID, Adventure Code, or Title.
+- Automatically resolves **Google Drive share links** by querying your local Google Drive for Desktop metadata database.
+- Supports multiple Google accounts simultaneously.
+- Falls back to `file://` links if a Google Drive link cannot be found.
 
 ### Option B: Google Drive (Best for Sharing)
 
