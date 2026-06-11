@@ -47,6 +47,11 @@
             <h2 class="text-xl font-semibold mb-4">Adventures by Season</h2>
             <canvas id="season-chart"></canvas>
         </div>
+        <div>
+            <h2 class="text-xl font-semibold mb-4">AI Content Disclosure</h2>
+            <p class="text-sm text-gray-500 mb-2">Publisher self-disclosure on DM's Guild</p>
+            <canvas id="ai-assisted-chart"></canvas>
+        </div>
     </div>
 
     <div class="mt-8">
@@ -60,24 +65,105 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 <script>
-    // Dark theme defaults for Chart.js v3
+    // Dark theme tick/grid colors (apply per-chart; avoid mutating scale type defaults)
+    const CHART_SCALE = {
+        grid: { color: '#232844' },
+        ticks: { color: '#6c7390' },
+    };
+
+    function categoryBarOptions(extra = {}) {
+        return {
+            scales: {
+                x: {
+                    type: 'category',
+                    grid: CHART_SCALE.grid,
+                    ticks: {
+                        ...CHART_SCALE.ticks,
+                        autoSkip: false,
+                        maxRotation: 45,
+                        minRotation: 0,
+                    },
+                },
+                y: {
+                    type: 'linear',
+                    beginAtZero: true,
+                    grid: CHART_SCALE.grid,
+                    ticks: CHART_SCALE.ticks,
+                },
+            },
+            ...extra,
+        };
+    }
+
     Chart.defaults.color = '#a8b0c8';
     Chart.defaults.borderColor = '#232844';
     Chart.defaults.plugins.legend.labels.color = '#a8b0c8';
-    // Set scale grid/tick colors via the v3 scales API
-    const DARK_SCALE = { grid: { color: '#232844' }, ticks: { color: '#6c7390' } };
-    ['linear', 'category'].forEach(t => {
-        if (Chart.defaults.scales && Chart.defaults.scales[t]) {
-            Object.assign(Chart.defaults.scales[t], DARK_SCALE);
+
+    function normalizeTierStats(raw) {
+        const normalized = { 'Tier 1': 0, 'Tier 2': 0, 'Tier 3': 0, 'Tier 4': 0, 'Unknown': 0 };
+        if (!raw) return normalized;
+
+        if (Object.keys(raw).some(k => k.startsWith('Tier '))) {
+            for (const [key, count] of Object.entries(raw)) {
+                if (key in normalized) normalized[key] += count;
+                else if (key === 'Unknown') normalized['Unknown'] += count;
+            }
+            return normalized;
         }
-    });
+
+        const numericKeys = Object.keys(raw).filter(k => /^\d+$/.test(k)).map(Number);
+        if (numericKeys.length === 0) {
+            normalized['Unknown'] = raw['Unknown'] || 0;
+            return normalized;
+        }
+
+        const zeroIndexed = numericKeys.includes(0);
+        for (const [key, count] of Object.entries(raw)) {
+            if (!/^\d+$/.test(key)) {
+                if (key === 'Unknown') normalized['Unknown'] += count;
+                continue;
+            }
+            const n = parseInt(key, 10);
+            if (zeroIndexed) {
+                if (n >= 0 && n <= 3) normalized[`Tier ${n + 1}`] += count;
+                else normalized['Unknown'] += count;
+            } else if (n >= 1 && n <= 4) {
+                normalized[`Tier ${n}`] += count;
+            } else {
+                normalized['Unknown'] += count;
+            }
+        }
+        return normalized;
+    }
+
+    function normalizeDurationStats(raw) {
+        const normalized = {};
+        if (!raw) return normalized;
+
+        for (const [key, count] of Object.entries(raw)) {
+            if (key === 'All Others' || key === 'Unknown') {
+                normalized[key] = (normalized[key] || 0) + count;
+            } else if (typeof key === 'string' && key.endsWith(' Hours')) {
+                normalized[key] = (normalized[key] || 0) + count;
+            } else if (/^\d+$/.test(String(key))) {
+                const label = `${key} Hours`;
+                normalized[label] = (normalized[label] || 0) + count;
+            } else {
+                normalized[key] = (normalized[key] || 0) + count;
+            }
+        }
+        return normalized;
+    }
 
     fetch('assets/data/stats.json')
         .then(response => response.json())
         .then(data => {
+            const tierStats = normalizeTierStats(data.tier);
+            const durationStats = normalizeDurationStats(data.duration);
+
             // Sort tiers: Tier 1, Tier 2, Tier 3, Tier 4, Unknown
             const tierLabels = ['Tier 1', 'Tier 2', 'Tier 3', 'Tier 4', 'Unknown'];
-            const tierData = tierLabels.map(label => data.tier[label] || 0);
+            const tierData = tierLabels.map(label => tierStats[label] || 0);
             
             const tierColors = [
                 'rgba(94,234,212,0.75)',   // T1 teal
@@ -107,17 +193,13 @@
                         borderWidth: 1
                     }]
                 },
-                options: {
-                    scales: {
-                        y: { beginAtZero: true }
-                    }
-                }
+                options: categoryBarOptions()
             });
 
             // Sort duration: 1, 2, 4, 6, 8, All Others, Unknown
             const durationOrder = ['1 Hours', '2 Hours', '4 Hours', '6 Hours', '8 Hours', 'All Others', 'Unknown'];
-            const durationLabels = durationOrder.filter(label => data.duration[label] !== undefined && data.duration[label] > 0);
-            const durationData = durationLabels.map(label => data.duration[label]);
+            const durationLabels = durationOrder.filter(label => durationStats[label] !== undefined && durationStats[label] > 0);
+            const durationData = durationLabels.map(label => durationStats[label]);
             
             const durationColorMap = {
                 '1 Hours': ['rgba(109,212,255,0.75)', 'rgba(109,212,255,1)'],
@@ -142,11 +224,7 @@
                         borderWidth: 1
                     }]
                 },
-                options: {
-                    scales: {
-                        y: { beginAtZero: true }
-                    }
-                }
+                options: categoryBarOptions()
             });
 
             // Campaign as pie chart
@@ -197,33 +275,79 @@
                 }
             });
             
-            // Filter out "Unknown" from season data
-            const seasonDataFiltered = {};
-            Object.keys(data.season).forEach(key => {
-                if (key !== 'Unknown') {
-                    seasonDataFiltered[key] = data.season[key];
-                }
-            });
-            
+            // AL seasons 1-13 only (excludes Oracle of War, Eberron DC, etc.)
+            const AL_SEASON_ORDER = [
+                '1 - Tyranny of Dragons',
+                '2 - Elemental Evil',
+                '3 - Rage of Demons',
+                '4 - Curse of Strahd',
+                '5 - Storm King\'s Thunder',
+                '6 - Tales From the Yawning Portal',
+                '7 - Tomb of Annihilation',
+                '8 - Waterdeep',
+                '9 - Avernus Rising',
+                '10 - Icewind Dale',
+                '11 - Wild Beyond the Witchlight',
+                '12 - Spelljammer',
+                '13 - Planescape',
+            ];
+            const seasonLabels = AL_SEASON_ORDER.filter(label => (data.season[label] || 0) > 0);
+            const seasonData = seasonLabels.map(label => data.season[label] || 0);
+
             const seasonCtx = document.getElementById('season-chart').getContext('2d');
             new Chart(seasonCtx, {
                 type: 'bar',
                 data: {
-                    labels: Object.keys(seasonDataFiltered),
+                    labels: seasonLabels,
                     datasets: [{
                         label: '# of Adventures',
-                        data: Object.values(seasonDataFiltered),
+                        data: seasonData,
                         backgroundColor: 'rgba(185,161,255,0.5)',
                         borderColor: 'rgba(185,161,255,1)',
                         borderWidth: 1
                     }]
                 },
-                options: {
-                    scales: {
-                        y: { beginAtZero: true }
-                    }
-                }
+                options: categoryBarOptions()
             });
+
+            if (data.ai_assisted && Object.keys(data.ai_assisted).length > 0) {
+                const aiLabels = ['AI assisted', 'Human-created (disclosed)', 'Not disclosed'];
+                const aiLabelsFiltered = aiLabels.filter(label => (data.ai_assisted[label] || 0) > 0);
+                const aiDataFiltered = aiLabelsFiltered.map(label => data.ai_assisted[label]);
+                const aiColors = {
+                    'AI assisted': 'rgba(245,158,11,0.85)',
+                    'Human-created (disclosed)': 'rgba(94,234,212,0.75)',
+                    'Not disclosed': 'rgba(108,115,144,0.5)',
+                };
+                const aiCtx = document.getElementById('ai-assisted-chart').getContext('2d');
+                new Chart(aiCtx, {
+                    type: 'pie',
+                    data: {
+                        labels: aiLabelsFiltered,
+                        datasets: [{
+                            data: aiDataFiltered,
+                            backgroundColor: aiLabelsFiltered.map(l => aiColors[l] || '#a78bfa')
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: true,
+                        plugins: {
+                            legend: { position: 'right' },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        const value = context.parsed || 0;
+                                        const total = aiDataFiltered.reduce((a, b) => a + b, 0);
+                                        const pct = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                        return context.label + ': ' + value + ' (' + pct + '%)';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
 
             // Helper function to create seed charts
             function createSeedChart(container, seasonName, seeds, counts, total, colors, chartIndex, subtitle) {

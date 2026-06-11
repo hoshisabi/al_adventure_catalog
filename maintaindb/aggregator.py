@@ -177,7 +177,7 @@ def aggregate():
                 if 'tiers' in data and isinstance(data['tiers'], str) and '-' in data['tiers']:
                     data['tiers'] = int(data['tiers'].split('-')[0])
                 elif 'tiers' in data and data['tiers'] is None:
-                    data['tiers'] = 0 # Or some other default integer value
+                    pass  # leave None; do not coerce to 0 (breaks stats tier buckets)
 
                 # Ensure 'hours' is always a string
                 if 'hours' in data and data['hours'] is None:
@@ -228,6 +228,12 @@ def aggregate():
         json.dump(catalog_data, f, indent=None, ensure_ascii=False)
 
     logger.info(f"Generated consolidated catalog: catalog.json ({len(catalog)} items, last update: {max_last_update})")
+
+    try:
+        from .stats import generate_stats
+    except ImportError:
+        from stats import generate_stats
+    generate_stats()
 
 
 def create_catalog_entry(adventure):
@@ -283,9 +289,12 @@ def create_catalog_entry(adventure):
         'a': adventure.get('authors'),
         's': formatted_season, 
         'h': adventure.get('hours'),
-        't': adventure.get('tiers'),
         'd': adventure.get('date_created'),
     }
+
+    tiers = adventure.get('tiers')
+    if tiers in (1, 2, 3, 4):
+        entry['t'] = tiers
 
     if campaign_mask > 0:
         entry['p'] = campaign_mask
