@@ -1,0 +1,59 @@
+name: RSS Sync
+
+# Periodically pulls newly-listed adventures from the DMsGuild RSS feed,
+# rebuilds catalog.json/stats.json, and commits any new entries.
+#
+# RSS-derived entries are intentionally incomplete (missing authors, hours,
+# tier, APL, level range) and are tagged needs_review: true so they can be
+# filled in later via the bookmarklet + process_downloads workflow. This
+# just gets a "shell" entry onto the site quickly after release.
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rss-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Fetch new adventures from RSS
+        run: uv run python -m maintaindb.process_rss
+
+      - name: Rebuild catalog and stats
+        run: |
+          uv run python -m maintaindb.aggregator
+          uv run python -m maintaindb.stats
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add maintaindb/_dc assets/data/catalog.json assets/data/stats.json
+
+          if git diff --cached --quiet; then
+            echo "No new adventures found."
+            exit 0
+          fi
+
+          NEW_FILES=$(git diff --cached --name-only --diff-filter=A -- maintaindb/_dc | wc -l)
+          git commit -m "Auto: sync ${NEW_FILES} new adventure(s) from RSS feed [needs_review]"
+
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
