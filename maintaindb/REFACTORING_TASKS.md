@@ -115,12 +115,12 @@ This file tracks future refactoring and improvement tasks for the maintaindb cod
     - Existing file conflicts; default to no-overwrite unless `--overwrite`.
     - Case sensitivity and Windows path edge cases; use pathlib and safe copy.
     - Ensure no network calls; purely local file operations.
-- [ ] **Add RSS processing to GitHub Actions**
-  - Automate running `process_rss.py` on a schedule (e.g., daily or weekly)
-  - This will make RSS-based data collection more prompt/regular
-  - Should commit new/updated JSON files created from RSS feed
-  - Consider rate limiting to avoid overloading DMsGuild servers
-  - Location: `.github/workflows/` directory
+- [x] **Add RSS processing to GitHub Actions**
+  - Implemented in `.github/workflows/rss-sync.yml`, runs every 8 hours
+  - Runs `process_rss` (no `--force`, so existing files are untouched), then
+    `aggregator` and `stats`, and commits new `_dc/*.json` + regenerated
+    `catalog.json`/`stats.json` if anything changed
+  - New entries are tagged `needs_review: true` as usual
 
 ### Data Quality & Workflow
 

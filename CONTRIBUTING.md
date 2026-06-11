@@ -57,6 +57,13 @@ uv run python -m maintaindb.process_rss --url maintaindb/dmsguildinfo/rss.xml --
    for the format and [CODE_RECOGNITION.md](CODE_RECOGNITION.md) for how adventure
    codes are recognized).
 
+### Automated RSS sync
+
+A scheduled GitHub Action (`.github/workflows/rss-sync.yml`) runs `process_rss` every 8
+hours, rebuilds `catalog.json`/`stats.json`, and commits any new adventures it finds.
+This gets a "shell" entry onto the site quickly after release; the entries still need
+the manual review described above.
+
 ### RSS data gaps
 
 The RSS feed doesn't include everything the HTML parser can extract. These fields are
