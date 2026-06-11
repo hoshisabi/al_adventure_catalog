@@ -8,11 +8,11 @@ from collections import defaultdict
 
 try:
     from .adventure import DungeonCraft
-    from .adventure_utils import normalize_season_display, CAMPAIGN_BITMASK
+    from .adventure_utils import normalize_season_display, CAMPAIGN_BITMASK, resolve_al_season
     from .paths import STATS_JSON, CATALOG_JSON
 except (ImportError, ValueError):
     from adventure import DungeonCraft
-    from adventure_utils import normalize_season_display, CAMPAIGN_BITMASK
+    from adventure_utils import normalize_season_display, CAMPAIGN_BITMASK, resolve_al_season
     from paths import STATS_JSON, CATALOG_JSON
 import glob
 
@@ -50,6 +50,79 @@ def _parse_hours_string(hours_str):
         # hours_str is not a string, return empty list
         return []
     return hours_list
+
+
+def _tier_label(tier):
+    """Return a canonical stats label for a tier value, or None if unknown."""
+    if tier in (1, 2, 3, 4):
+        return f'Tier {tier}'
+    return None
+
+
+def _duration_label(hour):
+    return f'{hour} Hours'
+
+
+def normalize_tier_stats(raw):
+    """
+    Normalize tier counts to canonical 'Tier 1'..'Tier 4' + 'Unknown' keys.
+    Accepts legacy numeric-key stats (0-indexed or 1-indexed).
+    """
+    normalized = {f'Tier {i}': 0 for i in range(1, 5)}
+    normalized['Unknown'] = 0
+
+    if any(k.startswith('Tier ') for k in raw):
+        for key, count in raw.items():
+            if key in normalized:
+                normalized[key] += count
+            elif key == 'Unknown':
+                normalized['Unknown'] += count
+        return normalized
+
+    numeric_keys = [int(k) for k in raw if str(k).isdigit()]
+    if not numeric_keys:
+        normalized['Unknown'] = raw.get('Unknown', 0)
+        return normalized
+
+    zero_indexed = 0 in numeric_keys
+
+    for key, count in raw.items():
+        if not str(key).isdigit():
+            if key == 'Unknown':
+                normalized['Unknown'] += count
+            continue
+        n = int(key)
+        if zero_indexed:
+            if 0 <= n <= 3:
+                normalized[f'Tier {n + 1}'] += count
+            else:
+                normalized['Unknown'] += count
+        elif 1 <= n <= 4:
+            normalized[f'Tier {n}'] += count
+        else:
+            normalized['Unknown'] += count
+
+    return normalized
+
+
+def normalize_duration_stats(raw):
+    """
+    Normalize duration counts to canonical 'N Hours' keys (+ All Others, Unknown).
+    Accepts legacy bare numeric keys ('1' instead of '1 Hours').
+    """
+    normalized = defaultdict(int)
+    for key, count in raw.items():
+        if key in ('All Others', 'Unknown'):
+            normalized[key] += count
+            continue
+        if isinstance(key, str) and key.endswith(' Hours'):
+            normalized[key] += count
+            continue
+        if str(key).isdigit():
+            normalized[_duration_label(int(key))] += count
+            continue
+        normalized[key] += count
+    return dict(normalized)
 
 def normalize_seed_name(seed):
     """
@@ -107,7 +180,10 @@ def catalog_entry_to_dungeoncraft_params(entry):
 
     # Map abbreviated keys back to DungeonCraft param names
     d = {key_map[k]: v for k, v in entry.items() if k in key_map}
-    
+
+    # 't' is omitted from the catalog entry when tiers is None (see aggregator.py)
+    d.setdefault('tiers', None)
+
     # Decode campaign bitmask if necessary
     if 'campaigns' in d and isinstance(d['campaigns'], int):
         bitmask = d['campaigns']
@@ -135,50 +211,43 @@ def generate_stats():
             raw_catalog = catalog_data
             
         data = []
-        
-        # Mapping from minified keys to DungeonCraft parameters
-        key_map = {
-            'i': 'product_id',
-            'n': 'title',
-            'a': 'authors',
-            'c': 'code',
-            'd': 'date_created',
-            'h': 'hours',
-            't': 'tiers',
-            'p': 'campaigns',
-            's': 'season',
-            'u': 'url',
-            'e': 'seed'
-        }
-        
         for entry in raw_catalog:
             d = catalog_entry_to_dungeoncraft_params(entry)
-            data.append(DungeonCraft(**d))
+            data.append((DungeonCraft(**d), entry))
 
     stats = {
         'tier': defaultdict(int),
         'duration': defaultdict(int),
         'campaign': defaultdict(int),
         'season': defaultdict(int),
-        'seed_by_season': defaultdict(lambda: defaultdict(int))  # season -> seed -> count
+        'ai_assisted': defaultdict(int),
+        'seed_by_season': defaultdict(lambda: defaultdict(int))
     }
 
     # Standard duration hours we want to track separately
     standard_durations = {1, 2, 4, 6, 8}
 
-    for adventure in data:
-        if adventure.tiers:
-            stats['tier'][f'Tier {adventure.tiers}'] += 1
+    for adventure, entry in data:
+        tier_label = _tier_label(adventure.tiers)
+        if tier_label:
+            stats['tier'][tier_label] += 1
         else:
             stats['tier']['Unknown'] += 1
+
+        ac = entry.get('ac')
+        if ac == 2:
+            stats['ai_assisted']['AI assisted'] += 1
+        elif ac == 1:
+            stats['ai_assisted']['Human-created (disclosed)'] += 1
+        else:
+            stats['ai_assisted']['Not disclosed'] += 1
 
         if adventure.hours:
             parsed_hours = _parse_hours_string(adventure.hours)
             if parsed_hours:
-                # Count each hour separately (existing behavior)
                 for hour in parsed_hours:
                     if hour in standard_durations:
-                        stats['duration'][f'{hour} Hours'] += 1
+                        stats['duration'][_duration_label(hour)] += 1
                     else:
                         stats['duration']['All Others'] += 1
             else:
@@ -196,11 +265,9 @@ def generate_stats():
         else:
             stats['campaign']['Unknown'] += 1
         
-        if adventure.season:
-            canonical_season = normalize_season_display(adventure.season)
-            stats['season'][canonical_season] += 1
-        else:
-            stats['season']['Unknown'] += 1
+        al_season = resolve_al_season(season=adventure.season, code=adventure.code)
+        if al_season:
+            stats['season'][al_season] += 1
         
         # Collect seed statistics for POA/WBW/SJ campaigns
         if adventure.code:
@@ -211,6 +278,9 @@ def generate_stats():
                 stats['seed_by_season'][season_name][normalized_seed] += 1
     
     # Convert nested defaultdicts to regular dicts for JSON serialization
+    stats['tier'] = normalize_tier_stats(dict(stats['tier']))
+    stats['duration'] = normalize_duration_stats(dict(stats['duration']))
+    stats['ai_assisted'] = dict(stats['ai_assisted'])
     stats['seed_by_season'] = {
         season: dict(seed_counts) 
         for season, seed_counts in stats['seed_by_season'].items()
