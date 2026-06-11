@@ -1,7 +1,5 @@
 {
-    "product_id": "561571",
-    "date_created": "20260322",
-    "season": "13 - Planescape",
+    "apl": 8,
     "authors": [
         "Rebecca Farrar"
     ],
@@ -9,15 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "PS-DC-RF-01",
+    "date_created": "20260322",
     "full_title": "PS-DC-RF-01 Peryroyl Tea",
     "hours": "4-6",
     "is_adventure": true,
+    "last_update": "20260610",
     "level_range": "5-10",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/561571/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "561571",
+    "season": "13 - Planescape",
     "tiers": 2,
-    "apl": 8,
     "title": "Peryroyl Tea",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/561571/?affiliate_id=171040"
 }

@@ -1,7 +1,5 @@
 {
-    "product_id": "562770",
-    "date_created": "20260401",
-    "season": null,
+    "apl": 3,
     "authors": [
         "Steven Truong"
     ],
@@ -9,15 +7,17 @@
         "Forgotten Realms"
     ],
     "code": "FR-DC-BIRD-00",
+    "date_created": "20260401",
     "full_title": "Peacocks at the Gate (FR-DC-BIRD-00)",
     "hours": "2-4",
     "is_adventure": true,
+    "last_update": "20260610",
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/562770/?affiliate_id=171040",
+    "price": 4.99,
+    "product_id": "562770",
+    "season": null,
     "tiers": 1,
-    "apl": 3,
     "title": "Peacocks at the Gate",
-    "price": 4.99
+    "url": "https://www.dmsguild.com/product/562770/?affiliate_id=171040"
 }

@@ -1,7 +1,5 @@
 {
-    "product_id": "561834",
-    "date_created": "20260325",
-    "season": "11 - Wild Beyond the Witchlight",
+    "apl": 3,
     "authors": [
         "CinderellaCartography"
     ],
@@ -9,16 +7,18 @@
         "Forgotten Realms"
     ],
     "code": "WBW-DC-EVL-01-01",
+    "date_created": "20260325",
     "full_title": "WBW-DC-EVL-01-01 To you in the Night Sky",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260610",
     "level_range": "1-4",
     "payWhatYouWant": true,
-    "last_update": "20260502",
-    "url": "https://www.dmsguild.com/product/561834/?affiliate_id=171040",
+    "price": 2.0,
+    "product_id": "561834",
+    "season": "11 - Wild Beyond the Witchlight",
     "suggestedPrice": 2.0,
-    "apl": 3,
     "tiers": 1,
     "title": "To you in the Night Sky",
-    "price": 2.0
+    "url": "https://www.dmsguild.com/product/561834/?affiliate_id=171040"
 }
