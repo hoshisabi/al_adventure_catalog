@@ -26,6 +26,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Pin to the live branch tip rather than the dispatch-time SHA.
+          # workflow_dispatch fixes github.sha at dispatch time, so a queued
+          # run can otherwise check out a commit that's since been superseded.
+          ref: main
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -41,6 +46,10 @@ jobs:
           else
             echo "new_data=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Sync with latest main
+        if: steps.rss.outputs.new_data == 'true'
+        run: git pull --rebase --autostash origin main
 
       - name: Rebuild catalog and stats
         if: steps.rss.outputs.new_data == 'true'
@@ -59,5 +68,5 @@ jobs:
           NEW_FILES=$(git diff --cached --name-only --diff-filter=A -- maintaindb/_dc | wc -l)
           git commit -m "Auto: sync ${NEW_FILES} new adventure(s) from RSS feed [needs_review]"
 
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git pull --rebase --autostash origin main
           git push
