@@ -15,6 +15,18 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Theme boot: set data-theme before CSS loads to avoid wrong-theme flash.
+         "light" = parchment, "dark" = night sky; stored choice wins, else OS setting. -->
+    <script>
+        (function () {
+            var theme = localStorage.getItem("theme");
+            if (theme !== "light" && theme !== "dark") {
+                theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            }
+            document.documentElement.setAttribute("data-theme", theme);
+        })();
+    </script>
+
     <!-- Theme -->
     <link rel="stylesheet" href="assets/css/catalog.css">
 
@@ -36,6 +48,16 @@
                     <a href="stats.html">Statistics</a>
                     <span class="sep">·</span>
                     <a href="inventory.html">Private Inventory</a>
+                    <span class="sep">·</span>
+                    <button class="theme-toggle" type="button" aria-label="Switch theme">
+                        <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                        <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="4"/>
+                            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                        </svg>
+                    </button>
                 </nav>
                 <p id="last-update-container" class="hidden">Last update: <span id="last-update-date"></span></p>
             </div>
@@ -210,6 +232,7 @@
     </div>
 
     <script src="assets/js/filter.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

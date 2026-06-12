@@ -1,39 +1,170 @@
 /* ============================================================
-   AL Adventure Catalog — hoshisabi dark theme
+   AL Adventure Catalog — hoshisabi theme (parchment / night sky)
+   ------------------------------------------------------------
+   Two themes share one set of component styles.
+   Default (:root) is "parchment" — warm paper + ink.
+   [data-theme="dark"] is the starry night sky.
+   An inline script in each page's <head> sets the attribute
+   from localStorage / prefers-color-scheme before first paint;
+   assets/js/theme.js wires the header toggle button.
    ============================================================ */
 
+/* ═══ SHARED THEME TOKENS ════════════════════════════════════
+   Keep identical in BOTH repos:
+     hoshisabi.github.io/assets/css/style.scss
+     al_adventure_catalog/assets/css/catalog.css
+   Verify with: al_adventure_catalog/check_theme_sync.py
+   ════════════════════════════════════════════════════════════ */
 :root {
-  --bg:          #0a0c1a;
-  --bg-2:        #0e1226;
-  --bg-raised:   #131730;
-  --bg-card:     #131730;
-  --bg-card-hi:  #181d36;
-  --border:      #232844;
-  --border-hi:   #35406c;
-  --text:        #e8ecf7;
-  --text-dim:    #a8b0c8;
-  --text-muted:  #6c7390;
-  --accent:      #b9a1ff;
-  --accent-2:    #6dd4ff;
-  --accent-soft: rgba(185,161,255,0.16);
-  --link:        #b9a1ff;
-  --link-hover:  #d4c4ff;
-  --success:     #5eead4;
-  --warning:     #f59e0b;
-  --danger:      #f43f5e;
-  --font:         "Plus Jakarta Sans", system-ui, sans-serif;
-  --font-display: "Outfit", system-ui, sans-serif;
-  --font-mono:    "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+  color-scheme: light;
+
+  /* Surfaces — parchment */
+  --bg:           #f3ead6;
+  --bg-2:         #ecdfc3;
+  --bg-raised:    #faf4e4;
+  --bg-card:      #f8f1df;
+  --bg-card-hi:   #fdf8ea;
+
+  /* Borders */
+  --border:       #d9c9a3;
+  --border-hi:    #b59e6e;
+
+  /* Text — ink */
+  --text:         #2e2417;
+  --text-dim:     #5a4c35;
+  --text-muted:   #8a7a5c;
+
+  /* Accents — rgb triplets feed the rgba() tints used throughout */
+  --accent-rgb:   156, 60, 42;    /* sealing-wax red, primary */
+  --accent-2-rgb: 46, 95, 110;    /* ink teal, secondary */
+  --accent:       rgb(var(--accent-rgb));
+  --accent-2:     rgb(var(--accent-2-rgb));
+  --accent-soft:  rgba(var(--accent-rgb), 0.10);
+  --link:         var(--accent);
+  --link-hover:   #732a1d;
+
+  /* Status */
+  --success-rgb:  46, 125, 91;
+  --warning-rgb:  168, 101, 12;
+  --danger-rgb:   168, 50, 74;
+  --muted-rgb:    138, 122, 92;
+  --success:      rgb(var(--success-rgb));
+  --success-soft: rgba(var(--success-rgb), 0.12);
+  --warning:      rgb(var(--warning-rgb));
+  --danger:       rgb(var(--danger-rgb));
+
+  /* Code */
+  --code-bg:      #ece0c2;
+
+  /* Derived surfaces (glass, cards, shadows) */
+  --header-bg:    rgba(243, 234, 214, 0.8);
+  --footer-bg:    rgba(236, 223, 195, 0.5);
+  --float-bg:     rgba(250, 244, 228, 0.85);
+  --panel-bg:     rgba(255, 253, 245, 0.5);
+  --chip-bg:      rgba(255, 253, 245, 0.65);
+  --pill-bg:      rgba(255, 253, 245, 0.35);
+  --card-grad:      linear-gradient(180deg, rgba(255, 253, 245, 0.6), rgba(255, 253, 245, 0.2));
+  --card-grad-soft: linear-gradient(180deg, rgba(255, 253, 245, 0.4), rgba(255, 253, 245, 0.1));
+  --img-fade:     linear-gradient(90deg, transparent 70%, rgba(120, 95, 55, 0.18) 100%);
+  --shadow-pop:   0 10px 32px rgba(92, 70, 40, 0.25);
+  --shadow-card:       0 4px 24px rgba(92, 70, 40, 0.18);
+  --shadow-card-hover: 0 8px 32px rgba(92, 70, 40, 0.25);
+  --pill-hover-filter: brightness(0.92);
+  --hero-grad:    linear-gradient(180deg, #2e2417 0%, #4a3a24 55%, #7a5f38 100%);
+  --body-bg:
+    radial-gradient(1200px 800px at 50% -10%, rgba(255, 250, 235, 0.55), transparent 60%),
+    radial-gradient(1400px 900px at 50% 110%, rgba(173, 142, 85, 0.12), transparent 65%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 800px, var(--bg-2) 100%);
+
+  /* Home-page overlay: faint paper-grain flecks */
+  --home-overlay:
+    radial-gradient(1px 1px at 12% 18%, rgba(120, 95, 55, 0.20), transparent 50%),
+    radial-gradient(1px 1px at 80% 8%, rgba(120, 95, 55, 0.14), transparent 50%),
+    radial-gradient(1.2px 1.2px at 55% 14%, rgba(100, 75, 40, 0.18), transparent 50%),
+    radial-gradient(1px 1px at 30% 5%, rgba(120, 95, 55, 0.16), transparent 50%),
+    radial-gradient(1.5px 1.5px at 92% 22%, rgba(156, 60, 42, 0.14), transparent 50%),
+    radial-gradient(1px 1px at 65% 30%, rgba(120, 95, 55, 0.12), transparent 50%),
+    radial-gradient(1px 1px at 8% 40%, rgba(46, 95, 110, 0.14), transparent 50%),
+    radial-gradient(1.2px 1.2px at 88% 45%, rgba(120, 95, 55, 0.14), transparent 50%),
+    radial-gradient(1px 1px at 22% 60%, rgba(120, 95, 55, 0.14), transparent 50%),
+    radial-gradient(1px 1px at 75% 70%, rgba(120, 95, 55, 0.12), transparent 50%);
+
+  /* Type */
+  --font:         "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", system-ui, -apple-system, sans-serif;
+  --font-mono:    "JetBrains Mono", "Cascadia Code", "Fira Code", Consolas, monospace;
 }
+
+/* Night sky — the original dark theme */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg:           #0a0c1a;
+  --bg-2:         #0e1226;
+  --bg-raised:    #131730;
+  --bg-card:      #131730;
+  --bg-card-hi:   #181d36;
+
+  --border:       #232844;
+  --border-hi:    #35406c;
+
+  --text:         #e8ecf7;
+  --text-dim:     #a8b0c8;
+  --text-muted:   #6c7390;
+
+  --accent-rgb:   185, 161, 255;  /* lavender, primary */
+  --accent-2-rgb: 109, 212, 255;  /* cyan, secondary */
+  --accent-soft:  rgba(var(--accent-rgb), 0.16);
+  --link-hover:   #d4c4ff;
+
+  --success-rgb:  94, 234, 212;
+  --warning-rgb:  245, 158, 11;
+  --danger-rgb:   244, 63, 94;
+  --muted-rgb:    108, 115, 144;
+  --success-soft: rgba(var(--success-rgb), 0.14);
+
+  --code-bg:      #0f1226;
+
+  --header-bg:    rgba(10, 12, 26, 0.7);
+  --footer-bg:    rgba(10, 12, 26, 0.4);
+  --float-bg:     rgba(10, 12, 26, 0.75);
+  --panel-bg:     rgba(255, 255, 255, 0.025);
+  --chip-bg:      rgba(255, 255, 255, 0.05);
+  --pill-bg:      rgba(255, 255, 255, 0.02);
+  --card-grad:      linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  --card-grad-soft: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0.005));
+  --img-fade:     linear-gradient(90deg, transparent 70%, rgba(14, 18, 38, 0.30) 100%);
+  --shadow-pop:   0 10px 32px rgba(0, 0, 0, 0.6);
+  --shadow-card:       0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --pill-hover-filter: brightness(1.22);
+  --hero-grad:    linear-gradient(180deg, #ffffff 0%, #c8c5e8 60%, #8a85b8 100%);
+  --body-bg:
+    radial-gradient(1200px 800px at 50% -10%, rgba(185, 161, 255, 0.08), transparent 60%),
+    radial-gradient(900px 600px at 80% 20%, rgba(109, 212, 255, 0.04), transparent 60%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 800px, var(--bg-2) 100%);
+
+  /* Home-page overlay: subtle starfield */
+  --home-overlay:
+    radial-gradient(1px 1px at 12% 18%, rgba(255, 255, 255, 0.7), transparent 50%),
+    radial-gradient(1px 1px at 80% 8%, rgba(255, 255, 255, 0.5), transparent 50%),
+    radial-gradient(1.2px 1.2px at 55% 14%, rgba(255, 255, 255, 0.8), transparent 50%),
+    radial-gradient(1px 1px at 30% 5%, rgba(255, 255, 255, 0.6), transparent 50%),
+    radial-gradient(1.5px 1.5px at 92% 22%, rgba(185, 161, 255, 0.7), transparent 50%),
+    radial-gradient(1px 1px at 65% 30%, rgba(255, 255, 255, 0.4), transparent 50%),
+    radial-gradient(1px 1px at 8% 40%, rgba(109, 212, 255, 0.5), transparent 50%),
+    radial-gradient(1.2px 1.2px at 88% 45%, rgba(255, 255, 255, 0.5), transparent 50%),
+    radial-gradient(1px 1px at 22% 60%, rgba(255, 255, 255, 0.5), transparent 50%),
+    radial-gradient(1px 1px at 75% 70%, rgba(255, 255, 255, 0.4), transparent 50%);
+}
+/* ═══ END SHARED THEME TOKENS ════════════════════════════════ */
 
 /* ── Base ─────────────────────────────────────────────────── */
 html { background: var(--bg); }
 
 body {
   font-family: var(--font);
-  background:
-    radial-gradient(1200px 800px at 50% -10%, rgba(185,161,255,0.06), transparent 60%),
-    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+  background: var(--body-bg);
   color: var(--text);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -65,14 +196,14 @@ a:hover { color: var(--link-hover); }
 .hover\:text-blue-800:hover    { color: var(--link-hover) !important; }
 .text-green-700 { color: var(--success) !important; }
 .text-green-600 { color: var(--success) !important; }
-.bg-green-100   { background: rgba(94,234,212,0.1) !important; }
-.hover\:bg-green-200:hover { background: rgba(94,234,212,0.2) !important; }
+.bg-green-100   { background: rgba(var(--success-rgb), 0.1) !important; }
+.hover\:bg-green-200:hover { background: rgba(var(--success-rgb), 0.2) !important; }
 
 .border          { border-color: var(--border) !important; }
 .border-gray-300 { border-color: var(--border) !important; }
 
-.shadow-lg                { box-shadow: 0 4px 24px rgba(0,0,0,0.4) !important; }
-.hover\:shadow-xl:hover   { box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important; }
+.shadow-lg                { box-shadow: var(--shadow-card) !important; }
+.hover\:shadow-xl:hover   { box-shadow: var(--shadow-card-hover) !important; }
 
 /* ── Catalog header ───────────────────────────────────────── */
 .catalog-header {
@@ -120,6 +251,28 @@ a:hover { color: var(--link-hover); }
   color: var(--text-muted) !important;
 }
 
+/* ── Theme toggle (parchment ↔ night sky) ─────────────────── */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-dim);
+  padding: 0.25rem 0.4rem;
+  border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+}
+.theme-toggle:hover {
+  color: var(--text);
+  background: var(--bg-card-hi);
+}
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
 /* ── Buttons ──────────────────────────────────────────────── */
 button {
   font-family: var(--font-mono);
@@ -130,11 +283,11 @@ button {
 .bg-blue-500 {
   background: var(--accent-soft) !important;
   color: var(--accent) !important;
-  border: 1px solid rgba(185,161,255,0.3) !important;
+  border: 1px solid rgba(var(--accent-rgb), 0.3) !important;
 }
 
 .hover\:bg-blue-600:hover {
-  background: rgba(185,161,255,0.25) !important;
+  background: rgba(var(--accent-rgb), 0.25) !important;
 }
 
 #clear-filters {
@@ -201,7 +354,7 @@ label { color: var(--text-dim); }
 
 /* ── Adventure cards (card view) ─────────────────────────── */
 #results > div {
-  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)) !important;
+  background: var(--card-grad) !important;
   border: 1px solid var(--border) !important;
   box-shadow: none !important;
   transition: transform 0.2s, border-color 0.2s;
@@ -210,7 +363,7 @@ label { color: var(--text-dim); }
 #results > div:hover {
   border-color: var(--border-hi) !important;
   transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4) !important;
+  box-shadow: var(--shadow-card-hover) !important;
 }
 
 /* ── Meta pills ───────────────────────────────────────────── */
@@ -224,32 +377,32 @@ label { color: var(--text-dim); }
   padding: 0.22rem 0.55rem;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(255,255,255,0.03);
+  background: var(--pill-bg);
   color: var(--text-muted);
   white-space: nowrap;
   line-height: 1;
 }
 
-.meta-pill.tier-1 { background: rgba(94,234,212,0.1);  color: var(--success); border-color: rgba(94,234,212,0.3); }
-.meta-pill.tier-2 { background: rgba(185,161,255,0.1); color: var(--accent);  border-color: rgba(185,161,255,0.32); }
-.meta-pill.tier-3 { background: rgba(245,158,11,0.1);  color: var(--warning); border-color: rgba(245,158,11,0.32); }
-.meta-pill.tier-4 { background: rgba(244,63,94,0.1);   color: var(--danger);  border-color: rgba(244,63,94,0.32); }
+.meta-pill.tier-1 { background: rgba(var(--success-rgb), 0.1); color: var(--success); border-color: rgba(var(--success-rgb), 0.3); }
+.meta-pill.tier-2 { background: rgba(var(--accent-rgb), 0.1);  color: var(--accent);  border-color: rgba(var(--accent-rgb), 0.32); }
+.meta-pill.tier-3 { background: rgba(var(--warning-rgb), 0.1); color: var(--warning); border-color: rgba(var(--warning-rgb), 0.32); }
+.meta-pill.tier-4 { background: rgba(var(--danger-rgb), 0.1);  color: var(--danger);  border-color: rgba(var(--danger-rgb), 0.32); }
 
 /* Hours pills */
-.meta-pill.hours-1 { background: rgba(109,212,255,0.1);  color: var(--accent-2); border-color: rgba(109,212,255,0.3); }
-.meta-pill.hours-2 { background: rgba(94,234,212,0.1);   color: var(--success);  border-color: rgba(94,234,212,0.3); }
-.meta-pill.hours-4 { background: rgba(185,161,255,0.1);  color: var(--accent);   border-color: rgba(185,161,255,0.32); }
-.meta-pill.hours-8 { background: rgba(245,158,11,0.1);   color: var(--warning);  border-color: rgba(245,158,11,0.32); }
+.meta-pill.hours-1 { background: rgba(var(--accent-2-rgb), 0.1); color: var(--accent-2); border-color: rgba(var(--accent-2-rgb), 0.3); }
+.meta-pill.hours-2 { background: rgba(var(--success-rgb), 0.1);  color: var(--success);  border-color: rgba(var(--success-rgb), 0.3); }
+.meta-pill.hours-4 { background: rgba(var(--accent-rgb), 0.1);   color: var(--accent);   border-color: rgba(var(--accent-rgb), 0.32); }
+.meta-pill.hours-8 { background: rgba(var(--warning-rgb), 0.1);  color: var(--warning);  border-color: rgba(var(--warning-rgb), 0.32); }
 /* hours-other keeps the default muted style */
 
 .meta-pill.ai-assisted {
-  background: rgba(245,158,11,0.12);
+  background: rgba(var(--warning-rgb), 0.12);
   color: var(--warning);
-  border-color: rgba(245,158,11,0.35);
+  border-color: rgba(var(--warning-rgb), 0.35);
 }
 
 .meta-pill.ai-assisted.filter-chip:hover {
-  background: rgba(245,158,11,0.22);
+  background: rgba(var(--warning-rgb), 0.22);
   filter: none;
 }
 
@@ -260,7 +413,7 @@ label { color: var(--text-dim); }
 }
 
 .meta-pill.filter-chip:hover {
-  filter: brightness(1.25);
+  filter: var(--pill-hover-filter);
   text-decoration: none;
 }
 
@@ -268,7 +421,7 @@ label { color: var(--text-dim); }
 .meta-pill.filter-chip.tier-2:hover,
 .meta-pill.filter-chip.tier-3:hover,
 .meta-pill.filter-chip.tier-4:hover {
-  filter: brightness(1.2);
+  filter: var(--pill-hover-filter);
 }
 
 /* Generic clickable meta pill (hours, season, etc.) */
@@ -276,11 +429,11 @@ label { color: var(--text-dim); }
   cursor: pointer;
   color: var(--accent) !important;
   background: var(--accent-soft);
-  border-color: rgba(185,161,255,0.3);
+  border-color: rgba(var(--accent-rgb), 0.3);
 }
 
 .meta-pill.clickable:hover {
-  background: rgba(185,161,255,0.25);
+  background: rgba(var(--accent-rgb), 0.25);
   filter: none;
   text-decoration: none;
 }

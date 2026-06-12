@@ -14,6 +14,18 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Theme boot: set data-theme before CSS loads to avoid wrong-theme flash.
+         "light" = parchment, "dark" = night sky; stored choice wins, else OS setting. -->
+    <script>
+        (function () {
+            var theme = localStorage.getItem("theme");
+            if (theme !== "light" && theme !== "dark") {
+                theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            }
+            document.documentElement.setAttribute("data-theme", theme);
+        })();
+    </script>
+
     <!-- Theme -->
     <link rel="stylesheet" href="assets/css/catalog.css">
 
@@ -27,6 +39,16 @@
         <h1 class="catalog-title">Adventure Statistics</h1>
         <nav class="catalog-nav">
             <a href="index.html">&larr; Back to Catalog</a>
+            <span class="sep">·</span>
+            <button class="theme-toggle" type="button" aria-label="Switch theme">
+                <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+                <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                </svg>
+            </button>
         </nav>
     </div>
 
@@ -64,21 +86,59 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+<script src="assets/js/theme.js"></script>
 <script>
-    // Dark theme tick/grid colors (apply per-chart; avoid mutating scale type defaults)
-    const CHART_SCALE = {
-        grid: { color: '#232844' },
-        ticks: { color: '#6c7390' },
-    };
+    // Chart colors derive from the theme's CSS variables so the charts
+    // match whichever theme (parchment / night sky) is active. All charts
+    // are rebuilt on the "themechange" event from theme.js.
 
-    function categoryBarOptions(extra = {}) {
+    function cssVar(name) {
+        return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    }
+
+    function themePalette() {
+        const rgb = {
+            accent:  cssVar('--accent-rgb'),
+            accent2: cssVar('--accent-2-rgb'),
+            success: cssVar('--success-rgb'),
+            warning: cssVar('--warning-rgb'),
+            danger:  cssVar('--danger-rgb'),
+            muted:   cssVar('--muted-rgb'),
+        };
+        const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        return {
+            rgb,
+            grid: cssVar('--border'),
+            ticks: cssVar('--text-muted'),
+            text: cssVar('--text-dim'),
+            // Categorical rainbow for pie charts: pastels on the dark sky,
+            // deeper inks on parchment (same hue order in both).
+            rainbow: dark
+                ? ['#b9a1ff', '#6dd4ff', '#5eead4', '#f59e0b', '#f43f5e',
+                   '#a78bfa', '#34d399', '#fb923c', '#60a5fa', '#e879f9',
+                   '#818cf8', '#2dd4bf', '#fbbf24', '#f87171', '#c084fc']
+                : ['#6d4fc0', '#2e6f8e', '#1f7a5c', '#a8650c', '#b3324a',
+                   '#5b3fa8', '#187a4e', '#b35413', '#2b5fa8', '#9332a8',
+                   '#4955b0', '#147a6b', '#9c7a08', '#b04438', '#8a4fb0'],
+        };
+    }
+
+    function rgba(triplet, alpha) {
+        return `rgba(${triplet},${alpha})`;
+    }
+
+    function categoryBarOptions(palette, extra = {}) {
+        const scale = {
+            grid: { color: palette.grid },
+            ticks: { color: palette.ticks },
+        };
         return {
             scales: {
                 x: {
                     type: 'category',
-                    grid: CHART_SCALE.grid,
+                    grid: scale.grid,
                     ticks: {
-                        ...CHART_SCALE.ticks,
+                        ...scale.ticks,
                         autoSkip: false,
                         maxRotation: 45,
                         minRotation: 0,
@@ -87,17 +147,13 @@
                 y: {
                     type: 'linear',
                     beginAtZero: true,
-                    grid: CHART_SCALE.grid,
-                    ticks: CHART_SCALE.ticks,
+                    grid: scale.grid,
+                    ticks: scale.ticks,
                 },
             },
             ...extra,
         };
     }
-
-    Chart.defaults.color = '#a8b0c8';
-    Chart.defaults.borderColor = '#232844';
-    Chart.defaults.plugins.legend.labels.color = '#a8b0c8';
 
     function normalizeTierStats(raw) {
         const normalized = { 'Tier 1': 0, 'Tier 2': 0, 'Tier 3': 0, 'Tier 4': 0, 'Unknown': 0 };
@@ -155,95 +211,240 @@
         return normalized;
     }
 
-    fetch('assets/data/stats.json')
-        .then(response => response.json())
-        .then(data => {
-            const tierStats = normalizeTierStats(data.tier);
-            const durationStats = normalizeDurationStats(data.duration);
+    let statsData = null;
+    const allCharts = [];
 
-            // Sort tiers: Tier 1, Tier 2, Tier 3, Tier 4, Unknown
-            const tierLabels = ['Tier 1', 'Tier 2', 'Tier 3', 'Tier 4', 'Unknown'];
-            const tierData = tierLabels.map(label => tierStats[label] || 0);
-            
-            const tierColors = [
-                'rgba(94,234,212,0.75)',   // T1 teal
-                'rgba(185,161,255,0.75)',  // T2 lavender
-                'rgba(245,158,11,0.75)',   // T3 amber
-                'rgba(244,63,94,0.75)',    // T4 red
-                'rgba(108,115,144,0.4)',   // Unknown muted
-            ];
-            const tierBorders = [
-                'rgba(94,234,212,1)',
-                'rgba(185,161,255,1)',
-                'rgba(245,158,11,1)',
-                'rgba(244,63,94,1)',
-                'rgba(108,115,144,0.8)',
-            ];
+    function renderAllCharts() {
+        if (!statsData) return;
+        const data = statsData;
+        const palette = themePalette();
 
-            const tierCtx = document.getElementById('tier-chart').getContext('2d');
-            new Chart(tierCtx, {
-                type: 'bar',
-                data: {
-                    labels: tierLabels,
-                    datasets: [{
-                        label: '# of Adventures',
-                        data: tierData,
-                        backgroundColor: tierColors,
-                        borderColor: tierBorders,
-                        borderWidth: 1
-                    }]
-                },
-                options: categoryBarOptions()
-            });
+        allCharts.forEach(chart => chart.destroy());
+        allCharts.length = 0;
+        document.getElementById('seed-charts-container').innerHTML = '';
 
-            // Sort duration: 1, 2, 4, 6, 8, All Others, Unknown
-            const durationOrder = ['1 Hours', '2 Hours', '4 Hours', '6 Hours', '8 Hours', 'All Others', 'Unknown'];
-            const durationLabels = durationOrder.filter(label => durationStats[label] !== undefined && durationStats[label] > 0);
-            const durationData = durationLabels.map(label => durationStats[label]);
-            
-            const durationColorMap = {
-                '1 Hours': ['rgba(109,212,255,0.75)', 'rgba(109,212,255,1)'],
-                '2 Hours': ['rgba(94,234,212,0.75)',  'rgba(94,234,212,1)'],
-                '4 Hours': ['rgba(185,161,255,0.75)', 'rgba(185,161,255,1)'],
-                '6 Hours': ['rgba(245,158,11,0.6)',   'rgba(245,158,11,1)'],
-                '8 Hours': ['rgba(245,158,11,0.75)',  'rgba(245,158,11,1)'],
+        Chart.defaults.color = palette.text;
+        Chart.defaults.borderColor = palette.grid;
+        Chart.defaults.plugins.legend.labels.color = palette.text;
+
+        const tierStats = normalizeTierStats(data.tier);
+        const durationStats = normalizeDurationStats(data.duration);
+
+        // Sort tiers: Tier 1, Tier 2, Tier 3, Tier 4, Unknown
+        const tierLabels = ['Tier 1', 'Tier 2', 'Tier 3', 'Tier 4', 'Unknown'];
+        const tierData = tierLabels.map(label => tierStats[label] || 0);
+
+        const tierTriplets = [
+            palette.rgb.success,   // T1
+            palette.rgb.accent,    // T2
+            palette.rgb.warning,   // T3
+            palette.rgb.danger,    // T4
+        ];
+        const tierColors = tierTriplets.map(t => rgba(t, 0.75)).concat(rgba(palette.rgb.muted, 0.4));
+        const tierBorders = tierTriplets.map(t => rgba(t, 1)).concat(rgba(palette.rgb.muted, 0.8));
+
+        const tierCtx = document.getElementById('tier-chart').getContext('2d');
+        allCharts.push(new Chart(tierCtx, {
+            type: 'bar',
+            data: {
+                labels: tierLabels,
+                datasets: [{
+                    label: '# of Adventures',
+                    data: tierData,
+                    backgroundColor: tierColors,
+                    borderColor: tierBorders,
+                    borderWidth: 1
+                }]
+            },
+            options: categoryBarOptions(palette)
+        }));
+
+        // Sort duration: 1, 2, 4, 6, 8, All Others, Unknown
+        const durationOrder = ['1 Hours', '2 Hours', '4 Hours', '6 Hours', '8 Hours', 'All Others', 'Unknown'];
+        const durationLabels = durationOrder.filter(label => durationStats[label] !== undefined && durationStats[label] > 0);
+        const durationData = durationLabels.map(label => durationStats[label]);
+
+        const durationColorMap = {
+            '1 Hours': [rgba(palette.rgb.accent2, 0.75), rgba(palette.rgb.accent2, 1)],
+            '2 Hours': [rgba(palette.rgb.success, 0.75), rgba(palette.rgb.success, 1)],
+            '4 Hours': [rgba(palette.rgb.accent, 0.75),  rgba(palette.rgb.accent, 1)],
+            '6 Hours': [rgba(palette.rgb.warning, 0.6),  rgba(palette.rgb.warning, 1)],
+            '8 Hours': [rgba(palette.rgb.warning, 0.75), rgba(palette.rgb.warning, 1)],
+        };
+        const durationFallback = [rgba(palette.rgb.muted, 0.4), rgba(palette.rgb.muted, 0.8)];
+        const durationBgColors = durationLabels.map(l => (durationColorMap[l] || durationFallback)[0]);
+        const durationBorderColors = durationLabels.map(l => (durationColorMap[l] || durationFallback)[1]);
+
+        const durationCtx = document.getElementById('duration-chart').getContext('2d');
+        allCharts.push(new Chart(durationCtx, {
+            type: 'bar',
+            data: {
+                labels: durationLabels,
+                datasets: [{
+                    label: '# of Adventures',
+                    data: durationData,
+                    backgroundColor: durationBgColors,
+                    borderColor: durationBorderColors,
+                    borderWidth: 1
+                }]
+            },
+            options: categoryBarOptions(palette)
+        }));
+
+        // Campaign as pie chart
+        const campaignLabels = Object.keys(data.campaign);
+        const campaignData = Object.values(data.campaign);
+        const campaignChartColors = campaignLabels.map((_, i) => palette.rainbow[i % palette.rainbow.length]);
+
+        const campaignCtx = document.getElementById('campaign-chart').getContext('2d');
+        allCharts.push(new Chart(campaignCtx, {
+            type: 'pie',
+            data: {
+                labels: campaignLabels,
+                datasets: [{
+                    data: campaignData,
+                    backgroundColor: campaignChartColors
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            font: {
+                                size: 11
+                            },
+                            boxWidth: 12,
+                            padding: 8
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.label || '';
+                                const value = context.parsed || 0;
+                                const total = campaignData.reduce((a, b) => a + b, 0);
+                                const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                return label + ': ' + value + ' (' + percentage + '%)';
+                            }
+                        }
+                    }
+                }
+            }
+        }));
+
+        // AL seasons 1-13 only (excludes Oracle of War, Eberron DC, etc.)
+        const AL_SEASON_ORDER = [
+            '1 - Tyranny of Dragons',
+            '2 - Elemental Evil',
+            '3 - Rage of Demons',
+            '4 - Curse of Strahd',
+            '5 - Storm King\'s Thunder',
+            '6 - Tales From the Yawning Portal',
+            '7 - Tomb of Annihilation',
+            '8 - Waterdeep',
+            '9 - Avernus Rising',
+            '10 - Icewind Dale',
+            '11 - Wild Beyond the Witchlight',
+            '12 - Spelljammer',
+            '13 - Planescape',
+        ];
+        const seasonLabels = AL_SEASON_ORDER.filter(label => (data.season[label] || 0) > 0);
+        const seasonData = seasonLabels.map(label => data.season[label] || 0);
+
+        const seasonCtx = document.getElementById('season-chart').getContext('2d');
+        allCharts.push(new Chart(seasonCtx, {
+            type: 'bar',
+            data: {
+                labels: seasonLabels,
+                datasets: [{
+                    label: '# of Adventures',
+                    data: seasonData,
+                    backgroundColor: rgba(palette.rgb.accent, 0.5),
+                    borderColor: rgba(palette.rgb.accent, 1),
+                    borderWidth: 1
+                }]
+            },
+            options: categoryBarOptions(palette)
+        }));
+
+        if (data.ai_assisted && Object.keys(data.ai_assisted).length > 0) {
+            const aiLabels = ['AI assisted', 'Human-created (disclosed)', 'Not disclosed'];
+            const aiLabelsFiltered = aiLabels.filter(label => (data.ai_assisted[label] || 0) > 0);
+            const aiDataFiltered = aiLabelsFiltered.map(label => data.ai_assisted[label]);
+            const aiColors = {
+                'AI assisted': rgba(palette.rgb.warning, 0.85),
+                'Human-created (disclosed)': rgba(palette.rgb.success, 0.75),
+                'Not disclosed': rgba(palette.rgb.muted, 0.5),
             };
-            const durationBgColors = durationLabels.map(l => (durationColorMap[l] || ['rgba(108,115,144,0.4)', 'rgba(108,115,144,0.8)'])[0]);
-            const durationBorderColors = durationLabels.map(l => (durationColorMap[l] || ['rgba(108,115,144,0.4)', 'rgba(108,115,144,0.8)'])[1]);
-
-            const durationCtx = document.getElementById('duration-chart').getContext('2d');
-            new Chart(durationCtx, {
-                type: 'bar',
-                data: {
-                    labels: durationLabels,
-                    datasets: [{
-                        label: '# of Adventures',
-                        data: durationData,
-                        backgroundColor: durationBgColors,
-                        borderColor: durationBorderColors,
-                        borderWidth: 1
-                    }]
-                },
-                options: categoryBarOptions()
-            });
-
-            // Campaign as pie chart
-            const campaignLabels = Object.keys(data.campaign);
-            const campaignData = Object.values(data.campaign);
-            const campaignColors = [
-                '#b9a1ff', '#6dd4ff', '#5eead4', '#f59e0b', '#f43f5e',
-                '#a78bfa', '#34d399', '#fb923c', '#60a5fa', '#e879f9'
-            ];
-            const campaignChartColors = campaignLabels.map((_, i) => campaignColors[i % campaignColors.length]);
-            
-            const campaignCtx = document.getElementById('campaign-chart').getContext('2d');
-            new Chart(campaignCtx, {
+            const aiCtx = document.getElementById('ai-assisted-chart').getContext('2d');
+            allCharts.push(new Chart(aiCtx, {
                 type: 'pie',
                 data: {
-                    labels: campaignLabels,
+                    labels: aiLabelsFiltered,
                     datasets: [{
-                        data: campaignData,
-                        backgroundColor: campaignChartColors
+                        data: aiDataFiltered,
+                        backgroundColor: aiLabelsFiltered.map(l => aiColors[l] || palette.rainbow[5])
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { position: 'right' },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const value = context.parsed || 0;
+                                    const total = aiDataFiltered.reduce((a, b) => a + b, 0);
+                                    const pct = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                    return context.label + ': ' + value + ' (' + pct + '%)';
+                                }
+                            }
+                        }
+                    }
+                }
+            }));
+        }
+
+        // Helper function to create seed charts
+        function createSeedChart(container, seasonName, seeds, counts, total, colors, chartIndex, subtitle) {
+            // Create chart container — var() styles track the theme on their own
+            const chartDiv = document.createElement('div');
+            chartDiv.className = 'p-4 rounded-lg';
+            chartDiv.style.background = 'var(--card-grad)';
+            chartDiv.style.border = '1px solid var(--border)';
+            chartDiv.style.borderRadius = '12px';
+
+            const chartTitle = document.createElement('h3');
+            chartTitle.className = 'text-lg font-semibold mb-2';
+            chartTitle.textContent = seasonName + (subtitle ? ` - ${subtitle}` : '');
+            chartDiv.appendChild(chartTitle);
+
+            const chartInfo = document.createElement('p');
+            chartInfo.className = 'text-sm text-gray-600 mb-4';
+            chartInfo.textContent = `Total adventures with seeds: ${total}`;
+            chartDiv.appendChild(chartInfo);
+
+            const canvas = document.createElement('canvas');
+            canvas.id = `seed-chart-${chartIndex}`;
+            chartDiv.appendChild(canvas);
+            container.appendChild(chartDiv);
+
+            // Generate colors for this chart
+            const chartColors = seeds.map((_, i) => colors[i % colors.length]);
+
+            // Create pie chart
+            const ctx = canvas.getContext('2d');
+            allCharts.push(new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: seeds,
+                    datasets: [{
+                        data: counts,
+                        backgroundColor: chartColors
                     }]
                 },
                 options: {
@@ -265,7 +466,6 @@
                                 label: function(context) {
                                     const label = context.label || '';
                                     const value = context.parsed || 0;
-                                    const total = campaignData.reduce((a, b) => a + b, 0);
                                     const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
                                     return label + ': ' + value + ' (' + percentage + '%)';
                                 }
@@ -273,185 +473,49 @@
                         }
                     }
                 }
-            });
-            
-            // AL seasons 1-13 only (excludes Oracle of War, Eberron DC, etc.)
-            const AL_SEASON_ORDER = [
-                '1 - Tyranny of Dragons',
-                '2 - Elemental Evil',
-                '3 - Rage of Demons',
-                '4 - Curse of Strahd',
-                '5 - Storm King\'s Thunder',
-                '6 - Tales From the Yawning Portal',
-                '7 - Tomb of Annihilation',
-                '8 - Waterdeep',
-                '9 - Avernus Rising',
-                '10 - Icewind Dale',
-                '11 - Wild Beyond the Witchlight',
-                '12 - Spelljammer',
-                '13 - Planescape',
-            ];
-            const seasonLabels = AL_SEASON_ORDER.filter(label => (data.season[label] || 0) > 0);
-            const seasonData = seasonLabels.map(label => data.season[label] || 0);
+            }));
+        }
 
-            const seasonCtx = document.getElementById('season-chart').getContext('2d');
-            new Chart(seasonCtx, {
-                type: 'bar',
-                data: {
-                    labels: seasonLabels,
-                    datasets: [{
-                        label: '# of Adventures',
-                        data: seasonData,
-                        backgroundColor: 'rgba(185,161,255,0.5)',
-                        borderColor: 'rgba(185,161,255,1)',
-                        borderWidth: 1
-                    }]
-                },
-                options: categoryBarOptions()
+        // Generate seed charts
+        if (data.seed_by_season && Object.keys(data.seed_by_season).length > 0) {
+            const seedChartsContainer = document.getElementById('seed-charts-container');
+
+            // Define sort order: Icewind Dale/Plague of Ancients, Wild Beyond the Witchlight, Spelljammer (canonical names from stats)
+            const seasonOrder = {
+                '10 - Icewind Dale (Plague of Ancients)': 1,
+                'Wild Beyond the Witchlight (WBW-DC)': 2,
+                'Spelljammer (SJ-DC)': 3
+            };
+
+            // Sort seasons by defined order
+            const sortedSeasons = Object.keys(data.seed_by_season).sort((a, b) => {
+                const orderA = seasonOrder[a] || 999;
+                const orderB = seasonOrder[b] || 999;
+                return orderA - orderB;
             });
 
-            if (data.ai_assisted && Object.keys(data.ai_assisted).length > 0) {
-                const aiLabels = ['AI assisted', 'Human-created (disclosed)', 'Not disclosed'];
-                const aiLabelsFiltered = aiLabels.filter(label => (data.ai_assisted[label] || 0) > 0);
-                const aiDataFiltered = aiLabelsFiltered.map(label => data.ai_assisted[label]);
-                const aiColors = {
-                    'AI assisted': 'rgba(245,158,11,0.85)',
-                    'Human-created (disclosed)': 'rgba(94,234,212,0.75)',
-                    'Not disclosed': 'rgba(108,115,144,0.5)',
-                };
-                const aiCtx = document.getElementById('ai-assisted-chart').getContext('2d');
-                new Chart(aiCtx, {
-                    type: 'pie',
-                    data: {
-                        labels: aiLabelsFiltered,
-                        datasets: [{
-                            data: aiDataFiltered,
-                            backgroundColor: aiLabelsFiltered.map(l => aiColors[l] || '#a78bfa')
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: true,
-                        plugins: {
-                            legend: { position: 'right' },
-                            tooltip: {
-                                callbacks: {
-                                    label: function(context) {
-                                        const value = context.parsed || 0;
-                                        const total = aiDataFiltered.reduce((a, b) => a + b, 0);
-                                        const pct = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                                        return context.label + ': ' + value + ' (' + pct + '%)';
-                                    }
-                                }
-                            }
-                        }
-                    }
-                });
-            }
+            let chartIndex = 0;
+            sortedSeasons.forEach((seasonName) => {
+                const seedCounts = data.seed_by_season[seasonName];
+                const seeds = Object.keys(seedCounts);
+                const counts = Object.values(seedCounts);
+                const total = counts.reduce((a, b) => a + b, 0);
 
-            // Helper function to create seed charts
-            function createSeedChart(container, seasonName, seeds, counts, total, colors, chartIndex, subtitle) {
-                // Create chart container
-                const chartDiv = document.createElement('div');
-                chartDiv.className = 'bg-white p-4 rounded-lg shadow';
-                chartDiv.style.background = 'linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))';
-                chartDiv.style.border = '1px solid #232844';
-                chartDiv.style.borderRadius = '12px';
+                if (total === 0) return;
 
-                const chartTitle = document.createElement('h3');
-                chartTitle.className = 'text-lg font-semibold mb-2';
-                chartTitle.textContent = seasonName + (subtitle ? ` - ${subtitle}` : '');
-                chartDiv.appendChild(chartTitle);
+                // Create one chart per season (users can click legend items to exclude them)
+                createSeedChart(seedChartsContainer, seasonName, seeds, counts, total, palette.rainbow, chartIndex++, null);
+            });
+        }
+    }
 
-                const chartInfo = document.createElement('p');
-                chartInfo.className = 'text-sm text-gray-600 mb-4';
-                chartInfo.textContent = `Total adventures with seeds: ${total}`;
-                chartDiv.appendChild(chartInfo);
+    window.addEventListener('themechange', renderAllCharts);
 
-                const canvas = document.createElement('canvas');
-                canvas.id = `seed-chart-${chartIndex}`;
-                chartDiv.appendChild(canvas);
-                container.appendChild(chartDiv);
-
-                // Generate colors for this chart
-                const chartColors = seeds.map((_, i) => colors[i % colors.length]);
-
-                // Create pie chart
-                const ctx = canvas.getContext('2d');
-                new Chart(ctx, {
-                    type: 'pie',
-                    data: {
-                        labels: seeds,
-                        datasets: [{
-                            data: counts,
-                            backgroundColor: chartColors
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: true,
-                        plugins: {
-                            legend: {
-                                position: 'right',
-                                labels: {
-                                    font: {
-                                        size: 11
-                                    },
-                                    boxWidth: 12,
-                                    padding: 8
-                                }
-                            },
-                            tooltip: {
-                                callbacks: {
-                                    label: function(context) {
-                                        const label = context.label || '';
-                                        const value = context.parsed || 0;
-                                        const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                                        return label + ': ' + value + ' (' + percentage + '%)';
-                                    }
-                                }
-                            }
-                        }
-                    }
-                });
-            }
-
-            // Generate seed charts
-            if (data.seed_by_season && Object.keys(data.seed_by_season).length > 0) {
-                const seedChartsContainer = document.getElementById('seed-charts-container');
-                const colors = [
-                    '#b9a1ff', '#6dd4ff', '#5eead4', '#f59e0b', '#f43f5e',
-                    '#a78bfa', '#34d399', '#fb923c', '#60a5fa', '#e879f9',
-                    '#818cf8', '#2dd4bf', '#fbbf24', '#f87171', '#c084fc'
-                ];
-
-                // Define sort order: Icewind Dale/Plague of Ancients, Wild Beyond the Witchlight, Spelljammer (canonical names from stats)
-                const seasonOrder = {
-                    '10 - Icewind Dale (Plague of Ancients)': 1,
-                    'Wild Beyond the Witchlight (WBW-DC)': 2,
-                    'Spelljammer (SJ-DC)': 3
-                };
-
-                // Sort seasons by defined order
-                const sortedSeasons = Object.keys(data.seed_by_season).sort((a, b) => {
-                    const orderA = seasonOrder[a] || 999;
-                    const orderB = seasonOrder[b] || 999;
-                    return orderA - orderB;
-                });
-
-                let chartIndex = 0;
-                sortedSeasons.forEach((seasonName) => {
-                    const seedCounts = data.seed_by_season[seasonName];
-                    const seeds = Object.keys(seedCounts);
-                    const counts = Object.values(seedCounts);
-                    const total = counts.reduce((a, b) => a + b, 0);
-
-                    if (total === 0) return;
-
-                    // Create one chart per season (users can click legend items to exclude them)
-                    createSeedChart(seedChartsContainer, seasonName, seeds, counts, total, colors, chartIndex++, null);
-                });
-            }
+    fetch('assets/data/stats.json')
+        .then(response => response.json())
+        .then(data => {
+            statsData = data;
+            renderAllCharts();
         });
 </script>
 </body>
