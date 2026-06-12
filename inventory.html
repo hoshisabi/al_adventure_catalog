@@ -15,6 +15,18 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Theme boot: set data-theme before CSS loads to avoid wrong-theme flash.
+         "light" = parchment, "dark" = night sky; stored choice wins, else OS setting. -->
+    <script>
+        (function () {
+            var theme = localStorage.getItem("theme");
+            if (theme !== "light" && theme !== "dark") {
+                theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            }
+            document.documentElement.setAttribute("data-theme", theme);
+        })();
+    </script>
+
     <!-- Theme -->
     <link rel="stylesheet" href="assets/css/catalog.css">
 
@@ -24,19 +36,19 @@
 
     <style>
         /* Inventory-specific overrides */
-        .bg-red-100   { background: rgba(244,63,94,0.12) !important; }
-        .text-red-700 { color: #f87171 !important; }
-        .hover\:bg-red-200:hover { background: rgba(244,63,94,0.22) !important; }
-        .text-red-600 { color: #f87171 !important; }
-        .bg-green-600 { background: rgba(94,234,212,0.2) !important; border: 1px solid rgba(94,234,212,0.4) !important; }
+        .bg-red-100   { background: rgba(var(--danger-rgb), 0.12) !important; }
+        .text-red-700 { color: var(--danger) !important; }
+        .hover\:bg-red-200:hover { background: rgba(var(--danger-rgb), 0.22) !important; }
+        .text-red-600 { color: var(--danger) !important; }
+        .bg-green-600 { background: rgba(var(--success-rgb), 0.2) !important; border: 1px solid rgba(var(--success-rgb), 0.4) !important; }
         .text-white   { color: var(--success) !important; }
-        .hover\:bg-green-700:hover { background: rgba(94,234,212,0.3) !important; }
+        .hover\:bg-green-700:hover { background: rgba(var(--success-rgb), 0.3) !important; }
         .bg-gray-100.text-gray-500 { color: var(--text-muted) !important; }
         .hover\:bg-blue-50:hover { background: var(--bg-card-hi) !important; }
         .text-gray-900, .text-gray-800 { color: var(--text) !important; }
         .text-blue-600 { color: var(--link) !important; }
         .text-orange-600 { color: var(--warning) !important; }
-        .rounded-xl.shadow-md { box-shadow: none !important; background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)) !important; border: 1px solid var(--border) !important; }
+        .rounded-xl.shadow-md { box-shadow: none !important; background: var(--card-grad) !important; border: 1px solid var(--border) !important; }
         .border-b { border-color: var(--border) !important; }
         .border { border-color: var(--border) !important; }
         input[type="text"], input[type="url"] { background: var(--bg-raised) !important; color: var(--text) !important; border-color: var(--border) !important; }
@@ -52,6 +64,16 @@
             <h1 class="catalog-title">Private Inventory Manager</h1>
             <nav class="catalog-nav">
                 <a href="index.html">&larr; Back to Catalog</a>
+                <span class="sep">·</span>
+                <button class="theme-toggle" type="button" aria-label="Switch theme">
+                    <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                    <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4"/>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                    </svg>
+                </button>
             </nav>
         </div>
 
@@ -818,6 +840,7 @@
             });
         }
     </script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>

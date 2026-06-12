@@ -1,5 +1,15 @@
 # Adventure Catalog Master Task List
 
+## 0. Theming (2026-06-12)
+- [x] **Dual theme: parchment (default) / night sky** — shared with hoshisabi.github.io.
+    - Theme tokens live in a marked `SHARED THEME TOKENS` block, kept identical in
+      `assets/css/catalog.css` and `hoshisabi.github.io/assets/css/style.scss`.
+    - Run `python check_theme_sync.py` after editing either block to confirm they match.
+    - Toggle button in each page header (`assets/js/theme.js`); boot script in each
+      `<head>` applies localStorage choice or OS preference before first paint.
+    - `stats.html` charts read colors from the CSS variables and re-render on the
+      `themechange` event.
+
 ## 1. High-Performance Data Architecture (New Optimization)
 - [x] **Python: Generate Summary Index (`summary_index.json`)**
     - Only include fields needed for UI display/slicers (ID, Title, Code, Tier, Level, Campaign).
