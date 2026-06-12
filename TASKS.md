@@ -13,10 +13,10 @@
 ## 1. High-Performance Data Architecture (New Optimization)
 - [x] **Python: Generate Summary Index (`summary_index.json`)**
     - Only include fields needed for UI display/slicers (ID, Title, Code, Tier, Level, Campaign).
-- [ ] **Python: Generate Search Index (`search_index.json`)**
+- [ ] **Python: Generate Search Index (`search_index.json`)** — tracked in [#8](https://github.com/hoshisabi/al_adventure_catalog/issues/8)
     - Create a map of `{ id: "normalized_search_string" }`.
     - Normalize: Lowercase, remove punctuation, concatenate Title + Code + Authors.
-- [ ] **JS: Async Detail Fetching**
+- [ ] **JS: Async Detail Fetching** — tracked in [#9](https://github.com/hoshisabi/al_adventure_catalog/issues/9)
     - Update `index.html` to load the small indices on page load.
     - Fetch `_data/{product_id}.json` only when a user selects an adventure.
     - Implement a simple JS cache for fetched details.
@@ -31,19 +31,15 @@
     - Update aggregator to output `stats.json` for the stats dashboard.
 
 ## 3. Web UI Improvements
-- [ ] **Search Experience**
+- [ ] **Search Experience** — tracked in [#8](https://github.com/hoshisabi/al_adventure_catalog/issues/8)
     - Add the text search box using the new `search_index.json`.
-- [ ] **Detail View**
+- [ ] **Detail View** — tracked in [#9](https://github.com/hoshisabi/al_adventure_catalog/issues/9)
     - Create a UI component (modal or side-panel) to display the "fetched" individual adventure data.
 - [ ] **Result Counts**
     - Ensure result counts update dynamically based on filters + search.
 
 ## 4. Repository & Maintenance (Plan 2 Implementation)
-- [ ] **Fixture Management**
-    - Move raw HTML snapshots to a private fixtures submodule.
-    - Update `.gitignore` to protect DMG HTML.
-- [ ] **History Scrubbing**
-    - Use `git filter-repo` to remove any accidentally published HTML from the history.
+- [ ] See "Data Handling & Repo Restructure (Plan 2)" below for the full plan (private fixtures submodule, `.gitignore`/pre-commit guard, history scrubbing, licensing & policy).
 
 ## Data Quality & Validation
 
@@ -80,7 +76,7 @@
 * [ ] Remove reliance on `_stats/` (or configure `_config.yml` to include it).
 * [ ] Standardize Python version to `3.12` for GitHub Actions unless 3.13-specific features are required.
 
-### RSS Sync Action (`.github/workflows/rss-sync.yml`) — DISABLED 2026-06-11
+### RSS Sync Action (`.github/workflows/rss-sync.yml`) — RETIRED, no planned fix ([#7](https://github.com/hoshisabi/al_adventure_catalog/issues/7))
 
 * Fixed a rebase-conflict crash (`workflow_dispatch` was checking out a stale
   pinned SHA, regenerating `catalog.json`/`stats.json` from an outdated
@@ -91,10 +87,12 @@
   IP-reputation/WAF block on Azure datacenter ranges. `process_rss` swallows
   the error and reports "0 products", so the job exits "success" while
   silently doing nothing.
-* Disabled via `gh workflow disable rss-sync.yml` until a real fix is chosen:
-  self-hosted runner on a home machine, a local scheduled task instead of a
-  GH Action, or some other fetch path that isn't IP-blocked.
-* Re-enable with `gh workflow enable rss-sync.yml` once a fetch path is sorted.
+* **Decision (2026-06-12)**: treat the IP block as an intentional signal to
+  respect (like `robots.txt`), not a bug to work around. No self-hosted
+  runner, alternate fetch path, etc. planned. Workflow stays disabled
+  (`gh workflow disable rss-sync.yml`); new adventures continue via the
+  manual HTML bookmarklet + `process_downloads.py`. Revisit only if DM's
+  Guild offers an official API or lifts the block.
 
 ---
 
@@ -175,6 +173,10 @@
 
 ## Future Enhancements
 
+* [ ] **Feature discoverability ("What's New")** — tracked as [#6](https://github.com/hoshisabi/al_adventure_catalog/issues/6). Users may not notice new UI additions (e.g. the new parchment/night-sky theme toggle button) since nothing calls attention to them.
+    * Idea: a small "new" badge/dot on newly-added controls for first-time visitors, cleared via localStorage once the control is seen/used.
+    * Idea: a dismissible "What's New" toast/banner that summarizes recent changes and links to a changelog.
+    * Open question: is there an existing changelog to point to, or does this require starting one (`CHANGELOG.md` / "what's new" page, maintained manually or generated from commit/PR history)?
 * [ ] **"Created with AI tools" filter** — DM's Guild exposes an "AI tools" filter on product listings.
     * **Investigation: DONE.** Each product page has a `<p data-codeid="creationMethod">` row in the details table. Confirmed three possible values across sample HTML:
         * `<i class="fas fa-robot"></i>Contains AI-Generated Content` → `ai_content = true`
@@ -195,15 +197,14 @@
         5. [x] Back-propagation pass: re-run extraction against the ~81 recently-touched HTML files in `dmsguildinfo/processed/`, merge `ai_content` into matching `_dc/*.json` (careful mode), regenerate `catalog.json`.
         6. [x] Spot-check results (especially the 3 known "Contains AI-Generated Content" hits above) and confirm the filter works end-to-end in the browser.
     * Note: any re-downloading of old product pages beyond this is intentionally manual (existing "DMS Guild Scrape" bookmarklet, ctrl-click per page) — both because the backfilled data isn't trustworthy (see above) and out of courtesy to DM's Guild's Cloudflare-protected site (no automated bulk scraping).
-* [ ] **"Format" field extraction (Roll20 VTT detection)** — DM's Guild product pages have a `<p data-codeid="format">` row in the details table (sibling to `creationMethod`), with values seen so far: `PDF`, `Watermarked PDF`, `Multiple Formats`, `Roll20 VTT`.
+* [ ] **"Format" field extraction (Roll20 VTT detection)** — tracked in [#10](https://github.com/hoshisabi/al_adventure_catalog/issues/10). DM's Guild product pages have a `<p data-codeid="format">` row in the details table (sibling to `creationMethod`), with values seen so far: `PDF`, `Watermarked PDF`, `Multiple Formats`, `Roll20 VTT`.
     * **Discovery context (2026-06-11 ingest)**: `466325` ("A Pirate's Life for Me") and `466083` are the same adventure (`PO-BK-3-01`) listed as two separate DMsGuild products — `466325` is the Roll20 VTT-only conversion, `466083` is the PDF. Manually fixed this round: `466325` → `is_adventure: false` + `"format": "Roll20 VTT"`; `466083` got the missing `hours`/`tiers`/`level_range`/`community_content`/`dungeoncraft`/`salvage_mission` copied over from `466325`.
     * **Follow-up**: implement `_extract_format_from_html()` (same pattern as `_extract_creation_method_from_html`), store as `"format"` on every `_dc/*.json`, and treat `format == "Roll20 VTT"` as `is_adventure: false` during normalization (a VTT-only module isn't a standalone PDF adventure for catalog purposes). Then do a backfill pass over `dmsguildinfo/processed/` to catch other Roll20-VTT-only listings currently mismarked `is_adventure: true`.
 * [ ] **CGB ("Chaotic Good Brewing") series legality review** — Davestar Gaming's CGB series has inconsistent self-titling: episodes 1-3 (`460572`/`464041`/`464414`) start their title with `FR-DC-CGB-0X`, so they're auto-recognized (`is_adventure: true`); episodes CGB1-04/CGB1-12/CGB2-01/CGB2-02 (`465282`/`465385`/`468498`/`471962`) lack the `FR-DC-` prefix and are auto-excluded (`is_adventure: false`).
     * **Decision (2026-06-11)**: CGB1-04 ("Hareowing Times", `465282`) has a kidnapping/trafficking content warning and is not AL-legal. Going forward, any CGB entry without a literal `FR-DC-` prefix in its title is treated as homebrew/non-adventure — current auto-detection already matches this rule, no `_dc` edits needed.
-* [ ] Convert `season` to a tag-based system.
-* [ ] Add richer stats (e.g., adventures per year, adventures per publisher).
+* [ ] Convert `season` to a tag-based system — tracked in [#12](https://github.com/hoshisabi/al_adventure_catalog/issues/12).
+* [ ] Add richer stats (e.g., adventures per year, adventures per publisher) and explore alternate visualizations (e.g., search facets, tag clouds) — tracked in [#11](https://github.com/hoshisabi/al_adventure_catalog/issues/11).
 * [ ] Consider basic test coverage for `aggregator.py` functions.
-* [ ] Explore alternate visualizations (e.g., search facets, tag clouds).
 * [ ] Consider adding optional CV-style auto-generated thumbnails (stretch goal).
 
 ---
@@ -280,17 +281,3 @@
 * Deterministic ordering (sort keys/arrays) for minimal diffs.
 * Add `--dry-run` and `--only-validate` flags for safe CI runs.
 
----
-
-## Repository & Licensing Tasks
-
-* [ ] Transition to **Plan 2**: keep parsing code public, but move raw HTML snapshots into a **separate private repo** (`private-fixtures`) mounted as a submodule.
-* [ ] Add `.gitignore` rules to prevent committing `dmsguildinfo-*.html` or `_dc/` outputs to the public repo.
-* [ ] (Optional) Add a pre-commit hook that refuses to commit any DM’s Guild HTML into the public repo.
-* [ ] Write a short “Data handling policy” section in the README:
-
-    * Explain that raw DM’s Guild HTML is excluded for copyright reasons.
-    * Mention that collaborators with access can pull the `private-fixtures` submodule.
-    * Document fallback to synthetic fixtures for public CI/tests.
-* [ ] Scrub history: remove any accidentally published HTML from the current public repo (filter-branch or BFG).
-* [ ] Decide on license: open-source but permissive (MIT/Apache) or “public domain” style (CC0/Unlicense) depending on preference. Emphasize that code is special-purpose.
