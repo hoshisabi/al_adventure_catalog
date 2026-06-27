@@ -1,6 +1,6 @@
 {
     "tier": {
-        "Tier 1": 837,
+        "Tier 1": 838,
         "Tier 2": 874,
         "Tier 3": 346,
         "Tier 4": 92,
@@ -8,7 +8,7 @@
     },
     "duration": {
         "1 Hours": 23,
-        "2 Hours": 627,
+        "2 Hours": 628,
         "All Others": 223,
         "4 Hours": 1525,
         "8 Hours": 12,
@@ -16,7 +16,7 @@
         "Unknown": 64
     },
     "campaign": {
-        "Forgotten Realms": 1999,
+        "Forgotten Realms": 2000,
         "Ravenloft": 53,
         "Unknown": 35,
         "Eberron": 69,
@@ -38,7 +38,7 @@
         "13 - Planescape": 108
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1300,
+        "Human-created (disclosed)": 1301,
         "Not disclosed": 773,
         "AI assisted": 89
     },
@@ -93,5 +93,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260623002911"
+    "timestamp": "20260627192119"
 }
