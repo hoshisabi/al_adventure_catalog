@@ -28,3 +28,17 @@ def test_get_dc_code_and_campaign():
     code, campaigns = adventure.get_dc_code_and_campaign(title)
     assert code and isinstance(code, str)
     assert isinstance(campaigns, list)
+
+def test_short_title_strips_leading_dash():
+    # "CODE - Title" format leaves "- Title" after code removal; dash must be stripped.
+    # Regression for RV-DC-NML-01 where title was "- A Dream Come True".
+    dc = adventure.DungeonCraft(
+        product_id="573734",
+        title="RV-DC-NML-01 - A Dream Come True",
+        authors=["Test Author"],
+        code="RV-DC-NML-01",
+        date_created=None,
+        hours="4",
+        tiers=2,
+    )
+    assert dc.title == "A Dream Come True", f"Expected no leading dash, got: {dc.title!r}"
