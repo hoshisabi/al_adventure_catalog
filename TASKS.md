@@ -43,11 +43,16 @@
 
 ## Series / Anthology Tracking
 
-* [ ] Add a `series` field (string) to `_dc/` JSON files to group adventures that are chapters of an anthology or entries in a named series (e.g. `"Tales from the Yawning Portal"`, `"Planar Pub Crawl"`).
-    * Distinct from the component `product_id` suffix convention (`SRC-00014-01`) — `series` is the human-readable grouping name for display and filtering.
-    * Covers cross-product series like Pub Crawl (which spans multiple parent product IDs).
-    * Retrofit pass: any adventure whose code matches a `X-??\d+` pattern (e.g. `PS-DC-PUB-01`) is a candidate. Sweep `_dc/` to identify and backfill.
-    * Frontend: group or badge adventures by series; consider a series filter.
+Two distinct concepts, both worth tracking:
+
+* **Anthology** — a single product containing multiple sub-adventures. The component `product_id` suffix (e.g. `SRC-00014-01`) already encodes parent membership, but an `anthology` field would make the human-readable name explicit (e.g. `"Tales from the Yawning Portal"`).
+* **Series** — a named collection spanning multiple products over time (e.g. `"Planar Pub Crawl"` — 15+ adventures across many DM's Guild packs). An adventure can belong to both: `PS-DC-PUB-01` is a chapter of an anthology (one Pub Crawl pack of 4–5) and also entry 1 of the Planar Pub Crawl series.
+
+Tasks:
+* [ ] Add `anthology` field (string) — name of the parent product collection for component adventures.
+* [ ] Add `series` field (string) — name of the broader multi-product series.
+* [ ] Retrofit pass: sweep `_dc/` for adventures with a numbered-suffix code pattern (e.g. `PS-DC-PUB-01`) to identify candidates and backfill both fields.
+* [ ] Frontend: group or badge by anthology/series; consider series filter.
 
 ## Data Quality & Validation
 
