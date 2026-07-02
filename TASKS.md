@@ -41,6 +41,14 @@
 ## 4. Repository & Maintenance (Plan 2 Implementation)
 - [ ] See "Data Handling & Repo Restructure (Plan 2)" below for the full plan (private fixtures submodule, `.gitignore`/pre-commit guard, history scrubbing, licensing & policy).
 
+## Series / Anthology Tracking
+
+* [ ] Add a `series` field (string) to `_dc/` JSON files to group adventures that are chapters of an anthology or entries in a named series (e.g. `"Tales from the Yawning Portal"`, `"Planar Pub Crawl"`).
+    * Distinct from the component `product_id` suffix convention (`SRC-00014-01`) — `series` is the human-readable grouping name for display and filtering.
+    * Covers cross-product series like Pub Crawl (which spans multiple parent product IDs).
+    * Retrofit pass: any adventure whose code matches a `X-??\d+` pattern (e.g. `PS-DC-PUB-01`) is a candidate. Sweep `_dc/` to identify and backfill.
+    * Frontend: group or badge adventures by series; consider a series filter.
+
 ## Data Quality & Validation
 
 * [ ] Extend `aggregator.py` to perform stronger validation, not just parsing:
