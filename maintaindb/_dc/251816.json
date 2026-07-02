@@ -15,21 +15,21 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": null,
+    "code": "DDHC-WDH-01",
     "community_content": false,
     "date_created": "20180906",
     "dungeoncraft": false,
-    "full_title": "Waterdeep: City Encounters",
+    "full_title": "DDHC-WDH-01 Waterdeep: City Encounters",
     "hours": null,
     "is_adventure": true,
     "last_update": "20251221",
-    "level_range": null,
+    "level_range": "1-5",
     "payWhatYouWant": false,
     "price": 7.95,
     "product_id": "251816",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": 1,
     "title": "Waterdeep: City Encounters",
     "url": "https://www.dmsguild.com/product/251816/?affiliate_id=171040"
 }
