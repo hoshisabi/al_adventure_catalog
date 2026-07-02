@@ -4,23 +4,24 @@
     "authors": [],
     "campaigns": [
         "Forgotten Realms",
+        "Dragonlance",
         "Ravenloft"
     ],
-    "code": "DDHC-CoS",
+    "code": null,
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Curse of Strahd",
+    "full_title": "Tyranny of Dragons",
     "hours": null,
-    "is_adventure": true,
+    "is_adventure": false,
     "last_update": "20260702",
     "level_range": null,
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00006",
+    "product_id": "SRC-00102",
     "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Curse of Strahd",
-    "url": "https://marketplace.dndbeyond.com/category/curse-of-strahd?pid=SRC-00006"
+    "title": "Tyranny of Dragons",
+    "url": "https://marketplace.dndbeyond.com/category/tyranny-of-dragons?pid=SRC-00102"
 }

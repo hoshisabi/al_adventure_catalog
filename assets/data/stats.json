@@ -1,35 +1,35 @@
 {
     "tier": {
         "Tier 1": 848,
-        "Tier 2": 878,
+        "Tier 2": 880,
         "Tier 3": 350,
         "Tier 4": 93,
-        "Unknown": 29
+        "Unknown": 33
     },
     "duration": {
         "1 Hours": 23,
         "2 Hours": 629,
         "All Others": 223,
-        "4 Hours": 1530,
+        "4 Hours": 1532,
         "8 Hours": 12,
         "6 Hours": 54,
-        "Unknown": 93
+        "Unknown": 97
     },
     "campaign": {
-        "Forgotten Realms": 2031,
-        "Ravenloft": 64,
-        "Unknown": 36,
-        "Dragonlance": 30,
+        "Forgotten Realms": 2039,
+        "Ravenloft": 68,
+        "Unknown": 34,
+        "Dragonlance": 34,
         "Eberron": 76
     },
     "season": {
-        "1 - Tyranny of Dragons": 14,
+        "1 - Tyranny of Dragons": 16,
         "2 - Elemental Evil": 16,
-        "3 - Rage of Demons": 16,
+        "3 - Rage of Demons": 17,
         "4 - Curse of Strahd": 14,
         "5 - Storm King's Thunder": 19,
         "6 - Tales From the Yawning Portal": 10,
-        "7 - Tomb of Annihilation": 18,
+        "7 - Tomb of Annihilation": 19,
         "8 - Waterdeep": 19,
         "9 - Avernus Rising": 21,
         "10 - Icewind Dale": 185,
@@ -38,7 +38,7 @@
         "13 - Planescape": 108
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1335,
+        "Human-created (disclosed)": 1341,
         "Not disclosed": 774,
         "AI assisted": 89
     },
@@ -93,5 +93,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260702165003"
+    "timestamp": "20260702173446"
 }

@@ -1,6 +1,6 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 9,
     "authors": [],
     "campaigns": [
         "Forgotten Realms"
@@ -19,7 +19,7 @@
     "product_id": "SRC-00014-05",
     "salvage_mission": false,
     "season": "6 - Tales From the Yawning Portal",
-    "tiers": 3,
+    "tiers": 2,
     "title": "Dead in Thay",
     "url": "https://marketplace.dndbeyond.com/category/tales-from-the-yawning-portal?pid=SRC-00014"
 }

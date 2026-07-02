@@ -4,23 +4,24 @@
     "authors": [],
     "campaigns": [
         "Forgotten Realms",
+        "Dragonlance",
         "Ravenloft"
     ],
-    "code": "DDHC-CoS",
+    "code": "DDHC-OotA",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Curse of Strahd",
+    "full_title": "DDHC-OotA Out of the Abyss",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "1-15",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00006",
+    "product_id": "SRC-00009",
     "salvage_mission": false,
-    "season": null,
+    "season": "3 - Rage of Demons",
     "tiers": null,
-    "title": "Curse of Strahd",
-    "url": "https://marketplace.dndbeyond.com/category/curse-of-strahd?pid=SRC-00006"
+    "title": "Out of the Abyss",
+    "url": "https://marketplace.dndbeyond.com/category/SRC-00009"
 }
