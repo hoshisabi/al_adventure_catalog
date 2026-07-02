@@ -15,15 +15,17 @@
         "Cindi Moore",
         "Laurence Withey"
     ],
-    "campaigns": [],
-    "code": "LOST LABORATORY OF KWALISH",
+    "campaigns": [
+        "Forgotten Realms"
+    ],
+    "code": "DDAL00-06",
     "community_content": false,
     "date_created": "20181110",
     "dungeoncraft": false,
     "full_title": "Lost Laboratory of Kwalish",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
-    "last_update": "20251221",
+    "last_update": "20260702",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 9.99,
