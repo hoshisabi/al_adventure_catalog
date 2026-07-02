@@ -1,29 +1,27 @@
 {
     "ai_content": false,
     "apl": null,
-    "authors": [
-        "Christopher Lindsay"
-    ],
+    "authors": [],
     "campaigns": [
         "Forgotten Realms",
         "Dragonlance",
-        "Ravenloft"
+        "Eberron"
     ],
     "code": null,
     "community_content": false,
-    "date_created": "20190919",
+    "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Locathah Rising",
+    "full_title": "Dragon Delves",
     "hours": null,
     "is_adventure": true,
-    "last_update": "20251221",
+    "last_update": "20260702",
     "level_range": null,
     "payWhatYouWant": false,
-    "price": 9.99,
-    "product_id": "289261",
+    "price": null,
+    "product_id": "D4716000",
     "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Locathah Rising",
-    "url": "https://www.dmsguild.com/product/289261/?affiliate_id=171040"
+    "title": "Dragon Delves",
+    "url": "https://marketplace.dndbeyond.com/category/4716000?pid=D4716000"
 }

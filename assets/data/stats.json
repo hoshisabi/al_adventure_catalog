@@ -1,26 +1,26 @@
 {
     "tier": {
-        "Tier 1": 839,
-        "Tier 2": 875,
-        "Tier 3": 346,
+        "Tier 1": 846,
+        "Tier 2": 876,
+        "Tier 3": 347,
         "Tier 4": 93,
-        "Unknown": 13
+        "Unknown": 30
     },
     "duration": {
         "1 Hours": 23,
         "2 Hours": 629,
         "All Others": 223,
-        "4 Hours": 1528,
+        "4 Hours": 1530,
         "8 Hours": 12,
         "6 Hours": 54,
-        "Unknown": 63
+        "Unknown": 87
     },
     "campaign": {
-        "Forgotten Realms": 2003,
-        "Ravenloft": 54,
-        "Unknown": 34,
-        "Eberron": 69,
-        "Dragonlance": 20
+        "Forgotten Realms": 2025,
+        "Ravenloft": 64,
+        "Unknown": 36,
+        "Dragonlance": 30,
+        "Eberron": 76
     },
     "season": {
         "1 - Tyranny of Dragons": 14,
@@ -38,8 +38,8 @@
         "13 - Planescape": 108
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1304,
-        "Not disclosed": 773,
+        "Human-created (disclosed)": 1329,
+        "Not disclosed": 774,
         "AI assisted": 89
     },
     "seed_by_season": {
@@ -93,5 +93,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260702155411"
+    "timestamp": "20260702164403"
 }

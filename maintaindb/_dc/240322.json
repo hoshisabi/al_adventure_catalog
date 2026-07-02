@@ -5,7 +5,11 @@
         "Will Doyle",
         "Lysa Penrose"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Dragonlance",
+        "Ravenloft"
+    ],
     "code": "DDHC-XGE-01",
     "community_content": false,
     "date_created": "20180422",

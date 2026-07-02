@@ -1,29 +1,28 @@
 {
     "ai_content": false,
     "apl": null,
-    "authors": [
-        "Christopher Lindsay"
-    ],
+    "authors": [],
     "campaigns": [
         "Forgotten Realms",
         "Dragonlance",
+        "Eberron",
         "Ravenloft"
     ],
     "code": null,
     "community_content": false,
-    "date_created": "20190919",
+    "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Locathah Rising",
+    "full_title": "Quests from the Infinite Staircase",
     "hours": null,
     "is_adventure": true,
-    "last_update": "20251221",
+    "last_update": "20260702",
     "level_range": null,
     "payWhatYouWant": false,
-    "price": 9.99,
-    "product_id": "289261",
+    "price": null,
+    "product_id": "SRC-00138",
     "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Locathah Rising",
-    "url": "https://www.dmsguild.com/product/289261/?affiliate_id=171040"
+    "title": "Quests from the Infinite Staircase",
+    "url": "https://marketplace.dndbeyond.com/category/quests-from-the-infinite-staircase?pid=SRC-00138"
 }

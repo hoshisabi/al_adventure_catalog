@@ -6,7 +6,11 @@
         "Ruty Rutenberg",
         "James Introcaso"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Dragonlance",
+        "Ravenloft"
+    ],
     "code": "DDHC-TOA-7",
     "community_content": false,
     "date_created": "20170908",

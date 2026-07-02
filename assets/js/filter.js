@@ -366,9 +366,11 @@ function applyFilters() {
             valA = (a.c || '').toLowerCase();
             valB = (b.c || '').toLowerCase();
         } else if (field === 'id') {
-            // Sort by numerical ID
-            // Strip suffix if present
-            const cleanId = (i) => parseInt(String(i).split('-')[0]) || 0;
+            // Sort by numerical ID; non-numeric IDs (e.g. DnD Beyond "SRC-00125") sort last
+            const cleanId = (i) => {
+                const n = parseInt(String(i).split('-')[0]);
+                return isNaN(n) ? Number.MAX_SAFE_INTEGER : n;
+            };
             valA = cleanId(a.i);
             valB = cleanId(b.i);
         } else if (field === 'tier') {
