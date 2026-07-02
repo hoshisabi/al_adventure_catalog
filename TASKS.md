@@ -50,7 +50,7 @@ Two distinct concepts, both worth tracking:
 
 Tasks:
 * [ ] Add `anthology` field (string) — name of the parent product collection for component adventures.
-* [ ] Add `series` field (string) — name of the broader multi-product series.
+* [ ] Add `series` field (**array of strings**, not a single string) — an adventure can belong to multiple series, and membership is often discovered incrementally through community knowledge rather than web scraping. Expect to add entries over time as people explain connections.
 * [ ] Retrofit pass: sweep `_dc/` for adventures with a numbered-suffix code pattern (e.g. `PS-DC-PUB-01`) to identify candidates and backfill both fields.
 * [ ] Frontend: group or badge by anthology/series; consider series filter.
 
