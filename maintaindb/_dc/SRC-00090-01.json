@@ -5,21 +5,21 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": null,
+    "code": "DDHC-LOX",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Spelljammer: Adventures in Space",
+    "full_title": "DDHC-LOX Light of Xaryxis",
     "hours": null,
-    "is_adventure": false,
+    "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "5",
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00090",
+    "product_id": "SRC-00090-01",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
-    "title": "Spelljammer: Adventures in Space",
+    "tiers": 2,
+    "title": "Light of Xaryxis",
     "url": "https://marketplace.dndbeyond.com/category/spelljammer-adventures-in-space?pid=SRC-00090"
 }

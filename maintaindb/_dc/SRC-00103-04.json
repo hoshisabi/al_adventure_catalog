@@ -3,25 +3,23 @@
     "apl": null,
     "authors": [],
     "campaigns": [
-        "Forgotten Realms",
-        "Eberron",
-        "Ravenloft"
+        "Forgotten Realms"
     ],
-    "code": null,
+    "code": "DDHC-KGV-04",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Keys from the Golden Vault",
+    "full_title": "DDHC-KGV-04 Prisoner 13",
     "hours": null,
-    "is_adventure": false,
+    "is_adventure": true,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00103",
+    "product_id": "SRC-00103-04",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
-    "title": "Keys from the Golden Vault",
+    "tiers": 1,
+    "title": "Prisoner 13",
     "url": "https://marketplace.dndbeyond.com/category/keys-from-the-golden-vault?pid=SRC-00103"
 }

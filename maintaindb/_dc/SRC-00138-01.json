@@ -3,23 +3,24 @@
     "apl": null,
     "authors": [],
     "campaigns": [
+        "Dragonlance",
         "Forgotten Realms"
     ],
-    "code": null,
+    "code": "DDHC-QIS-01",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Spelljammer: Adventures in Space",
+    "full_title": "DDHC-QIS-01 The Lost City",
     "hours": null,
-    "is_adventure": false,
+    "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "5",
+    "level_range": "1-4",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00090",
+    "product_id": "SRC-00138-01",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
-    "title": "Spelljammer: Adventures in Space",
-    "url": "https://marketplace.dndbeyond.com/category/spelljammer-adventures-in-space?pid=SRC-00090"
+    "tiers": 1,
+    "title": "The Lost City",
+    "url": "https://marketplace.dndbeyond.com/category/quests-from-the-infinite-staircase?pid=SRC-00138"
 }

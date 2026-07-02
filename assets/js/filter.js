@@ -688,7 +688,7 @@ function renderGridView(adventures, container) {
             <tr>
                 ${showProductId ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('id')}" data-sort="id">ID <span class="ml-1">${getIcon('id')}</span></th>` : ''}
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('code')}" data-sort="code">Code <span class="ml-1">${getIcon('code')}</span></th>
-                <th class="px-4 py-2 text-left border ${getSortClass('title')}" data-sort="title">Title <span class="ml-1">${getIcon('title')}</span></th>
+                <th class="px-4 py-2 text-left border min-w-[10rem] ${getSortClass('title')}" data-sort="title">Title <span class="ml-1">${getIcon('title')}</span></th>
                 ${showAuthor ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('author')}" data-sort="author">Author <span class="ml-1">${getIcon('author')}</span></th>` : ''}
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('tier')}" data-sort="tier">Tier <span class="ml-1">${getIcon('tier')}</span></th>
                 <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('hours')}" data-sort="hours">Hours <span class="ml-1">${getIcon('hours')}</span></th>
@@ -763,9 +763,9 @@ function renderGridView(adventures, container) {
                 </div>
              </td>
              ${showAuthor ? `<td class="px-4 py-2 border text-sm">${formatList(adv.a) || ''}</td>` : ''}
-             <td class="px-4 py-2 border whitespace-nowrap">${adv.t !== null ? adv.t : ''}</td>
+             <td class="px-4 py-2 border whitespace-nowrap">${adv.t != null ? adv.t : '-'}</td>
              <td class="px-4 py-2 border whitespace-nowrap">${formatHours(adv.h)}</td>
-             <td class="px-4 py-2 border whitespace-nowrap">${formatCampaigns(adv.p)}</td>
+             <td class="px-4 py-2 border whitespace-nowrap">${formatCampaignsTable(adv.p)}</td>
              <td class="px-4 py-2 border text-sm text-gray-500 italic whitespace-nowrap">${dateAdded}</td>
         `;
         tbody.appendChild(row);
@@ -791,9 +791,22 @@ function formatCampaigns(p) {
 }
 
 function formatHours(val) {
-    if (!val) return 'Unspecified';
-    if (Array.isArray(val)) return val.join(', ') + ' Hours';
-    return val + ' Hours';
+    if (!val) return '-';
+    if (Array.isArray(val)) return val.join(', ') + ' hr';
+    return val + ' hr';
+}
+
+const CAMPAIGN_ABBREV = { 1: 'FR', 2: 'EB', 4: 'RL', 8: 'DL' };
+
+function formatCampaignsTable(p) {
+    if (typeof p === 'number') {
+        const parts = [];
+        for (const [bit, name] of Object.entries(CAMPAIGN_MAP)) {
+            if (p & parseInt(bit)) parts.push(`<abbr title="${name}">${CAMPAIGN_ABBREV[bit]}</abbr>`);
+        }
+        return parts.length ? parts.join(', ') : '-';
+    }
+    return p ? formatList(p) : '-';
 }
 
 function formatSeason(season, code) {
