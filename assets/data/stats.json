@@ -1,22 +1,22 @@
 {
     "tier": {
-        "Tier 1": 874,
-        "Tier 2": 916,
+        "Tier 1": 883,
+        "Tier 2": 918,
         "Tier 3": 370,
         "Tier 4": 94,
-        "Unknown": 32
+        "Unknown": 22
     },
     "duration": {
         "1 Hours": 27,
         "2 Hours": 629,
         "All Others": 223,
-        "4 Hours": 1532,
+        "4 Hours": 1542,
         "8 Hours": 12,
         "6 Hours": 54,
-        "Unknown": 175
+        "Unknown": 166
     },
     "campaign": {
-        "Forgotten Realms": 2127,
+        "Forgotten Realms": 2128,
         "Ravenloft": 72,
         "Unknown": 27,
         "Dragonlance": 46,
@@ -30,7 +30,7 @@
         "5 - Storm King's Thunder": 20,
         "6 - Tales From the Yawning Portal": 10,
         "7 - Tomb of Annihilation": 20,
-        "8 - Waterdeep": 19,
+        "8 - Waterdeep": 20,
         "9 - Avernus Rising": 21,
         "10 - Icewind Dale": 185,
         "11 - Wild Beyond the Witchlight": 237,
@@ -38,7 +38,7 @@
         "13 - Planescape": 108
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1419,
+        "Human-created (disclosed)": 1420,
         "Not disclosed": 778,
         "AI assisted": 89
     },
@@ -93,5 +93,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260702201411"
+    "timestamp": "20260702203225"
 }

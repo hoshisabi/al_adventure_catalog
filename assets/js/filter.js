@@ -283,6 +283,20 @@ function getAdventureSource(adv) {
     return 'none';
 }
 
+const AFFILIATE_ID = '171040';
+
+// Build the outbound link for an adventure. The affiliate ID is not stored in
+// catalog.json (to save space); it's appended here, and only for DM's Guild
+// links, since other storefronts (e.g. D&D Beyond) reject the extra param.
+function resolveUrl(adventure) {
+    const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
+    let url = adventure.u || `https://www.dmsguild.com/product/${cleanProductId}/`;
+    if (url.includes('dmsguild.com') && !url.includes('affiliate_id=')) {
+        url += (url.includes('?') ? '&' : '?') + `affiliate_id=${AFFILIATE_ID}`;
+    }
+    return url;
+}
+
 // Logic
 function applyFilters() {
     console.time('Apply Filters');
@@ -607,6 +621,12 @@ function aiPill(ac) {
     return `<span class="meta-pill ai-assisted clickable filter-chip" data-filter="hide-ai" title="Hide AI assisted content (publisher self-disclosure on DM's Guild)">AI assisted</span>`;
 }
 
+function datePill(d) {
+    if (!d) return '';
+    const formatted = `${d.substring(0, 4)}-${d.substring(4, 6)}-${d.substring(6, 8)}`;
+    return `<span class="meta-pill">${formatted}</span>`;
+}
+
 function campaignPills(p) {
     const names = [];
     if (typeof p === 'number') {
@@ -636,10 +656,8 @@ function createCard(adventure) {
     card.id = `card-${adventure.i}`;
     card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-all bg-white';
 
-    const dateAdded = adventure.d ? `${adventure.d.substring(0, 4)}-${adventure.d.substring(4, 6)}-${adventure.d.substring(6, 8)}` : 'N/A';
-
     const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
-    const url = adventure.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
+    const url = resolveUrl(adventure);
     const privateLink = filters.privateLinks[adventure.i] || filters.privateLinks[cleanProductId];
 
     card.innerHTML = `
@@ -664,7 +682,7 @@ function createCard(adventure) {
             ${hoursPill(adventure.h)}
             ${seasonPill(adventure.s)}
             ${aiPill(adventure.ac)}
-            <span class="meta-pill">${dateAdded}</span>
+            ${datePill(adventure.d)}
         </div>
     `;
 
@@ -759,9 +777,9 @@ function renderGridView(adventures, container) {
             updateViewToggleButtons();
             displayResults();
         });
-        const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : 'N/A';
+        const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : '';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
-        const url = adv.u || `https://www.dmsguild.com/product/${cleanProductId}/?affiliate_id=171040`;
+        const url = resolveUrl(adv);
         const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[cleanProductId];
 
         row.innerHTML = `

@@ -78,13 +78,21 @@ def test_url_optimization():
     entry = create_catalog_entry(adv)
     assert 'u' not in entry
 
-    # Non-standard URL
+    # Non-standard URL: affiliate ID stripped, rest preserved
     adv = {
         'product_id': '123456',
         'url': 'https://www.dmsguild.com/product/123456/Some-Title?affiliate_id=171040'
     }
     entry = create_catalog_entry(adv)
-    assert entry['u'] == adv['url']
+    assert entry['u'] == 'https://www.dmsguild.com/product/123456/Some-Title'
+
+    # Non-standard URL with additional query params: affiliate stripped, filters kept
+    adv = {
+        'product_id': '123456',
+        'url': 'https://www.dmsguild.com/product/123456/Some-Title?affiliate_id=171040&filters=1_2_3'
+    }
+    entry = create_catalog_entry(adv)
+    assert entry['u'] == 'https://www.dmsguild.com/product/123456/Some-Title?filters=1_2_3'
 
     # URL without affiliate ID
     adv = {
@@ -92,7 +100,15 @@ def test_url_optimization():
         'url': 'https://www.dmsguild.com/product/123456/'
     }
     entry = create_catalog_entry(adv)
-    assert entry['u'] == adv['url']
+    assert 'u' not in entry
+
+    # D&D Beyond URL: never gets an affiliate ID, kept as-is
+    adv = {
+        'product_id': 'DBRWE7DB3',
+        'url': 'https://marketplace.dndbeyond.com/category/DBRWE7DB3'
+    }
+    entry = create_catalog_entry(adv)
+    assert entry['u'] == 'https://marketplace.dndbeyond.com/category/DBRWE7DB3'
 
 def test_ai_content_field():
     adv = {'ai_content': True}

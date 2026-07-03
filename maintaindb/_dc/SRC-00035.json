@@ -5,21 +5,21 @@
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDHC-WDMM",
+    "code": "DDHC-WDH",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "DDHC-WDMM Waterdeep: Dungeon of the Mad Mage",
+    "full_title": "DDHC-WDH Waterdeep: Dragon Heist",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "5-20",
+    "level_range": "1-5",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00036",
+    "product_id": "SRC-00035",
     "salvage_mission": false,
-    "season": null,
-    "tiers": "2-4",
-    "title": "Waterdeep: Dungeon of the Mad Mage",
-    "url": "https://marketplace.dndbeyond.com/category/waterdeep-dungeon-of-the-mad-mage?pid=SRC-00036"
+    "season": "8 - Waterdeep",
+    "tiers": "1-2",
+    "title": "Waterdeep: Dragon Heist",
+    "url": "https://marketplace.dndbeyond.com/category/waterdeep-dragon-heist?pid=SRC-00035"
 }

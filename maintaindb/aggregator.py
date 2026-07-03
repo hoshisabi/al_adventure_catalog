@@ -10,7 +10,7 @@ Key features:
 - DDAL/DDEX code normalization (e.g., DDEX3 -> DDEX03).
 - Intelligent season formatting (e.g., "11 - The Wild Beyond the Witchlight").
 - Minified output payload with abbreviated keys to reduce file size.
-- Automatic affiliate ID injection for DMsGuild URLs.
+- Affiliate ID stripped from URLs (re-added by the frontend at render time).
 
 Output:
 - `assets/data/catalog.json`: Minified JSON file with abbreviated keys.
@@ -49,6 +49,24 @@ input_path = str(DC_DIR)
 output_path = str(STATS_DIR)
 
 all_adventures_map = {}
+
+AFFILIATE_ID = "171040"
+
+
+def strip_affiliate_id(url):
+    """Remove the affiliate_id query param from a URL, preserving other params.
+
+    The frontend re-appends the affiliate ID at render time (DM's Guild only),
+    so storing it in catalog.json is redundant.
+    """
+    if not url:
+        return url
+    # affiliate_id followed by another param (keep the separator that starts it)
+    url = re.sub(r'([?&])affiliate_id=[^&]*&', r'\1', url)
+    # affiliate_id at the end of the query string
+    url = re.sub(r'[?&]affiliate_id=[^&]*$', '', url)
+    return url
+
 
 def __add_to_map(data, aggregated_by_dc_code):
     code = data.get('code')
@@ -144,8 +162,11 @@ def aggregate():
                     if campaigns_from_title:
                         data['campaigns'] = campaigns_from_title
 
-                if "url" in data and data["url"] and "affiliate_id" not in data["url"]:
-                    data["url"] += "&affiliate_id=171040"
+                # The affiliate ID is not stored in the catalog; the frontend adds
+                # it at render time (and only for DM's Guild links). Strip it here
+                # so it never bloats catalog.json.
+                if data.get("url"):
+                    data["url"] = strip_affiliate_id(data["url"])
                 
                 # Normalize 'campaigns' to be a list
                 if 'campaigns' in data:
@@ -260,12 +281,13 @@ def create_catalog_entry(adventure):
             logger.warning(f"Unknown campaign: {camp} in adventure {adventure.get('product_id')}")
 
     # URL Optimization
-    url = adventure.get('url')
+    # Affiliate ID is stripped here and re-added by the frontend at render time.
+    url = strip_affiliate_id(adventure.get('url'))
     product_id = adventure.get('product_id')
     if product_id:
         # Strip suffix for URL generation (e.g., 200609-2 -> 200609)
         base_product_id = re.sub(r'-\d+$', '', str(product_id))
-        standard_url = f"https://www.dmsguild.com/product/{base_product_id}/?affiliate_id=171040"
+        standard_url = f"https://www.dmsguild.com/product/{base_product_id}/"
         if url == standard_url:
             url = None
     

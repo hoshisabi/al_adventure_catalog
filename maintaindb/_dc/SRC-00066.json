@@ -13,13 +13,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "1-11",
+    "level_range": "1-12",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00066",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "1-3",
     "title": "Icewind Dale: Rime of the Frostmaiden",
     "url": "https://marketplace.dndbeyond.com/category/icewind-dale-rime-of-the-frostmaiden?pid=SRC-00066"
 }

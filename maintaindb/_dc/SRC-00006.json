@@ -14,13 +14,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "1-10",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00006",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "1-2",
     "title": "Curse of Strahd",
     "url": "https://marketplace.dndbeyond.com/category/curse-of-strahd?pid=SRC-00006"
 }
