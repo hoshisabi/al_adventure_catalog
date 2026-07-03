@@ -13,13 +13,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "3-11",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00125",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "1-3",
     "title": "Adventure Atlas: The Mortuary",
     "url": "https://marketplace.dndbeyond.com/category/SRC-00125"
 }

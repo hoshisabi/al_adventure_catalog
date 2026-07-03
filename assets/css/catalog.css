@@ -301,13 +301,13 @@ button {
   color: var(--text) !important;
 }
 
-.view-toggle {
-  background: var(--bg-raised) !important;
-  color: var(--text-dim) !important;
-  border: 1px solid var(--border) !important;
+/* Campaign abbreviations: drop poole.css's dotted underline (hard to read at
+   small sizes); keep the help cursor + title tooltip as the hover affordance. */
+abbr[title] {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  cursor: help;
 }
-
-/* active view toggle is set via JS adding bg-blue-500; .bg-blue-500 override above handles it */
 
 /* ── Form controls ────────────────────────────────────────── */
 select,

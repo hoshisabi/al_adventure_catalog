@@ -1,22 +1,22 @@
 {
     "tier": {
-        "Tier 1": 897,
-        "Tier 2": 921,
+        "Tier 1": 901,
+        "Tier 2": 922,
         "Tier 3": 370,
         "Tier 4": 94,
-        "Unknown": 17
+        "Unknown": 11
     },
     "duration": {
         "1 Hours": 28,
-        "2 Hours": 629,
+        "2 Hours": 633,
         "All Others": 226,
-        "4 Hours": 1545,
+        "4 Hours": 1548,
         "8 Hours": 13,
         "6 Hours": 54,
-        "Unknown": 174
+        "Unknown": 166
     },
     "campaign": {
-        "Forgotten Realms": 2150,
+        "Forgotten Realms": 2149,
         "Ravenloft": 99,
         "Unknown": 12,
         "Dragonlance": 73,
@@ -40,7 +40,7 @@
     },
     "ai_assisted": {
         "Human-created (disclosed)": 1431,
-        "Not disclosed": 779,
+        "Not disclosed": 778,
         "AI assisted": 89
     },
     "seed_by_season": {
@@ -94,5 +94,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260702230216"
+    "timestamp": "20260702231517"
 }

@@ -10,7 +10,7 @@
     "code": "FR-DC-CGB-03",
     "date_created": "20231219",
     "full_title": "FR-DC-CGB-03 Feywild Follies, Chaotic Good Brewing Series, Season One Part Three [Brewery-themed], St Patrick's Day",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "last_update": "20260611",
     "level_range": null,
@@ -18,7 +18,7 @@
     "price": 4.99,
     "product_id": "464414",
     "season": null,
-    "tiers": null,
-    "title": "Feywild Follies, Chaotic Good Brewing Series, Season One Part Three [Brewery-themed], St Patrick's Day",
+    "tiers": 1,
+    "title": "Feywild Follies",
     "url": "https://www.dmsguild.com/product/464414/?affiliate_id=171040"
 }

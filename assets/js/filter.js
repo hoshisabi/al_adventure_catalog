@@ -1005,8 +1005,8 @@ function setupEventListeners() {
         if (currentPage < max) { currentPage++; displayResults(); }
     });
 
-    document.getElementById('view-card')?.addEventListener('click', () => { viewMode = 'card'; updateViewToggleButtons(); displayResults(); });
-    document.getElementById('view-grid')?.addEventListener('click', () => { viewMode = 'grid'; updateViewToggleButtons(); displayResults(); });
+    document.getElementById('view-card')?.addEventListener('change', () => { viewMode = 'card'; updateViewToggleButtons(); displayResults(); });
+    document.getElementById('view-grid')?.addEventListener('change', () => { viewMode = 'grid'; updateViewToggleButtons(); displayResults(); });
 
 
 
@@ -1071,13 +1071,8 @@ function updateViewToggleButtons() {
     const vg = document.getElementById('view-grid');
     if (!vc || !vg) return;
 
-    if (viewMode === 'card') {
-        vc.classList.add('bg-blue-500', 'text-white'); vc.classList.remove('hover:bg-gray-100');
-        vg.classList.remove('bg-blue-500', 'text-white'); vg.classList.add('hover:bg-gray-100');
-    } else {
-        vg.classList.add('bg-blue-500', 'text-white'); vg.classList.remove('hover:bg-gray-100');
-        vc.classList.remove('bg-blue-500', 'text-white'); vc.classList.add('hover:bg-gray-100');
-    }
+    vc.checked = viewMode === 'card';
+    vg.checked = viewMode === 'grid';
 }
 
 if (document.readyState === 'loading') {

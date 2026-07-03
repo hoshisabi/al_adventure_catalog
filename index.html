@@ -181,38 +181,40 @@
             </div>
         </div>
 
-        <div class="mb-6 flex items-center justify-end">
-            <div class="flex items-center space-x-2">
-                <span class="text-sm font-medium">View:</span>
-                <button id="view-card"
-                    class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle active">
-                    Cards
-                </button>
-                <button id="view-grid"
-                    class="px-3 py-1 text-sm border border-gray-300 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 view-toggle">
-                    Grid
-                </button>
-            </div>
-        </div>
-
         <div class="flex flex-col sm:flex-row justify-between items-center mb-4 gap-4">
             <div id="results-info" class="text-sm text-gray-600">
                 Showing <span id="showing-start">0</span>-<span id="showing-end">0</span> of <span
                     id="total-results">0</span> adventures
             </div>
 
-            <div id="pagination-top" class="flex items-center space-x-2">
-                <button id="prev-page-top"
-                    class="px-3 py-1 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
-                    Prev
-                </button>
-                <span class="text-sm text-gray-600 cursor-pointer hover:bg-gray-200 px-2 py-1 rounded transition-colors" id="goto-page-info-top">
-                    Page <span id="current-page-top">1</span> of <span id="total-pages-top">1</span>
-                </span>
-                <button id="next-page-top"
-                    class="px-3 py-1 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
-                    Next
-                </button>
+            <div class="flex items-center gap-4">
+                <div class="flex items-center space-x-3 text-sm" role="radiogroup" aria-label="View">
+                    <span class="font-medium">View:</span>
+                    <label class="flex items-center space-x-1 cursor-pointer">
+                        <input type="radio" name="view-mode" id="view-card" value="card"
+                            class="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500">
+                        <span>Cards</span>
+                    </label>
+                    <label class="flex items-center space-x-1 cursor-pointer">
+                        <input type="radio" name="view-mode" id="view-grid" value="grid" checked
+                            class="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500">
+                        <span>Grid</span>
+                    </label>
+                </div>
+
+                <div id="pagination-top" class="flex items-center space-x-2">
+                    <button id="prev-page-top"
+                        class="px-3 py-1 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
+                        Prev
+                    </button>
+                    <span class="text-sm text-gray-600 cursor-pointer hover:bg-gray-200 px-2 py-1 rounded transition-colors" id="goto-page-info-top">
+                        Page <span id="current-page-top">1</span> of <span id="total-pages-top">1</span>
+                    </span>
+                    <button id="next-page-top"
+                        class="px-3 py-1 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed">
+                        Next
+                    </button>
+                </div>
             </div>
         </div>
 

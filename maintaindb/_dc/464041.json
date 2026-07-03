@@ -10,7 +10,7 @@
     "code": "FR-DC-CGB-02",
     "date_created": "20231216",
     "full_title": "FR-DC-CGB-02 Star-Crossed, Chaotic Good Brewing Series, Season One Part Two [Brewery-themed], St Valentine's Day",
-    "hours": null,
+    "hours": "4",
     "is_adventure": true,
     "last_update": "20260611",
     "level_range": null,
@@ -18,7 +18,7 @@
     "price": 4.99,
     "product_id": "464041",
     "season": null,
-    "tiers": null,
-    "title": "Star-Crossed, Chaotic Good Brewing Series, Season One Part Two [Brewery-themed], St Valentine's Day",
+    "tiers": 1,
+    "title": "Star-Crossed",
     "url": "https://www.dmsguild.com/product/464041/?affiliate_id=171040"
 }
