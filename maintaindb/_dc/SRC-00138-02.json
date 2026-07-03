@@ -1,6 +1,6 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 4,
     "authors": [],
     "campaigns": [
         "Eberron",
@@ -14,7 +14,7 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "1-4",
+    "level_range": "4",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00138-02",

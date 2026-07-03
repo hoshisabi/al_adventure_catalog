@@ -1,6 +1,6 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 1,
     "authors": [],
     "campaigns": [
         "Dragonlance",
@@ -14,7 +14,7 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "1-4",
+    "level_range": "1",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00138-01",

@@ -16,13 +16,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "10-20",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00134",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "2-4",
     "title": "Vecna: Eve of Ruin",
     "url": "https://marketplace.dndbeyond.com/category/vecna-eve-of-ruin?pid=SRC-00134"
 }
