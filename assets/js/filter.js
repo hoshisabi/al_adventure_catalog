@@ -11,6 +11,7 @@ let filters = {
     season: '',
     tier: '',
     hours: '',
+    source: '',
     ccOnly: false,
     hideAiContent: false,
     privateOnly: false,
@@ -198,6 +199,7 @@ function applyFiltersFromURL() {
     if (params.has('season')) filters.season = params.get('season');
     if (params.has('tier')) filters.tier = params.get('tier');
     if (params.has('hours')) filters.hours = params.get('hours');
+    if (params.has('source')) filters.source = params.get('source');
     if (params.has('search')) filters.search = params.get('search');
     if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
     if (params.has('hideAi')) filters.hideAiContent = params.get('hideAi') === 'true';
@@ -216,6 +218,8 @@ function applyFiltersFromURL() {
     if (tierEl) tierEl.value = filters.tier || '';
     const hoursEl = document.getElementById('hours');
     if (hoursEl) hoursEl.value = filters.hours || '';
+    const sourceEl = document.getElementById('source');
+    if (sourceEl) sourceEl.value = filters.source || '';
     const sortEl = document.getElementById('sort');
     if (sortEl) sortEl.value = sortBy || 'date-desc';
     const searchEl = document.getElementById('search');
@@ -241,6 +245,7 @@ function updateURLFromFilters() {
     if (filters.season) params.set('season', filters.season);
     if (filters.tier) params.set('tier', filters.tier);
     if (filters.hours) params.set('hours', filters.hours);
+    if (filters.source) params.set('source', filters.source);
     if (filters.search) params.set('search', filters.search);
     if (filters.ccOnly) params.set('ccOnly', 'true');
     if (filters.hideAiContent) params.set('hideAi', 'true');
@@ -268,6 +273,14 @@ function populateDropdown(id, values, defaultText) {
         opt.textContent = v;
         select.appendChild(opt);
     });
+}
+
+function getAdventureSource(adv) {
+    const u = adv.u;
+    if (!u) return 'dmsguild';
+    if (u.includes('dndbeyond.com')) return 'dndbeyond';
+    if (u.includes('dmsguild.com')) return 'dmsguild';
+    return 'none';
 }
 
 // Logic
@@ -332,6 +345,10 @@ function applyFilters() {
 
     if (filters.hideAiContent) {
         results = results.filter(adv => adv.ac !== 2);
+    }
+
+    if (filters.source) {
+        results = results.filter(adv => getAdventureSource(adv) === filters.source);
     }
 
     if (filters.search) {
@@ -859,12 +876,13 @@ function clearFilters() {
     filters.season = '';
     filters.tier = '';
     filters.hours = '';
+    filters.source = '';
     filters.ccOnly = false;
     filters.hideAiContent = false;
     filters.privateOnly = false;
     filters.search = '';
 
-    ['campaign', 'season', 'tier', 'hours', 'search'].forEach(id => {
+    ['campaign', 'season', 'tier', 'hours', 'source', 'search'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.value = '';
     });
@@ -889,7 +907,7 @@ function toggleFilters() {
 }
 
 function setupEventListeners() {
-    ['campaign', 'tier', 'hours', 'season', 'sort', 'search'].forEach(id => {
+    ['campaign', 'tier', 'hours', 'season', 'source', 'sort', 'search'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', e => {
             if (id === 'sort') {
