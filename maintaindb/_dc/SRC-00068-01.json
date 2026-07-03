@@ -1,15 +1,15 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 1,
     "authors": [],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDHC-CM-01",
+    "code": "DDHC-CM-1",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "DDHC-CM-01 The Joy of Extradimensional Spaces",
+    "full_title": "DDHC-CM-1 The Joy of Extradimensional Spaces",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",

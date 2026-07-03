@@ -1,16 +1,16 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 5,
     "authors": [],
     "campaigns": [
         "Eberron",
         "Forgotten Realms"
     ],
-    "code": "DDHC-KGV-05",
+    "code": "DDHC-KGV-5",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "DDHC-KGV-05 Tockworth's Clockworks",
+    "full_title": "DDHC-KGV-5 Tockworth's Clockworks",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",

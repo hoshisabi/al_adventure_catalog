@@ -5,7 +5,11 @@
         "James Introcaso",
         "Ruty Rutenberg"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
+    ],
     "code": "DDHC-TOA-3",
     "community_content": false,
     "date_created": "20170901",
@@ -19,7 +23,7 @@
     "price": 4.99,
     "product_id": "220567",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": null,
     "title": "Beasts of the Jungle Rot",
     "url": "https://www.dmsguild.com/product/220567/?affiliate_id=171040"

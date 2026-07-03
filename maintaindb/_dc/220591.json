@@ -13,7 +13,9 @@
         "Ruty Rutenberg"
     ],
     "campaigns": [
-        "Forgotten Realms"
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
     ],
     "code": "DDHC-TOA-5",
     "community_content": false,
@@ -28,7 +30,7 @@
     "price": 4.99,
     "product_id": "220591",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 1,
     "title": "Encounters in Port Nyanzaru",
     "url": "https://www.dmsguild.com/product/220591/?affiliate_id=171040"

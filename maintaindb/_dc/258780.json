@@ -5,12 +5,16 @@
         "Rich Lescouflair",
         "Will Doyle"
     ],
-    "campaigns": [],
-    "code": null,
+    "campaigns": [
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
+    ],
+    "code": "DDHC-TOA-6-7-13-15",
     "community_content": false,
     "date_created": "20181128",
     "dungeoncraft": false,
-    "full_title": "Lost City of Mezro",
+    "full_title": "DDHC-TOA-6-7-13-15 Lost City of Mezro",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260104",
@@ -19,7 +23,7 @@
     "price": 14.95,
     "product_id": "258780",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 2,
     "title": "Lost City of Mezro",
     "url": "https://www.dmsguild.com/product/258780/?affiliate_id=171040"

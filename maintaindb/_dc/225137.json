@@ -10,7 +10,11 @@
         "Robert Adducci",
         "Rich Lescouflair"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
+    ],
     "code": "DDHC-TOA-12",
     "community_content": false,
     "date_created": "20171029",
@@ -24,7 +28,7 @@
     "price": 3.99,
     "product_id": "225137",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": null,
     "title": "Encounters in the Jungles of Chult",
     "url": "https://www.dmsguild.com/product/225137/?affiliate_id=171040"

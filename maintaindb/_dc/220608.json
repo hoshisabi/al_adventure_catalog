@@ -4,7 +4,11 @@
     "authors": [
         "Shawn Merwin"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
+    ],
     "code": "DDHC-TOA-8",
     "community_content": false,
     "date_created": "20170901",
@@ -18,7 +22,7 @@
     "price": 5.95,
     "product_id": "220608",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 1,
     "title": "Return of the Lizard King",
     "url": "https://www.dmsguild.com/product/220608/?affiliate_id=171040"

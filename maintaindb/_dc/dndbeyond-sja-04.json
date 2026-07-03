@@ -1,25 +1,27 @@
 {
     "ai_content": false,
     "apl": 4,
-    "authors": [],
+    "authors": [
+        "Jay Jani"
+    ],
     "campaigns": [
         "Forgotten Realms"
     ],
-    "code": "DDHC-GSM-4",
+    "code": "SJA-04",
     "community_content": false,
-    "date_created": null,
+    "date_created": "20220708",
     "dungeoncraft": false,
-    "full_title": "DDHC-GSM-4 Salvage Operation",
+    "full_title": "SJA-04 Behold H'Catha",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00043-04",
+    "product_id": "dndbeyond-sja-04",
     "salvage_mission": false,
-    "season": null,
+    "season": "12 - Spelljammer",
     "tiers": 1,
-    "title": "Salvage Operation",
-    "url": "https://marketplace.dndbeyond.com/category/SRC-00043"
+    "title": "Behold H'Catha",
+    "url": "https://www.dndbeyond.com/sources/dnd/sja"
 }

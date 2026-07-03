@@ -4,7 +4,11 @@
     "authors": [
         "James Introcaso"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
+    ],
     "code": "DDHC-TOA-4",
     "community_content": false,
     "date_created": "20170908",
@@ -18,7 +22,7 @@
     "price": 2.99,
     "product_id": "220572",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 1,
     "title": "Cellar of Death",
     "url": "https://www.dmsguild.com/product/220572/?affiliate_id=171040"

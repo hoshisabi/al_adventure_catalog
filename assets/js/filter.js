@@ -277,9 +277,14 @@ function populateDropdown(id, values, defaultText) {
 
 function getAdventureSource(adv) {
     const u = adv.u;
-    if (!u) return 'dmsguild';
-    if (u.includes('dndbeyond.com')) return 'dndbeyond';
-    if (u.includes('dmsguild.com')) return 'dmsguild';
+    if (u) {
+        if (u.includes('dndbeyond.com')) return 'dndbeyond';
+        if (u.includes('dmsguild.com')) return 'dmsguild';
+        return 'none';
+    }
+    // No stored URL: only numeric product IDs can derive a DM's Guild link.
+    const cleanProductId = String(adv.i).replace(/-\d+$/, '');
+    if (/^\d+$/.test(cleanProductId)) return 'dmsguild';
     return 'none';
 }
 
@@ -288,9 +293,18 @@ const AFFILIATE_ID = '171040';
 // Build the outbound link for an adventure. The affiliate ID is not stored in
 // catalog.json (to save space); it's appended here, and only for DM's Guild
 // links, since other storefronts (e.g. D&D Beyond) reject the extra param.
+// Returns null when no purchasable/viewable URL exists (e.g. print-only
+// promotional adventures), so callers can render the title as plain text.
 function resolveUrl(adventure) {
     const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
-    let url = adventure.u || `https://www.dmsguild.com/product/${cleanProductId}/`;
+    let url = adventure.u;
+    if (!url) {
+        // Only fall back to a DM's Guild product page for real (numeric)
+        // DM's Guild product IDs. Non-numeric IDs (e.g. D&D Beyond entries
+        // with no stored URL) have no derivable link.
+        if (!/^\d+$/.test(cleanProductId)) return null;
+        url = `https://www.dmsguild.com/product/${cleanProductId}/`;
+    }
     if (url.includes('dmsguild.com') && !url.includes('affiliate_id=')) {
         url += (url.includes('?') ? '&' : '?') + `affiliate_id=${AFFILIATE_ID}`;
     }
@@ -662,9 +676,13 @@ function createCard(adventure) {
 
     card.innerHTML = `
         <div class="flex justify-between items-start mb-2">
-            <a href="${url}" target="_blank" class="text-lg font-semibold text-blue-600 hover:text-blue-800 block leading-snug">
+            ${url
+                ? `<a href="${url}" target="_blank" class="text-lg font-semibold text-blue-600 hover:text-blue-800 block leading-snug">
                 ${adventure.n || 'Untitled'}
-            </a>
+            </a>`
+                : `<span class="text-lg font-semibold text-gray-800 block leading-snug" title="No public link available">
+                ${adventure.n || 'Untitled'}
+            </span>`}
             ${privateLink ? `
                 <a href="${privateLink}" target="_blank" title="View Private PDF" class="ml-2 p-1 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -787,7 +805,9 @@ function renderGridView(adventures, container) {
              <td class="px-4 py-2 border whitespace-nowrap">${adv.c || ''}</td>
              <td class="px-4 py-2 border">
                 <div class="flex items-center justify-between">
-                    <a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a>
+                    ${url
+                        ? `<a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a>`
+                        : `<span class="text-gray-800" title="No public link available">${adv.n}</span>`}
                     ${privateLink ? `
                         <a href="${privateLink}" target="_blank" class="ml-2 text-green-600 hover:text-green-800" title="Private PDF">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">

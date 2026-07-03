@@ -13,13 +13,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "1-16",
+    "level_range": "1-12",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00113",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "1-3",
     "title": "Phandelver and Below: The Shattered Obelisk",
     "url": "https://marketplace.dndbeyond.com/category/phandelver-and-below?pid=SRC-00113"
 }

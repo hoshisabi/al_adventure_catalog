@@ -4,7 +4,11 @@
     "authors": [
         "Rich Lescouflair"
     ],
-    "campaigns": [],
+    "campaigns": [
+        "Forgotten Realms",
+        "Ravenloft",
+        "Dragonlance"
+    ],
     "code": "DDHC-TOA-6",
     "community_content": false,
     "date_created": "20170907",
@@ -18,7 +22,7 @@
     "price": 3.95,
     "product_id": "221093",
     "salvage_mission": false,
-    "season": null,
+    "season": "7 - Tomb of Annihilation",
     "tiers": 2,
     "title": "Heart of the Wild",
     "url": "https://www.dmsguild.com/product/221093/?affiliate_id=171040"

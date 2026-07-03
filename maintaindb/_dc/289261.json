@@ -17,13 +17,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20251221",
-    "level_range": "9",
+    "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 9.99,
     "product_id": "289261",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": 2,
     "title": "Locathah Rising",
     "url": "https://www.dmsguild.com/product/289261/?affiliate_id=171040"
 }

@@ -13,13 +13,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "1-11",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00095",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "1-3",
     "title": "Dragonlance: Shadow of the Dragon Queen",
     "url": "https://marketplace.dndbeyond.com/category/dragonlance-shadow-of-the-dragon-queen?pid=SRC-00095"
 }

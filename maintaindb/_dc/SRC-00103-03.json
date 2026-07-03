@@ -1,17 +1,17 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 3,
     "authors": [],
     "campaigns": [
         "Eberron",
         "Forgotten Realms",
         "Ravenloft"
     ],
-    "code": "DDHC-KGV-03",
+    "code": "DDHC-KGV-3",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "DDHC-KGV-03 Reach for the Stars",
+    "full_title": "DDHC-KGV-3 Reach for the Stars",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",

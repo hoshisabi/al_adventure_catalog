@@ -13,13 +13,13 @@
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "1-7",
+    "level_range": "1-6",
     "payWhatYouWant": false,
     "price": null,
     "product_id": "SRC-00041",
     "salvage_mission": false,
     "season": null,
-    "tiers": null,
+    "tiers": "1-2",
     "title": "Dragon of Icespire Peak",
     "url": "https://marketplace.dndbeyond.com/category/SRC-00041"
 }

@@ -1,45 +1,45 @@
 {
     "tier": {
-        "Tier 1": 883,
-        "Tier 2": 919,
+        "Tier 1": 891,
+        "Tier 2": 921,
         "Tier 3": 370,
         "Tier 4": 94,
-        "Unknown": 21
+        "Unknown": 17
     },
     "duration": {
         "1 Hours": 28,
         "2 Hours": 629,
-        "All Others": 223,
-        "4 Hours": 1543,
-        "8 Hours": 12,
+        "All Others": 226,
+        "4 Hours": 1545,
+        "8 Hours": 13,
         "6 Hours": 54,
-        "Unknown": 164
+        "Unknown": 168
     },
     "campaign": {
-        "Forgotten Realms": 2128,
-        "Ravenloft": 72,
-        "Unknown": 27,
-        "Dragonlance": 46,
+        "Forgotten Realms": 2149,
+        "Ravenloft": 86,
+        "Unknown": 12,
+        "Dragonlance": 60,
         "Eberron": 112
     },
     "season": {
         "1 - Tyranny of Dragons": 16,
         "2 - Elemental Evil": 17,
         "3 - Rage of Demons": 17,
-        "4 - Curse of Strahd": 14,
-        "5 - Storm King's Thunder": 20,
+        "4 - Curse of Strahd": 15,
+        "5 - Storm King's Thunder": 21,
         "6 - Tales From the Yawning Portal": 10,
-        "7 - Tomb of Annihilation": 20,
-        "8 - Waterdeep": 20,
+        "7 - Tomb of Annihilation": 34,
+        "8 - Waterdeep": 25,
         "9 - Avernus Rising": 21,
-        "10 - Icewind Dale": 185,
+        "10 - Icewind Dale": 186,
         "11 - Wild Beyond the Witchlight": 237,
-        "12 - Spelljammer": 308,
-        "13 - Planescape": 108
+        "12 - Spelljammer": 313,
+        "13 - Planescape": 109
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1420,
-        "Not disclosed": 778,
+        "Human-created (disclosed)": 1425,
+        "Not disclosed": 779,
         "AI assisted": 89
     },
     "seed_by_season": {
@@ -93,5 +93,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260702204255"
+    "timestamp": "20260702213037"
 }

@@ -1,16 +1,16 @@
 {
     "ai_content": false,
-    "apl": null,
+    "apl": 1,
     "authors": [],
     "campaigns": [
         "Eberron",
         "Forgotten Realms"
     ],
-    "code": "DDHC-JRC-01",
+    "code": "DDHC-JRC-1",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "DDHC-JRC-01 Salted Legacy",
+    "full_title": "DDHC-JRC-1 Salted Legacy",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
