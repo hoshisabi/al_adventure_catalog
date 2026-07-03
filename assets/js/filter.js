@@ -638,7 +638,8 @@ function aiPill(ac) {
 
 function datePill(d) {
     if (!d) return '';
-    const formatted = `${d.substring(0, 4)}-${d.substring(4, 6)}-${d.substring(6, 8)}`;
+    const s = String(d);
+    const formatted = `${s.substring(0, 4)}-${s.substring(4, 6)}-${s.substring(6, 8)}`;
     return `<span class="meta-pill">${formatted}</span>`;
 }
 
@@ -796,7 +797,7 @@ function renderGridView(adventures, container) {
             updateViewToggleButtons();
             displayResults();
         });
-        const dateAdded = adv.d ? `${adv.d.substring(0, 4)}-${adv.d.substring(4, 6)}-${adv.d.substring(6, 8)}` : '';
+        const dateAdded = adv.d ? (s => `${s.substring(0, 4)}-${s.substring(4, 6)}-${s.substring(6, 8)}`)(String(adv.d)) : '';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
         const url = resolveUrl(adv);
         const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[cleanProductId];
