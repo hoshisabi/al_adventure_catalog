@@ -19,9 +19,9 @@
     "payWhatYouWant": false,
     "price": 4.95,
     "product_id": "311891",
-    "salvage_mission": false,
-    "season": null,
+    "salvage_mission": true,
+    "season": "Eberron Salvage Mission",
     "tiers": 1,
-    "title": "Saving Salvation: Eberron Salvage Mission Trilogy",
+    "title": "Saving Salvation",
     "url": "https://www.dmsguild.com/product/311891/?affiliate_id=171040"
 }

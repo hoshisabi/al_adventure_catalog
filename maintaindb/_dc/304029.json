@@ -3,7 +3,7 @@
     "apl": null,
     "authors": [
         "Amy Lynn Dzura",
-        "Gregory Marks",
+        "Greg Marks",
         "Travis Woodall"
     ],
     "campaigns": [
@@ -15,15 +15,15 @@
     "dungeoncraft": false,
     "full_title": "DDAL00-12 Infernal Encounters",
     "hours": null,
-    "is_adventure": true,
+    "is_adventure": false,
     "last_update": "20251221",
-    "level_range": "1-4",
+    "level_range": "1-20",
     "payWhatYouWant": false,
     "price": 6.95,
     "product_id": "304029",
     "salvage_mission": false,
     "season": 0,
-    "tiers": 1,
+    "tiers": null,
     "title": "Infernal Encounters",
     "url": "https://www.dmsguild.com/product/304029/?affiliate_id=171040"
 }

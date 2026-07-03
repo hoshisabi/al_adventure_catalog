@@ -6,7 +6,7 @@
     "campaigns": [
         "Eberron"
     ],
-    "code": "EB-SALVAGE-RSM-T4.4",
+    "code": "EB-SM-RSM-T4.4",
     "community_content": false,
     "date_created": "20230131",
     "dungeoncraft": false,
@@ -18,7 +18,7 @@
     "payWhatYouWant": false,
     "price": 1.0,
     "product_id": "425292",
-    "salvage_mission": false,
+    "salvage_mission": true,
     "season": "Oracle of War",
     "tiers": 4,
     "title": "Daughter of Khyber",

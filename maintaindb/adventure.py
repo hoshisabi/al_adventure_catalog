@@ -1292,6 +1292,14 @@ def _normalize_and_convert_data(raw_data):
             processed_data["campaigns"] = result[1]
             processed_data["season"] = get_season(processed_data["code"])
 
+    # Text-based Eberron salvage mission detection when no campaign was derived from a code.
+    # Catches products like "A salvage mission for AL games set in Eberron" that have no EB-SM code.
+    if not processed_data["campaigns"] and raw_data.get("description_text"):
+        desc_lower = raw_data["description_text"].lower()
+        if "salvage mission" in desc_lower and "eberron" in desc_lower:
+            processed_data["campaigns"] = ["Eberron"]
+            processed_data["season"] = "Eberron Salvage Mission"
+
     # Hours conversion
     if raw_data["hours_raw"]:
         extracted_range_str = raw_data["hours_raw"]

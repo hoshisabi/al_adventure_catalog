@@ -119,6 +119,39 @@ git submodule update --init --recursive
 
 If it's missing, tests fall back to the synthetic fixtures.
 
+## Editorial conventions for `_dc/` JSON fields
+
+### `full_title` — author's title, untouched
+
+`full_title` is the product name as the author published it. We do not edit it. Even if it
+contains redundant format descriptors ("A 4 hour Tier 1 Salvage Mission"), a verbose code
+prefix, or an unconventional style, we leave it as-is. It is the source-of-truth string
+for re-ingestion and should reflect what's on DMsGuild.
+
+### `title` — our curated display title
+
+`title` is what appears in the catalog UI. We trim format descriptors that add no content
+value, such as:
+
+- `": A 4 hour Tier 1 Salvage Mission"` / `": A Salvage Mission"` → drop the subtitle
+- `"| An Eberron Salvage Mission for Oracle of War"` → drop the descriptor after `|`
+- `": Eberron Salvage Mission Anthology"` / `": Eberron Salvage Mission Trilogy"` → drop
+
+Keep subtitles that are part of the actual adventure name (e.g. a story arc title).
+
+### `code` — our canonical code, may differ from the author's
+
+We assign codes that follow our preferred conventions even when an author embedded a
+different format in their product title. For example:
+
+- An adventure published as `EB-SALVAGE-RSM-T4.4 Daughter of Khyber` gets our code
+  `EB-SM-RSM-T4.4` to align with the `EB-SM-*` series.
+- Eberron salvage missions without any author-assigned code get a `EB-SM-<KEYWORD>` code
+  derived from the adventure name.
+
+The `full_title` retains the author's original prefix; only `code` and `title` reflect
+our conventions.
+
 ## Ideas / future data sources
 
 [Warhorn](https://warhorn.net/events/pandodnd/manage/scenarios/report.json) has its own
