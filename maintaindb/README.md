@@ -16,6 +16,7 @@ uv run python -m maintaindb.stats
 uv run python -m maintaindb.process_downloads
 uv run python -m maintaindb.aggregator
 uv run python -m maintaindb.process_rss --url <url>
+uv run python -m maintaindb.audit_browse_lists
 ```
 
 ### Running Tests
@@ -63,6 +64,7 @@ uv run maintaindb-rss --url <url>    # Parse RSS feed
 ## Main Scripts (Entry Points):
 
 *   `process_downloads.py`: Processes downloaded HTML files from the `dmsguildinfo/` directory, extracts adventure metadata, and creates/updates individual JSON files in `_dc/`. This script is used for processing manually downloaded or bookmarklet-generated HTML files. Supports `--force` flag to overwrite existing files and `--careful` flag to preserve existing non-null data.
+*   `audit_browse_lists.py`: Audits browse-page JSON exports (`aldc-page-*.json` from `dmsguild_browse_bookmarklet.js`) against ingested `_dc/` files. Curated exclusions live in `browse_audit_exclusions.json`. Useful flags: `--exclude-roll20`, `--exclude-fantasy-grounds`, `--category adventure`, `--json`.
 *   `process_rss.py`: Fetches and parses the DMsGuild RSS feed to extract adventure metadata and create individual JSON files in `_dc/`. This script is RSS-only (no HTML scraping). You can pass either a remote RSS URL or a local XML file path (e.g., `maintaindb/dmsguildinfo/rss.xml`) via `--url`. RSS-derived entries are tagged with `needs_review: true` because the feed lacks some details (authors, hours, tier/APL, level range, and sometimes price). Note that the RSS feed typically only provides information for the most recently added adventures and will not update data for older adventures.
 *   `aggregator.py`: Aggregates individual adventure JSON files (from `_dc/`) into a minified `catalog.json` file used by the Jekyll site's filter. This script normalizes data (codes, seasons, campaigns, tiers, hours) and uses abbreviated keys and bitmasks to reduce the payload size. See [CATALOG_FORMAT.md](../CATALOG_FORMAT.md) for data format details and [CODE_RECOGNITION.md](../CODE_RECOGNITION.md) for code recognition rules.
 *   `stats.py`: Generates various statistics about the adventure catalog data, utilizing the `DungeonCraft` class from `adventure.py`.

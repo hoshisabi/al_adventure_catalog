@@ -40,6 +40,31 @@ uv run python -m maintaindb.process_rss --url maintaindb/dmsguildinfo/rss.xml --
    to `dmsguildinfo/processed/`. Supports `--force` (overwrite existing files) and
    `--careful` (preserve existing non-null data).
 
+### Method 3: Browse-list audit (find missing products)
+
+Use this when you want to compare a DM's Guild browse/results page against what is
+already in `_dc/`.
+
+1. Create a browser bookmark whose URL is the contents of
+   `dmsguild_browse_bookmarklet.js`.
+2. Open the filtered browse page on DM's Guild and click the bookmarklet on each page.
+   Save each downloaded `aldc-page-NNN.json` file into `maintaindb/dmsguildinfo/`.
+3. Run:
+
+   ```bash
+   uv run python -m maintaindb.audit_browse_lists
+   ```
+
+   Useful options: `--exclude-roll20`, `--exclude-fantasy-grounds`, `--category adventure`,
+   `--json missing-report.json`.
+
+   Curated exclusions and processing notes live in
+   `maintaindb/browse_audit_exclusions.json` (applied by default; use
+   `--no-exclude-curated` to show everything).
+
+4. For products that are still missing, use Method 2 to download the individual product
+   HTML files and ingest them.
+
 ### Post-ingestion steps
 
 1. Review the generated JSON in `maintaindb/_dc/` and fix any missing or incorrect
