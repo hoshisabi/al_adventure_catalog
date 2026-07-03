@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
         "Jason Lee",
@@ -14,12 +15,15 @@
     "full_title": "SJ-DC-DD-03 Castles in the Sand",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260703",
     "level_range": "1-4",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "424009",
     "salvage_mission": false,
     "season": "12 - Spelljammer",
     "seed": "Create a Location in Wildspace",
     "tiers": 1,
     "title": "Castles in the Sand",
-    "url": "https://www.dmsguild.com/product/424009/SJDCDD03-Castles-in-the-Sand?filters=0_0_100057_0_0_0_0_0"
+    "url": "https://www.dmsguild.com/product/424009/?affiliate_id=171040"
 }

@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 13,
     "authors": [
         "Lex Winter",
@@ -14,7 +15,10 @@
     "full_title": "Terminal Escape Velocity SJ-DC-NOS-01",
     "hours": "4",
     "is_adventure": true,
+    "last_update": "20260703",
     "level_range": "11-16",
+    "payWhatYouWant": false,
+    "price": 4.99,
     "product_id": "416561",
     "salvage_mission": false,
     "season": "12 - Spelljammer",
