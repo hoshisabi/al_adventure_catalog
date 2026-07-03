@@ -60,6 +60,7 @@ A bitwise OR of the following values:
 | 2 | 1 | Eberron |
 | 4 | 2 | Ravenloft |
 | 8 | 3 | Dragonlance |
+| 16 | 4 | Critical Role |
 
 Example: `p: 3` means the adventure is part of both Forgotten Realms and Eberron.
 

@@ -30,7 +30,8 @@ const CAMPAIGN_MAP = {
     1: 'Forgotten Realms',
     2: 'Eberron',
     4: 'Ravenloft',
-    8: 'Dragonlance'
+    8: 'Dragonlance',
+    16: 'Critical Role',
 };
 
 // Config
@@ -851,7 +852,7 @@ function formatHours(val) {
     return val + ' hr';
 }
 
-const CAMPAIGN_ABBREV = { 1: 'FR', 2: 'EB', 4: 'RL', 8: 'DL' };
+const CAMPAIGN_ABBREV = { 1: 'FR', 2: 'EB', 4: 'RL', 8: 'DL', 16: 'CR' };
 
 function formatCampaignsTable(p) {
     if (typeof p === 'number') {

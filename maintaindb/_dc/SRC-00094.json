@@ -1,26 +1,25 @@
 {
     "ai_content": false,
-    "apl": 4,
+    "apl": null,
     "authors": [],
     "campaigns": [
-        "Eberron",
         "Forgotten Realms"
     ],
-    "code": "DDHC-QIS-02",
+    "code": "DDHC-DOSI",
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "DDHC-QIS-02 When a Star Falls",
+    "full_title": "DDHC-DOSI Dragons of Stormwreck Isle",
     "hours": null,
     "is_adventure": true,
     "last_update": "20260702",
-    "level_range": "4",
+    "level_range": "1-3",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00138-02",
+    "product_id": "SRC-00094",
     "salvage_mission": false,
     "season": null,
     "tiers": 1,
-    "title": "When a Star Falls",
-    "url": "https://marketplace.dndbeyond.com/category/quests-from-the-infinite-staircase?pid=SRC-00138"
+    "title": "Dragons of Stormwreck Isle",
+    "url": "https://marketplace.dndbeyond.com/category/starter-set?pid=SRC-00094"
 }

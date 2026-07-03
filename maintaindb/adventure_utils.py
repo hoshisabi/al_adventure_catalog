@@ -11,7 +11,8 @@ CAMPAIGN_BITMASK = {
     'Forgotten Realms': 1,
     'Eberron': 2,
     'Ravenloft': 4,
-    'Dragonlance': 8
+    'Dragonlance': 8,
+    'Critical Role': 16,
 }
 
 FLAG_BITMASK = {

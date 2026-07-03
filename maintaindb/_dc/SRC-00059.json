@@ -3,27 +3,23 @@
     "apl": null,
     "authors": [],
     "campaigns": [
-        "Critical Role",
-        "Dragonlance",
-        "Eberron",
-        "Forgotten Realms",
-        "Ravenloft"
+        "Critical Role"
     ],
     "code": null,
     "community_content": false,
     "date_created": null,
     "dungeoncraft": false,
-    "full_title": "Quests from the Infinite Staircase",
+    "full_title": "Explorer's Guide to Wildemount",
     "hours": null,
     "is_adventure": false,
     "last_update": "20260702",
-    "level_range": null,
+    "level_range": "1-12",
     "payWhatYouWant": false,
     "price": null,
-    "product_id": "SRC-00138",
+    "product_id": "SRC-00059",
     "salvage_mission": false,
     "season": null,
     "tiers": null,
-    "title": "Quests from the Infinite Staircase",
-    "url": "https://marketplace.dndbeyond.com/category/quests-from-the-infinite-staircase?pid=SRC-00138"
+    "title": "Explorer's Guide to Wildemount",
+    "url": "https://marketplace.dndbeyond.com/category/explorers-guide-to-wildemount?pid=SRC-00059"
 }
