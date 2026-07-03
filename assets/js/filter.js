@@ -681,7 +681,7 @@ function createCard(adventure) {
                 ? `<a href="${url}" target="_blank" class="text-lg font-semibold text-blue-600 hover:text-blue-800 block leading-snug">
                 ${adventure.n || 'Untitled'}
             </a>`
-                : `<span class="text-lg font-semibold text-gray-800 block leading-snug" title="No public link available">
+                : `<span class="text-lg font-semibold block leading-snug" style="color:var(--text)" title="No public link available">
                 ${adventure.n || 'Untitled'}
             </span>`}
             ${privateLink ? `
@@ -808,7 +808,7 @@ function renderGridView(adventures, container) {
                 <div class="flex items-center justify-between">
                     ${url
                         ? `<a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a>`
-                        : `<span class="text-gray-800" title="No public link available">${adv.n}</span>`}
+                        : `<span style="color:var(--text)" title="No public link available">${adv.n}</span>`}
                     ${privateLink ? `
                         <a href="${privateLink}" target="_blank" class="ml-2 text-green-600 hover:text-green-800" title="Private PDF">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
