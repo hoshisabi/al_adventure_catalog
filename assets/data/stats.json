@@ -1,22 +1,22 @@
 {
     "tier": {
-        "Tier 1": 901,
-        "Tier 2": 922,
-        "Tier 3": 370,
-        "Tier 4": 94,
+        "Tier 1": 907,
+        "Tier 2": 924,
+        "Tier 3": 381,
+        "Tier 4": 99,
         "Unknown": 11
     },
     "duration": {
         "1 Hours": 28,
-        "2 Hours": 633,
-        "All Others": 226,
-        "4 Hours": 1548,
-        "8 Hours": 13,
+        "2 Hours": 637,
+        "All Others": 227,
+        "4 Hours": 1567,
+        "8 Hours": 14,
         "6 Hours": 54,
         "Unknown": 166
     },
     "campaign": {
-        "Forgotten Realms": 2149,
+        "Forgotten Realms": 2173,
         "Ravenloft": 99,
         "Unknown": 12,
         "Dragonlance": 73,
@@ -35,13 +35,13 @@
         "9 - Avernus Rising": 21,
         "10 - Icewind Dale": 186,
         "11 - Wild Beyond the Witchlight": 237,
-        "12 - Spelljammer": 313,
-        "13 - Planescape": 109
+        "12 - Spelljammer": 315,
+        "13 - Planescape": 118
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1431,
-        "Not disclosed": 778,
-        "AI assisted": 89
+        "Human-created (disclosed)": 1436,
+        "Not disclosed": 796,
+        "AI assisted": 90
     },
     "seed_by_season": {
         "10 - Icewind Dale (Plague of Ancients)": {
@@ -94,5 +94,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260702231517"
+    "timestamp": "20260703000258"
 }
