@@ -280,7 +280,30 @@ class DungeonCraft:
                         code_removed = True
                 if code_removed:
                     break
-        
+
+            # For DC codes where the title uses a space before the episode number instead of a
+            # dash (e.g. stored code "FR-DC-EVR-01" but title reads "FR-DC-EVR 01 - ..."),
+            # try a space-separated variant so the full code+number is stripped cleanly.
+            if not code_removed:
+                dc_ep_match = re.match(
+                    r'^([A-Z]{2,}-DC-[A-Z0-9&]+(?:-[A-Z0-9&]+)*?)-(\d+(?:-\d+)*)$',
+                    code_str.upper()
+                )
+                if dc_ep_match:
+                    space_variant = f"{dc_ep_match.group(1)} {dc_ep_match.group(2)}"
+                    space_lower = space_variant.lower()
+                    for separator in [' ', '-', ':', '']:
+                        prefix = space_lower + separator
+                        if normalized_t_lower.startswith(prefix):
+                            prefix_len = len(space_variant + separator)
+                            remaining = t[prefix_len:].strip()
+                            if remaining:
+                                t = remaining
+                                normalized_t = normalized_t[prefix_len:].strip()
+                                normalized_t_lower = normalized_t.lower()
+                                code_removed = True
+                            break
+
         # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
         t = re.sub(r"\(\s*5e\s*\)", "", t, flags=re.IGNORECASE)
         
