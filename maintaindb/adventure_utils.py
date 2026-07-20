@@ -460,6 +460,9 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # This must come AFTER the dash-number pattern to avoid matching "REIN-VR" from "REIN-VR-01"
         # Use negative lookahead to ensure no dash-number sequence follows
         (r"^([A-Z]{2,})-DC-([A-Z0-9-&]+)-([A-Z&]+)(?!-\d)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3).upper()}"),
+        # DC codes where the episode number is space-separated instead of dash-separated (e.g., FR-DC-EVR 01)
+        # Normalizes to dash-separated form (e.g., FR-DC-EVR-01). Must come before the bare-series pattern.
+        (r"^([A-Z]{2,})-DC-([A-Z0-9&]+(?:-[A-Z0-9&]+)*?) (\d+(?:-\d+)*)", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}-{m.group(3)}"),
         # DC codes ending with alphanumeric (letters and numbers together, e.g., FR-DC-UCON24)
         # This must come after the dash-number pattern to avoid matching "NBDD" from "NBDD-01"
         (r"^([A-Z]{2,})-DC-([A-Z0-9&]+)(?![-\d])", lambda m: f"{m.group(1).upper()}-DC-{m.group(2).upper()}"),

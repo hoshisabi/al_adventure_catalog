@@ -1,6 +1,6 @@
 {
     "tier": {
-        "Tier 1": 910,
+        "Tier 1": 912,
         "Tier 2": 926,
         "Tier 3": 381,
         "Tier 4": 101,
@@ -8,7 +8,7 @@
     },
     "duration": {
         "1 Hours": 28,
-        "2 Hours": 639,
+        "2 Hours": 641,
         "All Others": 227,
         "4 Hours": 1571,
         "8 Hours": 14,
@@ -16,7 +16,7 @@
         "Unknown": 167
     },
     "campaign": {
-        "Forgotten Realms": 2178,
+        "Forgotten Realms": 2180,
         "Ravenloft": 100,
         "Unknown": 12,
         "Dragonlance": 73,
@@ -39,7 +39,7 @@
         "13 - Planescape": 118
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1447,
+        "Human-created (disclosed)": 1449,
         "Not disclosed": 792,
         "AI assisted": 90
     },
@@ -94,5 +94,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260714185738"
+    "timestamp": "20260720052016"
 }
