@@ -264,6 +264,10 @@ def test_all_bug_fixes_covered():
     code, _ = get_adventure_code_and_campaigns("Eyes on the Sun (SJ-DC-PHP-FLN03-EOS)")
     assert code == "SJ-DC-PHP-FLN03-EOS", f"Failed: got {code}, expected SJ-DC-PHP-FLN03-EOS"
 
+    # Bug fix 19: Dash-separated title word must not be absorbed into code (e.g., FR-DC-LCO-08-The Worldweavers)
+    code, _ = get_adventure_code_and_campaigns("FR-DC-LCO-08-The Worldweavers")
+    assert code == "FR-DC-LCO-08", f"Failed: got {code}, expected FR-DC-LCO-08"
+
 
 def test_browser_duplicate_filename_helpers():
     assert is_browser_duplicate_filename("565907 (1).json")
