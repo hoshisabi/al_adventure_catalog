@@ -331,6 +331,7 @@ class DungeonCraft:
         # Strip leading dash+space that remains when the title format is "CODE - Title"
         # and the separator space was consumed by the code-stripping logic above.
         result = re.sub(r'^-\s*', '', result).strip()
+        result = re.sub(r'\s*-$', '', result).strip()
         # If we ended up with an empty string, fall back to the original title
         # (This handles cases where the title was just the code)
         if not result:

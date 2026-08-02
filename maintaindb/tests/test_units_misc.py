@@ -42,3 +42,17 @@ def test_short_title_strips_leading_dash():
         tiers=2,
     )
     assert dc.title == "A Dream Come True", f"Expected no leading dash, got: {dc.title!r}"
+
+def test_short_title_strips_trailing_dash():
+    # Title with code in parentheses like "An Old Road To Deadsnows - (FR-DC-F&ADDM-CRC1)"
+    # leaves a trailing " -" after the parenthesised code is removed.
+    dc = adventure.DungeonCraft(
+        product_id="578819",
+        title="An Old Road To Deadsnows - (FR-DC-F&ADDM-CRC1)",
+        authors=["Forever&ADayDM"],
+        code="FR-DC-F&ADDM-CRC1",
+        date_created=None,
+        hours=None,
+        tiers=1,
+    )
+    assert dc.title == "An Old Road To Deadsnows", f"Expected no trailing dash, got: {dc.title!r}"
