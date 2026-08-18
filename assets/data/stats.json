@@ -1,14 +1,14 @@
 {
     "tier": {
-        "Tier 1": 917,
-        "Tier 2": 928,
+        "Tier 1": 918,
+        "Tier 2": 929,
         "Tier 3": 382,
         "Tier 4": 104,
         "Unknown": 11
     },
     "duration": {
         "1 Hours": 29,
-        "2 Hours": 642,
+        "2 Hours": 644,
         "All Others": 228,
         "4 Hours": 1580,
         "8 Hours": 14,
@@ -17,7 +17,7 @@
     },
     "campaign": {
         "Forgotten Realms": 2190,
-        "Ravenloft": 101,
+        "Ravenloft": 103,
         "Unknown": 12,
         "Dragonlance": 73,
         "Eberron": 113,
@@ -41,7 +41,7 @@
     "ai_assisted": {
         "Human-created (disclosed)": 1456,
         "Not disclosed": 792,
-        "AI assisted": 94
+        "AI assisted": 96
     },
     "seed_by_season": {
         "10 - Icewind Dale (Plague of Ancients)": {
@@ -94,5 +94,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260812011338"
+    "timestamp": "20260817204952"
 }
