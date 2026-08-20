@@ -40,8 +40,8 @@
     },
     "ai_assisted": {
         "Human-created (disclosed)": 1456,
-        "Not disclosed": 792,
-        "AI assisted": 97
+        "Not disclosed": 791,
+        "AI assisted": 98
     },
     "seed_by_season": {
         "10 - Icewind Dale (Plague of Ancients)": {
@@ -94,5 +94,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260820012948"
+    "timestamp": "20260820013545"
 }
