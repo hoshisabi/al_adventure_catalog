@@ -1,14 +1,396 @@
 {
   "files": [
-    "aldc-ts-1783551398279.json"
+    "aldc-page-002.json",
+    "aldc-page-003.json",
+    "aldc-page-004.json",
+    "aldc-page-005.json",
+    "aldc-page-006.json",
+    "aldc-page-007.json",
+    "aldc-page-008.json",
+    "aldc-page-009.json",
+    "aldc-page-010.json",
+    "aldc-ts-1783551398279.json",
+    "aldc-ts-1784538714053.json",
+    "aldc-ts-1784602456592.json",
+    "aldc-ts-1784602484632.json",
+    "aldc-ts-1786510676050.json",
+    "aldc-ts-1788770591377.json",
+    "aldc-ts-1788770599006.json"
   ],
   "pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null
   ],
-  "unique_products": 30,
-  "ingested_count": 29,
-  "missing_count": 1,
-  "duplicate_ids": [],
-  "missing": [],
-  "excluded": []
+  "unique_products": 302,
+  "ingested_count": 296,
+  "missing_count": 6,
+  "duplicate_ids": [
+    {
+      "id": "574167",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "574119",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "573916",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "570060",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "573734",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "573393",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572789",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572788",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572787",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572785",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572784",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572783",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572782",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "572781",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "571644",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "570504",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "570387",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "570386",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "569953",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "569799",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "569890",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "569794",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "569670",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "568545",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "567515",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "566518",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "566239",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "565907",
+      "first_page": 2,
+      "second_page": null
+    },
+    {
+      "id": "579818",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "577431",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "576075",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "575270",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "575038",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "574647",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "574425",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "582939",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "582775",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "582008",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "581984",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "581879",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "581884",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "581877",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "580774",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "580434",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "579818",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "579639",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "579088",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "579044",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "578825",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "578819",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "578814",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "578771",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "577585",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "577438",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "577431",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "577429",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "577426",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "576075",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "576073",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "576068",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "575908",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "575270",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "575038",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "574647",
+      "first_page": null,
+      "second_page": null
+    },
+    {
+      "id": "574425",
+      "first_page": null,
+      "second_page": null
+    }
+  ],
+  "missing": [
+    {
+      "id": "581884",
+      "title": "FR-DC-OMR-EW2 Ice Running",
+      "url": "https://www.dmsguild.com/product/581884",
+      "page": null,
+      "category": "adventure",
+      "note": null
+    },
+    {
+      "id": "582775",
+      "title": "The Complete Encounter Toolkit \u2014 D&D 5.5 & 5.0 Excel Combat, Loot & Initiative Calculator",
+      "url": "https://www.dmsguild.com/product/582775",
+      "page": null,
+      "category": "adventure",
+      "note": null
+    }
+  ],
+  "excluded": [
+    {
+      "id": "575793",
+      "title": "Scalable Encounters #005 - The Ancient Valley",
+      "url": "https://www.dmsguild.com/product/575793",
+      "page": null,
+      "category": "adventure",
+      "reason": "Not an adventure (Scalable Encounters supplement)"
+    }
+  ]
 }
