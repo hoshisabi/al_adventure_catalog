@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 10,
     "authors": [
         "JV"
@@ -11,7 +12,7 @@
     "full_title": "PS-DC-MH-01 Jurassic Frontier",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20260918",
+    "last_update": "20260920",
     "level_range": "5-10",
     "payWhatYouWant": true,
     "price": 2.0,

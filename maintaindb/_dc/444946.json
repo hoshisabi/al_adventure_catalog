@@ -1,4 +1,5 @@
 {
+    "ai_content": true,
     "apl": null,
     "authors": [
         "Angelo Bongais"
@@ -13,7 +14,7 @@
     "full_title": "Rumble in The Jungle (SJ-DC-AMO-KURI-00)",
     "hours": "2",
     "is_adventure": true,
-    "last_update": "20250912",
+    "last_update": "20260920",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 3.99,

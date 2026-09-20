@@ -39,9 +39,9 @@
         "13 - Planescape": 120
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1463,
-        "Not disclosed": 792,
-        "AI assisted": 102
+        "Human-created (disclosed)": 1466,
+        "Not disclosed": 786,
+        "AI assisted": 105
     },
     "seed_by_season": {
         "10 - Icewind Dale (Plague of Ancients)": {
@@ -94,5 +94,5 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20260920181945"
+    "timestamp": "20260920182619"
 }
