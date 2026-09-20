@@ -589,7 +589,7 @@ def _extract_authors_from_html(parsed_html):
 
 def _extract_creation_method_from_html(parsed_html):
     """
-    Extract DM's Guild creation-method disclosure from the product details table.
+    Extract DM's Guild creation-method disclosure.
 
     Returns a normalized token:
       - "contains_ai" for self-disclosed AI-generated content
@@ -597,6 +597,17 @@ def _extract_creation_method_from_html(parsed_html):
       - "not_chosen" when the publisher has not chosen a value
       - None when the field is absent from the page
     """
+    token = _creation_method_from_details_table(parsed_html)
+    if token is not None:
+        return token
+
+    # Some snapshots omit the details table entirely; DM's Guild still emits
+    # the disclosure as an auto-generated meta keyword.
+    return _creation_method_from_keywords(parsed_html)
+
+
+def _creation_method_from_details_table(parsed_html):
+    """Read the disclosure from the product details table, if present."""
     label = parsed_html.find("p", {"data-codeid": "creationMethod"})
     if not label:
         return None
@@ -628,6 +639,31 @@ def _extract_creation_method_from_html(parsed_html):
     if "ai-generated" in lower or "ai generated" in lower:
         return "contains_ai"
     if "without ai" in lower or "human-created" in lower or "human created" in lower:
+        return "human_created"
+
+    return None
+
+
+def _creation_method_from_keywords(parsed_html):
+    """
+    Read the disclosure from the <meta name="keywords"> list.
+
+    Only exact keyword entries count. Both phrases also turn up in free-form
+    product descriptions and buyer reviews, where they carry no disclosure
+    meaning, so substring matching over the page would give false positives.
+    """
+    meta = parsed_html.find("meta", attrs={"name": "keywords"})
+    if not meta:
+        return None
+
+    content = meta.get("content")
+    if not content:
+        return None
+
+    keywords = {part.strip().lower() for part in content.split(",")}
+    if "ai generated" in keywords:
+        return "contains_ai"
+    if "human created without ai" in keywords:
         return "human_created"
 
     return None

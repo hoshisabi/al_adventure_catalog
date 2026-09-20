@@ -189,6 +189,49 @@ def test_extract_creation_method_absent():
     assert adventure._normalize_ai_content(None) is None
 
 
+def _keywords_meta(keywords, body=""):
+    return f'''
+    <html>
+        <head><meta name="keywords" content="{keywords}"></head>
+        <body>{body}</body>
+    </html>
+    '''
+
+
+def test_extract_creation_method_from_keywords_human_created():
+    """Snapshots without the details table fall back to the meta keywords."""
+    html = _keywords_meta(
+        "Dungeon Masters Guild, 1st Tier Levels 1 4, Human Created Without AI, 5th Edition"
+    )
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) == "human_created"
+    assert adventure._normalize_ai_content("human_created") is False
+
+
+def test_extract_creation_method_from_keywords_contains_ai():
+    html = _keywords_meta("Dungeon Masters Guild, AI Generated, 5th Edition")
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) == "contains_ai"
+
+
+def test_creation_method_details_table_wins_over_keywords():
+    """The explicit disclosure row outranks the keyword list when both exist."""
+    row = _creation_method_row(
+        '<i class="fas fa-robot u-mr-1"></i>Contains AI-Generated Content'
+    )
+    html = _keywords_meta("Human Created Without AI", body=row)
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) == "contains_ai"
+
+
+def test_creation_method_ignores_ai_phrases_outside_keywords():
+    """Reviews and descriptions mention these phrases without disclosing anything."""
+    body = "<p>This product has AI Generated art, which I did not expect.</p>"
+    html = _keywords_meta("Dungeon Masters Guild, 5th Edition", body=body)
+    soup = BeautifulSoup(html, "html.parser")
+    assert adventure._extract_creation_method_from_html(soup) is None
+
+
 def test_normalize_and_convert_data_ai_content():
     raw_data = {
         "full_title": "Test Adventure",
