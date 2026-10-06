@@ -1,7 +1,8 @@
 {
+    "ai_content": false,
     "apl": 3,
     "authors": [
-        "R.P. Marsh"
+        "RP Marsh"
     ],
     "campaigns": [
         "Forgotten Realms"
@@ -13,10 +14,10 @@
     "full_title": "FR-DC-DRESS-01 Goblin In A Dress",
     "hours": "2",
     "is_adventure": true,
-    "last_update": "20251220",
+    "last_update": "20261006",
     "level_range": "1-4",
     "payWhatYouWant": false,
-    "price": 2.99,
+    "price": 0.99,
     "product_id": "497468",
     "salvage_mission": false,
     "season": null,

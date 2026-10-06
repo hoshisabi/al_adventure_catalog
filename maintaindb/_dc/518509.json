@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 2,
     "authors": [
         "RP Marsh"
@@ -11,7 +12,7 @@
     "full_title": "DC-FR-SCROOGE-001 Funny Bunny Business",
     "hours": "2",
     "is_adventure": true,
-    "last_update": "20251221",
+    "last_update": "20261006",
     "level_range": "1-4",
     "payWhatYouWant": false,
     "price": 0.99,
