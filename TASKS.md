@@ -51,6 +51,7 @@
       Clicking a value inside the results (pill, author, code) adds a chip without opening the filter
       panel, and scrolls the chips into view if they are off-screen.
 - [x] **First/last page (2026-10-09)** — « » buttons in both paginations; Shift+←/→ shortcuts.
+      WASD also works: A/D = previous/next page, W/S = first/last page. Button tooltips list the keys.
 - [ ] **Clear Filters vs. display options** — Clear Filters leaves Show Product ID / Show Author on. Decide
       whether that's intended.
 - [ ] **Items per page on resize** — `updateItemsPerPage()` runs only at startup.

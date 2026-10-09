@@ -1129,7 +1129,7 @@ function setupEventListeners() {
 
     document.getElementById('clear-filters')?.addEventListener('click', clearFilters);
 
-    // Keyboard: Left/Right = prev/next page, Shift+Left/Right = first/last page,
+    // Keyboard: Left/Right or A/D = prev/next page, Shift+Left/Right or W/S = first/last page,
     // G = go to page, F = toggle filters
     document.addEventListener('keydown', (e) => {
         // Leave browser shortcuts (Ctrl+F etc.) and form controls alone
@@ -1137,13 +1137,22 @@ function setupEventListeners() {
         const active = document.activeElement;
         if (active && (['INPUT', 'TEXTAREA', 'SELECT'].includes(active.tagName) || active.isContentEditable)) return;
 
+        const key = e.key.toLowerCase();
         if (e.key === 'ArrowLeft') {
             goToPage(e.shiftKey ? 1 : currentPage - 1);
         } else if (e.key === 'ArrowRight') {
             goToPage(e.shiftKey ? getTotalPages() : currentPage + 1);
-        } else if (e.key.toLowerCase() === 'g') {
+        } else if (key === 'a') {
+            goToPage(currentPage - 1);
+        } else if (key === 'd') {
+            goToPage(currentPage + 1);
+        } else if (key === 'w') {
+            goToPage(1);
+        } else if (key === 's') {
+            goToPage(getTotalPages());
+        } else if (key === 'g') {
             showGoToPagePrompt();
-        } else if (e.key.toLowerCase() === 'f') {
+        } else if (key === 'f') {
             toggleFilters();
         }
     });
