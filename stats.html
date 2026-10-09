@@ -143,34 +143,6 @@
         return `rgba(${triplet},${alpha})`;
     }
 
-    function categoryBarOptions(palette, extra = {}) {
-        const scale = {
-            grid: { color: palette.grid },
-            ticks: { color: palette.ticks },
-        };
-        return {
-            scales: {
-                x: {
-                    type: 'category',
-                    grid: scale.grid,
-                    ticks: {
-                        ...scale.ticks,
-                        autoSkip: false,
-                        maxRotation: 45,
-                        minRotation: 0,
-                    },
-                },
-                y: {
-                    type: 'linear',
-                    beginAtZero: true,
-                    grid: scale.grid,
-                    ticks: scale.ticks,
-                },
-            },
-            ...extra,
-        };
-    }
-
     function normalizeTierStats(raw) {
         const normalized = { 'Tier 1': 0, 'Tier 2': 0, 'Tier 3': 0, 'Tier 4': 0, 'Unknown': 0 };
         if (!raw) return normalized;
@@ -230,6 +202,167 @@
     let statsData = null;
     const allCharts = [];
 
+    // AL seasons 1-13 only; everything else is listed in the note under the chart
+    const AL_SEASON_ORDER = [
+        '1 - Tyranny of Dragons',
+        '2 - Elemental Evil',
+        '3 - Rage of Demons',
+        '4 - Curse of Strahd',
+        '5 - Storm King\'s Thunder',
+        '6 - Tales From the Yawning Portal',
+        '7 - Tomb of Annihilation',
+        '8 - Waterdeep',
+        '9 - Avernus Rising',
+        '10 - Icewind Dale',
+        '11 - Wild Beyond the Witchlight',
+        '12 - Spelljammer',
+        '13 - Planescape',
+    ];
+
+    // Catalog links for chart labels; null when the catalog has no matching filter
+    function catalogHref(params) {
+        return 'index.html?' + new URLSearchParams(params).toString();
+    }
+    const HREF = {
+        tier: label => {
+            const m = label.match(/^Tier (\d)$/);
+            return m ? catalogHref({ tier: m[1] }) : null;
+        },
+        duration: label => {
+            const m = label.match(/^(\d+) Hours$/);
+            return m ? catalogHref({ hours: m[1] }) : null;
+        },
+        campaign: label => label === 'Unknown' ? null : catalogHref({ campaign: label }),
+        season: label => catalogHref({ season: label }),
+    };
+
+    function formatCount(n) {
+        return Number(n).toLocaleString();
+    }
+
+    function escapeHtml(val) {
+        return String(val ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    // Replace the table view under a chart with one built from labels/values
+    function setTableView(canvas, caption, labels, values, hrefFor) {
+        const section = canvas.closest('section');
+        section.querySelector('details.table-view')?.remove();
+        const total = values.reduce((a, b) => a + b, 0);
+        const rows = labels.map((label, i) => {
+            const href = hrefFor ? hrefFor(label) : null;
+            const name = escapeHtml(label);
+            const cell = href ? `<a href="${escapeHtml(href)}">${name}</a>` : name;
+            const pct = total ? ` (${((values[i] / total) * 100).toFixed(1)}%)` : '';
+            return `<tr><td>${cell}</td><td class="num">${formatCount(values[i])}${pct}</td></tr>`;
+        }).join('');
+        const details = document.createElement('details');
+        details.className = 'table-view';
+        details.innerHTML = `<summary>Show as table</summary>
+            <table>
+                <thead><tr><th scope="col">${escapeHtml(caption)}</th><th scope="col" class="num">Adventures</th></tr></thead>
+                <tbody>${rows}</tbody>
+            </table>`;
+        section.appendChild(details);
+    }
+
+    // Single-series bar chart. horizontal: categories on the y axis (for long names / many rows).
+    function barChart(canvas, { labels, values, colors, borders, horizontal = false, hrefFor = null, caption }) {
+        const palette = themePalette();
+        if (horizontal) {
+            // Size the box to the row count so every label shows
+            canvas.parentElement.style.height = `${labels.length * 26 + 40}px`;
+        }
+        const valueAxis = {
+            type: 'linear',
+            beginAtZero: true,
+            grid: { color: palette.grid },
+            ticks: { color: palette.ticks, precision: 0 },
+        };
+        const categoryAxis = {
+            type: 'category',
+            grid: { display: false },
+            ticks: { color: palette.ticks, autoSkip: false, maxRotation: horizontal ? 0 : 45, minRotation: 0 },
+        };
+        const chart = new Chart(canvas.getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels,
+                datasets: [{
+                    label: caption,
+                    data: values,
+                    backgroundColor: colors,
+                    borderColor: borders,
+                    borderWidth: 1,
+                    borderRadius: 4,
+                    maxBarThickness: horizontal ? 18 : 48,
+                }],
+            },
+            options: {
+                indexAxis: horizontal ? 'y' : 'x',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: horizontal
+                    ? { x: valueAxis, y: categoryAxis }
+                    : { x: categoryAxis, y: valueAxis },
+                plugins: {
+                    // One series: the section heading names it, so no legend box
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: ctx => `${formatCount(ctx.raw)} adventures`,
+                            footer: items => (hrefFor && hrefFor(items[0].label)) ? 'Click to view in catalog' : '',
+                        },
+                    },
+                },
+                onHover: (evt, elements) => {
+                    const clickable = elements.length && hrefFor && hrefFor(labels[elements[0].index]);
+                    evt.native.target.style.cursor = clickable ? 'pointer' : 'default';
+                },
+                onClick: (evt, elements) => {
+                    if (!elements.length || !hrefFor) return;
+                    const href = hrefFor(labels[elements[0].index]);
+                    if (href) window.location.href = href;
+                },
+            },
+        });
+        allCharts.push(chart);
+        setTableView(canvas, caption, labels, values, hrefFor);
+        return chart;
+    }
+
+    function renderSummary(data) {
+        document.getElementById('stat-total').textContent =
+            data.total != null ? formatCount(data.total) : '–';
+        const ts = String(data.timestamp || '');
+        document.getElementById('stat-updated').textContent =
+            ts.length >= 8 ? `${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)}` : '–';
+
+        // Say what the season chart leaves out
+        const shown = AL_SEASON_ORDER.reduce((sum, label) => sum + (data.season[label] || 0), 0);
+        const excluded = data.season_excluded || {};
+        const noSeason = excluded['No season'] || 0;
+        const others = Object.entries(excluded)
+            .filter(([name]) => name !== 'No season')
+            .sort((a, b) => b[1] - a[1]);
+        const otherTotal = others.reduce((sum, [, n]) => sum + n, 0);
+        const parts = [];
+        if (noSeason) parts.push(`${formatCount(noSeason)} with no season`);
+        if (otherTotal) {
+            const list = others.map(([name, n]) => `${name} ${formatCount(n)}`).join(', ');
+            parts.push(`${formatCount(otherTotal)} in other series (${list})`);
+        }
+        document.getElementById('season-note').textContent = data.total != null
+            ? `Shows ${formatCount(shown)} of ${formatCount(data.total)} adventures, AL seasons 1–13 only.` +
+              (parts.length ? ` Not shown: ${parts.join('; ')}.` : '')
+            : '';
+    }
+
     function renderAllCharts() {
         if (!statsData) return;
         const data = statsData;
@@ -243,43 +376,33 @@
         Chart.defaults.borderColor = palette.grid;
         Chart.defaults.plugins.legend.labels.color = palette.text;
 
+        renderSummary(data);
+
+        // One colour for a single series; an "Unknown" row gets the muted colour
+        const single = (count, unknownIndex = -1) => ({
+            colors: Array.from({ length: count }, (_, i) =>
+                i === unknownIndex ? rgba(palette.rgb.muted, 0.4) : rgba(palette.rgb.accent, 0.6)),
+            borders: Array.from({ length: count }, (_, i) =>
+                i === unknownIndex ? rgba(palette.rgb.muted, 0.8) : rgba(palette.rgb.accent, 1)),
+        });
+
+        // Tier: colours match the tier pills in the catalog
         const tierStats = normalizeTierStats(data.tier);
-        const durationStats = normalizeDurationStats(data.duration);
-
-        // Sort tiers: Tier 1, Tier 2, Tier 3, Tier 4, Unknown
         const tierLabels = ['Tier 1', 'Tier 2', 'Tier 3', 'Tier 4', 'Unknown'];
-        const tierData = tierLabels.map(label => tierStats[label] || 0);
+        const tierTriplets = [palette.rgb.success, palette.rgb.accent, palette.rgb.warning, palette.rgb.danger];
+        barChart(document.getElementById('tier-chart'), {
+            caption: 'Tier',
+            labels: tierLabels,
+            values: tierLabels.map(label => tierStats[label] || 0),
+            colors: tierTriplets.map(t => rgba(t, 0.75)).concat(rgba(palette.rgb.muted, 0.4)),
+            borders: tierTriplets.map(t => rgba(t, 1)).concat(rgba(palette.rgb.muted, 0.8)),
+            hrefFor: HREF.tier,
+        });
 
-        const tierTriplets = [
-            palette.rgb.success,   // T1
-            palette.rgb.accent,    // T2
-            palette.rgb.warning,   // T3
-            palette.rgb.danger,    // T4
-        ];
-        const tierColors = tierTriplets.map(t => rgba(t, 0.75)).concat(rgba(palette.rgb.muted, 0.4));
-        const tierBorders = tierTriplets.map(t => rgba(t, 1)).concat(rgba(palette.rgb.muted, 0.8));
-
-        const tierCtx = document.getElementById('tier-chart').getContext('2d');
-        allCharts.push(new Chart(tierCtx, {
-            type: 'bar',
-            data: {
-                labels: tierLabels,
-                datasets: [{
-                    label: '# of Adventures',
-                    data: tierData,
-                    backgroundColor: tierColors,
-                    borderColor: tierBorders,
-                    borderWidth: 1
-                }]
-            },
-            options: categoryBarOptions(palette)
-        }));
-
-        // Sort duration: 1, 2, 4, 6, 8, All Others, Unknown
+        // Duration: 1, 2, 4, 6, 8, All Others, Unknown
+        const durationStats = normalizeDurationStats(data.duration);
         const durationOrder = ['1 Hours', '2 Hours', '4 Hours', '6 Hours', '8 Hours', 'All Others', 'Unknown'];
-        const durationLabels = durationOrder.filter(label => durationStats[label] !== undefined && durationStats[label] > 0);
-        const durationData = durationLabels.map(label => durationStats[label]);
-
+        const durationLabels = durationOrder.filter(label => (durationStats[label] || 0) > 0);
         const durationColorMap = {
             '1 Hours': [rgba(palette.rgb.accent2, 0.75), rgba(palette.rgb.accent2, 1)],
             '2 Hours': [rgba(palette.rgb.success, 0.75), rgba(palette.rgb.success, 1)],
@@ -288,250 +411,129 @@
             '8 Hours': [rgba(palette.rgb.warning, 0.75), rgba(palette.rgb.warning, 1)],
         };
         const durationFallback = [rgba(palette.rgb.muted, 0.4), rgba(palette.rgb.muted, 0.8)];
-        const durationBgColors = durationLabels.map(l => (durationColorMap[l] || durationFallback)[0]);
-        const durationBorderColors = durationLabels.map(l => (durationColorMap[l] || durationFallback)[1]);
+        barChart(document.getElementById('duration-chart'), {
+            caption: 'Duration',
+            labels: durationLabels,
+            values: durationLabels.map(label => durationStats[label]),
+            colors: durationLabels.map(l => (durationColorMap[l] || durationFallback)[0]),
+            borders: durationLabels.map(l => (durationColorMap[l] || durationFallback)[1]),
+            hrefFor: HREF.duration,
+        });
 
-        const durationCtx = document.getElementById('duration-chart').getContext('2d');
-        allCharts.push(new Chart(durationCtx, {
-            type: 'bar',
-            data: {
-                labels: durationLabels,
-                datasets: [{
-                    label: '# of Adventures',
-                    data: durationData,
-                    backgroundColor: durationBgColors,
-                    borderColor: durationBorderColors,
-                    borderWidth: 1
-                }]
-            },
-            options: categoryBarOptions(palette)
-        }));
+        // Campaign: sorted horizontal bars, Unknown last (one campaign is ~93%, too much for a pie)
+        const campaignEntries = Object.entries(data.campaign).sort((a, b) =>
+            (a[0] === 'Unknown') - (b[0] === 'Unknown') || b[1] - a[1]);
+        const campaignLabels = campaignEntries.map(([name]) => name);
+        barChart(document.getElementById('campaign-chart'), {
+            caption: 'Campaign',
+            labels: campaignLabels,
+            values: campaignEntries.map(([, n]) => n),
+            ...single(campaignLabels.length, campaignLabels.indexOf('Unknown')),
+            horizontal: true,
+            hrefFor: HREF.campaign,
+        });
 
-        // Campaign as pie chart
-        const campaignLabels = Object.keys(data.campaign);
-        const campaignData = Object.values(data.campaign);
-        const campaignChartColors = campaignLabels.map((_, i) => palette.rainbow[i % palette.rainbow.length]);
-
-        const campaignCtx = document.getElementById('campaign-chart').getContext('2d');
-        allCharts.push(new Chart(campaignCtx, {
-            type: 'pie',
-            data: {
-                labels: campaignLabels,
-                datasets: [{
-                    data: campaignData,
-                    backgroundColor: campaignChartColors
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: true,
-                plugins: {
-                    legend: {
-                        position: 'right',
-                        labels: {
-                            font: {
-                                size: 11
-                            },
-                            boxWidth: 12,
-                            padding: 8
-                        }
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function(context) {
-                                const label = context.label || '';
-                                const value = context.parsed || 0;
-                                const total = campaignData.reduce((a, b) => a + b, 0);
-                                const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                                return label + ': ' + value + ' (' + percentage + '%)';
-                            }
-                        }
-                    }
-                }
-            }
-        }));
-
-        // AL seasons 1-13 only (excludes Oracle of War, Eberron DC, etc.)
-        const AL_SEASON_ORDER = [
-            '1 - Tyranny of Dragons',
-            '2 - Elemental Evil',
-            '3 - Rage of Demons',
-            '4 - Curse of Strahd',
-            '5 - Storm King\'s Thunder',
-            '6 - Tales From the Yawning Portal',
-            '7 - Tomb of Annihilation',
-            '8 - Waterdeep',
-            '9 - Avernus Rising',
-            '10 - Icewind Dale',
-            '11 - Wild Beyond the Witchlight',
-            '12 - Spelljammer',
-            '13 - Planescape',
-        ];
+        // Season: AL seasons 1-13 in order
         const seasonLabels = AL_SEASON_ORDER.filter(label => (data.season[label] || 0) > 0);
-        const seasonData = seasonLabels.map(label => data.season[label] || 0);
+        barChart(document.getElementById('season-chart'), {
+            caption: 'Season',
+            labels: seasonLabels,
+            values: seasonLabels.map(label => data.season[label] || 0),
+            ...single(seasonLabels.length),
+            hrefFor: HREF.season,
+        });
 
-        const seasonCtx = document.getElementById('season-chart').getContext('2d');
-        allCharts.push(new Chart(seasonCtx, {
-            type: 'bar',
-            data: {
-                labels: seasonLabels,
-                datasets: [{
-                    label: '# of Adventures',
-                    data: seasonData,
-                    backgroundColor: rgba(palette.rgb.accent, 0.5),
-                    borderColor: rgba(palette.rgb.accent, 1),
-                    borderWidth: 1
-                }]
-            },
-            options: categoryBarOptions(palette)
-        }));
-
+        // AI disclosure: a three-part share, so a pie still reads
         if (data.ai_assisted && Object.keys(data.ai_assisted).length > 0) {
-            const aiLabels = ['AI assisted', 'Human-created (disclosed)', 'Not disclosed'];
-            const aiLabelsFiltered = aiLabels.filter(label => (data.ai_assisted[label] || 0) > 0);
-            const aiDataFiltered = aiLabelsFiltered.map(label => data.ai_assisted[label]);
+            const aiLabels = ['AI assisted', 'Human-created (disclosed)', 'Not disclosed']
+                .filter(label => (data.ai_assisted[label] || 0) > 0);
+            const aiData = aiLabels.map(label => data.ai_assisted[label]);
             const aiColors = {
                 'AI assisted': rgba(palette.rgb.warning, 0.85),
                 'Human-created (disclosed)': rgba(palette.rgb.success, 0.75),
                 'Not disclosed': rgba(palette.rgb.muted, 0.5),
             };
-            const aiCtx = document.getElementById('ai-assisted-chart').getContext('2d');
-            allCharts.push(new Chart(aiCtx, {
+            const aiCanvas = document.getElementById('ai-assisted-chart');
+            allCharts.push(new Chart(aiCanvas.getContext('2d'), {
                 type: 'pie',
                 data: {
-                    labels: aiLabelsFiltered,
+                    labels: aiLabels,
                     datasets: [{
-                        data: aiDataFiltered,
-                        backgroundColor: aiLabelsFiltered.map(l => aiColors[l] || palette.rainbow[5])
-                    }]
+                        data: aiData,
+                        backgroundColor: aiLabels.map(l => aiColors[l]),
+                        borderColor: cssVar('--bg-card') || '#fff',
+                        borderWidth: 2,
+                    }],
                 },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: { position: 'right' },
                         tooltip: {
                             callbacks: {
-                                label: function(context) {
-                                    const value = context.parsed || 0;
-                                    const total = aiDataFiltered.reduce((a, b) => a + b, 0);
-                                    const pct = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                                    return context.label + ': ' + value + ' (' + pct + '%)';
-                                }
-                            }
-                        }
-                    }
-                }
-            }));
-        }
-
-        // Helper function to create seed charts
-        function createSeedChart(container, seasonName, seeds, counts, total, colors, chartIndex, subtitle) {
-            // Create chart container — var() styles track the theme on their own
-            const chartDiv = document.createElement('div');
-            chartDiv.className = 'p-4 rounded-lg';
-            chartDiv.style.background = 'var(--card-grad)';
-            chartDiv.style.border = '1px solid var(--border)';
-            chartDiv.style.borderRadius = '12px';
-
-            const chartTitle = document.createElement('h3');
-            chartTitle.className = 'text-lg font-semibold mb-2';
-            chartTitle.textContent = seasonName + (subtitle ? ` - ${subtitle}` : '');
-            chartDiv.appendChild(chartTitle);
-
-            const chartInfo = document.createElement('p');
-            chartInfo.className = 'text-sm text-gray-600 mb-4';
-            chartInfo.textContent = `Total adventures with seeds: ${total}`;
-            chartDiv.appendChild(chartInfo);
-
-            const canvas = document.createElement('canvas');
-            canvas.id = `seed-chart-${chartIndex}`;
-            chartDiv.appendChild(canvas);
-            container.appendChild(chartDiv);
-
-            // Generate colors for this chart
-            const chartColors = seeds.map((_, i) => colors[i % colors.length]);
-
-            // Create pie chart
-            const ctx = canvas.getContext('2d');
-            allCharts.push(new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: seeds,
-                    datasets: [{
-                        data: counts,
-                        backgroundColor: chartColors
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    plugins: {
-                        legend: {
-                            position: 'right',
-                            labels: {
-                                font: {
-                                    size: 11
+                                label: ctx => {
+                                    const total = aiData.reduce((a, b) => a + b, 0);
+                                    const pct = total > 0 ? ((ctx.parsed / total) * 100).toFixed(1) : 0;
+                                    return `${ctx.label}: ${formatCount(ctx.parsed)} (${pct}%)`;
                                 },
-                                boxWidth: 12,
-                                padding: 8
-                            }
+                            },
                         },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    const label = context.label || '';
-                                    const value = context.parsed || 0;
-                                    const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                                    return label + ': ' + value + ' (' + percentage + '%)';
-                                }
-                            }
-                        }
-                    }
-                }
+                    },
+                },
             }));
+            setTableView(aiCanvas, 'AI disclosure', aiLabels, aiData, null);
         }
 
-        // Generate seed charts
+        // Seeds: one sorted horizontal bar chart per program
         if (data.seed_by_season && Object.keys(data.seed_by_season).length > 0) {
-            const seedChartsContainer = document.getElementById('seed-charts-container');
-
-            // Define sort order: Icewind Dale/Plague of Ancients, Wild Beyond the Witchlight, Spelljammer (canonical names from stats)
+            const container = document.getElementById('seed-charts-container');
             const seasonOrder = {
                 '10 - Icewind Dale (Plague of Ancients)': 1,
                 'Wild Beyond the Witchlight (WBW-DC)': 2,
-                'Spelljammer (SJ-DC)': 3
+                'Spelljammer (SJ-DC)': 3,
             };
+            Object.keys(data.seed_by_season)
+                .sort((a, b) => (seasonOrder[a] || 999) - (seasonOrder[b] || 999))
+                .forEach((seasonName, index) => {
+                    const entries = Object.entries(data.seed_by_season[seasonName]).sort((a, b) => b[1] - a[1]);
+                    const total = entries.reduce((sum, [, n]) => sum + n, 0);
+                    if (total === 0) return;
 
-            // Sort seasons by defined order
-            const sortedSeasons = Object.keys(data.seed_by_season).sort((a, b) => {
-                const orderA = seasonOrder[a] || 999;
-                const orderB = seasonOrder[b] || 999;
-                return orderA - orderB;
-            });
+                    const section = document.createElement('section');
+                    section.className = 'seed-card';
+                    section.innerHTML = `
+                        <h3 class="text-lg font-semibold mb-1">${escapeHtml(seasonName)}</h3>
+                        <p class="text-sm text-gray-600 mb-4">${formatCount(total)} adventures with a seed · ${entries.length} seeds</p>
+                        <div class="chart-box"><canvas id="seed-chart-${index}"></canvas></div>`;
+                    container.appendChild(section);
 
-            let chartIndex = 0;
-            sortedSeasons.forEach((seasonName) => {
-                const seedCounts = data.seed_by_season[seasonName];
-                const seeds = Object.keys(seedCounts);
-                const counts = Object.values(seedCounts);
-                const total = counts.reduce((a, b) => a + b, 0);
-
-                if (total === 0) return;
-
-                // Create one chart per season (users can click legend items to exclude them)
-                createSeedChart(seedChartsContainer, seasonName, seeds, counts, total, palette.rainbow, chartIndex++, null);
-            });
+                    barChart(section.querySelector('canvas'), {
+                        caption: 'Seed',
+                        labels: entries.map(([name]) => name),
+                        values: entries.map(([, n]) => n),
+                        ...single(entries.length),
+                        horizontal: true,
+                    });
+                });
         }
     }
 
     window.addEventListener('themechange', renderAllCharts);
 
     fetch('assets/data/stats.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return response.json();
+        })
         .then(data => {
             statsData = data;
             renderAllCharts();
+        })
+        .catch(err => {
+            const el = document.getElementById('stats-error');
+            el.textContent = `Could not load statistics: ${err.message}`;
+            el.classList.remove('hidden');
         });
 </script>
 </body>

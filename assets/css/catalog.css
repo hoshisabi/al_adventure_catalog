@@ -535,6 +535,80 @@ thead th[data-sort] {
   box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.45) !important;
 }
 
+/* ── Stats page ───────────────────────────────────────────── */
+.stat-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-tile {
+  min-width: 12rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  background: var(--card-grad);
+  border: 1px solid var(--border);
+}
+
+.stat-value {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.stat-label {
+  margin-top: 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.chart-box {
+  position: relative;
+  width: 100%;
+}
+
+.seed-card {
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--card-grad);
+  border: 1px solid var(--border);
+}
+
+.table-view {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.table-view summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.table-view table {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.table-view th,
+.table-view td {
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+}
+
+.table-view .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
 /* ── Active filter chips ──────────────────────────────────── */
 #active-filters {
   display: flex;

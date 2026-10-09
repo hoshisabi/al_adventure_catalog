@@ -59,6 +59,21 @@
       while the heading says "AL Adventure Catalog".
 - [x] **Card highlight colours in dark theme (2026-10-09)** — highlight uses a `.card-highlight` class built on theme tokens.
 
+## Stats Page (2026-10-09)
+- [x] **Season chart says what it leaves out** — `stats.py` emits `total` and `season_excluded`; the page
+      notes how many adventures have no season or belong to other series.
+- [x] **Readable forms** — campaign and seed charts are sorted horizontal bars (were pies with repeated
+      colours and clipped legends); single-series bars have no legend box.
+- [x] **Headline tiles** — total adventures and stats generation date.
+- [x] **Click-through** — tier, duration, campaign and season bars open the catalog filtered to that value.
+- [x] **Table view + load error message** — each chart has a "Show as table" view (with catalog links).
+- [ ] **Duplicate seed name** — "I'd Like to Make a Return Please" and "I'd Like to Make a Return, Please"
+      are counted separately; extend `normalize_seed_name()` or fix the `_dc` data. Also check the "Special" seed.
+- [ ] **Unmerged season name** — one adventure has season "9 - Baldur's Gate: Descent into Avernus"; should
+      normalize to "9 - Avernus Rising".
+- [ ] **Season counts differ slightly from the catalog filter** — stats derive the season from the code when
+      the stored season is empty (e.g. 13 - Planescape: 120 in stats vs 119 via `?season=`).
+
 ## Private Inventory Rethink (low priority, undecided — 2026-10-09)
 - [x] **Escape inventory table (2026-10-09)** — `inventory.html` `renderTable()` wrote ID/URL/title into
       `innerHTML` unescaped; an imported inventory file could run script on every page load.
