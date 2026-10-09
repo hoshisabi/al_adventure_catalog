@@ -237,6 +237,8 @@ function applyFiltersFromURL() {
     if (params.has('showProductId')) filters.showProductId = params.get('showProductId') === 'true';
     if (params.has('showAuthor')) filters.showAuthor = params.get('showAuthor') === 'true';
     if (params.has('sort')) sortBy = params.get('sort');
+    if (params.get('view') === 'card') viewMode = 'card';
+    updateViewToggleButtons();
 
     // Sync to DOM so dropdowns and search input show the URL state
     const campaignEl = document.getElementById('campaign');
@@ -282,6 +284,7 @@ function updateURLFromFilters() {
     if (filters.showProductId) params.set('showProductId', 'true');
     if (filters.showAuthor) params.set('showAuthor', 'true');
     if (sortBy && sortBy !== 'date-desc') params.set('sort', sortBy);
+    if (viewMode !== 'grid') params.set('view', viewMode);
 
     const query = params.toString();
     const newUrl = window.location.pathname + (query ? '?' + query : '') + (window.location.hash || '');
@@ -485,6 +488,7 @@ function applyFilters() {
 
     currentPage = 1;
     displayResults();
+    updateFilterToggleLabel();
 }
 
 function displayResults() {
@@ -513,6 +517,15 @@ function displayResults() {
     // Render
     const pageItems = filteredItems.slice(start, end);
     resultsDiv.innerHTML = '';
+
+    if (total === 0) {
+        resultsDiv.className = 'results-empty';
+        resultsDiv.innerHTML = catalog.length
+            ? '<p>No adventures match these filters.</p><button type="button" id="empty-clear-filters">Clear filters</button>'
+            : '<p>No adventures loaded.</p>';
+        document.getElementById('empty-clear-filters')?.addEventListener('click', clearFilters);
+        return;
+    }
 
     if (viewMode === 'grid') {
         resultsDiv.className = 'overflow-x-auto';
@@ -555,10 +568,9 @@ function setHideAiContent(hide, { openPanel = false } = {}) {
 
     if (hide && openPanel) {
         const panel = document.getElementById('filter-panel');
-        const toggleBtn = document.getElementById('toggle-filters');
         if (panel && panel.classList.contains('hidden')) {
             panel.classList.remove('hidden');
-            if (toggleBtn) toggleBtn.textContent = 'Hide Filters';
+            updateFilterToggleLabel();
             panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }
@@ -569,10 +581,9 @@ function setHideAiContent(hide, { openPanel = false } = {}) {
 
 function filterByValue(field, value) {
     const panel = document.getElementById('filter-panel');
-    const toggleBtn = document.getElementById('toggle-filters');
     if (panel && panel.classList.contains('hidden')) {
         panel.classList.remove('hidden');
-        if (toggleBtn) toggleBtn.textContent = 'Hide Filters';
+        updateFilterToggleLabel();
         panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
@@ -818,9 +829,7 @@ function renderGridView(adventures, container) {
             if (e.target.closest('a')) return;
 
             highlightedAdventureId = adv.i;
-            viewMode = 'card';
-            updateViewToggleButtons();
-            displayResults();
+            setViewMode('card');
         });
         const dateAdded = adv.d ? (s => `${s.substring(0, 4)}-${s.substring(4, 6)}-${s.substring(6, 8)}`)(String(adv.d)) : '';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
@@ -963,12 +972,31 @@ function clearFilters() {
     updateURLFromFilters();
 }
 
+function countActiveFilters() {
+    return ['campaign', 'season', 'tier', 'hours', 'source', 'search', 'ccOnly', 'hideAiContent', 'privateOnly']
+        .filter(key => filters[key]).length;
+}
+
+// Button reads "Show Filters (2)" when the panel is closed and filters are
+// active, so a shared link with filters applied doesn't look unfiltered.
+function updateFilterToggleLabel() {
+    const toggleBtn = document.getElementById('toggle-filters');
+    const panel = document.getElementById('filter-panel');
+    if (!toggleBtn || !panel) return;
+    const hidden = panel.classList.contains('hidden');
+    const active = countActiveFilters();
+    toggleBtn.textContent = hidden
+        ? (active ? `Show Filters (${active})` : 'Show Filters')
+        : 'Hide Filters';
+    toggleBtn.setAttribute('aria-expanded', String(!hidden));
+}
+
 function toggleFilters() {
     const toggleBtn = document.getElementById('toggle-filters');
     const panel = document.getElementById('filter-panel');
     if (toggleBtn && panel) {
         panel.classList.toggle('hidden');
-        toggleBtn.textContent = panel.classList.contains('hidden') ? 'Show Filters' : 'Hide Filters';
+        updateFilterToggleLabel();
     }
 }
 
@@ -1032,8 +1060,8 @@ function setupEventListeners() {
         if (currentPage < max) { currentPage++; displayResults(); }
     });
 
-    document.getElementById('view-card')?.addEventListener('change', () => { viewMode = 'card'; updateViewToggleButtons(); displayResults(); });
-    document.getElementById('view-grid')?.addEventListener('change', () => { viewMode = 'grid'; updateViewToggleButtons(); displayResults(); });
+    document.getElementById('view-card')?.addEventListener('change', () => setViewMode('card'));
+    document.getElementById('view-grid')?.addEventListener('change', () => setViewMode('grid'));
 
 
 
@@ -1093,6 +1121,13 @@ function setupEventListeners() {
             displayResults();
         }
     });
+}
+
+function setViewMode(mode) {
+    viewMode = mode;
+    updateViewToggleButtons();
+    displayResults();
+    updateURLFromFilters();
 }
 
 function updateViewToggleButtons() {

@@ -366,6 +366,27 @@ label { color: var(--text-dim); }
   box-shadow: var(--shadow-card-hover) !important;
 }
 
+/* Loading / no-results message in place of cards or table */
+.results-empty {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+.results-empty button {
+  margin-top: 0.75rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.375rem;
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
+.results-empty button:hover {
+  background: var(--bg-card-hi);
+  color: var(--text);
+}
+
 /* ── Meta pills ───────────────────────────────────────────── */
 .meta-pill {
   display: inline-flex;

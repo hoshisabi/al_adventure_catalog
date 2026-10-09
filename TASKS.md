@@ -31,12 +31,31 @@
     - Update aggregator to output `stats.json` for the stats dashboard.
 
 ## 3. Web UI Improvements
-- [ ] **Search Experience** — tracked in [#8](https://github.com/hoshisabi/al_adventure_catalog/issues/8)
-    - Add the text search box using the new `search_index.json`.
+- [x] **Search Experience** — tracked in [#8](https://github.com/hoshisabi/al_adventure_catalog/issues/8)
+    - The search box exists and filters `catalog.json` client-side (substring match on title, code, authors).
+      With ~2,400 adventures a filter pass takes under 1 ms, so a separate `search_index.json` (§1) isn't
+      needed for speed. Remaining gap vs. #8: search doesn't match campaign/season and doesn't ignore
+      punctuation. Decide whether that's worth doing, then close #8.
 - [ ] **Detail View** — tracked in [#9](https://github.com/hoshisabi/al_adventure_catalog/issues/9)
     - Create a UI component (modal or side-panel) to display the "fetched" individual adventure data.
-- [ ] **Result Counts**
-    - Ensure result counts update dynamically based on filters + search.
+- [x] **Result Counts** — "Showing X-Y of Z" updates with filters + search.
+- [x] **Security: escape rendered data (2026-10-09)** — catalog text goes through `escapeHtml()`; private
+      inventory links go through `safeUrl()` (absolute http(s) only). Before this, a crafted
+      `?inventory=` URL could run script on the site's origin.
+- [x] **Keyboard shortcuts (2026-10-09)** — ignore Ctrl/Meta/Alt combos and focused `<select>`s.
+- [x] **Empty / loading states, active-filter count, view mode in URL (2026-10-09)** — "Show Filters (N)"
+      when filters are active and the panel is closed; `?view=card` persists card view.
+- [ ] **Accessibility of grid view** — sortable `<th>` and clickable rows are mouse-only; use buttons,
+      `aria-sort`, and keyboard handling.
+- [ ] **Clear Filters vs. display options** — Clear Filters leaves Show Product ID / Show Author on. Decide
+      whether that's intended.
+- [ ] **Items per page on resize** — `updateItemsPerPage()` runs only at startup.
+- [ ] **Search debounce + console logging** — `applyFilters()` logs on every keystroke.
+- [ ] **Replace Tailwind Play CDN with built CSS** — the CDN compiles in the browser on every visit and warns
+      "should not be used in production" in the console.
+- [ ] **Meta description / Open Graph tags** — shared links have no preview; `<title>` says "AL DC Catalog"
+      while the heading says "AL Adventure Catalog".
+- [ ] **Card highlight colours in dark theme** — row → card highlight uses `bg-blue-50`; not checked in night-sky theme.
 
 ## 4. Repository & Maintenance (Plan 2 Implementation)
 - [ ] See "Data Handling & Repo Restructure (Plan 2)" below for the full plan (private fixtures submodule, `.gitignore`/pre-commit guard, history scrubbing, licensing & policy).
