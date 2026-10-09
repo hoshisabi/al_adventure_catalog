@@ -220,6 +220,8 @@ def generate_stats():
         'duration': defaultdict(int),
         'campaign': defaultdict(int),
         'season': defaultdict(int),
+        # Adventures left out of 'season' (not AL seasons 1-13), so the page can say what's missing
+        'season_excluded': defaultdict(int),
         'ai_assisted': defaultdict(int),
         'seed_by_season': defaultdict(lambda: defaultdict(int))
     }
@@ -268,6 +270,9 @@ def generate_stats():
         al_season = resolve_al_season(season=adventure.season, code=adventure.code)
         if al_season:
             stats['season'][al_season] += 1
+        else:
+            other = normalize_season_display(adventure.season) if adventure.season else None
+            stats['season_excluded'][other or 'No season'] += 1
         
         # Collect seed statistics for POA/WBW/SJ campaigns
         if adventure.code:
@@ -281,6 +286,8 @@ def generate_stats():
     stats['tier'] = normalize_tier_stats(dict(stats['tier']))
     stats['duration'] = normalize_duration_stats(dict(stats['duration']))
     stats['ai_assisted'] = dict(stats['ai_assisted'])
+    stats['season_excluded'] = dict(stats['season_excluded'])
+    stats['total'] = len(data)
     stats['seed_by_season'] = {
         season: dict(seed_counts) 
         for season, seed_counts in stats['seed_by_season'].items()

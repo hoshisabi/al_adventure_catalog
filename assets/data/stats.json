@@ -38,6 +38,16 @@
         "12 - Spelljammer": 316,
         "13 - Planescape": 120
     },
+    "season_excluded": {
+        "No season": 1208,
+        "Embers of War": 12,
+        "Oracle of War": 25,
+        "Eberron Salvage Mission": 28,
+        "Ravenloft Mist Hunters": 13,
+        "Ravenloft Dungeoncraft": 33,
+        "Eberron Dungeoncraft": 6,
+        "9 - Baldur's Gate: Descent into Avernus": 1
+    },
     "ai_assisted": {
         "Human-created (disclosed)": 1468,
         "Not disclosed": 784,
@@ -94,5 +104,6 @@
             "Headed My Way?": 2
         }
     },
-    "timestamp": "20261006201500"
+    "total": 2360,
+    "timestamp": "20261009025528"
 }
