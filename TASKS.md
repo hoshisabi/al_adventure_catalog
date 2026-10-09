@@ -45,8 +45,10 @@
 - [x] **Keyboard shortcuts (2026-10-09)** — ignore Ctrl/Meta/Alt combos and focused `<select>`s.
 - [x] **Empty / loading states, active-filter count, view mode in URL (2026-10-09)** — "Show Filters (N)"
       when filters are active and the panel is closed; `?view=card` persists card view.
-- [ ] **Accessibility of grid view** — sortable `<th>` and clickable rows are mouse-only; use buttons,
-      `aria-sort`, and keyboard handling.
+- [x] **Accessibility of grid view (2026-10-09)** — sort headers are buttons with `aria-sort`; rows are
+      focusable and open card view on Enter/Space, with focus moved to the card; page labels are buttons.
+- [x] **Removable active-filter chips (2026-10-09)** — one chip per active filter above the results.
+- [x] **First/last page (2026-10-09)** — « » buttons in both paginations; Shift+←/→ shortcuts.
 - [ ] **Clear Filters vs. display options** — Clear Filters leaves Show Product ID / Show Author on. Decide
       whether that's intended.
 - [ ] **Items per page on resize** — `updateItemsPerPage()` runs only at startup.
@@ -55,7 +57,7 @@
       "should not be used in production" in the console.
 - [ ] **Meta description / Open Graph tags** — shared links have no preview; `<title>` says "AL DC Catalog"
       while the heading says "AL Adventure Catalog".
-- [ ] **Card highlight colours in dark theme** — row → card highlight uses `bg-blue-50`; not checked in night-sky theme.
+- [x] **Card highlight colours in dark theme (2026-10-09)** — highlight uses a `.card-highlight` class built on theme tokens.
 
 ## Private Inventory Rethink (low priority, undecided — 2026-10-09)
 - [x] **Escape inventory table (2026-10-09)** — `inventory.html` `renderTable()` wrote ID/URL/title into

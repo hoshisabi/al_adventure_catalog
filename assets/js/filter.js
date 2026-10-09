@@ -489,6 +489,7 @@ function applyFilters() {
     currentPage = 1;
     displayResults();
     updateFilterToggleLabel();
+    renderActiveFilters();
 }
 
 function displayResults() {
@@ -540,15 +541,16 @@ function displayResults() {
         if (highlightedAdventureId) {
             const card = document.getElementById(`card-${highlightedAdventureId}`);
             if (card) {
-                // Scroll to the card
+                // Scroll to the card and move keyboard focus to it
                 card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.tabIndex = -1;
+                card.focus({ preventScroll: true });
 
-                // Add highlight classes
-                card.classList.add('ring-4', 'ring-blue-400', 'bg-blue-50', 'border-blue-500');
+                card.classList.add('card-highlight');
 
                 // Clear after timeout
                 setTimeout(() => {
-                    card.classList.remove('ring-4', 'ring-blue-400', 'bg-blue-50', 'border-blue-500');
+                    card.classList.remove('card-highlight');
                     highlightedAdventureId = null;
                 }, 3000);
             } else {
@@ -763,60 +765,48 @@ function renderGridView(adventures, container) {
     const showProductId = filters.showProductId;
     const showAuthor = filters.showAuthor;
 
-    // Helper for header sort class
-    const getSortClass = (col) => {
-        if (!sortBy.startsWith(col)) return 'cursor-pointer hover:bg-gray-200 select-none';
-        return 'cursor-pointer bg-gray-200 hover:bg-gray-300 select-none';
-    };
-
-    const getIcon = (col) => {
-        if (!sortBy.startsWith(col)) return '↕';
-        return sortBy.endsWith('asc') ? '↑' : '↓';
+    const header = (col, label, extraClass = 'whitespace-nowrap') => {
+        const active = sortBy.startsWith(col + '-');
+        const asc = sortBy.endsWith('asc');
+        const ariaSort = active ? (asc ? 'ascending' : 'descending') : 'none';
+        const icon = active ? (asc ? '↑' : '↓') : '↕';
+        return `<th class="text-left border ${extraClass} ${active ? 'bg-gray-200' : ''}" data-sort="${col}" aria-sort="${ariaSort}">
+            <button type="button" class="sort-header px-4 py-2">${label} <span class="ml-1" aria-hidden="true">${icon}</span></button>
+        </th>`;
     };
 
     table.innerHTML = `
         <thead class="bg-gray-100 text-xs uppercase text-gray-700">
             <tr>
-                ${showProductId ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('id')}" data-sort="id">ID <span class="ml-1">${getIcon('id')}</span></th>` : ''}
-                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('code')}" data-sort="code">Code <span class="ml-1">${getIcon('code')}</span></th>
-                <th class="px-4 py-2 text-left border min-w-[10rem] ${getSortClass('title')}" data-sort="title">Title <span class="ml-1">${getIcon('title')}</span></th>
-                ${showAuthor ? `<th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('author')}" data-sort="author">Author <span class="ml-1">${getIcon('author')}</span></th>` : ''}
-                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('tier')}" data-sort="tier">Tier <span class="ml-1">${getIcon('tier')}</span></th>
-                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('hours')}" data-sort="hours">Hours <span class="ml-1">${getIcon('hours')}</span></th>
-                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('campaign')}" data-sort="campaign">Campaign <span class="ml-1">${getIcon('campaign')}</span></th>
-                <th class="px-4 py-2 text-left border whitespace-nowrap ${getSortClass('date')}" data-sort="date">Added <span class="ml-1">${getIcon('date')}</span></th>
+                ${showProductId ? header('id', 'ID') : ''}
+                ${header('code', 'Code')}
+                ${header('title', 'Title', 'min-w-[10rem]')}
+                ${showAuthor ? header('author', 'Author') : ''}
+                ${header('tier', 'Tier')}
+                ${header('hours', 'Hours')}
+                ${header('campaign', 'Campaign')}
+                ${header('date', 'Added')}
             </tr>
         </thead>
         <tbody></tbody>
     `;
 
-    // Header Click Listeners
-    table.querySelectorAll('th[data-sort]').forEach(th => {
-        th.addEventListener('click', () => {
-            const col = th.dataset.sort;
-            let newDir = 'asc';
-            if (sortBy.startsWith(col) && sortBy.endsWith('asc')) {
-                newDir = 'desc';
-            }
+    table.querySelectorAll('th[data-sort] button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const col = btn.closest('th').dataset.sort;
+            const newDir = (sortBy.startsWith(col + '-') && sortBy.endsWith('asc')) ? 'desc' : 'asc';
             sortBy = `${col}-${newDir}`;
 
-            // Sync Dropdown if it matches one of the options
+            // Keep the dropdown in sync when it has a matching option
             const sortDropdown = document.getElementById('sort');
-            if (sortDropdown) {
-                // Try to find an option with this value
-                const option = sortDropdown.querySelector(`option[value="${sortBy}"]`);
-                if (option) {
-                    sortDropdown.value = sortBy;
-                } else {
-                    // If no exact match in dropdown (e.g. tier/hours), maybe set to empty or custom?
-                    // For now, we just leave it or let it desync since dropdown is limited.
-                    // Or we could dynamically add options? 
-                    // Let's just update the internal state and UI.
-                }
+            if (sortDropdown?.querySelector(`option[value="${sortBy}"]`)) {
+                sortDropdown.value = sortBy;
             }
 
             applyFilters();
             updateURLFromFilters();
+            // The table was rebuilt; return focus to the same header
+            document.querySelector(`#results th[data-sort="${col}"] button`)?.focus();
         });
     });
 
@@ -824,12 +814,21 @@ function renderGridView(adventures, container) {
     adventures.forEach(adv => {
         const row = document.createElement('tr');
         row.className = 'hover:bg-gray-50 cursor-pointer transition-colors';
+        // Rows open the adventure in card view; tabindex + Enter/Space make that keyboard-reachable
+        row.tabIndex = 0;
+        const openAsCard = () => {
+            highlightedAdventureId = adv.i;
+            setViewMode('card');
+        };
         row.addEventListener('click', (e) => {
             // If we click an anchor, don't trigger the view switch
             if (e.target.closest('a')) return;
-
-            highlightedAdventureId = adv.i;
-            setViewMode('card');
+            openAsCard();
+        });
+        row.addEventListener('keydown', (e) => {
+            if (e.target !== row || (e.key !== 'Enter' && e.key !== ' ')) return;
+            e.preventDefault();
+            openAsCard();
         });
         const dateAdded = adv.d ? (s => `${s.substring(0, 4)}-${s.substring(4, 6)}-${s.substring(6, 8)}`)(String(adv.d)) : '';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
@@ -905,42 +904,47 @@ function formatSeason(season, code) {
     return season || 'Unspecified';
 }
 
+function getTotalPages() {
+    return Math.ceil(filteredItems.length / itemsPerPage) || 1;
+}
+
+// Pagination controls exist twice: above the results (suffix "-top") and below them
+const PAGINATION_SUFFIXES = ['', '-top'];
+
 function updatePaginationUI() {
-    const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
+    const totalPages = getTotalPages();
+    PAGINATION_SUFFIXES.forEach(suffix => {
+        const cp = document.getElementById(`current-page${suffix}`);
+        const tp = document.getElementById(`total-pages${suffix}`);
+        if (cp) cp.textContent = currentPage;
+        if (tp) tp.textContent = totalPages;
+        ['first-page', 'prev-page'].forEach(id => {
+            const btn = document.getElementById(id + suffix);
+            if (btn) btn.disabled = currentPage === 1;
+        });
+        ['next-page', 'last-page'].forEach(id => {
+            const btn = document.getElementById(id + suffix);
+            if (btn) btn.disabled = currentPage === totalPages;
+        });
+    });
+}
 
-    // Bottom
-    const cp = document.getElementById('current-page');
-    const tp = document.getElementById('total-pages');
-    const pp = document.getElementById('prev-page');
-    const np = document.getElementById('next-page');
-
-    if (cp) cp.textContent = currentPage;
-    if (tp) tp.textContent = totalPages;
-    if (pp) pp.disabled = currentPage === 1;
-    if (np) np.disabled = currentPage === totalPages;
-
-    // Top
-    const cpTop = document.getElementById('current-page-top');
-    const tpTop = document.getElementById('total-pages-top');
-    const ppTop = document.getElementById('prev-page-top');
-    const npTop = document.getElementById('next-page-top');
-
-    if (cpTop) cpTop.textContent = currentPage;
-    if (tpTop) tpTop.textContent = totalPages;
-    if (ppTop) ppTop.disabled = currentPage === 1;
-    if (npTop) npTop.disabled = currentPage === totalPages;
+function goToPage(page, { scroll = true } = {}) {
+    const target = Math.min(Math.max(page, 1), getTotalPages());
+    if (target === currentPage) return;
+    currentPage = target;
+    displayResults();
+    if (scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function showGoToPagePrompt() {
-    const totalPages = Math.ceil(filteredItems.length / itemsPerPage) || 1;
+    const totalPages = getTotalPages();
     const input = prompt(`Enter page number (1-${totalPages}):`, currentPage);
     if (input === null) return;
 
     const pageNum = parseInt(input);
     if (!isNaN(pageNum) && pageNum >= 1 && pageNum <= totalPages) {
-        currentPage = pageNum;
-        displayResults();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        goToPage(pageNum);
     } else {
         alert('Please enter a valid page number.');
     }
@@ -972,9 +976,73 @@ function clearFilters() {
     updateURLFromFilters();
 }
 
+// Filter key -> form control id, for filters that can be removed individually
+const FILTER_CONTROLS = {
+    campaign: 'campaign',
+    season: 'season',
+    tier: 'tier',
+    hours: 'hours',
+    source: 'source',
+    search: 'search',
+    ccOnly: 'cc-only',
+    hideAiContent: 'hide-ai-content',
+    privateOnly: 'private-only',
+};
+
+function activeFilterLabel(key) {
+    const val = filters[key];
+    switch (key) {
+        case 'campaign': return val;
+        case 'season': return `Season: ${val}`;
+        case 'tier': return `Tier ${val}`;
+        case 'hours': return `${val} hr`;
+        case 'source': {
+            const opt = document.querySelector(`#source option[value="${CSS.escape(val)}"]`);
+            return `Source: ${opt ? opt.textContent : val}`;
+        }
+        case 'search': return `Search: “${val}”`;
+        case 'ccOnly': return 'Community content';
+        case 'hideAiContent': return 'Hiding AI assisted';
+        case 'privateOnly': return 'In private inventory';
+    }
+    return String(val);
+}
+
+function removeFilter(key) {
+    const el = document.getElementById(FILTER_CONTROLS[key]);
+    if (typeof filters[key] === 'boolean') {
+        filters[key] = false;
+        if (el) el.checked = false;
+    } else {
+        filters[key] = '';
+        if (el) el.value = '';
+    }
+    applyFilters();
+    updateURLFromFilters();
+}
+
+// Removable chips above the results, one per active filter
+function renderActiveFilters() {
+    const container = document.getElementById('active-filters');
+    if (!container) return;
+    container.innerHTML = Object.keys(FILTER_CONTROLS)
+        .filter(key => filters[key])
+        .map(key => {
+            const label = escapeHtml(activeFilterLabel(key));
+            return `<button type="button" class="active-filter" data-key="${key}" aria-label="Remove filter: ${label}">${label}<span class="remove" aria-hidden="true">×</span></button>`;
+        })
+        .join('');
+    container.querySelectorAll('.active-filter').forEach(chip => {
+        chip.addEventListener('click', () => {
+            removeFilter(chip.dataset.key);
+            // The chips were re-rendered; keep keyboard focus nearby
+            (container.querySelector('.active-filter') || document.getElementById('toggle-filters'))?.focus();
+        });
+    });
+}
+
 function countActiveFilters() {
-    return ['campaign', 'season', 'tier', 'hours', 'source', 'search', 'ccOnly', 'hideAiContent', 'privateOnly']
-        .filter(key => filters[key]).length;
+    return Object.keys(FILTER_CONTROLS).filter(key => filters[key]).length;
 }
 
 // Button reads "Show Filters (2)" when the panel is closed and filters are
@@ -1014,12 +1082,13 @@ function setupEventListeners() {
         });
     });
 
-    document.getElementById('prev-page')?.addEventListener('click', () => {
-        if (currentPage > 1) { currentPage--; displayResults(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
-    });
-
-    document.getElementById('prev-page-top')?.addEventListener('click', () => {
-        if (currentPage > 1) { currentPage--; displayResults(); }
+    // Bottom controls scroll back to the top; top controls are already in view
+    PAGINATION_SUFFIXES.forEach(suffix => {
+        const scroll = suffix === '';
+        document.getElementById(`first-page${suffix}`)?.addEventListener('click', () => goToPage(1, { scroll }));
+        document.getElementById(`prev-page${suffix}`)?.addEventListener('click', () => goToPage(currentPage - 1, { scroll }));
+        document.getElementById(`next-page${suffix}`)?.addEventListener('click', () => goToPage(currentPage + 1, { scroll }));
+        document.getElementById(`last-page${suffix}`)?.addEventListener('click', () => goToPage(getTotalPages(), { scroll }));
     });
 
     document.getElementById('cc-only')?.addEventListener('change', e => {
@@ -1050,16 +1119,6 @@ function setupEventListeners() {
         updateURLFromFilters();
     });
 
-    document.getElementById('next-page')?.addEventListener('click', () => {
-        const max = Math.ceil(filteredItems.length / itemsPerPage);
-        if (currentPage < max) { currentPage++; displayResults(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
-    });
-
-    document.getElementById('next-page-top')?.addEventListener('click', () => {
-        const max = Math.ceil(filteredItems.length / itemsPerPage);
-        if (currentPage < max) { currentPage++; displayResults(); }
-    });
-
     document.getElementById('view-card')?.addEventListener('change', () => setViewMode('card'));
     document.getElementById('view-grid')?.addEventListener('change', () => setViewMode('grid'));
 
@@ -1072,7 +1131,8 @@ function setupEventListeners() {
 
     document.getElementById('clear-filters')?.addEventListener('click', clearFilters);
 
-    // Left/Right arrow keys for pagination
+    // Keyboard: Left/Right = prev/next page, Shift+Left/Right = first/last page,
+    // G = go to page, F = toggle filters
     document.addEventListener('keydown', (e) => {
         // Leave browser shortcuts (Ctrl+F etc.) and form controls alone
         if (e.ctrlKey || e.metaKey || e.altKey) return;
@@ -1080,18 +1140,9 @@ function setupEventListeners() {
         if (active && (['INPUT', 'TEXTAREA', 'SELECT'].includes(active.tagName) || active.isContentEditable)) return;
 
         if (e.key === 'ArrowLeft') {
-            if (currentPage > 1) {
-                currentPage--;
-                displayResults();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
+            goToPage(e.shiftKey ? 1 : currentPage - 1);
         } else if (e.key === 'ArrowRight') {
-            const max = Math.ceil(filteredItems.length / itemsPerPage);
-            if (currentPage < max) {
-                currentPage++;
-                displayResults();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
+            goToPage(e.shiftKey ? getTotalPages() : currentPage + 1);
         } else if (e.key.toLowerCase() === 'g') {
             showGoToPagePrompt();
         } else if (e.key.toLowerCase() === 'f') {
