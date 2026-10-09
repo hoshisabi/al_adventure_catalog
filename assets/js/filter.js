@@ -37,6 +37,34 @@ const CAMPAIGN_MAP = {
 // Config
 const baseURL = 'assets/data/';
 
+// Escape text for use in HTML element content or a quoted attribute value.
+function escapeHtml(val) {
+    return String(val ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+// Return the URL only if it is an absolute http(s) URL; anything else
+// (javascript:, data:, relative paths) returns null. Private inventory links
+// can come from an arbitrary ?inventory= URL, so they must not be trusted as hrefs.
+function safeUrl(url) {
+    if (typeof url !== 'string') return null;
+    try {
+        const parsed = new URL(url);
+        return (parsed.protocol === 'http:' || parsed.protocol === 'https:') ? parsed.href : null;
+    } catch {
+        return null;
+    }
+}
+
+function getPrivateLink(adv) {
+    const productId = String(adv.i).replace(/-\d+$/, '');
+    return safeUrl(filters.privateLinks[adv.i] || filters.privateLinks[productId]);
+}
+
 // Initialization
 async function initialize() {
     console.log('Initializing Lean Catalog...');
@@ -60,7 +88,7 @@ async function initialize() {
                 const luContainer = document.getElementById('last-update-container');
                 const luDate = document.getElementById('last-update-date');
                 if (luContainer && luDate) {
-                    luDate.innerHTML = `<a href="https://github.com/hoshisabi/al_adventure_catalog/commits/main" target="_blank" class="hover:underline">${formattedDate}</a>`;
+                    luDate.innerHTML = `<a href="https://github.com/hoshisabi/al_adventure_catalog/commits/main" target="_blank" class="hover:underline">${escapeHtml(formattedDate)}</a>`;
                     luContainer.classList.remove('hidden');
                 }
             }
@@ -84,7 +112,7 @@ async function initialize() {
 
     } catch (err) {
         console.error('Failed to initialize:', err);
-        document.getElementById('results').innerHTML = `<div class="p-4 text-red-600">Error loading catalog: ${err.message}</div>`;
+        document.getElementById('results').innerHTML = `<p class="p-4 text-red-600">Error loading catalog: ${escapeHtml(err.message)}</p>`;
     }
 }
 
@@ -362,10 +390,7 @@ function applyFilters() {
     }
 
     if (filters.privateOnly) {
-        results = results.filter(adv => {
-            const productId = String(adv.i).replace(/-\d+$/, '');
-            return filters.privateLinks[adv.i] || filters.privateLinks[productId];
-        });
+        results = results.filter(adv => getPrivateLink(adv));
     }
 
     if (filters.ccOnly) {
@@ -566,8 +591,8 @@ function filterByValue(field, value) {
 }
 
 function makeFilterChip(field, value, displayText) {
-    const escaped = String(value).replace(/"/g, '&quot;');
-    const label = displayText !== undefined ? displayText : value;
+    const escaped = escapeHtml(value);
+    const label = escapeHtml(displayText !== undefined ? displayText : value);
     return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="${field}" data-value="${escaped}" title="Filter by: ${label}">${label}</span>`;
 }
 
@@ -606,7 +631,7 @@ function makeHoursChip(h) {
     if (!h) return '<span>Unspecified</span>';
     const display = formatHours(h);
     const firstNum = String(h).match(/\d+/);
-    if (!firstNum) return `<span>${display}</span>`;
+    if (!firstNum) return `<span>${escapeHtml(display)}</span>`;
     return makeFilterChip('hours', firstNum[0], display);
 }
 
@@ -617,7 +642,7 @@ function tierPill(t) {
 
 function hoursPill(h) {
     if (!h) return '';
-    const display = formatHours(h);
+    const display = escapeHtml(formatHours(h));
     const firstNum = String(h).match(/\d+/);
     if (!firstNum) return `<span class="meta-pill">${display}</span>`;
     const n = parseInt(firstNum[0]);
@@ -627,8 +652,8 @@ function hoursPill(h) {
 
 function seasonPill(s) {
     if (!s) return '';
-    const escaped = String(s).replace(/"/g, '&quot;');
-    return `<span class="meta-pill clickable filter-chip" data-filter="season" data-value="${escaped}" title="Filter by season">${s}</span>`;
+    const escaped = escapeHtml(s);
+    return `<span class="meta-pill clickable filter-chip" data-filter="season" data-value="${escaped}" title="Filter by season">${escaped}</span>`;
 }
 
 function aiPill(ac) {
@@ -640,7 +665,7 @@ function datePill(d) {
     if (!d) return '';
     const s = String(d);
     const formatted = `${s.substring(0, 4)}-${s.substring(4, 6)}-${s.substring(6, 8)}`;
-    return `<span class="meta-pill">${formatted}</span>`;
+    return `<span class="meta-pill">${escapeHtml(formatted)}</span>`;
 }
 
 function campaignPills(p) {
@@ -655,16 +680,16 @@ function campaignPills(p) {
         names.push(p);
     }
     return names.map(n => {
-        const escaped = n.replace(/"/g, '&quot;');
-        return `<span class="meta-pill clickable filter-chip" data-filter="campaign" data-value="${escaped}" title="Filter: ${n}">${n}</span>`;
+        const escaped = escapeHtml(n);
+        return `<span class="meta-pill clickable filter-chip" data-filter="campaign" data-value="${escaped}" title="Filter: ${escaped}">${escaped}</span>`;
     }).join('');
 }
 
 function makeCodeChip(c) {
     if (!c) return '<span>N/A</span>';
     const series = c.replace(/[^a-zA-Z]*\d+$/, '') || c;
-    const escaped = series.replace(/"/g, '&quot;');
-    return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="search" data-value="${escaped}" title="Filter by series: ${escaped}">${c}</span>`;
+    const escaped = escapeHtml(series);
+    return `<span class="filter-chip cursor-pointer text-blue-600 hover:underline hover:text-blue-800" data-filter="search" data-value="${escaped}" title="Filter by series: ${escaped}">${escapeHtml(c)}</span>`;
 }
 
 function createCard(adventure) {
@@ -672,28 +697,28 @@ function createCard(adventure) {
     card.id = `card-${adventure.i}`;
     card.className = 'border rounded-xl p-4 shadow-lg hover:shadow-xl transition-all bg-white';
 
-    const cleanProductId = String(adventure.i).replace(/-\d+$/, '');
-    const url = resolveUrl(adventure);
-    const privateLink = filters.privateLinks[adventure.i] || filters.privateLinks[cleanProductId];
+    const url = safeUrl(resolveUrl(adventure));
+    const privateLink = getPrivateLink(adventure);
+    const title = escapeHtml(adventure.n || 'Untitled');
 
     card.innerHTML = `
         <div class="flex justify-between items-start mb-2">
             ${url
-                ? `<a href="${url}" target="_blank" class="text-lg font-semibold text-blue-600 hover:text-blue-800 block leading-snug">
-                ${adventure.n || 'Untitled'}
+                ? `<a href="${escapeHtml(url)}" target="_blank" class="text-lg font-semibold text-blue-600 hover:text-blue-800 block leading-snug">
+                ${title}
             </a>`
                 : `<span class="text-lg font-semibold block leading-snug" style="color:var(--text)" title="No public link available">
-                ${adventure.n || 'Untitled'}
+                ${title}
             </span>`}
             ${privateLink ? `
-                <a href="${privateLink}" target="_blank" title="View Private PDF" class="ml-2 p-1 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors flex-shrink-0">
+                <a href="${escapeHtml(privateLink)}" target="_blank" rel="noopener noreferrer" title="View Private PDF" class="ml-2 p-1 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
                     </svg>
                 </a>
             ` : ''}
         </div>
-        ${filters.showProductId ? `<p class="text-xs text-gray-400 mb-1"><span class="font-medium">Product ID:</span> ${adventure.i}</p>` : ''}
+        ${filters.showProductId ? `<p class="text-xs text-gray-400 mb-1"><span class="font-medium">Product ID:</span> ${escapeHtml(adventure.i)}</p>` : ''}
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Code:</span> ${makeCodeChip(adventure.c)}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Author(s):</span> ${makeAuthorChips(adventure.a)}</p>
         <p class="text-sm text-gray-600 mb-1"><span class="font-medium">Campaign:</span> ${makeCampaignChips(adventure.p)}</p>
@@ -799,19 +824,20 @@ function renderGridView(adventures, container) {
         });
         const dateAdded = adv.d ? (s => `${s.substring(0, 4)}-${s.substring(4, 6)}-${s.substring(6, 8)}`)(String(adv.d)) : '';
         const cleanProductId = String(adv.i).replace(/-\d+$/, '');
-        const url = resolveUrl(adv);
-        const privateLink = filters.privateLinks[adv.i] || filters.privateLinks[cleanProductId];
+        const url = safeUrl(resolveUrl(adv));
+        const privateLink = getPrivateLink(adv);
+        const title = escapeHtml(adv.n);
 
         row.innerHTML = `
-             ${showProductId ? `<td class="px-4 py-2 border text-sm whitespace-nowrap">${cleanProductId}</td>` : ''}
-             <td class="px-4 py-2 border whitespace-nowrap">${adv.c || ''}</td>
+             ${showProductId ? `<td class="px-4 py-2 border text-sm whitespace-nowrap">${escapeHtml(cleanProductId)}</td>` : ''}
+             <td class="px-4 py-2 border whitespace-nowrap">${escapeHtml(adv.c)}</td>
              <td class="px-4 py-2 border">
                 <div class="flex items-center justify-between">
                     ${url
-                        ? `<a href="${url}" target="_blank" class="text-blue-600 hover:underline">${adv.n}</a>`
-                        : `<span style="color:var(--text)" title="No public link available">${adv.n}</span>`}
+                        ? `<a href="${escapeHtml(url)}" target="_blank" class="text-blue-600 hover:underline">${title}</a>`
+                        : `<span style="color:var(--text)" title="No public link available">${title}</span>`}
                     ${privateLink ? `
-                        <a href="${privateLink}" target="_blank" class="ml-2 text-green-600 hover:text-green-800" title="Private PDF">
+                        <a href="${escapeHtml(privateLink)}" target="_blank" rel="noopener noreferrer" class="ml-2 text-green-600 hover:text-green-800" title="Private PDF">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
                             </svg>
@@ -819,9 +845,9 @@ function renderGridView(adventures, container) {
                     ` : ''}
                 </div>
              </td>
-             ${showAuthor ? `<td class="px-4 py-2 border text-sm">${formatList(adv.a) || ''}</td>` : ''}
-             <td class="px-4 py-2 border whitespace-nowrap">${adv.t != null ? adv.t : '-'}</td>
-             <td class="px-4 py-2 border whitespace-nowrap">${formatHours(adv.h)}</td>
+             ${showAuthor ? `<td class="px-4 py-2 border text-sm">${escapeHtml(formatList(adv.a))}</td>` : ''}
+             <td class="px-4 py-2 border whitespace-nowrap">${adv.t != null ? escapeHtml(adv.t) : '-'}</td>
+             <td class="px-4 py-2 border whitespace-nowrap">${escapeHtml(formatHours(adv.h))}</td>
              <td class="px-4 py-2 border whitespace-nowrap">${formatCampaignsTable(adv.p)}</td>
              <td class="px-4 py-2 border text-sm text-gray-500 italic whitespace-nowrap">${dateAdded}</td>
         `;
@@ -863,7 +889,7 @@ function formatCampaignsTable(p) {
         }
         return parts.length ? parts.join(', ') : '-';
     }
-    return p ? formatList(p) : '-';
+    return p ? escapeHtml(formatList(p)) : '-';
 }
 
 function formatSeason(season, code) {
@@ -1020,8 +1046,10 @@ function setupEventListeners() {
 
     // Left/Right arrow keys for pagination
     document.addEventListener('keydown', (e) => {
-        // Only if we're not typing in an input
-        if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+        // Leave browser shortcuts (Ctrl+F etc.) and form controls alone
+        if (e.ctrlKey || e.metaKey || e.altKey) return;
+        const active = document.activeElement;
+        if (active && (['INPUT', 'TEXTAREA', 'SELECT'].includes(active.tagName) || active.isContentEditable)) return;
 
         if (e.key === 'ArrowLeft') {
             if (currentPage > 1) {
