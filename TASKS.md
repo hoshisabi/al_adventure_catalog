@@ -57,6 +57,22 @@
       while the heading says "AL Adventure Catalog".
 - [ ] **Card highlight colours in dark theme** — row → card highlight uses `bg-blue-50`; not checked in night-sky theme.
 
+## Private Inventory Rethink (low priority, undecided — 2026-10-09)
+- [x] **Escape inventory table (2026-10-09)** — `inventory.html` `renderTable()` wrote ID/URL/title into
+      `innerHTML` unescaped; an imported inventory file could run script on every page load.
+- [ ] **Decide whether to redesign the feature.** Current setup needs product IDs, a share link per PDF
+      (only automated by `sync_local_inventory.py`, which reads Google Drive for Desktop's local DB), and a
+      CORS-enabled hosted JSON for cross-device use. In practice only usable by the maintainer.
+    - Idea under consideration (not agreed): per-adventure **Owned / Played / Ran** marks toggled in the
+      catalog, stored in localStorage, with "Hide played" / "Owned only" filters. Bulk "owned" import via a
+      bookmarklet on the DM's Guild library page (unverified: library page link format not checked).
+      PDF links kept as an optional per-item field for power users.
+    - Note: `index.html` now ignores non-http(s) private links, so `file://` fallbacks from
+      `sync_local_inventory.py` no longer show an icon (browsers block http→file navigation anyway).
+- [ ] **`PRIVATE_INVENTORY_HELP.md` is out of date** — refers to a "Private Inventory JSON URL" field and a
+      "Try Example" button in the catalog filter panel, which no longer exist (both are on `inventory.html`
+      now, as URL import). Has two sections labelled "Option B". Fix or rewrite once the redesign is decided.
+
 ## 4. Repository & Maintenance (Plan 2 Implementation)
 - [ ] See "Data Handling & Repo Restructure (Plan 2)" below for the full plan (private fixtures submodule, `.gitignore`/pre-commit guard, history scrubbing, licensing & policy).
 
