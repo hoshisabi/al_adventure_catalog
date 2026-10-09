@@ -48,6 +48,8 @@
 - [x] **Accessibility of grid view (2026-10-09)** — sort headers are buttons with `aria-sort`; rows are
       focusable and open card view on Enter/Space, with focus moved to the card; page labels are buttons.
 - [x] **Removable active-filter chips (2026-10-09)** — one chip per active filter above the results.
+      Clicking a value inside the results (pill, author, code) adds a chip without opening the filter
+      panel, and scrolls the chips into view if they are off-screen.
 - [x] **First/last page (2026-10-09)** — « » buttons in both paginations; Shift+←/→ shortcuts.
 - [ ] **Clear Filters vs. display options** — Clear Filters leaves Show Product ID / Show Author on. Decide
       whether that's intended.

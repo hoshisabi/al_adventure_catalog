@@ -563,32 +563,29 @@ function displayResults() {
 
 // ... Rendering functions (Card/Grid) ...
 
-function setHideAiContent(hide, { openPanel = false } = {}) {
+// Scroll the active-filter chips into view if they're off-screen, so a filter
+// added from inside the results is visible without opening the filter panel.
+function revealActiveFilters() {
+    const chips = document.getElementById('active-filters');
+    if (!chips) return;
+    const top = chips.getBoundingClientRect().top;
+    if (top < 0 || top > window.innerHeight) {
+        chips.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+function setHideAiContent(hide, { reveal = false } = {}) {
     filters.hideAiContent = hide;
     const hideAiEl = document.getElementById('hide-ai-content');
     if (hideAiEl) hideAiEl.checked = hide;
 
-    if (hide && openPanel) {
-        const panel = document.getElementById('filter-panel');
-        if (panel && panel.classList.contains('hidden')) {
-            panel.classList.remove('hidden');
-            updateFilterToggleLabel();
-            panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    }
-
     applyFilters();
     updateURLFromFilters();
+    if (reveal) revealActiveFilters();
 }
 
+// Called from pills/links inside the results: adds the filter as a chip
 function filterByValue(field, value) {
-    const panel = document.getElementById('filter-panel');
-    if (panel && panel.classList.contains('hidden')) {
-        panel.classList.remove('hidden');
-        updateFilterToggleLabel();
-        panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
     if (field === 'author' || field === 'search') {
         filters.search = value;
         const searchEl = document.getElementById('search');
@@ -601,6 +598,7 @@ function filterByValue(field, value) {
 
     applyFilters();
     updateURLFromFilters();
+    revealActiveFilters();
 }
 
 function makeFilterChip(field, value, displayText) {
@@ -748,7 +746,7 @@ function createCard(adventure) {
         chip.addEventListener('click', e => {
             e.stopPropagation();
             if (chip.dataset.filter === 'hide-ai') {
-                setHideAiContent(true, { openPanel: true });
+                setHideAiContent(true, { reveal: true });
                 return;
             }
             filterByValue(chip.dataset.filter, chip.dataset.value);
