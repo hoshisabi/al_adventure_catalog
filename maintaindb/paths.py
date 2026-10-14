@@ -58,6 +58,7 @@ DATA_DIR = PROJECT_ROOT / '_data'
 # Specific file paths
 CATALOG_JSON = ASSETS_DATA_DIR / 'catalog.json'
 STATS_JSON = ASSETS_DATA_DIR / 'stats.json'
+ADVENTURE_OVERRIDES_JSON = MAINTAINDB_DIR / 'adventure_overrides.json'
 
 
 def ensure_directories():

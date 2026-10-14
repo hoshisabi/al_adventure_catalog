@@ -11,6 +11,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 from .adventure import DungeonCraft, extract_data_from_html, merge_adventure_data
+from .adventure_overrides import apply_adventure_overrides, load_adventure_overrides
 from .adventure_utils import product_id_from_dmsguild_html_filename
 from .paths import DMSGUILDINFO_DIR, DC_DIR, DMSGUILDINFO_PROCESSED_DIR
 
@@ -93,6 +94,8 @@ def _process_html_file(file_path, args, move_when_done=True):
 
     # Merge new data with existing data
     merged_json_data = dc.to_json()
+    overrides = load_adventure_overrides()
+    apply_adventure_overrides(product_id, merged_json_data, overrides)
 
     # Check if any values were changed or if it's a new file
     is_new_or_changed = not output_exists
@@ -111,6 +114,7 @@ def _process_html_file(file_path, args, move_when_done=True):
 
     # Perform the merge using the new function
     final_data = merge_adventure_data(existing_json_data, merged_json_data, args.force, args.careful)
+    apply_adventure_overrides(product_id, final_data, overrides)
 
     with open(output_file_path, 'w') as f:
         json.dump(final_data, f, indent=4, sort_keys=True)

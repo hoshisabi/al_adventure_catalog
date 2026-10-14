@@ -14,6 +14,7 @@ import xml.etree.ElementTree as ET
 import requests
 
 from .adventure import get_dc_code_and_campaign, get_season
+from .adventure_overrides import apply_adventure_overrides
 
 log = logging.getLogger(__name__)
 
@@ -218,6 +219,7 @@ def main() -> int:
         data = dc_obj.to_json()
         # Mark RSS-created entries for human review, since RSS lacks full fields
         data["needs_review"] = True
+        apply_adventure_overrides(product_id, data)
 
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)

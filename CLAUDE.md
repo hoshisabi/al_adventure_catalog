@@ -60,6 +60,7 @@ uv run python -m maintaindb.process_downloads   # parse HTML in dmsguildinfo/ â†
 uv run python -m maintaindb.process_rss --url <url>  # fetch RSS â†’ _dc/
 uv run python -m maintaindb.stats               # print catalog statistics
 uv run python -m maintaindb.generate_fixup_html # generate fixup.html for missing data
+uv run python -m maintaindb.adventure_overrides # apply adventure_overrides.json to existing _dc/ files
 uv run pytest                                   # run tests
 ```
 
@@ -112,4 +113,5 @@ See `CATALOG_FORMAT.md` for full reference. Short version:
 - `adventure.py` (`DungeonCraft` class) is the **active** parsing library.
 - Component/bundle files: products with multiple adventures use `{product_id}-{N}.json` naming (e.g. `545950-01.json`). See `BUNDLES_AND_COMPONENTS.md`.
 - URL derivation: `https://www.dmsguild.com/product/{base_id}/?affiliate_id=171040` (strip trailing `-N` suffix from product_id).
+- Per-product field corrections the parsers can't get right (translations inferred as adventures, hours taken from numbers in the fiction) go in `maintaindb/adventure_overrides.json` as `{product_id: {"reason": ..., "fields": {...}}}`. `process_downloads` and `process_rss` apply them last, before writing `_dc/`. Hand edits to those fields in `_dc/` alone get reverted on the next ingest.
 - Adventure code parsing lives in `adventure_utils.py` (`get_adventure_code_and_campaigns`). See `CODE_RECOGNITION.md`.
