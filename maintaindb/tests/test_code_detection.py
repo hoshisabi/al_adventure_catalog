@@ -12,8 +12,10 @@ if str(PROJECT_ROOT) not in sys.path:
 
 try:
     import adventure
+    import adventure_utils
 except ModuleNotFoundError:
     from maintaindb import adventure
+    from maintaindb import adventure_utils
 
 @pytest.fixture
 def bs_555262():
@@ -81,6 +83,42 @@ def test_extract_code_from_description_3digit():
     text3 = "Using code WBW-DC-TEST-12"
     result3 = adventure._extract_code_from_description(text3)
     assert result3[0] == "WBW-DC-TEST-12"
+
+@pytest.mark.parametrize("text, expected", [
+    ("Adventure Code: PO-MURGHÔM-AL-01-00\n\nDescription", "PO-MURGHÔM-AL-01-00"),
+    ("Adventure Code: PO-MURGHÔM-EP-01-01", "PO-MURGHÔM-EP-01-01"),
+    ("adventure code po-murghôm-al-01-01", "PO-MURGHÔM-AL-01-01"),
+    ("Part of the PO-BK-1-04 series", "PO-BK-1-04"),
+    ("Code: PO-BK2-03", "PO-BK2-03"),
+])
+def test_extract_premier_organization_code_from_description(text, expected):
+    result = adventure._extract_code_from_description(text)
+    assert result is not None
+    code, campaigns = result
+    assert code == expected
+    assert campaigns == ["Forgotten Realms"]
+
+def test_premier_organization_code_in_title():
+    code, campaigns = adventure_utils.get_adventure_code_and_campaigns("PO-MURGHÔM-AL-01-01 Trouble at Kobold Crown")
+    assert code == "PO-MURGHÔM-AL-01-01"
+    assert campaigns == ["Forgotten Realms"]
+
+def test_en_dash_ranges_in_description():
+    html = """
+    <title>The Grand Bazaar of Skalnaedyr - Dungeon Masters Guild</title>
+    <div class="prod-content">
+    Format: D&amp;D Adventurers League Adventure (Tier 1)
+    Optimized For: APL 3 (Levels 1–4)
+    Length: 4–6 Hours
+    Adventure Code: PO-MURGHÔM-AL-01-00
+    </div>
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    data = adventure.extract_data_from_html(soup, product_id="999998")
+    assert data["code"] == "PO-MURGHÔM-AL-01-00"
+    assert data["hours"] == "4-6"
+    assert data["level_range"] == "1-4"
+    assert data["is_adventure"] is True
 
 def test_full_extraction_555262(bs_555262):
     # This tests the integration of JSON-LD SKU and description fallback

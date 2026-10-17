@@ -36,6 +36,17 @@
       With ~2,400 adventures a filter pass takes under 1 ms, so a separate `search_index.json` (§1) isn't
       needed for speed. Remaining gap vs. #8: search doesn't match campaign/season and doesn't ignore
       punctuation. Decide whether that's worth doing, then close #8.
+    - [x] **Accent-insensitive search (2026-10-17)** — query and fields are NFD-folded, so `murghom` finds
+      `PO-MURGHÔM-…` and `przeklety` finds "Przeklęty Klucz".
+- [ ] **Premier Organization (PO) filter** (2026-10-17)
+    - PO = an organization with special WotC permission; very few adventures, so a dedicated filter helps.
+    - Known POs: Border Kingdoms (`PO-BK-*`, `PO-BK2-*`, 38 entries), Murghôm (`PO-MURGHÔM-*`, 3 entries
+      as of 2026-10-17), Baldman Games (`BMG-DRW`/`BMG-MOON`/`BMG-DL` and `-EP` variants, ~31 entries).
+      BMG doesn't use the `PO-` prefix, so detection is a list of prefixes, not a `PO-` match.
+    - Plan: flag bit `8` in catalog `f` (set by aggregator), filter chip in the UI, `CATALOG_FORMAT.md` update.
+    - **Open question:** do the older `CCC-BMG-*` / `CCC-BMG-MOON*` adventures (~108) count as PO? They predate
+      the PO program (CCC era). Leaning no.
+    - Done already: parser recognizes any `PO-<REGION>-…` code, including non-ASCII regions (2026-10-17).
 - [ ] **Detail View** — tracked in [#9](https://github.com/hoshisabi/al_adventure_catalog/issues/9)
     - Create a UI component (modal or side-panel) to display the "fetched" individual adventure data.
 - [x] **Result Counts** — "Showing X-Y of Z" updates with filters + search.

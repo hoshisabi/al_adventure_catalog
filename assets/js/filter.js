@@ -409,11 +409,13 @@ function applyFilters() {
     }
 
     if (filters.search) {
-        const q = filters.search.toLowerCase();
+        // Fold case and accents so "murghom" matches "PO-MURGHÔM"
+        const fold = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+        const q = fold(filters.search);
         results = results.filter(adv => {
-            const authors = Array.isArray(adv.a) ? adv.a.join(' ').toLowerCase() : (adv.a || '').toLowerCase();
-            return (adv.n && adv.n.toLowerCase().includes(q)) ||
-                (adv.c && adv.c.toLowerCase().includes(q)) ||
+            const authors = fold(Array.isArray(adv.a) ? adv.a.join(' ') : (adv.a || ''));
+            return (adv.n && fold(adv.n).includes(q)) ||
+                (adv.c && fold(adv.c).includes(q)) ||
                 authors.includes(q);
         });
     }

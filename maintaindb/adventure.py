@@ -1208,6 +1208,9 @@ def _extract_raw_data_from_html(parsed_html, product_id):
     
     # Get combined text for regex-based extraction
     combined_text = _collect_text_for_regexes(parsed_html)
+    # Normalize Unicode dash variants so ranges like "4–6 Hours" and "Levels 1–10" parse as ranges
+    for dash_char in ['‐', '‑', '‒', '–', '—', '―', '−']:
+        combined_text = combined_text.replace(dash_char, '-')
     # Store description text for code extraction fallback
     raw_data["description_text"] = combined_text
     
@@ -1568,8 +1571,11 @@ def _extract_code_from_description(description_text):
         (r'\b(DDIA-[A-Za-z]+(?:-\d{1,2})?|DDIA\d{1,2})\b', lambda m: m.group(0).upper()),
         # CCCs with optional extra part (e.g., CCC-BMG-01, CCC-GSP-01-01)
         (r'\b(AL|CCC-)[A-Z]{2,3}-\d{1,2}(?:-\d{1,2})?(?:-[A-Za-z0-9]+)?\b', lambda m: m.group(0).upper()),
-        # BMG codes (e.g., BMG-DRW-01, PO-BK-1-04) - may have additional dash-number sequence
-        (r'\b(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}(?:-\d{1,2})?\b', lambda m: m.group(0).upper()),
+        # Premier Organization codes: PO-<REGION>[-<SERIES>]-NN[-NN] (e.g., PO-BK-1-04, PO-BK2-03, PO-MURGHÔM-AL-01-00)
+        # Region may contain non-ASCII letters, hence [^\W\d_] instead of [A-Z]
+        (r'\bPO-[^\W\d_][^\W_]*(?:-[^\W\d_]+)*-\d{1,2}(?:-\d{1,2})?\b', lambda m: m.group(0).upper()),
+        # BMG codes (e.g., BMG-DRW-01) - may have additional dash-number sequence
+        (r'\b(BMG-DRW|BMG-MOON|BMG-DL)-\d{1,2}(?:-\d{1,2})?\b', lambda m: m.group(0).upper()),
         # Ravenloft Module Hunt (e.g., RMH-01)
         (r'\b(RMH)-(\d{1,2})\b', lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # Eberron Sharn Modules (e.g., EB-SM-01)

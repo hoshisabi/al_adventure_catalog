@@ -89,6 +89,7 @@ DC_CAMPAIGNS = {
     'WBW-DC': 'Forgotten Realms', # Changed from The Wild Beyond the Witchlight
     'DC-POA': 'Forgotten Realms', # Changed from Icewind Dale: Rime of the Frostmaiden
     'PO-BK': 'Forgotten Realms',
+    'PO-MURGHÔM': 'Forgotten Realms',
     'BMG-DRW': 'Forgotten Realms',
     'BMG-DL': 'Dragonlance',
     'BMG-MOON': 'Forgotten Realms',
@@ -495,8 +496,11 @@ def get_adventure_code_and_campaigns(full_title: Optional[str]) -> Tuple[Optiona
         # Normalize to always include dash after CCC (e.g., CCCTHENT01-03 -> CCC-THENT01-03)
         (r"^(AL|CCC-?)([A-Z]{2,}[0-9]*(?:-[A-Za-z0-9]+|-\d{1,2})+)", 
          lambda m: f"{m.group(1).upper()}-{m.group(2).upper()}" if m.group(1).upper() == "CCC" and not m.group(1).endswith("-") else m.group(0).upper()),
-        # BMG codes (e.g., BMG-DRW-01, PO-BK-1-04) - may have additional dash-number sequence
-        (r"^(BMG-DRW|BMG-MOON|BMG-DL|PO-BK)-\d{1,2}(?:-\d{1,2})?", lambda m: m.group(0).upper()),
+        # Premier Organization codes: PO-<REGION>[-<SERIES>]-NN[-NN] (e.g., PO-BK-1-04, PO-BK2-03, PO-MURGHÔM-AL-01-00)
+        # Region may contain non-ASCII letters, hence [^\W\d_] instead of [A-Z]
+        (r"^PO-[^\W\d_][^\W_]*(?:-[^\W\d_]+)*-\d{1,2}(?:-\d{1,2})?", lambda m: m.group(0).upper()),
+        # BMG codes (e.g., BMG-DRW-01) - may have additional dash-number sequence
+        (r"^(BMG-DRW|BMG-MOON|BMG-DL)-\d{1,2}(?:-\d{1,2})?", lambda m: m.group(0).upper()),
         # Ravenloft Module Hunt (e.g., RMH-01)
         (r"^(RMH)-(\d{1,2})", lambda m: f"{m.group(1).upper()}-{m.group(2)}"),
         # Eberron Sharn Modules / Salvage Missions (e.g., EB-SM-01, EB-SM-METALLUS)

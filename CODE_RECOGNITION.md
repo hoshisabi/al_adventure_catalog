@@ -55,6 +55,13 @@ Modern AL campaign content.
 
 *   **Examples**: `DDAL-DRW-01`, `BMG-DRW-01`
 
+### 7. Premier Organizations (PO)
+Content from organizations with special permission from WotC. Codes are `PO-{Region}[-{Series}]-{NN}[-{NN}]`. The region can contain non-ASCII letters.
+
+*   **Examples**: `PO-BK-1-04`, `PO-BK2-03` (Border Kingdoms), `PO-MURGHÔM-AL-01-00`, `PO-MURGHÔM-EP-01-01` (Murghôm)
+*   **Campaigns**: each region needs an entry in `DC_CAMPAIGNS` (`adventure_utils.py`). Without one, the code is recognized but gets no campaign.
+*   Baldman Games (BMG) is also a Premier Organization but codes without the `PO-` prefix (`BMG-DRW`, `BMG-MOON`, `BMG-DL`).
+
 ## Special Cases
 
 ### BK to PO-BK Mapping
