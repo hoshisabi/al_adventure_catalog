@@ -1,4 +1,5 @@
 {
+    "ai_content": false,
     "apl": 8,
     "authors": [
         "Aster",
@@ -12,7 +13,7 @@
     "full_title": "8123: Blue is the Color of Sorrow (FR-DC-ASTER-CLR-03)",
     "hours": "4",
     "is_adventure": true,
-    "last_update": "20261014",
+    "last_update": "20261017",
     "level_range": "5-10",
     "payWhatYouWant": false,
     "price": 4.99,
