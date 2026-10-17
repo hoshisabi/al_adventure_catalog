@@ -28,14 +28,14 @@ try:
     from .adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
     from .adventure_utils import (
         normalize_ddal_ddex_code, normalize_season_display, SEASONS,
-        CAMPAIGN_BITMASK, FLAG_BITMASK
+        CAMPAIGN_BITMASK, FLAG_BITMASK, is_premier_organization_code
     )
     from .paths import DC_DIR, STATS_DIR
 except (ImportError, ValueError):
     from adventure import DC_CAMPAIGNS, DDAL_CAMPAIGN, get_dc_code_and_campaign
     from adventure_utils import (
         normalize_ddal_ddex_code, normalize_season_display, SEASONS,
-        CAMPAIGN_BITMASK, FLAG_BITMASK
+        CAMPAIGN_BITMASK, FLAG_BITMASK, is_premier_organization_code
     )
     from paths import DC_DIR, STATS_DIR
 
@@ -263,7 +263,7 @@ def create_catalog_entry(adventure):
     # t: tiers (was ti)
     # u: url (omitted if standard DMsGuild affiliate pattern)
     # d: date_created
-    # f: flags bitmask (1: cc, 2: dc, 4: sm)
+    # f: flags bitmask (1: cc, 2: dc, 4: sm, 8: po)
     # ac: ai_content (1: human-created/no AI, 2: contains AI; omitted = unknown)
     # e: seed (optional)
     # lu: last_update (optional)
@@ -316,11 +316,12 @@ def create_catalog_entry(adventure):
     if seed:
         entry['e'] = seed
         
-    # Flags bitmask: cc=1, dc=2, sm=4
+    # Flags bitmask: cc=1, dc=2, sm=4, po=8
     flags = 0
     if adventure.get('community_content'): flags |= FLAG_BITMASK['community_content']
     if adventure.get('dungeoncraft'): flags |= FLAG_BITMASK['dungeoncraft']
     if adventure.get('salvage_mission'): flags |= FLAG_BITMASK['salvage_mission']
+    if is_premier_organization_code(adventure.get('code')): flags |= FLAG_BITMASK['premier_organization']
     
     if flags > 0:
         entry['f'] = flags

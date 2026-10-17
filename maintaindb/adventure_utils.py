@@ -18,8 +18,17 @@ CAMPAIGN_BITMASK = {
 FLAG_BITMASK = {
     'community_content': 1,
     'dungeoncraft': 2,
-    'salvage_mission': 4
+    'salvage_mission': 4,
+    'premier_organization': 8,
 }
+
+# Code prefixes of Premier Organizations (groups with special WotC permission).
+# BMG is a PO but codes without the PO- prefix. Older CCC-BMG-* convention content is not PO.
+PREMIER_ORG_CODE_PREFIXES = ('PO-', 'BMG-')
+
+
+def is_premier_organization_code(code: Optional[str]) -> bool:
+    return bool(code) and str(code).upper().startswith(PREMIER_ORG_CODE_PREFIXES)
 
 # Season labels (named programs + numeric seasons 1-10 + Eberron/Ravenloft seasons)
 # Note: Order matters for prefix matching - more specific prefixes should come first

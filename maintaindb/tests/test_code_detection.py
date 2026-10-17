@@ -103,6 +103,19 @@ def test_premier_organization_code_in_title():
     assert code == "PO-MURGHÔM-AL-01-01"
     assert campaigns == ["Forgotten Realms"]
 
+@pytest.mark.parametrize("code, expected", [
+    ("PO-BK-1-04", True),
+    ("PO-MURGHÔM-EP-01-01", True),
+    ("BMG-DRW-OD-01", True),
+    ("bmg-moon-md-03", True),
+    ("CCC-BMG-01", False),
+    ("CCC-BMG-MOON3-2", False),
+    ("FR-DC-ONI-07", False),
+    (None, False),
+])
+def test_is_premier_organization_code(code, expected):
+    assert adventure_utils.is_premier_organization_code(code) is expected
+
 def test_en_dash_ranges_in_description():
     html = """
     <title>The Grand Bazaar of Skalnaedyr - Dungeon Masters Guild</title>

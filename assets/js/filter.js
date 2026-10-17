@@ -13,6 +13,7 @@ let filters = {
     hours: '',
     source: '',
     ccOnly: false,
+    poOnly: false,
     hideAiContent: false,
     privateOnly: false,
     showProductId: false,
@@ -231,6 +232,7 @@ function applyFiltersFromURL() {
     if (params.has('source')) filters.source = params.get('source');
     if (params.has('search')) filters.search = params.get('search');
     if (params.has('ccOnly')) filters.ccOnly = params.get('ccOnly') === 'true';
+    if (params.has('poOnly')) filters.poOnly = params.get('poOnly') === 'true';
     if (params.has('hideAi')) filters.hideAiContent = params.get('hideAi') === 'true';
     else if (params.get('aiContent') === 'hide') filters.hideAiContent = true;
     if (params.has('privateOnly')) filters.privateOnly = params.get('privateOnly') === 'true';
@@ -258,6 +260,8 @@ function applyFiltersFromURL() {
 
     const ccOnlyEl = document.getElementById('cc-only');
     if (ccOnlyEl) ccOnlyEl.checked = filters.ccOnly || false;
+    const poOnlyEl = document.getElementById('po-only');
+    if (poOnlyEl) poOnlyEl.checked = filters.poOnly || false;
     const hideAiEl = document.getElementById('hide-ai-content');
     if (hideAiEl) hideAiEl.checked = filters.hideAiContent || false;
     const privateOnlyEl = document.getElementById('private-only');
@@ -279,6 +283,7 @@ function updateURLFromFilters() {
     if (filters.source) params.set('source', filters.source);
     if (filters.search) params.set('search', filters.search);
     if (filters.ccOnly) params.set('ccOnly', 'true');
+    if (filters.poOnly) params.set('poOnly', 'true');
     if (filters.hideAiContent) params.set('hideAi', 'true');
     if (filters.privateOnly) params.set('privateOnly', 'true');
     if (filters.showProductId) params.set('showProductId', 'true');
@@ -398,6 +403,10 @@ function applyFilters() {
 
     if (filters.ccOnly) {
         results = results.filter(adv => adv.f && (adv.f & 1));
+    }
+
+    if (filters.poOnly) {
+        results = results.filter(adv => adv.f && (adv.f & 8));
     }
 
     if (filters.hideAiContent) {
@@ -957,6 +966,7 @@ function clearFilters() {
     filters.hours = '';
     filters.source = '';
     filters.ccOnly = false;
+    filters.poOnly = false;
     filters.hideAiContent = false;
     filters.privateOnly = false;
     filters.search = '';
@@ -967,6 +977,8 @@ function clearFilters() {
     });
     const ccOnly = document.getElementById('cc-only');
     if (ccOnly) ccOnly.checked = false;
+    const poOnly = document.getElementById('po-only');
+    if (poOnly) poOnly.checked = false;
     const hideAi = document.getElementById('hide-ai-content');
     if (hideAi) hideAi.checked = false;
     const privateOnly = document.getElementById('private-only');
@@ -985,6 +997,7 @@ const FILTER_CONTROLS = {
     source: 'source',
     search: 'search',
     ccOnly: 'cc-only',
+    poOnly: 'po-only',
     hideAiContent: 'hide-ai-content',
     privateOnly: 'private-only',
 };
@@ -1002,6 +1015,7 @@ function activeFilterLabel(key) {
         }
         case 'search': return `Search: “${val}”`;
         case 'ccOnly': return 'Community content';
+        case 'poOnly': return 'Premier Organization';
         case 'hideAiContent': return 'Hiding AI assisted';
         case 'privateOnly': return 'In private inventory';
     }
@@ -1093,6 +1107,12 @@ function setupEventListeners() {
 
     document.getElementById('cc-only')?.addEventListener('change', e => {
         filters.ccOnly = e.target.checked;
+        applyFilters();
+        updateURLFromFilters();
+    });
+
+    document.getElementById('po-only')?.addEventListener('change', e => {
+        filters.poOnly = e.target.checked;
         applyFilters();
         updateURLFromFilters();
     });

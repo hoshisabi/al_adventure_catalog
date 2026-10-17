@@ -73,6 +73,7 @@ A bitwise OR of the following values:
 | 1 | 0 | `community_content` |
 | 2 | 1 | `dungeoncraft` |
 | 4 | 2 | `salvage_mission` |
+| 8 | 3 | Premier Organization. Not stored in `_dc/`; the aggregator sets it from the code (`PO-*` or `BMG-*`, not `CCC-BMG-*`). |
 
 Example: `f: 3` means it is both Community Content and Dungeoncraft.
 

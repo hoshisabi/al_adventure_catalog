@@ -38,15 +38,17 @@
       punctuation. Decide whether that's worth doing, then close #8.
     - [x] **Accent-insensitive search (2026-10-17)** — query and fields are NFD-folded, so `murghom` finds
       `PO-MURGHÔM-…` and `przeklety` finds "Przeklęty Klucz".
-- [ ] **Premier Organization (PO) filter** (2026-10-17)
+- [x] **Premier Organization (PO) filter** (2026-10-17)
     - PO = an organization with special WotC permission; very few adventures, so a dedicated filter helps.
     - Known POs: Border Kingdoms (`PO-BK-*`, `PO-BK2-*`, 38 entries), Murghôm (`PO-MURGHÔM-*`, 3 entries
       as of 2026-10-17), Baldman Games (`BMG-DRW`/`BMG-MOON`/`BMG-DL` and `-EP` variants, ~31 entries).
       BMG doesn't use the `PO-` prefix, so detection is a list of prefixes, not a `PO-` match.
-    - Plan: flag bit `8` in catalog `f` (set by aggregator), filter chip in the UI, `CATALOG_FORMAT.md` update.
-    - **Open question:** do the older `CCC-BMG-*` / `CCC-BMG-MOON*` adventures (~108) count as PO? They predate
-      the PO program (CCC era). Leaning no.
-    - Done already: parser recognizes any `PO-<REGION>-…` code, including non-ASCII regions (2026-10-17).
+    - Flag bit `8` in catalog `f`, set by the aggregator from the code (`is_premier_organization_code`).
+      "Premier Organization" checkbox + chip in the UI, `?poOnly=true` in the URL. 71 adventures flagged.
+    - Decided: older `CCC-BMG-*` / `CCC-BMG-MOON*` adventures are **not** PO (CCC-era content).
+    - New PO regions: add the region to `DC_CAMPAIGNS` for its campaign. New non-`PO-` organizations: add the
+      prefix to `PREMIER_ORG_CODE_PREFIXES`.
+    - Parser recognizes any `PO-<REGION>-…` code, including non-ASCII regions.
 - [ ] **Detail View** — tracked in [#9](https://github.com/hoshisabi/al_adventure_catalog/issues/9)
     - Create a UI component (modal or side-panel) to display the "fetched" individual adventure data.
 - [x] **Result Counts** — "Showing X-Y of Z" updates with filters + search.
