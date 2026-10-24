@@ -6,5 +6,9 @@
   "588478": {
     "reason": "Spanish translation of FR-DC-OMR-EW3 (582939)",
     "fields": {"is_adventure": false}
+  },
+  "288447": {
+    "reason": "Book of six adventures (DDAL00-11a-f), listed as components 288447-1..6",
+    "fields": {"is_adventure": false, "level_range": "1-20", "hours": "2-6"}
   }
 }
