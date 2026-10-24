@@ -11,7 +11,7 @@
     "dungeoncraft": false,
     "full_title": "Project_Lamordia",
     "hours": null,
-    "is_adventure": true,
+    "is_adventure": false,
     "last_update": "20261024",
     "level_range": "1-5",
     "payWhatYouWant": false,
@@ -19,7 +19,7 @@
     "product_id": "SRC-00270",
     "salvage_mission": false,
     "season": null,
-    "tiers": 1,
+    "tiers": "1-2",
     "title": "Project_Lamordia",
     "url": "https://www.dndbeyond.com/sources/dnd/prla"
 }
