@@ -1,26 +1,26 @@
 {
     "tier": {
-        "Tier 1": 931,
+        "Tier 1": 934,
         "Tier 2": 939,
-        "Tier 3": 386,
+        "Tier 3": 387,
         "Tier 4": 105,
         "Unknown": 11
     },
     "duration": {
         "1 Hours": 29,
         "2 Hours": 651,
-        "All Others": 233,
-        "4 Hours": 1603,
+        "All Others": 234,
+        "4 Hours": 1604,
         "8 Hours": 14,
         "6 Hours": 57,
-        "Unknown": 166
+        "Unknown": 169
     },
     "campaign": {
-        "Forgotten Realms": 2215,
-        "Ravenloft": 106,
+        "Forgotten Realms": 2218,
+        "Ravenloft": 107,
         "Unknown": 12,
-        "Dragonlance": 73,
-        "Eberron": 113,
+        "Dragonlance": 74,
+        "Eberron": 115,
         "Critical Role": 19
     },
     "season": {
@@ -39,7 +39,7 @@
         "13 - Planescape": 121
     },
     "season_excluded": {
-        "No season": 1219,
+        "No season": 1223,
         "Embers of War": 12,
         "Oracle of War": 25,
         "Eberron Salvage Mission": 28,
@@ -49,7 +49,7 @@
         "9 - Baldur's Gate: Descent into Avernus": 1
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1474,
+        "Human-created (disclosed)": 1478,
         "Not disclosed": 790,
         "AI assisted": 108
     },
@@ -104,6 +104,6 @@
             "Headed My Way?": 2
         }
     },
-    "total": 2372,
-    "timestamp": "20261024181554"
+    "total": 2376,
+    "timestamp": "20261024182113"
 }
