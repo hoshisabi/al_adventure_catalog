@@ -2,7 +2,7 @@
     "tier": {
         "Tier 1": 930,
         "Tier 2": 937,
-        "Tier 3": 384,
+        "Tier 3": 385,
         "Tier 4": 104,
         "Unknown": 11
     },
@@ -10,13 +10,13 @@
         "1 Hours": 29,
         "2 Hours": 649,
         "All Others": 229,
-        "4 Hours": 1598,
+        "4 Hours": 1599,
         "8 Hours": 14,
         "6 Hours": 55,
         "Unknown": 167
     },
     "campaign": {
-        "Forgotten Realms": 2209,
+        "Forgotten Realms": 2210,
         "Ravenloft": 106,
         "Unknown": 12,
         "Dragonlance": 73,
@@ -36,7 +36,7 @@
         "10 - Icewind Dale": 186,
         "11 - Wild Beyond the Witchlight": 237,
         "12 - Spelljammer": 316,
-        "13 - Planescape": 120
+        "13 - Planescape": 121
     },
     "season_excluded": {
         "No season": 1214,
@@ -49,7 +49,7 @@
         "9 - Baldur's Gate: Descent into Avernus": 1
     },
     "ai_assisted": {
-        "Human-created (disclosed)": 1474,
+        "Human-created (disclosed)": 1475,
         "Not disclosed": 784,
         "AI assisted": 108
     },
@@ -104,6 +104,6 @@
             "Headed My Way?": 2
         }
     },
-    "total": 2366,
-    "timestamp": "20261017154315"
+    "total": 2367,
+    "timestamp": "20261023202623"
 }
