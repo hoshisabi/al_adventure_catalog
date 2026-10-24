@@ -287,6 +287,17 @@ Tasks:
 * [ ] Add richer stats (e.g., adventures per year, adventures per publisher) and explore alternate visualizations (e.g., search facets, tag clouds) — tracked in [#11](https://github.com/hoshisabi/al_adventure_catalog/issues/11).
 * [ ] Consider basic test coverage for `aggregator.py` functions.
 * [ ] Consider adding optional CV-style auto-generated thumbnails (stretch goal).
+* [ ] **Hardcover / D&D Beyond coverage review (2026-10-24)** — prompted by player feedback (ttrpger) and checked against DigitalMatt's [AL-Legal Hardcovers](https://www.adventurersleague.info/al-legal-hardcovers/) list.
+    * **Decisions:**
+        * Books marked "Not AL-Legal" on that list are out of scope. None were in the catalog at review time (Borderlands Quest: Goblin Trouble, `BQGT`, is one; Dagger Danger, `BQDD`, isn't on the list and is also left out).
+        * DigitalMatt's list is an unofficial checklist (it applies the ALAG/ALPG rules itself). Use it to find gaps, not as an authority.
+        * New codes use `DDHC-<DDB source abbreviation>` (e.g. `DDHC-AUD`). Source IDs come from `https://www.dndbeyond.com/api/config/json` (`sources[]`); rows are `SRC-<id padded to 5>`. Marketplace `category/SRC-…` URLs 404 for newer IDs, so those rows use `/sources/dnd/<abbr>`.
+        * Project_Lamordia (`SRC-00270`) is AL-legal per official AL guidance on Discord (2026-10): it is an official D&D product, so the ALPG adventure/campaign rules apply (Ravenloft).
+    * **Done:** DDAL00-11a–f split out of Pipyap's Guide (`288447-1..6`, data from the Season 0 rewards CSV). Added Deadfall, Heroes of the Borderlands, Hold Back the Dead, Fated Flight of the Recluse, Project_Lamordia.
+    * **Open:**
+        * Hours missing on all new DDB rows except Hold Back the Dead; levels for HotB and FFotR come from one secondary source each; dates for FFotR and PrLa are approximate (DDB avatar upload dates).
+        * Adventures in Faerûn: player count is 52 chapters, likely mostly short encounters. Needs the book to decide what (if anything) to list beyond `DDHC-AiF-1/2`.
+        * Books ttrpger suggested splitting into chapters (CoS, BGDIA, ToA, WDH, LoX, …): undecided. Current rule of thumb is to split only anthology books.
 
 ---
 
