@@ -304,6 +304,33 @@ class DungeonCraft:
                                 code_removed = True
                             break
 
+            # Strip a trailing or leading wrapped code: "Title [CODE]", "(CODE) Title", "Title <CODE>".
+            # The prefix loop above only matches an unwrapped code at the start, so "[CODE] Title"
+            # and "Title [CODE]" would otherwise leave the wrapping brackets behind.
+            if not code_removed:
+                for try_code in codes_to_try:
+                    safe = re.escape(try_code)
+                    start_wrapped = r'^\s*[\[\(\<]\s*' + safe + r'\s*[\]\)\>][\s\-:]*'
+                    match = re.search(start_wrapped, normalized_t, re.IGNORECASE)
+                    if match:
+                        remaining = t[match.end():].strip()
+                        if remaining:
+                            t = remaining
+                            normalized_t = normalized_t[match.end():].strip()
+                            normalized_t_lower = normalized_t.lower()
+                            code_removed = True
+                            break
+                    end_pattern = r'[\s\-:]*[\[\(\<]?\s*' + safe + r'\s*[\]\)\>]?\s*$'
+                    match = re.search(end_pattern, normalized_t, re.IGNORECASE)
+                    if match:
+                        remaining = t[:match.start()].strip()
+                        if remaining:
+                            t = remaining
+                            normalized_t = normalized_t[:match.start()].strip()
+                            normalized_t_lower = normalized_t.lower()
+                            code_removed = True
+                            break
+
         # Remove explicit (5e) marker and any remaining standalone '5e' tokens (commonly at end)
         t = re.sub(r"\(\s*5e\s*\)", "", t, flags=re.IGNORECASE)
         
@@ -316,13 +343,18 @@ class DungeonCraft:
         t = re.sub(r'\s*-\s*D&D Adventurers League.*$', '', t, flags=re.IGNORECASE)
         
         # Remove DC trailing code fragments like FR-DC-XXX in the visible short title
-        # [A-Z0-9&] handles single-letter prefixes like 'F' in FR-DC-F&ADDM-LES3
-        regex = r'[A-Z]{2,}-DC-[A-Z0-9&][^\s]*'
+        # [A-Z0-9&] handles single-letter prefixes like 'F' in FR-DC-F&ADDM-LES3.
+        # Optional wrapping punctuation so "Title [CODE]" does not leave a dangling "["
+        # (the old [^\s]* form swallowed the closing ] with the code).
+        regex = r'[\[\(\<]?\s*[A-Z]{2,}-DC-[A-Z0-9&][^\s\[\]\(\)\<\>]*\s*[\]\)\>]?'
         # Also strip colons; keep parentheses removal after (5e) handled to avoid leaving '5e'
         t = t.replace(':', '')
         # Remove parentheses contents gently (except we've already removed (5e))
         t = t.replace('(', '').replace(')', '')
         result = re.sub(regex, '', t)
+        # Wrappers left empty or dangling after a DC code was stripped ("Title [", "Title []")
+        result = re.sub(r'[\[\(\<]\s*[\]\)\>]', '', result)
+        result = re.sub(r'\s*[\[\(\<]\s*$', '', result)
         # Remove any trailing '- 5e' or ' 5e'
         result = re.sub(r"[\s-]*\b5e\b[\s-]*$", "", result, flags=re.IGNORECASE)
         # Clean up any remaining double spaces

@@ -56,3 +56,41 @@ def test_short_title_strips_trailing_dash():
         tiers=1,
     )
     assert dc.title == "An Old Road To Deadsnows", f"Expected no trailing dash, got: {dc.title!r}"
+
+def test_short_title_strips_bracketed_trailing_code():
+    # "Title [CODE]" left a dangling "[" after the DC regex ate "CODE]".
+    # Regression for PS-DC-ASTER-ALPBT-01 / product 590273.
+    dc = adventure.DungeonCraft(
+        product_id="590273",
+        title="A is for Ancient White Dragon [PS-DC-ASTER-ALPBT-01]",
+        authors=["Aster", "The 8 Int Wizard"],
+        code="PS-DC-ASTER-ALPBT-01",
+        date_created=None,
+        hours="4",
+        tiers=3,
+    )
+    assert dc.title == "A is for Ancient White Dragon", f"Expected no leftover bracket, got: {dc.title!r}"
+
+def test_short_title_strips_bracketed_leading_code():
+    dc = adventure.DungeonCraft(
+        product_id="1",
+        title="[FR-DC-F&ADDM-GW1] The Genie's Wishes, Chap. 1 Cold Open",
+        authors=["Forever&ADayDM"],
+        code="FR-DC-F&ADDM-GW1",
+        date_created=None,
+        hours=None,
+        tiers=1,
+    )
+    assert dc.title == "The Genie's Wishes, Chap. 1 Cold Open", f"Expected wrapped leading code stripped, got: {dc.title!r}"
+
+def test_short_title_keeps_bundle_marker():
+    dc = adventure.DungeonCraft(
+        product_id="1",
+        title="Some Collection [BUNDLE]",
+        authors=["Test"],
+        code="FR-DC-FOO-01",
+        date_created=None,
+        hours=None,
+        tiers=1,
+    )
+    assert dc.title == "Some Collection [BUNDLE]", f"Expected [BUNDLE] kept, got: {dc.title!r}"
