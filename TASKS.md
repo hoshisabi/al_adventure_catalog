@@ -292,12 +292,14 @@ Tasks:
         * Books marked "Not AL-Legal" on that list are out of scope. None were in the catalog at review time (Borderlands Quest: Goblin Trouble, `BQGT`, is one; Dagger Danger, `BQDD`, isn't on the list and is also left out).
         * DigitalMatt's list is an unofficial checklist (it applies the ALAG/ALPG rules itself). Use it to find gaps, not as an authority.
         * New codes use `DDHC-<DDB source abbreviation>` (e.g. `DDHC-AUD`). Source IDs come from `https://www.dndbeyond.com/api/config/json` (`sources[]`); rows are `SRC-<id padded to 5>`. Marketplace `category/SRC-…` URLs 404 for newer IDs, so those rows use `/sources/dnd/<abbr>`.
-        * Project_Lamordia (`SRC-00270`) is AL-legal per official AL guidance on Discord (2026-10): it is an official D&D product, so the ALPG adventure/campaign rules apply (Ravenloft).
-    * **Done:** DDAL00-11a–f split out of Pipyap's Guide (`288447-1..6`, data from the Season 0 rewards CSV). Added Deadfall, Heroes of the Borderlands, Hold Back the Dead, Fated Flight of the Recluse, Project_Lamordia.
+        * Project_Lamordia (`SRC-00270`) is AL-legal per official AL guidance on Discord (2026-10): it is an official D&D product, so the ALPG adventure/campaign rules apply (Ravenloft). It contains three standalone adventures, listed as `SRC-00270-01..03`.
+        * Only anthology books (independent adventures, e.g. Candlekeep Mysteries, Dragon Delves, Project_Lamordia) are split into component rows. Campaign books (Curse of Strahd, Descent into Avernus, Tomb of Annihilation, Dragon Heist, Light of Xaryxis, and the rest of ttrpger's list) stay as one row each.
+        * A one-shot or single-session adventure with no stated runtime gets `hours: "3"`.
+    * **Done:** DDAL00-11a–f split out of Pipyap's Guide (`288447-1..6`, data from the Season 0 rewards CSV). Added Deadfall, Heroes of the Borderlands, Hold Back the Dead, Fated Flight of the Recluse (level 3, 3 hours), Project_Lamordia (published 2026-10-13).
     * **Open:**
-        * Hours missing on all new DDB rows except Hold Back the Dead; HotB levels (1-3) come from one secondary source; FFotR date is approximate (DDB avatar upload date); PrLa published 2026-10-13. FFotR level 3 confirmed from the DDB page (2026-10-24); released late Nov / early Dec 2025 as the one-shot companion to Eberron: Forge of the Artificer, consistent with the stored 20251125.
+        * Hours missing on Deadfall and Heroes of the Borderlands. HotB levels (1-3) come from one secondary source. FFotR date (20251125) is approximate (DDB avatar upload date; released late Nov / early Dec 2025).
+        * Heroes of the Borderlands has three self-contained areas (Caves of Chaos, Keep, Wilderness); decide whether that counts as an anthology.
         * Adventures in Faerûn: player count is 52 chapters, likely mostly short encounters. Needs the book to decide what (if anything) to list beyond `DDHC-AiF-1/2`.
-        * Books ttrpger suggested splitting into chapters (CoS, BGDIA, ToA, WDH, LoX, …): undecided. Current rule of thumb is to split only anthology books.
 
 ---
 
