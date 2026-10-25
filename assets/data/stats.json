@@ -9,11 +9,11 @@
     "duration": {
         "1 Hours": 29,
         "2 Hours": 651,
-        "All Others": 238,
+        "All Others": 237,
         "4 Hours": 1604,
         "8 Hours": 14,
         "6 Hours": 57,
-        "Unknown": 168
+        "Unknown": 169
     },
     "campaign": {
         "Forgotten Realms": 2218,
@@ -105,5 +105,5 @@
         }
     },
     "total": 2379,
-    "timestamp": "20261025033415"
+    "timestamp": "20261025033428"
 }

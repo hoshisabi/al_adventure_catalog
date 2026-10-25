@@ -10,5 +10,9 @@
   "288447": {
     "reason": "Book of six adventures (DDAL00-11a-f), listed as components 288447-1..6",
     "fields": {"is_adventure": false, "level_range": "1-20", "hours": "2-6"}
+  },
+  "251792": {
+    "reason": "Unseen Waterdeep (DDHC-WDH-02) is a Dragon Heist variant with campaign-length, variable runtime; parser reads hours as 0",
+    "fields": {"hours": null}
   }
 }
