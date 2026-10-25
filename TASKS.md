@@ -297,8 +297,8 @@ Tasks:
         * A one-shot or single-session adventure with no stated runtime gets `hours: "3"`.
     * **Done:** DDAL00-11a–f split out of Pipyap's Guide (`288447-1..6`, data from the Season 0 rewards CSV). Added Deadfall, Heroes of the Borderlands, Hold Back the Dead, Fated Flight of the Recluse (level 3, 3 hours), Project_Lamordia (published 2026-10-13).
     * **Open:**
-        * Hours missing on Deadfall and Heroes of the Borderlands. HotB levels (1-3) come from one secondary source. FFotR date (20251125) is approximate (DDB avatar upload date; released late Nov / early Dec 2025).
-        * Heroes of the Borderlands has three self-contained areas (Caves of Chaos, Keep, Wilderness); decide whether that counts as an anthology.
+        * Hours missing on Deadfall and Heroes of the Borderlands. HotB levels 1-3 confirmed from the book (2026-10-25). FFotR date (20251125) is approximate (DDB avatar upload date; released late Nov / early Dec 2025).
+        * Heroes of the Borderlands has three self-contained areas (Caves of Chaos, Keep, Wilderness). Per the book they are areas of one sandbox with no overarching plot, played in any order and revisited; decide whether that counts as an anthology.
         * Adventures in Faerûn: player count is 52 chapters, likely mostly short encounters. Needs the book to decide what (if anything) to list beyond `DDHC-AiF-1/2`.
 
 ---
