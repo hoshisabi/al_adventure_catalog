@@ -295,7 +295,7 @@ Tasks:
         * Project_Lamordia (`SRC-00270`) is AL-legal per official AL guidance on Discord (2026-10): it is an official D&D product, so the ALPG adventure/campaign rules apply (Ravenloft).
     * **Done:** DDAL00-11a–f split out of Pipyap's Guide (`288447-1..6`, data from the Season 0 rewards CSV). Added Deadfall, Heroes of the Borderlands, Hold Back the Dead, Fated Flight of the Recluse, Project_Lamordia.
     * **Open:**
-        * Hours missing on all new DDB rows except Hold Back the Dead; HotB levels (1-3) come from one secondary source; dates for FFotR and PrLa are approximate (DDB avatar upload dates). FFotR level 3 confirmed from the DDB page (2026-10-24); released late Nov / early Dec 2025 as the one-shot companion to Eberron: Forge of the Artificer, consistent with the stored 20251125.
+        * Hours missing on all new DDB rows except Hold Back the Dead; HotB levels (1-3) come from one secondary source; FFotR date is approximate (DDB avatar upload date); PrLa published 2026-10-13. FFotR level 3 confirmed from the DDB page (2026-10-24); released late Nov / early Dec 2025 as the one-shot companion to Eberron: Forge of the Artificer, consistent with the stored 20251125.
         * Adventures in Faerûn: player count is 52 chapters, likely mostly short encounters. Needs the book to decide what (if anything) to list beyond `DDHC-AiF-1/2`.
         * Books ttrpger suggested splitting into chapters (CoS, BGDIA, ToA, WDH, LoX, …): undecided. Current rule of thumb is to split only anthology books.
 
