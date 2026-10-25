@@ -294,11 +294,12 @@ Tasks:
         * New codes use `DDHC-<DDB source abbreviation>` (e.g. `DDHC-AUD`). Source IDs come from `https://www.dndbeyond.com/api/config/json` (`sources[]`); rows are `SRC-<id padded to 5>`. Marketplace `category/SRC-…` URLs 404 for newer IDs, so those rows use `/sources/dnd/<abbr>`.
         * Project_Lamordia (`SRC-00270`) is AL-legal per official AL guidance on Discord (2026-10): it is an official D&D product, so the ALPG adventure/campaign rules apply (Ravenloft). It contains three standalone adventures, listed as `SRC-00270-01..03`.
         * Only anthology books (independent adventures, e.g. Candlekeep Mysteries, Dragon Delves, Project_Lamordia) are split into component rows. Campaign books (Curse of Strahd, Descent into Avernus, Tomb of Annihilation, Dragon Heist, Light of Xaryxis, and the rest of ttrpger's list) stay as one row each.
-        * A one-shot or single-session adventure with no stated runtime gets `hours: "3"`.
+        * A one-shot or single-session adventure with no stated runtime gets `hours: "3"`. Campaign-length books (including Heroes of the Borderlands and Deadfall) leave `hours` null, since runtime varies too widely.
         * Heroes of the Borderlands (`SRC-00199`) stays one row (2026-10-25). Its three areas (Caves of Chaos, Keep, Wilderness) and the 11 caves (60–90 min each, levels 1+ to 3) are connected parts of one sandbox, not standalone adventures.
     * **Done:** DDAL00-11a–f split out of Pipyap's Guide (`288447-1..6`, data from the Season 0 rewards CSV). Added Deadfall, Heroes of the Borderlands, Hold Back the Dead, Fated Flight of the Recluse (level 3, 3 hours), Project_Lamordia (published 2026-10-13).
     * **Open:**
-        * Hours missing on Deadfall and Heroes of the Borderlands. HotB levels 1-3 confirmed from the book (2026-10-25). FFotR date (20251125) is approximate (DDB avatar upload date; released late Nov / early Dec 2025).        * Adventures in Faerûn: player count is 52 chapters, likely mostly short encounters. Needs the book to decide what (if anything) to list beyond `DDHC-AiF-1/2`.
+        * FFotR date (20251125) is approximate (DDB avatar upload date; released late Nov / early Dec 2025). HotB levels 1-3 confirmed from the book (2026-10-25).
+        * Adventures in Faerûn: player count is 52 chapters, likely mostly short encounters. Needs the book to decide what (if anything) to list beyond `DDHC-AiF-1/2`.
 
 ---
 
