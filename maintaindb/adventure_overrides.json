@@ -16,11 +16,11 @@
     "fields": {"hours": null}
   },
   "591984": {
-    "reason": "FR-DC-CGB-05 Orctoberfest: listing gives no tier or hours; 4-hour Tier 1 per author info",
-    "fields": {"tiers": 1, "hours": "4", "level_range": "1-4"}
+    "reason": "FR-DC-CGB-05 Orctoberfest: listing gives no tier or hours; 4-hour Tier 1 per author info. Display title drops the series and theme suffix",
+    "fields": {"title": "Orctoberfest", "tiers": 1, "hours": "4", "level_range": "1-4"}
   },
   "591987": {
-    "reason": "FR-DC-CGB-06 Guess Ooze Coming to Dinner: listing gives no tier or hours; 4-hour Tier 2 per author info",
-    "fields": {"tiers": 2, "hours": "4", "level_range": "5-10"}
+    "reason": "FR-DC-CGB-06 Guess Ooze Coming to Dinner: listing gives no tier or hours; 4-hour Tier 2 per author info. Display title drops the series and theme suffix",
+    "fields": {"title": "Guess Ooze Coming to Dinner", "tiers": 2, "hours": "4", "level_range": "5-10"}
   }
 }
