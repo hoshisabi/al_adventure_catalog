@@ -1,6 +1,6 @@
 {
     "tier": {
-        "Tier 1": 943,
+        "Tier 1": 944,
         "Tier 2": 942,
         "Tier 3": 388,
         "Tier 4": 106,
@@ -10,13 +10,13 @@
         "1 Hours": 29,
         "2 Hours": 656,
         "All Others": 237,
-        "4 Hours": 1610,
+        "4 Hours": 1611,
         "8 Hours": 14,
         "6 Hours": 57,
         "Unknown": 169
     },
     "campaign": {
-        "Forgotten Realms": 2228,
+        "Forgotten Realms": 2229,
         "Ravenloft": 111,
         "Unknown": 12,
         "Dragonlance": 74,
@@ -39,7 +39,7 @@
         "13 - Planescape": 123
     },
     "season_excluded": {
-        "No season": 1234,
+        "No season": 1235,
         "Embers of War": 12,
         "Oracle of War": 25,
         "Eberron Salvage Mission": 28,
@@ -51,7 +51,7 @@
     "ai_assisted": {
         "Human-created (disclosed)": 1492,
         "Not disclosed": 790,
-        "AI assisted": 108
+        "AI assisted": 109
     },
     "seed_by_season": {
         "10 - Icewind Dale (Plague of Ancients)": {
@@ -104,6 +104,6 @@
             "Headed My Way?": 2
         }
     },
-    "total": 2390,
-    "timestamp": "20261126032317"
+    "total": 2391,
+    "timestamp": "20261126032604"
 }

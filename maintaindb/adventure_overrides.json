@@ -22,5 +22,9 @@
   "591987": {
     "reason": "FR-DC-CGB-06 Guess Ooze Coming to Dinner: listing gives no tier or hours; 4-hour Tier 2 per author info. Display title drops the series and theme suffix",
     "fields": {"title": "Guess Ooze Coming to Dinner", "tiers": 2, "hours": "4", "level_range": "5-10"}
+  },
+  "600347": {
+    "reason": "FR-DC-F&ADDM-CRC4 Mine Over Matter: listing gives no hours; 4-hour Tier 1 per the product preview",
+    "fields": {"tiers": 1, "hours": "4"}
   }
 }
