@@ -26,5 +26,9 @@
   "600347": {
     "reason": "FR-DC-F&ADDM-CRC4 Mine Over Matter: listing gives no hours; 4-hour Tier 1 per the product preview",
     "fields": {"tiers": 1, "hours": "4"}
+  },
+  "578819": {
+    "reason": "FR-DC-F&ADDM-CRC1 An Old Road To Deadsnows: listing gives no hours; 4-hour Tier 1 per the product preview",
+    "fields": {"tiers": 1, "hours": "4"}
   }
 }
